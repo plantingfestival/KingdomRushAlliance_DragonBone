@@ -1,7 +1,15 @@
-﻿-- chunkname: @./kr5/game_settings.lua
-
 local GS = {}
 
+-- customization
+GS.extra_levels = {
+	[115] = {},
+	[122] = {},
+	[123] = {},
+	[124] = {},
+	[125] = {},
+	[126] = {},
+}
+-- customization
 GS.gameplay_tips_count = 2
 GS.early_wave_reward_per_second = 1
 GS.early_wave_reward_per_second_default = 1
@@ -11,13 +19,13 @@ GS.difficulty_enemy_hp_max_factor = {
 	0.7,
 	0.8,
 	1,
-	1.1
+	1.2
 }
 GS.difficulty_enemy_speed_factor = {
+	0.8,
 	1,
 	1,
-	1,
-	1.1
+	1.2
 }
 GS.main_campaign_levels = 16
 GS.expansions_unlock_level = {
@@ -165,10 +173,10 @@ GS.hero_level_expected_multipliers_above = {
 	0.25
 }
 GS.hero_xp_gain_per_difficulty_mode = {
-	[DIFFICULTY_EASY] = 1.9,
-	[DIFFICULTY_NORMAL] = 1,
-	[DIFFICULTY_HARD] = 0.9,
-	[DIFFICULTY_IMPOSSIBLE] = 0.9
+	[DIFFICULTY_EASY] = 3,
+	[DIFFICULTY_NORMAL] = 2,
+	[DIFFICULTY_HARD] = 1.5,
+	[DIFFICULTY_IMPOSSIBLE] = 1
 }
 GS.skill_points_for_hero_level = {
 	0,

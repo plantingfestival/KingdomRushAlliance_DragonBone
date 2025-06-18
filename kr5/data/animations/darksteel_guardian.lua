@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_guardian.lua
-
 local a = {
 	darksteel_guardian_stage_rock_idle = {
 		prefix = "darksteel_guardian_stage_rock",
@@ -23,7 +21,7 @@ local a = {
 	},
 	darksteel_guardian_attack_1_hit_idle = {
 		prefix = "darksteel_guardian_attack_1_hit",
-		to = 9,
+		to = 8,
 		from = 1
 	},
 	darksteel_guardian_dwatf_particle_idle = {
@@ -102,5 +100,4 @@ local a = {
 		from = 391
 	}
 }
-
 return a

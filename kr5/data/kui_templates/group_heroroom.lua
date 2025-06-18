@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_heroroom.lua
-
 return {
 	class = "KView",
 	children = {
@@ -7,15 +5,15 @@ return {
 			class = "KView",
 			id = "group_room_bg_desktop",
 			transition = "down",
-			pos = v(3, 236.05),
+			pos = v(3, 263.05),
 			UNLESS = ctx.is_mobile,
 			children = {
 				{
 					class = "GG59View",
 					image_name = "room_bg_desktop_9slice_bg_color_desktop_",
 					id = "bg_color",
-					pos = v(-4.1, 25.15),
-					size = v(1473.6195, 1020.3274),
+					pos = v(-156.1, -39.85),
+					size = v(1777.6195, 1085.3274),
 					anchor = v(736.1127, 510.1637),
 					slice_rect = r(21.3, 20.45, 10, 10.05)
 				},
@@ -79,8 +77,8 @@ return {
 					class = "GG59View",
 					image_name = "room_bg_desktop_9slice_bg_frame_desktop_",
 					id = "bg_frame",
-					pos = v(-13.75, -34.45),
-					size = v(1560.5484, 1103.9091),
+					pos = v(-165.75, -99.45),
+					size = v(1864.5484, 1168.9091),
 					anchor = v(765.8341, 479.1643),
 					slice_rect = r(100.4, 75.25, 22.3, 15.4)
 				},
@@ -89,7 +87,7 @@ return {
 					class = "KImageView",
 					image_name = "room_bg_desktop_image_bg_frame_topcorner_desktop_",
 					hidden = true,
-					pos = v(697.65, -473.55),
+					pos = v(849.65, -538.55),
 					anchor = v(9.9, 29.15)
 				},
 				{
@@ -97,14 +95,14 @@ return {
 					focus_image_name = "room_bg_desktop_button_bg_close_desktop_0003",
 					id = "button_close_popup",
 					default_image_name = "room_bg_desktop_button_bg_close_desktop_0001",
-					pos = v(720.7, -479.3),
+					pos = v(872.7, -544.3),
 					scale = v(1, 1),
 					anchor = v(42.7, 49.45)
 				},
 				{
 					id = "group_rivets_left",
 					class = "KView",
-					pos = v(-748.75, 276.8),
+					pos = v(-900.75, 276.8),
 					children = {
 						{
 							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
@@ -125,7 +123,7 @@ return {
 				{
 					id = "group_rivets_right",
 					class = "KView",
-					pos = v(728.15, 276.8),
+					pos = v(880.15, 276.8),
 					children = {
 						{
 							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
@@ -232,7 +230,7 @@ return {
 					class = "GG59View",
 					image_name = "room_bg_desktop_9slice_bg_title_desktop_",
 					id = "title_bg",
-					pos = v(-6.6, -540),
+					pos = v(-6.6, -595),
 					size = v(556.9127, 73.5989),
 					anchor = v(273.4073, 32.5995),
 					slice_rect = r(99.95, 3.05, 16.8, 24.75)
@@ -248,7 +246,7 @@ return {
 					class = "GG5ShaderLabel",
 					id = "title_text",
 					font_name = "fla_h",
-					pos = v(-230.6, -565.05),
+					pos = v(-230.6, -620.05),
 					scale = v(1, 1),
 					size = v(460, 68.15),
 					colors = {
@@ -304,7 +302,7 @@ return {
 			transition_delay = 0.15,
 			id = "group_hero_stats",
 			transition = "scale",
-			pos = v(-489.75, 408.85),
+			pos = v(-489.75, 435.85),
 			children = {
 				{
 					image_name = "hero_room_9slice_stats_bg_",
@@ -441,7 +439,7 @@ return {
 			transition_delay = 0.1,
 			id = "group_hero_info_panel",
 			transition = "down",
-			pos = v(34.65, 171.45),
+			pos = v(34.65, 198.45),
 			children = {
 				{
 					image_name = "hero_room_9slice_info_bg_",
@@ -539,7 +537,7 @@ return {
 			transition_delay = 0.2,
 			id = "group_hero_room_skills",
 			transition = "up",
-			pos = v(313.1, 557.2),
+			pos = v(313.1, 584.2),
 			children = {
 				{
 					class = "HeroSkillItemView",
@@ -571,7 +569,7 @@ return {
 		{
 			id = "hero_room_skill_tooltip",
 			class = "KView",
-			pos = v(344, 397.75),
+			pos = v(344, 424.75),
 			children = {
 				{
 					class = "KImageView",
@@ -670,7 +668,7 @@ return {
 			id = "hero_room_reset_button",
 			template_name = "button_hero_room_small",
 			transition = "up",
-			pos = v(298.05, 677.35),
+			pos = v(298.05, 704.35),
 			scale = v(1, 1)
 		},
 		{
@@ -679,7 +677,7 @@ return {
 			id = "hero_room_done_button",
 			template_name = "button_hero_room_small",
 			transition = "up",
-			pos = v(533.25, 677.35),
+			pos = v(533.25, 704.35),
 			scale = v(1, 1)
 		},
 		{
@@ -687,12 +685,12 @@ return {
 			template_name = "group_hero_portrait_big",
 			id = "group_hero_portrait_big",
 			transition = "up",
-			pos = v(-328.95, 149.55)
+			pos = v(-328.95, 176.55)
 		},
 		{
 			id = "hero_room_roster_sel_overlay",
 			class = "KView",
-			pos = v(-861.1, -17.8),
+			pos = v(-861.1, 9.2),
 			anchor = v(0, 0),
 			size = v(1728, 768)
 		},
@@ -700,7 +698,7 @@ return {
 			class = "KView",
 			id = "group_hero_roster_sel",
 			transition = "down",
-			pos = v(-632.15, -0.2),
+			pos = v(-632.15, 26.8),
 			WHEN = ctx.is_mobile,
 			children = {
 				{
@@ -749,7 +747,7 @@ return {
 			class = "KView",
 			id = "group_hero_roster",
 			transition = "down",
-			pos = v(-330.5, 10.35),
+			pos = v(-330.5, 37.35),
 			WHEN = ctx.is_mobile,
 			children = {
 				{
@@ -787,9 +785,8 @@ return {
 			class = "KView",
 			id = "group_hero_roster_sel",
 			transition = "down",
-			pos = v(-606.5, -71.9),
+			pos = v(-739, -35),
 			UNLESS = ctx.is_mobile,
-			scale = v(0.829, 0.829),
 			children = {
 				{
 					class = "KView",
@@ -918,16 +915,15 @@ return {
 			class = "KView",
 			id = "group_hero_roster",
 			transition = "down",
-			pos = v(-669.8, -180.75),
+			pos = v(-815.35, -166.2),
 			UNLESS = ctx.is_mobile,
-			scale = v(0.829, 0.829),
 			children = {
 				{
 					image_name = "hero_room_9slice_roster_bg_desktop_",
 					class = "GG59View",
-					pos = v(923.15, 171.2),
-					size = v(1385.1338, 327.4052),
-					anchor = v(693.3495, 163.8876),
+					pos = v(772.65, 55.2),
+					size = v(1386.8995, 459.4052),
+					anchor = v(542.0616, 163.8876),
 					slice_rect = r(17.1, 17.2, 9.9, 10)
 				},
 				{
@@ -937,75 +933,89 @@ return {
 						{
 							image_name = "hero_room_9slice_shadow_roster_",
 							class = "GG59View",
-							pos = v(924.5, 173.95),
-							size = v(1434.3919, 352.1764),
-							anchor = v(717.196, 175.9966),
+							pos = v(774.2, 57.95),
+							size = v(1436.8023, 484.1764),
+							anchor = v(566.4012, 175.9966),
 							slice_rect = r(50.6, 29.95, 23, 42.45)
 						},
 						{
 							image_name = "hero_room_image_rosterframe2_l_",
 							class = "KImageView",
 							r = 1.5707,
-							pos = v(228.2, 170.25),
+							pos = v(228.2, 54.25),
+							anchor = v(150.1, 8.05)
+						},
+						{
+							image_name = "hero_room_image_rosterframe2_l_",
+							class = "KImageView",
+							r = 1.5707,
+							pos = v(228.2, 186.25),
 							anchor = v(150.1, 8.05)
 						},
 						{
 							image_name = "hero_room_image_rosterframe2_r_",
 							class = "KImageView",
 							r = 1.5707,
-							pos = v(1609.55, 169.85),
+							pos = v(1612.2, 53.85),
+							anchor = v(146.9, -1.45)
+						},
+						{
+							image_name = "hero_room_image_rosterframe2_r_",
+							class = "KImageView",
+							r = 1.5707,
+							pos = v(1612.2, 185.85),
 							anchor = v(146.9, -1.45)
 						},
 						{
 							image_name = "hero_room_image_rosterframe_t_",
 							class = "GG59View",
-							pos = v(944.9, 5.45),
-							size = v(1349.6438, 13.8),
-							anchor = v(694.3113, 6.9),
+							pos = v(790.5, -111.45),
+							size = v(1347.109, 13.8),
+							anchor = v(536.6174, 6.9),
 							slice_rect = r(12.25, 4.15, 3.55, 5.55)
 						},
 						{
 							image_name = "hero_room_image_rosterframe_b_",
 							class = "GG59View",
-							pos = v(925.65, 336.95),
-							size = v(1352.1512, 13.1),
-							anchor = v(676.0756, 6.55),
+							pos = v(768.35, 352.95),
+							size = v(1361.8998, 13.1),
+							anchor = v(528.9499, 6.55),
 							slice_rect = r(4.95, 3.25, 9.9, 6.6)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_roster_corner_01_",
-							pos = v(238.25, 14.95),
+							pos = v(238.25, -102.95),
 							anchor = v(17.1, 17.05)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_roster_corner_02_",
-							pos = v(1607.65, 14.85),
+							pos = v(1610.3, -102.85),
 							anchor = v(18.15, 17)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_roster_corner_03_",
-							pos = v(1607.95, 327.7),
+							pos = v(1610.6, 343.7),
 							anchor = v(17.85, 17)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_roster_corner_04_",
-							pos = v(238.05, 327.1),
+							pos = v(238.05, 343.1),
 							anchor = v(17.85, 17)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_rivet_roster_",
-							pos = v(1617.7, 262.85),
+							pos = v(1620.35, 262.85),
 							anchor = v(6.05, 6.3)
 						},
 						{
 							class = "KImageView",
 							image_name = "hero_room_image_rivet_roster_",
-							pos = v(1617.7, 81.5),
+							pos = v(1620.35, 81.5),
 							anchor = v(6.05, 6.3)
 						},
 						{
@@ -1025,132 +1035,160 @@ return {
 				{
 					id = "hero_room_heroes",
 					class = "KView",
-					pos = v(771.6, 171.1),
+					pos = v(771.6, 55.1),
 					children = {
 						{
 							id = "button_hero_roster_01",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(-455.65, -77.65),
+							pos = v(-455.65, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_02",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(-303.75, -77.6),
+							pos = v(-303.75, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_03",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(-151.95, -77.6),
+							pos = v(-151.95, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_04",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(-0.05, -77.6),
+							pos = v(-0.05, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_05",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(151.75, -77.6),
+							pos = v(151.75, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_06",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(303.65, -77.6),
+							pos = v(303.65, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_07",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(455.65, -77.6),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_10",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(-455.65, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_11",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(-303.75, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_12",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(-151.95, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_13",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(-0.05, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_14",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(151.75, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_15",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(303.65, 77.65),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_16",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(455.65, 77.65),
+							pos = v(455.65, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_08",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(606.35, -77.6),
-							anchor = v(68, 66.9)
-						},
-						{
-							id = "button_hero_roster_17",
-							image_name = "hero_room_image_roster_thumb_empty_",
-							class = "KImageView",
-							pos = v(606.35, 77.65),
+							pos = v(607.65, -80.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_09",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(757.75, -77.6),
+							pos = v(759.65, -80.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_10",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-455.65, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_11",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-303.75, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_12",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-151.95, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_13",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-0.05, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_14",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(151.75, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_15",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(303.65, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_16",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(455.65, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_17",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(607.65, 65.65),
 							anchor = v(68, 66.9)
 						},
 						{
 							id = "button_hero_roster_18",
 							image_name = "hero_room_image_roster_thumb_empty_",
 							class = "KImageView",
-							pos = v(757.75, 77.65),
+							pos = v(759.65, 65.65),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_19",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-455.65, 211.95),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_20",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-303.75, 211.95),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_21",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-151.95, 211.95),
+							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_22",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(-0.05, 211.95),
 							anchor = v(68, 66.9)
 						}
 					}

@@ -1,6 +1,106 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_dragon_arb.lua
-
 return {
+	-- customization
+	deathwood_fx_0001 = {
+		a_name = "go_enemies_terrain_4-1.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			49,
+			47,
+			47,
+			53
+		},
+		a_size = {
+			4096,
+			3300
+		},
+		f_quad = {
+			3231,
+			3216,
+			60,
+			60
+		},
+		alias = {
+			"deathwood_fx_0002"
+		}
+	},
+	deathwood_fx_0003 = {
+		a_name = "go_enemies_terrain_4-1.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			42,
+			45,
+			39,
+			40
+		},
+		a_size = {
+			4096,
+			3300
+		},
+		f_quad = {
+			3319,
+			2088,
+			75,
+			75
+		},
+		alias = {
+			"deathwood_fx_0004"
+		}
+	},
+	deathwood_fx_0005 = {
+		a_name = "go_enemies_terrain_4-1.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			28,
+			31,
+			27,
+			30
+		},
+		a_size = {
+			4096,
+			3300
+		},
+		f_quad = {
+			3768,
+			879,
+			101,
+			99
+		},
+		alias = {}
+	},
+	deathwood_fx_0006 = {
+		a_name = "go_enemies_terrain_4-1.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			20,
+			21,
+			20,
+			48
+		},
+		a_size = {
+			4096,
+			3300
+		},
+		f_quad = {
+			1506,
+			1567,
+			116,
+			91
+		},
+		alias = {}
+	},
+	-- customization
 	hero_dragon_arborean_arborean_0001 = {
 		a_name = "go_hero_dragon_arb_arborean-1.dds",
 		size = {

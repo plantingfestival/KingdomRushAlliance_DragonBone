@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/game.lua
-
 local log = require("klua.log"):new("game")
 local km = require("klua.macros")
 local signal = require("hump.signal")
@@ -261,7 +259,6 @@ end
 
 function game:destroy()
 	self.game_gui:destroy()
-
 	self.game_gui = nil
 
 	RU.destroy()

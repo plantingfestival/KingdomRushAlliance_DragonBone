@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/components.lua
-
 local bit = require("bit")
 local bor = bit.bor
 local band = bit.band
@@ -50,6 +48,8 @@ health.armor = 0
 health.magic_armor = 0
 health.poison_armor = 0
 health.spiked_armor = 0
+health.spiked_armor_damage = 0
+health.spiked_armor_damage_type = DAMAGE_PHYSICAL
 health.damage_factor = 1
 health.damage_factor_magical = nil
 health.immune_to = 0
@@ -303,6 +303,7 @@ particle_system.alphas = {
 	255
 }
 particle_system.anchor = v(0.5, 0.5)
+particle_system.exo = false
 particle_system.animated = false
 particle_system.animation_fps = nil
 particle_system.cycle_names = nil
@@ -637,6 +638,7 @@ melee_attack.pop_chance = 0.1
 melee_attack.ts = 0
 melee_attack.reduce_armor = 0
 melee_attack.reduce_magic_armor = 0
+melee_attack.can_be_silenced = nil
 
 local spell_attack = E:register_c("spell_attack")
 
@@ -652,6 +654,7 @@ spell_attack.vis_flags = 0
 spell_attack.vis_bans = 0
 spell_attack.sound = nil
 spell_attack.ts = 0
+spell_attack.can_be_silenced = nil
 
 local bullet_attack = E:register_c("bullet_attack")
 
@@ -686,6 +689,7 @@ bullet_attack.vis_flags = F_RANGED
 bullet_attack.count = 0
 bullet_attack.ts = 0
 bullet_attack.target_pos = nil
+bullet_attack.can_be_silenced = nil
 
 local area_attack = E:register_c("area_attack")
 
@@ -724,6 +728,7 @@ area_attack.damage_flags = F_AREA
 area_attack.ts = 0
 area_attack.reduce_armor = 0
 area_attack.reduce_magic_armor = 0
+area_attack.can_be_silenced = nil
 
 local aura_attack = E:register_c("aura_attack")
 
@@ -732,6 +737,7 @@ aura_attack.bullet = nil
 aura_attack.cooldown = nil
 aura_attack.interrupt_to_cast = nil
 aura_attack.ts = 0
+aura_attack.can_be_silenced = nil
 
 local mod_attack = E:register_c("mod_attack")
 
@@ -742,6 +748,7 @@ mod_attack.chance = 1
 mod_attack.vis_flags = 0
 mod_attack.vis_bans = 0
 mod_attack.ts = 0
+mod_attack.can_be_silenced = nil
 
 local spawn_attack = E:register_c("spawn_attack")
 
@@ -755,6 +762,7 @@ spawn_attack.ts = 0
 spawn_attack.vis_bans = 0
 spawn_attack.vis_flags = 0
 spawn_attack.disabled = nil
+spawn_attack.can_be_silenced = nil
 
 local custom_attack = E:register_c("custom_attack")
 
@@ -764,6 +772,7 @@ custom_attack.chance = 1
 custom_attack.ts = 0
 custom_attack.vis_flags = 0
 custom_attack.vis_bans = 0
+custom_attack.can_be_silenced = nil
 
 local melee = E:register_c("melee")
 
@@ -1165,6 +1174,24 @@ teleport.animations = {
 }
 teleport.delay = 0
 
+local launch_movement = E:register_c("launch_movement")
+launch_movement.min_distance = 0
+launch_movement.disabled = nil
+launch_movement.launch_sound = nil
+launch_movement.launch_args = nil
+launch_movement.launch_decal = nil
+launch_movement.land_sound = nil
+launch_movement.land_args = nil
+launch_movement.animations = {
+	"launch",
+	"travel",
+	"land"
+}
+launch_movement.loop_on_the_way = nil
+launch_movement.particles_name = nil
+launch_movement.flight_time = fts(32)
+launch_movement.g = -1 / (fts(1) * fts(1))
+
 local polymorph = E:register_c("polymorph")
 
 polymorph.custom_entity_names = {}
@@ -1257,7 +1284,7 @@ transfer.animations = {
 	"transfer_loop",
 	"transfer_end"
 }
-transfer.extra_speed = 3 * FPS
+transfer.speed_factor = 3
 
 local editor = E:register_c("editor")
 

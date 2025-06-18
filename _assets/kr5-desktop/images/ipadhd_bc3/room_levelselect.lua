@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_levelselect.lua
-
 return {
 	level_select_9slice_hero_room_skill_tooltip_bg_ = {
 		a_name = "room_levelselect-1.dds",
@@ -2730,5 +2728,156 @@ return {
 			115
 		},
 		alias = {}
-	}
+	},
+	-- customization
+	level_select_thumbs_thumb_stage_122_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-122.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_115_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-115.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_123_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-123.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_124_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-124.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_125_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-125.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_126_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-126.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
 }

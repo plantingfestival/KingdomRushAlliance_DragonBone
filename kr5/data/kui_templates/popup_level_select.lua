@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_level_select.lua
-
 return {
 	class = "GG5PopUpLevelSelect",
 	children = {
@@ -926,6 +924,12 @@ return {
 					default_image_name = "level_select_button_auto_upgrades_0001",
 					pos = v(349.15, 290.35),
 					anchor = v(168.65, 42.15)
+				},
+				{
+					class = "GG5Button",
+					template_name = "button_extra_enemies",
+					id = "button_extra_enemies",
+					pos = v(320, 260),
 				},
 				{
 					class = "KImageView",

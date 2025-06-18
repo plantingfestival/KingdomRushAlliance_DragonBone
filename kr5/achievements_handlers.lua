@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/achievements_handlers.lua
-
 local log = require("klua.log"):new("achievements_handlers")
 local signal = require("hump.signal")
 local bit = require("bit")
@@ -134,11 +132,11 @@ function ah:h_boss_killed(entity)
 end
 
 function ah:h_count_group_changed(entity, group_count, increment)
-	if entity.count_group.name == "mod_arrow_silver_mark" and increment > 0 then
-		self.A:high_check("VALAR_MORGHULIS", group_count)
-	elseif entity.count_group.name == "soldier_druid_bear" and increment > 0 then
-		self.A:high_check("BEORNINGS", group_count)
-	end
+	-- if entity.count_group.name == "mod_arrow_silver_mark" and increment > 0 then
+	-- 	self.A:high_check("VALAR_MORGHULIS", group_count)
+	-- elseif entity.count_group.name == "soldier_druid_bear" and increment > 0 then
+	-- 	self.A:high_check("BEORNINGS", group_count)
+	-- end
 end
 
 function ah:h_early_wave_called(group, reward, remaining_time)
@@ -146,13 +144,13 @@ function ah:h_early_wave_called(group, reward, remaining_time)
 end
 
 function ah:h_entity_damaged(entity, damage)
-	if damage and damage.source_id then
-		local s = game.store.entities[damage.source_id]
+	-- if damage and damage.source_id then
+	-- 	local s = game.store.entities[damage.source_id]
 
-		if s and s.template_name == "ray_druid_sylvan" then
-			self.A:inc_check("NOPAINGAIN", damage.value)
-		end
-	end
+	-- 	if s and s.template_name == "ray_druid_sylvan" then
+	-- 		self.A:inc_check("NOPAINGAIN", damage.value)
+	-- 	end
+	-- end
 end
 
 function ah:h_entity_killed(entity, damage)
@@ -218,9 +216,9 @@ function ah:h_entity_killed(entity, damage)
 					self.A:inc_check("GATHERING_MAGIC")
 				end
 
-				if s.template_name == "mod_plant_poison_pumpkin" then
-					self.A:inc_check("KILLER_TOMATOES")
-				end
+				-- if s.template_name == "mod_plant_poison_pumpkin" then
+					-- self.A:inc_check("KILLER_TOMATOES")
+				-- end
 
 				if s.template_name == "mod_razorboar_rampage_enemy" then
 					self.A:inc_check("CALL_ME_PIG")
@@ -246,13 +244,13 @@ function ah:h_entity_killed(entity, damage)
 					self.A:inc_check("KILL_BOLJARK")
 				end
 
-				if string.starts(s.template_name, "arrow_soldier_re_") then
-					self.A:inc_check("GREEN_ARROW")
-				end
+				-- if string.starts(s.template_name, "arrow_soldier_re_") then
+				-- 	self.A:inc_check("GREEN_ARROW")
+				-- end
 
-				if string.starts(s.template_name, "arrow_silver_sentence") then
-					self.A:inc_check("KILLTACULAR")
-				end
+				-- if string.starts(s.template_name, "arrow_silver_sentence") then
+				-- 	self.A:inc_check("KILLTACULAR")
+				-- end
 
 				if U.flag_has(entity.vis.flags, F_FLYING) and (s.template_name == "arrow_arcane_burst" or s.template_name == "aura_arcane_burst") then
 					self.A:inc_check("ARCANE_BURST")
@@ -312,12 +310,12 @@ function ah:h_game_victory(store)
 				ach = "CONQUEROR_OF_THE_VOID",
 				to = 16,
 				from = 12
-			},
-			{
-				ach = "STARFIELD",
-				to = 15,
-				from = 1
 			}
+			-- {
+			-- 	ach = "STARFIELD",
+			-- 	to = 15,
+			-- 	from = 1
+			-- }
 		}
 
 		for _, area in pairs(areas) do
@@ -378,8 +376,10 @@ function ah:h_game_victory(store)
 	for _, tower in ipairs(towers) do
 		local tower_template = E:get_template("tower_" .. tower .. "_lvl1")
 
-		all_dark = all_dark and tower_template.tower.team == TEAM_DARK_ARMY
-		all_linirea = all_linirea and tower_template.tower.team == TEAM_LINIREA
+		if tower_template then
+			all_dark = all_dark and tower_template.tower.team == TEAM_DARK_ARMY
+			all_linirea = all_linirea and tower_template.tower.team == TEAM_LINIREA
+		end
 	end
 
 	for _, hero in ipairs(heroes) do
@@ -475,29 +475,29 @@ function ah:h_hero_level_increased(entity)
 end
 
 function ah:h_mod_applied(mod, target)
-	if not self.A:have("DARK_CRYSTAL") and string.starts(mod.template_name, "mod_faerie_dragon_l") then
-		target._mod_faerie_dragon_total = (target._mod_faerie_dragon_total or 0) + mod.modifier.duration
+	-- if not self.A:have("DARK_CRYSTAL") and string.starts(mod.template_name, "mod_faerie_dragon_l") then
+	-- 	target._mod_faerie_dragon_total = (target._mod_faerie_dragon_total or 0) + mod.modifier.duration
 
-		self.A:high_check("DARK_CRYSTAL", target._mod_faerie_dragon_total)
-	end
+	-- 	self.A:high_check("DARK_CRYSTAL", target._mod_faerie_dragon_total)
+	-- end
 
 	if mod.template_name == "mod_crystal_arcane_freeze" then
 		self.A:inc_check("FROZEN")
 	end
 
-	if mod.template_name == "mod_forest_circle" then
-		target._mod_forest_circle_count = (target._mod_forest_circle_count or 0) + 1
+	-- if mod.template_name == "mod_forest_circle" then
+	-- 	target._mod_forest_circle_count = (target._mod_forest_circle_count or 0) + 1
 
-		self.A:high_check("KINGSFOIL", target._mod_forest_circle_count)
-	end
+	-- 	self.A:high_check("KINGSFOIL", target._mod_forest_circle_count)
+	-- end
 
-	if mod.template_name == "mod_timelapse" then
-		self.A:inc_check("PHANTOMZONED", mod.modifier.duration)
-	end
+	-- if mod.template_name == "mod_timelapse" then
+	-- 	self.A:inc_check("PHANTOMZONED", mod.modifier.duration)
+	-- end
 
-	if mod.template_name == "mod_eldritch" then
-		self.A:inc_check("ELDRITCH_DOOM")
-	end
+	-- if mod.template_name == "mod_eldritch" then
+	-- 	self.A:inc_check("ELDRITCH_DOOM")
+	-- end
 
 	if mod.template_name == "mod_paralyzing_tree" then
 		self.A:inc_check("NIMLOTH")

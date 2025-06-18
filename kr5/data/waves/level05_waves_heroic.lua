@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/waves/level05_waves_heroic.lua
-
 return {
 	cash = 1400,
 	groups = {
@@ -7,86 +5,210 @@ return {
 			interval = 800,
 			waves = {
 				{
-					delay = 0,
-					path_index = 2,
+					delay = 180,
+					path_index = 4,
 					spawns = {
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_vanguard",
+							path = 2,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
 							path = 2,
 							interval_next = 150,
-							max = 6
+							max = 2
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_dreadeye_viper",
 							path = 2,
-							interval_next = 300,
-							max = 6
+							interval_next = 0,
+							max = 2
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
 							path = 2,
-							interval_next = 150,
-							max = 6
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 210,
-							max = 6
+							interval_next = 0,
+							max = 3
 						}
 					}
 				},
 				{
-					delay = 90,
+					delay = 270,
+					path_index = 4,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_vanguard",
+							path = 3,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
 					path_index = 3,
 					spawns = {
 						{
-							interval = 40,
-							max_same = 0,
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
+							creep = "enemy_bear_vanguard",
+							path = 3,
 							interval_next = 360,
-							max = 6
+							max = 2
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 120,
+							max = 3
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_cutthroat_rat",
-							path = 2,
-							interval_next = 270,
-							max = 5
+							path = 3,
+							interval_next = 45,
+							max = 2
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 240,
-							max = 6
-						},
-						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 270,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
 							path = 2,
-							interval_next = 210,
-							max = 5
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 60,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 4
 						}
 					}
 				}
@@ -103,10 +225,10 @@ return {
 							interval = 40,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 8
+							max = 12
 						},
 						{
 							interval = 0,
@@ -130,10 +252,10 @@ return {
 							interval = 40,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 8
+							max = 14
 						},
 						{
 							interval = 0,
@@ -157,10 +279,10 @@ return {
 							interval = 40,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 8
+							max = 16
 						},
 						{
 							interval = 0,
@@ -223,121 +345,261 @@ return {
 				{
 					delay = 0,
 					path_index = 3,
+					some_flying = true,
 					spawns = {
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 90,
 							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 120,
-							max = 6
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 180,
+							max = 2
 						},
 						{
 							interval = 30,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 300,
+							path = 3,
+							interval_next = 60,
 							max = 3
 						},
 						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 120,
-							max = 6
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 90,
+							max = 1
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 300,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
 							max = 3
 						},
 						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 120,
-							max = 6
-						},
-						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 300,
-							max = 3
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 30,
+							max = 2
 						}
 					}
 				},
 				{
-					delay = 300,
+					delay = 480,
 					path_index = 4,
 					some_flying = true,
 					spawns = {
 						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 5
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 180,
+							max = 1
 						},
 						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
 							path = 2,
-							interval_next = 240,
-							max = 5
+							interval_next = 0,
+							max = 1
 						},
 						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 5
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 180,
+							max = 1
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 5
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 2
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 5
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 180,
+							max = 2
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 40,
+							max = 4
+						},
+						{
+							interval = 40,
 							fixed_sub_path = 0,
 							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 40,
+							max = 4
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						}
+					}
+				},
+				{
+					delay = 540,
+					path_index = 1,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_vanguard",
 							path = 2,
-							interval_next = 240,
-							max = 5
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_vanguard",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 4
 						}
 					}
 				}
@@ -352,93 +614,83 @@ return {
 					spawns = {
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
+							creep = "enemy_tusked_brawler",
+							path = 3,
 							interval_next = 40,
-							max = 4
+							max = 8
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_dreadeye_viper",
-							path = 1,
+							path = 3,
 							interval_next = 150,
-							max = 3
+							max = 6
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
+							creep = "enemy_tusked_brawler",
+							path = 3,
 							interval_next = 40,
-							max = 4
+							max = 8
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_dreadeye_viper",
-							path = 1,
+							path = 3,
 							interval_next = 150,
-							max = 3
+							max = 6
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
+							creep = "enemy_tusked_brawler",
+							path = 3,
 							interval_next = 40,
-							max = 4
+							max = 8
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_dreadeye_viper",
-							path = 1,
+							path = 3,
 							interval_next = 150,
-							max = 3
+							max = 6
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
+							creep = "enemy_tusked_brawler",
+							path = 3,
 							interval_next = 40,
-							max = 4
+							max = 8
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_dreadeye_viper",
-							path = 1,
+							path = 3,
 							interval_next = 150,
-							max = 3
+							max = 6
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
+							creep = "enemy_tusked_brawler",
+							path = 3,
 							interval_next = 40,
-							max = 4
+							max = 8
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_dreadeye_viper",
-							path = 1,
+							path = 3,
 							interval_next = 270,
-							max = 3
+							max = 6
 						}
 					}
 				},
@@ -453,187 +705,187 @@ return {
 							creep = "enemy_rhino",
 							path = 1,
 							interval_next = 270,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 120,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 120,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 120,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 3,
 							interval_next = 30,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_hog_invader",
+							creep = "enemy_tusked_brawler",
 							path = 2,
 							interval_next = 30,
-							max = 1
+							max = 2
 						}
 					}
 				},
@@ -644,57 +896,60 @@ return {
 					spawns = {
 						{
 							interval = 30,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_surveyor_harpy",
-							path = 2,
+							path = 3,
 							interval_next = 240,
-							max = 6
+							max = 12
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 240,
+							max = 12
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 240,
+							max = 14
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 240,
+							max = 14
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 240,
+							max = 16
 						},
 						{
 							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 6
+							path = 3,
+							interval_next = 0,
+							max = 16
 						},
 						{
 							interval = 30,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 7
-						},
-						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 7
-						},
-						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 7
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_surveyor_harpy",
-							path = 2,
-							interval_next = 240,
-							max = 7
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 18
 						}
 					}
 				}
@@ -706,257 +961,511 @@ return {
 				{
 					delay = 240,
 					path_index = 1,
+					some_flying = true,
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 180,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 1,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 3
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 60,
+							max = 5
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 120,
+							max = 3
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
 							path = 1,
 							interval_next = 120,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 3,
-							interval_next = 330,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_turtle_shaman",
-							path = 1,
-							interval_next = 120,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 3,
-							interval_next = 450,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_turtle_shaman",
-							path = 1,
-							interval_next = 120,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 3,
-							interval_next = 330,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_turtle_shaman",
+							creep = "enemy_rhino",
 							path = 1,
 							interval_next = 90,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							fixed_sub_path = 0,
 							creep = "enemy_turtle_shaman",
-							path = 1,
-							interval_next = 120,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_skunk_bombardier",
-							path = 2,
+							path = 3,
 							interval_next = 60,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
 							creep = "enemy_skunk_bombardier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 40,
+							max = 2
 						}
 					}
 				},
 				{
-					delay = 0,
+					delay = 630,
 					path_index = 2,
+					some_flying = true,
 					spawns = {
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							creep = "enemy_hyena5",
 							path = 3,
-							interval_next = 120,
-							max = 6
+							interval_next = 45,
+							max = 4
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_hyena5",
 							path = 2,
-							interval_next = 0,
-							max = 1
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 3,
-							interval_next = 240,
-							max = 6
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_surveyor_harpy",
 							path = 2,
-							interval_next = 0,
-							max = 1
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 3,
-							interval_next = 120,
-							max = 6
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_cutthroat_rat",
 							path = 2,
-							interval_next = 0,
-							max = 1
-						},
+							interval_next = 45,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 810,
+					path_index = 2,
+					some_flying = true,
+					spawns = {
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_hyena5",
 							path = 3,
-							interval_next = 240,
-							max = 1
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
 							path = 3,
-							interval_next = 120,
-							max = 6
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 45,
+							max = 3
 						}
 					}
 				}
 			}
 		},
 		{
-			interval = 700,
+			interval = 300,
 			waves = {
 				{
-					delay = 1920,
+					delay = 0,
 					path_index = 1,
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 60,
+							max = 4
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_rhino",
 							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
 							interval_next = 0,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 5
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 5
 						}
 					}
 				},
@@ -966,110 +1475,240 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 2,
+							fixed_sub_path = 0,
+							creep = "enemy_bear_woodcutter",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
 							interval_next = 60,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
 							path = 3,
-							interval_next = 240,
+							interval_next = 120,
 							max = 1
 						},
 						{
-							interval = 40,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 60,
+							max = 4
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_rhino",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 5
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 5
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
 							path = 2,
 							interval_next = 120,
-							max = 6
+							max = 1
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_hyena5",
+							path = 2,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
+							path = 2,
+							interval_next = 30,
+							max = 4
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_cutthroat_rat",
+							path = 2,
+							interval_next = 30,
+							max = 4
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 2,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
 							path = 2,
 							interval_next = 60,
 							max = 1
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							creep = "enemy_dreadeye_viper",
 							path = 2,
-							interval_next = 240,
-							max = 6
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 30,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_hyena5",
 							path = 2,
-							interval_next = 60,
-							max = 1
+							interval_next = 0,
+							max = 4
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 30,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
+							creep = "enemy_surveyor_harpy",
 							path = 2,
-							interval_next = 120,
-							max = 6
+							interval_next = 0,
+							max = 5
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 30,
 							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
+							creep = "enemy_cutthroat_rat",
 							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_bear_vanguard",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 120,
+							interval_next = 0,
 							max = 6
 						}
 					}
@@ -1079,139 +1718,84 @@ return {
 					path_index = 3,
 					spawns = {
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 1
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
-						},
-						{
-							interval = 120,
-							max_same = 0,
-							fixed_sub_path = 0,
+							interval = 45,
+							fixed_sub_path = 1,
 							creep = "enemy_hyena5",
-							path = 2,
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 30,
+							max = 4
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
 							interval_next = 210,
-							max = 3
+							max = 4
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
-						},
-						{
-							interval = 80,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 80,
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 90,
 							max = 2
 						},
 						{
-							interval = 80,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 210,
-							max = 2
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
-						},
-						{
-							interval = 80,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_skunk_bombardier",
+							path = 3,
 							interval_next = 60,
-							max = 2
+							max = 1
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 180,
-							max = 2
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
+							interval = 45,
+							fixed_sub_path = 1,
+							creep = "enemy_dreadeye_viper",
+							path = 3,
+							interval_next = 45,
 							max = 3
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_tusked_brawler",
-							path = 2,
-							interval_next = 40,
-							max = 3
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 4
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 40,
-							max = 2
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 5
 						},
 						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hyena5",
-							path = 2,
-							interval_next = 330,
-							max = 3
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 6
 						}
 					}
 				},
@@ -1220,40 +1804,68 @@ return {
 					path_index = 4,
 					spawns = {
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
-							interval_next = 480,
+							creep = "enemy_rhino",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_turtle_shaman",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
+							max = 5
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_rhino",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_hyena5",
+							path = 3,
+							interval_next = 0,
 							max = 5
 						},
 						{
 							interval = 30,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
-							interval_next = 720,
-							max = 5
+							creep = "enemy_surveyor_harpy",
+							path = 3,
+							interval_next = 0,
+							max = 6
 						},
 						{
 							interval = 30,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
-							interval_next = 480,
-							max = 5
-						},
-						{
-							interval = 30,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_hog_invader",
-							path = 1,
-							interval_next = 240,
-							max = 5
+							creep = "enemy_cutthroat_rat",
+							path = 3,
+							interval_next = 0,
+							max = 6
 						}
 					}
 				}

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./main.lua
-
 local dok, deval = pcall(require, "debug_eval")
 
 if not dok or not deval then
@@ -678,6 +676,7 @@ function love.run()
 	if love.load then
 		love.load(arg)
 	end
+	my_data_processing()
 
 	if love.timer then
 		love.timer.step()
@@ -965,6 +964,331 @@ function love.errhand(msg)
 
 		if love.timer then
 			love.timer.sleep(0.1)
+		end
+	end
+end
+
+-- customization
+function my_data_processing()
+	local function to_xml(t, level)
+		local function indent(l)
+			local v = ""
+	
+			for i = 1, l do
+				v = v .. "\t"
+			end
+	
+			return v
+		end
+	
+		local o = ""
+	
+		if type(t) == "table" then
+			if #t > 0 then
+				o = o .. indent(level) .. "<array>\n"
+	
+				for k, v in pairs(t) do
+					o = o .. to_xml(v, level + 1)
+				end
+	
+				o = o .. indent(level) .. "</array>\n"
+			else
+				o = o .. indent(level) .. "<dict>\n"
+	
+				for k, v in pairs(t) do
+					o = o .. indent(level + 1) .. "<key>" .. k .. "</key>\n"
+					o = o .. to_xml(v, level + 1)
+				end
+	
+				o = o .. indent(level) .. "</dict>\n"
+			end
+		elseif type(t) == "boolean" then
+			o = o .. indent(level) .. (t and "<true/>" or "<false/>") .. "\n"
+		elseif type(t) == "number" then
+			o = o .. indent(level) .. "<real>" .. tostring(t) .. "</real>\n"
+		elseif type(t) == "string" then
+			o = o .. indent(level) .. "<string>" .. tostring(t) .. "</string>\n"
+		end
+	
+		return o
+	end
+	
+	local function to_plist(t, a_name, size)
+		local o = ""
+	
+		o = o .. "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+		o = o .. "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n"
+		o = o .. "<plist version=\"1.0\">\n"
+		o = o .. "\t<dict>\n"
+		o = o .. "\t\t<key>frames</key>\n"
+		o = o .. to_xml(t, 2)
+		o = o .. "\t\t<key>metadata</key>\n"
+		o = o .. "\t\t<dict>\n"
+		o = o .. "\t\t\t<key>format</key>\n"
+		o = o .. "\t\t\t<integer>3</integer>\n"
+		o = o .. "\t\t\t<key>pixelFormat</key>\n"
+		o = o .. "\t\t\t<string>RGBA8888</string>\n"
+		o = o .. "\t\t\t<key>premultiplyAlpha</key>\n"
+		o = o .. "\t\t\t<false/>\n"
+		o = o .. "\t\t\t<key>realTextureFileName</key>\n"
+		o = o .. "\t\t\t<string>" .. a_name .. "</string>\n"
+		o = o .. "\t\t\t<key>size</key>\n"
+		o = o .. "\t\t\t<string>" .. size .. "</string>\n"
+		o = o .. "\t\t\t<key>textureFileName</key>\n"
+		o = o .. "\t\t\t<string>" .. a_name .. "</string>\n"
+		o = o .. "\t\t</dict>\n"
+		o = o .. "\t</dict>\n"
+		o = o .. "</plist>\n"
+	
+		return o
+	end
+	
+	local function split_atlas(t)
+		local atlases = {}
+		local names = {}
+		for k, v in pairs(t) do
+			if not table.contains(names, v.a_name) then
+				table.insert(names, v.a_name)
+				local newAtlas = {}
+				newAtlas.size = "{" .. v.a_size[1] .. "," .. v.a_size[2] .. "}"
+				atlases[v.a_name] = newAtlas
+			end
+			local atlas = atlases[v.a_name]
+			local newTable = {}
+			local spriteWidth, spriteHeight, spriteSourceWidth, spriteSourceHeight, spriteOffsetX, spriteOffsetY
+			if v.textureRotated then
+				spriteWidth = v.f_quad[4]
+				spriteHeight = v.f_quad[3]
+			else
+				spriteWidth = v.f_quad[3]
+				spriteHeight = v.f_quad[4]
+			end
+			spriteSourceWidth = v.size[1]
+			spriteSourceHeight = v.size[2]
+			spriteOffsetX = math.ceil(v.trim[1] - (spriteSourceWidth - spriteWidth) / 2)
+			spriteOffsetY = math.floor((spriteSourceHeight - spriteHeight) / 2 - v.trim[2])
+			newTable.spriteOffset = "{" .. tostring(spriteOffsetX) .. "," .. tostring(spriteOffsetY) .. "}"
+			newTable.spriteSize = "{" .. tostring(spriteWidth) .. "," .. tostring(spriteHeight) .. "}"
+			newTable.spriteSourceSize = "{" .. tostring(spriteSourceWidth) .. "," .. tostring(spriteSourceHeight) .. "}"
+			newTable.textureRect = "{{" .. tostring(v.f_quad[1]) .. "," .. tostring(v.f_quad[2]) .. "}," .. newTable.spriteSize .. "}"
+			newTable.textureRotated = v.textureRotated or false
+			atlas[k .. ".png"] = newTable
+			if v.alias and #v.alias > 0 then
+				for i, alias in ipairs(v.alias) do
+					atlas[alias .. ".png"] = newTable
+				end
+			end
+		end
+		return atlases
+	end
+	
+	local fs = love.filesystem
+	local inputPath = "atlas/input/"
+	local outputPath = "atlas/output/"
+	local toPlist = true
+	if not fs.exists(inputPath) or not fs.exists(outputPath) then
+		toPlist = nil
+	end
+	local inputFiles
+	if toPlist then
+		inputFiles = fs.getDirectoryItems(inputPath)
+		if not inputFiles or #inputFiles == 0 then
+			toPlist = nil
+		end
+	end
+	if toPlist then
+		inputFiles = table.filter(inputFiles, function(k, v)
+			return string.match(v, "[^.]-%.lua$")
+		end)
+		if not inputFiles or #inputFiles == 0 then
+			toPlist = nil
+		end
+	end
+	if toPlist then
+		for i, v in ipairs(inputFiles) do
+			local inputFile = inputPath .. v
+			if fs.isFile(inputFile) then
+				local chunk = fs.load(inputFile)
+				local atlases = split_atlas(chunk())
+				for a_name, atlas in pairs(atlases) do
+					local size = atlas.size
+					atlas.size = nil
+					local startPos = string.find(a_name, "%.png$")
+					if not startPos then
+						startPos = string.find(a_name, "%.dds$")
+						if not startPos then
+							startPos = string.find(a_name, "%.pkm$")
+							if not startPos then
+								startPos = string.find(a_name, "%.pkm.lz4$")
+								if not startPos then
+									break
+								end
+							end
+						end
+					end
+					local fileName = outputPath .. string.sub(a_name, 1, startPos - 1) .. ".plist"
+					local data = to_plist(atlas, a_name, size)
+					local success, message = fs.write(fileName, data)
+					if not success then
+						log.error("file not created: " .. message)
+					end
+				end
+			end
+		end
+	end
+	
+	inputPath = "animations/immutable/"
+	outputPath = "animations/alterable/"
+	local removeAnimations = true
+	if not fs.exists(inputPath) or not fs.exists(outputPath) then
+		removeAnimations = nil
+	end
+	local outputFiles
+	if removeAnimations then
+		inputFiles = fs.getDirectoryItems(inputPath)
+		outputFiles = fs.getDirectoryItems(outputPath)
+		if not inputFiles or #inputFiles == 0 or not outputFiles or #outputFiles == 0 then
+			removeAnimations = nil
+		end
+	end
+	if removeAnimations then
+		inputFiles = table.filter(inputFiles, function(k, v)
+			return string.match(v, "[^.]-%.lua$")
+		end)
+		outputFiles = table.filter(outputFiles, function(k, v)
+			return string.match(v, "[^.]-%.lua$")
+		end)
+		if not inputFiles or #inputFiles == 0 or not outputFiles or #outputFiles == 0 then
+			removeAnimations = nil
+		end
+	end
+	local outputFile
+	if removeAnimations then
+		outputFile = outputPath .. outputFiles[1]
+		if not fs.isFile(outputFile) then
+			removeAnimations = nil
+		end
+	end
+	
+	local function value_to_string(t, level, key)
+		local function indent(l)
+			local v = ""
+	
+			for i = 1, l do
+				v = v .. "\t"
+			end
+	
+			return v
+		end
+	
+		local o = indent(level) .. (key and (key .. " = ") or "")
+	
+		if type(t) == "table" then
+			if #t > 0 then
+				o = o .. "{\n"
+	
+				for i, v in ipairs(t) do
+					o = o .. value_to_string(v, level + 1)
+				end
+	
+				o = o .. indent(level) .. "},\n"
+			else
+				o = o .. "{\n"
+	
+				for k, v in pairs(t) do
+					o = o .. value_to_string(v, level + 1, k)
+				end
+	
+				o = o .. indent(level) .. "},\n"
+			end
+		elseif type(t) == "boolean" then
+			o = o .. (t and "true" or "false") .. ",\n"
+		elseif type(t) == "number" then
+			o = o .. tostring(t) .. ",\n"
+		elseif type(t) == "string" then
+			o = o .. "\"" .. t .. "\",\n"
+		else
+			return ""
+		end
+	
+		return o
+	end
+	
+	if removeAnimations then
+		local chunk = fs.load(outputFile)
+		local output_animations = chunk()
+		local animations = {}
+		for i, v in ipairs(inputFiles) do
+			local inputFile = inputPath .. v
+			if fs.isFile(inputFile) then
+				local chunk = fs.load(inputFile)
+				table.merge(animations, chunk())
+			end
+		end
+		for key, value in pairs(output_animations) do
+			for k, v in pairs(animations) do
+				if key == k then
+					output_animations[key] = nil
+					break
+				end
+			end
+		end
+	
+		local o = "return {\n"
+		for k, v in pairs(output_animations) do
+			o = o .. value_to_string(v, 1, k)
+		end
+		o = o .. "}"
+		local success, message = fs.write(outputFile, o)
+		if not success then
+			log.error("file not created: " .. message)
+		end
+	end
+	
+	inputPath = "dds2pkm_lz4/"
+	local dds2pkm = true
+	if not fs.exists(inputPath) then
+		dds2pkm = nil
+	end
+	if dds2pkm then
+		inputFiles = fs.getDirectoryItems(inputPath)
+		if not inputFiles or #inputFiles == 0 then
+			dds2pkm = nil
+		end
+	end
+	if dds2pkm then
+		inputFiles = table.filter(inputFiles, function(k, v)
+			return string.match(v, "[^.]-%.lua$")
+		end)
+		if not inputFiles or #inputFiles == 0 then
+			dds2pkm = nil
+		end
+	end
+	if dds2pkm then
+		for i, v in ipairs(inputFiles) do
+			local inputFile = inputPath .. v
+			if fs.isFile(inputFile) then
+				local chunk = fs.load(inputFile)
+				local atlas = chunk()
+				local o = "return {\n"
+				local keys = {}
+				for k, v in pairs(atlas) do
+					table.insert(keys, k)
+				end
+				table.sort(keys, function(e1, e2)
+					return tostring(e1) < tostring(e2)
+				end)
+				for i, k in ipairs(keys) do
+					local v = atlas[k]
+					v.a_name = string.gsub(v.a_name, "%.dds$", "%.pkm.lz4", 1)
+					o = o .. value_to_string(v, 1, "[\"" .. k .. "\"]")
+				end
+				o = o .. "}"
+				local success, message = fs.write(inputFile, o)
+				if not success then
+					log.error("file not created: " .. message)
+				end
+			end
 		end
 	end
 end

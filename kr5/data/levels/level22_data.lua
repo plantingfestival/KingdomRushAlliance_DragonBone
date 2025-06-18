@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level22_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -61,6 +59,13 @@ return {
 			}
 		},
 		{
+			template = "decal_stage_22_easteregg_sheepy",
+			pos = {
+				x = 890,
+				y = 600
+			}
+		},
+		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
 			["render.sprites[1].name"] = "Stage22_0001",
@@ -110,7 +115,6 @@ return {
 		{
 			["editor.flip"] = -1,
 			template = "decal_defense_flag5",
-			extra_trigger_dist = 30,
 			pos = {
 				x = 1040,
 				y = 227
@@ -122,13 +126,6 @@ return {
 			pos = {
 				x = 982,
 				y = 368
-			}
-		},
-		{
-			template = "decal_stage_22_easteregg_sheepy",
-			pos = {
-				x = 890,
-				y = 600
 			}
 		},
 		{
@@ -212,7 +209,6 @@ return {
 		},
 		{
 			template = "decal_stage_22_sombras",
-			["render.sprites[1].flip_x"] = true,
 			pos = {
 				x = 512,
 				y = 384
@@ -220,6 +216,7 @@ return {
 		},
 		{
 			template = "decal_stage_22_sombras",
+			["render.sprites[1].flip_x"] = true,
 			pos = {
 				x = 512,
 				y = 384
@@ -642,6 +639,13 @@ return {
 			}
 		},
 		{
+			template = "tower_mage_1",
+			pos = {
+				x = 360,
+				y = 360
+			}
+		},
+		{
 			["tower.holder_id"] = "44",
 			["ui.nav_mesh_id"] = "44",
 			template = "tower_stage_22_arborean_mages",
@@ -656,8 +660,8 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "45",
-			["ui.nav_mesh_id"] = "45",
+			["tower.holder_id"] = "44",
+			["ui.nav_mesh_id"] = "44",
 			template = "tower_stage_22_arborean_mages",
 			["editor.game_mode"] = 3,
 			pos = {
@@ -670,8 +674,8 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "46",
-			["ui.nav_mesh_id"] = "46",
+			["tower.holder_id"] = "44",
+			["ui.nav_mesh_id"] = "44",
 			template = "tower_stage_22_arborean_mages",
 			["editor.game_mode"] = 3,
 			pos = {
@@ -713,6 +717,17 @@ return {
 		},
 		{
 			["tunnel.speed_factor"] = 1,
+			["tunnel.place_pi"] = 9,
+			template = "tunnel_KR5",
+			["tunnel.name"] = "4",
+			["tunnel.pick_pi"] = 12,
+			pos = {
+				x = -128,
+				y = 409
+			}
+		},
+		{
+			["tunnel.speed_factor"] = 1,
 			["tunnel.place_pi"] = 10,
 			template = "tunnel_KR5",
 			["tunnel.name"] = "1",
@@ -739,17 +754,6 @@ return {
 			template = "tunnel_KR5",
 			["tunnel.name"] = "3",
 			["tunnel.pick_pi"] = 3,
-			pos = {
-				x = -128,
-				y = 409
-			}
-		},
-		{
-			["tunnel.speed_factor"] = 1,
-			["tunnel.place_pi"] = 9,
-			template = "tunnel_KR5",
-			["tunnel.name"] = "4",
-			["tunnel.pick_pi"] = 12,
 			pos = {
 				x = -128,
 				y = 409
@@ -819,74 +823,7 @@ return {
 			locked_powers = {},
 			locked_towers = {}
 		},
-		{
-			nav_mesh = {
-				{
-					nil,
-					2,
-					nil,
-					5
-				},
-				{
-					4,
-					nil,
-					nil,
-					1
-				},
-				[4] = {
-					7,
-					nil,
-					2
-				},
-				[5] = {
-					6,
-					1
-				},
-				[6] = {
-					8,
-					4,
-					5
-				},
-				[7] = {
-					14,
-					8,
-					4,
-					8
-				},
-				[8] = {
-					9,
-					7,
-					6
-				},
-				[9] = {
-					13,
-					14,
-					8
-				},
-				[11] = {
-					nil,
-					12,
-					13
-				},
-				[12] = {
-					11,
-					nil,
-					7,
-					14
-				},
-				[13] = {
-					11,
-					14,
-					9
-				},
-				[14] = {
-					13,
-					12,
-					7,
-					9
-				}
-			}
-		},
+		{},
 		{
 			available_towers = {
 				"tower_build_dark_elf",
@@ -906,152 +843,65 @@ return {
 				"tower_build_sand",
 				"tower_build_arcane_wizard",
 				"tower_build_necromancer"
-			},
-			nav_mesh = {
-				[2] = {
-					4,
-					nil,
-					nil,
-					46
-				},
-				[4] = {
-					42,
-					nil,
-					2,
-					6
-				},
-				[5] = {
-					6,
-					46
-				},
-				[6] = {
-					44,
-					4,
-					5
-				},
-				[7] = {
-					45,
-					nil,
-					42,
-					44
-				},
-				[9] = {
-					13,
-					45,
-					44
-				},
-				[11] = {
-					nil,
-					12,
-					13
-				},
-				[12] = {
-					11,
-					nil,
-					7,
-					45
-				},
-				[13] = {
-					11,
-					45,
-					9
-				},
-				[42] = {
-					7,
-					nil,
-					4
-				},
-				[44] = {
-					9,
-					7,
-					6
-				},
-				[45] = {
-					13,
-					12,
-					7,
-					9
-				},
-				[46] = {
-					nil,
-					2,
-					nil,
-					5
-				}
 			}
 		}
 	},
 	nav_mesh = {
-		{
-			nil,
-			2,
-			nil,
-			5
-		},
+		{},
 		{
 			4,
-			nil,
-			nil,
+			3,
 			1
 		},
 		[4] = {
-			42,
+			5,
 			nil,
 			2,
-			6
+			5
 		},
 		[5] = {
-			6,
-			1
+			7,
+			4,
+			3,
+			6
 		},
 		[6] = {
-			8,
-			4,
+			10,
+			7,
 			5
 		},
 		[7] = {
-			14,
-			nil,
-			42,
-			8
-		},
-		[8] = {
 			9,
-			7,
+			8,
+			5,
 			6
 		},
+		[8] = {},
 		[9] = {
-			13,
-			14,
-			8
+			10,
+			8,
+			7,
+			10
 		},
 		[11] = {
-			nil,
 			12,
-			13
+			nil,
+			8,
+			10
 		},
 		[12] = {
-			11,
+			14,
 			nil,
-			7,
-			14
+			11,
+			13
 		},
 		[13] = {
-			11,
 			14,
-			9
-		},
-		[14] = {
-			13,
 			12,
-			7,
-			9
+			10
 		},
-		[42] = {
-			7,
-			nil,
-			4
-		}
+		[14] = {},
+		[42] = {}
 	},
 	required_exoskeletons = {
 		"boss_gator1Def",
@@ -1093,17 +943,21 @@ return {
 		"stage_22_Glow_Rock5Def",
 		"Shaman_baseDef",
 		"Tank_crocs_animationsDef",
-		"Fx_Shaman_BlocktowerDef",
-		"animations_tower_killDef"
+		"Fx_Shaman_BlocktowerDef"
 	},
 	required_sounds = {
 		"music_stage22",
 		"enemies_terrain_crocs",
-		"stage_22"
+		"stage_22",
+		"enemies_sea_of_trees",
+		"enemies_rising_tides",
+		"tower_random"
 	},
 	required_textures = {
 		"go_stage22_bg",
 		"go_stage22",
-		"go_enemies_terrain_5"
+		"go_enemies_terrain_5",
+		"go_enemies_rising_tides",
+		"go_towers_random"
 	}
 }

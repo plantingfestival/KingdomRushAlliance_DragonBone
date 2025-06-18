@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/game_animations.lua
-
 local a = {
 	tower_build_dust = {
 		prefix = "effect_buildSmoke",
@@ -3551,6 +3549,28 @@ local a = {
 		to = 267,
 		from = 235
 	},
+	-- customization
+	hero_lilith_teleportOut = {
+		prefix = "fallen_angel_hero",
+		to = 233,
+		from = 220
+	},
+	hero_lilith_teleportIn = {
+		prefix = "fallen_angel_hero",
+		to = 203,
+		from = 190
+	},
+	hero_lilith_callMeteoritesStart = {
+		prefix = "fallen_angel_hero",
+		to = 98,
+		from = 90
+	},
+	hero_lilith_callMeteoritesEnd = {
+		prefix = "fallen_angel_hero",
+		to = 189,
+		from = 152
+	},
+	-- customization
 	fx_lilith_ranged_hit = {
 		prefix = "fallen_angel_hero_proy_hit",
 		to = 7,
@@ -5833,12 +5853,12 @@ local a = {
 	},
 	screecher_bat_death = {
 		prefix = "screecher_bat",
-		to = 86,
+		to = 96,
 		from = 72
 	},
 	mod_screecher_bat_stun_loop = {
-		prefix = "screecher_bat_stun",
-		to = 26,
+		prefix = "screecher_bat_stun_modifier",
+		to = 15,
 		from = 1
 	},
 	dark_spitters_idle = {

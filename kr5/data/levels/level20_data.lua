@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level20_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -128,14 +126,6 @@ return {
 			pos = {
 				x = 342,
 				y = 658
-			}
-		},
-		{
-			template = "decal_stage20_ruperto_easter_egg",
-			level_index = 0,
-			pos = {
-				x = 117,
-				y = 610
 			}
 		},
 		{
@@ -327,36 +317,6 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "2",
-			["tower.terrain_style"] = 1,
-			template = "tower_arborean_sentinels",
-			["editor.game_mode"] = 3,
-			["ui.nav_mesh_id"] = "2",
-			pos = {
-				x = 680,
-				y = 265
-			},
-			["tower.default_rally_pos"] = {
-				x = 703,
-				y = 342
-			}
-		},
-		{
-			["tower.holder_id"] = "24",
-			["tower.terrain_style"] = 1,
-			template = "tower_arborean_sentinels",
-			["editor.game_mode"] = 3,
-			["ui.nav_mesh_id"] = "24",
-			pos = {
-				x = 328,
-				y = 293
-			},
-			["tower.default_rally_pos"] = {
-				x = 426,
-				y = 334
-			}
-		},
-		{
 			["tower.holder_id"] = "3",
 			["tower.terrain_style"] = 1,
 			template = "tower_arborean_sentinels",
@@ -374,6 +334,21 @@ return {
 		{
 			["tower.holder_id"] = "3",
 			["tower.terrain_style"] = 1,
+			template = "tower_holder_sea_of_trees",
+			["editor.game_mode"] = 2,
+			["ui.nav_mesh_id"] = "3",
+			pos = {
+				x = 215,
+				y = 519
+			},
+			["tower.default_rally_pos"] = {
+				x = 230,
+				y = 470
+			}
+		},
+		{
+			["tower.holder_id"] = "3",
+			["tower.terrain_style"] = 1,
 			template = "tower_arborean_sentinels",
 			["editor.game_mode"] = 3,
 			["ui.nav_mesh_id"] = "3",
@@ -387,18 +362,18 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "23",
+			["tower.holder_id"] = "3",
 			["tower.terrain_style"] = 1,
 			template = "tower_arborean_sentinels",
 			["editor.game_mode"] = 3,
-			["ui.nav_mesh_id"] = "23",
+			["ui.nav_mesh_id"] = "3",
 			pos = {
-				x = 540,
-				y = 586
+				x = 680,
+				y = 265
 			},
 			["tower.default_rally_pos"] = {
-				x = 540,
-				y = 516
+				x = 703,
+				y = 342
 			}
 		},
 		{
@@ -425,6 +400,21 @@ return {
 			pos = {
 				x = 680,
 				y = 265
+			},
+			["tower.default_rally_pos"] = {
+				x = 703,
+				y = 342
+			}
+		},
+		{
+			["tower.holder_id"] = "9",
+			["tower.terrain_style"] = 1,
+			template = "tower_stage_20_arborean_honey",
+			["editor.game_mode"] = 2,
+			["ui.nav_mesh_id"] = "9",
+			pos = {
+				x = 685,
+				y = 255
 			},
 			["tower.default_rally_pos"] = {
 				x = 703,
@@ -479,6 +469,21 @@ return {
 		{
 			["tower.holder_id"] = "1",
 			["tower.terrain_style"] = 1,
+			template = "tower_stage_20_arborean_honey",
+			["editor.game_mode"] = 2,
+			["ui.nav_mesh_id"] = "1",
+			pos = {
+				x = 281,
+				y = 384
+			},
+			["tower.default_rally_pos"] = {
+				x = 362,
+				y = 461
+			}
+		},
+		{
+			["tower.holder_id"] = "1",
+			["tower.terrain_style"] = 1,
 			template = "tower_holder_sea_of_trees",
 			["editor.game_mode"] = 3,
 			["ui.nav_mesh_id"] = "1",
@@ -519,21 +524,6 @@ return {
 			["tower.default_rally_pos"] = {
 				x = 607,
 				y = 342
-			}
-		},
-		{
-			["tower.holder_id"] = "3",
-			["tower.terrain_style"] = 1,
-			template = "tower_holder_sea_of_trees",
-			["editor.game_mode"] = 2,
-			["ui.nav_mesh_id"] = "3",
-			pos = {
-				x = 215,
-				y = 519
-			},
-			["tower.default_rally_pos"] = {
-				x = 230,
-				y = 470
 			}
 		},
 		{
@@ -614,6 +604,21 @@ return {
 			}
 		},
 		{
+			["tower.holder_id"] = "3",
+			["tower.terrain_style"] = 1,
+			template = "tower_arborean_sentinels",
+			["editor.game_mode"] = 3,
+			["ui.nav_mesh_id"] = "3",
+			pos = {
+				x = 328,
+				y = 293
+			},
+			["tower.default_rally_pos"] = {
+				x = 426,
+				y = 334
+			}
+		},
+		{
 			["tower.holder_id"] = "23",
 			["tower.spawn_path_index"] = 1,
 			template = "tower_stage_20_arborean_barrack",
@@ -646,38 +651,23 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "9",
+			["tower.holder_id"] = "3",
 			["tower.terrain_style"] = 1,
-			template = "tower_stage_20_arborean_honey",
-			["editor.game_mode"] = 2,
-			["ui.nav_mesh_id"] = "9",
+			template = "tower_arborean_sentinels",
+			["editor.game_mode"] = 3,
+			["ui.nav_mesh_id"] = "3",
 			pos = {
-				x = 685,
-				y = 255
+				x = 540,
+				y = 586
 			},
 			["tower.default_rally_pos"] = {
-				x = 703,
-				y = 342
+				x = 540,
+				y = 516
 			}
 		},
 		{
-			["tower.holder_id"] = "1",
-			["tower.terrain_style"] = 1,
-			template = "tower_stage_20_arborean_honey",
-			["editor.game_mode"] = 2,
-			["ui.nav_mesh_id"] = "1",
-			pos = {
-				x = 281,
-				y = 384
-			},
-			["tower.default_rally_pos"] = {
-				x = 362,
-				y = 461
-			}
-		},
-		{
-			["tower.holder_id"] = "25",
-			["ui.nav_mesh_id"] = "25",
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
 			template = "tower_stage_20_arborean_honey",
 			["editor.game_mode"] = 1,
 			pos = {
@@ -690,8 +680,8 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "25",
-			["ui.nav_mesh_id"] = "25",
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
 			template = "tower_stage_20_arborean_honey",
 			["editor.game_mode"] = 2,
 			pos = {
@@ -704,8 +694,22 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "26",
-			["ui.nav_mesh_id"] = "26",
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
+			template = "tower_stage_20_arborean_oldtree",
+			["editor.game_mode"] = 1,
+			pos = {
+				x = 65,
+				y = 499
+			},
+			["tower.default_rally_pos"] = {
+				x = 113,
+				y = 420
+			}
+		},
+		{
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
 			template = "tower_stage_20_arborean_honey",
 			["editor.game_mode"] = 2,
 			pos = {
@@ -718,11 +722,25 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "27",
-			["tower.payload_entity"] = "stage_20_arborean_oldtree_tree_2",
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
 			template = "tower_stage_20_arborean_oldtree",
 			["editor.game_mode"] = 3,
-			["ui.nav_mesh_id"] = "27",
+			pos = {
+				x = 65,
+				y = 499
+			},
+			["tower.default_rally_pos"] = {
+				x = 113,
+				y = 420
+			}
+		},
+		{
+			["tower.holder_id"] = "23",
+			["ui.nav_mesh_id"] = "23",
+			template = "tower_stage_20_arborean_oldtree",
+			["editor.game_mode"] = 3,
+			["tower.payload_entity"] = "stage_20_arborean_oldtree_tree_2",
 			pos = {
 				x = 503,
 				y = 405
@@ -733,31 +751,11 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "26",
-			["ui.nav_mesh_id"] = "26",
-			template = "tower_stage_20_arborean_oldtree",
-			["editor.game_mode"] = 1,
+			template = "decal_stage20_ruperto_easter_egg",
+			level_index = 0,
 			pos = {
-				x = 65,
-				y = 499
-			},
-			["tower.default_rally_pos"] = {
-				x = 113,
-				y = 420
-			}
-		},
-		{
-			["tower.holder_id"] = "26",
-			["ui.nav_mesh_id"] = "26",
-			template = "tower_stage_20_arborean_oldtree",
-			["editor.game_mode"] = 3,
-			pos = {
-				x = 65,
-				y = 499
-			},
-			["tower.default_rally_pos"] = {
-				x = 113,
-				y = 420
+				x = 117,
+				y = 610
 			}
 		}
 	},
@@ -788,171 +786,63 @@ return {
 				"tower_build_royal_archers",
 				"tower_build_ray",
 				"tower_build_ghost"
-			},
-			nav_mesh = {
-				{
-					27,
-					3,
-					4,
-					24
-				},
-				{
-					8,
-					7,
-					6
-				},
-				{
-					5,
-					nil,
-					26,
-					1
-				},
-				{
-					1,
-					26
-				},
-				{
-					23,
-					nil,
-					3,
-					27
-				},
-				{
-					9,
-					27,
-					24
-				},
-				{
-					8,
-					11,
-					27,
-					9
-				},
-				{
-					nil,
-					12,
-					7,
-					9
-				},
-				{
-					2,
-					7,
-					6
-				},
-				[11] = {
-					12,
-					nil,
-					23,
-					7
-				},
-				[12] = {
-					[3] = 11,
-					[4] = 8
-				},
-				[23] = {
-					11,
-					nil,
-					5,
-					27
-				},
-				[24] = {
-					6,
-					1,
-					4
-				},
-				[26] = {
-					3,
-					nil,
-					nil,
-					4
-				},
-				[27] = {
-					7,
-					23,
-					1,
-					6
-				}
 			}
 		}
 	},
 	nav_mesh = {
 		{
-			25,
-			3,
-			4,
-			24
+			3
 		},
-		[3] = {
+		[3] = {},
+		[4] = {
 			5,
 			nil,
-			26,
-			1
-		},
-		[4] = {
-			1,
-			26
+			2,
+			5
 		},
 		[5] = {
-			23,
-			nil,
+			7,
+			4,
 			3,
-			25
+			6
 		},
 		[6] = {
-			9,
-			25,
-			24
+			10,
+			7,
+			5
 		},
 		[7] = {
+			9,
 			8,
-			11,
-			25,
-			9
+			5,
+			6
 		},
 		[8] = {
-			nil,
-			12,
+			11,
+			11,
 			7,
 			9
 		},
 		[9] = {
+			10,
 			8,
 			7,
-			6
+			10
 		},
 		[11] = {
 			12,
 			nil,
-			23,
-			7
+			8,
+			10
 		},
 		[12] = {
-			[3] = 11,
-			[4] = 8
-		},
-		[23] = {
+			14,
+			nil,
 			11,
-			nil,
-			5,
-			25
+			13
 		},
-		[24] = {
-			6,
-			1,
-			4
-		},
-		[25] = {
-			7,
-			23,
-			1,
-			6
-		},
-		[26] = {
-			3,
-			nil,
-			nil,
-			4
-		}
+		[23] = {},
+		[24] = {}
 	},
 	required_exoskeletons = {
 		"stage_2_butterfly_2Def",
@@ -974,7 +864,9 @@ return {
 		"music_stage20",
 		"enemies_terrain_crocs",
 		"tower_ghost",
-		"stage_20"
+		"stage_20",
+		"terrain_1_common",
+		"enemies_sea_of_trees"
 	},
 	required_textures = {
 		"go_stage20_bg",

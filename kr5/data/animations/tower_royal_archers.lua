@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/tower_royal_archers.lua
-
 local a = {
 	royal_archer_tower_lvl4_tower_rapacious_hunter_base = {
 		prefix = "royal_archer_tower_lvl4_tower_rapacious_hunter_base",
@@ -213,7 +211,7 @@ local a = {
 	},
 	royal_archer_tower_lvl4_arrow_armor_piercer_trail_particle_idle_1 = {
 		prefix = "royal_archer_tower_lvl4_arrow_armor_piercer_trail_particle",
-		to = 10,
+		to = 9,
 		from = 1
 	},
 	royal_archer_tower_lvl4_arrow_armor_piercer_idle_1 = {
@@ -247,5 +245,4 @@ local a = {
 		from = 2
 	}
 }
-
 return a

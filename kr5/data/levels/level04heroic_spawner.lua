@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level04heroic_spawner.lua
-
 return {
 	groups = {
 		{
@@ -92,7 +90,7 @@ return {
 					false,
 					0.8,
 					0.8,
-					"enemy_dreadeye_viper"
+					"enemy_turtle_shaman"
 				},
 				{
 					34,
@@ -109,140 +107,6 @@ return {
 						enable = false
 					}
 				},
-				{
-					42,
-					0,
-					"som2",
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					"CUSTOM",
-					{
-						enable = true
-					}
-				},
-				{
-					46,
-					0,
-					2,
-					2,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					48,
-					0,
-					2,
-					3,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					50,
-					0,
-					2,
-					1,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					56,
-					0,
-					"som2",
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					"CUSTOM",
-					{
-						enable = false
-					}
-				},
-				{
-					64,
-					0,
-					"som2",
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					"CUSTOM",
-					{
-						enable = true
-					}
-				},
-				{
-					68,
-					0,
-					2,
-					2,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					70,
-					0,
-					2,
-					3,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					72,
-					0,
-					2,
-					1,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_dreadeye_viper"
-				},
-				{
-					78,
-					0,
-					"som2",
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					nil,
-					"CUSTOM",
-					{
-						enable = false
-					}
-				}
-			},
-			[6] = {
 				{
 					40,
 					0,
@@ -262,16 +126,52 @@ return {
 					44,
 					0,
 					2,
-					nil,
-					6,
+					2,
+					1,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_dreadeye_viper"
 				},
 				{
-					52,
+					44,
+					0,
+					2,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_dreadeye_viper"
+				},
+				{
+					47,
+					0,
+					2,
+					2,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				}, 
+				{
+					47,
+					0,
+					2,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					53,
 					0,
 					"som2",
 					nil,
@@ -286,7 +186,7 @@ return {
 					}
 				},
 				{
-					66,
+					59,
 					0,
 					"som2",
 					nil,
@@ -301,11 +201,115 @@ return {
 					}
 				},
 				{
-					70,
+					63,
+					0,
+					2,
+					2,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_dreadeye_viper"
+				},
+				{
+					63,
+					0,
+					2,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_dreadeye_viper"
+				},
+				{
+					65,
+					0,
+					2,
+					2,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					65,
+					0,
+					2,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					67,
+					0,
+					2,
+					2,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_cutthroat_rat"
+				},
+				{
+					67,
+					0,
+					2,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_cutthroat_rat"
+				},
+				{
+					73,
+					0,
+					"som2",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					{
+						enable = false
+					}
+				}
+			},
+			[6] = {
+				{
+					20,
+					0,
+					"som2",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					{
+						enable = true
+					}
+				},
+				{
+					24,
 					0,
 					2,
 					nil,
-					6,
+					2,
 					true,
 					false,
 					0.8,
@@ -313,19 +317,169 @@ return {
 					"enemy_tusked_brawler"
 				},
 				{
-					84,
+					26,
 					0,
 					2,
 					nil,
-					6,
+					2,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_dreadeye_viper"
 				},
 				{
-					90,
+					28,
+					0,
+					2,
+					nil,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					32,
+					0,
+					"som2",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					{
+						enable = false
+					}
+				},
+				{
+					36,
+					0,
+					"som2",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					{
+						enable = true
+					}
+				},
+				{
+					40,
+					0,
+					2,
+					nil,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_blacksurge"
+				},
+				{
+					42,
+					0,
+					2,
+					nil,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_bear_vanguard"
+				},
+				{
+					44,
+					0,
+					2,
+					nil,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					46,
+					0,
+					2,
+					2,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_dreadeye_viper"
+				},
+				{
+					46,
+					0,
+					2,
+					3,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_dreadeye_viper"
+				},
+				{
+					48,
+					0,
+					2,
+					2,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_surveyor_harpy"
+				},
+				{
+					48,
+					0,
+					2,
+					3,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_surveyor_harpy"
+				},
+				{
+					50,
+					0,
+					2,
+					2,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_cutthroat_rat"
+				},
+				{
+					50,
+					0,
+					2,
+					3,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_cutthroat_rat"
+				},
+				{
+					55,
 					0,
 					"som2",
 					nil,
@@ -359,75 +513,39 @@ return {
 					0,
 					1,
 					0,
-					1,
+					2,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
-				},
-				{
-					22,
-					0,
-					1,
-					0,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_tusked_brawler"
+					"enemy_bear_vanguard"
 				},
 				{
 					23,
 					0,
 					1,
 					0,
-					1,
+					2,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
-				},
-				{
-					24,
-					0,
-					1,
-					0,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_tusked_brawler"
+					"enemy_dreadeye_viper"
 				},
 				{
 					25,
 					0,
 					1,
 					0,
-					1,
+					2,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_turtle_shaman"
 				},
 				{
-					26,
-					0,
-					1,
-					0,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_tusked_brawler"
-				},
-				{
-					32,
+					30,
 					0,
 					"som1",
 					nil,
@@ -442,7 +560,7 @@ return {
 					}
 				},
 				{
-					41,
+					36,
 					0,
 					"som1",
 					nil,
@@ -457,79 +575,127 @@ return {
 					}
 				},
 				{
-					45,
+					40,
 					0,
 					1,
-					0,
+					1,
 					1,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_blacksurge"
+				},
+				{
+					41,
+					0,
+					1,
+					0,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_bear_vanguard"
+				},
+				{
+					43,
+					0,
+					1,
+					2,
+					2,
+					true,
+					false,
+					2,
+					2,
+					"enemy_dreadeye_viper"
+				},
+				{
+					43,
+					0,
+					1,
+					3,
+					2,
+					true,
+					false,
+					2,
+					2,
+					"enemy_dreadeye_viper"
+				},
+				{
+					44,
+					0,
+					1,
+					2,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
+				},
+				{
+					44,
+					0,
+					1,
+					3,
+					1,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
 				},
 				{
 					46,
 					0,
 					1,
-					0,
-					1,
+					2,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_surveyor_harpy"
 				},
 				{
-					47,
+					46,
 					0,
 					1,
-					0,
-					1,
+					3,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_surveyor_harpy"
 				},
 				{
 					48,
 					0,
 					1,
-					0,
-					1,
+					2,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_cutthroat_rat"
 				},
 				{
-					49,
+					48,
 					0,
 					1,
-					0,
-					1,
+					3,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_cutthroat_rat"
 				},
 				{
-					50,
-					0,
-					1,
-					0,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_tusked_brawler"
-				},
-				{
-					56,
+					54,
 					0,
 					"som1",
 					nil,
@@ -544,7 +710,7 @@ return {
 					}
 				},
 				{
-					65,
+					60,
 					0,
 					"som1",
 					nil,
@@ -559,79 +725,79 @@ return {
 					}
 				},
 				{
-					69,
+					64,
 					0,
 					1,
-					0,
+					1,
 					1,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_blacksurge"
+				},
+				{
+					66,
+					0,
+					1,
+					0,
+					2,
+					true,
+					false,
+					0.8,
+					0.8,
+					"enemy_turtle_shaman"
 				},
 				{
 					70,
 					0,
 					1,
-					0,
-					1,
+					2,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_surveyor_harpy"
 				},
 				{
-					71,
+					70,
 					0,
 					1,
-					0,
-					1,
+					3,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_surveyor_harpy"
 				},
 				{
 					72,
 					0,
 					1,
-					0,
-					1,
+					2,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_cutthroat_rat"
 				},
 				{
-					73,
+					72,
 					0,
 					1,
-					0,
-					1,
+					3,
+					3,
 					true,
 					false,
 					0.8,
 					0.8,
-					"enemy_tusked_brawler"
+					"enemy_cutthroat_rat"
 				},
 				{
-					74,
-					0,
-					1,
-					0,
-					1,
-					true,
-					false,
-					0.8,
-					0.8,
-					"enemy_tusked_brawler"
-				},
-				{
-					81,
+					78,
 					0,
 					"som1",
 					nil,

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_tricannon.lua
-
 return {
 	tower_preview_tricannon = {
 		a_name = "go_towers_tricannon-1.dds",
@@ -20641,5 +20639,23281 @@ return {
 		alias = {
 			"tricannon_tower_lvl4_tower_layer9_0274"
 		}
+	},
+	-- customization
+	["bottom_info_image_soldiers_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            4,
+            4
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			620,
+			995,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1353,
+			1649,
+			84,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1353,
+			1649,
+			84,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1633,
+			84,
+			102
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1633,
+			84,
+			102
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1774,
+			1282,
+			84,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1774,
+			1282,
+			84,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1476,
+			85,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1476,
+			85,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            44,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			1549,
+			84,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            44,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			1549,
+			84,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1868,
+			84,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1868,
+			84,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            43,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1055,
+			1451,
+			84,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            43,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1055,
+			1451,
+			84,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1554,
+			1743,
+			85,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1554,
+			1743,
+			85,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1687,
+			1253,
+			85,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1687,
+			1253,
+			85,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1876,
+			1289,
+			84,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1876,
+			1289,
+			84,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1654,
+			1830,
+			84,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1654,
+			1830,
+			84,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            35,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			354,
+			770,
+			87,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            35,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			354,
+			770,
+			87,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            30,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			278,
+			1403,
+			89,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            30,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			278,
+			1403,
+			89,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            29,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			756,
+			530,
+			89,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            29,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			756,
+			530,
+			89,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1440,
+			1929,
+			101,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1440,
+			1929,
+			101,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            66,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1659,
+			422,
+			100,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            66,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1659,
+			422,
+			100,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            67,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1739,
+			1368,
+			100,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            67,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1739,
+			1368,
+			100,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            67,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1739,
+			1368,
+			100,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            67,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1739,
+			1368,
+			100,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            67,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1739,
+			1368,
+			100,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            66,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			592,
+			773,
+			103,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            66,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			592,
+			773,
+			103,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            61,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1749,
+			1932,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            61,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1749,
+			1932,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0044"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            43,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1458,
+			1648,
+			87,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0045"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            43,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1458,
+			1648,
+			87,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0046"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0047"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0048"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0049"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0050"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0051"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0052"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            24,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			494,
+			1003,
+			88,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0053"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            24,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			494,
+			1003,
+			88,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0054"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            24,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			494,
+			1003,
+			88,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0055"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            21,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1137,
+			763,
+			86,
+			127
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0056"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            21,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1137,
+			763,
+			86,
+			127
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0057"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            30,
+            53,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			70,
+			84,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0058"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            30,
+            53,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			70,
+			84,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0059"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1141,
+			1535,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0060"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1141,
+			1535,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0061"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1564,
+			982,
+			105,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0062"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1564,
+			982,
+			105,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0063"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            39,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1650,
+			1935,
+			97,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0064"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            49,
+            39,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1650,
+			1935,
+			97,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0065"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            43,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1451,
+			106,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0066"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            43,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1451,
+			106,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0067"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			832,
+			651,
+			110,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0068"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			832,
+			651,
+			110,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0069"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1093,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0070"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1093,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0071"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			739,
+			412,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0072"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			739,
+			412,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0073"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			628,
+			186,
+			116,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0074"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			628,
+			186,
+			116,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0075"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            37,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			731,
+			1093,
+			116,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0076"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            37,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			731,
+			1093,
+			116,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0077"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            34,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			846,
+			412,
+			116,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0078"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            34,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			846,
+			412,
+			116,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0079"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			960,
+			1093,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0080"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			960,
+			1093,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0081"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            43,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1327,
+			544,
+			116,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0082"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			469,
+			649,
+			123,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0083"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			469,
+			649,
+			123,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0084"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            34,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1040,
+			895,
+			114,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0085"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            34,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1040,
+			895,
+			114,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0086"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            40,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			300,
+			108,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0087"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            40,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			300,
+			108,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0088"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            39,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			541,
+			109,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0089"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            39,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			541,
+			109,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0090"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            44,
+            30,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			939,
+			651,
+			110,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0091"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            44,
+            30,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			939,
+			651,
+			110,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0092"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            44,
+            39,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1156,
+			892,
+			103,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0093"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            44,
+            39,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1156,
+			892,
+			103,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0094"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            36,
+            27,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1572,
+			1325,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0095"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            36,
+            27,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1445,
+			541,
+			112,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0096"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            34,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1549,
+			1830,
+			102,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0097"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            34,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1549,
+			1830,
+			102,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0098"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            34,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1341,
+			763,
+			104,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0099"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            34,
+            35,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1341,
+			763,
+			104,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0100"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            33,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1067,
+			1093,
+			111,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0101"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            33,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1067,
+			1093,
+			111,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0102"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            24,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1477,
+			129,
+			98,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0103"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            24,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1477,
+			129,
+			98,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0104"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            19,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			266,
+			1663,
+			92,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0105"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            19,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			266,
+			1663,
+			92,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0106"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            22,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1366,
+			879,
+			86,
+			126
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0107"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            22,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1366,
+			879,
+			86,
+			126
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0108"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            31,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1570,
+			863,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0109"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            31,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1570,
+			863,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl1_0110"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1572,
+			1439,
+			86,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0111"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1572,
+			1439,
+			86,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0112"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            51,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1778,
+			1195,
+			85,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0113"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            51,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1778,
+			1195,
+			85,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl1_0114"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1052,
+			1558,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            37,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			726,
+			1472,
+			89,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            37,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			726,
+			1472,
+			89,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            39,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			843,
+			1842,
+			85,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            39,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			843,
+			1842,
+			85,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            40,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1139,
+			1622,
+			85,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            40,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1139,
+			1622,
+			85,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1446,
+			1737,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1446,
+			1737,
+			85,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            37,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			732,
+			1732,
+			87,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            37,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			732,
+			1732,
+			87,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            35,
+            47,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			828,
+			1001,
+			90,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            35,
+            47,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			828,
+			1001,
+			90,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            36,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1563,
+			427,
+			94,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            36,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1563,
+			427,
+			94,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            39,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			1953,
+			99,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            39,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			1953,
+			99,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            42,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1141,
+			1434,
+			99,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            42,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1141,
+			1434,
+			99,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            40,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			718,
+			995,
+			96,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            40,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			718,
+			995,
+			96,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            39,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			943,
+			1001,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            39,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			943,
+			1001,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1054,
+			1001,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1054,
+			1001,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            42,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			839,
+			1472,
+			89,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            42,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			839,
+			1472,
+			89,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            46,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1658,
+			1632,
+			101,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            46,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1658,
+			1632,
+			101,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			44,
+            45,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1545,
+			1934,
+			101,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			44,
+            45,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1545,
+			1934,
+			101,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            48,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1353,
+			1542,
+			105,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            48,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1353,
+			1542,
+			105,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1755,
+			111,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			624,
+			1755,
+			111,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			1909,
+			94,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			1909,
+			94,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            31,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1691,
+			647,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            31,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1691,
+			647,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            27,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			469,
+			774,
+			82,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            27,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			469,
+			774,
+			82,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            45,
+            18,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1261,
+			879,
+			120,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            45,
+            18,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1261,
+			879,
+			120,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            54,
+            20,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			847,
+			530,
+			119,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0044"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            54,
+            20,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			847,
+			530,
+			119,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0045"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			915,
+			1675,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0046"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			915,
+			1675,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0047"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1651,
+			1527,
+			100,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0048"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1651,
+			1527,
+			100,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0049"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1035,
+			1834,
+			94,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0050"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1035,
+			1834,
+			94,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0051"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1054,
+			1001,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0052"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            20,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1387,
+			655,
+			97,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0053"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            20,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1387,
+			655,
+			97,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0054"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            20,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1387,
+			655,
+			97,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0055"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            17,
+            41,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			133,
+			1652,
+			99,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0056"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            17,
+            41,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			133,
+			1652,
+			99,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0057"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            24,
+            39,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1285,
+			1083,
+			98,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0058"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            24,
+            39,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1385,
+			1083,
+			98,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0059"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            38,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1053,
+			651,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0060"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            38,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1053,
+			651,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0061"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            51,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			250,
+			1954,
+			111,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0062"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            51,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			250,
+			1954,
+			111,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0063"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            51,
+            30,
+            37
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			926,
+			897,
+			112,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0064"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            51,
+            30,
+            37
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			926,
+			897,
+			112,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0065"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			35,
+            44,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			397,
+			1626,
+			130,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0066"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			35,
+            44,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			397,
+			1626,
+			130,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0067"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			37,
+            44,
+            21,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			144,
+			1405,
+			132,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0068"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			37,
+            44,
+            21,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			144,
+			1405,
+			132,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0069"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            44,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			390,
+			1487,
+			137,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0070"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            44,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			390,
+			1487,
+			137,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0071"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			39,
+            44,
+            16,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			516,
+			1755,
+			135,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0072"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			39,
+            44,
+            16,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			516,
+			1755,
+			135,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0073"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            39,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			365,
+			1209,
+			137,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0074"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            39,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			365,
+			1209,
+			137,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0075"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            39,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			369,
+			1348,
+			137,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0076"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            39,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			369,
+			1348,
+			137,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0077"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            35,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			485,
+			1093,
+			137,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0078"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            35,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			485,
+			1093,
+			137,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0079"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            44,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			498,
+			1477,
+			137,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0080"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            44,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			498,
+			1477,
+			137,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0081"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			36,
+            44,
+            17,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			503,
+			1616,
+			137,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0082"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			740,
+			1211,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0083"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			740,
+			1211,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0084"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			961,
+			1211,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0085"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			961,
+			1211,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0086"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			880,
+			183,
+			133,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0087"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			40,
+            44,
+            17,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			880,
+			183,
+			133,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0088"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            24,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			962,
+			409,
+			124,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0089"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            24,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			962,
+			409,
+			124,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0090"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            44,
+            28,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1455,
+			1441,
+			113,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0091"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            44,
+            28,
+            40
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1455,
+			1441,
+			113,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0092"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            44,
+            33,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			732,
+			1845,
+			109,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0093"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            44,
+            33,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			732,
+			1845,
+			109,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0094"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            36,
+            27,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1874,
+			842,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0095"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            36,
+            27,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1147,
+			647,
+			112,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0096"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            27,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			930,
+			1841,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0097"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            27,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			930,
+			1841,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0098"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            34,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1875,
+			733,
+			107,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0099"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            34,
+            33,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1875,
+			733,
+			107,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0100"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            31,
+            39,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			648,
+			530,
+			106,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0101"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            31,
+            39,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1671,
+			963,
+			106,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0102"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            18,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			897,
+			96,
+			130
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0103"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            18,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			897,
+			96,
+			130
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0104"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            14,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			440,
+			93,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0105"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            14,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			440,
+			93,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0106"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            15,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1295,
+			342,
+			89,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0107"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            15,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1295,
+			342,
+			89,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0108"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            24,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1210,
+			88,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0109"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            24,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1210,
+			88,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl2_0110"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            37,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1165,
+			1001,
+			90,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0111"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            37,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1165,
+			1001,
+			90,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0112"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1659,
+			1736,
+			90,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0113"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            45,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1659,
+			1736,
+			90,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl2_0114"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			946,
+			1952,
+			90,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            37,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			349,
+			1954,
+			92,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            37,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			349,
+			1954,
+			92,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            40,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1226,
+			1719,
+			89,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            40,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1226,
+			1719,
+			89,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            40,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1336,
+			1735,
+			87,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            40,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1336,
+			1735,
+			87,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1336,
+			88,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1336,
+			88,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            37,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			537,
+			1954,
+			89,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            37,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			537,
+			1954,
+			89,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            35,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1780,
+			616,
+			93,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            35,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1780,
+			616,
+			93,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            36,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1779,
+			963,
+			97,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            36,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1779,
+			963,
+			97,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			1346,
+			100,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			845,
+			1346,
+			100,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1558,
+			103,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1558,
+			103,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            40,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1455,
+			1549,
+			97,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            40,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1455,
+			1549,
+			97,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            47,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1780,
+			731,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            39,
+            47,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1780,
+			731,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1020,
+			1666,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1020,
+			1666,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            42,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1038,
+			1942,
+			92,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            42,
+            48,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1038,
+			1942,
+			92,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            46,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1454,
+			979,
+			108,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            46,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1454,
+			979,
+			108,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            45,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1442,
+			1824,
+			105,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            45,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1442,
+			1824,
+			105,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1333,
+			1917,
+			105,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            48,
+            31,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1333,
+			1917,
+			105,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            24,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			1070,
+			112,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            42,
+            24,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			1070,
+			112,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1740,
+			1828,
+			96,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            46,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1740,
+			1828,
+			96,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            31,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1689,
+			1082,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            31,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1689,
+			1082,
+			87,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            26,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			564,
+			525,
+			82,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            26,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			564,
+			525,
+			82,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            43,
+            17,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			604,
+			297,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			52,
+            43,
+            17,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			604,
+			297,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            54,
+            18,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			524,
+			121,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0044"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            54,
+            18,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			524,
+			121,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0045"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            45,
+            30,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1346,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0046"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            45,
+            30,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			947,
+			1346,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0047"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            45,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			1909,
+			103,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0048"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            45,
+            36,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			1909,
+			103,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0049"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1226,
+			1810,
+			97,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0050"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            42,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1226,
+			1810,
+			97,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0051"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1020,
+			1666,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0052"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0053"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0054"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0055"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0056"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0057"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            42,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1339,
+			1434,
+			114,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0058"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            42,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1339,
+			1434,
+			114,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0059"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			21,
+            42,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1224,
+			433,
+			129,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0060"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			21,
+            42,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1224,
+			433,
+			129,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0061"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			19,
+            27,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			617,
+			1211,
+			129,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0062"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			17,
+            23,
+            42,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			389,
+			1758,
+			131,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0063"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            17,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			257,
+			1757,
+			130,
+			131
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0064"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            11,
+            45,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			133,
+			1513,
+			131,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0065"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			11,
+            6,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			169,
+			896,
+			133,
+			142
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0066"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            8,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1119,
+			130,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0067"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            10,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			126,
+			1753,
+			129,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0068"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			17,
+            11,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			478,
+			1210,
+			127,
+			137
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0069"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			19,
+            12,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			482,
+			1339,
+			125,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0070"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            24,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			726,
+			1346,
+			117,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0071"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            24,
+            46,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			726,
+			1346,
+			117,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0072"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            6,
+            42,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1914,
+			312,
+			106,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0073"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            6,
+            42,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1914,
+			312,
+			106,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0074"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            61,
+            38,
+            18
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1778,
+			1082,
+			98,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0075"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            66,
+            31,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			956,
+			110,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0076"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            66,
+            20,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			575,
+			649,
+			121,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0077"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			35,
+            66,
+            17,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			266,
+			1523,
+			138,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0078"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			35,
+            66,
+            14,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			342,
+			1083,
+			141,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0079"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            66,
+            9,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			252,
+			394,
+			154,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0080"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            66,
+            9,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			252,
+			520,
+			154,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0081"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            66,
+            9,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			408,
+			525,
+			154,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0082"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			27,
+            66,
+            9,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			644,
+			154,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0083"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			25,
+            59,
+            6,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			260,
+			197,
+			159,
+			131
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0084"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			25,
+            59,
+            6,
+            4
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1820,
+			70,
+			159,
+			127
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0085"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            59,
+            14,
+            4
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			360,
+			859,
+			143,
+			127
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0086"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            59,
+            14,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			489,
+			858,
+			143,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0087"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            60,
+            15,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			144,
+			1261,
+			142,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0088"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			33,
+            60,
+            15,
+            38
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			271,
+			1259,
+			142,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0089"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            52,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1978,
+			1295,
+			85,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0090"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            52,
+            54,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1978,
+			1295,
+			85,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0091"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            42,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1334,
+			1824,
+			91,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0092"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            42,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1334,
+			1824,
+			91,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0093"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0094"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            38,
+            50,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1675,
+			92,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0095"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            19,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1070,
+			1210,
+			98,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0096"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            19,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1070,
+			1210,
+			98,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0097"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            19,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1070,
+			1210,
+			98,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0098"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            16,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			823,
+			763,
+			100,
+			132
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0099"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            16,
+            40,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			823,
+			763,
+			100,
+			132
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0100"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            24,
+            37,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1485,
+			1083,
+			100,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0101"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			53,
+            24,
+            37,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1587,
+			1083,
+			100,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0102"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            37,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			443,
+			1954,
+			92,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0103"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            37,
+            44,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			443,
+			1954,
+			92,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0104"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            51,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1775,
+			847,
+			114,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0105"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            51,
+            25,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1775,
+			847,
+			114,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0106"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            51,
+            30,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1180,
+			1093,
+			115,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0107"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            51,
+            30,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1180,
+			1093,
+			115,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0108"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			37,
+            44,
+            24,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1196,
+			541,
+			129,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0109"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			37,
+            44,
+            24,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1196,
+			541,
+			129,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0110"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			39,
+            44,
+            20,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1063,
+			535,
+			131,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0111"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			39,
+            44,
+            20,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1063,
+			535,
+			131,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0112"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            17,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			955,
+			297,
+			131,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0113"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            17,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			955,
+			297,
+			131,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0114"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            15,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			331,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0115"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            15,
+            39
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			331,
+			133,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0116"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			609,
+			1342,
+			132,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0117"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			609,
+			1342,
+			132,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0118"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			746,
+			183,
+			132,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0119"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            39,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			746,
+			183,
+			132,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0120"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            35,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			335,
+			649,
+			132,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0121"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            35,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			335,
+			649,
+			132,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0122"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			300,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0123"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			300,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0124"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			698,
+			651,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0125"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			763,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0126"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			763,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0127"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			849,
+			1211,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0128"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			849,
+			1211,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0129"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			925,
+			763,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0130"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            16,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			925,
+			763,
+			132,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0131"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            23,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1436,
+			427,
+			125,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0132"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			42,
+            44,
+            23,
+            34
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1436,
+			427,
+			125,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0133"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            44,
+            27,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1267,
+			651,
+			118,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0134"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			45,
+            44,
+            27,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1267,
+			651,
+			118,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0135"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            44,
+            32,
+            37
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			1178,
+			112,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0136"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            44,
+            32,
+            37
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			1178,
+			112,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0137"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            36,
+            26,
+            38
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			844,
+			1093,
+			114,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0138"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			50,
+            36,
+            26,
+            36
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			943,
+			535,
+			114,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0139"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            26,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			628,
+			1954,
+			110,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0140"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			54,
+            45,
+            26,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			628,
+			1954,
+			110,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0141"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            33,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1339,
+			1325,
+			107,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0142"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			51,
+            33,
+            32,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1339,
+			1325,
+			107,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0143"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            30,
+            41,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			496,
+			103,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0144"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			46,
+            30,
+            41,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1877,
+			512,
+			103,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0145"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            18,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1037,
+			763,
+			98,
+			130
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0146"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            18,
+            43,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1037,
+			763,
+			98,
+			130
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0147"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            12,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			617,
+			857,
+			92,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0148"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			47,
+            12,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			617,
+			857,
+			92,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0149"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            15,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			420,
+			90,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0150"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            15,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1878,
+			420,
+			90,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0151"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            24,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1600,
+			655,
+			89,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0152"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			49,
+            24,
+            52,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1600,
+			655,
+			89,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0153"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            36,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1070,
+			1341,
+			91,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0154"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            36,
+            51,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1070,
+			1341,
+			91,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_lvl3_0155"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            45,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1131,
+			1804,
+			93,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0156"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            45,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1131,
+			1804,
+			93,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_lvl3_0157"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			48,
+            39,
+            49,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1115,
+			1709,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchDecal_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            88,
+            3,
+            6
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			430,
+			322,
+			172,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            88,
+            3,
+            9
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1028,
+			123,
+			172,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchDecal_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            81,
+            2,
+            9
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1301,
+			129,
+			174,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            81,
+            2,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			134,
+			174,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            87,
+            6,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			312,
+			169,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            87,
+            8,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			408,
+			420,
+			167,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            79,
+            8,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1820,
+			199,
+			168,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            81,
+            12,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			311,
+			164,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			17,
+            79,
+            3,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1123,
+			218,
+			170,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			17,
+            81,
+            3,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1295,
+			231,
+			170,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            82,
+            6,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1467,
+			255,
+			170,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchDecal_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			15,
+            84,
+            6,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			79,
+			1959,
+			169,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchDecal_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			190,
+			190
+		},
+		trim = {
+			14,
+            84,
+            0,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1123,
+			113,
+			176,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1761,
+			1617,
+			94,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchFx_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1761,
+			1617,
+			94,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchFx_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			2014,
+			99,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			2014,
+			99,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			0,
+            0,
+            2,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1787,
+			103,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			0,
+            0,
+            2,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			821,
+			1787,
+			103,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			716,
+			1675,
+			103,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			716,
+			1675,
+			103,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            11,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1444,
+			88,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            11,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1444,
+			88,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1761,
+			1617,
+			94,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchFx_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1761,
+			1617,
+			94,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_Frankie_PunchFx_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			2014,
+			99,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1132,
+			2014,
+			99,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			0,
+            0,
+            2,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			926,
+			1786,
+			103,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			0,
+            0,
+            2,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			926,
+			1786,
+			103,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			716,
+			1675,
+			103,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			716,
+			1675,
+			103,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            11,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1497,
+			88,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_Frankie_PunchFx_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			105,
+			55
+		},
+		trim = {
+			6,
+            2,
+            11,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1497,
+			88,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_stg20_stone_lights_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			211,
+			169
+		},
+		trim = {
+			102,
+            40,
+            72,
+            42
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			122,
+			605,
+			37,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_stg20_stone_lights_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			211,
+			169
+		},
+		trim = {
+			97,
+            75,
+            84,
+            51
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1802,
+			2035,
+			30,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_stg20_stone_lights_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			211,
+			169
+		},
+		trim = {
+			99,
+            96,
+            67,
+            29
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			197,
+			379,
+			45,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Halloween_stg20_stone_lights_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			211,
+			169
+		},
+		trim = {
+			106,
+            85,
+            75,
+            33
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1749,
+			2035,
+			30,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Halloween_stg20_stone_lights_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			211,
+			169
+		},
+		trim = {
+			97,
+            87,
+            85,
+            43
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			211,
+			601,
+			29,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			18,
+            74,
+            174,
+            96
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1994,
+			1595,
+			52,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			18,
+            74,
+            174,
+            96
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1994,
+			1595,
+			52,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			30,
+            57,
+            168,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1325,
+			2019,
+			46,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			30,
+            57,
+            168,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1325,
+			2019,
+			46,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			7,
+            57,
+            166,
+            120
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			2005,
+			71,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			7,
+            57,
+            166,
+            120
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			2005,
+			71,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			5,
+            47,
+            165,
+            123
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1366,
+			1007,
+			74,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			5,
+            47,
+            165,
+            123
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1366,
+			1007,
+			74,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            56,
+            172,
+            135
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1451,
+			66,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            56,
+            172,
+            135
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1451,
+			66,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            44,
+            178,
+            140
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			323,
+			1890,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            44,
+            178,
+            140
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			323,
+			1890,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			42,
+            137,
+            174,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			297,
+			28,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			42,
+            137,
+            174,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1088,
+			297,
+			28,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			30,
+            129,
+            180,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			304,
+			1062,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			30,
+            129,
+            180,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			304,
+			1062,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			22,
+            81,
+            178,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1916,
+			1429,
+			44,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			22,
+            81,
+            178,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1916,
+			1429,
+			44,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			18,
+            75,
+            168,
+            87
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			950,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			18,
+            75,
+            168,
+            87
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			950,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            57,
+            171,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1991,
+			685,
+			67,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            57,
+            171,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1991,
+			685,
+			67,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			2,
+            50,
+            163,
+            84
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			577,
+			420,
+			79,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			2,
+            50,
+            163,
+            84
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			577,
+			420,
+			79,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            47,
+            165,
+            99
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1223,
+			331,
+			70,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            47,
+            165,
+            99
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1223,
+			331,
+			70,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            48,
+            172,
+            108
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1988,
+			867,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			6,
+            48,
+            172,
+            108
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1988,
+			867,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer1_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			5,
+            48,
+            177,
+            149
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			281,
+			1890,
+			62,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			5,
+            48,
+            177,
+            149
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			281,
+			1890,
+			62,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer1_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            89,
+            204,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			131,
+			1261,
+			9,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			0,
+            0,
+            241,
+            234
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			335,
+			644,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			177,
+            137,
+            29,
+            63
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			2025,
+			38,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			177,
+            137,
+            29,
+            63
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			2025,
+			38,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			56,
+            117,
+            24,
+            66
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			304,
+			896,
+			164,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			56,
+            117,
+            24,
+            66
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			304,
+			896,
+			164,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            96,
+            21,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			111,
+			1064,
+			45,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            96,
+            21,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			111,
+			1064,
+			45,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			174,
+            74,
+            20,
+            96
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1763,
+			50,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			174,
+            74,
+            20,
+            96
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1763,
+			50,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            57,
+            31,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1962,
+			1491,
+			45,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            57,
+            31,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1962,
+			1491,
+			45,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			166,
+            56,
+            8,
+            120
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1232,
+			70,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			166,
+            56,
+            8,
+            120
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1232,
+			70,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            47,
+            6,
+            123
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1070,
+			73,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            47,
+            6,
+            123
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1070,
+			73,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			171,
+            56,
+            8,
+            135
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1869,
+			65,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			171,
+            56,
+            8,
+            135
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1869,
+			65,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            44,
+            6,
+            140
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			512,
+			1892,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            44,
+            6,
+            140
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			512,
+			1892,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			196,
+            87,
+            41,
+            143
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1981,
+			190,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			174,
+            137,
+            43,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1840,
+			27,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			174,
+            137,
+            43,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1840,
+			27,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			180,
+            129,
+            30,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1653,
+			781,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			180,
+            129,
+            30,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1653,
+			781,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            81,
+            23,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1962,
+			1446,
+			43,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            81,
+            23,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1962,
+			1446,
+			43,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            75,
+            18,
+            87
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			1010,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            75,
+            18,
+            87
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			1010,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			171,
+            57,
+            6,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1139,
+			67,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			171,
+            57,
+            6,
+            89
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1139,
+			67,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			163,
+            50,
+            3,
+            84
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			611,
+			1675,
+			78,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			163,
+            50,
+            3,
+            84
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			611,
+			1675,
+			78,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            47,
+            11,
+            99
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1447,
+			754,
+			68,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            47,
+            11,
+            99
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1447,
+			754,
+			68,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_chargeLoop_layer2_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			172,
+            48,
+            6,
+            108
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1731,
+			1451,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			172,
+            48,
+            6,
+            108
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1731,
+			1451,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_chargeLoop_layer2_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			177,
+            48,
+            6,
+            149
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			470,
+			1891,
+			61,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			21,
+            164,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			260,
+			330,
+			168,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            162,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			245,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            162,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			245,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			122,
+			429,
+			174,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			122,
+			429,
+			174,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			14,
+            161,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			134,
+			175,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_DrCrazy_layer1_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			17,
+            158,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			252,
+			172,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            162,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			245,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            162,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			245,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_DrCrazy_layer1_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			21,
+            164,
+            55,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			260,
+			330,
+			168,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			843,
+			897,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1517,
+			655,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1517,
+			655,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            84,
+            78,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			658,
+			420,
+			79,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            84,
+            78,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			658,
+			420,
+			79,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            84,
+            78,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			658,
+			420,
+			79,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            83,
+            78,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1355,
+			433,
+			79,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            83,
+            78,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1355,
+			433,
+			79,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            60,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			360,
+			1004,
+			77,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            60,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			360,
+			1004,
+			77,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            54,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			263,
+			1119,
+			77,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            54,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			263,
+			1119,
+			77,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			169,
+			1040,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			169,
+			1040,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            63,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1170,
+			1210,
+			77,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            63,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1170,
+			1210,
+			77,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0044"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0045"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0046"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0047"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0048"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0049"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0050"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0051"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0052"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0053"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0054"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0055"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0056"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0057"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0058"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0059"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0060"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0061"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0062"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0063"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0064"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0065"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0066"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0067"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0068"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0069"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0070"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0071"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0072"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0073"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0074"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0075"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0076"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0077"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0078"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0079"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0080"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0081"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            59,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1743,
+			417,
+			77,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0082"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            54,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			263,
+			1119,
+			77,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0083"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            54,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			263,
+			1119,
+			77,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0084"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            72,
+            81,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			190,
+			75,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0085"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			88,
+            72,
+            81,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1990,
+			190,
+			75,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0086"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1517,
+			759,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0087"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1517,
+			759,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer1_0088"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1550,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0089"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1249,
+			1550,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer1_0090"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            90,
+            76,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			843,
+			897,
+			81,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1184,
+			1341,
+			61,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			87,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1184,
+			1341,
+			61,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			84,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			126,
+			1893,
+			64,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			84,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			126,
+			1893,
+			64,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			83,
+            107,
+            93,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1997,
+			598,
+			68,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			83,
+            107,
+            93,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1997,
+			598,
+			68,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			78,
+            105,
+            87,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1691,
+			766,
+			79,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			78,
+            105,
+            87,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1691,
+			766,
+			79,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			76,
+            106,
+            88,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1278,
+			1001,
+			80,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			76,
+            106,
+            88,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1278,
+			1001,
+			80,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			74,
+            106,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			1655,
+			91,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			74,
+            106,
+            79,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1565,
+			1655,
+			91,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			81,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1991,
+			778,
+			67,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			81,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1991,
+			778,
+			67,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1617,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1617,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1686,
+			1354,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1686,
+			1354,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1764,
+			1713,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1764,
+			1713,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			420,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			420,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			2013,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			2013,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1677,
+			1439,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1677,
+			1439,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			509,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			509,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1617,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1814,
+			1617,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1686,
+			1354,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1686,
+			1354,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0044"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1764,
+			1713,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0045"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1764,
+			1713,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0046"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			420,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0047"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			420,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0048"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			2013,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0049"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1237,
+			2013,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0050"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1677,
+			1439,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0051"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            106,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1677,
+			1439,
+			52,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0052"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			509,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0053"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			2013,
+			509,
+			52,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0054"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1818,
+			1704,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0055"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1818,
+			1704,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0056"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			385,
+			1891,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0057"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            109,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			385,
+			1891,
+			51,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0058"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1841,
+			1375,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0059"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1841,
+			1375,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0060"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1862,
+			1429,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0061"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			96,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1862,
+			1429,
+			52,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0062"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1978,
+			1393,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0063"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            107,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1978,
+			1393,
+			51,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0064"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            112,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1600,
+			781,
+			51,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0065"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			97,
+            112,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1600,
+			781,
+			51,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0066"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			98,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1689,
+			1201,
+			50,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0067"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			98,
+            105,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1689,
+			1201,
+			50,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_Frankie_layer2_0068"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0069"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0070"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0071"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0072"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0073"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0074"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0075"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0076"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            96,
+            45
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1430,
+			342,
+			35,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0077"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0078"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0079"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0080"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0081"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0082"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0083"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0084"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0085"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0086"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0087"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0088"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0089"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_Frankie_layer2_0090"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			113,
+            134,
+            125,
+            97
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			711,
+			412,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer1_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			15,
+            18,
+            14,
+            27
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			6,
+			215,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			770,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			113,
+			657,
+			175,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			113,
+			657,
+			175,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			78,
+			1334,
+			177,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			78,
+			1334,
+			177,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			70,
+			1555,
+			175,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			70,
+			1555,
+			175,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            23,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			189,
+			425,
+			174,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            23,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			189,
+			425,
+			174,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            167,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			65,
+			1782,
+			175,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            167,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			65,
+			1782,
+			175,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			674,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			674,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            170,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			111,
+			887,
+			175,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            170,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			111,
+			887,
+			175,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            168,
+            22,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			851,
+			123,
+			175,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			197,
+			200,
+			177,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			197,
+			200,
+			177,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer2_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			449,
+			186,
+			177,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            162,
+            20,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			449,
+			186,
+			177,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer2_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			47,
+            165,
+            24,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			179,
+			833,
+			173,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			35,
+            128,
+            162,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1937,
+			47,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			35,
+            128,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1867,
+			1659,
+			47,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            118,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1917,
+			51,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			31,
+            117,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			113,
+			834,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1851,
+			1519,
+			54,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1031,
+			1777,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			211,
+			1893,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			211,
+			1893,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			211,
+			1893,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1962,
+			1538,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            162,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1867,
+			1589,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            164,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1907,
+			1516,
+			53,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            165,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1996,
+			1778,
+			52,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            165,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1926,
+			1815,
+			52,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			27,
+            101,
+            165,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1652,
+			52,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            169,
+            91
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1945,
+			1967,
+			47,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer3_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            169,
+            91
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1978,
+			47,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			28,
+            101,
+            179,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1439,
+			2032,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer3_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			48,
+            128,
+            190,
+            103
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1676,
+			647,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            121,
+            35,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1992,
+			1889,
+			47,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            121,
+            35,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			70,
+			1732,
+			47,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            117,
+            31,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			567,
+			1892,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            117,
+            31,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1838,
+			1975,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            28,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1871,
+			1702,
+			54,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1924,
+			1595,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1706,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1706,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1927,
+			1706,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1997,
+			1664,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            68
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1997,
+			1721,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			162,
+            101,
+            27,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1994,
+			1832,
+			55,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			164,
+            101,
+            27,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1871,
+			1772,
+			53,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            101,
+            27,
+            70
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1838,
+			1840,
+			52,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			165,
+            101,
+            27,
+            71
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1838,
+			1908,
+			52,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            101,
+            28,
+            91
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1928,
+			1375,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			168,
+            101,
+            28,
+            91
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1945,
+			1917,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			178,
+            101,
+            28,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			197,
+			38,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer4_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer4_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			187,
+            121,
+            51,
+            110
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1772,
+			616,
+			6,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            58,
+            10,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1555,
+			225,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            58,
+            10,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1555,
+			225,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            58,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1805,
+			6,
+			227,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            58,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1805,
+			6,
+			227,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0019"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            57,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1576,
+			6,
+			227,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0020"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            57,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1576,
+			6,
+			227,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0021"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            15,
+            8,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			657,
+			228,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0022"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            15,
+            8,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			657,
+			228,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0023"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            15,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1123,
+			6,
+			227,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0024"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            15,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1123,
+			6,
+			227,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0025"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            5,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			200,
+			227,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0026"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			8,
+            5,
+            9,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			200,
+			227,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0027"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            3,
+            10,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			223,
+			6,
+			225,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0028"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            3,
+            10,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			223,
+			6,
+			225,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0029"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            0,
+            11,
+            118
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			450,
+			6,
+			222,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0030"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            0,
+            11,
+            118
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			450,
+			6,
+			222,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0031"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            5,
+            11,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			674,
+			6,
+			224,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0032"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            5,
+            11,
+            117
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			674,
+			6,
+			224,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0033"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            5,
+            9,
+            118
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			429,
+			226,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0034"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            5,
+            9,
+            118
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			429,
+			226,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0035"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            3,
+            12,
+            119
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			900,
+			6,
+			221,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0036"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            3,
+            12,
+            119
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			900,
+			6,
+			221,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0037"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            0,
+            11,
+            134
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			887,
+			222,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0038"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            0,
+            11,
+            134
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			887,
+			222,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_layer5_0039"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            30,
+            9,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			223,
+			125,
+			224,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0040"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			11,
+            30,
+            9,
+            137
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			223,
+			125,
+			224,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0041"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            27,
+            13,
+            138
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1352,
+			6,
+			222,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0042"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			9,
+            27,
+            13,
+            138
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1352,
+			6,
+			222,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_layer5_0043"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			244,
+			237
+		},
+		trim = {
+			38,
+            82,
+            200,
+            148
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			421,
+			322,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1111,
+			220,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1111,
+			220,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			123,
+			200,
+			223,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			123,
+			200,
+			223,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            3,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1333,
+			220,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            0,
+            3,
+            2
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1333,
+			220,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            6,
+            3,
+            9
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			449,
+			127,
+			220,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_ray_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            4,
+            9,
+            7
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1577,
+			71,
+			214,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_ray_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            6,
+            2,
+            9
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			6,
+			1782,
+			221,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            13,
+            2,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			80,
+			1111,
+			221,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            13,
+            2,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			80,
+			1111,
+			221,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenTesla_ray_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            14,
+            0,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1352,
+			80,
+			223,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["HalloweenTesla_ray_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			223,
+			72
+		},
+		trim = {
+			0,
+            14,
+            0,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1352,
+			80,
+			223,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0001"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			78,
+			1513,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0002"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			78,
+			1513,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0003"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1970,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0004"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1892,
+			1970,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0005"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0006"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0007"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1397,
+			2019,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0008"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1397,
+			2019,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1891,
+			2014,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1891,
+			2014,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0011"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0012"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0013"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1397,
+			2019,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0014"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            15,
+            23,
+            12
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1397,
+			2019,
+			40,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TowerHalloween_lightning_hit_0015"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1891,
+			2014,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0016"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			21,
+            12,
+            21,
+            11
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1891,
+			2014,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0017"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TowerHalloween_lightning_hit_0018"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			84,
+			67
+		},
+		trim = {
+			24,
+            15,
+            23,
+            10
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1937,
+			2016,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0104"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            4,
+            4
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1753,
+			1519,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0104"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			611,
+			1563,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0104_disabled"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			723,
+			1563,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0104_disabled_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			733,
+			1954,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0104_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			835,
+			1563,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0009"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1225,
+			763,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0009_disabled"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1339,
+			1209,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0009_disabled_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1454,
+			863,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0009_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1455,
+			1209,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0010"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1571,
+			1209,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0010_disabled"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1875,
+			617,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0010_disabled_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1659,
+			847,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0010_turn_off"] = {
+		a_name = "tower_fankenstein.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			2071,
+			2071
+		},
+		f_quad = {
+			1456,
+			1325,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/scripts.lua
-
 local log = require("klua.log"):new("scripts")
 
 require("klua.table")
@@ -699,7 +697,7 @@ function scripts.enemy_basic.get_info(this)
 		damage_icon = this.info.damage_icon,
 		armor = armor,
 		magic_armor = magic_armor,
-		lives = this.enemy.lives_cost,
+		lives = this.enemy and this.enemy.lives_cost or this._original_enemy and this._original_enemy.lives_cost,
 		immune = this.health.immune_to == DAMAGE_ALL_TYPES
 	}
 end
@@ -759,7 +757,7 @@ function scripts.enemy_basic.insert(this, store, script)
 		end
 	end
 
-	this.enemy.gold_bag = math.ceil(this.enemy.gold * 0.3)
+	this.enemy.gold_bag = math.ceil(this.enemy.gold * 1.0)
 
 	if this.water and this.spawn_data and this.spawn_data.water_ignore_pi then
 		this.water.ignore_pi = this.spawn_data.water_ignore_pi
@@ -850,7 +848,7 @@ function scripts.enemy_mixed.update(this, store, script)
 					if not SU.y_wait_for_blocker(store, this, blocker) then
 						goto label_29_0
 					end
-
+					
 					while SU.can_melee_blocker(store, this, blocker) do
 						if not SU.y_enemy_melee_attacks(store, this, blocker) then
 							goto label_29_0
@@ -1205,7 +1203,8 @@ function scripts.soldier_reinforcement.get_info(this)
 		damage_min = min,
 		damage_max = max,
 		damage_icon = this.info.damage_icon,
-		armor = this.health.armor
+		armor = this.health.armor,
+		magic_armor = this.health.magic_armor
 	}
 end
 
@@ -1354,6 +1353,7 @@ function scripts.soldier_barrack.get_info(this)
 		damage_max = max,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end
@@ -1433,6 +1433,24 @@ end
 function scripts.soldier_barrack.update(this, store, script)
 	local brk, sta
 
+	local function check_tower_damage_factor()
+		local tower = store.entities[this.soldier.tower_id]
+		if tower then
+			for _, a in ipairs(this.melee.attacks) do
+				if not a._original_damage_min then
+					a._original_damage_min = a.damage_min
+				end
+
+				if not a._original_damage_max then
+					a._original_damage_max = a.damage_max
+				end
+
+				a.damage_min = a._original_damage_min * tower.tower.damage_factor
+				a.damage_max = a._original_damage_max * tower.tower.damage_factor
+			end
+		end
+	end
+
 	if this.vis._bans then
 		this.vis.bans = this.vis._bans
 		this.vis._bans = nil
@@ -1503,6 +1521,8 @@ function scripts.soldier_barrack.update(this, store, script)
 					goto label_43_1
 				end
 			end
+
+			check_tower_damage_factor()
 
 			if this.timed_actions then
 				brk, sta = SU.y_soldier_timed_actions(store, this)
@@ -1597,6 +1617,9 @@ function scripts.hero_basic.get_info_ranged(this)
 	local a = this.ranged.attacks[1]
 	local b = E:get_template(a.bullet)
 	local min, max = b.bullet.damage_min, b.bullet.damage_max
+	if b.bullet.use_unit_damage_factor then
+		min, max = min * this.unit.damage_factor, max * this.unit.damage_factor
+	end
 
 	return {
 		type = STATS_TYPE_SOLDIER,
@@ -1662,7 +1685,7 @@ function scripts.tower_common.get_info(this)
 	end
 
 	return {
-		type = STATS_TYPE_TOWER,
+		type = d_type == DAMAGE_MAGICAL and STATS_TYPE_TOWER_MAGE or STATS_TYPE_TOWER,
 		damage_min = min,
 		damage_max = max,
 		damage_type = d_type,
@@ -1988,8 +2011,8 @@ function scripts.tower_barrack.get_info(this)
 
 	for _, a in pairs(attacks) do
 		if a.damage_min then
-			min, max = a.damage_min, a.damage_max
-
+			local damage_factor = this.tower.damage_factor
+			min, max = a.damage_min * damage_factor, a.damage_max * damage_factor
 			break
 		end
 	end
@@ -2054,7 +2077,11 @@ function scripts.tower_barrack.update(this, store, script)
 
 				if not s or s.health.dead and not store.entities[s.id] then
 					if not b.door_open then
-						S:queue("GUITowerOpenDoor")
+						if this.sound_events.open_door then
+							S:queue(this.sound_events.open_door)
+						else
+							S:queue("GUITowerOpenDoor")
+						end
 						U.animation_start(this, "open", nil, store.tick_ts, 1, door_sid)
 
 						while not U.animation_finished(this, door_sid) do
@@ -2260,6 +2287,11 @@ function scripts.arrow.insert(this, store, script)
 
 	if b.hide_radius then
 		this.render.sprites[1].hidden = true
+	end
+
+	local s = this.render.sprites[1]
+	if s.animated then
+		s.ts = store.tick_ts
 	end
 
 	return true
@@ -4149,10 +4181,6 @@ function scripts.aura_apply_mod.update(this, store, script)
 	end
 
 	while true do
-		if this.interrupt then
-			last_hit_ts = 1e+99
-		end
-
 		if this.aura.cycles and cycles_count >= this.aura.cycles or this.aura.duration >= 0 and store.tick_ts - this.aura.ts > this.actual_duration then
 			break
 		end
@@ -4201,7 +4229,7 @@ function scripts.aura_apply_mod.update(this, store, script)
 			end
 		end
 
-		if not (store.tick_ts - last_hit_ts >= this.aura.cycle_time) or this.aura.apply_duration and first_hit_ts and store.tick_ts - first_hit_ts > this.aura.apply_duration then
+		if not (store.tick_ts - last_hit_ts >= this.aura.cycle_time) or this.aura.apply_duration and first_hit_ts and store.tick_ts - first_hit_ts > this.aura.apply_duration or this.interrupt then
 			-- block empty
 		else
 			if this.render and this.aura.cast_resets_sprite_id then
@@ -4683,6 +4711,9 @@ function scripts.mod_track_target.update(this, store, script)
 			local s = this.render.sprites[1]
 			local flip_sign = 1
 
+			if not s._original_offset then
+				s._original_offset = V.vclone(s.offset)
+			end
 			if target.render then
 				flip_sign = target.render.sprites[1].flip_x and -1 or 1
 			end
@@ -4690,10 +4721,9 @@ function scripts.mod_track_target.update(this, store, script)
 			if m.health_bar_offset and target.health_bar then
 				local hb = target.health_bar.offset
 				local hbo = m.health_bar_offset
-
-				s.offset.x, s.offset.y = hb.x + hbo.x * flip_sign, hb.y + hbo.y
+				s.offset.x, s.offset.y = hb.x + (s._original_offset.x + hbo.x) * flip_sign, hb.y + hbo.y + s._original_offset.y
 			elseif m.use_mod_offset and target.unit.mod_offset then
-				s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
+				s.offset.x, s.offset.y = (s._original_offset.x + target.unit.mod_offset.x) * flip_sign, target.unit.mod_offset.y + s._original_offset.y
 			end
 		end
 
@@ -4781,15 +4811,13 @@ function scripts.mod_freeze.update(this, store)
 
 	this._decal_freeze = es
 	es.pos.x, es.pos.y = target.pos.x, target.pos.y
-	es.render = table.deepclone(target.render)
-
-	for i, s in ipairs(es.render.sprites) do
-		s.shader = es.shader
-		s.shader_args = es.shader_args
-		s.animated = false
-		s.prefix = nil
-		s.name = this._entity_frame_names[i]
-	end
+	es.render.sprites[1] = table.deepclone(target.render.sprites[1])
+	local sprite1 = es.render.sprites[1]
+	sprite1.shader = es.shader
+	sprite1.shader_args = es.shader_args
+	sprite1.animated = false
+	sprite1.prefix = nil
+	sprite1.name = this._entity_frame_names[1]
 
 	queue_insert(store, es)
 	coroutine.yield()
@@ -5399,7 +5427,7 @@ function scripts.mod_silence.insert(this, store, script)
 	end
 
 	if this.custom_offsets then
-		s.offset = V.vclone(this.custom_offsets[target.template_name] or this.custom_offsets.default)
+		s.offset = V.vclone(this.custom_offsets[target.template_name] or band(target.vis.flags, F_FLYING) ~= 0 and this.custom_offsets.flying or this.custom_offsets.default)
 		s.offset.x = s.offset.x * (s.flip_x and -1 or 1)
 
 		if target.unit and target.unit.mod_offset and this.modifier.use_mod_offset then
@@ -5934,8 +5962,8 @@ end
 function scripts.mod_teleport.insert(this, store)
 	local target = store.entities[this.modifier.target_id]
 
-	if target and target.health and not target.health.dead and this._pushed_bans ~= nil and (not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and (not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
-		target.health.ignore_damage = true
+	if target and target.enemy and target.health and not target.health.dead and this._pushed_bans ~= nil and (not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and (not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
+		-- target.health.ignore_damage = true
 
 		SU.stun_inc(target)
 
@@ -6161,7 +6189,14 @@ function scripts.mod_polymorph.insert(this, store, script)
 		queue_insert(store, fx)
 	end
 
-	local e_name = pm.custom_entity_names[target.template_name] or pm.custom_entity_names.default
+	local e_name = pm.custom_entity_names[target.template_name]
+	if not e_name then
+		if band(target.vis.flags, F_FLYING) ~= 0 and pm.custom_entity_names.default_flying then
+			e_name = pm.custom_entity_names.default_flying
+		else
+			e_name = pm.custom_entity_names.default
+		end
+	end
 	local e = E:create_entity(e_name)
 
 	e.pos = V.vclone(target.pos)
@@ -6196,10 +6231,53 @@ function scripts.mod_polymorph.insert(this, store, script)
 		end
 	end
 
+	e._original_unit_name = target.template_name
 	queue_insert(store, e)
+	m.target_id = e.id
 	signal.emit("mod-applied", this, target)
-	queue_remove(store, this)
 
+	if m.duration then
+		return true
+	end
+	queue_remove(store, this)
+	return false
+end
+
+function scripts.mod_polymorph.update(this, store, script)
+	local m = this.modifier
+	m.ts = store.tick_ts
+	local target = store.entities[m.target_id]
+	while true do
+		if not target or target.health.dead or m.duration >= 0 and store.tick_ts - m.ts > m.duration then
+			queue_remove(store, this)
+			return
+		end
+		coroutine.yield()
+	end
+end
+
+function scripts.mod_polymorph.remove(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+	if target and not target.health.dead and target._original_unit_name then
+		local original_unit = E:create_entity(target._original_unit_name)
+		original_unit.pos = V.vclone(target.pos)
+		original_unit.nav_path = table.deepclone(target.nav_path)
+		original_unit.health.hp = math.ceil(target.health.hp / target.health.hp_max * original_unit.health.hp_max)
+		local pm = this.polymorph
+		if pm.hit_fx_sizes then
+			local fx = E:create_entity(pm.hit_fx_sizes[target.unit.size])
+			fx.pos = V.vclone(target.pos)
+			if m.use_mod_offset then
+				fx.pos.x, fx.pos.y = fx.pos.x + target.unit.mod_offset.x, fx.pos.y + target.unit.mod_offset.y
+			end
+			fx.render.sprites[1].ts = store.tick_ts
+			fx.render.sprites[1].draw_order = 2
+			queue_insert(store, fx)
+		end
+		queue_insert(store, original_unit)
+		queue_remove(store, target)
+	end
 	return true
 end
 
@@ -6658,7 +6736,31 @@ function scripts.mega_spawner.update(this, store)
 						e.custom_spawn_data = custom_data
 
 						queue_insert(store, e)
+
 						log.paranoid("%06.2f : SPAWN (%06.2f) - %s from:%s,%s to:%s,%s pi:%s spi:%s", store.tick_ts, ts, template, p_from.x, p_from.y, p_to.x, p_to.y, p_pi, p_spi)
+
+						if store.extra_enemies and store.extra_enemies > 0 then
+							for i = 1, store.extra_enemies do
+								e = E:create_entity(template)
+								e.nav_path.pi = node.pi
+								e.nav_path.spi = km.zmod(node.spi + i, 3)
+								e.nav_path.ni = node.ni
+								e.pos = V.vclone(p_from)
+								e.motion.forced_waypoint = P:node_pos(e.nav_path)
+								if raise then
+									e.render.sprites[1].name = "raise"
+								end
+								e.custom_spawn_data = custom_data
+								if e.health then
+									e.health.hp_max = math.ceil(e.health.hp_max * (store.extra_enemies * 0.15 + 1))
+								end
+								if e.enemy then
+									e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
+								end
+								U.y_wait(store, fts(2))
+								queue_insert(store, e)
+							end
+						end
 					end
 
 					::label_160_1::
@@ -7005,7 +7107,7 @@ function scripts.power_reinforcements_control.insert(this, store, script)
 	return true
 end
 
-if IS_KR1 or IS_KR2 then
+if true then
 	scripts.abomination_explosion_aura = {}
 
 	function scripts.abomination_explosion_aura.update(this, store)
@@ -7080,7 +7182,7 @@ if IS_KR1 or IS_KR2 then
 
 	function scripts.mod_lycanthropy.update(this, store)
 		while true do
-			if IS_KR1 or this.active or store.level.moon_controller and store.level.moon_controller.moon_active then
+			if this.active or store.level.moon_controller and store.level.moon_controller.moon_active then
 				local target = store.entities[this.modifier.target_id]
 
 				if not target or target.health.dead then
@@ -7099,6 +7201,7 @@ if IS_KR1 or IS_KR2 then
 
 				if target.nav_path then
 					e.nav_path = table.deepclone(target.nav_path)
+					e.nav_path.dir = 1
 				else
 					local nearest = P:nearest_nodes(e.pos.x, e.pos.y, nil, {
 						1,

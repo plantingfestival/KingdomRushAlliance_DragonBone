@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level11_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -26,6 +24,13 @@ return {
 		}
 	},
 	entities_list = {
+		{
+			template = "tower_mage_1",
+			pos = {
+				x = 115,
+				y = 495
+			}
+		},
 		{
 			template = "controller_stage_11_cult_leader",
 			pos = {
@@ -1038,13 +1043,20 @@ return {
 		"stage_11",
 		"music_stage11",
 		"enemies_terrain_2",
-		"tower_elven_stargazers"
+		"tower_elven_stargazers",
+		"enemies_ancient_metropolis",
+		"enemies_underground",
+		"tower_random"
 	},
 	required_textures = {
 		"go_enemies_terrain_2",
 		"go_stage11_bg",
 		"go_stage11",
 		"go_towers_elven_stargazers",
-		"go_stages_terrain2"
+		"go_stages_terrain2",
+		"go_enemies_ancient_metropolis",
+		"go_enemies_halloween",
+		"go_enemies_underground",
+		"go_towers_random"
 	}
 }

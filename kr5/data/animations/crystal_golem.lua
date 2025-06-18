@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/crystal_golem.lua
-
 local a = {
 	crystal_golem_creep_idle = {
 		prefix = "crystal_golem_creep",
@@ -41,7 +39,7 @@ local a = {
 		to = 291,
 		from = 193
 	},
-	crystal_golem_decal_idle = {
+	crystal_golem_decal = {
 		prefix = "crystal_golem_decal",
 		to = 31,
 		from = 1

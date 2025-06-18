@@ -1,6 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level16.lua
-
-local log = require("klua.log"):new("level01")
+﻿local log = require("klua.log"):new("level01")
 local signal = require("hump.signal")
 local E = require("entity_db")
 local S = require("sound_db")
@@ -60,7 +58,6 @@ function level:update(store)
 		store.waves_finished = true
 		store.level.run_complete = true
 		store.custom_game_outcome = {
-			postpone_unload = true,
 			next_item_name = "kr5_end"
 		}
 	end

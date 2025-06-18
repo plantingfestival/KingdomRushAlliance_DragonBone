@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/hero_lava.lua
-
 local a = {
 	hero_lava_hero_idle = {
 		prefix = "hero_lava_hero",
@@ -143,7 +141,7 @@ local a = {
 	},
 	hero_lava_skill_3_particle_idle = {
 		prefix = "hero_lava_skill_3_particle",
-		to = 10,
+		to = 9,
 		from = 1
 	},
 	hero_lava_skill_3_projectile_idle = {
@@ -152,5 +150,4 @@ local a = {
 		from = 1
 	}
 }
-
 return a

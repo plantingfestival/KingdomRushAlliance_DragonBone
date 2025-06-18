@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/waves/level08_waves_campaign.lua
-
 return {
 	cash = 1200,
 	groups = {
@@ -143,21 +141,59 @@ return {
 					spawns = {
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 390,
-							max = 5
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 40,
+							max = 3
 						},
 						{
 							interval = 40,
-							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 300,
-							max = 5
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_razorwing",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 40,
+							max = 3
 						}
 					}
 				},
@@ -166,31 +202,114 @@ return {
 					path_index = 4,
 					spawns = {
 						{
-							interval = 45,
-							max_same = 0,
+							interval = 40,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 300,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 40,
 							max = 3
 						},
 						{
-							interval = 45,
-							max_same = 0,
+							interval = 40,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 300,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 40,
 							max = 3
 						},
 						{
-							interval = 45,
-							max_same = 0,
+							interval = 40,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 60,
-							max = 4
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_razorwing",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 360,
+					path_index = 7,
+					spawns = {
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_spiderling",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 40,
+							max = 3
 						}
 					}
 				}
@@ -644,7 +763,7 @@ return {
 			interval = 750,
 			waves = {
 				{
-					delay = 240,
+					delay = 480,
 					path_index = 1,
 					spawns = {
 						{
@@ -799,28 +918,55 @@ return {
 					spawns = {
 						{
 							interval = 60,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_unblinded_priest",
-							path = 1,
+							path = 3,
 							interval_next = 390,
 							max = 2
 						},
 						{
 							interval = 60,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_unblinded_priest",
-							path = 1,
+							path = 3,
 							interval_next = 390,
 							max = 3
 						},
 						{
 							interval = 60,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_unblinded_priest",
-							path = 1,
+							path = 3,
+							interval_next = 270,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 5,
+					spawns = {
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
+							interval_next = 270,
+							max = 2
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
+							interval_next = 270,
+							max = 3
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
 							interval_next = 270,
 							max = 3
 						}
@@ -829,38 +975,91 @@ return {
 			}
 		},
 		{
-			interval = 850,
+			interval = 250,
 			waves = {
 				{
-					delay = 0,
-					path_index = 3,
+					delay = 120,
+					path_index = 4,
 					spawns = {
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 50,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 6
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 50,
+							max = 3
 						},
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 50,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 6
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 50,
+							max = 1
 						},
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 50,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 250,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 300,
-							max = 6
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 40,
+							max = 4
 						}
 					}
 				},
@@ -870,62 +1069,236 @@ return {
 					spawns = {
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_acolyte",
-							path = 1,
-							interval_next = 240,
+							path = 3,
+							interval_next = 300,
 							max = 6
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_acolyte",
-							path = 1,
-							interval_next = 240,
-							max = 6
+							path = 3,
+							interval_next = 40,
+							max = 4
 						},
 						{
 							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
+							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
-							path = 1,
+							path = 2,
 							interval_next = 0,
-							max = 8
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_acolyte",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_acolyte",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 40,
+							max = 2
 						}
 					}
 				},
 				{
-					delay = 600,
+					delay = 440,
+					path_index = 6,
+					spawns = {
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 1,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 3,
+							interval_next = 0,
+							max = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 390,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_abomination",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_abomination",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 3
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister_nightmare",
+							path = 3,
+							interval_next = 60,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 60,
+							max = 4
+						}
+					}
+				},
+				{
+					delay = 720,
 					path_index = 7,
 					spawns = {
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 4
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 4
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 3
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 45,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 45,
+							max = 1
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 45,
 							max = 4
 						}
 					}
@@ -933,7 +1306,7 @@ return {
 			}
 		},
 		{
-			interval = 700,
+			interval = 300,
 			waves = {
 				{
 					delay = 0,
@@ -941,7 +1314,6 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -950,7 +1322,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -959,7 +1330,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -968,7 +1338,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -977,7 +1346,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -986,34 +1354,38 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 1,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
 							path = 3,
 							interval_next = 60,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 300,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1022,16 +1394,30 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
-							interval_next = 35,
+							interval_next = 10,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
+							path = 3,
+							interval_next = 60,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1040,7 +1426,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -1049,7 +1434,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1058,43 +1442,30 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
 							interval_next = 10,
 							max = 1
 						},
 						{
-							interval = 0,
-							max_same = 0,
+							interval = 90,
 							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
+							creep = "enemy_bloodsydian_warlock",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodsydian_warlock",
 							path = 3,
-							interval_next = 300,
+							interval_next = 60,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1103,7 +1474,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -1112,7 +1482,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1121,7 +1490,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -1130,7 +1498,14 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1139,7 +1514,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
@@ -1148,7 +1522,6 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 2,
@@ -1157,72 +1530,121 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_acolyte",
 							path = 3,
 							interval_next = 60,
 							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 3,
-							interval_next = 0,
-							max = 1
 						}
 					}
 				},
 				{
-					delay = 150,
-					path_index = 5,
+					delay = 0,
+					path_index = 6,
 					spawns = {
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_lesser_sister",
-							path = 1,
-							interval_next = 640,
-							max = 1
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_unblinded_abomination",
+							path = 3,
+							interval_next = 60,
+							max = 2
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_lesser_sister",
 							path = 2,
-							interval_next = 20,
+							interval_next = 0,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_lesser_sister",
 							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
 							interval_next = 0,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister_nightmare",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 45,
+							max = 5
 						}
 					}
 				}
@@ -1464,494 +1886,87 @@ return {
 					spawns = {
 						{
 							interval = 25,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 420,
-							max = 6
-						},
-						{
-							interval = 25,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 0,
-							max = 6
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 4,
-					spawns = {
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 4
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 360,
-							max = 4
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 0,
-							max = 4
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 5,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_lesser_sister",
-							path = 1,
-							interval_next = 750,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_lesser_sister",
-							path = 2,
-							interval_next = 20,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_lesser_sister",
-							path = 3,
-							interval_next = 0,
-							max = 1
-						}
-					}
-				},
-				{
-					delay = 120,
-					path_index = 6,
-					spawns = {
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 570,
-							max = 3
-						},
-						{
-							interval = 40,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 120,
-							max = 3
-						}
-					}
-				}
-			}
-		},
-		{
-			interval = 500,
-			waves = {
-				{
-					delay = 300,
-					path_index = 1,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 5,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 3,
-							interval_next = 240,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 3,
-							interval_next = 0,
-							max = 1
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 5,
-					some_flying = true,
-					spawns = {
-						{
-							interval = 50,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_small_stalker",
-							path = 1,
-							interval_next = 120,
-							max = 6
-						},
-						{
-							interval = 50,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_small_stalker",
-							path = 1,
-							interval_next = 120,
-							max = 6
-						},
-						{
-							interval = 50,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_small_stalker",
-							path = 1,
-							interval_next = 120,
-							max = 6
-						},
-						{
-							interval = 50,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_small_stalker",
-							path = 1,
-							interval_next = 120,
-							max = 6
-						}
-					}
-				}
-			}
-		},
-		{
-			interval = 500,
-			waves = {
-				{
-					delay = 0,
-					path_index = 1,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 35,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 5,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 30,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 5,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 40,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 30,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 15,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 480,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 30,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 35,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 5,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 30,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 40,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_acolyte",
-							path = 3,
-							interval_next = 0,
-							max = 1
-						}
-					}
-				},
-				{
-					delay = 540,
-					path_index = 2,
-					spawns = {
-						{
-							interval = 25,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 240,
-							max = 5
-						},
-						{
-							interval = 25,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 240,
-							max = 5
-						},
-						{
-							interval = 25,
-							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
 							path = 1,
 							interval_next = 210,
 							max = 6
+						},
+						{
+							interval = 25,
+							fixed_sub_path = 0,
+							creep = "enemy_spiderling",
+							path = 1,
+							interval_next = 0,
+							max = 6
 						}
 					}
 				},
 				{
-					delay = 570,
+					delay = 420,
 					path_index = 4,
 					spawns = {
 						{
-							interval = 40,
-							max_same = 0,
+							interval = 25,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
 							path = 1,
-							interval_next = 270,
+							interval_next = 210,
 							max = 6
 						},
 						{
-							interval = 40,
-							max_same = 0,
+							interval = 25,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
 							path = 1,
-							interval_next = 270,
+							interval_next = 0,
 							max = 6
+						}
+					}
+				},
+				{
+					delay = 180,
+					path_index = 5,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 45,
+							max = 3
 						},
 						{
 							interval = 40,
-							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 180,
-							max = 6
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 120,
+							max = 3
 						}
 					}
 				},
@@ -1960,26 +1975,74 @@ return {
 					path_index = 6,
 					spawns = {
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_abomination",
+							path = 2,
+							interval_next = 180,
+							max = 3
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 120,
+							max = 3
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 500,
+			waves = {
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 60,
 							fixed_sub_path = 0,
-							creep = "enemy_acolyte",
-							path = 1,
+							creep = "enemy_unblinded_abomination",
+							path = 3,
 							interval_next = 60,
-							max = 6
+							max = 2
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
 							interval_next = 60,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_unblinded_priest",
 							path = 2,
@@ -1988,126 +2051,876 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_unblinded_priest",
 							path = 3,
-							interval_next = 270,
+							interval_next = 60,
 							max = 1
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_acolyte",
-							path = 1,
-							interval_next = 60,
-							max = 6
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
 							path = 3,
-							interval_next = 270,
-							max = 1
+							interval_next = 40,
+							max = 2
 						},
 						{
-							interval = 30,
-							max_same = 0,
+							interval = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_acolyte",
-							path = 1,
-							interval_next = 60,
-							max = 6
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 2,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
 							path = 3,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_unblinded_priest",
-							path = 1,
-							interval_next = 0,
-							max = 1
+							interval_next = 40,
+							max = 2
 						}
 					}
 				},
 				{
-					delay = 720,
+					delay = 0,
+					path_index = 6,
+					spawns = {
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_unblinded_abomination",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_acolyte",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 250,
+			waves = {
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister_nightmare",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_quetzal",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 570,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_spiderling",
+							path = 3,
+							interval_next = 40,
+							max = 5
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 6
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 540,
+					path_index = 4,
+					spawns = {
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 4
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_spiderling",
+							path = 3,
+							interval_next = 40,
+							max = 5
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 6
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 3
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 6,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_lesser_sister",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_unblinded_priest",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_myrmidon",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lesser_sister_nightmare",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_gnoll_bloodsydian",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_quetzal",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 1200,
 					path_index = 7,
 					spawns = {
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_broodguard",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_nightscale",
+							path = 3,
+							interval_next = 45,
+							max = 3
+						},
+						{
+							interval = 40,
 							fixed_sub_path = 0,
 							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 270,
+							path = 3,
+							interval_next = 40,
 							max = 4
 						},
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 40,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 270,
-							max = 4
+							creep = "enemy_darter",
+							path = 3,
+							interval_next = 40,
+							max = 5
 						},
 						{
-							interval = 25,
-							max_same = 0,
+							interval = 40,
 							fixed_sub_path = 0,
-							creep = "enemy_spiderling",
-							path = 1,
-							interval_next = 270,
-							max = 4
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_quetzal",
+							path = 3,
+							interval_next = 40,
+							max = 1
+						},
+						{
+							interval = 40,
+							fixed_sub_path = 0,
+							creep = "enemy_small_stalker",
+							path = 3,
+							interval_next = 40,
+							max = 2
+						},
+						{
+							interval = 35,
+							fixed_sub_path = 0,
+							creep = "enemy_mantaray",
+							path = 3,
+							interval_next = 35,
+							max = 6
 						}
 					}
 				}

@@ -1,4 +1,12 @@
-﻿-- chunkname: @./lib/klua/table.lua
+-- customization
+function table.getTableLength(table)
+	local count = 0
+	for k, v in pairs(table) do
+		count = count + 1
+	end
+	return count
+end
+-- customization
 
 function table.keys(t)
 	local kk = {}

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/font_subst.lua
-
 return {
 	global = {
 		{
@@ -122,7 +120,7 @@ return {
 	["zh-Hans"] = {
 		{
 			"body",
-			"NotoSansCJKsc-Regular",
+			"NotoSansCJKkr-Regular",
 			{
 				size = 1.1,
 				["bottom-caps"] = 0,
@@ -135,7 +133,7 @@ return {
 		},
 		{
 			"body_bold",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 1.1,
 				["bottom-caps"] = 0,
@@ -148,28 +146,28 @@ return {
 		},
 		{
 			"h",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 0.9
 			}
 		},
 		{
 			"h_map",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 0.95
 			}
 		},
 		{
 			"h_noti",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 0.95
 			}
 		},
 		{
 			"button",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 0.95,
 				["bottom-caps"] = 0,
@@ -182,35 +180,35 @@ return {
 		},
 		{
 			"sans",
-			"NotoSansCJKsc-Regular",
+			"NotoSansCJKkr-Regular",
 			{
 				size = 1.1
 			}
 		},
 		{
 			"sans_bold",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 1.1
 			}
 		},
 		{
 			"tooltip_h",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				size = 1
 			}
 		},
 		{
 			"tooltip",
-			"NotoSansCJKsc-Regular",
+			"NotoSansCJKkr-Regular",
 			{
 				size = 1
 			}
 		},
 		{
 			"hud",
-			"NotoSansCJKsc-Regular",
+			"NotoSansCJKkr-Regular",
 			{
 				size = 1.2,
 				["bottom-caps"] = 0,
@@ -223,7 +221,7 @@ return {
 		},
 		{
 			"taunts",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				["middle-caps"] = -0.05,
 				size = 1.2
@@ -231,7 +229,7 @@ return {
 		},
 		{
 			"fla_h",
-			"NotoSansCJKsc-Bold",
+			"NotoSansCJKkr-Bold",
 			{
 				top = -0.25,
 				size = 1,
@@ -240,7 +238,7 @@ return {
 		},
 		{
 			"fla_body",
-			"NotoSansCJKsc-Regular",
+			"NotoSansCJKkr-Regular",
 			{
 				size = 1.1,
 				["bottom-caps"] = 0,

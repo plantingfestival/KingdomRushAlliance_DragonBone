@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_paladin_covenant.lua
-
 return {
 	paladin_covenant_build = {
 		a_name = "go_towers_paladin_covenant-1.dds",
@@ -11157,5 +11155,20731 @@ return {
 			134
 		},
 		alias = {}
+	},
+	-- customization
+	["barbarian_axe_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			46,
+			57
+		},
+		trim = {
+			2,
+            0,
+            0,
+            10
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			230,
+			1052,
+			44,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bottom_info_image_soldiers_0004"] = {
+		a_name = "barbarian.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			122,
+			915,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bottom_info_image_soldiers_0024"] = {
+		a_name = "barbarian.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			926,
+			428,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_axe"] = {
+		a_name = "barbarian.dds",
+		size = {
+			50,
+			45
+		},
+		trim = {
+			2,
+            1,
+            0,
+            2
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			499,
+			162,
+			48,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			86,
+            118,
+            84,
+            12
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1038,
+			398,
+			58,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			87,
+            119,
+            86,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			768,
+			1044,
+			55,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0003"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			89,
+            118,
+            89,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			701,
+			518,
+			50,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0004"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0005"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0006"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0007"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0008"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0009"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0010"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0011"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0012"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0013"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0014"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0015"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0016"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0017"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0018"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0019"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0020"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0021"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0022"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			93,
+            119,
+            92,
+            47
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			314,
+			43,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0023"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			89,
+            118,
+            89,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			701,
+			518,
+			50,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0024"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			87,
+            119,
+            86,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			768,
+			1044,
+			55,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer2_0025"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			86,
+            118,
+            84,
+            12
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1038,
+			398,
+			58,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			613,
+			518,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            82,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			572,
+			86,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0003"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            82,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			572,
+			86,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0004"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            74,
+            69,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			856,
+			416,
+			86,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0005"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            74,
+            69,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			856,
+			416,
+			86,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0006"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			72,
+            68,
+            70,
+            41
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			157,
+			1014,
+			82,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0007"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			72,
+            68,
+            70,
+            41
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			157,
+			1014,
+			82,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0008"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            68,
+            73,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			200,
+			821,
+			77,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0009"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			76,
+            72,
+            75,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			268,
+			576,
+			73,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0010"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			76,
+            72,
+            75,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			268,
+			576,
+			73,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0011"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            83,
+            76,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			292,
+			976,
+			70,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0012"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            83,
+            76,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			292,
+			976,
+			70,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0013"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			79,
+            82,
+            76,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			948,
+			69,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0014"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			79,
+            82,
+            76,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			948,
+			69,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0015"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            74,
+            70,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			102,
+			583,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0016"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            74,
+            70,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			102,
+			583,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0017"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            68,
+            68,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			409,
+			278,
+			82,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0018"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            68,
+            68,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			409,
+			278,
+			82,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0019"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			71,
+            69,
+            69,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			636,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0020"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			70,
+            72,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			181,
+			576,
+			85,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0021"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			70,
+            72,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			181,
+			576,
+			85,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0022"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			70,
+            78,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			375,
+			644,
+			85,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0023"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			70,
+            78,
+            69,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			375,
+			644,
+			85,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0024"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            69,
+            75,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			349,
+			794,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0025"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            69,
+            75,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			349,
+			794,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0026"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            68,
+            77,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			935,
+			74,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0027"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            68,
+            77,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			935,
+			74,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0028"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            71,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			871,
+			75,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0029"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            71,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			871,
+			75,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0030"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            68,
+            74,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			275,
+			818,
+			77,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0031"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			71,
+            68,
+            72,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			598,
+			656,
+			81,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0032"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			71,
+            68,
+            72,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			598,
+			656,
+			81,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0033"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			72,
+            68,
+            70,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			325,
+			284,
+			82,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0034"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			72,
+            68,
+            70,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			325,
+			284,
+			82,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0035"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            68,
+            71,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			710,
+			80,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0036"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            68,
+            71,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			594,
+			733,
+			80,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0037"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			75,
+            68,
+            69,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			788,
+			80,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0038"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			75,
+            68,
+            69,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			594,
+			811,
+			80,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0039"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            70,
+            70,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			220,
+			900,
+			77,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0040"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            70,
+            70,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			292,
+			897,
+			77,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0041"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			79,
+            72,
+            70,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			864,
+			75,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0042"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			80,
+            68,
+            70,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			909,
+			74,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0043"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			80,
+            68,
+            70,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			909,
+			74,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0044"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            69,
+            71,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			832,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0045"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            69,
+            71,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			832,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0046"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            81,
+            74,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			852,
+			504,
+			72,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0047"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            81,
+            74,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			852,
+			504,
+			72,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0048"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            75,
+            75,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			439,
+			548,
+			71,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0049"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            75,
+            75,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			439,
+			548,
+			71,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0050"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            72,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			439,
+			478,
+			71,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0051"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            72,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			439,
+			478,
+			71,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0052"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			75,
+            73,
+            78,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			443,
+			693,
+			71,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0053"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            71,
+            78,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			985,
+			72,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0054"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            73,
+            78,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			688,
+			587,
+			72,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0055"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            83,
+            77,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			1035,
+			74,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0056"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            83,
+            77,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			1035,
+			74,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0057"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            82,
+            78,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			752,
+			659,
+			72,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0058"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            82,
+            78,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			752,
+			659,
+			72,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0059"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			76,
+            74,
+            78,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			749,
+			733,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0060"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			76,
+            74,
+            78,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			749,
+			733,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0061"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            69,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1025,
+			459,
+			71,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0062"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			77,
+            69,
+            76,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1025,
+			459,
+			71,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0063"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            71,
+            74,
+            40
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			762,
+			583,
+			72,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0064"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			79,
+            75,
+            74,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			733,
+			71,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0065"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			79,
+            75,
+            74,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			733,
+			71,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0066"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            82,
+            73,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			82,
+			1035,
+			73,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0067"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			78,
+            82,
+            73,
+            37
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			82,
+			1035,
+			73,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0068"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0069"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0070"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0071"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0072"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0073"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0074"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			44,
+            68,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			208,
+			284,
+			115,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0075"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			67,
+            65,
+            46,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			932,
+			122,
+			111,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0076"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			67,
+            65,
+            46,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			932,
+			122,
+			111,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0077"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            66,
+            33,
+            27
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			672,
+			6,
+			143,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0078"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            66,
+            33,
+            27
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			672,
+			6,
+			143,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0079"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            63,
+            29,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			499,
+			152,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0080"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            63,
+            29,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			499,
+			152,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0081"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			40,
+            62,
+            28,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			206,
+			6,
+			156,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0082"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			40,
+            62,
+            28,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			206,
+			6,
+			156,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0083"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            65,
+            29,
+            24
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			518,
+			6,
+			152,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0084"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            65,
+            29,
+            24
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			518,
+			6,
+			152,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0085"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            63,
+            29,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			6,
+			152,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0086"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			43,
+            63,
+            29,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			364,
+			6,
+			152,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0087"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			40,
+            62,
+            28,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			341,
+			156,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0088"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			40,
+            62,
+            28,
+            23
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			341,
+			156,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0089"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            66,
+            33,
+            26
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			653,
+			143,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0090"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            66,
+            33,
+            26
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			653,
+			143,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0091"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			51,
+            69,
+            54,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			798,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0092"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			51,
+            69,
+            54,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			798,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0093"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            74,
+            61,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			843,
+			199,
+			109,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0094"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            74,
+            61,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			843,
+			199,
+			109,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0095"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            78,
+            56,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			745,
+			95,
+			95,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0096"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            77,
+            77,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			365,
+			1011,
+			73,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0097"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			162,
+			653,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0098"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			231,
+			650,
+			86,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0099"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			303,
+			650,
+			86,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0100"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			65,
+            70,
+            81,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			189,
+			741,
+			78,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0101"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			65,
+            70,
+            81,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			189,
+			741,
+			78,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0102"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			65,
+            70,
+            81,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			269,
+			738,
+			78,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0103"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			64,
+            67,
+            80,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			275,
+			478,
+			80,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0104"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			64,
+            67,
+            80,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			275,
+			478,
+			80,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0105"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			64,
+            67,
+            80,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			357,
+			478,
+			80,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0106"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			49,
+            81,
+            76,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			742,
+			514,
+			99,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0107"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			49,
+            81,
+            76,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			742,
+			514,
+			99,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0108"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			49,
+            81,
+            76,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			742,
+			514,
+			99,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0109"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			50,
+            85,
+            73,
+            31
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			96,
+			653,
+			101,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0110"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			50,
+            85,
+            73,
+            31
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			96,
+			653,
+			101,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0111"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			47,
+            102,
+            46,
+            15
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			206,
+			103,
+			131,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0112"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			47,
+            102,
+            46,
+            15
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			206,
+			103,
+			131,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0113"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			50,
+            99,
+            47,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			103,
+			341,
+			127,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0114"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			50,
+            99,
+            47,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			103,
+			341,
+			127,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0115"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			47,
+            105,
+            47,
+            20
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			182,
+			130,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0116"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			47,
+            105,
+            47,
+            20
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			151,
+			182,
+			130,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0117"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			47,
+            102,
+            47,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			339,
+			103,
+			130,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0118"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0119"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0120"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0121"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0122"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0123"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0124"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			44,
+            68,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			208,
+			284,
+			115,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0125"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			67,
+            65,
+            46,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			932,
+			122,
+			111,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0126"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			67,
+            65,
+            46,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			932,
+			122,
+			111,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0127"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			51,
+            69,
+            54,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			798,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0128"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			51,
+            69,
+            54,
+            21
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			798,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0129"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            74,
+            61,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			843,
+			199,
+			109,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0130"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            74,
+            61,
+            22
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			843,
+			199,
+			109,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0131"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			73,
+            78,
+            56,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			745,
+			95,
+			95,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0132"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            77,
+            77,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			365,
+			1011,
+			73,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0133"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			162,
+			653,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0134"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0135"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			600,
+			587,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0136"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0137"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			54,
+            72,
+            64,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			439,
+			106,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0138"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0139"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			48,
+            70,
+            63,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			122,
+			113,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0140"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			44,
+            68,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			208,
+			284,
+			115,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0141"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0142"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0143"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0144"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0145"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			627,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0146"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			627,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0147"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			627,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0148"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			46,
+            75,
+            65,
+            36
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			627,
+			447,
+			113,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_berserker_0149"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			74,
+            77,
+            77,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			365,
+			1011,
+			73,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_0150"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			69,
+            78,
+            69,
+            35
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			162,
+			653,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_berserker_shadow"] = {
+		a_name = "barbarian.dds",
+		size = {
+			224,
+			180
+		},
+		trim = {
+			90,
+            137,
+            91,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			279,
+			1052,
+			43,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            13,
+            38,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			884,
+			658,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            15,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			375,
+			731,
+			61,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0003"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            15,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			375,
+			731,
+			61,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0004"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            10,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			230,
+			979,
+			60,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0005"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            10,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			230,
+			979,
+			60,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0006"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            7,
+            43,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1038,
+			322,
+			58,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0007"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            7,
+            43,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1038,
+			322,
+			58,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0008"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            8,
+            43,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			471,
+			103,
+			57,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0009"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			41,
+            10,
+            43,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			950,
+			667,
+			56,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0010"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			41,
+            10,
+            43,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			950,
+			667,
+			56,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0011"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			41,
+            19,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			660,
+			1016,
+			57,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0012"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			41,
+            19,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			660,
+			1016,
+			57,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0013"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            15,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1023,
+			743,
+			55,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0014"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            15,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1023,
+			743,
+			55,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0015"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            10,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			292,
+			1039,
+			57,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0016"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            10,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			292,
+			1039,
+			57,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0017"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            7,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			589,
+			887,
+			60,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0018"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            7,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			589,
+			887,
+			60,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0019"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            8,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			585,
+			1016,
+			62,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0020"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            10,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			903,
+			593,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0021"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            10,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			903,
+			593,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0022"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            19,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			749,
+			878,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0023"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            19,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			749,
+			878,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0024"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            12,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			836,
+			583,
+			65,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0025"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			39,
+            12,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			836,
+			583,
+			65,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0026"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            7,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			588,
+			949,
+			65,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0027"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            7,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			588,
+			949,
+			65,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0028"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			926,
+			526,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0029"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			926,
+			526,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0030"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            9,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			816,
+			654,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0031"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            10,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			889,
+			728,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0032"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            10,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			889,
+			728,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0033"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            17,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1014,
+			936,
+			65,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0034"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            17,
+            41,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1014,
+			936,
+			65,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0035"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            12,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			813,
+			876,
+			65,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0036"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            12,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			813,
+			876,
+			65,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0037"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1001,
+			532,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0038"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1001,
+			532,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0039"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            9,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			821,
+			728,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0040"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            9,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			821,
+			728,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0041"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            10,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			976,
+			599,
+			66,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0042"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            10,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			878,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0043"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            10,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			878,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0044"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            16,
+            35,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			664,
+			949,
+			65,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0045"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            16,
+            35,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			664,
+			949,
+			65,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0046"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            14,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			443,
+			766,
+			64,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0047"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            14,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			443,
+			766,
+			64,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0048"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			803,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0049"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            8,
+            39,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			676,
+			803,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0050"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            7,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			443,
+			617,
+			67,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0051"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            7,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			443,
+			617,
+			67,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0052"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            7,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			509,
+			1009,
+			66,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0053"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            11,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1023,
+			671,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0054"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            11,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1023,
+			671,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0055"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            18,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1014,
+			868,
+			66,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0056"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            18,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1014,
+			868,
+			66,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0057"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            14,
+            35,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			880,
+			873,
+			67,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0058"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            14,
+            35,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			880,
+			873,
+			67,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0059"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            10,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			955,
+			725,
+			66,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0060"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			37,
+            10,
+            37,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			955,
+			725,
+			66,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0061"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            10,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			812,
+			803,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0062"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			36,
+            10,
+            40,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			812,
+			803,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0063"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            8,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			102,
+			518,
+			63,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0064"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            12,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			878,
+			802,
+			62,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0065"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			34,
+            12,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			878,
+			802,
+			62,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0066"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            19,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			731,
+			944,
+			60,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0067"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            19,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			731,
+			944,
+			60,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0068"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			38,
+            13,
+            38,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			884,
+			658,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0069"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            15,
+            34,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1000,
+			800,
+			66,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0070"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            15,
+            34,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1000,
+			800,
+			66,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0071"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			47,
+            13,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1045,
+			150,
+			51,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0072"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			47,
+            13,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1045,
+			150,
+			51,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0073"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			29,
+            9,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			681,
+			659,
+			69,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0074"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			29,
+            9,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			681,
+			659,
+			69,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0075"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			29,
+            9,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			681,
+			659,
+			69,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0076"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			29,
+            9,
+            42,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			681,
+			659,
+			69,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0077"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            26,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			280,
+			362,
+			114,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0078"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            26,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			280,
+			362,
+			114,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0079"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            24,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			324,
+			168,
+			114,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0080"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            24,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			324,
+			168,
+			114,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0081"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            24,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			453,
+			362,
+			114,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0082"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			14,
+            24,
+            12,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			453,
+			362,
+			114,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0083"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            18,
+            38,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			949,
+			871,
+			67,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0084"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			35,
+            18,
+            38,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			949,
+			871,
+			67,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0085"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            13,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			942,
+			801,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0086"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            13,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			942,
+			801,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0087"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            13,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			942,
+			801,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0088"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			40,
+            13,
+            44,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			942,
+			801,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0089"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			23,
+            8,
+            51,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			803,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0090"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			17,
+            0,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			343,
+			561,
+			78,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0091"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			17,
+            0,
+            45,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			343,
+			561,
+			78,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0092"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			13,
+            0,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			662,
+			122,
+			91,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0093"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			13,
+            0,
+            36,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			662,
+			122,
+			91,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0094"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			7,
+            1,
+            33,
+            2
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			98,
+			756,
+			100,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0095"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			7,
+            1,
+            33,
+            2
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			98,
+			756,
+			100,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0096"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			5,
+            21,
+            31,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			856,
+			310,
+			104,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0097"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			5,
+            21,
+            31,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			856,
+			310,
+			104,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0098"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			4,
+            37,
+            37,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			518,
+			99,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0099"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			4,
+            37,
+            37,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			518,
+			99,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_0100"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			4,
+            34,
+            36,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1041,
+			220,
+			100,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0101"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			4,
+            34,
+            36,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1041,
+			220,
+			100,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["northern_wildling_0102"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			4,
+            34,
+            36,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			98,
+			858,
+			100,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["northern_wildling_shadow"] = {
+		a_name = "barbarian.dds",
+		size = {
+			140,
+			92
+		},
+		trim = {
+			48,
+            71,
+            48,
+            11
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			365,
+			1086,
+			44,
+			10
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer1_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			34,
+            31,
+            43,
+            12
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			182,
+			143,
+			157
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			6,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0003"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			6,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0004"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			6,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0005"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			78,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0006"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			78,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0007"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			599,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0008"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			87,
+            105,
+            87,
+            32
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			949,
+			940,
+			46,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0009"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            38
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			793,
+			995,
+			47,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0010"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            44
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			825,
+			1044,
+			47,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0011"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			88,
+            105,
+            88,
+            49
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			905,
+			991,
+			44,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0012"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            92,
+            54
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			951,
+			988,
+			36,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0013"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            94,
+            58
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			874,
+			1044,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0014"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            94,
+            61
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			910,
+			1039,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0015"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			951,
+			1031,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0016"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			989,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0017"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1024,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0018"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1024,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0019"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1024,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0020"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1024,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0021"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            64
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1024,
+			1002,
+			33,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0022"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            63
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			946,
+			1064,
+			33,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0023"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            94,
+            58
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			874,
+			1044,
+			34,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0024"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            105,
+            92,
+            53
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			435,
+			1059,
+			37,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0025"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			87,
+            105,
+            87,
+            49
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			103,
+			470,
+			46,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0026"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            44
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			852,
+			995,
+			47,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0027"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            39
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			719,
+			1016,
+			47,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0028"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			87,
+            105,
+            87,
+            34
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			793,
+			947,
+			46,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0029"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            29
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			880,
+			942,
+			47,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0030"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			599,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0031"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			78,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0032"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			78,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0033"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			6,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer2_0034"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			86,
+            105,
+            87,
+            25
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			1049,
+			6,
+			47,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ogre_shipwreck_tower_lvl1_layer3_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			92,
+            105,
+            95,
+            65
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			986,
+			1035,
+			33,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0101"] = {
+		a_name = "barbarian.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            4,
+            4
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			177,
+			478,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barrack_lvl4_Barbarians_layer1_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			8,
+            15,
+            22,
+            0
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			6,
+			198,
+			174
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0101"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			731,
+			215,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0101_disabled"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			744,
+			327,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0101_disabled_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			929,
+			204,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0101_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			926,
+			316,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0001"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			6,
+			919,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0001_disabled"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			817,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0001_disabled_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			933,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0001_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			208,
+			168,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0002"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			164,
+			362,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0002_disabled"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			383,
+			162,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0002_disabled_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			337,
+			362,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0002_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			546,
+			99,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0003"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			499,
+			215,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0003_disabled"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			512,
+			331,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0003_disabled_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			615,
+			215,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0003_turn_off"] = {
+		a_name = "barbarian.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1102,
+			1102
+		},
+		f_quad = {
+			628,
+			331,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0025"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1168,
+			336,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0027"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1147,
+			441,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			755,
+			1152,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1012,
+			1118,
+			65,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1012,
+			1118,
+			65,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			962,
+			1377,
+			66,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			962,
+			1377,
+			66,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            72,
+            103,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1432,
+			1189,
+			66,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            72,
+            103,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1432,
+			1189,
+			66,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            102,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			607,
+			1372,
+			67,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            102,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			607,
+			1372,
+			67,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            65,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1153,
+			1414,
+			63,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            65,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1153,
+			1414,
+			63,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            63,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1166,
+			1491,
+			63,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            63,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1166,
+			1491,
+			63,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1119,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1119,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			896,
+			1303,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			896,
+			1303,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            71,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1292,
+			1342,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0019"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            71,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1292,
+			1342,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0020"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1267,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0021"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1267,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0022"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1193,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0023"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1295,
+			1193,
+			66,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0024"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            64,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			734,
+			1518,
+			65,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0025"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			811,
+			1518,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0026"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			811,
+			1518,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0027"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1285,
+			1485,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0028"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1285,
+			1485,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0029"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            71,
+            100,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1431,
+			1118,
+			69,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0030"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            71,
+            100,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1431,
+			1118,
+			69,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0031"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            100,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1433,
+			1259,
+			68,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0032"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            70,
+            100,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1433,
+			1259,
+			68,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0033"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            65,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1510,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0034"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            65,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1510,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0035"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            62,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1149,
+			1194,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0036"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            62,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1149,
+			1194,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0037"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            66,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			886,
+			1518,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0038"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            66,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			886,
+			1518,
+			65,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0039"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1354,
+			1485,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0040"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1354,
+			1485,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0041"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1500,
+			1118,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0042"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1500,
+			1118,
+			67,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0043"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1363,
+			1191,
+			67,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0044"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1363,
+			1191,
+			67,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0045"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            65,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1098,
+			1510,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0046"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            65,
+            102,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1098,
+			1510,
+			66,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0047"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            63,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1274,
+			66,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0048"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            63,
+            101,
+            34
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1274,
+			66,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0049"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            69,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1342,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0050"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            69,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1342,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0051"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            71,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1519,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0052"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            71,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1519,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0053"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            73,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			150,
+			1519,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0054"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            73,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			150,
+			1519,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0055"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            71,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			78,
+			1519,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0056"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            71,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			78,
+			1519,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0057"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1142,
+			1272,
+			66,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0058"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1142,
+			1272,
+			66,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0059"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            64,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1131,
+			1040,
+			67,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0060"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            64,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1131,
+			1040,
+			67,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0061"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1148,
+			1340,
+			68,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0062"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            69,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1148,
+			1340,
+			68,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0063"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			760,
+			1445,
+			68,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0064"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			760,
+			1445,
+			68,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0065"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            72,
+            102,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1364,
+			1262,
+			67,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0066"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            72,
+            102,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1364,
+			1262,
+			67,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0067"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			779,
+			1372,
+			68,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0068"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            70,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			779,
+			1372,
+			68,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0069"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            69,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			830,
+			1445,
+			69,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0070"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            69,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			830,
+			1445,
+			69,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0071"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            64,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1019,
+			1276,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0072"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            64,
+            101,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1019,
+			1276,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0073"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0074"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0075"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            69,
+            104,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1422,
+			1484,
+			60,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0076"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            69,
+            104,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1422,
+			1484,
+			60,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0077"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            62,
+            104,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			655,
+			1518,
+			65,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0078"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            62,
+            104,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			655,
+			1518,
+			65,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0079"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			79,
+            62,
+            107,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			942,
+			534,
+			85,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0080"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			79,
+            62,
+            107,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			942,
+			534,
+			85,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0081"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			74,
+            64,
+            107,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			325,
+			572,
+			90,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0082"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			74,
+            64,
+            107,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			325,
+			572,
+			90,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0083"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			74,
+            64,
+            107,
+            32
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			405,
+			1493,
+			90,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0084"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            80,
+            46,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1210,
+			101,
+			117,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0085"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            80,
+            46,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1210,
+			101,
+			117,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0086"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            79,
+            47,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1210,
+			220,
+			114,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0087"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            79,
+            47,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1210,
+			220,
+			114,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0088"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			113,
+            78,
+            45,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			662,
+			360,
+			113,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0089"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			113,
+            78,
+            45,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			662,
+			360,
+			113,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0090"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			112,
+            78,
+            88,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			849,
+			1372,
+			71,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0091"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			112,
+            78,
+            88,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			849,
+			1372,
+			71,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0092"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			112,
+            74,
+            94,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			961,
+			1518,
+			65,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0093"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			112,
+            74,
+            94,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			961,
+			1518,
+			65,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0094"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0095"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0096"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0097"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0098"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            64,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1197,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0099"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            64,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1197,
+			75,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0100"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            64,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1071,
+			1194,
+			76,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0101"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            64,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1071,
+			1194,
+			76,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0102"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			95,
+            63,
+            109,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1354,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0103"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			95,
+            63,
+            109,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1354,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0104"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			95,
+            63,
+            109,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1432,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0105"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			95,
+            63,
+            109,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1030,
+			1432,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0106"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            41,
+            30
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			243,
+			515,
+			136,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0107"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            41,
+            30
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			243,
+			515,
+			136,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0108"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            54,
+            41,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			210,
+			683,
+			134,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0109"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            54,
+            41,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			210,
+			683,
+			134,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0110"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            56,
+            76,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1009,
+			116,
+			101,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0111"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            56,
+            76,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1009,
+			116,
+			101,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0112"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			93,
+            55,
+            78,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			635,
+			535,
+			100,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0113"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			93,
+            55,
+            78,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			220,
+			1499,
+			100,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0114"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            66,
+            74,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			126,
+			1317,
+			103,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0115"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            66,
+            74,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			126,
+			1317,
+			103,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0116"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            65,
+            86,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			746,
+			1224,
+			89,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0117"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			96,
+            66,
+            86,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1320,
+			633,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0118"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1363,
+			1119,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0119"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			104,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1363,
+			1119,
+			66,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0120"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0121"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0122"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            73,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1500,
+			1188,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0123"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			102,
+            73,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1500,
+			1188,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0124"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            104,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1139,
+			1119,
+			73,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0125"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            101,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1475,
+			225,
+			76,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0126"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			90,
+            32,
+            100,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			747,
+			423,
+			81,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0127"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			90,
+            32,
+            100,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			737,
+			538,
+			81,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0128"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            32,
+            98,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1006,
+			219,
+			97,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0129"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            28,
+            96,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			888,
+			116,
+			99,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0130"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            26,
+            93,
+            26
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			765,
+			141,
+			101,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0131"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            26,
+            93,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			642,
+			141,
+			101,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0132"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            22,
+            91,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			112,
+			1392,
+			103,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0133"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            22,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1392,
+			104,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0134"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            30,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			887,
+			217,
+			110,
+			117
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0135"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            30,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1280,
+			213,
+			110,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0136"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            30,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			297,
+			360,
+			104,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0137"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            30,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			446,
+			171,
+			104,
+			117
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0138"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            30,
+            90,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			431,
+			277,
+			110,
+			117
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0139"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            33,
+            91,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			320,
+			244,
+			109,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0140"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            92,
+            26
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			768,
+			954,
+			102,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0141"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            93,
+            25
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			830,
+			423,
+			101,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0142"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            38,
+            93,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			768,
+			845,
+			107,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0143"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            38,
+            93,
+            26
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			778,
+			244,
+			107,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0144"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            94,
+            26
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			871,
+			621,
+			100,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0145"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            95,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			880,
+			731,
+			99,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0146"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            38,
+            97,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1105,
+			217,
+			103,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0147"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			71,
+            38,
+            98,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			963,
+			334,
+			102,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0148"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			933,
+			438,
+			94,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0149"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			77,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1072,
+			334,
+			94,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0150"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1040,
+			441,
+			95,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0151"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1028,
+			621,
+			95,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0152"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			90,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1021,
+			538,
+			81,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0153"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			90,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			656,
+			1069,
+			81,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0154"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			648,
+			1152,
+			70,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0155"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            38,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			217,
+			1392,
+			70,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0156"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1478,
+			712,
+			77,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0157"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			94,
+            62,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1404,
+			798,
+			77,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0158"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            62,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1483,
+			795,
+			70,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0159"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			101,
+            62,
+            100,
+            29
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1035,
+			969,
+			70,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0160"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0161"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0162"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			92,
+            62,
+            105,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			946,
+			1196,
+			74,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0163"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			92,
+            62,
+            105,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			946,
+			1196,
+			74,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0164"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			81,
+            54,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			852,
+			534,
+			88,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0165"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			81,
+            54,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			852,
+			534,
+			88,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0166"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			75,
+            49,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			630,
+			94,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0167"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			75,
+            49,
+            102,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			630,
+			94,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0168"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			70,
+            50,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			644,
+			1224,
+			100,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0169"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			70,
+            50,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			644,
+			1224,
+			100,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0170"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			67,
+            51,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1036,
+			728,
+			104,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0171"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			67,
+            51,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1036,
+			728,
+			104,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0172"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			85,
+            35,
+            39,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1243,
+			147,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0173"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			85,
+            35,
+            39,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1243,
+			147,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0174"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            36,
+            40,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1086,
+			155,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0175"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			76,
+            36,
+            40,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			1086,
+			155,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0176"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			99,
+            72,
+            39,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			217,
+			819,
+			133,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0177"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			93,
+            72,
+            39,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1257,
+			6,
+			139,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0178"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			93,
+            75,
+            38,
+            14
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			132,
+			862,
+			140,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0179"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			100,
+            75,
+            38,
+            14
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			129,
+			1087,
+			133,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0180"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			100,
+            75,
+            40,
+            17
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			218,
+			954,
+			131,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0181"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            75,
+            40,
+            17
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			214,
+			1087,
+			126,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0182"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			340,
+			171,
+			104,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0183"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			398,
+			1420,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0184"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			504,
+			1372,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0185"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			501,
+			1445,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0186"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			657,
+			1445,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0187"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			657,
+			1445,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0188"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			676,
+			1372,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0189"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            74,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			676,
+			1372,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0190"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            75,
+            62,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			806,
+			101,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0191"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            72,
+            84,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			822,
+			1224,
+			79,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0192"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            71,
+            84,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			928,
+			1037,
+			79,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0193"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			109,
+            69,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1481,
+			1019,
+			62,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0194"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			109,
+            69,
+            100,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1481,
+			1019,
+			62,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0195"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1362,
+			1339,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0196"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1411,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0197"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1411,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0198"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            66,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			953,
+			1448,
+			68,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0199"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            66,
+            100,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			953,
+			1448,
+			68,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0200"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			100,
+            63,
+            92,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1501,
+			94,
+			79,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0201"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			100,
+            63,
+            92,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1501,
+			94,
+			79,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0202"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            47,
+            80,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			322,
+			1244,
+			88,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0203"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            47,
+            80,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			322,
+			1244,
+			88,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0204"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            47,
+            76,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1229,
+			540,
+			88,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0205"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            47,
+            76,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1229,
+			540,
+			88,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0206"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			115,
+            49,
+            76,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1267,
+			336,
+			80,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0207"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			115,
+            49,
+            76,
+            27
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1267,
+			336,
+			80,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0208"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			117,
+            55,
+            68,
+            18
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1128,
+			539,
+			86,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0209"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			117,
+            55,
+            68,
+            18
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1128,
+			539,
+			86,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0210"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            102,
+            68,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			693,
+			1315,
+			80,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0211"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            102,
+            68,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			693,
+			1315,
+			80,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0212"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            110,
+            69,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1348,
+			79,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0213"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            110,
+            69,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1348,
+			79,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0214"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            114,
+            66,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1200,
+			997,
+			82,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0215"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            114,
+            66,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1200,
+			997,
+			82,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0216"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            114,
+            66,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			883,
+			1057,
+			82,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0217"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            114,
+            66,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			883,
+			1057,
+			82,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0218"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			103,
+            69,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			755,
+			1152,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0219"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			105,
+            67,
+            101,
+            33
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1012,
+			1118,
+			65,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0220"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			107,
+            80,
+            76,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1036,
+			834,
+			88,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0221"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            80,
+            74,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			231,
+			1244,
+			89,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0222"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			108,
+            80,
+            74,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			231,
+			1244,
+			89,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0223"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            80,
+            68,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			129,
+			1222,
+			93,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0224"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            80,
+            68,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			129,
+			1222,
+			93,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0225"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            79,
+            70,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			722,
+			91,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0226"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			110,
+            79,
+            70,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			722,
+			91,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0227"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			118,
+            85,
+            64,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1393,
+			141,
+			89,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0228"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			118,
+            85,
+            64,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1393,
+			141,
+			89,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0229"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            85,
+            57,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			325,
+			479,
+			91,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0230"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            85,
+            57,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			325,
+			479,
+			91,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0231"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            87,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			887,
+			329,
+			92,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0232"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            87,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			887,
+			329,
+			92,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_0233"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            94,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			778,
+			354,
+			92,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0234"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            94,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			778,
+			354,
+			92,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0235"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            103,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1487,
+			928,
+			92,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0236"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            103,
+            56,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1487,
+			928,
+			92,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0237"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            103,
+            57,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1311,
+			943,
+			91,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_0238"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			123,
+            103,
+            57,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1311,
+			943,
+			91,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			102,
+            51,
+            101,
+            47
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1398,
+			6,
+			143,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			92,
+            46,
+            84,
+            41
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1085,
+			6,
+			170,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			78,
+            36,
+            73,
+            36
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			888,
+			6,
+			195,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			65,
+            28,
+            59,
+            28
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			862,
+			222,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_ground_attack_decal_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			65,
+            28,
+            59,
+            28
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			862,
+			222,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_ground_attack_decal_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			55,
+            28,
+            47,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			642,
+			6,
+			244,
+			133
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			55,
+            28,
+            47,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			642,
+			6,
+			244,
+			133
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			28,
+            11,
+            29,
+            16
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			360,
+			289,
+			153
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			28,
+            11,
+            29,
+            16
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			360,
+			289,
+			153
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			23,
+            6,
+            23,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			340,
+			6,
+			300,
+			163
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			23,
+            6,
+            23,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			340,
+			6,
+			300,
+			163
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			18,
+            2,
+            16,
+            6
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			186,
+			312,
+			172
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			18,
+            2,
+            16,
+            6
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			186,
+			312,
+			172
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			7,
+            1,
+            7,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			6,
+			332,
+			178
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			7,
+            1,
+            7,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			6,
+			332,
+			178
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			0,
+            0,
+            343,
+            177
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			963,
+			329,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			0,
+            0,
+            343,
+            177
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			963,
+			329,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_ground_attack_decal_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			346,
+			180
+		},
+		trim = {
+			0,
+            0,
+            343,
+            177
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			963,
+			329,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            15,
+            25,
+            12
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1126,
+			824,
+			96,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            16,
+            25,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1126,
+			874,
+			96,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            16,
+            24,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1484,
+			175,
+			97,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			28,
+            15,
+            21,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1224,
+			878,
+			101,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			28,
+            15,
+            21,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1398,
+			90,
+			101,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			26,
+            15,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1246,
+			434,
+			104,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			26,
+            12,
+            20,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1298,
+			434,
+			104,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			25,
+            15,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			412,
+			1317,
+			105,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			24,
+            12,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			973,
+			621,
+			106,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			24,
+            12,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			981,
+			729,
+			106,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			25,
+            12,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			519,
+			1317,
+			105,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			25,
+            12,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			289,
+			1392,
+			105,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			25,
+            12,
+            20,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			344,
+			1392,
+			105,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			26,
+            12,
+            20,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1352,
+			432,
+			104,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			26,
+            15,
+            21,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			399,
+			1369,
+			103,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			28,
+            15,
+            21,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			872,
+			954,
+			101,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			28,
+            15,
+            24,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1349,
+			332,
+			98,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_decal_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            15,
+            24,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1119,
+			924,
+			97,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0019"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            16,
+            25,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1487,
+			878,
+			96,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_decal_0020"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			150,
+			75
+		},
+		trim = {
+			29,
+            15,
+            25,
+            12
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1126,
+			824,
+			96,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            4,
+            26,
+            12
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1022,
+			1192,
+			82,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            2,
+            25,
+            15
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			314,
+			1344,
+			83,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			45,
+            20,
+            24,
+            18
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1355,
+			1557,
+			66,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			45,
+            19,
+            24,
+            18
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			946,
+			1275,
+			66,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			45,
+            20,
+            24,
+            18
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1423,
+			1556,
+			66,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			45,
+            19,
+            22,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1555,
+			796,
+			68,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			45,
+            18,
+            22,
+            20
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1285,
+			1557,
+			68,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            16,
+            22,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1543,
+			6,
+			86,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            17,
+            22,
+            14
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			849,
+			1064,
+			86,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            16,
+            24,
+            16
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1002,
+			955,
+			84,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            19,
+            24,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			565,
+			250,
+			84,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            15,
+            24,
+            19
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1487,
+			988,
+			84,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            11,
+            24,
+            23
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1284,
+			1003,
+			84,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            10,
+            25,
+            24
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1284,
+			1034,
+			83,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladin_modifier_effect_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            11,
+            26,
+            26
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1557,
+			712,
+			82,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            10,
+            37,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			901,
+			1445,
+			71,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            9,
+            37,
+            6
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			912,
+			1372,
+			71,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            7,
+            37,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1386,
+			1411,
+			71,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0019"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            6,
+            36,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1287,
+			1411,
+			72,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_modifier_effect_0020"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			135,
+			63
+		},
+		trim = {
+			27,
+            5,
+            36,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1337,
+			1411,
+			72,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladin_shadow"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			271,
+			172
+		},
+		trim = {
+			112,
+            127,
+            112,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			243,
+			653,
+			47,
+			14
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            2,
+            2,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			262,
+			1215,
+			25,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            2,
+            2,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			262,
+			1215,
+			25,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			635,
+			389,
+			25,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			635,
+			389,
+			25,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            3,
+            7,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			280,
+			20,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            3,
+            7,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			280,
+			20,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            5,
+            6,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			320,
+			186,
+			21,
+			18
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["paladinFlag_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            4,
+            5,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1561,
+			1381,
+			22,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["paladinFlag_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			27,
+			24
+		},
+		trim = {
+			0,
+            4,
+            5,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1561,
+			1381,
+			22,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0114"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1125,
+			627,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0117"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1126,
+			725,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            16,
+            44,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			877,
+			890,
+			62,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            16,
+            51,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			775,
+			1315,
+			55,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			22,
+            23,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1327,
+			884,
+			77,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			20,
+            19,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1406,
+			881,
+			79,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			19,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1118,
+			975,
+			80,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			17,
+            19,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1407,
+			477,
+			82,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			17,
+            26,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1035,
+			913,
+			82,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			8,
+            17,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1329,
+			540,
+			91,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			8,
+            17,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1329,
+			540,
+			91,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			8,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			942,
+			890,
+			91,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			8,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			942,
+			890,
+			91,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			7,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1491,
+			475,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			7,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1491,
+			475,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			7,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1491,
+			475,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			7,
+            16,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1491,
+			475,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0019"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			52,
+            14,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			483,
+			1518,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0020"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			52,
+            14,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			483,
+			1518,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0021"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			52,
+            14,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			569,
+			1518,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0022"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            31,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			880,
+			840,
+			79,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0023"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            29,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1079,
+			1041,
+			79,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0024"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            29,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1079,
+			1041,
+			79,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0025"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0026"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0027"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0028"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0029"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0030"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0031"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0032"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            30,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			884,
+			1141,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0033"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			34,
+            26,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			840,
+			1305,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0034"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			34,
+            26,
+            53,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			840,
+			1305,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0035"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0036"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1079,
+			1122,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0037"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            10,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1327,
+			806,
+			75,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0038"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            10,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1327,
+			806,
+			75,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0039"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            9,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			565,
+			171,
+			75,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0040"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            9,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			565,
+			171,
+			75,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0041"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			37,
+            7,
+            38,
+            2
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1317,
+			724,
+			77,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0042"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			37,
+            7,
+            38,
+            2
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			923,
+			955,
+			77,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0043"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			132,
+			1004,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0044"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			322,
+			1499,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0045"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			763,
+			1069,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0046"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1392,
+			219,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0047"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1400,
+			305,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0048"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1483,
+			303,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0049"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1407,
+			391,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0050"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1490,
+			389,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0051"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1393,
+			540,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0052"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1476,
+			540,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0053"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			35,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1395,
+			626,
+			81,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0054"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			36,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1478,
+			626,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0055"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			36,
+            5,
+            36,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1396,
+			712,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0056"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            9,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1000,
+			1041,
+			75,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0057"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            9,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1200,
+			1042,
+			75,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0058"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            10,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			935,
+			1118,
+			75,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0059"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            10,
+            38,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			1119,
+			75,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0060"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            17,
+            47,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1370,
+			1004,
+			59,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0061"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            17,
+            47,
+            9
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1503,
+			1256,
+			59,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0062"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			37,
+            21,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1503,
+			1321,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0063"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			37,
+            21,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1433,
+			1329,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0064"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1079,
+			1122,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0065"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0066"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0067"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			45,
+            14,
+            54,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			626,
+			1317,
+			53,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0068"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			45,
+            14,
+            54,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			626,
+			1317,
+			53,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0069"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			48,
+            8,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			604,
+			1445,
+			51,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0070"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			48,
+            8,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			604,
+			1445,
+			51,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0071"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			48,
+            7,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			966,
+			1303,
+			51,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0072"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			48,
+            7,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			966,
+			1303,
+			51,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0073"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            6,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1279,
+			1065,
+			52,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0074"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            6,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1279,
+			1065,
+			52,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0075"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            5,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1485,
+			52,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0076"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            5,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1485,
+			52,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0077"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1088,
+			1271,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0078"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1088,
+			1271,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0079"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1429,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0080"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1429,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0081"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1429,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0082"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			47,
+            4,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1099,
+			1429,
+			52,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0083"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            13,
+            15,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			929,
+			91,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0084"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			46,
+            13,
+            15,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1218,
+			929,
+			91,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0085"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            16,
+            14,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			231,
+			1327,
+			81,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0086"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            16,
+            14,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			231,
+			1327,
+			81,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0087"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            21,
+            14,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1404,
+			944,
+			81,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0088"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            21,
+            14,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1404,
+			944,
+			81,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0089"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            28,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			893,
+			1222,
+			79,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0090"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            28,
+            16,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			893,
+			1222,
+			79,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0091"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            28,
+            43,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1354,
+			1065,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0092"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            28,
+            43,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1354,
+			1065,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0093"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			57,
+            28,
+            43,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1354,
+			1065,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0094"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			42,
+            25,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1436,
+			1389,
+			57,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0095"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			42,
+            25,
+            53,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1436,
+			1389,
+			57,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0096"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            23,
+            53,
+            8
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			824,
+			1152,
+			70,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0097"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			39,
+            25,
+            66,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1407,
+			1069,
+			47,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0098"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			33,
+            22,
+            68,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1495,
+			1421,
+			51,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0099"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			29,
+            26,
+            72,
+            10
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			981,
+			837,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0100"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			19,
+            45,
+            70,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1435,
+			1004,
+			63,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Templar_0101"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			18,
+            55,
+            72,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1463,
+			1083,
+			62,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0102"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			18,
+            55,
+            72,
+            1
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1463,
+			1083,
+			62,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Templar_0103"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			152,
+			89
+		},
+		trim = {
+			17,
+            51,
+            73,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1497,
+			1381,
+			62,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1559,
+			540,
+			24,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1559,
+			540,
+			24,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            5,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			297,
+			479,
+			20,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            5,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			297,
+			479,
+			20,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			403,
+			360,
+			21,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			403,
+			360,
+			21,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			225,
+			23,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			225,
+			23,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			0,
+            3,
+            1,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			253,
+			25,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			0,
+            3,
+            1,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1560,
+			253,
+			25,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["TemplarTower_Fire_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			2,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1559,
+			568,
+			24,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["TemplarTower_Fire_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			2,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1559,
+			568,
+			24,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barracks_lvl4_Paladins_layer1_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			6,
+            9,
+            20,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			683,
+			202,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			97,
+            128,
+            95,
+            16
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1436,
+			1445,
+			36,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			97,
+            128,
+            95,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1553,
+			1019,
+			36,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			96,
+            128,
+            95,
+            41
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1484,
+			1521,
+			37,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			96,
+            128,
+            95,
+            44
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			212,
+			1244,
+			37,
+			17
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			96,
+            128,
+            95,
+            44
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			212,
+			1244,
+			37,
+			17
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0022"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			96,
+            128,
+            95,
+            44
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			212,
+			1244,
+			37,
+			17
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0023"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			96,
+            128,
+            95,
+            41
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1484,
+			1521,
+			37,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0024"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			97,
+            128,
+            95,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1553,
+			1019,
+			36,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_barracks_lvl4_Paladins_layer2_0025"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			228,
+			189
+		},
+		trim = {
+			97,
+            128,
+            95,
+            16
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1436,
+			1445,
+			36,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0114"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			550,
+			277,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0114_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			635,
+			423,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0114_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			647,
+			621,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0114_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			656,
+			733,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0117"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			656,
+			845,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0117_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			656,
+			957,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0117_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			759,
+			621,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0117_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			768,
+			733,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer1_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			5,
+            19,
+            21,
+            6
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			6,
+			515,
+			235,
+			166
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0001"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            135,
+            107,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1484,
+			1474,
+			46,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0002"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            126,
+            107,
+            20
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1532,
+			1474,
+			46,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0003"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            133,
+            107,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			214,
+			1215,
+			46,
+			27
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0004"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0005"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0006"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0007"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0008"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0009"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0010"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0011"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0012"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0013"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0014"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0015"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0016"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0017"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0018"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0019"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0020"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0021"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0022"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            127,
+            107,
+            42
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1231,
+			1561,
+			46,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0023"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            133,
+            107,
+            31
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			214,
+			1215,
+			46,
+			27
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0024"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            126,
+            107,
+            20
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1532,
+			1474,
+			46,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_templars_layer2_0025"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			261,
+			191
+		},
+		trim = {
+			108,
+            135,
+            107,
+            11
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1484,
+			1474,
+			46,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0027"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1094,
+			101,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0027_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			1277,
+			97,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0027_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			403,
+			389,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0027_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			403,
+			505,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0028"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			299,
+			664,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0028_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			308,
+			780,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0028_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			415,
+			621,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0028_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			424,
+			737,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0029"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			308,
+			896,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0029_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			424,
+			853,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0029_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			300,
+			1012,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0029_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			296,
+			1128,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0035"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			424,
+			969,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0035_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			416,
+			1085,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0035_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			412,
+			1201,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0035_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			519,
+			389,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0036"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			519,
+			505,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0036_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			531,
+			621,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0036_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			540,
+			737,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0036_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			540,
+			853,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0037"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			540,
+			969,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0037_disabled"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			532,
+			1085,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0037_disabled_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			528,
+			1201,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0037_turn_off"] = {
+		a_name = "tower_paladin.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1589,
+			1589
+		},
+		f_quad = {
+			662,
+			244,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

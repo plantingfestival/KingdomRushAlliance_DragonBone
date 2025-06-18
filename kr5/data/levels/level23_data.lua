@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level23_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -568,6 +566,7 @@ return {
 		"terrain_6_common",
 		"enemies_terrain_6",
 		"stage_23",
+		"enemies_sea_of_trees",
 		"tower_paladin_covenant"
 	},
 	required_textures = {

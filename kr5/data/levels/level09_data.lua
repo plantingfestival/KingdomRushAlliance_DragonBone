@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level09_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -626,12 +624,17 @@ return {
 		"stage_09",
 		"music_stage09",
 		"enemies_terrain_2",
-		"terrain_2_common"
+		"terrain_2_common",
+		"enemies_ancient_metropolis",
+		"enemies_underground"
 	},
 	required_textures = {
 		"go_enemies_terrain_2",
 		"go_stage09_bg",
 		"go_stage09",
-		"go_stages_terrain2"
+		"go_stages_terrain2",
+		"go_enemies_ancient_metropolis",
+		"go_enemies_halloween",
+		"go_enemies_underground"
 	}
 }

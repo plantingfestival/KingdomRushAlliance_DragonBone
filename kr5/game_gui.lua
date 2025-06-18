@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/game_gui.lua
-
 local log = require("klua.log"):new("game_gui")
 local km = require("klua.macros")
 
@@ -72,7 +70,7 @@ local POWER_BUTTON_DRAG_SCALE = 1.6
 local QUICK_CLICK_TIME = 0.2
 local PAN_TO_ENTITY_TIME = 0.6
 local TOWERMENU_SHOW_TOOLTIP_ON_MAXED_POWER = not IS_MOBILE
-local SHOW_INGAME_SHOP = IS_MOBILE and PS.services and PS.services.iap and RC.v.ingame_shop or false
+local SHOW_INGAME_SHOP = true
 local game_gui = {}
 
 if DEBUG then
@@ -96,7 +94,9 @@ game_gui.required_textures = {
 	"gui_popups",
 	"encyclopedia",
 	"gui_notifications_common",
-	"gui_notifications_bg"
+	"gui_notifications_bg",
+	"go_enemies_common",
+	"white_rectangle"
 }
 
 if not IS_MOBILE then
@@ -503,7 +503,9 @@ function game_gui:init(w, h, game)
 		elseif stats.type == STATS_TYPE_TOWER or stats.type == STATS_TYPE_TOWER_MAGE or stats.type == STATS_TYPE_TOWER_NO_RANGE then
 			sv:ci("damage").text = GU.damage_value_desc(stats.damage_min, stats.damage_max)
 			sv:ci("cooldown").text = GU.cooldown_value_desc(stats.cooldown)
-			sv:ci("range").text = GU.range_value_desc(stats.range)
+			if stats.type ~= STATS_TYPE_TOWER_NO_RANGE then
+				sv:ci("range").text = GU.range_value_desc(stats.range)
+			end
 		elseif stats.type == STATS_TYPE_TOWER_BARRACK then
 			sv:ci("health").text = string.format("%i", stats.hp_max)
 			sv:ci("damage").text = GU.damage_value_desc(stats.damage_min, stats.damage_max)
@@ -540,30 +542,41 @@ function game_gui:init(w, h, game)
 		this:remove_child(child)
 	end
 
-	if DEBUG then
-		local cheat_button = wid("cheat_button")
+	local cheat_button = wid("cheat_button")
 
-		function cheat_button.on_click(this)
-			if this.cheat_view then
-				for _, view in ipairs(this.cheat_view.views) do
-					view:remove_from_parent()
-				end
-
-				this.cheat_view = nil
-
-				log.debug("Removing cheats")
-			else
-				package.loaded.game_gui_cheats = nil
-				this.cheat_view = require("game_gui_cheats")
-
-				this.cheat_view:init()
-
-				for _, view in ipairs(this.cheat_view.views) do
-					this.parent:add_child(view)
-				end
-
-				log.debug("adding cheats")
+	function cheat_button.on_click(this)
+		local isFirstClick
+		if this.cheat_view then
+			for _, view in ipairs(this.cheat_view.views) do
+				view:remove_from_parent()
 			end
+
+			this.cheat_view = nil
+
+			log.debug("Removing cheats")
+		else
+			if not isFirstClick then
+				isFirstClick = true
+				package.loaded.game_gui_cheats = nil
+			end
+			this.cheat_view = require("game_gui_cheats")
+			this.cheat_view:init()
+
+			for _, view in ipairs(this.cheat_view.views) do
+				this.parent:add_child(view)
+			end
+
+			log.debug("adding cheats")
+		end
+	end
+
+	local health_texts_button = wid("health_texts_button")
+	game_gui.game.store.level.show_health_texts = true
+	function health_texts_button.on_click(this)
+		if not game_gui.game.store.level.show_health_texts then
+			game_gui.game.store.level.show_health_texts = true
+		else
+			game_gui.game.store.level.show_health_texts = false
 		end
 	end
 
@@ -1465,9 +1478,13 @@ function game_gui:update(dt)
 
 	local st = game_gui.swap_entity
 
+	if game_gui.mode == GUI_MODE_TOWER_COMBINATION and st and st.tower and st.tower.blocked then
+		game_gui.c_deselect()
+		game_gui.swap_entity = nil
+	end
+
 	if game_gui.mode == GUI_MODE_SWAP_TOWER and st and st.tower and st.tower.blocked then
 		game_gui.c_deselect()
-
 		game_gui.swap_entity = nil
 	end
 
@@ -1493,7 +1510,7 @@ function game_gui:update(dt)
 				game_gui:show_clickable_hover(ee)
 			end
 		end
-	elseif game_gui.mode == GUI_MODE_IDLE or game_gui.mode == GUI_MODE_SWAP_TOWER then
+	elseif game_gui.mode == GUI_MODE_IDLE or game_gui.mode == GUI_MODE_SWAP_TOWER or game_gui.mode == GUI_MODE_TOWER_COMBINATION then
 		local x, y = game_gui.window:get_mouse_position()
 		local lx, ly = game_gui._last_mouse_pos_x, game_gui._last_mouse_pos_y
 
@@ -1677,7 +1694,7 @@ function game_gui:drag_entity_around_pos(x, y, margin)
 	local found = {}
 
 	for _, e in pairs(self.game.simulation.store.entities) do
-		if e.pos and e.ui and e.ui.can_click and e.health and not e.health.dead then
+		if e.pos and e.ui and e.ui.can_click and (e.health and not e.health.dead or e.tower and e.motion) then
 			local r = e.ui.click_rect
 
 			if e.ui and e.ui.can_click and e.nav_grid and (x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y) then
@@ -2288,6 +2305,20 @@ function game_gui:hide_ghost_hover()
 	end
 end
 
+function game_gui:show_decal_preview(e)
+	local h = E:create_entity(e.decal_preview_controller)
+	h.owner = e
+	self.game.simulation:insert_entity(h)
+	self.tower_ghost_hover_controller = h
+end
+
+function game_gui:hide_decal_preview()
+	if self.tower_ghost_hover_controller then
+		self.game.simulation:remove_entity(self.tower_ghost_hover_controller)
+		self.tower_ghost_hover_controller = nil
+	end
+end
+
 function game_gui:queue_notification(id, force)
 	local n = data.notifications[id]
 
@@ -2671,6 +2702,20 @@ function game_gui.q_selected_swappable_tower(ctx)
 	return false
 end
 
+function game_gui.q_selected_combined_tower(ctx)
+	local x, y, wx, wy = game_gui.get_pos_from_ctx(ctx)
+	if not wx then
+		return false
+	end
+	local e = game_gui:entity_at_pos(wx, wy)
+	local h = game_gui.tower_ghost_hover_controller
+	if e and e ~= game_gui.swap_entity and e.tower and e.ui and e.ui.can_click and h and h:filter_func(e) then
+		ctx.entity = e
+		return true
+	end
+	return false
+end
+
 function game_gui.q_selected_drag_entity(ctx)
 	local x, y, wx, wy = game_gui.get_pos_from_ctx(ctx)
 
@@ -2745,8 +2790,22 @@ function game_gui.q_can_set_tower_rally(ctx)
 	if U.is_inside_ellipse(V.v(wx, wy), rc, b.rally_range) and (b.rally_anywhere or P:valid_node_nearby(wx, wy, nil, NF_RALLY) and GR:cell_is_only(wx, wy, b.rally_terrains)) then
 		return true
 	else
-		game_gui:show_feedback("error", x, y, wx, wy)
+		local nodes = P:nearest_nodes(wx, wy, nil, {
+			1,
+			2,
+			3
+		}, true, NF_RALLY, function(node)
+			return U.is_inside_ellipse(node, rc, b.rally_range) and GR:cell_is_only(node.x, node.y, b.rally_terrains)
+		end, 3)
+	
+		if nodes and #nodes > 0 then
+			local pi, spi, ni, dist = unpack(nodes[1])
+			local npos = P:node_pos(pi, spi, ni)
+			ctx.x, ctx.y = game_gui:g2s(npos)
+			return true
+		end
 
+		game_gui:show_feedback("error", x, y, wx, wy)
 		return false
 	end
 end
@@ -2773,6 +2832,22 @@ function game_gui.q_can_set_hero_rally(ctx, hero_idx)
 	return game_gui.q_can_set_rally(ctx)
 end
 
+function game_gui.q_can_set_mobile_tower_rally(ctx)
+	local e = game_gui.selected_entity
+
+	if not e then
+		log.error("selected entity is nil")
+		return false
+	end
+
+	if not e.tower then
+		log.error("selected entitiy is not a tower")
+		return false
+	end
+
+	return game_gui.q_can_set_rally(ctx)
+end
+
 function game_gui.q_can_set_rally(ctx)
 	local e = game_gui.selected_entity
 
@@ -2791,7 +2866,7 @@ function game_gui.q_can_set_rally(ctx)
 	local rally_pos = e.reinforcement and e.nav_rally.center or e.nav_rally.pos
 
 	if (not e.nav_rally.requires_node_nearby or P:valid_node_nearby(wx, wy, nil, NF_RALLY)) and GR:cell_is_only(wx, wy, e.nav_grid.valid_terrains_dest) then
-		if e.teleport and not e.teleport.disabled and V.dist(wx, wy, e.pos.x, e.pos.y) > e.teleport.min_distance or e.nav_grid.ignore_waypoints then
+		if e.teleport and not e.teleport.disabled and V.dist(wx, wy, e.pos.x, e.pos.y) > e.teleport.min_distance or e.launch_movement and not e.launch_movement.disabled and V.dist(wx, wy, e.pos.x, e.pos.y) > e.launch_movement.min_distance or e.nav_grid.ignore_waypoints then
 			return true
 		else
 			local waypoints = GR:find_waypoints(e.pos, rally_pos, V.v(wx, wy), e.nav_grid.valid_terrains)
@@ -2804,39 +2879,37 @@ function game_gui.q_can_set_rally(ctx)
 		end
 	end
 
-	local nodes
+	local nodes = P:nearest_nodes(wx, wy, nil, {
+		1,
+		2,
+		3
+	}, true, NF_RALLY, function(node)
+		return GR:cell_is_only(node.x, node.y, e.nav_grid.valid_terrains)
+	end, 3)
 
-	if not IS_MOBILE then
-		-- block empty
-	else
-		nodes = P:nearest_nodes(wx, wy, nil, e.hero and {
-			1,
-			2,
-			3
-		} or nil, true, NF_RALLY, function(node)
-			return GR:cell_is_only(node.x, node.y, e.nav_grid.valid_terrains)
-		end, 3)
+	if nodes and #nodes > 0 then
+		local pi, spi, ni = unpack(nodes[1])
+		local npos = P:node_pos(pi, spi, ni)
 
-		if nodes and #nodes > 0 and nodes[1][4] < P:path_width(nodes[1][1]) * 1.65 then
-			local pi, spi, ni, dist = unpack(nodes[1])
-			local npos = P:node_pos(pi, spi, ni)
-
-			ctx.rally_point_snap = {
-				wx = npos.x,
-				wy = npos.y
-			}
-			wx = npos.x
+		ctx.rally_point_snap = {
+			wx = npos.x,
 			wy = npos.y
+		}
+		wx = npos.x
+		wy = npos.y
 
-			local waypoints = GR:find_waypoints(e.pos, rally_pos, V.v(wx, wy), e.nav_grid.valid_terrains)
+		local waypoints = GR:find_waypoints(e.pos, rally_pos, V.v(wx, wy), e.nav_grid.valid_terrains)
 
-			if waypoints then
-				ctx.cached_waypoints = waypoints
+		if waypoints then
+			ctx.cached_waypoints = waypoints
 
-				return true
-			end
+			return true
 		end
 	end
+	-- if not IS_MOBILE then
+	-- 	-- block empty
+	-- else
+	-- end
 
 	game_gui:show_feedback("error", x, y, wx, wy)
 
@@ -3043,6 +3116,8 @@ function game_gui.c_deselect(ctx, scope)
 		game_gui.c_deselect_item(ctx, 3)
 	elseif game_gui.mode == GUI_MODE_SWAP_TOWER then
 		game_gui:hide_ghost_hover()
+	elseif game_gui.mode == GUI_MODE_TOWER_COMBINATION then
+		game_gui:hide_decal_preview()
 	end
 
 	if game_gui.selected_entity_markers then
@@ -3292,7 +3367,7 @@ function game_gui.c_fire_power(ctx, power_id)
 
 		b:fire()
 		game_gui:set_mode(GUI_MODE_IDLE)
-
+		
 		if not skip_confirmation then
 			game_gui:show_feedback("ok", x, y, wx, wy)
 		end
@@ -3406,7 +3481,10 @@ function game_gui.c_select_hero(ctx, hero_idx)
 		end
 	end
 
-	local hero_portrait = wid("hero_portrait_" .. hero_idx)
+	local hero_portrait
+	if hero_idx then
+		hero_portrait = wid("hero_portrait_" .. hero_idx)
+	end
 
 	if hero_portrait and hero_portrait:is_disabled() then
 		return false
@@ -3837,7 +3915,8 @@ function game_gui.c_move_dragable(ctx)
 
 	if not e then
 		log.error("selected entity is nil")
-	elseif e.hero and game_gui.q_can_set_hero_rally(ctx) or e.reinforcement and game_gui.q_can_set_re_rally(ctx) then
+	elseif e.hero and game_gui.q_can_set_hero_rally(ctx) or e.reinforcement and game_gui.q_can_set_re_rally(ctx) or 
+	e.tower and game_gui.q_can_set_mobile_tower_rally(ctx) then
 		game_gui.c_set_rally(ctx)
 	end
 
@@ -4016,6 +4095,60 @@ function game_gui.c_swap_tower(ctx)
 
 	game_gui:set_mode(GUI_MODE_IDLE)
 	game_gui:hide_ghost_hover()
+end
+
+function game_gui.c_combine_tower(ctx)
+	local e = ctx.entity or game_gui.last_tower_hover
+
+	if not e or not e.ui then
+		return
+	end
+
+	if not game_gui.game.store.entities[e.id] then
+		log.debug("tower %s is not in entities", e.id)
+
+		return
+	end
+
+	if e.ui and e.ui.click_proxies then
+		for _, cp in pairs(e.ui.click_proxies) do
+			if cp and cp.ui and cp.ui.can_click then
+				log.debug("click proxied from (%s)%s to (%s)%s", e.id, e.template_name, cp.id, cp.template_name)
+
+				cp.ui.clicked = true
+			end
+		end
+	end
+
+	if not e.ui.can_click then
+		log.debug("cannot click tower %s: has ui.can_click == false", e.id)
+
+		return
+	end
+
+	e.ui.clicked = true
+
+	if not e.ui.can_select then
+		log.debug("cannot select tower %s: has ui.can_select == false", e.id)
+
+		return
+	end
+
+	if e == game_gui.selected_entity then
+		log.debug("cannot select tower %s: is already selected", e.id)
+
+		return
+	end
+
+	game_gui.c_deselect(ctx)
+
+	local controller = E:create_entity(game_gui.swap_entity.tower_combination_controller)
+	controller.tower_1 = game_gui.swap_entity
+	controller.tower_2 = e
+	game_gui.game.simulation:insert_entity(controller)
+	game_gui.swap_entity = nil
+	game_gui:set_mode(GUI_MODE_IDLE)
+	game_gui:hide_decal_preview()
 end
 
 function game_gui.c_set_rally(ctx)
@@ -8210,7 +8343,7 @@ g.ism_data = {
 		},
 		{
 			"return",
-			true,
+			g.q_selected_swappable_tower,
 			[4] = g.c_swap_tower
 		},
 		{
@@ -8251,6 +8384,260 @@ g.ism_data = {
 			"click1",
 			g.q_selected_swappable_tower,
 			[4] = g.c_swap_tower
+		},
+		{
+			"click1",
+			true,
+			[4] = g.c_deselect
+		},
+		{
+			"e",
+			g.q_is_wave_ready,
+			[4] = g.c_select_wave_flags
+		},
+		{
+			"w",
+			g.q_is_wave_ready,
+			[4] = g.c_send_wave
+		},
+		{
+			"r",
+			g.q_has_noti_queued,
+			[4] = g.c_show_noti_queued
+		},
+		{
+			"space",
+			g.q_is_hero_active,
+			{
+				1
+			},
+			g.c_select_hero,
+			{
+				1
+			}
+		},
+		{
+			"space",
+			g.q_is_hero_active,
+			{
+				2
+			},
+			g.c_select_hero,
+			{
+				2
+			}
+		},
+		{
+			"1",
+			g.q_is_power_active,
+			{
+				1
+			},
+			g.c_select_power,
+			{
+				1
+			}
+		},
+		{
+			"2",
+			g.q_is_power_active,
+			{
+				2
+			},
+			g.c_select_power,
+			{
+				2
+			}
+		},
+		{
+			"3",
+			g.q_is_power_active,
+			{
+				3
+			},
+			g.c_select_power,
+			{
+				3
+			}
+		},
+		{
+			"4",
+			g.q_is_hero_active,
+			{
+				1
+			},
+			g.c_select_hero,
+			{
+				1
+			}
+		},
+		{
+			"5",
+			g.q_is_hero_active,
+			{
+				2
+			},
+			g.c_select_hero,
+			{
+				2
+			}
+		},
+		{
+			"6",
+			g.q_is_hero_custom_active,
+			[4] = g.c_select_hero_custom
+		},
+		{
+			"6",
+			g.q_is_re_active,
+			[4] = g.c_select_next_re
+		},
+		{
+			"jstart",
+			true,
+			[4] = g.c_pause
+		},
+		{
+			"jback",
+			"r"
+		},
+		{
+			"jx",
+			"w"
+		},
+		{
+			"jy",
+			"e"
+		},
+		{
+			"jdpleft",
+			g.q_is_power_active,
+			{
+				1
+			},
+			g.c_select_power,
+			{
+				1
+			}
+		},
+		{
+			"jdpup",
+			g.q_is_power_active,
+			{
+				2
+			},
+			g.c_select_power,
+			{
+				2
+			}
+		},
+		{
+			"jdpright",
+			g.q_is_power_active,
+			{
+				3
+			},
+			g.c_select_power,
+			{
+				3
+			}
+		},
+		{
+			"jdpdown",
+			"6"
+		},
+		{
+			"jleftshoulder",
+			g.q_is_hero_active,
+			{
+				1
+			},
+			g.c_select_hero,
+			{
+				1
+			}
+		},
+		{
+			"jrightshoulder",
+			g.q_is_hero_active,
+			{
+				2
+			},
+			g.c_select_hero,
+			{
+				2
+			}
+		},
+		{
+			"touch_down",
+			g.q_can_drag_entity,
+			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_selected_drag_entity,
+			[4] = g.c_drag_entity
+		},
+		{
+			"touch_move",
+			g.q_selected_drag_tower,
+			[4] = g.c_drag_tower
+		},
+		{
+			"touch_up",
+			true,
+			[4] = g.c_deselect_dragable
+		}
+	},
+	[GUI_MODE_TOWER_COMBINATION] = {
+		{
+			"escape",
+			true,
+			[4] = g.c_deselect
+		},
+		{
+			"return",
+			g.q_selected_combined_tower,
+			[4] = g.c_combine_tower
+		},
+		{
+			"up",
+			true,
+			[4] = g.c_hover_next
+		},
+		{
+			"down",
+			true,
+			[4] = g.c_hover_next
+		},
+		{
+			"left",
+			true,
+			[4] = g.c_hover_next
+		},
+		{
+			"right",
+			true,
+			[4] = g.c_hover_next
+		},
+		{
+			"ja",
+			g.q_selected_combined_tower,
+			[4] = g.c_combine_tower
+		},
+		{
+			"jb",
+			"escape"
+		},
+		{
+			"jleftxy",
+			ISM.q_rate_limit,
+			[4] = g.c_hover_next
+		},
+		{
+			"click1",
+			g.q_selected_combined_tower,
+			[4] = g.c_combine_tower
 		},
 		{
 			"click1",
@@ -10346,11 +10733,19 @@ function TowerMenuButton:initialize(item, entity)
 		image_halo = KImageView:new("ingame_ui_main_icons_over_hover")
 		image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
 	elseif item.action == "upgrade_power" or item.action == "tw_free_action" then
-		image_frame = KImageView:new("ingame_ui_special_icons_bg")
-		image_frame.pos = V.v(math.floor(-0.5 * (image_frame.size.x - b.size.x)), math.floor(-0.5 * (image_frame.size.y - b.size.y)))
-		image_frame.propagate_on_click = true
-		image_halo = KImageView:new("ingame_ui_special_icons_bg_hover")
-		image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
+		if item.use_tw_upgrade_halo then
+			image_frame = KImageView:new("ingame_ui_main_icons_over")
+			image_frame.pos = V.v(math.floor(-0.5 * (image_frame.size.x - b.size.x)), math.floor(-0.5 * (image_frame.size.y - b.size.y)))
+			image_frame.propagate_on_click = true
+			image_halo = KImageView:new("ingame_ui_main_icons_over_hover")
+			image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
+		else
+			image_frame = KImageView:new("ingame_ui_special_icons_bg")
+			image_frame.pos = V.v(math.floor(-0.5 * (image_frame.size.x - b.size.x)), math.floor(-0.5 * (image_frame.size.y - b.size.y)))
+			image_frame.propagate_on_click = true
+			image_halo = KImageView:new("ingame_ui_special_icons_bg_hover")
+			image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
+		end
 	elseif item.action == "tw_change_mode" then
 		image_frame = KImageView:new("ingame_ui_action_icon_frame")
 		image_frame.pos = V.v(math.floor(-0.5 * (image_frame.size.x - b.size.x)), math.floor(-0.5 * (image_frame.size.y - b.size.y)))
@@ -10358,7 +10753,7 @@ function TowerMenuButton:initialize(item, entity)
 		image_frame.disabled_tint_color = nil
 		image_halo = KImageView:new("ingame_ui_action_icon_frame_hover")
 		image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
-	elseif item.action == "tw_swap_mode" then
+	elseif item.action == "tw_swap_mode" or item.action == "tw_combination" then
 		image_frame = KImageView:new("ingame_ui_action_icon_frame")
 		image_frame.pos = V.v(math.floor(-0.5 * (image_frame.size.x - b.size.x)), math.floor(-0.5 * (image_frame.size.y - b.size.y)))
 		image_frame.propagate_on_click = true
@@ -10529,7 +10924,7 @@ end
 function TowerMenuButton:disable()
 	self.click_disabled = true
 
-	if self.item.action ~= "tw_change_mode" and self.item.action ~= "tw_swap_mode" then
+	if self.item.action ~= "tw_change_mode" and self.item.action ~= "tw_swap_mode" and self.item.action ~= "tw_combination" then
 		if self.check then
 			self.check:set_image(self.check_image .. "_disabled")
 		end
@@ -10752,6 +11147,10 @@ function TowerMenuButton:confirm()
 
 				S:queue("UpgradeFavoriteCustomer")
 			end
+			
+			if power.disappear_on_upgrade then
+				game_gui.c_deselect()
+			end
 
 			if IS_MOBILE then
 				self:deselect()
@@ -10791,7 +11190,7 @@ function TowerMenuButton:confirm()
 			end
 		end
 	elseif item.action == "tw_change_mode" then
-		if e.tower then
+		if e.tower and not e.tower_upgrade_persistent_data.preparing then
 			e.change_mode = true
 
 			game_gui.c_deselect()
@@ -10824,6 +11223,16 @@ function TowerMenuButton:confirm()
 
 		local ux, uy = game_gui:w2u(e.pos)
 
+		self.parent:hide()
+	elseif item.action == "tw_combination" then
+		if e.tower then
+			e.change_mode = true
+			game_gui.c_deselect()
+			new_mode = e.tower_upgrade_persistent_data.current_mode == 0 and 1 or 0
+		end
+		game_gui.swap_entity = e
+		game_gui:set_mode(GUI_MODE_TOWER_COMBINATION)
+		game_gui:show_decal_preview(e)
 		self.parent:hide()
 	elseif item.action == "tw_repair" then
 		if e.user_selection then
@@ -11002,7 +11411,7 @@ function TowerMenuButton:update(dt)
 			end
 		end
 
-		if item.action ~= "tw_change_mode" and item.action ~= "tw_swap_mode" then
+		if item.action ~= "tw_change_mode" and item.action ~= "tw_swap_mode" and item.action ~= "tw_combination" then
 			if self.click_disabled then
 				self.button:set_image(self.item_image .. "_disabled_turn_off")
 			else
@@ -11091,6 +11500,8 @@ function TowerMenuTooltip:show(entity, item)
 	self.entity = entity
 	self.wide = true
 
+	balance = nil
+	balance = require("balance/balance")
 	for _, v in pairs(self:ci("bottom_views").children) do
 		v.hidden = true
 	end
@@ -11197,23 +11608,34 @@ function TowerMenuTooltip:show(entity, item)
 
 		if entity.tower_upgrade_persistent_data.current_mode == 0 then
 			self:ci("title").text = item.tt_title_mode1
-			self:ci("desc").text = item.tt_desc_mode1
-
-			local b = self:ci("bottom_type_phrase")
-
-			b.hidden = false
-			has_bottom_view = true
-			b:ci("phrase").text = item.tt_phrase_mode1
+			if not entity.tower_upgrade_persistent_data.preparing then
+				self:ci("desc").text = item.tt_desc_mode1
+			else
+				self:ci("desc").text = item.tt_desc_mode0
+			end
+			if item.tt_phrase_mode1 then
+				local b = self:ci("bottom_type_phrase")
+				b.hidden = false
+				has_bottom_view = true
+				b:ci("phrase").text = item.tt_phrase_mode1
+			end
 		else
 			self:ci("title").text = item.tt_title_mode0
-			self:ci("desc").text = item.tt_desc_mode0
-
-			local b = self:ci("bottom_type_phrase")
-
-			b.hidden = false
-			has_bottom_view = true
-			b:ci("phrase").text = item.tt_phrase_mode0
+			if entity.tower_upgrade_persistent_data.preparing == nil or entity.tower_upgrade_persistent_data.preparing then
+				self:ci("desc").text = item.tt_desc_mode0
+			else
+				self:ci("desc").text = item.tt_desc_mode1
+			end
+			if item.tt_phrase_mode0 then
+				local b = self:ci("bottom_type_phrase")
+				b.hidden = false
+				has_bottom_view = true
+				b:ci("phrase").text = item.tt_phrase_mode0
+			end
 		end
+	elseif item.action == "tw_combination" then
+		self:ci("title").text = item.tt_title
+		self:ci("desc").text = item.tt_desc
 	else
 		self.hidden = true
 	end

@@ -1,7 +1,5 @@
-﻿-- chunkname: @./kr5/data/waves/level22_waves_campaign.lua
-
 return {
-	cash = 1050,
+	cash = 750,
 	groups = {
 		{
 			interval = 800,
@@ -557,8 +555,40 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_basic",
 							path = 2,
-							interval_next = 900,
+							interval_next = 300,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -604,6 +634,62 @@ return {
 							path = 3,
 							interval_next = 45,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 45,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
 						}
 					}
 				},
@@ -695,8 +781,32 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_basic",
 							path = 1,
-							interval_next = 500,
+							interval_next = 300,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -742,6 +852,169 @@ return {
 							path = 3,
 							interval_next = 0,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 45,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 1640,
+					path_index = 15,
+					spawns = {
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 2,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 1,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 2,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 45,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 45,
+							max = 2
 						}
 					}
 				}
@@ -1020,8 +1293,16 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 1,
-							interval_next = 500,
+							interval_next = 150,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 150,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -1029,8 +1310,16 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 2,
-							interval_next = 300,
+							interval_next = 150,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 150,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -1038,7 +1327,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 3,
-							interval_next = 200,
+							interval_next = 150,
 							max = 1
 						},
 						{
@@ -1052,12 +1341,138 @@ return {
 						},
 						{
 							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 100,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 2,
-							interval_next = 200,
+							interval_next = 100,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 450,
+					path_index = 11,
+					spawns = {
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 180,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
 						}
 					}
 				},
@@ -1068,11 +1483,67 @@ return {
 					spawns = {
 						{
 							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
-							interval_next = 70,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 2,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1081,7 +1552,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 70,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1090,7 +1569,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
-							interval_next = 70,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 2,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1099,7 +1586,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 70,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1108,7 +1603,49 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
-							interval_next = 500,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 2,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 2,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 2,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1122,20 +1659,10 @@ return {
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 75,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
+							creep = "enemy_crocs_basic_egg",
 							path = 3,
-							interval_next = 75,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1144,7 +1671,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
-							interval_next = 75,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 2,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1153,7 +1688,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 75,
+							interval_next = 35,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 35,
 							max = 1
 						},
 						{
@@ -1592,7 +2135,31 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_basic",
 							path = 3,
-							interval_next = 1600,
+							interval_next = 160,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 120,
 							max = 1
 						},
 						{
@@ -1630,6 +2197,30 @@ return {
 							path = 3,
 							interval_next = 35,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 70,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 70,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 70,
+							max = 2
 						}
 					}
 				},
@@ -1643,7 +2234,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_tank",
 							path = 1,
-							interval_next = 800,
+							interval_next = 450,
 							max = 1
 						},
 						{
@@ -1652,7 +2243,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_tank",
 							path = 1,
-							interval_next = 500,
+							interval_next = 300,
 							max = 1
 						},
 						{
@@ -1676,7 +2267,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 2,
-							interval_next = 700,
+							interval_next = 600,
 							max = 1
 						},
 						{
@@ -1709,7 +2300,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 2,
-							interval_next = 800,
+							interval_next = 450,
 							max = 1
 						},
 						{
@@ -1718,7 +2309,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 3,
-							interval_next = 750,
+							interval_next = 300,
 							max = 1
 						},
 						{
@@ -1729,6 +2320,194 @@ return {
 							path = 2,
 							interval_next = 700,
 							max = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 7,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 1,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 2,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_basic",
+							path = 1,
+							interval_next = 50,
+							max = 5
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 100,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 2,
+							interval_next = 100,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 450,
+					path_index = 6,
+					spawns = {
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 90,
+							max = 6
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 45,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 1,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 45,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 45,
+							max = 8
 						}
 					}
 				}
@@ -2137,8 +2916,24 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_hydra",
 							path = 1,
-							interval_next = 1800,
+							interval_next = 180,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 900,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -2146,14 +2941,31 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_hydra",
 							path = 1,
-							interval_next = 1500,
+							interval_next = 150,
 							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
 						}
 					}
 				},
 				{
 					delay = 100,
 					path_index = 11,
+					some_flying = true,
 					spawns = {
 						{
 							interval = 0,
@@ -2224,9 +3036,17 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_ranged",
 							path = 3,
-							interval_next = 1150,
+							interval_next = 600,
 							max = 1
 						},
+						{
+							interval = 75,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},						
 						{
 							interval = 0,
 							max_same = 0,
@@ -2316,11 +3136,35 @@ return {
 							path = 2,
 							interval_next = 25,
 							max = 1
+						},
+						{
+							interval = 70,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 70,
+							max = 4
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 70,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 70,
+							max = 2
 						}
 					}
 				},
 				{
-					delay = 350,
+					delay = 450,
 					path_index = 7,
 					spawns = {
 						{
@@ -2338,7 +3182,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 3,
-							interval_next = 1050,
+							interval_next = 300,
 							max = 1
 						},
 						{
@@ -2347,7 +3191,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 2,
-							interval_next = 450,
+							interval_next = 150,
 							max = 1
 						},
 						{
@@ -2358,6 +3202,173 @@ return {
 							path = 3,
 							interval_next = 10,
 							max = 1
+						}
+					}
+				},
+				{
+					delay = 450,
+					path_index = 4,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 90,
+							max = 8
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
 						}
 					}
 				}
@@ -2843,7 +3854,7 @@ return {
 			interval = 1300,
 			waves = {
 				{
-					delay = 400,
+					delay = 0,
 					path_index = 2,
 					spawns = {
 						{
@@ -2897,6 +3908,14 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_ranged",
 							path = 2,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
 							interval_next = 200,
 							max = 1
 						},
@@ -2969,7 +3988,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_ranged",
 							path = 1,
-							interval_next = 900,
+							interval_next = 600,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 180,
 							max = 1
 						},
 						{
@@ -3023,8 +4050,24 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_ranged",
 							path = 1,
-							interval_next = 200,
+							interval_next = 30,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 60,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -3101,7 +4144,7 @@ return {
 					}
 				},
 				{
-					delay = 50,
+					delay = 450,
 					path_index = 4,
 					spawns = {
 						{
@@ -3128,7 +4171,15 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 3,
-							interval_next = 900,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bluegale",
+							path = 1,
+							interval_next = 300,
 							max = 1
 						},
 						{
@@ -3155,8 +4206,24 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_killertile",
 							path = 3,
-							interval_next = 900,
+							interval_next = 150,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bluegale",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 300,
+							max = 2
 						}
 					}
 				},
@@ -3189,7 +4256,7 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 520,
+							interval_next = 450,
 							max = 1
 						},
 						{
@@ -3198,8 +4265,16 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 1,
-							interval_next = 60,
+							interval_next = 30,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -3207,8 +4282,16 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
-							interval_next = 60,
+							interval_next = 30,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -3216,53 +4299,33 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 600,
+							interval_next = 30,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 3,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 60,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
 							path = 3,
 							interval_next = 300,
-							max = 1
+							max = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 60,
+							path = 1,
+							interval_next = 30,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
 						},
 						{
 							interval = 0,
@@ -3270,7 +4333,57 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 60,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 2,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 180,
 							max = 1
 						},
 						{
@@ -3279,8 +4392,344 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_flier",
 							path = 2,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_flier",
+							path = 2,
+							interval_next = 30,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 600,
+					path_index = 7,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 120,
+							max = 3
+						},
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 300,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_shaman",
+							path = 1,
 							interval_next = 120,
 							max = 1
+						},
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 120,
+							max = 4
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_shaman",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 8
+						}
+					}
+				},
+				{
+					delay = 600,
+					path_index = 11,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 120,
+							max = 3
+						},
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 300,
+							max = 2
+						},
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 90,
+							max = 4
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_bloodshell",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},						
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 8
 						}
 					}
 				}
@@ -4621,102 +6070,83 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_egg_spawner",
+							path = 3,
+							interval_next = 180,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_bluegale",
+							path = 3,
+							interval_next = 150,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_bloodshell",
+							path = 3,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							interval = 60,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							interval = 30,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 350,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 350,
-							max = 1
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 3
 						}
 					}
 				},
@@ -4726,18 +6156,32 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_hydra",
 							path = 2,
-							interval_next = 1300,
+							interval_next = 600,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 2,
+							interval_next = 450,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_hydra",
+							path = 2,
+							interval_next = 300,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
 							path = 2,
 							interval_next = 300,
 							max = 1
@@ -4751,144 +6195,1148 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_egg_spawner",
+							path = 3,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_bluegale",
+							path = 3,
+							interval_next = 120,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 180,
 							max = 1
 						},
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							interval = 90,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							interval = 60,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 1,
-							interval_next = 70,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							interval = 30,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 3
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_crocs_flier",
-							path = 2,
-							interval_next = 10,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
+							fixed_sub_path = 0,
 							creep = "enemy_crocs_flier",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 3
 						}
 					}
 				},
 				{
 					delay = 0,
 					path_index = 7,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 150,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 450,
+							max = 3
+						},
+						{
+							interval = 150,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 2,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 3
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 3
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_shaman",
+							path = 2,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 2,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 2,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 2,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 2,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 2,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 150,
+					path_index = 1,
+					some_flying = true,
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_crocs_shaman",
+							creep = "enemy_crocs_egg_spawner",
 							path = 1,
-							interval_next = 400,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_egg_spawner",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 120,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bluegale",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_tank",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 1500,
+					path_index = 2,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 120,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 120,
+							max = 6
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 8
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 6,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 150,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_tank",
+							path = 3,
+							interval_next = 450,
+							max = 3
+						},
+						{
+							interval = 150,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_tank",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 3,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_greenfin",
+							path = 3,
+							interval_next = 90,
+							max = 3
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_deviltide",
+							path = 3,
+							interval_next = 90,
+							max = 3
+						},
+						{
+							interval = 10,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 80,
+							max = 2
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
-							path = 1,
-							interval_next = 1100,
+							path = 3,
+							interval_next = 180,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_crocs_shaman",
-							path = 1,
-							interval_next = 400,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 150,
 							max = 1
 						},
 						{
 							interval = 0,
-							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 60,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 750,
+					path_index = 11,
+					some_flying = true,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_killertile",
+							path = 3,
+							interval_next = 60,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 90,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_hydra",
+							path = 1,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bluegale",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_redspine",
+							path = 3,
+							interval_next = 120,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_bloodshell",
+							path = 1,
+							interval_next = 120,
+							max = 1
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator",
+							path = 3,
+							interval_next = 120,
+							max = 4
+						},
+						{
+							interval = 60,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 90,
+							max = 4
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_basic_egg",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_flier",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						},
+						{
+							interval = 30,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_ranged",
+							path = 3,
+							interval_next = 30,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 600,
+					path_index = 14,
+					spawns = {
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_crocs_shaman",
 							path = 1,
-							interval_next = 1700,
+							interval_next = 180,
 							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 600,
+							max = 1
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blacksurge",
+							path = 1,
+							interval_next = 150,
+							max = 1
+						},
+						{
+							interval = 150,
+							fixed_sub_path = 0,
+							creep = "enemy_crocs_shaman",
+							path = 3,
+							interval_next = 150,
+							max = 2
+						},
+						{
+							interval = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_crocs_egg_spawner",
+							path = 1,
+							interval_next = 180,
+							max = 1
+						},
+						{
+							interval = 90,
+							fixed_sub_path = 0,
+							creep = "enemy_quickfeet_gator_chicken_leg",
+							path = 3,
+							interval_next = 150,
+							max = 4
 						}
 					}
 				}

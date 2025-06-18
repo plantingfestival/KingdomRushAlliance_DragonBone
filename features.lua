@@ -1,7 +1,6 @@
-﻿-- chunkname: @./features.lua
-
 local _ft = {
-	no_gems = true,
+	-- no_gems = true,
+	default_locale = "zh-Hans",
 	asset_game_fallback_for_texture_size = {
 		fullhd_bc3 = {
 			{
@@ -19,7 +18,7 @@ local _ft = {
 	main_params = {
 		image_db_uses_canvas = true,
 		texture_size = "ipadhd_bc3",
-		skip_settings_dialog = true,
+		skip_settings_dialog = false,
 		first_launch_fullscreen = true,
 		texture_size_list = {
 			{
@@ -27,24 +26,26 @@ local _ft = {
 				"ipadhd_bc3",
 				1000000000
 			},
-			{
-				"FullHD",
-				"fullhd_bc3",
-				1200
-			},
-			{
-				"XGA",
-				"ipad",
-				700
-			}
+			-- {
+			-- 	"FullHD",
+			-- 	"fullhd_bc3",
+			-- 	-- 1200
+			-- },
+			-- {
+			-- 	"XGA",
+			-- 	"ipad",
+			-- 	-- 700
+			-- }
 		}
 	},
 	platform_services = {
 		achievements = {
 			src = "platform_services_steam",
-			name = "steam_ach",
-			enabled = true,
-			order = 41
+			name = "steam",
+			enabled = "true",
+			params = {
+				app_id = 2849080
+			}
 		},
 		goliath = {
 			src = "platform_services_mc_goliath",
@@ -52,17 +53,17 @@ local _ft = {
 			enabled = true,
 			order = 90,
 			params = {
-				game_id = "1944",
+				game_id = "1703",
 				platform = "steam",
 				production = {
-					api_url = "https://ea4ed4a2-c9ae-40f9-a3b3-20db93550dbc.goliath.atlas.bi.miniclippt.com",
-					shared_secret = "9f9c7755-d50c-4384-9ee4-a95426bfff57",
-					api_key = "ea4ed4a2-c9ae-40f9-a3b3-20db93550dbc"
+					api_url = "https://c010a959-8074-4f88-9c05-d78dbc841229.goliath.atlas.bi.miniclippt.com",
+					shared_secret = "c07bb7cd-57fd-4d8b-8aaa-0caee3eaed54",
+					api_key = "c010a959-8074-4f88-9c05-d78dbc841229"
 				},
 				staging = {
-					api_url = "https://93b950ba-2762-451f-b960-a9acbe311742.goliath.atlas.bi.miniclippt.com",
-					shared_secret = "c00480a5-e021-4129-b993-f446b728f33b",
-					api_key = "93b950ba-2762-451f-b960-a9acbe311742"
+					api_url = "https://cf9cbfa6-54d1-4a47-bc20-fe2c9b240879.goliath.atlas.bi.miniclippt.com",
+					shared_secret = "8920c81d-db13-4762-b324-ee3f75861e2b",
+					api_key = "cf9cbfa6-54d1-4a47-bc20-fe2c9b240879"
 				}
 			}
 		},
@@ -73,29 +74,14 @@ local _ft = {
 			name = "http"
 		},
 		iap = {
-			src = "platform_services_steam",
-			name = "steam_iap",
-			enabled = true,
-			order = 40,
-			params = {
-				app_id = 2849080,
-				dlcs = {
-					{
-						id = "dlc_1",
-						app_id = 3368630,
-						includes = {
-							"hero_lava",
-							"tower_dwarf"
-						}
-					}
-				}
-			}
+			src = "platform_services_iap_premium",
+			name = "iap_premium",
+			enabled = true
 		},
 		news = {
 			src = "platform_services_news_ih_https",
 			name = "news_ih",
 			enabled = true,
-			order = 50,
 			params = {
 				news_store = "steam",
 				news_id = "kra-steam-win"

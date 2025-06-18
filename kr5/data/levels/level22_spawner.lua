@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level22_spawner.lua
-
 return {
 	groups = {
 		[3] = {
@@ -32,6 +30,7 @@ return {
 	waves = {
 		{
 			BOSS = {
+				-- path 3
 				{
 					5,
 					0,
@@ -141,6 +140,42 @@ return {
 					"enemy_crocs_ranged"
 				},
 				{
+					15,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					21,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					24,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
 					33.5,
 					0,
 					1,
@@ -187,6 +222,54 @@ return {
 					1,
 					1,
 					"enemy_crocs_ranged"
+				},
+				{
+					40,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					45,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
+					49,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					53,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
 				},
 				{
 					56,
@@ -309,6 +392,139 @@ return {
 					"enemy_crocs_ranged"
 				},
 				{
+					74,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					78,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
+					82,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					86,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					89,
+					0,
+					1,
+					0,
+					6,
+					false,
+					true,
+					3,
+					3,
+					"enemy_quickfeet_gator_chicken_leg"
+				},
+				{
+					107,
+					0,
+					1,
+					0,
+					6,
+					false,
+					true,
+					3,
+					3,
+					"enemy_crocs_flier"
+				},
+				{
+					122,
+					0,
+					1,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					125,
+					0,
+					1,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					128,
+					0,
+					1,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					131,
+					0,
+					1,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					134,
+					0,
+					1,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				-- path 12
+				{
 					43,
 					0,
 					4,
@@ -381,6 +597,150 @@ return {
 					"enemy_crocs_ranged"
 				},
 				{
+					50,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					54,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_hydra"
+				},
+				{
+					58,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
+					62,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					67,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					71,
+					0,
+					4,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bloodshell"
+				},
+				{
+					75,
+					0,
+					4,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_redspine"
+				},
+				{
+					78,
+					0,
+					4,
+					0,
+					6,
+					false,
+					true,
+					3,
+					3,
+					"enemy_crocs_flier"
+				},
+				{
+					96,
+					0,
+					4,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					100,
+					0,
+					4,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					104,
+					0,
+					4,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					108,
+					0,
+					4,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
 					19,
 					0,
 					4,
@@ -440,6 +800,7 @@ return {
 					1,
 					"enemy_crocs_ranged"
 				},
+				-- path 9
 				{
 					53,
 					0,
@@ -513,6 +874,199 @@ return {
 					"enemy_crocs_basic"
 				},
 				{
+					60,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					65,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					70,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					3,
+					3,
+					"enemy_crocs_tank"
+				},
+				{
+					76,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
+					80,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_quickfeet_gator_chicken_leg"
+				},
+				{
+					84,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_quickfeet_gator_chicken_leg"
+				},
+				{
+					88,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_quickfeet_gator_chicken_leg"
+				},
+				{
+					90,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_shaman"
+				},
+				{
+					95,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bloodshell"
+				},
+				{
+					100,
+					0,
+					2,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					105,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					2,
+					2,
+					"enemy_redspine"
+				},
+				{
+					110,
+					0,
+					2,
+					0,
+					6,
+					false,
+					true,
+					3,
+					3,
+					"enemy_crocs_flier"
+				},
+				{
+					128,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					131,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					134,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				{
+					137,
+					0,
+					2,
+					0,
+					2,
+					false,
+					true,
+					1,
+					1,
+					"enemy_crocs_flier"
+				},
+				-- path 3
+				{
 					80,
 					0,
 					1,
@@ -584,6 +1138,7 @@ return {
 					1,
 					"enemy_crocs_ranged"
 				},
+				-- path 9
 				{
 					115,
 					0,
@@ -705,18 +1260,6 @@ return {
 					"enemy_killertile"
 				},
 				{
-					188,
-					0,
-					2,
-					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
 					199,
 					0,
 					2,
@@ -753,18 +1296,6 @@ return {
 					"enemy_killertile"
 				},
 				{
-					214,
-					0,
-					2,
-					2,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
 					227,
 					0,
 					2,
@@ -781,18 +1312,6 @@ return {
 					0,
 					2,
 					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
-					237,
-					0,
-					2,
-					2,
 					1,
 					true,
 					false,
@@ -825,18 +1344,6 @@ return {
 					"enemy_killertile"
 				},
 				{
-					265,
-					0,
-					2,
-					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
 					283,
 					0,
 					2,
@@ -853,18 +1360,6 @@ return {
 					0,
 					2,
 					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
-					293,
-					0,
-					2,
-					2,
 					1,
 					true,
 					false,
@@ -909,18 +1404,6 @@ return {
 					"enemy_killertile"
 				},
 				{
-					326,
-					0,
-					2,
-					2,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_killertile"
-				},
-				{
 					339,
 					0,
 					2,
@@ -956,17 +1439,318 @@ return {
 					1,
 					"enemy_killertile"
 				},
+				-- path 17
 				{
-					354,
+					230,
 					0,
-					2,
 					3,
+					0,
 					1,
-					true,
 					false,
+					true,
+					0,
+					0,
+					"enemy_blacksurge"
+				},
+				{
+					235,
+					0,
+					3,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					239,
+					0,
+					3,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_hydra"
+				},
+				{
+					242,
+					0,
+					3,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_egg_spawner"
+				},
+				{
+					246,
+					0,
+					3,
+					0,
+					4,
+					false,
+					true,
 					1,
 					1,
 					"enemy_killertile"
+				},
+				{
+					251,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					2,
+					2,
+					"enemy_crocs_shaman"
+				},
+				{
+					257,
+					0,
+					3,
+					0,
+					6,
+					false,
+					true,
+					2,
+					2,
+					"enemy_quickfeet_gator_chicken_leg"
+				},
+				{
+					271,
+					0,
+					3,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bloodshell"
+				},
+				{
+					275,
+					0,
+					3,
+					0,
+					1,
+					false,
+					true,
+					0,
+					0,
+					"enemy_bluegale"
+				},
+				{
+					279,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_redspine"
+				},
+				{
+					283,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_greenfin"
+				},
+				{
+					285,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					287,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_greenfin"
+				},
+				{
+					289,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					291,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_deviltide"
+				},
+				{
+					293,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					295,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_deviltide"
+				},
+				{
+					297,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					299,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_quickfeet_gator"
+				},
+				{
+					301,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					303,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_quickfeet_gator"
+				},
+				{
+					305,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					307,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_ranged"
+				},
+				{
+					309,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
+				},
+				{
+					311,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_ranged"
+				},
+				{
+					313,
+					0,
+					3,
+					0,
+					2,
+					false,
+					true,
+					0,
+					0,
+					"enemy_crocs_flier"
 				},
 				{
 					43,
@@ -1629,18 +2413,6 @@ return {
 					"enemy_crocs_ranged"
 				},
 				{
-					203,
-					0,
-					3,
-					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_crocs_ranged"
-				},
-				{
 					215,
 					0,
 					3,
@@ -1669,18 +2441,6 @@ return {
 					0,
 					3,
 					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_crocs_ranged"
-				},
-				{
-					218,
-					0,
-					3,
-					2,
 					1,
 					true,
 					false,
@@ -1825,18 +2585,6 @@ return {
 					0,
 					3,
 					3,
-					1,
-					true,
-					false,
-					1,
-					1,
-					"enemy_crocs_ranged"
-				},
-				{
-					279,
-					0,
-					3,
-					2,
 					1,
 					true,
 					false,

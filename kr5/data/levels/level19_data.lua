@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level19_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -612,6 +610,7 @@ return {
 		"tower_dark_elf"
 	},
 	required_textures = {
+		"go_enemies_sea_of_trees",
 		"go_enemies_terrain_4",
 		"go_stage19_bg",
 		"go_stage19",

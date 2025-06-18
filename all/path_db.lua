@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/path_db.lua
-
 local bit = require("bit")
 local log = require("klua.log"):new("path_db")
 local km = require("klua.macros")
@@ -529,8 +527,8 @@ function path_db:next_entity_node(e, dt)
 	return next_node, new
 end
 
-function path_db:predict_enemy_node_advance(e, flight_time)
-	local average_node_dist = self.average_node_dist
+function path_db:predict_enemy_node_advance(e, flight_time, custom_delay)
+	local threshold = 1
 
 	if not flight_time then
 		return 0
@@ -538,11 +536,31 @@ function path_db:predict_enemy_node_advance(e, flight_time)
 		flight_time = 1
 	end
 
-	local speed = V.len(e.motion.speed.x, e.motion.speed.y)
-	local node_offset = math.ceil(flight_time * speed / average_node_dist)
-	local path = self:path(e.nav_path.pi)
+	if custom_delay then
+		flight_time = flight_time + custom_delay
+	else
+		flight_time = flight_time + 0.02
+	end
 
-	return km.clamp(0, #path - e.nav_path.ni, node_offset)
+	local speed = V.len(e.motion.speed.x, e.motion.speed.y)
+	local fDist = flight_time * speed
+	local path = self:path(e.nav_path.pi)
+	local x, y = e.pos.x, e.pos.y
+	local dist = 0
+	local endIndex = e.nav_path.dir < 0 and 1 or #path
+	local step = e.nav_path.dir < 0 and -1 or 1
+	local node_offset = endIndex - e.nav_path.ni
+	for i = e.nav_path.ni, endIndex, step do
+		local nodePos = self:node_pos(e.nav_path.pi, e.nav_path.spi, i)
+		dist = dist + V.dist(x, y, nodePos.x, nodePos.y)
+		if fDist - dist < threshold then
+			node_offset = i - e.nav_path.ni
+			break
+		end
+		x, y = nodePos.x, nodePos.y
+	end
+
+	return node_offset
 end
 
 function path_db:predict_enemy_time(e, nodes_count)

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_ghost.lua
-
 return {
 	ghost_tower_buff_skill_back_0001 = {
 		a_name = "go_towers_ghost-1.dds",
@@ -13464,5 +13462,24381 @@ return {
 		alias = {
 			"ghost_tower_unit_spawn_fx_0024"
 		}
+	},
+	-- customization
+	["bottom_info_image_soldiers_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			431,
+			216,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			216,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			56,
+            37,
+            28,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			835,
+			1296,
+			56,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			22,
+            43,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			440,
+			519,
+			89,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			22,
+            43,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			440,
+			519,
+			89,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			24,
+            40,
+            27,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			270,
+			1260,
+			89,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			24,
+            40,
+            27,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			270,
+			1260,
+			89,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			24,
+            37,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1343,
+			171,
+			87,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			24,
+            37,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1343,
+			171,
+			87,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			26,
+            34,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			298,
+			1417,
+			85,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			26,
+            34,
+            29,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			298,
+			1417,
+			85,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			25,
+            33,
+            34,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			469,
+			1175,
+			81,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			25,
+            33,
+            34,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			469,
+			1175,
+			81,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            35,
+            48,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			719,
+			1344,
+			45,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            35,
+            48,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			976,
+			45,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            31,
+            47,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			761,
+			1296,
+			46,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            31,
+            47,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			925,
+			1122,
+			46,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			395,
+			1029,
+			47,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			767,
+			855,
+			47,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            47,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			984,
+			947,
+			45,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            47,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			672,
+			1349,
+			45,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            39,
+            47,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			979,
+			994,
+			46,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            39,
+            47,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			896,
+			1356,
+			46,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            36,
+            47,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			957,
+			1197,
+			45,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            36,
+            47,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1061,
+			1447,
+			45,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            31,
+            47,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			973,
+			1122,
+			46,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            31,
+            47,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			894,
+			1421,
+			46,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1102,
+			946,
+			47,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			699,
+			1157,
+			47,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            39,
+            47,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			508,
+			1351,
+			45,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            39,
+            47,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1087,
+			1253,
+			45,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            37,
+            47,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1154,
+			1253,
+			46,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            37,
+            47,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1218,
+			1056,
+			46,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            46,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1222,
+			1301,
+			46,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            46,
+            29
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1276,
+			1300,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            34,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			893,
+			1296,
+			46,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            34,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1013,
+			1447,
+			46,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            33,
+            46,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			941,
+			1508,
+			46,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            33,
+            46,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			989,
+			1508,
+			46,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            40,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1168,
+			1456,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            40,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1317,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            42,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1089,
+			1519,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            42,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1457,
+			1294,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            46,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1372,
+			46,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            38,
+            46,
+            29
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1409,
+			1292,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            33,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1170,
+			1057,
+			46,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            33,
+            46,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1074,
+			1059,
+			46,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            34,
+            46,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1098,
+			997,
+			46,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            34,
+            46,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1122,
+			1059,
+			46,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            42,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1471,
+			1069,
+			46,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			48,
+            42,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1409,
+			1401,
+			46,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            41,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1459,
+			1347,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			46,
+            41,
+            46,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1519,
+			1069,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            37,
+            28,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			848,
+			935,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            37,
+            28,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			848,
+			935,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			52,
+            20,
+            43,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			894,
+			1497,
+			45,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			52,
+            20,
+            43,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			894,
+			1497,
+			45,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			33,
+            21,
+            52,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			833,
+			993,
+			55,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			33,
+            21,
+            52,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			833,
+			993,
+			55,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			9,
+            28,
+            60,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			862,
+			71,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			9,
+            28,
+            60,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			862,
+			71,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			5,
+            29,
+            48,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			270,
+			1351,
+			87,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			5,
+            29,
+            48,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			270,
+			1351,
+			87,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			8,
+            13,
+            11,
+            20
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1258,
+			121,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			8,
+            13,
+            11,
+            20
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1258,
+			121,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            19,
+            10,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			623,
+			1157,
+			75,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            19,
+            10,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			623,
+			1157,
+			75,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            30,
+            11,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1338,
+			638,
+			74,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            30,
+            11,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1338,
+			638,
+			74,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            41,
+            19,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			616,
+			1349,
+			66,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            41,
+            19,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			616,
+			1349,
+			66,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            39,
+            26,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1028,
+			1193,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            39,
+            26,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1028,
+			1193,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            37,
+            28,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1089,
+			1192,
+			57,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			55,
+            37,
+            28,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1089,
+			1192,
+			57,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			74,
+            89,
+            52,
+            22
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1037,
+			1508,
+			14,
+			9
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0075"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			74,
+            89,
+            52,
+            22
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1037,
+			1508,
+			14,
+			9
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0076"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			68,
+            85,
+            48,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			834,
+			1556,
+			24,
+			14
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0077"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			68,
+            85,
+            48,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			834,
+			1556,
+			24,
+			14
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0078"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            77,
+            36,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1545,
+			1345,
+			45,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0079"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            77,
+            36,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1545,
+			1345,
+			45,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0080"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			45,
+            69,
+            25,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			603,
+			1040,
+			70,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0081"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			45,
+            69,
+            25,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			603,
+			1040,
+			70,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0082"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			42,
+            61,
+            23,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			907,
+			947,
+			75,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0083"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			42,
+            61,
+            23,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			808,
+			1116,
+			75,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0084"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			39,
+            49,
+            21,
+            13
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1343,
+			260,
+			80,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0085"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			39,
+            49,
+            21,
+            13
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1343,
+			260,
+			80,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0086"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			37,
+            44,
+            19,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			531,
+			516,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0087"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			37,
+            44,
+            19,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			582,
+			1417,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0088"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            39,
+            23,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			359,
+			1351,
+			70,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0089"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			47,
+            39,
+            23,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			907,
+			994,
+			70,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0090"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            29,
+            25,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			227,
+			1497,
+			64,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0091"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            29,
+            25,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			431,
+			1351,
+			64,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0092"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            27,
+            31,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			409,
+			1181,
+			58,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0093"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            27,
+            31,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			861,
+			58,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0094"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            38,
+            31,
+            17
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			829,
+			1356,
+			58,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0095"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            38,
+            30,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			555,
+			1349,
+			59,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0096"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            29,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			771,
+			983,
+			60,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0097"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            29,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1274,
+			291,
+			60,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0098"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            28,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			741,
+			1053,
+			61,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0099"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            28,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			810,
+			1053,
+			61,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0100"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            25,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			768,
+			1502,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0101"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            25,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			750,
+			1226,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0102"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            25,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			855,
+			1122,
+			64,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0103"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            26,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			816,
+			1226,
+			63,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0104"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            37,
+            28,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			951,
+			1059,
+			61,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0105"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            28,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			881,
+			1226,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0106"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            28,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			881,
+			1226,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0107"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            36,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1146,
+			995,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0108"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            36,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1146,
+			995,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0109"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0110"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0111"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0112"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0113"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0114"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            33,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1201,
+			1123,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0115"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            27,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			471,
+			1020,
+			56,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0116"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            27,
+            33,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			471,
+			1020,
+			56,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0117"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            21,
+            31,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			748,
+			1116,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0118"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            21,
+            31,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			748,
+			1116,
+			58,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0119"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            20,
+            29,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			921,
+			60,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0120"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            20,
+            29,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			921,
+			60,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0121"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			52,
+            18,
+            31,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			617,
+			1077,
+			57,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0122"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			52,
+            18,
+            31,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			617,
+			1077,
+			57,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0123"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			57,
+            13,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			661,
+			916,
+			49,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0124"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			57,
+            13,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			661,
+			916,
+			49,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0125"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            11,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1354,
+			342,
+			47,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0126"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            11,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1354,
+			342,
+			47,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0127"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            24,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			939,
+			1244,
+			47,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0128"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            24,
+            34,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			939,
+			1244,
+			47,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0129"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            24,
+            36,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1013,
+			1251,
+			45,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0130"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			59,
+            24,
+            36,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1013,
+			1251,
+			45,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_0131"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			61,
+            72,
+            37,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1406,
+			1449,
+			42,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0132"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			61,
+            72,
+            37,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1406,
+			1449,
+			42,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0133"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			61,
+            67,
+            36,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1426,
+			43,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0134"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			61,
+            67,
+            36,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1426,
+			43,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["draugr_0135"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			61,
+            70,
+            36,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			1413,
+			43,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["draugr_shadow"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			120
+		},
+		trim = {
+			51,
+            86,
+            51,
+            24
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1213,
+			849,
+			38,
+			10
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0124"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			431,
+			314,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			14,
+            23,
+            14,
+            22
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			373,
+			122,
+			24,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			13,
+            22,
+            13,
+            19
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1352,
+			1458,
+			26,
+			27
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			13,
+            22,
+            13,
+            19
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1352,
+			1458,
+			26,
+			27
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			7,
+            15,
+            2,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1358,
+			497,
+			43,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			1,
+            8,
+            0,
+            12
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1221,
+			1251,
+			51,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			0,
+            4,
+            0,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1404,
+			1236,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			6,
+            14,
+            7,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1116,
+			39,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_bolt_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			6,
+            14,
+            7,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1116,
+			39,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_bolt_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			6,
+            19,
+            6,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1494,
+			1450,
+			40,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_bolt_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			52,
+			68
+		},
+		trim = {
+			6,
+            19,
+            6,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1494,
+			1450,
+			40,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer1_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			1,
+            45,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			6,
+			167,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            42,
+            36,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			1000,
+			98,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            41,
+            35,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			1181,
+			99,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            41,
+            34,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			307,
+			1181,
+			100,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			33,
+            40,
+            34,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			195,
+			1417,
+			101,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            40,
+            33,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			90,
+			1417,
+			103,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            39,
+            32,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			749,
+			211,
+			104,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            39,
+            31,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			279,
+			231,
+			105,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			31,
+            38,
+            30,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			673,
+			107,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			31,
+            38,
+            29,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			563,
+			108,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			30,
+            37,
+            28,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			451,
+			110,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			30,
+            37,
+            27,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			338,
+			111,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            27,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			147,
+			112,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			686,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			801,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1381,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			338,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			454,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			570,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			916,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            40,
+            29,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			451,
+			107,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            44,
+            33,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			296,
+			1078,
+			101,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			37,
+            48,
+            37,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			681,
+			94,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            42,
+            36,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			1000,
+			98,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            41,
+            35,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			1181,
+			99,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            41,
+            34,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			307,
+			1181,
+			100,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			33,
+            40,
+            34,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			195,
+			1417,
+			101,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            40,
+            33,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			90,
+			1417,
+			103,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            39,
+            32,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			749,
+			211,
+			104,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            39,
+            31,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			279,
+			231,
+			105,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			31,
+            38,
+            30,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			673,
+			107,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			31,
+            38,
+            29,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			563,
+			108,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			30,
+            37,
+            28,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			451,
+			110,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			30,
+            37,
+            27,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			338,
+			111,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            27,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			204,
+			147,
+			112,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			686,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			801,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1381,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			338,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			454,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			28,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			570,
+			114,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			29,
+            36,
+            26,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			122,
+			916,
+			113,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			32,
+            40,
+            29,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			451,
+			107,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			34,
+            44,
+            33,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			296,
+			1078,
+			101,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer2_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			37,
+            48,
+            37,
+            66
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			681,
+			94,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer2_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			65,
+            98,
+            84,
+            69
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			746,
+			916,
+			19,
+			17
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			65,
+            98,
+            84,
+            69
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			746,
+			916,
+			19,
+			17
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			63,
+            83,
+            81,
+            68
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1536,
+			1464,
+			24,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			63,
+            83,
+            81,
+            68
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1536,
+			1464,
+			24,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			63,
+            77,
+            77,
+            68
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			718,
+			1116,
+			28,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			63,
+            77,
+            77,
+            68
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			718,
+			1116,
+			28,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			66,
+            64,
+            75,
+            70
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1509,
+			1397,
+			27,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			66,
+            64,
+            75,
+            70
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1509,
+			1397,
+			27,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			65,
+            57,
+            77,
+            72
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1460,
+			1179,
+			26,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			65,
+            57,
+            77,
+            72
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1460,
+			1179,
+			26,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			61,
+            43,
+            82,
+            73
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			983,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			61,
+            43,
+            82,
+            73
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			983,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			58,
+            32,
+            83,
+            85
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			888,
+			1197,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			58,
+            32,
+            83,
+            85
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			888,
+			1197,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			56,
+            25,
+            86,
+            95
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			1347,
+			26,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			56,
+            25,
+            86,
+            95
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			1347,
+			26,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			53,
+            17,
+            84,
+            111
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			830,
+			1193,
+			31,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			53,
+            17,
+            84,
+            111
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			830,
+			1193,
+			31,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			50,
+            12,
+            84,
+            122
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1325,
+			947,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			50,
+            12,
+            84,
+            122
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1325,
+			947,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			53,
+            9,
+            80,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1487,
+			35,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			53,
+            9,
+            80,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1487,
+			35,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			55,
+            10,
+            80,
+            141
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1121,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			55,
+            10,
+            80,
+            141
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1121,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			60,
+            12,
+            78,
+            140
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1397,
+			30,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			60,
+            12,
+            78,
+            140
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1397,
+			30,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl2_layer3_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl2_layer3_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			168,
+			184
+		},
+		trim = {
+			0,
+            0,
+            165,
+            181
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer1_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			4,
+            61,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			187,
+			176,
+			149
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			38,
+            66,
+            46,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			292,
+			96,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			38,
+            65,
+            45,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1016,
+			848,
+			97,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            65,
+            44,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1506,
+			676,
+			99,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            44,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			715,
+			788,
+			99,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            43,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			580,
+			768,
+			100,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            42,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1134,
+			517,
+			101,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            63,
+            41,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			166,
+			1349,
+			102,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            63,
+            40,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			293,
+			1504,
+			104,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            62,
+            39,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			622,
+			352,
+			105,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            62,
+            38,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			170,
+			106,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            61,
+            38,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			100,
+			106,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            61,
+            37,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			629,
+			282,
+			107,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			289,
+			338,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			289,
+			448,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			231,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			341,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			95,
+			1258,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1293,
+			100,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			639,
+			211,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            39,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			729,
+			368,
+			104,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			39,
+            68,
+            43,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1340,
+			538,
+			98,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			42,
+            73,
+            47,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			480,
+			1258,
+			91,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			38,
+            66,
+            46,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			292,
+			96,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			38,
+            65,
+            45,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1016,
+			848,
+			97,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            65,
+            44,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1506,
+			676,
+			99,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            44,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			715,
+			788,
+			99,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            43,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			580,
+			768,
+			100,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            42,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1134,
+			517,
+			101,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            63,
+            41,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			166,
+			1349,
+			102,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            63,
+            40,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			293,
+			1504,
+			104,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            62,
+            39,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			622,
+			352,
+			105,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            62,
+            38,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			170,
+			106,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            61,
+            38,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			100,
+			106,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            61,
+            37,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			629,
+			282,
+			107,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			289,
+			338,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			289,
+			448,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			231,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			360,
+			341,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			95,
+			1258,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1293,
+			100,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			36,
+            60,
+            36,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			639,
+			211,
+			108,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			37,
+            64,
+            39,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			729,
+			368,
+			104,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			39,
+            68,
+            43,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1340,
+			538,
+			98,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			42,
+            73,
+            47,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			480,
+			1258,
+			91,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer2_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer2_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			71,
+            114,
+            91,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			184,
+			187,
+			18,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			71,
+            114,
+            91,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			184,
+			187,
+			18,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			69,
+            99,
+            87,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1486,
+			24,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			69,
+            99,
+            87,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1486,
+			24,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			69,
+            93,
+            83,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			1272,
+			28,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			69,
+            93,
+            83,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			1272,
+			28,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			72,
+            80,
+            81,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1301,
+			1458,
+			27,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			72,
+            80,
+            81,
+            81
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1301,
+			1458,
+			27,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			71,
+            73,
+            83,
+            82
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1515,
+			1198,
+			26,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			71,
+            73,
+            83,
+            82
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1515,
+			1198,
+			26,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			67,
+            59,
+            88,
+            83
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1488,
+			1156,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			67,
+            59,
+            88,
+            83
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1488,
+			1156,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			64,
+            48,
+            89,
+            95
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			888,
+			1197,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			64,
+            48,
+            89,
+            95
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			888,
+			1197,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			62,
+            41,
+            92,
+            105
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1283,
+			1500,
+			26,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			62,
+            41,
+            92,
+            105
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1283,
+			1500,
+			26,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			59,
+            33,
+            90,
+            121
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1451,
+			1121,
+			31,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			59,
+            33,
+            90,
+            121
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1451,
+			1121,
+			31,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			56,
+            28,
+            90,
+            132
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1320,
+			999,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			56,
+            28,
+            90,
+            132
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1320,
+			999,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			59,
+            25,
+            86,
+            144
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1487,
+			35,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			59,
+            25,
+            86,
+            144
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1487,
+			35,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			61,
+            26,
+            86,
+            151
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1121,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			61,
+            26,
+            86,
+            151
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1484,
+			1121,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			66,
+            28,
+            84,
+            150
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1397,
+			30,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			66,
+            28,
+            84,
+            150
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1397,
+			30,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl3_layer3_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl3_layer3_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			180,
+			210
+		},
+		trim = {
+			0,
+            0,
+            177,
+            207
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            23,
+            34,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1266,
+			1055,
+			67,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            23,
+            34,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1266,
+			1055,
+			67,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			25,
+            22,
+            24,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			377,
+			560,
+			91,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			25,
+            22,
+            24,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			377,
+			560,
+			91,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			23,
+            17,
+            22,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			460,
+			1078,
+			95,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			23,
+            17,
+            22,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			460,
+			1078,
+			95,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            35,
+            28,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			771,
+			935,
+			75,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            35,
+            28,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			771,
+			935,
+			75,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			41,
+            33,
+            31,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1152,
+			1301,
+			68,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			41,
+            33,
+            31,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1152,
+			1301,
+			68,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			22,
+            22,
+            33,
+            29
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			466,
+			1417,
+			85,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			22,
+            22,
+            33,
+            29
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			466,
+			1417,
+			85,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			8,
+            15,
+            46,
+            31
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			883,
+			86,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			8,
+            15,
+            46,
+            31
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			883,
+			86,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			8,
+            5,
+            49,
+            32
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			777,
+			83,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			8,
+            5,
+            49,
+            32
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			777,
+			83,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			48,
+            15,
+            19,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1497,
+			73,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			48,
+            15,
+            19,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1497,
+			73,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			49,
+            16,
+            19,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1234,
+			72,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			49,
+            17,
+            19,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			83,
+			1497,
+			72,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			46,
+            40,
+            28,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1358,
+			429,
+			66,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			46,
+            40,
+            28,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1358,
+			429,
+			66,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            30,
+            33,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1082,
+			1300,
+			68,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            30,
+            33,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1082,
+			1300,
+			68,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            23,
+            34,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1086,
+			1354,
+			67,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			39,
+            23,
+            34,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1086,
+			1354,
+			67,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            3,
+            31,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			314,
+			90,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            3,
+            31,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			314,
+			90,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			21,
+            8,
+            32,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1265,
+			353,
+			87,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			21,
+            8,
+            32,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1265,
+			353,
+			87,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			327,
+			1260,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			327,
+			1260,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			327,
+			1260,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			327,
+			1260,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			439,
+			573,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			439,
+			662,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			626,
+			677,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			387,
+			841,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			489,
+			753,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			476,
+			842,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			476,
+			931,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            9,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			528,
+			1078,
+			87,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			19,
+            10,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			533,
+			1169,
+			87,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			32,
+            19,
+            38,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			907,
+			875,
+			70,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			32,
+            19,
+            38,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			660,
+			967,
+			70,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			35,
+            22,
+            38,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			690,
+			1503,
+			67,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			35,
+            14,
+            38,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			604,
+			1503,
+			67,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            14,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			649,
+			1417,
+			59,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            9,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			615,
+			1258,
+			59,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            9,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			855,
+			59,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            6,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1511,
+			198,
+			59,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            6,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			567,
+			901,
+			59,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            5,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1511,
+			103,
+			59,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            5,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1511,
+			103,
+			59,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            3,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1511,
+			6,
+			59,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            3,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1511,
+			6,
+			59,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            71,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1195,
+			1511,
+			59,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            71,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1195,
+			1511,
+			59,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            71,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1195,
+			1511,
+			59,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            71,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1195,
+			1511,
+			59,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            71,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1195,
+			1511,
+			59,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            62,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			542,
+			1040,
+			59,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            62,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			542,
+			1040,
+			59,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            45,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1148,
+			1192,
+			59,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            45,
+            44,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1148,
+			1192,
+			59,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            38,
+            42,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1012,
+			1059,
+			61,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			37,
+            38,
+            42,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1012,
+			1059,
+			61,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			38,
+            31,
+            40,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			830,
+			1416,
+			62,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			38,
+            31,
+            40,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			830,
+			1416,
+			62,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			45,
+            28,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			879,
+			1059,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			45,
+            28,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			879,
+			1059,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			38,
+            25,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			157,
+			1497,
+			68,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			38,
+            25,
+            34,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			157,
+			1497,
+			68,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			25,
+            22,
+            24,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			567,
+			962,
+			91,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0075"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			25,
+            22,
+            24,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			567,
+			962,
+			91,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0076"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			22,
+            18,
+            22,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			583,
+			96,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0077"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			22,
+            18,
+            22,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			583,
+			96,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0078"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			36,
+            35,
+            29,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1039,
+			75,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0079"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			36,
+            35,
+            29,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1039,
+			75,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0080"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			41,
+            34,
+            31,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			714,
+			68,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_0081"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			41,
+            34,
+            31,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			714,
+			68,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_idle_left"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			41,
+			67
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1179,
+			41,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_idle_right"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			41,
+			67
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			1248,
+			41,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_shadow"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			140,
+			108
+		},
+		trim = {
+			51,
+            87,
+            51,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			95,
+			1368,
+			38,
+			11
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			22,
+            22,
+            25,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1155,
+			1348,
+			60,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			8,
+            10,
+            10,
+            16
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			538,
+			1258,
+			89,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			1,
+            3,
+            5,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			961,
+			210,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			1,
+            3,
+            5,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1255,
+			445,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            1,
+            0,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1293,
+			6,
+			107,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            1,
+            0,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1402,
+			6,
+			107,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            1,
+            0,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			782,
+			107,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            1,
+            0,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			891,
+			107,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            0,
+            0,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			421,
+			122,
+			107,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            0,
+            0,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			530,
+			122,
+			107,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			2,
+            0,
+            0,
+            27
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			738,
+			292,
+			105,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			2,
+            0,
+            0,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			184,
+			231,
+			105,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			16,
+            52,
+            20,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1499,
+			929,
+			71,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			16,
+            63,
+            17,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			90,
+			1381,
+			74,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			16,
+            63,
+            17,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			682,
+			768,
+			74,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			16,
+            71,
+            17,
+            2
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1030,
+			1417,
+			74,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			13,
+            71,
+            17,
+            2
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1331,
+			1268,
+			77,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			13,
+            66,
+            15,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1216,
+			1469,
+			79,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			12,
+            66,
+            15,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			748,
+			1193,
+			80,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			12,
+            69,
+            13,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1217,
+			1439,
+			82,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            69,
+            13,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			676,
+			1310,
+			83,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			710,
+			1417,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1016,
+			914,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1102,
+			916,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			740,
+			1416,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			741,
+			967,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			770,
+			1416,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			800,
+			1416,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			944,
+			1417,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1221,
+			955,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1331,
+			1182,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1217,
+			1409,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1108,
+			1415,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			11,
+            73,
+            12,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1138,
+			1415,
+			84,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_gargoyle_spawn_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			107,
+			101
+		},
+		trim = {
+			0,
+            0,
+            104,
+            98
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0075"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0076"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer1_0077"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			16,
+            42,
+            31,
+            21
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			6,
+			196,
+			179
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			63,
+            46,
+            91,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			816,
+			871,
+			89,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			63,
+            46,
+            90,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			416,
+			1259,
+			90,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			62,
+            45,
+            89,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			488,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			62,
+            45,
+            89,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			582,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            44,
+            88,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			580,
+			835,
+			94,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            44,
+            87,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1213,
+			889,
+			95,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            43,
+            86,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1115,
+			849,
+			96,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			60,
+            43,
+            85,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			816,
+			804,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			60,
+            43,
+            85,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			916,
+			808,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            42,
+            84,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			502,
+			1504,
+			100,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            42,
+            83,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			399,
+			1504,
+			101,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            82,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1274,
+			187,
+			102,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			835,
+			382,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			940,
+			386,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1069,
+			118,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1174,
+			118,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1064,
+			275,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1169,
+			275,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1055,
+			344,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            45,
+            86,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			390,
+			96,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			64,
+            48,
+            90,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			377,
+			653,
+			89,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			65,
+            53,
+            93,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			525,
+			1417,
+			85,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			63,
+            46,
+            91,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			816,
+			871,
+			89,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			63,
+            46,
+            90,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			416,
+			1259,
+			90,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			62,
+            45,
+            89,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			488,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			62,
+            45,
+            89,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			582,
+			92,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            44,
+            88,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			580,
+			835,
+			94,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            44,
+            87,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1213,
+			889,
+			95,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            43,
+            86,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1115,
+			849,
+			96,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			60,
+            43,
+            85,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			816,
+			804,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			60,
+            43,
+            85,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			916,
+			808,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            42,
+            84,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			502,
+			1504,
+			100,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            42,
+            83,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			399,
+			1504,
+			101,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            82,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1274,
+			187,
+			102,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			835,
+			382,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			940,
+			386,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1069,
+			118,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1174,
+			118,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1064,
+			275,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1169,
+			275,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			59,
+            41,
+            81,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1055,
+			344,
+			103,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			61,
+            45,
+            86,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			390,
+			96,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			64,
+            48,
+            90,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			377,
+			653,
+			89,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			65,
+            53,
+            93,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			525,
+			1417,
+			85,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            54,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1012,
+			1298,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            54,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1263,
+			985,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            53,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1203,
+			1181,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            52,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1021,
+			1122,
+			57,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            51,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			834,
+			1485,
+			58,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            50,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			942,
+			1447,
+			59,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            49,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1027,
+			997,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            49,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			941,
+			1293,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            133,
+            48,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			766,
+			1344,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            133,
+            48,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			766,
+			1344,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            133,
+            48,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			766,
+			1344,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            133,
+            48,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			766,
+			1344,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            49,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			944,
+			1355,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            49,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1015,
+			1355,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            50,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1080,
+			1121,
+			59,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            51,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1141,
+			1121,
+			58,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            52,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1204,
+			985,
+			57,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer2_0075"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            53,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1266,
+			1124,
+			56,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0076"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            54,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1261,
+			1182,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer2_0077"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			134,
+            134,
+            54,
+            40
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1012,
+			1298,
+			55,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer3_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			93,
+            95,
+            132,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1030,
+			455,
+			18,
+			13
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer3_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			93,
+            95,
+            132,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1030,
+			455,
+			18,
+			13
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer3_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			91,
+            80,
+            128,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1380,
+			1457,
+			24,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			91,
+            80,
+            128,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1380,
+			1457,
+			24,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			91,
+            73,
+            123,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1381,
+			1487,
+			29,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			91,
+            73,
+            123,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1381,
+			1487,
+			29,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			94,
+            61,
+            121,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1303,
+			1409,
+			28,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			94,
+            61,
+            121,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1303,
+			1409,
+			28,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			93,
+            53,
+            123,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1515,
+			1169,
+			27,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer3_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			93,
+            53,
+            123,
+            134
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1515,
+			1169,
+			27,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_layer3_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			90,
+            39,
+            128,
+            135
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1545,
+			1226,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			90,
+            39,
+            128,
+            135
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1545,
+			1226,
+			25,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			86,
+            29,
+            130,
+            146
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1325,
+			1051,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			86,
+            29,
+            130,
+            146
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1325,
+			1051,
+			27,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			85,
+            21,
+            132,
+            156
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			988,
+			875,
+			26,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			85,
+            21,
+            132,
+            156
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			988,
+			875,
+			26,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			81,
+            14,
+            130,
+            172
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1458,
+			1236,
+			32,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			81,
+            14,
+            130,
+            172
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1458,
+			1236,
+			32,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			78,
+            8,
+            131,
+            184
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1509,
+			1345,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			78,
+            8,
+            131,
+            184
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1509,
+			1345,
+			34,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			81,
+            6,
+            127,
+            196
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1530,
+			35,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			81,
+            6,
+            127,
+            196
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1311,
+			1530,
+			35,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			84,
+            7,
+            126,
+            202
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1412,
+			1475,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			84,
+            7,
+            126,
+            202
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1412,
+			1475,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			88,
+            8,
+            124,
+            201
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1429,
+			31,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			88,
+            8,
+            124,
+            201
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1538,
+			1429,
+			31,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0075"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0076"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_layer3_0077"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			243,
+			242
+		},
+		trim = {
+			0,
+            0,
+            240,
+            239
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			50,
+            50,
+            76,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1178,
+			946,
+			46,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			27,
+            14,
+            44,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			318,
+			147,
+			101,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            14,
+            43,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			845,
+			296,
+			103,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            14,
+            44,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			239,
+			102,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            42,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			855,
+			210,
+			104,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            44,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			324,
+			102,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            44,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			410,
+			102,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			118,
+			1034,
+			103,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			118,
+			1139,
+			103,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			496,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			527,
+			412,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			926,
+			543,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1029,
+			583,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1132,
+			584,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1237,
+			534,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			615,
+			421,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			584,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1235,
+			622,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1403,
+			673,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			288,
+			563,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			288,
+			666,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			299,
+			769,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			299,
+			872,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0024"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			306,
+			975,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0025"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            12,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			206,
+			1078,
+			101,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0026"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            12,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			166,
+			1260,
+			102,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0027"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			718,
+			435,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0028"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			639,
+			122,
+			103,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0029"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			744,
+			122,
+			103,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0030"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            43,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			849,
+			122,
+			104,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0031"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            43,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			955,
+			122,
+			104,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0032"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			361,
+			1417,
+			103,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0033"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            42,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			440,
+			412,
+			105,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0034"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			950,
+			299,
+			103,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0035"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1160,
+			344,
+			103,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0036"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1064,
+			187,
+			103,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0037"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1169,
+			187,
+			103,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0038"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			822,
+			451,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0039"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			926,
+			455,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0040"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			372,
+			1078,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0041"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			715,
+			611,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0042"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			818,
+			627,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0043"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			921,
+			631,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0044"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			588,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			715,
+			699,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			818,
+			715,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			921,
+			719,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0048"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1024,
+			671,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0049"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			288,
+			666,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0050"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1127,
+			672,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0051"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1024,
+			760,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0052"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1127,
+			761,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0053"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			25,
+            13,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1230,
+			711,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0054"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            12,
+            46,
+            4
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			387,
+			751,
+			100,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0055"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            12,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1230,
+			800,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0056"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            45,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1333,
+			780,
+			101,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0057"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			718,
+			523,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0058"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            44,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			822,
+			539,
+			102,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0059"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            13,
+            43,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1045,
+			413,
+			103,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0060"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            14,
+            43,
+            6
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1150,
+			431,
+			103,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0061"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            14,
+            44,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1030,
+			500,
+			102,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0062"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			26,
+            14,
+            47,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			617,
+			510,
+			99,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0063"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			27,
+            14,
+            48,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1421,
+			762,
+			97,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0064"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			28,
+            15,
+            49,
+            15
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			395,
+			932,
+			95,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0065"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			50,
+            21,
+            69,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1476,
+			1023,
+			53,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0066"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			50,
+            21,
+            71,
+            39
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1492,
+			1226,
+			51,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0067"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			48,
+            21,
+            71,
+            42
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1507,
+			1302,
+			53,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0068"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			48,
+            31,
+            82,
+            42
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1450,
+			1450,
+			42,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0069"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			49,
+            31,
+            83,
+            42
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1348,
+			1487,
+			40,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0070"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			49,
+            31,
+            83,
+            42
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1348,
+			1529,
+			40,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0071"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			53,
+            37,
+            105,
+            55
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			118,
+			1244,
+			14,
+			12
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0072"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			54,
+            38,
+            105,
+            55
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			822,
+			435,
+			13,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0073"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			54,
+            38,
+            105,
+            55
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			822,
+			435,
+			13,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_decal_0074"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			172,
+			104
+		},
+		trim = {
+			0,
+            0,
+            169,
+            101
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			612,
+			583,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            7,
+            4,
+            12
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1354,
+			1064,
+			54,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            7,
+            4,
+            12
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1354,
+			1064,
+			54,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            6,
+            5,
+            13
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1336,
+			1120,
+			56,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            6,
+            5,
+            13
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1336,
+			1120,
+			56,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			1,
+            9,
+            5,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1217,
+			1349,
+			58,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			1,
+            9,
+            5,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1217,
+			1349,
+			58,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            12,
+            3,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			947,
+			58,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            12,
+            3,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1361,
+			947,
+			58,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            12,
+            4,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1224,
+			1500,
+			57,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			3,
+            12,
+            4,
+            7
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1224,
+			1500,
+			57,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			4,
+            10,
+            4,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1356,
+			1006,
+			56,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			4,
+            10,
+            4,
+            8
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1356,
+			1006,
+			56,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			9,
+            13,
+            7,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1409,
+			1347,
+			48,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			9,
+            13,
+            7,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1409,
+			1347,
+			48,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            8,
+            4,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1277,
+			1348,
+			54,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            8,
+            4,
+            9
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1277,
+			1348,
+			54,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			5,
+            7,
+            4,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1274,
+			1239,
+			55,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			5,
+            7,
+            4,
+            10
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1274,
+			1239,
+			55,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			5,
+            7,
+            4,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1416,
+			1010,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			5,
+            7,
+            4,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1416,
+			1010,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0021"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            6,
+            4,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1139,
+			1511,
+			54,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0022"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			6,
+            6,
+            4,
+            11
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1139,
+			1511,
+			54,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_proyectile_0023"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			64,
+			76
+		},
+		trim = {
+			8,
+            10,
+            0,
+            14
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1413,
+			1067,
+			56,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0001"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			0,
+            69,
+            52,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1261,
+			1239,
+			10,
+			10
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0002"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			0,
+            69,
+            52,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1261,
+			1239,
+			10,
+			10
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0003"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			0,
+            44,
+            27,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1381,
+			1524,
+			35,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0004"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			0,
+            44,
+            27,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1381,
+			1524,
+			35,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0005"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			2,
+            35,
+            22,
+            1
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1531,
+			1023,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0006"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			2,
+            35,
+            22,
+            1
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1531,
+			1023,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0007"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			5,
+            20,
+            16,
+            12
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1168,
+			1413,
+			41,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0008"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			5,
+            20,
+            16,
+            12
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1168,
+			1413,
+			41,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0009"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			3,
+            13,
+            13,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1461,
+			1400,
+			46,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0010"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			3,
+            13,
+            13,
+            18
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1461,
+			1400,
+			46,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0011"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			6,
+            2,
+            8,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1519,
+			1119,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0012"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			6,
+            2,
+            8,
+            26
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1519,
+			1119,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0013"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			9,
+            0,
+            3,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1037,
+			1519,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0014"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			9,
+            0,
+            3,
+            28
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1037,
+			1519,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0015"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			11,
+            0,
+            0,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1051,
+			944,
+			51,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0016"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			11,
+            0,
+            0,
+            30
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1051,
+			944,
+			51,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0017"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			7,
+            0,
+            0,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1404,
+			1179,
+			55,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0018"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			7,
+            0,
+            0,
+            25
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1404,
+			1179,
+			55,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0019"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			7,
+            1,
+            0,
+            22
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1394,
+			1121,
+			55,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_lvl4_possession_spawn_0020"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			62,
+			79
+		},
+		trim = {
+			7,
+            1,
+            0,
+            22
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1394,
+			1121,
+			55,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["spirit_mausoleum_particle"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			5,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1447,
+			1483,
+			35,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0124"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1034,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0124_disabled"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1069,
+			6,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0124_disabled_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			1146,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0124_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			1181,
+			6,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0045"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			338,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0045_disabled"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			373,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0045_disabled_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			454,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0045_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			489,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0046"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			570,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0046_disabled"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			605,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0046_disabled_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			686,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0046_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			721,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0047"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			802,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0047_disabled"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			837,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0047_disabled_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			6,
+			918,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0047_turn_off"] = {
+		a_name = "tower_spirit_mausoleum.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1576,
+			1576
+		},
+		f_quad = {
+			953,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

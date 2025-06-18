@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/revenant_soulcaller.lua
-
 local a = {
 	revenant_soulcaller_unit_idle = {
 		prefix = "revenant_soulcaller_unit",
@@ -63,7 +61,7 @@ local a = {
 	},
 	revenant_soulcaller_stuntower_out = {
 		prefix = "revenant_soulcaller_stuntower",
-		to = 55,
+		to = 54,
 		from = 25
 	},
 	revenant_soulcaller_proy_loop = {
@@ -77,5 +75,4 @@ local a = {
 		from = 21
 	}
 }
-
 return a

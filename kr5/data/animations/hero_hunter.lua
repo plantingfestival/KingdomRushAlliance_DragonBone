@@ -1,6 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_hunter.lua
-
-local a = {
+﻿local a = {
 	dante_Idle = {
 		prefix = "dante",
 		to = 22,
@@ -193,7 +191,7 @@ local a = {
 	},
 	duskbeast_coin_run = {
 		prefix = "duskbeast_coin",
-		to = 20,
+		to = 19,
 		from = 1
 	},
 	duskbeast_spawn = {
@@ -213,7 +211,7 @@ local a = {
 	},
 	duskbeast_leave = {
 		prefix = "duskbeast",
-		to = 52,
+		to = 51,
 		from = 45
 	},
 	hit_dante_run = {

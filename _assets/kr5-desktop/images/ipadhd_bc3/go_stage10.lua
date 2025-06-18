@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage10.lua
-
 return {
 	HealFx1Big_asst_healfx_frame1 = {
 		a_name = "go_stage10-2.dds",
@@ -10983,11 +10981,6 @@ return {
 			"stage10_obelisk_priests_0142",
 			"stage10_obelisk_priests_0143",
 			"stage10_obelisk_priests_0144",
-			"stage10_obelisk_priests_0271",
-			"stage10_obelisk_priests_0141",
-			"stage10_obelisk_priests_0142",
-			"stage10_obelisk_priests_0143",
-			"stage10_obelisk_priests_0144",
 			"stage10_obelisk_priests_0271"
 		}
 	},
@@ -12748,8 +12741,6 @@ return {
 			49
 		},
 		alias = {
-			"stage10_obelisk_priests_0270",
-			"stage10_obelisk_priests_0269",
 			"stage10_obelisk_priests_0270"
 		}
 	},
@@ -12776,10 +12767,6 @@ return {
 			50
 		},
 		alias = {
-			"stage10_obelisk_projectile_0002",
-			"stage10_obelisk_projectile_0013",
-			"stage10_obelisk_projectile_0014",
-			"stage10_obelisk_projectile_0001",
 			"stage10_obelisk_projectile_0002",
 			"stage10_obelisk_projectile_0013",
 			"stage10_obelisk_projectile_0014"

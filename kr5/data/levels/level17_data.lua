@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level17_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -820,6 +818,7 @@ return {
 		"enemies_terrain_4"
 	},
 	required_textures = {
+		"go_enemies_sea_of_trees",
 		"go_enemies_terrain_4",
 		"go_stage17_bg",
 		"go_stage17",

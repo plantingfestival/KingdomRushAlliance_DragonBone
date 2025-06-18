@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/sounds/groups.lua
-
 return {
 	common = {
 		keep = true,
@@ -39,6 +37,21 @@ return {
 			"kr_voice_bonehart_select_c.ogg",
 			"kr_voice_silvara_move2_a.ogg",
 			"kr_voice_kratoa_taunt-select_c.ogg",
+			-- customization
+			"Bonehart-02b_WET.ogg",
+			"Gyro_confirm-01c.ogg",
+			"kr4_hero_dianyun_taunt_1.ogg",
+			"TenShi_02c.ogg",
+			"DruidHenge_Ready-01a.ogg",
+			"kra_heroes_nyru_basicAttack_melee_var1_op1_v1.ogg",
+			"kra_sfx_tower_paladinCovenant_deploy_v1.ogg",
+			"Explosion_water.ogg",
+			"kr4_tower_open_door.ogg",
+			"kr4_warmonger_barrack_taunt_4.ogg",
+			"kr4_dinos_ignis_altar_build_taunt_4.ogg",
+			"kr4_dwarves_sulfur_alchemist_death.ogg",
+			"kr4_enemies_common_dead.ogg",
+			-- customization
 			"kr_voice_spydyr_taunt-select_b.ogg",
 			"kra_sfx_easterEgg_interactionTap.ogg",
 			"kr5_sfx_UIgate-close.ogg",
@@ -151,6 +164,56 @@ return {
 		},
 		ids = {}
 	},
+	-- customization
+	kr1_common = {
+		files = {
+			"Sound_Sorcerer.ogg",
+			"Sound_EngineerShot.ogg",
+			"swamp-thing-shot.ogg",
+			"Hero_Karkinos_Cannon_explosion.ogg",
+			"Sound_EnemyExplode1Short.ogg",
+			"Sound_EnemyExplode1ShortA.ogg",
+			"kr4_sfx_juggernaut_punch_var1_v1.ogg",
+			"Female-Elven-Archer-02c.ogg",
+			"GUITransitionClose.ogg",
+			"GUITransitionOpen.ogg",
+			"Reinforcement-01a.ogg",
+			"Reinforcements_Event1.ogg",
+			"Reinforcements_Event2.ogg",
+			"Reinforcements_Event3.ogg",
+			"Reinforcements_Event4.ogg",
+			"Sound_Chieftain.ogg",
+			"Sound_EnemyBigDead.ogg",
+			"Sound_EnemyGoblinDead.ogg",
+			"Sound_EnemyHealing.ogg",
+			"Sound_EnemyOrcDead.ogg",
+			"Sound_EnemyPuffDead.ogg",
+			"Sound_EnemyRocketeer.ogg",
+			"Sound_EnemySkeletonBreak2.ogg",
+			"Sound_EnemyTrollDead.ogg",
+			"Sound_FireballHit.ogg",
+			"Sound_FireballUnleash.ogg",
+			"Sound_GUIButtonCommon.ogg",
+			"Sound_JuggernautDeath.ogg",
+			"Sound_QuestCompleted.ogg",
+			"Sound_QuestFailed.ogg",
+			"Sound_SpiderAttack2.ogg",
+			"Sound_TowerOpenDoor.ogg",
+			"Sound_TowerSoldierSasquashRally.ogg",
+			"Sound_TowerSoldierSasquashReady.ogg",
+			"Sound_WinStars.ogg",
+			"Sound_WolfAttack.ogg",
+			"Sound_WolfAttack2.ogg",
+			"inapp_atfreezeend.ogg",
+			"inapp_atfreezestart.ogg",
+			"inapp_freeze.ogg",
+			"inapp_hearts.ogg",
+			"inapp_nuke.ogg",
+			"inapp_nuke_falling.ogg",
+			"Sound_RockElementalDeath.ogg",
+		}
+	},
+	-- customization
 	splash = {
 		files = {
 			"KR5_SFX_IronhideLogo_24042024.ogg"
@@ -379,6 +442,86 @@ return {
 			"MusicBattle_82"
 		}
 	},
+	-- customization
+	music_stage115 = {
+		sounds = {
+			"MusicBattlePrep_115",
+			"MusicBattle_115",
+			"KR1_MusicBossFight"
+		}
+	},
+	music_stage122 = {
+		sounds = {
+			"MusicBattlePrep_122",
+			"MusicBattle_122",
+			"KR1_MusicBossFight"
+		}
+	},
+	music_stage123 = {
+		sounds = {
+			"MusicBattlePrep_123",
+			"MusicBattle_123"
+		}
+	},
+	music_stage124 = {
+		sounds = {
+			"MusicBattlePrep_124",
+			"MusicBattle_124"
+		}
+	},
+	music_stage125 = {
+		sounds = {
+			"MusicBattlePrep_125",
+			"MusicBattle_125"
+		}
+	},
+	music_stage126 = {
+		sounds = {
+			"MusicBattlePrep_126",
+			"MusicBattle_126",
+			"KR1_MusicBossFight"
+		}
+	},
+	MushroomSounds = {
+		files = {
+			"KR_sfx_mushroomboss_gas_op1.ogg",
+			"KR_sfx_mushroomboss_muerte.ogg",
+			"KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg",
+			"KR_sfx_mushroomcreep_nacimiento.ogg",
+		}
+	},
+	HalloweenSounds = {
+		files = {
+			"halloween_abominationexplosion.ogg",
+			"halloween_werewolf_alfawolf.ogg",
+			"halloween_werewolf_minormoans.ogg",
+			"halloween_werewolf_transformation.ogg",
+			"kr_ambience_cb_aquelarre.ogg",
+			"kr_ambience_cb_ghosts_1.ogg",
+			"kr_sfx_cb_crow.ogg",
+			"kr_sfx_cb_giantrats1.ogg",
+			"kr_sfx_cb_giantrats2.ogg",
+			"kr_sfx_cb_lordblackburn_death.ogg",
+			"kr_sfx_cb_lordblackburn_specialstomp.ogg",
+			"kr_sfx_cb_lordblackburn_swing.ogg",
+			"kr_sfx_cb_nessie.ogg",
+			"kr_sfx_cb_witch_fast.ogg",
+			"kr_sfx_cb_witch_slow.ogg",
+			"kr_sfx_cb_witchdeath.ogg",
+			"canibal_zombie_one.ogg",
+			"canibal_zombie_two.ogg",
+			"canibal_zombie_three.ogg",
+			"kr4_tower_wickedsisters_attack_v1.ogg",
+			"kr_sfx_cb_spectralknight[horn+organ].ogg",
+			"Vampiress-01c.ogg",
+			"Vampiress-02c.ogg",
+			"Vampiress-03c.ogg",
+			"Vampiress-Death02c.ogg",
+			"halloween_vampiress_areaattack_confilo.ogg",
+			"halloween_vampiress_drainlifeOP2.ogg",
+		}
+	},
+	-- customization
 	hero_vesper = {
 		files = {
 			"kr_voice_vesper_taunt.ogg",
@@ -443,7 +586,9 @@ return {
 			"kra_sfx_heroes_raelyn_unbreakable_op1_v1.ogg",
 			"kra_sfx_heroes_raelyn_commandOrders_v2_op1.ogg",
 			"kr_voice_darkknight_taunt01_d.ogg",
-			"kr_voice_darkknight_taunt02_c.ogg"
+			"kr_voice_darkknight_taunt02_c.ogg",
+			-- customization
+			"kr4_dark_army_barrack_brutal_strike.ogg"
 		}
 	},
 	hero_space_elf = {
@@ -634,7 +779,10 @@ return {
 			"kra_sfx_heroes_kosmyr_crystalAvalanch_cast_var1_v1.ogg",
 			"kra_sfx_heroes_kosmyr_crystalAvalanch_cast_var2_v1.ogg",
 			"kra_sfx_heroes_kosmyr_crystalAvalanch_cast_var3_v1.ogg",
-			"kra_sfx_heroes_kosmyr_crystalAvalanch_cast_var4_v1.ogg"
+			"kra_sfx_heroes_kosmyr_crystalAvalanch_cast_var4_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"
 		}
 	},
 	hero_bird = {
@@ -711,7 +859,10 @@ return {
 			"kra_sfx_heroes_bonehart_spreadingBurst_impact_var1_v1.ogg",
 			"kra_sfx_heroes_bonehart_spreadingBurst_impact_var2_v1.ogg",
 			"kra_sfx_heroes_bonehart_spreadingBurst_impact_var3_v1.ogg",
-			"kra_sfx_heroes_bonehart_raiseDrakes_cast_op2_v1.ogg"
+			"kra_sfx_heroes_bonehart_raiseDrakes_cast_op2_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"
 		}
 	},
 	hero_dragon_arb = {
@@ -751,7 +902,8 @@ return {
 			"kra_sfx_heroes_kratoa_rageOutburst_impact_var2_v1.ogg",
 			"kra_sfx_heroes_kratoa_rageOutburst_impact_var2_v1.ogg",
 			"kra_sfx_heroes_kratoa_rageOutburst_impact_var3_v1.ogg",
-			"kra_sfx_heroes_kratoa_rageOutburst_death_v1.ogg"
+			"kra_sfx_heroes_kratoa_rageOutburst_death_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_skill_empowerment_v1.ogg"
 		}
 	},
 	hero_spider = {
@@ -777,6 +929,383 @@ return {
 			"kra_sfx_spiders_heroe_tunneling_out_v1.ogg"
 		}
 	},
+	-- customization
+	hero_10yr = {
+		files = {
+			"kr4_ember_lords_mage_attack.ogg",
+			"kr4_hero_tramin_land.ogg",
+			"kr4_hero_beresad_spawn_impact.ogg",
+			"TenShi_02c.ogg",
+			"TenShi_01c_and_a.ogg",
+			"TenShi_01a_mmh.ogg",
+			"TenShi_buffed_01c.ogg",
+			"TenShi_buffed_02b.ogg",
+			"TenShi_buffed_01a_laugh_only.ogg",
+			"TenShi_respawn_01d.ogg",
+			"TenShi_transformation_01d.ogg",
+			"TenShi_transformation_02c.ogg",
+			"kr1_sfx_tenshi_basicAttack1_var1_v1.ogg",
+			"kr1_sfx_tenshi_basicAttack1_var2_v1.ogg",
+			"kr1_sfx_tenshi_basicAttack1_var3_v1.ogg",
+			"kr1_sfx_tenshi_attack2_v1.ogg",
+			"kr1_sfx_tenshi_rainOfFire_start_mix.ogg",
+			"kr1_sfx_tenshi_rainOfFire_loop-End_v1_10db.ogg",
+			"kr1_sfx_tenshi_buffedSpinAttack_2hits_v1.ogg",
+			"kr1_sfx_tenshi_buffedSpinAttack_3hits_v1.ogg",
+			"kr1_sfx_tenshi_buffedBombAttack_3hits_v1_op2.ogg",
+			"kr1_sfx_tenshi_buffedBombAttack_6hits_v1_op2.ogg",
+			"kr1_sfx_tenshi_transformToBuffed_op1_v1.ogg",
+			"kr1_sfx_tenshi_transformToNormal_v1.ogg",
+			"kr1_sfx_tenshi_death_v1.ogg",
+			"kr1_sfx_tenshi_teleport_v1_15db.ogg",
+			"Sound_FireballHit.ogg",
+			"Sound_FireballUnleash.ogg"
+		}
+	},
+	hero_dracolich = {
+		files = {
+			"necromancer_deathknight_taunt_1.ogg",
+			"necromancer_deathknight_taunt_2.ogg",
+			"mecromancer_summon.ogg",
+			"Sound_EnemySkeletonBreak2.ogg",
+			"hero_dragon_fireball_explode.ogg",
+			"halloween_bonedragon_attack.ogg",
+			"halloween_bonedragon_bonerain.ogg",
+			"Bonehart-Death01c_WET.ogg",
+			"halloween_bonedragon_kamikaze2.ogg",
+			"halloween_bonedragon_respawn_simple.ogg",
+			"halloween_bonedragon_soulsplague.ogg",
+			"halloween_bonedragon_spawn_congrowl.ogg",
+			"Bonehart-01a_WET.ogg",
+			"Bonehart-02b_WET.ogg",
+			"Bonehart-03b_WET.ogg",
+			"Bonehart-04c_WET.ogg"
+		}
+	},
+	hero_wilbur = {
+		files = {
+			"kro_sfx_wilbur_attack[concasquillos].ogg",
+			"kro_sfx_wilbur_bombsmarch[op1].ogg",
+			"kro_sfx_wilbur_boombox.ogg",
+			"kro_sfx_wilbur_boombox_box.ogg",
+			"Gyro_death-01d.ogg",
+			"kro_sfx_wilbur_dronesattack[metralla]_cut.ogg",
+			"kro_sfx_wilbur_calldrones.ogg",
+			"kro_sfx_wilbur_smokespit.ogg",
+			"Gyro_confirm-01c.ogg",
+			"Gyro_confirm-02c.ogg",
+			"Gyro_confirm-03c.ogg",
+			"Gyro_confirm-04b.ogg",
+			"Sound_RocketLaunt.ogg",
+			"kr4_dwarves_mechadwarf_death.ogg",
+			"kr4_dwarves_smokebeard_repair.ogg"
+		}
+	},
+	hero_dianyun = {
+		files = {
+			"kr4_hero_dianyun_taunt_1.ogg",
+			"kr4_hero_dianyun_taunt_2.ogg",
+			"kr4_hero_dianyun_taunt_3.ogg",
+			"kr4_hero_dianyun_taunt_4.ogg",
+			"kr4_hero_dianyun_taunt_death.ogg",
+			"kr4_warmonger_mage_attack.ogg",
+			"kr4_bolt_release.ogg",
+			"kr4_hero_dianyun_son.ogg"
+		}
+	},
+	item_hero_bolin = {
+		files = {
+			"Dwarf_brea_shot2.ogg",
+			"Dwarf_brea_shot_hit.ogg",
+			"Dwarf-Rifleman-Death_c.ogg",
+			"Dwarf_mine.ogg",
+			"Dwarf-Rifleman-04c.ogg",
+			"Dwarf-Rifleman-02c.ogg",
+			"Dwarf-Rifleman-03c.ogg",
+			"Dwarf-Rifleman-01a.ogg",
+			"Sound_Shootgun.ogg"
+		}
+	},
+	item_hero_gerald = {
+		files = {
+			"Paladin_shield_buff.ogg",
+			"Holy-Paladin-01c.ogg",
+			"Holy-Paladin-02c.ogg",
+			"Holy-Paladin-03b.ogg",
+			"Holy-Paladin-04a.ogg",
+			"Paladin_deflect.ogg",
+			"Holy-Paladin-Death_b.ogg"
+		}
+	},
+	item_hero_ignus = {
+		files = {
+			"Cinder_special_area.ogg",
+			"Cinder_special_fireball_1_start.ogg",
+			"Cinder_special_fireball_2_end.ogg",
+			"Elemental-01c.ogg",
+			"Elemental-02c.ogg",
+			"Elemental-03b.ogg",
+			"Elemental-04c.ogg",
+			"Elemental-Death_c.ogg",
+			"Motumbo_hit.ogg"
+		}
+	},
+	item_hero_elora = {
+		files = {
+			"Frost-Mage-04a.ogg",
+			"Frost-Mage-03d.ogg",
+			"Frost-Mage-02c.ogg",
+			"Frost-Mage-01a.ogg",
+			"Elora_IceShardSummon.ogg",
+			"Elora_IceShard.ogg",
+			"Elora_IceShardBreak.ogg",
+			"Elora_GroundFreeze.ogg",
+			"Frost-Mage-Death_01c.ogg"
+		}
+	},
+	item_hero_oni = {
+		files = {
+			"Oni-04a.ogg",
+			"Oni-03c.ogg",
+			"Oni-02c.ogg",
+			"Oni-01c.ogg",
+			"inferno_oni_groundSwords.ogg",
+			"inferno_oni_instakill.ogg",
+			"Oni-Death01a.ogg"
+		}
+	},
+	item_hero_thor = {
+		files = {
+			"KR_sfx_thor_thunder.ogg",
+			"Thor_05c.ogg",
+			"KR_sfx_thor_muerte.ogg",
+			"KR_sfx_thor_ataqueelectrico.ogg",
+			"Thor_01a.ogg",
+			"Thor_02a.ogg",
+			"Thor_03c.ogg",
+			"Thor_04c.ogg",
+			"KR_sfx_thor_lanzamartillo_op2.ogg"
+		}
+	},
+	item_hero_magnus = {
+		files = {
+			"Mage_blue_rain_drop.ogg",
+			"Young-Mage-Death_c.ogg",
+			"Young-Mage-04c.ogg",
+			"Young-Mage-02a.ogg",
+			"Young-Mage-03c.ogg",
+			"Young-Mage-01d.ogg",
+			"Mage_blue_rain_charge.ogg",
+			"Mage_shadows.ogg",
+			"Sound_Teleport.ogg",
+		}
+	},
+	item_hero_ingvar = {
+		files = {
+			"Viking-01b.ogg",
+			"Viking-02c.ogg",
+			"Viking-03b.ogg",
+			"Viking-04c.ogg",
+			"Viking_Transform.ogg",
+			"Viking-Death_01d.ogg",
+			"Viking_Hit.ogg",
+			"Viking_StartAttack.ogg",
+			"Viking_Call.ogg",
+			"Viking_Transform.ogg",
+		}
+	},
+	item_hero_hacksaw = {
+		files = {
+			"Hacksaw-01c.ogg",
+			"Hacksaw-02c.ogg",
+			"Hacksaw-03a.ogg",
+			"Hacksaw-04a.ogg",
+			"Hacksaw-Death01c.ogg",
+			"inferno_lumberjack_drill.ogg",
+			"inferno_lumberjack_shootSaw.ogg",
+			"hero_alien_disc_throw.ogg",
+			"hero_alien_disc_bounce.ogg",
+		}
+	},
+	item_hero_denas = {
+		files = {
+			"KingDenas-04e.ogg",
+			"KingDenas-02d.ogg",
+			"KingDenas-03g.ogg",
+			"KingDenas-01d.ogg",
+			"KingDenas-05c.ogg",
+			"KingDenas_sfx_order1.ogg",
+			"KingDenas_sfx_order3.ogg",
+			"KingDenas_sfx_attack.ogg",
+			"Sound_EngineerShot.ogg",
+			"Sound_BattleAxe.ogg",
+		}
+	},
+	item_hero_dwarf = {
+		files = {
+			"dwarfHero_taunt_confirm_1.ogg",
+			"dwarfHero_taunt_confirm_2.ogg",
+			"dwarfHero_taunt_confirm_3.ogg",
+			"dwarfHero_taunt_death.ogg"
+		}
+	},
+	item_hero_dragon = {
+		files = {
+			"dragonHero_confirm1.ogg",
+			"dragonHero_confirm2.ogg",
+			"dragonHero_confirm3.ogg",
+			"dragonHero_confirm4.ogg",
+			"hero_dragon_birth.ogg",
+			"hero_dragon_death.ogg",
+			"hero_dragon_fireball_explode.ogg",
+			"hero_dragon_flamethrower.ogg",
+			"hero_dragon_napalm.ogg",
+			"hero_dragon_smoke.ogg",
+			"hero_dragon_spit.ogg"
+		}
+	},
+	item_hero_elves_archer = {
+		files = {
+			"Eridan_Death-01a.ogg",
+			"kre_sfx_eridan_doublestrike_v2[mid].ogg",
+			"kre_sfx_eridan_nimblefencing.ogg",
+			"Eridan_Confirm-01d.ogg",
+			"Eridan_Confirm-03b.ogg",
+			"Eridan_Confirm03-01a.ogg",
+			"Eridan_confirmextra-01a.ogg",
+			"Arivan_Death-01a.ogg",
+			"kre_sfx_arivan_fireballshot_v2.ogg",
+			"kre_sfx_arivan_fireballhit_v3.ogg",
+			"kre_sfx_arivan_fireballsummon[op2].ogg",
+			"kre_sfx_arivan_iceboltshot_v2[contono].ogg",
+			"kre_sfx_arivan_icebolt[hit].ogg",
+			"kre_sfx_arivan_lightningbolt_v2.ogg",
+			"kre_sfx_arivan_elementalstorm_v2_op3.ogg",
+			"kre_sfx_arivan_stonesummon_v2.ogg",
+			"Arivan_Confirm-01b.ogg",
+			"Arivan_Confirm-02c.ogg",
+			"Arivan_Confirm-03a.ogg",
+			"Arivan_Confirm04-01a.ogg",
+			"archmage_attack.ogg"
+		}
+	},
+	tower_rock_thrower = {
+		files = {
+			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg",
+			"kr3_sfx_druidhenge_beardeath_v3_op1-condesplome.ogg",
+			"kr3_sfx_druidhenge_bearsummon_v3-op2.ogg",
+			"kr3_sfx_stonedruid_boulderthrow-op2.ogg",
+			"kr3_sfx_stonedruid_boulderexplosion.ogg",
+			"kr3_sfx_druidhenge_bouldersummon.ogg",
+			"kr3_sfx_stonedruid_bouldersummon.ogg",
+			"StoneDruid_Taunt-01b.ogg",
+			"StoneDruid_Taunt-02b.ogg",
+			"StoneDruid_Taunt-03a.ogg",
+			"kr3_sfx_druidhenge_rockthrow_v2-op2-medio.ogg",
+			"DruidHenge_Ready-01a.ogg",
+			"DruidHenge_Sylvan[2]-01b.ogg",
+			"Viking_Transform.ogg",
+			"kr3_sfx_druidhenge_sylvancursecast_v4-op2.ogg"
+		}
+	},
+	tower_warmongers_barrack = {
+		files = {
+			"kr4_warmonger_barrack_taunt_1.ogg",
+			"kr4_warmonger_barrack_taunt_2.ogg",
+			"kr4_warmonger_barrack_taunt_3.ogg",
+			"kr4_warmonger_barrack_battlewits_upg.ogg",
+			"kr4_warmonger_barrack_seal_of_blood_upg.ogg",
+			"kr4_warmonger_barrack_promotion_upg.ogg",
+			"kr4_orcs_death.ogg"
+		}
+	},
+	tower_random = {
+		files = {
+			"Mage_Taunt-01e.ogg",
+			"Mage_Taunt-03d.ogg",
+			"Mage_Taunt[2]-02a.ogg",
+			"WildMagus_Doom[2]-01b.ogg",
+			"WildMagus_Silence-01c.ogg",
+			"kr3_sfx_basicwizard_doublebolt-op1.ogg",
+			"kr3_sfx_wildmagus_boltcast_v2-op1.ogg",
+			"kr3_sfx_wildmagus_disruptioncast_v2.ogg",
+			"kr3_sfx_wildmagus_doomcast_v2.ogg",
+			"kr3_sfx_wildmagus_doomexplotion_v3-op1.ogg",
+			"kr3_sfx_wildmagus_doomloop_v2-op1.ogg",
+			"WildMagus_Ready-01a.ogg",
+			"Pirate_Tower_01a.ogg",
+			"Pirate_Tower_02b.ogg",
+			"krv_sfx_bucaneer_attack.ogg",
+			"krv_sfx_bucaneer_explotion.ogg",
+			"jw_fx_pirates_corsair_heal_v1.ogg",
+			"jw_sfx_pirates_boatswain_melee_v1.ogg",
+			"Sound_Shootgun.ogg",
+			"pirate_taunt_1.ogg",
+        	"pirate_taunt_2.ogg",
+        	"pirate_taunt_3.ogg",
+			"Pirate_Big_01c.ogg",
+	        "Pirate_Big_02c.ogg",
+			"kra_sfx_enemy_abomination_death_v1.ogg",
+			"kra_sfx_enemy_abomination_instakill_v1.ogg",
+			"kro_sfx_gnome_death[op1].ogg",
+			"kro_sfx_gnome_death[op4].ogg",
+			"kro_sfx_gnome_death[op7].ogg",
+			"kro_sfx_gnome_desintegrate_v2[comic].ogg",
+			"Gnome_02a.ogg",
+			"kro_sfx_gnome_poison_v2[confrasco].ogg",
+			"kro_sfx_gnome_polymorf[conchimes].ogg",
+			"Gnome_01d.ogg",
+			"kro_sfx_veznan_teleport_v1.ogg",
+			"kro_sfx_poisonplant_discharge[conacido]_B.ogg",
+			"kro_sfx_poisonplant_ready_v2B.ogg",
+			"assassin_gold.ogg",
+			"Awok_01b.ogg",
+        	"Awok_02c.ogg",
+			"kre_sfx_plant_magicmissile.ogg",
+			"kre_sfx_plant_ready_conchime.ogg",
+			"kro_sfx_faerydragon_sfx_attack[op2][soloattack]_B.ogg",
+			"kro_sfx_faerydragon_attack[solocristalizacion].ogg",
+			"kro_sfx_faerydragon_buydragon[op1].ogg",
+			"kro_sfx_faerydragon_extraability[solochimes].ogg",
+			"genie_taunt_1.ogg",
+			"genie_taunt_2.ogg",
+			"Sound_Polimorph.ogg",
+			"Sorcerer_Taunt2.ogg",
+			"GalhadriansBastion-01c.ogg",
+			"GalhadriansBastion-02c.ogg",
+			"kro_sfx_bastion_shot[op1]_modif.ogg",
+			"kra_sfx_stage16_bossFight_overseerTowerTeleport_TowerTeleport_v1.ogg"
+		}
+	},
+	tower_ignis_altar = {
+		files = {
+			"kr4_dinos_ignis_altar_build_taunt_1.ogg",
+			"kr4_dinos_ignis_altar_build_taunt_2.ogg",
+			"kr4_dinos_ignis_altar_build_taunt_3.ogg",
+			"kr4_dinos_ignis_altar_upgrade_elemental.ogg",
+			"kr4_dinos_ignis_altar_upgrade_true_fire.ogg",
+			"kr4_dinos_ignis_altar_upgrade_debuff.ogg",
+			"kr4_sfx_tower_altar_single_extintion_explotion.ogg",
+			"kr4_sfx_tower_altar_single_extintion_var1.ogg",
+			"kr4_sfx_tower_altar_attack_shoot.ogg",
+			"kr4_sfx_tower_altar_attack_dot.ogg",
+			"kr4_sfx_tower_altar_burning_summon.ogg",
+			"kr4_sfx_tower_altar_burning_arise.ogg",
+			"kr4_sfx_tower_altar_burning_elemental_respawn.ogg",
+			"amazon_taunt_1.ogg",
+			"amazon_taunt_2.ogg",
+			"carnivore_plant.ogg",
+			"axlethrower_totem_spirits.ogg",
+			"axlethrower_taunt_ready.ogg",
+        	"axlethrower_taunt_totem1.ogg",
+        	"axlethrower_taunt_totem2.ogg",
+			"axlethrower_totem_vanish.ogg",
+			"axlethrower_totem_weakness.ogg",
+			"Ranger_Taunt1.ogg",
+			"Sound_BattleAxe.ogg"
+		}
+	},
+	-- customization
 	tower_royal_archers = {
 		files = {
 			"kr_voice_royalArchers_skill_a_var1a.ogg",
@@ -790,7 +1319,32 @@ return {
 			"kra_sfx_tower_royalArchers_skill_strike_var1_v1.ogg",
 			"kra_sfx_tower_royalArchers_skill_strike_var2_v1.ogg",
 			"kra_sfx_tower_royalArchers_skill_rapaciousHunter_impact_var1_v1.ogg",
-			"kra_sfx_tower_royalArchers_skill_rapaciousHunter_impact_var2_v1.ogg"
+			"kra_sfx_tower_royalArchers_skill_rapaciousHunter_impact_var2_v1.ogg",
+			-- customization
+			"Archer_Ready.ogg",
+			"Archer_Taunt1.ogg",
+			"Archer_Taunt2.ogg",
+			"crossbow_eagle.ogg",
+			"crossbow_taunt_ready.ogg",
+        	"crossbow_taunt_eagle.ogg",
+        	"crossbow_taunt_multishot.ogg",
+			"Sound_Shrapnel.ogg",
+			"Sound_Shootgun.ogg",
+			"Sound_Sniper.ogg",
+			"Muskateer_Snipe.ogg",
+			"Muskateer_Ready.ogg",
+        	"Muskateer_Event1.ogg",
+        	"Muskateer_Event2.ogg",
+			"Ranger_Ready.ogg",
+			"Ranger_Taunt1.ogg",
+			"Ranger_Taunt2.ogg",
+			"Sound_Thorn.ogg",
+			"GoldenBows_Ready[2]-01d.ogg",
+			"kr3_sfx_goldenbow_flareshot_v2-convoz.ogg",
+			"kr3_sfx_goldenbow_instakillarrowshot_v2.ogg",
+			"kr3_sfx_goldenbow_arrowshot.ogg",
+			"kr3_sfx_goldenbow_instakill_v2_conchime.ogg",
+			"kr3_sfx_goldenbow_flarehit_v2.5.ogg"
 		}
 	},
 	tower_arcane_wizard = {
@@ -804,7 +1358,26 @@ return {
 			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_skill_disintegration_v1.ogg",
-			"kra_sfx_tower_arcaneWizard_skill_empowerment_v1.ogg"
+			"kra_sfx_tower_arcaneWizard_skill_empowerment_v1.ogg",
+			-- customization
+			"archmage_twister.ogg",
+			"archmage_taunt_twister.ogg",
+			"archmage_taunt_ready.ogg",
+			"archmage_taunt_explosion.ogg",
+			"archmage_attack.ogg",
+			"archmage_explosion.ogg",
+			"archmage_precharge.ogg",
+			"archmage_taunt_ready.ogg",
+			"archmage_taunt_explosion.ogg",
+			"archmage_taunt_twister.ogg",
+			"Sound_Sorcerer.ogg",
+			"Sorcerer_Ready.ogg",
+			"Sorcerer_Taunt1.ogg",
+			"Sorcerer_Taunt2.ogg",
+			"Sound_RockElementalRally.ogg",
+			"Sound_RockElementalDeath.ogg",
+			"Sound_Polimorph.ogg",
+			"Sound_Sheep.ogg"
 		}
 	},
 	tower_tricannon = {
@@ -823,7 +1396,15 @@ return {
 			"kra_sfx_tower_tricannon_skill_bombardment_lvl1_v1.ogg",
 			"kra_sfx_tower_tricannon_skill_bombardment_lvl2_v1.ogg",
 			"kra_sfx_tower_tricannon_skill_bombardment_lvl3_v1.ogg",
-			"kra_sfx_tower_tricannon_skill_overheat-oneshot_v1.ogg"
+			"kra_sfx_tower_tricannon_skill_overheat-oneshot_v1.ogg",
+			-- customization
+			"Sound_Tesla_attack_1.ogg",
+			"Sound_Tesla_attack_2.ogg",
+			"FrankyTower-03c.ogg",
+			"FrankyTower-04a.ogg",
+			"FrankyTower-02f.ogg",
+			"FrankyTower-01d.ogg",
+			"halloween_tesla_charge.ogg"
 		}
 	},
 	tower_paladin_covenant = {
@@ -833,12 +1414,33 @@ return {
 			"kr_voice_paladincovenant_taunt_var1a.ogg",
 			"kr_voice_paladincovenant_skill_b_var1b.ogg",
 			"kr_voice_paladincovenant_skill_a_var1a.ogg",
-			"kra_sfx_tower_paladinCovenant_deploy_v1.ogg",
 			"kra_sfx_tower_paladinCovenant_skill_healingPrayer_v1.ogg",
 			"kra_sfx_tower_paladinCovenant_skill_leadByExampleAura_v1.ogg",
 			"kra_sfx_tower_paladinCovenant_unitDeath_var1_v1.ogg",
 			"kra_sfx_tower_paladinCovenant_unitDeath_var2_v1.ogg",
-			"kra_sfx_tower_paladinCovenant_unitDeath_var3_v1.ogg"
+			"kra_sfx_tower_paladinCovenant_unitDeath_var3_v1.ogg",
+			-- customization
+			"kr_voice_battlebrewmasters_select_c.ogg",
+			"kr_voice_battlebrewmasters_taunt01_d.ogg",
+			"kr_voice_battlebrewmasters_taunt02_a.ogg",
+			"kr_voice_battlebrewmasters_skill-a_b.ogg",
+			"Sound_BattleAxe.ogg",
+			"Barbarian_Ready.ogg",
+			"Barbarian_Taunt1.ogg",
+			"Barbarian_Taunt2.ogg",
+			"Barbarian_Move.ogg",
+			"kr4_barbarians_berseker_whirlwindattack.ogg",
+			"templar_arterialStrike.ogg",
+			"templar_holyGrail.ogg",
+			"templar_taunt_ready.ogg",
+			"templar_taunt_1.ogg",
+			"templar_taunt_2.ogg",
+			"templar_taunt_3.ogg",
+			"Paladin_Ready.ogg",
+    	    "Paladin_Taunt1.ogg",
+    	    "Paladin_Taunt2.ogg",
+    	    "Paladin_Move.ogg",
+			"Sound_PaladinHeal.ogg"
 		}
 	},
 	tower_demon_pit = {
@@ -870,7 +1472,36 @@ return {
 			"kra_sfx_tower_arboreanEmissary_thornyGarden_spawn_var3_v1.ogg",
 			"kra_sfx_tower_arboreanEmissary_thornyGarden_spawn_var2_v1.ogg",
 			"kra_sfx_tower_arboreanEmissary_thornyGarden_spawn_var1_v1.ogg",
-			"kra_sfx_tower_arboreanEmissary_giftOfNature_cast_v1.ogg"
+			"kra_sfx_tower_arboreanEmissary_giftOfNature_cast_v1.ogg",
+			-- customization
+			"kra_sfx_crocs_hero_spawned_unit_shield_hit_var1_v1.ogg",
+			"kra_sfx_crocs_hero_spawned_unit_shield_hit_var2_v1.ogg",
+			"kra_sfx_crocs_hero_spawned_unit_shield_hit_var3_v1.ogg",
+			"kr3_sfx_tree_clobber_v2.ogg",
+			"PapaTree_Ready[2]-01d.ogg",
+			"kr3_sfx_stonedruid_boulderthrow-op2.ogg",
+			"kr3_sfx_stonedruid_boulderexplosion.ogg",
+			"kr3_sfx_tree_cocothrow.ogg",
+			"kr3_sfx_tree_cocoexplosion[explofuerte].ogg",
+			"kr3_sfx_tree_fierynutexplotion.ogg",
+			"kr3_sfx_tree_fierynutthrow.ogg",
+			"kr3_sfx_tree_leaves.ogg",
+			"kr3_sfx_forestkeeper_circleofhealing-CONGAITA_HI.ogg",
+			"kr3_sfx_forestkeeper_normalspear_v2-op1.ogg",
+			"kr3_sfx_forestkeeper_ancientoakspear_LOW_v1+3db.ogg",
+			"kr3_sfx_forestkeeper_eeriegarden_SINPOPS.ogg",
+			"PapaTree_Clobberin[2]-01e.ogg",
+			"PapaTree_Fiery[2]-01d.ogg",
+			"ForestProtector_Ready[2]-01c.ogg",
+			"ForestProtector_Eerie[2]-01a.ogg",
+			"ForestProtector_Circle[2]-01g.ogg",
+			"ForestProtector_Ancient[2]-01c.ogg",
+			"kr_voice_arboreanthornspears_taunt01_a.ogg",
+			"kr_voice_arboreanthornspears_taunt02_b.ogg",
+			"kr3_sfx_forestkeeper_normalspear_v2-op1.ogg",
+			"kra_sfx_crocs_bee_flying_v1.ogg",
+			"kra_sfx_crocs_bee_hit_floor_THROW_v1.ogg",
+			"kra_sfx_crocs_bee_hit_floor_IMPACT_v1.ogg"
 		}
 	},
 	tower_elven_stargazers = {
@@ -889,7 +1520,45 @@ return {
 			"kra_sfx_tower_elvenStargazer_risingStar_impact_var3_v1.ogg",
 			"kra_sfx_tower_elvenStargazer_eventHorizon_cast_v1.ogg",
 			"kra_sfx_tower_elvenStargazer_eventHorizon_teleportIn_v1.ogg",
-			"kra_sfx_tower_elvenStargazer_eventHorizon_teleportOut_v1.ogg"
+			"kra_sfx_tower_elvenStargazer_eventHorizon_teleportOut_v1.ogg",
+			-- customization
+			"Elf_Taun1.ogg",
+			"Elf_Taun2.ogg",
+			"Barrack_Taunt[2]-01c.ogg",
+			"Barrack_Taunt[2]-02c.ogg",
+			"Barrack_Taunt[2]-03c.ogg",
+			"Barrack_Taunt[2]-04e.ogg",
+			"Bladesinger_Ready[2]-01b.ogg",
+			"Bladesinger_PerfectParry[2]-01d.ogg",
+			"Bladesinger_BladeDance[2]-01a.ogg",
+			"Bladesinger_SwirlingEdge[2]-01a.ogg",
+			"kr3_sfx_bladesinger_perfectparry_v2-op2-faded.ogg",
+			"kr3_sfx_bladesinger_bladedance_v2-op2.ogg",
+			"kr3_sfx_goldenbow_instakill_v2_conchime.ogg",
+			"kr3_sfx_arcanearcher_sleepingarrow-op1.ogg",
+			"kr3_sfx_goldenbow_flarehit_v2.5.ogg",
+			"kr3_sfx_highmage_preload_and_travel.ogg",
+			"kr3_sfx_goldenbow_arrowshot.ogg",
+			"Archers_Taunt-01a.ogg",
+			"Archers_Taunt-02a.ogg",
+			"Archers_Taunt-03e.ogg",
+			"ArcaneArcher_Ready-01a.ogg",
+			"kr3_sfx_goldenbow_instakillarrowshot_v2.ogg",
+			"kr3_sfx_goldenbow_flareshot_v2-convoz.ogg",
+			"GoldenBows_Ready[2]-01d.ogg",
+			"GoldenBows_Crimson-01b.ogg",
+			"GoldenBows_Mark-01b.ogg",
+			"ArcaneArcher_SleepArrow-01c.ogg",
+			"ArcaneArcher_BurstArrow-01a.ogg",
+			"kr3_sfx_archanearcher_arcaneexplotion_v3.ogg",
+			"HighMage_Timelapse-01c.ogg",
+			"HighMage_ArcaneSentinel-01c.ogg",
+			"kr3_sfx_highmage_timecast.ogg",
+			"kr3_sfx_highmage_timecastend.ogg",
+			"HighMage_Ready-01a.ogg",
+			"kr3_sfx_highmage_shot.ogg",
+			"kr3_sfx_elvenhighmage_sentinelactivate.ogg",
+			"kr3_sfx_elvenhighmage_sentinelshot_v2-op1.ogg"
 		}
 	},
 	tower_ballista = {
@@ -971,7 +1640,38 @@ return {
 			"kra_sfx_tower_dwarvenFlamespitter_scorchingTorches_flareUp_var1_v1.ogg",
 			"kra_sfx_tower_dwarvenFlamespitter_scorchingTorches_flareUp_var2_v1.ogg",
 			"kra_sfx_tower_dwarvenFlamespitter_scorchingTorches_flareUp_var3_v1.ogg",
-			"kra_sfx_tower_dwarvenFlamespitter_scorchingTorches_flareUp_var4_v1.ogg"
+			"kra_sfx_tower_dwarvenFlamespitter_scorchingTorches_flareUp_var4_v1.ogg",
+			-- customization
+			"Sound_Tesla_attack_1.ogg",
+			"Sound_Tesla_attack_2.ogg",
+			"Tesla_Taunt2a.ogg",
+			"Tesla_Taunt2b.ogg",
+			"Tesla_Taunt2c.ogg",
+			"Tesla_Taunt1.ogg",
+			"Tesla_Ready.ogg",
+			"BFG_Ready.ogg",
+			"BFG_Taunt1.ogg",
+			"BFG_Taunt2.ogg",
+			"Sound_RocketLaunt.ogg",
+			"Sound_EngineerShot.ogg",
+			"Artillery_Ready.ogg",
+			"Artillery_Taunt1.ogg",
+			"Artillery_Taunt2.ogg",
+			"dwaarp_attack.ogg",
+			"dwaarp_lavaSmash.ogg",
+			"dwaarp_drillIn.ogg",
+			"dwaarp_drillOut.ogg",
+			"earthquake_taunt_ready.ogg",
+			"earthquake_taunt_drill.ogg",
+			"earthquake_taunt_scorched.ogg",
+			"mecha_taunt_ready.ogg",
+			"mecha_spawn.ogg",
+			"mecha_taunt_misc.ogg",
+			"mecha_taunt_missile.ogg",
+			"mecha_taunt_slow.ogg",
+			"mecha_walk.ogg",
+			"mecha_steamrelease.ogg",
+			"mecha_dropoil.ogg"
 		}
 	},
 	tower_barrel = {
@@ -1006,7 +1706,20 @@ return {
 			"kra_sfx_tower_duneSentinels_basicAttack_var4_v1.ogg",
 			"kra_sfx_tower_duneSentinels_basicAttack_var5_v1.ogg",
 			"kra_sfx_tower_duneSentinels_bountyHunt_cast_v1.ogg",
-			"kra_sfx_tower_duneSentinels_whirlingDoom_cast_v1.ogg"
+			"kra_sfx_tower_duneSentinels_whirlingDoom_cast_v1.ogg",
+			-- customization
+			"assassin_gold.ogg",
+			"assassin_sneakattack.ogg",
+			"assassin_taunt_sneak.ogg",
+			"assassin_taunt_gold.ogg",
+			"assassin_taunt_counter.ogg",
+			"assassin_taunt_ready.ogg",
+			"legionnaire_taunt_1.ogg",
+			"legionnaire_taunt_2.ogg",
+			"kr4_sfx_elephant_death_v1.ogg",
+			"kr4_sfx_elephant_buff_v2_LOOP_withTail.ogg",
+			"kr4_sfx_elephant_ambient_var1.ogg",
+			"kr4_sfx_elephant_ambient_var2.ogg"
 		}
 	},
 	tower_ghost = {
@@ -1022,7 +1735,19 @@ return {
 			"kra_sfx_tower_grimWraiths_teleport_out-in_v1.ogg",
 			"kra_sfx_tower_grimWraiths_spawnUnit_var1_v1.ogg",
 			"kra_sfx_tower_grimWraiths_spawnUnit_var2_v1.ogg",
-			"kra_sfx_tower_grimWraiths_spawnUnit_var3_v1.ogg"
+			"kra_sfx_tower_grimWraiths_spawnUnit_var3_v1.ogg",
+			-- customization
+			"kr4_fallen_ones_spirit_mausoleum_taunt_1.ogg",
+        	"kr4_fallen_ones_spirit_mausoleum_taunt_2.ogg",
+        	"kr4_fallen_ones_spirit_mausoleum_taunt_3.ogg",
+        	"kr4_fallen_ones_spirit_mausoleum_taunt_4.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_communion_upg.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_possesion_upg.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_gargoyles_upg.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_attack_preload.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_attack.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_possession_cast.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_possession_hit.ogg"
 		}
 	},
 	tower_ray = {
@@ -1040,7 +1765,15 @@ return {
 			"kra_sfx_tower_eldrictchChannelers_mutationHex_cast_var3_v1.ogg",
 			"kra_sfx_enemy_sheep_death_var1_v1.ogg",
 			"kra_sfx_enemy_sheep_death_var2_v1.ogg",
-			"kra_sfx_enemy_sheep_death_var3_v1.ogg"
+			"kra_sfx_enemy_sheep_death_var3_v1.ogg",
+			-- customization
+			"kra_sfx_stage13_darkRayTower_repair_v1.ogg",
+			"kra_sfx_stage13_darkRayTower_attack_op2_v1.ogg",
+			"kra_sfx_stage13_darkRayTower_specialAttack_v1.ogg",
+			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"
 		}
 	},
 	tower_dark_elf = {
@@ -1054,7 +1787,23 @@ return {
 			"kra_sfx_tower_twlightLongbows_basicAttack_cast-noCharge_var2_v1.ogg",
 			"kra_sfx_tower_twlightLongbows_basicAttack_cast-noCharge_var3_v1.ogg",
 			"kra_sfx_tower_twlightLongbows_supportBlades_spawn_v1.ogg",
-			"kra_sfx_tower_twlightLongbows_thrillOfTheHunt_cast-travelOnly_v1.ogg"
+			"kra_sfx_tower_twlightLongbows_thrillOfTheHunt_cast-travelOnly_v1.ogg",
+			-- customization
+			"Drow_01c.ogg",
+			"Drow_02c.ogg",
+			"Drow_03b.ogg",
+			"kr4_elves_barrack_taunt_1.ogg",
+			"kr4_elves_barrack_taunt_2.ogg",
+			"kr4_elves_barrack_taunt_3.ogg",
+			"kr4_elves_barrack_taunt_4.ogg",
+			"kr4_elves_barrack_backstab_upg.ogg",
+			"kr4_elves_barrack_multishoot_upg.ogg",
+			"kr4_elves_barrack_afterlife_upg.ogg",
+			"kr4_elves_eliteharassers_arrowstorm_single1.ogg",
+			"kr4_elves_eliteharassers_arrowstorm_single2.ogg",
+			"kr4_elves_eliteharassers_arrowstorm_single3.ogg",
+			"kr4_elves_eliteharassers_lastbreath1.ogg",
+			"kr4_elves_eliteharassers_lastbreath2.ogg"
 		}
 	},
 	tower_hermit_toad = {
@@ -1091,7 +1840,15 @@ return {
 			"kra_sfx_towers_cannoneers_jump_cast_v1.ogg",
 			"kra_sfx_towers_cannoneers_death_var1.ogg",
 			"kra_sfx_towers_cannoneers_death_var2.ogg",
-			"kra_sfx_towers_cannoneers_death_var3.ogg"
+			"kra_sfx_towers_cannoneers_death_var3.ogg",
+			-- customization
+			"Sound_Shootgun.ogg",
+			"dwarfArcher_taunt_1.ogg",
+			"dwarfArcher_taunt_2.ogg",
+			"dwarfBarracks_taunt_1.ogg",
+			"dwarf_taunt_1.ogg",
+			"dwarf_taunt_2.ogg",
+			"Sound_BattleAxe.ogg"
 		}
 	},
 	tower_sparking_geode = {
@@ -1101,7 +1858,6 @@ return {
 			"kr_voice_surgecolossus_04c.ogg",
 			"kr_voice_surgecolossus_05c.ogg",
 			"kr_voice_surgecolossus_taunt-select_c.ogg",
-			"kra_sfx_spiders_tower_heode_cristalize_ONESHOT_v1.ogg",
 			"kra_sfx_spiders_tower_heode_cristalize_bolt_var1_v1.ogg",
 			"kra_sfx_spiders_tower_heode_cristalize_bolt_var2_v1.ogg",
 			"kra_sfx_spiders_tower_heode_cristalize_bolt_var3_v1.ogg",
@@ -1315,12 +2071,13 @@ return {
 	},
 	enemies_terrain_spiders = {
 		files = {
+			"kra_sfx_enemy_spiderling_death_var1_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_cultbrood_death_var1_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_cultbrood_death_var2_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_cultbrood_melee_var1_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_cultbrood_melee_var2_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_cultbrood_melee_var3_v1.ogg",
-			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var1_v1ogg",
+			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var1_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var2_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var3_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_glarenwarden_death_v1.ogg",
@@ -1334,9 +2091,63 @@ return {
 			"kra_sfx_spiders_enemy_spider_sister_range_var3_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_sister_spawn_v1.ogg",
 			"kra_sfx_spiders_mechanic_spider_death_v1.ogg",
-			"kra_sfx_spiders_mechanic_spider_working_LOOP_v1.ogg"
+			"kra_sfx_spiders_mechanic_spider_working_LOOP_v1.ogg",
+			"kra_sfx_enemy_twistedSister_death_v1.ogg",
+			"kra_sfx_enemy_unblindedPriest_death_var1.ogg",
+			"kra_sfx_enemy_unblindedPriest_death_var2.ogg",
+			"kra_sfx_enemy_unblindedPriest_death_var3.ogg"
 		}
 	},
+	-- customization
+	enemies_rising_tides = {
+		files = {
+			"Blacksurge_holdtower.ogg",
+			"Waterenemy_death.ogg",
+			"savant_attack.ogg",
+			"Bluegale_storm_ambience.ogg",
+			"Bluegale_storm_summon.ogg",
+			"mermaid.ogg"
+		}
+	},
+	enemies_ancient_metropolis = {
+		files = {
+			"kro_sfx_elemental_areaattack.ogg",
+			"Sound_Sorcerer.ogg",
+			"Sound_HumanDead1.ogg",
+			"Sound_HumanDead2.ogg",
+			"Sound_HumanDead3.ogg",
+			"Sound_HumanDead4.ogg",
+			"kro_sfx_elemental_death.ogg",
+			"kro_sfx_evoker_heal[sinshaker].ogg",
+			"kre_sfx_scourger_death.ogg",
+			"kro_sfx_unstablecrystal_crystallize[op1].ogg",
+			"kro_sfx_crystallizedgnoll_v2.ogg",
+			"kro_sfx_bitteringrancor_screecher-death.ogg",
+			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg"
+		}
+	},
+	enemies_underground = {
+		files = {
+			"KRF_sfx_suarian_sniper.ogg",
+			"Sound_EnemyPuffDead.ogg",
+			"myrmidon_bite.ogg",
+			"blazefang_death.ogg",
+			"blazefang_attack.ogg",
+			"nightscale_invisibility.ogg",
+			"darter_teleout.ogg",
+			"saurian_brute_attack.ogg",
+			"Sound_EnemyBigDead.ogg",
+			"savant_open_portal.ogg",
+			"savant_portal_loop.ogg",
+			"savant_telein.ogg",
+			"savant_attack.ogg",
+			"KRF_sfx_saurianboss_muerte.ogg",
+			"KRF_sfx_saurianboss_martillo_1t.ogg",
+			"KRF_sfx_saurianboss_temblor.ogg",
+			"KRF_sfx_saurianboss_op1.ogg"
+		}
+	},
+	-- customization
 	terrain_1_common = {
 		files = {
 			"kra_sfx_terrain1Ambient_wind_var1_v1.ogg",
@@ -1583,7 +2394,10 @@ return {
 			"kra_sfx_stage13_darkRayTower_repair_v1.ogg",
 			"kra_sfx_stage13_darkRayTower_attack_op2_v1.ogg",
 			"kra_sfx_stage13_darkRayTower_specialAttack_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg"
+			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
+			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"
 		}
 	},
 	stage_14 = {
@@ -1846,7 +2660,10 @@ return {
 		}
 	},
 	stage_28 = {
-		files = {}
+		files = {
+			"kra_sfx_enemy_abomination_death_v1.ogg",
+			"kra_sfx_enemy_abomination_instakill_v1.ogg"
+		}
 	},
 	stage_29 = {
 		files = {

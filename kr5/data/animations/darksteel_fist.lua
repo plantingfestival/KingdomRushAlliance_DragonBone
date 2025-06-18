@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_fist.lua
-
 local a = {
 	darksteel_fist_stun_explosion = {
 		prefix = "darksteel_fist_stun_explosion",
@@ -63,7 +61,7 @@ local a = {
 	},
 	darksteel_fist_hit_fx_idle = {
 		prefix = "darksteel_fist_hit_fx",
-		to = 7,
+		to = 6,
 		from = 1
 	},
 	darksteel_fist_decal_stun = {
@@ -72,5 +70,4 @@ local a = {
 		from = 1
 	}
 }
-
 return a

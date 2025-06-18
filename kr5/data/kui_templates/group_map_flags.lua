@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_map_flags.lua
-
 return {
 	class = "KView",
 	children = {
@@ -182,6 +180,42 @@ return {
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
 			pos = v(702.05, -600.5)
-		}
+		},
+		{
+			id = "flag_115",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1900, -475)
+		},
+		{
+			id = "flag_122",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1970, -400)
+		},
+		{
+			id = "flag_123",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1800, -450)
+		},
+		{
+			id = "flag_124",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1830, -525)
+		},
+		{
+			id = "flag_125",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1880, -575)
+		},
+		{
+			id = "flag_126",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1940, -600)
+		},
 	}
 }

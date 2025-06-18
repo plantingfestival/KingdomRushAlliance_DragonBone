@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/balance/balance.lua
-
 local function v(v1, v2)
 	return {
 		x = v1,
@@ -1005,9 +1003,9 @@ local heroes = {
 		teleport_min_distance = 200,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 8,
+			cooldown = 5,
 			armor = 0,
-			hp = 3,
+			hp = 5,
 			damage = 6
 		},
 		armor = {
@@ -1024,27 +1022,27 @@ local heroes = {
 		},
 		hp_max = {
 			160,
-			170,
-			180,
+			175,
 			190,
-			200,
-			210,
+			205,
 			220,
-			230,
-			240,
-			250
+			235,
+			250,
+			265,
+			280,
+			295
 		},
 		regen_health = {
 			13,
-			14,
 			14,
 			15,
 			16,
 			17,
 			18,
-			18,
 			19,
-			20
+			20,
+			21,
+			22
 		},
 		basic_melee = {
 			cooldown = 1,
@@ -1052,14 +1050,14 @@ local heroes = {
 			damage_max = {
 				7,
 				9,
-				10,
-				12,
+				11,
 				13,
 				15,
-				16,
-				18,
-				20,
-				24
+				17,
+				19,
+				21,
+				23,
+				25
 			},
 			damage_min = {
 				5,
@@ -1078,39 +1076,39 @@ local heroes = {
 			max_range = 160,
 			xp_gain_factor = 1.6,
 			cooldown = 1.5,
-			min_range = 68,
+			min_range = 0,
 			damage_max = {
 				20,
-				22,
-				25,
-				28,
-				31,
-				34,
-				37,
-				40,
+				23,
+				26,
+				29,
+				32,
+				35,
+				38,
+				41,
 				44,
 				48
 			},
 			damage_min = {
 				11,
-				12,
-				14,
+				13,
 				15,
 				17,
-				18,
-				20,
-				22,
-				24,
-				26
+				19,
+				21,
+				23,
+				25,
+				27,
+				29
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
 		astral_reflection = {
-			max_range = 175,
+			max_range = 210,
 			cooldown = {
-				25,
-				25,
-				25
+				20,
+				15,
+				10
 			},
 			xp_gain = {
 				25,
@@ -1118,36 +1116,41 @@ local heroes = {
 				75
 			},
 			entity = {
-				range = 90,
-				duration = 12,
+				range = 45,
+				duration = 20,
+				hp_max = {
+					50,
+					100,
+					150
+				},
 				basic_melee = {
 					cooldown = 1,
 					damage_type = DAMAGE_MAGICAL,
 					damage_min = {
-						4,
-						8,
-						10
+						14,
+						20,
+						26
 					},
 					damage_max = {
-						8,
-						12,
-						16
+						25,
+						35,
+						45
 					}
 				},
 				basic_ranged = {
 					max_range = 160,
-					min_range = 68,
+					min_range = 0,
 					cooldown = 1.5,
 					damage_type = DAMAGE_MAGICAL,
 					damage_min = {
 						14,
-						18,
-						22
+						20,
+						26
 					},
 					damage_max = {
 						25,
-						32,
-						40
+						35,
+						45
 					}
 				}
 			}
@@ -1162,35 +1165,35 @@ local heroes = {
 			},
 			cooldown = {
 				18,
-				18,
-				18
+				16,
+				14
 			},
 			duration = {
 				6,
-				8,
-				10
+				9,
+				12
 			},
 			shield_base = {
 				60,
-				100,
-				140
+				120,
+				240
 			},
 			explosion_damage = {
-				30,
-				60,
-				90
+				120,
+				240,
+				480
 			},
 			explosion_damage_type = DAMAGE_MAGICAL
 		},
 		void_rift = {
 			radius = 100,
-			max_range_trigger = 200,
-			max_range_effect = 300,
 			min_targets = 2,
+			max_range_effect = 300,
+			max_range_trigger = 200,
 			damage_every = 0.25,
 			cooldown = {
 				30,
-				30,
+				25,
 				20
 			},
 			xp_gain = {
@@ -1209,37 +1212,27 @@ local heroes = {
 				3
 			},
 			damage_min = {
-				2,
-				2,
-				2
+				3,
+				6,
+				9
 			},
 			damage_max = {
-				5,
-				5,
-				5
-			},
-			s_damage_min = {
+				4,
 				8,
-				8,
-				8
-			},
-			s_damage_max = {
-				20,
-				20,
-				20
+				12
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
 		spatial_distortion = {
 			cooldown = {
 				25,
-				25,
-				25
+				20,
+				15
 			},
 			duration = {
 				6,
-				7,
-				8
+				9,
+				12
 			},
 			xp_gain = {
 				25,
@@ -1248,28 +1241,28 @@ local heroes = {
 			},
 			range_factor = {
 				1.1,
-				1.12,
-				1.15
+				1.15,
+				1.2
 			},
 			s_range_factor = {
 				0.1,
-				0.12,
-				0.15
+				0.15,
+				0.2
 			}
 		},
 		ultimate = {
-			radius = 80,
+			radius = 100,
 			cooldown = {
 				45,
-				45,
-				45,
-				45
+				40,
+				35,
+				30
 			},
 			damage = {
 				30,
 				90,
-				180,
-				270
+				210,
+				390
 			},
 			damage_type = DAMAGE_TRUE,
 			duration = {
@@ -1287,9 +1280,9 @@ local heroes = {
 		dead_lifetime = 30,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 7,
+			cooldown = 5,
 			armor = 0,
-			hp = 1,
+			hp = 6,
 			damage = 7
 		},
 		armor = {
@@ -1306,42 +1299,42 @@ local heroes = {
 		},
 		hp_max = {
 			125,
-			135,
-			145,
-			155,
-			165,
+			150,
 			175,
-			185,
-			195,
-			205,
-			215
+			200,
+			225,
+			250,
+			275,
+			300,
+			325,
+			350
 		},
 		regen_health = {
 			10,
 			11,
 			12,
-			12,
 			13,
 			14,
 			15,
 			16,
-			16,
-			17
+			17,
+			18,
+			19
 		},
 		basic_melee = {
 			cooldown = 1,
 			xp_gain_factor = 2,
 			damage_max = {
 				10,
-				11,
 				12,
-				13,
 				14,
 				16,
-				17,
 				18,
-				19,
-				20
+				20,
+				22,
+				24,
+				26,
+				28
 			},
 			damage_min = {
 				6,
@@ -1349,18 +1342,18 @@ local heroes = {
 				8,
 				9,
 				10,
-				10,
 				11,
 				12,
 				13,
-				14
+				14,
+				15
 			}
 		},
 		basic_ranged = {
 			max_range = 180,
 			xp_gain_factor = 1.52,
 			cooldown = 1.5,
-			min_range = 68,
+			min_range = 0,
 			damage_max = {
 				27,
 				30,
@@ -1369,21 +1362,21 @@ local heroes = {
 				39,
 				42,
 				45,
-				47,
-				50,
-				53
+				48,
+				51,
+				54
 			},
 			damage_min = {
 				9,
-				10,
 				11,
-				12,
 				13,
-				14,
 				15,
-				16,
 				17,
-				18
+				19,
+				21,
+				23,
+				25,
+				27
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
@@ -1392,8 +1385,8 @@ local heroes = {
 			min_targets = 1,
 			cooldown = {
 				25,
-				25,
-				25
+				20,
+				15
 			},
 			max_summons = {
 				1,
@@ -1401,18 +1394,18 @@ local heroes = {
 				3
 			},
 			wisp = {
-				shoot_range = 150,
+				shoot_range = 200,
 				cooldown = 1,
 				hero_max_distance = 100,
 				duration = {
 					6,
-					6,
-					6
+					9,
+					12
 				},
 				damage_min = {
-					2,
-					5,
-					8
+					3,
+					7,
+					11
 				},
 				damage_max = {
 					4,
@@ -1430,25 +1423,26 @@ local heroes = {
 		verdant_blast = {
 			max_range = 300,
 			min_range = 100,
+			radius = 60,
 			cooldown = {
 				30,
-				30,
-				30
+				25,
+				20
 			},
 			damage_max = {
-				120,
-				240,
-				360
+				150,
+				300,
+				450
 			},
 			damage_min = {
-				120,
-				240,
-				360
+				150,
+				300,
+				450
 			},
 			s_damage = {
-				120,
-				240,
-				360
+				150,
+				300,
+				450
 			},
 			damage_type = DAMAGE_MAGICAL,
 			xp_gain = {
@@ -1458,51 +1452,51 @@ local heroes = {
 			}
 		},
 		leaf_whirlwind = {
-			radius = 50,
+			radius = 65,
 			min_targets = 1,
-			max_range_trigger = 60,
+			max_range_trigger = 75,
 			heal_every = 0.25,
 			damage_every = 0.25,
 			cooldown = {
 				35,
-				35,
-				35
+				30,
+				25
 			},
 			duration = {
 				8,
-				8,
-				8
+				12,
+				16
 			},
 			damage_type = DAMAGE_MAGICAL,
 			damage_max = {
-				4,
-				8,
-				12
+				6,
+				12,
+				20
 			},
 			damage_min = {
-				2,
 				4,
-				6
+				8,
+				14
 			},
 			s_damage_min = {
-				8,
-				16,
-				24
-			},
-			s_damage_max = {
 				16,
 				32,
 				56
 			},
+			s_damage_max = {
+				24,
+				48,
+				80
+			},
 			heal_max = {
-				2,
-				3,
-				4
+				4,
+				8,
+				12
 			},
 			heal_min = {
-				2,
-				3,
-				4
+				4,
+				8,
+				12
 			},
 			xp_gain = {
 				40,
@@ -1511,19 +1505,19 @@ local heroes = {
 			}
 		},
 		faery_dust = {
-			radius = 80,
+			radius = 100,
 			min_targets = 3,
 			max_range_trigger = 160,
 			max_range_effect = 180,
 			cooldown = {
 				20,
-				20,
-				20
+				17,
+				14
 			},
 			duration = {
 				5,
-				6,
-				8
+				8,
+				11
 			},
 			damage_factor = {
 				0.4,
@@ -1545,16 +1539,16 @@ local heroes = {
 			radius = 60,
 			damage_every = 0.25,
 			cooldown = {
-				45,
-				45,
-				45,
-				45
+				40,
+				40,
+				40,
+				40
 			},
 			slow_factor = {
 				0.6,
-				0.6,
-				0.6,
-				0.6
+				0.5,
+				0.4,
+				0.3
 			},
 			roots_count = {
 				10,
@@ -1564,34 +1558,34 @@ local heroes = {
 			},
 			duration = {
 				4,
-				5,
 				6,
-				7
+				8,
+				10
 			},
 			damage_type = DAMAGE_TRUE,
 			damage_min = {
 				4,
-				5,
 				6,
-				7
+				8,
+				10
 			},
 			damage_max = {
 				6,
-				7,
 				9,
-				11
+				12,
+				15
 			},
 			s_damage_min = {
 				16,
-				20,
 				24,
-				27
+				32,
+				40
 			},
 			s_damage_max = {
 				24,
-				28,
 				36,
-				44
+				48,
+				60
 			}
 		}
 	},
@@ -1602,8 +1596,8 @@ local heroes = {
 		stats = {
 			cooldown = 8,
 			armor = 4,
-			hp = 3,
-			damage = 5
+			hp = 5,
+			damage = 4
 		},
 		armor = {
 			0,
@@ -1646,15 +1640,15 @@ local heroes = {
 			xp_gain_factor = 2,
 			damage_max = {
 				10,
-				11,
-				13,
+				12,
 				14,
 				16,
-				17,
-				19,
+				18,
 				20,
 				22,
-				23
+				24,
+				26,
+				28
 			},
 			damage_min = {
 				6,
@@ -1673,18 +1667,18 @@ local heroes = {
 			max_range = 150,
 			xp_gain_factor = 2,
 			cooldown = 1,
-			min_range = 70,
+			min_range = 50,
 			damage_max = {
 				10,
-				11,
-				13,
+				12,
 				14,
 				16,
-				17,
-				19,
+				18,
 				20,
 				22,
-				23
+				24,
+				26,
+				28
 			},
 			damage_min = {
 				6,
@@ -1700,38 +1694,38 @@ local heroes = {
 			}
 		},
 		basic_ranged_long = {
-			max_range = 200,
+			max_range = 250,
 			xp_gain_factor = 2,
 			cooldown = 2,
 			min_range = 150,
 			damage_max = {
 				14,
 				17,
-				19,
-				22,
-				24,
+				20,
+				23,
 				26,
 				29,
-				31,
-				34,
-				36
+				32,
+				35,
+				38,
+				41
 			},
 			damage_min = {
 				10,
-				11,
-				13,
+				12,
 				14,
 				16,
 				18,
-				19,
-				21,
+				20,
 				22,
-				24
+				24,
+				26,
+				28
 			}
 		},
 		arrow_to_the_knee = {
-			max_range = 225,
-			min_range = 67.5,
+			max_range = 250,
+			min_range = 50,
 			cooldown = {
 				14,
 				12,
@@ -1739,23 +1733,23 @@ local heroes = {
 			},
 			damage_min = {
 				40,
-				70,
-				90
+				80,
+				160
 			},
 			damage_max = {
 				40,
-				70,
-				90
+				80,
+				160
 			},
 			s_damage = {
 				40,
-				70,
-				90
+				80,
+				160
 			},
 			stun_duration = {
-				0.5,
-				0.75,
-				1
+				2,
+				4,
+				6
 			},
 			xp_gain = {
 				14,
@@ -1764,8 +1758,8 @@ local heroes = {
 			}
 		},
 		ricochet = {
-			max_range = 180,
-			min_range = 70,
+			max_range = 200,
+			min_range = 50,
 			min_targets = 3,
 			max_range_trigger = 200,
 			bounce_range = 120,
@@ -1776,18 +1770,18 @@ local heroes = {
 			},
 			damage_min = {
 				35,
-				35,
-				35
+				70,
+				105
 			},
 			damage_max = {
 				35,
-				35,
-				35
+				70,
+				105
 			},
 			s_damage = {
 				35,
-				35,
-				35
+				70,
+				105
 			},
 			bounces = {
 				2,
@@ -1809,8 +1803,8 @@ local heroes = {
 		martial_flourish = {
 			cooldown = {
 				16,
-				16,
-				16
+				14,
+				12
 			},
 			damage_min = {
 				30,
@@ -1827,7 +1821,7 @@ local heroes = {
 				180,
 				270
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			xp_gain = {
 				16,
 				32,
@@ -1837,27 +1831,27 @@ local heroes = {
 		disengage = {
 			distance = 130,
 			total_shoots = 3,
-			hp_to_trigger = 0.4,
+			hp_to_trigger = 0.9,
 			min_distance_from_end = 300,
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			damage_min = {
-				40,
-				80,
-				120
+				60,
+				120,
+				200
 			},
 			damage_max = {
-				40,
-				80,
-				120
+				60,
+				120,
+				200
 			},
 			s_damage = {
-				40,
-				80,
-				120
+				60,
+				120,
+				200
 			},
 			xp_gain = {
 				20,
@@ -1871,27 +1865,27 @@ local heroes = {
 			duration = 0.8,
 			spread = {
 				8,
-				10,
 				12,
-				14
+				16,
+				20
 			},
 			s_spread = {
 				16,
-				20,
 				24,
-				28
+				32,
+				40
 			},
 			damage = {
 				20,
-				25,
-				30,
-				35
+				35,
+				50,
+				65
 			},
 			cooldown = {
-				50,
-				50,
-				50,
-				50
+				45,
+				45,
+				45,
+				45
 			}
 		}
 	},
@@ -1903,7 +1897,7 @@ local heroes = {
 			cooldown = 4,
 			armor = 4,
 			hp = 8,
-			damage = 10
+			damage = 9
 		},
 		armor = {
 			0,
@@ -1942,40 +1936,40 @@ local heroes = {
 			40
 		},
 		mini_dragon_death = {
-			max_range = 150,
+			max_range = 180,
 			cooldown = 1,
-			min_range = 68,
+			min_range = 0,
 			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				12,
-				12,
-				12,
-				12,
+				15,
+				18,
+				21,
 				24,
-				24,
-				24,
+				27,
+				30,
+				33,
 				36,
-				36,
-				36
+				39
 			},
 			damage_min = {
 				8,
-				8,
-				8,
-				8,
+				10,
+				12,
+				14,
 				16,
-				16,
-				16,
+				18,
+				20,
+				22,
 				24,
-				24,
-				24
+				26
 			}
 		},
 		basic_ranged_shot = {
 			max_range = 240,
 			xp_gain_factor = 1.46,
 			cooldown = 2,
-			min_range = 50,
+			min_range = 0,
 			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				26,
@@ -2004,15 +1998,15 @@ local heroes = {
 		},
 		fire_balls = {
 			max_range = 250,
-			damage_radius = 45,
+			damage_radius = 55,
 			min_targets = 3,
-			damage_rate = 0.5,
+			damage_rate = 0.2,
 			min_range = 50,
 			duration = 8,
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			damage_type = DAMAGE_TRUE,
 			xp_gain = {
@@ -2022,27 +2016,27 @@ local heroes = {
 			},
 			flames_count = {
 				5,
-				5,
-				5
+				6,
+				7
 			},
 			flame_damage_min = {
-				3,
-				6,
-				10
-			},
-			flame_damage_max = {
 				5,
 				10,
-				14
+				15
+			},
+			flame_damage_max = {
+				7,
+				14,
+				21
 			}
 		},
 		mini_dragon = {
-			max_range = 150,
-			min_range = 68,
+			max_range = 180,
+			min_range = 0,
 			cooldown = {
 				30,
-				30,
-				30
+				25,
+				20
 			},
 			damage_type = DAMAGE_TRUE,
 			xp_gain = {
@@ -2053,35 +2047,35 @@ local heroes = {
 			dragon = {
 				max_speed = 75,
 				duration = {
-					10,
-					12,
-					15
+					15,
+					20,
+					25
 				},
 				ranged_attack = {
-					max_range = 120,
+					max_range = 180,
 					cooldown = 1,
-					min_range = 10,
+					min_range = 0,
 					damage_type = DAMAGE_PHYSICAL,
 					damage_min = {
 						10,
 						16,
-						19
+						22
 					},
 					damage_max = {
 						14,
 						24,
-						29
+						34
 					}
 				}
 			}
 		},
 		celestial_judgement = {
 			range = 300,
-			stun_range = 40,
+			stun_range = 50,
 			stun_duration = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			cooldown = {
 				35,
@@ -2102,7 +2096,7 @@ local heroes = {
 		},
 		shield = {
 			min_targets = 2,
-			range = 300,
+			range = 1000,
 			spiked_armor = {
 				0.2,
 				0.4,
@@ -2114,9 +2108,9 @@ local heroes = {
 				0.3
 			},
 			duration = {
-				8,
-				8,
-				8
+				10,
+				13,
+				16
 			},
 			cooldown = {
 				20,
@@ -2131,10 +2125,10 @@ local heroes = {
 		},
 		ultimate = {
 			range = 200,
-			stun_target_duration = 5,
-			stun_range = 40,
-			max_attack_count = 2,
-			stun_duration = 1,
+			stun_target_duration = 6,
+			stun_range = 50,
+			max_attack_count = 3,
+			stun_duration = 6,
 			damage_max = {
 				19,
 				29,
@@ -2149,9 +2143,9 @@ local heroes = {
 			},
 			soldier_count = {
 				3,
-				3,
-				3,
-				3
+				4,
+				5,
+				6
 			},
 			cooldown = {
 				30,
@@ -2169,7 +2163,7 @@ local heroes = {
 		stats = {
 			cooldown = 4,
 			armor = 5,
-			hp = 6,
+			hp = 8,
 			damage = 6
 		},
 		armor = {
@@ -2185,40 +2179,40 @@ local heroes = {
 			0.5
 		},
 		hp_max = {
-			220,
 			240,
-			260,
-			280,
+			270,
 			300,
-			320,
-			340,
+			330,
 			360,
-			380,
-			400
+			390,
+			420,
+			450,
+			480,
+			510
 		},
 		melee_damage_max = {
-			14,
-			17,
-			19,
+			24,
+			27,
+			30,
+			33,
+			37,
+			40,
+			43,
+			46,
+			49,
+			53
+		},
+		melee_damage_min = {
+			20,
 			22,
 			24,
 			26,
-			29,
-			31,
+			28,
+			30,
+			32,
 			34,
-			36
-		},
-		melee_damage_min = {
-			10,
-			11,
-			13,
-			14,
-			16,
-			18,
-			19,
-			21,
-			22,
-			24
+			36,
+			38
 		},
 		regen_health = {
 			18,
@@ -2238,18 +2232,18 @@ local heroes = {
 		},
 		unbreakable = {
 			min_targets = 2,
-			max_range_trigger = 72,
-			max_range_effect = 140,
+			max_range_trigger = 100,
+			max_range_effect = 200,
 			max_targets = 4,
 			cooldown = {
 				35,
-				35,
-				35
+				25,
+				15
 			},
 			duration = {
 				6,
-				6,
-				6
+				9,
+				12
 			},
 			shield_base = {
 				0,
@@ -2257,9 +2251,14 @@ local heroes = {
 				0
 			},
 			shield_per_enemy = {
-				0.1,
-				0.2,
-				0.3
+				0.15,
+				0.3,
+				0.45
+			},
+			max_soldiers = {
+				2,
+				4,
+				6
 			},
 			xp_gain = {
 				35,
@@ -2269,12 +2268,12 @@ local heroes = {
 		},
 		inspire_fear = {
 			min_targets = 2,
-			max_range_trigger = 72,
-			max_range_effect = 120,
+			max_range_trigger = 75,
+			max_range_effect = 150,
 			cooldown = {
 				30,
-				30,
-				30
+				23,
+				16
 			},
 			damage_duration = {
 				6,
@@ -2305,23 +2304,23 @@ local heroes = {
 		brutal_slash = {
 			cooldown = {
 				30,
-				30,
-				30
+				25,
+				20
 			},
 			damage_max = {
 				160,
 				320,
-				480
+				640
 			},
 			damage_min = {
 				160,
 				320,
-				480
+				640
 			},
 			s_damage = {
 				160,
 				320,
-				480
+				640
 			},
 			damage_type = DAMAGE_TRUE,
 			xp_gain = {
@@ -2338,7 +2337,7 @@ local heroes = {
 			cooldown = {
 				24,
 				20,
-				18
+				16
 			},
 			melee_cooldown = {
 				1,
@@ -2353,16 +2352,16 @@ local heroes = {
 			damage_type = DAMAGE_PHYSICAL,
 			damage_factor = {
 				0.5,
-				0.75,
-				1
+				1,
+				1.5
 			}
 		},
 		ultimate = {
 			cooldown = {
-				60,
-				60,
-				60,
-				60
+				50,
+				46,
+				42,
+				38
 			},
 			entity = {
 				range = 72,
@@ -2380,35 +2379,42 @@ local heroes = {
 					1.5
 				},
 				damage_min = {
-					8,
 					12,
-					16,
-					22
+					20,
+					32,
+					50
 				},
 				damage_max = {
-					12,
-					18,
-					24,
-					34
+					16,
+					28,
+					46,
+					73
 				},
 				damage_type = DAMAGE_TRUE,
+				spiked_armor_damage_type = DAMAGE_TRUE,
 				hp_max = {
-					120,
-					200,
-					280,
-					360
+					210,
+					290,
+					370,
+					450
 				},
 				regen_health = {
 					5,
 					8,
 					12,
-					15
+					17
+				},
+				spiked_armor_damage = {
+					0,
+					15,
+					30,
+					45
 				},
 				armor = {
 					0.2,
 					0.3,
 					0.45,
-					0.6
+					0.65
 				}
 			}
 		}
@@ -2419,9 +2425,9 @@ local heroes = {
 		regen_cooldown = 1,
 		stats = {
 			cooldown = 4,
-			armor = 2,
-			hp = 7,
-			damage = 4
+			armor = 5,
+			hp = 8,
+			damage = 6
 		},
 		hp_max = {
 			250,
@@ -2437,15 +2443,15 @@ local heroes = {
 		},
 		armor = {
 			0,
-			0,
-			0,
-			0,
-			0,
 			0.05,
 			0.1,
 			0.15,
 			0.2,
-			0.25
+			0.25,
+			0.3,
+			0.35,
+			0.4,
+			0.45
 		},
 		regen_health = {
 			15,
@@ -2462,26 +2468,26 @@ local heroes = {
 		melee_damage_max = {
 			16,
 			19,
-			21,
-			23,
 			24,
-			26,
-			28,
+			27,
 			30,
-			32,
-			34
+			33,
+			36,
+			39,
+			42,
+			45
 		},
 		melee_damage_min = {
 			10,
 			12,
 			14,
-			15,
 			16,
 			18,
-			19,
 			20,
-			21,
-			22
+			22,
+			24,
+			26,
+			28
 		},
 		basic_melee = {
 			cooldown = 2,
@@ -2492,8 +2498,8 @@ local heroes = {
 			min_targets = 2,
 			cooldown = {
 				18,
-				18,
-				18
+				15,
+				12
 			},
 			xp_gain = {
 				18,
@@ -2503,39 +2509,39 @@ local heroes = {
 			soldier = {
 				max_speed = 60,
 				armor = 0.15,
-				duration = 12,
+				duration = 18,
 				hp_max = {
 					75,
-					100,
-					125
+					150,
+					225
 				},
 				melee_attack = {
 					cooldown = 1,
 					range = 80,
 					damage_min = {
-						2,
-						4,
-						6
+						3,
+						6,
+						9
 					},
 					damage_max = {
-						4,
-						8,
-						12
+						5,
+						10,
+						15
 					}
 				}
 			}
 		},
 		lunch_break = {
-			lost_health = 0.4,
+			lost_health = 0.8,
 			cooldown = {
 				30,
-				28,
-				26
+				23,
+				16
 			},
 			heal_hp = {
 				80,
-				120,
-				200
+				160,
+				240
 			},
 			xp_gain = {
 				30,
@@ -2550,8 +2556,8 @@ local heroes = {
 			min_targets = 2,
 			cooldown = {
 				16,
-				16,
-				16
+				13,
+				10
 			},
 			duration = {
 				1.25,
@@ -2560,24 +2566,24 @@ local heroes = {
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			damage_min = {
-				4,
-				8,
-				12
-			},
-			damage_max = {
 				6,
 				12,
-				18
+				24
+			},
+			damage_max = {
+				8,
+				16,
+				32
 			},
 			s_damage_min = {
-				28,
-				56,
-				84
-			},
-			s_damage_max = {
 				42,
 				84,
-				126
+				168
+			},
+			s_damage_max = {
+				56,
+				112,
+				224
 			},
 			xp_gain = {
 				16,
@@ -2588,16 +2594,16 @@ local heroes = {
 		defensive_turret = {
 			max_range = 180,
 			build_speed = 168,
-			min_targets = 2,
+			min_targets = 1,
 			cooldown = {
 				25,
-				25,
-				25
+				23,
+				20
 			},
 			duration = {
 				15,
-				15,
-				15
+				20,
+				25
 			},
 			xp_gain = {
 				25,
@@ -2605,7 +2611,7 @@ local heroes = {
 				75
 			},
 			attack = {
-				range = 160,
+				range = 180,
 				cooldown = {
 					0.8,
 					0.8,
@@ -2614,36 +2620,36 @@ local heroes = {
 				damage_min = {
 					8,
 					16,
-					24
+					28
 				},
 				damage_max = {
 					12,
 					24,
-					36
+					42
 				}
 			}
 		},
 		ultimate = {
 			radius = 80,
 			cooldown = {
-				50,
-				50,
-				50,
-				50
+				30,
+				30,
+				30,
+				30
 			},
 			stun_duration = {
 				2,
-				2,
-				2,
-				2
+				4,
+				6,
+				8
 			},
 			damage = {
 				100,
-				160,
-				240,
-				320
+				200,
+				300,
+				400
 			},
-			damage_type = DAMAGE_PHYSICAL
+			damage_type = DAMAGE_TRUE
 		}
 	},
 	hero_mecha = {
@@ -2651,22 +2657,22 @@ local heroes = {
 		speed = 42,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 6,
+			cooldown = 4,
 			armor = 6,
-			hp = 4,
-			damage = 8
+			hp = 5,
+			damage = 6
 		},
 		hp_max = {
 			200,
-			210,
-			220,
+			215,
 			230,
-			240,
-			250,
+			245,
 			260,
-			270,
-			280,
-			290
+			275,
+			290,
+			305,
+			320,
+			335
 		},
 		armor = {
 			0.1,
@@ -2684,43 +2690,43 @@ local heroes = {
 			16,
 			17,
 			18,
-			18,
 			19,
 			20,
 			21,
 			22,
-			22,
-			23
+			23,
+			24,
+			25
 		},
 		basic_ranged = {
 			max_range = 250,
 			min_range = 0,
 			cooldown = 2,
 			xp_gain_factor = 2.35,
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_EXPLOSION,
 			damage_max = {
 				17,
-				19,
-				22,
-				24,
+				20,
+				23,
 				26,
 				29,
-				31,
-				34,
-				37,
-				41
+				32,
+				35,
+				38,
+				41,
+				44
 			},
 			damage_min = {
 				11,
 				13,
-				14,
-				16,
-				18,
+				15,
+				17,
 				19,
 				21,
-				22,
-				24,
-				27
+				23,
+				25,
+				27,
+				29
 			}
 		},
 		goblidrones = {
@@ -2729,21 +2735,21 @@ local heroes = {
 			spawn_range = 110,
 			cooldown = {
 				25,
-				25,
-				25
+				20,
+				15
 			},
 			drone = {
 				max_speed = 60,
 				duration = {
 					8,
-					8,
-					8
+					12,
+					16
 				},
 				ranged_attack = {
-					max_range = 100,
+					max_range = 150,
 					cooldown = 1,
-					min_range = 10,
-					damage_type = DAMAGE_PHYSICAL,
+					min_range = 0,
+					damage_type = DAMAGE_EXPLOSION,
 					damage_min = {
 						3,
 						6,
@@ -2752,7 +2758,7 @@ local heroes = {
 					damage_max = {
 						5,
 						10,
-						14
+						16
 					}
 				}
 			},
@@ -2766,17 +2772,17 @@ local heroes = {
 			max_range = 200,
 			node_prediction = 60,
 			min_targets = 1,
-			slow_factor = 0.5,
+			slow_factor = 0.4,
 			min_range = 50,
 			cooldown = {
-				30,
-				28,
-				26
+				20,
+				15,
+				10
 			},
 			duration = {
 				5,
-				6,
-				7
+				7,
+				10
 			},
 			xp_gain = {
 				30,
@@ -2785,33 +2791,33 @@ local heroes = {
 			}
 		},
 		power_slam = {
-			min_targets = 3,
+			min_targets = 2,
 			damage_radius = 85,
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				26,
 				52,
-				78
+				104,
+				208
 			},
 			damage_min = {
-				26,
 				52,
-				78
+				104,
+				208
 			},
 			s_damage = {
-				26,
 				52,
-				78
+				104,
+				208
 			},
 			stun_time = {
-				30,
-				30,
-				30
+				3,
+				4,
+				5
 			},
 			xp_gain = {
 				20,
@@ -2820,9 +2826,9 @@ local heroes = {
 			}
 		},
 		mine_drop = {
-			max_range = 80,
+			max_range = 120,
 			min_dist_between_mines = 30,
-			min_range = 35,
+			min_range = 20,
 			damage_radius = 75,
 			cooldown = {
 				10,
@@ -2831,18 +2837,18 @@ local heroes = {
 			},
 			max_mines = {
 				2,
-				3,
-				4
+				4,
+				6
 			},
 			damage_max = {
-				24,
-				36,
-				48
+				64,
+				128,
+				256
 			},
 			damage_min = {
-				16,
-				24,
-				32
+				48,
+				96,
+				192
 			},
 			damage_type = DAMAGE_EXPLOSION,
 			xp_gain = {
@@ -2853,8 +2859,8 @@ local heroes = {
 		},
 		ultimate = {
 			speed_out_of_range = 200,
-			attack_radius = 125,
-			speed_in_range = 30,
+			attack_radius = 150,
+			speed_in_range = 10,
 			cooldown = {
 				45,
 				45,
@@ -2863,21 +2869,21 @@ local heroes = {
 			},
 			ranged_attack = {
 				max_range = 200,
-				damage_radius = 50,
+				damage_radius = 60,
 				cooldown = 0.5,
-				min_range = 10,
+				min_range = 0,
 				damage_type = DAMAGE_TRUE,
 				damage_max = {
 					60,
-					72,
-					84,
-					96
+					90,
+					120,
+					150
 				},
 				damage_min = {
 					40,
-					48,
-					56,
-					64
+					60,
+					80,
+					100
 				}
 			}
 		}
@@ -2886,14 +2892,14 @@ local heroes = {
 		slimewalk_speed = 95,
 		dead_lifetime = 30,
 		speed = 75,
-		shared_cooldown = 3,
+		shared_cooldown = 1,
 		distance_to_slimewalk = 150,
 		regen_cooldown = 1,
 		stats = {
 			cooldown = 8,
-			armor = 0,
-			hp = 5,
-			damage = 6
+			armor = 4,
+			hp = 6,
+			damage = 7
 		},
 		hp_max = {
 			180,
@@ -2905,19 +2911,19 @@ local heroes = {
 			330,
 			355,
 			380,
-			400
+			405
 		},
 		armor = {
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			0.04,
+			0.08,
+			0.12,
+			0.16,
+			0.2,
+			0.24,
+			0.28,
+			0.32,
+			0.36
 		},
 		regen_health = {
 			14,
@@ -2936,34 +2942,38 @@ local heroes = {
 			cooldown = 1,
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				12,
-				14,
-				16,
-				17,
-				19,
-				21,
-				23,
 				24,
-				26,
-				28
+				27,
+				30,
+				33,
+				36,
+				39,
+				42,
+				45,
+				48,
+				51
 			},
 			damage_min = {
-				8,
-				9,
-				10,
-				12,
-				13,
-				14,
-				15,
 				16,
 				18,
-				20
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34
 			}
 		},
 		ranged_tentacle = {
 			max_range = 150,
-			s_bleed_damage = 8,
-			min_range = 50,
+			s_bleed_damage = {
+				8,
+				12,
+				16
+			},
+			min_range = 0,
 			node_prediction = 60,
 			cooldown = {
 				10,
@@ -2972,19 +2982,19 @@ local heroes = {
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				12,
-				36,
-				60
+				27,
+				54,
+				108
 			},
 			damage_min = {
-				12,
-				36,
-				60
+				27,
+				54,
+				108
 			},
 			s_damage = {
-				12,
-				36,
-				60
+				27,
+				54,
+				108
 			},
 			bleed_chance = {
 				0.6,
@@ -2993,13 +3003,13 @@ local heroes = {
 			},
 			bleed_damage_min = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			bleed_damage_max = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			bleed_every = {
 				0.25,
@@ -3008,8 +3018,8 @@ local heroes = {
 			},
 			bleed_duration = {
 				4,
-				4,
-				4
+				6,
+				8
 			},
 			xp_gain = {
 				10,
@@ -3018,27 +3028,27 @@ local heroes = {
 			}
 		},
 		inner_beast = {
-			duration = 8,
-			trigger_hp = 0.3,
+			duration = 15,
+			trigger_hp = 0.6,
 			cooldown = {
-				40,
-				40,
-				40
+				35,
+				30,
+				25
 			},
 			basic_melee = {
-				regen_health = 0.08,
+				regen_health = 0.09,
 				xp_gain_factor = 1,
 				cooldown = 2.5,
 				damage_type = DAMAGE_PHYSICAL,
 				damage_factor = {
-					1.4,
-					1.6,
-					1.8
+					2,
+					2.5,
+					3
 				},
 				s_damage_factor = {
-					0.4,
-					0.6,
-					0.8
+					1,
+					1.5,
+					2
 				}
 			},
 			xp_gain = {
@@ -3050,7 +3060,7 @@ local heroes = {
 		floor_spikes = {
 			damage_radius = 35,
 			min_targets = 3,
-			range_trigger_min = 20,
+			range_trigger_min = 0,
 			range_trigger_max = 120,
 			cooldown = {
 				30,
@@ -3059,24 +3069,24 @@ local heroes = {
 			},
 			damage_type = DAMAGE_TRUE,
 			damage_max = {
-				18,
-				38,
-				58
+				36,
+				72,
+				108
 			},
 			damage_min = {
-				18,
-				38,
-				58
+				36,
+				72,
+				108
 			},
 			s_damage = {
-				18,
-				38,
-				58
+				36,
+				72,
+				108
 			},
 			spikes = {
 				15,
-				15,
-				15
+				20,
+				25
 			},
 			xp_gain = {
 				30,
@@ -3085,7 +3095,11 @@ local heroes = {
 			}
 		},
 		eat_enemy = {
-			hp_trigger = 0.2,
+			hp_trigger = {
+				0.3,
+				0.5,
+				0.7
+			},
 			cooldown = {
 				38,
 				34,
@@ -3093,9 +3107,9 @@ local heroes = {
 			},
 			damage_type = DAMAGE_INSTAKILL,
 			regen = {
-				0.25,
-				0.4,
-				0.6
+				0.45,
+				0.6,
+				0.75
 			},
 			xp_gain = {
 				40,
@@ -3104,39 +3118,39 @@ local heroes = {
 			}
 		},
 		ultimate = {
-			radius = 70,
-			slow_factor = 0.5,
+			radius = 80,
+			slow_factor = 0.25,
 			slow_delay = 0.5,
 			cooldown = {
 				50,
-				50,
-				50,
-				50
+				45,
+				40,
+				35
 			},
 			duration = {
 				3,
-				3,
-				3,
-				3
+				4,
+				5,
+				6
 			},
 			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				150,
-				200,
-				250,
-				300
+				225,
+				350,
+				525
 			},
 			damage_min = {
 				150,
-				200,
-				250,
-				300
+				225,
+				350,
+				525
 			},
 			s_damage = {
 				150,
-				200,
-				250,
-				300
+				225,
+				350,
+				525
 			}
 		}
 	},
@@ -3144,26 +3158,26 @@ local heroes = {
 		distance_to_flywalk = 150,
 		regen_cooldown = 1,
 		speed = 42,
-		shared_cooldown = 3,
+		shared_cooldown = 1,
 		dead_lifetime = 30,
 		flywalk_speed = 110,
 		stats = {
 			cooldown = 8,
-			armor = 6,
-			hp = 4,
-			damage = 6
+			armor = 7,
+			hp = 7,
+			damage = 5
 		},
 		hp_max = {
 			200,
-			215,
-			230,
-			245,
-			260,
+			225,
+			250,
 			275,
-			290,
-			305,
-			320,
-			335
+			300,
+			325,
+			350,
+			375,
+			400,
+			425
 		},
 		armor = {
 			0.15,
@@ -3194,60 +3208,60 @@ local heroes = {
 			cooldown = 1,
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				10,
-				11,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38
+			},
+			damage_min = {
 				12,
 				13,
 				14,
+				15,
 				16,
 				17,
 				18,
+				19,
 				20,
-				23
-			},
-			damage_min = {
-				6,
-				7,
-				8,
-				9,
-				10,
-				10,
-				11,
-				12,
-				13,
-				15
+				21
 			}
 		},
 		jump = {
-			max_range = 100,
-			radius = 60,
+			max_range = 120,
+			radius = 100,
 			min_range = 0,
 			damage_radius = 100,
 			cooldown = {
 				15,
-				15,
-				15
+				13,
+				11
 			},
 			stun_duration = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				15,
 				30,
-				60
+				60,
+				120
 			},
 			damage_min = {
-				15,
 				30,
-				60
+				60,
+				120
 			},
 			s_damage = {
-				15,
 				30,
-				60
+				60,
+				120
 			},
 			xp_gain = {
 				15,
@@ -3259,7 +3273,7 @@ local heroes = {
 			max_range = 180,
 			min_targets = 3,
 			slow_factor = 0.5,
-			min_range = 0,
+			min_range = 50,
 			damage_radius = 30,
 			cooldown = {
 				25,
@@ -3271,16 +3285,16 @@ local heroes = {
 				50,
 				75
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_EXPLOSION,
 			damage_max = {
+				56,
+				112,
+				175
+			},
+			damage_min = {
 				42,
 				84,
 				132
-			},
-			damage_min = {
-				28,
-				56,
-				88
 			},
 			smoke_duration = {
 				5,
@@ -3288,9 +3302,9 @@ local heroes = {
 				5
 			},
 			slow_duration = {
-				1,
-				1,
-				1
+				5,
+				5,
+				5
 			},
 			s_slow_duration = {
 				5,
@@ -3301,13 +3315,13 @@ local heroes = {
 		uppercut = {
 			life_threshold = {
 				25,
-				30,
-				40
+				45,
+				65
 			},
 			s_life_threshold = {
 				0.25,
-				0.3,
-				0.4
+				0.45,
+				0.65
 			},
 			cooldown = {
 				34,
@@ -3318,24 +3332,24 @@ local heroes = {
 		explode = {
 			max_range = 90,
 			min_range = 0,
-			min_targets = 3,
+			min_targets = 2,
 			damage_every = 0.25,
-			damage_radius = 80,
+			damage_radius = 100,
 			burning_duration = 4,
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			damage_max = {
-				36,
-				72,
-				108
+				60,
+				120,
+				180
 			},
 			damage_min = {
-				12,
-				24,
-				36
+				45,
+				90,
+				135
 			},
 			damage_type = DAMAGE_EXPLOSION,
 			xp_gain = {
@@ -3345,25 +3359,30 @@ local heroes = {
 			},
 			burning_damage_type = DAMAGE_TRUE,
 			burning_damage_min = {
-				1,
 				2,
-				3
+				4,
+				6
 			},
 			burning_damage_max = {
-				1,
 				2,
-				3
+				4,
+				6
 			},
 			s_burning_damage = {
-				1,
-				2,
-				3
+				8,
+				16,
+				24
 			}
 		},
 		ultimate = {
-			burning_duration = 4,
+			burning_duration = 8,
 			radius = 70,
-			s_burning_damage = 4,
+			s_burning_damage = {
+				4,
+				8,
+				16,
+				32
+			},
 			speed = 200,
 			damage_every = 0.25,
 			duration = 4,
@@ -3373,36 +3392,36 @@ local heroes = {
 				50,
 				50
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			damage_max = {
-				40,
-				80,
-				160,
-				260
+				60,
+				120,
+				240,
+				480
 			},
 			damage_min = {
-				40,
-				80,
-				160,
-				260
+				60,
+				120,
+				240,
+				480
 			},
 			s_damage = {
-				40,
-				80,
-				160,
-				260
+				60,
+				120,
+				240,
+				480
 			},
 			burning_damage_min = {
 				1,
-				1,
-				1,
-				1
+				2,
+				4,
+				8
 			},
 			burning_damage_max = {
 				1,
-				1,
-				1,
-				1
+				2,
+				4,
+				8
 			},
 			burning_damage_type = DAMAGE_TRUE
 		}
@@ -3412,37 +3431,37 @@ local heroes = {
 		dead_lifetime = 30,
 		flywalk_speed = 95,
 		speed = 75,
-		shared_cooldown = 3,
+		shared_cooldown = 1,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 9,
-			armor = 2,
-			hp = 4,
-			damage = 7
+			cooldown = 10,
+			armor = 3,
+			hp = 5,
+			damage = 4
 		},
 		hp_max = {
 			150,
-			165,
-			180,
-			195,
+			170,
+			190,
 			210,
-			225,
-			240,
-			255,
+			230,
+			250,
 			270,
-			280
+			290,
+			310,
+			330
 		},
 		armor = {
 			0,
-			0.05,
-			0.05,
-			0.1,
-			0.1,
+			0.03,
+			0.06,
+			0.09,
+			0.12,
 			0.15,
-			0.15,
-			0.2,
-			0.2,
-			0.25
+			0.18,
+			0.21,
+			0.24,
+			0.27
 		},
 		regen_health = {
 			14,
@@ -3461,77 +3480,82 @@ local heroes = {
 			cooldown = 0.8,
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				6,
-				6,
-				7,
 				8,
-				8,
-				9,
 				10,
-				11,
-				11,
-				12
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26
 			},
 			damage_min = {
-				3,
-				4,
-				5,
-				5,
-				6,
 				6,
 				7,
-				7,
-				8,
-				8
+				9,
+				10,
+				12,
+				13,
+				15,
+				16,
+				18,
+				19
 			}
 		},
 		basic_ranged = {
 			max_range = 240,
-			min_range = 80,
+			min_range = 0,
 			cooldown = 2.5,
 			xp_gain_factor = 1.8,
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
 				24,
-				29,
-				35,
-				40,
-				45,
-				50,
-				56,
-				61,
+				30,
+				36,
+				42,
+				48,
+				54,
+				60,
 				66,
-				70
+				72,
+				78
 			},
 			damage_min = {
 				16,
 				20,
-				23,
-				27,
-				30,
-				34,
-				37,
-				41,
+				24,
+				28,
+				32,
+				36,
+				40,
 				44,
-				48
+				48,
+				52
 			}
 		},
 		heal_strike = {
 			damage_type = DAMAGE_TRUE,
+			hits_to_trigger = {
+				7,
+				6,
+				5
+			},
 			damage_max = {
-				20,
-				32,
-				40
+				24,
+				48,
+				72
 			},
 			damage_min = {
-				14,
-				22,
-				28
+				20,
+				40,
+				60
 			},
 			heal_factor = {
 				0.1,
-				0.15,
-				0.2
+				0.2,
+				0.3
 			},
 			xp_gain = {
 				5,
@@ -3548,26 +3572,26 @@ local heroes = {
 				15,
 				15
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				34,
-				60,
-				82
+				68,
+				102
 			},
 			damage_min = {
-				22,
-				40,
-				56
+				24,
+				48,
+				72
 			},
 			bounces = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			s_bounces = {
 				3,
-				3,
-				3
+				4,
+				5
 			},
 			xp_gain = {
 				15,
@@ -3576,8 +3600,8 @@ local heroes = {
 			}
 		},
 		shoot_around = {
-			max_range = 78,
-			radius = 80,
+			max_range = 90,
+			radius = 90,
 			min_targets = 3,
 			cooldown = {
 				20,
@@ -3587,29 +3611,29 @@ local heroes = {
 			damage_type = DAMAGE_TRUE,
 			damage_every = fts(3),
 			damage_min = {
-				1,
-				2,
-				3
+				4,
+				6,
+				8
 			},
 			damage_max = {
-				3,
-				4,
-				5
+				7,
+				9,
+				11
 			},
 			s_damage_min = {
-				22,
-				44,
-				66
+				40,
+				60,
+				80
 			},
 			s_damage_max = {
-				66,
-				88,
+				70,
+				90,
 				110
 			},
 			duration = {
 				3,
-				3,
-				3
+				4,
+				5
 			},
 			xp_gain = {
 				20,
@@ -3618,37 +3642,38 @@ local heroes = {
 			}
 		},
 		beasts = {
-			max_range = 100,
-			attack_range = 150,
+			max_range = 150,
+			attack_range = 200,
 			attack_cooldown = 0.5,
-			max_distance_from_owner = 200,
-			chance_to_steal = 25,
+			max_distance_from_owner = 600,
+			chance_to_steal = 45,
+			s_chance = 0.45,
 			cooldown = {
 				18,
-				18,
-				18
+				16,
+				14
 			},
 			damage_min = {
-				2,
-				3,
-				4
-			},
-			damage_max = {
 				3,
 				6,
-				8
+				9
+			},
+			damage_max = {
+				4,
+				8,
+				12
 			},
 			duration = {
 				8,
-				8,
-				8
+				10,
+				12
 			},
 			gold_to_steal = {
 				2,
 				3,
 				4
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			xp_gain = {
 				18,
 				36,
@@ -3656,33 +3681,33 @@ local heroes = {
 			}
 		},
 		ultimate = {
-			duration = 12,
+			duration = 15,
 			slow_duration = 0.5,
 			distance_to_revive = 150,
-			slow_factor = 0.75,
+			slow_factor = 0.5,
 			slow_radius = 80,
 			cooldown = {
-				50,
-				50,
-				50,
-				50
+				45,
+				45,
+				45,
+				45
 			},
 			entity = {
 				basic_ranged = {
-					max_range = 150,
+					max_range = 180,
 					cooldown = 1,
 					min_range = 0,
 					damage_min = {
-						5,
 						10,
-						14,
-						20
+						20,
+						35,
+						55
 					},
 					damage_max = {
-						8,
-						14,
-						22,
-						30
+						15,
+						30,
+						50,
+						75
 					},
 					damage_type = DAMAGE_TRUE
 				}
@@ -3697,7 +3722,7 @@ local heroes = {
 			cooldown = 4,
 			armor = 0,
 			hp = 10,
-			damage = 9
+			damage = 8
 		},
 		armor = {
 			0,
@@ -3739,7 +3764,7 @@ local heroes = {
 			max_range = 220,
 			damage_range = 75,
 			cooldown = 2,
-			min_range = 50,
+			min_range = 0,
 			xp_gain_factor = 1.82,
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
@@ -3770,7 +3795,7 @@ local heroes = {
 		stun = {
 			range = 180,
 			min_targets = 2,
-			stun_radius = 80,
+			stun_radius = 100,
 			duration = {
 				2,
 				3,
@@ -3794,6 +3819,7 @@ local heroes = {
 			nodes_between_shards = 8,
 			shards = 3,
 			min_nodes_trigger = 0,
+			stun_duration = 1,
 			cooldown = {
 				25,
 				25,
@@ -3820,9 +3846,9 @@ local heroes = {
 			max_range = 200,
 			damage_range = 100,
 			hp_max = {
-				200,
 				400,
-				800
+				800,
+				1200
 			},
 			cooldown = {
 				35,
@@ -3835,19 +3861,19 @@ local heroes = {
 				105
 			},
 			damage_aoe_min = {
-				32,
-				76,
-				96
+				44,
+				88,
+				132
 			},
 			damage_aoe_max = {
-				32,
-				76,
-				96
+				44,
+				88,
+				132
 			},
 			s_damage = {
-				32,
-				76,
-				96
+				44,
+				88,
+				132
 			},
 			explode_time = fts(27)
 		},
@@ -3856,7 +3882,6 @@ local heroes = {
 			slow_duration = 1,
 			min_targets = 2,
 			slow_factor = 0.75,
-			s_slow_factor = 0.25,
 			aura_radius = 80,
 			cooldown = {
 				20,
@@ -3888,11 +3913,11 @@ local heroes = {
 				16,
 				25
 			},
-			trigger_every = fts(30)
+			trigger_every = 0.5
 		},
 		passive_charge = {
 			distance_threshold = 300,
-			shots_amount = 1,
+			shots_amount = 3,
 			damage_factor = 3
 		},
 		ultimate = {
@@ -3901,16 +3926,16 @@ local heroes = {
 			random_ni_spread = 30,
 			distance_between_shards = 10,
 			damage_max = {
-				72,
 				108,
-				132,
-				156
+				144,
+				180,
+				216
 			},
 			damage_min = {
-				48,
-				72,
-				88,
-				104
+				96,
+				128,
+				160,
+				192
 			},
 			damage_type = DAMAGE_TRUE,
 			cooldown = {
@@ -3932,10 +3957,10 @@ local heroes = {
 		speed = 120,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 6,
+			cooldown = 5,
 			armor = 0,
-			hp = 6,
-			damage = 8
+			hp = 7,
+			damage = 5
 		},
 		armor = {
 			0,
@@ -3977,38 +4002,38 @@ local heroes = {
 			max_range = 200,
 			xp_gain_factor = 1.7,
 			cooldown = 1.5,
-			min_range = 20,
+			min_range = 0,
 			damage_radius = 75,
 			damage_type = DAMAGE_EXPLOSION,
 			damage_max = {
 				18,
-				20,
-				23,
-				25,
+				21,
+				24,
 				27,
-				29,
-				32,
-				34,
-				37,
-				38
+				30,
+				33,
+				36,
+				39,
+				42,
+				45
 			},
 			damage_min = {
 				12,
 				14,
-				15,
-				17,
+				16,
 				18,
 				20,
-				21,
-				23,
+				22,
 				24,
-				26
+				26,
+				28,
+				30
 			}
 		},
 		cluster_bomb = {
 			max_range = 220,
 			min_targets = 2,
-			min_range = 100,
+			min_range = 0,
 			first_explosion_height = 150,
 			fire_radius = 50,
 			explosion_damage_radius = 75,
@@ -4024,28 +4049,32 @@ local heroes = {
 			},
 			explosion_damage_type = DAMAGE_EXPLOSION,
 			explosion_damage_min = {
-				8,
-				20,
-				32
+				12,
+				24,
+				36
 			},
 			explosion_damage_max = {
-				8,
-				20,
-				32
+				12,
+				24,
+				36
 			},
 			fire_duration = {
 				3,
-				5,
-				8
+				6,
+				9
 			},
 			burning = {
 				cycle_time = 0.25,
-				s_total_damage = 12,
+				s_total_damage = {
+					12,
+					24,
+					36
+				},
 				duration = 3,
 				damage = {
 					1,
-					1,
-					1
+					2,
+					3
 				},
 				damage_type = DAMAGE_TRUE
 			}
@@ -4066,22 +4095,22 @@ local heroes = {
 			},
 			stun_duration = {
 				1,
-				1.5,
-				2
+				2,
+				3
 			},
 			slow_duration = {
 				3,
-				4,
-				6
+				5,
+				7
 			}
 		},
 		gattling = {
 			max_range = 190,
-			min_range = 60,
+			min_range = 0,
 			cooldown = {
 				12,
-				12,
-				12
+				11,
+				10
 			},
 			xp_gain = {
 				12,
@@ -4089,31 +4118,31 @@ local heroes = {
 				36
 			},
 			duration = {
-				2,
-				2,
-				2
+				3,
+				3,
+				3
 			},
 			damage_min = {
-				3,
-				5,
-				8
+				4,
+				8,
+				12
 			},
 			damage_max = {
 				5,
-				8,
-				11
+				10,
+				15
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			shoot_every = fts(4),
 			s_damage_min = {
-				42,
-				70,
-				112
+				84,
+				168,
+				252
 			},
 			s_damage_max = {
-				70,
-				112,
-				154
+				105,
+				210,
+				315
 			}
 		},
 		eat_instakill = {
@@ -4121,7 +4150,7 @@ local heroes = {
 			min_range = 0,
 			cooldown = {
 				25,
-				22,
+				23,
 				20
 			},
 			xp_gain = {
@@ -4130,9 +4159,9 @@ local heroes = {
 				60
 			},
 			hp_max = {
-				200,
-				400,
-				600
+				300,
+				500,
+				800
 			}
 		},
 		ultimate = {
@@ -4149,22 +4178,22 @@ local heroes = {
 					8,
 					10,
 					12,
-					15
+					14
 				},
 				melee_attack = {
-					range = 15,
+					range = 30,
 					cooldown = 0.1,
 					damage_max = {
-						16,
 						25,
-						36,
-						50
+						40,
+						55,
+						70
 					},
 					damage_min = {
-						16,
 						25,
-						36,
-						50
+						40,
+						55,
+						70
 					},
 					damage_type = DAMAGE_TRUE
 				}
@@ -4176,10 +4205,10 @@ local heroes = {
 		speed = 55,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 7,
+			cooldown = 6,
 			armor = 0,
-			hp = 4,
-			damage = 5
+			hp = 5,
+			damage = 6
 		},
 		armor = {
 			0,
@@ -4194,52 +4223,52 @@ local heroes = {
 			0
 		},
 		hp_max = {
+			180,
+			195,
+			210,
 			225,
-			235,
-			245,
+			240,
 			255,
-			265,
-			275,
+			270,
 			285,
-			295,
-			305,
+			300,
 			315
 		},
 		melee_damage_max = {
 			15,
-			17,
 			18,
-			20,
 			21,
-			23,
 			24,
-			26,
-			28,
-			32
+			27,
+			30,
+			33,
+			36,
+			39,
+			42
 		},
 		melee_damage_min = {
 			10,
-			11,
 			12,
-			13,
 			14,
-			15,
 			16,
-			17,
 			18,
-			20
+			20,
+			22,
+			24,
+			26,
+			28
 		},
 		regen_health = {
-			18,
-			19,
-			20,
-			20,
-			21,
-			22,
-			23,
-			24,
-			25,
-			25
+			9,
+			9,
+			9,
+			9,
+			9,
+			9,
+			9,
+			9,
+			9,
+			9
 		},
 		basic_melee = {
 			cooldown = 1.25,
@@ -4254,28 +4283,28 @@ local heroes = {
 			},
 			duration = {
 				2,
-				2,
-				2
+				3,
+				4
 			},
 			s_damage_min = {
-				56,
-				105,
-				162
+				57,
+				114,
+				228
 			},
 			s_damage_max = {
 				84,
-				156,
-				240
+				168,
+				336
 			},
 			damage_min = {
 				19,
-				35,
-				54
+				38,
+				76
 			},
 			damage_max = {
 				28,
-				52,
-				80
+				56,
+				112
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			xp_gain = {
@@ -4285,7 +4314,7 @@ local heroes = {
 			}
 		},
 		hotheaded = {
-			range = 180,
+			range = 300,
 			cooldown = {
 				5,
 				5,
@@ -4303,8 +4332,8 @@ local heroes = {
 			},
 			durations = {
 				6,
-				6,
-				6
+				9,
+				12
 			},
 			xp_gain = {
 				320,
@@ -4314,27 +4343,27 @@ local heroes = {
 		},
 		double_trouble = {
 			max_range = 150,
-			min_range = 100,
+			min_range = 75,
 			damage_radius = 70,
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			s_damage = {
 				30,
-				50,
-				75
+				60,
+				120
 			},
 			damage_min = {
 				30,
-				50,
-				75
+				60,
+				120
 			},
 			damage_max = {
 				30,
-				50,
-				75
+				60,
+				120
 			},
 			damage_type = DAMAGE_EXPLOSION,
 			xp_gain = {
@@ -4346,29 +4375,30 @@ local heroes = {
 				armor = 0,
 				max_speed = 36,
 				cooldown = 1,
-				duration = 10,
+				duration = 20,
 				hp_max = {
 					75,
-					100,
-					125
+					150,
+					225
 				},
 				damage_min = {
 					10,
-					13,
-					16
+					15,
+					20
 				},
 				damage_max = {
 					14,
-					19,
-					24
+					21,
+					28
 				}
 			}
 		},
 		death_aura = {
-			damage_min = 4,
+			damage_min = 5,
 			damage_radius = 70,
 			cycle_time = 0.25,
-			damage_max = 6,
+			damage_max = 9,
+			slow_factor = 0.65,
 			damage_type = DAMAGE_TRUE
 		},
 		wild_eruption = {
@@ -4390,18 +4420,18 @@ local heroes = {
 			},
 			damage_min = {
 				10,
-				12,
-				15
+				20,
+				30
 			},
 			damage_max = {
 				10,
-				12,
-				15
+				20,
+				30
 			},
 			s_damage = {
 				40,
-				48,
-				60
+				80,
+				120
 			},
 			damage_type = DAMAGE_TRUE,
 			xp_gain = {
@@ -4446,20 +4476,20 @@ local heroes = {
 				},
 				damage_type = DAMAGE_TRUE,
 				scorch = {
-					duration = 4,
+					duration = 5,
 					damage_radius = 60,
 					cycle_time = 0.25,
 					damage_min = {
 						1,
-						1,
-						1,
-						1
+						2,
+						3,
+						4
 					},
 					damage_max = {
 						1,
-						1,
-						1,
-						1
+						2,
+						3,
+						4
 					},
 					damage_type = DAMAGE_TRUE
 				}
@@ -4467,8 +4497,8 @@ local heroes = {
 		},
 		ultimate_combo = {
 			max_targets = 12,
-			max_radius = 400,
-			min_radius = 100
+			max_radius = 800,
+			min_radius = 90
 		}
 	},
 	hero_witch = {
@@ -4476,10 +4506,10 @@ local heroes = {
 		speed = 180,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 7,
+			cooldown = 5,
 			armor = 0,
-			hp = 3,
-			damage = 6
+			hp = 6,
+			damage = 7
 		},
 		armor = {
 			0,
@@ -4494,32 +4524,32 @@ local heroes = {
 			0
 		},
 		hp_max = {
-			130,
-			145,
-			160,
-			175,
-			190,
-			205,
+			200,
 			220,
-			235,
-			250,
-			265
+			240,
+			260,
+			280,
+			300,
+			320,
+			340,
+			360,
+			380
 		},
 		melee_damage_max = {
-			10,
+			9,
 			11,
 			13,
-			14,
 			15,
 			17,
-			18,
 			19,
 			21,
-			22
+			23,
+			25,
+			27
 		},
 		melee_damage_min = {
+			6,
 			7,
-			8,
 			8,
 			9,
 			10,
@@ -4530,20 +4560,20 @@ local heroes = {
 			15
 		},
 		ranged_damage_max = {
-			10,
+			9,
 			11,
 			13,
-			14,
 			15,
 			17,
-			18,
 			19,
 			21,
-			22
+			23,
+			25,
+			27
 		},
 		ranged_damage_min = {
+			6,
 			7,
-			8,
 			8,
 			9,
 			10,
@@ -4555,15 +4585,15 @@ local heroes = {
 		},
 		regen_health = {
 			12,
-			13,
 			14,
-			14,
-			15,
 			16,
-			17,
 			18,
-			19,
-			20
+			20,
+			22,
+			24,
+			26,
+			28,
+			30
 		},
 		basic_melee = {
 			cooldown = 1,
@@ -4573,16 +4603,16 @@ local heroes = {
 			max_range = 200,
 			xp_gain_factor = 1.7,
 			cooldown = 1.5,
-			min_range = 50,
+			min_range = 0,
 			damage_type = DAMAGE_MAGICAL
 		},
 		skill_soldiers = {
 			min_targets = 2,
-			max_range = 180,
+			max_range = 120,
 			cooldown = {
 				18,
-				18,
-				18
+				16,
+				14
 			},
 			xp_gain = {
 				18,
@@ -4597,45 +4627,45 @@ local heroes = {
 			soldier = {
 				max_speed = 60,
 				armor = 0,
-				duration = 8,
+				duration = 12,
 				hp_max = {
-					40,
-					60,
-					80
+					80,
+					120,
+					160
 				},
 				melee_attack = {
 					cooldown = 1,
 					range = 100,
 					damage_min = {
-						2,
-						4,
-						6
-					},
-					damage_max = {
 						3,
 						6,
 						9
+					},
+					damage_max = {
+						4,
+						8,
+						12
 					}
 				}
 			}
 		},
 		skill_polymorph = {
 			range = 200,
-			max_nodes_to_goal = 50,
+			max_nodes_to_goal = 30,
 			cooldown = {
 				20,
 				20,
 				20
 			},
 			hp_max = {
-				400,
-				800,
-				1200
+				600,
+				1200,
+				2400
 			},
 			duration = {
-				4,
-				6,
-				8
+				8,
+				12,
+				16
 			},
 			xp_gain = {
 				20,
@@ -4648,26 +4678,26 @@ local heroes = {
 				magic_armor = 0,
 				hp = {
 					0.75,
-					0.6,
-					0.4
+					0.5,
+					0.25
 				}
 			}
 		},
 		skill_path_aoe = {
 			max_range = 180,
-			min_targets = 3,
+			min_targets = 2,
 			slow_factor = 0.5,
-			min_range = 75,
-			node_prediction = 30,
+			min_range = 0,
+			node_prediction = 22,
 			cooldown = {
 				16,
 				16,
 				16
 			},
 			duration = {
-				5,
 				6,
-				8
+				9,
+				12
 			},
 			xp_gain = {
 				16,
@@ -4676,25 +4706,25 @@ local heroes = {
 			},
 			damage_min = {
 				50,
-				80,
-				120
+				100,
+				200
 			},
 			damage_max = {
 				50,
-				80,
-				120
+				100,
+				200
 			},
 			s_damage = {
 				50,
-				80,
-				120
+				100,
+				200
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
 		disengage = {
 			min_distance_from_end = 300,
 			distance = 160,
-			hp_to_trigger = 0.4,
+			hp_to_trigger = 0.9,
 			cooldown = {
 				18,
 				18,
@@ -4708,11 +4738,11 @@ local heroes = {
 			decoy = {
 				max_speed = 60,
 				armor = 0,
-				duration = 8,
+				duration = 15,
 				hp_max = {
-					50,
-					75,
-					100
+					100,
+					200,
+					300
 				},
 				melee_attack = {
 					cooldown = 1,
@@ -4729,36 +4759,36 @@ local heroes = {
 					}
 				},
 				explotion = {
-					radius = 45,
+					radius = 60,
 					stun_duration = {
 						2,
-						2.5,
-						3
+						3,
+						4
 					}
 				}
 			}
 		},
 		ultimate = {
-			radius = 75,
-			nodes_teleport = 50,
+			radius = 100,
+			nodes_teleport = 30,
 			nodes_limit = 20,
 			cooldown = {
 				35,
-				35,
-				35,
-				35
+				32,
+				29,
+				26
 			},
 			duration = {
 				2,
 				3,
-				4,
-				5
+				5,
+				8
 			},
 			max_targets = {
 				4,
 				6,
-				8,
-				10
+				9,
+				13
 			}
 		}
 	},
@@ -4767,10 +4797,10 @@ local heroes = {
 		speed = 130,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 6,
+			cooldown = 4,
 			armor = 0,
 			hp = 9,
-			damage = 10
+			damage = 7
 		},
 		armor = {
 			0,
@@ -4812,7 +4842,7 @@ local heroes = {
 			max_range = 220,
 			radius = 60,
 			cooldown = 2,
-			min_range = 50,
+			min_range = 0,
 			xp_gain_factor = 1.4,
 			damage_type = DAMAGE_TRUE,
 			damage_max = {
@@ -4855,9 +4885,9 @@ local heroes = {
 		cloud = {
 			max_range = 225,
 			radius = 100,
-			min_targets = 3,
+			min_targets = 2,
 			slow_factor = 0.5,
-			min_range = 150,
+			min_range = 0,
 			cooldown = {
 				15,
 				15,
@@ -4865,8 +4895,8 @@ local heroes = {
 			},
 			duration = {
 				4,
-				6,
-				10
+				8,
+				12
 			},
 			xp_gain = {
 				15,
@@ -4881,19 +4911,19 @@ local heroes = {
 			damage_radius = 75,
 			cooldown = {
 				24,
-				24,
-				24
+				20,
+				16
 			},
 			damage_type = DAMAGE_EXPLOSION,
 			damage_max = {
 				40,
-				118,
-				156
+				120,
+				200
 			},
 			damage_min = {
-				20,
-				62,
-				84
+				21,
+				63,
+				105
 			},
 			xp_gain = {
 				24,
@@ -4903,13 +4933,17 @@ local heroes = {
 		},
 		rain = {
 			max_range = 200,
-			min_targets = 3,
-			min_range = 50,
-			stun_time = 0.25,
+			min_targets = 2,
+			min_range = 0,
+			stun_time = {
+				1,
+				1.5,
+				2
+			},
 			cooldown = {
 				20,
-				20,
-				20
+				18,
+				16
 			},
 			damage_max = {
 				18,
@@ -4924,8 +4958,8 @@ local heroes = {
 			damage_type = DAMAGE_TRUE,
 			bones_count = {
 				3,
-				5,
-				8
+				6,
+				9
 			},
 			xp_gain = {
 				20,
@@ -4939,24 +4973,24 @@ local heroes = {
 			min_range = 0,
 			cooldown = {
 				32,
-				32,
-				32
+				28,
+				24
 			},
 			damage_max = {
 				36,
-				86,
-				130
+				90,
+				144
 			},
 			damage_min = {
 				24,
-				58,
-				86
+				60,
+				96
 			},
 			damage_type = DAMAGE_TRUE,
 			proj_count = {
 				6,
-				8,
-				10
+				9,
+				12
 			},
 			xp_gain = {
 				30,
@@ -4973,7 +5007,7 @@ local heroes = {
 			},
 			dog = {
 				speed = 95,
-				armor = 0,
+				armor = 0.1,
 				cooldown = 1,
 				duration = {
 					10,
@@ -4983,24 +5017,24 @@ local heroes = {
 				},
 				hp = {
 					100,
-					120,
 					150,
-					180
+					225,
+					325
 				},
 				melee_attack = {
 					cooldown = 1,
 					damage_type = DAMAGE_PHYSICAL,
 					damage_max = {
 						14,
-						17,
-						22,
-						31
+						28,
+						42,
+						56
 					},
 					damage_min = {
 						10,
-						11,
-						14,
-						21
+						20,
+						30,
+						40
 					}
 				}
 			}
@@ -5011,10 +5045,10 @@ local heroes = {
 		speed = 130,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 10,
-			armor = 4,
+			cooldown = 5,
+			armor = 0,
 			hp = 7,
-			damage = 8
+			damage = 7
 		},
 		armor = {
 			0,
@@ -5091,14 +5125,14 @@ local heroes = {
 			damage_min = {
 				10,
 				13,
-				15,
-				18,
-				21,
-				24,
-				27,
-				29,
-				32,
-				35
+				16,
+				19,
+				22,
+				25,
+				28,
+				31,
+				34,
+				37
 			}
 		},
 		arborean_spawn = {
@@ -5119,54 +5153,54 @@ local heroes = {
 			},
 			arborean = {
 				speed = 30,
-				armor = 0,
+				armor = 0.16,
 				magic_armor = 0,
 				hp = {
 					80,
-					110,
-					140
+					120,
+					160
 				},
 				duration = {
 					10,
-					12,
-					14
+					15,
+					20
 				},
 				basic_attack = {
 					cooldown = 2,
 					damage_type = DAMAGE_PHYSICAL,
 					damage_max = {
+						6,
+						9,
+						12
+					},
+					damage_min = {
 						4,
 						6,
 						8
-					},
-					damage_min = {
-						2,
-						3,
-						5
 					}
 				}
 			},
 			paragon = {
 				speed = 40,
-				armor = 0,
+				armor = 0.32,
 				magic_armor = 0,
 				hp = {
 					120,
-					160,
-					200
+					180,
+					240
 				},
 				duration = {
-					10,
-					12,
-					14
+					14,
+					21,
+					28
 				},
 				basic_attack = {
 					cooldown = 1,
 					damage_type = DAMAGE_PHYSICAL,
 					damage_max = {
 						12,
-						16,
-						20
+						18,
+						24
 					},
 					damage_min = {
 						8,
@@ -5181,8 +5215,8 @@ local heroes = {
 			min_range = 0,
 			cooldown = {
 				35,
-				35,
-				35
+				30,
+				25
 			},
 			xp_gain = {
 				35,
@@ -5191,23 +5225,23 @@ local heroes = {
 			},
 			max_targets = {
 				3,
-				3,
-				3
+				4,
+				5
 			},
 			duration = {
 				6,
-				7,
-				8
+				9,
+				12
 			},
 			damage_factor = {
+				1.15,
 				1.3,
-				1.45,
-				1.6
+				1.45
 			},
 			s_damage_factor = {
+				0.15,
 				0.3,
-				0.45,
-				0.6
+				0.45
 			}
 		},
 		thorn_bleed = {
@@ -5284,6 +5318,7 @@ local heroes = {
 				range = 120,
 				damage_every = 0.25,
 				cooldown_max = 2,
+				duration = 0.5,
 				slow_factor = {
 					0.5,
 					0.4,
@@ -5307,7 +5342,7 @@ local heroes = {
 				8,
 				10,
 				13,
-				15
+				17
 			},
 			cooldown = {
 				45,
@@ -5328,37 +5363,37 @@ local heroes = {
 				0.6
 			},
 			speed_factor = {
-				1.3,
-				1.4,
+				1.25,
 				1.5,
-				1.6
+				1.75,
+				2
 			},
 			inflicted_damage_factor = {
-				1.3,
-				1.4,
+				1.25,
 				1.5,
-				1.6
+				1.75,
+				2
 			},
 			s_bonuses = {
-				0.3,
-				0.4,
+				0.25,
 				0.5,
-				0.6
+				0.75,
+				1
 			}
 		}
 	},
 	hero_spider = {
 		dead_lifetime = 25,
-		tp_delay = 0.4,
+		tp_delay = 0,
 		speed = 90,
-		tp_duration = 1,
-		teleport_min_distance = 220,
-		shared_cooldown = 3,
+		tp_duration = 0,
+		teleport_min_distance = 200,
+		shared_cooldown = 0,
 		regen_cooldown = 1,
 		stats = {
-			cooldown = 8,
+			cooldown = 5,
 			armor = 0,
-			hp = 3,
+			hp = 7,
 			damage = 6
 		},
 		armor = {
@@ -5374,16 +5409,16 @@ local heroes = {
 			0
 		},
 		hp_max = {
-			180,
-			190,
-			200,
-			210,
-			220,
-			230,
-			240,
-			250,
-			260,
-			270
+			270,
+			290,
+			310,
+			330,
+			350,
+			370,
+			390,
+			410,
+			430,
+			450
 		},
 		regen_health = {
 			13,
@@ -5414,15 +5449,15 @@ local heroes = {
 			},
 			damage_min = {
 				9,
-				10,
-				12,
-				14,
-				16,
+				11,
+				13,
+				15,
 				17,
 				19,
 				21,
-				22,
-				24
+				23,
+				25,
+				27
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			dot = {
@@ -5463,36 +5498,36 @@ local heroes = {
 			min_range = 68,
 			damage_max = {
 				20,
-				22,
-				25,
-				28,
-				31,
-				34,
-				37,
-				40,
+				23,
+				26,
+				29,
+				32,
+				35,
+				38,
+				41,
 				44,
 				48
 			},
 			damage_min = {
 				11,
-				12,
-				14,
+				13,
 				15,
 				17,
-				18,
+				19,
 				20,
 				22,
 				24,
-				26
+				26,
+				28
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
 		instakill_melee = {
 			use_current_health_instead_of_max = true,
 			life_threshold = {
-				500,
-				750,
-				1000
+				600,
+				900,
+				1200
 			},
 			cooldown = {
 				7,
@@ -5515,19 +5550,19 @@ local heroes = {
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
-				0,
-				0,
-				0
+				30,
+				60,
+				90
 			},
 			damage_min = {
-				0,
-				0,
-				0
+				30,
+				60,
+				90
 			},
 			s_damage = {
-				0,
-				0,
-				0
+				30,
+				60,
+				90
 			},
 			stun_time = {
 				90,
@@ -5551,13 +5586,13 @@ local heroes = {
 			damage_type = DAMAGE_PHYSICAL,
 			damage_max = {
 				36,
-				54,
-				84
+				72,
+				108
 			},
 			damage_min = {
 				24,
-				36,
-				56
+				48,
+				72
 			},
 			s_damage = {
 				36,
@@ -5574,19 +5609,19 @@ local heroes = {
 			min_targets = 1,
 			cooldown = {
 				25,
-				25,
-				25
+				20,
+				15
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				84,
 				168,
-				252
+				336
 			},
 			damage_min = {
 				56,
 				112,
-				168
+				224
 			},
 			s_damage = {
 				50,
@@ -5617,35 +5652,210 @@ local heroes = {
 				armor = 0,
 				stun_duration = 3,
 				cooldown = 1,
-				stun_chance = 0.15,
+				stun_chance = 0.2,
 				duration = {
-					5,
-					7,
-					8,
-					10
+					6,
+					9,
+					12,
+					15
 				},
 				hp = {
 					150,
-					150,
-					150,
-					150
+					180,
+					210,
+					240
 				},
 				melee_attack = {
 					cooldown = 1,
-					damage_type = DAMAGE_PHYSICAL,
+					damage_type = DAMAGE_TRUE,
 					damage_max = {
 						12,
-						12,
-						12,
-						12
+						15,
+						18,
+						21
 					},
 					damage_min = {
 						8,
-						8,
-						8,
-						8
+						10,
+						12,
+						14
 					}
 				}
+			}
+		}
+	},
+	hero_10yr = {
+		ultimate = {
+			cooldown = {
+				60,
+				60,
+				60,
+				60
+			}
+		}
+	},
+	hero_dracolich = {
+		basic_attack = {
+			attack_filter = false,
+			damage_type = DAMAGE_MAGICAL
+		},
+		bonegolem = {
+			nav_grid = true
+		},
+		plaguecarrier = {
+			range_nodes_max = 30,
+			range_nodes_min = 10
+		},
+		ultimate = {
+			cooldown = {
+				70,
+				70,
+				70,
+				70
+			}
+		}
+	},
+	hero_dragon = {
+		attack_filter = false,
+		basic_attack = {
+			max_range = 140,
+			damage_radius = 40,
+			damage_min = {
+				15,
+				20,
+				26,
+				31,
+				37,
+				42,
+				48,
+				53,
+				59,
+				64
+			},
+			damage_max = {
+				20,
+				28,
+				37,
+				45,
+				54,
+				62,
+				71,
+				79,
+				88,
+				96
+			}
+		},
+		blazingbreath = {
+			cooldown = 8,
+			min_range = 0,
+			damage = {
+				150,
+				250,
+				350
+			}
+		},
+		fierymist = {
+			min_range = 0,
+			cooldown = 10,
+			slow_factor = {
+				0.6,
+				0.5,
+				0.4
+			}
+		},
+		wildfirebarrage = {
+			min_range = 90,
+			damage = 30
+		},
+		feast = {
+			damage_type = DAMAGE_TRUE,
+			damage = {
+				100,
+				200,
+				300
+			}
+		}
+	},
+	hero_wilbur = {
+		speed = 86,
+		basic_attack = {
+			damage_type = DAMAGE_TRUE
+		},
+		box = {
+			damage_type = DAMAGE_TRUE,
+			range_nodes_max = 60,
+			range_nodes_min = 20
+		},
+		smoke = {
+			duration = {
+				3,
+				5,
+				8
+			}
+		},
+		ultimate = {
+			cooldown = {
+				50,
+				50,
+				50,
+				50
+			}
+		}
+	},
+	hero_dianyun = {
+		basic_attack = {
+			min_range = 0,
+			max_range = 200
+		},
+		ricochet = {
+			min_range = 0,
+			max_range = 200,
+			damage_min = {
+				45,
+				60,
+				75
+			},
+			damage_max = {
+				45,
+				60,
+				75
+			},
+			bounce = {
+				3,
+				5,
+				7
+			}
+		},
+		divine_rain = {
+			min_range = 0,
+			max_range = 110,
+			radius = 60,
+			healing_points_tick = {
+				8,
+				16,
+				24
+			}
+		},
+		supreme_wave = {
+			min_range = 0,
+			max_range = 100,
+			damage_type = DAMAGE_MAGICAL,
+			damage = 15
+		},
+		passive = {
+			gold_reward = 2
+		},
+		ultimate = {
+			min_range = 0,
+			max_range = 160,
+			duration = 240,
+			stun = fts(20),
+			damage_type = DAMAGE_TRUE,
+			cooldown = {
+				70,
+				70,
+				70,
+				70
 			}
 		}
 	}
@@ -5758,6 +5968,10 @@ local relics = {
 	}
 }
 local enemies = {
+	-- 额外的敌人，1代表敌人数量多1倍，血量多0.15倍，赏金为原来的0.6倍(原有的敌人不受影响)。
+	-- 2代表敌人数量多2倍，血量多0.15*2倍，赏金为原来的0.6*0.85倍，如此类推。
+	extra_enemies = 2,
+	frame_splitting = true,
 	werebeasts = {
 		hog_invader = {
 			speed = 36,
@@ -5791,23 +6005,23 @@ local enemies = {
 			magic_armor = 0.8,
 			basic_attack = {
 				cooldown = 1.5,
-				damage_min = 3,
-				damage_max = 4
+				damage_min = 5,
+				damage_max = 6
 			},
 			ranged_attack = {
 				max_range = 100,
 				min_range = 60,
-				damage_min = 6,
+				damage_min = 12,
 				cooldown = 1.5,
-				damage_max = 10
+				damage_max = 20
 			},
 			natures_vigor = {
-				hp_trigger_factor = 0.6,
+				hp_trigger_factor = 0.75,
 				range = 200,
 				heal_min = 10,
 				heal_every = 0.25,
 				cooldown = 4,
-				duration = 1.5,
+				duration = 5,
 				heal_max = 10
 			}
 		},
@@ -5819,15 +6033,16 @@ local enemies = {
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 12,
-				damage_radius = 35,
-				damage_max = 20,
+				damage_min = 24,
+				damage_radius = 50,
+				damage_max = 40,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			wrath_of_the_fallen = {
-				duration = 8,
-				radius = 80,
-				inflicted_damage_factor = 2
+				duration = 10,
+				radius = 100,
+				inflicted_damage_factor = 2,
+				speed_factor = 2
 			}
 		},
 		bear_woodcutter = {
@@ -5838,15 +6053,13 @@ local enemies = {
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 12,
-				damage_radius = 35,
-				damage_max = 20,
+				damage_min = 36,
+				damage_radius = 50,
+				damage_max = 60,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			wrath_of_the_fallen = {
-				duration = 5,
-				radius = 80,
-				inflicted_damage_factor = 2
+				radius = 100
 			}
 		},
 		cutthroat_rat = {
@@ -5862,13 +6075,13 @@ local enemies = {
 			},
 			gut_stab = {
 				bleed_every = 0.25,
-				bleed_damage_min = 1,
+				bleed_damage_min = 10,
 				cooldown = 15,
-				damage_max = 16,
-				bleed_damage_max = 1,
-				damage_min = 10,
+				damage_max = 36,
+				bleed_damage_max = 10,
+				damage_min = 24,
 				min_distance_from_end = 450,
-				duration = 2.5,
+				duration = 3,
 				bleed_duration = 3,
 				damage_type = DAMAGE_PHYSICAL
 			}
@@ -5881,25 +6094,25 @@ local enemies = {
 			magic_armor = 0.3,
 			basic_attack = {
 				cooldown = 1.5,
-				damage_min = 1,
-				damage_max = 2,
+				damage_min = 10,
+				damage_max = 20,
 				poison = {
-					damage_max = 1,
-					duration = 1,
-					damage_min = 1,
+					damage_max = 2,
+					duration = 3,
+					damage_min = 2,
 					every = 0.25
 				}
 			},
 			ranged_attack = {
 				max_range = 150,
 				min_range = 60,
-				damage_min = 8,
+				damage_min = 18,
 				cooldown = 2,
-				damage_max = 14,
+				damage_max = 24,
 				poison = {
-					damage_max = 1,
-					duration = 2,
-					damage_min = 1,
+					damage_max = 2,
+					duration = 3,
+					damage_min = 2,
 					every = 0.25
 				}
 			}
@@ -5919,17 +6132,17 @@ local enemies = {
 			magic_armor = 0.6,
 			melee_attack = {
 				cooldown = 1,
-				damage_min = 3,
-				damage_max = 4
+				damage_min = 6,
+				damage_max = 8
 			},
 			ranged_attack = {
 				max_range = 150,
 				radius = 45,
-				damage_min = 10,
+				damage_min = 15,
 				min_range = 40,
 				cooldown = 2.5,
-				mod_duration = 2,
-				damage_max = 15,
+				mod_duration = 4,
+				damage_max = 20,
 				received_damage_factor = 2
 			}
 		},
@@ -5954,9 +6167,9 @@ local enemies = {
 		},
 		rhino = {
 			gold = 80,
-			magic_armor = 0,
+			magic_armor = 0.4,
 			speed = 20,
-			armor = 0,
+			armor = 0.4,
 			hp = 1500,
 			lives_cost = 2,
 			basic_attack = {
@@ -5987,7 +6200,7 @@ local enemies = {
 		},
 		boss = {
 			speed = 16,
-			armor = 0.25,
+			armor = 0.6,
 			hp = 8000,
 			melee_attack = {
 				cooldown = 1,
@@ -6163,7 +6376,7 @@ local enemies = {
 			},
 			shackles = {
 				max_range = 150,
-				health_trigger_factor = 0.2,
+				health_trigger_factor = 0.5,
 				min_targets = 1,
 				max_targets = 2
 			}
@@ -6199,7 +6412,7 @@ local enemies = {
 			basic_attack = {
 				cooldown = 2,
 				damage_min = 30,
-				damage_radius = 35,
+				damage_radius = 50,
 				damage_max = 48,
 				damage_type = DAMAGE_PHYSICAL
 			}
@@ -6207,7 +6420,7 @@ local enemies = {
 		boss_corrupted_denas = {
 			speed = 16,
 			armor = 0.5,
-			hp = 10000,
+			hp = 12000,
 			magic_armor = 0.5,
 			melee_attack = {
 				damage_radius = 60,
@@ -6857,7 +7070,7 @@ local enemies = {
 				damage_max = 64
 			},
 			charge = {
-				min_distance_from_end = 45,
+				min_distance_from_end = 75,
 				range = 50,
 				damage_soldier_max = 62,
 				cooldown = 13,
@@ -6951,11 +7164,11 @@ local enemies = {
 				0
 			},
 			speed = {
-				24,
-				21,
-				17,
-				14,
-				11
+				22,
+				22,
+				22,
+				22,
+				22
 			},
 			eat_tower_evolution = {
 				50,
@@ -6967,7 +7180,7 @@ local enemies = {
 				0.7,
 				0.65,
 				0.58,
-				0.4
+				0.47
 			},
 			pre_fight_towers_destroy = {
 				taunt_keys_amount = 8,
@@ -6976,48 +7189,40 @@ local enemies = {
 				can_prevent_destroy = false,
 				needs_arborean_mages_to_clean = false,
 				waves = {
-					2,
 					3,
 					5,
-					8,
-					10,
+					7,
+					9,
 					11,
 					13,
-					14,
 					15
 				},
 				first_cooldown = {
 					5,
-					5,
 					7,
 					1,
-					15,
-					10,
-					10,
 					5,
-					1
+					15,
+					12,
+					10
 				},
 				cooldown = {
 					0,
 					0,
 					0,
-					40,
-					45,
-					35,
-					40,
-					26,
-					20
+					0,
+					0,
+					0,
+					0
 				},
 				max_casts = {
 					1,
 					1,
 					1,
-					2,
 					1,
-					2,
-					2,
-					3,
-					4
+					1,
+					1,
+					1
 				},
 				low_priority_holders = {
 					"4",
@@ -7030,27 +7235,27 @@ local enemies = {
 				{
 					hp_evolution_method = 2,
 					pre_evolution_step_cap = 0.7,
-					hp_restore_fixed_amount = 1700
+					hp_restore_fixed_amount = 4000
 				},
 				{
 					hp_evolution_method = 2,
 					pre_evolution_step_cap = 0.7,
-					hp_restore_fixed_amount = 2200
+					hp_restore_fixed_amount = 4000
 				},
 				{
 					hp_evolution_method = 2,
 					pre_evolution_step_cap = 0.7,
-					hp_restore_fixed_amount = 1700
+					hp_restore_fixed_amount = 4000
 				},
 				{
 					hp_evolution_method = 2,
 					pre_evolution_step_cap = 0.8,
-					hp_restore_fixed_amount = 3500
+					hp_restore_fixed_amount = 4000
 				},
 				{
 					hp_evolution_method = 2,
 					pre_evolution_step_cap = 0.9,
-					hp_restore_fixed_amount = 3500
+					hp_restore_fixed_amount = 4000
 				}
 			},
 			basic_attack = {
@@ -7082,9 +7287,9 @@ local enemies = {
 				cooldown = {
 					12,
 					12,
-					16,
-					16,
-					18
+					18,
+					18,
+					20
 				},
 				max_range = {
 					200,
@@ -7190,16 +7395,11 @@ local enemies = {
 		darksteel_hammerer = {
 			speed = 28,
 			armor = 0,
+			hp = 450,
 			gold = 22,
 			magic_armor = 0,
-			hp = {
-				280,
-				320,
-				420,
-				450
-			},
 			melee_attack = {
-				cooldown = 1,
+				cooldown = 0.8,
 				damage_max = 18,
 				damage_min = 12
 			}
@@ -7207,14 +7407,9 @@ local enemies = {
 		darksteel_shielder = {
 			speed = 28,
 			armor = 0.8,
-			gold = 30,
+			hp = 550,
+			gold = 23,
 			magic_armor = 0,
-			hp = {
-				380,
-				440,
-				550,
-				600
-			},
 			melee_attack = {
 				cooldown = 1.5,
 				damage_max = 26,
@@ -7224,7 +7419,7 @@ local enemies = {
 		surveillance_sentry = {
 			speed = 50,
 			armor = 0.2,
-			hp = 180,
+			hp = 250,
 			gold = 5,
 			magic_armor = 0,
 			lives_cost = 1
@@ -7232,19 +7427,14 @@ local enemies = {
 		rolling_sentry = {
 			speed = 64,
 			armor = 0.2,
+			hp = 800,
 			gold = 25,
 			magic_armor = 0,
-			hp = {
-				450,
-				520,
-				640,
-				720
-			},
 			melee_attack = {
 				cooldown = 1,
 				damage_max = 18,
 				damage_min = 10,
-				damage_type = DAMAGE_TRUE
+				damage_type = DAMAGE_EXPLOSION
 			},
 			ranged_attack = {
 				max_range = 150,
@@ -7252,13 +7442,13 @@ local enemies = {
 				damage_min = 10,
 				cooldown = 1,
 				min_range = 80,
-				damage_type = DAMAGE_TRUE
+				damage_type = DAMAGE_EXPLOSION
 			}
 		},
 		scrap_drone = {
 			speed = 75,
 			armor = 0,
-			hp = 50,
+			hp = 100,
 			gold = 0,
 			magic_armor = 0,
 			lives_cost = 1
@@ -7268,12 +7458,7 @@ local enemies = {
 			armor = 0,
 			hp = 1000,
 			gold = 70,
-			magic_armor = {
-				0.6,
-				0.6,
-				0.6,
-				0.8
-			},
+			magic_armor = 0.8,
 			melee_attack = {
 				cooldown = 1,
 				damage_min = 16,
@@ -7290,51 +7475,36 @@ local enemies = {
 		brute_welder = {
 			speed = 24,
 			armor = 0,
+			hp = 1800,
 			gold = 120,
 			magic_armor = 0,
 			lives_cost = 2,
-			hp = {
-				1200,
-				1440,
-				1800,
-				1950
-			},
 			basic_attack = {
 				cooldown = 2,
 				flame = {
 					radius = 40,
-					duration = 0.25,
+					duration = 1,
 					cycle_time = 0.25
 				},
 				burn = {
 					cycle_time = 0.25,
-					damage_min = 3,
+					damage_min = 5,
 					duration = 2,
-					damage_max = 5,
+					damage_max = 7,
 					damage_type = DAMAGE_TRUE
 				}
 			},
 			death_missile = {
-				range = 200,
-				block_duration = {
-					6,
-					8,
-					8,
-					10
-				}
+				block_duration = 10,
+				range = 200
 			}
 		},
 		scrap_speedster = {
+			speed = 80,
 			armor = 0,
 			hp = 200,
 			gold = 6,
 			magic_armor = 0,
-			speed = {
-				80,
-				80,
-				80,
-				80
-			},
 			basic_attack = {
 				cooldown = 1.5,
 				damage_max = 11,
@@ -7359,15 +7529,10 @@ local enemies = {
 		},
 		darksteel_fist = {
 			speed = 28,
+			armor = 0.5,
 			hp = 700,
 			gold = 30,
 			magic_armor = 0,
-			armor = {
-				0.4,
-				0.4,
-				0.4,
-				0.5
-			},
 			basic_attack = {
 				cooldown = 0,
 				damage_max = 9,
@@ -7375,37 +7540,27 @@ local enemies = {
 				damage_type = DAMAGE_PHYSICAL
 			},
 			stun_attack = {
+				cooldown = 3,
 				damage_min = 48,
 				damage_radius = 50,
 				stun_duration = 1.5,
 				damage_max = 72,
-				cooldown = {
-					4,
-					4,
-					4,
-					3
-				},
 				damage_type = DAMAGE_PHYSICAL
 			}
 		},
 		darksteel_guardian = {
-			gold = 250,
-			speed = 16,
+			gold = 200,
+			speed = 18,
 			magic_armor = 0,
 			rage_hp_trigger = 0.3,
 			armor = 0.8,
+			hp = 3000,
 			lives_cost = 5,
-			hp = {
-				2000,
-				2400,
-				3000,
-				3300
-			},
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 76,
+				damage_min = 96,
 				damage_radius = 50,
-				damage_max = 114,
+				damage_max = 144,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			rage_attack = {
@@ -7426,24 +7581,19 @@ local enemies = {
 			armor = 0,
 			hp = 1400,
 			gold = 80,
-			magic_armor = {
-				0.4,
-				0.4,
-				0.4,
-				0.5
-			},
+			magic_armor = 0.5,
 			basic_attack = {
 				cooldown = 1,
-				damage_max = 40,
-				damage_min = 26,
+				damage_max = 58,
+				damage_min = 38,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			basic_ranged = {
 				max_range = 200,
-				min_range = 50,
-				damage_min = 48,
+				min_range = 0,
+				damage_min = 58,
 				cooldown = 3,
-				damage_max = 72,
+				damage_max = 86,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			aura = {
@@ -7451,16 +7601,11 @@ local enemies = {
 				duration = 3,
 				nodes_limit_end = 30,
 				trigger_range = 80,
+				cooldown = 8,
 				nodes_limit_start = 30,
 				aura_radius = 125,
 				cycle_time = 0.25,
 				target_self = true,
-				cooldown = {
-					10,
-					10,
-					10,
-					8
-				},
 				mod = {
 					duration = 4,
 					speed_factor = 1.5,
@@ -7471,31 +7616,27 @@ local enemies = {
 		darksteel_hulk = {
 			speed = 20,
 			armor = 0,
-			gold = 250,
+			hp = 3500,
+			gold = 200,
 			magic_armor = 0.8,
-			lives_cost = 2,
-			hp = {
-				2350,
-				2700,
-				3500,
-				3800
-			},
+			lives_cost = 3,
 			basic_attack = {
 				cooldown = 2,
 				damage_min = 104,
 				damage_max = 156
 			},
 			charge = {
-				damage_enemy_max = 96,
-				health_threshold = 0.08,
+				damage_enemy_max = 72,
+				health_threshold = 0.35,
 				range = 50,
-				damage_soldier_max = 96,
+				damage_soldier_max = 120,
 				cooldown = 20,
-				damage_enemy_min = 64,
+				damage_enemy_min = 48,
 				charge_while_blocked = true,
-				min_distance_from_end = 12,
+				unstoppable_duration = 3,
+				min_distance_from_end = 24,
 				speed_mult = 3.2,
-				damage_soldier_min = 64,
+				damage_soldier_min = 80,
 				damage_type = DAMAGE_PHYSICAL
 			}
 		},
@@ -7526,7 +7667,7 @@ local enemies = {
 			attacks_count = 1,
 			ranged_attack = {
 				max_range = 300,
-				min_range = 120,
+				min_range = 80,
 				damage_min = 95,
 				cooldown = 0,
 				damage_radius = 60,
@@ -8392,9 +8533,9 @@ local towers = {
 			280
 		},
 		stats = {
-			cooldown = 5,
-			range = 5,
-			damage = 8
+			cooldown = 3,
+			range = 6,
+			damage = 10
 		},
 		basic_attack = {
 			cooldown = 2,
@@ -8421,28 +8562,28 @@ local towers = {
 		disintegrate = {
 			range = 186,
 			price = {
-				300,
-				150,
-				150
+				200,
+				100,
+				100
 			},
 			cooldown = {
 				30,
-				28,
-				26
+				25,
+				20
 			},
 			boss_damage = {
-				800,
-				1200,
-				1500
+				900,
+				1300,
+				1800
 			}
 		},
 		empowerment = {
-			max_range = 220,
-			min_range = 80,
+			max_range = 300,
+			min_range = 0,
 			price = {
 				200,
-				200,
-				200
+				150,
+				150
 			},
 			cooldown = {
 				1,
@@ -8451,13 +8592,13 @@ local towers = {
 			},
 			damage_factor = {
 				1.15,
-				1.25,
-				1.4
+				1.3,
+				1.45
 			},
 			s_damage_factor = {
 				0.15,
-				0.25,
-				0.4
+				0.3,
+				0.45
 			}
 		}
 	},
@@ -8470,9 +8611,9 @@ local towers = {
 			310
 		},
 		stats = {
-			cooldown = 3,
-			range = 5,
-			damage = 9
+			cooldown = 2,
+			range = 6,
+			damage = 10
 		},
 		basic_attack = {
 			ray_timing = 0.2,
@@ -8504,9 +8645,9 @@ local towers = {
 				100
 			},
 			teleport_nodes_back = {
-				20,
-				25,
-				30
+				30,
+				37,
+				45
 			},
 			cooldown = {
 				20,
@@ -8514,15 +8655,16 @@ local towers = {
 				16
 			},
 			max_targets = {
-				3,
 				4,
-				6
+				6,
+				9
 			}
 		},
 		stars_death = {
 			max_range = 200,
 			stun = 0.8,
 			min_range = 0,
+			duration = 1.5,
 			price = {
 				150,
 				150,
@@ -8530,8 +8672,8 @@ local towers = {
 			},
 			stars = {
 				3,
-				4,
-				5
+				5,
+				7
 			},
 			chance = {
 				1,
@@ -8540,13 +8682,13 @@ local towers = {
 			},
 			damage_min = {
 				18,
-				28,
+				27,
 				36
 			},
 			damage_max = {
 				30,
-				42,
-				54
+				45,
+				60
 			},
 			damage_type = DAMAGE_MAGICAL
 		}
@@ -8561,8 +8703,8 @@ local towers = {
 		},
 		stats = {
 			cooldown = 2,
-			range = 4,
-			damage = 7
+			range = 6,
+			damage = 9
 		},
 		basic_attack = {
 			damage_radius = 45,
@@ -8598,8 +8740,8 @@ local towers = {
 			damage_radius = 50,
 			price = {
 				250,
-				200,
-				200
+				250,
+				250
 			},
 			cooldown = {
 				15,
@@ -8629,9 +8771,9 @@ local towers = {
 		},
 		overheat = {
 			price = {
-				150,
-				150,
-				150
+				250,
+				250,
+				250
 			},
 			cooldown = {
 				24,
@@ -8639,9 +8781,9 @@ local towers = {
 				24
 			},
 			duration = {
-				3,
-				6,
-				9
+				8,
+				12,
+				16
 			},
 			decal = {
 				duration = 5,
@@ -8673,24 +8815,24 @@ local towers = {
 			250
 		},
 		stats = {
-			damage = 2,
-			armor = 5,
-			hp = 9
+			damage = 1,
+			armor = 6,
+			hp = 7
 		},
 		soldier = {
 			dead_lifetime = 12,
 			speed = 75,
 			armor = {
 				0,
-				0.1,
-				0.25,
-				0.4
+				0.15,
+				0.35,
+				0.6
 			},
 			hp = {
-				40,
-				80,
-				120,
-				180
+				50,
+				100,
+				150,
+				200
 			},
 			regen_hp = {
 				6,
@@ -8711,7 +8853,7 @@ local towers = {
 					3,
 					5,
 					9,
-					14
+					15
 				}
 			}
 		},
@@ -8720,16 +8862,16 @@ local towers = {
 				250
 			},
 			soldier_veteran = {
-				s_aura_damage_buff_factor = 0.2,
-				aura_duration = 8,
-				aura_range = 70,
-				armor = 0.6,
-				hp = 200,
-				aura_damage_buff_factor = 1.2,
+				s_aura_damage_buff_factor = 0.35,
+				aura_duration = 16,
+				aura_range = 150,
+				armor = 0.8,
+				hp = 250,
+				aura_damage_buff_factor = 1.35,
 				regen_hp = 30,
 				basic_attack = {
-					damage_max = 22,
-					damage_min = 14
+					damage_max = 30,
+					damage_min = 20
 				},
 				aura_cooldown = {
 					20
@@ -8745,19 +8887,29 @@ local towers = {
 				140
 			},
 			health_trigger_factor = {
-				0.25,
-				0.25,
-				0.25
+				0.35,
+				0.35,
+				0.35
 			},
 			heal = {
 				3,
+				5,
+				7
+			},
+			invincibility_duration = {
+				4,
+				5,
+				6
+			},
+			healing_duration = {
+				4,
 				6,
 				9
 			},
 			s_healing = {
 				12,
 				20,
-				32
+				28
 			},
 			cooldown = {
 				28,
@@ -8770,7 +8922,7 @@ local towers = {
 		stats = {
 			cooldown = 8,
 			range = 7,
-			damage = 5
+			damage = 3
 		},
 		price = {
 			70,
@@ -8801,7 +8953,7 @@ local towers = {
 			damage_type = DAMAGE_PHYSICAL
 		},
 		armor_piercer = {
-			range_trigger = 140,
+			range_trigger = 200,
 			nearby_range = 100,
 			range_effect = 200,
 			price = {
@@ -8811,18 +8963,18 @@ local towers = {
 			},
 			cooldown = {
 				15,
-				15,
-				15
+				13,
+				11
 			},
 			damage_min = {
-				38,
-				78,
-				120
+				64,
+				128,
+				192
 			},
 			damage_max = {
-				58,
-				118,
-				150
+				76,
+				152,
+				228
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			armor_penetration = {
@@ -8832,24 +8984,24 @@ local towers = {
 			}
 		},
 		rapacious_hunter = {
-			range = 220,
+			range = 270,
 			shoot_range = 25,
-			max_distance_from_tower = 200,
+			max_distance_from_tower = 300,
 			attack_cooldown = 2,
 			price = {
 				200,
-				200,
-				200
+				150,
+				150
 			},
 			damage_min = {
-				18,
-				34,
-				52
+				38,
+				76,
+				114
 			},
 			damage_max = {
-				26,
-				52,
-				78
+				46,
+				92,
+				138
 			},
 			damage_type = DAMAGE_PHYSICAL
 		}
@@ -8948,16 +9100,17 @@ local towers = {
 	},
 	arborean_emissary = {
 		rally_range = 179.20000000000002,
-		shared_min_cooldown = 1.5,
+		shared_min_cooldown = 1,
+		change_interval = 15,
 		price = {
-			100,
-			130,
-			170,
-			230
+			190,
+			220,
+			260,
+			320
 		},
 		stats = {
-			cooldown = 6,
-			range = 8,
+			cooldown = 3,
+			range = 7,
 			damage = 3
 		},
 		basic_attack = {
@@ -8965,14 +9118,14 @@ local towers = {
 			damage_min = {
 				3,
 				7,
-				11,
-				17
+				15,
+				27
 			},
 			damage_max = {
 				6,
 				13,
-				20,
-				32
+				27,
+				48
 			},
 			damage_type = DAMAGE_MAGICAL,
 			range = {
@@ -9050,8 +9203,8 @@ local towers = {
 			},
 			max_targets = {
 				3,
-				5,
-				8
+				6,
+				9
 			},
 			mod_duration = {
 				3,
@@ -9060,18 +9213,18 @@ local towers = {
 			},
 			damage_min = {
 				40,
-				40,
-				40
+				50,
+				60
 			},
 			damage_max = {
 				40,
-				40,
-				40
+				50,
+				60
 			},
 			s_damage = {
 				40,
-				40,
-				40
+				50,
+				60
 			},
 			damage_type = DAMAGE_TRUE
 		}
@@ -9172,14 +9325,14 @@ local towers = {
 			280
 		},
 		stats = {
-			damage = 4,
-			armor = 1,
+			damage = 1,
+			armor = 0,
 			hp = 3
 		},
 		basic_attack = {
 			armor = 0,
 			max_speed = 90,
-			duration = 10,
+			duration = 15,
 			regen_health = 1,
 			range = {
 				160,
@@ -9189,15 +9342,21 @@ local towers = {
 			},
 			cooldown = {
 				4,
-				4,
-				4,
-				4
+				3.7,
+				3.4,
+				3.1
+			},
+			fps = {
+				30,
+				30,
+				31,
+				34
 			},
 			hp_max = {
-				12,
-				16,
-				20,
-				25
+				24,
+				48,
+				72,
+				96
 			},
 			melee_attack = {
 				range = 60,
@@ -9226,21 +9385,21 @@ local towers = {
 			regen_health = 1,
 			max_speed = 20,
 			armor = 0,
-			duration = 30,
+			duration = 45,
 			price = {
 				200,
 				100,
 				100
 			},
 			cooldown = {
-				40,
-				40,
-				40
+				20,
+				20,
+				20
 			},
 			hp_max = {
-				100,
-				150,
-				200
+				144,
+				216,
+				288
 			},
 			explosion_damage = {
 				100,
@@ -9356,9 +9515,9 @@ local towers = {
 			270
 		},
 		stats = {
-			cooldown = 5,
-			range = 10,
-			damage = 7
+			damage = 4,
+			armor = 3,
+			hp = 4
 		},
 		rally_range = {
 			130,
@@ -9385,9 +9544,9 @@ local towers = {
 			},
 			hp = {
 				30,
-				50,
-				70,
-				100
+				60,
+				90,
+				120
 			},
 			regen_hp = {
 				5,
@@ -9400,50 +9559,50 @@ local towers = {
 				range = 72,
 				damage_max = {
 					8,
-					19,
-					36,
-					60
+					20,
+					38,
+					62
 				},
 				damage_min = {
 					5,
 					13,
-					24,
-					40
+					25,
+					41
 				}
 			},
 			ranged_attack = {
 				cooldown = 2,
 				max_range = {
 					150,
-					150,
-					150,
-					150
+					155,
+					160,
+					165
 				},
 				min_range = {
-					10,
-					10,
-					10,
-					10
+					0,
+					0,
+					0,
+					0
 				},
 				damage_max = {
-					7,
-					18,
-					34,
-					58
+					8,
+					20,
+					38,
+					62
 				},
 				damage_min = {
 					5,
-					12,
-					22,
-					38
+					13,
+					25,
+					41
 				}
 			},
 			phosphoric = {
-				damage_radius = 40,
+				damage_radius = 45,
 				price = {
 					200,
-					200,
-					200
+					150,
+					150
 				},
 				armor_reduction = {
 					0.01,
@@ -9452,13 +9611,13 @@ local towers = {
 				},
 				damage_area_max = {
 					16,
-					22,
-					27
+					28,
+					40
 				},
 				damage_area_min = {
-					13,
-					17,
-					21
+					14,
+					24,
+					35
 				},
 				damage_factor = {
 					1,
@@ -9468,25 +9627,25 @@ local towers = {
 			},
 			sting_missiles = {
 				price = {
-					250,
+					200,
 					100,
 					100
 				},
 				max_range = {
-					200,
-					200,
-					200
+					250,
+					300,
+					350
 				},
 				min_range = {
-					20,
-					20,
-					20
+					0,
+					0,
+					0
 				},
 				damage_type = DAMAGE_INSTAKILL,
 				hp_max_target = {
-					300,
-					600,
-					900
+					450,
+					900,
+					1350
 				}
 			}
 		}
@@ -9502,7 +9661,7 @@ local towers = {
 			260
 		},
 		stats = {
-			cooldown = 6,
+			cooldown = 4,
 			range = 7,
 			damage = 4
 		},
@@ -9575,19 +9734,19 @@ local towers = {
 				200
 			},
 			damage_min = {
-				60,
-				110,
-				150
+				65,
+				130,
+				195
 			},
 			damage_max = {
-				60,
-				110,
-				150
+				65,
+				130,
+				195
 			},
 			s_damage = {
-				60,
-				110,
-				150
+				65,
+				130,
+				195
 			},
 			cooldown = {
 				30,
@@ -9597,14 +9756,19 @@ local towers = {
 			damage_type = DAMAGE_TRUE
 		},
 		curse = {
-			max_golems = 1,
-			duration = 3,
-			max_units_total = 30,
-			max_skeletons = {
+			max_golems = {
+				1,
 				2,
 				3,
+				4
+			},
+			duration = 3,
+			max_units_total = 100,
+			max_skeletons = {
+				2,
 				4,
-				5
+				6,
+				8
 			}
 		},
 		skeleton = {
@@ -9618,9 +9782,9 @@ local towers = {
 			},
 			hp_max = {
 				50,
-				50,
-				50,
-				50
+				66,
+				83,
+				101
 			},
 			melee_attack = {
 				range = 72,
@@ -9632,15 +9796,15 @@ local towers = {
 				},
 				damage_max = {
 					5,
-					5,
-					5,
-					5
+					7,
+					9,
+					11
 				},
 				damage_min = {
 					3,
-					3,
-					3,
-					3
+					4,
+					5,
+					6
 				}
 			}
 		},
@@ -9651,15 +9815,15 @@ local towers = {
 			regen_cooldown = 1,
 			armor = {
 				0,
-				0,
-				0,
-				0
+				0.05,
+				0.1,
+				0.15
 			},
 			hp_max = {
 				150,
-				150,
-				150,
-				150
+				180,
+				210,
+				240
 			},
 			melee_attack = {
 				range = 72,
@@ -9671,15 +9835,15 @@ local towers = {
 				},
 				damage_max = {
 					12,
-					12,
-					12,
-					12
+					15,
+					18,
+					21
 				},
 				damage_min = {
 					8,
-					8,
-					8,
-					8
+					10,
+					12,
+					14
 				}
 			}
 		}
@@ -9687,9 +9851,9 @@ local towers = {
 	ballista = {
 		turn_speed = 15,
 		stats = {
-			cooldown = 3,
-			range = 6,
-			damage = 8
+			cooldown = 2,
+			range = 9,
+			damage = 10
 		},
 		price = {
 			90,
@@ -9701,16 +9865,16 @@ local towers = {
 			burst_count = 5,
 			cooldown = 2.5,
 			damage_min = {
-				3,
-				7,
-				14,
-				25
+				4,
+				8,
+				16,
+				28
 			},
 			damage_max = {
-				5,
-				11,
-				22,
-				38
+				6,
+				12,
+				23,
+				39
 			},
 			range = {
 				160,
@@ -9721,8 +9885,11 @@ local towers = {
 			damage_type = DAMAGE_PHYSICAL
 		},
 		skill_final_shot = {
-			s_stun = 2,
-			stun_time = 60,
+			stun_time = {
+				2,
+				3,
+				4
+			},
 			price = {
 				250,
 				100,
@@ -9734,14 +9901,14 @@ local towers = {
 				4
 			},
 			damage_factor = {
-				1.5,
 				2,
-				2.5
+				3,
+				4
 			},
 			s_damage_factor = {
-				0.5,
 				1,
-				1.5
+				2,
+				3
 			}
 		},
 		skill_bomb = {
@@ -9757,23 +9924,23 @@ local towers = {
 			},
 			cooldown = {
 				24,
-				20,
-				16
+				18,
+				12
 			},
 			damage_min = {
 				82,
-				118,
-				142
+				123,
+				164
 			},
 			damage_max = {
 				124,
-				176,
-				214
+				186,
+				248
 			},
 			duration = {
 				6,
-				6,
-				6
+				7,
+				8
 			},
 			damage_type = DAMAGE_PHYSICAL
 		}
@@ -9781,9 +9948,9 @@ local towers = {
 	flamespitter = {
 		turn_speed = 8,
 		stats = {
-			cooldown = 3,
-			range = 5,
-			damage = 5
+			cooldown = 2,
+			range = 6,
+			damage = 8
 		},
 		price = {
 			130,
@@ -9807,14 +9974,14 @@ local towers = {
 			cycle_time = 0.3,
 			damage_min = {
 				2,
-				5,
-				12,
-				16
+				7,
+				14,
+				23
 			},
 			damage_max = {
 				3,
 				10,
-				16,
+				19,
 				30
 			},
 			range = {
@@ -9830,7 +9997,7 @@ local towers = {
 			min_targets = 3,
 			node_prediction = 40,
 			min_range = 100,
-			damage_radius = 50,
+			damage_radius = 60,
 			price = {
 				150,
 				150,
@@ -9856,7 +10023,7 @@ local towers = {
 				160,
 				280
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_EXPLOSION,
 			burning = {
 				damage = 4,
 				duration = 5,
@@ -9867,12 +10034,14 @@ local towers = {
 		skill_columns = {
 			max_range = 150,
 			min_targets = 2,
-			radius_out = 50,
-			columns = 6,
-			stun_time = 30,
-			s_stun = 1,
+			radius_out = 60,
 			min_range = 0,
-			radius_in = 25,
+			radius_in = 30,
+			columns = {
+				6,
+				7,
+				8
+			},
 			price = {
 				200,
 				200,
@@ -9882,6 +10051,11 @@ local towers = {
 				25,
 				25,
 				25
+			},
+			stun = {
+				1,
+				2,
+				3
 			},
 			damage_in_max = {
 				70,
@@ -9920,9 +10094,9 @@ local towers = {
 	barrel = {
 		rally_range = 145,
 		stats = {
-			cooldown = 2,
-			range = 3,
-			damage = 5
+			cooldown = 3,
+			range = 6,
+			damage = 6
 		},
 		price = {
 			120,
@@ -9953,16 +10127,22 @@ local towers = {
 			},
 			debuff = {
 				damage_reduction = {
-					0.5,
-					0.5,
-					0.5,
+					0.14,
+					0.26,
+					0.38,
 					0.5
 				},
+				speed_factor = {
+					0.92,
+					0.84,
+					0.76,
+					0.68
+				},
 				duration = {
-					3,
-					3,
-					3,
-					3
+					4,
+					4,
+					4,
+					4
 				}
 			}
 		},
@@ -9984,6 +10164,7 @@ local towers = {
 				cooldown = 1,
 				speed = 75,
 				duration = 10,
+				regen_hp = 15,
 				damage_min = {
 					26,
 					37,
@@ -9994,16 +10175,16 @@ local towers = {
 					55,
 					72
 				},
-				damage_type = DAMAGE_PHYSICAL,
+				damage_type = DAMAGE_ELECTRICAL,
 				hp_max = {
-					100,
-					140,
-					180
+					150,
+					200,
+					250
 				},
 				armor = {
 					0,
-					0,
-					0
+					0.1,
+					0.2
 				}
 			}
 		},
@@ -10038,14 +10219,14 @@ local towers = {
 					264,
 					432
 				},
-				damage_type = DAMAGE_PHYSICAL
+				damage_type = DAMAGE_EXPLOSION
 			},
 			poison = {
-				damage_max = 1,
-				damage_min = 1,
+				damage_max = 2,
+				damage_min = 2,
 				every = 0.25,
 				duration = 5,
-				s_damage = 4
+				s_damage = 8
 			},
 			slow = {
 				factor = 0.5,
@@ -10056,8 +10237,8 @@ local towers = {
 	sand = {
 		stats = {
 			cooldown = 8,
-			range = 5,
-			damage = 6
+			range = 6,
+			damage = 2
 		},
 		price = {
 			80,
@@ -10069,24 +10250,24 @@ local towers = {
 			cooldown = 0.8,
 			bounce_range = 140,
 			bounce_speed_mult = 1.25,
-			bounce_damage_mult = 0.6,
+			bounce_damage_mult = 0.7,
 			damage_min = {
 				3,
 				6,
-				10,
+				11,
 				18
 			},
 			damage_max = {
 				5,
 				10,
-				16,
+				17,
 				26
 			},
 			range = {
 				145,
 				155,
 				170,
-				180
+				190
 			},
 			damage_type = DAMAGE_PHYSICAL,
 			max_bounces = {
@@ -10101,6 +10282,7 @@ local towers = {
 			gold_chance = 1,
 			max_bounces = 4,
 			range_effect = 190,
+			bounce_damage_mult = 1.0,
 			price = {
 				250,
 				250,
@@ -10137,7 +10319,7 @@ local towers = {
 			range = 200,
 			min_targets = 2,
 			slow_factor = 0.75,
-			radius = 40,
+			radius = 50,
 			damage_every = 0.25,
 			slow_duration = 0.5,
 			price = {
@@ -10146,24 +10328,24 @@ local towers = {
 				200
 			},
 			damage_min = {
-				6,
-				10,
-				13
+				7,
+				14,
+				21
 			},
 			damage_max = {
 				10,
-				16,
-				19
+				20,
+				30
 			},
 			s_damage_min = {
-				24,
-				40,
-				52
+				28,
+				56,
+				84
 			},
 			s_damage_max = {
 				40,
-				64,
-				76
+				80,
+				120
 			},
 			cooldown = {
 				16,
@@ -10171,9 +10353,9 @@ local towers = {
 				16
 			},
 			duration = {
-				3,
 				4,
-				5
+				5,
+				6
 			},
 			damage_type = DAMAGE_PHYSICAL
 		}
@@ -10188,9 +10370,9 @@ local towers = {
 			300
 		},
 		stats = {
-			damage = 3,
-			armor = 6,
-			hp = 6
+			damage = 2,
+			armor = 7,
+			hp = 5
 		},
 		soldier = {
 			dead_lifetime = 8,
@@ -10199,13 +10381,13 @@ local towers = {
 				0.2,
 				0.3,
 				0.45,
-				0.6
+				0.65
 			},
 			hp = {
 				30,
-				50,
-				75,
-				100
+				60,
+				100,
+				150
 			},
 			regen_hp = {
 				5,
@@ -10218,24 +10400,28 @@ local towers = {
 				cooldown = 1,
 				damage_min = {
 					4,
-					6,
-					10,
-					16
+					8,
+					14,
+					22
 				},
 				damage_max = {
 					6,
-					10,
-					16,
-					24
+					12,
+					20,
+					30
 				},
 				damage_type = DAMAGE_TRUE
 			}
 		},
 		extra_damage = {
 			duration = 8,
-			cooldown_start = 5,
+			cooldown_start = {
+				5,
+				4,
+				3
+			},
 			price = {
-				200,
+				150,
 				100,
 				100
 			},
@@ -10251,11 +10437,28 @@ local towers = {
 			}
 		},
 		soul_attack = {
-			slow_duration = 5,
+			max_targets = {
+				3,
+				6,
+				9
+			},
+			slow_duration = {
+				3,
+				4,
+				5
+			},
 			range = 120,
-			slow_factor = 0.6,
+			slow_factor = {
+				0.6,
+				0.5,
+				0.4
+			},
 			damage_factor = 0.5,
-			damage_factor_duration = 5,
+			damage_factor_duration = {
+				3,
+				4,
+				5
+			},
 			price = {
 				150,
 				150,
@@ -10280,11 +10483,11 @@ local towers = {
 		}
 	},
 	ray = {
-		shared_min_cooldown = 2,
+		shared_min_cooldown = 1,
 		stats = {
-			cooldown = 2,
-			range = 4,
-			damage = 9
+			cooldown = 1,
+			range = 6,
+			damage = 10
 		},
 		price = {
 			120,
@@ -10304,16 +10507,16 @@ local towers = {
 				180
 			},
 			damage_min = {
-				32,
-				80,
-				146,
-				248
+				40,
+				90,
+				160,
+				265
 			},
 			damage_max = {
-				32,
-				80,
-				146,
-				248
+				40,
+				90,
+				160,
+				265
 			},
 			damage_type = DAMAGE_MAGICAL,
 			damage_per_second = {
@@ -10323,13 +10526,24 @@ local towers = {
 				0.35
 			},
 			slow = {
-				factor = 0.8
+				0.8,
+				0.75,
+				0.7,
+				0.65
 			}
 		},
 		skill_chain = {
 			chain_delay = 0.1,
-			s_max_enemies = 3,
-			max_enemies = 4,
+			s_max_enemies = {
+				3,
+				4,
+				5
+			},
+			max_enemies = {
+				4,
+				5,
+				6
+			},
 			chain_range = 100,
 			price = {
 				150,
@@ -10338,8 +10552,8 @@ local towers = {
 			},
 			damage_mult = {
 				0.25,
-				0.5,
-				0.75
+				0.55,
+				0.9
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
@@ -10354,7 +10568,7 @@ local towers = {
 			sheep = {
 				speed = 28,
 				armor = 0,
-				clicks_to_destroy = 5,
+				clicks_to_destroy = 3,
 				magic_armor = 0,
 				hp_mult = 0.5
 			}
@@ -10364,8 +10578,8 @@ local towers = {
 		rally_range = 145,
 		stats = {
 			cooldown = 2,
-			range = 9,
-			damage = 8
+			range = 10,
+			damage = 10
 		},
 		soldier = {
 			dead_lifetime = 10,
@@ -10377,8 +10591,8 @@ local towers = {
 			},
 			hp = {
 				60,
-				90,
-				120
+				100,
+				150
 			},
 			regen_hp = {
 				6,
@@ -10416,15 +10630,15 @@ local towers = {
 			cooldown = 2,
 			damage_min = {
 				14,
-				40,
-				76,
-				134
+				35,
+				77,
+				140
 			},
 			damage_max = {
-				22,
-				54,
-				92,
-				146
+				18,
+				48,
+				108,
+				198
 			},
 			range = {
 				200,
@@ -10447,24 +10661,38 @@ local towers = {
 			}
 		},
 		skill_buff = {
+			max_fps = 60,
+			max_armor_reduction = 15,
 			price = {
+				200,
 				200
 			},
 			extra_damage_min = {
-				1
+				2,
+				2
 			},
 			extra_damage_max = {
+				2,
 				2
 			},
 			s_extra_damage_total = {
+				2,
+				2
+			},
+			fps_increment = {
+				0,
 				1
+			},
+			armor_reduction = {
+				0,
+				0.5
 			}
 		}
 	},
 	hermit_toad = {
 		stats = {
 			cooldown = 5,
-			range = 8,
+			range = 7,
 			damage = 5
 		},
 		price = {
@@ -10478,15 +10706,15 @@ local towers = {
 			cooldown = 2.5,
 			damage_min = {
 				7,
-				15,
-				29,
-				45
+				17,
+				30,
+				46
 			},
 			damage_max = {
 				9,
-				21,
-				39,
-				59
+				23,
+				40,
+				60
 			},
 			range = {
 				180,
@@ -10495,16 +10723,16 @@ local towers = {
 				240
 			},
 			slow_factor = {
-				0.8,
-				0.7,
+				0.65,
 				0.6,
+				0.55,
 				0.5
 			},
 			slow_decal_duration = {
-				1.75,
-				1.75,
-				1.75,
-				1.75
+				2,
+				2,
+				2,
+				2
 			},
 			slow_mod_duration = {
 				0.2,
@@ -10517,22 +10745,22 @@ local towers = {
 		mage_basic_attack = {
 			cooldown = 1.2,
 			damage_min = {
-				7,
-				17,
-				29,
-				47
+				8,
+				20,
+				34,
+				50
 			},
 			damage_max = {
 				10,
-				22,
-				38,
-				63
+				24,
+				42,
+				64
 			},
 			range = {
 				160,
 				175,
 				190,
-				200
+				205
 			},
 			damage_type = DAMAGE_MAGICAL
 		},
@@ -10587,9 +10815,9 @@ local towers = {
 			240
 		},
 		stats = {
-			damage = 5,
-			armor = 4,
-			hp = 7
+			damage = 3,
+			armor = 3,
+			hp = 5
 		},
 		soldier = {
 			dead_lifetime = 8,
@@ -10603,7 +10831,7 @@ local towers = {
 			hp = {
 				35,
 				70,
-				100,
+				105,
 				140
 			},
 			regen_hp = {
@@ -10705,33 +10933,33 @@ local towers = {
 		}
 	},
 	sparking_geode = {
-		shared_min_cooldown = 2,
+		shared_min_cooldown = 1,
 		price = {
 			110,
-			140,
-			220,
-			300
+			130,
+			210,
+			290
 		},
 		stats = {
 			cooldown = 10,
-			range = 8,
-			damage = 2
+			range = 5,
+			damage = 1
 		},
 		basic_attack = {
 			cooldown = 2,
-			bounce_range = 130,
-			targeting_style = 1,
+			bounce_range = 140,
+			targeting_style = 0,
 			damage_min = {
-				4,
-				4,
-				4,
-				4
+				9,
+				9,
+				9,
+				9
 			},
 			damage_max = {
-				4,
-				4,
-				4,
-				4
+				12,
+				12,
+				12,
+				12
 			},
 			range = {
 				160,
@@ -10740,15 +10968,15 @@ local towers = {
 				160
 			},
 			ray_timing_min = {
-				0.85,
-				0.65,
-				0.45,
-				0.35
+				0.9,
+				0.75,
+				0.6,
+				0.45
 			},
 			ray_timing_max = {
-				1.15,
-				0.95,
-				0.75,
+				1,
+				0.85,
+				0.7,
 				0.55
 			},
 			damage_type = DAMAGE_TRUE,
@@ -10765,10 +10993,10 @@ local towers = {
 				5
 			},
 			bounce_damage_factor = {
-				1,
+				1.05,
 				1.1,
-				1.25,
-				1.35
+				1.15,
+				1.2
 			}
 		},
 		crystalize = {
@@ -10778,58 +11006,58 @@ local towers = {
 				100
 			},
 			cooldown = {
-				31,
-				28,
-				25
+				30,
+				25,
+				20
 			},
 			max_targets = {
-				2,
 				3,
-				4
+				5,
+				7
 			},
 			duration = {
 				5,
-				5,
-				5
+				6,
+				7
 			},
 			received_damage_factor = {
-				1.2,
-				1.2,
-				1.2
+				1.3,
+				1.35,
+				1.4
 			},
 			s_received_damage_factor = {
-				0.2,
-				0.2,
-				0.2
+				0.3,
+				0.35,
+				0.4
 			}
 		},
 		spike_burst = {
 			damage_every = 0.5,
 			radius = 200,
 			price = {
-				300,
-				150,
-				150
+				200,
+				200,
+				200
 			},
 			cooldown = {
-				45,
-				40,
-				35
+				30,
+				25,
+				20
 			},
 			duration = {
-				6,
 				8,
-				10
+				10,
+				12
 			},
 			damage_min = {
-				3,
-				4,
-				5
+				8,
+				10,
+				12
 			},
 			damage_max = {
-				3,
-				4,
-				5
+				8,
+				10,
+				12
 			},
 			damage_type = DAMAGE_TRUE,
 			speed_factor = {
@@ -10837,6 +11065,175 @@ local towers = {
 				0.6,
 				0.5
 			}
+		}
+	},
+	-- customization
+	crossbow = {
+		multishot = {
+			cooldown = 5
+		}
+	},
+	totem = {
+		weakness = {
+			cooldown = 10
+		},
+		silence = {
+			cooldown = 8
+		}
+	},
+	musketeer = {
+		sniper = {
+			cooldown = 14
+		},
+		shrapnel = {
+			cooldown = 9
+		}
+	},
+	archer_dwarf = {
+		barrel = {
+			cooldown = 10
+		}
+	},
+	entwood = {
+		fiery_nuts = {
+			cooldown = 25.5
+		},
+		clobber = {
+			cooldown = 14
+		}
+	},
+	rock_thrower = {
+		sylvan = {
+			cooldown = {
+				15,
+				15,
+				15
+			}
+		}
+	},
+	spirit_mausoleum = {
+		spectral_communion = {
+			cooldown = {
+				30,
+				15
+			},
+			hp = {
+				150,
+				200
+			}
+		},
+		possession = {
+			cooldown = {
+				23,
+				20,
+				17
+			},
+			duration = {
+				10,
+				12,
+				14
+			}
+		}
+	},
+	faerie_dragon = {
+		improve_shot = {
+			damage = {
+				20,
+				30
+			}
+		}
+	},
+	wild_magus = {
+		eldritch = {
+			cooldowns = {
+				28,
+				24,
+				20
+			}
+		},
+		ward = {
+			cooldown = 10
+		}
+	},
+	arcane_archer = {
+		slumber = {
+			cooldown = 24
+		},
+		burst = {
+			cooldown = 12
+		}
+	},
+	silver = {
+		mark = {
+			cooldown = 12
+		}
+	},
+	high_elven = {
+		timelapse = {
+			cooldown = 16
+		}
+	},
+	ignis_altar = {
+		single_extinction = {
+			cooldown = {
+				18,
+				18,
+				18
+			}
+		}
+	},
+	bfg = {
+		missile = {
+			cooldown = 6.5
+		},
+		cluster = {
+			cooldown = 17
+		}
+	},
+	dwaarp = {
+		lava = {
+			cooldown = 15
+		},
+		drill = {
+			cooldown = 26
+		},
+		batteries = {
+			cooldown = 25
+		}
+	},
+	mecha = {
+		missile = {
+			cooldown = 6
+		},
+		oil = {
+			cooldown = 10
+		}
+	},
+	sorcerer = {
+		polymorph = {
+			cooldown = 20
+		}
+	},
+	archmage = {
+		twister = {
+			cooldown = 22
+		}
+	},
+	random = {
+		allowed_templates = {
+			"tower_mage_1",-- 秘法师高台
+			"tower_pirate_watchtower",-- 海盗瞭望塔
+			"tower_pixie",-- 侏儒花园
+			"tower_faerie_dragon",-- 仙女龙巢穴
+			"tower_ewok",-- 阿渥克小屋
+			"tower_stage_28_priests_barrack",-- 无明教会
+			"tower_barrack_pirates",-- 海盗酒馆(雇佣海盗)
+			"tower_barrack_pirates_w_flamer",-- 海盗酒馆(雇佣海盗水手)
+			"tower_barrack_pirates_w_anchor",-- 海盗酒馆(雇佣水手长)
+			"tower_barrack_mercenaries",-- 佣兵营地(雇佣巨灵)
+			"tower_sunray",-- 日光之塔
+			"tower_bastion",-- 刀片堡垒
+			"tower_wild_magus",-- 狂野魔法师
 		}
 	}
 }
@@ -11210,23 +11607,23 @@ local specials = {
 		deck_total_cards = 2,
 		illusion = {
 			max_speed = 20,
-			hp_max = 150,
-			magic_armor = 0,
-			armor = 0,
+			hp_max = 1500,
+			magic_armor = 0.3,
+			armor = 0.3,
 			spawn_charge_time = 5,
 			nodes_limit = 20,
 			melee_attack = {
 				cooldown = 1,
-				damage_min = 5,
-				damage_max = 5
+				damage_min = 25,
+				damage_max = 25
 			},
 			ranged_attack = {
-				max_range = 100,
-				damage_max = 24,
-				damage_min = 16,
+				max_range = 150,
+				damage_max = 36,
+				damage_min = 24,
 				cooldown = 1.5,
-				min_range = 10,
-				damage_type = DAMAGE_MAGICAL
+				min_range = 0,
+				damage_type = DAMAGE_PHYSICAL
 			},
 			chain = {
 				max_range = 160,
@@ -11322,10 +11719,10 @@ local specials = {
 		cooldown = 12,
 		skill_soldiers = {
 			soldier = {
-				armor = 0,
-				regen_health = 8,
+				armor = 0.3,
+				regen_health = 10,
 				max_speed = 30,
-				hp_max = 200,
+				hp_max = 330,
 				nodes_from_start = 20,
 				melee_attack = {
 					damage_min = 24,
@@ -13715,8 +14112,9 @@ local specials = {
 				armor = 0.1,
 				regen_health = 8,
 				max_speed = 75,
-				hp_max = 92,
+				hp_max = 100,
 				price = 50,
+				dead_lifetime = 10,
 				melee_attack = {
 					cooldown = 1.2,
 					range = 60,
@@ -13725,37 +14123,39 @@ local specials = {
 				},
 				ranged_attack = {
 					max_range = 165,
-					min_range = 60.5,
-					damage_min = 9,
+					min_range = 0,
+					damage_min = 15,
 					cooldown = 1.5,
-					damage_max = 14,
+					damage_max = 21,
 					damage_type = DAMAGE_PHYSICAL
 				}
 			},
 			barkshield = {
-				max_speed = 60,
+				max_speed = 50,
 				regen_health = 30,
 				armor = 0.5,
 				hp_max = 300,
 				price = 90,
+				dead_lifetime = 15,
 				melee_attack = {
 					cooldown = 3,
-					range = 60,
+					range = 70,
 					damage_min = 25,
 					damage_max = 50
 				}
 			}
 		},
 		stage_13_sunray = {
+			price = 250,
 			attacks_before_special_min_iron = 6,
 			attacks_before_special_max = 12,
 			attacks_before_special_max_iron = 10,
 			attacks_before_special_min = 8,
 			repair_cost = {
-				300,
-				250,
 				200,
-				150
+				150,
+				100,
+				50
 			},
 			repair_cost_iron = {
 				200,
@@ -13773,7 +14173,7 @@ local specials = {
 				damage_type = DAMAGE_TRUE
 			},
 			special_attack = {
-				radius = 40,
+				radius = 60,
 				range = 350,
 				cooldown = 2,
 				damage_max = 780,
@@ -13840,21 +14240,26 @@ local specials = {
 			damage_max = 450,
 			damage_min = 350,
 			node_index = 170,
-			price = 250,
+			price = 100,
 			damage_type = DAMAGE_PHYSICAL
 		},
 		stage_20_arborean_honey = {
 			max_range = 180,
-			aura_duration = 4,
-			price_heroic = 300,
-			slow_factor = 0.6,
-			cooldown = 5,
-			damage_radius = 100,
-			damage_max = 30,
-			damage_min = 20,
+			aura_duration = 5,
+			price_heroic = 250,
+			slow_factor = 0.5,
+			cooldown = 2.5,
+			damage_radius = 50,
+			damage_max = 60,
+			damage_min = 40,
 			slow_mod_duration = 0.5,
-			price = 500,
-			damage_type = DAMAGE_PHYSICAL
+			price = 250,
+			damage_type = DAMAGE_PHYSICAL,
+			soldiers_price = 25,
+			cooldown_disable = 2,
+			spawn_cooldown_min = 0.3,
+			spawn_cooldown_max = 0.6,
+			spawns = 5
 		},
 		tower_stage_20_arborean_barrack = {
 			soldier_hp_max = 120,
@@ -13863,11 +14268,11 @@ local specials = {
 			spawn_cooldown_min = 0.3,
 			cooldown_disable = 2,
 			magic_armor = 0,
-			price = 50,
+			price = 25,
 			armor = 0.3,
 			soldier_damage_max = 8,
 			soldier_damage_min = 4,
-			spawns = 3,
+			spawns = 5,
 			soldier_armor = 0.1,
 			life_thresholds = {
 				0.7,
@@ -13904,7 +14309,7 @@ local specials = {
 		},
 		tower_stage_28_priests_barrack = {
 			cooldown_disable = 2,
-			max_soldiers = 3,
+			max_soldiers = 0,
 			spawn_cooldown_max = 0.6,
 			spawn_cooldown_min = 0.3,
 			price = 60,
@@ -13913,10 +14318,14 @@ local specials = {
 				armor = 0,
 				max_speed = 45,
 				hp_max = 110,
-				price = 60,
+				price = {
+					160,
+					160,
+					160
+				},
 				transform_chances = {
-					100,
-					0
+					50,
+					50
 				},
 				melee = {
 					cooldown = 1,
@@ -13951,10 +14360,10 @@ local specials = {
 			tentacle = {
 				duration = 15,
 				area_attack = {
-					radius = 50,
+					radius = 60,
 					cooldown_min = 1,
 					damage_min = 12,
-					cooldown_max = 2,
+					cooldown_max = 1,
 					damage_max = 20,
 					damage_type = DAMAGE_PHYSICAL
 				}
@@ -14055,7 +14464,7 @@ local upgrades = {
 			armor = 0.4,
 			regen_health = 14,
 			max_speed = 64,
-			hp_max = 100,
+			hp_max = 120,
 			cooldown = 15,
 			duration = 16,
 			melee_attack = {
@@ -14076,14 +14485,14 @@ local upgrades = {
 			duration = 14,
 			melee_attack = {
 				cooldown = 1,
-				range = 72,
-				damage_min = 8,
-				damage_max = 12
+				range = 50,
+				damage_min = 10,
+				damage_max = 14
 			},
 			ranged_attack = {
 				max_range = 160,
-				damage_max = 14,
-				damage_min = 10,
+				damage_max = 21,
+				damage_min = 15,
 				cooldown = 1.5,
 				min_range = 50
 			}
@@ -14098,10 +14507,10 @@ local upgrades = {
 	},
 	reinforcements_special_linirea = {
 		soldier = {
-			armor = 0.4,
+			armor = 0.6,
 			regen_health = 24,
 			spiked_armor = 0.2,
-			hp_max = 140,
+			hp_max = 180,
 			cooldown = 15,
 			duration = 16,
 			max_speed = 64,
@@ -14123,7 +14532,7 @@ local upgrades = {
 			duration = 14,
 			melee_attack = {
 				cooldown = 1,
-				range = 70,
+				range = 50,
 				damage_min = 8,
 				damage_max = 12
 			}
@@ -14134,9 +14543,9 @@ local upgrades = {
 			target_range = 200,
 			melee_attack = {
 				range = 10,
-				damage_min = 2,
+				damage_min = 4,
 				cooldown = 0.25,
-				damage_max = 3,
+				damage_max = 6,
 				damage_type = DAMAGE_PHYSICAL
 			}
 		}
@@ -14151,7 +14560,7 @@ local upgrades = {
 		damage_extra = 0.05
 	},
 	alliance_friends_of_the_crown = {
-		cost_red_per_hero = 5
+		cost_red_per_hero = 8
 	},
 	alliance_shared_reserves = {
 		extra_gold = 100
@@ -14166,7 +14575,7 @@ local upgrades = {
 	},
 	alliance_flux_altering_coils = {
 		cooldown = 150,
-		radius = 120,
+		radius = 100,
 		nodes_teleport = 25,
 		nodes_limit = 20
 	},
@@ -14175,8 +14584,8 @@ local upgrades = {
 		slowdown_duration = 3
 	},
 	alliance_display_of_true_might_dark = {
-		slowdown_factor = 0.6,
-		slowdown_duration = 3
+		slowdown_factor = 0.5,
+		slowdown_duration = 5
 	},
 	points_distribution = {
 		0,
@@ -14244,12 +14653,13 @@ local items = {
 	},
 	summon_blackburn = {
 		regen_health = 15,
-		hp_max = 1000,
+		hp_max = 2000,
 		cooldown = 25,
 		speed = 50,
 		armor = 0.5,
+		range = 65,
 		attack_cooldown_special = 0,
-		duration = 30,
+		duration = 60,
 		spawn = {
 			damage_min = 500,
 			damage_radius = 75,

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_dark_elf.lua
-
 return {
 	Archer_lvl1_0001 = {
 		a_name = "go_towers_dark_elf-1.dds",
@@ -17680,5 +17678,29581 @@ return {
 			23
 		},
 		alias = {}
+	},
+	-- customization
+	["bottom_info_image_soldiers_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1503,
+			97,
+			97
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			234,
+			1172,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			415,
+			235,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			285,
+			628,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			379,
+			526,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bottom_info_image_soldiers_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			384,
+			625,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			769,
+			983,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			769,
+			983,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            53,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			541,
+			54,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            53,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			541,
+			54,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1515,
+			379,
+			53,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1515,
+			379,
+			53,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			999,
+			860,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			999,
+			860,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1054,
+			856,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1054,
+			856,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            41,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			972,
+			366,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            40,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1006,
+			1025,
+			57,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1144,
+			601,
+			58,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1144,
+			601,
+			58,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            37,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			936,
+			1363,
+			55,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			60,
+            35,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1329,
+			224,
+			52,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			60,
+            41,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1372,
+			380,
+			52,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			60,
+            41,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1372,
+			380,
+			52,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            41,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1209,
+			1083,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            40,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1190,
+			222,
+			57,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1312,
+			302,
+			58,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1312,
+			302,
+			58,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            37,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			896,
+			376,
+			60,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            35,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1144,
+			523,
+			62,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            41,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1135,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            41,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1135,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1444,
+			379,
+			53,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1444,
+			379,
+			53,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            40,
+            57,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1184,
+			377,
+			56,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            40,
+            57,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1184,
+			377,
+			56,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            40,
+            57,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1349,
+			588,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            40,
+            57,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1349,
+			588,
+			63,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			28,
+            38,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			840,
+			971,
+			76,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			28,
+            38,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			840,
+			971,
+			76,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			24,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			337,
+			334,
+			87,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			24,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			337,
+			334,
+			87,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			20,
+            32,
+            50,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			530,
+			725,
+			90,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			20,
+            32,
+            50,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			530,
+			725,
+			90,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			21,
+            42,
+            50,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			639,
+			107,
+			89,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			21,
+            42,
+            50,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			639,
+			107,
+			89,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            40,
+            0,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			169,
+			330,
+			115,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            40,
+            0,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			169,
+			330,
+			115,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            38,
+            9,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			337,
+			229,
+			103,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            38,
+            9,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			337,
+			229,
+			103,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            40,
+            19,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			611,
+			724,
+			91,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            40,
+            19,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			611,
+			724,
+			91,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            32,
+            37,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1065,
+			1025,
+			67,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            32,
+            37,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1065,
+			1025,
+			67,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1414,
+			588,
+			52,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            55,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1311,
+			52,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            42,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1294,
+			593,
+			53,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1365,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1365,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            38,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1219,
+			599,
+			60,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            38,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1219,
+			599,
+			60,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1372,
+			303,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1372,
+			303,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1242,
+			821,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1242,
+			821,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1258,
+			435,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1258,
+			435,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1057,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1057,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1261,
+			514,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1261,
+			514,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1313,
+			821,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            34,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1313,
+			821,
+			69,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1461,
+			981,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            36,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1461,
+			981,
+			70,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			37,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1264,
+			89,
+			79,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			37,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1264,
+			89,
+			79,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			37,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1264,
+			89,
+			79,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			33,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			265,
+			726,
+			83,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			33,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			265,
+			726,
+			83,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			33,
+            34,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			265,
+			726,
+			83,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			34,
+            23,
+            40,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			426,
+			333,
+			86,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			34,
+            23,
+            40,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			426,
+			333,
+			86,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			34,
+            23,
+            40,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			426,
+			333,
+			86,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            24,
+            46,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			808,
+			284,
+			72,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            24,
+            46,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			808,
+			284,
+			72,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            24,
+            46,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			808,
+			284,
+			72,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            21,
+            46,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			686,
+			721,
+			72,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            21,
+            46,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			686,
+			721,
+			72,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            21,
+            46,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			686,
+			721,
+			72,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            20,
+            47,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1036,
+			96,
+			68,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            20,
+            47,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1036,
+			96,
+			68,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            20,
+            47,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1036,
+			96,
+			68,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            39,
+            46,
+            18
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			1134,
+			69,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            39,
+            46,
+            18
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			1134,
+			69,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            39,
+            46,
+            18
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			1134,
+			69,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            27
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1207,
+			67,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            31,
+            47,
+            27
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1207,
+			67,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            23,
+            49,
+            38
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1488,
+			57,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            23,
+            49,
+            38
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1488,
+			57,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			0,
+            0,
+            157,
+            117
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			198,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			198,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            56,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			1205,
+			63,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            56,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			1205,
+			63,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            59,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1325,
+			1354,
+			61,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            59,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1325,
+			1354,
+			61,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            63,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			995,
+			1213,
+			63,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            63,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			995,
+			1213,
+			63,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            61,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			866,
+			1046,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            61,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			866,
+			1046,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            60,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1006,
+			615,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            60,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1006,
+			615,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            57,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			704,
+			57,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            57,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			704,
+			57,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1604,
+			1450,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1604,
+			1450,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            58,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1141,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            58,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1141,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0114"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1467,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0115"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1467,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0116"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1569,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0117"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1569,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0118"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1580,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0119"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1580,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0120"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1582,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0121"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1582,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0122"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1482,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0123"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1482,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0124"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1584,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0125"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1584,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0126"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1252,
+			1586,
+			45,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0127"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1252,
+			1586,
+			45,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0128"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            45,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			772,
+			1301,
+			48,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0129"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            45,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			772,
+			1301,
+			48,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0130"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1419,
+			49,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0131"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1419,
+			49,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0132"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            40,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1468,
+			588,
+			48,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0133"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            40,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1468,
+			588,
+			48,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0134"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            39,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1438,
+			51,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0135"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            39,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1438,
+			51,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0136"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1533,
+			981,
+			54,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0137"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1533,
+			981,
+			54,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0138"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			88,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0139"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			88,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0140"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            36,
+            35,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1106,
+			91,
+			90,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0141"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            36,
+            41,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			344,
+			726,
+			84,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0142"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            22,
+            37,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			575,
+			523,
+			84,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0143"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            22,
+            39,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			619,
+			817,
+			82,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0144"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            22,
+            38,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			430,
+			725,
+			84,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_espectral_harasser_0145"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            12,
+            32,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			308,
+			924,
+			90,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0146"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            11,
+            32,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			212,
+			1270,
+			93,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0147"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            14,
+            27,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			284,
+			520,
+			93,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0148"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            12,
+            36,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			333,
+			1144,
+			84,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0149"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            16,
+            35,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			482,
+			622,
+			86,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0150"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            13,
+            35,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			570,
+			623,
+			87,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0151"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            37,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			122,
+			72,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0152"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            37,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1329,
+			434,
+			72,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0153"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            29,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			934,
+			532,
+			70,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0154"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            29,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			934,
+			532,
+			70,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0155"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            21,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			205,
+			1602,
+			69,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0156"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            21,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			205,
+			1602,
+			69,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0157"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            34,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1383,
+			224,
+			52,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_0158"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            34,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1383,
+			224,
+			52,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_run_effect_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			1,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			628,
+			1438,
+			67,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_run_effect_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			1,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1301,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_run_effect_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			2,
+            3,
+            1,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			766,
+			1449,
+			65,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_run_effect_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			0,
+            0,
+            65,
+            65
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_espectral_harasser_shadow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			60,
+            100,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			559,
+			1132,
+			42,
+			11
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			60,
+			30
+		},
+		trim = {
+			8,
+            7,
+            8,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1683,
+			980,
+			44,
+			15
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			3,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1681,
+			537,
+			16,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_decal_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			3,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1681,
+			537,
+			16,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_decal_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1586,
+			310,
+			16,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1586,
+			310,
+			16,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			2,
+            1,
+            1,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1608,
+			929,
+			16,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			2,
+            1,
+            1,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1608,
+			929,
+			16,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			2,
+            1,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			871,
+			665,
+			15,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			19,
+			39
+		},
+		trim = {
+			2,
+            1,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			871,
+			665,
+			15,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_decal_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			39,
+			19
+		},
+		trim = {
+			1,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			661,
+			38,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			60,
+			30
+		},
+		trim = {
+			3,
+            1,
+            4,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1600,
+			1175,
+			53,
+			27
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			1,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1554,
+			950,
+			29,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			1,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1554,
+			950,
+			29,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1576,
+			1449,
+			26,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1576,
+			1449,
+			26,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1061,
+			1659,
+			29,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1061,
+			1659,
+			29,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1574,
+			1501,
+			28,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			30,
+			50
+		},
+		trim = {
+			0,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1574,
+			1501,
+			28,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_arrow_multishoot_decal_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			50,
+			30
+		},
+		trim = {
+			0,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1718,
+			1508,
+			50,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            54,
+            84,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			833,
+			1447,
+			65,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            57,
+            84,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			1096,
+			65,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            53,
+            85,
+            19
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			359,
+			1364,
+			64,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            84,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1130,
+			1549,
+			63,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            45,
+            84,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			627,
+			1676,
+			63,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            42,
+            85,
+            17
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			994,
+			1336,
+			64,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            55,
+            80,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			822,
+			1300,
+			68,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            55,
+            80,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			822,
+			1300,
+			68,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            17,
+            97,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			529,
+			1145,
+			40,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            17,
+            97,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			529,
+			1145,
+			40,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            11,
+            98,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1304,
+			661,
+			51,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            11,
+            98,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1304,
+			661,
+			51,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			71,
+            5,
+            98,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			600,
+			59,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			71,
+            5,
+            98,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			600,
+			59,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			63,
+            35,
+            78,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1101,
+			222,
+			87,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			63,
+            35,
+            78,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1101,
+			222,
+			87,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            48,
+            81,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			822,
+			1690,
+			63,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            53,
+            80,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			886,
+			1447,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			95,
+            55,
+            83,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1222,
+			1702,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			95,
+            55,
+            83,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1222,
+			1702,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			100,
+            54,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1106,
+			42,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			100,
+            54,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1106,
+			42,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			100,
+            55,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1678,
+			40,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			100,
+            55,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1678,
+			40,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            53,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1702,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            53,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1702,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1223,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            51,
+            95,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1252,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            51,
+            95,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1252,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			71,
+            51,
+            97,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			820,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			71,
+            51,
+            97,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			820,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			69,
+            50,
+            99,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1603,
+			1204,
+			60,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			69,
+            50,
+            99,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1603,
+			1204,
+			60,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            58,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1393,
+			900,
+			79,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            58,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1393,
+			900,
+			79,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			76,
+            53,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			476,
+			1129,
+			89,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			76,
+            53,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			476,
+			1129,
+			89,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			97,
+            48,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1257,
+			377,
+			66,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			97,
+            48,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1257,
+			377,
+			66,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            50,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1574,
+			575,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            50,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1574,
+			575,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			96,
+            51,
+            92,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1312,
+			40,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			96,
+            51,
+            92,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1312,
+			40,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            50,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			531,
+			1012,
+			60,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            50,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			531,
+			1012,
+			60,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            51,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			944,
+			59,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            51,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			944,
+			59,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            40,
+            84,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			359,
+			1414,
+			53,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            40,
+            84,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			359,
+			1414,
+			53,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			89,
+            39,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			508,
+			52,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			89,
+            39,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			508,
+			52,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            34,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1296,
+			58,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            34,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1296,
+			58,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            33,
+            83,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1437,
+			239,
+			62,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            33,
+            83,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1437,
+			239,
+			62,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            56,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			413,
+			1576,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            56,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			413,
+			1576,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            59,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1420,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            59,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1420,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            56,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1601,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            56,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1601,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			88,
+            57,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1411,
+			1463,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			88,
+            57,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1411,
+			1463,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            54,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1569,
+			1653,
+			46,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            54,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1569,
+			1653,
+			46,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            52,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1181,
+			53,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            52,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1181,
+			53,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1192,
+			58,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			51,
+            47,
+            114,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			405,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			34,
+            44,
+            114,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			967,
+			690,
+			80,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			34,
+            43,
+            96,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			918,
+			98,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			34,
+            43,
+            96,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			918,
+			98,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			39,
+            51,
+            84,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			400,
+			915,
+			105,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			39,
+            51,
+            84,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			400,
+			915,
+			105,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			40,
+            51,
+            86,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			661,
+			522,
+			102,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			40,
+            51,
+            86,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			661,
+			522,
+			102,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			57,
+            51,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1178,
+			747,
+			83,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			57,
+            51,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1178,
+			747,
+			83,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            51,
+            92,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1341,
+			51,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            51,
+            92,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1341,
+			51,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            51,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1394,
+			54,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            51,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1394,
+			54,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            51,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1191,
+			1600,
+			55,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            51,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1191,
+			1600,
+			55,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1390,
+			58,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1390,
+			58,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			581,
+			1074,
+			58,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            51,
+            89,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			581,
+			1074,
+			58,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            43,
+            77,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1271,
+			69,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            43,
+            77,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1271,
+			69,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			67,
+            35,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1517,
+			434,
+			70,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			67,
+            35,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1517,
+			434,
+			70,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			56,
+            33,
+            96,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1317,
+			900,
+			76,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			56,
+            33,
+            96,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1317,
+			900,
+			76,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            41,
+            100,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1235,
+			661,
+			78,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            41,
+            100,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1235,
+			661,
+			78,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            74,
+            110,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1428,
+			106,
+			68,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            74,
+            110,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1428,
+			106,
+			68,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            107,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			329,
+			72,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            107,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			329,
+			72,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0114"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            108,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1547,
+			71,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0115"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            108,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1547,
+			71,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl1_0116"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            78,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			438,
+			101,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0117"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            78,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			438,
+			101,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0118"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            78,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			438,
+			101,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_0119"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			49,
+            77,
+            78,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			438,
+			101,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl1_shadow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			93,
+            96,
+            93,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1741,
+			764,
+			42,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			523,
+			1068,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			74,
+            54,
+            86,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			873,
+			1300,
+			68,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            54,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			627,
+			1557,
+			68,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			74,
+            48,
+            86,
+            18
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			836,
+			1570,
+			68,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			77,
+            43,
+            85,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			394,
+			1626,
+			66,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			77,
+            43,
+            85,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			451,
+			1626,
+			66,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            43,
+            86,
+            17
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1465,
+			1262,
+			67,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            52,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1465,
+			1324,
+			67,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            52,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1465,
+			1324,
+			67,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			87,
+            24,
+            93,
+            29
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			628,
+			1507,
+			48,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			87,
+            24,
+            93,
+            29
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			628,
+			1507,
+			48,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            16,
+            99,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			571,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            16,
+            99,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			571,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			70,
+            10,
+            95,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			149,
+			63,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			70,
+            10,
+            95,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			149,
+			63,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			66,
+            35,
+            75,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1095,
+			295,
+			87,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			66,
+            35,
+            75,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1095,
+			295,
+			87,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			87,
+            49,
+            78,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			882,
+			1690,
+			63,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            53,
+            77,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1630,
+			575,
+			65,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            51,
+            81,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1517,
+			1499,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            51,
+            81,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1517,
+			1499,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            46,
+            84,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			655,
+			1017,
+			46,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			98,
+            46,
+            84,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			655,
+			1017,
+			46,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			97,
+            48,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1524,
+			49,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			97,
+            48,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1524,
+			49,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            48,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1358,
+			60,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			86,
+            48,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1358,
+			60,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            48,
+            96,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1189,
+			1411,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            48,
+            96,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1189,
+			1411,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			74,
+            48,
+            98,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1294,
+			1408,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			74,
+            48,
+            98,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1294,
+			1408,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            47,
+            100,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1005,
+			53,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            47,
+            100,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1005,
+			53,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            55,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			286,
+			330,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			85,
+            55,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			286,
+			330,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            50,
+            64,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1220,
+			89,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			75,
+            50,
+            64,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1220,
+			89,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			96,
+            45,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			366,
+			1694,
+			66,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			96,
+            45,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			366,
+			1694,
+			66,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			94,
+            47,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			568,
+			1580,
+			68,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			94,
+            47,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			568,
+			1580,
+			68,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            49,
+            91,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1434,
+			46,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			91,
+            49,
+            91,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1434,
+			46,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            47,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			996,
+			1471,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            47,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			996,
+			1471,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            48,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1198,
+			164,
+			62,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            48,
+            86,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1198,
+			164,
+			62,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1018,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			523,
+			1068,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			523,
+			1068,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            40,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			502,
+			1694,
+			59,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            40,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			502,
+			1694,
+			59,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            39,
+            88,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			508,
+			1626,
+			58,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			82,
+            39,
+            88,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			508,
+			1626,
+			58,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            34,
+            86,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1198,
+			91,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            34,
+            86,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1198,
+			91,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			77,
+            33,
+            84,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1512,
+			310,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			77,
+            33,
+            84,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1512,
+			310,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            56,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1518,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            56,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1518,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            59,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1247,
+			1409,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            59,
+            87,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1247,
+			1409,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            56,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1620,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			84,
+            56,
+            90,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1620,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			87,
+            57,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1274,
+			1698,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			87,
+            57,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1274,
+			1698,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            54,
+            92,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1702,
+			53,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            54,
+            92,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1702,
+			53,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            51,
+            83,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			1626,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			83,
+            51,
+            83,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			1626,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            43,
+            116,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			692,
+			1624,
+			62,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			31,
+            43,
+            116,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1198,
+			917,
+			81,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			31,
+            42,
+            99,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			97,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			31,
+            42,
+            99,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			97,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			36,
+            52,
+            87,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			400,
+			1022,
+			105,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			36,
+            52,
+            87,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			400,
+			1022,
+			105,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			37,
+            47,
+            85,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			514,
+			363,
+			106,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			37,
+            47,
+            85,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			514,
+			363,
+			106,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			54,
+            47,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1180,
+			832,
+			83,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			54,
+            47,
+            91,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1180,
+			832,
+			83,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            47,
+            93,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1044,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            47,
+            93,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1044,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            47,
+            92,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1266,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			80,
+            47,
+            92,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1266,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            47,
+            93,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1328,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			79,
+            47,
+            93,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			1328,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1297,
+			59,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1297,
+			59,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1545,
+			821,
+			59,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			81,
+            48,
+            88,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1545,
+			821,
+			59,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            41,
+            81,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			623,
+			1367,
+			69,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			78,
+            41,
+            81,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			623,
+			1367,
+			69,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			68,
+            32,
+            82,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1249,
+			224,
+			78,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			68,
+            32,
+            82,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1249,
+			224,
+			78,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			56,
+            24,
+            82,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			626,
+			198,
+			90,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			56,
+            24,
+            82,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			626,
+			198,
+			90,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            33,
+            95,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			523,
+			83,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            33,
+            95,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			523,
+			83,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl2_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            65,
+            105,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			624,
+			1145,
+			73,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            65,
+            105,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			624,
+			1145,
+			73,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            66,
+            103,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			1145,
+			75,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            66,
+            103,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			1145,
+			75,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            65,
+            104,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1403,
+			434,
+			74,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            65,
+            104,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1403,
+			434,
+			74,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            64,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			285,
+			214,
+			114,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            68,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			307,
+			1270,
+			110,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0114"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            68,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			307,
+			1270,
+			110,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0115"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            67,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			811,
+			111,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0116"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            67,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			811,
+			111,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_0117"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			50,
+            58,
+            67,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			811,
+			111,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl2_shadow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			228,
+			120
+		},
+		trim = {
+			92,
+            97,
+            93,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			341,
+			162,
+			43,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1309,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			60,
+            54,
+            77,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			821,
+			1370,
+			75,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			59,
+            54,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1404,
+			510,
+			76,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			60,
+            48,
+            77,
+            19
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1146,
+			75,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			64,
+            43,
+            77,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1590,
+			379,
+			71,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			64,
+            42,
+            77,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1356,
+			71,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			64,
+            43,
+            77,
+            17
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1413,
+			71,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1309,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1309,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			57,
+            48,
+            87,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1694,
+			68,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			57,
+            48,
+            87,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1694,
+			68,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			55,
+            48,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1450,
+			68,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			55,
+            48,
+            89,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1450,
+			68,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			58,
+            46,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			942,
+			1690,
+			63,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			58,
+            46,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			942,
+			1690,
+			63,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			78,
+            55,
+            55,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1441,
+			900,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			78,
+            55,
+            55,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1441,
+			900,
+			79,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			67,
+            50,
+            55,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			760,
+			707,
+			90,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			67,
+            50,
+            55,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			760,
+			707,
+			90,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			89,
+            45,
+            57,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			434,
+			1694,
+			66,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			89,
+            45,
+            57,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			434,
+			1694,
+			66,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			87,
+            47,
+            57,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			568,
+			1650,
+			68,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			87,
+            47,
+            57,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			568,
+			1650,
+			68,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			79,
+            48,
+            76,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1192,
+			1470,
+			57,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			79,
+            48,
+            76,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1192,
+			1470,
+			57,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			68,
+            47,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1464,
+			122,
+			80,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			68,
+            47,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1464,
+			122,
+			80,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1309,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1309,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1357,
+			661,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1357,
+			661,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			70,
+            52,
+            68,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			942,
+			1439,
+			74,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			70,
+            52,
+            68,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			942,
+			1439,
+			74,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			78,
+            17,
+            83,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			671,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			78,
+            17,
+            83,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			671,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			68,
+            13,
+            88,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1468,
+			181,
+			56,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			68,
+            13,
+            88,
+            31
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1468,
+			181,
+			56,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			10,
+            7,
+            87,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			643,
+			115,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			10,
+            7,
+            87,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			643,
+			115,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			59,
+            35,
+            67,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1130,
+			435,
+			86,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			59,
+            35,
+            67,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1130,
+			435,
+			86,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			79,
+            48,
+            69,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1580,
+			642,
+			64,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			78,
+            53,
+            68,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			697,
+			1568,
+			66,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			90,
+            51,
+            70,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			701,
+			1091,
+			52,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			90,
+            51,
+            70,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			701,
+			1091,
+			52,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			90,
+            46,
+            68,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			642,
+			54,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			90,
+            46,
+            68,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			642,
+			54,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			84,
+            47,
+            73,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1195,
+			1529,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			84,
+            47,
+            73,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1195,
+			1529,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			74,
+            48,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			724,
+			1145,
+			73,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			74,
+            48,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			724,
+			1145,
+			73,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1357,
+			661,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1357,
+			661,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1367,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1367,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            40,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1580,
+			702,
+			58,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            40,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1580,
+			702,
+			58,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			75,
+            39,
+            79,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1567,
+			508,
+			58,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			75,
+            39,
+            79,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1567,
+			508,
+			58,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            34,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			631,
+			1301,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            34,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			631,
+			1301,
+			64,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			70,
+            33,
+            76,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			926,
+			1290,
+			66,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			70,
+            33,
+            76,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			926,
+			1290,
+			66,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			75,
+            56,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1518,
+			1449,
+			56,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			75,
+            56,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1518,
+			1449,
+			56,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            59,
+            78,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1251,
+			1468,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            59,
+            78,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1251,
+			1468,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            56,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1635,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			77,
+            56,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1635,
+			54,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			79,
+            57,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1571,
+			1554,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			79,
+            57,
+            81,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1571,
+			1554,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			73,
+            54,
+            83,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1648,
+			878,
+			56,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			73,
+            54,
+            83,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1648,
+			878,
+			56,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			73,
+            50,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1005,
+			1626,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			73,
+            50,
+            77,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1005,
+			1626,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1367,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1367,
+			741,
+			78,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			44,
+            35,
+            105,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1106,
+			63,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			26,
+            35,
+            105,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1206,
+			1000,
+			81,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			26,
+            42,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			882,
+			276,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			26,
+            42,
+            88,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			882,
+			276,
+			98,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			30,
+            52,
+            77,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			419,
+			1129,
+			105,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			30,
+            52,
+            77,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			419,
+			1129,
+			105,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			31,
+            47,
+            62,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			234,
+			811,
+			119,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			31,
+            47,
+            62,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			234,
+			811,
+			119,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			48,
+            47,
+            66,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			796,
+			376,
+			98,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			48,
+            47,
+            66,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			796,
+			376,
+			98,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            47,
+            65,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1492,
+			903,
+			76,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            47,
+            65,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1492,
+			903,
+			76,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			72,
+            47,
+            65,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			874,
+			1370,
+			75,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			72,
+            47,
+            65,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			874,
+			1370,
+			75,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1415,
+			661,
+			78,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1415,
+			661,
+			78,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1425,
+			741,
+			78,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			71,
+            48,
+            63,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1425,
+			741,
+			78,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			72,
+            41,
+            68,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			920,
+			1222,
+			72,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			72,
+            41,
+            68,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			920,
+			1222,
+			72,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			59,
+            12,
+            69,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			419,
+			149,
+			84,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			59,
+            12,
+            69,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			419,
+			149,
+			84,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			50,
+            6,
+            69,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			379,
+			423,
+			93,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			50,
+            6,
+            69,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			379,
+			423,
+			93,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            18,
+            78,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			525,
+			817,
+			92,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            18,
+            78,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			525,
+			817,
+			92,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            65,
+            88,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			602,
+			82,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            65,
+            88,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			602,
+			82,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            60,
+            80,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1106,
+			169,
+			89,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            60,
+            80,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1106,
+			169,
+			89,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            60,
+            83,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1006,
+			527,
+			86,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            60,
+            83,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1006,
+			527,
+			86,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            57,
+            13,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1597,
+			156,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            57,
+            18,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			162,
+			152,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			42,
+            57,
+            18,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			162,
+			152,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl3_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			43,
+            57,
+            16,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			58,
+			1597,
+			153,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl3_shadow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			212,
+			120
+		},
+		trim = {
+			85,
+            96,
+            85,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			1607,
+			42,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1171,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            56,
+            46,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1337,
+			69,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            54,
+            43,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1393,
+			69,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            52,
+            40,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1475,
+			71,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            52,
+            40,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1475,
+			71,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            54,
+            40,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			697,
+			1511,
+			67,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            56,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			593,
+			1017,
+			60,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            58,
+            42,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1609,
+			763,
+			64,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            58,
+            42,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1609,
+			763,
+			64,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            56,
+            40,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1121,
+			1600,
+			68,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			51,
+            54,
+            40,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1470,
+			69,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            52,
+            42,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			1532,
+			69,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            52,
+            42,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			1532,
+			69,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            54,
+            43,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			766,
+			1514,
+			71,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            56,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			912,
+			1569,
+			68,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            58,
+            48,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1511,
+			509,
+			68,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            58,
+            48,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1511,
+			509,
+			68,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			37,
+            50,
+            39,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1176,
+			661,
+			84,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			37,
+            50,
+            39,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1176,
+			661,
+			84,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            48,
+            28,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			725,
+			608,
+			97,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            48,
+            28,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			725,
+			608,
+			97,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			29,
+            51,
+            30,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			815,
+			101,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			29,
+            51,
+            28,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			425,
+			1236,
+			103,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			27,
+            47,
+            25,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			359,
+			1254,
+			108,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			27,
+            47,
+            40,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			659,
+			626,
+			93,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            49,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1518,
+			579,
+			68,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            49,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1518,
+			579,
+			68,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            54,
+            46,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1530,
+			70,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            54,
+            46,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1530,
+			70,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            54,
+            43,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			351,
+			1469,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            54,
+            43,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			351,
+			1469,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            56,
+            51,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1675,
+			764,
+			64,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            56,
+            51,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1675,
+			764,
+			64,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            59,
+            53,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			470,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            59,
+            53,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			470,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            62,
+            55,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			470,
+			1578,
+			66,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            62,
+            55,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			470,
+			1578,
+			66,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            56,
+            16,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			764,
+			799,
+			90,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            56,
+            16,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			764,
+			799,
+			90,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			59,
+            56,
+            21,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1184,
+			295,
+			80,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			59,
+            56,
+            21,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1184,
+			295,
+			80,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			62,
+            56,
+            28,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1215,
+			70,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			62,
+            56,
+            28,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1215,
+			70,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			61,
+            56,
+            29,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1206,
+			1216,
+			70,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			61,
+            56,
+            29,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1349,
+			70,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            56,
+            37,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			276,
+			1625,
+			67,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            56,
+            37,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			276,
+			1625,
+			67,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			33,
+            50,
+            38,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			205,
+			1694,
+			89,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			33,
+            50,
+            38,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			205,
+			1694,
+			89,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            59,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1242,
+			75,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            59,
+            44,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1242,
+			75,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            60,
+            48,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			414,
+			1525,
+			67,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            60,
+            48,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			414,
+			1525,
+			67,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			51,
+            56,
+            58,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			600,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			51,
+            56,
+            58,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			600,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            55,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			655,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            55,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			655,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            55,
+            57,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1411,
+			1408,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            55,
+            57,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1411,
+			1408,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            59,
+            60,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1298,
+			1466,
+			56,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            59,
+            60,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1298,
+			1466,
+			56,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            43,
+            50,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1382,
+			61,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            43,
+            50,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1382,
+			61,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            42,
+            52,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			332,
+			1626,
+			60,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            42,
+            52,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			332,
+			1626,
+			60,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            37,
+            51,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			994,
+			1263,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            37,
+            51,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			994,
+			1263,
+			64,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            37,
+            49,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			697,
+			1438,
+			67,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            37,
+            49,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			697,
+			1438,
+			67,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            59,
+            55,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1466,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            59,
+            55,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1466,
+			55,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			51,
+            62,
+            52,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1252,
+			1527,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			51,
+            62,
+            52,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1252,
+			1527,
+			57,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            58,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1517,
+			54,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            58,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1517,
+			54,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            59,
+            54,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1569,
+			1603,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            59,
+            54,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1569,
+			1603,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            56,
+            56,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			882,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			44,
+            56,
+            56,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			882,
+			60,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            55,
+            58,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1064,
+			57,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            55,
+            58,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1064,
+			57,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1171,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1171,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            43,
+            50,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1382,
+			61,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            43,
+            50,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			296,
+			1382,
+			61,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            42,
+            52,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			332,
+			1626,
+			60,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            42,
+            52,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			332,
+			1626,
+			60,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            36,
+            53,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1132,
+			1274,
+			61,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            36,
+            53,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1132,
+			1274,
+			61,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            36,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1364,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            36,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1364,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            41,
+            44,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1227,
+			68,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            41,
+            44,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1060,
+			1227,
+			68,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            36,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			692,
+			1369,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            36,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			692,
+			1369,
+			67,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            40,
+            41,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1145,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            40,
+            41,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1145,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            40,
+            48,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1061,
+			1589,
+			58,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            40,
+            48,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1061,
+			1589,
+			58,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            52,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1123,
+			53,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            52,
+            54,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1700,
+			1123,
+			53,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0114"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            52,
+            56,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1648,
+			820,
+			50,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0115"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            52,
+            56,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1648,
+			820,
+			50,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0116"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			641,
+			1077,
+			58,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0117"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			641,
+			1077,
+			58,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0118"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1491,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0119"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			554,
+			1491,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0120"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			0,
+            41,
+            72,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			276,
+			88,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0121"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			0,
+            41,
+            72,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			949,
+			276,
+			88,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0122"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			1,
+            27,
+            58,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			458,
+			912,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0123"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			1,
+            27,
+            58,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			458,
+			912,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0124"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			36,
+            27,
+            46,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1236,
+			741,
+			78,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0125"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			36,
+            27,
+            46,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1236,
+			741,
+			78,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0126"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            24,
+            38,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			723,
+			284,
+			83,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0127"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            24,
+            38,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			723,
+			284,
+			83,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0128"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            32,
+            40,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			887,
+			690,
+			78,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0129"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            32,
+            40,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			887,
+			690,
+			78,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0130"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            34,
+            42,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1546,
+			122,
+			77,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0131"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            65,
+            44,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1586,
+			329,
+			75,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0132"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            61,
+            44,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1296,
+			75,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0133"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			41,
+            61,
+            44,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1296,
+			75,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0134"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0135"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0136"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			0,
+            46,
+            77,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			921,
+			83,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0137"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			0,
+            46,
+            77,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			921,
+			83,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0138"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			2,
+            32,
+            63,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			648,
+			425,
+			95,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0139"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			2,
+            32,
+            63,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			648,
+			425,
+			95,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0140"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			25,
+            32,
+            61,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1444,
+			303,
+			74,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0141"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			25,
+            32,
+            61,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1444,
+			303,
+			74,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0142"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            32,
+            55,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			210,
+			1436,
+			63,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0143"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            32,
+            55,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			210,
+			1436,
+			63,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0144"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            42,
+            50,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			692,
+			1690,
+			63,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0145"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            42,
+            50,
+            15
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			692,
+			1690,
+			63,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0146"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            46,
+            48,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			756,
+			1624,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0147"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			48,
+            46,
+            48,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			756,
+			1624,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0148"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            51,
+            46,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1542,
+			762,
+			65,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0149"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			49,
+            51,
+            46,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1542,
+			762,
+			65,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0150"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            56,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1554,
+			883,
+			65,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0151"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			50,
+            56,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1554,
+			883,
+			65,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0152"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            54,
+            42,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1600,
+			1111,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0153"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			56,
+            54,
+            42,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1600,
+			1111,
+			62,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0154"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0155"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            12
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1378,
+			72,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0156"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1696,
+			331,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0157"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1696,
+			331,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0158"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            43,
+            43,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1206,
+			1146,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0159"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            43,
+            43,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1206,
+			1146,
+			70,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0160"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			30,
+            36,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			914,
+			860,
+			83,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0161"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			30,
+            36,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			914,
+			860,
+			83,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0162"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			24,
+            24,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			861,
+			96,
+			87,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0163"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			24,
+            24,
+            49,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			861,
+			96,
+			87,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0164"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            32,
+            59,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			521,
+			82,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0165"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            32,
+            59,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			521,
+			82,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0166"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			18,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1345,
+			167,
+			74,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0167"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			18,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1345,
+			167,
+			74,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0168"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			782,
+			1145,
+			73,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0169"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			782,
+			1145,
+			73,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0170"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			839,
+			1145,
+			73,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0171"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			19,
+            62,
+            68,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			839,
+			1145,
+			73,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0172"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1337,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0173"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            54,
+            45,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1337,
+			72,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0174"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            56,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1002,
+			1690,
+			63,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0175"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			46,
+            56,
+            51,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1002,
+			1690,
+			63,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0176"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            59,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			277,
+			1571,
+			61,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0177"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			45,
+            59,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			277,
+			1571,
+			61,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0178"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            62,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			982,
+			1575,
+			63,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0179"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            62,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			982,
+			1575,
+			63,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0180"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            61,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1589,
+			981,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0181"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            61,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1589,
+			981,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0182"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            60,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			535,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0183"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            60,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			535,
+			63,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0184"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            56,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1352,
+			1408,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0185"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			47,
+            56,
+            56,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1352,
+			1408,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0186"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1604,
+			1502,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0187"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1604,
+			1502,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0188"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            58,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1638,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0189"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            58,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1299,
+			1638,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0190"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1523,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0191"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1523,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0192"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1651,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0193"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1513,
+			1651,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0194"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1533,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0195"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1533,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0196"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1248,
+			1642,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0197"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1248,
+			1642,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0198"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1514,
+			1550,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0199"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1514,
+			1550,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0200"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1670,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0201"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            57,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1401,
+			1670,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0202"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1325,
+			377,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0203"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            56,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1325,
+			377,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0204"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            45,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1530,
+			649,
+			48,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0205"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            45,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1530,
+			649,
+			48,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0206"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1527,
+			49,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0207"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			57,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			483,
+			1527,
+			49,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0208"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            40,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			340,
+			1576,
+			48,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0209"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			58,
+            40,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			340,
+			1576,
+			48,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0210"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			896,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0211"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			55,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			896,
+			1145,
+			51,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0212"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1411,
+			54,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0213"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			52,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1133,
+			1411,
+			54,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0214"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			169,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0215"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			169,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0216"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            36,
+            35,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			716,
+			425,
+			90,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0217"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            36,
+            41,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			950,
+			96,
+			84,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0218"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            22,
+            37,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			531,
+			912,
+			84,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0219"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            22,
+            39,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			710,
+			97,
+			82,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0220"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            22,
+            38,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			617,
+			917,
+			84,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0221"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            12,
+            32,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			308,
+			1034,
+			90,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0222"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			35,
+            10,
+            32,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1602,
+			93,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0223"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            13,
+            27,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			284,
+			411,
+			93,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0224"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			40,
+            12,
+            36,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			516,
+			192,
+			84,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0225"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			39,
+            15,
+            35,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			348,
+			811,
+			86,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0226"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			38,
+            13,
+            35,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			436,
+			811,
+			87,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0227"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            37,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1387,
+			981,
+			72,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0228"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			42,
+            37,
+            46,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1460,
+			1058,
+			72,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0229"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            29,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1006,
+			70,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0230"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            29,
+            47,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1006,
+			70,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0231"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            21,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			769,
+			891,
+			69,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0232"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			43,
+            21,
+            48,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			769,
+			891,
+			69,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0233"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            33,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1476,
+			661,
+			52,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0234"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            33,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1476,
+			661,
+			52,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0235"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			250,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0236"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            55,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			250,
+			52,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0237"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            53,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			839,
+			1514,
+			54,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0238"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            40,
+            53,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			839,
+			1514,
+			54,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0239"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1381,
+			53,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0240"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1381,
+			53,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0241"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1058,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0242"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1058,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0243"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1060,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0244"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1060,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0245"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			765,
+			1570,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0246"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            38,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1381,
+			53,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_0247"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1058,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0248"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            36,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1534,
+			1058,
+			53,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0249"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1060,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0250"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			53,
+            32,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1333,
+			1060,
+			53,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elves_soldier_harasser_lvl4_0251"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			54,
+            42,
+            54,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			765,
+			1570,
+			52,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elves_soldier_harasser_lvl4_shadow"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			160,
+			120
+		},
+		trim = {
+			60,
+            100,
+            58,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			458,
+			1015,
+			42,
+			11
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			816,
+			707,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            25,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			822,
+			795,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            20,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			840,
+			883,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            16,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1013,
+			182,
+			86,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            20,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			616,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            27,
+            55,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1095,
+			368,
+			87,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			72,
+            23,
+            62,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			965,
+			772,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			72,
+            23,
+            62,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			965,
+			772,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			62,
+            23,
+            71,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			982,
+			438,
+			87,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			62,
+            23,
+            71,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			982,
+			438,
+			87,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			891,
+			772,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			891,
+			772,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			937,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			937,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			937,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            20,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			937,
+			86,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            28,
+            14,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			234,
+			932,
+			118,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            28,
+            14,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			234,
+			1052,
+			118,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            22,
+            11,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			516,
+			107,
+			121,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            22,
+            11,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			142,
+			726,
+			121,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            25,
+            3,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1214,
+			6,
+			129,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            23,
+            0,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1080,
+			6,
+			132,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            20,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			812,
+			6,
+			132,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            20,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			946,
+			6,
+			132,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            19,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			678,
+			6,
+			132,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            20,
+            11,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1259,
+			121,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            20,
+            23,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1382,
+			119,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            20,
+            34,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			514,
+			278,
+			108,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            20,
+            45,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			624,
+			284,
+			97,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            22,
+            53,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			864,
+			185,
+			89,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0031"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            22,
+            56,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1053,
+			435,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0032"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			992,
+			937,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0033"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			1025,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0034"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			918,
+			1025,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0035"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			74,
+            23,
+            62,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1109,
+			835,
+			84,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0036"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			74,
+            23,
+            62,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1109,
+			835,
+			84,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0037"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            21,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1589,
+			435,
+			69,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0038"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            21,
+            74,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1589,
+			435,
+			69,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0039"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			57,
+            16,
+            88,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1018,
+			260,
+			75,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0040"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			57,
+            16,
+            88,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1018,
+			260,
+			75,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0041"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			50,
+            11,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			438,
+			82,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0042"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			50,
+            11,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			794,
+			438,
+			82,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0043"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			50,
+            10,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			718,
+			197,
+			85,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0044"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			50,
+            10,
+            85,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			718,
+			197,
+			85,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0045"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			76,
+            0,
+            10,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			683,
+			134,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0046"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			76,
+            0,
+            10,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			683,
+			134,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0047"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            2,
+            10,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1345,
+			6,
+			122,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0048"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            2,
+            10,
+            8
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1345,
+			6,
+			122,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0049"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            25,
+            36,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			573,
+			425,
+			96,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0050"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            25,
+            36,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			573,
+			425,
+			96,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0051"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            19,
+            43,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			719,
+			517,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0052"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            19,
+            43,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			719,
+			517,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0053"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1030,
+			680,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0054"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1030,
+			680,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0055"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1036,
+			768,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0056"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1036,
+			768,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0057"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1063,
+			937,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0058"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            16,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			553,
+			1301,
+			61,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0059"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            16,
+            82,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			553,
+			1301,
+			61,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0060"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            2,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			622,
+			368,
+			55,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0061"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			77,
+            2,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			622,
+			368,
+			55,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0062"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			65,
+            3,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			944,
+			185,
+			67,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0063"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			65,
+            3,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			944,
+			185,
+			67,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0064"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			68,
+            2,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			457,
+			1037,
+			64,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0065"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			68,
+            2,
+            88,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			457,
+			1037,
+			64,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0066"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			81,
+            27,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1450,
+			434,
+			73,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0067"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			81,
+            27,
+            66,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1450,
+			434,
+			73,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0068"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            22,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1240,
+			302,
+			73,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0069"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            22,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1240,
+			302,
+			73,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0070"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            22,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			257,
+			72,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0071"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            22,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1627,
+			257,
+			72,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0072"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            8,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1101,
+			661,
+			73,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0073"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            8,
+            65,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1101,
+			661,
+			73,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0074"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            0,
+            69,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			911,
+			438,
+			69,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0075"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            0,
+            69,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			911,
+			438,
+			69,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0076"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			80,
+            22,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1332,
+			510,
+			76,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0077"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			80,
+            22,
+            64,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1332,
+			510,
+			76,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0078"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1107,
+			747,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0079"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1107,
+			747,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0080"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			78,
+            23,
+            56,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1063,
+			937,
+			86,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0081"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			68,
+            25,
+            91,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			277,
+			1502,
+			61,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0082"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			63,
+            25,
+            94,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			995,
+			1144,
+			63,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0083"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			60,
+            27,
+            97,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			627,
+			1609,
+			63,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0084"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			54,
+            48,
+            94,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			340,
+			1525,
+			72,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0085"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			53,
+            54,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1530,
+			72,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0086"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			53,
+            54,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1530,
+			72,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0087"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0088"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0089"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0090"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0091"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0092"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0093"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0094"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0095"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			52,
+            53,
+            95,
+            11
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			985,
+			1098,
+			73,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0096"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			80,
+            47,
+            104,
+            27
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1542,
+			717,
+			36,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0097"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            44,
+            102,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1625,
+			1554,
+			36,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0098"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            42,
+            105,
+            34
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			568,
+			1720,
+			33,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0099"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            38,
+            75,
+            17
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1059,
+			1690,
+			63,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0100"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            35,
+            75,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1589,
+			1046,
+			63,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0101"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			82,
+            31,
+            75,
+            14
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			757,
+			1690,
+			63,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0102"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            28,
+            75,
+            17
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			820,
+			1626,
+			62,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0103"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            26,
+            75,
+            20
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			885,
+			1626,
+			62,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0104"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            22,
+            75,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			996,
+			1399,
+			62,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0105"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			83,
+            19,
+            76,
+            19
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1206,
+			1275,
+			61,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0106"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			84,
+            16,
+            76,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1192,
+			1338,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0107"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			84,
+            13,
+            76,
+            26
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1254,
+			1345,
+			60,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0108"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			84,
+            10,
+            76,
+            13
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			802,
+			197,
+			60,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0109"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			84,
+            8,
+            77,
+            19
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1345,
+			106,
+			59,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			85,
+            5,
+            77,
+            24
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1035,
+			348,
+			58,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			88,
+            20,
+            77,
+            28
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1698,
+			1235,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0112"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			89,
+            16,
+            78,
+            32
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1278,
+			1283,
+			53,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0113"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			89,
+            14,
+            79,
+            36
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			764,
+			1037,
+			52,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_0114"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			89,
+            25,
+            81,
+            41
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1648,
+			936,
+			50,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_0115"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			108
+		},
+		trim = {
+			90,
+            23,
+            81,
+            45
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1350,
+			1636,
+			49,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            2,
+            6,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1546,
+			257,
+			79,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            2,
+            6,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1134,
+			79,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            2,
+            6,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1388,
+			1188,
+			79,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            2,
+            6,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1208,
+			517,
+			80,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            2,
+            6,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1264,
+			900,
+			80,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            3,
+            6,
+            7
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			714,
+			374,
+			80,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            3,
+            6,
+            6
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1280,
+			982,
+			80,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            3,
+            6,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1701,
+			6,
+			80,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            3,
+            6,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1203,
+			435,
+			80,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            5,
+            7,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			540,
+			1220,
+			79,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            5,
+            7,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			594,
+			1220,
+			79,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            4,
+            8,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1486,
+			741,
+			78,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            5,
+            8,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			766,
+			1369,
+			78,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            5,
+            9,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1384,
+			821,
+			77,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			2,
+            5,
+            13,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1134,
+			1090,
+			73,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            6,
+            14,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			912,
+			1515,
+			71,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            7,
+            11,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			275,
+			1449,
+			74,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			3,
+            7,
+            8,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1439,
+			821,
+			77,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            7,
+            5,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			813,
+			1220,
+			78,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            7,
+            5,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			866,
+			1220,
+			78,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            7,
+            3,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1281,
+			1064,
+			80,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            6,
+            3,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1492,
+			821,
+			80,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			6,
+            4,
+            3,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			648,
+			1220,
+			79,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            2,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1262,
+			168,
+			80,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            2,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1332,
+			978,
+			80,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0026"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			5,
+            1,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			789,
+			650,
+			80,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0027"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			6,
+            1,
+            3,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1220,
+			79,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0028"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			6,
+            1,
+            3,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			758,
+			1220,
+			79,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_decal_0029"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			6,
+            0,
+            3,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1546,
+			201,
+			79,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_decal_0030"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			88,
+			59
+		},
+		trim = {
+			6,
+            1,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1456,
+			509,
+			77,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_proy"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			28,
+			14
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			529,
+			1129,
+			28,
+			14
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			710,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1702,
+			710,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1168,
+			1702,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_proyHit_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1168,
+			1702,
+			51,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_proyHit_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			758,
+			1091,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			758,
+			1091,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			16,
+            5,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1623,
+			1609,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyHit_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			55,
+			52
+		},
+		trim = {
+			16,
+            5,
+            2,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1623,
+			1609,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            2,
+            0,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1724,
+			1297,
+			32,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_proyParticle_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            2,
+            0,
+            1
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1724,
+			1297,
+			32,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_proyParticle_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1721,
+			1361,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1721,
+			1361,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			862,
+			1111,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			862,
+			1111,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			2,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1724,
+			1331,
+			29,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_proyParticle_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			32,
+			32
+		},
+		trim = {
+			2,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1724,
+			1331,
+			29,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			0,
+            0,
+            0,
+            10
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			212,
+			183,
+			161
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1158,
+			41,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1158,
+			41,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            34
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			950,
+			41,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            34
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1605,
+			950,
+			41,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			75,
+            108,
+            74,
+            48
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1625,
+			1592,
+			34,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			75,
+            108,
+            74,
+            48
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1625,
+			1592,
+			34,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			76,
+            108,
+            76,
+            50
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1076,
+			31,
+			13
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			76,
+            108,
+            76,
+            50
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			703,
+			1076,
+			31,
+			13
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mercenaryDraw_tower_layer2_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            35
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			538,
+			1580,
+			41,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            35
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			538,
+			1580,
+			41,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1158,
+			41,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mercenaryDraw_tower_layer2_0025"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			183,
+			171
+		},
+		trim = {
+			71,
+            108,
+            71,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1656,
+			1158,
+			41,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			474,
+			425,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			477,
+			523,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0110"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			811,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0110_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			923,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0110_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			923,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0110_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			811,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0111"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1035,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0111_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1147,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0111_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1147,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0111_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			122,
+			1035,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			785,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0019_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			901,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0019_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			901,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0019_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			785,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1017,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0020_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1133,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0020_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1133,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0020_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1017,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1249,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0021_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1365,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0021_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1365,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0021_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1249,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1481,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0022_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0022_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1469,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0022_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			1481,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1585,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0023_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			169,
+			214,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0023_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			169,
+			214,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0023_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1585,
+			6,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0024"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			411,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0024_disabled"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			527,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0024_disabled_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			527,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0024_turn_off"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			168,
+			411,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_ghost"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			397,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            85,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			516,
+			6,
+			160,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer1_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			354,
+			6,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			812,
+			1105,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			812,
+			1105,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1568,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1568,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            134,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1621,
+			1658,
+			37,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            134,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1621,
+			1658,
+			37,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            139,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1711,
+			1568,
+			37,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            139,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1711,
+			1568,
+			37,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            146,
+            92,
+            33
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1503,
+			37,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            146,
+            92,
+            33
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1503,
+			37,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            150,
+            126,
+            39
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1106,
+			3,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            150,
+            126,
+            39
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1106,
+			3,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            144,
+            92,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			405,
+			37,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            144,
+            92,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			405,
+			37,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            138,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1659,
+			37,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            138,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1659,
+			37,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            132,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1607,
+			1705,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            132,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1607,
+			1705,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl1_layer2_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer1_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            43,
+            37,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			540,
+			160,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1662,
+			1607,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			812,
+			1105,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1568,
+			1705,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1568,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            133,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			1705,
+			37,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            134,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1621,
+			1658,
+			37,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            136,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1199,
+			1658,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            139,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1711,
+			1568,
+			37,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            141,
+            92,
+            25
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1510,
+			239,
+			37,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            146,
+            92,
+            33
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1503,
+			37,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            150,
+            126,
+            39
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1106,
+			3,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            148,
+            92,
+            36
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1681,
+			498,
+			37,
+			16
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            144,
+            92,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			405,
+			37,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            141,
+            92,
+            24
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1718,
+			1469,
+			37,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            138,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1659,
+			37,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            135,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1153,
+			1658,
+			37,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            132,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1607,
+			1705,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl2_layer2_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer1_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			23,
+            30,
+            32,
+            16
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			187,
+			6,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1662,
+			1607,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			812,
+			1105,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1568,
+			1705,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1661,
+			1568,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            133,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1646,
+			1705,
+			37,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            134,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1621,
+			1658,
+			37,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            136,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1199,
+			1658,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            139,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1711,
+			1568,
+			37,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            141,
+            92,
+            25
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1510,
+			239,
+			37,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            146,
+            92,
+            33
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			221,
+			1503,
+			37,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			0,
+            0,
+            217,
+            197
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1597,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            150,
+            126,
+            39
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1643,
+			1106,
+			3,
+			11
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            148,
+            92,
+            36
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1681,
+			498,
+			37,
+			16
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            144,
+            92,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			405,
+			37,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            141,
+            92,
+            24
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1718,
+			1469,
+			37,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            138,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1114,
+			1659,
+			37,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            135,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1153,
+			1658,
+			37,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            132,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1607,
+			1705,
+			37,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0022"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl3_layer2_0023"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			200
+		},
+		trim = {
+			91,
+            131,
+            92,
+            21
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1659,
+			1201,
+			37,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer1_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			19,
+            27,
+            22,
+            9
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			6,
+			6,
+			179,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0001"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1660,
+			435,
+			40,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0002"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1660,
+			435,
+			40,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0003"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			91,
+            157,
+            90,
+            30
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			110,
+			1714,
+			39,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0004"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			91,
+            157,
+            91,
+            37
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1421,
+			176,
+			38,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0005"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			92,
+            157,
+            91,
+            43
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1714,
+			1607,
+			37,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0006"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			92,
+            157,
+            92,
+            49
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1660,
+			1658,
+			36,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0007"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            92,
+            53
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1722,
+			1432,
+			35,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0008"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            93,
+            56
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1663,
+			1251,
+			34,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0009"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            93,
+            59
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			142,
+			683,
+			34,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0010"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            93,
+            60
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1510,
+			278,
+			34,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0011"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            93,
+            61
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1323,
+			1693,
+			34,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0012"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            93,
+            61
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1323,
+			1693,
+			34,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0013"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			93,
+            157,
+            92,
+            52
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1722,
+			1395,
+			35,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0014"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			92,
+            157,
+            92,
+            45
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			165,
+			1714,
+			36,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0015"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			91,
+            157,
+            91,
+            39
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1608,
+			883,
+			38,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0016"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			91,
+            157,
+            91,
+            34
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			878,
+			614,
+			38,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0017"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            29
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1457,
+			1685,
+			40,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0018"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            26
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			824,
+			1046,
+			40,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0019"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            23
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1606,
+			821,
+			40,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0020"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1641,
+			981,
+			40,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["twilight_elves_barrack_tower_lvl4_layer2_0021"] = {
+		a_name = "tower_dark_elves_barrack.dds",
+		size = {
+			220,
+			240
+		},
+		trim = {
+			90,
+            157,
+            90,
+            22
+		},
+		a_size = {
+			1759,
+			1759
+		},
+		f_quad = {
+			1660,
+			435,
+			40,
+			61
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

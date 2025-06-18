@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/entity_db.lua
-
 local log = require("klua.log"):new("entity_db")
 
 require("klua.table")
@@ -16,6 +14,7 @@ function entity_db:load()
 	self.entities = {}
 	package.loaded.components = nil
 	package.loaded.game_templates = nil
+	package.loaded.custom_templates_1 = nil
 	package.loaded.templates = nil
 	package.loaded.game_scripts = nil
 	package.loaded.scripts = nil
@@ -24,12 +23,14 @@ function entity_db:load()
 	require("components")
 	require("templates")
 	require("game_templates")
+	require("custom_templates_1")
 end
 
+-- local redundant = {}
 function entity_db:register_t(name, base)
 	if self.entities[name] then
 		log.error("template %s already exists", name)
-
+		-- table.insert(redundant, name)
 		return
 	end
 
@@ -64,6 +65,20 @@ function entity_db:register_t(name, base)
 
 	return t
 end
+
+-- function entity_db:write_redundant()
+-- 	local fs = love.filesystem
+-- 	local o = "return {\n"
+-- 	for i, name in ipairs(redundant) do
+-- 		o = o .. "\t\"" .. name .. "\",\n"
+-- 	end
+-- 	o = o .. "}"
+-- 	local fileName = "redundant.lua"
+-- 	local success, message = fs.write(fileName, o)
+-- 	if not success then
+-- 		log.error("file not created: " .. message)
+-- 	end	
+-- end
 
 function entity_db:register_c(name, base)
 	if self.components[name] then

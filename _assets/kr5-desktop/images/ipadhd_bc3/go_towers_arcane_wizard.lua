@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_arcane_wizard.lua
-
 return {
 	arcane_wizard_tower_build = {
 		a_name = "go_towers_arcane_wizard-1.dds",
@@ -19148,5 +19146,14231 @@ return {
 			45
 		},
 		alias = {}
+	},
+	-- customization
+	["ArchMageGuy_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			403,
+			1395,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			403,
+			1395,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1857,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1857,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			702,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			702,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			910,
+			2076,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			910,
+			2076,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			1902,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			1902,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1778,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1778,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1722,
+			55,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1722,
+			55,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			882,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			882,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			948,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			948,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0025"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0026"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1905,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0027"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1905,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0028"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2142,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0029"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2142,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0030"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			789,
+			2020,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0031"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			2257,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0032"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			2257,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0033"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0034"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0035"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0036"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0037"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0038"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0039"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			791,
+			1959,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0040"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			791,
+			1959,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0041"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1781,
+			55,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0042"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1781,
+			55,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0043"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1743,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0044"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1743,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0045"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1783,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0046"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1783,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0047"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1800,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0048"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1800,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0049"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0050"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0051"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0052"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0053"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0054"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0055"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0056"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            5,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			2020,
+			55,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0057"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            5,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			2020,
+			55,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0058"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1962,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0059"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1962,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0060"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			532,
+			1653,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0061"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			798,
+			2077,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0062"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			798,
+			2077,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0063"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			2076,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0064"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			2076,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0065"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			880,
+			2132,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0066"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			880,
+			2132,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0067"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			934,
+			2130,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0068"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			934,
+			2130,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0069"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1721,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0070"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1721,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0071"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            5,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			562,
+			2017,
+			62,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0072"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            5,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			562,
+			2017,
+			62,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0073"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			723,
+			1657,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0074"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			723,
+			1657,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0075"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1838,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0076"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1838,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0077"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0078"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0079"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0080"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0081"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0082"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0083"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0084"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0085"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1840,
+			62,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0086"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			549,
+			1847,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0087"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            6,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			549,
+			1847,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0088"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			769,
+			2138,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0089"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			769,
+			2138,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0090"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			532,
+			1653,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0091"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			532,
+			1653,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0092"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0093"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0094"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0095"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0096"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0097"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0098"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            7,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			729,
+			1838,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0099"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            7,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			729,
+			1838,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0100"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			562,
+			2081,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0101"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			562,
+			2081,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0102"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			592,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0103"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			592,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0104"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			622,
+			2081,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0105"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			622,
+			2081,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0106"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0107"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0108"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0109"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0110"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0111"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0112"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0113"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0114"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			652,
+			2145,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0115"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            7,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			852,
+			1841,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0116"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			6,
+            7,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			852,
+			1841,
+			62,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0117"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			532,
+			1653,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0118"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			403,
+			1395,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0119"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			403,
+			1395,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0120"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1857,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0121"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            10,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1857,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0122"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			702,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0123"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            12,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			702,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0124"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			910,
+			2076,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0125"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            13,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			910,
+			2076,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0126"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			1902,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0127"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			1902,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0128"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1778,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0129"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1778,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0130"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1722,
+			55,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0131"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1722,
+			55,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0132"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			882,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0133"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			882,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0134"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			948,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0135"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			961,
+			948,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0136"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0137"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0138"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            0,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1266,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0139"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0140"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0141"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0142"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            4,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			666,
+			1958,
+			55,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0143"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1905,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0144"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            6,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			1905,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0145"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2142,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0146"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            7,
+            13,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2142,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0147"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			0,
+            9,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			789,
+			2020,
+			54,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0148"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			2257,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0149"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			2257,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0150"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0151"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            10,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1014,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0152"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0153"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			756,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0154"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0155"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			16,
+            12,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2134,
+			52,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageGuy_0156"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			791,
+			1959,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0157"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            6,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			791,
+			1959,
+			55,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0158"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1781,
+			55,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0159"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			724,
+			1781,
+			55,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0160"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1743,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0161"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1743,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0162"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1783,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0163"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1783,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0164"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1800,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0165"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1800,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0166"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0167"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0168"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1857,
+			55,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0169"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageGuy_0170"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			68,
+			64
+		},
+		trim = {
+			13,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			665,
+			1901,
+			55,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTower"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			216,
+			161
+		},
+		trim = {
+			2,
+            0,
+            20,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			343,
+			194,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			43,
+            58,
+            66,
+            17
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			182,
+			1619,
+			87,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTwister_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			43,
+            58,
+            66,
+            17
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			182,
+			1619,
+			87,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTwister_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			31,
+            46,
+            40,
+            16
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			393,
+			655,
+			125,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			31,
+            46,
+            40,
+            16
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			393,
+			655,
+			125,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			22,
+            33,
+            27,
+            13
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			236,
+			505,
+			147,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			22,
+            33,
+            27,
+            13
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			236,
+			505,
+			147,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			14,
+            10,
+            20,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1676,
+			162,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			14,
+            10,
+            20,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1676,
+			162,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            4,
+            7,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			904,
+			189,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            4,
+            7,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			904,
+			189,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			9,
+            0,
+            13,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1292,
+			174,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			9,
+            0,
+            13,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1292,
+			174,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			6,
+            0,
+            10,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1098,
+			180,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			6,
+            0,
+            10,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1098,
+			180,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            0,
+            6,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			709,
+			190,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            0,
+            6,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			709,
+			190,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            2,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			661,
+			1,
+			191,
+			194
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTwister_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            2,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			661,
+			1,
+			191,
+			194
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTwister_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            3,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			514,
+			193,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            3,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			514,
+			193,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            4,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			463,
+			1,
+			196,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			0,
+            4,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			463,
+			1,
+			196,
+			192
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ArchMageTwister_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			2,
+            3,
+            7,
+            14
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1487,
+			187,
+			179
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ArchMageTwister_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			196,
+			196
+		},
+		trim = {
+			2,
+            3,
+            7,
+            14
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1487,
+			187,
+			179
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bottom_info_image_soldiers_0045"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			447,
+			1791,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_big_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			9,
+            6,
+            9,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1619,
+			67,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			9,
+            6,
+            9,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1619,
+			67,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			9,
+            6,
+            9,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1619,
+			67,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			13,
+            8,
+            13,
+            24
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1658,
+			59,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_big_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			13,
+            8,
+            13,
+            24
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1658,
+			59,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_big_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			13,
+            8,
+            13,
+            24
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1658,
+			59,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_big_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            9,
+            6,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1594,
+			65,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            9,
+            6,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1594,
+			65,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            9,
+            6,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			786,
+			1594,
+			65,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			19,
+            4,
+            4,
+            27
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			545,
+			1779,
+			62,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			19,
+            4,
+            4,
+            27
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			545,
+			1779,
+			62,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			19,
+            4,
+            4,
+            27
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			545,
+			1779,
+			62,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			11,
+            5,
+            7,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1551,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			11,
+            5,
+            7,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1551,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_big_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			11,
+            5,
+            7,
+            26
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			587,
+			1551,
+			67,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_boss_type1_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			3,
+            9,
+            12,
+            34
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1334,
+			96,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			3,
+            9,
+            12,
+            34
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1334,
+			96,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			3,
+            9,
+            12,
+            34
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1334,
+			96,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			9,
+            9,
+            19,
+            30
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			305,
+			1623,
+			83,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			9,
+            9,
+            19,
+            30
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			305,
+			1623,
+			83,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			9,
+            9,
+            19,
+            30
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			305,
+			1623,
+			83,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            13,
+            7,
+            32
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			783,
+			92,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_boss_type1_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            13,
+            7,
+            32
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			783,
+			92,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_boss_type1_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            13,
+            7,
+            32
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			783,
+			92,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_boss_type1_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			19,
+            6,
+            4,
+            36
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1432,
+			88,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			19,
+            6,
+            4,
+            36
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1432,
+			88,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			19,
+            6,
+            4,
+            36
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1432,
+			88,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			7,
+            8,
+            10,
+            33
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1134,
+			94,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			7,
+            8,
+            10,
+            33
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1134,
+			94,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_boss_type1_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			7,
+            8,
+            10,
+            33
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1134,
+			94,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			13,
+            10,
+            17,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1755,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			13,
+            10,
+            17,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1755,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			13,
+            10,
+            17,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1755,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            11,
+            20,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1809,
+			46,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            11,
+            20,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1809,
+			46,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            11,
+            20,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			609,
+			1809,
+			46,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			17,
+            12,
+            14,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2188,
+			51,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_small_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			17,
+            12,
+            14,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2188,
+			51,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_small_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			17,
+            12,
+            14,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			826,
+			2188,
+			51,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_small_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			21,
+            9,
+            13,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			967,
+			642,
+			48,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			21,
+            9,
+            13,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			967,
+			642,
+			48,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			21,
+            9,
+            13,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			967,
+			642,
+			48,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["curse_small_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            9,
+            16,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			523,
+			1527,
+			50,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_small_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            9,
+            16,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			523,
+			1527,
+			50,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["curse_small_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			16,
+            9,
+            16,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			523,
+			1527,
+			50,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			14,
+            23,
+            13,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			452,
+			482,
+			21,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			14,
+            23,
+            13,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			452,
+			482,
+			21,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			6,
+            7,
+            7,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			1660,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			6,
+            7,
+            7,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			1660,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			3,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			447,
+			915,
+			43,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			3,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			447,
+			915,
+			43,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			2,
+            3,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			934,
+			2184,
+			44,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_polymorph_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			2,
+            3,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			934,
+			2184,
+			44,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_polymorph_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1967,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1967,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2257,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			712,
+			2257,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			762,
+			2254,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			762,
+			2254,
+			48,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			4,
+            3,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			975,
+			472,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			4,
+            3,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			975,
+			472,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			7,
+            6,
+            6,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			691,
+			1091,
+			35,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_polymorph_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			7,
+            6,
+            6,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			691,
+			1091,
+			35,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_polymorph_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			6,
+            5,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			991,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_polymorph_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			48,
+			48
+		},
+		trim = {
+			6,
+            5,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			991,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0142"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			459,
+			1951,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0143"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			464,
+			2050,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            9,
+            9,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			838,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            10,
+            9,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			175,
+			2154,
+			35,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            10,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			981,
+			2221,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            10,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			1737,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            11,
+            9,
+            8
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			977,
+			1773,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            12,
+            9,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			977,
+			1809,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            12,
+            9,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			977,
+			1845,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            13,
+            9,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			983,
+			176,
+			35,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            13,
+            9,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			269,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            13,
+            9,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			983,
+			176,
+			35,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            12,
+            7,
+            8
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			136,
+			2154,
+			37,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            10,
+            7,
+            8
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			1036,
+			37,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            10,
+            7,
+            8
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			1623,
+			37,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            9,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			979,
+			1700,
+			35,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			9,
+            9,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			981,
+			2184,
+			35,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			10,
+            11,
+            10,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			983,
+			213,
+			33,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			3,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			605,
+			2257,
+			50,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			3,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			605,
+			2257,
+			50,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			3,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			605,
+			2257,
+			50,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			2,
+            0,
+            5,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			703,
+			2209,
+			46,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			2,
+            0,
+            5,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			703,
+			2209,
+			46,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_archbolt_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			0,
+            0,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			660,
+			2257,
+			50,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			0,
+            0,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			660,
+			2257,
+			50,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			10,
+            9,
+            2,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			975,
+			519,
+			41,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_0025"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			53,
+			53
+		},
+		trim = {
+			0,
+            0,
+            50,
+            50
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			807,
+			1129,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_archbolt_particle"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			1,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			370,
+			1565,
+			43,
+			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			0,
+            3,
+            4,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			196,
+			514,
+			256,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			0,
+            3,
+            4,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			196,
+			514,
+			256,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			6,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			183,
+			1098,
+			251,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			6,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			183,
+			1098,
+			251,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			14,
+            2,
+            3,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1065,
+			243,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			14,
+            2,
+            3,
+            6
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1065,
+			243,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			24,
+            0,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			261,
+			1065,
+			234,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			24,
+            0,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			261,
+			1065,
+			234,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			62,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			300,
+			1065,
+			198,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_polymorph_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			260,
+			41
+		},
+		trim = {
+			62,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			300,
+			1065,
+			198,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			614,
+			733,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			34,
+            37,
+            39,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			177,
+			1351,
+			132,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			34,
+            37,
+            39,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			177,
+			1351,
+			132,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			36,
+            33,
+            40,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			165,
+			1708,
+			129,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            31,
+            40,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			2189,
+			126,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            31,
+            40,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			2189,
+			126,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            27,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			243,
+			1953,
+			123,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            26,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			194,
+			121,
+			123
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            26,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			194,
+			121,
+			123
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            27,
+            46,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			296,
+			1708,
+			116,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            29,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			874,
+			115,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            29,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			874,
+			115,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			46,
+            33,
+            50,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			243,
+			2078,
+			109,
+			116
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			47,
+            34,
+            50,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			902,
+			108,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			47,
+            34,
+            50,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			851,
+			902,
+			108,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			46,
+            33,
+            49,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			739,
+			908,
+			110,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			44,
+            31,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			376,
+			2189,
+			114,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			44,
+            31,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			376,
+			2189,
+			114,
+			118
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            29,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			254,
+			2189,
+			118,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            26,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			129,
+			2189,
+			118,
+			123
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            26,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			129,
+			2189,
+			118,
+			123
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            29,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			614,
+			848,
+			123,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            30,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			614,
+			970,
+			123,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            30,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			614,
+			970,
+			123,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0025"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			36,
+            33,
+            40,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			600,
+			343,
+			129,
+			116
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0026"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			34,
+            34,
+            39,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			182,
+			1485,
+			132,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0027"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			319,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0028"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			319,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0029"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			44,
+            36,
+            34,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			614,
+			604,
+			127,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0030"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			44,
+            36,
+            33,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			613,
+			474,
+			128,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0031"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			43,
+            29,
+            37,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			234,
+			1826,
+			125,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0032"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			31,
+            12,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			341,
+			791,
+			122,
+			137
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0033"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			31,
+            12,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			341,
+			791,
+			122,
+			137
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0034"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			24,
+            3,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			193,
+			787,
+			129,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0035"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			24,
+            3,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			193,
+			787,
+			129,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0036"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			17,
+            4,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			475,
+			482,
+			136,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0037"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			17,
+            4,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			475,
+			482,
+			136,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0038"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			16,
+            4,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			192,
+			918,
+			137,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0039"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			16,
+            4,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			192,
+			918,
+			137,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0040"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            50,
+            10,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			136,
+			2008,
+			144,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0041"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            50,
+            10,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			136,
+			2008,
+			144,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0042"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            67,
+            6,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			385,
+			505,
+			148,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0043"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            67,
+            6,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			385,
+			505,
+			148,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0044"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            58,
+            3,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			135,
+			1855,
+			151,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0045"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            58,
+            3,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			135,
+			1855,
+			151,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0046"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0047"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0048"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0049"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0050"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0051"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0052"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            63,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			520,
+			629,
+			152,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0053"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            44,
+            36,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			737,
+			673,
+			118,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0054"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            44,
+            36,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			737,
+			673,
+			118,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0055"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			319,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0056"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			319,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0057"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			731,
+			319,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0058"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			33,
+            21,
+            17,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			236,
+			657,
+			155,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0059"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			33,
+            21,
+            17,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			236,
+			657,
+			155,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0060"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			27,
+            16,
+            14,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			2023,
+			164,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0061"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			27,
+            16,
+            14,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			2023,
+			164,
+			133
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0062"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			27,
+            17,
+            12,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1855,
+			166,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0063"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			27,
+            17,
+            12,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1855,
+			166,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0064"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			26,
+            13,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			428,
+			343,
+			170,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0065"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			26,
+            13,
+            9,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			428,
+			343,
+			170,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0066"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			26,
+            10,
+            7,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			463,
+			195,
+			172,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0067"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			26,
+            10,
+            7,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			463,
+			195,
+			172,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0068"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			23,
+            9,
+            9,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			857,
+			1,
+			173,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0069"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			23,
+            9,
+            9,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			857,
+			1,
+			173,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0070"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			49,
+            111,
+            50,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			492,
+			2149,
+			106,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0071"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			49,
+            111,
+            50,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			542,
+			2149,
+			106,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0072"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			49,
+            111,
+            50,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			542,
+			2149,
+			106,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0073"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			52,
+            97,
+            53,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			447,
+			1890,
+			100,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0074"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			52,
+            97,
+            53,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			447,
+			1890,
+			100,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0075"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			52,
+            77,
+            53,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			300,
+			1266,
+			100,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0076"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			52,
+            77,
+            53,
+            9
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			300,
+			1266,
+			100,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0077"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            61,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1230,
+			102,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0078"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            61,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			923,
+			1230,
+			102,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0079"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            50,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1522,
+			101,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0080"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            50,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1522,
+			101,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0081"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            40,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			361,
+			2078,
+			101,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0082"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            40,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			361,
+			2078,
+			101,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0083"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            36,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			739,
+			1026,
+			101,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0084"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            36,
+            53,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			739,
+			1026,
+			101,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0085"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            36,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			739,
+			793,
+			102,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0086"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			51,
+            36,
+            52,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			739,
+			793,
+			102,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0087"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			46,
+            36,
+            51,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1019,
+			108,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0088"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			46,
+            36,
+            51,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			1019,
+			108,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0089"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			844,
+			702,
+			118,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0090"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            47,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			844,
+			702,
+			118,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0091"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			434,
+			122,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0092"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			39,
+            36,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			269,
+			123,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0093"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            43,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			729,
+			549,
+			122,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["soldier_elemental_0094"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			852,
+			472,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_elemental_0095"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			205,
+			159
+		},
+		trim = {
+			40,
+            36,
+            44,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			844,
+			587,
+			121,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			16,
+            20,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			812,
+			2237,
+			45,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			16,
+            20,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			812,
+			2237,
+			45,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			15,
+            14,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			592,
+			2209,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			15,
+            15,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			648,
+			2209,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			7,
+            7,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			403,
+			1332,
+			54,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			7,
+            7,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1903,
+			54,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			4,
+            4,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			557,
+			1951,
+			57,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			4,
+            5,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1779,
+			57,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			2,
+            2,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1623,
+			59,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			2,
+            1,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			532,
+			1710,
+			59,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			4,
+            2,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1684,
+			57,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			5,
+            5,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			305,
+			1565,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			7,
+            7,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1914,
+			54,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			974,
+			1914,
+			42,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			974,
+			1914,
+			42,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			16,
+            20,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			812,
+			2237,
+			45,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			16,
+            20,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			812,
+			2237,
+			45,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0025"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            24,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1310,
+			39,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0026"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            24,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1310,
+			39,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0027"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            14,
+            14,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			549,
+			2257,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0028"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            15,
+            15,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			967,
+			587,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0029"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            7,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			728,
+			1959,
+			59,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0030"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            7,
+            7,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			911,
+			1970,
+			57,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0031"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            5,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			659,
+			1657,
+			62,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0032"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            5,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			788,
+			1719,
+			62,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0033"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            2,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			656,
+			1589,
+			64,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0034"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			593,
+			1686,
+			64,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0035"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			722,
+			1589,
+			62,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0036"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            5,
+            3,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			955,
+			817,
+			61,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0037"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            7,
+            5,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			623,
+			2020,
+			59,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0038"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            24,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			974,
+			1961,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0039"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			17,
+            24,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			974,
+			1961,
+			42,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0040"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            24,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1310,
+			39,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0041"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            24,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			226,
+			1310,
+			39,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0042"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0043"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0044"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0045"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0046"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			686,
+			2015,
+			40,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0047"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			686,
+			2015,
+			40,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0048"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            21,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1913,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0049"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            21,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1913,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0050"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0051"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0052"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0053"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0054"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0055"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0056"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0057"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0058"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0059"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0060"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0061"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0062"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0063"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            20,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			963,
+			2047,
+			52,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0064"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            21,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1913,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0065"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            21,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			616,
+			1913,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0066"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			686,
+			2015,
+			40,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0067"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			19,
+            23,
+            22,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			686,
+			2015,
+			40,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0068"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            23,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			480,
+			791,
+			38,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0069"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0070"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			428,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0071"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            26,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			549,
+			1911,
+			38,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0072"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            26,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			549,
+			1911,
+			38,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0073"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			904,
+			2029,
+			52,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0074"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			904,
+			2029,
+			52,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0075"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0076"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0077"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0078"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0079"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0080"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0081"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0082"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0083"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0084"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0085"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0086"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0087"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0088"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            17,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			757,
+			2201,
+			51,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_shooter_0089"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			904,
+			2029,
+			52,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0090"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			13,
+            23,
+            16,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			904,
+			2029,
+			52,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0091"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            26,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			384,
+			38,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0092"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            26,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			978,
+			384,
+			38,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_shooter_0093"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			81,
+			68
+		},
+		trim = {
+			20,
+            27,
+            23,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			974,
+			2007,
+			38,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcerer_tower_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			343,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			343,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0017"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0018"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0019"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0020"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			343,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0021"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			343,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0022"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0023"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			232,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0024"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0025"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			172,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcerer_tower_0026"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			249,
+			169
+		},
+		trim = {
+			0,
+            0,
+            20,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			1,
+			1,
+			229,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_0009"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			63,
+            19,
+            64,
+            17
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			428,
+			482,
+			22,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_0010"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			63,
+            19,
+            64,
+            17
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			428,
+			482,
+			22,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_0011"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			51,
+            9,
+            50,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			859,
+			2237,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_0012"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			51,
+            9,
+            50,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			859,
+			2237,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_0013"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			47,
+            2,
+            48,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1070,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_0014"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			47,
+            2,
+            48,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			964,
+			1070,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_0015"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			46,
+            0,
+            46,
+            2
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			845,
+			2019,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_0016"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			46,
+            0,
+            46,
+            2
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			845,
+			2019,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_particle"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			43,
+			43
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			906,
+			2230,
+			43,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sorcererbolt_star_0001"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            44,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1594,
+			60,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0002"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            44,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1594,
+			60,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0003"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1656,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0004"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1656,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0005"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1717,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0006"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			853,
+			1717,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0007"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			682,
+			2081,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sorcererbolt_star_0008"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			149,
+			57
+		},
+		trim = {
+			45,
+            0,
+            45,
+            1
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			682,
+			2081,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0083"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			33,
+            19,
+            32,
+            17
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			740,
+			2077,
+			59,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0084"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			26,
+            11,
+            26,
+            10
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			514,
+			1579,
+			72,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0085"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			7,
+            2,
+            7,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			843,
+			817,
+			110,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0086"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			7,
+            2,
+            7,
+            7
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			843,
+			817,
+			110,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0087"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            2,
+            2,
+            4
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			854,
+			384,
+			122,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0088"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			356,
+			1826,
+			124,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0089"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			356,
+			1826,
+			124,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0090"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            2
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			367,
+			1952,
+			124,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0091"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            2
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			367,
+			1952,
+			124,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0092"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			637,
+			195,
+			124,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0093"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			637,
+			195,
+			124,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0094"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			857,
+			176,
+			124,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0095"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			0,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			857,
+			176,
+			124,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0096"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			28,
+            13,
+            26,
+            29
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			523,
+			1455,
+			70,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0097"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			28,
+            13,
+            26,
+            29
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			523,
+			1455,
+			70,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0136"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			1439,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0136_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			687,
+			1477,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0136_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			799,
+			1482,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0136_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			291,
+			1341,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0137"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			299,
+			1453,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0137_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			411,
+			1455,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0137_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			402,
+			1567,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0137_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			420,
+			1679,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0077"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			331,
+			918,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0077_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			343,
+			1034,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0077_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			343,
+			1150,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0077_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			459,
+			991,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0078"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			459,
+			1107,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0078_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			1091,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0078_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			459,
+			1223,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0078_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			1207,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0079"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			691,
+			1129,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0079_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			691,
+			1245,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0079_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			807,
+			1134,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0079_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			807,
+			1250,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0080"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			575,
+			1323,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0080_disabled"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			459,
+			1339,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0080_disabled_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			691,
+			1361,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0080_turn_off"] = {
+		a_name = "tower_sorcerer.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1017,
+			2308
+		},
+		f_quad = {
+			807,
+			1366,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

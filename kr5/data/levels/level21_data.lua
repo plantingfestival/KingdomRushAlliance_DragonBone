@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level21_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -339,11 +337,11 @@ return {
 			}
 		},
 		{
-			["tower.holder_id"] = "3",
+			["tower.holder_id"] = "9",
 			["tower.terrain_style"] = 7,
 			template = "tower_holder_sea_of_trees_7",
 			["editor.game_mode"] = 0,
-			["ui.nav_mesh_id"] = "3",
+			["ui.nav_mesh_id"] = "9",
 			pos = {
 				x = 895,
 				y = 243
@@ -605,74 +603,68 @@ return {
 	},
 	nav_mesh = {
 		{
-			9,
-			12,
-			2
-		},
-		{
-			1,
-			5,
-			7
-		},
-		{
-			nil,
-			6,
-			9
-		},
-		{
-			5,
-			nil,
-			nil,
-			7
-		},
-		{
-			12,
-			nil,
-			4,
-			2
-		},
-		{
-			nil,
-			14,
-			8,
 			3
 		},
 		{
-			2,
-			4
+			4,
+			3,
+			1
 		},
-		{
-			6,
-			13,
+		[4] = {
+			5,
 			nil,
+			2,
+			5
+		},
+		[5] = {
+			7,
+			4,
+			3,
+			6
+		},
+		[6] = {
+			10,
+			7,
+			5
+		},
+		[7] = {
+			9,
+			8,
+			5,
+			6
+		},
+		[8] = {
+			11,
+			11,
+			7,
 			9
 		},
-		{
-			3,
+		[9] = {
+			10,
 			8,
-			1
+			7,
+			10
 		},
 		[11] = {
-			13,
-			nil,
 			12,
-			8
+			nil,
+			8,
+			10
 		},
 		[12] = {
-			11,
-			nil,
-			5,
-			1
-		},
-		[13] = {
 			14,
 			nil,
 			11,
-			8
+			13
+		},
+		[13] = {
+			14,
+			12,
+			10
 		},
 		[14] = {
-			[3] = 13,
-			[4] = 6
+			[3] = 12,
+			[4] = 13
 		}
 	},
 	required_exoskeletons = {
@@ -696,11 +688,15 @@ return {
 	required_sounds = {
 		"music_stage21",
 		"enemies_terrain_crocs",
-		"stage_21"
+		"stage_21",
+		"enemies_sea_of_trees",
+		"terrain_3_common",
+		"enemies_rising_tides"
 	},
 	required_textures = {
 		"go_stage21_bg",
 		"go_stage21",
-		"go_enemies_terrain_5"
+		"go_enemies_terrain_5",
+		"go_enemies_rising_tides"
 	}
 }

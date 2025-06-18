@@ -1,6 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level24_data.lua
-
-return {
+﻿return {
 	locked_hero = false,
 	level_terrain_type = 5,
 	max_upgrade_level = 5,
@@ -1147,12 +1145,15 @@ return {
 		"terrain_6_common",
 		"enemies_terrain_6",
 		"stage_24",
-		"tower_dwarf"
+		"tower_dwarf",
+		"enemies_terrain_4",
+		"enemies_sea_of_trees"
 	},
 	required_textures = {
 		"go_enemies_terrain_6",
 		"go_stage24_bg",
 		"go_stage24",
+		"go_stage23",
 		"go_stages_terrain6"
 	}
 }

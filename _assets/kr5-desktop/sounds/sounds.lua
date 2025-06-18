@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/sounds/sounds.lua
-
 return {
 	AreaAttack = {
 		loop = false,
@@ -5349,7 +5347,7 @@ return {
 		delay = 0.33,
 		source_group = "SFX",
 		files = {
-			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var1_v1ogg",
+			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var1_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var2_v1.ogg",
 			"kra_sfx_spiders_enemy_spider_drainbrood_melee_var3_v1.ogg"
 		}
@@ -8999,6 +8997,2869 @@ return {
 		stream = true,
 		files = {
 			"MusicSuspense.ogg"
+		}
+	},
+	-- customization
+	DeathKnightTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"necromancer_deathknight_taunt_1.ogg",
+			"necromancer_deathknight_taunt_2.ogg"
+		}
+	},
+	NecromancerSummon = {
+		loop = false,
+		gain = 0.3,
+		source_group = "BULLETS",
+		files = {
+			"mecromancer_summon.ogg"
+		}
+	},
+	DeathSkeleton = {
+		loop = false,
+		source_group = "DEATH",
+		files = {
+			"Sound_EnemySkeletonBreak2.ogg"
+		}
+	},
+	HeroDragonAttackHit = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_fireball_explode.ogg"
+		}
+	},
+	HeroDracolichAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"halloween_bonedragon_attack.ogg"
+		}
+	},
+	HeroDracolichBoneRain = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"halloween_bonedragon_bonerain.ogg"
+		}
+	},
+	HeroDracolichDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Bonehart-Death01c_WET.ogg"
+		}
+	},
+	HeroDracolichKamikaze = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"halloween_bonedragon_kamikaze2.ogg"
+		}
+	},
+	HeroDracolichRespawn = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"halloween_bonedragon_respawn_simple.ogg"
+		}
+	},
+	HeroDracolichSoulsPlague = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"halloween_bonedragon_soulsplague.ogg"
+		}
+	},
+	HeroDracolichSpawnDog = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"halloween_bonedragon_spawn_congrowl.ogg"
+		}
+	},
+	HeroDracolichTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Bonehart-01a_WET.ogg",
+			"Bonehart-02b_WET.ogg",
+			"Bonehart-03b_WET.ogg",
+			"Bonehart-04c_WET.ogg"
+		}
+	},
+	HeroDracolichTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroDracolichTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Bonehart-02b_WET.ogg"
+		}
+	},
+	AxeSound = {
+		loop = false,
+		source_group = "BULLETS",
+		files = {
+			"Sound_BattleAxe.ogg"
+		}
+	},
+	BarrackBarbarianTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Barbarian_Ready.ogg",
+			"Barbarian_Taunt1.ogg",
+			"Barbarian_Taunt2.ogg",
+			"Barbarian_Move.ogg"
+		}
+	},
+	BarrackBarbarianDoubleAxesTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Barbarian_Move.ogg"
+		}
+	},
+	BarrackBarbarianThrowingAxesTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Barbarian_Ready.ogg"
+		}
+	},
+	BarrackBarbarianTwisterTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Barbarian_Taunt1.ogg"
+		}
+	},
+	whirlwindattack = {
+		source_group = "SWORDS",
+		loop = false,
+		files = {
+			"kr4_barbarians_berseker_whirlwindattack.ogg"
+		}
+	},
+	AssassinGold = {
+		loop = false,
+		gain = 0.6,
+		source_group = "SPECIALS",
+		files = {
+			"assassin_gold.ogg"
+		}
+	},
+	AssassinSneakAttack = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SPECIALS",
+		files = {
+			"assassin_sneakattack.ogg"
+		}
+	},
+	AssassinTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"assassin_taunt_gold.ogg",
+			"assassin_taunt_counter.ogg",
+			"assassin_taunt_sneak.ogg",
+			"assassin_taunt_ready.ogg"
+		}
+	},
+	AssassinTauntCounter = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"assassin_taunt_counter.ogg"
+		}
+	},
+	AssassinTauntGold = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"assassin_taunt_gold.ogg"
+		}
+	},
+	AssassinTauntReady = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"assassin_taunt_ready.ogg"
+		}
+	},
+	AssassinTauntSneak = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"assassin_taunt_sneak.ogg"
+		}
+	},
+	TowerEntwoodClobber = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_tree_clobber_v2.ogg"
+		}
+	},
+	ElvesRockEntwoodTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"PapaTree_Ready[2]-01d.ogg"
+		}
+	},
+	TowerStoneDruidBoulderThrow = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_stonedruid_boulderthrow-op2.ogg"
+		}
+	},
+	RTWaterExplosion = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"Explosion_water.ogg"
+		}
+	},
+	TowerEntwoodCocoThrow = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_tree_cocothrow.ogg"
+		}
+	},
+	TowerEntwoodCocoExplosion = {
+		loop = false,
+		gain = 0.8,
+		source_group = "EXPLOSIONS",
+		files = {
+			"kr3_sfx_tree_cocoexplosion[explofuerte].ogg"
+		}
+	},
+	TowerEntwoodFieryExplote = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_tree_fierynutexplotion.ogg"
+		}
+	},
+	TowerEntwoodFieryThrow = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_tree_fierynutthrow.ogg"
+		}
+	},
+	TowerEntwoodLeaves = {
+		loop = false,
+		gain = 0.1,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_tree_leaves.ogg"
+		}
+	},
+	ElvesRockEntwoodClobberingTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"PapaTree_Clobberin[2]-01e.ogg"
+		}
+	},
+	ElvesRockEntwoodFieryNutsTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"PapaTree_Fiery[2]-01d.ogg"
+		}
+	},
+	TowerForestKeeperCircleOfHealing = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_forestkeeper_circleofhealing-CONGAITA_HI.ogg"
+		}
+	},
+	TowerForestKeeperNormalSpear = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kr3_sfx_forestkeeper_normalspear_v2-op1.ogg"
+		}
+	},
+	TowerForestKeeperAncientSpear = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_forestkeeper_ancientoakspear_LOW_v1+3db.ogg"
+		}
+	},
+	TowerForestKeeperEerieGarden = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_forestkeeper_eeriegarden_SINPOPS.ogg"
+		}
+	},
+	ElvesBarrackForestKeeperTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"ForestProtector_Ready[2]-01c.ogg",
+			"ForestProtector_Eerie[2]-01a.ogg",
+			"ForestProtector_Circle[2]-01g.ogg",
+			"ForestProtector_Ancient[2]-01c.ogg"
+		}
+	},
+	ElvesBarrackForestKeeperCircleOfLifeTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"ForestProtector_Circle[2]-01g.ogg"
+		}
+	},
+	RTBlacksurgeHoldTower = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"Blacksurge_holdtower.ogg"
+		}
+	},
+	RTWaterDead = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"Waterenemy_death.ogg"
+		}
+	},
+	SpecialMermaid = {
+		loop = false,
+		gain = 0.5,
+		ignore = 0.5,
+		source_group = "SFX",
+		files = {
+			"mermaid.ogg"
+		}
+	},
+	ElvesCreepGolemAreaAttack = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_elemental_areaattack.ogg"
+		}
+	},
+	BoltSorcererSound = {
+		loop = false,
+		gain = 0.68,
+		source_group = "BULLETS",
+		files = {
+			"Sound_Sorcerer.ogg"
+		}
+	},
+	DeathHuman = {
+		loop = false,
+		mode = "random",
+		source_group = "DEATH",
+		files = {
+			"Sound_HumanDead1.ogg",
+			"Sound_HumanDead2.ogg",
+			"Sound_HumanDead3.ogg",
+			"Sound_HumanDead4.ogg"
+		}
+	},
+	ElvesCreepGolemDeath = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_elemental_death.ogg"
+		}
+	},
+	ElvesCreepEvokerHeal = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_evoker_heal[sinshaker].ogg"
+		}
+	},
+	ElvesScourgerDeath = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"kre_sfx_scourger_death.ogg"
+		}
+	},
+	ElvesCrystallizingGnoll = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_unstablecrystal_crystallize[op1].ogg"
+		}
+	},
+	ElvesDeathGnolls = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_crystallizedgnoll_v2.ogg"
+		}
+	},
+	ElvesCrystallizedGnoll = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_crystallizedgnoll_v2.ogg"
+		}
+	},
+	ElvesCreepScreecherDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_bitteringrancor_screecher-death.ogg"
+		}
+	},
+	ElvesCreepScreecherScream = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg"
+		}
+	},
+	SaurianSniperBullet = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"KRF_sfx_suarian_sniper.ogg"
+		}
+	},
+	DeathPuff = {
+		loop = false,
+		gain = 0.8,
+		source_group = "DEATH",
+		files = {
+			"Sound_EnemyPuffDead.ogg"
+		}
+	},
+	SaurianMyrmidonBite = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"myrmidon_bite.ogg"
+		}
+	},
+	SaurianBlazefangDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"blazefang_death.ogg"
+		}
+	},
+	SaurianBlazefangAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"blazefang_attack.ogg"
+		}
+	},
+	SaurianNightscaleInvisible = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"nightscale_invisibility.ogg"
+		}
+	},
+	SaurianDarterTeleporth = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"darter_teleout.ogg"
+		}
+	},
+	SaurianBruteAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"saurian_brute_attack.ogg"
+		}
+	},
+	DeathBig = {
+		loop = false,
+		source_group = "DEATH",
+		files = {
+			"Sound_EnemyBigDead.ogg"
+		}
+	},
+	SaurianSavantOpenPortal = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"savant_open_portal.ogg"
+		}
+	},
+	SaurianSavantPortalLoop = {
+		loop = true,
+		gain = 0.3,
+		source_group = "GUI",
+		files = {
+			"savant_portal_loop.ogg"
+		}
+	},
+	SaurianSavantTeleporth = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"savant_telein.ogg"
+		}
+	},
+	SaurianSavantAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"savant_attack.ogg"
+		}
+	},
+	SaurianKingBossDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"KRF_sfx_saurianboss_muerte.ogg"
+		}
+	},
+	SaurianKingBossHammer = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"KRF_sfx_saurianboss_martillo_1t.ogg"
+		}
+	},
+	SaurianKingBossQuake = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"KRF_sfx_saurianboss_temblor.ogg"
+		}
+	},
+	SaurianKingBossTongue = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"KRF_sfx_saurianboss_op1.ogg"
+		}
+	},
+	ElvesHeroGyroAttack = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_attack[concasquillos].ogg"
+		}
+	},
+	ElvesHeroGyroBombsMarch = {
+		loop = true,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_bombsmarch[op1].ogg"
+		}
+	},
+	ElvesHeroGyroBoombBox = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_boombox.ogg"
+		}
+	},
+	ElvesHeroGyroBoombBoxTouchdown = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_boombox_box.ogg"
+		}
+	},
+	ElvesHeroGyroDeath = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"Gyro_death-01d.ogg"
+		}
+	},
+	ElvesHeroGyroDronesAttack = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_dronesattack[metralla]_cut.ogg"
+		}
+	},
+	ElvesHeroGyroDronesSpawn = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_calldrones.ogg"
+		}
+	},
+	ElvesHeroGyroSmokeLaunch = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kro_sfx_wilbur_smokespit.ogg"
+		}
+	},
+	ElvesHeroGyroTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Gyro_confirm-01c.ogg",
+			"Gyro_confirm-02c.ogg",
+			"Gyro_confirm-03c.ogg",
+			"Gyro_confirm-04b.ogg"
+		}
+	},
+	ElvesHeroGyroTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	ElvesHeroGyroTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Gyro_confirm-01c.ogg"
+		}
+	},
+	RocketLaunchSound = {
+		loop = false,
+		gain = 0.8,
+		source_group = "BULLETS",
+		files = {
+			"Sound_RocketLaunt.ogg"
+		}
+	},
+	DwarvesMechadwarfDeath = {
+		loop = false,
+		gain = 0.3,
+		source_group = "DEATH",
+		files = {
+			"kr4_dwarves_mechadwarf_death.ogg"
+		}
+	},
+	DwarvesSmokebeardRepair = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr4_dwarves_smokebeard_repair.ogg"
+		}
+	},
+	TeslaAttack = {
+		loop = false,
+		gain = 0.6,
+		source_group = "BULLETS",
+		files = {
+			"Sound_Tesla_attack_1.ogg",
+			"Sound_Tesla_attack_2.ogg"
+		}
+	},
+	HWFrankensteinTaunt = {
+		source_group = "TAUNTS",
+		mode = "random",
+		gain = 1,
+		loop = false,
+		files = {
+			"FrankyTower-03c.ogg",
+			"FrankyTower-04a.ogg"
+		}
+	},
+	HWFrankensteinUpgradeFrankenstein = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"FrankyTower-02f.ogg"
+		}
+	},
+	HWFrankensteinUpgradeLightning = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"FrankyTower-01d.ogg"
+		}
+	},
+	HWFrankensteinChargeLightning = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"halloween_tesla_charge.ogg"
+		}
+	},
+	EngineerTeslaChargedBoltTaunt = {
+		loop = false,
+		mode = "random",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Tesla_Taunt2a.ogg",
+			"Tesla_Taunt2b.ogg",
+			"Tesla_Taunt2c.ogg"
+		}
+	},
+	EngineerTeslaOverchargeTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Tesla_Taunt1.ogg"
+		}
+	},
+	EngineerTeslaTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Tesla_Ready.ogg"
+		}
+	},
+	HeroDragonAttackThrow = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_spit.ogg"
+		}
+	},
+	HeroDragonBorn = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_birth.ogg"
+		}
+	},
+	HeroDragonDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"hero_dragon_death.ogg"
+		}
+	},
+	HeroDragonFlame = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_flamethrower.ogg"
+		}
+	},
+	HeroDragonNapalm = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_napalm.ogg"
+		}
+	},
+	HeroDragonSmoke = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"hero_dragon_smoke.ogg"
+		}
+	},
+	HeroDragonTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"dragonHero_confirm1.ogg",
+			"dragonHero_confirm2.ogg",
+			"dragonHero_confirm3.ogg",
+			"dragonHero_confirm4.ogg"
+		}
+	},
+	HeroDragonTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroDragonTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"dragonHero_confirm4.ogg"
+		}
+	},
+	BoltReleaseSound = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"kr4_bolt_release.ogg"
+		}
+	},
+	HeroDianyunSon = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr4_hero_dianyun_son.ogg"
+		}
+	},
+	HeroDianyunTauntDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_hero_dianyun_taunt_death.ogg"
+		}
+	},
+	HeroDianyunTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_hero_dianyun_taunt_1.ogg"
+		}
+	},
+	HeroDianyunTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr4_hero_dianyun_taunt_1.ogg",
+			"kr4_hero_dianyun_taunt_2.ogg",
+			"kr4_hero_dianyun_taunt_3.ogg",
+			"kr4_hero_dianyun_taunt_4.ogg"
+		}
+	},
+	WarmongerMageAttack = {
+		loop = false,
+		gain = 0.6,
+		source_group = "BULLETS",
+		files = {
+			"kr4_warmonger_mage_attack.ogg"
+		}
+	},
+	TowerDruidHengeBearAttack = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg"
+		}
+	},
+	TowerDruidHengeBearDeath = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_druidhenge_beardeath_v3_op1-condesplome.ogg"
+		}
+	},
+	TowerDruidHengeBearSummon = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_druidhenge_bearsummon_v3-op2.ogg"
+		}
+	},
+	TowerDruidHengeRockSummon = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_druidhenge_bouldersummon.ogg"
+		}
+	},
+	TowerStoneDruidBoulderExplote = {
+		loop = false,
+		gain = 0.5,
+		source_group = "EXPLOSIONS",
+		files = {
+			"kr3_sfx_stonedruid_boulderexplosion.ogg"
+		}
+	},
+	TowerStoneDruidBoulderSummon = {
+		loop = false,
+		gain = 0.3,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_stonedruid_bouldersummon.ogg"
+		}
+	},
+	ElvesRockTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1.5,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"StoneDruid_Taunt-01b.ogg",
+			"StoneDruid_Taunt-02b.ogg",
+			"StoneDruid_Taunt-03a.ogg"
+		}
+	},
+	TowerDruidHengeRockThrow = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_druidhenge_rockthrow_v2-op2-medio.ogg"
+		}
+	},
+	ElvesRockHengeTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"DruidHenge_Ready-01a.ogg"
+		}
+	},
+	ElvesRockHengeNatureFriendTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"DruidHenge_Sylvan[2]-01b.ogg"
+		}
+	},
+	ElvesRockHengeSylvanCurseTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"DruidHenge_Sylvan[2]-01b.ogg"
+		}
+	},
+	SoldierDruidBearRallyChange = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Viking_Transform.ogg"
+		}
+	},
+	TowerDruidHengeSylvanCurseCast = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_druidhenge_sylvancursecast_v4-op2.ogg"
+		}
+	},
+	ElfTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"Elf_Taun1.ogg",
+			"Elf_Taun2.ogg"
+		}
+	},
+	ElvesBarrackTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1.5,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Barrack_Taunt[2]-01c.ogg",
+			"Barrack_Taunt[2]-02c.ogg",
+			"Barrack_Taunt[2]-03c.ogg",
+			"Barrack_Taunt[2]-04e.ogg"
+		}
+	},
+	ElvesBarrackBladesingerTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Bladesinger_Ready[2]-01b.ogg",
+			"Bladesinger_PerfectParry[2]-01d.ogg",
+			"Bladesinger_BladeDance[2]-01a.ogg",
+			"Bladesinger_SwirlingEdge[2]-01a.ogg"
+		}
+	},
+	TowerBladesingerPerfectParry = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_bladesinger_perfectparry_v2-op2-faded.ogg"
+		}
+	},
+	TowerBladesingerBladedance = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_bladesinger_bladedance_v2-op2.ogg"
+		}
+	},
+	ElvesBarrackBladesingerPerfectParryTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Bladesinger_PerfectParry[2]-01d.ogg"
+		}
+	},
+	ElvesBarrackBladesingerBladeDanceTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Bladesinger_BladeDance[2]-01a.ogg"
+		}
+	},
+	ElvesBarrackBladesingerSwirlingEdge = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Bladesinger_SwirlingEdge[2]-01a.ogg"
+		}
+	},
+	ElvesDrowTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "SPECIALS",
+		files = {
+			"Drow_01c.ogg",
+			"Drow_02c.ogg",
+			"Drow_03b.ogg"
+		}
+	},
+	ElvesSpecialDrowLifeDrain = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"Drow_01c.ogg"
+		}
+	},
+	ElvesSpecialDrowDaggers = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"Drow_02c.ogg"
+		}
+	},
+	ElvesSpecialDrowBlademail = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"Drow_03b.ogg"
+		}
+	},
+	kr4_elves_barrack_taunt = {
+		loop = false,
+		ignore = 2,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr4_elves_barrack_taunt_1.ogg",
+			"kr4_elves_barrack_taunt_2.ogg",
+			"kr4_elves_barrack_taunt_3.ogg",
+			"kr4_elves_barrack_taunt_4.ogg"
+		}
+	},
+	elves_barrack_backstab_upgrade = {
+		loop = false,
+		source_group = "SPECIALS",
+		files = {
+			"kr4_elves_barrack_backstab_upg.ogg"
+		}
+	},
+	elves_barrack_multishoot_upgrade = {
+		loop = false,
+		source_group = "SPECIALS",
+		files = {
+			"kr4_elves_barrack_multishoot_upg.ogg"
+		}
+	},
+	elves_barrack_afterlife_upgrade = {
+		loop = false,
+		source_group = "SPECIALS",
+		files = {
+			"kr4_elves_barrack_afterlife_upg.ogg"
+		}
+	},
+	elves_arrow_release_sound = {
+		loop = false,
+		mode = "sequence",
+		source_group = "SFX",
+		files = {
+			"kr4_elves_eliteharassers_arrowstorm_single1.ogg",
+			"kr4_elves_eliteharassers_arrowstorm_single2.ogg",
+			"kr4_elves_eliteharassers_arrowstorm_single3.ogg"
+		}
+	},
+	elves_eliteharassers_lastbreath1 = {
+		loop = false,
+		source_group = "SFX",
+		files = {
+			"kr4_elves_eliteharassers_lastbreath1.ogg"
+		}
+	},
+	elves_eliteharassers_lastbreath2 = {
+		loop = false,
+		source_group = "SFX",
+		files = {
+			"kr4_elves_eliteharassers_lastbreath2.ogg"
+		}
+	},
+	RTBluegaleStormAmbience = {
+		loop = false,
+		gain = 1,
+		ignore = 2.33,
+		source_group = "SFX",
+		files = {
+			"Bluegale_storm_ambience.ogg"
+		}
+	},
+	RTBluegaleStormSummon = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"Bluegale_storm_summon.ogg"
+		}
+	},
+	EmberLordsMageAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"kr4_ember_lords_mage_attack.ogg"
+		}
+	},
+	HeroTraminLand = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr4_hero_tramin_land.ogg"
+		}
+	},
+	HeroBeresadSpawnImpact = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr4_hero_beresad_spawn_impact.ogg"
+		}
+	},
+	TenShiTaunt = {
+		source_group = "TAUNTS",
+		mode = "random",
+		gain = 0.7,
+		loop = false,
+		ignore = 1,
+		files = {
+			"TenShi_02c.ogg",
+			"TenShi_01c_and_a.ogg",
+			"TenShi_01a_mmh.ogg",
+			"TenShi_01a_mmh.ogg",
+			"TenShi_01a_mmh.ogg"
+		}
+	},
+	TenShiTauntBuffed = {
+		source_group = "TAUNTS",
+		mode = "random",
+		gain = 0.7,
+		loop = false,
+		ignore = 1,
+		files = {
+			"TenShi_buffed_01c.ogg",
+			"TenShi_buffed_02b.ogg",
+			"TenShi_buffed_01a_laugh_only.ogg"
+		}
+	},
+	TenShiTauntIntro = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	TenShiTauntSelect = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"TenShi_02c.ogg"
+		}
+	},
+	TenShiRespawn = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"TenShi_respawn_01d.ogg"
+		}
+	},
+	TenShiTransformToBuffed = {
+		source_group = "TAUNTS",
+		mode = "sequence",
+		gain = 1,
+		loop = false,
+		files = {
+			"TenShi_transformation_01d.ogg",
+			"TenShi_transformation_02c.ogg"
+		}
+	},
+	TenShiTransformToNormal = {
+		source_group = "TAUNTS",
+		mode = "sequence",
+		gain = 1,
+		loop = false,
+		files = {
+			"TenShi_01a_mmh.ogg"
+		}
+	},
+	TenShiAttack1 = {
+		source_group = "BULLETS",
+		mode = "random",
+		gain = 0.6,
+		loop = false,
+		files = {
+			"kr1_sfx_tenshi_basicAttack1_var1_v1.ogg",
+			"kr1_sfx_tenshi_basicAttack1_var2_v1.ogg",
+			"kr1_sfx_tenshi_basicAttack1_var3_v1.ogg"
+		}
+	},
+	TenShiAttack2 = {
+		loop = false,
+		gain = 0.6,
+		source_group = "BULLETS",
+		files = {
+			"kr1_sfx_tenshi_attack2_v1.ogg"
+		}
+	},
+	TenShiRainOfFireStart = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_rainOfFire_start_mix.ogg"
+		}
+	},
+	TenShiRainOfFireEnd = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_rainOfFire_loop-End_v1_10db.ogg"
+		}
+	},
+	TenShiBuffedSpinAttack = {
+		source_group = "SFX",
+		mode = "random",
+		gain = 1,
+		loop = false,
+		files = {
+			"kr1_sfx_tenshi_buffedSpinAttack_2hits_v1.ogg",
+			"kr1_sfx_tenshi_buffedSpinAttack_3hits_v1.ogg"
+		}
+	},
+	TenShiBuffedBombAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_buffedBombAttack_3hits_v1_op2.ogg"
+		}
+	},
+	TenShiBuffedBombAttackLong = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_buffedBombAttack_6hits_v1_op2.ogg"
+		}
+	},
+	TenShiTransformToBuffedSfx = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_transformToBuffed_op1_v1.ogg"
+		}
+	},
+	TenShiTransformToNormalSfx = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_transformToNormal_v1.ogg"
+		}
+	},
+	TenShiDeathSfx = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_death_v1.ogg"
+		}
+	},
+	TenShiTeleportSfx = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr1_sfx_tenshi_teleport_v1_15db.ogg"
+		}
+	},
+	FireballHit = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"Sound_FireballHit.ogg"
+		}
+	},
+	FireballRelease = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"Sound_FireballUnleash.ogg"
+		}
+	},
+	DarkArmyBarrackBrutalStrike = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kr4_dark_army_barrack_brutal_strike.ogg"
+		}
+	},
+	ElvesMageTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1.5,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Mage_Taunt-01e.ogg",
+			"Mage_Taunt-03d.ogg",
+			"Mage_Taunt[2]-02a.ogg"
+		}
+	},
+	ElvesMageWildMagusDoomTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"WildMagus_Doom[2]-01b.ogg"
+		}
+	},
+	ElvesMageWildMagusSilenceTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"WildMagus_Silence-01c.ogg"
+		}
+	},
+	TowerWizardBasicBolt = {
+		loop = false,
+		gain = 0.1,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_basicwizard_doublebolt-op1.ogg"
+		}
+	},
+	TowerWildMagusBoltcast = {
+		loop = false,
+		gain = 0.3,
+		ignore = 0.3,
+		source_group = "BULLETS",
+		files = {
+			"kr3_sfx_wildmagus_boltcast_v2-op1.ogg"
+		}
+	},
+	TowerWildMagusDisruptionCast = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_wildmagus_disruptioncast_v2.ogg"
+		}
+	},
+	TowerWildMagusDoomCast = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_wildmagus_doomcast_v2.ogg"
+		}
+	},
+	TowerWildMagusDoomExplote = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_wildmagus_doomexplotion_v3-op1.ogg"
+		}
+	},
+	TowerWildMagusDoomLoop = {
+		loop = true,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kr3_sfx_wildmagus_doomloop_v2-op1.ogg"
+		}
+	},
+	ElvesMageWildMagusTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"WildMagus_Ready-01a.ogg"
+		}
+	},
+	TemplarArterial = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"templar_arterialStrike.ogg"
+		}
+	},
+	TemplarHolygrail = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"templar_holyGrail.ogg"
+		}
+	},
+	TemplarTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"templar_taunt_ready.ogg",
+			"templar_taunt_1.ogg",
+			"templar_taunt_2.ogg",
+			"templar_taunt_3.ogg"
+		}
+	},
+	TemplarTauntReady = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"templar_taunt_3.ogg"
+		}
+	},
+	TemplarTauntTauntOne = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"templar_taunt_ready.ogg"
+		}
+	},
+	TemplarTauntTauntTwo = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"templar_taunt_1.ogg"
+		}
+	},
+	TemplarTauntThree = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"templar_taunt_2.ogg"
+		}
+	},
+	HeroRiflemanBrea = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Dwarf_brea_shot2.ogg"
+		}
+	},
+	HeroRiflemanBreaHit = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Dwarf_brea_shot_hit.ogg"
+		}
+	},
+	HeroRiflemanDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Dwarf-Rifleman-Death_c.ogg"
+		}
+	},
+	HeroRiflemanMine = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Dwarf_mine.ogg"
+		}
+	},
+	HeroRiflemanTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Dwarf-Rifleman-04c.ogg",
+			"Dwarf-Rifleman-02c.ogg",
+			"Dwarf-Rifleman-03c.ogg",
+			"Dwarf-Rifleman-01a.ogg"
+		}
+	},
+	HeroRiflemanTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroRiflemanTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Dwarf-Rifleman-01a.ogg"
+		}
+	},
+	ShotgunSound = {
+		loop = false,
+		source_group = "BULLETS",
+		files = {
+			"Sound_Shootgun.ogg"
+		}
+	},
+	HeroPaladinDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Holy-Paladin-Death_b.ogg"
+		}
+	},
+	HeroPaladinDeflect = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Paladin_deflect.ogg"
+		}
+	},
+	HeroPaladinTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Holy-Paladin-04a.ogg",
+			"Holy-Paladin-02c.ogg",
+			"Holy-Paladin-03b.ogg",
+			"Holy-Paladin-01c.ogg"
+		}
+	},
+	HeroPaladinTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroPaladinTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Holy-Paladin-01c.ogg"
+		}
+	},
+	HeroPaladinValor = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Paladin_shield_buff.ogg"
+		}
+	},
+	HeroFrostDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Frost-Mage-Death_01c.ogg"
+		}
+	},
+	HeroFrostGroundFreeze = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elora_GroundFreeze.ogg"
+		}
+	},
+	HeroFrostIceRainBreak = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elora_IceShardBreak.ogg"
+		}
+	},
+	HeroFrostIceRainDrop = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elora_IceShard.ogg"
+		}
+	},
+	HeroFrostIceRainSummon = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elora_IceShardSummon.ogg"
+		}
+	},
+	HeroFrostTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Frost-Mage-04a.ogg",
+			"Frost-Mage-03d.ogg",
+			"Frost-Mage-02c.ogg",
+			"Frost-Mage-01a.ogg"
+		}
+	},
+	HeroFrostTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroFrostTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Frost-Mage-01a.ogg"
+		}
+	},
+	HeroRainOfFireArea = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Cinder_special_area.ogg"
+		}
+	},
+	HeroRainOfFireDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elemental-Death_c.ogg"
+		}
+	},
+	HeroRainOfFireFireball1 = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Cinder_special_fireball_1_start.ogg"
+		}
+	},
+	HeroRainOfFireFireball2 = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Cinder_special_fireball_2_end.ogg"
+		}
+	},
+	HeroRainOfFireTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Elemental-01c.ogg",
+			"Elemental-02c.ogg",
+			"Elemental-03b.ogg",
+			"Elemental-04c.ogg"
+		}
+	},
+	HeroRainOfFireTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroRainOfFireTauntSelect = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Elemental-01c.ogg"
+		}
+	},
+	HeroReinforcementHit = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Motumbo_hit.ogg"
+		}
+	},
+	DwarfArcherTaunt1 = {
+		source_group = "TAUNTS",
+		gain = 1,
+		loop = false,
+		files = {
+			"dwarfArcher_taunt_1.ogg"
+		}
+	},
+	DwarfArcherTaunt2 = {
+		source_group = "TAUNTS",
+		gain = 1,
+		loop = false,
+		files = {
+			"dwarfArcher_taunt_2.ogg"
+		}
+	},
+	DwarfTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"dwarf_taunt_1.ogg",
+			"dwarf_taunt_2.ogg",
+			"dwarfBarracks_taunt_1.ogg"
+		}
+	},
+	DwarfHeroTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"dwarfHero_taunt_confirm_1.ogg",
+			"dwarfHero_taunt_confirm_2.ogg",
+			"dwarfHero_taunt_confirm_3.ogg"
+		}
+	},
+	DwarfHeroTauntDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"dwarfHero_taunt_death.ogg"
+		}
+	},
+	DwarfHeroTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	BarrackPaladinHealingTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Paladin_Ready.ogg"
+		}
+	},
+	BarrackPaladinHolyStrikeTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Paladin_Taunt1.ogg"
+		}
+	},
+	BarrackPaladinShieldTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Paladin_Taunt2.ogg"
+		}
+	},
+	BarrackPaladinTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Paladin_Ready.ogg",
+			"Paladin_Taunt1.ogg",
+			"Paladin_Taunt2.ogg",
+			"Paladin_Move.ogg"
+		}
+	},
+	HealingSound = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"Sound_PaladinHeal.ogg"
+		}
+	},
+	ArcherTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1.5,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Archer_Ready.ogg",
+			"Archer_Taunt1.ogg",
+			"Archer_Taunt2.ogg"
+		}
+	},
+	TotemSpirits = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"axlethrower_totem_spirits.ogg"
+		}
+	},
+	TotemTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"axlethrower_taunt_ready.ogg",
+			"axlethrower_taunt_totem1.ogg",
+			"axlethrower_taunt_totem2.ogg"
+		}
+	},
+	TotemTauntReady = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"axlethrower_taunt_ready.ogg"
+		}
+	},
+	TotemTauntTotemOne = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"axlethrower_taunt_totem1.ogg"
+		}
+	},
+	TotemTauntTotemTwo = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"axlethrower_taunt_totem2.ogg"
+		}
+	},
+	TotemVanish = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"axlethrower_totem_vanish.ogg"
+		}
+	},
+	TotemWeakness = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"axlethrower_totem_weakness.ogg"
+		}
+	},
+	CrossbowEagle = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SPECIALS",
+		files = {
+			"crossbow_eagle.ogg"
+		}
+	},
+	CrossbowTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"crossbow_taunt_ready.ogg",
+			"crossbow_taunt_eagle.ogg",
+			"crossbow_taunt_multishot.ogg"
+		}
+	},
+	CrossbowTauntEagle = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"crossbow_taunt_eagle.ogg"
+		}
+	},
+	CrossbowTauntMultishoot = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"crossbow_taunt_multishot.ogg"
+		}
+	},
+	CrossbowTauntReady = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"crossbow_taunt_ready.ogg"
+		}
+	},
+	ArcherRangerPoisonTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Ranger_Taunt1.ogg"
+		}
+	},
+	ShrapnelSound = {
+		loop = false,
+		source_group = "BULLETS",
+		files = {
+			"Sound_Shrapnel.ogg"
+		}
+	},
+	SniperSound = {
+		loop = false,
+		source_group = "BULLETS",
+		files = {
+			"Sound_Sniper.ogg"
+		}
+	},
+	ArcherMusketeerShrapnelTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Muskateer_Event1.ogg"
+		}
+	},
+	ArcherMusketeerSniperTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Muskateer_Snipe.ogg"
+		}
+	},
+	ArcherMusketeerTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.6,
+		source_group = "TAUNTS",
+		files = {
+			"Muskateer_Ready.ogg",
+			"Muskateer_Event1.ogg",
+			"Muskateer_Event2.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_build_taunt = {
+		loop = false,
+		mode = "random",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_taunt_1.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_taunt_2.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_taunt_3.ogg",
+			"kr4_fallen_ones_spirit_mausoleum_taunt_4.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_communion_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_communion_upg.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_possesion_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_possesion_upg.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_gargoyles_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_gargoyles_upg.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_attack_preload = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_attack_preload.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_attack = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_attack.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_possession_cast = {
+		loop = false,
+		gain = 0.5,
+		source_group = "BULLETS",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_possession_cast.ogg"
+		}
+	},
+	fallen_ones_spirit_mausoleum_possession_hit = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kr4_fallen_ones_spirit_mausoleum_possession_hit.ogg"
+		}
+	},
+	open_door_sound = {
+		loop = false,
+		gain = 1,
+		source_group = "GUI",
+		files = {
+			"kr4_tower_open_door.ogg"
+		}
+	},
+	warmonger_barrack_build_taunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_taunt_1.ogg",
+			"kr4_warmonger_barrack_taunt_2.ogg",
+			"kr4_warmonger_barrack_taunt_3.ogg"
+		}
+	},
+	warmonger_barrack_extra_armor_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_battlewits_upg.ogg"
+		}
+	},
+	warmonger_barrack_regeneration_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_seal_of_blood_upg.ogg"
+		}
+	},
+	warmonger_barrack_unit_swap_upgrade = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_promotion_upg.ogg"
+		}
+	},
+	warmonger_barrack_move_taunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_battlewits_upg.ogg",
+			"kr4_warmonger_barrack_seal_of_blood_upg.ogg",
+			"kr4_warmonger_barrack_taunt_4.ogg"
+		}
+	},
+	warmonger_barrack_build_taunt_4 = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_warmonger_barrack_taunt_4.ogg"
+		}
+	},
+	orcs_death_sound = {
+		loop = false,
+		gain = 0.35,
+		source_group = "SFX",
+		files = {
+			"kr4_orcs_death.ogg"
+		}
+	},
+	legionnaire_taunt_1 = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"legionnaire_taunt_1.ogg"
+		}
+	},
+	legionnaire_taunt_2 = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"legionnaire_taunt_2.ogg"
+		}
+	},
+	legionnaire_move_taunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"legionnaire_taunt_1.ogg",
+			"legionnaire_taunt_2.ogg"
+		}
+	},
+	kr4_enemies_sandstorm_elephant_death = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_elephant_death_v1.ogg"
+		}
+	},
+	kr4_enemies_sandstorm_elephant_drums = {
+		loop = true,
+		gain = 0.9,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_elephant_buff_v2_LOOP_withTail.ogg"
+		}
+	},
+	kr4_enemies_sandstorm_elephant_ambient_1 = {
+		loop = false,
+		gain = 8,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_elephant_ambient_var1.ogg"
+		}
+	},
+	sandstorm_elephant_ambient = {
+		loop = false,
+		mode = "random",
+		gain = 8,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_elephant_ambient_var1.ogg",
+			"kr4_sfx_elephant_ambient_var2.ogg"
+		}
+	},
+	HeroSamuraiDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Oni-Death01a.ogg"
+		}
+	},
+	HeroSamuraiDeathStrike = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"inferno_oni_instakill.ogg"
+		}
+	},
+	HeroSamuraiTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Oni-04a.ogg",
+			"Oni-03c.ogg",
+			"Oni-02c.ogg",
+			"Oni-01c.ogg"
+		}
+	},
+	HeroSamuraiTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	HeroSamuraiTorment = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"inferno_oni_groundSwords.ogg"
+		}
+	},
+	PirateTowerTaunt1 = {
+		source_group = "TAUNTS",
+		gain = 1,
+		loop = false,
+		files = {
+			"Pirate_Tower_01a.ogg"
+		}
+	},
+	PirateTowerTaunt2 = {
+		source_group = "TAUNTS",
+		gain = 1,
+		loop = false,
+		files = {
+			"Pirate_Tower_02b.ogg"
+		}
+	},
+	AmazonTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"amazon_taunt_1.ogg",
+			"amazon_taunt_2.ogg"
+		}
+	},
+	SpecialCarnivorePlant = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"carnivore_plant.ogg"
+		}
+	},
+	krv_sfx_bucaneer_attack = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"krv_sfx_bucaneer_attack.ogg"
+		}
+	},
+	krv_sfx_bucaneer_explotion = {
+		loop = false,
+		gain = 0.7,
+		ignore = 1,
+		source_group = "SFX",
+		files = {
+			"krv_sfx_bucaneer_explotion.ogg"
+		}
+	},
+	kr4_enemies_pirates_corsair_heal = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"jw_fx_pirates_corsair_heal_v1.ogg"
+		}
+	},
+	kr4_enemies_pirates_boatswain_melee = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"jw_sfx_pirates_boatswain_melee_v1.ogg"
+		}
+	},
+	PiratesTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"pirate_taunt_1.ogg",
+			"pirate_taunt_2.ogg",
+			"pirate_taunt_3.ogg"
+		}
+	},
+	PirateBigTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Pirate_Big_01c.ogg",
+			"Pirate_Big_02c.ogg"
+		}
+	},
+	dwarves_sulfur_alchemist_death = {
+		loop = false,
+		gain = 1,
+		source_group = "DEATH",
+		files = {
+			"kr4_dwarves_sulfur_alchemist_death.ogg"
+		}
+	},
+	common_enemies_dead = {
+		loop = false,
+		gain = 0.7,
+		source_group = "DEATH",
+		files = {
+			"kr4_enemies_common_dead.ogg"
+		}
+	},
+	ElvesGnomeDeathTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kro_sfx_gnome_death[op1].ogg",
+			"kro_sfx_gnome_death[op4].ogg",
+			"kro_sfx_gnome_death[op7].ogg"
+		}
+	},
+	ElvesGnomeDesintegrate = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_gnome_desintegrate_v2[comic].ogg"
+		}
+	},
+	ElvesGnomeNew = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"Gnome_02a.ogg"
+		}
+	},
+	ElvesGnomePoison = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_gnome_poison_v2[confrasco].ogg"
+		}
+	},
+	ElvesGnomePolymorf = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_gnome_polymorf[conchimes].ogg"
+		}
+	},
+	ElvesGnomePower = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"Gnome_01d.ogg"
+		}
+	},
+	ElvesGnomeSteal = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_gnome_polymorf[conchimes].ogg"
+		}
+	},
+	ElvesGnomeTeleport = {
+		loop = false,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_veznan_teleport_v1.ogg"
+		}
+	},
+	VenomPlantDischarge = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_poisonplant_discharge[conacido]_B.ogg"
+		}
+	},
+	VenomPlantReady = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_poisonplant_ready_v2B.ogg"
+		}
+	},
+	ElvesEwokAttack = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"Awok_02c.ogg"
+		}
+	},
+	ElvesEwokTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "SPECIALS",
+		files = {
+			"Awok_01b.ogg",
+			"Awok_02c.ogg"
+		}
+	},
+	ElvesPlantMissile = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"kre_sfx_plant_magicmissile.ogg"
+		}
+	},
+	ElvesPlantReady = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kre_sfx_plant_ready_conchime.ogg"
+		}
+	},
+	ElvesFaeryDragonAttack = {
+		loop = false,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_faerydragon_sfx_attack[op2][soloattack]_B.ogg"
+		}
+	},
+	ElvesFaeryDragonAttackCristalization = {
+		loop = false,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_faerydragon_attack[solocristalizacion].ogg"
+		}
+	},
+	ElvesFaeryDragonDragonBuy = {
+		loop = false,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_faerydragon_buydragon[op1].ogg"
+		}
+	},
+	ElvesFaeryDragonExtraAbility = {
+		loop = false,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kro_sfx_faerydragon_extraability[solochimes].ogg"
+		}
+	},
+	GenieTaunt = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"genie_taunt_1.ogg",
+			"genie_taunt_2.ogg"
+		}
+	},
+	ElvesHeroEridanDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Eridan_Death-01a.ogg"
+		}
+	},
+	ElvesHeroEridanDoubleStrike = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_eridan_doublestrike_v2[mid].ogg"
+		}
+	},
+	ElvesHeroEridanNimbleFencing = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_eridan_nimblefencing.ogg"
+		}
+	},
+	ElvesHeroEridanTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Eridan_Confirm-01d.ogg",
+			"Eridan_Confirm-03b.ogg",
+			"Eridan_Confirm03-01a.ogg",
+			"Eridan_confirmextra-01a.ogg",
+			"Arivan_Confirm-01b.ogg",
+			"Arivan_Confirm-02c.ogg",
+			"Arivan_Confirm-03a.ogg",
+			"Arivan_Confirm04-01a.ogg"
+		}
+	},
+	ElvesHeroEridanTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	ElvesHeroArivanDeath = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Arivan_Death-01a.ogg"
+		}
+	},
+	ElvesHeroArivanFireball = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_fireballshot_v2.ogg"
+		}
+	},
+	ElvesHeroArivanFireballExplode = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_fireballhit_v3.ogg"
+		}
+	},
+	ElvesHeroArivanFireballSummon = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_fireballsummon[op2].ogg"
+		}
+	},
+	ElvesHeroArivanIceShoot = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_iceboltshot_v2[contono].ogg"
+		}
+	},
+	ElvesHeroArivanIceShootHit = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_icebolt[hit].ogg"
+		}
+	},
+	ElvesHeroArivanLightingBolt = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_lightningbolt_v2.ogg"
+		}
+	},
+	ElvesHeroArivanStorm = {
+		loop = true,
+		gain = 0.3,
+		source_group = "GUI",
+		files = {
+			"kre_sfx_arivan_elementalstorm_v2_op3.ogg"
+		}
+	},
+	ElvesHeroArivanSummonRocks = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"kre_sfx_arivan_stonesummon_v2.ogg"
+		}
+	},
+	ElvesHeroArivanTaunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"Arivan_Confirm-01b.ogg",
+			"Arivan_Confirm-02c.ogg",
+			"Arivan_Confirm-03a.ogg",
+			"Arivan_Confirm04-01a.ogg"
+		}
+	},
+	ElvesHeroArivanTauntIntro = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"Level_up.ogg"
+		}
+	},
+	ElvesHeroArivanRegularRay = {
+		loop = false,
+		gain = 1,
+		source_group = "SPECIALS",
+		files = {
+			"archmage_attack.ogg"
+		}
+	},
+	dinos_ignis_altar_build_taunt = {
+		loop = false,
+		gain = 1,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr4_dinos_ignis_altar_build_taunt_1.ogg",
+			"kr4_dinos_ignis_altar_build_taunt_2.ogg",
+			"kr4_dinos_ignis_altar_build_taunt_3.ogg"
+		}
+	},
+	ignis_altar_build_taunt_4 = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_dinos_ignis_altar_build_taunt_4.ogg"
+		}
+	},
+	ignis_altar_upgrade_elemental = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_dinos_ignis_altar_upgrade_elemental.ogg"
+		}
+	},
+	ignis_altar_upgrade_true_fire = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_dinos_ignis_altar_upgrade_true_fire.ogg"
+		}
+	},
+	ignis_altar_upgrade_debuff = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		files = {
+			"kr4_dinos_ignis_altar_upgrade_debuff.ogg"
+		}
+	},
+	dinos_ignis_altar_single_extinction_explotion = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_single_extintion_explotion.ogg"
+		}
+	},
+	dinos_ignis_altar_single_extinction_1 = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_single_extintion_var1.ogg"
+		}
+	},
+	dinos_ignis_altar_attack_shoot = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_attack_shoot.ogg"
+		}
+	},
+	dinos_ignis_altar_attack_dot = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_attack_dot.ogg"
+		}
+	},
+	dinos_ignis_altar_summon_elemental = {
+		loop = false,
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_burning_summon.ogg"
+		}
+	},
+	dinos_ignis_altar_elemental_spawn = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_burning_arise.ogg"
+		}
+	},
+	dinos_ignis_altar_elemental_respawn = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_tower_altar_burning_elemental_respawn.ogg"
 		}
 	}
 }

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5-desktop/data/map_data.lua
-
 return {
 	hero_data_iap = {
 		hero_vesper = {
@@ -102,6 +100,26 @@ return {
 			icon_idx = 6,
 			coming_soon = false,
 			iap = true
+		},
+		hero_dracolich = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_wilbur = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_dianyun = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_10yr = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
 		}
 	},
 	hero_data_free = {
@@ -206,6 +224,26 @@ return {
 			available_at_stage = 29,
 			icon_idx = 7,
 			coming_soon = false
+		},
+		hero_dracolich = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_wilbur = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_dianyun = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
+		hero_10yr = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
 		}
 	},
 	hero_order_iap = {
@@ -225,7 +263,11 @@ return {
 		"hero_lumenir",
 		"hero_dragon_gem",
 		"hero_dragon_arb",
-		"hero_dragon_bone"
+		"hero_dragon_bone",
+		"hero_dianyun",
+		"hero_wilbur",
+		"hero_dracolich",
+		"hero_10yr"
 	},
 	hero_order_free = {
 		"hero_vesper",
@@ -244,7 +286,11 @@ return {
 		"hero_lava",
 		"hero_dragon_bone",
 		"hero_dragon_arb",
-		"hero_spider"
+		"hero_spider",
+		"hero_dianyun",
+		"hero_wilbur",
+		"hero_dracolich",
+		"hero_10yr"
 	},
 	hero_order_censored_cn = {
 		"hero_vesper",
@@ -334,6 +380,18 @@ return {
 		sparking_geode = {
 			icon_idx = 1,
 			iap = true
+		},
+		rock_thrower = {
+			icon_idx = 1
+		},
+		warmongers_barrack = {
+			icon_idx = 1
+		},
+		ignis_altar = {
+			icon_idx = 1
+		},
+		random = {
+			icon_idx = 1
 		}
 	},
 	tower_data_free = {
@@ -396,8 +454,8 @@ return {
 		},
 		dark_elf = {
 			icon_idx = 1,
-			available_at_stage = 19,
-			censored_cn = true
+			available_at_stage = 19
+			-- censored_cn = true
 		},
 		hermit_toad = {
 			icon_idx = 1,
@@ -411,6 +469,18 @@ return {
 		sparking_geode = {
 			icon_idx = 1,
 			available_at_stage = 29
+		},
+		rock_thrower = {
+			icon_idx = 1
+		},
+		warmongers_barrack = {
+			icon_idx = 1
+		},
+		ignis_altar = {
+			icon_idx = 1
+		},
+		random = {
+			icon_idx = 1
 		}
 	},
 	tower_order_iap = {
@@ -432,7 +502,11 @@ return {
 		"hermit_toad",
 		"sparking_geode",
 		"necromancer",
-		"ghost"
+		"ghost",
+		"rock_thrower",
+		"warmongers_barrack",
+		"ignis_altar",
+		"random"
 	},
 	tower_order_free = {
 		"royal_archers",
@@ -453,7 +527,11 @@ return {
 		"dark_elf",
 		"hermit_toad",
 		"dwarf",
-		"sparking_geode"
+		"sparking_geode",
+		"rock_thrower",
+		"warmongers_barrack",
+		"ignis_altar",
+		"random"
 	},
 	tower_order_censored_cn = {
 		"royal_archers",
@@ -482,7 +560,20 @@ return {
 		"winter_age",
 		"loot_box",
 		"summon_blackburn",
-		"veznan_wrath"
+		"veznan_wrath",
+		"hero_bolin",
+		"hero_gerald",
+		"hero_ignus",
+		"hero_elora",
+		"hero_oni",
+		"hero_thor",
+		"hero_magnus",
+		"hero_denas",
+		"hero_hacksaw",
+		"hero_ingvar",
+		"hero_dragon",
+		"hero_dwarf",
+		"hero_elves_archer"
 	},
 	item_order_censored_cn = {
 		"cluster_bomb",

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/screen_map.lua
-
 local log = require("klua.log"):new("screen_map")
 local class = require("middleclass")
 local DI = require("difficulty")
@@ -64,7 +62,7 @@ screen_map.required_textures = {
 	"screen_map",
 	"screen_map_bg",
 	"screen_map_hud",
-	"screen_map_stage_thumbs",
+	-- "screen_map_stage_thumbs",
 	"room_achievements",
 	"room_difficulty",
 	"room_cards",
@@ -75,7 +73,7 @@ screen_map.required_textures = {
 	"room_upgrades",
 	"room_item",
 	"room_levelselect",
-	"achievements",
+	-- "achievements",
 	"gui_popups",
 	"gui_portraits"
 }
@@ -84,7 +82,7 @@ if not IS_MOBILE then
 	table.insert(screen_map.required_textures, "gui_popups_desktop")
 end
 
-if KR_GAME ~= "kr3" then
+if KR_GAME ~= "kr5" then
 	table.insert(screen_map.required_textures, "screen_map_road")
 end
 
@@ -278,8 +276,8 @@ function screen_map:init(w, h, done_callback)
 
 		if not level then
 			log.error("victory level %s was not shown in map before. ignoring victory", victory.level_idx)
-		elseif victory.level_idx > GS.last_level then
-			log.error("victory level %s was discarded for being from a newer version of the game", victory.level_idx)
+		-- elseif victory.level_idx > GS.last_level then
+			-- log.error("victory level %s was discarded for being from a newer version of the game", victory.level_idx)
 		else
 			if victory.level_mode == GAME_MODE_CAMPAIGN then
 				if not level[GAME_MODE_CAMPAIGN] then
@@ -355,13 +353,9 @@ function screen_map:init(w, h, done_callback)
 	if U.unlock_next_levels_in_ranges(self.unlock_data, levels, GS, owned_dlcs) then
 		storage:save_slot(user_data)
 
-		local dlcsCount = 0
-
-		for i = 2, #GS.level_ranges do
-			if U.is_dlc_level(GS.level_ranges[i][1]) then
-				dlcsCount = dlcsCount + 1
-			elseif table.contains(self.unlock_data.unlocked_levels, GS.level_ranges[i][1]) then
-				local update_id = string.format("%02d", i - 1 - dlcsCount)
+		for i = 2, #GS.level_ranges - #GS.dlc_names do
+			if table.contains(self.unlock_data.unlocked_levels, GS.level_ranges[i][1]) then
+				local update_id = string.format("%02d", i - 1)
 
 				table.insert(unlocked_campaigns, "update_" .. update_id)
 			end
@@ -561,6 +555,17 @@ function screen_map:init(w, h, done_callback)
 				ISM.c_hide_view,
 				{
 					"shop_room_view"
+				}
+			},
+			{
+				"escape",
+				ISM.q_is_view_visible,
+				{
+					"item_room_view"
+				},
+				ISM.c_hide_view,
+				{
+					"item_room_view"
 				}
 			},
 			{
@@ -871,7 +876,7 @@ function screen_map:init(w, h, done_callback)
 				exp_time = marketing:set_active_offer(offer)
 
 				wid("group_offer_icon"):update_offer(offer, exp_time)
-
+				
 				local peristent_offers = marketing:get_candidate_offers(true) or {}
 
 				for k, v in pairs(peristent_offers) do
@@ -1209,7 +1214,7 @@ function screen_map:init_bars()
 
 		local gr = wid("group_map_hud"):ci("group_bottom")
 		local list = {
-			"items",
+			-- "items",
 			"shop"
 		}
 
@@ -1308,7 +1313,7 @@ function screen_map:init_bars()
 
 	local user_data = storage:load_slot()
 
-	wid("group_bottom"):ci("alert_items").hidden = features.no_gems or user_data.gems < self.item_data.cluster_bomb.cost
+	wid("group_bottom"):ci("alert_items").hidden = true
 	wid("group_bottom"):ci("alert_shop").hidden = features.no_gems or true
 
 	local achievement_claimed_pending = false
@@ -1772,10 +1777,6 @@ end
 
 function screen_map:hide_item_room()
 	wid("item_room_view"):hide()
-
-	local user_data = storage:load_slot()
-
-	wid("group_bottom"):ci("alert_items").hidden = user_data.gems < self.item_data.cluster_bomb.cost
 end
 
 function screen_map:check_item_room()
@@ -1884,7 +1885,7 @@ function screen_map:quit_to_slots()
 	})
 end
 
-function screen_map:start_level(level_idx, level_mode)
+function screen_map:start_level(level_idx, level_mode, extra_enemies)
 	local user_data = storage:load_slot()
 
 	storage:save_slot(user_data, nil, true)
@@ -1892,7 +1893,8 @@ function screen_map:start_level(level_idx, level_mode)
 		next_item_name = "game",
 		level_idx = level_idx,
 		level_mode = level_mode,
-		level_difficulty = user_data.difficulty
+		level_difficulty = user_data.difficulty,
+		extra_enemies = extra_enemies
 	})
 end
 
@@ -1967,7 +1969,7 @@ end
 
 function screen_map:update_item_data()
 	screen_map.item_data = table.deepclone(iap_data.shop_data)
-
+	
 	if features.censored_cn then
 		screen_map.item_order = map_data.item_order_censored_cn
 	else

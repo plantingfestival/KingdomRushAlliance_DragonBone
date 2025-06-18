@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5-desktop/data/iap_data.lua
-
 return {
 	gem_pack_reference = "gems_handful",
 	cheapest_item_cost = 50,
@@ -91,6 +89,123 @@ return {
 				35.7,
 				242.25,
 				84.15,
+				255
+			}
+		},
+		hero_bolin = {
+			cost = 500,
+			color_bg = {
+				244.79999999999998,
+				119.85,
+				0,
+				255
+			}
+		},
+		hero_gerald = {
+			cost = 500,
+			color_bg = {
+				0,
+				142.8,
+				242.25,
+				255
+			}
+		},
+		hero_ignus = {
+			cost = 500,
+			color_bg = {
+				244.79999999999998,
+				119.85,
+				0,
+				255
+			}
+		},
+		hero_elora = {
+			cost = 500,
+			color_bg = {
+				22.95,
+				201.45000000000002,
+				234.60000000000002,
+				255
+			}
+		},
+		hero_oni = {
+			cost = 500,
+			color_bg = {
+				239,
+				0,
+				0,
+				255
+			}
+		},
+		hero_thor = {
+			cost = 500,
+			color_bg = {
+				66,
+				247,
+				254,
+				255
+			}
+		},
+		hero_magnus = {
+			cost = 500,
+			color_bg = {
+				114,
+				0,
+				252,
+				255
+			}
+		},
+		hero_denas = {
+			cost = 500,
+			color_bg = {
+				201,
+				29,
+				244,
+				255
+			}
+		},
+		hero_hacksaw = {
+			cost = 500,
+			color_bg = {
+				176,
+				234,
+				58,
+				255
+			}
+		},
+		hero_ingvar = {
+			cost = 500,
+			color_bg = {
+				255,
+				84,
+				1,
+				255
+			}
+		},
+		hero_dwarf = {
+			cost = 500,
+			color_bg = {
+				33,
+				215,
+				198,
+				255
+			}
+		},
+		hero_dragon = {
+			cost = 1000,
+			color_bg = {
+				244.79999999999998,
+				119.85,
+				0,
+				255
+			}
+		},
+		hero_elves_archer = {
+			cost = 1000,
+			color_bg = {
+				165,
+				197,
+				31,
 				255
 			}
 		}

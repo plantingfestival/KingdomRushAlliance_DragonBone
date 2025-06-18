@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/systems.lua
-
 local log = require("klua.log"):new("systems")
 local log_xp = log.xp or log:new("xp")
 local log_hp = log.hp or log:new("hp")
@@ -32,6 +30,7 @@ local bit = require("bit")
 local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
+local balance = require("balance/balance")
 
 require("constants")
 
@@ -86,6 +85,28 @@ function sys.level:init(store)
 		end
 	end
 
+	local function load_exoskeletons(prefix)
+		local FS = love.filesystem
+		local path = string.format("%s/data/exoskeletons", KR_PATH_GAME)
+		local files = FS.getDirectoryItems(path)
+		if not files or #files == 0 then
+			return
+		end
+		files = table.filter(files, function(k, v)
+			return string.match(v, "^" .. prefix .. "[^.]-%.lua$")
+		end)
+		if not files or #files == 0 then
+			return
+		end
+		for i = 1, #files do
+			local name = files[i]
+			local startPos, endPos = string.find(name, "%.lua$")
+			files[i] = string.sub(name, 1, startPos - 1)
+		end
+	
+		EXO:load(files)
+	end
+
 	if slot.heroes.team then
 		store.selected_team = table.clone(slot.heroes.team)
 		store.hero_team = {}
@@ -95,6 +116,11 @@ function sys.level:init(store)
 
 		for k, v in ipairs(store.selected_team) do
 			store.selected_team_status[v] = table.clone(slot.heroes.status[v])
+			load_exoskeletons(v)
+		end
+
+		for k, v in ipairs(store.selected_towers) do
+			load_exoskeletons(v)
 		end
 	elseif slot.heroes.selected then
 		local hero_name = slot.heroes.selected
@@ -161,7 +187,7 @@ function sys.level:init(store)
 
 	store.level.co = nil
 	store.level.run_complete = nil
-	store.player_gold = W:initial_gold()
+	store.player_gold = math.floor(W:initial_gold() * ((4 - store.level_difficulty) * 0.3 + 1))
 
 	if store.level_mode == GAME_MODE_CAMPAIGN then
 		store.lives = 20
@@ -183,7 +209,7 @@ function sys.level:init(store)
 			LU.insert_hero_kr5(store, hero_name, nil, store.selected_team_status[hero_name])
 		end
 	end
-
+	
 	store.level_init_finished = true
 
 	log.info("level_idx:%02d, level_mode:%d, level_difficulty:%d", store.level_idx, store.level_mode, store.level_difficulty)
@@ -626,6 +652,26 @@ function sys.wave_spawn_tsv.cmd_fns.spawn(store, cmd, wave_name)
 		else
 			log.error("Entity template %s not found", o.enemy)
 		end
+
+		if store.extra_enemies and store.extra_enemies > 0 then
+			for i = 1, store.extra_enemies do
+				e = E:create_entity(o.enemy)
+				if e then
+					local path = P.paths[o.pi]
+					e.nav_path.pi = o.pi
+					e.nav_path.spi = o.spi == "*" and math.random(#path) or km.zmod(o.spi + i, 3)
+					e.nav_path.ni = P:get_start_node(o.pi)
+					if e.health then
+						e.health.hp_max = math.ceil(e.health.hp_max * (store.extra_enemies * 0.15 + 1))
+					end
+					if e.enemy then
+						e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
+					end
+					U.y_wait(store, fts(2))
+					queue_insert(store, e)
+				end
+			end
+		end
 	end
 end
 
@@ -917,6 +963,26 @@ local function spawner(store, wave)
 			else
 				log.error("Entity template not found for %s.", s.crep)
 			end
+
+			if store.extra_enemies and store.extra_enemies > 0 then
+				for i = 1, store.extra_enemies do
+					e = E:create_entity(current_creep)
+					if e then
+						e.nav_path.pi = pi
+						e.nav_path.spi = s.fixed_sub_path == 1 and km.zmod(s.path + i, 3) or math.random(#path)
+						e.nav_path.ni = P:get_start_node(pi)
+						e.spawn_data = s.spawn_data
+						if e.health then
+							e.health.hp_max = math.ceil(e.health.hp_max * (store.extra_enemies * 0.15 + 1))
+						end
+						if e.enemy then
+							e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
+						end
+						U.y_wait(store, fts(2))
+						queue_insert(store, e)
+					end
+				end
+			end
 		end
 
 		if s.max == 0 then
@@ -1088,10 +1154,98 @@ function sys.wave_spawn:init(store)
 end
 
 function sys.wave_spawn:force_next_wave(store)
+	local function kill_all_enemies(store, discard_gold, keep_spawners)
+		for _, list in pairs({
+			store.entities,
+			store.pending_inserts
+		}) do
+			local all = E:filter(list, "enemy")
+
+			for _, e in pairs(all) do
+				if e and e.vis and bit.band(e.vis.flags, F_BOSS) == 0 and e.vis.bans ~= F_ALL and e.health.immune_to ~= DAMAGE_ALL then
+					e.health.hp = 0
+
+					if e.death_spawns then
+						e.health.last_damage_types = DAMAGE_NO_SPAWNS
+					end
+
+					if discard_gold and e.enemy then
+						e.enemy.gold = 0
+					end
+
+					e.vis.bans = bor(e.vis.bans, F_MOD)
+
+					if e.regen then
+						e.regen.cooldown = 1e+99
+					end
+				end
+			end
+
+			local soldier_names = {
+				"soldier_rag"
+			}
+			local entities = table.filter(list, function(k, v)
+				return table.contains(soldier_names, v.template_name)
+			end)
+
+			for _, e in pairs(entities) do
+				e.health.hp = 0
+			end
+
+			if not keep_spawners then
+				local spawners = E:filter(list, "spawner")
+
+				for _, e in pairs(spawners) do
+					e.spawner.interrupt = true
+				end
+
+				local names = {
+					"graveyard_controller",
+					"swamp_controller"
+				}
+				local entities = table.filter(list, function(k, v)
+					return table.contains(names, v.template_name)
+				end)
+
+				for _, e in pairs(entities) do
+					e.interrupt = true
+				end
+			end
+
+			local interrupt_names = {
+				"twister",
+				"mod_timelapse",
+				"aura_bullet_balrog"
+			}
+			local entities = table.filter(list, function(k, v)
+				return table.contains(interrupt_names, v.template_name)
+			end)
+
+			for _, e in pairs(entities) do
+				e.interrupt = true
+			end
+
+			local remove_names = {
+				"nav_faerie",
+				"mod_drider_poison",
+				"decal_drider_cocoon",
+				"mod_dark_spitters",
+				"mod_balrog"
+			}
+			local entities = table.filter(list, function(k, v)
+				return table.contains(remove_names, v.template_name)
+			end)
+
+			for _, e in pairs(entities) do
+				LU.queue_remove(store, e)
+			end
+		end
+	end
+
 	if store.force_next_wave then
 		store.waves_active = {}
 
-		LU.kill_all_enemies(store, nil, true)
+		kill_all_enemies(store, nil, true)
 	end
 end
 
@@ -1315,7 +1469,7 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 
 			local ne = E:create_entity(e.tower.upgrade_to)
 
-			ne.pos = V.vclone(e.pos)
+			ne.pos = e.pos
 			ne.tower.holder_id = e.tower.holder_id
 			ne.tower.flip_x = e.tower.flip_x
 
@@ -1548,6 +1702,55 @@ function sys.main_script:on_insert(entity, store)
 end
 
 function sys.main_script:on_update(dt, ts, store)
+	if balance.enemies.frame_splitting then
+		math.randomseed(math.ceil(store.tick_ts * 30))
+		local count = 0
+		for _, e in E:filter_iter(store.entities, "main_script") do
+			local s = e.main_script
+	
+			if not s.update then
+				-- block empty
+			else
+				if not s.co and s.runs ~= 0 then
+					s.runs = s.runs - 1
+					s.co = coroutine.create(s.update)
+				end
+	
+				local resume = false
+				if s.co then
+					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) or count < 128 then
+						resume = true
+					else
+						local chance = math.random()
+						if e.aura then
+							if chance <= 0.25 then
+								resume = true
+							end
+						elseif chance <= 0.5 then
+							resume = true
+						end
+					end
+				end
+				if resume then
+					local success, error = coroutine.resume(s.co, e, store, s)
+					if coroutine.status(s.co) == "dead" or error ~= nil then
+						if error ~= nil then
+							log.error("Error running coro. id:%s template:%s trace:%s", e.id, e.template_name, debug.traceback(s.co, error))
+						end
+	
+						s.co = nil
+					end
+				end
+
+				if e.vis and band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) ~= 0 then
+					count = count + 1
+				elseif e.aura then
+					count = count + 6
+				end
+			end
+		end
+		return
+	end
 	for _, e in E:filter_iter(store.entities, "main_script") do
 		local s = e.main_script
 
@@ -1575,6 +1778,14 @@ function sys.main_script:on_update(dt, ts, store)
 end
 
 function sys.main_script:on_remove(entity, store)
+	if entity.health then
+		local health_text = sys.health.health_texts[entity.id]
+		if health_text then
+			queue_remove(store, health_text)
+			sys.health.health_texts[entity.id] = nil
+		end
+	end
+	
 	if entity.main_script and entity.main_script.remove then
 		return entity.main_script.remove(entity, store, entity.main_script)
 	else
@@ -1584,6 +1795,7 @@ end
 
 sys.health = {}
 sys.health.name = "health"
+sys.health.health_texts = {}
 
 function sys.health:init(store)
 	store.damage_queue = {}
@@ -1592,6 +1804,38 @@ end
 function sys.health:on_insert(entity, store)
 	if entity.health and not entity.health.hp then
 		entity.health.hp = entity.health.hp_max
+	end
+
+	if entity.unit and entity.health and not entity.health.dead and entity.health.hp_max and ((entity.enemy and entity.health.hp_max >= 900) or 
+	(entity.vis and entity.vis.flags and band(entity.vis.flags, F_HERO) ~= 0)) then
+		local e = E:create_entity("debug_damage_text")
+		e.tween = nil
+		e.pos = V.v(entity.pos.x, entity.pos.y)
+		if entity.health_bar then
+			if entity.health_bar.offset then
+				e.pos.y = e.pos.y + entity.health_bar.offset.y + 14
+			elseif entity.health_bar.y_offset then
+				e.pos.y = e.pos.y + entity.health_bar.y_offset + 14
+			end
+		else
+			e.pos.y = e.pos.y + 64
+		end
+		local text = e.texts.list[1]
+		e.hp = km.round(entity.health.hp)
+		if entity.enemy then
+			text.color = { 255, 0, 0 }
+			local show_health_texts = store.level.show_health_texts
+			if show_health_texts then
+				text.text = tostring(e.hp)
+			else
+				text.text = ""
+			end
+		else
+			text.color = { 0, 255, 128 }
+			text.text = ""
+		end
+		self.health_texts[entity.id] = e
+		queue_insert(store, e)
 	end
 
 	return true
@@ -1613,7 +1857,7 @@ function sys.health:on_update(dt, ts, store)
 			else
 				local h = e.health
 
-				if h.dead or band(h.immune_to, d.damage_type) ~= 0 or h.ignore_damage or h.on_damage and not h.on_damage(e, store, d) then
+				if h.dead or band(bnot(h.immune_to), d.damage_type) == 0 or h.ignore_damage or h.on_damage and not h.on_damage(e, store, d) then
 					log_hp.paranoid("entity: (%s) %s dead:%s - ignoring damage: \n%s", e.id, e.template_name, e.health.dead, getfulldump(d))
 				else
 					local starting_hp = h.hp
@@ -1667,14 +1911,20 @@ function sys.health:on_update(dt, ts, store)
 							end
 						end
 
-						if e and h.spiked_armor > 0 and e.soldier and e.soldier.target_id then
+						if e and (h.spiked_armor > 0 or h.spiked_armor_damage > 0) and e.soldier and e.soldier.target_id then
 							local t = store.entities[e.soldier.target_id]
 
 							if t and t.health and not t.health.dead then
 								local sad = E:create_entity("damage")
 
-								sad.damage_type = DAMAGE_TRUE
-								sad.value = math.ceil(h.spiked_armor * d.value)
+								if h.spiked_armor > 0 then
+									sad.damage_type = DAMAGE_TRUE
+									sad.value = math.ceil(h.spiked_armor * d.value)
+								else
+									sad.value = h.spiked_armor_damage
+									sad.damage_type = h.spiked_armor_damage_type
+								end
+								sad.damage_applied = sad.value
 								sad.source_id = e.id
 								sad.target_id = t.id
 
@@ -1741,6 +1991,37 @@ function sys.health:on_update(dt, ts, store)
 
 		if not h.dead then
 			h.last_damage_types = 0
+		end
+
+		local health_text = self.health_texts[e.id]
+		if health_text then
+			local show_health_texts = store.level.show_health_texts
+			local text = health_text.texts.list[1]
+			health_text.hp = km.round(h.hp)
+			local new_text
+			if show_health_texts then
+				if (e.hero and h.hp == h.hp_max) or h.hp <= 0 or h.dead then
+					new_text = ""
+				else
+					new_text = tostring(health_text.hp)
+				end
+			else
+				new_text = ""
+			end
+			if new_text ~= text.text then
+				text.text = new_text
+				queue_insert(store, health_text)
+			end
+			health_text.pos.x = e.pos.x
+			if e.health_bar then
+				if e.health_bar.offset then
+					health_text.pos.y = e.pos.y + e.health_bar.offset.y + 14
+				elseif e.health_bar.y_offset then
+					health_text.pos.y = e.pos.y + e.health_bar.y_offset + 14
+				end
+			else
+				health_text.pos.y = e.pos.y + 64
+			end
 		end
 
 		if h.dead and not e.hero and not h.ignore_delete_after and (h.delete_after and store.tick_ts > h.delete_after or h.delete_now) then
@@ -2086,6 +2367,9 @@ function sys.texts:on_insert(entity, store)
 
 			I:add_image(image_name, image, "temp_game_texts", store.screen_scale)
 
+			if t.image_name then
+				I:remove_image(t.image_name)
+			end
 			t.image_name = image_name
 			t.image_group = "texts"
 			entity.render.sprites[sprite_id].name = image_name
@@ -2406,11 +2690,9 @@ function sys.particle_system:on_update(dt, ts, store)
 
 				if s.animated then
 					local to = ts - p.ts
-
 					if s.animation_fps then
 						to = to * s.animation_fps / FPS
 					end
-
 					if p.name_idx then
 						fn = A:fn(s.names[p.name_idx], to, s.loop)
 					else
@@ -2422,7 +2704,26 @@ function sys.particle_system:on_update(dt, ts, store)
 					fn = s.name
 				end
 
-				f.ss = I:s(fn)
+				if s.exo then
+					local exo_frame = EXO:f(fn)
+					if exo_frame then
+						f.exo_frame = exo_frame
+						f.exo = exo_frame.exo
+						if s.exo_hide_prefix then
+							for _, p in ipairs(f.exo_frame.parts) do
+								p.hidden = false
+								for _, prefix in ipairs(s.exo_hide_prefix) do
+									if string.find(p.name, prefix, 1, true) then
+										p.hidden = true
+										break
+									end
+								end
+							end
+						end
+					end
+				else
+					f.ss = I:s(fn)
+				end
 			end
 
 			::label_77_0::
@@ -2463,7 +2764,8 @@ function sys.render:init(store)
 		size = {
 			1,
 			1
-		}
+		},
+		atlas = "white_rectangle"
 	}
 	self._hb_sizes = HEALTH_BAR_SIZES[store.texture_size] or HEALTH_BAR_SIZES.default
 	self._hb_colors = HEALTH_BAR_COLORS
@@ -3107,6 +3409,16 @@ sys.damage_texts.colors = {
 	[DAMAGE_MAGICAL] = {
 		0,
 		0,
+		255
+	},
+	[DAMAGE_EXPLOSION] = {
+		0,
+		255,
+		255
+	},
+	[DAMAGE_ELECTRICAL] = {
+		0,
+		255,
 		255
 	},
 	[DAMAGE_TRUE] = {

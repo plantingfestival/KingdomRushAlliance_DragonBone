@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/screen_map_classes.lua
-
 local log = require("klua.log"):new("screen_map_classes")
 local class = require("middleclass")
 
@@ -2212,8 +2210,10 @@ function TowerRoomView.static:get_tower_stats(tower_name)
 	out.skills = {}
 
 	for k, v in pairs(t.powers) do
-		table.insert(out.skill_names, k)
-		table.insert(out.skills, t.powers[k])
+		if v.enc_icon then
+			table.insert(out.skill_names, k)
+			table.insert(out.skills, t.powers[k])
+		end
 	end
 
 	local user_data = storage:load_slot()
@@ -2354,34 +2354,54 @@ function TowerRoomView:initialize(size, image_name, base_scale)
 
 	if not IS_MOBILE then
 		local tr = self:ci("tower_room_towers")
+		tr.clip = true
+		local hsl = KInertialView:new()
+		hsl.id = "tower_room_towers_slider"
+		hsl.size = table.deepclone(tr.size)
+		hsl.pos = table.deepclone(tr.pos)
+		hsl.can_drag = true
+		hsl.elastic_limits = true
+		hsl.inertia_damping = 0.95
+		hsl.inertia_stop_speed = 0.01
+		tr:add_child(hsl)
+		local ts_width = 0
+		local start_offset_x = 4
+		local eachRow = 10
 		local ctx = SU.new_screen_ctx(screen_map)
-
 		for i, n in ipairs(screen_map.tower_order) do
-			local bp = tr:ci(string.format("button_tower_roster_%02i", i))
+			local tt = kui_db:get_table("button_tower_roster_thumb_desktop", ctx)
+			local ts = TowerSliderItemView:new_from_table(tt)
+			local dlc_p = PS.services.iap and PS.services.iap:get_container_dlc("tower_" .. n) or nil
 
-			if not bp then
-				log.error("There are not enough buttons for all the towers. %s", i)
-			else
-				local tt = kui_db:get_table("button_tower_roster_thumb_desktop", ctx)
-				local ts = TowerSliderItemView:new_from_table(tt)
-				local dlc_p = PS.services.iap and PS.services.iap:get_container_dlc("tower_" .. n) or nil
-
-				for _, v in pairs(GS.dlc_names) do
-					ts:ci("image_" .. v.id .. "_badge_small").hidden = not dlc_p or dlc_p.id ~= v.id or dlc_p.owned
-				end
-
-				ts:set_tower(n)
-
-				ts.pos = bp.pos
-				ts.id = bp.id
-
-				tr:add_child(ts)
-
-				bp.hidden = true
-
-				bp:remove_from_parent()
+			for _, v in pairs(GS.dlc_names) do
+				ts:ci("image_" .. v.id .. "_badge_small").hidden = not dlc_p or dlc_p.id ~= v.id or dlc_p.owned
 			end
+
+			ts:set_tower(n)
+
+			if i <= eachRow then
+				ts.pos.x = (i - 1) * (ts.size.x + 1) + ts.size.x / 2 + start_offset_x
+				ts.pos.y = ts.size.y / 2
+			elseif i <= 2 * eachRow then
+				ts.pos.x = (i - eachRow - 1) * (ts.size.x + 1) + ts.size.x / 2 + start_offset_x
+				ts.pos.y = ts.size.y * 3 / 2
+			elseif i <= 3 * eachRow then
+				ts.pos.x = (i - 2 * eachRow - 1) * (ts.size.x + 1) + ts.size.x / 2 + start_offset_x
+				ts.pos.y = ts.size.y * 5 / 2
+			end
+			ts.id = string.format("button_tower_roster_%02i", i)
+
+			hsl:add_child(ts)
+			ts_width = ts.size.x
 		end
+
+		local drag_width = hsl.size.x - eachRow * (ts_width + 2)
+		drag_width = drag_width > 0 and 0 or drag_width
+		hsl.drag_limits = V.r(0, 0, drag_width, 0)
+		hsl.elastic_limits = V.r(ts_width, 0, drag_width - 2 * ts_width, 0)
+		local hrs_count = eachRow + 2
+		local hrs_w = self:ci("tower_room_towers_slider").children[1].size.x + 1
+		hsl.size.x = hrs_w * hrs_count
 	else
 		local hrh = self:ci("tower_room_towers")
 
@@ -3122,11 +3142,12 @@ function TowerRoomView:get_slider_item(tower_name)
 end
 
 function TowerRoomView:get_slider_items()
-	if IS_MOBILE then
-		return self:ci("tower_room_towers_slider").children
-	else
-		return self:ci("tower_room_towers").children
-	end
+	return self:ci("tower_room_towers_slider").children
+	-- if IS_MOBILE then
+	-- 	return self:ci("tower_room_towers_slider").children
+	-- else
+	-- 	return self:ci("tower_room_towers").children
+	-- end
 end
 
 function TowerRoomView:get_skill_items()
@@ -3720,12 +3741,24 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 
 	function gems_button.on_click(this)
 		S:queue("GUIButtonCommon")
-		screen_map:hide_item_room()
-		screen_map:show_shop_gems()
+		local user_data = storage:load_slot()
+		user_data.gems = user_data.gems + 1000
+		storage:save_slot(user_data)
+		gems_label.text = string.format("%s", user_data.gems)
+		screen_map:update_gems()
+		-- screen_map:hide_item_room()
+		-- screen_map:show_shop_gems()
+	end
+
+	if self:ci("button_close_popup") then
+		self:ci("button_close_popup").on_click = function(this)
+			S:queue("GUIButtonOut")
+			screen_map:hide_item_room()
+		end
 	end
 
 	if IS_MOBILE and PS.services.iap and PS.services.iap:is_premium() then
-		gems_button.hidden = true
+		gems_button.hidden = nil
 	end
 
 	local button_confirm = self:ci("item_room_button_confirm_ok")
@@ -3859,11 +3892,14 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 		storage:save_slot(user_data)
 	end
 
-	local drag_width = isl.size.x - #screen_map.item_order * (siv_width + 1) - 20
-
+	local drag_width = isl.size.x - #screen_map.item_order * (siv_width + 2)
 	drag_width = drag_width > 0 and 0 or drag_width
 	isl.drag_limits = V.r(0, 0, drag_width, 0)
-	isl.elastic_limits = V.r(-isl.size.x, 0, drag_width + isl.size.x * 2, 0)
+	isl.elastic_limits = V.r(siv_width, 0, drag_width - 2 * siv_width, 0)
+
+	local hrs_count = #screen_map.item_order + 2
+	local hrs_w = self:ci("item_room_items_slider").children[1].size.x + 1
+	isl.size.x = hrs_w * hrs_count
 
 	local wheel = self:ci("group_items_wheel")
 	local user_data = storage:load_slot()
@@ -4818,13 +4854,14 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 		self:ci("image_badges_star_02").hidden = false
 		self:ci("image_badges_star_03").hidden = false
 	end
+	self:ci("top_shadow_s16").hidden = true
+	self:ci("image_badges_bg_s16").hidden = true
+	self:ci("top_shadow").hidden = false
+	self:ci("image_badges_bg").hidden = false
 
 	for i = 1, 3 do
-		if level_idx == 16 then
-			self:ci("image_badges_star_0" .. i .. "_s16").hidden = stars < i
-		else
-			self:ci("image_badges_star_0" .. i).hidden = stars < i
-		end
+		self:ci("image_badges_star_0" .. i .. "_s16").hidden = true
+		self:ci("image_badges_star_0" .. i).hidden = stars < i
 	end
 
 	self:ci("image_badges_heroic").hidden = not diff_heroic or diff_heroic < 1
@@ -4921,8 +4958,8 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 	self:ci("group_mode_tooltip_3"):ci("label_mode_tooltip_desc").text = _("LEVEL_SELECT_MODE_LOCKED2")
 
 	if level_idx == 16 then
-		self:ci("toggle_mode_2").hidden = true
-		self:ci("toggle_mode_3").hidden = true
+		self:ci("toggle_mode_2").hidden = false
+		self:ci("toggle_mode_3").hidden = false
 	else
 		self:ci("toggle_mode_2").hidden = false
 		self:ci("toggle_mode_3").hidden = false
@@ -4956,6 +4993,11 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 			S:queue("GUIButtonCommon")
 			screen_map:start_level(self.level_idx, self.game_mode)
 		end
+	end
+
+	self:ci("button_extra_enemies").on_click = function(this)
+		S:queue("GUIButtonCommon")
+		screen_map:start_level(self.level_idx, self.game_mode, balance.enemies.extra_enemies)
 	end
 end
 
@@ -5710,7 +5752,7 @@ function UpgradesRoomView:show_upgrade_tooltip(upgrade)
 	}, upgrade.group)
 
 	self.tooltip_view:ci("label_upgrades_room_tooltip_title").text = _(upgrade.upgrade.key .. "_NAME")
-	self.tooltip_view:ci("label_upgrades_room_tooltip_desc").text = _(upgrade.upgrade.key .. "_DESCRIPTION")
+	self.tooltip_view:ci("label_upgrades_room_tooltip_desc").text = GU.balance_format(_(upgrade.upgrade.key .. "_DESCRIPTION"), balance)
 
 	set_size_and_pos_tooltip(upgrade, tooltip_left)
 	set_arrow(tooltip_left)
@@ -7598,7 +7640,7 @@ StageFlag5 = class("StageFlag5", GG5Button)
 function StageFlag5:initialize(default_image_name, focus_image_name)
 	GG5Button.initialize(self, default_image_name, focus_image_name)
 
-	local level_str = string.match(self.id, "_(%d%d)$")
+	local level_str = string.match(self.id, "_(%d+)$")
 
 	if not level_str then
 		log.error("flag name is wrong:%s", self.id)
@@ -8207,6 +8249,8 @@ function MapView:center_map()
 end
 
 function MapView:show_flags()
+	local extra_levels = GS.extra_levels
+
 	self:clear_flags()
 	self:show_decos()
 
@@ -8227,8 +8271,17 @@ function MapView:show_flags()
 		ud.unlocked_levels = {}
 	end
 
-	for i = 1, last_level do
+	local myLastLevel = 549
+	local save = false
+	for i = 1, myLastLevel do
 		local level = user_data.levels[i]
+		if not level then
+			level = extra_levels[i]
+			if level then
+				user_data.levels[i] = level
+				save = true
+			end
+		end
 
 		if not level then
 			-- block empty
@@ -8280,6 +8333,9 @@ function MapView:show_flags()
 			end
 		end
 	end
+	if save then
+		storage:save_slot(user_data)
+	end
 
 	self:center_map()
 	self:show_dlcs_flags()
@@ -8290,7 +8346,7 @@ function MapView:show_flags()
 	ktw:script(self, function(wait)
 		wait(0)
 
-		for i = 1, last_level do
+		for i = 1, myLastLevel do
 			local level = user_data.levels[i]
 
 			if not level then

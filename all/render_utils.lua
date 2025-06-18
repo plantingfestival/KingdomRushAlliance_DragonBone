@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/render_utils.lua
-
 local log = require("klua.log"):new("render_utils")
 local I = require("klove.image_db")
 local G = love.graphics
@@ -45,7 +43,9 @@ function RU.frame_draw_params(f)
 	local ss = f.ss
 	local x = f.pos.x + f.offset.x
 	local y = REF_H - (f.pos.y + f.offset.y)
+
 	local r = -f.r
+
 	local ref_scale = ss.ref_scale or 1
 	local sy = (f.flip_y and -1 or 1) * ref_scale
 	local sx = (f.flip_x and -1 or 1) * ref_scale
@@ -57,6 +57,15 @@ function RU.frame_draw_params(f)
 
 	local ox = f.anchor.x * ss.size[1] - ss.trim[1]
 	local oy = (1 - f.anchor.y) * ss.size[2] - ss.trim[2]
+	if ss.textureRotated then
+		r = r - math.pi / 2 * (f.flip_x and -1 or 1)
+		ox = f.anchor.y * ss.size[2] - ss.trim[4]
+		oy = f.anchor.x * ss.size[1] - ss.trim[1]
+		if f.scale then
+			sy = (f.flip_y and -1 or 1) * ref_scale * f.scale.x
+			sx = (f.flip_x and -1 or 1) * ref_scale * f.scale.y
+		end
+	end
 
 	return ss.quad, x, y, r, sx, sy, ox, oy
 end
@@ -189,11 +198,22 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 
 					local ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
 					local oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
+					if ss.textureRotated then
+						r = r - math.pi / 2 * (f.flip_x and -1 or 1)
+						ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
+						oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
+						sy = xf.sx * (f.flip_y and -1 or 1) * ref_scale
+						sx = xf.sy * (f.flip_x and -1 or 1) * ref_scale
+						if f.scale then
+							sy = sy * f.scale.x
+							sx = sx * f.scale.y
+						end
+					end
 
 					x = x * f_sx + f.pos.x + f.offset.x
-					y = REF_H - (-y * f_sy + f.pos.y - f.offset.y)
+					y = REF_H - (-y * f_sy + f.pos.y + f.offset.y)
 
-					batch:add(quad, x, y, r * f_sx, sx, sy, ox, oy, kx, ky)
+					batch:add(quad, x, y, r, sx, sy, ox, oy, kx, ky)
 
 					batch_count = batch_count + 1
 				end

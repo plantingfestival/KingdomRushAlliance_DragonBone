@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers.lua
-
 return {
 	arborean_emissary_tower_preview = {
 		a_name = "go_towers-1.dds",
@@ -14151,5 +14149,8256 @@ return {
 			36
 		},
 		alias = {}
+	},
+	-- customization
+	["arrow_water_splash_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			12,
+            9,
+            12,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			3372,
+			35,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			12,
+            9,
+            12,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			3372,
+			35,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			7,
+            1,
+            7,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			284,
+			2549,
+			45,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			7,
+            1,
+            7,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			284,
+			2549,
+			45,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			3,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			109,
+			2951,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			3,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			109,
+			2951,
+			53,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			189,
+			3401,
+			55,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			189,
+			3401,
+			55,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			453,
+			2452,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["arrow_water_splash_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			59,
+			55
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			453,
+			2452,
+			57,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_thrower_explosion_decal"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			140,
+			60
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			336,
+			1870,
+			140,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			65,
+            145,
+            66,
+            34
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			161,
+			3360,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			65,
+            145,
+            66,
+            34
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			161,
+			3360,
+			37,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			36,
+            76,
+            36,
+            28
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2362,
+			96,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			36,
+            76,
+            36,
+            28
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2362,
+			96,
+			118
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			19,
+            18,
+            21,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			192,
+			1221,
+			128,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			19,
+            18,
+            21,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1262,
+			128,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			3,
+            3,
+            6,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			209,
+			341,
+			159,
+			202
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			3,
+            3,
+            6,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			457,
+			159,
+			202
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            0,
+            0,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1,
+			168,
+			207
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            0,
+            0,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			210,
+			1,
+			168,
+			207
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            1,
+            0,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			171,
+			168,
+			206
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            1,
+            0,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			209,
+			171,
+			168,
+			206
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			14,
+            3,
+            12,
+            29
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			971,
+			142,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			14,
+            3,
+            12,
+            29
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			193,
+			1077,
+			142,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			14,
+            6,
+            9,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			195,
+			783,
+			145,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			14,
+            6,
+            9,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			824,
+			145,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			12,
+            16,
+            11,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1115,
+			145,
+			189
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			12,
+            15,
+            11,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			193,
+			930,
+			145,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			11,
+            48,
+            9,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1779,
+			148,
+			162
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			11,
+            48,
+            9,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1779,
+			148,
+			162
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0021"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			6,
+            54,
+            11,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			338,
+			1682,
+			151,
+			159
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0022"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			6,
+            54,
+            11,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			338,
+			1682,
+			151,
+			159
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0023"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			12,
+            112,
+            12,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			1898,
+			144,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0024"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			12,
+            112,
+            12,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			1898,
+			144,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0025"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			2,
+            131,
+            3,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1691,
+			163,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0026"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			2,
+            131,
+            3,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1691,
+			163,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0027"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            131,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1601,
+			168,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0028"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			0,
+            131,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1601,
+			168,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0029"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			26,
+            131,
+            24,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			333,
+			2389,
+			118,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0030"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			26,
+            131,
+            24,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			333,
+			2389,
+			118,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0031"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			29,
+            131,
+            41,
+            18
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			330,
+			3097,
+			98,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0032"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			29,
+            131,
+            41,
+            18
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			330,
+			3097,
+			98,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bomb_water_splash_0033"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			28,
+            131,
+            41,
+            44
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			463,
+			2093,
+			99,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bomb_water_splash_0034"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			168,
+			222
+		},
+		trim = {
+			28,
+            131,
+            41,
+            44
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			463,
+			2093,
+			99,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["build_artillery"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			208,
+			181
+		},
+		trim = {
+			31,
+            71,
+            29,
+            29
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			1815,
+			148,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bullet"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			102,
+			13
+		},
+		trim = {
+			22,
+            0,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			387,
+			831,
+			80,
+			12
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["decal_flying_shadow"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			42,
+			9
+		},
+		trim = {
+			1,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			393,
+			675,
+			41,
+			9
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["decal_scorched_earth_base"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			210,
+			117
+		},
+		trim = {
+			4,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			341,
+			206,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_scorched_earth_fire"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			210,
+			117
+		},
+		trim = {
+			60,
+            19,
+            45,
+            22
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2970,
+			105,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            23,
+            9,
+            22
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			293,
+			2127,
+			117,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["decal_smoke_hitground_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            23,
+            9,
+            22
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			293,
+			2127,
+			117,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["decal_smoke_hitground_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			3,
+            20,
+            2,
+            13
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			378,
+			1341,
+			129,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			3,
+            20,
+            2,
+            13
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			378,
+			1341,
+			129,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			0,
+            17,
+            0,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			336,
+			1970,
+			134,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			0,
+            17,
+            0,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			336,
+			1970,
+			134,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            16,
+            0,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2111,
+			126,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            16,
+            0,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2111,
+			126,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            16,
+            2,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			1087,
+			124,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			8,
+            16,
+            2,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			1087,
+			124,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			20,
+            15,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2632,
+			113,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["decal_smoke_hitground_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			134,
+			85
+		},
+		trim = {
+			20,
+            15,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2632,
+			113,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			10,
+            31,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2283,
+			119,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			10,
+            31,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2283,
+			119,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			10,
+            18,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			1,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			10,
+            18,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			1,
+			119,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			9,
+            17,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2209,
+			120,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			9,
+            17,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2209,
+			120,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			8,
+            17,
+            38,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3175,
+			83,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			8,
+            17,
+            38,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3175,
+			83,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			8,
+            15,
+            37,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			160,
+			3109,
+			84,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			8,
+            15,
+            37,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			160,
+			3109,
+			84,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			7,
+            15,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2704,
+			112,
+			94
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			7,
+            15,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2704,
+			112,
+			94
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			7,
+            13,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2655,
+			112,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			7,
+            13,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2655,
+			112,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            12,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			413,
+			357,
+			114,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            12,
+            10,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			413,
+			357,
+			114,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            11,
+            9,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2586,
+			115,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            11,
+            9,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2586,
+			115,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			4,
+            10,
+            9,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2498,
+			116,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			4,
+            10,
+            9,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2498,
+			116,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0021"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            9,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2406,
+			118,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0022"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            9,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2406,
+			118,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0023"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            8,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2303,
+			118,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0024"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            8,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2303,
+			118,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0025"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            7,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			334,
+			2285,
+			120,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0026"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            7,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			334,
+			2285,
+			120,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0027"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            6,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2178,
+			120,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0028"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            6,
+            8,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2178,
+			120,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0029"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            5,
+            7,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2460,
+			117,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0030"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			5,
+            5,
+            7,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2460,
+			117,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0031"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			4,
+            4,
+            5,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2114,
+			120,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0032"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			4,
+            4,
+            5,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2114,
+			120,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0033"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            3,
+            5,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			1156,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0034"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            3,
+            5,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			1156,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0035"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			335,
+			2178,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0036"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			3,
+            2,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			335,
+			2178,
+			121,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0037"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            1,
+            3,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			979,
+			125,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0038"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			1,
+            1,
+            3,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			979,
+			125,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0039"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            1,
+            3,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			335,
+			2069,
+			126,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0040"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            1,
+            3,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			335,
+			2069,
+			126,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0041"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            0,
+            2,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2001,
+			127,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0042"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            0,
+            2,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2001,
+			127,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0043"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            0,
+            1,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1929,
+			128,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0044"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			0,
+            0,
+            1,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1929,
+			128,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0045"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			11,
+            32,
+            1,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2508,
+			117,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterFx_0046"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			129,
+			109
+		},
+		trim = {
+			11,
+            32,
+            1,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2508,
+			117,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elfTower_layer1_0026"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			228,
+			199
+		},
+		trim = {
+			0,
+            0,
+            29,
+            28
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			205,
+			502,
+			199,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			57,
+            2,
+            55,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			442,
+			2837,
+			68,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			54,
+            3,
+            55,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			80,
+			3310,
+			71,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			54,
+            3,
+            54,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			311,
+			3311,
+			72,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			54,
+            2,
+            51,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			434,
+			3010,
+			75,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			34,
+            3,
+            32,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			130,
+			2113,
+			114,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elven_pops_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			34,
+            3,
+            32,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2599,
+			114,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			37,
+            2,
+            33,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			478,
+			1897,
+			110,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elven_pops_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			44,
+            3,
+            44,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			330,
+			3172,
+			92,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			39,
+            3,
+            37,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			581,
+			104,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			39,
+            3,
+            39,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2961,
+			102,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			44,
+            2,
+            44,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			131,
+			1929,
+			92,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elven_pops_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			49,
+            2,
+            46,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			423,
+			3231,
+			85,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			46,
+            3,
+            46,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			131,
+			2023,
+			88,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["elven_pops_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			41,
+            3,
+            42,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3048,
+			97,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			37,
+            3,
+            36,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2835,
+			107,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			34,
+            3,
+            32,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2686,
+			114,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			26,
+            1,
+            27,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2077,
+			127,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			24,
+            3,
+            22,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			335,
+			2034,
+			134,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			6,
+            3,
+            6,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			171,
+			1635,
+			168,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			3,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			185,
+			1459,
+			177,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0021"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			53,
+            2,
+            50,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3303,
+			77,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0022"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			19,
+            2,
+            10,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			1780,
+			151,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0023"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			44,
+            3,
+            44,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			158,
+			3195,
+			92,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0024"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			44,
+            3,
+            44,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			329,
+			3207,
+			92,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0025"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			36
+		},
+		trim = {
+			44,
+            3,
+            44,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			328,
+			3240,
+			92,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["elven_pops_0026"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			180,
+			38
+		},
+		trim = {
+			50,
+            3,
+            47,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			3297,
+			83,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_particle_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			30,
+			30
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			390,
+			3450,
+			30,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_particle_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			30,
+			30
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			413,
+			3417,
+			30,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_particle_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			30,
+			30
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			390,
+			3482,
+			30,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_particle_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			30,
+			30
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			445,
+			3401,
+			30,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_proyectile_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			2,
+            7,
+            36,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			287,
+			2279,
+			76,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_proyectile_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			2,
+            7,
+            36,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			287,
+			2279,
+			76,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_proyectile_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			4,
+            8,
+            35,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			286,
+			2357,
+			75,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_proyectile_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			4,
+            8,
+            35,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			286,
+			2357,
+			75,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_proyectile_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			0,
+            8,
+            36,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3260,
+			78,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_proyectile_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			114,
+			54
+		},
+		trim = {
+			0,
+            8,
+            36,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3260,
+			78,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			0,
+            0,
+            87,
+            27
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			502,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			23,
+            6,
+            21,
+            7
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			387,
+			783,
+			46,
+			17
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			22,
+            5,
+            20,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			315,
+			1869,
+			48,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			20,
+            5,
+            18,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			315,
+			1815,
+			52,
+			20
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			19,
+            4,
+            18,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			226,
+			3346,
+			53,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			18,
+            4,
+            16,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			95,
+			3256,
+			56,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			17,
+            4,
+            15,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			311,
+			1980,
+			58,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			16,
+            3,
+            15,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			311,
+			1919,
+			59,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			16,
+            3,
+            14,
+            4
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			487,
+			1835,
+			60,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			15,
+            3,
+            13,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			100,
+			3060,
+			62,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			14,
+            3,
+            12,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			1494,
+			64,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			13,
+            3,
+            12,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			163,
+			3401,
+			65,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			13,
+            3,
+            11,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			97,
+			3401,
+			66,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			11,
+            2,
+            10,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3401,
+			69,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fireball_shadow_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			11,
+            1,
+            9,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			81,
+			3280,
+			70,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			10,
+            1,
+            9,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			153,
+			3330,
+			71,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			10,
+            1,
+            8,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			232,
+			3316,
+			72,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			8,
+            1,
+            7,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			252,
+			3195,
+			75,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			8,
+            0,
+            6,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			434,
+			2979,
+			76,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fireball_shadow_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			90,
+			30
+		},
+		trim = {
+			7,
+            0,
+            6,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			153,
+			3299,
+			77,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            15,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			294,
+			2040,
+			39,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            15,
+            1,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			294,
+			2040,
+			39,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			0,
+            8,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3472,
+			43,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_bullet_smoke_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			0,
+            8,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3472,
+			43,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_bullet_smoke_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			1,
+            4,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			303,
+			3414,
+			42,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_bullet_smoke_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			1,
+            4,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			303,
+			3414,
+			42,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_bullet_smoke_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            1,
+            0,
+            8
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			2296,
+			40,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            1,
+            0,
+            8
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			2296,
+			40,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            0,
+            8,
+            8
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			107,
+			3469,
+			32,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			3,
+            0,
+            8,
+            8
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			107,
+			3469,
+			32,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_bullet_smoke_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			11,
+            0,
+            8,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			3346,
+			24,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_bullet_smoke_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			43,
+			57
+		},
+		trim = {
+			11,
+            0,
+            8,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			3346,
+			24,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			1,
+            20,
+            57,
+            19
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			73,
+			3373,
+			30,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_rifle_smoke_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            5,
+            33,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			191,
+			3458,
+			55,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_rifle_smoke_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            5,
+            3,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			98,
+			3136,
+			85,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            3,
+            0,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			449,
+			2509,
+			88,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            3,
+            0,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			268,
+			2977,
+			88,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			446,
+			2654,
+			88,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			0,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			446,
+			2654,
+			88,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			20,
+            12,
+            0,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			120,
+			2583,
+			68,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			20,
+            12,
+            0,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			120,
+			2583,
+			68,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			23,
+            13,
+            0,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			2229,
+			65,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_rifle_smoke_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			65
+		},
+		trim = {
+			23,
+            13,
+            0,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			2229,
+			65,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			5,
+            8,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2970,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			5,
+            8,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2970,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			5,
+            6,
+            0,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			122,
+			106,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			5,
+            6,
+            0,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			122,
+			106,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			3,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2875,
+			107,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			3,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2875,
+			107,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			3,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			413,
+			473,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			3,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			413,
+			473,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			2,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2862,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			2,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2862,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			13,
+            0,
+            10,
+            50
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			282,
+			2604,
+			88,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			13,
+            0,
+            10,
+            50
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			282,
+			2604,
+			88,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["fx_smoke_hitground_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			15,
+            13,
+            11,
+            54
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			422,
+			3265,
+			85,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["fx_smoke_hitground_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			111,
+			97
+		},
+		trim = {
+			15,
+            13,
+            11,
+            54
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			422,
+			3265,
+			85,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			7,
+            43,
+            47,
+            23
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			105,
+			3373,
+			26,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			7,
+            40,
+            47,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			133,
+			3373,
+			26,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			7,
+            37,
+            47,
+            29
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			445,
+			3433,
+			26,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			7,
+            34,
+            17,
+            13
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			285,
+			2434,
+			56,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			8,
+            31,
+            17,
+            16
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			284,
+			2492,
+			55,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			8,
+            28,
+            17,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			246,
+			3401,
+			55,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			8,
+            25,
+            17,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			248,
+			3458,
+			55,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			7,
+            21,
+            18,
+            14
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			272,
+			2920,
+			55,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			8,
+            18,
+            18,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			456,
+			2324,
+			54,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			8,
+            15,
+            18,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			456,
+			2388,
+			54,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			9,
+            12,
+            18,
+            18
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			109,
+			2887,
+			53,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			9,
+            9,
+            18,
+            20
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			447,
+			2599,
+			53,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			9,
+            6,
+            18,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			276,
+			2766,
+			53,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			9,
+            3,
+            18,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			276,
+			2844,
+			53,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			9,
+            0,
+            19,
+            19
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			458,
+			2194,
+			52,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			13,
+            15,
+            19,
+            23
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			305,
+			3458,
+			48,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			12,
+            12,
+            19,
+            28
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			110,
+			2836,
+			49,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			13,
+            9,
+            19,
+            32
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			294,
+			3346,
+			48,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			13,
+            20,
+            23,
+            36
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			117,
+			2707,
+			44,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			13,
+            18,
+            23,
+            40
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			115,
+			2800,
+			44,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0021"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			14,
+            15,
+            23,
+            44
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			355,
+			3458,
+			43,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0022"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			14,
+            13,
+            38,
+            49
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			477,
+			3401,
+			28,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["healing_big_0023"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            12,
+            38,
+            54
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			422,
+			3461,
+			26,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["healing_big_0024"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            8,
+            38,
+            58
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			422,
+			3489,
+			26,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_tank_GroundSlam_ground"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			125,
+			93
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			417,
+			230,
+			125,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			10,
+            15,
+            29,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			287,
+			2246,
+			46,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["magebolt_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			0,
+            15,
+            29,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			95,
+			3223,
+			56,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["magebolt_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			20,
+            1,
+            15,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			108,
+			3008,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			20,
+            1,
+            15,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			108,
+			3008,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			20,
+            1,
+            15,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			108,
+			3008,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			18,
+            2,
+            20,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			115,
+			2745,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["magebolt_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			18,
+            2,
+            20,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			115,
+			2745,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["magebolt_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			18,
+            1,
+            18,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			52,
+			3469,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			18,
+            1,
+            18,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			52,
+			3469,
+			49,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["magebolt_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			85,
+			55
+		},
+		trim = {
+			28,
+            12,
+            27,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			381,
+			3417,
+			30,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["missile_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			77,
+			28
+		},
+		trim = {
+			7,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3367,
+			70,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["missile_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			77,
+			28
+		},
+		trim = {
+			6,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			76,
+			3343,
+			71,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["missile_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			77,
+			28
+		},
+		trim = {
+			4,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3337,
+			73,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["particle_smokelet"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			28,
+			28
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			477,
+			3431,
+			28,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			38,
+            3,
+            41,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			385,
+			3311,
+			69,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pop_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			34,
+            2,
+            39,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			434,
+			3044,
+			75,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			33,
+            2,
+            38,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			232,
+			3282,
+			77,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			15,
+            2,
+            16,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			332,
+			2462,
+			117,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			35,
+            0,
+            34,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			153,
+			3228,
+			79,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			34,
+            2,
+            37,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			153,
+			3263,
+			77,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			0,
+            2,
+            0,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			337,
+			1835,
+			148,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			15,
+            0,
+            6,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2039,
+			127,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			5,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			336,
+			1932,
+			140,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			31,
+            0,
+            28,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			328,
+			3273,
+			89,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			28,
+            0,
+            19,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			330,
+			3059,
+			101,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			38,
+            3,
+            41,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			3333,
+			69,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			21,
+            0,
+            15,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2721,
+			112,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			38,
+            3,
+            41,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			419,
+			3367,
+			69,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			18,
+            0,
+            21,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2800,
+			109,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0016"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			21,
+            0,
+            15,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2759,
+			112,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0017"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			22,
+            0,
+            14,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2797,
+			112,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0018"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			26,
+            1,
+            23,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			3034,
+			99,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0019"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			21,
+            1,
+            18,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			331,
+			2838,
+			109,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0020"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			28,
+            0,
+            25,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			3071,
+			95,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pop_0021"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			148,
+			36
+		},
+		trim = {
+			25,
+            0,
+            23,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2996,
+			100,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_Necromancer_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			8,
+            10,
+            7,
+            8
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			381,
+			3382,
+			33,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["proy_Necromancer_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			1,
+            0,
+            3,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			118,
+			2653,
+			44,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_Necromancer_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			1,
+            0,
+            3,
+            1
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			118,
+			2653,
+			44,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_Necromancer_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			0,
+            0,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			141,
+			3468,
+			48,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_Necromancer_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			0,
+            0,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			141,
+			3468,
+			48,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["proy_Necromancer_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			48,
+			53
+		},
+		trim = {
+			9,
+            9,
+            0,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			294,
+			2084,
+			39,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["random_tower_constructing"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			216,
+			181
+		},
+		trim = {
+			41,
+            96,
+            44,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			378,
+			1263,
+			131,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["random_tower_preview"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			152,
+			203
+		},
+		trim = {
+			25,
+            19,
+            19,
+            19
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			171,
+			1670,
+			108,
+			165
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0059"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			56,
+            36,
+            50,
+            33
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			440,
+			2905,
+			70,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_big_0060"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			56,
+            36,
+            50,
+            33
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			440,
+			2905,
+			70,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_big_0061"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			44,
+            20,
+            40,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3081,
+			92,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0062"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			44,
+            20,
+            40,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			3081,
+			92,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0063"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			41,
+            9,
+            36,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2554,
+			99,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0064"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			41,
+            9,
+            36,
+            17
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			165,
+			2554,
+			99,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0065"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			36,
+            15,
+            33,
+            16
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2753,
+			107,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0066"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			36,
+            15,
+            33,
+            16
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			164,
+			2753,
+			107,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_big_0067"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			37,
+            17,
+            33,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2870,
+			106,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_big_0068"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			176,
+			141
+		},
+		trim = {
+			37,
+            17,
+            33,
+            26
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			2870,
+			106,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0073"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			36,
+            23,
+            36,
+            16
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			458,
+			2269,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0074"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			36,
+            23,
+            36,
+            16
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			458,
+			2269,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0075"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			29,
+            13,
+            29,
+            13
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			29,
+			3401,
+			66,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0076"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			29,
+            13,
+            29,
+            13
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			29,
+			3401,
+			66,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0077"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			26,
+            3,
+            26,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			256,
+			3110,
+			72,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0078"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			26,
+            3,
+            26,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			256,
+			3110,
+			72,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0079"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			22,
+            7,
+            24,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			430,
+			3151,
+			78,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0080"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			22,
+            7,
+            24,
+            6
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			430,
+			3151,
+			78,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_small_0081"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			23,
+            9,
+            24,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			433,
+			3078,
+			77,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_small_0082"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			124,
+			92
+		},
+		trim = {
+			23,
+            9,
+            24,
+            12
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			433,
+			3078,
+			77,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			42,
+            30,
+            46,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			250,
+			3346,
+			42,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			42,
+            30,
+            46,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			250,
+			3346,
+			42,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			39,
+            22,
+            43,
+            15
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			98,
+			3086,
+			48,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_soldiers_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			39,
+            22,
+            43,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			445,
+			2744,
+			48,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_soldiers_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			37,
+            17,
+            42,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			278,
+			2694,
+			51,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			37,
+            17,
+            42,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			278,
+			2694,
+			51,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			36,
+            14,
+            39,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			252,
+			3225,
+			55,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_soldiers_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			36,
+            14,
+            39,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			252,
+			3225,
+			55,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["states_soldiers_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            12,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2505,
+			42,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            12,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2505,
+			42,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0011"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            11,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2426,
+			42,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0012"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            11,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2426,
+			42,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0013"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            10,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2346,
+			42,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0014"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            10,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			121,
+			2346,
+			42,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["states_soldiers_0015"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			130,
+			97
+		},
+		trim = {
+			43,
+            64,
+            45,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			355,
+			3414,
+			42,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["stun_effect_0001"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			3,
+            6,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			472,
+			2009,
+			82,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["stun_effect_0002"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			3,
+            6,
+            3,
+            0
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			472,
+			2009,
+			82,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["stun_effect_0003"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			18,
+            1,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			445,
+			2794,
+			65,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["stun_effect_0004"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			18,
+            1,
+            5,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			445,
+			2794,
+			65,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["stun_effect_0005"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			18,
+            0,
+            7,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			265,
+			3067,
+			63,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["stun_effect_0006"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			18,
+            0,
+            7,
+            3
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			265,
+			3067,
+			63,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["stun_effect_0007"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			13,
+            4,
+            10,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			3401,
+			65,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["stun_effect_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			13,
+            4,
+            10,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			123,
+			3401,
+			65,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["stun_effect_0009"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			7,
+            10,
+            14,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			442,
+			2871,
+			67,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["stun_effect_0010"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			88,
+			44
+		},
+		trim = {
+			7,
+            10,
+            14,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			442,
+			2871,
+			67,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_0101"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			6,
+            10,
+            6,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			615,
+			180,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["terrains_0102"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			6,
+            10,
+            6,
+            2
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			797,
+			180,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["terrains_0103"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			4,
+            6,
+            6,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1392,
+			182,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_0108"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			0,
+            10,
+            0,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			726,
+			192,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0101"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			213,
+			119
+		},
+		trim = {
+			6,
+            4,
+            13,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			618,
+			194,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0101_flag"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			0,
+            0,
+            189,
+            112
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			502,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0102"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			213,
+			119
+		},
+		trim = {
+			6,
+            4,
+            13,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			197,
+			675,
+			194,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0102_flag"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			0,
+            0,
+            189,
+            112
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			502,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0103"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			213,
+			119
+		},
+		trim = {
+			21,
+            4,
+            8,
+            9
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			187,
+			1351,
+			184,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0103_flag"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			0,
+            0,
+            189,
+            112
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			502,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0108"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			213,
+			119
+		},
+		trim = {
+			19,
+            4,
+            23,
+            10
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			1,
+			1494,
+			171,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["terrains_holders_0108_flag"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			192,
+			115
+		},
+		trim = {
+			0,
+            0,
+            189,
+            112
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			406,
+			502,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_preview_artillery"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			208,
+			181
+		},
+		trim = {
+			23,
+            32,
+            19,
+            29
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			344,
+			1560,
+			166,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["warmongers_barrack_towers_ghost"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			240,
+			200
+		},
+		trim = {
+			40,
+            37,
+            32,
+            24
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			174,
+			1494,
+			168,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["warmongers_barrack_towers_lvl1_layer1_0008"] = {
+		a_name = "go_towers-2.dds",
+		size = {
+			240,
+			200
+		},
+		trim = {
+			42,
+            58,
+            35,
+            5
+		},
+		a_size = {
+			511,
+			3519
+		},
+		f_quad = {
+			373,
+			1395,
+			163,
+			137
+		},
+		alias = {},
+		textureRotated = true
 	}
 }

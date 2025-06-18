@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level04_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -1023,14 +1021,26 @@ return {
 	},
 	required_sounds = {
 		"music_stage04",
+		"ElvesDrizzt",
+		"ElvesCreepServant",
+		"ElvesWhiteTree",
+		"MetropolisAmbienceSounds",
+		"ElvesCreepEvoker",
+		"ElvesCreepGolem",
+		"ElvesScourger",
+		"ElvesCreepAvenger",
+		"ElvesCreepMountedAvenger",
+		"ElvesCreepScreecher",
 		"enemies_sea_of_trees",
 		"stage_04",
-		"terrain_1_common"
+		"terrain_1_common",
+		"enemies_rising_tides"
 	},
 	required_textures = {
 		"go_enemies_sea_of_trees",
 		"go_stage04_bg",
 		"go_stage04",
-		"go_stages_sea_of_trees"
+		"go_stages_sea_of_trees",
+		"go_enemies_rising_tides"
 	}
 }

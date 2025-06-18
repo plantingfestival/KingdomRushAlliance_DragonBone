@@ -1,6 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/game_animations_new.lua
-
-local a = {
+﻿local a = {
 	desintegrate_enemy_small = {
 		prefix = "disintegration_dirt_small",
 		to = 13,
@@ -880,6 +878,36 @@ local a = {
 	},
 	hero_raelyn_unbreakable_shield_lvl1_end = {
 		prefix = "hero_raelyn_unbreakable_shield_lvl1",
+		to = 42,
+		from = 37
+	},
+	hero_raelyn_unbreakable_shield_lvl2_start = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl2",
+		to = 12,
+		from = 1
+	},
+	hero_raelyn_unbreakable_shield_lvl2_idle = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl2",
+		to = 36,
+		from = 13
+	},
+	hero_raelyn_unbreakable_shield_lvl2_end = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl2",
+		to = 42,
+		from = 37
+	},
+	hero_raelyn_unbreakable_shield_lvl3_start = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl3",
+		to = 12,
+		from = 1
+	},
+	hero_raelyn_unbreakable_shield_lvl3_idle = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl3",
+		to = 36,
+		from = 13
+	},
+	hero_raelyn_unbreakable_shield_lvl3_end = {
+		prefix = "hero_raelyn_unbreakable_shield_lvl3",
 		to = 42,
 		from = 37
 	},
@@ -3247,7 +3275,7 @@ local a = {
 	},
 	item_summon_blackburn_blackburn_out = {
 		prefix = "item_summon_blackburn_blackburn",
-		to = 165,
+		to = 164,
 		from = 137
 	},
 	portable_coil_lightning_fx_attack = {
@@ -3391,5 +3419,4 @@ local a = {
 		from = 12
 	}
 }
-
 return a

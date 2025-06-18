@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/sound_db.lua
-
 local log = require("klua.log"):new("sound_db")
 
 require("klua.table")
@@ -56,6 +54,13 @@ function sound_db:init(path)
 	local f_sounds = FS.load(path .. "/sounds.lua")()
 
 	self.sounds = f_sounds
+
+	f_sounds = FS.load(path .. "/kr3_sounds.lua")()
+	table.merge(self.sounds, f_sounds)
+	f_sounds = FS.load(path .. "/kr2_sounds.lua")()
+	table.merge(self.sounds, f_sounds)
+	f_sounds = FS.load(path .. "/kr1_sounds.lua")()
+	table.merge(self.sounds, f_sounds)
 
 	local f_groups = FS.load(path .. "/groups.lua")()
 

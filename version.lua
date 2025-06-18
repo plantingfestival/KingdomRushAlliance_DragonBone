@@ -1,5 +1,3 @@
-﻿-- chunkname: @./version.lua
-
 version = {}
 version.identity = "kingdom_rush_alliance"
 version.title = "Kingdom Rush Alliance"

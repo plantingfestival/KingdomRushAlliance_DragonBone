@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/upgrades.lua
-
 local log = require("klua.log"):new("upgrades")
 local E = require("entity_db")
 local bit = require("bit")
@@ -566,6 +564,8 @@ function upgrades:get_upgrade_array(bitfield)
 end
 
 function upgrades:patch_templates(max_level)
+	balance = nil
+	balance = require("balance/balance")
 	if max_level then
 		self.max_level = max_level
 	end
@@ -591,16 +591,24 @@ function upgrades:patch_templates(max_level)
 		"tower_dark_elf_lvl",
 		"tower_hermit_toad_lvl",
 		"tower_dwarf_lvl",
-		"tower_sparking_geode_lvl"
+		"tower_sparking_geode_lvl",
+		"tower_rock_thrower_lvl",
+		"tower_warmongers_barrack_lvl",
+		"tower_ignis_altar_lvl"
 	}
 
 	u = self:get_upgrade("towers_war_rations")
 
 	if u then
+		local st = T(T("tower_arborean_emissary_lvl1").barrack.soldier_type)
+		local h = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_arborean_emissary_lvl1").barrack.standby_soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+
 		for _, n in pairs(all_towers) do
 			for i = 1, 4 do
 				if T(n .. i).barrack then
-					local st = T(T(n .. i).barrack.soldier_type)
+					st = T(T(n .. i).barrack.soldier_type)
 
 					st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 				end
@@ -621,6 +629,72 @@ function upgrades:patch_templates(max_level)
 		T("soldier_tower_barrel_skill_warrior").war_rations_hp_factor = b.towers_war_rations.hp_factor
 		T("tower_paladin_covenant_soldier_lvl4").powers.lead.b.hp = T("tower_paladin_covenant_soldier_lvl4").powers.lead.b.hp * b.towers_war_rations.hp_factor
 		T("soldier_tower_dark_elf").war_rations_hp_factor = b.towers_war_rations.hp_factor
+
+		st = T(T("tower_paladin").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_wildling").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barbarian").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_templar").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_assassin").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barrack_dwarf").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_arborean_emissary_lvl1").barrack.soldier_type)
+		st.health.hp_max = h
+		st = T(T("tower_entwood").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_frankenstein").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		for i = 2, 3 do
+			st = T(T("tower_elven_barrack_lvl" .. i).barrack.soldier_type)
+			st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		end
+		st = T(T("tower_blade").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_special_elf").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_drow").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		for i = 2, 4 do
+			st = T(T("tower_twilight_elves_barrack_lvl" .. i).barrack.soldier_type)
+			st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		end
+		st = T(st.death_spawns.name)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_spirit_mausoleum_lvl4").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		for i, hp in ipairs(T("tower_spirit_mausoleum_lvl4").powers.spectral_communion.hp) do
+			T("tower_spirit_mausoleum_lvl4").powers.spectral_communion.hp[i] = km.round(hp * b.towers_war_rations.hp_factor)
+		end
+		st = T(T("tower_warmongers_barrack_lvl4").powers.promotion.unit_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_hammerhold_archer").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		for i, name in ipairs(T("tower_hammerhold_archer").powers.war_elephants.unit_type) do
+			st = T(name)
+			st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		end
+		st = T(T("tower_barrack_amazonas").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barrack_pirates").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barrack_pirates_w_flamer").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barrack_pirates_w_anchor").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_stage_28_priests_barrack").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_barrack_mercenaries").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_ewok").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_stage_20_arborean_honey").attacks.list[2].entity)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T(T("tower_sorcerer").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 	end
 
 	u = self:get_upgrade("towers_wise_investment")
@@ -631,6 +705,63 @@ function upgrades:patch_templates(max_level)
 				T(n .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
 			end
 		end
+
+		T("tower_paladin").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_wildling").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_barbarian").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_templar").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_assassin").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_archer_dwarf").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_barrack_dwarf").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_entwood").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_frankenstein").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_tesla").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 3 do
+			T("tower_elven_barrack_lvl" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_blade").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_special_elf").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_drow").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 4 do
+			T("tower_twilight_elves_barrack_lvl" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		for i = 1, 3 do
+			T("tower_mage_" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_wild_magus").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_high_elven").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 3 do
+			T("tower_archer_" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_totem").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_crossbow").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_musketeer").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 4 do
+			T("tower_spirit_mausoleum_lvl" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_hammerhold_archer").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 3 do
+			T("tower_elven_archer_" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_arcane_archer").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_silver").tower.refund_factor = b.towers_wise_investment.refund_factor
+		for i = 2, 3 do
+			T("tower_engineer_" .. i).tower.refund_factor = b.towers_wise_investment.refund_factor
+		end
+		T("tower_bfg").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_dwaarp").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_mech").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_pirate_watchtower").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_pixie").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_faerie_dragon").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_ewok").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_royal_archer_and_musketeer").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_royal_archer_and_ranger").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_royal_archer_and_longbow").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_sorcerer").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_archmage").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_sunray").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_bastion").tower.refund_factor = b.towers_wise_investment.refund_factor
 	end
 
 	u = self:get_upgrade("towers_scoping_mechanism")
@@ -652,6 +783,140 @@ function upgrades:patch_templates(max_level)
 				end
 			end
 		end
+
+		local attacks = T("tower_entwood").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_frankenstein").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_tesla").attacks
+		attacks.range = attacks.range * range_factor
+		attacks.list[1].range = attacks.range
+		T(attacks.list[2].aura).aura.radius = attacks.range
+		for i = 1, 3 do
+			attacks = T("tower_mage_" .. i).attacks
+			attacks.range = attacks.range * range_factor
+		end
+		attacks = T("tower_wild_magus").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_high_elven").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_archer_dwarf").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_totem").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_crossbow").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_musketeer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks.list[2].range = attacks.list[2].range * range_factor
+		attacks.list[3].range = attacks.list[3].range * range_factor
+		attacks.list[4].range = attacks.list[4].range * range_factor
+		for i = 2, 4 do
+			attacks = T("tower_spirit_mausoleum_lvl" .. i).attacks
+			attacks.range = attacks.range * range_factor
+		end
+		attacks = T("tower_hammerhold_archer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_pirate_watchtower").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_pixie").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_faerie_dragon").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_stage_13_sunray").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_stage_20_arborean_honey").attacks
+		attacks.range = attacks.range * range_factor
+		for i = 2, 3 do
+			attacks = T("tower_elven_archer_" .. i).attacks
+			attacks.range = attacks.range * range_factor
+		end
+		attacks = T("tower_arcane_archer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_silver").attacks
+		attacks.range = attacks.range * range_factor
+		for i = 2, 3 do
+			attacks = T("tower_engineer_" .. i).attacks
+			attacks.range = attacks.range * range_factor
+		end
+		attacks = T("tower_bfg").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_dwaarp").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_royal_archer_and_musketeer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("shooter_musketeer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks.list[2].range = attacks.list[2].range * range_factor
+		attacks.list[3].range = attacks.list[3].range * range_factor
+		attacks.list[4].range = attacks.list[4].range * range_factor
+		attacks = T("tower_royal_archer_and_ranger").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("shooter_ranger").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_royal_archer_and_longbow").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("shooter_longbow").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_sorcerer").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_archmage").attacks
+		attacks.range = attacks.range * range_factor
+		attacks = T("tower_bastion").attacks
+		attacks.range = attacks.range * range_factor
+
+		local barrack = T("tower_paladin").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_wildling").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barbarian").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_templar").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_assassin").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_dwarf").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_entwood").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_frankenstein").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		for i = 2, 3 do
+			barrack = T("tower_elven_barrack_lvl" .. i).barrack
+			barrack.rally_range = barrack.rally_range * rally_range_factor
+		end
+		barrack = T("tower_blade").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_special_elf").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_drow").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		for i = 2, 4 do
+			barrack = T("tower_twilight_elves_barrack_lvl" .. i).barrack
+			barrack.rally_range = barrack.rally_range * rally_range_factor
+		end
+		barrack = T("tower_spirit_mausoleum_lvl4").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_hammerhold_archer").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_amazonas").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_pirates").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_pirates_w_flamer").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_pirates_w_anchor").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_stage_28_priests_barrack").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_barrack_mercenaries").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_ewok").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_mech").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_sorcerer").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
 	end
 
 	u = self:get_upgrade("towers_golden_time")
@@ -697,6 +962,25 @@ function upgrades:patch_templates(max_level)
 		for i = 1, 4 do
 			T("bullet_tower_hermit_toad_engineer_basic_lvl" .. i).bullet.damage_radius = T("bullet_tower_hermit_toad_engineer_basic_lvl" .. i).bullet.damage_radius * r_factor
 		end
+		T("rock_entwood").bullet.damage_radius = T("rock_entwood").bullet.damage_radius * r_factor
+		T("rock_firey_nut").bullet.damage_radius = T("rock_firey_nut").bullet.damage_radius * r_factor
+		for i = 1, 4 do
+			local t = T("tower_rock_thrower_lvl" .. i)
+			local b = T(t.attacks.list[1].bullet)
+			b.bullet.damage_radius = b.bullet.damage_radius * r_factor
+		end
+		T("dwarf_barrel").bullet.damage_radius = T("dwarf_barrel").bullet.damage_radius * r_factor
+		T("bomb_musketeer").bullet.damage_radius = T("bomb_musketeer").bullet.damage_radius * r_factor
+		T("pirate_watchtower_bomb").bullet.damage_radius = T("pirate_watchtower_bomb").bullet.damage_radius * r_factor
+		T("bullet_stage_20_arborean_honey").bullet.damage_radius = T("bullet_stage_20_arborean_honey").bullet.damage_radius * r_factor
+		T("aura_arcane_burst").aura.radius = T("aura_arcane_burst").aura.radius * r_factor
+		T("bomb_dynamite").bullet.damage_radius = T("bomb_dynamite").bullet.damage_radius * r_factor
+		T("bomb_black").bullet.damage_radius = T("bomb_black").bullet.damage_radius * r_factor
+		T("bomb_bfg").bullet.damage_radius = T("bomb_bfg").bullet.damage_radius * r_factor
+		T("missile_bfg").bullet.damage_radius = T("missile_bfg").bullet.damage_radius * r_factor
+		T("bomb_mecha").bullet.damage_radius = T("bomb_mecha").bullet.damage_radius * r_factor
+		T("missile_mecha").bullet.damage_radius = T("missile_mecha").bullet.damage_radius * r_factor
+		T("bolt_blast").bullet.damage_radius = T("bolt_blast").bullet.damage_radius * r_factor
 	end
 
 	u = self:get_upgrade("towers_favorite_customer")
@@ -720,9 +1004,114 @@ function upgrades:patch_templates(max_level)
 				end
 			end
 		end
+
+		local t = T("tower_entwood")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.entwood.fiery_nuts.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.entwood.clobber.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_wild_magus")
+		local p = t.powers.eldritch
+		for i, cd in ipairs(p.cooldowns) do
+			p.cooldowns[i] = p.cooldowns[i] * b.towers_keen_accuracy.cooldown_mult
+		end
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.wild_magus.ward.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_high_elven")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.high_elven.timelapse.cooldown = t.attacks.list[2].cooldown
+
+		t = T("tower_archer_dwarf")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.archer_dwarf.barrel.cooldown = t.attacks.list[2].cooldown
+
+		t = T("tower_totem")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.totem.weakness.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.totem.silence.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_crossbow")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.crossbow.multishot.cooldown = t.attacks.list[2].cooldown
+
+		t = T("tower_musketeer")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.attacks.list[4].cooldown = t.attacks.list[4].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.musketeer.sniper.cooldown = t.attacks.list[2].cooldown
+		balance.towers.musketeer.shrapnel.cooldown = t.attacks.list[4].cooldown
+
+		t = T("tower_spirit_mausoleum_lvl4")
+		for _, p in pairs(t.powers) do
+			if p.cooldown then
+				for k, _ in pairs(p.cooldown) do
+					p.cooldown[k] = p.cooldown[k] * b.towers_keen_accuracy.cooldown_mult
+				end
+			end
+		end
+
+		t = T("tower_pixie")
+		t.attacks.enemy_cooldown = t.attacks.enemy_cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.attacks.pixie_cooldown = t.attacks.pixie_cooldown * b.towers_keen_accuracy.cooldown_mult
+
+		t = T("tower_arcane_archer")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.arcane_archer.burst.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.arcane_archer.slumber.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_silver")
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.silver.mark.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_bfg")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.bfg.missile.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.bfg.cluster.cooldown = t.attacks.list[3].cooldown
+
+		t = T("tower_dwaarp")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.dwaarp.lava.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.dwaarp.drill.cooldown = t.attacks.list[3].cooldown
+		t.attacks.list[4].cooldown = t.attacks.list[4].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.dwaarp.batteries.cooldown = t.attacks.list[4].cooldown
+
+		t = T("soldier_mecha")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.mecha.missile.cooldown = t.attacks.list[2].cooldown
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.mecha.oil.cooldown = t.attacks.list[3].cooldown
+
+		t = T("shooter_musketeer")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.attacks.list[4].cooldown = t.attacks.list[4].cooldown * b.towers_keen_accuracy.cooldown_mult
+
+		t = T("aura_ranger_thorn")
+		t.aura.cooldown = t.aura.cooldown * b.towers_keen_accuracy.cooldown_mult
+
+		t = T("shooter_longbow")
+		t.attacks.list[3].cooldown = t.attacks.list[3].cooldown * b.towers_keen_accuracy.cooldown_mult
+
+		t = T("tower_sorcerer")
+		balance.towers.sorcerer.polymorph.cooldown = balance.towers.sorcerer.polymorph.cooldown * b.towers_keen_accuracy.cooldown_mult
+		t.powers.polymorph.cooldown_base = balance.towers.sorcerer.polymorph.cooldown - t.powers.polymorph.cooldown_inc
+
+		t = T("tower_archmage")
+		t.attacks.list[2].cooldown = t.attacks.list[2].cooldown * b.towers_keen_accuracy.cooldown_mult
+		balance.towers.archmage.twister.cooldown = t.attacks.list[2].cooldown
 	end
 
 	local all_heroes = {
+		"hero_10yr",
+		"hero_dracolich",
+		"hero_wilbur",
+		"hero_dianyun",
 		"hero_vesper",
 		"hero_raelyn",
 		"hero_muyrn",
@@ -737,14 +1126,39 @@ function upgrades:patch_templates(max_level)
 		"hero_bird",
 		"hero_dragon_bone",
 		"hero_dragon_arb",
-		"hero_spider"
+		"hero_spider",
+		"hero_witch",
+		"hero_lava",
+		"hero_bolin",
+		"hero_gerald",
+		"hero_ignus",
+		"hero_elora",
+		"hero_oni",
+		"hero_thor",
+		"hero_magnus",
+		"hero_denas",
+		"hero_hacksaw",
+		"hero_ingvar",
+		"hero_dragon",
+		"hero_dwarf",
+		"hero_elves_archer",
+		"hero_arivan",
 	}
 
 	u = self:get_upgrade("heroes_desperate_effort")
 
 	if u then
 		local armor_p = b.heroes_desperate_effort.armor_penetration
-		local all_basic = {}
+		local all_bullets = {}
+
+		function all_bullets:contains(value)
+			for _, v in ipairs(self) do
+			  if v == value then
+				  return true
+			  end
+			end
+			return false
+		end
 
 		for _, h in pairs(all_heroes) do
 			if T(h).melee then
@@ -759,21 +1173,43 @@ function upgrades:patch_templates(max_level)
 			if T(h).ranged then
 				for _, ra in pairs(T(h).ranged.attacks) do
 					if ra.basic_attack then
-						local bt = T(ra.bullet)
-
-						bt.bullet.reduce_armor = bt.bullet.reduce_armor + armor_p
-						bt.bullet.reduce_magic_armor = bt.bullet.reduce_magic_armor + armor_p
+						if ra.bullet and T(ra.bullet) and not all_bullets:contains(ra.bullet) then
+							table.insert(all_bullets, ra.bullet)
+							local bt = T(ra.bullet)
+							bt.bullet.reduce_armor = bt.bullet.reduce_armor + armor_p
+							bt.bullet.reduce_magic_armor = bt.bullet.reduce_magic_armor + armor_p
+						elseif ra.bullets then
+							for i, b in ipairs(ra.bullets) do
+								local bullet = T(b)
+								if bullet and not all_bullets:contains(b) then
+									table.insert(all_bullets, b)
+									bullet.bullet.reduce_armor = bullet.bullet.reduce_armor + armor_p
+									bullet.bullet.reduce_magic_armor = bullet.bullet.reduce_magic_armor + armor_p
+								end
+							end
+						end
 					end
 				end
 			end
 
 			if T(h).timed_attacks then
 				for _, ta in pairs(T(h).timed_attacks.list) do
-					if ta.basic_attack and ta.bullet then
-						local bt = T(ta.bullet)
-
-						bt.bullet.reduce_armor = bt.bullet.reduce_armor + armor_p
-						bt.bullet.reduce_magic_armor = bt.bullet.reduce_magic_armor + armor_p
+					if ta.basic_attack then
+						if ta.bullet and T(ta.bullet) and not all_bullets:contains(ta.bullet) then
+							table.insert(all_bullets, ta.bullet)
+							local bt = T(ta.bullet)
+							bt.bullet.reduce_armor = bt.bullet.reduce_armor + armor_p
+							bt.bullet.reduce_magic_armor = bt.bullet.reduce_magic_armor + armor_p
+						elseif ta.bullets then
+							for i, b in ipairs(ta.bullets) do
+								local bullet = T(b)
+								if bullet and not all_bullets:contains(b) then
+									table.insert(all_bullets, b)
+									bullet.bullet.reduce_armor = bullet.bullet.reduce_armor + armor_p
+									bullet.bullet.reduce_magic_armor = bullet.bullet.reduce_magic_armor + armor_p
+								end
+							end
+						end
 					end
 				end
 			end
@@ -800,8 +1236,11 @@ function upgrades:patch_templates(max_level)
 		local cd_factor = b.heroes_unlimited_vigor.cooldown_factor
 
 		for _, h in pairs(all_heroes) do
-			for i = 1, 4 do
-				T(h).hero.skills.ultimate.cooldown[i] = T(h).hero.skills.ultimate.cooldown[i] * cd_factor
+			local ultimate = T(h).hero.skills.ultimate
+			if ultimate and ultimate.cooldown and type(ultimate.cooldown) == "table" and ultimate.cooldown[1] then
+				for i = 1, 4 do
+					T(h).hero.skills.ultimate.cooldown[i] = T(h).hero.skills.ultimate.cooldown[i] * cd_factor
+				end
 			end
 		end
 	end
@@ -883,6 +1322,11 @@ function upgrades:patch_templates(max_level)
 	u = self:get_upgrade("towers_royal_training")
 
 	if u then
+		local st = T(T("tower_arborean_emissary_lvl1").barrack.soldier_type)
+		local t = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_arborean_emissary_lvl1").barrack.standby_soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+
 		for _, n in pairs(all_towers) do
 			for i = 1, 4 do
 				if T(n .. i).barrack then
@@ -898,6 +1342,64 @@ function upgrades:patch_templates(max_level)
 		end
 
 		T("re_current_1").cooldown = T("re_current_1").cooldown - b.towers_royal_training.reinforcements_cooldown
+
+		st = T(T("tower_paladin").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_wildling").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barbarian").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_templar").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_assassin").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_dwarf").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_arborean_emissary_lvl1").barrack.soldier_type)
+		st.health.dead_lifetime = t
+		st = T(T("tower_entwood").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_frankenstein").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		for i = 2, 3 do
+			st = T(T("tower_elven_barrack_lvl" .. i).barrack.soldier_type)
+			st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		end
+		st = T(T("tower_blade").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_special_elf").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_drow").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		for i = 2, 4 do
+			st = T(T("tower_twilight_elves_barrack_lvl" .. i).barrack.soldier_type)
+			st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		end
+		local dead_lifetime = st.health.dead_lifetime
+		st = T(st.death_spawns.name)
+		st.health.dead_lifetime = dead_lifetime - st.reinforcement.duration
+		st = T(T("tower_spirit_mausoleum_lvl4").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_warmongers_barrack_lvl4").powers.promotion.unit_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_hammerhold_archer").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_amazonas").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_pirates").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_pirates_w_flamer").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_pirates_w_anchor").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_stage_28_priests_barrack").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_barrack_mercenaries").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_ewok").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
+		st = T(T("tower_sorcerer").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
 	end
 
 	u = self:get_upgrade("reinforcements_thorny_armor")
@@ -984,6 +1486,11 @@ function upgrades:patch_templates(max_level)
 				soldier_t = T(tower_t.barrack.soldier_type)
 				soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 				soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				if soldier_t.powers then
+					soldier_t = soldier_t.powers.lead.b
+					soldier_t.basic_attack.damage_min = math.ceil(soldier_t.basic_attack.damage_min * d_mult)
+					soldier_t.basic_attack.damage_max = math.ceil(soldier_t.basic_attack.damage_max * d_mult)
+				end
 			end
 
 			for i = 1, 4 do
@@ -1006,6 +1513,11 @@ function upgrades:patch_templates(max_level)
 				bullet_t = T(tower_t.attacks.list[1].bullet)
 				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
 				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+				if i == 4 then
+					bullet_t = T(tower_t.attacks.list[1].bullet_overheated)
+					bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+					bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+				end
 			end
 
 			for i = 1, 4 do
@@ -1112,6 +1624,373 @@ function upgrades:patch_templates(max_level)
 				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
 				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
 			end
+
+			soldier_t = T(T("tower_paladin").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			soldier_t.melee.attacks[2].damage_min = math.ceil(soldier_t.melee.attacks[2].damage_min * d_mult)
+			soldier_t.melee.attacks[2].damage_max = math.ceil(soldier_t.melee.attacks[2].damage_max * d_mult)
+
+			soldier_t = T(T("tower_wildling").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			soldier_t = T(T("tower_barbarian").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			soldier_t = T(T("tower_templar").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			soldier_t = T(T("tower_assassin").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_archer_dwarf")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			soldier_t = T(T("tower_barrack_dwarf").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			soldier_t = T(T("tower_arborean_emissary_lvl1").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			soldier_t = T(T("tower_arborean_emissary_lvl1").barrack.standby_soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_entwood")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			bullet_t = T(tower_t.attacks.list[2].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[2].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_frankenstein")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			local mod = T(bullet_t.bullet.mod)
+			mod.dps.damage_min = math.ceil(mod.dps.damage_min * d_mult)
+			mod.dps.damage_max = math.ceil(mod.dps.damage_max * d_mult)
+			soldier_t = T(tower_t.barrack.soldier_type)
+			for index, value in ipairs(soldier_t.melee.attacks[1].damage_min_lvls) do
+				soldier_t.melee.attacks[1].damage_min_lvls[index] = math.ceil(value * d_mult)
+			end
+			for index, value in ipairs(soldier_t.melee.attacks[1].damage_max_lvls) do
+				soldier_t.melee.attacks[1].damage_max_lvls[index] = math.ceil(value * d_mult)
+			end
+
+			tower_t = T("tower_tesla")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bounce_damage_min = math.ceil(bullet_t.bounce_damage_min * d_mult)
+			bullet_t.bounce_damage_max = math.ceil(bullet_t.bounce_damage_max * d_mult)
+
+			for i = 1, 4 do
+				tower_t = T("tower_rock_thrower_lvl" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+				if tower_t.barrack then
+					soldier_t = T(tower_t.barrack.soldier_type)
+					soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+					soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				end
+			end
+
+			for i = 2, 3 do
+				soldier_t = T(T("tower_elven_barrack_lvl" .. i).barrack.soldier_type)
+				soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+				soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			soldier_t = T(T("tower_blade").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			soldier_t = T(T("tower_special_elf").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			soldier_t = T(T("tower_drow").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			soldier_t.melee.attacks[2].damage_inc = math.ceil(soldier_t.melee.attacks[2].damage_inc * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			for i = 2, 4 do
+				soldier_t = T(T("tower_twilight_elves_barrack_lvl" .. i).barrack.soldier_type)
+				for i, a in ipairs(soldier_t.melee.attacks) do
+					a.damage_min = math.ceil(a.damage_min * d_mult)
+					a.damage_max = math.ceil(a.damage_max * d_mult)
+				end
+				bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+			soldier_t = T(soldier_t.death_spawns.name)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			for i = 1, 3 do
+				tower_t = T("tower_mage_" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+			tower_t = T("tower_wild_magus")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_high_elven")
+			for i, bn in ipairs(tower_t.attacks.list[1].bullets) do
+				bullet_t = T(bn)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			for i = 2, 3 do
+				tower_t = T("tower_archer_" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+			tower_t = T("tower_totem")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			tower_t = T("tower_crossbow")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_musketeer")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			soldier_t = T(T("tower_spirit_mausoleum_lvl4").barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			soldier_t = T(T("tower_spirit_mausoleum_lvl4").powers.spectral_communion.unit_type[1])
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			for i = 2, 4 do
+				tower_t = T("tower_spirit_mausoleum_lvl" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			for i = 1, 4 do
+				tower_t = T("tower_warmongers_barrack_lvl" .. i)
+				soldier_t = T(tower_t.barrack.soldier_type)
+				soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+				soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				if tower_t.powers then
+					soldier_t = T(tower_t.powers.promotion.unit_type)
+					soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+					soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				end
+			end
+
+			tower_t = T("tower_hammerhold_archer")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(tower_t.powers.war_elephants.unit_type[1])
+			soldier_t.ranged.attacks[1].damage_min = math.ceil(soldier_t.ranged.attacks[1].damage_min * d_mult)
+			soldier_t.ranged.attacks[1].damage_max = math.ceil(soldier_t.ranged.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_pirate_watchtower")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			bullet_t = T(T("pirate_watchtower_parrot").custom_attack.bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_faerie_dragon")
+			for i, d in ipairs(tower_t.powers.improve_shot.damage) do
+				tower_t.powers.improve_shot.damage[i] = math.ceil(d * d_mult)
+			end
+			soldier_t = T("faerie_dragon")
+			bullet_t = T(soldier_t.custom_attack.bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_barrack_amazonas")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_barrack_pirates")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_barrack_pirates_w_flamer")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_barrack_pirates_w_anchor")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_stage_28_priests_barrack")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(soldier_t.death_spawns.name)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_barrack_mercenaries")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_ewok")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_stage_13_sunray")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			local mod_t = T(bullet_t.bullet.mod)
+			mod_t.dps.damage_min = math.ceil(mod_t.dps.damage_min * d_mult)
+			mod_t.dps.damage_max = math.ceil(mod_t.dps.damage_max * d_mult)
+
+			tower_t = T("tower_stage_20_arborean_honey")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(tower_t.attacks.list[2].entity)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			for i = 2, 3 do
+				tower_t = T("tower_elven_archer_" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			tower_t = T("tower_arcane_archer")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_silver")
+			for i, name in ipairs(tower_t.attacks.list[1].bullets) do
+				bullet_t = T(name)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			local mod = T("mod_ignis_altar_damage")
+			for i = 1, #mod.damages do
+				mod.damages[i] = math.ceil(mod.damages[i] * d_mult)
+			end
+			tower_t = T("tower_ignis_altar_lvl4")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			for i = 2, 3 do
+				tower_t = T("tower_engineer_" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			tower_t = T("tower_bfg")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_dwaarp")
+			tower_t.attacks.list[1].damage_min = math.ceil(tower_t.attacks.list[1].damage_min * d_mult)
+			tower_t.attacks.list[1].damage_max = math.ceil(tower_t.attacks.list[1].damage_max * d_mult)
+			tower_t.attacks.list[4].damage_min = math.ceil(tower_t.attacks.list[4].damage_min * d_mult)
+			tower_t.attacks.list[4].damage_max = math.ceil(tower_t.attacks.list[4].damage_max * d_mult)
+
+			soldier_t = T("soldier_mecha")
+			bullet_t = T(soldier_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			soldier_t = T("shooter_ranger")
+			bullet_t = T(soldier_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_sorcerer")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+
+			tower_t = T("tower_archmage")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_sunray")
+			bullet_t = T(tower_t.attacks.list[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_bastion")
+			bullet_t = T(tower_t.attacks.list[1].payload_name)
+			bullet_t.aura.damage_min = math.ceil(bullet_t.aura.damage_min * d_mult)
+			bullet_t.aura.damage_max = math.ceil(bullet_t.aura.damage_max * d_mult)
 		end
 	end
 
@@ -1133,6 +2012,57 @@ function upgrades:patch_templates(max_level)
 					T(n .. i).tower.price = T(n .. i).tower.price - cost_red
 				end
 			end
+
+			T("tower_paladin").tower.price = T("tower_paladin").tower.price - cost_red
+			T("tower_wildling").tower.price = T("tower_wildling").tower.price - cost_red
+			T("tower_barbarian").tower.price = T("tower_barbarian").tower.price - cost_red
+			T("tower_templar").tower.price = T("tower_templar").tower.price - cost_red
+			T("tower_assassin").tower.price = T("tower_assassin").tower.price - cost_red
+			T("tower_archer_dwarf").tower.price = T("tower_archer_dwarf").tower.price - cost_red
+			T("tower_barrack_dwarf").tower.price = T("tower_barrack_dwarf").tower.price - cost_red
+			T("tower_entwood").tower.price = T("tower_entwood").tower.price - cost_red
+			T("tower_tesla").tower.price = T("tower_tesla").tower.price - cost_red
+			T("tower_frankenstein").tower.price = T("tower_frankenstein").tower.price - cost_red
+			for i = 2, 3 do
+				T("tower_elven_barrack_lvl" .. i).tower.price = T("tower_elven_barrack_lvl" .. i).tower.price - cost_red
+			end
+			T("tower_blade").tower.price = T("tower_blade").tower.price - cost_red
+			T("tower_special_elf").tower.price = T("tower_special_elf").tower.price - cost_red
+			T("tower_drow").tower.price = T("tower_drow").tower.price - cost_red
+			for i = 2, 4 do
+				T("tower_twilight_elves_barrack_lvl" .. i).tower.price = T("tower_twilight_elves_barrack_lvl" .. i).tower.price - cost_red
+			end
+			for i = 1, 3 do
+				T("tower_mage_" .. i).tower.price = T("tower_mage_" .. i).tower.price - cost_red
+			end
+			T("tower_wild_magus").tower.price = T("tower_wild_magus").tower.price - cost_red
+			T("tower_high_elven").tower.price = T("tower_high_elven").tower.price - cost_red
+			for i = 2, 3 do
+				T("tower_archer_" .. i).tower.price = T("tower_archer_" .. i).tower.price - cost_red
+			end
+			T("tower_totem").tower.price = T("tower_totem").tower.price - cost_red
+			T("tower_crossbow").tower.price = T("tower_crossbow").tower.price - cost_red
+			T("tower_musketeer").tower.price = T("tower_musketeer").tower.price - cost_red
+			for i = 2, 4 do
+				T("tower_spirit_mausoleum_lvl" .. i).tower.price = T("tower_spirit_mausoleum_lvl" .. i).tower.price - cost_red
+			end
+			T("tower_hammerhold_archer").tower.price = T("tower_hammerhold_archer").tower.price - cost_red
+			T("tower_random_lvl4").tower.price = T("tower_random_lvl4").tower.price - cost_red
+			T("tower_stage_13_sunray").tower.price = T("tower_stage_13_sunray").tower.price - cost_red
+			T("tower_stage_20_arborean_honey").tower.price = T("tower_stage_20_arborean_honey").tower.price - cost_red
+			for i = 2, 3 do
+				T("tower_elven_archer_" .. i).tower.price = T("tower_elven_archer_" .. i).tower.price - cost_red
+			end
+			T("tower_arcane_archer").tower.price = T("tower_arcane_archer").tower.price - cost_red
+			T("tower_silver").tower.price = T("tower_silver").tower.price - cost_red
+			for i = 2, 3 do
+				T("tower_engineer_" .. i).tower.price = T("tower_engineer_" .. i).tower.price - cost_red
+			end
+			T("tower_bfg").tower.price = T("tower_bfg").tower.price - cost_red
+			T("tower_dwaarp").tower.price = T("tower_dwaarp").tower.price - cost_red
+			T("tower_mech").tower.price = T("tower_mech").tower.price - cost_red
+			T("tower_sorcerer").tower.price = T("tower_sorcerer").tower.price - cost_red
+			T("tower_archmage").tower.price = T("tower_archmage").tower.price - cost_red
 		end
 	end
 

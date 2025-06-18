@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/director.lua
-
 local log = require("klua.log"):new("director")
 local km = require("klua.macros")
 local signal = require("hump.signal")
@@ -677,6 +675,7 @@ function director:queue_load_item_named(name, force_reload)
 		game.store.level_mode = args.level_mode
 		game.store.level_challenge = args.level_challenge
 		game.store.level_difficulty = args.level_difficulty
+		game.store.extra_enemies = args.extra_enemies
 		game.store.screen_scale = self:get_texture_scale("game", REF_H)
 		game.store.texture_size = self.params.texture_size
 		game.store.level = LU.load_level(game.store, game.store.level_name)

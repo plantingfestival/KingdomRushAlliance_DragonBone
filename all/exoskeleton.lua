@@ -1,11 +1,10 @@
-﻿-- chunkname: @./all/exoskeleton.lua
-
 local log = require("klua.log"):new("exoskeleton")
 local FS = love.filesystem
 local A = require("klove.animation_db")
 local EXO = {
 	exos = {},
-	db = {}
+	db = {},
+	missing_frames = {}
 }
 
 function EXO:load_kui(name)
@@ -105,10 +104,15 @@ function EXO:load_fake_sprites_to_db(exo)
 end
 
 function EXO:f(fn)
+	if not fn or self.missing_frames[fn] then
+		return nil
+	end
+
 	local exo_frame = self.db[fn]
 
 	if not exo_frame then
 		log.error("Could not find exo_frame called: %s", fn)
+		self.missing_frames[fn] = true
 
 		return nil
 	end

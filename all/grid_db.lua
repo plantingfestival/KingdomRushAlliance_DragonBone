@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/grid_db.lua
-
 local log = require("klua.log"):new("grid_db")
 local FS = love.filesystem
 local km = require("klua.macros")
@@ -182,6 +180,9 @@ function grid_db:load(name)
 		self.oy = file_data.oy or 0
 		self.grid_w = #self.grid
 		self.grid_h = #self.grid[1]
+		if file_data.cell_size then
+			self.cell_size = file_data.cell_size
+		end
 
 		return true
 	else

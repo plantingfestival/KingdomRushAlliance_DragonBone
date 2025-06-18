@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level25_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -766,7 +764,9 @@ return {
 		"terrain_6_common",
 		"enemies_terrain_6",
 		"stage_25",
-		"tower_rocket_gunners"
+		"tower_rocket_gunners",
+		"enemies_terrain_4",
+		"enemies_sea_of_trees"
 	},
 	required_textures = {
 		"go_enemies_terrain_6",

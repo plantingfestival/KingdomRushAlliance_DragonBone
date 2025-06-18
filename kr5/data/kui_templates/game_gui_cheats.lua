@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_cheats.lua
-
 local function v(x, y)
 	return {
 		x = x,
@@ -17,8 +15,8 @@ return {
 			y = 64
 		},
 		size = {
-			x = 600,
-			y = 220
+			x = 900,
+			y = 340
 		},
 		colors = {
 			background = {
@@ -520,7 +518,7 @@ return {
 			{
 				style = "horizontal",
 				class = "KELayout",
-				id = "cheat_view_paths",
+				id = "cheat_view_enemies_6",
 				pos = {
 					x = 16,
 					y = 256
@@ -530,10 +528,30 @@ return {
 			{
 				style = "horizontal",
 				class = "KELayout",
-				id = "cheat_view_custom",
+				id = "cheat_view_paths",
 				pos = {
 					x = 16,
 					y = 296
+				},
+				children = {}
+			},
+			{
+				style = "horizontal",
+				class = "KELayout",
+				id = "cheat_view_pages",
+				pos = {
+					x = 16,
+					y = 336
+				},
+				children = {}
+			},
+			{
+				style = "horizontal",
+				class = "KELayout",
+				id = "cheat_view_custom",
+				pos = {
+					x = 16,
+					y = 376
 				},
 				children = {}
 			}

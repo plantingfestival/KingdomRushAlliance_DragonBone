@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/slot_template.lua
-
 return {
 	achievements = {},
 	achievements_claimed = {},
@@ -195,6 +193,46 @@ return {
 					instakill_melee = 0,
 					ultimate = 1
 				}
+			},
+			hero_dracolich = {
+				xp = 0,
+				skills = {
+					bonegolem = 0,
+					diseasenova = 0,
+					plaguecarrier = 0,
+					spinerain = 0,
+					ultimate = 1
+				}
+			},
+			hero_wilbur = {
+				xp = 0,
+				skills = {
+					box = 0,
+					engine = 0,
+					missile = 0,
+					smoke = 0,
+					ultimate = 1
+				}
+			},
+			hero_dianyun = {
+				xp = 0,
+				skills = {
+					ricochet = 0,
+					lord_storm = 0,
+					divine_rain = 0,
+					supreme_wave = 0,
+					ultimate = 1
+				}
+			},
+			hero_10yr = {
+				xp = 0,
+				skills = {
+					rain = 0,
+					waterball = 0,
+					buffed = 0,
+					bomb = 0,
+					ultimate = 1
+				}
 			}
 		}
 	},
@@ -223,7 +261,11 @@ return {
 			dark_elf = {},
 			hermit_toad = {},
 			dwarf = {},
-			sparking_geode = {}
+			sparking_geode = {},
+			rock_thrower = {},
+			warmongers_barrack = {},
+			ignis_altar = {},
+			random = {}
 		}
 	},
 	items = {
@@ -234,7 +276,7 @@ return {
 		},
 		status = {
 			winter_age = 0,
-			summon_blackburn = 0,
+			summon_blackburn = 1,
 			loot_box = 0,
 			deaths_touch = 0,
 			portable_coil = 0,
@@ -242,7 +284,20 @@ return {
 			veznan_wrath = 0,
 			cluster_bomb = 0,
 			scroll_of_spaceshift = 0,
-			medical_kit = 0
+			medical_kit = 0,
+			hero_bolin = 1,
+			hero_gerald = 1,
+			hero_ignus = 1,
+			hero_elora = 1,
+			hero_oni = 1,
+			hero_thor = 1,
+			hero_magnus = 1,
+			hero_denas = 1,
+			hero_hacksaw = 1,
+			hero_ingvar = 1,
+			hero_dragon = 1,
+			hero_dwarf = 1,
+			hero_elves_archer = 1
 		}
 	},
 	claimed_gifts = {}

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level16_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -51,7 +49,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_mouth_left",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 275,
 				y = 520
@@ -59,7 +56,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_mouth_right",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 720,
 				y = 520
@@ -67,7 +63,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_overseer",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 505,
 				y = 400
@@ -75,7 +70,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_overseer_eye1",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 505,
 				y = 400
@@ -83,7 +77,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_overseer_eye2",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 505,
 				y = 400
@@ -91,7 +84,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_overseer_eye3",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 505,
 				y = 400
@@ -99,7 +91,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_overseer_eye4",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 505,
 				y = 400
@@ -107,7 +98,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_tentacle_bottom_left",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 280,
 				y = -85
@@ -115,7 +105,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_tentacle_bottom_right",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 740,
 				y = 110
@@ -123,7 +112,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_tentacle_left",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = -90,
 				y = 630
@@ -131,7 +119,6 @@ return {
 		},
 		{
 			template = "controller_stage_16_tentacle_right",
-			["editor.game_mode"] = 1,
 			pos = {
 				x = 1150,
 				y = 620
@@ -146,6 +133,7 @@ return {
 		},
 		{
 			template = "controller_terrain_3_stage_16_glare1",
+			["editor.game_mode"] = 1,
 			pos = {
 				x = 356,
 				y = 173
@@ -153,9 +141,60 @@ return {
 		},
 		{
 			template = "controller_terrain_3_stage_16_glare2",
+			["editor.game_mode"] = 1,
 			pos = {
 				x = 844,
 				y = 548
+			}
+		},
+		{
+			template = "controller_terrain_3_stage_16_glare1_heroic",
+			["editor.game_mode"] = 2,
+			pos = {
+				x = 356,
+				y = 173
+			},
+			waves = {
+				{
+					3,
+					60,
+					30
+				},
+				{
+					5,
+					30,
+					30
+				},
+				{
+					6,
+					45,
+					45
+				}
+			}
+		},
+		{
+			template = "controller_terrain_3_stage_16_glare2_heroic",
+			["editor.game_mode"] = 2,
+			pos = {
+				x = 844,
+				y = 548
+			},
+			waves = {
+				{
+					3,
+					15,
+					30
+				},
+				{
+					5,
+					25,
+					30
+				},
+				{
+					6,
+					35,
+					60
+				}
 			}
 		},
 		{
@@ -1408,12 +1447,20 @@ return {
 		"music_stage16",
 		"terrain_3_common",
 		"enemies_terrain_3",
-		"stage_16"
+		"stage_16",
+		"enemies_terrain_2",
+		"terrain_2_common",
+		"enemies_ancient_metropolis",
+		"enemies_underground"
 	},
 	required_textures = {
 		"go_enemies_terrain_3",
 		"go_stage16_bg",
 		"go_stage16",
-		"go_stages_terrain3"
+		"go_stages_terrain3",
+		"go_enemies_terrain_2",
+		"go_enemies_ancient_metropolis",
+		"go_enemies_halloween",
+		"go_enemies_underground"
 	}
 }

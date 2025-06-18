@@ -1,5 +1,3 @@
-﻿-- chunkname: @./lib/klove/image_db.lua
-
 local log = require("klua.log"):new("image_db")
 local G = love.graphics
 local FS = love.filesystem
@@ -405,7 +403,11 @@ function image_db:preload_atlas(ref_scale, path, name)
 		log.paranoid("loading atlas-frame: %s - %s", v.a_name, k)
 
 		v.group = name_scale
-		v.quad = G.newQuad(v.f_quad[1], v.f_quad[2], v.f_quad[3], v.f_quad[4], v.a_size[1], v.a_size[2])
+		if v.textureRotated then
+			v.quad = G.newQuad(v.f_quad[1], v.f_quad[2], v.f_quad[4], v.f_quad[3], v.a_size[1], v.a_size[2])
+		else
+			v.quad = G.newQuad(v.f_quad[1], v.f_quad[2], v.f_quad[3], v.f_quad[4], v.a_size[1], v.a_size[2])
+		end
 
 		if v.defer then
 			deferred_image_names[v.a_name] = true

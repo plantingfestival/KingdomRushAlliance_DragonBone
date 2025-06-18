@@ -1,5 +1,3 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_flamespitter.lua
-
 return {
 	dwarven_flamespitter_tower_blazing_trail_explosion_0001 = {
 		a_name = "go_towers_flamespitter-1.dds",
@@ -23331,5 +23329,45556 @@ return {
 			47
 		},
 		alias = {}
+	},
+	-- customization
+	["artillery_lvl4_tesla_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			789,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			789,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			796,
+			193,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			796,
+			193,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			995,
+			193,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			995,
+			193,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0007"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			984,
+			380,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0008"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			984,
+			380,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0009"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			775,
+			754,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0010"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			775,
+			754,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			777,
+			567,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			777,
+			567,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0013"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			599,
+			199,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0014"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			599,
+			199,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0015"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			786,
+			380,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0016"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			786,
+			380,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0017"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			578,
+			596,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0018"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			578,
+			596,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0019"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			783,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0020"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			783,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0021"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			380,
+			764,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0022"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			380,
+			764,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0023"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			391,
+			390,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0024"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			391,
+			390,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0025"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			590,
+			398,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0026"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			590,
+			398,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0027"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			796,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0028"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			796,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0029"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			971,
+			754,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0030"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			971,
+			754,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0031"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			986,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0032"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			986,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0033"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			399,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0034"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			399,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0035"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			380,
+			577,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0036"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			380,
+			577,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0037"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			974,
+			567,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0038"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			974,
+			567,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0039"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			809,
+			1051,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0040"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			809,
+			1051,
+			194,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0041"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			993,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0042"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			993,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0043"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			590,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0044"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			590,
+			197,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0045"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			598,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0046"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			193,
+			598,
+			196,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0047"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			390,
+			951,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0048"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			390,
+			951,
+			195,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0049"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            0,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			600,
+			6,
+			194,
+			191
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0050"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            0,
+            26,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			600,
+			6,
+			194,
+			191
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0051"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			402,
+			198,
+			195,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0052"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			402,
+			198,
+			195,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0053"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			6,
+			197,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0054"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            23,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			6,
+			197,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0055"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			198,
+			196,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0056"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            1,
+            24,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			402,
+			6,
+			196,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0057"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            0,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			205,
+			6,
+			195,
+			191
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0058"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            0,
+            25,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			205,
+			6,
+			195,
+			191
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0059"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			204,
+			199,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0060"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			204,
+			199,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0061"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			390,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0062"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			390,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_tesla_0063"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			796,
+			6,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0064"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			796,
+			6,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_tesla_0065"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			220,
+			193
+		},
+		trim = {
+			0,
+            6,
+            22,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			996,
+			6,
+			198,
+			185
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0105"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            4,
+            4
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			993,
+			941,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ray_tesla_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            1,
+            4,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1193,
+			220,
+			209,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            1,
+            4,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1193,
+			220,
+			209,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1196,
+			6,
+			212,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1196,
+			6,
+			212,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            0,
+            7,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1181,
+			431,
+			206,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            0,
+            7,
+            2
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1181,
+			431,
+			206,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0007"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			1,
+            6,
+            4,
+            9
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			218,
+			1180,
+			208,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ray_tesla_0008"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            5,
+            12,
+            7
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1171,
+			639,
+			201,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0009"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			1,
+            6,
+            2,
+            8
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			6,
+			1183,
+			210,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ray_tesla_0010"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            14,
+            5,
+            10
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1167,
+			842,
+			208,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            14,
+            5,
+            10
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1167,
+			842,
+			208,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            15,
+            1,
+            11
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1213,
+			842,
+			212,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ray_tesla_0013"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			213,
+			68
+		},
+		trim = {
+			0,
+            15,
+            1,
+            11
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1213,
+			842,
+			212,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1091,
+			941,
+			84,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1091,
+			941,
+			84,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			1,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1091,
+			1027,
+			84,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			1,
+            1,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1091,
+			1027,
+			84,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			0,
+            4,
+            0,
+            1
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1145,
+			1052,
+			85,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["static_particle_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			53
+		},
+		trim = {
+			0,
+            4,
+            0,
+            1
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1145,
+			1052,
+			85,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            17,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1114,
+			51,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            17,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1114,
+			51,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			996,
+			1039,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			996,
+			1039,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0007"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            18,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1110,
+			1139,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0008"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            18,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1110,
+			1139,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0009"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1056,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0010"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1056,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0013"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            18,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1110,
+			1139,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0014"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			14,
+            18,
+            20,
+            26
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1110,
+			1139,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0015"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1056,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0016"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			12,
+            14,
+            17,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1195,
+			1056,
+			56,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_big_0017"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_big_0018"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			85,
+			97
+		},
+		trim = {
+			17,
+            19,
+            19,
+            23
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1165,
+			1167,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			659,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			659,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			1052,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			1052,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0007"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			734,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0008"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			734,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0009"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			970,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_boss_type1_0010"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			970,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_boss_type1_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0013"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			734,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0014"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			15,
+            25,
+            23,
+            33
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			734,
+			1052,
+			73,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0015"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			970,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_boss_type1_0016"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			12,
+            21,
+            19,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			577,
+			970,
+			80,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_boss_type1_0017"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_boss_type1_0018"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			111,
+			134
+		},
+		trim = {
+			20,
+            26,
+            22,
+            29
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			663,
+			970,
+			69,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_small_0001"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            17,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			749,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_small_0002"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            17,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			749,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["teslahit_small_0003"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			639,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0004"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			639,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0005"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0006"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0007"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            16,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			713,
+			34,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0008"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            16,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			713,
+			34,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0009"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			676,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0010"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			676,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0013"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            16,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			713,
+			34,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0014"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            16,
+            25,
+            14
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			713,
+			34,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0015"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			676,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0016"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			23,
+            15,
+            24,
+            12
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			676,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0017"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["teslahit_small_0018"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			82,
+			65
+		},
+		trim = {
+			25,
+            17,
+            25,
+            13
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			1229,
+			785,
+			32,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0105"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			108,
+			108
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			773,
+			941,
+			108,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0105_disabled"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			108,
+			108
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			883,
+			941,
+			108,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0105_disabled_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			108,
+			108
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			883,
+			941,
+			108,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0105_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			108,
+			108
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			773,
+			941,
+			108,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0011"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			428,
+			1148,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0011_disabled"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			542,
+			1148,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0011_disabled_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			542,
+			1148,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0011_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			428,
+			1148,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0012"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			656,
+			1138,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0012_disabled"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			996,
+			1113,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0012_disabled_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			996,
+			1113,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0012_turn_off"] = {
+		a_name = "tower_tesla.dds",
+		size = {
+			112,
+			112
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1273,
+			1273
+		},
+		f_quad = {
+			656,
+			1138,
+			112,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1481,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			922,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			922,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			922,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			922,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			695,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			860,
+			236,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			6,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			860,
+			236,
+			225,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1712,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1712,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1712,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1943,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1943,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1943,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1943,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            12,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			969,
+			229,
+			230
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            12,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1025,
+			1,
+			229,
+			230
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			734,
+			229,
+			233
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            9,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			794,
+			1,
+			229,
+			233
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            6,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			563,
+			1,
+			229,
+			236
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            6,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			563,
+			1,
+			229,
+			236
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			492,
+			229,
+			240
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			492,
+			229,
+			240
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			248,
+			229,
+			242
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			248,
+			229,
+			242
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			332,
+			1,
+			229,
+			242
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			332,
+			1,
+			229,
+			242
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            19,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1664,
+			229,
+			223
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            19,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1664,
+			229,
+			223
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2174,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2174,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2405,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2405,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2636,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2636,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			385,
+			468,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			385,
+			468,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			385,
+			699,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			385,
+			699,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			389,
+			930,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			389,
+			930,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			154,
+			3005,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			154,
+			3236,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			154,
+			3236,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3002,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3002,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0054"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3002,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0055"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3002,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0056"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0057"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0058"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0059"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0060"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0061"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0062"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0063"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            76,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			322,
+			3233,
+			229,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["artillery_lvl4_bfg_0064"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            20,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			2339,
+			229,
+			222
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0065"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            20,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			2563,
+			229,
+			222
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0066"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            19,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1889,
+			229,
+			223
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0067"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            19,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			2114,
+			229,
+			223
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0068"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            16,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1487,
+			1,
+			229,
+			226
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0069"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            16,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1487,
+			1,
+			229,
+			226
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0070"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            13,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1256,
+			1,
+			229,
+			229
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0071"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            13,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1256,
+			1,
+			229,
+			229
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0072"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            13,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1433,
+			229,
+			229
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0073"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            13,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1433,
+			229,
+			229
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0074"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            12,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1201,
+			229,
+			230
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0075"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            12,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1201,
+			229,
+			230
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0076"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            26,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			2787,
+			229,
+			216
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["artillery_lvl4_bfg_0077"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			233,
+			242
+		},
+		trim = {
+			2,
+            26,
+            2,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			2787,
+			229,
+			216
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bombs_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			46,
+			46
+		},
+		trim = {
+			6,
+            3,
+            6,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2454,
+			34,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bombs_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			46,
+			46
+		},
+		trim = {
+			0,
+            5,
+            0,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1542,
+			3429,
+			46,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bombs_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			47,
+			47
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			588,
+			3415,
+			47,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bombs_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			47,
+			47
+		},
+		trim = {
+			6,
+            7,
+            6,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1464,
+			3578,
+			35,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			590,
+			2779,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			590,
+			2779,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1088,
+			1338,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1088,
+			1338,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			765,
+			2274,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            24,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			717,
+			2531,
+			129,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            39,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1319,
+			1037,
+			129,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            54,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			848,
+			2561,
+			129,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            71,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1010,
+			2494,
+			129,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            63,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1191,
+			1147,
+			129,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            70,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1141,
+			2494,
+			129,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            66,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			1149,
+			129,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1261,
+			2196,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1261,
+			2196,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1581,
+			1528,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1272,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1241,
+			2580,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1241,
+			2580,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1581,
+			1610,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1581,
+			1610,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1417,
+			2367,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1417,
+			2367,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1417,
+			2367,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1417,
+			2367,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1417,
+			2367,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1403,
+			2498,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            67,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1372,
+			2580,
+			129,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            64,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			979,
+			2572,
+			129,
+			83
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            63,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1322,
+			1147,
+			129,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            58,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1829,
+			607,
+			129,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            54,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1110,
+			2573,
+			129,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            49,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			781,
+			1828,
+			129,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            41,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1327,
+			1807,
+			129,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            33,
+            36,
+            54
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			1338,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            24,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1312,
+			1938,
+			129,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1181,
+			1933,
+			129,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1101,
+			2668,
+			129,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            24,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			970,
+			2657,
+			129,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            26,
+            36,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			968,
+			2767,
+			129,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            26,
+            36,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1099,
+			2776,
+			129,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            24,
+            36,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			839,
+			2656,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0054"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0055"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0056"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0057"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			590,
+			2779,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0058"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			590,
+			2779,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0059"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1088,
+			1338,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0060"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1088,
+			1338,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0061"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			765,
+			2274,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0062"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0063"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0064"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2168,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0065"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0066"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0067"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            76
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1340,
+			1233,
+			129,
+			97
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0068"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            76
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1340,
+			1233,
+			129,
+			97
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0069"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            83
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1325,
+			2367,
+			129,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0070"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            83
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1325,
+			2367,
+			129,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0071"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0072"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0073"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0074"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0075"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            88
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1833,
+			980,
+			129,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0076"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            78
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1301,
+			1710,
+			129,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0077"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            70
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1078,
+			1233,
+			129,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0078"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			385,
+			2888,
+			129,
+			112
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0079"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			761,
+			1339,
+			129,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0080"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1065,
+			1807,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0081"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			2042,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0082"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2237,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0083"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			717,
+			2405,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0084"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			641,
+			3416,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0085"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			708,
+			2641,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0086"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1004,
+			2368,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0087"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1196,
+			1807,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0088"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1188,
+			1021,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0089"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			1449,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0090"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1204,
+			1575,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0091"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1350,
+			1332,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0092"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1334,
+			1458,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0093"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1330,
+			1584,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0094"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2048,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0095"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			970,
+			2876,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0096"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            49
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			970,
+			2876,
+			129,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0097"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0098"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0099"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            91
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			738,
+			129,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0100"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            77
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1481,
+			1332,
+			129,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0101"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            77
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1481,
+			1332,
+			129,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_0102"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            70
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1209,
+			1233,
+			129,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0103"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            70
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1209,
+			1233,
+			129,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_0104"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			36,
+            23,
+            36,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			837,
+			2767,
+			129,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Base"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			201,
+			196
+		},
+		trim = {
+			4,
+            16,
+            14,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			389,
+			1161,
+			183,
+			174
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			23,
+            43,
+            22,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3492,
+			72,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			23,
+            40,
+            22,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1396,
+			3440,
+			72,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            29,
+            7,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1615,
+			2348,
+			104,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            19,
+            7,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			959,
+			3344,
+			104,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            9,
+            6,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1398,
+			105,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            7,
+            6,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1453,
+			1147,
+			105,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			5,
+            6,
+            5,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1833,
+			1111,
+			107,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			5,
+            9,
+            5,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1811,
+			1314,
+			107,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			3,
+            9,
+            5,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1836,
+			869,
+			109,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			3,
+            9,
+            5,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1392,
+			2662,
+			109,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			12,
+            9,
+            11,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1707,
+			2494,
+			94,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			12,
+            9,
+            11,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1707,
+			2494,
+			94,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			9,
+            9,
+            9,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1712,
+			1624,
+			99,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			9,
+            9,
+            9,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1712,
+			1707,
+			99,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            8,
+            7,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1551,
+			104,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            9,
+            7,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1635,
+			104,
+			81
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            16,
+            6,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			412,
+			105,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			6,
+            24,
+            6,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1482,
+			105,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			5,
+            33,
+            5,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1416,
+			3141,
+			107,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			13,
+            39,
+            12,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1808,
+			2880,
+			92,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			12,
+            43,
+            9,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1766,
+			2167,
+			96,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			14,
+            43,
+            9,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1823,
+			2974,
+			94,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			12,
+            44,
+            9,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3415,
+			96,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			14,
+            43,
+            11,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1196,
+			3335,
+			92,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			13,
+            44,
+            10,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1191,
+			3239,
+			94,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			13,
+            37,
+            6,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			2112,
+			100,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			13,
+            37,
+            6,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			2112,
+			100,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            22,
+            2,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1592,
+			3243,
+			109,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            22,
+            2,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1513,
+			2241,
+			109,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			4,
+            23,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1346,
+			2784,
+			115,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			4,
+            13,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1001,
+			3512,
+			115,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			3,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			669,
+			2286,
+			116,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			3,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			570,
+			2286,
+			116,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			3,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			649,
+			3542,
+			116,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			3,
+            4,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			748,
+			3542,
+			116,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1588,
+			2245,
+			101,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			2690,
+			101,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			2690,
+			101,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			2319,
+			101,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1410,
+			2278,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            3,
+            10,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1410,
+			2278,
+			101,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			9,
+            0,
+            10,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1675,
+			2224,
+			100,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			9,
+            2,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			224,
+			100,
+			86
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			9,
+            10,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1159,
+			2198,
+			100,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            17,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1087,
+			3587,
+			101,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			8,
+            22,
+            10,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			2812,
+			101,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			10,
+            23,
+            14,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1432,
+			1710,
+			95,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			11,
+            27,
+            14,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1858,
+			2319,
+			94,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			11,
+            27,
+            15,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			925,
+			3417,
+			93,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			11,
+            27,
+            15,
+            9
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1785,
+			3163,
+			93,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_drill_water_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			16,
+            30,
+            15,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1855,
+			3393,
+			88,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_drill_water_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			119,
+			97
+		},
+		trim = {
+			16,
+            30,
+            15,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1245,
+			3328,
+			88,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			3,
+            11,
+            4,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3410,
+			66,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			3,
+            11,
+            4,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3410,
+			66,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			4,
+            10,
+            12,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			1810,
+			57,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			4,
+            10,
+            12,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			1810,
+			57,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			13,
+            10,
+            19,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1732,
+			3490,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			13,
+            10,
+            19,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1732,
+			3490,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			22,
+            12,
+            22,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1442,
+			2143,
+			29,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			22,
+            12,
+            22,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1442,
+			2143,
+			29,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			18,
+            11,
+            11,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			3500,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			18,
+            11,
+            11,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			3500,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			14,
+            11,
+            5,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1881,
+			2106,
+			54,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			14,
+            11,
+            5,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1881,
+			2106,
+			54,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			7,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			772,
+			3512,
+			63,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			7,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			772,
+			3512,
+			63,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			3,
+            11,
+            4,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3410,
+			66,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			3,
+            11,
+            4,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3410,
+			66,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			4,
+            10,
+            12,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			1810,
+			57,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			4,
+            10,
+            12,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			1810,
+			57,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			13,
+            10,
+            19,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1732,
+			3490,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			13,
+            10,
+            19,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1732,
+			3490,
+			41,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			22,
+            12,
+            22,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1042,
+			3629,
+			29,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			22,
+            12,
+            22,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1042,
+			3629,
+			29,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			18,
+            11,
+            11,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			3500,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			18,
+            11,
+            11,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			3500,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			14,
+            11,
+            5,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1881,
+			2106,
+			54,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			14,
+            11,
+            5,
+            7
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1881,
+			2106,
+			54,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Glow_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			7,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			772,
+			3512,
+			63,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Glow_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			73,
+			55
+		},
+		trim = {
+			7,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			772,
+			3512,
+			63,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitDecal1"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			97
+		},
+		trim = {
+			0,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1135,
+			2368,
+			124,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitDecal2"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			97
+		},
+		trim = {
+			0,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1230,
+			2368,
+			124,
+			93
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitDecal3"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			108
+		},
+		trim = {
+			0,
+            0,
+            0,
+            1
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2779,
+			188,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			9,
+            32,
+            10,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1086,
+			3164,
+			105,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			9,
+            32,
+            10,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1086,
+			3164,
+			105,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			8,
+            28,
+            8,
+            23
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1450,
+			1037,
+			108,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			8,
+            28,
+            8,
+            23
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1450,
+			1037,
+			108,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			12,
+            24,
+            9,
+            32
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1556,
+			3016,
+			103,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			12,
+            24,
+            9,
+            32
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1556,
+			3016,
+			103,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			14,
+            22,
+            10,
+            35
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1598,
+			2143,
+			100,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			14,
+            22,
+            10,
+            35
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1598,
+			2143,
+			100,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			15,
+            21,
+            12,
+            39
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1678,
+			2428,
+			97,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			15,
+            21,
+            12,
+            39
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1678,
+			2428,
+			97,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			18,
+            19,
+            15,
+            44
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1823,
+			3070,
+			91,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			18,
+            19,
+            15,
+            44
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1823,
+			3070,
+			91,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			20,
+            21,
+            13,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2217,
+			91,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			124,
+			124
+		},
+		trim = {
+			20,
+            21,
+            13,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2217,
+			91,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			17,
+            13,
+            17,
+            30
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3393,
+			74,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			17,
+            13,
+            17,
+            30
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3393,
+			74,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			12,
+            2,
+            9,
+            20
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1313,
+			2278,
+			87,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			12,
+            2,
+            9,
+            20
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1313,
+			2278,
+			87,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			7,
+            0,
+            6,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1534,
+			2483,
+			95,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			7,
+            0,
+            6,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1534,
+			2483,
+			95,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			3,
+            0,
+            0,
+            15
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1392,
+			2174,
+			105,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			3,
+            0,
+            0,
+            15
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1392,
+			2174,
+			105,
+			102
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			3,
+            0,
+            0,
+            13
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1193,
+			3132,
+			105,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			3,
+            0,
+            0,
+            13
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1193,
+			3132,
+			105,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_water_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			2,
+            4,
+            0,
+            13
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1454,
+			3013,
+			106,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_water_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			108,
+			117
+		},
+		trim = {
+			2,
+            4,
+            0,
+            13
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1454,
+			3013,
+			106,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			13,
+            7,
+            14,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1457,
+			17,
+			13
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			13,
+            7,
+            14,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1457,
+			17,
+			13
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			12,
+            5,
+            14,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			430,
+			18,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			12,
+            5,
+            14,
+            8
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			430,
+			18,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			11,
+            4,
+            10,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1346,
+			956,
+			23,
+			18
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			11,
+            4,
+            10,
+            6
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1346,
+			956,
+			23,
+			18
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			7,
+            2,
+            9,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1334,
+			3630,
+			28,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			6,
+            0,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1895,
+			3537,
+			33,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			6,
+            0,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1895,
+			3537,
+			33,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			2,
+            0,
+            2,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			3618,
+			40,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			2,
+            0,
+            2,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			3618,
+			40,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            0,
+            2,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1704,
+			3517,
+			42,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            0,
+            2,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1704,
+			3517,
+			42,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            1,
+            0,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			353,
+			468,
+			44,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            1,
+            0,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			353,
+			468,
+			44,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			1,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1527,
+			3626,
+			42,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			1,
+            2,
+            1,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1527,
+			3626,
+			42,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            1,
+            0,
+            1
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1751,
+			3444,
+			44,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_HitSmoke_waterBubble_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			44,
+			28
+		},
+		trim = {
+			0,
+            1,
+            0,
+            1
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1751,
+			3444,
+			44,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_Lava"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			329,
+			245
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			1,
+			329,
+			245
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Lava1"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			181,
+			139
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			387,
+			1337,
+			179,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_Lava2"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			176,
+			152
+		},
+		trim = {
+			1,
+            0,
+            0,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			626,
+			175,
+			149
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_lights_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1346,
+			976,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_lights_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1531,
+			971,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_lights_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1682,
+			972,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_lights_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1241,
+			2662,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_lights_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1232,
+			2723,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["EarthquakeTower_lights_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1503,
+			2580,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_lights_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1422,
+			2746,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["EarthquakeTower_lights_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			188,
+			196
+		},
+		trim = {
+			26,
+            100,
+            13,
+            37
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1483,
+			2746,
+			149,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mech_bomb"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			33,
+			33
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1564,
+			2696,
+			33,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mech_missile_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			55,
+			24
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1891,
+			1925,
+			55,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mech_missile_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			55,
+			24
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1277,
+			3630,
+			55,
+			24
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["mech_missile_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			55,
+			24
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1529,
+			3518,
+			55,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["mech_missile_particle"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			20,
+			20
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1615,
+			2454,
+			20,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            59,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			574,
+			1149,
+			151,
+			188
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            54,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			725,
+			874,
+			151,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            57,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2587,
+			153,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            57,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			727,
+			1069,
+			151,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1690,
+			414,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            67,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1379,
+			794,
+			150,
+			180
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            71,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1051,
+			1449,
+			150,
+			176
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            69,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1052,
+			1627,
+			150,
+			178
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			229,
+			150,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            61,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			651,
+			3043,
+			151,
+			186
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            59,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			516,
+			2890,
+			151,
+			188
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            54,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			721,
+			679,
+			153,
+			193
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            56,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			187,
+			3467,
+			153,
+			191
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            57,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			555,
+			2587,
+			151,
+			190
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			807,
+			3231,
+			150,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            66,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			565,
+			2404,
+			150,
+			181
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            71,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			570,
+			2108,
+			150,
+			176
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            69,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			570,
+			1928,
+			150,
+			178
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1034,
+			636,
+			150,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            61,
+            37,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			804,
+			3043,
+			150,
+			186
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			706,
+			2890,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			706,
+			2890,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			608,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			608,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			608,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1194,
+			803,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1194,
+			803,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1194,
+			803,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1194,
+			803,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            35,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			233,
+			169,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            35,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			233,
+			169,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			9,
+            33,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			706,
+			463,
+			173,
+			214
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			9,
+            33,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			706,
+			463,
+			173,
+			214
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			7,
+            29,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			529,
+			245,
+			173,
+			218
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			7,
+            29,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			529,
+			245,
+			173,
+			218
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			6,
+            26,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			353,
+			245,
+			174,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			6,
+            26,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			353,
+			245,
+			174,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			5,
+            26,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			1,
+			175,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			5,
+            26,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			1,
+			175,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            25,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			704,
+			239,
+			154,
+			222
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            25,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			704,
+			239,
+			154,
+			222
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            41,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			881,
+			463,
+			151,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            41,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			881,
+			463,
+			151,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1523,
+			600,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1523,
+			600,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1676,
+			600,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1676,
+			600,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1676,
+			600,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1531,
+			786,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0054"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1531,
+			786,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0055"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            64,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1531,
+			786,
+			151,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0056"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            13,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1245,
+			153,
+			234
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0057"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            13,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1245,
+			153,
+			234
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0058"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            10,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1006,
+			155,
+			237
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0059"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            10,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			1006,
+			155,
+			237
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0060"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            6,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			763,
+			151,
+			241
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0061"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            6,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			763,
+			151,
+			241
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0062"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            3,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3252,
+			151,
+			244
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0063"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            3,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3252,
+			151,
+			244
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0064"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            3,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			517,
+			151,
+			244
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0065"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            3,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			517,
+			151,
+			244
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0066"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            2,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3005,
+			151,
+			245
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0067"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            2,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3005,
+			151,
+			245
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0068"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            19,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			465,
+			151,
+			228
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0069"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            19,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			553,
+			465,
+			151,
+			228
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0070"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0071"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0072"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0073"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            63,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3229,
+			156,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0074"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            63,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3229,
+			156,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0075"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			648,
+			3231,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0076"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			648,
+			3231,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0077"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0078"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0079"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0080"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0081"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0082"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0083"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1035,
+			788,
+			157,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0084"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            32,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			583,
+			1457,
+			160,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0085"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            32,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			583,
+			1457,
+			160,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0086"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			23,
+            64,
+            25,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			1849,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0087"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			23,
+            64,
+            25,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			1849,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0088"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            66,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2404,
+			163,
+			181
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0089"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            66,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2404,
+			163,
+			181
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0090"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2034,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0091"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2034,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0092"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2219,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0093"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            24,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			2219,
+			168,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0094"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			23,
+            64,
+            10,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			1664,
+			183,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0095"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			23,
+            64,
+            10,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			1664,
+			183,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0096"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            66,
+            3,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			414,
+			184,
+			181
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0097"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            66,
+            3,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			400,
+			1478,
+			184,
+			181
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0098"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1034,
+			447,
+			187,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0099"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			24,
+            64,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1034,
+			447,
+			187,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0100"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            3,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1308,
+			232,
+			187,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0101"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            3,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1308,
+			232,
+			187,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0102"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			229,
+			185,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0103"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			229,
+			185,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0104"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1322,
+			421,
+			185,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0105"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            64,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			679,
+			156,
+			183
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0106"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            63,
+            34,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			878,
+			864,
+			155,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0107"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0108"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0109"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0110"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			36,
+            63,
+            30,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1684,
+			786,
+			150,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0111"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            29,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			880,
+			1050,
+			154,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0112"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            29,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			880,
+			1050,
+			154,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0113"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3498,
+			160,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0114"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1,
+			3498,
+			160,
+			184
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_0115"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			585,
+			1642,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0116"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			585,
+			1642,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0117"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0118"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0119"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0120"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0121"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0122"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0123"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0124"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0125"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0126"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0127"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0128"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0129"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0130"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0131"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0132"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0133"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0134"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0135"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0136"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0137"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0138"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0139"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0140"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			30,
+            63,
+            27,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3043,
+			159,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0141"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            29,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			880,
+			1050,
+			154,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0142"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            29,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			880,
+			1050,
+			154,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0143"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1036,
+			973,
+			150,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0144"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			33,
+            63,
+            33,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1036,
+			973,
+			150,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_0145"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			29,
+            63,
+            36,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			746,
+			1642,
+			151,
+			184
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shit"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			267,
+			119
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			248,
+			267,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0054"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0055"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0056"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0057"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0058"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0059"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0060"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0061"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0062"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0063"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0064"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0065"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0066"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0067"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0068"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0069"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0070"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0071"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0072"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0073"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0074"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0075"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0076"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0077"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0078"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0079"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0080"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0081"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0082"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0083"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0084"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0085"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0086"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0087"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0088"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0089"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0090"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0091"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0092"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0093"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0094"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0095"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0096"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0097"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0098"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0099"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0100"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0101"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0102"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0103"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0104"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0105"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0106"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0107"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0108"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0109"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0110"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0111"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0112"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0113"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0114"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0115"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0116"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0117"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0118"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0119"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0120"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0121"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0122"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			47,
+            153,
+            140,
+            60
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1001,
+			3629,
+			29,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0123"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            155,
+            140,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1869,
+			2415,
+			49,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0124"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			27,
+            155,
+            140,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1869,
+			2415,
+			49,
+			75
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0125"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            141,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1391,
+			3250,
+			62,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0126"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            141,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1391,
+			3250,
+			62,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0127"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			10,
+            155,
+            140,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1396,
+			3372,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0128"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			10,
+            155,
+            140,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1396,
+			3372,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0129"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            142,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1479,
+			3353,
+			61,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0130"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            142,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1479,
+			3353,
+			61,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0131"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            141,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1391,
+			3250,
+			62,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0132"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            141,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1391,
+			3250,
+			62,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0133"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			10,
+            155,
+            140,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1396,
+			3372,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0134"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			10,
+            155,
+            140,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1396,
+			3372,
+			66,
+			81
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0135"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            142,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1479,
+			3353,
+			61,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0136"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			13,
+            154,
+            142,
+            16
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1479,
+			3353,
+			61,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0137"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			17,
+            155,
+            141,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1753,
+			1033,
+			58,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0138"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			17,
+            155,
+            141,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1753,
+			1033,
+			58,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0139"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			21,
+            155,
+            143,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1753,
+			1093,
+			52,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0140"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			21,
+            155,
+            143,
+            19
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1753,
+			1093,
+			52,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0141"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			25,
+            158,
+            145,
+            20
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1542,
+			3353,
+			46,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0142"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			25,
+            158,
+            145,
+            20
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1542,
+			3353,
+			46,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Mecha_Shitting_0143"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            158,
+            145,
+            21
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1102,
+			3001,
+			45,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0144"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			26,
+            158,
+            145,
+            21
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1102,
+			3001,
+			45,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Mecha_Shitting_0145"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			216,
+			252
+		},
+		trim = {
+			66,
+            158,
+            145,
+            89
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3372,
+			5,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0123"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1471,
+			1233,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0139"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			2014,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0140"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1499,
+			2143,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0141"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			2126,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer1_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            84,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			450,
+			3464,
+			194,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            84,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			450,
+			3464,
+			194,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            90,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			585,
+			1828,
+			194,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer1_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            90,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			585,
+			1828,
+			194,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer1_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer1_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            4
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1219,
+			430,
+			194,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2014,
+			40,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            91,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1878,
+			2066,
+			38,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            88,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1445,
+			3615,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            88,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1445,
+			3615,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            81,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3437,
+			42,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer2_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            87,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1536,
+			3575,
+			42,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            87,
+            142,
+            56
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1536,
+			3575,
+			42,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1731,
+			3533,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            71,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			3158,
+			45,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            71,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			3158,
+			45,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1633,
+			3577,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1633,
+			3577,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1633,
+			3577,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer2_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1633,
+			3577,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            106,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1648,
+			3517,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            106,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1648,
+			3517,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            106,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1648,
+			3517,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            106,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1648,
+			3517,
+			54,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            110,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1245,
+			3418,
+			56,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            113,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1873,
+			2991,
+			56,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer3_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            113,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1873,
+			2991,
+			56,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer3_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			3483,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			3483,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			3483,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer3_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            108,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3568,
+			52,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            66,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1768,
+			1147,
+			83,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            66,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1768,
+			1147,
+			83,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            74,
+            58,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1240,
+			3468,
+			81,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            74,
+            58,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1240,
+			3468,
+			81,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            57,
+            54,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1190,
+			3587,
+			85,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            41,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			326,
+			86,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            41,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			326,
+			86,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            63,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3312,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            63,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3312,
+			84,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer4_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer4_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            60,
+            56,
+            64
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			2494,
+			84,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            9,
+            56,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			2974,
+			83,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            9,
+            56,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			2974,
+			83,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            7,
+            42,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1678,
+			2326,
+			100,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            7,
+            42,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1678,
+			2326,
+			100,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            3,
+            47,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1790,
+			2494,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            3,
+            47,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1790,
+			2494,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			59,
+            0,
+            49,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1204,
+			1706,
+			95,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			59,
+            0,
+            49,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1204,
+			1706,
+			95,
+			99
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			58,
+            0,
+            51,
+            92
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1610,
+			1692,
+			94,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			58,
+            0,
+            51,
+            92
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1610,
+			1692,
+			94,
+			100
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			80,
+            0,
+            61,
+            144
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3469,
+			62,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			84,
+            15,
+            65,
+            150
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1891,
+			1869,
+			54,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer5_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer5_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            0,
+            200,
+            189
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			224,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			23,
+            64,
+            146,
+            87
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1500,
+			3577,
+			34,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer6_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			30,
+            40,
+            139,
+            110
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1580,
+			3624,
+			34,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer6_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			44,
+            27,
+            125,
+            121
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1240,
+			3551,
+			34,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer6_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            26,
+            108,
+            124
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3620,
+			35,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer6_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            26,
+            108,
+            124
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1778,
+			3620,
+			35,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer6_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			78,
+            37,
+            91,
+            111
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			3541,
+			34,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer6_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			88,
+            64,
+            81,
+            100
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3557,
+			34,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl2_layer7_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl2_layer7_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			7,
+            111,
+            148,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1861,
+			2879,
+			48,
+			57
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer1_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            84,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			342,
+			3464,
+			194,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer1_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            84,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			342,
+			3464,
+			194,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer1_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            90,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			882,
+			1236,
+			194,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            90,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			882,
+			1236,
+			194,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer1_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			0,
+            87,
+            9,
+            2
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			1338,
+			194,
+			103
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			19,
+            80,
+            144,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			876,
+			2363,
+			40,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            91,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1485,
+			3620,
+			38,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            88,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1550,
+			3469,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			20,
+            88,
+            145,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1550,
+			3469,
+			38,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            80,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			3514,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            86,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			3571,
+			45,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			16,
+            86,
+            142,
+            57
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			3571,
+			45,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            80,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1580,
+			3577,
+			45,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer2_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            71,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1873,
+			2929,
+			45,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            71,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1873,
+			2929,
+			45,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1731,
+			3585,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1731,
+			3585,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1731,
+			3585,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer2_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			17,
+            81,
+            141,
+            61
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1731,
+			3585,
+			45,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            104,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1473,
+			3518,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            104,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1473,
+			3518,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            104,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1473,
+			3518,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            104,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1473,
+			3518,
+			54,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            108,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3448,
+			56,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            111,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3519,
+			56,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            111,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3519,
+			56,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1837,
+			3536,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1837,
+			3536,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			147,
+            107,
+            0,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1837,
+			3536,
+			56,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer3_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			149,
+            107,
+            2,
+            34
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			3589,
+			52,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer4_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            59,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3305,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            59,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3305,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            67,
+            56,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1848,
+			3305,
+			86,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            67,
+            56,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1848,
+			3305,
+			86,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            49,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3226,
+			85,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer4_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            33,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			1220,
+			86,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer4_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            33,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			1220,
+			86,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer4_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            54,
+            54,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1560,
+			1144,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            54,
+            54,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1560,
+			1144,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer4_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            7,
+            56,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1723,
+			2880,
+			83,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            7,
+            56,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1723,
+			2880,
+			83,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            6,
+            42,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1767,
+			2217,
+			100,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            6,
+            42,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1767,
+			2217,
+			100,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            2,
+            47,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1777,
+			2592,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            2,
+            47,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1777,
+			2592,
+			96,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			59,
+            0,
+            49,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			2590,
+			95,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			59,
+            0,
+            49,
+            94
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1680,
+			2590,
+			95,
+			98
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			58,
+            0,
+            51,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1712,
+			1528,
+			94,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			58,
+            0,
+            51,
+            93
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1712,
+			1528,
+			94,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			79,
+            0,
+            63,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1299,
+			3249,
+			61,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			84,
+            15,
+            65,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1590,
+			3354,
+			54,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer5_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer5_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			102,
+            85,
+            93,
+            102
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1493,
+			414,
+			8,
+			5
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			21,
+            59,
+            149,
+            86
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1196,
+			3429,
+			33,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer6_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			29,
+            34,
+            142,
+            110
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1497,
+			976,
+			32,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			43,
+            23,
+            128,
+            121
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1886,
+			3049,
+			32,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            20,
+            111,
+            124
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1886,
+			3099,
+			32,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			60,
+            20,
+            111,
+            124
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1886,
+			3099,
+			32,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			77,
+            33,
+            94,
+            111
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1864,
+			2167,
+			32,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer6_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			90,
+            61,
+            81,
+            107
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			490,
+			3002,
+			32,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer7_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer7_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			6,
+            104,
+            145,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1866,
+			3239,
+			52,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer8_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            59,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3305,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            59,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3305,
+			86,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            67,
+            56,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1848,
+			3305,
+			86,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			61,
+            67,
+            56,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1848,
+			3305,
+			86,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			64,
+            49,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			3226,
+			85,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer8_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            33,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			1220,
+			86,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer8_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            33,
+            54,
+            67
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1832,
+			1220,
+			86,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_artillery_lvl3_layer8_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            54,
+            54,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1560,
+			1144,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            54,
+            54,
+            63
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1560,
+			1144,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_artillery_lvl3_layer8_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			203,
+			192
+		},
+		trim = {
+			63,
+            51,
+            54,
+            66
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1843,
+			519,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0123"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1525,
+			1032,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0123_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1626,
+			2996,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0123_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1626,
+			3108,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0123_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			3220,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0133"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			3332,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0133_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1498,
+			1695,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0133_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1435,
+			1807,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0133_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1443,
+			1919,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0134"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1547,
+			1807,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0134_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			1919,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0134_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1659,
+			1790,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0134_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			1902,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0135"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1779,
+			1902,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0135_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1443,
+			2031,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0135_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1555,
+			2031,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0135_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			2014,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer1_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer1_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			2,
+            129,
+            23,
+            11
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1199,
+			233,
+			195,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			80,
+            141,
+            105,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			2603,
+			35,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer2_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			70,
+            143,
+            115,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1277,
+			3593,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			57,
+            143,
+            128,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1380,
+			3578,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			43,
+            143,
+            142,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			3444,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            145,
+            159,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1470,
+			3481,
+			35,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            154,
+            180,
+            46
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1311,
+			2174,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            145,
+            159,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1470,
+			3481,
+			35,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			43,
+            143,
+            142,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1667,
+			3444,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			57,
+            143,
+            128,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1361,
+			3615,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			71,
+            143,
+            115,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1648,
+			3481,
+			34,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			80,
+            141,
+            105,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1875,
+			2603,
+			35,
+			84
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer2_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer2_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			88,
+            143,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3541,
+			35,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			104,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			988,
+			3417,
+			93,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			114,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			3066,
+			83,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			127,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1777,
+			2422,
+			70,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			141,
+            137,
+            23,
+            25
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3314,
+			56,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			159,
+            140,
+            23,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1880,
+			3163,
+			38,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			179,
+            153,
+            24,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1901,
+			3483,
+			17,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			159,
+            140,
+            23,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1880,
+			3163,
+			38,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			141,
+            137,
+            23,
+            25
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1389,
+			3314,
+			56,
+			85
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			127,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1777,
+			2422,
+			70,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			114,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1738,
+			3066,
+			83,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			104,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			988,
+			3417,
+			93,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer3_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer3_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			95,
+            135,
+            23,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1771,
+			1810,
+			102,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            105,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1805,
+			2690,
+			95,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer4_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            115,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1718,
+			2793,
+			85,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer4_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            137,
+            128,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1165,
+			2278,
+			72,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            137,
+            142,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1239,
+			3238,
+			58,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            145,
+            159,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			930,
+			2518,
+			41,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer4_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            149,
+            180,
+            51
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1898,
+			2162,
+			20,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            145,
+            159,
+            24
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			930,
+			2518,
+			41,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer4_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            137,
+            142,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1239,
+			3238,
+			58,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            137,
+            128,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1239,
+			2278,
+			72,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            115,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1810,
+			2787,
+			85,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            105,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1805,
+			2690,
+			95,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer4_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer4_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			20,
+            135,
+            97,
+            22
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1813,
+			1718,
+			103,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer5_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			13,
+            121,
+            16,
+            10
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			568,
+			1339,
+			191,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3454,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3454,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			159,
+            125,
+            39,
+            101
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1626,
+			3220,
+			22,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3417,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1203,
+			3464,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer6_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3454,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			157,
+            123,
+            28,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3454,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer6_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			159,
+            125,
+            39,
+            101
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1626,
+			3220,
+			22,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer7_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            159,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3491,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            159,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3491,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			39,
+            125,
+            161,
+            101
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1360,
+			2174,
+			20,
+			21
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			27,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3528,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3622,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            158,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1303,
+			3379,
+			36,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            159,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3491,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			26,
+            123,
+            159,
+            33
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1296,
+			3491,
+			35,
+			91
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer7_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			39,
+            125,
+            161,
+            101
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1360,
+			2174,
+			20,
+			21
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			76,
+            212,
+            76,
+            28
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1658,
+			3410,
+			68,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			54,
+            199,
+            57,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1888,
+			2492,
+			109,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			48,
+            189,
+            50,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1420,
+			3017,
+			122,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			41,
+            176,
+            44,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			954,
+			3512,
+			135,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			37,
+            166,
+            37,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			843,
+			3512,
+			146,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			34,
+            158,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1194,
+			956,
+			150,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            149,
+            34,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1036,
+			1159,
+			153,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            141,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			848,
+			2405,
+			154,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            134,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1007,
+			2279,
+			156,
+			87
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			31,
+            138,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			556,
+			3464,
+			156,
+			83
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            141,
+            33,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1159,
+			2042,
+			154,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            145,
+            34,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			727,
+			1261,
+			153,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            149,
+            34,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			930,
+			2363,
+			153,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			34,
+            153,
+            34,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1241,
+			2042,
+			152,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			36,
+            159,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1569,
+			1232,
+			148,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			36,
+            165,
+            37,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1544,
+			2731,
+			147,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			37,
+            169,
+            39,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			900,
+			3512,
+			144,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			42,
+            176,
+            44,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1560,
+			2880,
+			134,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			44,
+            182,
+            46,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			970,
+			3007,
+			130,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			49,
+            189,
+            51,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1592,
+			3121,
+			120,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			53,
+            198,
+            54,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1895,
+			1,
+			113,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			59,
+            205,
+            60,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1895,
+			116,
+			101,
+			16
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer8_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			76,
+            214,
+            76,
+            27
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			881,
+			671,
+			68,
+			6
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer8_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			107,
+            155,
+            106,
+            85
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1370,
+			794,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0001"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0002"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0003"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0004"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0005"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0006"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0007"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            162,
+            104,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			557,
+			1149,
+			10,
+			14
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0008"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0009"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			48,
+            195,
+            80,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1286,
+			3565,
+			92,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0010"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			43,
+            176,
+            66,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1719,
+			1232,
+			111,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0011"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			38,
+            159,
+            54,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			956,
+			3164,
+			128,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0012"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            145,
+            39,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			892,
+			2878,
+			148,
+			76
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0013"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            128,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			772,
+			3417,
+			151,
+			93
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0014"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            114,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1028,
+			1933,
+			151,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0015"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            101,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			912,
+			1811,
+			151,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0016"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            88,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			232,
+			2867,
+			151,
+			133
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0017"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            77,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			875,
+			2091,
+			151,
+			144
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0018"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            65,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			875,
+			1933,
+			151,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0019"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            54,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			722,
+			2105,
+			151,
+			167
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0020"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            46,
+            36,
+            26
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			722,
+			1928,
+			151,
+			175
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0021"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            37,
+            36,
+            28
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			745,
+			1458,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0022"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            30,
+            36,
+            35
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			898,
+			1443,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0023"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            23,
+            36,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			899,
+			1627,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0024"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            23,
+            36,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			899,
+			1627,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0025"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            23,
+            36,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			899,
+			1627,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0026"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			33,
+            23,
+            36,
+            42
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			899,
+			1627,
+			151,
+			182
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_mechs_layer9_0027"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0028"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0029"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0030"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0031"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0032"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0033"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0034"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0035"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0036"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0037"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0038"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0039"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0040"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0041"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0042"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0043"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0044"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0045"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0046"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0047"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0048"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0049"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0050"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0051"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0052"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_mechs_layer9_0053"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			220,
+			247
+		},
+		trim = {
+			106,
+            169,
+            108,
+            71
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1507,
+			600,
+			6,
+			7
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_upgrade_icons_0071"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			721,
+			2767,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0071_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1096,
+			2885,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0071_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1465,
+			1463,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0071_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1637,
+			1033,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0072"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1579,
+			1296,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0072_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1581,
+			1412,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0072_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1465,
+			1579,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0072_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1230,
+			2784,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0073"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1212,
+			2900,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0073_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1328,
+			2901,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0073_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1444,
+			2897,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0073_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			956,
+			3048,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0074"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			959,
+			3228,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0074_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1072,
+			3048,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0074_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1188,
+			3016,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0074_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1304,
+			3017,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0075"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1075,
+			3239,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0075_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1300,
+			3133,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0075_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1080,
+			3355,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0075_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1087,
+			3471,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0076"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1695,
+			1296,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0076_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1697,
+			1412,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0076_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1476,
+			3121,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0076_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1476,
+			3237,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0083"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1499,
+			2367,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0083_disabled"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1564,
+			2580,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0083_disabled_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1602,
+			2696,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0083_turn_off"] = {
+		a_name = "tower_artillery.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1919,
+			3659
+		},
+		f_quad = {
+			1607,
+			2880,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
 	}
 }

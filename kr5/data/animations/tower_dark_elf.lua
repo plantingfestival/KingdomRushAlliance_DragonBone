@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/tower_dark_elf.lua
-
 local a = {
 	harrasser_idle = {
 		prefix = "harrasser",
@@ -53,7 +51,7 @@ local a = {
 	},
 	souldrain_run = {
 		prefix = "souldrain",
-		to = 13,
+		to = 9,
 		from = 1
 	},
 	shotexplosion_run = {
@@ -307,5 +305,4 @@ local a = {
 		from = 1
 	}
 }
-
 return a

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level22.lua
-
 local log = require("klua.log"):new("level01")
 local signal = require("hump.signal")
 local E = require("entity_db")
@@ -431,21 +429,16 @@ local blocked_cells_iron = {
 	}
 }
 local ignore_walk_backwards_paths_start = {
-	4,
-	5,
-	7,
-	8,
 	9,
-	11,
 	12,
+	19,
+	20,
 	13,
 	14,
 	15,
 	16,
 	17,
-	18,
-	19,
-	20
+	18
 }
 local stop_ignore_walk_backwards_paths_bossfight = {
 	9,
@@ -456,6 +449,7 @@ local stop_ignore_walk_backwards_paths_bossfight = {
 local ignore_walk_backwards_paths_bossfight = {
 	4,
 	5,
+	6,
 	7,
 	8,
 	10,
@@ -465,7 +459,6 @@ local ignore_walk_backwards_paths_bossfight = {
 local ignore_walk_backwards_paths_heroic = {
 	4,
 	5,
-	7,
 	8,
 	10,
 	11,
@@ -540,7 +533,7 @@ function level:update(store)
 			local twr_template_name = "tower_" .. twr .. "_lvl1"
 			local twr_template = E:get_template(twr_template_name)
 
-			if twr_template.tower.kind ~= TOWER_KIND_BARRACK and twr_template.tower.type ~= "rocket_gunners" then
+			if twr_template and twr_template.tower.kind ~= TOWER_KIND_BARRACK and twr_template.tower.type ~= "rocket_gunners" then
 				table.insert(filtered_towers, twr)
 			end
 		end
@@ -630,8 +623,6 @@ function level:update(store)
 			coroutine.yield()
 		end
 
-		controller_boss_prefight.eat_towers_disabled = true
-
 		local camera_pan = 30
 		local camera_center = 500
 
@@ -710,7 +701,6 @@ function level:update(store)
 		signal.emit("boss_fight_end")
 
 		store.custom_game_outcome = {
-			postpone_unload = true,
 			next_item_name = "boss_fight_6_end"
 		}
 

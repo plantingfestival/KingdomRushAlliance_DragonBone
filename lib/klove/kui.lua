@@ -1,5 +1,3 @@
-﻿-- chunkname: @./lib/klove/kui.lua
-
 local log = require("klua.log"):new("kui")
 
 require("klua.table")
@@ -53,6 +51,7 @@ function KMDragInertia:included(klass)
 end
 
 function KMDragInertia:kmdi_initialize(...)
+	self.isKMDragInertia = true
 	if self._kmdi_initialize then
 		self._kmdi_initialize(self, ...)
 	end
@@ -112,32 +111,32 @@ function KMDragInertia:kmdi_update(dt)
 			if self.elastic_limits then
 				local dl = self.drag_limits
 				local el = self.elastic_limits
-
+				
 				if dl.pos.x < self.pos.x then
 					self.pos.x = self.pos.x + (dl.pos.x - self.pos.x) * self.elasticity * self.base_scale.x * dt
 				elseif dl.pos.x + dl.size.x > self.pos.x then
 					self.pos.x = self.pos.x + (dl.pos.x + dl.size.x - self.pos.x) * self.elasticity * self.base_scale.x * dt
 				end
-
+				
 				if dl.pos.y < self.pos.y then
 					self.pos.y = self.pos.y + (dl.pos.y - self.pos.y) * self.elasticity * self.base_scale.y * dt
 				elseif dl.pos.y + dl.size.y > self.pos.y then
 					self.pos.y = self.pos.y + (dl.pos.y + dl.size.y - self.pos.y) * self.elasticity * self.base_scale.x * dt
 				end
-
+				
 				if self._inertia_v.x * (self.pos.x - lx) < 0 then
 					self._inertia_v.x = 0
 				end
-
+				
 				if self._inertia_v.y * (self.pos.y - ly) < 0 then
 					self._inertia_v.y = 0
 				end
-
+				
 				self.pos.x = km.clamp(el.pos.x, el.pos.x + el.size.x, self.pos.x)
 				self.pos.y = km.clamp(el.pos.y, el.pos.y + el.size.y, self.pos.y)
 			else
 				local dl = self.drag_limits
-
+				
 				self.pos.x = km.clamp(dl.pos.x, dl.pos.x + dl.size.x, self.pos.x)
 				self.pos.y = km.clamp(dl.pos.y, dl.pos.y + dl.size.y, self.pos.y)
 			end
@@ -966,7 +965,13 @@ function KView:_draw_self()
 		local ss = self.image_ss
 		local ref_scale = (ss.ref_scale or 1) * self.image_scale
 
-		G.draw(self.image, ss.quad, ss.trim[1] * ref_scale, ss.trim[2] * ref_scale, 0, ref_scale)
+		local r = 0
+		local ox = 0
+		if ss.textureRotated then
+			r = - math.pi / 2
+			ox = ss.f_quad[4]
+		end
+		G.draw(self.image, ss.quad, ss.trim[1] * ref_scale, ss.trim[2] * ref_scale, r, ref_scale, ref_scale, ox, 0)
 	elseif self.image then
 		local iw, ih = self.image:getDimensions()
 		local ix = (self.size.x - iw * self.image_scale) / 2
@@ -1081,6 +1086,29 @@ function KView:animation_frame(animation, time_offset, loop, fps)
 	return string.format("%s_%04i", a.prefix, frame), runs
 end
 
+function KView:getXYInParentView(parent, x, y)
+	local cx, cy
+	if not parent then
+		return cx, cy
+	end
+	if x then
+		cx = (x - self.pos.x + self.anchor.x * self.scale.x * self.base_scale.x) / (self.scale.x * self.base_scale.x)
+	end
+	if y then
+		cy = (y - self.pos.y + self.anchor.y * self.scale.y * self.base_scale.y - parent.scroll_origin_y) / (self.scale.y * self.base_scale.y)
+	end
+	return cx, cy
+end
+
+function KView:getChildXY(child, x, y)
+	local cx, cy
+	if not child then
+		return cx, cy
+	end
+	cx, cy = child:getXYInParentView(self, x, y)
+	return cx, cy
+end
+
 function KView:hit_all(x, y, filter)
 	local hits = {}
 
@@ -1098,8 +1126,7 @@ function KView:hit_all(x, y, filter)
 		if c.hidden or c._disabled then
 			-- block empty
 		else
-			local cx = (x - c.pos.x + c.anchor.x * c.scale.x * c.base_scale.x) / (c.scale.x * c.base_scale.x)
-			local cy = (y - c.pos.y + c.anchor.y * c.scale.y * c.base_scale.y - self.scroll_origin_y) / (c.scale.y * c.base_scale.y)
+			local cx, cy = self:getChildXY(c, x, y)
 			local c_hits = c:hit_all(cx, cy, filter)
 
 			table.append(hits, c_hits)

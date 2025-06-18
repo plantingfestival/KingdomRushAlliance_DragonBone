@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level13_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -1558,10 +1556,8 @@ return {
 	},
 	required_exoskeletons = {
 		"BKtentacle13Def",
-		"sunraytowerDef",
-		"sunraytower_decal1Def",
-		"sunraytower_decal2Def",
-		"sunraytower_hitDef",
+		"ray_sunraytowerDef",
+		"ray_sunraytower_hitDef",
 		"stage_13_glareDef"
 	},
 	required_sounds = {

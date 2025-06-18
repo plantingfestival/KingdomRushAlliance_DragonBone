@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui.lua
-
 local SF = ctx.safe_frame
 local BS_HUD = ctx.bs.hud
 local BS_BOSS_BAR = ctx.bs.boss_bar
@@ -187,6 +185,20 @@ return {
 									class = "KView",
 									id = "cheat_button",
 									pos = v(106, 16),
+									size = v(94, 20),
+									colors = {
+										background = {
+											255,
+											255,
+											255,
+											0
+										}
+									}
+								},
+								{
+									class = "KView",
+									id = "health_texts_button",
+									pos = v(10, 16),
 									size = v(94, 20),
 									colors = {
 										background = {
@@ -1286,7 +1298,7 @@ return {
 													class = "GGLabel",
 													id = "cooldown",
 													fit_size = true,
-													font_name = "hud",
+													font_name = "numbers_italic",
 													pos = v(147.2, 1),
 													size = v(55, 38.4),
 													colors = {

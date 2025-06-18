@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level11.lua
-
 local log = require("klua.log"):new("level01")
 local signal = require("hump.signal")
 local E = require("entity_db")
@@ -173,7 +171,7 @@ function level:update(store)
 		controller_cult_leader.taunts_enabled = true
 		controller_portal.in_cinematic = false
 
-		while not corrupted_denas.health.dead or not store.waves_finished do
+		while LU.has_alive_enemies(store) or not store.waves_finished do
 			coroutine.yield()
 		end
 
@@ -210,7 +208,6 @@ function level:update(store)
 			U.y_wait(store, 2)
 
 			store.custom_game_outcome = {
-				postpone_unload = true,
 				next_item_name = "boss_fight_2_end"
 			}
 

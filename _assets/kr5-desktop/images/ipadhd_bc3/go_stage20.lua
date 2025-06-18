@@ -1,6 +1,30 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage20.lua
-
 return {
+	-- customization
+	stage4_barrack_holder = {
+		a_name = "go_stage04-1.dds",
+		size = {
+			188,
+			100
+		},
+		trim = {
+			8,
+			0,
+			5,
+			7
+		},
+		a_size = {
+			4096,
+			2048
+		},
+		f_quad = {
+			505,
+			1945,
+			175,
+			93
+		},
+		alias = {}
+	},
+	-- customization
 	anim_arborean_ruperto_arborean_0001 = {
 		a_name = "go_stage20-1.dds",
 		size = {

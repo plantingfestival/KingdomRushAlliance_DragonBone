@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/tower_sand.lua
-
 local a = {
 	tower_sand_basic_hit = {
 		prefix = "tower_sand_basic_hit",
@@ -138,7 +136,7 @@ local a = {
 	},
 	tower_sand_lvl4_skill_2_decal_out = {
 		prefix = "tower_sand_lvl4_skill_2_decal",
-		to = 47,
+		to = 46,
 		from = 26
 	},
 	tower_sand_lvl4_skill_2_projectile_idle = {
@@ -207,5 +205,4 @@ local a = {
 		from = 2
 	}
 }
-
 return a

@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/script_utils.lua
-
 local log = require("klua.log"):new("script_utils")
 local log_xp = log.xp or log:new("xp")
 
@@ -336,9 +334,9 @@ local function fade_out_entity(store, entity, delay, duration, delete_after)
 	duration = duration or 2
 
 	if entity.tween then
-		log.error("entity %s already has tween. cannot be faded out", entity.id)
-
-		return
+		entity.tween.disabled = true
+		entity.tween = nil
+		-- log.error("entity %s already has tween, cannot be faded out.", entity.template_name)
 	end
 
 	entity.tween = E:clone_c("tween")
@@ -522,6 +520,13 @@ local function hero_will_teleport(this, new_rally_pos)
 	return tp and not tp.disabled and V.dist(r.x, r.y, this.pos.x, this.pos.y) > tp.min_distance
 end
 
+local function hero_will_launch_move(this, new_rally_pos)
+	local lm = this.launch_movement
+	local r = new_rally_pos
+
+	return lm and not lm.disabled and V.dist(r.x, r.y, this.pos.x, this.pos.y) > lm.min_distance
+end
+
 local function hero_will_transfer(this, new_rally_pos)
 	local tr = this.transfer
 	local r = new_rally_pos
@@ -584,6 +589,7 @@ local function y_hero_new_rally(store, this)
 		end
 
 		if hero_will_teleport(this, r.pos) then
+			local rp = V.vclone(r.pos)
 			local tp = this.teleport
 			local vis_bans = this.vis.bans
 
@@ -614,7 +620,7 @@ local function y_hero_new_rally(store, this)
 				U.sprites_show(this, nil, nil, true)
 			end
 
-			this.pos.x, this.pos.y = r.pos.x, r.pos.y
+			this.pos.x, this.pos.y = rp.x, rp.y
 
 			U.set_destination(this, this.pos)
 
@@ -639,6 +645,62 @@ local function y_hero_new_rally(store, this)
 			this.vis.bans = vis_bans
 			this.health.ignore_damage = false
 
+			r.pos.x, r.pos.y = rp.x, rp.y
+			r.center.x, r.center.y = rp.x, rp.y
+			r.new = false
+			return false
+		elseif hero_will_launch_move(this, r.pos) then
+			local rp = V.vclone(r.pos)
+			local lm = this.launch_movement
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+			this.health.ignore_damage = true
+			this.health_bar.hidden = true
+			if lm.launch_sound then
+				S:queue(lm.launch_sound, lm.launch_args)
+			end
+			local an, af = U.animation_name_facing_point(this, lm.animations[1], rp)
+			U.y_animation_play(this, an, af, store.tick_ts)
+			if lm.launch_decal then
+				local decal = E:create_entity(lm.launch_decal)
+				decal.pos.x, decal.pos.y = this.pos.x, this.pos.y
+				decal.render.sprites[1].ts = store.tick_ts
+				if decal.tween then
+					decal.tween.ts = store.tick_ts
+				end
+				queue_insert(store, decal)
+			end
+			local ps
+			if lm.particles_name then
+				ps = E:create_entity(lm.particles_name)
+				ps.particle_system.track_id = this.id
+				queue_insert(store, ps)
+			end
+			an, af = U.animation_name_facing_point(this, lm.animations[2], rp)
+			U.animation_start(this, an, af, store.tick_ts, lm.loop_on_the_way)
+			local from = V.vclone(this.pos)
+			local speed = initial_parabola_speed(from, rp, lm.flight_time, lm.g)
+			local flight_ts = store.tick_ts
+			while store.tick_ts - flight_ts + store.tick_length < lm.flight_time do
+				coroutine.yield()
+				this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - flight_ts, from, speed, lm.g)
+			end
+			if ps then
+				queue_remove(store, ps)
+			end
+			this.pos.x, this.pos.y = rp.x, rp.y
+			U.set_destination(this, this.pos)
+			this.motion.speed.x, this.motion.speed.y = 0, 0
+			if lm.land_sound then
+				S:queue(lm.land_sound, lm.land_args)
+			end
+			U.y_animation_play(this, lm.animations[3], nil, store.tick_ts)
+			this.health_bar.hidden = false
+			this.vis.bans = vis_bans
+			this.health.ignore_damage = false
+			r.pos.x, r.pos.y = rp.x, rp.y
+			r.center.x, r.center.y = rp.x, rp.y
+			r.new = false
 			return false
 		elseif hero_will_transfer(this, r.pos) then
 			local tr = this.transfer
@@ -653,7 +715,7 @@ local function y_hero_new_rally(store, this)
 			S:queue(tr.sound_loop)
 			U.y_animation_play(this, tr.animations[1], nil, store.tick_ts)
 
-			this.motion.max_speed = this.motion.max_speed + tr.extra_speed
+			this.motion.max_speed = this.motion.max_speed * tr.speed_factor
 
 			if tr.particles_name then
 				ps = E:create_entity(tr.particles_name)
@@ -677,7 +739,7 @@ local function y_hero_new_rally(store, this)
 				ps.particle_system.source_lifetime = 1
 			end
 
-			this.motion.max_speed = this.motion.max_speed - tr.extra_speed
+			this.motion.max_speed = this.motion.max_speed / tr.speed_factor
 
 			S:stop(tr.sound_loop)
 			U.y_animation_play(this, tr.animations[3], nil, store.tick_ts)
@@ -1371,18 +1433,19 @@ end
 local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 	local attack_done = false
 	local start_ts = store.tick_ts
-	local b, an, af, ai
+	local b, an, af, ai, final_target
+	final_target = target
 
 	S:queue(attack.sound, attack.sound_args)
 
 	if attack.animations[1] then
-		an, af, ai = U.animation_name_facing_point(this, attack.animations[1], target.pos)
+		an, af, ai = U.animation_name_facing_point(this, attack.animations[1], final_target.pos)
 
 		U.y_animation_play_group(this, an, af, store.tick_ts, 1, attack.sprite_group)
 	end
 
 	for i = 1, attack.loops do
-		an, af, ai = U.animation_name_facing_point(this, attack.animations[2], target.pos)
+		an, af, ai = U.animation_name_facing_point(this, attack.animations[2], final_target.pos)
 
 		U.animation_start_group(this, an, af, store.tick_ts, false, attack.sprite_group)
 
@@ -1397,6 +1460,17 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 				end
 
 				coroutine.yield()
+			end
+
+			if final_target.health.dead then
+				local tmp_target = U.find_foremost_enemy(store.entities, this.pos, attack.min_range, attack.max_range, attack.node_prediction, attack.vis_flags, attack.vis_bans, attack.filter_fn, F_FLYING)
+				if tmp_target then
+					local tmp_name, tmp_flip
+					tmp_name, tmp_flip = U.animation_name_facing_point(this, attack.animations[2], tmp_target.pos)
+					if tmp_name == an and tmp_flip == af then
+						final_target = tmp_target
+					end
+				end
 			end
 
 			b = E:create_entity(attack.bullet)
@@ -1415,8 +1489,8 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 			end
 
 			b.bullet.from = V.vclone(b.pos)
-			b.bullet.to = V.v(target.pos.x + target.unit.hit_offset.x, target.pos.y + target.unit.hit_offset.y)
-			b.bullet.target_id = target.id
+			b.bullet.to = V.v(final_target.pos.x + final_target.unit.hit_offset.x, final_target.pos.y + final_target.unit.hit_offset.y)
+			b.bullet.target_id = final_target.id
 			b.bullet.shot_index = si
 			b.bullet.loop_index = i
 			b.bullet.source_id = this.id
@@ -1451,7 +1525,7 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 	::label_62_0::
 
 	if attack.animations[3] then
-		an, af, ai = U.animation_name_facing_point(this, attack.animations[3], target.pos)
+		an, af, ai = U.animation_name_facing_point(this, attack.animations[3], final_target.pos)
 
 		U.animation_start_group(this, an, af, store.tick_ts, false, attack.sprite_group)
 
@@ -1559,26 +1633,20 @@ local function soldier_pick_ranged_target_and_attack(store, this)
 		elseif a.sync_animation and not this.render.sprites[1].sync_flag then
 			-- block empty
 		else
-			local target, _, pred_pos = U.find_foremost_enemy(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING)
-
-			if target then
-				if pred_pos then
-					log.paranoid(" target.pos:%s,%s  pred_pos:%s,%s", target.pos.x, target.pos.y, pred_pos.x, pred_pos.y)
-				end
-
-				local ready = store.tick_ts - a.ts >= a.cooldown
-
-				if this.ranged.forced_cooldown then
-					ready = ready and store.tick_ts - this.ranged.forced_ts >= this.ranged.forced_cooldown
-				end
-
-				if not ready then
-					awaiting_target = target
-				elseif math.random() <= a.chance then
+			local ready = store.tick_ts - a.ts >= a.cooldown
+			if this.ranged.forced_cooldown then
+				ready = ready and store.tick_ts - this.ranged.forced_ts >= this.ranged.forced_cooldown
+			end
+			
+			if ready then
+				if math.random() <= a.chance then
+					local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
 					return target, a, pred_pos
-				else
-					a.ts = store.tick_ts
 				end
+				a.ts = store.tick_ts
+			else
+				local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, nil, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
+				awaiting_target = target
 			end
 		end
 	end
@@ -1636,7 +1704,7 @@ local function y_soldier_do_timed_action(store, this, action)
 	local start_ts = store.tick_ts
 
 	U.animation_start(this, action.animation, nil, store.tick_ts)
-	S:queue(action.sound)
+	S:queue(action.sound, action.sound_args)
 
 	if action.cast_time and y_soldier_wait(store, this, action.cast_time) then
 		-- block empty
@@ -1644,14 +1712,20 @@ local function y_soldier_do_timed_action(store, this, action)
 		action.ts = start_ts
 		action_done = true
 
-		if action.mod then
-			local e = E:create_entity(action.mod)
+		if action.mod or action.mods then
+			local mods = action.mods or {
+				action.mod
+			}
 
-			e.modifier.target_id = this.id
-			e.modifier.source_id = this.id
-			e.modifier.level = action.level
+			for _, mod_name in pairs(mods) do
+				local m = E:create_entity(mod_name)
 
-			queue_insert(store, e)
+				m.modifier.target_id = this.id
+				m.modifier.source_id = this.id
+				m.modifier.level = action.level
+
+				queue_insert(store, m)
+			end
 		elseif action.aura then
 			local e = E:create_entity(action.aura)
 
@@ -1842,16 +1916,22 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 
 		queue_damage(store, d)
 
-		if attack.mod then
-			local mod = E:create_entity(attack.mod)
+		if attack.mod or attack.mods then
+			local mods = attack.mods or {
+				attack.mod
+			}
 
-			mod.modifier.ts = store.tick_ts
-			mod.modifier.target_id = e.id
-			mod.modifier.source_id = this.id
-			mod.modifier.level = attack.level
-			mod.modifier.target_idx = i
+			for _, mod_name in pairs(mods) do
+				local m = E:create_entity(mod_name)
 
-			queue_insert(store, mod)
+				m.modifier.ts = store.tick_ts
+				m.modifier.target_id = e.id
+				m.modifier.source_id = this.id
+				m.modifier.level = attack.level
+				m.modifier.target_idx = i
+
+				queue_insert(store, m)
+			end
 		end
 	end
 
@@ -2019,15 +2099,21 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 
 					queue_damage(store, d)
 
-					if attack.mod then
-						local mod = E:create_entity(attack.mod)
-
-						mod.modifier.ts = store.tick_ts
-						mod.modifier.target_id = e.id
-						mod.modifier.source_id = this.id
-						mod.modifier.level = attack.level
-
-						queue_insert(store, mod)
+					if attack.mod or attack.mods then
+						local mods = attack.mods or {
+							attack.mod
+						}
+			
+						for _, mod_name in pairs(mods) do
+							local m = E:create_entity(mod_name)
+			
+							m.modifier.ts = store.tick_ts
+							m.modifier.target_id = e.id
+							m.modifier.source_id = this.id
+							m.modifier.level = attack.level
+			
+							queue_insert(store, m)
+						end
 					end
 				end
 
@@ -2077,14 +2163,21 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 
 				queue_damage(store, d)
 
-				if attack.mod then
-					local mod = E:create_entity(attack.mod)
+				if attack.mod or attack.mods then
+					local mods = attack.mods or {
+						attack.mod
+					}
+		
+					for _, mod_name in pairs(mods) do
+						local m = E:create_entity(mod_name)
+		
+						m.modifier.ts = store.tick_ts
+						m.modifier.target_id = e.id
+						m.modifier.source_id = this.id
+						m.modifier.level = attack.level
 
-					mod.modifier.ts = store.tick_ts
-					mod.modifier.target_id = target.id
-					mod.modifier.source_id = this.id
-
-					queue_insert(store, mod)
+						queue_insert(store, m)
+					end
 				end
 			end
 
@@ -2177,7 +2270,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 		signal.emit("soldier-attack", this, attack, attack.signal)
 	end
 
-	if not unit_dodges(store, target, false, attack, this) and table.contains(target.enemy.blockers, this.id) then
+	if target.enemy and not unit_dodges(store, target, false, attack, this) and table.contains(target.enemy.blockers, this.id) then
 		if attack.damage_type ~= DAMAGE_NONE then
 			local d = E:create_entity("damage")
 
@@ -2209,15 +2302,21 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 			queue_damage(store, d)
 		end
 
-		if attack.mod then
-			local mod = E:create_entity(attack.mod)
+		if attack.mod or attack.mods then
+			local mods = attack.mods or {
+				attack.mod
+			}
 
-			mod.modifier.ts = store.tick_ts
-			mod.modifier.target_id = target.id
-			mod.modifier.source_id = this.id
-			mod.modifier.level = attack.level
+			for _, mod_name in pairs(mods) do
+				local m = E:create_entity(mod_name)
 
-			queue_insert(store, mod)
+				m.modifier.ts = store.tick_ts
+				m.modifier.target_id = target.id
+				m.modifier.source_id = this.id
+				m.modifier.level = attack.level
+
+				queue_insert(store, m)
+			end
 		end
 
 		local hit_pos = V.vclone(this.pos)
@@ -2580,13 +2679,29 @@ local function soldier_power_upgrade(this, power_name)
 				end
 
 				if a.damage_inc then
-					a.damage_min = a.damage_min + a.damage_inc
-					a.damage_max = a.damage_max + a.damage_inc
+					if a._original_damage_min then
+						a._original_damage_min = a._original_damage_min + a.damage_inc
+					else
+						a.damage_min = a.damage_min + a.damage_inc
+					end
+					if a._original_damage_max then
+						a._original_damage_max = a._original_damage_max + a.damage_inc
+					else
+						a.damage_max = a.damage_max + a.damage_inc
+					end
 				end
 
 				if a.damage_min_inc and a.damage_max_inc then
-					a.damage_min = a.damage_min + a.damage_min_inc
-					a.damage_max = a.damage_max + a.damage_max_inc
+					if a._original_damage_min then
+						a._original_damage_min = a._original_damage_min + a.damage_min_inc
+					else
+						a.damage_min = a.damage_min + a.damage_min_inc
+					end
+					if a._original_damage_max then
+						a._original_damage_max = a._original_damage_max + a.damage_max_inc
+					else
+						a.damage_max = a.damage_max + a.damage_max_inc
+					end
 				end
 
 				if a.cooldown_inc then
@@ -2645,6 +2760,9 @@ local function soldier_power_upgrade(this, power_name)
 		if d.counter_attack.damage_inc then
 			d.counter_attack.damage_min = d.counter_attack.damage_min + d.counter_attack.damage_inc
 			d.counter_attack.damage_max = d.counter_attack.damage_max + d.counter_attack.damage_inc
+		elseif d.counter_attack.damage_min_config and d.counter_attack.damage_max_config then
+			d.counter_attack.damage_min = d.counter_attack.damage_min_config[pow.level]
+			d.counter_attack.damage_max = d.counter_attack.damage_max_config[pow.level]
 		end
 	end
 
@@ -2835,7 +2953,7 @@ local function alliance_corageous_upgrade(store, this)
 end
 
 local function can_melee_blocker(store, this, blocker)
-	return not this.health.dead and not this.unit.is_stunned and blocker and not blocker.health.dead and table.contains(this.enemy.blockers, blocker.id) and store.entities[blocker.id]
+	return not this.health.dead and not this.unit.is_stunned and blocker and not blocker.health.dead and this.enemy and table.contains(this.enemy.blockers, blocker.id) and store.entities[blocker.id]
 end
 
 local function can_range_soldier(store, this, soldier)
@@ -2914,7 +3032,7 @@ local function enemy_water_change(store, this)
 					this.health_bar.hidden = true
 				end
 			end
-
+			
 			if this.water.remove_modifiers then
 				remove_modifiers(store, this)
 			end
@@ -3279,7 +3397,7 @@ local function y_enemy_walk_until_blocked(store, this, ignore_soldiers, func)
 
 		if node_valid and not ignore_soldiers and this.ranged then
 			for _, a in pairs(this.ranged.attacks) do
-				if not a.disabled and (not a.requires_magic or this.enemy.can_do_magic) and (a.hold_advance or store.tick_ts - a.ts > a.cooldown) then
+				if not a.disabled and (not a.requires_magic or this.enemy and this.enemy.can_do_magic) and (a.hold_advance or store.tick_ts - a.ts > a.cooldown) then
 					ranged = U.find_nearest_soldier(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans)
 
 					if ranged ~= nil then
@@ -3289,7 +3407,7 @@ local function y_enemy_walk_until_blocked(store, this, ignore_soldiers, func)
 			end
 		end
 
-		if node_valid and not ignore_soldiers and #this.enemy.blockers > 0 then
+		if node_valid and not ignore_soldiers and this.enemy and #this.enemy.blockers > 0 then
 			U.cleanup_blockers(store, this)
 
 			blocker = store.entities[this.enemy.blockers[1]]
@@ -3318,7 +3436,7 @@ local function y_wait_for_blocker(store, this, blocker)
 	while not blocker.motion.arrived do
 		coroutine.yield()
 
-		if this.health.dead or this.unit.is_stunned or not table.contains(this.enemy.blockers, blocker.id) or blocker.health.dead or not store.entities[blocker.id] then
+		if this.health.dead or this.unit.is_stunned or this.enemy and not table.contains(this.enemy.blockers, blocker.id) or blocker.health.dead or not store.entities[blocker.id] then
 			return false
 		end
 
@@ -3589,7 +3707,7 @@ local function y_enemy_melee_attacks(store, this, target)
 
 					S:queue(ma.sound_hit, ma.sound_hit_args)
 
-					if ma.type == "melee" and not dodged and table.contains(this.enemy.blockers, target.id) then
+					if ma.type == "melee" and not dodged and this.enemy and table.contains(this.enemy.blockers, target.id) then
 						local d = E:create_entity("damage")
 
 						d.source_id = this.id
@@ -3611,13 +3729,19 @@ local function y_enemy_melee_attacks(store, this, target)
 							queue_damage(store, d)
 						end
 
-						if ma.mod then
-							local mod = E:create_entity(ma.mod)
-
-							mod.modifier.target_id = target.id
-							mod.modifier.source_id = this.id
-
-							queue_insert(store, mod)
+						if ma.mod or ma.mods then
+							local mods = ma.mods or {
+								ma.mod
+							}
+				
+							for _, mod_name in pairs(mods) do
+								local m = E:create_entity(mod_name)
+				
+								m.modifier.target_id = target.id
+								m.modifier.source_id = this.id
+				
+								queue_insert(store, m)
+							end
 						end
 					elseif ma.type == "area" then
 						local targets = table.filter(store.entities, function(_, e)
@@ -3644,13 +3768,19 @@ local function y_enemy_melee_attacks(store, this, target)
 
 								queue_damage(store, d)
 
-								if ma.mod then
-									local mod = E:create_entity(ma.mod)
-
-									mod.modifier.target_id = e.id
-									mod.modifier.source_id = this.id
-
-									queue_insert(store, mod)
+								if ma.mod or ma.mods then
+									local mods = ma.mods or {
+										ma.mod
+									}
+						
+									for _, mod_name in pairs(mods) do
+										local m = E:create_entity(mod_name)
+						
+										m.modifier.target_id = e.id
+										m.modifier.source_id = this.id
+						
+										queue_insert(store, m)
+									end
 								end
 							end
 						end
@@ -3737,7 +3867,7 @@ local function y_enemy_mixed_walk_melee_ranged(store, this, ignore_soldiers, wal
 			coroutine.yield()
 		end
 	elseif ranged then
-		while can_range_soldier(store, this, ranged) and #this.enemy.blockers == 0 and (not ranged_break_fn or not ranged_break_fn(store, this)) do
+		while can_range_soldier(store, this, ranged) and this.enemy and #this.enemy.blockers == 0 and (not ranged_break_fn or not ranged_break_fn(store, this)) do
 			if not y_enemy_range_attacks(store, this, ranged) then
 				return false
 			end
@@ -3954,6 +4084,18 @@ local function towers_swaped(store, this, attacks)
 	end
 end
 
+-- customization
+local function check_tower_attack_available(store, tower, attack)
+	if not tower or not tower.tower then
+		log.error("%s is not a tower.", tower and tower.template_name and tower.template_name or "Nil")
+		return false
+	end
+	if not attack.disabled and attack.ts and attack.ts ~= 0 and (not attack.can_be_silenced or tower.tower.can_do_magic) and store.tick_ts - attack.ts >= attack.cooldown then
+		return true
+	end
+	return false
+end
+
 local SU = {
 	has_modifiers = U.has_modifiers,
 	ui_click_proxy_add = ui_click_proxy_add,
@@ -3994,7 +4136,6 @@ local SU = {
 	y_soldier_animation_wait = y_soldier_animation_wait,
 	hero_interrupted = soldier_interrupted,
 	soldier_interrupted = soldier_interrupted,
-	hero_will_teleport = hero_will_teleport,
 	y_hero_walk_waypoints = y_hero_walk_waypoints,
 	y_hero_new_rally = y_hero_new_rally,
 	hero_gain_xp_from_skill = hero_gain_xp_from_skill,
@@ -4048,6 +4189,7 @@ local SU = {
 	y_spawner_spawn = y_spawner_spawn,
 	hero_will_transfer = hero_will_transfer,
 	hero_will_teleport = hero_will_teleport,
+	hero_will_launch_move = hero_will_launch_move,
 	heroes_desperate_effort_upgrade = heroes_desperate_effort_upgrade,
 	heroes_visual_learning_upgrade = heroes_visual_learning_upgrade,
 	heroes_lone_wolves_upgrade = heroes_lone_wolves_upgrade,
@@ -4056,7 +4198,9 @@ local SU = {
 	towers_keen_accuracy_upgrade = towers_keen_accuracy_upgrade,
 	towers_swaped = towers_swaped,
 	deck_new = deck_new,
-	deck_draw = deck_draw
+	deck_draw = deck_draw,
+	-- customization
+	check_tower_attack_available = check_tower_attack_available
 }
 
 return SU

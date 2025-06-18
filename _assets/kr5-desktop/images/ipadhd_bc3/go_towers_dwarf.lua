@@ -1,6 +1,6931 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_dwarf.lua
-
 return {
+	-- customization
+	["bottom_info_image_soldiers_0026"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			637,
+			854,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfHall_0001"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			172,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfHall_0002"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			199,
+			6,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfHall_0003"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			378,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfHall_0004"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			405,
+			6,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfHall_0005"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			378,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfHall_0006"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			199,
+			6,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfHall_0007"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			228,
+			152
+		},
+		trim = {
+			1,
+            1,
+            23,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			172,
+			204,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfRiflemen"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			216,
+			164
+		},
+		trim = {
+			0,
+            0,
+            25,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			6,
+			191,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfRiflemenTop"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			216,
+			164
+		},
+		trim = {
+			29,
+            37,
+            29,
+            70
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			611,
+			136,
+			158,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0001"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            6,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			869,
+			695,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0002"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            6,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			869,
+			695,
+			57,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0003"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            11,
+            14,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1005,
+			1008,
+			47,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0004"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            11,
+            14,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1005,
+			1008,
+			47,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0005"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            12,
+            16,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			792,
+			402,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0006"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            12,
+            16,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			792,
+			402,
+			45,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0007"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0008"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0009"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0010"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0011"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0012"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0013"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            13,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			924,
+			126,
+			44,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0014"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			8,
+            9,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			960,
+			827,
+			48,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0015"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			8,
+            9,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			960,
+			827,
+			48,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0016"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            14,
+            20,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			724,
+			259,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0017"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            14,
+            20,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			724,
+			259,
+			51,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0018"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			2,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			958,
+			950,
+			54,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0019"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			2,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			958,
+			950,
+			54,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0020"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			992,
+			729,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0021"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			992,
+			729,
+			52,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0022"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            12,
+            20,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			179,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0023"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            12,
+            20,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			179,
+			49,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0024"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            12,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			771,
+			689,
+			46,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0025"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			14,
+            12,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			771,
+			689,
+			46,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0026"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            12,
+            13,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			740,
+			402,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0027"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            12,
+            13,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			740,
+			402,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0028"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			1001,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0029"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			1001,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0030"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            14,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			797,
+			802,
+			45,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0031"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            14,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			797,
+			802,
+			45,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0032"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1010,
+			827,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0033"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1010,
+			827,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0034"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0035"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0036"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0037"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0038"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0039"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0040"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			16,
+            11,
+            15,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			885,
+			44,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0041"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			7,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			503,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0042"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			7,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			503,
+			49,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0043"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            16,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			910,
+			182,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0044"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            16,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			910,
+			182,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0045"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            14,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			649,
+			1052,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0046"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			4,
+            14,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			649,
+			1052,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0047"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			292,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0048"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			6,
+            13,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			292,
+			50,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0049"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			9,
+            14,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			989,
+			461,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0050"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			9,
+            14,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			989,
+			461,
+			47,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0051"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			13,
+            10,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			991,
+			670,
+			45,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0052"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			299,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0053"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			947,
+			1008,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0054"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			947,
+			1008,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0055"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			947,
+			1008,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0056"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			947,
+			1008,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0057"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			947,
+			1008,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0058"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            14,
+            13,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			714,
+			45,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0059"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            14,
+            13,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			714,
+			45,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0060"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            16,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			885,
+			1064,
+			41,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0061"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            16,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			885,
+			1064,
+			41,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0062"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            13,
+            6,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			179,
+			51,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0063"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            13,
+            6,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			179,
+			51,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0064"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            0,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			905,
+			396,
+			58,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0065"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            0,
+            17,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			905,
+			396,
+			58,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0066"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            3,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			788,
+			631,
+			56,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0067"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            3,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			788,
+			631,
+			56,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0068"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            4,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			797,
+			737,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0069"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            4,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			797,
+			737,
+			56,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0070"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0071"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0072"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0073"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0074"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0075"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            6,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			956,
+			887,
+			56,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0076"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            14,
+            5,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			703,
+			1052,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0077"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            14,
+            5,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			703,
+			1052,
+			52,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0078"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            20,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			516,
+			53,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0079"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            20,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			516,
+			53,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0080"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            16,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			348,
+			53,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0081"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            16,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			348,
+			53,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0082"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			559,
+			53,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0083"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			559,
+			53,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0084"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			559,
+			53,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0085"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			18,
+            18,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			559,
+			53,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0086"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			12,
+            11,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			982,
+			236,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0087"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0088"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0089"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0090"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0091"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0092"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            14,
+            10,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			571,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0093"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            14,
+            10,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1003,
+			571,
+			46,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0094"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            17,
+            9,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			454,
+			47,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0095"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            17,
+            9,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			454,
+			47,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0096"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            14,
+            8,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			411,
+			48,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0097"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            14,
+            8,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			411,
+			48,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0098"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			7,
+            5,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			928,
+			731,
+			49,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0099"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			7,
+            5,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			928,
+			731,
+			49,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0100"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			2,
+            7,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			896,
+			950,
+			54,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0101"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			2,
+            7,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			896,
+			950,
+			54,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0102"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            9,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			887,
+			1006,
+			56,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0103"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            9,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			887,
+			1006,
+			56,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0104"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0105"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0106"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0107"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0108"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0109"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			0,
+            11,
+            19,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1014,
+			943,
+			56,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0110"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            16,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			403,
+			49,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0111"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            16,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1054,
+			403,
+			49,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0112"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            22,
+            8,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			769,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0113"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            22,
+            8,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			769,
+			48,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfShooter_0114"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            18,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			614,
+			49,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0115"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            18,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			614,
+			49,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0116"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            20,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			665,
+			49,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0117"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            20,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			665,
+			49,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0118"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            20,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			665,
+			49,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0119"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			19,
+            20,
+            7,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			665,
+			49,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_0120"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			75,
+			68
+		},
+		trim = {
+			17,
+            13,
+            12,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			965,
+			355,
+			46,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfShooter_Barril"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			36,
+			33
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			855,
+			814,
+			36,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0001"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			24,
+            12,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			970,
+			118,
+			62,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0002"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            12,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			855,
+			753,
+			61,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0003"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            8,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			937,
+			607,
+			61,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0004"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            8,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			833,
+			849,
+			61,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0005"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            10,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			822,
+			1036,
+			61,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0006"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            15,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			833,
+			914,
+			61,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0007"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			27,
+            10,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			896,
+			887,
+			58,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0008"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			27,
+            10,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			896,
+			887,
+			58,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0009"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			23,
+            9,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			823,
+			972,
+			62,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0010"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			23,
+            9,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			823,
+			972,
+			62,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0011"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			21,
+            9,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			854,
+			631,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0012"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			21,
+            9,
+            43,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			854,
+			631,
+			64,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0013"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			32,
+            6,
+            15,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			127,
+			1024,
+			81,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0014"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			32,
+            6,
+            15,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			127,
+			1024,
+			81,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0015"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			45,
+            12,
+            14,
+            9
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			757,
+			1035,
+			69,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0016"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			45,
+            12,
+            14,
+            9
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			757,
+			1035,
+			69,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0017"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			41,
+            12,
+            14,
+            9
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			865,
+			234,
+			73,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0018"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			41,
+            17,
+            39,
+            11
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1056,
+			819,
+			48,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0019"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			39,
+            17,
+            39,
+            12
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			235,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0020"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			39,
+            17,
+            39,
+            12
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			235,
+			50,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0021"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            12,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			928,
+			670,
+			61,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0022"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            12,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			928,
+			670,
+			61,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0023"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			17,
+            8,
+            32,
+            6
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			611,
+			661,
+			79,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0024"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			17,
+            8,
+            32,
+            6
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			611,
+			661,
+			79,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0025"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			14,
+            5,
+            26,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			684,
+			459,
+			88,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0026"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			14,
+            5,
+            26,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			684,
+			459,
+			88,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0027"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			476,
+			510,
+			86,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0028"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			476,
+			510,
+			86,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0029"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			683,
+			661,
+			86,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0030"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			683,
+			661,
+			86,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0031"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            30,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			747,
+			948,
+			85,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0032"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            0,
+            30,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			747,
+			948,
+			85,
+			74
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0033"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			755,
+			459,
+			84,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0034"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			755,
+			459,
+			84,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0035"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            32,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			904,
+			465,
+			83,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0036"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            32,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			904,
+			465,
+			83,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0037"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			788,
+			545,
+			84,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0038"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			788,
+			545,
+			84,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0039"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            30,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			890,
+			309,
+			85,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0040"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            30,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			890,
+			309,
+			85,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0041"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			777,
+			234,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0042"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			777,
+			234,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0043"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			740,
+			314,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0044"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			740,
+			314,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0045"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			815,
+			309,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0046"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            1,
+            29,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			815,
+			309,
+			86,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0047"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			158,
+			510,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0048"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			158,
+			510,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0049"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			830,
+			459,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0050"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			830,
+			459,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0051"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			863,
+			545,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0052"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            2,
+            31,
+            10
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			863,
+			545,
+			84,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0053"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			16,
+            8,
+            30,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			546,
+			658,
+			82,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0054"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			16,
+            8,
+            30,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			546,
+			658,
+			82,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0055"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			25,
+            12,
+            42,
+            13
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			928,
+			670,
+			61,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0056"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			24,
+            12,
+            42,
+            14
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			896,
+			827,
+			62,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0057"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			13,
+            11,
+            53,
+            14
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1034,
+			118,
+			62,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0058"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			8,
+            10,
+            56,
+            14
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			839,
+			397,
+			64,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0059"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			5,
+            14,
+            59,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			937,
+			540,
+			64,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0060"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			6,
+            33,
+            59,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			930,
+			234,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0061"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			5,
+            44,
+            61,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			727,
+			195,
+			62,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0062"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			5,
+            44,
+            61,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			727,
+			195,
+			62,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_0063"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			4,
+            39,
+            61,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			918,
+			782,
+			63,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_0064"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			4,
+            39,
+            61,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			918,
+			782,
+			63,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0001"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			11,
+            3,
+            9,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			569,
+			195,
+			156,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0002"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			9,
+            2,
+            8,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			385,
+			274,
+			159,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0003"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			7,
+            2,
+            6,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			158,
+			340,
+			163,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0004"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			5,
+            2,
+            4,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			933,
+			167,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0005"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			4,
+            1,
+            3,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			611,
+			72,
+			169,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0006"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			3,
+            1,
+            2,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			72,
+			584,
+			171,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0007"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			584,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0008"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			24,
+            8,
+            22,
+            8
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			175,
+			745,
+			130,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0009"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			22,
+            7,
+            21,
+            7
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			123,
+			757,
+			133,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0010"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			20,
+            7,
+            19,
+            7
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			771,
+			182,
+			137,
+			50
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0011"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			18,
+            5,
+            18,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			787,
+			70,
+			140,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0012"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			17,
+            5,
+            16,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			684,
+			314,
+			143,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0013"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			15,
+            5,
+            14,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			958,
+			6,
+			147,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0014"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			14,
+            4,
+            12,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			376,
+			336,
+			150,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0015"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			12,
+            4,
+            11,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			569,
+			256,
+			153,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0016"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			11,
+            3,
+            9,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			569,
+			195,
+			156,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0017"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			9,
+            2,
+            8,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			136,
+			584,
+			159,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0018"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			7,
+            2,
+            7,
+            2
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			221,
+			274,
+			162,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0019"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			5,
+            2,
+            5,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			158,
+			172,
+			166,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0020"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			4,
+            1,
+            3,
+            1
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			787,
+			6,
+			169,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0021"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			3,
+            1,
+            2,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			6,
+			760,
+			171,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0022"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			2,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			611,
+			6,
+			174,
+			64
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0023"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			24,
+            8,
+            22,
+            8
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			127,
+			892,
+			130,
+			48
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0024"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			22,
+            7,
+            21,
+            7
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			123,
+			757,
+			133,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0025"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			20,
+            7,
+            19,
+            7
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			71,
+			760,
+			137,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0026"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			18,
+            5,
+            18,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			782,
+			126,
+			140,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0027"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			17,
+            5,
+            15,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			958,
+			62,
+			144,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0028"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			15,
+            5,
+            14,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			958,
+			6,
+			147,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Aura_0029"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			14,
+            4,
+            12,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			69,
+			933,
+			150,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Aura_0030"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			176,
+			64
+		},
+		trim = {
+			12,
+            4,
+            11,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			221,
+			336,
+			153,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0001"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            18,
+            44,
+            28
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			476,
+			586,
+			40,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0002"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            16,
+            44,
+            29
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			828,
+			695,
+			40,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0003"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            15,
+            44,
+            30
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			937,
+			1066,
+			40,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0004"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            29,
+            44,
+            31
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			929,
+			70,
+			40,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0005"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            28,
+            44,
+            27
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1072,
+			943,
+			40,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0006"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            26,
+            44,
+            28
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1013,
+			294,
+			40,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0007"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            25,
+            44,
+            29
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1013,
+			326,
+			40,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0008"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            24,
+            44,
+            29
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			877,
+			40,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0009"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            22,
+            44,
+            31
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1060,
+			910,
+			40,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0010"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            21,
+            44,
+            32
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1055,
+			1057,
+			40,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0011"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            19,
+            44,
+            33
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			71,
+			899,
+			40,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0012"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            18,
+            44,
+            34
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			569,
+			158,
+			40,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0013"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            17,
+            44,
+            35
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1022,
+			785,
+			40,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0014"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			45,
+            15,
+            44,
+            37
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1021,
+			1066,
+			39,
+			32
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0015"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			55,
+            21,
+            44,
+            38
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1002,
+			626,
+			29,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0016"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            19,
+            44,
+            27
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			518,
+			586,
+			40,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0017"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            18,
+            44,
+            28
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			528,
+			336,
+			40,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0018"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            17,
+            44,
+            28
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			979,
+			1066,
+			40,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0019"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            15,
+            45,
+            29
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			198,
+			584,
+			39,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0020"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            22,
+            58,
+            31
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			1013,
+			368,
+			26,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["DwarfWarrior_Bubbles_0021"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            21,
+            44,
+            26
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			983,
+			785,
+			40,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["DwarfWarrior_Bubbles_0022"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			128,
+			84
+		},
+		trim = {
+			44,
+            19,
+            44,
+            27
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			963,
+			182,
+			40,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0115"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			649,
+			953,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0116"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			735,
+			849,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_icons_0115"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			197,
+			993,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0115_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			425,
+			974,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0115_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			525,
+			858,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0115_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			537,
+			970,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0116"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			564,
+			546,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0116_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			676,
+			549,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0116_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			573,
+			742,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_icons_0116_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			685,
+			737,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0030"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			221,
+			158,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0030_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			337,
+			158,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0030_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			453,
+			158,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0030_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			220,
+			394,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0031"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			336,
+			394,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0031_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			452,
+			394,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0031_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			568,
+			314,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0031_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			568,
+			430,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0032"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			177,
+			877,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0032_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			244,
+			510,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0032_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			360,
+			510,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0032_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			198,
+			626,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0033"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			314,
+			626,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0033_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			225,
+			742,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0033_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			341,
+			742,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0033_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			293,
+			858,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0034"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			309,
+			974,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0034_disabled"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			430,
+			626,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0034_disabled_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			457,
+			742,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0034_turn_off"] = {
+		a_name = "tower_dwarf.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			1111,
+			1111
+		},
+		f_quad = {
+			409,
+			858,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	-- customization
 	tower_dwarf_attack_1_hit_0001 = {
 		a_name = "go_towers_dwarf-1.dds",
 		size = {

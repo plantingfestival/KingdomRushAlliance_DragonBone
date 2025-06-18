@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/tower_stargazers.lua
-
 local a = {
 	elven_stargazers_tower_mark_start = {
 		prefix = "elven_stargazers_tower_mark",
@@ -38,7 +36,7 @@ local a = {
 	},
 	elven_stargazers_tower_ray_start_lvl3_lvl2_lvl1_end = {
 		prefix = "elven_stargazers_tower_ray_start_lvl3_lvl2_lvl1",
-		to = 34,
+		to = 33,
 		from = 22
 	},
 	elven_stargazers_tower_ray_start_lvl4_start = {
@@ -83,7 +81,7 @@ local a = {
 	},
 	elven_stargazers_tower_event_horizon_idle = {
 		prefix = "elven_stargazers_tower_event_horizon",
-		to = 32,
+		to = 31,
 		from = 1
 	},
 	elven_stargazers_tower_event_horizon_decal_idle = {
@@ -98,7 +96,7 @@ local a = {
 	},
 	elven_stargazers_tower_event_horizon_tower_fx_idle = {
 		prefix = "elven_stargazers_tower_event_horizon_tower_fx",
-		to = 65,
+		to = 64,
 		from = 1
 	},
 	elven_stargazers_tower_lvl1_elf_idle = {
@@ -399,5 +397,4 @@ local a = {
 		layer_from = 1
 	}
 }
-
 return a

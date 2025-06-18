@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/animations/stage10_decos.lua
-
 local a = {
 	stage10_obelisk_stunfx_volador = {
 		prefix = "stage10_obelisk_stunfx_volador",
@@ -108,7 +106,7 @@ local a = {
 	},
 	stage10_obelisk_priests_death = {
 		prefix = "stage10_obelisk_priests",
-		to = 272,
+		to = 271,
 		from = 245
 	},
 	stage10_obelisk_base_cristalitos_idle = {
@@ -471,5 +469,4 @@ local a = {
 		}
 	}
 }
-
 return a

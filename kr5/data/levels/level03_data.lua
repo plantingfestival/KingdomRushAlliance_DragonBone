@@ -1,5 +1,3 @@
-﻿-- chunkname: @./kr5/data/levels/level03_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -534,11 +532,7 @@ return {
 				"tower_barrel_lvl4",
 				"tower_sand_lvl4",
 				"tower_ghost_lvl4",
-				"tower_ray_lvl4",
-				"tower_dark_elf_lvl4",
-				"tower_dwarf_lvl4",
-				"tower_hermit_toad_lvl4",
-				"tower_sparking_geode_lvl4"
+				"tower_ray_lvl4"
 			}
 		},
 		{
@@ -557,11 +551,7 @@ return {
 				"tower_barrel_lvl4",
 				"tower_sand_lvl4",
 				"tower_ghost_lvl4",
-				"tower_ray_lvl4",
-				"tower_dark_elf_lvl4",
-				"tower_dwarf_lvl4",
-				"tower_hermit_toad_lvl4",
-				"tower_sparking_geode_lvl4"
+				"tower_ray_lvl4"
 			}
 		},
 		{
@@ -649,14 +639,26 @@ return {
 	},
 	required_sounds = {
 		"music_stage03",
+		"ElvesDrizzt",
+		"ElvesCreepServant",
+		"ElvesWhiteTree",
+		"MetropolisAmbienceSounds",
+		"ElvesCreepEvoker",
+		"ElvesCreepGolem",
+		"ElvesScourger",
+		"ElvesCreepAvenger",
+		"ElvesCreepMountedAvenger",
+		"ElvesCreepScreecher",
 		"enemies_sea_of_trees",
 		"stage_03",
-		"terrain_1_common"
+		"terrain_1_common",
+		"enemies_rising_tides"
 	},
 	required_textures = {
 		"go_enemies_sea_of_trees",
 		"go_stage03_bg",
 		"go_stage03",
-		"go_stages_sea_of_trees"
+		"go_stages_sea_of_trees",
+		"go_enemies_rising_tides"
 	}
 }

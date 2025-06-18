@@ -1,5 +1,3 @@
-﻿-- chunkname: @./all/utils.lua
-
 local log = require("klua.log"):new("utils")
 
 require("klua.table")
@@ -676,11 +674,11 @@ function U.find_random_target(entities, origin, min_range, max_range, flags, ban
 	end)
 
 	if not targets or #targets == 0 then
-		return nil
+		return nil, nil
 	else
 		local idx = math.random(1, #targets)
 
-		return targets[idx]
+		return targets[idx], targets
 	end
 end
 
@@ -693,11 +691,11 @@ function U.find_random_enemy(entities, origin, min_range, max_range, flags, bans
 	end)
 
 	if not enemies or #enemies == 0 then
-		return nil
+		return nil, nil
 	else
 		local idx = math.random(1, #enemies)
 
-		return enemies[idx]
+		return enemies[idx], enemies
 	end
 end
 
@@ -765,7 +763,7 @@ function U.find_foremost_enemy(entities, origin, min_range, max_range, predictio
 		else
 			local e_pos, e_ni
 
-			if prediction_time and e.motion and e.motion.speed then
+			if prediction_time and e.motion and e.motion.speed and (e.motion.speed.x ~= 0 or e.motion.speed.y ~= 0) then
 				if e.motion.forced_waypoint then
 					local dt = prediction_time == true and 1 or prediction_time
 
@@ -791,7 +789,7 @@ function U.find_foremost_enemy(entities, origin, min_range, max_range, predictio
 	end
 
 	if not enemies or #enemies == 0 then
-		return nil, nil
+		return nil, nil, nil
 	else
 		table.sort(enemies, function(e1, e2)
 			local p1 = e1.nav_path
@@ -1618,6 +1616,398 @@ function U.format_countdown_time(rem_time, hour_format)
 	end
 
 	return text
+end
+
+-- customization
+function U.make_table_serializable(t, visited)
+	local result = {}
+	visited = visited or {}
+
+	if visited[t] then
+		return nil
+	end
+	visited[t] = true
+
+	for k, v in pairs(t) do
+		local vtype = type(v)
+
+		if vtype == "string" or vtype == "number" or vtype == "boolean" or v == nil then
+			result[k] = v
+		elseif vtype == "table" then
+			local sub = U.make_table_serializable(v, visited)
+			if sub then
+				result[k] = sub
+			end
+		end
+	end
+
+	return result
+end
+
+--[[makes a shallow copy of an array]]
+function U.shallow_copy(orig)
+	local orig_type = type(orig)
+	local copy
+	if orig_type == 'table' then
+		copy = {}
+		for orig_key, orig_value in pairs(orig) do
+			copy[orig_key] = orig_value
+		end
+	else -- number, string, boolean, etc
+		copy = orig
+	end
+	return copy
+end
+
+--[[returns sorted array of enemies by curret health. if same health, then by foremost]]
+function U.sort_by_strongest_enemy(valid_enemies, origin)
+	local sorted_enemies = U.shallow_copy(valid_enemies)
+	table.sort(sorted_enemies, function(enemy1, enemy2)
+		local hp1 = enemy1.health.hp
+		local hp2 = enemy2.health.hp
+		--[[if the health of the enemies is the same, then return the distance of the enemies to the origin]]
+		if hp1 == hp2 then
+			return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
+	  	end
+		--[[if the health of the enemies is not the same, then return the enemy with the higher health]]
+		return hp1 > hp2
+	end)
+   
+	return sorted_enemies
+end
+
+--[[finds the strongest enemy in range, returns the strongest enemy and a sorted list of all enemies by strongest]]
+function U.find_strongest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	flags = flags or 0
+	bans = bans or 0
+	min_override_flags = min_override_flags or 0
+ 
+	--[[gets the array of enemies in range, sorted by the distance to the goal]]
+	local _, valid_enemies = U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	--[[if the array enemies doesn't exist, or the number of enemies is 0, then return nil]]
+	if not valid_enemies or #valid_enemies == 0 then
+		return nil, nil, nil
+	end
+
+	--[[returns the first strongest enemy, which makes it so that among equal hp strong enemies, it chooses the one closest to the goal]]
+	if(valid_enemies and #valid_enemies > 0) then
+		valid_enemies = U.sort_by_strongest_enemy(valid_enemies, origin)
+	end
+
+	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
+end
+
+function U.find_weakest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	flags = flags or 0
+	bans = bans or 0
+	min_override_flags = min_override_flags or 0
+ 
+	local _, valid_enemies = U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	if not valid_enemies or #valid_enemies == 0 then
+		return nil, nil, nil
+	end
+
+	if(valid_enemies and #valid_enemies > 0) then
+		table.sort(valid_enemies, function(enemy1, enemy2)
+			local hp1 = enemy1.health.hp
+			local hp2 = enemy2.health.hp
+			if hp1 == hp2 then
+				return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
+			end
+			return hp1 < hp2
+		end)
+	end
+ 
+	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
+end
+
+function U.find_farthest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	flags = flags or 0
+	bans = bans or 0
+	min_override_flags = min_override_flags or 0
+
+	local enemies = {}
+
+	for _, e in pairs(entities) do
+		if e.pending_removal or not e.enemy or not e.nav_path or not e.vis or e.health and e.health.dead or band(e.vis.flags, bans) ~= 0 or band(e.vis.bans, flags) ~= 0 or filter_func and not filter_func(e, origin) then
+			-- block empty
+		else
+			local e_pos, e_ni
+
+			if prediction_time and e.motion and e.motion.speed and (e.motion.speed.x ~= 0 or e.motion.speed.y ~= 0) then
+				if e.motion.forced_waypoint then
+					local dt = prediction_time == true and 1 or prediction_time
+
+					e_pos = V.v(e.pos.x + dt * e.motion.speed.x, e.pos.y + dt * e.motion.speed.y)
+					e_ni = e.nav_path.ni
+				else
+					local node_offset = P:predict_enemy_node_advance(e, prediction_time)
+
+					e_ni = e.nav_path.ni + node_offset
+					e_pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e_ni)
+				end
+			else
+				e_pos = e.pos
+				e_ni = e.nav_path.ni
+			end
+
+			if U.is_inside_ellipse(e_pos, origin, max_range) and P:is_node_valid(e.nav_path.pi, e_ni) and (min_range == 0 or band(e.vis.flags, min_override_flags) ~= 0 or not U.is_inside_ellipse(e_pos, origin, min_range)) then
+				e.__ffe_pos = V.vclone(e_pos)
+
+				table.insert(enemies, e)
+			end
+		end
+	end
+
+	if not enemies or #enemies == 0 then
+		return nil, nil, nil
+	else
+		table.sort(enemies, function(e1, e2)
+			local p1 = e1.nav_path
+			local p2 = e2.nav_path
+
+			return P:nodes_to_goal(p1.pi, p1.spi, p1.ni) > P:nodes_to_goal(p2.pi, p2.spi, p2.ni)
+		end)
+
+		return enemies[1], enemies, enemies[1].__ffe_pos
+	end
+end
+
+function U.find_enemy_crowds(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets)
+	local enemies = U.find_enemies_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not enemies then
+		return nil
+	end
+	local crowds = {}
+	for i = #enemies, 1, -1 do
+		local e = enemies[i]
+		local crowd = U.find_enemies_in_range(entities, e.pos, 0, crowd_range, 0, 0)
+		if crowd and #crowd >= min_targets then
+			local t = {}
+			t.center_unit = e
+			t.crowd = crowd
+			table.insert(crowds, t)
+		end
+	end
+	if #crowds > 0 then
+		return crowds
+	end
+	return nil
+end
+
+-- find_max_crowd为true时返回人数最多的，否则返回最接近终点的
+function U.find_enemy_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd)
+	local crowds = U.find_enemy_crowds(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets)
+	if not crowds then
+		return nil
+	end
+	if find_max_crowd then
+		table.sort(crowds, function(t1, t2)
+			return #t1.crowd > #t2.crowd
+		end)
+	else
+		table.sort(crowds, function(t1, t2)
+			local p1 = t1.center_unit.nav_path
+			local p2 = t2.center_unit.nav_path
+			return P:nodes_to_goal(p1.pi, p1.spi, p1.ni) < P:nodes_to_goal(p2.pi, p2.spi, p2.ni)
+		end)
+	end
+	return crowds[1]
+end
+
+U.position_type = {}
+-- 返回中心单位的位置
+U.position_type.floor = 1
+-- 返回中心单位正在前往的节点的位置
+U.position_type.node_floor = 2
+-- 返回和中心单位正在前往的节点邻近，且位于中间路线上的节点的位置
+U.position_type.node_floor_center = 3
+-- 返回和中心单位的位置邻近，且位于中间路线上的节点的位置
+U.position_type.center = 4
+-- 返回平均位置，但更接近中心单位
+U.position_type.average = 5
+function U.find_enemy_crowd_position(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd, position_type, valid_only)
+	local t = U.find_enemy_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd)
+	if not t then
+		return nil, nil
+	end
+	local p = t.center_unit.nav_path
+	if valid_only and not P:is_node_valid(p.pi, p.ni) then
+		return nil, nil
+	end
+	local pos = nil
+	if not position_type or position_type == U.position_type.floor then
+		pos = V.vclone(t.center_unit.pos)
+	elseif position_type == U.position_type.node_floor then
+		pos = P:node_pos(p.pi, p.spi, p.ni)
+	elseif position_type == U.position_type.node_floor_center then
+		pos = P:node_pos(p.pi, 1, p.ni)
+	elseif position_type == U.position_type.center then
+		local path_indexes = { p.pi }
+		local subpath_indexes = { 1 }
+		local nearest = P:nearest_nodes(t.center_unit.pos.x, t.center_unit.pos.y, path_indexes, subpath_indexes, valid_only)
+		if #nearest > 0 then
+			local pi, spi, ni = unpack(nearest[1])
+			return P:node_pos(pi, spi, ni), t
+		end
+	elseif position_type == U.position_type.average then
+		-- 使位置更靠近中心单位
+		local x, y = t.center_unit.pos.x, t.center_unit.pos.y
+		for i, e in ipairs(t.crowd) do
+			x, y = x + e.pos.x, y + e.pos.y
+		end
+		x, y = x / (#t.crowd + 1), y / (#t.crowd + 1)
+		pos = V.v(x, y)
+	end
+	if not pos then
+		pos = V.vclone(t.center_unit.pos)
+	end
+	return pos, t
+end
+
+function U.get_prediction_offset(entity, prediction_time)
+	local offset = {}
+	if prediction_time and entity.motion and entity.motion.speed and (entity.motion.speed.x ~= 0 or entity.motion.speed.y ~= 0) then
+		if not entity.nav_path or entity.motion.forced_waypoint then
+			local dt = prediction_time == true and 1 or prediction_time
+			offset.x, offset.y, offset.node = dt * entity.motion.speed.x, dt * entity.motion.speed.y, 0
+		else
+			local node_offset = P:predict_enemy_node_advance(entity, prediction_time)
+			offset.node = node_offset
+			local ni = entity.nav_path.ni + node_offset
+			local node_pos = P:node_pos(entity.nav_path.pi, entity.nav_path.spi, ni)
+			offset.x, offset.y = node_pos.x - entity.pos.x, node_pos.y - entity.pos.y
+		end
+	end
+	if not offset.x then
+		offset.x, offset.y, offset.node = 0, 0, 0
+	end
+	return offset
+end
+
+function U.find_soldier_crowds(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets)
+	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not soldiers then
+		return nil
+	end
+	local crowds = {}
+	for i = #soldiers, 1, -1 do
+		local e = soldiers[i]
+		local crowd = U.find_soldiers_in_range(entities, e.pos, 0, crowd_range, 0, 0)
+		if crowd and #crowd >= min_targets then
+			local t = {}
+			t.center_unit = e
+			t.crowd = crowd
+			table.insert(crowds, t)
+		end
+	end
+	if #crowds > 0 then
+		return crowds
+	end
+	return nil
+end
+
+-- find_max_crowd为true时返回人数最多的，否则返回最接近的
+function U.find_soldier_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd)
+	local crowds = U.find_soldier_crowds(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets)
+	if not crowds then
+		return nil
+	end
+	if find_max_crowd then
+		table.sort(crowds, function(t1, t2)
+			return #t1.crowd > #t2.crowd
+		end)
+	else
+		table.sort(crowds, function(t1, t2)
+			local e1 = t1.center_unit
+			local e2 = t2.center_unit
+			return V.dist2(e1.pos.x, e1.pos.y, origin.x, origin.y) < V.dist2(e2.pos.x, e2.pos.y, origin.x, origin.y)
+		end)
+	end
+	return crowds[1]
+end
+
+function U.find_soldier_crowd_position(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd, position_type, valid_only)
+	local t = U.find_soldier_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range, min_targets, find_max_crowd)
+	if not t then
+		return nil, nil
+	end
+	local pos = nil
+	if not position_type or position_type == U.position_type.floor then
+		pos = V.vclone(t.center_unit.pos)
+	elseif position_type == U.position_type.center then
+		local subpath_indexes = { 1 }
+		local nearest = P:nearest_nodes(t.center_unit.pos.x, t.center_unit.pos.y, nil, subpath_indexes, valid_only)
+		if #nearest > 0 then
+			local pi, spi, ni = unpack(nearest[1])
+			return P:node_pos(pi, spi, ni), t
+		end
+	elseif position_type == U.position_type.average then
+		-- 使位置更靠近中心单位
+		local x, y = t.center_unit.pos.x, t.center_unit.pos.y
+		for i, e in ipairs(t.crowd) do
+			x, y = x + e.pos.x, y + e.pos.y
+		end
+		x, y = x / (#t.crowd + 1), y / (#t.crowd + 1)
+		pos = V.v(x, y)
+	end
+	if not pos then
+		pos = V.vclone(t.center_unit.pos)
+	end
+	return pos, t
+end
+
+U.search_type = {
+	normal = 1,
+	random = 2,
+	max_health = 3,
+	min_health = 4,
+	close_to_exit = 5,
+	far_from_exit = 6,
+	find_max_crowd = 7,
+}
+
+function U.find_enemy_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, search_type, crowd_range, min_targets)
+	flags = flags or 0
+	bans = bans or 0
+	min_override_flags = min_override_flags or 0
+
+	if search_type == U.search_type.normal then
+		local enemy, enemies = U.find_nearest_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)
+		if not enemy then
+			return nil, nil, nil
+		end
+		local offset = U.get_prediction_offset(enemy, prediction_time)
+		enemy.__ffe_pos = V.v(enemy.pos.x + offset.x, enemy.pos.y + offset.y)
+		return enemy, enemies, enemy.__ffe_pos
+	elseif search_type == U.search_type.random then
+		local enemy, enemies = U.find_random_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)
+		if not enemy then
+			return nil, nil, nil
+		end
+		local offset = U.get_prediction_offset(enemy, prediction_time)
+		enemy.__ffe_pos = V.v(enemy.pos.x + offset.x, enemy.pos.y + offset.y)
+		return enemy, enemies, enemy.__ffe_pos
+	elseif search_type == U.search_type.max_health then
+		return U.find_strongest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	elseif search_type == U.search_type.min_health then
+		return U.find_weakest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	elseif search_type == U.search_type.close_to_exit then
+		return U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	elseif search_type == U.search_type.far_from_exit then
+		return U.find_farthest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	elseif search_type == U.search_type.find_max_crowd then
+		local crowd = U.find_enemy_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range or 60, min_targets or 1, true)
+		if crowd then
+			local enemy = crowd.center_unit
+			local offset = U.get_prediction_offset(enemy, prediction_time)
+			enemy.__ffe_pos = V.v(enemy.pos.x + offset.x, enemy.pos.y + offset.y)
+			return enemy, crowd.crowd, enemy.__ffe_pos
+		else
+			return nil, nil, nil
+		end
+	end
+	return U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 end
 
 return U
