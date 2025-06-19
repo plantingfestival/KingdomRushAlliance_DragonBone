@@ -2064,8 +2064,10 @@ function scripts.tower_barrack.update(this, store, script)
 					p.changed = nil
 
 					for _, s in pairs(b.soldiers) do
-						s.powers[pn].level = p.level
-						s.powers[pn].changed = true
+						if s and s.powers and s.powers[pn] then
+							s.powers[pn].level = p.level
+							s.powers[pn].changed = true
+						end
 					end
 				end
 			end

@@ -1558,7 +1558,8 @@ return {
 			"HighMage_Ready-01a.ogg",
 			"kr3_sfx_highmage_shot.ogg",
 			"kr3_sfx_elvenhighmage_sentinelactivate.ogg",
-			"kr3_sfx_elvenhighmage_sentinelshot_v2-op1.ogg"
+			"kr3_sfx_elvenhighmage_sentinelshot_v2-op1.ogg",
+			"kr3_sfx_basicwizard_doublebolt-op1.ogg"
 		}
 	},
 	tower_ballista = {

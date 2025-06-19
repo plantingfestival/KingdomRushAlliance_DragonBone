@@ -1718,12 +1718,13 @@ function sys.main_script:on_update(dt, ts, store)
 	
 				local resume = false
 				if s.co then
-					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) or count < 128 then
+					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) 
+					or count < 256 then
 						resume = true
 					else
 						local chance = math.random()
 						if e.aura then
-							if chance <= 0.25 then
+							if chance <= 0.3 then
 								resume = true
 							end
 						elseif chance <= 0.5 then
@@ -1743,9 +1744,17 @@ function sys.main_script:on_update(dt, ts, store)
 				end
 
 				if e.vis and band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) ~= 0 then
-					count = count + 1
+					if band(e.vis.flags, bor(F_HERO)) ~= 0 then
+						count = count + 4
+					elseif band(e.vis.flags, bor(F_BOSS, F_MINIBOSS)) ~= 0 then
+						count = count + 2
+					else
+						count = count + 1
+					end
+				elseif e.tower then
+					count = count + 4
 				elseif e.aura then
-					count = count + 6
+					count = count + 4
 				end
 			end
 		end
