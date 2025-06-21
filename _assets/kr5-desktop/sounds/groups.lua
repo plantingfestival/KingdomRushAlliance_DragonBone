@@ -1141,6 +1141,22 @@ return {
 			"Sound_BattleAxe.ogg",
 		}
 	},
+	item_kr4_hero_malik = {
+		files = {
+			"kr4_sfx_malik_melee_attack_v1.ogg",
+			"kr4_sfx_malik_ranged_attack_v1.ogg",
+			"kr4_sfx_malik_jump_charge-jump_v1.ogg",
+			"kr4_sfx_malik_jump_hit_v1.ogg",
+			"kr4_sfx_malik_tower_destroy_oneShot_v2.ogg",
+			"kr4_sfx_malik_death_hammerFall_v1.ogg",
+			"kr4_sfx_malik_death_bodyFall_v1.ogg",
+			"Reinforcement-04b.ogg",
+			"Reinforcement-02c.ogg",
+			"Reinforcement-03c.ogg",
+			"Reinforcement-01a.ogg",
+			"Reinforcement-Death_c.ogg",
+		}
+	},
 	item_hero_dwarf = {
 		files = {
 			"dwarfHero_taunt_confirm_1.ogg",

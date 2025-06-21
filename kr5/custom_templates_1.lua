@@ -19,6 +19,7 @@ local customScripts1 = require("custom_scripts_1")
 
 require("templates")
 
+local U = require("utils")
 local H = require("helpers")
 local balance = require("balance/balance")
 local IS_PHONE = KR_TARGET == "phone"
@@ -90,6 +91,13 @@ DO_MOD_FX = 4
 DO_TOWER_MODS = 10
 
 -- customization
+tt = E:register_t("entities_delay_controller")
+E:add_comps(tt, "pos", "main_script", "sound_events")
+tt.main_script.update = customScripts1.entities_delay_controller.update
+tt.start_ts = nil
+tt.delays = nil
+tt.entities = nil
+
 tt = E:register_t("controller_item_hero", "controller_item")
 tt.main_script.insert = customScripts1.controller_item_hero.insert
 tt.can_fire_fn = scripts.controller_item_summon_blackburn.can_fire_fn
@@ -98,6 +106,206 @@ tt.vis_flags = 0
 tt.allowed_templates = nil
 tt.excluded_templates = nil
 tt.entity = nil
+
+tt = E:register_t("controller_item_kr4_hero_malik", "controller_item_hero")
+tt.entity = "kr4_hero_malik"
+
+tt = E:register_t("kr4_hero_malik", "hero5")
+AC(tt, "melee", "timed_attacks", "launch_movement")
+tt.health.armor = 0.5
+tt.health.dead_lifetime = 15
+tt.health.hp_max = 720
+tt.health_bar.offset = v(0, 50)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.hero.team = TEAM_LINIREA
+tt.hero.respawn_animation = "taunt"
+tt.hero.death_loop_animation = "deathLoop"
+tt.info.i18n_key = "HERO_MALIK"
+tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.portrait = "portraits_hero_0119"
+tt.main_script.update = customScripts1.kr4_hero_malik.update
+tt.melee.attacks[1] = E:clone_c("area_attack")
+tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].shared_cooldown = true
+tt.melee.attacks[1].cooldown = 1.5
+tt.melee.attacks[1].damage_max = 108
+tt.melee.attacks[1].damage_min = 86
+tt.melee.attacks[1].hit_time = 0.85
+tt.melee.attacks[1].damage_radius = 60
+tt.melee.attacks[1].sound = "malik_melee_attack"
+tt.melee.attacks[1].hit_offset = v(30, 10)
+tt.melee.attacks[1].hit_decal = "malik_attack_decal"
+tt.melee.attacks[1].animation = "melee"
+tt.timed_attacks.list[1] = CC("bullet_attack")
+tt.timed_attacks.list[1].animation = "range"
+tt.timed_attacks.list[1].min_range = 0
+tt.timed_attacks.list[1].max_range = 245
+tt.timed_attacks.list[1].cooldown = 4.5
+tt.timed_attacks.list[1].shoot_time = 0.59
+tt.timed_attacks.list[1].bullet = "malik_attack_ray"
+tt.timed_attacks.list[1].search_type = U.search_type.max_health
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE)
+tt.timed_attacks.list[2] = CC("bullet_attack")
+tt.timed_attacks.list[2].animation = "special"
+tt.timed_attacks.list[2].cooldown = 13
+tt.timed_attacks.list[2].shoot_time = 1.21
+tt.timed_attacks.list[2].bullet = "malik_tower_destruction_ray"
+tt.launch_movement.min_distance = 150
+tt.launch_movement.animations = {
+	"jumpLaunch",
+	"jumpTravel",
+	"jumpLand"
+}
+tt.launch_movement.flight_time = fts(35)
+tt.launch_movement.loop_on_the_way = true
+tt.launch_movement.launch_sound = "malik_jump_charge"
+tt.launch_movement.launch_args = {
+	delay = 0
+}
+tt.launch_movement.launch_entity = "malik_jump_decal"
+tt.launch_movement.launch_entity_delay = nil
+tt.launch_movement.land_sound = "malik_jump_hit"
+tt.launch_movement.land_entity = "aura_malik_land"
+tt.launch_movement.land_entity_offset = v(25, 0)
+tt.launch_movement.land_args = {
+	delay = 0
+}
+tt.melee.range = 65
+tt.motion.max_speed = 28
+tt.regen.cooldown = 1
+tt.regen.health = 180
+tt.render.sprites[1].anchor.y = 0.34
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].prefix = "malik_layer2"
+tt.render.sprites[1].angles = {}
+tt.render.sprites[1].angles.walk = {
+	"walk"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "malik_shadow"
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].anchor = v(0.5, 0.34)
+tt.render.sprites[2].offset = v(0, 0)
+tt.sound_events.change_rally_point = "HeroReinforcementTaunt"
+tt.sound_events.insert = "HeroReinforcementTauntIntro"
+tt.sound_events.respawn = "HeroReinforcementTauntIntro"
+tt.sound_events.death = "HeroReinforcementDeath"
+tt.sound_events.after_death = {
+	"malik_death_hammerfall",
+	"malik_death_body_fall"
+}
+tt.sound_events.after_death_args = {
+	{
+		delay = 0.3
+	},
+	{
+		delay = 0.5
+	}
+}
+tt.soldier.melee_slot_offset.x = 15
+tt.unit.hit_offset = v(0, 19)
+tt.unit.mod_offset = v(0, 16)
+tt.unit.head_offset = v(0, 28)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.hide_after_death = nil
+
+tt = E:register_t("malik_attack_decal", "decal_tween")
+tt.render.sprites[1].name = "malik_attack_decal_run"
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].z = Z_DECALS
+tt.tween.props[1].keys = {
+	{
+		0,
+		255
+	},
+	{
+		fts(27),
+		0
+	}
+}
+
+tt = E:register_t("malik_attack_ray", "bullet")
+tt.main_script.update = customScripts1.lightning_ray.update
+tt.render.sprites[1].name = "malik_attack_ray_travel"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor = v(0, 0.5)
+tt.render.sprites[1].r = -math.pi / 2
+tt.bullet.damage_min = 260
+tt.bullet.damage_max = 320
+tt.bullet.damage_type = DAMAGE_MAGICAL
+tt.bullet.use_unit_damage_factor = true
+tt.bullet.hit_time = fts(2)
+tt.bullet.mod = "mod_malik_attack_ray"
+tt.bullet.pop = {
+	"pop_lightning1",
+	"pop_lightning2",
+	"pop_lightning3"
+}
+tt.bullet.pop_chance = 1
+tt.sound_events.insert = "malik_ranged_attack"
+tt.spawn_pos_offset = v(0, 107)
+
+tt = E:register_t("mod_malik_attack_ray", "mod_slow")
+E:add_comps(tt, "render")
+tt.slow.factor = 0.65
+tt.modifier.duration = 2
+tt.modifier.vis_bans = bor(F_BOSS)
+tt.render.sprites[1].prefix = "malik_attack_ray_modifier"
+tt.render.sprites[1].name = "run"
+tt.render.sprites[1].draw_order = 2
+tt.render.sprites[1].loop = true
+
+tt = E:register_t("malik_tower_destruction_ray", "bullet")
+tt.main_script.update = customScripts1.lightning_ray.update
+tt.render.sprites[1].name = "malik_towerdestroction_ray_run"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor = v(0.5, 0.04)
+tt.bullet.damage_min = 390
+tt.bullet.damage_max = 480
+tt.bullet.damage_radius = 80
+tt.bullet.damage_type = DAMAGE_TRUE
+tt.bullet.use_unit_damage_factor = nil
+tt.bullet.hit_time = fts(2)
+tt.bullet.mod = "mod_malik_attack_ray"
+tt.bullet.hit_payload = "malik_attack_decal"
+tt.bullet.ignore_hit_offset = true
+tt.sound_events.insert = "malik_tower_destroy_oneshot"
+tt.spawn_pos_offset = v(0, 0)
+
+tt = E:register_t("malik_jump_decal", "decal_timed")
+tt.render.sprites[1].name = "malik_jump_decal_run"
+tt.render.sprites[1].anchor = v(0.5, 0.32)
+tt.render.sprites[1].offset = v(0, -2)
+tt.render.sprites[1].z = Z_DECALS
+
+tt = E:register_t("aura_malik_land", "aura")
+E:add_comps(tt, "render")
+tt.render.sprites[1].name = "malik_attack_decal_run"
+tt.render.sprites[1].anchor = v(0.5, 0.45)
+tt.render.sprites[1].offset = v(0, 0)
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].z = Z_DECALS
+tt.aura.duration = fts(27)
+tt.aura.mods = {
+	"mod_malik_attack_ray",
+	"mod_malik_land_damage"
+}
+tt.aura.cycle_time = 1e+99
+tt.aura.radius = 80
+tt.aura.vis_bans = bor(F_FRIEND)
+tt.aura.vis_flags = bor(F_MOD, F_AREA)
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("mod_malik_land_damage", "mod_damage")
+tt.damage_min = 137
+tt.damage_max = 164
+tt.damage_type = DAMAGE_PHYSICAL
 
 tt = E:register_t("hero_dianyun", "hero5")
 b = balance.heroes.hero_dianyun
@@ -626,7 +834,7 @@ tt.aura.mods = {
 	"mod_kr4_stun",
 	"mod_supreme_wave_damage"
 }
-tt.aura.cycle_time = 10
+tt.aura.cycle_time = 1e+99
 tt.aura.radius = 50
 tt.aura.vis_bans = bor(F_FRIEND)
 tt.aura.vis_flags = bor(F_MOD, F_AREA)

@@ -661,20 +661,40 @@ local function y_hero_new_rally(store, this)
 			end
 			local an, af = U.animation_name_facing_point(this, lm.animations[1], rp)
 			U.y_animation_play(this, an, af, store.tick_ts)
-			if lm.launch_decal then
-				local decal = E:create_entity(lm.launch_decal)
-				decal.pos.x, decal.pos.y = this.pos.x, this.pos.y
-				decal.render.sprites[1].ts = store.tick_ts
-				if decal.tween then
-					decal.tween.ts = store.tick_ts
+			if lm.launch_entity then
+				local entity = E:create_entity(lm.launch_entity)
+				if lm.launch_entity_offset then
+					entity.pos.x, entity.pos.y = this.pos.x + (af and -1 or 1) * lm.launch_entity_offset.x, this.pos.y + lm.launch_entity_offset.y
+				else
+					entity.pos.x, entity.pos.y = this.pos.x, this.pos.y
 				end
-				queue_insert(store, decal)
+				if lm.launch_entity_delay then
+					local controller = E:create_entity("entities_delay_controller")
+					controller.start_ts = store.tick_ts
+					controller.delays = { lm.launch_entity_delay }
+					controller.entities = { entity }
+					queue_insert(store, controller)
+				else
+					entity.render.sprites[1].ts = store.tick_ts
+					if entity.tween then
+						entity.tween.ts = store.tick_ts
+					end
+					queue_insert(store, entity)
+				end
 			end
 			local ps
 			if lm.particles_name then
 				ps = E:create_entity(lm.particles_name)
 				ps.particle_system.track_id = this.id
 				queue_insert(store, ps)
+			end
+			for i, sprite in ipairs(this.render.sprites) do
+				if sprite.is_shadow then
+					sprite.hidden = true
+				else
+					sprite._orignial_z = sprite.z
+					sprite.z = Z_FLYING_HEROES
+				end
 			end
 			an, af = U.animation_name_facing_point(this, lm.animations[2], rp)
 			U.animation_start(this, an, af, store.tick_ts, lm.loop_on_the_way)
@@ -693,6 +713,35 @@ local function y_hero_new_rally(store, this)
 			this.motion.speed.x, this.motion.speed.y = 0, 0
 			if lm.land_sound then
 				S:queue(lm.land_sound, lm.land_args)
+			end
+			if lm.land_entity then
+				local entity = E:create_entity(lm.land_entity)
+				if lm.land_entity_offset then
+					entity.pos.x, entity.pos.y = this.pos.x + (af and -1 or 1) * lm.land_entity_offset.x, this.pos.y + lm.land_entity_offset.y
+				else
+					entity.pos.x, entity.pos.y = this.pos.x, this.pos.y
+				end
+				if lm.land_entity_delay then
+					local controller = E:create_entity("entities_delay_controller")
+					controller.start_ts = store.tick_ts
+					controller.delays = { lm.land_entity_delay }
+					controller.entities = { entity }
+					queue_insert(store, controller)
+				else
+					entity.render.sprites[1].ts = store.tick_ts
+					if entity.tween then
+						entity.tween.ts = store.tick_ts
+					end
+					queue_insert(store, entity)
+				end
+			end
+			for i, sprite in ipairs(this.render.sprites) do
+				if sprite.is_shadow then
+					sprite.hidden = nil
+				else
+					sprite.z = sprite._orignial_z
+					sprite._orignial_z = nil
+				end
 			end
 			U.y_animation_play(this, lm.animations[3], nil, store.tick_ts)
 			this.health_bar.hidden = false
@@ -4087,7 +4136,7 @@ end
 -- customization
 local function check_tower_attack_available(store, tower, attack)
 	if not tower or not tower.tower then
-		log.error("%s is not a tower.", tower and tower.template_name and tower.template_name or "Nil")
+		log.error("%s is not a tower.", tower and tower.template_name or "Nil")
 		return false
 	end
 	if not attack.disabled and attack.ts and attack.ts ~= 0 and (not attack.can_be_silenced or tower.tower.can_do_magic) and store.tick_ts - attack.ts >= attack.cooldown then
@@ -4095,6 +4144,19 @@ local function check_tower_attack_available(store, tower, attack)
 	end
 	return false
 end
+
+local function check_unit_attack_available(store, unit, attack)
+	if not unit or not unit.unit then
+		log.error("%s is not a unit.", unit and unit.template_name or "Nil")
+		return false
+	end
+	if not attack.disabled and attack.ts and attack.ts ~= 0 and (not attack.can_be_silenced or not unit.enemy or unit.enemy and unit.enemy.can_do_magic) and 
+	store.tick_ts - attack.ts >= attack.cooldown then
+		return true
+	end
+	return false
+end
+-- customization
 
 local SU = {
 	has_modifiers = U.has_modifiers,
@@ -4200,7 +4262,8 @@ local SU = {
 	deck_new = deck_new,
 	deck_draw = deck_draw,
 	-- customization
-	check_tower_attack_available = check_tower_attack_available
+	check_tower_attack_available = check_tower_attack_available,
+	check_unit_attack_available = check_unit_attack_available,
 }
 
 return SU

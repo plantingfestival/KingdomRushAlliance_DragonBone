@@ -11861,5 +11861,61 @@ return {
 		files = {
 			"kr4_sfx_tower_altar_burning_elemental_respawn.ogg"
 		}
-	}
+	},
+	malik_melee_attack = {
+		loop = false,
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_melee_attack_v1.ogg"
+		}
+	},
+	malik_ranged_attack = {
+		loop = false,
+		gain = 0.6,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_ranged_attack_v1.ogg"
+		}
+	},
+	malik_jump_charge = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_jump_charge-jump_v1.ogg"
+		}
+	},
+	malik_jump_hit = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_jump_hit_v1.ogg"
+		}
+	},
+	malik_tower_destroy_oneshot = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_tower_destroy_oneShot_v2.ogg"
+		}
+	},
+	malik_death_hammerfall = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_death_hammerFall_v1.ogg"
+		}
+	},
+	malik_death_body_fall = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kr4_sfx_malik_death_bodyFall_v1.ogg"
+		}
+	},
 }

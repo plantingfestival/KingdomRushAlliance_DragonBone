@@ -4120,7 +4120,7 @@ function scripts.hero_10yr.level_up(this, store, initial)
 		au.aura.damage_max = s.bomb_step_damage_max[s.level]
 		a.disabled = nil
 
-		local e = E:get_template(this.launch_movement.land_entity)
+		local e = E:get_template(this.land_entity)
 		e.aura.damage_min = s.bomb_step_damage_min[s.level]
 		e.aura.damage_max = s.bomb_step_damage_max[s.level]
 	end
@@ -4239,7 +4239,7 @@ function scripts.hero_10yr.update(this, store)
 				local launch_move = SU.hero_will_launch_move(this, this.nav_rally.pos)
 				local rally = SU.y_hero_new_rally(store, this)
 				if launch_move and this.hero.skills.bomb.level > 0 then
-					local e = E:create_entity(this.launch_movement.land_entity)
+					local e = E:create_entity(this.land_entity)
 					e.pos = V.vclone(this.pos)
 					e.aura.source_id = this.id
 					queue_insert(store, e)

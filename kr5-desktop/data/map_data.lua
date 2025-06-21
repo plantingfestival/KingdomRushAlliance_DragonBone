@@ -571,6 +571,7 @@ return {
 		"hero_denas",
 		"hero_hacksaw",
 		"hero_ingvar",
+		"kr4_hero_malik",
 		"hero_dragon",
 		"hero_dwarf",
 		"hero_elves_archer"

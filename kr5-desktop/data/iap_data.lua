@@ -182,6 +182,15 @@ return {
 				255
 			}
 		},
+		kr4_hero_malik = {
+			cost = 500,
+			color_bg = {
+				255,
+				215,
+				102,
+				255
+			}
+		},
 		hero_dwarf = {
 			cost = 500,
 			color_bg = {

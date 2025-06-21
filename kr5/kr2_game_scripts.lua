@@ -45,6 +45,71 @@ end
 
 local scripts = require("scripts")
 
+local function y_hero_melee_block_and_attacks(store, hero)
+	local target = SU.soldier_pick_melee_target(store, hero)
+
+	if not target then
+		return false, A_NO_TARGET
+	end
+
+	if SU.soldier_move_to_slot_step(store, hero, target) then
+		return true
+	end
+
+	local attack = SU.soldier_pick_melee_attack(store, hero, target)
+
+	if not attack then
+		return false, A_IN_COOLDOWN
+	end
+
+	local upg = UP:get_upgrade("heroes_lethal_focus")
+	local triggered_lethal_focus = false
+	local attack_pop = attack.pop
+	local attack_pop_chance = attack.pop_chance
+
+	if attack.basic_attack and upg then
+		if not hero._lethal_focus_deck then
+			hero._lethal_focus_deck = SU.deck_new(upg.trigger_cards, upg.total_cards)
+		end
+
+		triggered_lethal_focus = SU.deck_draw(hero._lethal_focus_deck)
+	end
+
+	if triggered_lethal_focus then
+		hero.unit.damage_factor = hero.unit.damage_factor * upg.damage_factor
+		attack.pop = {
+			"pop_crit_heroes"
+		}
+		attack.pop_chance = 1
+	end
+
+	if attack.xp_from_skill then
+		SU.hero_gain_xp_from_skill(hero, hero.hero.skills[attack.xp_from_skill])
+	end
+
+	local attack_done
+
+	if attack.loops then
+		attack_done = SU.y_soldier_do_loopable_melee_attack(store, hero, target, attack)
+	elseif attack.type == "area" then
+		attack_done = SU.y_soldier_do_single_area_attack(store, hero, target, attack)
+	else
+		attack_done = SU.y_soldier_do_single_melee_attack(store, hero, target, attack)
+	end
+
+	if triggered_lethal_focus then
+		hero.unit.damage_factor = hero.unit.damage_factor / upg.damage_factor
+		attack.pop = attack_pop
+		attack.pop_chance = attack_pop_chance
+	end
+
+	if attack_done then
+		return false, A_DONE
+	else
+		return true
+	end
+end
+
 local function y_hero_ranged_attacks(store, hero)
 	local target, attack, pred_pos = SU.soldier_pick_ranged_target_and_attack(store, hero)
 
@@ -19886,7 +19951,7 @@ function scripts.hero_dwarf.update(this, store, script)
 			end
 
 			if this.melee then
-				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+				brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 				if brk or sta ~= A_NO_TARGET then
 					goto label_448_0

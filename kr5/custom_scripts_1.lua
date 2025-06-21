@@ -6526,4 +6526,318 @@ function scripts.royal_archers_tower_combination_controller.update(this, store, 
 	queue_remove(store, this)
 end
 
+scripts.lightning_ray = {}
+function scripts.lightning_ray.update(this, store, script)
+	local bullet = this.bullet
+	local target = store.entities[bullet.target_id]
+	local damage_radius = bullet.damage_radius and bullet.damage_radius > 0 and bullet.damage_radius or nil
+	local sprite1 = this.render.sprites[1]
+
+	if not target and not damage_radius then
+		queue_remove(store, this)
+		return
+	end
+
+	if not bullet.ignore_hit_offset and target and target.render and target.unit and target.unit.hit_offset then
+		local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+		sprite1.offset.x = target.unit.hit_offset.x * flip_sign + this.spawn_pos_offset.x
+		sprite1.offset.y = target.unit.hit_offset.y + this.spawn_pos_offset.y
+	else
+		sprite1.offset.x = this.spawn_pos_offset.x
+		sprite1.offset.y = this.spawn_pos_offset.y
+	end
+
+	sprite1.ts = store.tick_ts
+
+	while store.tick_ts - sprite1.ts < bullet.hit_time do
+		coroutine.yield()
+		if target and target.health.dead then
+			target = nil
+		end
+	end
+
+	local pop = SU.create_bullet_pop(store, this)
+	if pop then
+		queue_insert(store, pop)
+	end
+
+	local function insert_damage_and_mods(target, damage_value)
+		local damage = E:create_entity("damage")
+		damage.source_id = this.id
+		damage.target_id = target.id
+		damage.damage_type = bullet.damage_type
+		damage.value = damage_value
+		queue_damage(store, damage)
+
+		if bullet.mod or bullet.mods then
+			local mods = bullet.mods or {
+				bullet.mod
+			}
+			for _, mod_name in pairs(mods) do
+				local m = E:create_entity(mod_name)
+				m.modifier.target_id = target.id
+				m.modifier.source_id = this.id
+				m.modifier.level = bullet.level
+				queue_insert(store, m)
+			end
+		end
+	end
+
+	if damage_radius then
+		local pos = target and target.pos or this.pos
+		local enemies = U.find_enemies_in_range(store.entities, pos, 0, damage_radius, bullet.damage_flags, bullet.damage_bans)
+		if enemies then
+			local damage_min = math.ceil(bullet.damage_min * bullet.damage_factor)
+			local damage_max = math.ceil(bullet.damage_max * bullet.damage_factor)
+			local damage_value = math.random(damage_min, damage_max)
+			for i, enemy in ipairs(enemies) do
+				insert_damage_and_mods(enemy, damage_value)
+			end
+		end
+	elseif target then
+		local damage_min = math.ceil(bullet.damage_min * bullet.damage_factor)
+		local damage_max = math.ceil(bullet.damage_max * bullet.damage_factor)
+		local damage_value = math.random(damage_min, damage_max)
+		insert_damage_and_mods(target, damage_value)
+	end
+
+	if bullet.hit_fx then
+		local hit_fx_pos = V.vclone(this.pos)
+		if target and target.render and target.unit and target.unit.hit_offset then
+			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+			hit_fx_pos.x = target.unit.hit_offset.x * flip_sign + hit_fx_pos.x
+			hit_fx_pos.y = target.unit.hit_offset.y + hit_fx_pos.y
+		end
+		SU.insert_sprite(store, bullet.hit_fx, hit_fx_pos)
+	end
+
+	if bullet.hit_payload then
+		local hp
+		if type(bullet.hit_payload) == "string" then
+			hp = E:create_entity(bullet.hit_payload)
+		else
+			hp = bullet.hit_payload
+		end
+
+		hp.pos.x, hp.pos.y = this.pos.x, this.pos.y
+		if hp.aura then
+			hp.aura.level = bullet.level
+		end
+		queue_insert(store, hp)
+	end
+
+	while not U.animation_finished(this) do
+		coroutine.yield()
+	end
+
+	queue_remove(store, this)
+end
+
+scripts.entities_delay_controller = {}
+function scripts.entities_delay_controller.update(this, store, script)
+	if not this.delays or not this.entities or #this.delays ~= #this.entities then
+		queue_remove(store, this)
+		return
+	end
+
+	local start_ts = this.start_ts or store.tick_ts
+	local function insert_entity()
+		local delay = this.delays[1]
+		if delay + start_ts <= store.tick_ts then
+			local entity = this.entities[1]
+			table.remove(this.delays, 1)
+			table.remove(this.entities, 1)
+			entity.render.sprites[1].ts = store.tick_ts
+			if entity.tween then
+				entity.tween.ts = store.tick_ts
+			end
+			queue_insert(store, entity)
+			if #this.delays > 0 then
+				this.delays[1] = delay + this.delays[1]
+				insert_entity()
+			end
+		end
+	end
+
+	while #this.delays > 0 do
+		insert_entity()
+		coroutine.yield()
+	end
+	queue_remove(store, this)
+end
+
+scripts.kr4_hero_malik = {}
+function scripts.kr4_hero_malik.update(this, store, script)
+	local h = this.health
+	local hero = this.hero
+	local a1 = this.timed_attacks.list[1]
+	local a2 = this.timed_attacks.list[2]
+	local brk, sta
+	a1.ts, a2.ts = store.tick_ts, store.tick_ts
+
+	local function hide_shadow(isHidden)
+		for i, sprite in ipairs(this.render.sprites) do
+			if sprite.is_shadow then
+				sprite.hidden = isHidden
+			end
+		end
+	end
+
+	local function y_hero_death_and_respawn(store, this)
+		this.ui.can_click = false
+		local death_ts = store.tick_ts
+		local dead_lifetime = h.dead_lifetime
+	
+		U.unblock_target(store, this)
+		S:queue(this.sound_events.death, this.sound_events.death_args)
+		hide_shadow(true)
+		if this.unit.death_animation then
+			U.y_animation_play(this, this.unit.death_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "death", nil, store.tick_ts, 1, 1)
+		end
+		U.animation_start(this, this.hero.death_loop_animation, nil, store.tick_ts, true, 1)
+
+		if this.unit.hide_after_death then
+			for _, s in pairs(this.render.sprites) do
+				s.hidden = true
+			end
+		end
+	
+		while dead_lifetime > store.tick_ts - death_ts do
+			if this.force_respawn then
+				this.force_respawn = nil
+				break
+			end
+			coroutine.yield()
+		end
+	
+		if hero and hero.respawn_point then
+			local p = he.respawn_point
+			this.pos.x, this.pos.y = p.x, p.y
+			this.nav_rally.pos.x, this.nav_rally.pos.y = p.x, p.y
+			this.nav_rally.center.x, this.nav_rally.center.y = p.x, p.y
+			this.nav_rally.new = false
+		end
+	
+		h.ignore_damage = true
+		S:queue(this.sound_events.respawn)
+		hide_shadow(false)
+		if hero.respawn_animation then
+			U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "respawn", nil, store.tick_ts, 1, 1)
+		end
+	
+		this.health_bar.hidden = false
+		this.ui.can_click = true
+		h.dead = false
+		this.force_respawn = nil
+		h.hp = h.hp_max
+		h.ignore_damage = false
+	end
+
+	U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+
+	while true do
+		if h.dead then
+			y_hero_death_and_respawn(store, this)
+		end
+
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+		else
+			while this.nav_rally.new do
+				local rally = SU.y_hero_new_rally(store, this)
+				if rally then
+					goto label_90_1
+				end
+			end
+
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
+			if SU.check_unit_attack_available(store, this, a1) then
+				local target = U.find_enemy_with_search_type(store.entities, this.pos, a1.min_range, a1.max_range, nil, a1.vis_flags, a1.vis_bans, nil, nil, a1.search_type)
+				if target then
+					local start_ts = store.tick_ts
+					local an, af = U.animation_name_facing_point(this, a1.animation, target.pos)
+					U.animation_start(this, an, af, store.tick_ts, nil, 1)
+					if SU.y_hero_wait(store, this, a1.shoot_time) then
+						goto label_90_1
+					end
+					target = store.entities[target.id]
+					if not target or target.health.dead then
+						target = U.find_enemy_with_search_type(store.entities, this.pos, a1.min_range, a1.max_range, nil, a1.vis_flags, a1.vis_bans, nil, nil, a1.search_type)
+					end
+					if target then
+						local bullet = E:create_entity(a1.bullet)
+						bullet.pos = target.pos
+						bullet.bullet.source_id = this.id
+						bullet.bullet.target_id = target.id
+						if bullet.bullet.use_unit_damage_factor then
+							bullet.bullet.damage_factor = this.unit.damage_factor
+						end
+						queue_insert(store, bullet)
+						a1.ts = start_ts
+					else
+						SU.delay_attack(store, a1, 0.1)
+					end
+					SU.y_hero_animation_wait(this)
+					goto label_90_1
+				else
+					SU.delay_attack(store, a1, 0.1)
+				end
+			end
+
+			if this.motion.arrived and this.soldier.target_id then
+				local target = store.entities[this.soldier.target_id]
+				if not target or target.health.dead then
+					goto label_90_0
+				end
+				if SU.check_unit_attack_available(store, this, a2) then
+					local start_ts = store.tick_ts
+					local an, af = U.animation_name_facing_point(this, a2.animation, target.pos)
+					U.animation_start(this, an, af, store.tick_ts, nil, 1)
+					if SU.y_hero_wait(store, this, a2.shoot_time) then
+						goto label_90_1
+					end
+					target = store.entities[target.id]
+					if target and not target.health.dead then
+						local bullet = E:create_entity(a2.bullet)
+						bullet.pos = target.pos
+						bullet.bullet.source_id = this.id
+						bullet.bullet.target_id = target.id
+						if bullet.bullet.use_unit_damage_factor then
+							bullet.bullet.damage_factor = this.unit.damage_factor
+						end
+						queue_insert(store, bullet)
+						a2.ts = start_ts
+					end
+					if SU.y_hero_animation_wait(this) then
+						goto label_90_1
+					end
+				end
+			end
+
+			::label_90_0::
+
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
+
+			if brk or sta ~= A_NO_TARGET then
+				-- block empty
+			elseif SU.soldier_go_back_step(store, this) then
+				-- block empty
+			else
+				SU.soldier_idle(store, this)
+				SU.soldier_regen(store, this)
+			end
+		end
+
+		::label_90_1::
+
+		coroutine.yield()
+	end
+end
+
 return scripts

@@ -1179,9 +1179,14 @@ launch_movement.min_distance = 0
 launch_movement.disabled = nil
 launch_movement.launch_sound = nil
 launch_movement.launch_args = nil
-launch_movement.launch_decal = nil
+launch_movement.launch_entity = nil
+launch_movement.launch_entity_delay = nil
+launch_movement.launch_entity_offset = nil
 launch_movement.land_sound = nil
 launch_movement.land_args = nil
+launch_movement.land_entity = nil
+launch_movement.land_entity_delay = nil
+launch_movement.land_entity_offset = nil
 launch_movement.animations = {
 	"launch",
 	"travel",

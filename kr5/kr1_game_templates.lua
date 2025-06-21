@@ -1409,9 +1409,9 @@ tt.launch_movement.launch_sound = "HeroTraminLand"
 tt.launch_movement.launch_args = {
 	delay = 0.5
 }
-tt.launch_movement.launch_decal = "decal_ground_slam"
+tt.launch_movement.launch_entity = "decal_ground_slam"
 tt.launch_movement.land_sound = "HeroBeresadSpawnImpact"
-tt.launch_movement.land_entity = "aura_10yr_land"
+tt.land_entity = "aura_10yr_land"
 tt.normal_mod_offset = v(0, 15)
 tt.normal_hit_offset = v(0, 16)
 tt.buffed_mod_offset = v(0, 20)

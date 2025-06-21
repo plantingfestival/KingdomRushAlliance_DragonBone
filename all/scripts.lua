@@ -1635,7 +1635,9 @@ function scripts.hero_basic.get_info_ranged(this)
 end
 
 function scripts.hero_basic.insert(this, store)
-	this.hero.fn_level_up(this, store, true)
+	if this.hero.fn_level_up then
+		this.hero.fn_level_up(this, store, true)
+	end
 
 	if this.melee then
 		this.melee.order = U.attack_order(this.melee.attacks)

@@ -2896,7 +2896,12 @@ return {
 	ITEM_HERO_HACKSAW_NAME = "Hacksaw",
 	HERO_DENAS_NAME = "King Denas the Previous",
 	ITEM_HERO_DENAS_BOTTOM_DESC = "Summon King Denas the Previous to defeat your enemies.",
-	ITEM_HERO_DENAS_BOTTOM_INFO = "Summon King Denas the Previous to defeat your enemies.",
+	ITEM_HERO_DENAS_BOTTOM_INFO = "Summon King Denas the Previous to fight alongside you.",
 	ITEM_HERO_DENAS_DESC = "His majesty himself brings an arsenal of power and courage to the battlefield. Long live the king!",
 	ITEM_HERO_DENAS_NAME = "King Denas the Previous",
+	HERO_MALIK_NAME = "Malik Hammerfury",
+	ITEM_KR4_HERO_MALIK_BOTTOM_DESC = "Summon Malik Hammerfury to defeat your enemies.",
+	ITEM_KR4_HERO_MALIK_BOTTOM_INFO = "Summon Malik Hammerfury to fight alongside you.",
+	ITEM_KR4_HERO_MALIK_DESC = "From a land far, far away, comes a Hero with unmatched strength, untamed mind, and unbroken will. A destructive force, an unleashed fury, a bullet train attitude!",
+	ITEM_KR4_HERO_MALIK_NAME = "Malik Hammerfury",
 }
