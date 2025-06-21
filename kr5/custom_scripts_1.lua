@@ -6690,6 +6690,9 @@ function scripts.kr4_hero_malik.update(this, store, script)
 	
 		U.unblock_target(store, this)
 		S:queue(this.sound_events.death, this.sound_events.death_args)
+		for i, sound in ipairs(this.sound_events.after_death) do
+			S:queue(sound, this.sound_events.after_death_args[i])
+		end
 		hide_shadow(true)
 		if this.unit.death_animation then
 			U.y_animation_play(this, this.unit.death_animation, nil, store.tick_ts, 1, 1)

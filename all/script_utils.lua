@@ -2221,7 +2221,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						local m = E:create_entity(mod_name)
 		
 						m.modifier.ts = store.tick_ts
-						m.modifier.target_id = e.id
+						m.modifier.target_id = target.id
 						m.modifier.source_id = this.id
 						m.modifier.level = attack.level
 
