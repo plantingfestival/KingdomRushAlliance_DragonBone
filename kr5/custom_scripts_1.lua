@@ -6620,6 +6620,7 @@ function scripts.lightning_ray.update(this, store, script)
 		end
 
 		hp.pos.x, hp.pos.y = this.pos.x, this.pos.y
+		hp.render.sprites[1].ts = store.tick_ts
 		if hp.aura then
 			hp.aura.level = bullet.level
 		end
@@ -6740,7 +6741,9 @@ function scripts.kr4_hero_malik.update(this, store, script)
 		h.ignore_damage = false
 	end
 
+	this.health_bar.hidden = true
 	U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+	this.health_bar.hidden = nil
 
 	while true do
 		if h.dead then
