@@ -502,7 +502,7 @@ function HeroRoomView.static:get_hero_stats(hero_name)
 	out.level = h.hero.level
 	out.xp = h.hero.xp
 	out.level_progress = level_progress
-	out.taunt = h.sound_events.change_rally_point .. "Select"
+	out.taunt = h.sound_events.hero_room_select
 	out.health = info.hp_max
 	out.damage = info.damage_min .. " - " .. info.damage_max
 	out.damage_min = info.damage_min
@@ -810,36 +810,34 @@ function HeroRoomView:initialize(size, image_name, base_scale)
 		self:ci("hero_stat_icon_" .. i).pos.y = self:ci("hero_stat_icon_" .. i).pos.y + 4
 	end
 
-	if DEBUG then
-		self:ci("hero_room_cheat_level").hidden = false
-		self:ci("hero_room_cheat_level").on_click = function(this)
-			local slider = self:ci("hero_room_heroes_slider")
-			local hero_name = self.hero_shown
+	self:ci("hero_room_cheat_level").hidden = false
+	self:ci("hero_room_cheat_level").on_click = function(this)
+		local slider = self:ci("hero_room_heroes_slider")
+		local hero_name = self.hero_shown
 
-			if not hero_name then
-				log.error("no hero name")
+		if not hero_name then
+			log.error("no hero name")
 
-				return
-			end
-
-			local user_data = storage:load_slot()
-			local hero = user_data.heroes.status[hero_name]
-			local level, _ = HeroRoomView:get_hero_level(hero.xp)
-			local new_xp = 0
-
-			level = level + 1
-
-			if level > 10 then
-				-- block empty
-			else
-				new_xp = GS.hero_xp_thresholds[level - 1]
-			end
-
-			hero.xp = new_xp
-
-			storage:save_slot(user_data)
-			self:show_hero(hero_name, true)
+			return
 		end
+
+		local user_data = storage:load_slot()
+		local hero = user_data.heroes.status[hero_name]
+		local level, _ = HeroRoomView:get_hero_level(hero.xp)
+		local new_xp = 0
+
+		level = level + 1
+
+		if level > 10 then
+			-- block empty
+		else
+			new_xp = GS.hero_xp_thresholds[level - 1]
+		end
+
+		hero.xp = new_xp
+
+		storage:save_slot(user_data)
+		self:show_hero(hero_name, true)
 	end
 end
 

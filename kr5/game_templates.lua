@@ -3708,7 +3708,7 @@ tt.positions = {
 	}
 }
 tt = E:register_t("decal_tower_demon_pit_reload", "decal_scripted")
-tt.render.sprites[1].name = nil
+tt.render.sprites[1].name = ""
 tt.render.sprites[1].z = Z_TOWER_BASES + 1
 tt.main_script.update = scripts.decal_tower_demon_pit_reload.update
 tt = E:register_t("decal_tower_demon_pit_demon_explosion_decal", "decal_tween")
@@ -34396,7 +34396,7 @@ tt.explosion_range = b.black_aegis.explosion_range
 tt.explosion_damage_type = b.black_aegis.explosion_damage_type
 tt.explosion_time = fts(8)
 tt.render.sprites[1].prefix = "hero_therien_black_aegis_top"
-tt.render.sprites[1].name = nil
+tt.render.sprites[1].name = ""
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].size_names = {
 	"small",
@@ -34410,7 +34410,7 @@ tt.render.sprites[1].offset = v(0, 3)
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].prefix = "hero_therien_black_aegis_bottom"
-tt.render.sprites[2].name = nil
+tt.render.sprites[2].name = ""
 tt.render.sprites[2].z = Z_DECALS
 tt.render.sprites[2].size_names = {
 	"small",
@@ -35553,9 +35553,12 @@ tt.render.sprites[1].loop = true
 tt.main_script.insert = scripts.mod_dps.insert
 tt.main_script.update = scripts.mod_dps.update
 tt.damage = b.damage
+
 tt = E:register_t("mod_hero_bird_shout_stun", "mod_stun")
 b = balance.heroes.hero_bird.shout_stun
 tt.modifier.duration = nil
+tt.modifier.vis_bans = bor(F_BOSS)
+
 tt = E:register_t("mod_hero_bird_shout_slow", "mod_slow")
 
 E:add_comps(tt, "render")
@@ -35564,6 +35567,7 @@ b = balance.heroes.hero_bird.shout_stun
 tt.slow.factor = b.slow_factor
 tt.modifier.duration = nil
 tt.modifier.health_bar_offset = v(0, -5)
+tt.modifier.vis_bans = bor(F_BOSS)
 tt.render.sprites[1].prefix = "gryph_slow_mod"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].draw_order = 2

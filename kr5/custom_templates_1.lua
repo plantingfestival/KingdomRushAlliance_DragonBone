@@ -90,13 +90,55 @@ DO_HEROES = 3
 DO_MOD_FX = 4
 DO_TOWER_MODS = 10
 
--- customization
 tt = E:register_t("entities_delay_controller")
 E:add_comps(tt, "pos", "main_script", "sound_events")
 tt.main_script.update = customScripts1.entities_delay_controller.update
 tt.start_ts = nil
 tt.delays = nil
 tt.entities = nil
+
+tt = E:register_t("controller_spawn_on_path", "entities_delay_controller")
+tt.main_script.update = customScripts1.controller_spawn_on_path.update
+tt.path_index = nil
+tt.direction = -1
+tt.start_nodes_offset = 0
+tt.exclude_first_position = nil
+tt.nodes_between_objects = 2
+tt.delay_between_objects = fts(1)
+tt.entities = {}
+tt.delays = {}
+tt.max_entities = 1
+tt.entity_name = nil
+tt.random_offset = {}
+tt.random_offset.x = {}
+tt.random_offset.x.min = 0
+tt.random_offset.x.max = 0
+tt.random_offset.y = {}
+tt.random_offset.y.min = 0
+tt.random_offset.y.max = 0
+
+tt = E:register_t("rain_controller", "entities_delay_controller")
+tt.main_script.update = customScripts1.rain_controller.update
+tt.entities = {}
+tt.delays = {}
+tt.delay_between_objects = fts(1)
+tt.radius = 0
+tt.max_entities = 1
+tt.entity_name = nil
+
+tt = E:register_t("flame", "bullet")
+tt.bullet.flight_time = 1
+tt.delay_betweeen_flames = fts(1)
+tt.flame_bullet = nil
+tt.flames_count = 30
+tt.main_script.insert = customScripts1.flame.insert
+tt.main_script.update = customScripts1.flame.update
+
+tt = E:register_t("flame_bullet")
+E:add_comps(tt, "pos", "render")
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].z = Z_BULLETS
 
 tt = E:register_t("controller_item_hero", "controller_item")
 tt.main_script.insert = customScripts1.controller_item_hero.insert
@@ -190,8 +232,8 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].name = "malik_shadow"
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].is_shadow = true
-tt.render.sprites[2].anchor = v(0.5, 0.34)
-tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].anchor.y = 0.34
+tt.render.sprites[2].z = Z_DECALS + 1
 tt.sound_events.change_rally_point = "HeroReinforcementTaunt"
 tt.sound_events.insert = "HeroReinforcementTauntIntro"
 tt.sound_events.respawn = "HeroReinforcementTauntIntro"
@@ -245,11 +287,10 @@ tt.bullet.use_unit_damage_factor = true
 tt.bullet.hit_time = fts(2)
 tt.bullet.mod = "mod_malik_attack_ray"
 tt.bullet.pop = {
-	"pop_lightning1",
-	"pop_lightning2",
-	"pop_lightning3"
+	"pop_zap_sorcerer",
+	"pop_crit_wild_magus"
 }
-tt.bullet.pop_chance = 1
+tt.bullet.pop_chance = 0.5
 tt.sound_events.insert = "malik_ranged_attack"
 tt.spawn_pos_offset = v(0, 107)
 
@@ -310,10 +351,648 @@ tt.damage_min = 137
 tt.damage_max = 164
 tt.damage_type = DAMAGE_PHYSICAL
 
+tt = E:register_t("hero_eiskalt", "hero5")
+b = balance.heroes.hero_eiskalt
+E:add_comps(tt, "ranged", "timed_attacks")
+tt.hero.level_stats.hp_max = {
+	300,
+	325,
+	350,
+	375,
+	400,
+	425,
+	450,
+	475,
+	500,
+	525
+}
+tt.hero.level_stats.regen_health = {
+	22,
+	25,
+	28,
+	31,
+	34,
+	37,
+	40,
+	43,
+	46,
+	49
+}
+tt.hero.level_stats.armor = {
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0
+}
+tt.hero.level_stats.ranged_damage_min = {
+	14,
+	19,
+	24,
+	29,
+	34,
+	39,
+	44,
+	49,
+	54,
+	59
+}
+tt.hero.level_stats.ranged_damage_max = {
+	22,
+	29,
+	36,
+	43,
+	50,
+	57,
+	64,
+	71,
+	78,
+	85
+}
+-- fierce_breath
+tt.hero.skills.fierce_breath = E:clone_c("hero_skill")
+tt.hero.skills.fierce_breath.hr_cost = {
+	3,
+	2,
+	1
+}
+tt.hero.skills.fierce_breath.max_effects = {
+	3,
+	4,
+	5
+}
+tt.hero.skills.fierce_breath.max_air_effects = {
+	6,
+	7,
+	8
+}
+tt.hero.skills.fierce_breath.effect_range = {
+	15,
+	25,
+	35
+}
+tt.hero.skills.fierce_breath.air_effect_range = {
+	35,
+	37.5,
+	40
+}
+tt.hero.skills.fierce_breath.hr_order = 1
+tt.hero.skills.fierce_breath.hr_available = true
+tt.hero.skills.fierce_breath.damage_area = b.fierce_breath.damage_area
+tt.hero.skills.fierce_breath.key = "FIERCE_BREATH"
+-- cold_fury
+tt.hero.skills.cold_fury = E:clone_c("hero_skill")
+tt.hero.skills.cold_fury.hr_cost = {
+	3,
+	2,
+	1
+}
+tt.hero.skills.cold_fury.hr_order = 2
+tt.hero.skills.cold_fury.hr_available = true
+tt.hero.skills.cold_fury.cooldown = {
+	20,
+	16,
+	12
+}
+tt.hero.skills.cold_fury.xp_gain = {
+	80,
+	120,
+	160
+}
+tt.hero.skills.cold_fury.key = "COLD_FURY"
+-- ice_ball
+tt.hero.skills.ice_ball = E:clone_c("hero_skill")
+tt.hero.skills.ice_ball.hr_cost = {
+	2,
+	2,
+	2
+}
+tt.hero.skills.ice_ball.hr_order = 3
+tt.hero.skills.ice_ball.hr_available = true
+tt.hero.skills.ice_ball.xp_gain = {
+	90,
+	135,
+	180
+}
+tt.hero.skills.ice_ball.duration = {
+	7.5,
+	7.5,
+	7.5
+}
+tt.hero.skills.ice_ball.damage_over_time = b.ice_ball.damage_over_time
+tt.hero.skills.ice_ball.key = "ICE_BALL"
+-- ice_peaks
+tt.hero.skills.ice_peaks = E:clone_c("hero_skill")
+tt.hero.skills.ice_peaks.hr_cost = {
+	2,
+	2,
+	2
+}
+tt.hero.skills.ice_peaks.hr_order = 4
+tt.hero.skills.ice_peaks.hr_available = true
+tt.hero.skills.ice_peaks.hp_damage_factor = {
+	0.1,
+	0.2,
+	0.3
+}
+tt.hero.skills.ice_peaks.damage_boss = b.ice_peaks.damage_boss
+tt.hero.skills.ice_peaks.key = "ICE_PEAKS"
+tt.hero.skills.ice_peaks.xp_gain = {
+	137,
+	206,
+	274
+}
+-- ultimate
+tt.hero.skills.ultimate = E:clone_c("hero_skill")
+tt.hero.skills.ultimate.hr_cost = {
+	1,
+	4,
+	4,
+	4
+}
+tt.hero.skills.ultimate.controller_name = "hero_eiskalt_ultimate"
+tt.hero.skills.ultimate.hr_order = 5
+tt.hero.skills.ultimate.hr_available = true
+tt.hero.skills.ultimate.key = "ULTIMATE"
+tt.hero.skills.ultimate.cooldown = b.ultimate.cooldown
+tt.hero.skills.ultimate.duration = b.ultimate.duration
+
+tt.hero.team = TEAM_DARK_ARMY
+tt.health.dead_lifetime = 30
+tt.health_bar.draw_order = -1
+tt.health_bar.offset = v(0, 175)
+tt.health_bar.sort_y_offset = -200
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.health_bar.z = Z_FLYING_HEROES
+tt.hero.fn_level_up = customScripts1.hero_eiskalt.level_up
+tt.hero.tombstone_show_time = nil
+tt.hero.tombstone_decal = nil
+tt.hero.use_custom_spawn_point = true
+tt.idle_flip.chance = 0
+tt.info.fn = scripts.hero_basic.get_info_ranged
+tt.info.damage_icon = "magic"
+tt.info.hero_portrait = "hero_portraits_0120"
+tt.info.i18n_key = "HERO_EISKALT"
+tt.info.portrait = "portraits_hero_0120"
+tt.info.ultimate_icon = "0120"
+tt.info.stat_hp = 8
+tt.info.stat_armor = 0
+tt.info.stat_damage = 10
+tt.info.stat_cooldown = 4
+tt.main_script.update = customScripts1.hero_eiskalt.update
+tt.motion.max_speed = 90
+tt.nav_rally.requires_node_nearby = false
+tt.nav_grid.ignore_waypoints = true
+tt.all_except_flying_nowalk = bor(TERRAIN_NONE, TERRAIN_LAND, TERRAIN_WATER, TERRAIN_CLIFF, TERRAIN_NOWALK, TERRAIN_SHALLOW, TERRAIN_FAERIE, TERRAIN_ICE)
+tt.nav_grid.valid_terrains = tt.all_except_flying_nowalk
+tt.nav_grid.valid_terrains_dest = tt.all_except_flying_nowalk
+tt.drag_line_origin_offset = v(0, 100)
+tt.regen.cooldown = 2
+tt.render.sprites[1].anchor.y = 0.04
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].prefix = "hero_eiskalt"
+tt.render.sprites[1].angles.walk = {
+	"idle"
+}
+tt.render.sprites[1].z = Z_FLYING_HEROES
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].name = "hero_eiskalt_shadow"
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.change_rally_point = "group_hero_eiskalt_taunt"
+tt.sound_events.death = "hero_eiskalt_taunt_death"
+tt.sound_events.respawn = "HeroLevelUp"
+tt.sound_events.hero_room_select = "hero_eiskalt_taunt_1"
+tt.ui.click_rect = r(-45, 30, 90, 90)
+tt.unit.head_offset = v(0, 130)
+tt.unit.hit_offset = v(0, 92)
+tt.unit.mod_offset = v(0, 91)
+tt.unit.hide_after_death = nil
+tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET)
+tt.vis.flags = bor(tt.vis.flags, F_FLYING)
+
+tt.ranged.attacks[1].basic_attack = true
+tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].bullet = "bolt_eiskalt"
+tt.ranged.attacks[1].bullet_start_offset = {
+	v(55, 65)
+}
+tt.ranged.attacks[1].min_range = b.basic_attack.min_range
+tt.ranged.attacks[1].max_range = b.basic_attack.max_range
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
+tt.ranged.attacks[1].vis_flags = bor(F_RANGED)
+tt.ranged.attacks[1].sync_animation = true
+tt.ranged.attacks[1].animation = "attack"
+tt.ranged.attacks[1].shoot_time = fts(16)
+tt.ranged.attacks[1].node_prediction = fts(32)
+-- cold_fury
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].disabled = true
+tt.timed_attacks.list[1].bullet = "flame_cold_fury"
+tt.timed_attacks.list[1].min_range = b.cold_fury.min_range
+tt.timed_attacks.list[1].max_range = b.cold_fury.max_range
+tt.timed_attacks.list[1].cooldown = 20
+tt.timed_attacks.list[1].cast_time = fts(15)
+tt.timed_attacks.list[1].sync_animation = true
+tt.timed_attacks.list[1].animation = "coldFury"
+tt.timed_attacks.list[1].sound = "hero_jigou_breath"
+tt.timed_attacks.list[1].bullet_start_offset = {
+	v(41, 72)
+}
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF)
+tt.timed_attacks.list[1].xp_from_skill = "cold_fury"
+-- ice_ball
+tt.timed_attacks.list[2] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[2].disabled = true
+tt.timed_attacks.list[2].search_type = U.search_type.find_max_crowd
+tt.timed_attacks.list[2].bullet = "bomb_ice_ball"
+tt.timed_attacks.list[2].min_range = b.ice_ball.min_range
+tt.timed_attacks.list[2].max_range = b.ice_ball.max_range
+tt.timed_attacks.list[2].cooldown = 18
+tt.timed_attacks.list[2].cast_time = 0.72
+tt.timed_attacks.list[2].sync_animation = true
+tt.timed_attacks.list[2].animation = "frosty"
+tt.timed_attacks.list[2].sound = "hero_eiskalt_frosty_throw"
+tt.timed_attacks.list[2].sound_args = {
+	delay = 0.5
+}
+tt.timed_attacks.list[2].min_targets = 2
+tt.timed_attacks.list[2].crowd_range = 60
+tt.timed_attacks.list[2].bullet_start_offset = {
+	v(20, 98)
+}
+tt.timed_attacks.list[2].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[2].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER)
+tt.timed_attacks.list[2].xp_from_skill = "ice_ball"
+-- ice_peaks
+tt.timed_attacks.list[3] = E:clone_c("aura_attack")
+tt.timed_attacks.list[3].disabled = true
+tt.timed_attacks.list[3].entity = "controller_aura_ice_peak"
+tt.timed_attacks.list[3].animation = "icePeaks"
+tt.timed_attacks.list[3].sync_animation = true
+tt.timed_attacks.list[3].cast_time = fts(11)
+tt.timed_attacks.list[3].cooldown = b.ice_peaks.cooldown
+tt.timed_attacks.list[3].sound = "hero_eiskalt_icepeaks"
+tt.timed_attacks.list[3].min_range = b.ice_peaks.min_range
+tt.timed_attacks.list[3].max_range = b.ice_peaks.max_range
+tt.timed_attacks.list[3].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[3].vis_bans = bor(F_NIGHTMARE, F_CLIFF, F_FLYING)
+tt.timed_attacks.list[3].xp_from_skill = "ice_peaks"
+
+tt = E:register_t("bolt_eiskalt", "bolt")
+E:add_comps(tt, "force_motion")
+tt.bullet.damage_type = b.basic_attack.damage_type
+tt.bullet.xp_gain_factor = 2
+tt.bullet.level = 0
+tt.bullet.damage_min = 0
+tt.bullet.damage_max = 0
+tt.bullet.damage_radius = 0
+tt.bullet.particles_name = "ps_bolt_eiskalt"
+tt.bullet.hit_fx = "rain_controller_fx_hero_eiskalt_explosion"
+tt.bullet.hit_fx_air = "rain_controller_fx_hero_eiskalt_explosion_air"
+tt.bullet.hit_decal = "decal_bomb_crater"
+tt.bullet.mod = "mod_eiskalt_frozen_throat_slow"
+tt.bullet.flip_x = true
+tt.bullet.align_with_trajectory = true
+tt.bullet.pop = {
+	"pop_lightning1",
+	"pop_lightning2",
+	"pop_lightning3"
+}
+tt.bullet.pop_chance = 0.1
+tt.bullet.shot_index = 1
+tt.bullet.use_unit_damage_factor = true
+tt.bullet.ignore_hit_offset = true
+tt.initial_impulse = 10
+tt.initial_impulse_duration = 10
+tt.initial_impulse_angle = math.pi / 6
+tt.force_motion.a_step = 35
+tt.force_motion.max_a = 3500
+tt.force_motion.max_v = 350
+tt.render.sprites[1].name = "hero_eiskalt_proyectile_travel"
+tt.render.sprites[1].prefix = nil
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].z = Z_BULLETS
+function tt.main_script.insert(this, store, script)
+	return true
+end
+tt.main_script.update = customScripts1.custom_bolt.update
+tt.sound_events.insert = "hero_beresad_attack_shot"
+tt.sound_events.hit = "bomb_hit_sound"
+
+tt = E:register_t("mod_eiskalt_frozen_throat_slow", "mod_slow")
+tt.shader = "p_tint"
+tt.shader_args = {
+	tint_color = {
+		0.6235294117647059,
+		0.9176470588235294,
+		1,
+		1
+	}
+}
+tt.slow.factor = 0.7
+tt.modifier.duration = 3
+tt.main_script.update = customScripts1.mod_eiskalt_frozen_throat_slow.update
+tt.main_script.remove = customScripts1.mod_eiskalt_frozen_throat_slow.remove
+
+tt = E:register_t("mod_cold_fury_ice", "mod_eiskalt_frozen_throat_slow")
+tt.slow.factor = 0.3
+tt.modifier.duration = 0.3
+
+tt = E:register_t("mod_ice_peak", "mod_eiskalt_frozen_throat_slow")
+tt.slow.factor = 0.5
+tt.modifier.duration = 0.2
+
+tt = E:register_t("ps_bolt_eiskalt")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "hero_eiskalt_particle_run"
+tt.particle_system.anchor.x = 0.9
+tt.particle_system.anchor.y = 0.5
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.track_rotation = true
+tt.particle_system.emission_rate = 15
+tt.particle_system.particle_lifetime = {
+	fts(10),
+	fts(10)
+}
+tt.particle_system.z = tt.particle_system.z - 1
+
+tt = E:register_t("fx_hero_eiskalt_explosion", "fx")
+tt.render.sprites[1].name = "hero_eiskalt_explosion_run"
+tt.render.sprites[1].anchor.y = 0.314
+tt.render.sprites[1].sort_y_offset = -3
+
+tt = E:register_t("rain_controller_fx_hero_eiskalt_explosion", "rain_controller")
+tt.main_script.update = customScripts1.rain_controller_fx_hero_eiskalt_explosion.update
+tt.entity_name = "fx_hero_eiskalt_explosion"
+tt.max_entities = 1
+tt.delay_between_objects = 0.07
+tt.radius = 0
+
+tt = E:register_t("fx_hero_eiskalt_explosion_air", "fx")
+tt.render.sprites[1].name = "hero_eiskalt_explosion_air_run"
+tt.render.sprites[1].scale = v(0.7, 0.7)
+
+tt = E:register_t("rain_controller_fx_hero_eiskalt_explosion_air", "rain_controller_fx_hero_eiskalt_explosion")
+tt.entity_name = "fx_hero_eiskalt_explosion_air"
+tt.max_entities = 1
+tt.delay_between_objects = 0.07
+tt.radius = 0
+
+tt = E:register_t("flame_cold_fury", "flame")
+tt.render = nil
+tt.bullet.damage_type = DAMAGE_MAGICAL
+tt.bullet.damage_min = b.cold_fury.damage_min
+tt.bullet.damage_max = b.cold_fury.damage_max
+tt.bullet.damage_radius = 65
+tt.bullet.hit_payload = {
+	"aura_cold_fury_ice",
+	"controller_aura_cold_fury_ice"
+}
+tt.bullet.flight_time = fts(15)
+tt.delay_betweeen_flames = fts(2)
+tt.flame_bullet = "flame_bullet_cold_fury"
+tt.flames_count = 12
+
+tt = E:register_t("flame_bullet_cold_fury", "flame_bullet")
+tt.render.sprites[1].name = "hero_eiskalt_cold_fury_particle_travel"
+tt.render.sprites[1].fps = 15
+
+tt = E:register_t("controller_aura_cold_fury_ice", "controller_spawn_on_path")
+tt.exclude_first_position = true
+tt.nodes_between_objects = 3
+tt.delay_between_objects = 0.12
+tt.max_entities = 4
+tt.entity_name = "aura_cold_fury_ice_with_delay"
+
+tt = E:register_t("aura_cold_fury_ice", "aura")
+E:add_comps(tt, "render", "tween")
+tt.render.sprites[1].name = "hero_eiskalt_cold_fury_ice"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].anchor.y = 0.325
+tt.render.sprites[1].offset.y = -25
+tt.render.sprites[1].z = Z_DECALS
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "hero_eiskalt_cold_fury_smoke_run"
+tt.render.sprites[2].loop = true
+tt.render.sprites[2].anchor.y = 0.21
+tt.render.sprites[2].offset.y = -25
+tt.aura.duration = 8
+tt.aura.mods = {
+	"mod_cold_fury_ice"
+}
+tt.aura.cycle_time = 0.2
+tt.aura.radius = 40
+tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
+tt.aura.vis_flags = bor(F_MOD, F_AREA)
+tt.tween.props[1].name = "alpha"
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.3,
+		255
+	},
+	{
+		tt.aura.duration - 0.3,
+		255
+	},
+	{
+		tt.aura.duration,
+		0
+	}
+}
+tt.tween.props[2] = E:clone_c("tween_prop")
+tt.tween.props[2].sprite_id = 2
+tt.tween.props[2].name = "alpha"
+tt.tween.props[2].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.3,
+		255
+	},
+	{
+		1.3,
+		255
+	},
+	{
+		1.6,
+		0
+	}
+}
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("aura_cold_fury_ice_with_delay", "aura_cold_fury_ice")
+tt.aura.duration = 6
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.3,
+		255
+	},
+	{
+		tt.aura.duration - 0.3,
+		255
+	},
+	{
+		tt.aura.duration,
+		0
+	}
+}
+
+tt = E:register_t("bomb_ice_ball", "bombKR5")
+tt.bullet.damage_min = b.ice_ball.damage_min
+tt.bullet.damage_max = b.ice_ball.damage_max
+tt.bullet.damage_radius = 75
+tt.bullet.flight_time = fts(35)
+tt.bullet.rotation_speed = 3 * FPS * math.pi / 35
+tt.bullet.hit_fx = "fx_frosty_explosion"
+tt.bullet.hit_fx_water = "fx_frosty_explosion"
+tt.bullet.hit_decal = nil
+tt.bullet.hit_payload = "hero_eiskalt_frosty"
+tt.sound_events.hit = "hero_eiskalt_frosty_impact_loopstart"
+tt.render.sprites[1].name = "hero_eiskalt_frosty_projectile"
+
+tt = E:register_t("fx_frosty_explosion", "fx")
+tt.render.sprites[1].name = "hero_eiskalt_frosty_explotion_run"
+tt.render.sprites[1].anchor.y = 0.136
+tt.render.sprites[1].sort_y_offset = -3
+
+tt = RT("hero_eiskalt_frosty", "aura")
+AC(tt, "nav_path", "motion", "render", "sound_events")
+tt.render.sprites[1].prefix = "hero_eiskalt_frosty"
+tt.render.sprites[1].name = "walk"
+tt.render.sprites[1].anchor.y = 0.162
+tt.render.sprites[1].angles = {}
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].name = "hero_eiskalt_frosty_shadow"
+tt.render.sprites[2].anchor.y = 0.162
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.main_script.update = customScripts1.hero_eiskalt_frosty.update
+tt.nav_path.dir = -1
+tt.nav_path.pi = nil
+tt.nav_path.spi = 1
+tt.nav_path.ni = nil
+tt.motion.max_speed = 40
+tt.aura.duration = 7.5
+tt.aura.vis_flags = bor(F_AREA)
+tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
+tt.aura.cycle_time = 0.25
+tt.aura.radius = 60
+tt.aura.damage_min = 0
+tt.aura.damage_max = 0
+tt.aura.damage_type = DAMAGE_PHYSICAL
+tt.aura.hit_blood_fx = "fx_blood_splat"
+tt.dead_lifetime = 5
+tt.sound_events.death = "hero_eiskalt_frosty_explodes"
+
+tt = E:register_t("aura_ice_peak", "aura")
+E:add_comps(tt, "render")
+tt.render.sprites[1].prefix = "hero_eiskalt_ice_peaks"
+tt.render.sprites[1].name = "in"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor.y = 0.186
+tt.render.sprites[1].sort_y_offset = -1
+tt.random_flip_x = true
+tt.random_scale = 0.8
+tt.hp_damage_factor = 0
+tt.damage_boss = 0
+tt.aura.damage_type = DAMAGE_TRUE
+tt.aura.duration = 0.86
+tt.aura.mods = {
+	"mod_ice_peak"
+}
+tt.aura.cycle_time = 0.1
+tt.aura.radius = 27.5
+tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
+tt.aura.vis_flags = bor(F_MOD, F_AREA)
+tt.main_script.update = customScripts1.aura_ice_peak.update
+
+tt = E:register_t("controller_aura_ice_peak", "controller_spawn_on_path")
+tt.entity_name = "aura_ice_peak"
+tt.max_entities = 12
+tt.delay_between_objects = 0.08
+tt.random_offset.x.min = -4
+tt.random_offset.x.max = 4
+
+tt = E:register_t("mod_hero_eiskalt_ultimate_freeze", "mod_item_winter_age_freeze")
+tt.modifier.duration = 0.3
+
+tt = E:register_t("hero_eiskalt_ultimate")
+E:add_comps(tt, "pos", "main_script", "sound_events", "render")
+function tt.can_fire_fn(this, x, y, store)
+	return true
+end
+tt.render.sprites[1].name = "white_rectangle"
+tt.render.sprites[1].scale = v(2800, 1536)
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].alpha = 0
+tt.render.sprites[1].z = Z_OBJECTS_SKY
+tt.period = 1
+tt.alpha_min = 95
+tt.alpha_max = 127
+tt.main_script.update = customScripts1.hero_eiskalt_ultimate.update
+tt.mods = {
+	"mod_hero_eiskalt_ultimate_freeze"
+}
+tt.cycle_time = 0.2
+tt.vis_bans = bor(F_BOSS, F_FRIEND)
+tt.vis_flags = bor(F_MOD)
+tt.freeze_delay_min = 3
+tt.freeze_delay_max = 5
+tt.cooldown = 70
+tt.duration = 0
+tt.particle_name = "hero_eiskalt_ultimate_snow"
+tt.particles = {}
+tt.max_particles = 2000
+tt.speed = 750
+tt.emission = 5
+tt.life = 5
+tt.life_var = 1
+tt.position = v(-100, REF_H + 8)
+tt.position_var_x = 1500
+tt.radian = -3 / 4 * math.pi
+tt.radian_var = 18 / 180 * math.pi
+tt.sound_events.insert = "level10_icestorm"
+
+tt = RT("hero_eiskalt_ultimate_snow")
+AC(tt, "render", "pos")
+tt.render.sprites[1].name = "hero_eiskalt_copo"
+tt.render.sprites[1].scale = v(0.4375, 0.4375)
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].z = Z_BULLETS + 1
+tt.scale = 0.4375
+tt.scale_var = 0.0625
+tt.speed = {}
+
 tt = E:register_t("hero_dianyun", "hero5")
 b = balance.heroes.hero_dianyun
 E:add_comps(tt, "ranged", "timed_attacks", "auras")
-
 tt.hero.level_stats.hp_max = {
 	320,
 	338,
@@ -463,7 +1142,7 @@ tt.hero.skills.supreme_wave.xp_gain = {
 	210
 }
 tt.hero.skills.supreme_wave.key = "SUPREME_WAVE"
-
+-- ultimate
 tt.hero.skills.ultimate = E:clone_c("hero_skill")
 tt.hero.skills.ultimate.controller_name = "hero_dianyun_ultimate"
 tt.hero.skills.ultimate.hr_order = 5
@@ -525,8 +1204,8 @@ tt.render.sprites[1].angles.walk = {
 tt.render.sprites[1].z = Z_FLYING_HEROES
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].name = "hero_dianyun_shadow"
-tt.render.sprites[2].offset = v(0, 0)
 tt.render.sprites[2].z = Z_DECALS + 1
 -- cloud 1
 tt.render.sprites[3] = E:clone_c("sprite")
@@ -613,8 +1292,9 @@ tt.sound_events.death = "HeroDianyunTauntDeath"
 tt.sound_events.respawn = "HeroLevelUp"
 tt.sound_events.hero_room_select = "HeroDianyunTauntSelect"
 tt.ui.click_rect = r(-60, 30, 120, 90)
-tt.unit.hit_offset = v(0, 85)
 tt.unit.hide_after_death = nil
+tt.unit.head_offset = v(0, 120)
+tt.unit.hit_offset = v(0, 85)
 tt.unit.mod_offset = v(0, 90)
 tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET)
 tt.vis.flags = bor(tt.vis.flags, F_FLYING)
@@ -3767,6 +4447,50 @@ if true then
 	tt.bullet.flight_time = fts(21)
 	tt.bullet.g = -1.4 / (fts(1) * fts(1))
 end
+
+tt = RT("kr4_tower_holder", "tower_holder")
+tt.tower.terrain_style = 401
+
+tt = RT("holder_roots_lands_blocked", "tower_holder_blocked")
+E:add_comps(tt, "main_script")
+tt.main_script.remove = customScripts1.holder_roots_lands_blocked.remove
+tt.tower_holder.unblock_price = 20
+tt.render.sprites[2].animated = true
+tt.render.sprites[2].offset = v(0, 13)
+tt.render.sprites[2].sort_y_offset = 0
+tt.render.sprites[2].prefix = "roots_holder_back"
+tt.render.sprites[3] = E:clone_c("sprite")
+tt.render.sprites[3].animated = true
+tt.render.sprites[3].offset = v(0, 13)
+tt.render.sprites[3].prefix = "roots_holder_front"
+
+tt = RT("tower_roots_lands_blocked", "holder_roots_lands_blocked")
+-- tt.main_script.remove = customScripts1.tower_roots_lands_blocked.remove
+
+tt = RT("controller_holder_roots_lands_blocked")
+E:add_comps(tt, "main_script")
+tt.main_script.update = customScripts1.controller_holder_roots_lands_blocked.update
+
+tt = RT("fx_repeat_forever")
+E:add_comps(tt, "main_script", "render")
+tt.main_script.update = customScripts1.fx_repeat_forever.update
+tt.random_shift = nil
+tt.max_delay = nil
+tt.min_delay = nil
+tt.render.sprites[1].loop = nil
+tt.render.sprites[1].time_offset = 0
+
+tt = RT("controller_teleport_enemies")
+E:add_comps(tt, "main_script")
+tt.path = nil
+tt.start_ni = nil
+tt.end_ni = nil
+tt.duration = nil
+tt.main_script.update = customScripts1.controller_teleport_enemies.update
+
+-- custom templates 2
+package.loaded.custom_templates_2 = nil
+require("custom_templates_2")
 
 -- kr3 templates
 package.loaded.kr3_game_templates = nil

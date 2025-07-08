@@ -46135,7 +46135,7 @@ function scripts.tower_ray.update(this, store)
 
 							queue_insert(store, b)
 
-							while store.tick_ts - last_ts < aa.duration + aa.shoot_time and enemy and not enemy.health.dead and b and not b.force_stop_ray and not this.tower.blocked and V.dist2(tpos(this).x, tpos(this).y, enemy.pos.x, enemy.pos.y) <= range_to_stay * range_to_stay do
+							while store.tick_ts - last_ts < aa.duration + aa.shoot_time and enemy and enemy.enemy and not enemy.health.dead and b and not b.force_stop_ray and not this.tower.blocked and V.dist2(tpos(this).x, tpos(this).y, enemy.pos.x, enemy.pos.y) <= range_to_stay * range_to_stay do
 								if store.tick_ts - last_fx > 1 and store.tick_ts - last_ts < aa.duration + aa.shoot_time - 0.75 and b.bullet.out_start_fx then
 									local fx = E:create_entity(b.bullet.out_start_fx)
 
@@ -46150,11 +46150,7 @@ function scripts.tower_ray.update(this, store)
 								coroutine.yield()
 							end
 
-							if this.tower.blocked or V.dist2(tpos(this).x, tpos(this).y, enemy.pos.x, enemy.pos.y) > range_to_stay * range_to_stay then
-								b.force_stop_ray = true
-
-								log.info("(%s) tower ray target (%s) out of range_to_stay", this.id, enemy.id)
-							end
+							b.force_stop_ray = true
 
 							::label_722_1::
 

@@ -6770,6 +6770,7 @@ function scripts.eb_blackburn.on_damage(this, store, damage)
 			this.health.ignore_damage = true
 			this.health.hp = 1
 			this.unit.is_stunned = true
+			SU.remove_modifiers(store, this)
 			U.unblock_all(store, this)
 			return false
 		end

@@ -183,7 +183,7 @@ return {
 			}
 		},
 		kr4_hero_malik = {
-			cost = 500,
+			cost = 1000,
 			color_bg = {
 				255,
 				215,

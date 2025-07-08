@@ -215,4 +215,120 @@ return {
 		to = 16,
 		from = 1
 	},
+	-- hero_eiskalt
+	hero_eiskalt_idle = {
+		prefix = "hero_eiskalt",
+		to = 20,
+		from = 1
+	},
+	hero_eiskalt_attack = {
+		prefix = "hero_eiskalt",
+		to = 44,
+		from = 21
+	},
+	hero_eiskalt_icePeaks = {
+		prefix = "hero_eiskalt",
+		to = 84,
+		from = 45
+	},
+	hero_eiskalt_coldFury = {
+		prefix = "hero_eiskalt",
+		to = 127,
+		from = 85
+	},
+	hero_eiskalt_frosty = {
+		prefix = "hero_eiskalt",
+		to = 164,
+		from = 128
+	},
+	hero_eiskalt_death = {
+		prefix = "hero_eiskalt",
+		to = 194,
+		from = 165
+	},
+	hero_eiskalt_respawn = {
+		prefix = "hero_eiskalt",
+		to = 235,
+		from = 195
+	},
+	hero_eiskalt_levelUp = {
+		prefix = "hero_eiskalt",
+		to = 263,
+		from = 236
+	},
+	hero_eiskalt_cold_fury_particle_travel = {
+		prefix = "hero_eiskalt_cold_fury_particle",
+		to = 6,
+		from = 1
+	},
+	hero_eiskalt_cold_fury_smoke_run = {
+		prefix = "hero_eiskalt_cold_fury_smoke",
+		to = 40,
+		from = 1
+	},
+	hero_eiskalt_explosion_air_run = {
+		prefix = "hero_eiskalt_explosion_air",
+		to = 21,
+		from = 1
+	},
+	hero_eiskalt_explosion_run = {
+		prefix = "hero_eiskalt_explosion",
+		to = 21,
+		from = 1
+	},
+	hero_eiskalt_frosty_spawn = {
+		prefix = "hero_eiskalt_frosty",
+		to = 1,
+		from = 1
+	},
+	hero_eiskalt_frosty_walkDown = {
+		prefix = "hero_eiskalt_frosty",
+		to = 21,
+		from = 1
+	},
+	hero_eiskalt_frosty_walkUp = {
+		prefix = "hero_eiskalt_frosty",
+		to = 42,
+		from = 22
+	},
+	hero_eiskalt_frosty_walk = {
+		prefix = "hero_eiskalt_frosty",
+		to = 63,
+		from = 43
+	},
+	hero_eiskalt_frosty_death = {
+		prefix = "hero_eiskalt_frosty",
+		to = 97,
+		from = 64
+	},
+	hero_eiskalt_frosty_explotion_run = {
+		prefix = "hero_eiskalt_frosty_explosion",
+		to = 22,
+		from = 1
+	},
+	hero_eiskalt_ice_peaks_in = {
+		prefix = "hero_eiskalt_ice_peaks",
+		to = 7,
+		from = 1
+	},
+	hero_eiskalt_ice_peaks_run = {
+		prefix = "hero_eiskalt_ice_peaks",
+		to = 13,
+		from = 8
+	},
+	hero_eiskalt_ice_peaks_out = {
+		prefix = "hero_eiskalt_ice_peaks",
+		to = 21,
+		from = 14
+	},
+	hero_eiskalt_particle_run = {
+		prefix = "hero_eiskalt_particle",
+		to = 11,
+		from = 1
+	},
+	hero_eiskalt_proyectile_travel = {
+		prefix = "hero_eiskalt_proyectile",
+		to = 10,
+		from = 1
+	},
 }

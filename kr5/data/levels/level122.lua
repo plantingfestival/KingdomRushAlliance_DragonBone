@@ -1,4 +1,4 @@
-local log = require("klua.log"):new("level22")
+local log = require("klua.log"):new("level122")
 local signal = require("hump.signal")
 local E = require("entity_db")
 local S = require("sound_db")

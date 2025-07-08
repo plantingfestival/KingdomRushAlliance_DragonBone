@@ -55,6 +55,8 @@ function sound_db:init(path)
 
 	self.sounds = f_sounds
 
+	f_sounds = FS.load(path .. "/kr4_sounds.lua")()
+	table.merge(self.sounds, f_sounds)
 	f_sounds = FS.load(path .. "/kr3_sounds.lua")()
 	table.merge(self.sounds, f_sounds)
 	f_sounds = FS.load(path .. "/kr2_sounds.lua")()

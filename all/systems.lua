@@ -2631,6 +2631,8 @@ function sys.particle_system:on_update(dt, ts, store)
 					p.r = s.emit_direction + U.frandom(-s.emit_rotation_spread, s.emit_rotation_spread)
 				end
 
+				f.flip_x = s.flip_x
+
 				if s.spin then
 					p.spin = U.frandom(s.spin[1], s.spin[2])
 				end

@@ -9269,15 +9269,7 @@ function scripts.hero_wilbur.update(this, store)
 
 	while true do
 		if h.dead then
-			for i = 1, 4 do
-				this.render.sprites[i].z = Z_OBJECTS
-			end
-			this.render.sprites[5].hidden = true
-			SU.y_hero_death_and_respawn(store, this)
-			for i = 1, 4 do
-				this.render.sprites[i].z = Z_FLYING_HEROES
-			end
-			this.render.sprites[5].hidden = nil
+			SU.y_hero_death_and_respawn_kr5(store, this)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 		end
 

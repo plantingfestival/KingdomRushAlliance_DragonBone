@@ -111,6 +111,11 @@ return {
 			icon_idx = 1,
 			coming_soon = false
 		},
+		hero_eiskalt = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
 		hero_dianyun = {
 			starting_level = 1,
 			icon_idx = 1,
@@ -235,6 +240,11 @@ return {
 			icon_idx = 1,
 			coming_soon = false
 		},
+		hero_eiskalt = {
+			starting_level = 1,
+			icon_idx = 1,
+			coming_soon = false
+		},
 		hero_dianyun = {
 			starting_level = 1,
 			icon_idx = 1,
@@ -265,6 +275,7 @@ return {
 		"hero_dragon_arb",
 		"hero_dragon_bone",
 		"hero_dianyun",
+		"hero_eiskalt",
 		"hero_wilbur",
 		"hero_dracolich",
 		"hero_10yr"
@@ -288,6 +299,7 @@ return {
 		"hero_dragon_arb",
 		"hero_spider",
 		"hero_dianyun",
+		"hero_eiskalt",
 		"hero_wilbur",
 		"hero_dracolich",
 		"hero_10yr"

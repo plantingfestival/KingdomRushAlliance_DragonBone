@@ -1112,6 +1112,7 @@ function upgrades:patch_templates(max_level)
 		"hero_dracolich",
 		"hero_wilbur",
 		"hero_dianyun",
+		"hero_eiskalt",
 		"hero_vesper",
 		"hero_raelyn",
 		"hero_muyrn",

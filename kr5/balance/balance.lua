@@ -5858,6 +5858,61 @@ local heroes = {
 				70
 			}
 		}
+	},
+	hero_eiskalt = {
+		basic_attack = {
+			damage_type = DAMAGE_MAGICAL,
+			min_range = 0,
+			max_range = 175
+		},
+		fierce_breath = {
+			damage_area = {
+				30,
+				50,
+				70
+			}
+		},
+		cold_fury = {
+			min_range = 190,
+			max_range = 300,
+			damage_min = 90,
+			damage_max = 120,
+		},
+		ice_ball = {
+			min_range = 25,
+			max_range = 160,
+			damage_min = 60,
+			damage_max = 90,
+			damage_over_time = {
+				8,
+				16,
+				24
+			}
+		},
+		ice_peaks = {
+			min_range = 20,
+			max_range = 150,
+			cooldown = 30,
+			damage_boss = {
+				100,
+				200,
+				300
+			}
+		},
+		ultimate = {
+			cooldown = {
+				70,
+				70,
+				70,
+				70
+			},
+			duration = {
+				3,
+				6,
+				9,
+				12
+			}
+		}
 	}
 }
 local relics = {

@@ -224,6 +224,16 @@ return {
 					ultimate = 1
 				}
 			},
+			hero_eiskalt = {
+				xp = 0,
+				skills = {
+					fierce_breath = 0,
+					cold_fury = 0,
+					ice_ball = 0,
+					ice_peaks = 0,
+					ultimate = 1
+				}
+			},
 			hero_10yr = {
 				xp = 0,
 				skills = {

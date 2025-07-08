@@ -11067,6 +11067,7 @@ return {
 	ShrapnelSound = {
 		loop = false,
 		source_group = "BULLETS",
+		ignore = 0.1,
 		files = {
 			"Sound_Shrapnel.ogg"
 		}

@@ -40,6 +40,7 @@ return {
 			-- customization
 			"Bonehart-02b_WET.ogg",
 			"Gyro_confirm-01c.ogg",
+			"kr4_hero_eiskalt_taunt_1.ogg",
 			"kr4_hero_dianyun_taunt_1.ogg",
 			"TenShi_02c.ogg",
 			"DruidHenge_Ready-01a.ogg",
@@ -1001,9 +1002,25 @@ return {
 			"kr4_dwarves_smokebeard_repair.ogg"
 		}
 	},
+	hero_eiskalt = {
+		files = {
+			"kr4_hero_eiskalt_taunt_2.ogg",
+			"kr4_hero_eiskalt_taunt_3.ogg",
+			"kr4_hero_eiskalt_taunt_4.ogg",
+			"kr4_hero_eiskalt_taunt_death.ogg",
+			"kr4_hero_eiskalt_frosty_explodes.ogg",
+			"kr4_hero_eiskalt_frosty_roll_loop.ogg",
+			"kr4_hero_eiskalt_frosty_impact_loopstart.ogg",
+			"kr4_hero_eiskalt_frosty_throw.ogg",
+			"kr4_hero_eiskalt_icepeaks.ogg",
+			"kr4_level10_icestorm.ogg",
+			"kr4_hero_jigou_breath.ogg",
+			"kr4_hero_beresad_attack_shot.ogg",
+			"kr4_bomb_hit.ogg",
+		}
+	},
 	hero_dianyun = {
 		files = {
-			"kr4_hero_dianyun_taunt_1.ogg",
 			"kr4_hero_dianyun_taunt_2.ogg",
 			"kr4_hero_dianyun_taunt_3.ogg",
 			"kr4_hero_dianyun_taunt_4.ogg",

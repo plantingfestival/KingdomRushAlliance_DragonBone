@@ -1619,6 +1619,14 @@ function U.format_countdown_time(rem_time, hour_format)
 end
 
 -- customization
+function U.random_point_in_ellipse(center, radius, aspect)
+	aspect = aspect or 0.7
+	radius = radius + 1e-09
+	local angle = math.random() * 2 * math.pi
+	radius = math.sqrt(math.random()) * radius
+	return U.point_on_ellipse(center, radius, angle, aspect)
+end
+
 function U.make_table_serializable(t, visited)
 	local result = {}
 	visited = visited or {}

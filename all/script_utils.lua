@@ -4151,10 +4151,127 @@ local function check_unit_attack_available(store, unit, attack)
 		return false
 	end
 	if not attack.disabled and attack.ts and attack.ts ~= 0 and (not attack.can_be_silenced or not unit.enemy or unit.enemy and unit.enemy.can_do_magic) and 
-	store.tick_ts - attack.ts >= attack.cooldown then
+	store.tick_ts - attack.ts >= attack.cooldown and (not attack.sync_animation or unit.render.sprites[1].sync_flag) then
 		return true
 	end
 	return false
+end
+
+local function make_bullet_damage_targets(this, store, target)
+	local b = this.bullet
+	if b.damage_radius and b.damage_radius > 0 then
+		local targetPos = target and target.pos or b.to
+		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
+		if targets then
+			for _, target in ipairs(targets) do
+				local d = create_bullet_damage(b, target.id, this.id)
+				queue_damage(store, d)
+				if b.mod or b.mods then
+					local mods = b.mods or {
+						b.mod
+					}
+					for _, mod_name in ipairs(mods) do
+						local m = E:create_entity(mod_name)
+						m.modifier.source_id = this.id
+						m.modifier.target_id = target.id
+						m.modifier.level = b.level
+						m.modifier.source_damage = d
+						queue_insert(store, m)
+					end
+				end
+			end
+		end
+	elseif target and not target.health.dead then
+		local d = create_bullet_damage(b, target.id, this.id)
+		queue_damage(store, d)
+		if b.mod or b.mods then
+			local mods = b.mods or {
+				b.mod
+			}
+			for _, mod_name in ipairs(mods) do
+				local m = E:create_entity(mod_name)
+				m.modifier.source_id = this.id
+				m.modifier.target_id = target.id
+				m.modifier.level = b.level
+				m.modifier.source_damage = d
+				queue_insert(store, m)
+			end
+		end
+	end
+end
+
+local function create_bullet_hit_payload(this, store)
+	local b = this.bullet
+	if b.hit_payload then
+		local function insert_payload(hp)
+			if hp.pos.x == 0 and hp.pos.y == 0 then
+				hp.pos.x, hp.pos.y = b.to.x, b.to.y
+			end
+			if hp.render then
+				for _, s in pairs(hp.render.sprites) do
+					s.ts = store.tick_ts
+				end
+			end
+			if hp.aura then
+				hp.aura.level = b.level
+			end
+			queue_insert(store, hp)
+		end
+
+		local payloadType = type(b.hit_payload)
+		local hp
+		if payloadType == "string" then
+			hp = E:create_entity(b.hit_payload)
+			insert_payload(hp)
+		elseif payloadType == "table" then
+			for i, v in ipairs(b.hit_payload) do
+				if type(v) == "string" then
+					hp = E:create_entity(v)
+				else
+					hp = v
+				end
+				insert_payload(hp)
+			end
+		else
+			hp = b.hit_payload
+			insert_payload(hp)
+		end
+	end
+end
+
+local function create_bullet_hit_fx(this, store, target, flip_x)
+	local b = this.bullet
+	if b.hit_fx then
+		local hit_fx_pos = V.vclone(b.to)
+		if not b.hit_fx_ignore_hit_offset and target and target.render and target.unit and target.unit.hit_offset then
+			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+			hit_fx_pos.x = target.unit.hit_offset.x * flip_sign + hit_fx_pos.x
+			hit_fx_pos.y = target.unit.hit_offset.y + hit_fx_pos.y
+		end
+		local hit_fx = insert_sprite(store, b.hit_fx, hit_fx_pos, flip_x)
+		if target and target.unit then
+			for _, s in pairs(hit_fx.render.sprites) do
+				if s.size_names then
+					s.name = s.size_names[target.unit.size]
+				end
+			end
+		end
+	end
+end
+
+local function create_bullet_hit_decal(this, store, flip_x)
+	local b = this.bullet
+	if b.hit_decal then
+		insert_sprite(store, b.hit_decal, b.to, flip_x)
+	end
+end
+
+local function hide_shadow(this, isHidden)
+	for _, sprite in pairs(this.render.sprites) do
+		if sprite.is_shadow then
+			sprite.hidden = isHidden
+		end
+	end
 end
 -- customization
 
@@ -4264,6 +4381,11 @@ local SU = {
 	-- customization
 	check_tower_attack_available = check_tower_attack_available,
 	check_unit_attack_available = check_unit_attack_available,
+	make_bullet_damage_targets = make_bullet_damage_targets,
+	create_bullet_hit_payload = create_bullet_hit_payload,
+	create_bullet_hit_fx = create_bullet_hit_fx,
+	create_bullet_hit_decal = create_bullet_hit_decal,
+	hide_shadow = hide_shadow,
 }
 
 return SU

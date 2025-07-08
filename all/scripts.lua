@@ -4897,7 +4897,7 @@ function scripts.mod_stun.insert(this, store, script)
 	end
 
 	if target.vis and not U.flags_pass(target.vis, this.modifier) then
-		log.paranoid("mod %s cannot be applied to entity %s:%s because of vis flags/bans", this.template_name, target.id, target.template_name)
+		-- log.error("mod %s cannot be applied to entity %s:%s because of vis flags/bans", this.template_name, target.id, target.template_name)
 
 		return false
 	end
