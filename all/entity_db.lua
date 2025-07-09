@@ -14,7 +14,7 @@ function entity_db:load()
 	self.entities = {}
 	package.loaded.components = nil
 	package.loaded.game_templates = nil
-	package.loaded.custom_templates_1 = nil
+	package.loaded.custom_templates_0 = nil
 	package.loaded.templates = nil
 	package.loaded.game_scripts = nil
 	package.loaded.scripts = nil
@@ -23,7 +23,7 @@ function entity_db:load()
 	require("components")
 	require("templates")
 	require("game_templates")
-	require("custom_templates_1")
+	require("custom_templates_0")
 end
 
 -- local redundant = {}
