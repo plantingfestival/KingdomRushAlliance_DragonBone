@@ -175,7 +175,7 @@ function game:init(screen_w, screen_h, done_callback)
 
 	RU.init()
 
-	if DEBUG and PS and PS.services and PS.services.remote_balance then
+	if true and PS and PS.services and PS.services.remote_balance then
 		local wi = PS.services.remote_balance.data.waves_index
 		local wa = PS.services.remote_balance.data.waves
 		local index = wi and wi[self.store.level_idx] and wi[game.store.level_idx][game.store.level_mode]
@@ -208,7 +208,7 @@ function game:init(screen_w, screen_h, done_callback)
 	signal.emit("game-start", self.store)
 end
 
-if DEBUG then
+if true then
 	function game:reload_gui()
 		self.game_gui:destroy()
 
@@ -283,9 +283,9 @@ function game:update_debug(dt)
 end
 
 function game:init_debug()
-	if not DEBUG then
-		return
-	end
+	-- if not DEBUG then
+	-- 	return
+	-- end
 
 	DEBUG_KEYS_ON = true
 	self.I = I
@@ -334,7 +334,7 @@ function game:init_debug()
 end
 
 function game:update(dt)
-	if DEBUG then
+	if true then
 		self:update_debug(dt)
 	end
 
@@ -356,7 +356,7 @@ function game:update(dt)
 end
 
 function game:keypressed(key, isrepeat)
-	if DEBUG then
+	if true then
 		if key == "/" then
 			DEBUG_KEYS_ON = not DEBUG_KEYS_ON
 		end
@@ -576,7 +576,7 @@ function game:draw_enemy_pages()
 	end
 end
 
-if DEBUG then
+if true then
 	function game:debug_keypressed(key, isrepeat)
 		local shift = love.keyboard.isDown("rshift") or love.keyboard.isDown("lshift")
 		local ctrl = love.keyboard.isDown("lctrl") or love.keyboard.isDown("lctrl")
