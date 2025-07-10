@@ -2926,8 +2926,8 @@ return {
 	HERO_EISKALT_ULTIMATE_MENUBOTTOM_NAME = "Glacial Storm",
 	HERO_EISKALT_ULTIMATE_MENUBOTTOM_DESCRIPTION = "Freeze all enemies on the battlefield.",
 	HERO_EISKALT_ULTIMATE_TITLE = "Glacial Storm",
-	HERO_EISKALT_ULTIMATE_DESCRIPTION_1 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[2]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[2]%$s cooldown.",
-	HERO_EISKALT_ULTIMATE_DESCRIPTION_2 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[3]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[3]%$s cooldown.",
-	HERO_EISKALT_ULTIMATE_DESCRIPTION_3 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[4]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[4]%$s cooldown.",
+	HERO_EISKALT_ULTIMATE_DESCRIPTION_1 = "Freezes all enemies on the map for 6 seconds. %$heroes.hero_eiskalt.ultimate.cooldown[2]%$s cooldown.",
+	HERO_EISKALT_ULTIMATE_DESCRIPTION_2 = "Freezes all enemies on the map for 9 seconds. %$heroes.hero_eiskalt.ultimate.cooldown[3]%$s cooldown.",
+	HERO_EISKALT_ULTIMATE_DESCRIPTION_3 = "Freezes all enemies on the map for 12 seconds. %$heroes.hero_eiskalt.ultimate.cooldown[4]%$s cooldown.",
 
 }
