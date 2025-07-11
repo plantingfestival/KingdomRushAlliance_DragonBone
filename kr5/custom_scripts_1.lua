@@ -6606,14 +6606,4 @@ function scripts.hero_eiskalt_ultimate.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.holder_roots_lands_blocked = {}
-function scripts.holder_roots_lands_blocked.update(this, store, script)
-
-end
-
-scripts.controller_holder_roots_lands_blocked = {}
-function scripts.controller_holder_roots_lands_blocked.update(this, store, script)
-
-end
-
 return scripts

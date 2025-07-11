@@ -1239,12 +1239,74 @@ end
 
 scripts.fx_repeat_forever = {}
 function scripts.fx_repeat_forever.update(this, store, script)
+	if not this.render.sprites[1].animated then
+		return
+	end
 
+	if this.random_shift then
+		tt.render.sprites[1].time_offset = math.random()
+	end
+
+	local start_ts = store.tick_ts
+	U.y_animation_play(this, this.render.sprites[1].name, nil, store.tick_ts)
+	if this.min_delay and this.max_delay then
+		start_ts = store.tick_ts + U.frandom(this.min_delay, this.max_delay)
+	end
+
+	while true do
+		if store.tick_ts >= start_ts then
+			U.y_animation_play(this, this.render.sprites[1].name, nil, store.tick_ts)
+		end
+		if this.min_delay and this.max_delay then
+			start_ts = store.tick_ts + U.frandom(this.min_delay, this.max_delay)
+		end
+		coroutine.yield()
+	end
 end
 
 scripts.controller_teleport_enemies = {}
 function scripts.controller_teleport_enemies.update(this, store, script)
+	local teleport_entities = {}
 
+	while true do
+		for id, e in pairs(store.entities) do
+			if not e.pending_removal and e.enemy and e.nav_path and e.health and not e.health.dead and e.nav_path.pi == this.path and 
+			(e.nav_path.ni > this.start_ni and e.nav_path.ni < this.end_ni) then
+				table.insert(teleport_entities, e)
+				SU.remove_auras(store, e)
+				SU.remove_modifiers(store, e)
+				if e.ui then
+					e.ui.can_click = false
+				end
+				if e.count_group then
+					e.count_group.in_limbo = true
+				end
+				e.main_script.co = nil
+				e.main_script.runs = 0
+				queue_remove(store, e)
+				U.unblock_all(store, e)
+				e.insert_ts = store.tick_ts + (this.duration or 0)
+			end
+		end
+
+		for i = #teleport_entities, 1, -1 do
+			local e = teleport_entities[i]
+			if e.insert_ts <= store.tick_ts then
+				local pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, this.end_ni)
+				e.pos = pos
+				e.nav_path.ni = this.end_ni
+				if e.ui then
+					e.ui.can_click = true
+				end
+				e.main_script.runs = 1
+				e.insert_ts = nil
+				table.remove(teleport_entities, i)
+				queue_insert(store, e)
+			end
+		end
+
+		coroutine.yield()
+	end
 end
 
 return scripts

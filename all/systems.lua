@@ -1703,7 +1703,6 @@ end
 
 function sys.main_script:on_update(dt, ts, store)
 	if balance.enemies.frame_splitting then
-		math.randomseed(math.ceil(store.tick_ts * 30))
 		local count = 0
 		for _, e in E:filter_iter(store.entities, "main_script") do
 			local s = e.main_script

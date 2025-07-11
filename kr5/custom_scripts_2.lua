@@ -1,4 +1,4 @@
-local log = require("klua.log"):new("custom_scripts_1")
+local log = require("klua.log"):new("custom_scripts_2")
 
 require("klua.table")
 
@@ -26,7 +26,7 @@ local bnot = bit.bnot
 
 require("i18n")
 
-local scripts = require("custom_scripts_1")
+local scripts = require("custom_scripts_0")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -226,6 +226,16 @@ local function y_hero_ranged_attacks(store, hero)
 	else
 		return true
 	end
+end
+
+scripts.holder_roots_lands_blocked = {}
+function scripts.holder_roots_lands_blocked.update(this, store, script)
+
+end
+
+scripts.controller_holder_roots_lands_blocked = {}
+function scripts.controller_holder_roots_lands_blocked.update(this, store, script)
+
 end
 
 return scripts
