@@ -168,6 +168,30 @@ tt.end_ni = nil
 tt.duration = nil
 tt.main_script.update = scripts.controller_teleport_enemies.update
 
+tt = RT("mod_tower_common", "modifier")
+AC(tt, "render", "tween")
+tt.cooldown_factor = 1
+tt.range_factor = 1
+tt.damage_factor = 1
+tt.modifier.duration = 1
+tt.modifier.use_mod_offset = false
+tt.fade_in = true
+tt.fade_out = true
+tt.tween.props[1].name = "alpha"
+tt.tween.props[1].keys = {
+    {
+        0,
+		0
+	},
+	{
+        0.5,
+		255
+	}
+}
+tt.tween.remove = false
+tt.main_script.insert = scripts.mod_tower_common.insert
+tt.main_script.update = scripts.mod_tower_common.update
+tt.main_script.remove = scripts.mod_tower_common.remove
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

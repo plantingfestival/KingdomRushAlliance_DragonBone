@@ -1270,12 +1270,13 @@ function scripts.controller_teleport_enemies.update(this, store, script)
 
 	while true do
 		for id, e in pairs(store.entities) do
-			if not e.pending_removal and e.enemy and e.nav_path and e.health and not e.health.dead and e.nav_path.pi == this.path and 
+			if not e.pending_removal and e.nav_path and e.health and not e.health.dead and e.nav_path.pi == this.path and 
 			(e.nav_path.ni > this.start_ni and e.nav_path.ni < this.end_ni) then
 				table.insert(teleport_entities, e)
 				SU.remove_auras(store, e)
 				SU.remove_modifiers(store, e)
-				if e.ui then
+				if e.ui and e.ui.can_click then
+					e.ui._original_click = true
 					e.ui.can_click = false
 				end
 				if e.count_group then
@@ -1292,11 +1293,15 @@ function scripts.controller_teleport_enemies.update(this, store, script)
 		for i = #teleport_entities, 1, -1 do
 			local e = teleport_entities[i]
 			if e.insert_ts <= store.tick_ts then
-				local pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, this.end_ni)
-				e.pos = pos
-				e.nav_path.ni = this.end_ni
-				if e.ui then
+				if e.enemy then
+					e.nav_path.ni = this.end_ni
+				else
+					e.nav_path.ni = this.start_ni
+				end
+				e.pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e.nav_path.ni)
+				if e.ui and e.ui._original_click then
 					e.ui.can_click = true
+					e.ui._original_click = nil
 				end
 				e.main_script.runs = 1
 				e.insert_ts = nil
@@ -1307,6 +1312,134 @@ function scripts.controller_teleport_enemies.update(this, store, script)
 
 		coroutine.yield()
 	end
+end
+
+scripts.mod_tower_common = {}
+function scripts.mod_tower_common.insert(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target or not target.tower then
+		return false
+	end
+
+	if target.attacks then
+		if this.range_factor then
+			target.attacks.range = target.attacks.range * this.range_factor
+		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
+		end
+
+		if this.cooldown_factor and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown * this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown * this.cooldown_factor
+			end
+		end
+	end
+
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range * this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown * this.cooldown_factor
+				end
+			end
+		end
+	end
+
+	if this.render then
+		for i = 1, #this.render.sprites do
+			local s = this.render.sprites[i]
+			s.ts = store.tick_ts
+		end
+	end
+
+	return true
+end
+
+function scripts.mod_tower_common.update(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target then
+		queue_remove(store, this)
+		return
+	end
+
+	this.pos = target.pos
+	m.ts = store.tick_ts
+	if this.tween then
+		this.tween.reverse = false
+		this.tween.remove = false
+		if this.fade_in then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+		else
+			this.tween.disabled = true
+		end
+	end
+
+	while store.tick_ts - m.ts <= m.duration do
+		coroutine.yield()
+	end
+
+	if this.tween and this.fade_out then
+		this.tween.reverse = true
+		this.tween.remove = true
+		this.tween.disabled = false
+		this.tween.ts = store.tick_ts
+	else
+		queue_remove(store, this)
+	end
+end
+
+function scripts.mod_tower_common.remove(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target or not target.tower then
+		return true
+	end
+
+	if target.attacks then
+		if this.range_factor then
+			target.attacks.range = target.attacks.range / this.range_factor
+		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+		end
+
+		if this.cooldown_factor and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown / this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown / this.cooldown_factor
+			end
+		end
+	end
+	
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range / this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown / this.cooldown_factor
+				end
+			end
+		end
+	end
+
+	return true
 end
 
 return scripts

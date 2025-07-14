@@ -129,5 +129,60 @@ return{
 		to = 72,
 		from = 50
 	},
+	roots_holder_back_idle = {
+		prefix = "roots_holder_back",
+		to = 1,
+		from = 1
+	},
+	roots_holder_back_in = {
+		prefix = "roots_holder_back",
+		to = 26,
+		from = 2
+	},
+	roots_holder_back_out = {
+		prefix = "roots_holder_back",
+		to = 49,
+		from = 27
+	},
+	roots_tower_front_idle = {
+		prefix = "roots_tower_front",
+		to = 1,
+		from = 1
+	},
+	roots_tower_front_in = {
+		prefix = "roots_tower_front",
+		to = 26,
+		from = 2
+	},
+	roots_tower_front_out = {
+		prefix = "roots_tower_front",
+		to = 48,
+		from = 27
+	},
+	roots_tower_back_idle = {
+		prefix = "roots_tower_back",
+		to = 1,
+		from = 1
+	},
+	roots_tower_back_in = {
+		prefix = "roots_tower_back",
+		to = 26,
+		from = 2
+	},
+	roots_tower_back_out = {
+		prefix = "roots_tower_back",
+		to = 49,
+		from = 27
+	},
+	roots_fog_tower_run = {
+		prefix = "roots_fog_tower",
+		to = 32,
+		from = 1
+	},
+	roots_cloud_tower_run = {
+		prefix = "roots_cloud_tower",
+		to = 42,
+		from = 1
+	},
 
 }

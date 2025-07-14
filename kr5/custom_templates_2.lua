@@ -23,61 +23,61 @@ local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
 
 local function v(v1, v2)
-    return {
-        x = v1,
-        y = v2
-    }
+	return {
+		x = v1,
+		y = v2
+	}
 end
 
 local function vv(v1)
-    return {
-        x = v1,
-        y = v1
-    }
+	return {
+		x = v1,
+		y = v1
+	}
 end
 
 local function r(x, y, w, h)
-    return {
-        pos = v(x, y),
-        size = v(w, h)
-    }
+	return {
+		pos = v(x, y),
+		size = v(w, h)
+	}
 end
 
 local function fts(v)
-    return v / FPS
+	return v / FPS
 end
 
 local function ady(v)
-    return v - anchor_y * image_y
+	return v - anchor_y * image_y
 end
 
 local function adx(v)
-    return v - anchor_x * image_x
+	return v - anchor_x * image_x
 end
 
 local function np(pi, spi, ni)
-    return {
-        dir = 1,
-        pi = pi,
-        spi = spi,
-        ni = ni
-    }
+	return {
+		dir = 1,
+		pi = pi,
+		spi = spi,
+		ni = ni
+	}
 end
 
 local function d2r(d)
-    return d * math.pi / 180
+	return d * math.pi / 180
 end
 
 local function RT(name, ref)
-    return E:register_t(name, ref)
+	return E:register_t(name, ref)
 end
 
 local function AC(tpl, ...)
-    return E:add_comps(tpl, ...)
+	return E:add_comps(tpl, ...)
 end
 
 local function CC(comp_name)
-    return E:clone_c(comp_name)
+	return E:clone_c(comp_name)
 end
 
 DO_ENEMY_BIG = 2
@@ -490,20 +490,74 @@ end
 
 tt = RT("holder_roots_lands_blocked", "tower_holder_blocked")
 E:add_comps(tt, "main_script")
-tt.main_script.remove = scripts.holder_roots_lands_blocked.remove
+tt.tower.type = "holder_roots_lands_blocked"
 tt.tower_holder.unblock_price = 20
-tt.render.sprites[2].animated = true
+tt.render.sprites[1].prefix = "roots_holder_back"
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].z = Z_DECALS + 1
+tt.render.sprites[2].prefix = "roots_holder_front"
 tt.render.sprites[2].offset = v(0, 13)
+tt.render.sprites[2].animated = true
 tt.render.sprites[2].sort_y_offset = 0
-tt.render.sprites[2].prefix = "roots_holder_back"
-tt.render.sprites[3] = E:clone_c("sprite")
-tt.render.sprites[3].animated = true
-tt.render.sprites[3].offset = v(0, 13)
-tt.render.sprites[3].prefix = "roots_holder_front"
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.main_script.update = scripts.holder_roots_lands_blocked.update
+
+tt = RT("holder_roots_lands_removed", "holder_roots_lands_blocked")
+tt.main_script.update = scripts.holder_roots_lands_removed.update
+tt.controller = "controller_holder_roots_lands_blocked"
+tt.upgrade_to = "tower_holder"
 
 tt = RT("tower_roots_lands_blocked", "holder_roots_lands_blocked")
--- tt.main_script.remove = scripts.tower_roots_lands_blocked.remove
+tt.tower.type = "tower_roots_lands_blocked"
+tt.render.sprites[1].prefix = "roots_tower_back"
+tt.render.sprites[1].anchor.y = 0.4
+tt.render.sprites[1].z = Z_OBJECTS + 2
+tt.render.sprites[2].prefix = "roots_tower_front"
+tt.render.sprites[2].anchor.y = 0.4
+tt.render.sprites[2].z = Z_OBJECTS + 2
+tt.cycle_time = 0.2
+tt.mod = "mod_tower_block_halloween_roots"
+tt.main_script.update = scripts.tower_roots_lands_blocked.update
+
+tt = RT("tower_roots_lands_removed", "tower_roots_lands_blocked")
+tt.controller = "controller_holder_roots_lands_blocked"
+tt.cycle_time = nil
+tt.mod = nil
+tt.main_script.update = scripts.holder_roots_lands_removed.update
+
+tt = RT("mod_tower_block_halloween_roots", "mod_tower_common")
+tt.cooldown_factor = 2
+tt.modifier.duration = 0.3
+tt.render.sprites[1].name = "roots_fog_tower_run"
+tt.render.sprites[1].anchor = v(0.5, 0.4)
+tt.render.sprites[1].offset = v(0, 13)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].z = Z_EFFECTS
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "roots_cloud_tower_run"
+tt.render.sprites[2].anchor = v(0.5, 0.05)
+tt.render.sprites[2].offset = v(0, 13)
+tt.render.sprites[2].loop = true
+tt.render.sprites[2].z = Z_EFFECTS
+tt.tween.props[1].name = "alpha"
+tt.tween.props[1].sprite_id = {
+	1,
+	2
+}
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.7,
+		255
+	}
+}
 
 tt = RT("controller_holder_roots_lands_blocked")
-E:add_comps(tt, "main_script")
+E:add_comps(tt, "main_script", "pos")
 tt.main_script.update = scripts.controller_holder_roots_lands_blocked.update
+tt.holder_id = nil
+tt.cooldown_min = 15
+tt.cooldown_max = 25

@@ -230,12 +230,69 @@ end
 
 scripts.holder_roots_lands_blocked = {}
 function scripts.holder_roots_lands_blocked.update(this, store, script)
+	U.y_animation_play(this, "in", nil, store.tick_ts)
+	U.animation_start(this, "idle", nil, store.tick_ts, true)
+end
 
+scripts.holder_roots_lands_removed = {}
+function scripts.holder_roots_lands_removed.update(this, store, script)
+	U.y_animation_play(this, "out", nil, store.tick_ts)
+	local controller = E:create_entity(this.controller)
+	controller.holder_id = this.tower.holder_id
+	controller.pox.x, controller.pos.y = this.pos.x, this.pos.y
+	queue_insert(store, controller)
+	if this.upgrade_to then
+		this.tower.upgrade_to = this.upgrade_to
+	end
+end
+
+scripts.tower_roots_lands_blocked = {}
+function scripts.tower_roots_lands_blocked.update(this, store, script)
+	U.y_animation_play(this, "in", nil, store.tick_ts)
+	U.animation_start(this, "idle", nil, store.tick_ts, true)
+	local last_hit_ts = 0
+	while true do
+		if store.tick_ts - last_hit_ts >= this.cycle_time then
+			last_hit_ts = store.tick_ts
+			local targets = table.filter(store.entities, function(k, v)
+				return v.vis and v.tower and v.tower.holder_id == this.tower.holder_id and v.pox.x == this.pox.x and v.pox.y == this.pox.y
+			end)
+			if targets then
+				local target = targets[1]
+				local mods = this.mods or {
+					this.mod
+				}
+				for _, mod_name in pairs(mods) do
+					local m = E:create_entity(mod_name)
+					m.modifier.target_id = target.id
+					m.modifier.source_id = this.id
+					queue_insert(store, m)
+				end
+			end
+		end
+		coroutine.yield()
+	end
 end
 
 scripts.controller_holder_roots_lands_blocked = {}
 function scripts.controller_holder_roots_lands_blocked.update(this, store, script)
-
+	local spawn_ts = U.frandom(this.cooldown_min, this.cooldown_max + 1e-09) + store.tick_ts
+	while spawn_ts > store.tick_ts do
+		coroutine.yield()
+	end
+	local towers = table.filter(store.entities, function(k, v)
+		return v.vis and v.tower and v.tower.holder_id == this.holder_id and v.pox.x == this.pox.x and v.pox.y == this.pox.y
+	end)
+	local holder
+	if towers then
+		holder = E:create_entity("tower_roots_lands_blocked")
+	else
+		holder = E:create_entity("holder_roots_lands_blocked")
+	end
+	holder.pox.x, holder.pox.y = this.pox.x, this.pox.y
+	holder.tower.holder_id = this.holder_id
+	queue_insert(store, holder)
+	queue_remove(store, this)
 end
 
 return scripts

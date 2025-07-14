@@ -9090,7 +9090,7 @@ function scripts.mod_denas_tower.insert(this, store)
 	if not target or not target.tower then
 		log.error("error inserting mod_denas_tower %s", this.id)
 
-		return true
+		return false
 	end
 
 	if this.range_factor then
@@ -9152,7 +9152,7 @@ function scripts.mod_denas_tower.remove(this, store)
 	if not target or not target.tower then
 		log.error("error removing mod_denas_tower %s", this.id)
 
-		return false
+		return true
 	end
 
 	if this.range_factor then

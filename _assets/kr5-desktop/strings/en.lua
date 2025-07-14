@@ -2813,6 +2813,8 @@ return {
 	-- customization
 	KR5_NO_GEMS = "Cheater!No gems left now?Haha!",
 	TEXT_EXTRA_ENEMIES = "EXTRA ENEMIES",
+	HOLDER_ROOTS_LANDS_BLOCKED_NAME = "Rotten Roots",
+	HOLDER_ROOTS_LANDS_BLOCKED_DESC = "The roots are blocking this holder, but we can cut them down!",
 	TOWER_ARBOREAN_EMISSARY_CHANGE_SOLDIERS_TITLE_1 = "Recruit Arborean Thornspears",
 	TOWER_ARBOREAN_EMISSARY_CHANGE_SOLDIERS_TITLE_2 = "Recruit Barkshields",
 	TOWER_ARBOREAN_EMISSARY_CHANGE_SOLDIERS_DESCRIPTION_1 = "Your soldiers are ready for recruitment at any time.",
