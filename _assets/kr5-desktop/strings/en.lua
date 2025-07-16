@@ -2934,5 +2934,9 @@ return {
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_1 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[2]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[2]%$s cooldown.",
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_2 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[3]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[3]%$s cooldown.",
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_3 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[4]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[4]%$s cooldown.",
-
+	HERO_WIZARD_NAME = "Nivus",
+	ITEM_HERO_WIZARD_NAME = "Nivus",
+	ITEM_HERO_WIZARD_BOTTOM_DESC = "Summon Nivus to defeat your enemies.",
+	ITEM_HERO_WIZARD_BOTTOM_INFO = "Summon Nivus to fight alongside you.",
+	ITEM_HERO_WIZARD_DESC = "The great mages seem to be about the same...... Crazy on the outside, wise on the inside, most of the spells taught in the magic school now come from him. The Neuis owner is amazingly powerful, but at the same time it is also burdened with a heavy burden.He is self-taught, but his magic is as elusive as his gibberish. But he is very careful to control his power, because he knows that the greater the power, the more trouble.If you mess with a wizard, you'll get into trouble, but if you mess with an archmage, you'll have a big deal! ...... It's not good, run!",
 }

@@ -4057,5 +4057,10 @@ return {
 	ITEM_HERO_VOODOO_WITCH_NAME = "女巫",
 	ITEM_HERO_VOODOO_WITCH_BOTTOM_DESC = "召唤女巫来击败你的敌人。",
 	ITEM_HERO_VOODOO_WITCH_BOTTOM_INFO = "召唤女巫来与你并肩作战。",
-	ITEM_HERO_VOODOO_WITCH_DESC = "黑魔法是丛林中的神秘女巫的专长，许多的笨蛋傻瓜都低估了她，认为她就是个沼泽中的隐士，对她的警告置之不理，那他们只有在十八层地狱里后悔的份了......"
+	ITEM_HERO_VOODOO_WITCH_DESC = "黑魔法是丛林中的神秘女巫的专长，许多的笨蛋傻瓜都低估了她，认为她就是个沼泽中的隐士，对她的警告置之不理，那他们只有在十八层地狱里后悔的份了......",
+	HERO_WIZARD_NAME = "纽维斯",
+	ITEM_HERO_WIZARD_NAME = "纽维斯",
+	ITEM_HERO_WIZARD_BOTTOM_DESC = "召唤纽维斯来击败你的敌人。",
+	ITEM_HERO_WIZARD_BOTTOM_INFO = "召唤纽维斯来与你并肩作战。",
+	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有者令人惊叹的强大力量，与此同时也是重担在肩。无师自通，但桃李满天下，他的神奇魔法如同他的胡言乱语一般难以捉摸。但他十分谨慎的掌握着自己的力量，因为他深知，能力越大，麻烦越多。惹毛了一个巫师，你就摊上事了，但惹毛了一个大法师，那就摊上大事啦！......不妙，快跑！",
 }

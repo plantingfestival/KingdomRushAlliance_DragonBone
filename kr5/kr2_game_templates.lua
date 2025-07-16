@@ -5693,7 +5693,11 @@ tt.main_script.insert = kr2_scripts.giant_boulder.insert
 tt = E:register_t("fx_giant_boulder_explosion", "fx")
 tt.render.sprites[1].name = "giant_boulder_explosion"
 tt.render.sprites[1].z = Z_OBJECTS
-tt = E:register_t("hero_wizard", "hero")
+
+tt = E:register_t("controller_item_hero_wizard", "controller_item_hero")
+tt.entity = "hero_wizard"
+
+tt = E:register_t("hero_wizard", "hero5")
 
 E:add_comps(tt, "teleport", "melee", "ranged", "timed_attacks")
 
@@ -5870,8 +5874,7 @@ tt.hero.fn_level_up = kr2_scripts.hero_wizard.level_up
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_wizard.get_info
-tt.info.hero_portrait = "hero_portraits_0006"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0006" or "info_portraits_heroes_0006"
+tt.info.portrait ="portraits_hero_0122" 
 tt.info.damage_icon = "magic"
 tt.main_script.insert = kr2_scripts.hero_wizard.insert
 tt.main_script.update = kr2_scripts.hero_wizard.update

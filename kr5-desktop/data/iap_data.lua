@@ -218,6 +218,15 @@ return {
 				255
 			}
 		},
+		hero_wizard = {
+			cost = 500,
+			color_bg = {
+				210,
+				115,
+				10,
+				255
+			}
+		},
 		hero_elves_archer = {
 			cost = 1000,
 			color_bg = {
