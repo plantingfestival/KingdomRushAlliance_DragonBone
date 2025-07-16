@@ -1056,13 +1056,8 @@ function my_data_processing()
 			local atlas = atlases[v.a_name]
 			local newTable = {}
 			local spriteWidth, spriteHeight, spriteSourceWidth, spriteSourceHeight, spriteOffsetX, spriteOffsetY
-			if v.textureRotated then
-				spriteWidth = v.f_quad[4]
-				spriteHeight = v.f_quad[3]
-			else
-				spriteWidth = v.f_quad[3]
-				spriteHeight = v.f_quad[4]
-			end
+			spriteWidth = v.f_quad[3]
+			spriteHeight = v.f_quad[4]
 			spriteSourceWidth = v.size[1]
 			spriteSourceHeight = v.size[2]
 			spriteOffsetX = math.ceil(v.trim[1] - (spriteSourceWidth - spriteWidth) / 2)
