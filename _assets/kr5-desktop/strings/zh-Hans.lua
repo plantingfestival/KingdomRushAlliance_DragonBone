@@ -4053,4 +4053,9 @@ return {
 	ENEMY_SCREECHER_BAT_NAME = "尖啸蝙蝠",
 	ENEMY_TWILIGHT_GOLEM_NAME = "暮光傀儡",
 	ENEMY_TWILIGHT_HERETIC_NAME = "暮光异教徒",
+	HERO_VOODOO_WITCH_NAME = "女巫",
+	ITEM_HERO_VOODOO_WITCH_NAME = "女巫",
+	ITEM_HERO_VOODOO_WITCH_BOTTOM_DESC = "召唤女巫来击败你的敌人。",
+	ITEM_HERO_VOODOO_WITCH_BOTTOM_INFO = "召唤女巫来与你并肩作战。",
+	ITEM_HERO_VOODOO_WITCH_DESC = "黑魔法是丛林中的神秘女巫的专长，许多的笨蛋傻瓜都低估了她，认为她就是个沼泽中的隐士，对她的警告置之不理，那他们只有在十八层地狱里后悔的份了......"
 }

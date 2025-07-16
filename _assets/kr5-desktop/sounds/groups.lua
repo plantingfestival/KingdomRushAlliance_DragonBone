@@ -1222,6 +1222,20 @@ return {
 			"archmage_attack.ogg"
 		}
 	},
+	item_hero_voodoo_witch = {
+		files = {
+			"Vodoo_01c.ogg",
+			"Vodoo_02b.ogg",
+			"Vodoo_03b.ogg",
+			"Vodoo_04b.ogg",
+			"KRF_sfx_vodoo_kamikazegolpev3.ogg",
+			"Vodoo_05d.ogg",
+			"KRF_sfx_vodoo_kamikazelanza.ogg",
+			"KRF_sfx_vodoo_munieco.ogg",
+			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
+			"KRF_sfx_vodoo_ataqueV3.ogg"
+		}
+	},
 	tower_rock_thrower = {
 		files = {
 			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg",

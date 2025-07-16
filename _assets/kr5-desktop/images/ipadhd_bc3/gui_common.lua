@@ -1,4 +1,22729 @@
 return {
+	["achievement_ingame_icon_001_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1917,
+			1131,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_002_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2047,
+			1235,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_003_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2177,
+			1237,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_004_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2307,
+			1239,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_005_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2437,
+			1239,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_006_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2634,
+			1245,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_007_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2764,
+			1245,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_008_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2894,
+			1245,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_009_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3024,
+			1246,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_010_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3215,
+			1247,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_011_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3345,
+			1247,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_012_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3475,
+			1247,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_013_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3605,
+			1229,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_014_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1261,
+			1379,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_015_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1261,
+			1509,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_016_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1264,
+			1720,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_017_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1267,
+			1850,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_018_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1313,
+			1980,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_019_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1313,
+			2110,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_020_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1313,
+			2240,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_021_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1164,
+			2411,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_022_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1164,
+			2541,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_023_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1164,
+			2671,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_024_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			2924,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_025_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			3054,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_026_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1313,
+			2370,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_027_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1294,
+			2500,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_028_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1294,
+			2630,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_029_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1294,
+			2760,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_030_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1315,
+			2890,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_031_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1315,
+			3020,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_032_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1424,
+			2500,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_033_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1424,
+			2630,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_034_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1424,
+			2760,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_035_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1445,
+			2890,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_036_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1445,
+			3020,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_037_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3605,
+			1359,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_038_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1391,
+			1379,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_039_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1391,
+			1509,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_040_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1394,
+			1718,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_041_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1397,
+			1848,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_042_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1443,
+			1978,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_043_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1443,
+			2108,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_044_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1443,
+			2238,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_045_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1443,
+			2368,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_046_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1521,
+			1376,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_047_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1521,
+			1506,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_048_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1527,
+			1846,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_049_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1573,
+			1976,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_050_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1573,
+			2106,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_051_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1573,
+			2236,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_052_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1573,
+			2366,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_053_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1554,
+			2498,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_054_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1554,
+			2628,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_055_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1554,
+			2758,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_056_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1575,
+			2888,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_057_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1575,
+			3018,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_058_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1684,
+			2496,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_059_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1684,
+			2626,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_060_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1684,
+			2756,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_061_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1705,
+			2886,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_062_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1705,
+			3016,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_063_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1657,
+			1846,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_064_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1703,
+			1976,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_065_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1703,
+			2106,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_066_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1703,
+			2236,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_067_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1703,
+			2366,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_068_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1814,
+			2496,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_069_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1814,
+			2626,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_070_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1814,
+			2756,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_071_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1835,
+			2886,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_072_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1835,
+			3016,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_073_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3675,
+			937,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_074_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3805,
+			938,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_075_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3668,
+			1067,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_076_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3798,
+			1068,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_077_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3935,
+			938,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_078_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3928,
+			1068,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_079_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3735,
+			1198,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_080_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3735,
+			1328,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_081_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3865,
+			1198,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_082_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3865,
+			1328,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_083_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3735,
+			1458,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_084_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3865,
+			1458,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_085_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1651,
+			1378,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_086_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1903,
+			1382,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_087_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1787,
+			1844,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_088_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1833,
+			1974,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["achievement_ingame_icon_overlay_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			128
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1833,
+			2104,
+			128,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backGlow"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			96,
+			96
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3632,
+			1489,
+			92,
+			92
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			31,
+            22,
+            29,
+            15
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1903,
+			1261,
+			119,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			24,
+            11,
+            21,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3570,
+			651,
+			134,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			35,
+            44,
+            27,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1218,
+			979,
+			117,
+			89
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			48,
+            28,
+            41,
+            27
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1541,
+			1636,
+			90,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			41,
+            25,
+            49,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1516,
+			1123,
+			89,
+			121
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			29,
+            19,
+            30,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1771,
+			1256,
+			120,
+			130
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			22,
+            87,
+            89,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3869,
+			3162,
+			68,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			25,
+            91,
+            92,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1826,
+			62,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_off_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			33,
+            23,
+            29,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			2292,
+			117,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_off_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			25,
+            11,
+            21,
+            10
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			726,
+			2336,
+			133,
+			145
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_off_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			35,
+            44,
+            27,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3995,
+			1321,
+			117,
+			89
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_off_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			48,
+            28,
+            41,
+            27
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1654,
+			1630,
+			90,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["backPack_icons_off_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			41,
+            25,
+            49,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3995,
+			1198,
+			89,
+			121
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["backPack_icons_off_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			179,
+			166
+		},
+		trim = {
+			36,
+            28,
+            37,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			499,
+			795,
+			106,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_fight_bar_background"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			828,
+			138
+		},
+		trim = {
+			24,
+            24,
+            24,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			1,
+			780,
+			90
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_fight_bars_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			300,
+			15
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			783,
+			45,
+			300,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_fight_bars_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			300,
+			15
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1754,
+			1,
+			300,
+			15
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_fight_bars_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			659,
+			20
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			783,
+			1,
+			659,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_fight_bars_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			659,
+			20
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			847,
+			659,
+			20
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["boss_fight_bars_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			916,
+			56
+		},
+		trim = {
+			235,
+            18,
+            235,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			783,
+			23,
+			446,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1471,
+			1639,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["boss_health_bar_icon_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3995,
+			1544,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2508,
+			2975,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["boss_health_bar_icon_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2578,
+			2991,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2690,
+			3089,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2690,
+			3159,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3790,
+			3162,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3939,
+			3160,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2380,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["boss_health_bar_icon_new0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			81,
+			72
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2450,
+			77,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_powers_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1487,
+			355,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["cheat_unlock_towers"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			64,
+			54
+		},
+		trim = {
+			6,
+            1,
+            8,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			3184,
+			50,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			21,
+            9,
+            21,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2962,
+			1375,
+			110,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			21,
+            9,
+            23,
+            10
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2196,
+			1482,
+			108,
+			53
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			15,
+            6,
+            18,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3154,
+			1246,
+			119,
+			59
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			11,
+            4,
+            14,
+            5
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1706,
+			1215,
+			127,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			9,
+            3,
+            11,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			415,
+			2944,
+			132,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["confirm_feedback_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			8,
+            3,
+            10,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			889,
+			3131,
+			134,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["confirm_feedback_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			7,
+            2,
+            8,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			737,
+			1850,
+			137,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			6,
+            2,
+            7,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			558,
+			2941,
+			139,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["confirm_feedback_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			5,
+            1,
+            5,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			743,
+			1706,
+			142,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["confirm_feedback_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			3,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1070,
+			1007,
+			146,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["confirm_feedback_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			152,
+			72
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			699,
+			2935,
+			148,
+			72
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["confirm_feedback_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			92,
+			44
+		},
+		trim = {
+			0,
+            0,
+            89,
+            41
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["creepAlert"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			90,
+			90
+		},
+		trim = {
+			1,
+            1,
+            1,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1923,
+			3146,
+			88,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["creepAlertArrow"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			26,
+			38
+		},
+		trim = {
+			1,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			849,
+			2983,
+			24,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			11,
+            35,
+            9,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1203,
+			670,
+			134,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            32,
+            7,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1664,
+			975,
+			139,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            33,
+            7,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1646,
+			854,
+			139,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["effect_powerbuy_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            32,
+            7,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3929,
+			797,
+			139,
+			120
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            26,
+            7,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3527,
+			951,
+			139,
+			138
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["effect_powerbuy_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            16,
+            7,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3527,
+			1091,
+			139,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["effect_powerbuy_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			8,
+            8,
+            7,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1172,
+			2017,
+			139,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["effect_powerbuy_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			9,
+            0,
+            8,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1334,
+			554,
+			137,
+			151
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			9,
+            34,
+            8,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3810,
+			799,
+			137,
+			117
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			9,
+            35,
+            9,
+            26
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			545,
+			1116,
+			136,
+			115
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["effect_powerbuy_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			10,
+            24,
+            9,
+            27
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			889,
+			2730,
+			135,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["effect_powerbuy_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			176
+		},
+		trim = {
+			11,
+            13,
+            10,
+            27
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3675,
+			799,
+			133,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			11,
+            25,
+            11,
+            10
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1663,
+			3148,
+			86,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			6,
+            22,
+            5,
+            5
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1708,
+			1116,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			2,
+            20,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3980,
+			428,
+			104,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			0,
+            18,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4002,
+			649,
+			108,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			2,
+            20,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1261,
+			1639,
+			104,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			6,
+            22,
+            5,
+            5
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3868,
+			2294,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			9,
+            24,
+            9,
+            8
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1767,
+			1630,
+			90,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			7,
+            23,
+            7,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2683,
+			1830,
+			94,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			5,
+            22,
+            6,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			804,
+			838,
+			97,
+			74
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			3,
+            21,
+            3,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			607,
+			1627,
+			102,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			3,
+            21,
+            3,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			711,
+			1627,
+			102,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			3,
+            21,
+            3,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1367,
+			1639,
+			102,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			3,
+            21,
+            3,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3995,
+			1440,
+			102,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["error_feedback_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			108,
+			100
+		},
+		trim = {
+			3,
+            21,
+            3,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1837,
+			1634,
+			102,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["error_feedback_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			64,
+			60
+		},
+		trim = {
+			0,
+            0,
+            61,
+            57
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["freeze_gfx_corner"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			397,
+			320
+		},
+		trim = {
+			12,
+            0,
+            0,
+            8
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			460,
+			385,
+			312
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["freeze_gfx_side"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			320,
+			102
+		},
+		trim = {
+			0,
+            0,
+            0,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			262,
+			847,
+			320,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gemsReward_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			35
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3940,
+			472,
+			38,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gemsReward_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			35
+		},
+		trim = {
+			4,
+            3,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3792,
+			620,
+			30,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gold_gnome"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			166,
+			166
+		},
+		trim = {
+			3,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1165,
+			222,
+			159,
+			166
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_armor_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			16,
+			24
+		},
+		trim = {
+			2,
+            1,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3882,
+			160,
+			12,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_armor_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			16,
+			24
+		},
+		trim = {
+			2,
+            1,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3815,
+			2729,
+			12,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_armor_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			16,
+			24
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3527,
+			1229,
+			16,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			5,
+            8,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3722,
+			3195,
+			41,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			5,
+            8,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			582,
+			3184,
+			43,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			3,
+            6,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2655,
+			44,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			3,
+            6,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			490,
+			3184,
+			44,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			3,
+            6,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			490,
+			3184,
+			44,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			3,
+            6,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			536,
+			3184,
+			44,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			3,
+            6,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2611,
+			45,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            6,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1444,
+			1025,
+			43,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            8,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			627,
+			3184,
+			43,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            6,
+            4,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2087,
+			2812,
+			43,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            6,
+            4,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2087,
+			2857,
+			43,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            8,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3678,
+			3195,
+			42,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["heart_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            8,
+            6,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4031,
+			2520,
+			41,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			4,
+            8,
+            6,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4031,
+			2563,
+			41,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["heart_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			51,
+			51
+		},
+		trim = {
+			5,
+            8,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4012,
+			2699,
+			41,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_portrait_bars_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			104,
+			10
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1486,
+			693,
+			104,
+			10
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_portrait_bars_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			104,
+			10
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4074,
+			1440,
+			104,
+			10
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_selected"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			134,
+			147
+		},
+		trim = {
+			0,
+            0,
+            131,
+            144
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_tombstone_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			50,
+			86
+		},
+		trim = {
+			3,
+            0,
+            0,
+            35
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3815,
+			2630,
+			47,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_tombstone_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			50,
+			80
+		},
+		trim = {
+			5,
+            0,
+            0,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1994,
+			45,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			63,
+            47,
+            70,
+            58
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			341,
+			1118,
+			59,
+			49
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			48,
+            42,
+            55,
+            45
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1639,
+			1123,
+			89,
+			67
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			34,
+            37,
+            40,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			487,
+			708,
+			118,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			21,
+            31,
+            26,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1944,
+			476,
+			145,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			21,
+            32,
+            26,
+            21
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1044,
+			569,
+			145,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			22,
+            25,
+            24,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			578,
+			2188,
+			146,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			20,
+            22,
+            22,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1334,
+			693,
+			150,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			17,
+            20,
+            19,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1150,
+			1720,
+			156,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			17,
+            19,
+            19,
+            21
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1934,
+			318,
+			156,
+			114
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			16,
+            18,
+            17,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1041,
+			62,
+			159,
+			116
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			14,
+            17,
+            16,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			361,
+			2469,
+			162,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			13,
+            16,
+            15,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1929,
+			152,
+			164,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			21,
+            27,
+            26,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1152,
+			1573,
+			145,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			21,
+            25,
+            24,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			683,
+			1122,
+			147,
+			109
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hud_bonusFx_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			20,
+            24,
+            22,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1107,
+			1081,
+			150,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_bonusFx_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			154
+		},
+		trim = {
+			21,
+            31,
+            26,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1944,
+			623,
+			145,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hud_buttons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			164
+		},
+		trim = {
+			24,
+            35,
+            27,
+            26
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			832,
+			1122,
+			109,
+			103
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ico_sell_0002_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			141
+		},
+		trim = {
+			24,
+            14,
+            19,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1934,
+			1021,
+			111,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			7,
+            4,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3862,
+			2708,
+			31,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			0,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			848,
+			3182,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			2,
+            3,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			141,
+			1233,
+			38,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			4,
+            3,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3562,
+			3197,
+			36,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			4,
+            2,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3486,
+			3196,
+			36,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			3,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1267,
+			1980,
+			38,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			6,
+            3,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2769,
+			3202,
+			32,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3447,
+			3196,
+			38,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			8,
+            3,
+            8,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			551,
+			462,
+			28,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			6,
+            3,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2808,
+			3202,
+			32,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			672,
+			3184,
+			40,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["icon_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			4,
+            2,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3524,
+			3196,
+			36,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["icon_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			5,
+            2,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4051,
+			855,
+			33,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			13,
+            14,
+            123,
+            144
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3668,
+			1197,
+			26,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			9,
+            10,
+            122,
+            139
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2508,
+			3054,
+			31,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			8,
+            8,
+            121,
+            124
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4051,
+			797,
+			33,
+			56
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			6,
+            7,
+            120,
+            121
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4002,
+			759,
+			36,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			5,
+            5,
+            25,
+            21
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			815,
+			1617,
+			132,
+			162
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			4,
+            4,
+            24,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1325,
+			54,
+			134,
+			166
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			4,
+            3,
+            23,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			937,
+			1096,
+			135,
+			168
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			3,
+            2,
+            22,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			315,
+			708,
+			137,
+			170
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			2,
+            0,
+            22,
+            14
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			558,
+			2765,
+			138,
+			174
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			0,
+            0,
+            21,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			415,
+			2767,
+			141,
+			175
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			2,
+            0,
+            21,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			196,
+			1695,
+			139,
+			176
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			1,
+            2,
+            21,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			413,
+			2588,
+			140,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			1,
+            4,
+            20,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			347,
+			3042,
+			141,
+			175
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			1,
+            6,
+            20,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			555,
+			2588,
+			141,
+			175
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			0,
+            7,
+            19,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			581,
+			2297,
+			143,
+			172
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			0,
+            9,
+            18,
+            10
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			979,
+			1402,
+			144,
+			169
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			0,
+            11,
+            17,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1782,
+			185,
+			145,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0018"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			1,
+            13,
+            16,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1340,
+			390,
+			145,
+			162
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0019"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			3,
+            21,
+            16,
+            15
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1261,
+			1225,
+			143,
+			152
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0020"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			4,
+            19,
+            15,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1219,
+			1070,
+			143,
+			153
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0021"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			3,
+            20,
+            17,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3426,
+			651,
+			142,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0022"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			5,
+            22,
+            17,
+            21
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3645,
+			509,
+			140,
+			145
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0023"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			6,
+            23,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3940,
+			509,
+			138,
+			143
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0024"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			28,
+            25,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1191,
+			552,
+			116,
+			141
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0025"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			29,
+            26,
+            19,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			871,
+			2867,
+			114,
+			139
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0026"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			30,
+            27,
+            20,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1153,
+			1878,
+			112,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0027"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			31,
+            28,
+            21,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1935,
+			770,
+			110,
+			136
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0028"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			188
+		},
+		trim = {
+			121,
+            32,
+            23,
+            134
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2683,
+			1926,
+			18,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            117,
+            117
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1781,
+			1378,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1651,
+			1508,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1833,
+			2234,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1833,
+			2356,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1773,
+			1508,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1895,
+			1512,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1917,
+			1844,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1963,
+			1966,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1963,
+			2088,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1963,
+			2210,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1955,
+			2332,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1955,
+			2454,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1944,
+			2576,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1944,
+			2698,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1965,
+			2884,
+			120,
+			120
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			0,
+            0,
+            117,
+            117
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_achievement_ui_image_ingame_achievements_ui_"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			454,
+			116
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			23,
+			847,
+			454,
+			116
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_action_icon_frame"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			148,
+			164
+		},
+		trim = {
+			21,
+            37,
+            23,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3980,
+			322,
+			104,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_action_icon_frame_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			220,
+			232
+		},
+		trim = {
+			47,
+            54,
+            48,
+            46
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1783,
+			1129,
+			125,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_bg"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			268,
+			304
+		},
+		trim = {
+			28,
+            29,
+            28,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			551,
+			492,
+			212,
+			251
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_bg_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			328,
+			368
+		},
+		trim = {
+			46,
+            45,
+            45,
+            40
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			372,
+			223,
+			237,
+			283
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_doors_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            28,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2384,
+			325,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            28,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2551,
+			325,
+			165,
+			154
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            29,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2217,
+			324,
+			165,
+			153
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            30,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2050,
+			323,
+			165,
+			152
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            32,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1782,
+			352,
+			165,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_doors_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            35,
+            19,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3882,
+			174,
+			165,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            39,
+            19,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1121,
+			1233,
+			165,
+			138
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_doors_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            43,
+            19,
+            28
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1628,
+			21,
+			165,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_portraits_hero_doors_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            49,
+            19,
+            34
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			194,
+			2469,
+			165,
+			117
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            56,
+            19,
+            40
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			411,
+			2191,
+			165,
+			104
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            64,
+            19,
+            50
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			903,
+			838,
+			165,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            76,
+            19,
+            62
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			262,
+			1169,
+			165,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_portraits_hero_doors_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			208,
+			200
+		},
+		trim = {
+			24,
+            104,
+            181,
+            84
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1903,
+			1256,
+			3,
+			12
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_gui_ring"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			444,
+			444
+		},
+		trim = {
+			36,
+            49,
+            39,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			93,
+			369,
+			365
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_gui_top_info_background"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			432,
+			168
+		},
+		trim = {
+			18,
+            20,
+            18,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			372,
+			93,
+			396,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_hero_cooldown"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			17,
+            23,
+            17,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1326,
+			222,
+			166,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_hero_portrait_bars_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			48
+		},
+		trim = {
+			19,
+            18,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1558,
+			1362,
+			106,
+			12
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_hero_portrait_bars_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			48
+		},
+		trim = {
+			19,
+            18,
+            19,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			181,
+			1465,
+			106,
+			12
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_hud_buttons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			212
+		},
+		trim = {
+			32,
+            59,
+            33,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1164,
+			2801,
+			119,
+			121
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_hud_buttons_0001_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			240,
+			264
+		},
+		trim = {
+			53,
+            68,
+            53,
+            51
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1646,
+			707,
+			134,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_ico_sell_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			204
+		},
+		trim = {
+			34,
+            48,
+            35,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			525,
+			2471,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0001_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			204
+		},
+		trim = {
+			34,
+            48,
+            35,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			525,
+			2471,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0001_disabled_turn_off."] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			204
+		},
+		trim = {
+			34,
+            48,
+            35,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			653,
+			2471,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0001_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			204
+		},
+		trim = {
+			34,
+            48,
+            35,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			781,
+			2471,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0001_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			240,
+			260
+		},
+		trim = {
+			55,
+            68,
+            55,
+            51
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			600,
+			1706,
+			130,
+			141
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0001_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			184,
+			204
+		},
+		trim = {
+			34,
+            48,
+            35,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			525,
+			2471,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			204
+		},
+		trim = {
+			32,
+            48,
+            33,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			2175,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0002_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			204
+		},
+		trim = {
+			32,
+            48,
+            33,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1185,
+			2175,
+			115,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_ico_sell_0002_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			240,
+			260
+		},
+		trim = {
+			55,
+            68,
+            55,
+            51
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			873,
+			2338,
+			130,
+			141
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_items_button_doors_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1364,
+			1070,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_items_button_doors_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1406,
+			1223,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_items_button_doors_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2049,
+			639,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2202,
+			641,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2355,
+			643,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2508,
+			643,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2661,
+			649,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2814,
+			649,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2967,
+			649,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3120,
+			650,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3273,
+			651,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1782,
+			681,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_doors_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			188,
+			192
+		},
+		trim = {
+			19,
+            20,
+            18,
+            22
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3528,
+			327,
+			151,
+			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_items_button_frame"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			244,
+			244
+		},
+		trim = {
+			28,
+            33,
+            28,
+            24
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			410,
+			1649,
+			188,
+			187
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_frame_buy"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			244,
+			252
+		},
+		trim = {
+			28,
+            37,
+            28,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			592,
+			1233,
+			188,
+			196
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_frame_buy_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			300,
+			288
+		},
+		trim = {
+			44,
+            29,
+            44,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			181,
+			1233,
+			212,
+			230
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_frame_highlight"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			300,
+			304
+		},
+		trim = {
+			44,
+            45,
+            44,
+            39
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			197,
+			2058,
+			212,
+			220
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_frame_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			300,
+			288
+		},
+		trim = {
+			44,
+            29,
+            44,
+            31
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			196,
+			1465,
+			212,
+			228
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_frame_selected"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			244,
+			248
+		},
+		trim = {
+			28,
+            35,
+            28,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			607,
+			1431,
+			188,
+			194
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_items_button_number_frame"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			176,
+			268
+		},
+		trim = {
+			32,
+            174,
+            28,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2567,
+			1239,
+			116,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_main_icons_over"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			204
+		},
+		trim = {
+			22,
+            37,
+            22,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3680,
+			322,
+			148,
+			148
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_main_icons_over_highlighted"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			192,
+			204
+		},
+		trim = {
+			22,
+            37,
+            22,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3830,
+			322,
+			148,
+			148
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_main_icons_over_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			228,
+			228
+		},
+		trim = {
+			32,
+            32,
+            32,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1159,
+			54,
+			164,
+			166
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            26,
+            29,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			748,
+			2017,
+			156,
+			159
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            22,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2217,
+			159,
+			163,
+			165
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1461,
+			21,
+			165,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1759,
+			18,
+			165,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1482,
+			188,
+			165,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3219,
+			159,
+			165,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3386,
+			160,
+			165,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            48
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2384,
+			159,
+			165,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            48
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2551,
+			159,
+			165,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            48
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2718,
+			159,
+			165,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            48
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2885,
+			159,
+			165,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			27,
+            20,
+            20,
+            50
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2050,
+			159,
+			165,
+			162
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			212,
+			232
+		},
+		trim = {
+			185,
+            19,
+            20,
+            206
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			549,
+			2944,
+			7,
+			7
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			0,
+            0,
+            141,
+            125
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			0,
+            0,
+            141,
+            125
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			218,
+			3042,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			55,
+            53,
+            55,
+            53
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			387,
+			2013,
+			34,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			50,
+            47,
+            49,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			374,
+			1695,
+			45,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			45,
+            42,
+            45,
+            42
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1948,
+			54,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			37,
+            31,
+            36,
+            31
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2169,
+			2907,
+			71,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_doors_light_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			44,
+            40,
+            44,
+            41
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1444,
+			967,
+			56,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			47,
+            44,
+            47,
+            45
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1239,
+			3184,
+			50,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			53,
+            50,
+            52,
+            51
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3871,
+			2969,
+			39,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			55,
+            52,
+            54,
+            53
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3284,
+			2530,
+			35,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1461,
+			188,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_doors_light_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1461,
+			188,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_power_button_frame"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			248,
+			252
+		},
+		trim = {
+			26,
+            23,
+            27,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			395,
+			1233,
+			195,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_active"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			248,
+			252
+		},
+		trim = {
+			26,
+            23,
+            27,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			410,
+			1441,
+			195,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_active_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			312,
+			336
+		},
+		trim = {
+			48,
+            53,
+            49,
+            50
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			2828,
+			215,
+			233
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_inactive"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			248,
+			252
+		},
+		trim = {
+			26,
+            23,
+            27,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			607,
+			706,
+			195,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_inactive_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			312,
+			336
+		},
+		trim = {
+			48,
+            53,
+            49,
+            50
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			815,
+			223,
+			215,
+			233
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_select"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			248,
+			252
+		},
+		trim = {
+			26,
+            23,
+            27,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			704,
+			914,
+			195,
+			206
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_button_frame_select_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			312,
+			324
+		},
+		trim = {
+			48,
+            42,
+            49,
+            44
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			2588,
+			215,
+			238
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_rank_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			18,
+            18,
+            18,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2847,
+			3202,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_power_rank_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			68,
+			68
+		},
+		trim = {
+			18,
+            18,
+            18,
+            18
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2881,
+			3202,
+			32,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_price_tag"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			156,
+			132
+		},
+		trim = {
+			33,
+            44,
+            33,
+            36
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			756,
+			3182,
+			90,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_special_icons_bg"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			196,
+			200
+		},
+		trim = {
+			28,
+            37,
+            28,
+            27
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3507,
+			509,
+			140,
+			136
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_special_icons_bg_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			224,
+			224
+		},
+		trim = {
+			33,
+            31,
+            33,
+            30
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3717,
+			160,
+			158,
+			163
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["ingame_ui_sub_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			25,
+            34,
+            26,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1337,
+			967,
+			105,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_sub_icons_0001_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			25,
+            34,
+            26,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1337,
+			967,
+			105,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_sub_icons_0001_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			216,
+			220
+		},
+		trim = {
+			44,
+            47,
+            44,
+            41
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1926,
+			18,
+			128,
+			132
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["ingame_ui_sub_icons_0001_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			156,
+			160
+		},
+		trim = {
+			25,
+            34,
+            26,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1337,
+			967,
+			105,
+			101
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_cluster_bomb"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3792,
+			472,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_cluster_bomb_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3706,
+			651,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_deaths_touch"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3854,
+			649,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_deaths_touch_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			726,
+			2188,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_bolin"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			874,
+			2190,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_bolin_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1022,
+			2190,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_denas"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1016,
+			2338,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_denas_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1016,
+			2486,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_dragon"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1016,
+			2634,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_dragon_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1016,
+			2782,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_dwarf"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			889,
+			2983,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_dwarf_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1037,
+			2930,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_elora"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1037,
+			3078,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_elora_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1498,
+			679,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_elves_archer"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1498,
+			827,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_elves_archer_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1787,
+			833,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_gerald"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2047,
+			791,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_gerald_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2195,
+			793,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_hacksaw"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2343,
+			795,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_hacksaw_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2491,
+			795,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_ignus"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2639,
+			801,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_ignus_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2787,
+			801,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_ingvar"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2935,
+			801,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_ingvar_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3083,
+			802,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_magnus"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3231,
+			803,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_magnus_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3379,
+			803,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_oni"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2047,
+			939,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_oni_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2195,
+			941,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_thor"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2343,
+			943,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_thor_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2491,
+			943,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_voodoo_witch"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2639,
+			949,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_hero_voodoo_witch_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2787,
+			949,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_kr4_hero_malik"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2935,
+			949,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_kr4_hero_malik_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3083,
+			950,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_loot_box"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3231,
+			951,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_loot_box_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3379,
+			951,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_medical_kit"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1516,
+			975,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_medical_kit_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1786,
+			981,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_portable_coil"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1558,
+			1214,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_portable_coil_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2047,
+			1087,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_scroll_of_spaceshift"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2195,
+			1089,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_scroll_of_spaceshift_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2343,
+			1091,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_second_breath"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2491,
+			1091,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_second_breath_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2639,
+			1097,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_summon_blackburn"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2787,
+			1097,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_summon_blackburn_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2935,
+			1097,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_veznan_wrath"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3083,
+			1098,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_veznan_wrath_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3231,
+			1099,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_winter_age"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3379,
+			1099,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_icons_winter_age_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			162,
+			160
+		},
+		trim = {
+			8,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3527,
+			803,
+			146,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["lives_particle"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			22,
+			22
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			953,
+			1402,
+			22,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1935,
+			908,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0001_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2128,
+			3124,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0001_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2947,
+			1491,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0001_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3059,
+			1491,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3134,
+			1377,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0002_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3247,
+			1377,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0002_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3287,
+			1492,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0002_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3308,
+			2067,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3424,
+			1952,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0003_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3308,
+			2180,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0003_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3536,
+			1952,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0003_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3308,
+			2293,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3309,
+			2406,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0004_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3648,
+			1952,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0004_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3684,
+			1722,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0004_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3684,
+			1835,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3796,
+			1703,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0005_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3796,
+			1816,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0005_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3908,
+			1729,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0005_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3908,
+			1842,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3796,
+			1929,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0006_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3908,
+			1955,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0006_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3309,
+			2519,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0006_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2269,
+			2526,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2382,
+			2526,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0007_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2495,
+			2526,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0007_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2608,
+			2526,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0007_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2721,
+			2529,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2834,
+			2530,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0008_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2947,
+			2530,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0008_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3060,
+			2530,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0008_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3172,
+			2530,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3420,
+			2067,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0009_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3420,
+			2180,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0009_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3420,
+			2293,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0009_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3421,
+			2406,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3421,
+			2519,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0010_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3532,
+			2065,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0010_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3644,
+			2065,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0010_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3532,
+			2178,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3532,
+			2291,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0011_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3644,
+			2178,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0011_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3644,
+			2291,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0011_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3533,
+			2404,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3533,
+			2517,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0012_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3645,
+			2404,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0012_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3645,
+			2517,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0012_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3756,
+			2065,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3756,
+			2178,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0013_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3756,
+			2291,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0013_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3757,
+			2404,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0013_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3757,
+			2517,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3868,
+			2068,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0014_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3868,
+			2181,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0014_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3869,
+			2369,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0014_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3869,
+			2482,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3869,
+			2595,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0015_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2130,
+			2568,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0015_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2130,
+			2681,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0015_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2242,
+			2638,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2354,
+			2638,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0016_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2466,
+			2638,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0016_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2578,
+			2638,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0016_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2690,
+			2641,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2803,
+			2642,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0017_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2916,
+			2642,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0017_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3029,
+			2643,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0017_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3142,
+			2643,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0018"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2242,
+			2751,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0018_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2355,
+			2751,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0018_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2468,
+			2751,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0018_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2130,
+			2794,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0019"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2663,
+			2753,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0019_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2776,
+			2754,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_00020"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2889,
+			2754,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0020"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			141
+		},
+		trim = {
+			24,
+            14,
+            19,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2530,
+			1720,
+			111,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_00020_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3002,
+			2755,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0020_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			154,
+			141
+		},
+		trim = {
+			24,
+            14,
+            19,
+            19
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2643,
+			1720,
+			111,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_00020_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2130,
+			2681,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0020_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3115,
+			2755,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0030"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1524,
+			1728,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0030_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1965,
+			3006,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0030_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2039,
+			1832,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0030_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			1950,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0031"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2242,
+			2863,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0031_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2355,
+			2863,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0031_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2468,
+			2863,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0031_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2663,
+			2865,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0032"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2776,
+			2866,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0032_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2889,
+			2866,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0032_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3002,
+			2867,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0032_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3115,
+			2867,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0033"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3255,
+			2643,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0033_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3367,
+			2632,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0033_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3228,
+			2756,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0033_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3228,
+			2869,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0034"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3479,
+			2632,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0034_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3591,
+			2630,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0034_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3703,
+			2630,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0034_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3340,
+			2756,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0035"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3340,
+			2869,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0035_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3452,
+			2745,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0035_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3452,
+			2858,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0035_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3564,
+			2745,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0036"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3564,
+			2858,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0036_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3676,
+			2743,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0036_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3676,
+			2856,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0036_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3788,
+			2743,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0037"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3788,
+			2856,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0037_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3900,
+			2708,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0037_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3900,
+			2821,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0037_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3900,
+			2934,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0038"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2663,
+			2977,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0038_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2776,
+			2978,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0038_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2889,
+			2978,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0038_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3002,
+			2979,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0039"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3115,
+			2979,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0039_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3228,
+			2982,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0039_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3341,
+			2982,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0039_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3453,
+			2971,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0040"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3565,
+			2971,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0040_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3677,
+			2969,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0040_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3453,
+			3084,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0040_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3566,
+			3084,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0041"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3678,
+			3082,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0041_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3790,
+			3049,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0041_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3902,
+			3047,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0041_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2169,
+			2975,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0042"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2282,
+			2975,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0042_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2395,
+			2975,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0042_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2241,
+			3087,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0042_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2353,
+			3087,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0043"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2465,
+			3087,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["main_icons_0043_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2577,
+			3089,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0043_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2769,
+			3090,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0043_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2882,
+			3090,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0105"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2995,
+			3091,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0105_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3108,
+			3091,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0105_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3221,
+			3094,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_0105_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3334,
+			3095,
+			110,
+			111
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["main_icons_turnOff"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			186,
+			179
+		},
+		trim = {
+			40,
+            38,
+            36,
+            36
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			909,
+			2470,
+			110,
+			105
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["menu_bottom_bg_left_circle"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			397,
+			141
+		},
+		trim = {
+			9,
+            11,
+            4,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			141,
+			847,
+			384,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["menu_bottom_lifeBar"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			201,
+			29
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			218,
+			3011,
+			201,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["menu_bottom_lifeBar_bg_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			201,
+			29
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1231,
+			23,
+			201,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["menu_bottom_lifeBar_bg_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			275,
+			45
+		},
+		trim = {
+			0,
+            1,
+            255,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			1508,
+			20,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            14,
+            3,
+            8
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2312,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            11,
+            3,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3600,
+			3197,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            9,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			969,
+			3199,
+			35,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            6,
+            3,
+            14
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4049,
+			281,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            6,
+            3,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			717,
+			3184,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            4,
+            3,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2147,
+			3087,
+			35,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            4,
+            3,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2186,
+			3087,
+			35,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            4,
+            3,
+            17
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3680,
+			472,
+			35,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            4,
+            3,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			889,
+			3199,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            6,
+            3,
+            16
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3637,
+			3197,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            8,
+            3,
+            14
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4012,
+			2742,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            9,
+            3,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			929,
+			3199,
+			35,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            12,
+            3,
+            9
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3719,
+			472,
+			35,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["nextwave_coin_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            16,
+            3,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4049,
+			2742,
+			35,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["nextwave_coin_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			38,
+			58
+		},
+		trim = {
+			0,
+            0,
+            35,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			46,
+            31,
+            47,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			657,
+			223,
+			267,
+			156
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_area_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			341,
+			847,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_area_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			23,
+			1303,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_area_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2056,
+			1,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2327,
+			1,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            28
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3411,
+			1,
+			269,
+			157
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            28
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3682,
+			1,
+			269,
+			157
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2598,
+			1,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2869,
+			1,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_area_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			360,
+			216
+		},
+		trim = {
+			45,
+            31,
+            46,
+            29
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3140,
+			1,
+			269,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_hand_32_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			29
+		},
+		trim = {
+			0,
+            0,
+            1,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			421,
+			3011,
+			31,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_hand_32_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			29
+		},
+		trim = {
+			0,
+            0,
+            0,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3871,
+			3010,
+			32,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_hand_48_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			48,
+			44
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3815,
+			2683,
+			45,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_hand_48_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			48,
+			44
+		},
+		trim = {
+			0,
+            0,
+            0,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2569,
+			48,
+			40
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_hand_64_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			64,
+			59
+		},
+		trim = {
+			0,
+            0,
+            4,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1887,
+			60,
+			59
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_hand_64_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			64,
+			59
+		},
+		trim = {
+			0,
+            0,
+            0,
+            5
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1729,
+			64,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_pirate_cannons"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			158,
+			87
+		},
+		trim = {
+			47,
+            23,
+            47,
+            25
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1785,
+			64,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_point_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2141,
+			2304,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_point_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            5,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1315,
+			3150,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_point_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1433,
+			3150,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_point_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2141,
+			2421,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_point_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2157,
+			1830,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_point_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            9,
+            7,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2034,
+			1365,
+			114,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_point_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2203,
+			1947,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_point_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1642,
+			1728,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_point_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1944,
+			2820,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_point_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2083,
+			3006,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_power_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3953,
+			1,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1032,
+			223,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1649,
+			188,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1044,
+			396,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1649,
+			361,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1649,
+			534,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1070,
+			834,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1203,
+			806,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1125,
+			1400,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			979,
+			1573,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_power_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			490,
+			3011,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			623,
+			3011,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			756,
+			3009,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			815,
+			1751,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_power_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			807,
+			1884,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_power_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			906,
+			2017,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_power_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			980,
+			1884,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_power_reinforcements"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			180,
+			180
+		},
+		trim = {
+			26,
+            9,
+            23,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1039,
+			2017,
+			131,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_set_rally_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2203,
+			2064,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            5,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2017,
+			1512,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2066,
+			2576,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2203,
+			2181,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2205,
+			2298,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            9,
+            7,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2033,
+			1428,
+			114,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pointer_set_rally_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			5,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2205,
+			2415,
+			115,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2066,
+			2694,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2077,
+			2332,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["pointer_set_rally_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			126,
+			76
+		},
+		trim = {
+			4,
+            8,
+            6,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2077,
+			2450,
+			116,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_power_hero_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2718,
+			325,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2880,
+			325,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3042,
+			325,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3204,
+			326,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3366,
+			327,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1487,
+			517,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1782,
+			519,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1041,
+			672,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1336,
+			805,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2049,
+			477,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2211,
+			479,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2373,
+			481,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2535,
+			481,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2697,
+			487,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2859,
+			487,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3021,
+			487,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_power_hero_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3183,
+			488,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			0,
+            0,
+            141,
+            125
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			0,
+            0,
+            141,
+            125
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			218,
+			3042,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			55,
+            53,
+            55,
+            53
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			387,
+			2013,
+			34,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			50,
+            47,
+            49,
+            47
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			374,
+			1695,
+			45,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			45,
+            42,
+            45,
+            42
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			1948,
+			54,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			37,
+            31,
+            36,
+            31
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2169,
+			2907,
+			71,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_button_doors_light_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			44,
+            40,
+            44,
+            41
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1444,
+			967,
+			56,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			47,
+            44,
+            47,
+            45
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1239,
+			3184,
+			50,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			53,
+            50,
+            52,
+            51
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3871,
+			2969,
+			39,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			55,
+            52,
+            54,
+            53
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3284,
+			2530,
+			35,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1461,
+			188,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_doors_light_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			144,
+			128
+		},
+		trim = {
+			57,
+            54,
+            56,
+            55
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1461,
+			188,
+			31,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_button_frame_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			240,
+			244
+		},
+		trim = {
+			3,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			315,
+			462,
+			234,
+			244
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_loading"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3345,
+			489,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			24,
+            25,
+            33,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			387,
+			1838,
+			173,
+			173
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			24,
+            25,
+            33,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			562,
+			1838,
+			173,
+			173
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			24,
+            25,
+            33,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			573,
+			2013,
+			173,
+			173
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			25,
+            26,
+            33,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			3063,
+			172,
+			171
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			25,
+            27,
+            34,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			175,
+			3063,
+			171,
+			170
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_portrait_glow_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			25,
+            27,
+            34,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			698,
+			2763,
+			171,
+			170
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			26,
+            27,
+            35,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			410,
+			2297,
+			169,
+			170
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			27,
+            28,
+            35,
+            35
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			901,
+			926,
+			168,
+			167
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_portrait_glow_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			27,
+            29,
+            36,
+            35
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			953,
+			1233,
+			167,
+			166
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["power_portrait_glow_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			28,
+            30,
+            37,
+            36
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3052,
+			159,
+			165,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			30,
+            32,
+            38,
+            38
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3553,
+			160,
+			162,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_glow_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			30,
+            32,
+            39,
+            38
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1177,
+			390,
+			161,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_reinforcement_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			160,
+			160
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			988,
+			1706,
+			160,
+			160
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["power_portrait_reinforcement_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			24,
+            25,
+            33,
+            32
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			698,
+			2588,
+			173,
+			173
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1941,
+			1634,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0001_hover"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2103,
+			1607,
+			100,
+			100
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0001_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1941,
+			1634,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2023,
+			1630,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["quickmenu_action_icons_0002_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3980,
+			2068,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["quickmenu_action_icons_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3980,
+			2150,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["quickmenu_action_icons_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3980,
+			2232,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2581,
+			2751,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2581,
+			2831,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2581,
+			2911,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["quickmenu_action_icons_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3789,
+			2969,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			43,
+            132,
+            77,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			411,
+			2013,
+			176,
+			160
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			48,
+            123,
+            57,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1233,
+			191,
+			169
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			55,
+            114,
+            52,
+            138
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			797,
+			1426,
+			189,
+			180
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			34,
+            105,
+            51,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			197,
+			2280,
+			211,
+			187
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			36,
+            97,
+            52,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			218,
+			2801,
+			208,
+			195
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			42,
+            89,
+            54,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			499,
+			914,
+			200,
+			203
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			47,
+            81,
+            56,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			218,
+			2588,
+			193,
+			211
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			49,
+            72,
+            59,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			197,
+			1836,
+			188,
+			220
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			47,
+            65,
+            62,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			815,
+			458,
+			187,
+			227
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			43,
+            57,
+            64,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			804,
+			647,
+			189,
+			235
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			38,
+            50,
+            67,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			2344,
+			191,
+			242
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			33,
+            43,
+            69,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			2093,
+			194,
+			249
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			31,
+            37,
+            71,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			1836,
+			194,
+			255
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			33,
+            32,
+            70,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1,
+			1574,
+			193,
+			260
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			71,
+            36,
+            66,
+            140
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			783,
+			62,
+			159,
+			256
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["reload_skill_reload_skill_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			105,
+            106,
+            156,
+            221
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4049,
+			174,
+			35,
+			105
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["reload_skill_reload_skill_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			296,
+			432
+		},
+		trim = {
+			0,
+            0,
+            293,
+            429
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			782,
+			1426,
+			3,
+			3
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2182,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0001_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2298,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0001_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2298,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0001_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2182,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2221,
+			1830,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0002_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2414,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0002_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2414,
+			1714,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0002_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2221,
+			1830,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2337,
+			1830,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0003_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			1946,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0003_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			1946,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0003_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2337,
+			1830,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			2062,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0004_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			2178,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0004_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			2178,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0004_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2267,
+			2062,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			1946,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0005_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			2062,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0005_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			2062,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0005_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			1946,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			2178,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0006_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			1950,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0006_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			1950,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0006_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2383,
+			2178,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2066,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0007_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2182,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0007_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2182,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0007_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2066,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2298,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0008_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2872,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0008_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2872,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0008_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2298,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0009_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2067,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0009_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2067,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0009_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2183,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0010_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2299,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0010_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2299,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0010_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2183,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3017,
+			1604,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0011_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2988,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0011_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2988,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0011_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3017,
+			1604,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0012_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2067,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0012_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2067,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0012_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0013"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2183,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0013_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2299,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0013_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2299,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0013_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2183,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0014"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3104,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0014_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0014_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			1951,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0014_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3104,
+			1720,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0015"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            3,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1948,
+			1714,
+			116,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0015_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            4,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2065,
+			1712,
+			116,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0015_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            4,
+            2,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2065,
+			1712,
+			116,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0015_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			2,
+            3,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1948,
+			1714,
+			116,
+			115
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0016"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            3,
+            2,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			429,
+			1118,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0016_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            3,
+            2,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2081,
+			1491,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0016_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            3,
+            2,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2081,
+			1491,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0016_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            3,
+            2,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			429,
+			1118,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0017"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2150,
+			1367,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0017_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2266,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0017_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2266,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0017_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2150,
+			1367,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0018"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2382,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0018_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2498,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0018_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2498,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0018_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2382,
+			1369,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0019"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0019_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2730,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0019_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2730,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0019_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0020"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            1,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			2068,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0020_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            1,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			2068,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0020_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            1,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			2186,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0020_disabled_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            1,
+            1
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			2186,
+			116,
+			116
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0021"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2846,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0021_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3018,
+			1376,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0021_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3018,
+			1376,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0021_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2846,
+			1375,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0022"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2251,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0022_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2367,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0022_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2367,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0022_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2251,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0023"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2483,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0023_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2599,
+			1490,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0023_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2599,
+			1490,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0023_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2483,
+			1484,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0024"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2715,
+			1490,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0024_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2831,
+			1490,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0024_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2205,
+			1599,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0024_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2321,
+			1599,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0025"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2437,
+			1599,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0025_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2269,
+			2294,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0025_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2269,
+			2410,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0025_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2453,
+			1830,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0026"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2384,
+			2294,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0026_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2384,
+			2410,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0026_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2499,
+			1946,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0026_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2499,
+			2062,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0027"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2499,
+			2178,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0027_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2499,
+			2294,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0027_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2499,
+			2410,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0027_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2553,
+			1605,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0028"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2568,
+			1830,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0028_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2669,
+			1605,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0028_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2785,
+			1605,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0028_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2756,
+			1720,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0029"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			1946,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0029_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			2062,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0029_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			2178,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0029_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			2294,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0030"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2614,
+			2410,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0030_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2756,
+			1835,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0030_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2729,
+			2414,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0030_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2901,
+			1605,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0031"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2872,
+			1836,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0031_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2845,
+			2415,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0031_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2988,
+			1836,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0031_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2961,
+			2415,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0032"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3133,
+			1604,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0032_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3104,
+			1836,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0032_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			2067,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0032_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			2182,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0033"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			2297,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0033_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3077,
+			2412,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0033_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3171,
+			1489,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0033_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3360,
+			1377,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0034"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3476,
+			1377,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0034_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3248,
+			1604,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0034_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3220,
+			1720,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0034_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3220,
+			1835,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0035"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3400,
+			1492,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0035_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3363,
+			1607,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0035_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3336,
+			1722,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0035_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3336,
+			1837,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0036"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3516,
+			1492,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0036_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3479,
+			1607,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0036_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3452,
+			1722,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0036_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3452,
+			1837,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0037"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3595,
+			1607,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0037_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3568,
+			1722,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0037_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3568,
+			1837,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0037_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3711,
+			1588,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0038"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3827,
+			1588,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0038_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3943,
+			1614,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0038_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3193,
+			1951,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0038_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3193,
+			2067,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0039"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3193,
+			2183,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0039_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3193,
+			2299,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["special_icons_0039_disabled_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3193,
+			2415,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["special_icons_0039_turn_off"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			4,
+            4,
+            2,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3308,
+			1952,
+			114,
+			113
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["sub_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			122
+		},
+		trim = {
+			4,
+            0,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1706,
+			1722,
+			120,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["sub_icons_0002_disabled"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			128,
+			122
+		},
+		trim = {
+			4,
+            0,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1827,
+			1722,
+			120,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tooltip_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			7,
+            4,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3862,
+			2708,
+			31,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tooltip_icons_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			0,
+            2,
+            0,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			848,
+			3182,
+			44,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tooltip_icons_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			2,
+            3,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			141,
+			1233,
+			38,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tooltip_icons_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			4,
+            3,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3562,
+			3197,
+			36,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tooltip_icons_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			4,
+            2,
+            4,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3486,
+			3196,
+			36,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tooltip_icons_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			3,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1267,
+			1980,
+			38,
+			35
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tooltip_icons_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			6,
+            3,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2769,
+			3202,
+			32,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tooltip_icons_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			58,
+			51
+		},
+		trim = {
+			4,
+            1,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3981,
+			2520,
+			48,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tooltip_icons_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			8,
+            3,
+            8,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			551,
+			462,
+			28,
+			38
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tooltip_icons_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			44,
+			43
+		},
+		trim = {
+			6,
+            3,
+            6,
+            3
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2808,
+			3202,
+			32,
+			37
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tower_menu_action_icons_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			10,
+            11,
+            10,
+            11
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2087,
+			2907,
+			80,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tutorial_circle_glow"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			164,
+			158
+		},
+		trim = {
+			26,
+            25,
+            25,
+            23
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2013,
+			3124,
+			113,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["wavealert"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			70,
+			70
+		},
+		trim = {
+			2,
+            2,
+            2,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4018,
+			2312,
+			66,
+			66
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["wavealert_arrow"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			26,
+			26
+		},
+		trim = {
+			1,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4059,
+			1614,
+			25,
+			26
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			6,
+            6,
+            5,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1832,
+			3146,
+			89,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			0,
+            6,
+            0,
+            6
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1730,
+			3146,
+			100,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			7,
+            6,
+            7,
+            8
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1575,
+			3148,
+			86,
+			86
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			31,
+            33,
+            30,
+            33
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			374,
+			1742,
+			39,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveFlag_selected"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			143,
+			143
+		},
+		trim = {
+			1,
+            1,
+            1,
+            2
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			873,
+			2588,
+			141,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_tooltip_arrow"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			16,
+			16
+		},
+		trim = {
+			0,
+            2,
+            2,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			988,
+			1868,
+			14,
+			14
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveFlag_tooltip_bg"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			308,
+			18
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1444,
+			1,
+			308,
+			18
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0000"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			402,
+			1118,
+			25,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			5,
+            15,
+            4,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3284,
+			2567,
+			23,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            15,
+            4,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4060,
+			2380,
+			24,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            15,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3908,
+			1703,
+			24,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			3,
+            15,
+            3,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2915,
+			3202,
+			26,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            15,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3943,
+			1588,
+			24,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            14,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			901,
+			1096,
+			24,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			4,
+            15,
+            4,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4060,
+			2414,
+			24,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveReward_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			3,
+            15,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1280,
+			3184,
+			25,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			3,
+            15,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4051,
+			895,
+			25,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0010"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			3,
+            15,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2085,
+			2304,
+			26,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveReward_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			32,
+			60
+		},
+		trim = {
+			3,
+            20,
+            4,
+            15
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4059,
+			1642,
+			25,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0000"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			2,
+            13,
+            2,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4060,
+			2448,
+			24,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0001"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			4,
+            13,
+            3,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1493,
+			975,
+			21,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0002"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            3,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1551,
+			3183,
+			22,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0003"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			1551,
+			3150,
+			22,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0004"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			2,
+            13,
+            2,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3696,
+			1197,
+			24,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0005"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3632,
+			1583,
+			22,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveRewardTimer_0006"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            2,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4020,
+			2043,
+			23,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveRewardTimer_0007"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            3,
+            13
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			737,
+			1989,
+			22,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveRewardTimer_0008"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			2,
+            13,
+            2,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			4060,
+			2481,
+			24,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["waveRewardTimer_0009"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			3,
+            13,
+            3,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			3665,
+			1583,
+			22,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveRewardTimer_0011"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			6,
+            26,
+            6,
+            20
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			487,
+			795,
+			16,
+			10
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["waveRewardTimer_0012"] = {
+		a_name = "gui_common-0.dds",
+		size = {
+			28,
+			56
+		},
+		trim = {
+			5,
+            19,
+            4,
+            12
+		},
+		a_size = {
+			4085,
+			3235
+		},
+		f_quad = {
+			2033,
+			1491,
+			19,
+			25
+		},
+		alias = {},
+		textureRotated = true
+	},
 	victory_defeat_animation_fire_0001 = {
 		a_name = "gui_common_victory_defeat-1.dds",
 		size = {
@@ -5549,22681 +28274,5 @@ return {
 			218
 		},
 		alias = {}
-	},
-	-- customization
-	["achievement_ingame_icon_001_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1590,
-			3004,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_002_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2010,
-			1826,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_003_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2203,
-			473,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_004_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2333,
-			473,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_005_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2463,
-			473,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_006_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2593,
-			473,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_007_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2723,
-			473,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_008_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2206,
-			603,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_009_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2336,
-			603,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_010_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2466,
-			603,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_011_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2596,
-			603,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_012_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2726,
-			603,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_013_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			733,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_014_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			733,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_015_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			733,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_016_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			899,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_017_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			1029,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_018_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			1159,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_019_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			1289,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_020_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			1419,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_021_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2086,
-			1549,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_022_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2077,
-			1679,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_023_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			962,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_024_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			1092,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_025_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			1222,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_026_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			1352,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_027_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			1482,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_028_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			962,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_029_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			1092,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_030_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			1222,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_031_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			1352,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_032_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			1482,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_033_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			1612,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_034_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2346,
-			1612,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_035_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			954,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_036_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1084,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_037_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1214,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_038_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1344,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_039_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1474,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_040_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1604,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_041_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2694,
-			863,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_042_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1042,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_043_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1172,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_044_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1302,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_045_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1432,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_046_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1562,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_047_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2207,
-			1742,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_048_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2337,
-			1742,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_049_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2140,
-			1927,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_050_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2317,
-			1872,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_051_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2824,
-			863,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_052_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			993,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_053_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1123,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_054_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1253,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_055_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1383,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_056_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1513,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_057_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			993,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_058_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1123,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_059_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1253,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_060_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1383,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_061_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1513,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_062_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1643,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_063_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1643,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_064_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1692,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_065_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2476,
-			1734,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_066_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1773,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_067_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1773,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_068_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			1822,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_069_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			1903,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_070_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			1903,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_071_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3946,
-			515,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_072_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1688,
-			2182,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_073_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1688,
-			2312,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_074_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1688,
-			2442,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_075_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1685,
-			2572,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_076_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1720,
-			2702,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_077_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1722,
-			2832,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_078_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1722,
-			2962,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_079_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1720,
-			3092,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_080_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1815,
-			2572,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_081_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1850,
-			2702,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_082_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1852,
-			2832,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_083_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1852,
-			2962,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_084_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1850,
-			3092,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_085_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1818,
-			2178,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_086_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1818,
-			2308,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_087_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1818,
-			2438,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_088_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1948,
-			2193,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["achievement_ingame_icon_overlay_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			128
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1948,
-			2323,
-			128,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backGlow"] = {
-		a_name = "gui_common.dds",
-		size = {
-			96,
-			96
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3844,
-			631,
-			92,
-			92
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			31,
-            22,
-            29,
-            15
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2009,
-			1956,
-			119,
-			129
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["backPack_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			24,
-            11,
-            21,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1689,
-			188,
-			134,
-			146
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["backPack_icons_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			35,
-            44,
-            27,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2456,
-			863,
-			117,
-			89
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			48,
-            28,
-            41,
-            27
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			341,
-			90,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			41,
-            25,
-            49,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1104,
-			2517,
-			89,
-			121
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["backPack_icons_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			29,
-            19,
-            30,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2344,
-			733,
-			120,
-			130
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["backPack_icons_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			22,
-            87,
-            89,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3876,
-			471,
-			68,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			25,
-            91,
-            92,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			2665,
-			62,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["backPack_icons_off_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			33,
-            23,
-            29,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			318,
-			2963,
-			117,
-			126
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_off_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			25,
-            11,
-            21,
-            10
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3477,
-			218,
-			133,
-			145
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_off_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			35,
-            44,
-            27,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2575,
-			863,
-			117,
-			89
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_off_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			48,
-            28,
-            41,
-            27
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2511,
-			1864,
-			90,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_off_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			41,
-            25,
-            49,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1333,
-			341,
-			89,
-			121
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["backPack_icons_off_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			179,
-			166
-		},
-		trim = {
-			36,
-            28,
-            37,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1408,
-			225,
-			106,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_fight_bar_background"] = {
-		a_name = "gui_common.dds",
-		size = {
-			828,
-			138
-		},
-		trim = {
-			24,
-            24,
-            24,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			1,
-			780,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_fight_bars_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			300,
-			15
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			783,
-			45,
-			300,
-			15
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_fight_bars_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			300,
-			15
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1754,
-			1,
-			300,
-			15
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_fight_bars_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			659,
-			20
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			783,
-			1,
-			659,
-			20
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_fight_bars_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			659,
-			20
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			847,
-			659,
-			20
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_fight_bars_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			916,
-			56
-		},
-		trim = {
-			235,
-            18,
-            235,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			783,
-			23,
-			446,
-			20
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1711,
-			1505,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3671,
-			3027,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3750,
-			3027,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3829,
-			3028,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3567,
-			3106,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3646,
-			3106,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3725,
-			3097,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3804,
-			3098,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3883,
-			3098,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_health_bar_icon_new0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			81,
-			72
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3725,
-			3167,
-			77,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bottom_powers_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1041,
-			62,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["cheat_unlock_towers"] = {
-		a_name = "gui_common.dds",
-		size = {
-			64,
-			54
-		},
-		trim = {
-			6,
-            1,
-            8,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			2600,
-			50,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["confirm_feedback_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			21,
-            9,
-            21,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1997,
-			18,
-			110,
-			54
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["confirm_feedback_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			21,
-            9,
-            23,
-            10
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2207,
-			1872,
-			108,
-			53
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			15,
-            6,
-            18,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1982,
-			3059,
-			119,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			11,
-            4,
-            14,
-            5
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1333,
-			464,
-			127,
-			63
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			9,
-            3,
-            11,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1723,
-			1151,
-			132,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["confirm_feedback_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			8,
-            3,
-            10,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1713,
-			1575,
-			134,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["confirm_feedback_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			7,
-            2,
-            8,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			141,
-			1233,
-			137,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			6,
-            2,
-            7,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1497,
-			750,
-			139,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			5,
-            1,
-            5,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			856,
-			3167,
-			142,
-			70
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			3,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			964,
-			709,
-			146,
-			72
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["confirm_feedback_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			152,
-			72
-		},
-		trim = {
-			2,
-            0,
-            2,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1417,
-			1738,
-			148,
-			72
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["confirm_feedback_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			92,
-			44
-		},
-		trim = {
-			0,
-            0,
-            89,
-            41
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["creepAlert"] = {
-		a_name = "gui_common.dds",
-		size = {
-			90,
-			90
-		},
-		trim = {
-			1,
-            1,
-            1,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3209,
-			2758,
-			88,
-			88
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["creepAlertArrow"] = {
-		a_name = "gui_common.dds",
-		size = {
-			26,
-			38
-		},
-		trim = {
-			1,
-            0,
-            1,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1193,
-			835,
-			24,
-			38
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			11,
-            35,
-            9,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1433,
-			1954,
-			134,
-			129
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            32,
-            7,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1649,
-			908,
-			139,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["effect_powerbuy_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            33,
-            7,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1649,
-			1030,
-			139,
-			119
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["effect_powerbuy_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            32,
-            7,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1598,
-			2729,
-			139,
-			120
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            26,
-            7,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1649,
-			768,
-			139,
-			138
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["effect_powerbuy_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            16,
-            7,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1712,
-			2040,
-			139,
-			136
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["effect_powerbuy_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			8,
-            8,
-            7,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1266,
-			1818,
-			139,
-			156
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			9,
-            0,
-            8,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			487,
-			708,
-			137,
-			151
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			9,
-            34,
-            8,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1471,
-			3001,
-			137,
-			117
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			9,
-            35,
-            9,
-            26
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2089,
-			633,
-			136,
-			115
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["effect_powerbuy_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			10,
-            24,
-            9,
-            27
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2999,
-			332,
-			135,
-			125
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["effect_powerbuy_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			176
-		},
-		trim = {
-			11,
-            13,
-            10,
-            27
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1463,
-			2729,
-			133,
-			136
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			11,
-            25,
-            11,
-            10
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2909,
-			2846,
-			86,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			6,
-            22,
-            5,
-            5
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2101,
-			2559,
-			97,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			2,
-            20,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2621,
-			104,
-			79
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			0,
-            18,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2641,
-			2583,
-			108,
-			82
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			2,
-            20,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2519,
-			104,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			6,
-            22,
-            5,
-            5
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2101,
-			2634,
-			97,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			9,
-            24,
-            9,
-            8
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3876,
-			379,
-			90,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			7,
-            23,
-            7,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			225,
-			94,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			5,
-            22,
-            6,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1573,
-			972,
-			97,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			3,
-            21,
-            3,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1711,
-			1401,
-			102,
-			77
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			3,
-            21,
-            3,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3209,
-			2848,
-			102,
-			77
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["error_feedback_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			3,
-            21,
-            3,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2457,
-			3068,
-			102,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			3,
-            21,
-            3,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3348,
-			3137,
-			102,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			108,
-			100
-		},
-		trim = {
-			3,
-            21,
-            3,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3567,
-			3027,
-			102,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["error_feedback_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			64,
-			60
-		},
-		trim = {
-			0,
-            0,
-            61,
-            57
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["freeze_gfx_corner"] = {
-		a_name = "gui_common.dds",
-		size = {
-			397,
-			320
-		},
-		trim = {
-			12,
-            0,
-            0,
-            8
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			460,
-			385,
-			312
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["freeze_gfx_side"] = {
-		a_name = "gui_common.dds",
-		size = {
-			320,
-			102
-		},
-		trim = {
-			0,
-            0,
-            0,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			262,
-			847,
-			320,
-			77
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gemsReward_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			35
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			859,
-			38,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gemsReward_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			35
-		},
-		trim = {
-			4,
-            3,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3912,
-			1020,
-			30,
-			29
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gold_gnome"] = {
-		a_name = "gui_common.dds",
-		size = {
-			166,
-			166
-		},
-		trim = {
-			3,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			677,
-			1014,
-			159,
-			166
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_armor_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			16,
-			24
-		},
-		trim = {
-			2,
-            1,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1075,
-			12,
-			22
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_armor_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			16,
-			24
-		},
-		trim = {
-			2,
-            1,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			351,
-			12,
-			22
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_armor_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			16,
-			24
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			262,
-			1169,
-			16,
-			24
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			5,
-            8,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1357,
-			298,
-			41,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			5,
-            8,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4054,
-			645,
-			43,
-			40
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			3,
-            6,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2103,
-			3115,
-			44,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			3,
-            6,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2149,
-			3115,
-			44,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			3,
-            6,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2149,
-			3115,
-			44,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			3,
-            6,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2856,
-			685,
-			44,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			3,
-            6,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3244,
-			2952,
-			45,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            6,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2976,
-			553,
-			43,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            8,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4054,
-			690,
-			43,
-			40
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            6,
-            4,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2508,
-			3196,
-			43,
-			41
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            6,
-            4,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			298,
-			43,
-			41
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            8,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4054,
-			735,
-			42,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            8,
-            6,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2553,
-			3196,
-			41,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["heart_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			4,
-            8,
-            6,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3908,
-			3028,
-			41,
-			39
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["heart_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			51,
-			51
-		},
-		trim = {
-			5,
-            8,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2902,
-			685,
-			41,
-			39
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_portrait_bars_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			104,
-			10
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			551,
-			462,
-			104,
-			10
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_portrait_bars_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			104,
-			10
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			770,
-			93,
-			104,
-			10
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_selected"] = {
-		a_name = "gui_common.dds",
-		size = {
-			134,
-			147
-		},
-		trim = {
-			0,
-            0,
-            131,
-            144
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_tombstone_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			50,
-			86
-		},
-		trim = {
-			3,
-            0,
-            0,
-            35
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2508,
-			3147,
-			47,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_tombstone_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			50,
-			80
-		},
-		trim = {
-			5,
-            0,
-            0,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2270,
-			1927,
-			45,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			63,
-            47,
-            70,
-            58
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			341,
-			1118,
-			59,
-			49
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			48,
-            42,
-            55,
-            45
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3844,
-			725,
-			89,
-			67
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			34,
-            37,
-            40,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1420,
-			2369,
-			118,
-			85
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			21,
-            31,
-            26,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1715,
-			1935,
-			145,
-			103
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			21,
-            32,
-            26,
-            21
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1537,
-			2626,
-			145,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			22,
-            25,
-            24,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			938,
-			146,
-			107
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			20,
-            22,
-            22,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1121,
-			861,
-			150,
-			110
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hud_bonusFx_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			17,
-            20,
-            19,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1313,
-			3043,
-			156,
-			112
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			17,
-            19,
-            19,
-            21
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1196,
-			224,
-			156,
-			114
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hud_bonusFx_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			16,
-            18,
-            17,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1422,
-			2090,
-			159,
-			116
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hud_bonusFx_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			14,
-            17,
-            16,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			929,
-			1992,
-			162,
-			117
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			13,
-            16,
-            15,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			761,
-			2181,
-			164,
-			119
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			21,
-            27,
-            26,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1863,
-			1826,
-			145,
-			107
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_bonusFx_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			21,
-            25,
-            24,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			612,
-			3090,
-			147,
-			109
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hud_bonusFx_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			20,
-            24,
-            22,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1537,
-			820,
-			150,
-			110
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hud_bonusFx_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			154
-		},
-		trim = {
-			21,
-            31,
-            26,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1862,
-			1935,
-			145,
-			103
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hud_buttons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			164
-		},
-		trim = {
-			24,
-            35,
-            27,
-            26
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1590,
-			3134,
-			109,
-			103
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ico_sell_0002_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			141
-		},
-		trim = {
-			24,
-            14,
-            19,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2866,
-			750,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["icon_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			7,
-            4,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1373,
-			1294,
-			31,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			0,
-            2,
-            0,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			458,
-			1118,
-			44,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["icon_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			2,
-            3,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1863,
-			1787,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			4,
-            3,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3844,
-			3168,
-			36,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			4,
-            2,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1333,
-			1294,
-			36,
-			38
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["icon_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			3,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			896,
-			38,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			6,
-            3,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2641,
-			2693,
-			32,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["icon_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3804,
-			3168,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			8,
-            3,
-            8,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1227,
-			2517,
-			28,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			6,
-            3,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2067,
-			2570,
-			32,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			2,
-            0,
-            2,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2694,
-			993,
-			40,
-			43
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			4,
-            2,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4054,
-			779,
-			36,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["icon_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			5,
-            2,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2270,
-			2022,
-			33,
-			38
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			13,
-            14,
-            123,
-            144
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3912,
-			1051,
-			26,
-			30
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			9,
-            10,
-            122,
-            139
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			534,
-			1499,
-			31,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			8,
-            8,
-            121,
-            124
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1462,
-			454,
-			33,
-			56
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			6,
-            7,
-            120,
-            121
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1271,
-			1294,
-			36,
-			60
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			5,
-            5,
-            25,
-            21
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			280,
-			1169,
-			132,
-			162
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			4,
-            4,
-            24,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1029,
-			391,
-			134,
-			166
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			4,
-            3,
-            23,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			838,
-			1013,
-			135,
-			168
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			3,
-            2,
-            22,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			315,
-			708,
-			137,
-			170
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			2,
-            0,
-            22,
-            14
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			194,
-			2373,
-			138,
-			174
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			0,
-            0,
-            21,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			334,
-			2373,
-			141,
-			175
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			2,
-            0,
-            21,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			499,
-			1040,
-			139,
-			176
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			1,
-            2,
-            21,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			785,
-			709,
-			140,
-			177
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			1,
-            4,
-            20,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			444,
-			1181,
-			141,
-			175
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			1,
-            6,
-            20,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			621,
-			1182,
-			141,
-			175
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			0,
-            7,
-            19,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			798,
-			1183,
-			143,
-			172
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			0,
-            9,
-            18,
-            10
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1370,
-			54,
-			144,
-			169
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			0,
-            11,
-            17,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1683,
-			21,
-			145,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0018"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			1,
-            13,
-            16,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1837,
-			185,
-			145,
-			162
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0019"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			3,
-            21,
-            16,
-            15
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			640,
-			693,
-			143,
-			152
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0020"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			4,
-            19,
-            15,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			972,
-			1183,
-			143,
-			153
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0021"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			3,
-            20,
-            17,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1127,
-			1180,
-			142,
-			150
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0022"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			5,
-            22,
-            17,
-            21
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1140,
-			3094,
-			140,
-			145
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0023"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			6,
-            23,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1000,
-			3094,
-			138,
-			143
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0024"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			28,
-            25,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1999,
-			351,
-			116,
-			141
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0025"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			29,
-            26,
-            19,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1996,
-			2077,
-			114,
-			139
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0026"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			30,
-            27,
-            20,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2089,
-			494,
-			112,
-			137
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0027"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			31,
-            28,
-            21,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2206,
-			733,
-			110,
-			136
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_fx_0028"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			188
-		},
-		trim = {
-			121,
-            32,
-            23,
-            134
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2140,
-			2057,
-			18,
-			22
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            117,
-            117
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1945,
-			2570,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1982,
-			2815,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1982,
-			2937,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2078,
-			2193,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2078,
-			2315,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2200,
-			2057,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2200,
-			2179,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2200,
-			2301,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2002,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2124,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2246,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2368,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2200,
-			2423,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2078,
-			2437,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2490,
-			120,
-			120
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_animation_ingame_achievements_ui_glow_fx_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			0,
-            0,
-            117,
-            117
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_achievement_ui_image_ingame_achievements_ui_"] = {
-		a_name = "gui_common.dds",
-		size = {
-			454,
-			116
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			23,
-			847,
-			454,
-			116
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_action_icon_frame"] = {
-		a_name = "gui_common.dds",
-		size = {
-			148,
-			164
-		},
-		trim = {
-			21,
-            37,
-            23,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2101,
-			2709,
-			104,
-			104
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_action_icon_frame_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			220,
-			232
-		},
-		trim = {
-			47,
-            54,
-            48,
-            46
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1595,
-			2870,
-			125,
-			132
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_bg"] = {
-		a_name = "gui_common.dds",
-		size = {
-			268,
-			304
-		},
-		trim = {
-			28,
-            29,
-            28,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			657,
-			223,
-			212,
-			251
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_bg_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			328,
-			368
-		},
-		trim = {
-			46,
-            45,
-            45,
-            40
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			372,
-			223,
-			237,
-			283
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_gui_portraits_hero_doors_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            28,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			554,
-			2934,
-			165,
-			154
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            28,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3612,
-			215,
-			165,
-			154
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            29,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1038,
-			694,
-			165,
-			153
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_gui_portraits_hero_doors_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            30,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			975,
-			1013,
-			165,
-			152
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_gui_portraits_hero_doors_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            32,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			954,
-			861,
-			165,
-			150
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            35,
-            19,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			3091,
-			165,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            39,
-            19,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1129,
-			1013,
-			165,
-			138
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_gui_portraits_hero_doors_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            43,
-            19,
-            28
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1266,
-			1959,
-			165,
-			129
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            49,
-            19,
-            34
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1093,
-			2084,
-			165,
-			117
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            56,
-            19,
-            40
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			670,
-			847,
-			165,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_gui_portraits_hero_doors_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            64,
-            19,
-            50
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			583,
-			1850,
-			165,
-			86
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            76,
-            19,
-            62
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			592,
-			2280,
-			165,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_portraits_hero_doors_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			208,
-			200
-		},
-		trim = {
-			24,
-            104,
-            181,
-            84
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			515,
-			2744,
-			3,
-			12
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_ring"] = {
-		a_name = "gui_common.dds",
-		size = {
-			444,
-			444
-		},
-		trim = {
-			36,
-            49,
-            39,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			93,
-			369,
-			365
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_gui_top_info_background"] = {
-		a_name = "gui_common.dds",
-		size = {
-			432,
-			168
-		},
-		trim = {
-			18,
-            20,
-            18,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			372,
-			93,
-			396,
-			128
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_hero_cooldown"] = {
-		a_name = "gui_common.dds",
-		size = {
-			200,
-			200
-		},
-		trim = {
-			17,
-            23,
-            17,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			192,
-			166,
-			154
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_hero_portrait_bars_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			48
-		},
-		trim = {
-			19,
-            18,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			426,
-			1499,
-			106,
-			12
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_hero_portrait_bars_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			48
-		},
-		trim = {
-			19,
-            18,
-            19,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			723,
-			3209,
-			106,
-			12
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_hud_buttons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			212
-		},
-		trim = {
-			32,
-            59,
-            33,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1980,
-			2692,
-			119,
-			121
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_hud_buttons_0001_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			240,
-			264
-		},
-		trim = {
-			53,
-            68,
-            53,
-            51
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1197,
-			382,
-			134,
-			145
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			204
-		},
-		trim = {
-			34,
-            48,
-            35,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			437,
-			2963,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0001_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			204
-		},
-		trim = {
-			34,
-            48,
-            35,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			437,
-			2963,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0001_disabled_turn_off."] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			204
-		},
-		trim = {
-			34,
-            48,
-            35,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2089,
-			771,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0001_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			204
-		},
-		trim = {
-			34,
-            48,
-            35,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2216,
-			845,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_ico_sell_0001_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			240,
-			260
-		},
-		trim = {
-			55,
-            68,
-            55,
-            51
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1556,
-			1299,
-			130,
-			141
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0001_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			184,
-			204
-		},
-		trim = {
-			34,
-            48,
-            35,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			437,
-			2963,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_ico_sell_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			204
-		},
-		trim = {
-			32,
-            48,
-            33,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1948,
-			2453,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_ico_sell_0002_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			204
-		},
-		trim = {
-			32,
-            48,
-            33,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1948,
-			2453,
-			115,
-			126
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_ico_sell_0002_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			240,
-			260
-		},
-		trim = {
-			55,
-            68,
-            55,
-            51
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1853,
-			2040,
-			130,
-			141
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1104,
-			2365,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_items_button_doors_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1311,
-			2737,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1313,
-			2890,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1193,
-			529,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1193,
-			682,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1233,
-			835,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1269,
-			988,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1271,
-			1141,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1345,
-			529,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1345,
-			682,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1385,
-			835,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1421,
-			988,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_doors_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			188,
-			192
-		},
-		trim = {
-			19,
-            20,
-            18,
-            22
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1423,
-			1141,
-			151,
-			150
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_frame"] = {
-		a_name = "gui_common.dds",
-		size = {
-			244,
-			244
-		},
-		trim = {
-			28,
-            33,
-            28,
-            24
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			520,
-			2744,
-			188,
-			187
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_frame_buy"] = {
-		a_name = "gui_common.dds",
-		size = {
-			244,
-			252
-		},
-		trim = {
-			28,
-            37,
-            28,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			197,
-			2183,
-			188,
-			196
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_frame_buy_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			300,
-			288
-		},
-		trim = {
-			44,
-            29,
-            44,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			23,
-			1303,
-			212,
-			230
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_items_button_frame_highlight"] = {
-		a_name = "gui_common.dds",
-		size = {
-			300,
-			304
-		},
-		trim = {
-			44,
-            45,
-            44,
-            39
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3842,
-			1,
-			212,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_frame_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			300,
-			288
-		},
-		trim = {
-			44,
-            29,
-            44,
-            31
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3612,
-			1,
-			212,
-			228
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_items_button_frame_selected"] = {
-		a_name = "gui_common.dds",
-		size = {
-			244,
-			248
-		},
-		trim = {
-			28,
-            35,
-            28,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			515,
-			2548,
-			188,
-			194
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_items_button_number_frame"] = {
-		a_name = "gui_common.dds",
-		size = {
-			176,
-			268
-		},
-		trim = {
-			32,
-            174,
-            28,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2140,
-			1809,
-			116,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_main_icons_over"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			204
-		},
-		trim = {
-			22,
-            37,
-            22,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3946,
-			215,
-			148,
-			148
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_main_icons_over_highlighted"] = {
-		a_name = "gui_common.dds",
-		size = {
-			192,
-			204
-		},
-		trim = {
-			22,
-            37,
-            22,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3946,
-			365,
-			148,
-			148
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_main_icons_over_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			228,
-			228
-		},
-		trim = {
-			32,
-            32,
-            32,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			761,
-			2013,
-			164,
-			166
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            26,
-            29,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1299,
-			2576,
-			156,
-			159
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            22,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2836,
-			159,
-			163,
-			165
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1029,
-			224,
-			165,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1203,
-			54,
-			165,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1026,
-			527,
-			165,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1516,
-			21,
-			165,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1830,
-			18,
-			165,
-			165
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            48
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2001,
-			159,
-			165,
-			164
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            48
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2168,
-			159,
-			165,
-			164
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            48
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2335,
-			159,
-			165,
-			164
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            48
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2502,
-			159,
-			165,
-			164
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			27,
-            20,
-            20,
-            50
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3779,
-			215,
-			165,
-			162
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			212,
-			232
-		},
-		trim = {
-			185,
-            19,
-            20,
-            206
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1781,
-			1575,
-			7,
-			7
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			0,
-            0,
-            141,
-            125
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			0,
-            0,
-            141,
-            125
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2117,
-			473,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			55,
-            53,
-            55,
-            53
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1540,
-			2090,
-			34,
-			22
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			50,
-            47,
-            49,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3285,
-			3018,
-			45,
-			34
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			45,
-            42,
-            45,
-            42
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			402,
-			1118,
-			54,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			37,
-            31,
-            36,
-            31
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1457,
-			2656,
-			71,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			44,
-            40,
-            44,
-            41
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3143,
-			2668,
-			56,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			47,
-            44,
-            47,
-            45
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2447,
-			1990,
-			50,
-			39
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			53,
-            50,
-            52,
-            51
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1997,
-			130,
-			39,
-			27
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_doors_light_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			55,
-            52,
-            54,
-            53
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1227,
-			2557,
-			35,
-			23
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			341,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_doors_light_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			341,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_frame"] = {
-		a_name = "gui_common.dds",
-		size = {
-			248,
-			252
-		},
-		trim = {
-			26,
-            23,
-            27,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			386,
-			1742,
-			195,
-			206
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_frame_active"] = {
-		a_name = "gui_common.dds",
-		size = {
-			248,
-			252
-		},
-		trim = {
-			26,
-            23,
-            27,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			392,
-			1950,
-			195,
-			206
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_frame_active_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			312,
-			336
-		},
-		trim = {
-			48,
-            53,
-            49,
-            50
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			791,
-			492,
-			215,
-			233
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_frame_inactive"] = {
-		a_name = "gui_common.dds",
-		size = {
-			248,
-			252
-		},
-		trim = {
-			26,
-            23,
-            27,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			395,
-			2158,
-			195,
-			206
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_frame_inactive_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			312,
-			336
-		},
-		trim = {
-			48,
-            53,
-            49,
-            50
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3377,
-			1,
-			215,
-			233
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_button_frame_select"] = {
-		a_name = "gui_common.dds",
-		size = {
-			248,
-			252
-		},
-		trim = {
-			26,
-            23,
-            27,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			318,
-			2550,
-			195,
-			206
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_button_frame_select_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			312,
-			324
-		},
-		trim = {
-			48,
-            42,
-            49,
-            44
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			551,
-			476,
-			215,
-			238
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["ingame_ui_power_rank_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			68,
-			68
-		},
-		trim = {
-			18,
-            18,
-            18,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2067,
-			2609,
-			32,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_power_rank_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			68,
-			68
-		},
-		trim = {
-			18,
-            18,
-            18,
-            18
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2067,
-			2643,
-			32,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_price_tag"] = {
-		a_name = "gui_common.dds",
-		size = {
-			156,
-			132
-		},
-		trim = {
-			33,
-            44,
-            33,
-            36
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2511,
-			1977,
-			90,
-			52
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_special_icons_bg"] = {
-		a_name = "gui_common.dds",
-		size = {
-			196,
-			200
-		},
-		trim = {
-			28,
-            37,
-            28,
-            27
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2857,
-			324,
-			140,
-			136
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_special_icons_bg_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			224,
-			224
-		},
-		trim = {
-			33,
-            31,
-            33,
-            30
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			931,
-			1501,
-			158,
-			163
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_sub_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			156,
-			160
-		},
-		trim = {
-			25,
-            34,
-            26,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			3026,
-			105,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_sub_icons_0001_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			156,
-			160
-		},
-		trim = {
-			25,
-            34,
-            26,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			3026,
-			105,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_sub_icons_0001_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			216,
-			220
-		},
-		trim = {
-			44,
-            47,
-            44,
-            41
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1465,
-			2867,
-			128,
-			132
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["ingame_ui_sub_icons_0001_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			156,
-			160
-		},
-		trim = {
-			25,
-            34,
-            26,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			3026,
-			105,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_cluster_bomb"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			168,
-			3091,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_cluster_bomb_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			316,
-			3091,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_deaths_touch"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			464,
-			3091,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_deaths_touch_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1689,
-			324,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_bolin"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1408,
-			1294,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_bolin_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1415,
-			1442,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_denas"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1417,
-			1590,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_denas_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1497,
-			454,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_dragon"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1497,
-			602,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_dragon_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1645,
-			472,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_dwarf"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1645,
-			620,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_dwarf_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1793,
-			494,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_elora"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1793,
-			642,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_elora_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			790,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_elves_archer"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1941,
-			494,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_elves_archer_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1941,
-			642,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_gerald"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			790,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_gerald_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			938,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_hacksaw"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2117,
-			325,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_hacksaw_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2265,
-			325,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_ignus"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2413,
-			325,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_ignus_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2561,
-			325,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_ingvar"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2709,
-			325,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_ingvar_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			348,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_magnus"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3284,
-			351,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_magnus_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			365,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_oni"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3580,
-			371,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_oni_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3728,
-			379,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_thor"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			1047,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_hero_thor_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			1086,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_kr4_hero_malik"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1575,
-			1151,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_kr4_hero_malik_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1563,
-			1442,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_loot_box"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1565,
-			1590,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_loot_box_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1567,
-			1738,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_medical_kit"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			1195,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_medical_kit_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			1234,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_portable_coil"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1567,
-			1886,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_portable_coil_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1564,
-			2034,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_scroll_of_spaceshift"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1540,
-			2182,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_scroll_of_spaceshift_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1540,
-			2330,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_second_breath"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1537,
-			2478,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_second_breath_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			1343,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_summon_blackburn"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			1382,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_summon_blackburn_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1790,
-			1491,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_veznan_wrath"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1938,
-			1530,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_veznan_wrath_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1781,
-			1639,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_winter_age"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1929,
-			1678,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_icons_winter_age_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			162,
-			160
-		},
-		trim = {
-			8,
-            7,
-            8,
-            7
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1715,
-			1787,
-			146,
-			146
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["lives_particle"] = {
-		a_name = "gui_common.dds",
-		size = {
-			22,
-			22
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2935,
-			726,
-			22,
-			22
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2624,
-			2131,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0001_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2624,
-			2244,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0001_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2624,
-			2357,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0001_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2624,
-			2470,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1677,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0002_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2180,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0002_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2293,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0002_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2406,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1877,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0003_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3225,
-			1880,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0003_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3338,
-			1894,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0003_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3451,
-			1900,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3564,
-			1903,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0004_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3677,
-			1903,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0004_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3109,
-			1989,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0004_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3222,
-			1992,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3335,
-			2006,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0005_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3448,
-			2012,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0005_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3561,
-			2015,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0005_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3674,
-			2015,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3080,
-			2101,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0006_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3080,
-			2214,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0006_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3080,
-			2327,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0006_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3192,
-			2104,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3192,
-			2217,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0007_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3192,
-			2330,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0007_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			2118,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0007_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			2231,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			2344,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0008_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3080,
-			2440,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0008_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3192,
-			2443,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0008_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			2457,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3416,
-			2124,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0009_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3416,
-			2237,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0009_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3416,
-			2350,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0009_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3416,
-			2463,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3528,
-			2127,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0010_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3528,
-			2240,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0010_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3640,
-			2127,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0010_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3528,
-			2353,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3640,
-			2240,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0011_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3640,
-			2353,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0011_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3528,
-			2466,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0011_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3641,
-			2466,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3074,
-			2553,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0012_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3187,
-			2556,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0012_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3300,
-			2570,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0012_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3413,
-			2576,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3526,
-			2578,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0013_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3639,
-			2579,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0013_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2985,
-			2729,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0013_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3752,
-			2127,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3752,
-			2240,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0014_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3752,
-			2353,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0014_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3753,
-			2466,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0014_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3752,
-			2579,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3787,
-			2015,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0015_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3790,
-			1903,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0015_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2067,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0015_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3864,
-			2127,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3864,
-			2240,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0016_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3864,
-			2353,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0016_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3865,
-			2466,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0016_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3865,
-			2579,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3900,
-			2015,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0017_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3976,
-			2127,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0017_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3976,
-			2240,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0017_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3976,
-			2353,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0018"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3977,
-			2466,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0018_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3977,
-			2579,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0018_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1102,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0018_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1215,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0019"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1328,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0019_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1441,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0020"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			141
-		},
-		trim = {
-			24,
-            14,
-            19,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2857,
-			462,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_00020"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1790,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0020_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			154,
-			141
-		},
-		trim = {
-			24,
-            14,
-            19,
-            19
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3832,
-			794,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_00020_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1955,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_00020_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2067,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0020_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1554,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0030"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1422,
-			2251,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0030_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1419,
-			2456,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0030_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1980,
-			3120,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0030_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2104,
-			2815,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0031"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2856,
-			572,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0031_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3832,
-			907,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0031_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3942,
-			760,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0031_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3944,
-			873,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0032"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3944,
-			986,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0032_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1099,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0032_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1212,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0032_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1325,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0033"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1438,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0033_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1551,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0033_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3097,
-			2726,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0033_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3300,
-			2682,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0034"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3413,
-			2688,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0034_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3526,
-			2690,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0034_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3639,
-			2691,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0034_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3752,
-			2691,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0035"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3865,
-			2692,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0035_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3978,
-			2692,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0035_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3299,
-			2794,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0035_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3412,
-			2800,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0036"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3525,
-			2802,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0036_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3638,
-			2803,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0036_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3751,
-			2803,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0036_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3864,
-			2804,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0037"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3977,
-			2805,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0037_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3097,
-			2839,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0037_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2985,
-			2842,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0037_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3288,
-			2906,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0038"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3401,
-			2912,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0038_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3514,
-			2914,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0038_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3627,
-			2915,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0038_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3740,
-			2915,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0039"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3853,
-			2916,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0039_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3966,
-			2917,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0039_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3808,
-			1667,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0039_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3920,
-			1664,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0040"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3804,
-			1780,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0040_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2457,
-			2843,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0040_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2570,
-			2843,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0040_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2683,
-			2845,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0041"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2796,
-			2845,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0041_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2457,
-			2955,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0041_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2569,
-			2955,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0041_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2681,
-			2957,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0042"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2794,
-			2957,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0042_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2561,
-			3068,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0042_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2674,
-			3069,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0042_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2787,
-			3069,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0043"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2900,
-			3069,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0043_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2907,
-			2957,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["main_icons_0043_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			2955,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0043_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3132,
-			2952,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0105"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3012,
-			3069,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0105_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3124,
-			3068,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0105_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3236,
-			3065,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_0105_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			5,
-            5,
-            5,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3348,
-			3024,
-			110,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["main_icons_turnOff"] = {
-		a_name = "gui_common.dds",
-		size = {
-			186,
-			179
-		},
-		trim = {
-			40,
-            38,
-            36,
-            36
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2344,
-			855,
-			110,
-			105
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["menu_bottom_bg_left_circle"] = {
-		a_name = "gui_common.dds",
-		size = {
-			397,
-			141
-		},
-		trim = {
-			9,
-            11,
-            4,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			141,
-			847,
-			384,
-			119
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["menu_bottom_lifeBar"] = {
-		a_name = "gui_common.dds",
-		size = {
-			201,
-			29
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4064,
-			1,
-			201,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["menu_bottom_lifeBar_bg_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			201,
-			29
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1231,
-			23,
-			201,
-			29
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["menu_bottom_lifeBar_bg_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			275,
-			45
-		},
-		trim = {
-			0,
-            1,
-            255,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			592,
-			2344,
-			20,
-			43
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["nextwave_coin_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            14,
-            3,
-            8
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			759,
-			2302,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            11,
-            3,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			598,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            9,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			933,
-			35,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            6,
-            3,
-            14
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			934,
-			2435,
-			35,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            6,
-            3,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			636,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            4,
-            3,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			972,
-			35,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            4,
-            3,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			1011,
-			35,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            4,
-            3,
-            17
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			1050,
-			35,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            4,
-            3,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			801,
-			2475,
-			35,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            6,
-            3,
-            16
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4032,
-			1099,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            8,
-            3,
-            14
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4032,
-			1137,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            9,
-            3,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4054,
-			819,
-			35,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            12,
-            3,
-            9
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3923,
-			3168,
-			35,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["nextwave_coin_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            16,
-            3,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4032,
-			1175,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["nextwave_coin_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			38,
-			58
-		},
-		trim = {
-			0,
-            0,
-            35,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_area_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			46,
-            31,
-            47,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			871,
-			223,
-			267,
-			156
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			341,
-			847,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			160,
-			2549,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			160,
-			2820,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2056,
-			1,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_area_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            28
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			2549,
-			269,
-			157
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            28
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			2820,
-			269,
-			157
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_area_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2327,
-			1,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_area_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2598,
-			1,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_area_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			360,
-			216
-		},
-		trim = {
-			45,
-            31,
-            46,
-            29
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2869,
-			1,
-			269,
-			156
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_32_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			29
-		},
-		trim = {
-			0,
-            0,
-            1,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			668,
-			2517,
-			31,
-			29
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_32_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			29
-		},
-		trim = {
-			0,
-            0,
-            0,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			520,
-			2934,
-			32,
-			27
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_48_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			48,
-			44
-		},
-		trim = {
-			0,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2270,
-			1976,
-			45,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_48_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			48,
-			44
-		},
-		trim = {
-			0,
-            0,
-            0,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2970,
-			511,
-			48,
-			40
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_64_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			64,
-			59
-		},
-		trim = {
-			0,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3081,
-			2665,
-			60,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_hand_64_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			64,
-			59
-		},
-		trim = {
-			0,
-            0,
-            0,
-            5
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1715,
-			1711,
-			64,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_pirate_cannons"] = {
-		a_name = "gui_common.dds",
-		size = {
-			158,
-			87
-		},
-		trim = {
-			47,
-            23,
-            47,
-            25
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3244,
-			2999,
-			64,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_point_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			2967,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            5,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			3031,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2104,
-			3051,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			3018,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			3082,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            9,
-            7,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2137,
-			2077,
-			114,
-			61
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_point_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2921,
-			2729,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_point_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			3095,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_point_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2447,
-			1872,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_point_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2603,
-			1952,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			668,
-			2344,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			801,
-			2302,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			705,
-			2517,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			709,
-			2690,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			838,
-			2475,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			842,
-			2648,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			721,
-			2863,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			854,
-			2821,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			723,
-			3036,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			856,
-			2994,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1516,
-			188,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_power_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3003,
-			159,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			218,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_power_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			950,
-			1328,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_power_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1516,
-			321,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_power_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1093,
-			1818,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_power_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1093,
-			1951,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_power_reinforcements"] = {
-		a_name = "gui_common.dds",
-		size = {
-			180,
-			180
-		},
-		trim = {
-			26,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			971,
-			2435,
-			131,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pointer_set_rally_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3368,
-			499,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            5,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2031,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2149,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3664,
-			519,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3368,
-			616,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            9,
-            7,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2957,
-			2613,
-			114,
-			61
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			5,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3664,
-			636,
-			115,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2267,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2385,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pointer_set_rally_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			126,
-			76
-		},
-		trim = {
-			4,
-            8,
-            6,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2560,
-			2503,
-			116,
-			62
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["portraits_power_hero_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1091,
-			1494,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1093,
-			1656,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1246,
-			1332,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1253,
-			1494,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1255,
-			1656,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1837,
-			332,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			931,
-			1830,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			927,
-			2111,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			934,
-			2273,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			975,
-			2608,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			987,
-			2770,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			989,
-			2932,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1260,
-			2090,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1096,
-			2203,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1258,
-			2252,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1257,
-			2414,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_power_hero_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1137,
-			2608,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			0,
-            0,
-            141,
-            125
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			0,
-            0,
-            141,
-            125
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2117,
-			473,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			55,
-            53,
-            55,
-            53
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1540,
-			2090,
-			34,
-			22
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			50,
-            47,
-            49,
-            47
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3285,
-			3018,
-			45,
-			34
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			45,
-            42,
-            45,
-            42
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			402,
-			1118,
-			54,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			37,
-            31,
-            36,
-            31
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1457,
-			2656,
-			71,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			44,
-            40,
-            44,
-            41
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3143,
-			2668,
-			56,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			47,
-            44,
-            47,
-            45
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2447,
-			1990,
-			50,
-			39
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			53,
-            50,
-            52,
-            51
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1997,
-			130,
-			39,
-			27
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_button_doors_light_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			55,
-            52,
-            54,
-            53
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1227,
-			2557,
-			35,
-			23
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			341,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_doors_light_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			144,
-			128
-		},
-		trim = {
-			57,
-            54,
-            56,
-            55
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1312,
-			341,
-			31,
-			19
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_button_frame_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			240,
-			244
-		},
-		trim = {
-			3,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			315,
-			462,
-			234,
-			244
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_loading"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1149,
-			2770,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			24,
-            25,
-            33,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			426,
-			1324,
-			173,
-			173
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			24,
-            25,
-            33,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			601,
-			1325,
-			173,
-			173
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			24,
-            25,
-            33,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			583,
-			1500,
-			173,
-			173
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			25,
-            26,
-            33,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			776,
-			1328,
-			172,
-			171
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			25,
-            27,
-            34,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			758,
-			1501,
-			171,
-			170
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			25,
-            27,
-            34,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			758,
-			1673,
-			171,
-			170
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			26,
-            27,
-            35,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			589,
-			1938,
-			169,
-			170
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			27,
-            28,
-            35,
-            35
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			592,
-			2110,
-			168,
-			167
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_portrait_glow_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			27,
-            29,
-            36,
-            35
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			760,
-			1845,
-			167,
-			166
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			28,
-            30,
-            37,
-            36
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2669,
-			159,
-			165,
-			164
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_glow_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			30,
-            32,
-            38,
-            38
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			931,
-			1666,
-			162,
-			160
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["power_portrait_glow_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			30,
-            32,
-            39,
-            38
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1083,
-			1332,
-			161,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_reinforcement_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			160,
-			160
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1151,
-			2932,
-			160,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["power_portrait_reinforcement_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			230,
-			230
-		},
-		trim = {
-			24,
-            25,
-            33,
-            32
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			583,
-			1675,
-			173,
-			173
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1287,
-			3157,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["quickmenu_action_icons_0001_hover"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1688,
-			1299,
-			100,
-			100
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0001_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1287,
-			3157,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["quickmenu_action_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1367,
-			3157,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["quickmenu_action_icons_0002_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1447,
-			3157,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["quickmenu_action_icons_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1457,
-			2574,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["quickmenu_action_icons_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2098,
-			3159,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2180,
-			3159,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2262,
-			3159,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2344,
-			3159,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["quickmenu_action_icons_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2426,
-			3159,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			43,
-            132,
-            77,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			776,
-			851,
-			176,
-			160
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			48,
-            123,
-            57,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			499,
-			847,
-			191,
-			169
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["reload_skill_reload_skill_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			55,
-            114,
-            52,
-            138
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			477,
-			2366,
-			189,
-			180
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			34,
-            105,
-            51,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			197,
-			1757,
-			211,
-			187
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["reload_skill_reload_skill_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			36,
-            97,
-            52,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			386,
-			1532,
-			208,
-			195
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["reload_skill_reload_skill_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			42,
-            89,
-            54,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			318,
-			2758,
-			200,
-			203
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			47,
-            81,
-            56,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			197,
-			1970,
-			193,
-			211
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			49,
-            72,
-            59,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			196,
-			1535,
-			188,
-			220
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			47,
-            65,
-            62,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			237,
-			1303,
-			187,
-			227
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			43,
-            57,
-            64,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3140,
-			1,
-			189,
-			235
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["reload_skill_reload_skill_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			38,
-            50,
-            67,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			2305,
-			191,
-			242
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			33,
-            43,
-            69,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			2054,
-			194,
-			249
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			31,
-            37,
-            71,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			1797,
-			194,
-			255
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			33,
-            32,
-            70,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1,
-			1535,
-			193,
-			260
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			71,
-            36,
-            66,
-            140
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			783,
-			62,
-			159,
-			256
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["reload_skill_reload_skill_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			105,
-            106,
-            156,
-            221
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2954,
-			863,
-			35,
-			105
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["reload_skill_reload_skill_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			296,
-			432
-		},
-		trim = {
-			0,
-            0,
-            293,
-            429
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1954,
-			3,
-			3
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			2851,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0001_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2031,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0001_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2031,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0001_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			2851,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2147,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0002_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2263,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0002_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2263,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0002_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2147,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2379,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0003_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2495,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0003_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2495,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0003_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2379,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2611,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0004_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2457,
-			2727,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0004_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2457,
-			2727,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0004_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2444,
-			2611,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2033,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0005_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2033,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0005_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2033,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0005_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2033,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2149,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0006_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2149,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0006_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2149,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0006_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2149,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2265,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0007_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2265,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0007_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2265,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0007_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2265,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2381,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0008_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2381,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0008_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2381,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0008_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2381,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2497,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0009_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2497,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0009_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2852,
-			2497,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0009_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2736,
-			2497,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2573,
-			2727,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0010_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2725,
-			2613,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0010_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2725,
-			2613,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0010_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2573,
-			2727,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2841,
-			2613,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0011_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2689,
-			2729,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0011_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2689,
-			2729,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0011_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2841,
-			2613,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2805,
-			2729,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0012_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			459,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0012_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			459,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0012_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2805,
-			2729,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0013"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			496,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0013_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			499,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0013_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			499,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0013_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			496,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0014"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			513,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0014_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3548,
-			519,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0014_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3548,
-			519,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0014_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			513,
-			114,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0015"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            3,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			2782,
-			116,
-			115
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0015_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            4,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			2900,
-			116,
-			115
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0015_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            4,
-            2,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			2900,
-			116,
-			115
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0015_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			2,
-            3,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2222,
-			2782,
-			116,
-			115
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0016"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            3,
-            2,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2207,
-			2666,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0016_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            3,
-            2,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3728,
-			527,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0016_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            3,
-            2,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3728,
-			527,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0016_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            3,
-            2,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2207,
-			2666,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["special_icons_0017"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			575,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0017_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			612,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0017_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			612,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0017_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			575,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0018"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			615,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0018_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			629,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0018_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3432,
-			629,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0018_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			615,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0019"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3548,
-			635,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0019_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3728,
-			642,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0019_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3728,
-			642,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0019_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3548,
-			635,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0020"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            1,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2104,
-			2933,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0020_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            1,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2104,
-			2933,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0020_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            1,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			2733,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0020_disabled_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            1,
-            1
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2339,
-			2733,
-			116,
-			116
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0021"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3938,
-			645,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0021_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			690,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0021_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			690,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0021_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3938,
-			645,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0022"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			727,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0022_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			730,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0022_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			730,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0022_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			727,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0023"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			805,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0023_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			842,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0023_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			842,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0023_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			805,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0024"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			845,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0024_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3368,
-			744,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0024_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3368,
-			859,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0024_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3484,
-			750,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0025"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3484,
-			865,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0025_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3600,
-			753,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0025_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3600,
-			868,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0025_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3716,
-			757,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0026"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3716,
-			872,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0026_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3020,
-			920,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0026_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1035,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0026_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1150,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0027"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1265,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0027_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1380,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0027_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1495,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0027_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1610,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0028"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1725,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0028_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2996,
-			1840,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0028_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3136,
-			957,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0028_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3252,
-			960,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0029"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3368,
-			974,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0029_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3484,
-			980,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0029_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3600,
-			983,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0029_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3716,
-			987,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0030"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1072,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0030_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1187,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0030_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1302,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0030_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1417,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0031"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1532,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0031_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1647,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0031_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1762,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0031_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1075,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0032"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1190,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0032_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1305,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0032_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1420,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0032_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1535,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0033"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1650,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0033_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3228,
-			1765,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0033_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1089,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0033_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1204,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0034"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1319,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0034_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1434,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0034_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1549,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0034_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1664,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0035"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3344,
-			1779,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0035_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1095,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0035_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1210,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0035_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1325,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0036"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1440,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0036_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1555,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0036_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1670,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0036_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3460,
-			1785,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0037"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1098,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0037_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1213,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0037_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1328,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0037_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			3,
-            3,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1443,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0038"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1558,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0038_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1673,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0038_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3576,
-			1788,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0038_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1102,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0039"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1217,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0039_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1332,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0039_disabled_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1447,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["special_icons_0039_turn_off"] = {
-		a_name = "gui_common.dds",
-		size = {
-			120,
-			120
-		},
-		trim = {
-			4,
-            4,
-            2,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3692,
-			1562,
-			114,
-			113
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["sub_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			122
-		},
-		trim = {
-			4,
-            0,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2200,
-			2545,
-			120,
-			119
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["sub_icons_0002_disabled"] = {
-		a_name = "gui_common.dds",
-		size = {
-			128,
-			122
-		},
-		trim = {
-			4,
-            0,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2322,
-			2612,
-			120,
-			119
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			7,
-            4,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1373,
-			1294,
-			31,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			0,
-            2,
-            0,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			458,
-			1118,
-			44,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["tooltip_icons_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			2,
-            3,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1863,
-			1787,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			4,
-            3,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3844,
-			3168,
-			36,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			4,
-            2,
-            4,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1333,
-			1294,
-			36,
-			38
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["tooltip_icons_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			3,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4056,
-			896,
-			38,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			6,
-            3,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2641,
-			2693,
-			32,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["tooltip_icons_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			58,
-			51
-		},
-		trim = {
-			4,
-            1,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2970,
-			462,
-			48,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			8,
-            3,
-            8,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1227,
-			2517,
-			28,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tooltip_icons_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			44,
-			43
-		},
-		trim = {
-			6,
-            3,
-            6,
-            3
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2067,
-			2570,
-			32,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["tower_menu_action_icons_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			10,
-            11,
-            10,
-            11
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3832,
-			1020,
-			80,
-			78
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["tutorial_circle_glow"] = {
-		a_name = "gui_common.dds",
-		size = {
-			164,
-			158
-		},
-		trim = {
-			26,
-            25,
-            25,
-            23
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2624,
-			2016,
-			113,
-			110
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["wavealert"] = {
-		a_name = "gui_common.dds",
-		size = {
-			70,
-			70
-		},
-		trim = {
-			2,
-            2,
-            2,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1573,
-			1071,
-			66,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wavealert_arrow"] = {
-		a_name = "gui_common.dds",
-		size = {
-			26,
-			26
-		},
-		trim = {
-			1,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4069,
-			1089,
-			25,
-			26
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			6,
-            6,
-            5,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3209,
-			2668,
-			89,
-			88
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			0,
-            6,
-            0,
-            6
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3844,
-			541,
-			100,
-			88
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			7,
-            6,
-            7,
-            8
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2606,
-			954,
-			86,
-			86
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			100,
-			100
-		},
-		trim = {
-			31,
-            33,
-            30,
-            33
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3882,
-			3168,
-			39,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_selected"] = {
-		a_name = "gui_common.dds",
-		size = {
-			143,
-			143
-		},
-		trim = {
-			1,
-            1,
-            1,
-            2
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1424,
-			1812,
-			141,
-			140
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_tooltip_arrow"] = {
-		a_name = "gui_common.dds",
-		size = {
-			16,
-			16
-		},
-		trim = {
-			0,
-            2,
-            2,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			791,
-			476,
-			14,
-			14
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveFlag_tooltip_bg"] = {
-		a_name = "gui_common.dds",
-		size = {
-			308,
-			18
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1444,
-			1,
-			308,
-			18
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0000"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            15,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1684,
-			2702,
-			25,
-			33
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveReward_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			5,
-            15,
-            4,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1233,
-			988,
-			23,
-			32
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveReward_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            15,
-            4,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3340,
-			192,
-			24,
-			32
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveReward_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            15,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1287,
-			3094,
-			24,
-			33
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			3,
-            15,
-            3,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2968,
-			2033,
-			26,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            15,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1903,
-			1787,
-			24,
-			33
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            14,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3304,
-			192,
-			24,
-			34
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveReward_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			4,
-            15,
-            4,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3080,
-			2067,
-			24,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			3,
-            15,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2195,
-			3115,
-			25,
-			33
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			3,
-            15,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3321,
-			3018,
-			25,
-			33
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveReward_0010"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			3,
-            15,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2680,
-			2693,
-			26,
-			33
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveReward_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			32,
-			60
-		},
-		trim = {
-			3,
-            20,
-            4,
-            15
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			4069,
-			1117,
-			25,
-			25
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0000"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			2,
-            13,
-            2,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2001,
-			325,
-			24,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveRewardTimer_0001"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			4,
-            13,
-            3,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1688,
-			1401,
-			21,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0002"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            3,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3830,
-			3207,
-			22,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0003"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3112,
-			1035,
-			22,
-			31
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0004"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			2,
-            13,
-            2,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3804,
-			3207,
-			24,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0005"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			1540,
-			2126,
-			22,
-			31
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0006"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            2,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3908,
-			3069,
-			23,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveRewardTimer_0007"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            3,
-            13
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			3854,
-			3207,
-			22,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["waveRewardTimer_0008"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			2,
-            13,
-            2,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2034,
-			325,
-			24,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveRewardTimer_0009"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			3,
-            13,
-            3,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2902,
-			726,
-			22,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveRewardTimer_0011"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			6,
-            26,
-            6,
-            20
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			709,
-			2863,
-			16,
-			10
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["waveRewardTimer_0012"] = {
-		a_name = "gui_common.dds",
-		size = {
-			28,
-			56
-		},
-		trim = {
-			5,
-            19,
-            4,
-            12
-		},
-		a_size = {
-			4095,
-			3238
-		},
-		f_quad = {
-			2150,
-			473,
-			19,
-			25
-		},
-		alias = {},
-		textureRotated = true
 	}
 }

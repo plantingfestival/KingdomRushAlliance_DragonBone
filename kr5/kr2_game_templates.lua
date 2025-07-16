@@ -8818,10 +8818,11 @@ tt.modifier.use_mod_offset = false
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "Halloween_hero_vhelsing_buffeffect"
 tt.render.sprites[1].z = Z_DECALS
-tt = E:register_t("hero_voodoo_witch", "hero")
+tt = E:register_t("controller_item_hero_voodoo_witch", "controller_item_hero")
+tt.entity = "hero_voodoo_witch"
 
+tt = E:register_t("hero_voodoo_witch", "hero5")
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
-
 image_y = 66
 anchor_y = 14 / image_y
 tt.hero.level_stats.hp_max = {
@@ -8985,8 +8986,7 @@ tt.hero.tombstone_show_time = fts(90)
 tt.idle_flip.cooldown = 2
 tt.info.damage_icon = "magic"
 tt.info.fn = kr2_scripts.hero_voodoo_witch.get_info
-tt.info.hero_portrait = "hero_portraits_0019"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0023" or "info_portraits_heroes_0019"
+tt.info.portrait = "portraits_hero_0121"
 tt.main_script.insert = kr2_scripts.hero_voodoo_witch.insert
 tt.main_script.update = kr2_scripts.hero_voodoo_witch.update
 tt.motion.max_speed = 72
