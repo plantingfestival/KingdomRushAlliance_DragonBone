@@ -2906,6 +2906,11 @@ return {
 	ITEM_KR4_HERO_MALIK_BOTTOM_INFO = "Summon Malik Hammerfury to fight alongside you.",
 	ITEM_KR4_HERO_MALIK_DESC = "From a land far, far away, comes a Hero with unmatched strength, untamed mind, and unbroken will. A destructive force, an unleashed fury, a bullet train attitude!",
 	ITEM_KR4_HERO_MALIK_NAME = "Malik Hammerfury",
+	HERO_VOODOO_WITCH_NAME = "Bruxa",
+	ITEM_HERO_VOODOO_WITCH_BOTTOM_DESC = "Summon Bruxa to defeat your enemies.",
+	ITEM_HERO_VOODOO_WITCH_BOTTOM_INFO = "Summon Bruxa to fight alongside you.",
+	ITEM_HERO_VOODOO_WITCH_NAME = "Bruxa",
+	ITEM_HERO_VOODOO_WITCH_DESC = "Dark magic is the specialty of the mysterious witches of the jungle, and many fools have underestimated her as a hermit in the swamp and ignored her warnings, and they will only regret it in the eighteen layers of hell......",
 
 	HERO_EISKALT_NAME = "Eiskalt",
 	HERO_EISKALT_DESC = "As son of Jokull, Eiskalt was born to reign in the North. However, his frequent attacks on humans made him a big problem for Arkus and his own mother. Together, they trapped him under innumerable layers of ice, where he remained asleep until Vez'nan managed to free him.",

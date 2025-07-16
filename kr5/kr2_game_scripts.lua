@@ -19356,6 +19356,9 @@ function scripts.hero_voodoo_witch.update(this, store)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store,this)
+		SU.alliance_corageous_upgrade(store,this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else

@@ -110,6 +110,15 @@ return {
 				255
 			}
 		},
+		hero_voodoo_witch = {
+			cost = 500,
+			color_bg = {
+				40,
+				160,
+				220,
+				255
+			}
+		},
 		hero_ignus = {
 			cost = 500,
 			color_bg = {
