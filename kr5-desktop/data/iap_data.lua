@@ -218,6 +218,24 @@ return {
 				255
 			}
 		},
+		hero_priest = {
+			cost = 500,
+			color_bg = {
+				252,
+				0,
+				166,
+				255
+			}
+		},
+		hero_beastmaster = {
+			cost = 500,
+			color_bg = {
+				0,
+				231,
+				166,
+				255
+			}
+		},
 		hero_dragon = {
 			cost = 1000,
 			color_bg = {

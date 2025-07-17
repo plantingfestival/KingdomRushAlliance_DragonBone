@@ -302,6 +302,8 @@ return {
 			hero_oni = 1,
 			hero_thor = 1,
 			hero_voodoo_witch = 1,
+			hero_beastmaster = 1,
+			hero_priest = 1,
 			hero_magnus = 1,
 			hero_denas = 1,
 			hero_hacksaw = 1,

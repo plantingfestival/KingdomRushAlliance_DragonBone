@@ -13245,6 +13245,9 @@ function scripts.hero_beastmaster.update(this, store, script)
 			return nil
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+		
 		local nodes = P:nearest_nodes(x, y, nil, nil, true)
 
 		if #nodes < 1 then
@@ -14360,6 +14363,9 @@ function scripts.hero_priest.update(this, store)
 		if skill.level < 1 then
 			return
 		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		local targets = U.find_soldiers_in_range(store.entities, pos, 0, skill.range, 0, 0, function(v)
 			return v ~= this

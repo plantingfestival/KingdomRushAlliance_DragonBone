@@ -12,12 +12,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2369,
-			1997,
+			1831,
+			1044,
 			80,
 			80
 		},
@@ -37,12 +37,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3627,
-			903,
+			3871,
+			1103,
 			160,
 			160
 		},
@@ -62,12 +62,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3627,
-			1065,
+			3908,
+			673,
 			160,
 			160
 		},
@@ -87,14 +87,39 @@ return {
             288
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1431,
 			1559,
 			149,
 			150
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["item_room_animation_item_buy_fx_0002"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			719,
+			720
+		},
+		trim = {
+			248,
+            247,
+            252,
+            253
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			3427,
+			1044,
+			219,
+			220
 		},
 		alias = {},
 		textureRotated = true
@@ -112,37 +137,12 @@ return {
             128
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			3551,
 			1,
-			469,
-			470
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_animation_item_buy_fx_0011"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			719,
-			720
-		},
-		trim = {
-			124,
-            122,
-            126,
-            128
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			3253,
-			3461,
 			469,
 			470
 		},
@@ -162,12 +162,12 @@ return {
             313
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1963,
-			312,
+			2416,
+			1997,
 			111,
 			113
 		},
@@ -187,42 +187,17 @@ return {
             19
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3826,
-			473,
+			3427,
+			873,
 			401,
 			169
 		},
 		alias = {},
-		textureRotated = true
-	},
-	["item_room_button_confirm_yes_bg_0002"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			437,
-			203
-		},
-		trim = {
-			15,
-            15,
-            21,
-            19
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			1936,
-			1265,
-			401,
-			169
-		},
-		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_button_confirm_yes_bg_0003"] = {
 		a_name = "room_item-0.dds",
@@ -237,12 +212,12 @@ return {
             5
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3627,
-			473,
+			3793,
+			3013,
 			428,
 			197
 		},
@@ -262,8 +237,8 @@ return {
             21
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1431,
@@ -287,12 +262,12 @@ return {
             21
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3793,
-			3013,
+			1631,
+			1044,
 			479,
 			198
 		},
@@ -312,8 +287,8 @@ return {
             7
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			633,
@@ -337,8 +312,8 @@ return {
             7
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			3793,
@@ -362,42 +337,17 @@ return {
             21
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1631,
-			1044,
+			3551,
+			473,
 			479,
 			198
 		},
 		alias = {},
-		textureRotated = true
-	},
-	["item_room_button_equipped_bg _0002"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			513,
-			234
-		},
-		trim = {
-			15,
-            15,
-            19,
-            21
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			3427,
-			633,
-			479,
-			198
-		},
-		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_button_equipped_bg _0003"] = {
 		a_name = "room_item-0.dds",
@@ -412,8 +362,8 @@ return {
             7
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1141,
@@ -437,12 +387,12 @@ return {
             31
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3253,
-			3933,
+			1963,
+			312,
 			110,
 			106
 		},
@@ -462,67 +412,17 @@ return {
             31
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2131,
-			2203,
+			2416,
+			2112,
 			110,
 			106
 		},
 		alias = {},
 		textureRotated = false
-	},
-	["item_room_button_item_room_buy_gems_0003"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			162,
-			157
-		},
-		trim = {
-			4,
-            4,
-            14,
-            12
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			3427,
-			1114,
-			144,
-			141
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_button_price_bg_0001"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			515,
-			234
-		},
-		trim = {
-			15,
-            15,
-            21,
-            21
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			3724,
-			3494,
-			479,
-			198
-		},
-		alias = {},
-		textureRotated = true
 	},
 	["item_room_button_price_bg_0003"] = {
 		a_name = "room_item-0.dds",
@@ -537,8 +437,8 @@ return {
             7
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			3793,
@@ -548,6 +448,31 @@ return {
 		},
 		alias = {},
 		textureRotated = true
+	},
+	["item_room_button_select_bg _0002"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			515,
+			234
+		},
+		trim = {
+			15,
+            15,
+            21,
+            21
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			3427,
+			673,
+			479,
+			198
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["item_room_button_select_bg _0003"] = {
 		a_name = "room_item-0.dds",
@@ -562,8 +487,8 @@ return {
             7
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1649,
@@ -587,17 +512,42 @@ return {
             3
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1831,
-			1044,
+			3992,
+			3013,
 			401,
 			103
 		},
 		alias = {},
 		textureRotated = true
+	},
+	["item_room_image_item_icon_bg_"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			234,
+			234
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			1831,
+			1265,
+			234,
+			234
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["item_room_image_item_icon_equip_highligth_"] = {
 		a_name = "room_item-0.dds",
@@ -612,14 +562,64 @@ return {
             40
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
+		},
+		f_quad = {
+			1845,
+			1501,
+			236,
+			204
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_image_item_icon_frame_0001"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			291,
+			299
+		},
+		trim = {
+			6,
+            0,
+            12,
+            9
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			2157,
+			3806,
+			273,
+			290
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["item_room_image_item_icon_frame_front_"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			291,
+			299
+		},
+		trim = {
+			1,
+            0,
+            7,
+            7
+		},
+		a_size = {
+			4096,
+			4092
 		},
 		f_quad = {
 			2131,
 			1997,
-			236,
-			204
+			283,
+			292
 		},
 		alias = {},
 		textureRotated = false
@@ -637,8 +637,8 @@ return {
             11
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			633,
@@ -662,8 +662,8 @@ return {
             14
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			699,
@@ -687,8 +687,8 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			2529,
@@ -698,31 +698,6 @@ return {
 		},
 		alias = {},
 		textureRotated = true
-	},
-	["item_room_image_item_portrait_flash_"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			2,
-			2
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			667,
-			1153,
-			2,
-			2
-		},
-		alias = {},
-		textureRotated = false
 	},
 	["item_room_image_item_portrait_frame_"] = {
 		a_name = "room_item-0.dds",
@@ -737,8 +712,8 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1,
@@ -762,12 +737,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			633,
-			4034,
+			4022,
+			1,
 			42,
 			41
 		},
@@ -787,14 +762,39 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3924,
-			3494,
+			2131,
+			2291,
 			42,
 			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_image_items_ring_ring_"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			224,
+			191
+		},
+		trim = {
+			4,
+            2,
+            8,
+            6
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			1631,
+			1525,
+			212,
+			183
 		},
 		alias = {},
 		textureRotated = false
@@ -812,8 +812,8 @@ return {
             8
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1,
@@ -824,11 +824,11 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_image_roster_item_quantity_"] = {
+	["item_room_image_roster_thumb_"] = {
 		a_name = "room_item-0.dds",
 		size = {
-			80,
-			80
+			220,
+			216
 		},
 		trim = {
 			0,
@@ -837,39 +837,39 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2157,
-			3944,
-			80,
-			80
+			3649,
+			1044,
+			220,
+			216
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_image_roster_shadow_"] = {
+	["item_room_image_roster_thumb_bg_0003"] = {
 		a_name = "room_item-0.dds",
 		size = {
-			162,
-			250
+			233,
+			228
 		},
 		trim = {
-			26,
+			0,
             0,
-            0,
-            0
+            5,
+            4
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2157,
-			3806,
-			136,
-			250
+			3871,
+			873,
+			228,
+			224
 		},
 		alias = {},
 		textureRotated = true
@@ -887,8 +887,8 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1,
@@ -912,12 +912,37 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			699,
 			312,
+			630,
+			730
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_portrait_hero_beastmaster"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			630,
+			730
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			1,
+			1885,
 			630,
 			730
 		},
@@ -937,12 +962,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1,
-			1885,
+			1331,
+			312,
 			630,
 			730
 		},
@@ -962,12 +987,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1331,
-			312,
+			1,
+			2617,
 			630,
 			730
 		},
@@ -987,12 +1012,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			1,
-			2617,
+			3349,
 			630,
 			730
 		},
@@ -1012,17 +1037,17 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
+			2087,
 			1,
-			3349,
 			630,
 			730
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["item_room_portrait_hero_elora"] = {
 		a_name = "room_item-0.dds",
@@ -1037,11 +1062,11 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2087,
+			2819,
 			1,
 			630,
 			730
@@ -1062,12 +1087,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2819,
-			1,
+			1963,
+			633,
 			630,
 			730
 		},
@@ -1087,11 +1112,11 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1963,
+			2695,
 			633,
 			630,
 			730
@@ -1112,12 +1137,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2695,
-			633,
+			699,
+			1078,
 			630,
 			730
 		},
@@ -1137,12 +1162,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			699,
-			1078,
+			667,
+			1710,
 			630,
 			730
 		},
@@ -1162,17 +1187,17 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			667,
-			1710,
+			633,
+			2342,
 			630,
 			730
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_portrait_hero_magnus"] = {
 		a_name = "room_item-0.dds",
@@ -1187,12 +1212,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
 			633,
-			2342,
+			3074,
 			630,
 			730
 		},
@@ -1212,11 +1237,36 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			633,
+			1265,
+			2342,
+			630,
+			730
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_portrait_hero_priest"] = {
+		a_name = "room_item-0.dds",
+		size = {
+			630,
+			730
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			4096,
+			4092
+		},
+		f_quad = {
+			1265,
 			3074,
 			630,
 			730
@@ -1237,17 +1287,17 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1265,
-			2342,
+			1399,
+			1710,
 			630,
 			730
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["item_room_portrait_hero_voodoo_witch"] = {
 		a_name = "room_item-0.dds",
@@ -1262,12 +1312,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1265,
-			3074,
+			1897,
+			2342,
 			630,
 			730
 		},
@@ -1287,17 +1337,17 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1399,
-			1710,
+			1897,
+			3074,
 			630,
 			730
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_portrait_kr4_hero_malik"] = {
 		a_name = "room_item-0.dds",
@@ -1312,12 +1362,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1897,
-			2342,
+			2131,
+			1265,
 			630,
 			730
 		},
@@ -1337,12 +1387,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			1897,
-			3074,
+			2763,
+			1265,
 			630,
 			730
 		},
@@ -1362,12 +1412,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2131,
-			1265,
+			2529,
+			1997,
 			630,
 			730
 		},
@@ -1387,12 +1437,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2763,
-			1265,
+			2529,
+			2729,
 			630,
 			730
 		},
@@ -1412,12 +1462,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3395,
-			1265,
+			3161,
+			1997,
 			630,
 			730
 		},
@@ -1437,12 +1487,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2529,
-			1997,
+			3161,
+			2729,
 			630,
 			730
 		},
@@ -1462,17 +1512,17 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			2529,
-			2729,
+			3253,
+			3461,
 			630,
 			730
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["item_room_portrait_veznan_wrath"] = {
 		a_name = "room_item-0.dds",
@@ -1487,37 +1537,12 @@ return {
             0
 		},
 		a_size = {
-			4026,
-			4085
+			4096,
+			4092
 		},
 		f_quad = {
-			3161,
-			1997,
-			630,
-			730
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_portrait_winter_age"] = {
-		a_name = "room_item-0.dds",
-		size = {
-			630,
-			730
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			4026,
-			4085
-		},
-		f_quad = {
-			3161,
-			2729,
+			3395,
+			1265,
 			630,
 			730
 		},
@@ -1525,31 +1550,6 @@ return {
 		textureRotated = false
 	},
 	--customization
-	["item_room_animation_item_buy_fx_0002"] = {
-		a_name = "room_item-1.dds",
-		size = {
-			719,
-			720
-		},
-		trim = {
-			248,
-            247,
-            252,
-            253
-		},
-		a_size = {
-			3935,
-			1368
-		},
-		f_quad = {
-			2843,
-			929,
-			219,
-			220
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["item_room_animation_item_buy_fx_0003"] = {
 		a_name = "room_item-1.dds",
 		size = {
@@ -1563,12 +1563,12 @@ return {
             218
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1076,
-			295,
+			672,
+			663,
 			286,
 			287
 		},
@@ -1588,12 +1588,12 @@ return {
             188
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			868,
-			885,
+			1,
+			2087,
 			348,
 			350
 		},
@@ -1613,12 +1613,12 @@ return {
             153
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			455,
-			463,
+			1536,
+			1,
 			419,
 			420
 		},
@@ -1638,12 +1638,12 @@ return {
             150
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			441,
-			917,
+			1,
+			1659,
 			425,
 			426
 		},
@@ -1663,17 +1663,17 @@ return {
             144
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
+			1095,
 			1,
-			917,
 			439,
 			438
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_animation_item_buy_fx_0008"] = {
 		a_name = "room_item-1.dds",
@@ -1688,12 +1688,12 @@ return {
             137
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
 			1,
-			463,
+			1205,
 			452,
 			452
 		},
@@ -1713,14 +1713,39 @@ return {
             133
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1,
+			633,
 			1,
 			460,
 			460
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_animation_item_buy_fx_0011"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			719,
+			720
+		},
+		trim = {
+			124,
+            122,
+            126,
+            128
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			1,
+			733,
+			469,
+			470
 		},
 		alias = {},
 		textureRotated = false
@@ -1738,14 +1763,39 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1922,
-			937,
+			1555,
+			657,
 			232,
 			231
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_button_confirm_yes_bg_0002"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			437,
+			203
+		},
+		trim = {
+			15,
+            15,
+            21,
+            19
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			455,
+			1214,
+			401,
+			169
 		},
 		alias = {},
 		textureRotated = true
@@ -1763,17 +1813,67 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2155,
-			937,
+			626,
+			1463,
 			232,
 			231
 		},
 		alias = {},
+		textureRotated = false
+	},
+	["item_room_button_equipped_bg _0002"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			513,
+			234
+		},
+		trim = {
+			15,
+            15,
+            19,
+            21
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			1,
+			2439,
+			479,
+			198
+		},
+		alias = {},
 		textureRotated = true
+	},
+	["item_room_button_hero_beastmaster"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			260,
+			255
+		},
+		trim = {
+			14,
+            11,
+            14,
+            12
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			1555,
+			423,
+			232,
+			232
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["item_room_button_hero_bolin"] = {
 		a_name = "room_item-1.dds",
@@ -1788,12 +1888,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1364,
-			293,
+			1098,
+			677,
 			232,
 			232
 		},
@@ -1813,12 +1913,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1504,
-			1,
+			862,
+			1227,
 			232,
 			232
 		},
@@ -1838,12 +1938,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1454,
-			820,
+			964,
+			915,
 			232,
 			232
 		},
@@ -1863,12 +1963,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1587,
-			527,
+			1198,
+			911,
 			232,
 			232
 		},
@@ -1888,12 +1988,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1598,
-			235,
+			1432,
+			896,
 			232,
 			232
 		},
@@ -1913,12 +2013,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1738,
-			1,
+			1666,
+			890,
 			232,
 			232
 		},
@@ -1938,12 +2038,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1454,
-			1054,
+			351,
+			2087,
 			232,
 			232
 		},
@@ -1963,12 +2063,12 @@ return {
             12
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1688,
-			761,
+			401,
+			2321,
 			232,
 			232
 		},
@@ -1988,12 +2088,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1821,
-			469,
+			401,
+			2555,
 			232,
 			232
 		},
@@ -2013,12 +2113,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1832,
-			235,
+			428,
+			1696,
 			232,
 			232
 		},
@@ -2038,12 +2138,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1972,
-			1,
+			662,
+			1696,
 			232,
 			232
 		},
@@ -2063,12 +2163,37 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1688,
-			995,
+			585,
+			1930,
+			232,
+			232
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_button_hero_priest"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			260,
+			255
+		},
+		trim = {
+			14,
+            11,
+            14,
+            12
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			819,
+			1930,
 			232,
 			232
 		},
@@ -2088,12 +2213,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1922,
-			703,
+			635,
+			2164,
 			232,
 			232
 		},
@@ -2113,12 +2238,12 @@ return {
             12
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2055,
-			469,
+			635,
+			2398,
 			232,
 			232
 		},
@@ -2138,14 +2263,39 @@ return {
             12
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2066,
-			235,
+			869,
+			2164,
 			232,
 			232
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_button_item_room_buy_gems_0003"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			162,
+			157
+		},
+		trim = {
+			4,
+            4,
+            14,
+            12
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			428,
+			1930,
+			144,
+			141
 		},
 		alias = {},
 		textureRotated = false
@@ -2163,12 +2313,12 @@ return {
             12
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2206,
-			1,
+			869,
+			2398,
 			232,
 			232
 		},
@@ -2188,17 +2338,17 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2156,
-			703,
+			635,
+			2632,
 			232,
 			231
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_button_medical_kit"] = {
 		a_name = "room_item-1.dds",
@@ -2213,17 +2363,17 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2289,
-			469,
+			869,
+			2632,
 			232,
 			231
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_button_portable_coil"] = {
 		a_name = "room_item-1.dds",
@@ -2238,17 +2388,42 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2300,
-			235,
+			860,
+			1463,
 			232,
 			231
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
+	},
+	["item_room_button_price_bg_0001"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			515,
+			234
+		},
+		trim = {
+			15,
+            15,
+            21,
+            21
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			633,
+			463,
+			479,
+			198
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["item_room_button_price_bg_0002"] = {
 		a_name = "room_item-1.dds",
@@ -2263,17 +2438,17 @@ return {
             21
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			463,
-			1,
+			472,
+			733,
 			479,
 			198
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["item_room_button_scroll_of_spaceshift"] = {
 		a_name = "room_item-1.dds",
@@ -2288,12 +2463,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2440,
-			1,
+			896,
+			1696,
 			232,
 			231
 		},
@@ -2313,12 +2488,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2388,
-			937,
+			1053,
+			1930,
 			232,
 			231
 		},
@@ -2338,37 +2513,12 @@ return {
             21
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			463,
 			201,
-			479,
-			198
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_button_select_bg _0002"] = {
-		a_name = "room_item-1.dds",
-		size = {
-			515,
-			234
-		},
-		trim = {
-			15,
-            15,
-            21,
-            21
-		},
-		a_size = {
-			3935,
-			1368
-		},
-		f_quad = {
-			876,
-			401,
+			2439,
 			479,
 			198
 		},
@@ -2388,12 +2538,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2389,
-			703,
+			1103,
+			2164,
 			232,
 			231
 		},
@@ -2413,12 +2563,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2522,
-			469,
+			1103,
+			2398,
 			232,
 			231
 		},
@@ -2438,17 +2588,17 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2533,
-			235,
+			1103,
+			2632,
 			232,
 			231
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_image_item_icon_"] = {
 		a_name = "room_item-1.dds",
@@ -2463,37 +2613,12 @@ return {
             11
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1218,
-			876,
-			234,
-			234
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_image_item_icon_bg_"] = {
-		a_name = "room_item-1.dds",
-		size = {
-			234,
-			234
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3935,
-			1368
-		},
-		f_quad = {
-			1218,
-			1112,
+			1114,
+			441,
 			234,
 			234
 		},
@@ -2513,39 +2638,14 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1351,
-			584,
+			626,
+			1227,
 			234,
 			234
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_image_item_icon_frame_0001"] = {
-		a_name = "room_item-1.dds",
-		size = {
-			291,
-			299
-		},
-		trim = {
-			6,
-            0,
-            12,
-            9
-		},
-		a_size = {
-			3935,
-			1368
-		},
-		f_quad = {
-			1229,
-			1,
-			273,
-			290
 		},
 		alias = {},
 		textureRotated = false
@@ -2563,17 +2663,17 @@ return {
             9
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			1076,
-			584,
+			672,
+			952,
 			273,
 			290
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["item_room_image_item_icon_frame_0003"] = {
 		a_name = "room_item-1.dds",
@@ -2588,64 +2688,39 @@ return {
             79
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2621,
-			1163,
+			1350,
+			441,
 			235,
 			203
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
-	["item_room_image_item_icon_frame_front_"] = {
+	["item_room_image_item_portrait_flash_"] = {
 		a_name = "room_item-1.dds",
 		size = {
-			291,
-			299
+			2,
+			2
 		},
 		trim = {
-			1,
+			0,
             0,
-            7,
-            7
+            0,
+            0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			944,
-			1,
-			283,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["item_room_image_items_ring_ring_"] = {
-		a_name = "room_item-1.dds",
-		size = {
-			224,
-			191
-		},
-		trim = {
-			4,
-            2,
-            8,
-            6
-		},
-		a_size = {
-			3935,
-			1368
-		},
-		f_quad = {
-			1922,
-			1171,
-			212,
-			183
+			1314,
+			1367,
+			2,
+			2
 		},
 		alias = {},
 		textureRotated = false
@@ -2663,23 +2738,23 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3734,
-			1111,
+			401,
+			2789,
 			201,
 			198
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
-	["item_room_image_roster_thumb_"] = {
+	["item_room_image_roster_item_quantity_"] = {
 		a_name = "room_item-1.dds",
 		size = {
-			220,
-			216
+			80,
+			80
 		},
 		trim = {
 			0,
@@ -2688,14 +2763,39 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2858,
-			1151,
-			220,
-			216
+			1129,
+			1807,
+			80,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["item_room_image_roster_shadow_"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			162,
+			250
+		},
+		trim = {
+			26,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			960,
+			663,
+			136,
+			250
 		},
 		alias = {},
 		textureRotated = false
@@ -2713,17 +2813,17 @@ return {
             6
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2621,
-			937,
+			1789,
+			423,
 			224,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_image_roster_thumb_bg_0002"] = {
 		a_name = "room_item-1.dds",
@@ -2738,42 +2838,42 @@ return {
             6
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2622,
-			703,
+			1789,
+			645,
 			224,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
-	["item_room_image_roster_thumb_bg_0003"] = {
+	["item_room_portrait_winter_age"] = {
 		a_name = "room_item-1.dds",
 		size = {
-			233,
-			228
+			630,
+			730
 		},
 		trim = {
 			0,
             0,
-            5,
-            4
+            0,
+            0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2673,
 			1,
-			228,
-			224
+			1,
+			630,
+			730
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_cluster_bomb"] = {
 		a_name = "room_item-1.dds",
@@ -2788,17 +2888,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2755,
-			469,
+			1332,
+			678,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_deaths_touch"] = {
 		a_name = "room_item-1.dds",
@@ -2813,12 +2913,37 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2844,
-			691,
+			1096,
+			1149,
+			220,
+			216
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["item_room_thumb_hero_beastmaster"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			220,
+			216
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			1314,
+			1145,
 			220,
 			216
 		},
@@ -2838,12 +2963,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2766,
-			231,
+			1532,
+			1130,
 			220,
 			216
 		},
@@ -2863,12 +2988,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2973,
-			453,
+			1750,
+			1124,
 			220,
 			216
 		},
@@ -2888,17 +3013,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3062,
-			675,
+			1096,
+			1371,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_hero_dwarf"] = {
 		a_name = "room_item-1.dds",
@@ -2913,12 +3038,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3064,
-			897,
+			1318,
+			1367,
 			220,
 			216
 		},
@@ -2938,12 +3063,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3080,
-			1119,
+			1536,
+			1352,
 			220,
 			216
 		},
@@ -2963,12 +3088,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2899,
-			1,
+			1754,
+			1346,
 			220,
 			216
 		},
@@ -2988,17 +3113,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			2984,
-			223,
+			1129,
+			1589,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_hero_hacksaw"] = {
 		a_name = "room_item-1.dds",
@@ -3013,17 +3138,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3191,
-			445,
+			1351,
+			1589,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_hero_ignus"] = {
 		a_name = "room_item-1.dds",
@@ -3038,12 +3163,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3280,
-			667,
+			1573,
+			1574,
 			220,
 			216
 		},
@@ -3063,12 +3188,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3282,
-			889,
+			1791,
+			1568,
 			220,
 			216
 		},
@@ -3088,17 +3213,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3298,
-			1111,
+			1286,
+			1807,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_hero_oni"] = {
 		a_name = "room_item-1.dds",
@@ -3113,17 +3238,42 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3117,
-			1,
+			1508,
+			1807,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
+	},
+	["item_room_thumb_hero_priest"] = {
+		a_name = "room_item-1.dds",
+		size = {
+			220,
+			216
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			2014,
+			2988
+		},
+		f_quad = {
+			1336,
+			2025,
+			220,
+			216
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["item_room_thumb_hero_thor"] = {
 		a_name = "room_item-1.dds",
@@ -3138,17 +3288,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3202,
-			223,
+			1336,
+			2243,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_hero_voodoo_witch"] = {
 		a_name = "room_item-1.dds",
@@ -3163,12 +3313,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3409,
-			445,
+			1558,
+			2025,
 			220,
 			216
 		},
@@ -3188,17 +3338,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3498,
-			667,
+			1558,
+			2247,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_kr4_hero_malik"] = {
 		a_name = "room_item-1.dds",
@@ -3213,12 +3363,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3500,
-			889,
+			1730,
+			1796,
 			220,
 			216
 		},
@@ -3238,12 +3388,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3516,
-			1111,
+			1776,
+			2018,
 			220,
 			216
 		},
@@ -3263,12 +3413,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3335,
-			1,
+			1780,
+			2240,
 			220,
 			216
 		},
@@ -3288,12 +3438,12 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3420,
-			223,
+			1337,
+			2461,
 			220,
 			216
 		},
@@ -3313,17 +3463,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3627,
-			445,
+			1555,
+			2465,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_second_breath"] = {
 		a_name = "room_item-1.dds",
@@ -3338,17 +3488,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3716,
-			667,
+			1337,
+			2683,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_summon_blackburn"] = {
 		a_name = "room_item-1.dds",
@@ -3363,17 +3513,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3718,
-			889,
+			1559,
+			2683,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_veznan_wrath"] = {
 		a_name = "room_item-1.dds",
@@ -3388,17 +3538,17 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3553,
-			1,
+			1777,
+			2465,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["item_room_thumb_winter_age"] = {
 		a_name = "room_item-1.dds",
@@ -3413,16 +3563,16 @@ return {
             0
 		},
 		a_size = {
-			3935,
-			1368
+			2014,
+			2988
 		},
 		f_quad = {
-			3638,
-			223,
+			1781,
+			2683,
 			220,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	}
 }

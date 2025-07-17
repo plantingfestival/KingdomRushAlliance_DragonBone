@@ -6042,7 +6042,10 @@ tt.particle_system.particle_lifetime = {
 	0.35
 }
 tt.particle_system.emission_rate = 20
-tt = E:register_t("hero_beastmaster", "hero")
+tt = E:register_t("controller_item_hero_beastmaster", "controller_item_hero")
+tt.entity = "hero_beastmaster"
+
+tt = E:register_t("hero_beastmaster", "hero5")
 
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
 
@@ -6229,8 +6232,7 @@ tt.hero.fn_level_up = kr2_scripts.hero_beastmaster.level_up
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_beastmaster.get_info
-tt.info.hero_portrait = "hero_portraits_0003"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0003" or "info_portraits_heroes_0003"
+tt.info.portrait = "portraits_hero_0123"
 tt.main_script.insert = kr2_scripts.hero_beastmaster.insert
 tt.main_script.update = kr2_scripts.hero_beastmaster.update
 tt.motion.max_speed = 75
@@ -6251,6 +6253,7 @@ tt.unit.size = UNIT_SIZE_MEDIUM
 tt.melee.range = 75
 tt.melee.attacks[1] = E:clone_c("melee_attack")
 tt.melee.attacks[1].hit_time = fts(12)
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF)
@@ -7032,7 +7035,10 @@ tt.switch_targets_every = fts(31)
 tt.vis_bans = bor(F_BOSS)
 tt.vis_flags = bor(F_RANGED)
 tt.duration = nil
-tt = E:register_t("hero_priest", "hero")
+tt = E:register_t("controller_item_hero_priest", "controller_item_hero")
+tt.entity = "hero_priest"
+
+tt = E:register_t("hero_priest", "hero5")
 
 E:add_comps(tt, "melee", "ranged", "teleport", "timed_attacks")
 
@@ -7225,8 +7231,7 @@ tt.hero.fn_level_up = kr2_scripts.hero_priest.level_up
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_priest.get_info
-tt.info.hero_portrait = "hero_portraits_0005"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0005" or "info_portraits_heroes_0005"
+tt.info.portrait = "portraits_hero_0124" 
 tt.info.damage_icon = "magic"
 tt.main_script.insert = kr2_scripts.hero_priest.insert
 tt.main_script.update = kr2_scripts.hero_priest.update
@@ -7250,6 +7255,7 @@ tt.unit.mod_offset = v(0, 13.88)
 tt.melee.range = 51.2
 tt.melee.attacks[1] = E:clone_c("melee_attack")
 tt.melee.attacks[1].hit_time = fts(12)
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF)
@@ -7257,6 +7263,7 @@ tt.melee.attacks[1].vis_flags = F_BLOCK
 tt.melee.attacks[1].damage_type = DAMAGE_MAGICAL
 tt.melee.attacks[1].xp_gain_factor = 0.7
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].bullet = "bolt_priest"
 tt.ranged.attacks[1].cooldown = 1 + fts(13)
 tt.ranged.attacks[1].min_range = 25
@@ -7265,6 +7272,7 @@ tt.ranged.attacks[1].shoot_time = fts(13)
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(-8, 34)
 }
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.timed_attacks.list[1] = E:clone_c("mod_attack")
 tt.timed_attacks.list[1].animation = "holylight"
 tt.timed_attacks.list[1].cooldown = 6
