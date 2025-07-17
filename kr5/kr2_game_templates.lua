@@ -8824,6 +8824,7 @@ tt.modifier.use_mod_offset = false
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "Halloween_hero_vhelsing_buffeffect"
 tt.render.sprites[1].z = Z_DECALS
+
 tt = E:register_t("controller_item_hero_voodoo_witch", "controller_item_hero")
 tt.entity = "hero_voodoo_witch"
 
