@@ -24,6 +24,31 @@ return {
 		alias = {},
 		textureRotated = false
 	},
+	["portraits_hero_0121"] = {
+		a_name = "go_items_hero_voodoo_witch.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			957,
+			1592
+		},
+		f_quad = {
+			1,
+			787,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
 	["voodoo_0001"] = {
 		a_name = "go_items_hero_voodoo_witch.dds",
 		size = {
@@ -9395,31 +9420,6 @@ return {
 			1419,
 			48,
 			51
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_hero_0121"] = {
-		a_name = "go_items_hero_voodoo_witch.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			957,
-			1592
-		},
-		f_quad = {
-			1,
-			787,
-			97,
-			96
 		},
 		alias = {},
 		textureRotated = false
