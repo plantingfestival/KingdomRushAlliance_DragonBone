@@ -12775,12 +12775,12 @@ function scripts.hero_wizard.update(this, store, script)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
-		SU.alliance_merciless_upgrade(store, this)
-		SU.alliance_corageous_upgrade(store, this)
-
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
 			while this.nav_rally.new do
 				if SU.y_hero_new_rally(store, this) then
 					goto label_302_0
@@ -12873,12 +12873,12 @@ function scripts.hero_wizard.update(this, store, script)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or U.is_blocked_valid(store, this) then
 				-- block empty
 			else
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty
@@ -19359,12 +19359,12 @@ function scripts.hero_voodoo_witch.update(this, store)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
-		SU.alliance_merciless_upgrade(store,this)
-		SU.alliance_corageous_upgrade(store,this)
-
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
 			while this.nav_rally.new do
 				if SU.y_hero_new_rally(store, this) then
 					goto label_439_0
@@ -19482,12 +19482,12 @@ function scripts.hero_voodoo_witch.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
-
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
+			
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty
 			else
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty

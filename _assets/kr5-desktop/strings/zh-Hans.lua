@@ -2921,7 +2921,7 @@ return {
 	ITEM_HERO_WIZARD_NAME = "大法师纽维斯",
 	ITEM_HERO_WIZARD_BOTTOM_DESC = "召唤大法师纽维斯来击败你的敌人。",
 	ITEM_HERO_WIZARD_BOTTOM_INFO = "召唤大法师纽维斯来与你并肩作战。",
-	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有者令人惊叹的强大力量，与此同时也是重担在肩。无师自通，但桃李满天下，他的神奇魔法如同他的胡言乱语一般难以捉摸。但他十分谨慎的掌握着自己的力量，因为他深知，能力越大，麻烦越多。",
+	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有着令人惊叹的强大力量，与此同时也是重担在肩。",
 
 	SOLDIER_DRACOLICH_GOLEM_NAME = "叉骨",
 	SOLDIER_DEATH_RIDER_NAME = "死亡骑士",

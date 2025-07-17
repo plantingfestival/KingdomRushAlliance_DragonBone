@@ -2920,7 +2920,7 @@ return {
 	ITEM_HERO_WIZARD_NAME = "Nivus the Arch-Wizard",
 	ITEM_HERO_WIZARD_BOTTOM_DESC = "Summon Nivus the Arch-Wizard to defeat your enemies.",
 	ITEM_HERO_WIZARD_BOTTOM_INFO = "Summon Nivus the Arch-Wizard to fight alongside you.",
-	ITEM_HERO_WIZARD_DESC = "The great mages seem to be about the same...... Crazy on the outside, wise on the inside, most of the spells taught in the magic school now come from him. The Neuis owner is amazingly powerful, but at the same time it is also burdened with a heavy burden.He is self-taught, but his magic is as elusive as his gibberish. But he is very careful to control his power, because he knows that the greater the power, the more trouble.",
+	ITEM_HERO_WIZARD_DESC = "Great mages all seem quite similar... outwardly eccentric, inwardly wise. Most of the spells taught in magic schools today were created by him. Nivus possesses astonishingly formidable power, yet at the same time bears a heavy burden on his shoulders.",
 
 	HERO_EISKALT_NAME = "Eiskalt",
 	HERO_EISKALT_DESC = "As son of Jokull, Eiskalt was born to reign in the North. However, his frequent attacks on humans made him a big problem for Arkus and his own mother. Together, they trapped him under innumerable layers of ice, where he remained asleep until Vez'nan managed to free him.",

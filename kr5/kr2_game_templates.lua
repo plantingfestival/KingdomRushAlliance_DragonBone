@@ -5790,13 +5790,13 @@ tt.hero.level_stats.ranged_damage_max = {
 tt.hero.skills.magicmissile = E:clone_c("hero_skill")
 tt.hero.skills.magicmissile.count = {
 	3,
-	5,
-	7
+	6,
+	9
 }
 tt.hero.skills.magicmissile.damage = {
 	12,
-	18,
-	24
+	24,
+	36
 }
 tt.hero.skills.magicmissile.xp_gain_factor = 15
 tt.hero.skills.chainspell = E:clone_c("hero_skill")
@@ -5808,14 +5808,14 @@ tt.hero.skills.chainspell.bounces = {
 tt.hero.skills.chainspell.xp_gain_factor = 20
 tt.hero.skills.disintegrate = E:clone_c("hero_skill")
 tt.hero.skills.disintegrate.total_damage = {
-	170,
-	330,
-	480
+	340,
+	680,
+	1020
 }
 tt.hero.skills.disintegrate.count = {
 	4,
-	6,
-	8
+	8,
+	12
 }
 tt.hero.skills.disintegrate.xp_gain_factor = 100
 tt.hero.skills.arcanereach = E:clone_c("hero_skill")
@@ -5872,6 +5872,7 @@ tt.health_bar.offset = v(0, 36)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_wizard.level_up
 tt.hero.tombstone_show_time = fts(60)
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_wizard.get_info
 tt.info.portrait ="portraits_hero_0122" 
@@ -5938,6 +5939,7 @@ tt.timed_attacks.list[2].max_range = 250
 tt.timed_attacks.list[2].min_range = 0
 tt.timed_attacks.list[2].sound = "HeroWizardMissileSummon"
 tt.timed_attacks.list[2].xp_from_skill = "magicmissile"
+tt.timed_attacks.list[2].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.forced_cooldown = 1.5
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
 tt.ranged.attacks[1].basic_attack = true
@@ -8918,9 +8920,9 @@ tt.hero.level_stats.ranged_damage_max = {
 }
 tt.hero.skills.laughingskulls = E:clone_c("hero_skill")
 tt.hero.skills.laughingskulls.extra_damage = {
-	2,
 	4,
-	6
+	6,
+	8
 }
 tt.hero.skills.deathskull = E:clone_c("hero_skill")
 tt.hero.skills.deathskull.damage = {
@@ -8932,8 +8934,8 @@ tt.hero.skills.deathskull.xp_gain_factor = 20
 tt.hero.skills.bonedance = E:clone_c("hero_skill")
 tt.hero.skills.bonedance.skull_count = {
 	3,
-	4,
-	5
+	5,
+	7
 }
 tt.hero.skills.deathaura = E:clone_c("hero_skill")
 tt.hero.skills.deathaura.slow_factor = {
@@ -8990,6 +8992,7 @@ tt.health_bar.offset = v(0, 39)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_voodoo_witch.level_up
 tt.hero.tombstone_show_time = fts(90)
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.idle_flip.cooldown = 2
 tt.info.damage_icon = "magic"
 tt.info.fn = kr2_scripts.hero_voodoo_witch.get_info
@@ -9038,7 +9041,7 @@ tt.timed_attacks.list[1].cooldown = 20
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 100
 tt.timed_attacks.list[1].min_count = 5
-tt.timed_attacks.list[1].count = 5
+tt.timed_attacks.list[1].count = 10
 tt.timed_attacks.list[1].sound = "HeroVoodooWitchVoodooMagic"
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].damage = nil
@@ -9081,6 +9084,7 @@ tt.ranged.attacks[1].cooldown = 1.1
 tt.ranged.attacks[1].max_range = 120
 tt.ranged.attacks[1].min_range = 0
 tt.ranged.attacks[1].shoot_time = fts(6)
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.render.sprites[1].anchor.y = 0.4
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "voodoo_witch_skull"
@@ -9090,7 +9094,7 @@ tt.render.sprites[2].name = "decal_flying_shadow"
 tt.render.sprites[2].offset = v(0, 0)
 tt.sacrifice = {}
 tt.sacrifice.damage = nil
-tt.sacrifice.damage_type = DAMAGE_PHYSICAL
+tt.sacrifice.damage_type = DAMAGE_MAGICAL
 tt.sacrifice.damage_radius = 25
 tt.sacrifice.disabled = true
 tt.sacrifice.min_range = 0
@@ -9099,7 +9103,7 @@ tt.sacrifice.max_v = 4 * tt.force_motion.max_v
 tt.sacrifice.max_a = 2 * tt.force_motion.max_a
 tt.sacrifice.a_step = 20
 tt.sacrifice.vis_flags = F_RANGED
-tt.sacrifice.vis_bans = 0
+tt.sacrifice.vis_bans = bor(F_NIGHTMARE)
 tt.sacrifice.xp_from_skill = "deathskull"
 tt.sacrifice.sound = "HeroVoodooWitchSacrificeStart"
 tt.sacrifice.sound_hit = "HeroVoodooWitchSacrificeHit"
