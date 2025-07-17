@@ -840,7 +840,11 @@ function KView:draw()
 		current_alpha
 	})
 	G.push()
-	G.scale(self.scale.x * self.base_scale.x, self.scale.y * self.base_scale.y)
+	if self.image_ss and self.image_ss.textureRotated then
+		G.scale(self.scale.y * self.base_scale.y, self.scale.x * self.base_scale.x)
+	else
+		G.scale(self.scale.x * self.base_scale.x, self.scale.y * self.base_scale.y)
+	end
 	G.rotate(-self.r)
 	G.translate(-self.anchor.x, -self.anchor.y)
 
@@ -1416,7 +1420,11 @@ end
 function KWindow:draw_child(child)
 	G.push()
 	G.translate(self.origin.x, self.origin.y)
-	G.scale(self.scale.x, self.scale.y)
+	if self.image_ss and self.image_ss.textureRotated then
+		G.scale(self.scale.y, self.scale.x)
+	else
+		G.scale(self.scale.x, self.scale.y)
+	end
 	G.rotate(-self.r)
 	G.translate(-self.anchor.x, -self.anchor.y)
 	child:draw()
@@ -2330,7 +2338,11 @@ function KScrollList:draw()
 	local fg_color = self.colors.scroller_foreground
 
 	G.push()
-	G.scale(self.scale.x * self.base_scale.x, self.scale.y * self.base_scale.y)
+	if self.image_ss and self.image_ss.textureRotated then
+		G.scale(self.scale.y * self.base_scale.y, self.scale.x * self.base_scale.x)
+	else
+		G.scale(self.scale.x * self.base_scale.x, self.scale.y * self.base_scale.y)
+	end
 	G.rotate(-self.r)
 
 	if not self.scroller_hidden and self._bottom_y > self.size.y then

@@ -2916,6 +2916,11 @@ return {
 	ITEM_HERO_DRAGON_BOTTOM_INFO = "Summon the mighty Ashbite to fight alongside you.",
 	ITEM_HERO_DRAGON_DESC = "No one knew why Ashbite chose to fight alongside the kingdom's army. But when a mighty dragon reduced the enemies to ashes... you’d be glad it was on your side.Rage. Fire. Power. That is Ashbite.",
 	ITEM_HERO_DRAGON_NAME = "Ashbite",
+	HERO_WIZARD_NAME = "Nivus",
+	ITEM_HERO_WIZARD_NAME = "Nivus the Arch-Wizard",
+	ITEM_HERO_WIZARD_BOTTOM_DESC = "Summon Nivus the Arch-Wizard to defeat your enemies.",
+	ITEM_HERO_WIZARD_BOTTOM_INFO = "Summon Nivus the Arch-Wizard to fight alongside you.",
+	ITEM_HERO_WIZARD_DESC = "The great mages seem to be about the same...... Crazy on the outside, wise on the inside, most of the spells taught in the magic school now come from him. The Neuis owner is amazingly powerful, but at the same time it is also burdened with a heavy burden.He is self-taught, but his magic is as elusive as his gibberish. But he is very careful to control his power, because he knows that the greater the power, the more trouble.",
 
 	HERO_EISKALT_NAME = "Eiskalt",
 	HERO_EISKALT_DESC = "As son of Jokull, Eiskalt was born to reign in the North. However, his frequent attacks on humans made him a big problem for Arkus and his own mother. Together, they trapped him under innumerable layers of ice, where he remained asleep until Vez'nan managed to free him.",

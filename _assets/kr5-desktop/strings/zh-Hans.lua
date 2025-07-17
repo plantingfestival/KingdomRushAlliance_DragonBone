@@ -2917,6 +2917,12 @@ return {
 	ITEM_HERO_DRAGON_BOTTOM_INFO = "召唤强大的阿什比特与你并肩作战。",
 	ITEM_HERO_DRAGON_DESC = "没人知道为何阿什比特选择和王国军并肩作战，但是当一条强而有力的大龙把敌人烧成渣的时候......你就该庆幸它跟你是一伙的了。愤怒，烈火，力量，这就是阿什比特。",
 	ITEM_HERO_DRAGON_NAME = "阿什比特",
+	HERO_WIZARD_NAME = "纽维斯",
+	ITEM_HERO_WIZARD_NAME = "大法师纽维斯",
+	ITEM_HERO_WIZARD_BOTTOM_DESC = "召唤大法师纽维斯来击败你的敌人。",
+	ITEM_HERO_WIZARD_BOTTOM_INFO = "召唤大法师纽维斯来与你并肩作战。",
+	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有者令人惊叹的强大力量，与此同时也是重担在肩。无师自通，但桃李满天下，他的神奇魔法如同他的胡言乱语一般难以捉摸。但他十分谨慎的掌握着自己的力量，因为他深知，能力越大，麻烦越多。",
+
 	SOLDIER_DRACOLICH_GOLEM_NAME = "叉骨",
 	SOLDIER_DEATH_RIDER_NAME = "死亡骑士",
 	HERO_DRACOLICH_NAME = "波恩哈特",
@@ -4060,4 +4066,5 @@ return {
 	ENEMY_SCREECHER_BAT_NAME = "尖啸蝙蝠",
 	ENEMY_TWILIGHT_GOLEM_NAME = "暮光傀儡",
 	ENEMY_TWILIGHT_HERETIC_NAME = "暮光异教徒",
+
 }

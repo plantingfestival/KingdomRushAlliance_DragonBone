@@ -5693,7 +5693,11 @@ tt.main_script.insert = kr2_scripts.giant_boulder.insert
 tt = E:register_t("fx_giant_boulder_explosion", "fx")
 tt.render.sprites[1].name = "giant_boulder_explosion"
 tt.render.sprites[1].z = Z_OBJECTS
-tt = E:register_t("hero_wizard", "hero")
+
+tt = E:register_t("controller_item_hero_wizard", "controller_item_hero")
+tt.entity = "hero_wizard"
+
+tt = E:register_t("hero_wizard", "hero5")
 
 E:add_comps(tt, "teleport", "melee", "ranged", "timed_attacks")
 
@@ -5870,8 +5874,7 @@ tt.hero.fn_level_up = kr2_scripts.hero_wizard.level_up
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_wizard.get_info
-tt.info.hero_portrait = "hero_portraits_0006"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0006" or "info_portraits_heroes_0006"
+tt.info.portrait ="portraits_hero_0122" 
 tt.info.damage_icon = "magic"
 tt.main_script.insert = kr2_scripts.hero_wizard.insert
 tt.main_script.update = kr2_scripts.hero_wizard.update
@@ -5893,6 +5896,7 @@ tt.unit.marker_offset = v(0, -0.16)
 tt.unit.mod_offset = v(0, 12.84)
 tt.melee.range = 44.800000000000004
 tt.melee.attacks[1] = E:clone_c("melee_attack")
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].damage_max = nil
 tt.melee.attacks[1].damage_min = nil
 tt.melee.attacks[1].hit_time = fts(10)
@@ -5936,6 +5940,7 @@ tt.timed_attacks.list[2].sound = "HeroWizardMissileSummon"
 tt.timed_attacks.list[2].xp_from_skill = "magicmissile"
 tt.ranged.forced_cooldown = 1.5
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].bullet = "ray_wizard"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(17, 35)
@@ -5946,6 +5951,7 @@ tt.ranged.attacks[1].max_range = 125
 tt.ranged.attacks[1].min_range = 25
 tt.ranged.attacks[1].node_prediction = fts(19)
 tt.ranged.attacks[1].shoot_time = fts(19)
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[2] = table.deepclone(tt.ranged.attacks[1])
 tt.ranged.attacks[2].disabled = true
 tt.ranged.attacks[2].cooldown = 6
@@ -9004,6 +9010,7 @@ tt.unit.hit_offset = v(0, 13)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 13)
 tt.melee.attacks[1].hit_time = fts(13)
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF)
 tt.melee.attacks[1].vis_flags = F_BLOCK
@@ -9011,6 +9018,7 @@ tt.melee.attacks[1].xp_gain_factor = 0.6
 tt.melee.attacks[1].cooldown = 1
 tt.melee.range = 51.2
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].cooldown = 1.5
 tt.ranged.attacks[1].min_range = 25
 tt.ranged.attacks[1].max_range = 140
@@ -9019,6 +9027,7 @@ tt.ranged.attacks[1].shoot_time = fts(13)
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(-8, 24)
 }
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.timed_attacks.list[1] = E:clone_c("custom_attack")
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].animation = "magic"

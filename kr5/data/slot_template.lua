@@ -308,6 +308,7 @@ return {
 			hero_ingvar = 1,
 			kr4_hero_malik = 1,
 			hero_dragon = 1,
+			hero_wizard = 1,
 			hero_dwarf = 1,
 			hero_elves_archer = 1
 		}

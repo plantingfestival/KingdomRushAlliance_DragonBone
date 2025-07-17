@@ -586,6 +586,7 @@ return {
 		"kr4_hero_malik",
 		"hero_dragon",
 		"hero_voodoo_witch",
+		"hero_wizard",
 		"hero_dwarf",
 		"hero_elves_archer"
 	},

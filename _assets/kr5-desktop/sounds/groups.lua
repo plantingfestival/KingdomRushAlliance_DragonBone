@@ -1197,6 +1197,21 @@ return {
 			"hero_dragon_spit.ogg"
 		}
 	},
+	item_hero_wizard = {
+		files = {		
+		"wizzard_taunt_confirm_1.ogg",
+		"wizzard_taunt_confirm_2.ogg",
+		"wizzard_taunt_confirm_3.ogg",
+		"wizzard_taunt_confirm_4.ogg",
+		"hero_nivus_attack.ogg",
+		"hero_nivus_desintegrate.ogg",
+		"hero_nivus_teleport.ogg",
+		"wizzard_taunt_confirm_1.ogg",
+		"hero_nivus_magicmissile_summon.ogg",
+		"hero_nivus_magicmissile_hit.ogg",
+		"wizzard_taunt_death.ogg"
+		}
+	},
 	item_hero_elves_archer = {
 		files = {
 			"Eridan_Death-01a.ogg",
