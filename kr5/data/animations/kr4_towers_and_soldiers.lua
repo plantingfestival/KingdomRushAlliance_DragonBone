@@ -1139,51 +1139,99 @@ return {
 	},
 	-- chompbot
 	chompbot_idle = {
-        prefix = "chompbot",
-        to = 1,
-        from = 1
-    },
-    chompbot_walkingRightLeft = {
-        prefix = "chompbot",
-        to = 21,
-        from = 2
-    },
-    chompbot_walkingUp = {
-        prefix = "chompbot",
-        to = 43,
-        from = 22
-    },
-    chompbot_walkingDown = {
-        prefix = "chompbot",
-        to = 65,
-        from = 44
-    },
-    chompbot_attack = {
-        to = 85,
-        from = 66,
-        prefix = "chompbot",
-        post = {
-            1
-        }
-    },
-    chompbot_death = {
-        prefix = "chompbot",
-        to = 142,
-        from = 86
-    },
-    chompbot_raise = {
-        prefix = "chompbot",
-        to = 173,
-        from = 143
-    },
-    smokebeard_engineer_ray = {
-        prefix = "smokebeard_engineer_ray",
-        to = 10,
-        from = 1
-    },
-    smokebeard_engineer_ray_hit = {
-        prefix = "smokebeard_engineer_ray_hit",
-        to = 14,
-        from = 1
-    }
+		prefix = "chompbot",
+		to = 1,
+		from = 1
+	},
+	chompbot_walkingRightLeft = {
+		prefix = "chompbot",
+		to = 21,
+		from = 2
+	},
+	chompbot_walkingUp = {
+		prefix = "chompbot",
+		to = 43,
+		from = 22
+	},
+	chompbot_walkingDown = {
+		prefix = "chompbot",
+		to = 65,
+		from = 44
+	},
+	chompbot_attack = {
+		to = 85,
+		from = 66,
+		prefix = "chompbot",
+		post = {
+			1
+		}
+	},
+	chompbot_death = {
+		prefix = "chompbot",
+		to = 142,
+		from = 86
+	},
+	chompbot_raise = {
+		prefix = "chompbot",
+		to = 173,
+		from = 143
+	},
+	smokebeard_engineer_ray = {
+		prefix = "smokebeard_engineer_ray",
+		to = 10,
+		from = 1
+	},
+	smokebeard_engineer_ray_hit = {
+		prefix = "smokebeard_engineer_ray_hit",
+		to = 14,
+		from = 1
+	},
+	-- veznan_crystal
+	veznan_crystal_layerX_ready = {
+		layer_to = 11,
+		from = 1,
+		layer_prefix = "veznan_crystal_layer%i",
+		to = 1,
+		layer_from = 1,
+	},
+	veznan_crystal_layerX_cooldown = {
+		layer_to = 11,
+		from = 2,
+		layer_prefix = "veznan_crystal_layer%i",
+		to = 61,
+		layer_from = 1,
+	},
+	veznan_crystal_layerX_shoot = {
+		layer_to = 11,
+		from = 62,
+		layer_prefix = "veznan_crystal_layer%i",
+		to = 65,
+		layer_from = 1,
+	},
+	veznan_crystal_ray_in = {
+		prefix = "veznan_crystal_ray",
+		to = 3,
+		from = 1
+	},
+	veznan_crystal_ray_travel = {
+		prefix = "veznan_crystal_ray",
+		to = 10,
+		from = 4
+	},
+	veznan_crystal_ray_out = {
+		prefix = "veznan_crystal_ray",
+		to = 19,
+		from = 11
+	},
+	veznan_crystal_hit_start_run = {
+		prefix = "veznan_crystal_hit_start",
+		to = 8,
+		from = 1
+	},
+	veznan_crystal_hit_end_run = {
+		prefix = "veznan_crystal_hit_end",
+		to = 8,
+		from = 1
+	},
+
 }
