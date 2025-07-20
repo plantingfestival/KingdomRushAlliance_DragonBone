@@ -13239,7 +13239,7 @@ function scripts.hero_beastmaster.update(this, store, script)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
-	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
+
 
 	local function distribute_boars(x, y, qty)
 		if qty < 1 then
@@ -14357,7 +14357,6 @@ function scripts.hero_priest.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
-	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 
 	local function do_armor_buff(pos, out)
 		local skill = this.hero.skills.wingsoflight
