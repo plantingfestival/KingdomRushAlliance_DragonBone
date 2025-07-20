@@ -13239,6 +13239,7 @@ function scripts.hero_beastmaster.update(this, store, script)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
+	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 
 	local function distribute_boars(x, y, qty)
 		if qty < 1 then
@@ -13485,7 +13486,7 @@ function scripts.hero_beastmaster.update(this, store, script)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty
@@ -14356,6 +14357,7 @@ function scripts.hero_priest.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
+	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 
 	local function do_armor_buff(pos, out)
 		local skill = this.hero.skills.wingsoflight
@@ -14623,12 +14625,12 @@ function scripts.hero_priest.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or U.is_blocked_valid(store, this) then
 				-- block empty
 			else
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty
