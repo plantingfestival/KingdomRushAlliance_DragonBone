@@ -7246,5 +7246,33 @@ return {
 				tt_desc_mode0 = _("ELVES_TOWER_BASTION_FLIP_DESCRIPTION")
 			}
 		}
-	}
+	},
+	holder_roots_lands_blocked = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "holder_roots_lands_removed",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "tower_menu_action_icons_0002",
+				place = 12,
+				tt_title = _("HOLDER_ROOTS_LANDS_BLOCKED_NAME"),
+				tt_desc = _("HOLDER_ROOTS_LANDS_BLOCKED_DESC")
+			}
+		}
+	},
+	tower_roots_lands_blocked = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_roots_lands_removed",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "tower_menu_action_icons_0002",
+				place = 12,
+				tt_title = _("HOLDER_ROOTS_LANDS_BLOCKED_NAME"),
+				tt_desc = _("HOLDER_ROOTS_LANDS_BLOCKED_DESC")
+			}
+		}
+	},
 }

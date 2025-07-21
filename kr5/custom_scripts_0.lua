@@ -1244,7 +1244,7 @@ function scripts.fx_repeat_forever.update(this, store, script)
 	end
 
 	if this.random_shift then
-		tt.render.sprites[1].time_offset = math.random()
+		this.render.sprites[1].time_offset = math.random()
 	end
 
 	local start_ts = store.tick_ts
@@ -1440,6 +1440,114 @@ function scripts.mod_tower_common.remove(this, store, script)
 	end
 
 	return true
+end
+
+scripts.continuous_ray = {}
+function scripts.continuous_ray.update(this, store, script)
+	local b = this.bullet
+	local s = this.render.sprites[1]
+	local target = store.entities[b.target_id]
+	local dest = V.vclone(b.to)
+	s.scale = s.scale or V.vv(1)
+
+	if not b.ignore_hit_offset and target and target.unit and target.unit.hit_offset then
+		local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+		b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x * flip_sign, target.pos.y + target.unit.hit_offset.y
+	end
+
+	local function update_sprite()
+		if target then
+			local tpx, tpy = target.pos.x, target.pos.y
+			if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
+				local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+				tpx, tpy = tpx + target.unit.hit_offset.x * flip_sign, tpy + target.unit.hit_offset.y
+			end
+			local d = math.max(math.abs(tpx - b.to.x), math.abs(tpy - b.to.y))
+			if d > b.max_track_distance then
+				target = nil
+				this.force_stop_ray = true
+			else
+				b.to.x, b.to.y = tpx, tpy
+				dest.x, dest.y = tpx, tpy
+			end
+		end
+
+		local angle = V.angleTo(dest.x - this.pos.x, dest.y - this.pos.y)
+		s.r = angle
+		local dist_offset = 0
+		if this.dist_offset then
+			dist_offset = this.dist_offset
+		end
+		s.scale.x = (V.dist(dest.x, dest.y, this.pos.x, this.pos.y) + dist_offset) / this.image_width
+	end
+
+	U.animation_start(this, this.animation_start, nil, store.tick_ts)
+	update_sprite()
+	while not U.animation_finished(this) do
+		if target and target.vis and (U.flag_has(target.vis.bans, this.bullet.vis_flags) or U.flag_has(this.bullet.vis_bans, target.vis.flags)) then
+			target = nil
+		end
+		coroutine.yield()
+		update_sprite()
+	end
+	
+	U.animation_start(this, this.animation_travel, nil, store.tick_ts, true)
+	local mods_added = {}
+	if this.ray_duration then
+		target = store.entities[b.target_id]
+		local source = store.entities[b.source_id]
+		local start_ts = store.tick_ts
+		local last_hit_ts = store.tick_ts - this.bullet.tick_time
+		while target and not target.health.dead and not this.force_stop_ray and source and store.tick_ts - start_ts <= this.ray_duration do
+			if target and target.vis and (U.flag_has(target.vis.bans, this.bullet.vis_flags) or U.flag_has(this.bullet.vis_bans, target.vis.flags)) then
+				this.force_stop_ray = true
+				break
+			end
+			if store.tick_ts - last_hit_ts >= this.bullet.tick_time then
+				local d = SU.create_bullet_damage(b, target.id, this.id)
+				queue_damage(store, d)
+				if b.mod or b.mods then
+					local mods = b.mods or {
+						b.mod
+					}
+					for _, mod_name in pairs(mods) do
+						local m = E:create_entity(mod_name)
+						m.modifier.target_id = b.target_id
+						m.modifier.source_id = this.id
+						m.modifier.level = b.level
+						table.insert(mods_added, m)
+						queue_insert(store, m)
+					end
+				end
+			end
+			coroutine.yield()
+			update_sprite()
+			target = store.entities[b.target_id]
+			source = store.entities[b.source_id]
+		end
+	end
+
+	S:stop(this.sound_events.travel)
+	S:queue(this.sound_events.out)
+
+	for i, value in ipairs(mods_added) do
+		queue_remove(store, value)
+	end
+
+	U.y_animation_play(this, this.animation_out, nil, store.tick_ts)
+	queue_remove(store, this)
+end
+
+scripts.mod_continuous_ray = {}
+function scripts.mod_continuous_ray.update(this, store, script)
+	local m = this.modifier
+	U.y_animation_play(this, this.animation_start, nil, store.tick_ts)
+	m.ts = store.tick_ts
+	U.animation_start(this, this.animation_loop, nil, store.tick_ts, true)
+	while store.tick_ts - m.ts <= m.duration do
+		coroutine.yield()
+	end
+	queue_remove(store, this)
 end
 
 return scripts

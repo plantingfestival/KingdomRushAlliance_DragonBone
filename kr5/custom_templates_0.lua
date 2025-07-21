@@ -148,9 +148,6 @@ tt.entity = nil
 tt = E:register_t("KR5Tower", "tower_KR5")
 E:add_comps(tt, "vis")
 
-tt = RT("kr4_tower_holder", "tower_holder")
-tt.tower.terrain_style = 401
-
 tt = RT("fx_repeat_forever")
 E:add_comps(tt, "main_script", "render")
 tt.main_script.update = scripts.fx_repeat_forever.update
@@ -192,6 +189,37 @@ tt.tween.remove = false
 tt.main_script.insert = scripts.mod_tower_common.insert
 tt.main_script.update = scripts.mod_tower_common.update
 tt.main_script.remove = scripts.mod_tower_common.remove
+
+tt = E:register_t("continuous_ray", "bullet")
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_min = 0
+tt.bullet.damage_max = 0
+tt.bullet.tick_time = 0.2
+tt.bullet.mods = {
+	"mod_continuous_ray",
+}
+tt.bullet.vis_flags = F_RANGED
+tt.bullet.vis_bans = bor(F_NIGHTMARE, F_FRIEND)
+tt.image_width = 60
+tt.ray_duration = 1
+tt.force_stop_ray = nil
+tt.animation_start = "in"
+tt.animation_travel = "travel"
+tt.animation_out = "out"
+tt.render.sprites[1].anchor = v(0, 0.5)
+tt.render.sprites[1].animated = true
+tt.sound_events.insert = nil
+tt.sound_events.travel = nil
+tt.sound_events.out = nil
+tt.main_script.update = scripts.continuous_ray.update
+
+tt = E:register_t("mod_continuous_ray", "modifier")
+AC(tt, "render")
+tt.animation_start = ""
+tt.animation_loop = ""
+tt.modifier.duration = 0.3
+tt.main_script.update = scripts.mod_continuous_ray.update
+
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

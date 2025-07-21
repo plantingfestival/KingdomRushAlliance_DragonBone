@@ -3980,3 +3980,79 @@ tt.render.sprites[1].angles.sentence = {
 }
 tt.render.sprites[1].offset = v(12, 70)
 tt.render.sprites[1].sort_y_offset = -1
+
+tt = E:register_t("veznan_crystal", "decal_scripted")
+E:add_comps(tt, "ui", "attacks", "tween")
+tt.ui.can_click = true
+tt.ui.click_rect = r(-37, -16, 74, 65)
+tt.tween.disabled = true
+tt.tween.remove = nil
+tt.tween.reverse = nil
+tt.tween.props[1].sprite_id = {}
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.5,
+		255
+	}
+}
+tt.tween_duration = 0.5
+tt.animation_group1 = "veznan_crystal_layer"
+tt.animation_group2 = "veznan_crystal_range"
+for i = 1, 11 do
+	if i > 1 then
+		tt.render.sprites[i] = E:clone_c("sprite")
+	end
+	tt.render.sprites[i].prefix = "veznan_crystal_layer" .. i
+	tt.render.sprites[i].name = "ready"
+	tt.render.sprites[i].anchor = v(0.5, 0.246)
+	tt.render.sprites[i].group = tt.animation_group1
+end
+local scale = 175 / 108
+for i = 12, 15 do
+	tt.render.sprites[i] = E:clone_c("sprite")
+	tt.render.sprites[i].name = "veznan_crystal_range"
+	tt.render.sprites[i].animated = nil
+	tt.render.sprites[i].anchor = v(1, 0)
+	tt.render.sprites[i].scale = v(scale * 0.7 ^ ((i % 2)), scale * 0.7 ^ (1 - (i % 2)))
+	tt.render.sprites[i].r = math.pi / 2 * (i - 12)
+	tt.render.sprites[i].hidden = true
+	tt.render.sprites[i].group = tt.animation_group2
+	table.insert(tt.tween.props[1].sprite_id, i)
+end
+tt.attacks.list[1] = E:clone_c("bullet_attack")
+tt.attacks.list[1].vis_flags = bor(F_RANGED)
+tt.attacks.list[1].vis_bans = bor(F_NIGHTMARE)
+tt.attacks.list[1].animation = "shoot"
+tt.attacks.list[1].bullet = "veznan_crystal_ray"
+tt.attacks.list[1].bullet_start_offset = {
+	v(0, 32)
+}
+tt.attacks.list[1].max_targets = 3
+tt.attacks.list[1].cooldown = 15
+tt.attacks.list[1].range = 175
+tt.attacks.list[1].sound = "dark_army_blazing_mage_attack_loopstart"
+tt.attacks.list[1].sound_args = {
+	delay = fts(2)
+}
+tt.main_script.update = customScripts1.veznan_crystal.update
+
+tt = E:register_t("veznan_crystal_ray", "continuous_ray")
+tt.bullet.damage_type = DAMAGE_TRUE
+tt.bullet.damage_min = 12
+tt.bullet.damage_max = 12
+tt.bullet.mods = {
+	"mod_veznan_crystal_ray",
+}
+tt.image_width = 65
+tt.ray_duration = 1.4
+tt.render.sprites[1].prefix = "veznan_crystal_ray"
+tt.render.sprites[1].name = "in"
+
+tt = E:register_t("mod_veznan_crystal_ray", "mod_continuous_ray")
+tt.animation_start = "veznan_crystal_hit_start_run"
+tt.animation_loop = "veznan_crystal_hit_end_run"
+tt.render.sprites[1].name = "veznan_crystal_hit_start_run"
