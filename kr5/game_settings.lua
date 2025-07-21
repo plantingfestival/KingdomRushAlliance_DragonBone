@@ -8,6 +8,7 @@ GS.extra_levels = {
 	[124] = {},
 	[125] = {},
 	[126] = {},
+	[427] = {},
 }
 -- customization
 GS.gameplay_tips_count = 2

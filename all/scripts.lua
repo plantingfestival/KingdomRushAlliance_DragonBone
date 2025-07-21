@@ -4675,7 +4675,9 @@ function scripts.mod_track_target.insert(this, store, script)
 		for i = 1, #this.render.sprites do
 			local s = this.render.sprites[i]
 
-			s.flip_x = target.render.sprites[1].flip_x
+			if target.render then
+				s.flip_x = target.render.sprites[1].flip_x
+			end
 			s.ts = store.tick_ts
 
 			if s.size_names then
@@ -4906,7 +4908,7 @@ function scripts.mod_stun.insert(this, store, script)
 		for i = 1, #this.render.sprites do
 			local s = this.render.sprites[i]
 
-			if not s.keep_flip_x then
+			if not s.keep_flip_x and target.render then
 				s.flip_x = target.render.sprites[1].flip_x
 			end
 
@@ -7225,7 +7227,9 @@ if true then
 
 				e.enemy.gold = target.enemy and target.enemy.gold or 0
 				e.render.sprites[1].name = "raise"
-				e.render.sprites[1].flip_x = target.render.sprites[1].flip_x
+				if target.render then
+					e.render.sprites[1].flip_x = target.render.sprites[1].flip_x
+				end
 
 				queue_insert(store, e)
 

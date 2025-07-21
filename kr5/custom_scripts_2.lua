@@ -230,32 +230,45 @@ end
 
 scripts.holder_roots_lands_blocked = {}
 function scripts.holder_roots_lands_blocked.update(this, store, script)
-	U.y_animation_play(this, "in", nil, store.tick_ts)
-	U.animation_start(this, "idle", nil, store.tick_ts, true)
+	U.y_animation_play_group(this, "in", nil, store.tick_ts, nil, this.animation_group)
+	U.animation_start_group(this, "idle", nil, store.tick_ts, true, this.animation_group)
 end
 
 scripts.holder_roots_lands_removed = {}
 function scripts.holder_roots_lands_removed.update(this, store, script)
-	U.y_animation_play(this, "out", nil, store.tick_ts)
+	U.y_animation_play_group(this, "out", nil, store.tick_ts, nil, this.animation_group)
 	local controller = E:create_entity(this.controller)
 	controller.holder_id = this.tower.holder_id
-	controller.pox.x, controller.pos.y = this.pos.x, this.pos.y
+	controller.terrain_style = this.tower.terrain_style
+	controller.default_rally_pos = this.tower.default_rally_pos
+	controller.nav_mesh_id = this.ui.nav_mesh_id
+	controller.pos.x, controller.pos.y = this.pos.x, this.pos.y
 	queue_insert(store, controller)
 	if this.upgrade_to then
 		this.tower.upgrade_to = this.upgrade_to
+		return
 	end
+	queue_remove(store, this)
 end
 
 scripts.tower_roots_lands_blocked = {}
 function scripts.tower_roots_lands_blocked.update(this, store, script)
-	U.y_animation_play(this, "in", nil, store.tick_ts)
-	U.animation_start(this, "idle", nil, store.tick_ts, true)
+	local towers = table.filter(store.entities, function(k, v)
+		return v.vis and v.tower and v.tower.holder_id == this.tower.holder_id and v.pos.x == this.pos.x and v.pos.y == this.pos.y
+	end)
+	if #towers > 0 then
+		local tower = towers[1]
+		tower.tower.blocked = nil
+	end
+	towers = nil
+	U.y_animation_play_group(this, "in", nil, store.tick_ts, nil, this.animation_group)
+	U.animation_start_group(this, "idle", nil, store.tick_ts, true, this.animation_group)
 	local last_hit_ts = 0
 	while true do
 		if store.tick_ts - last_hit_ts >= this.cycle_time then
 			last_hit_ts = store.tick_ts
 			local targets = table.filter(store.entities, function(k, v)
-				return v.vis and v.tower and v.tower.holder_id == this.tower.holder_id and v.pox.x == this.pox.x and v.pox.y == this.pox.y
+				return v.vis and v.tower and v.tower.holder_id == this.tower.holder_id and v.pos.x == this.pos.x and v.pos.y == this.pos.y
 			end)
 			if targets then
 				local target = targets[1]
@@ -276,22 +289,57 @@ end
 
 scripts.controller_holder_roots_lands_blocked = {}
 function scripts.controller_holder_roots_lands_blocked.update(this, store, script)
+	local towers, tower
+	local i = 0
 	local spawn_ts = U.frandom(this.cooldown_min, this.cooldown_max + 1e-09) + store.tick_ts
 	while spawn_ts > store.tick_ts do
+		if i < 10 then
+			i = i + 1
+			towers = table.filter(store.entities, function(k, v)
+				return v.tower and v.tower.holder_id == this.holder_id and v.pos.x == this.pos.x and v.pos.y == this.pos.y
+			end)
+			if #towers > 0 then
+				tower = towers[1]
+				tower.ui.clicked = nil
+				tower.ui.can_select = true
+				tower.ui.can_click = true
+				tower = nil
+				i = 10
+			end
+			towers = nil
+		end
 		coroutine.yield()
 	end
-	local towers = table.filter(store.entities, function(k, v)
-		return v.vis and v.tower and v.tower.holder_id == this.holder_id and v.pox.x == this.pox.x and v.pox.y == this.pox.y
+	towers = table.filter(store.entities, function(k, v)
+		return v.tower and v.tower.holder_id == this.holder_id and v.pos.x == this.pos.x and v.pos.y == this.pos.y
 	end)
 	local holder
-	if towers then
-		holder = E:create_entity("tower_roots_lands_blocked")
+	if #towers > 0 then
+		tower = towers[1]
+		tower.tower.blocked = true
+		tower.ui.can_select = nil
+		tower.ui.can_click = nil
+		tower.ui.clicked = nil
+		if tower.vis then
+			holder = E:create_entity("tower_roots_lands_blocked")
+			tower = nil
+		else
+			holder = E:create_entity("holder_roots_lands_blocked")
+		end
 	else
 		holder = E:create_entity("holder_roots_lands_blocked")
 	end
-	holder.pox.x, holder.pox.y = this.pox.x, this.pox.y
+	holder.pos.x, holder.pos.y = this.pos.x, this.pos.y
 	holder.tower.holder_id = this.holder_id
+	holder.tower.terrain_style = this.terrain_style
+	holder.tower.default_rally_pos = this.default_rally_pos
+	holder.ui.nav_mesh_id = this.nav_mesh_id
+	holder.render.sprites[1].name = string.format(holder.render.sprites[1].name, holder.tower.terrain_style)
+	holder.render.sprites[2].name = string.format(holder.render.sprites[2].name, holder.tower.terrain_style)
 	queue_insert(store, holder)
+	if tower then
+		queue_remove(store, tower)
+	end
 	queue_remove(store, this)
 end
 

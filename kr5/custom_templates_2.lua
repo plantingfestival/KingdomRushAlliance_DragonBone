@@ -492,37 +492,53 @@ tt = RT("holder_roots_lands_blocked", "tower_holder_blocked")
 E:add_comps(tt, "main_script")
 tt.tower.type = "holder_roots_lands_blocked"
 tt.tower_holder.unblock_price = 20
-tt.render.sprites[1].prefix = "roots_holder_back"
-tt.render.sprites[1].animated = true
-tt.render.sprites[1].z = Z_DECALS + 1
-tt.render.sprites[2].prefix = "roots_holder_front"
-tt.render.sprites[2].offset = v(0, 13)
+tt.animation_group = "animation"
+tt.render.sprites[2].prefix = "roots_holder_back"
 tt.render.sprites[2].animated = true
+tt.render.sprites[2].offset = v(0, 13)
 tt.render.sprites[2].sort_y_offset = 0
 tt.render.sprites[2].z = Z_DECALS + 1
+tt.render.sprites[2].group = tt.animation_group
+tt.render.sprites[3] = E:clone_c("sprite")
+tt.render.sprites[3].prefix = "roots_holder_front"
+tt.render.sprites[3].animated = true
+tt.render.sprites[3].offset = v(0, 13)
+tt.render.sprites[3].z = Z_DECALS + 1
+tt.render.sprites[3].group = tt.animation_group
 tt.main_script.update = scripts.holder_roots_lands_blocked.update
 
 tt = RT("holder_roots_lands_removed", "holder_roots_lands_blocked")
-tt.main_script.update = scripts.holder_roots_lands_removed.update
+tt.ui.click_rect = r(0, 0, 0, 0)
+tt.ui.can_click = nil
+tt.ui.can_select = nil
+tt.tower.type = nil
 tt.controller = "controller_holder_roots_lands_blocked"
 tt.upgrade_to = "tower_holder"
+tt.sound_events.remove = nil
+tt.main_script.update = scripts.holder_roots_lands_removed.update
 
 tt = RT("tower_roots_lands_blocked", "holder_roots_lands_blocked")
 tt.tower.type = "tower_roots_lands_blocked"
-tt.render.sprites[1].prefix = "roots_tower_back"
-tt.render.sprites[1].anchor.y = 0.4
-tt.render.sprites[1].z = Z_OBJECTS + 2
-tt.render.sprites[2].prefix = "roots_tower_front"
+tt.render.sprites[2].prefix = "roots_tower_back"
 tt.render.sprites[2].anchor.y = 0.4
 tt.render.sprites[2].z = Z_OBJECTS + 2
+tt.render.sprites[3].prefix = "roots_tower_front"
+tt.render.sprites[3].anchor.y = 0.4
+tt.render.sprites[3].z = Z_OBJECTS + 2
 tt.cycle_time = 0.2
 tt.mod = "mod_tower_block_halloween_roots"
+tt.sound_events.remove = "GUITowerSell"
 tt.main_script.update = scripts.tower_roots_lands_blocked.update
 
 tt = RT("tower_roots_lands_removed", "tower_roots_lands_blocked")
 tt.controller = "controller_holder_roots_lands_blocked"
+tt.ui.click_rect = r(0, 0, 0, 0)
+tt.ui.can_click = nil
+tt.ui.can_select = nil
+tt.tower.type = nil
 tt.cycle_time = nil
 tt.mod = nil
+tt.sound_events.remove = nil
 tt.main_script.update = scripts.holder_roots_lands_removed.update
 
 tt = RT("mod_tower_block_halloween_roots", "mod_tower_common")
@@ -557,7 +573,10 @@ tt.tween.props[1].keys = {
 
 tt = RT("controller_holder_roots_lands_blocked")
 E:add_comps(tt, "main_script", "pos")
-tt.main_script.update = scripts.controller_holder_roots_lands_blocked.update
 tt.holder_id = nil
+tt.terrain_style = nil
+tt.default_rally_pos = nil
+tt.nav_mesh_id = nil
 tt.cooldown_min = 15
 tt.cooldown_max = 25
+tt.main_script.update = scripts.controller_holder_roots_lands_blocked.update

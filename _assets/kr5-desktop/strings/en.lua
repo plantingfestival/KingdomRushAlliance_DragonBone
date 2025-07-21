@@ -2947,4 +2947,6 @@ return {
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_2 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[3]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[3]%$s cooldown.",
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_3 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[4]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[4]%$s cooldown.",
 
+	LEVEL_427_HISTORY = "General, now we will enter the deep swamps of the Rotten Forest, the most dangerous place in Valardul. It’s our only option because if we evade it, we are vulnerable to an attack from the rear. Beware of the powerful undead that will confront us in those swamps.",
+	LEVEL_427_TITLE = "427. A NIGHT IN THE SWAMP",
 }

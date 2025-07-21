@@ -1244,7 +1244,7 @@ function scripts.fx_repeat_forever.update(this, store, script)
 	end
 
 	if this.random_shift then
-		tt.render.sprites[1].time_offset = math.random()
+		this.render.sprites[1].time_offset = math.random()
 	end
 
 	local start_ts = store.tick_ts
@@ -1449,10 +1449,9 @@ function scripts.continuous_ray.update(this, store, script)
 	local target = store.entities[b.target_id]
 	local dest = V.vclone(b.to)
 	s.scale = s.scale or V.vv(1)
-	this.force_stop_ray	= nil
 
 	if not b.ignore_hit_offset and target and target.unit and target.unit.hit_offset then
-		local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+		local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
 		b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x * flip_sign, target.pos.y + target.unit.hit_offset.y
 	end
 
@@ -1460,7 +1459,7 @@ function scripts.continuous_ray.update(this, store, script)
 		if target then
 			local tpx, tpy = target.pos.x, target.pos.y
 			if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
-				local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+				local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
 				tpx, tpy = tpx + target.unit.hit_offset.x * flip_sign, tpy + target.unit.hit_offset.y
 			end
 			local d = math.max(math.abs(tpx - b.to.x), math.abs(tpy - b.to.y))
@@ -1482,7 +1481,7 @@ function scripts.continuous_ray.update(this, store, script)
 		s.scale.x = (V.dist(dest.x, dest.y, this.pos.x, this.pos.y) + dist_offset) / this.image_width
 	end
 
-	U.animation_start(this, tt.animation_start, nil, store.tick_ts)
+	U.animation_start(this, this.animation_start, nil, store.tick_ts)
 	update_sprite()
 	while not U.animation_finished(this) do
 		if target and target.vis and (U.flag_has(target.vis.bans, this.bullet.vis_flags) or U.flag_has(this.bullet.vis_bans, target.vis.flags)) then
@@ -1492,7 +1491,7 @@ function scripts.continuous_ray.update(this, store, script)
 		update_sprite()
 	end
 	
-	U.animation_start(this, tt.animation_travel, nil, store.tick_ts, true)
+	U.animation_start(this, this.animation_travel, nil, store.tick_ts, true)
 	local mods_added = {}
 	if this.ray_duration then
 		target = store.entities[b.target_id]
@@ -1535,7 +1534,7 @@ function scripts.continuous_ray.update(this, store, script)
 		queue_remove(store, value)
 	end
 
-	U.y_animation_play(this, tt.animation_out, nil, store.tick_ts)
+	U.y_animation_play(this, this.animation_out, nil, store.tick_ts)
 	queue_remove(store, this)
 end
 

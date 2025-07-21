@@ -483,6 +483,16 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
+	sounds_stage427 = {
+		sounds = {
+			"MusicBattlePrep_427",
+			"MusicBattle_427",
+			"level27_gillman_jump",
+			"level27_gillman_appear",
+			"level27_girl_drinking",
+			"dark_army_blazing_mage_attack_loopstart",
+		}
+	},
 	MushroomSounds = {
 		files = {
 			"KR_sfx_mushroomboss_gas_op1.ogg",
@@ -520,6 +530,11 @@ return {
 			"Vampiress-Death02c.ogg",
 			"halloween_vampiress_areaattack_confilo.ogg",
 			"halloween_vampiress_drainlifeOP2.ogg",
+			"Sound_EnemySkeletonBreak2.ogg",
+			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg",
+			"kr4_dwarves_sulfur_alchemist_death.ogg",
+			"Sound_EnemyRocketeer.ogg",
+			"kr4_frog_erudite_shot.ogg",
 		}
 	},
 	-- customization

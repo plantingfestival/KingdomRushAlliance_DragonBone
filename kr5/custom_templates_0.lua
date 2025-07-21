@@ -148,9 +148,6 @@ tt.entity = nil
 tt = E:register_t("KR5Tower", "tower_KR5")
 E:add_comps(tt, "vis")
 
-tt = RT("kr4_tower_holder", "tower_holder")
-tt.tower.terrain_style = 401
-
 tt = RT("fx_repeat_forever")
 E:add_comps(tt, "main_script", "render")
 tt.main_script.update = scripts.fx_repeat_forever.update
@@ -203,8 +200,9 @@ tt.bullet.mods = {
 }
 tt.bullet.vis_flags = F_RANGED
 tt.bullet.vis_bans = bor(F_NIGHTMARE, F_FRIEND)
-tt.image_width = 65
+tt.image_width = 60
 tt.ray_duration = 1
+tt.force_stop_ray = nil
 tt.animation_start = "in"
 tt.animation_travel = "travel"
 tt.animation_out = "out"

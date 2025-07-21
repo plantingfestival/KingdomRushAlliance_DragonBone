@@ -6606,4 +6606,88 @@ function scripts.hero_eiskalt_ultimate.update(this, store, script)
 	queue_remove(store, this)
 end
 
+scripts.veznan_crystal = {}
+function scripts.veznan_crystal.update(this, store, script)
+	local a1 = this.attacks.list[1]
+	local bullets = {}
+	a1.ts = store.tick_ts
+	this.ui.clicked = nil
+	this.ui.can_click = nil
+	U.animation_start_group(this, "cooldown", nil, store.tick_ts, true, this.animation_group1)
+	while true do
+		if this.ui.clicked then
+			this.ui.clicked = nil
+			this.ui.can_click = nil
+			local _, targets = U.find_enemy_with_search_type(store.entities, this.pos, 0, a1.range, nil, a1.vis_flags, a1.vis_bans)
+			if targets then
+				S:queue(a1.sound, a1.sound_args)
+				U.animation_start_group(this, a1.animation, nil, store.tick_ts, true, this.animation_group1)
+				for i, target in ipairs(targets) do
+					if i > a1.max_targets then
+						break
+					end
+					local bullet = E:create_entity(a1.bullet)
+					bullet.bullet.source_id = this.id
+					bullet.bullet.target_id = target.id
+					local start_offset = a1.bullet_start_offset[1]
+					bullet.bullet.from = V.v(this.pos.x + start_offset.x, this.pos.y + start_offset.y)
+					bullet.pos = V.vclone(bullet.bullet.from)
+					bullet.bullet.to = V.vclone(target.pos)
+					if target.unit and target.unit.hit_offset then
+						local flipSign = 1
+						if target.render and target.render.sprites[1].flip_x then
+							flipSign = -1
+						end
+						bullet.bullet.to.x, bullet.bullet.to.y = bullet.bullet.to.x + target.unit.hit_offset.x * flipSign, bullet.bullet.to.y + target.unit.hit_offset.y 
+					end
+					table.insert(bullets, bullet)
+					queue_insert(store, bullet)
+					a1.ts = store.tick_ts
+				end
+				while true do
+					for i = #bullets, 1, -1 do
+						local bullet = store.entities[bullets[i].id]
+						if not bullet then
+							table.remove(bullets, i)
+						end
+					end
+					if #bullets <= 0 then
+						break
+					end
+					coroutine.yield()
+				end
+				U.animation_start_group(this, "cooldown", nil, store.tick_ts, true, this.animation_group1)
+			else
+				U.animation_start_group(this, "ready", nil, store.tick_ts, true, this.animation_group1)
+				for _, s in pairs(this.render.sprites) do
+					if s.group == this.animation_group2 then
+						s.hidden = nil
+					end
+				end
+				this.tween.reverse = nil
+				this.tween.disabled = nil
+				this.tween.ts = store.tick_ts
+				U.y_wait(store, this.tween_duration)
+				this.tween.reverse = true
+				this.tween.ts = store.tick_ts
+				U.y_wait(store, this.tween_duration)
+				for _, s in pairs(this.render.sprites) do
+					if s.group == this.animation_group2 then
+						s.hidden = true
+					end
+				end
+				this.tween.disabled = true
+				this.ui.can_click = true
+			end
+		end
+		
+		if store.tick_ts - a1.ts >= a1.cooldown then
+			U.animation_start_group(this, "ready", nil, store.tick_ts, true, this.animation_group1)
+			this.ui.can_click = true
+		end
+
+		coroutine.yield()
+	end	
+end
+
 return scripts
