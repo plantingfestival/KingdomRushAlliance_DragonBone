@@ -6049,9 +6049,7 @@ tt = E:register_t("controller_item_hero_beastmaster", "controller_item_hero")
 tt.entity = "hero_beastmaster"
 
 tt = E:register_t("hero_beastmaster", "hero5")
-
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
-
 anchor_y = 0.175
 image_y = 80
 tt.hero.level_stats.hp_max = {
@@ -6092,44 +6090,44 @@ tt.hero.level_stats.armor = {
 }
 tt.hero.level_stats.melee_damage_min = {
 	8,
-	9,
 	10,
-	10,
-	11,
 	12,
-	13,
 	14,
-	14,
-	15
+	16,
+	18,
+	20,
+	22,
+	24,
+	26
 }
 tt.hero.level_stats.melee_damage_max = {
 	12,
-	13,
-	14,
-	16,
-	17,
+	15,
 	18,
-	19,
-	20,
-	22,
-	23
+	21,
+	24,
+	27,
+	30,
+	33,
+	36,
+	39
 }
 tt.hero.skills.boarmaster = E:clone_c("hero_skill")
 tt.hero.skills.boarmaster.boars = {
 	1,
 	2,
-	2
+	3
 }
 tt.hero.skills.boarmaster.hp_max = {
 	160,
-	160,
-	240
+	240,
+	320
 }
 tt.hero.skills.stampede = E:clone_c("hero_skill")
 tt.hero.skills.stampede.rhinos = {
 	2,
-	3,
-	4
+	4,
+	6
 }
 tt.hero.skills.stampede.duration = {
 	3,
@@ -6161,34 +6159,34 @@ tt.hero.skills.falconer.max_range = {
 tt.hero.skills.falconer.damage_min = {
 	3,
 	9,
-	18
+	27
 }
 tt.hero.skills.falconer.damage_max = {
 	9,
 	27,
-	54
+	81
 }
 tt.hero.skills.deeplashes = E:clone_c("hero_skill")
 tt.hero.skills.deeplashes.damage = {
-	14,
-	26,
-	36
+	28,
+	56,
+	112
 }
 tt.hero.skills.deeplashes.blood_damage = {
-	12,
-	36,
-	72
+	24,
+	72,
+	216
 }
 tt.hero.skills.deeplashes.xp_gain_factor = 30
 tt.hero.skills.regeneration = E:clone_c("hero_skill")
 tt.hero.skills.regeneration.hp = {
-	1,
-	1,
-	3
+	3,
+	6,
+	9
 }
 tt.hero.skills.regeneration.cooldown = {
 	fts(10),
-	fts(5),
+	fts(10),
 	fts(10)
 }
 tt.hero.skills.boarmaster.hr_cost = {
@@ -6327,8 +6325,8 @@ tt.info.fn = kr2_scripts.beastmaster_boar.get_info
 tt.main_script.insert = kr2_scripts.beastmaster_boar.insert
 tt.main_script.update = kr2_scripts.beastmaster_boar.update
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].damage_max = 8
-tt.melee.attacks[1].damage_min = 2
+tt.melee.attacks[1].damage_max = 18
+tt.melee.attacks[1].damage_min = 12
 tt.melee.attacks[1].hit_time = fts(7)
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF, F_WATER)
 tt.melee.attacks[1].vis_flags = F_BLOCK
@@ -6336,7 +6334,7 @@ tt.melee.attacks[1].sound = "HeroBeastMasterBoarAttack"
 tt.melee.attacks[1].xp_gain_factor = 0.85
 tt.melee.range = 85
 tt.motion.max_speed = 69
-tt.regen.health = 10
+tt.regen.health = 16
 tt.regen.cooldown = 1
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].name = "raise"
