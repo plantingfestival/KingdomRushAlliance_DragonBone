@@ -13240,14 +13240,10 @@ function scripts.hero_beastmaster.update(this, store, script)
 	local he = this.hero
 	local a, skill, brk, sta
 
-
 	local function distribute_boars(x, y, qty)
 		if qty < 1 then
 			return nil
 		end
-
-		SU.alliance_merciless_upgrade(store, this)
-		SU.alliance_corageous_upgrade(store, this)
 		
 		local nodes = P:nearest_nodes(x, y, nil, nil, true)
 
@@ -13335,6 +13331,9 @@ function scripts.hero_beastmaster.update(this, store, script)
 					goto label_315_0
 				end
 			end
+
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.hero_level_up(store, this) then
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
@@ -13565,9 +13564,9 @@ function scripts.beastmaster_boar.update(this, store)
 			SU.soldier_courage_upgrade(store, this)
 
 			while this.nav_rally.new do
-				this.nav_grid.waypoints = GR:find_waypoints(this.pos, nil, this.nav_rally.pos, this.nav_grid.valid_terrains)
+				-- this.nav_grid.waypoints = GR:find_waypoints(this.pos, nil, this.nav_rally.pos, this.nav_grid.valid_terrains)
 
-				if SU.y_hero_new_rally(store, this) then
+				if SU.y_soldier_new_rally(store, this) then
 					goto label_320_0
 				end
 			end
@@ -14365,9 +14364,6 @@ function scripts.hero_priest.update(this, store)
 			return
 		end
 
-		SU.alliance_merciless_upgrade(store, this)
-		SU.alliance_corageous_upgrade(store, this)
-
 		local targets = U.find_soldiers_in_range(store.entities, pos, 0, skill.range, 0, 0, function(v)
 			return v ~= this
 		end)
@@ -14453,6 +14449,9 @@ function scripts.hero_priest.update(this, store)
 				end
 			end
 
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
 			if SU.hero_level_up(store, this) then
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 			end
@@ -14462,7 +14461,7 @@ function scripts.hero_priest.update(this, store)
 
 			if store.tick_ts - a.ts > a.cooldown then
 				local targets = table.filter(store.entities, function(k, v)
-					return v ~= this and v.soldier and v.health and v.health.hp < 0.7 * v.health.hp_max and not v.unit.hide_during_death and not v.unit.hide_after_death and not table.contains(a.excluded_templates, v.template_name) and U.is_inside_ellipse(v.pos, this.pos, a.range)
+					return v ~= this and v.soldier and v.health and v.health.hp < 0.7 * v.health.hp_max and not v.unit.hide_during_death and not v.unit.hide_after_death and U.is_inside_ellipse(v.pos, this.pos, a.range)
 				end)
 
 				if #targets < 1 then
@@ -14474,9 +14473,8 @@ function scripts.hero_priest.update(this, store)
 					local will_revive = false
 
 					for _, t in pairs(dead_targets) do
-						if not t.reinforcement and math.random() < a.revive_chance then
+						if t.respawn and math.random() < a.revive_chance then
 							will_revive = true
-
 							break
 						end
 					end
@@ -14511,29 +14509,13 @@ function scripts.hero_priest.update(this, store)
 						local count = 0
 
 						for _, s in pairs(targets) do
-							if s.health.dead and not s.unit.hide_during_death and not s.unit.hide_after_death and (will_revive or math.random() < a.revive_chance) and not s.reinforcement and s.template_name ~= "soldier_djinn" and not s.hero then
-								will_revive = false
-
+							if s.health.dead and will_revive then
 								log.debug("reviving %s", s.id)
-
-								s.health.dead = false
 								s.health.hp = s.health.hp_max
-								s.health_bar.hidden = nil
-								s.ui.can_select = true
-
-								if s.unit.hide_during_death then
-									s.unit.hide_during_death = nil
-
-									U.sprites_show(s)
-								end
-
-								s.main_script.runs = 1
 
 								local fx = E:create_entity("fx_priest_revive")
-
 								fx.pos = V.vclone(s.pos)
 								fx.render.sprites[1].ts = store.tick_ts
-
 								queue_insert(store, fx)
 							elseif not s.health.dead then
 								local m = E:create_entity(a.mod)

@@ -1,6 +1,6 @@
 return {
 	["bottom_info_image_soldiers_0047"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			104,
 			104
@@ -12,12 +12,37 @@ return {
             4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			181,
-			2691,
+			916,
+			676,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0048"] = {
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			1014,
+			2875
+		},
+		f_quad = {
+			916,
+			774,
 			97,
 			96
 		},
@@ -25,82 +50,82 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0001"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			80,
+			81,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1661,
-			87,
+			269,
+			2583,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0002"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			78,
-            55,
+			80,
+            56,
             77,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1744,
-			92,
-			84
+			370,
+			2183,
+			90,
+			83
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0003"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			79,
-            61,
+            62,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			686,
-			2075,
+			357,
+			2634,
 			88,
-			78
+			77
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0004"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -109,23 +134,23 @@ return {
 			76,
             65,
             81,
-            22
+            23
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			624,
-			2372,
+			442,
+			2358,
 			90,
-			74
+			73
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0005"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -137,45 +162,45 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			776,
-			2072,
+			298,
+			1894,
 			86,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0006"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			84,
-            55,
+            56,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			700,
-			2423,
+			596,
+			1998,
 			83,
-			84
+			83
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0007"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -187,12 +212,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			686,
-			2155,
+			681,
+			2215,
 			87,
 			85
 		},
@@ -200,7 +225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0008"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -208,24 +233,24 @@ return {
 		trim = {
 			74,
             58,
-            77,
+            78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1486,
-			96,
+			806,
+			1891,
+			95,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0009"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -233,174 +258,174 @@ return {
 		trim = {
 			74,
             58,
-            77,
+            78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1486,
-			96,
+			806,
+			1891,
+			95,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0010"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			57,
+			58,
             58,
             78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			458,
-			2647,
-			112,
+			806,
+			1808,
+			111,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0011"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			57,
+			58,
             58,
             78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			458,
-			2647,
-			112,
+			806,
+			1808,
+			111,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0012"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			48,
-            56,
+            57,
             77,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			325,
-			1944,
+			174,
+			1898,
 			122,
-			83
+			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0013"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			48,
-            56,
+            57,
             77,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			325,
-			1944,
+			174,
+			1898,
 			122,
-			83
+			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0014"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			41,
-            56,
-            77,
+			42,
+            57,
+            79,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			338,
-			1532,
-			129,
-			83
+			269,
+			2455,
+			126,
+			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0015"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			41,
-            56,
-            77,
+			42,
+            57,
+            79,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			338,
-			1532,
-			129,
-			83
+			269,
+			2455,
+			126,
+			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0016"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -412,12 +437,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			2155,
+			595,
+			1747,
 			84,
 			84
 		},
@@ -425,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0017"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -437,12 +462,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			2155,
+			595,
+			1747,
 			84,
 			84
 		},
@@ -450,57 +475,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0018"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			98,
-            50,
+            52,
             32,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			280,
-			2813,
+			681,
+			1721,
 			117,
-			89
+			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0019"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			98,
-            50,
+            52,
             32,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			280,
-			2813,
+			681,
+			1721,
 			117,
-			89
+			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0020"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -508,24 +533,24 @@ return {
 		trim = {
 			98,
             55,
-            32,
+            33,
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			338,
-			2068,
-			117,
+			681,
+			1898,
+			116,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0021"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -533,24 +558,24 @@ return {
 		trim = {
 			98,
             55,
-            32,
+            33,
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			338,
-			2068,
-			117,
+			681,
+			1898,
+			116,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0022"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -562,12 +587,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			715,
-			1308,
+			370,
+			1776,
 			110,
 			76
 		},
@@ -575,7 +600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0023"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -587,12 +612,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			715,
-			1308,
+			370,
+			1776,
 			110,
 			76
 		},
@@ -600,207 +625,207 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0024"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			94,
+			95,
             58,
-            80,
+            82,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			707,
-			2596,
-			73,
+			610,
+			2630,
+			70,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0025"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			94,
+			95,
             58,
-            80,
+            82,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			707,
-			2596,
-			73,
+			610,
+			2630,
+			70,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0026"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			84,
+			85,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			539,
-			2465,
-			83,
+			511,
+			1752,
+			82,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0027"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			84,
+			85,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			539,
-			2465,
-			83,
+			511,
+			1752,
+			82,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0028"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			78,
+			79,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			423,
-			1653,
-			89,
+			440,
+			2450,
+			88,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0029"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			78,
+			79,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			423,
-			1653,
-			89,
+			440,
+			2450,
+			88,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0030"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			80,
+			81,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1661,
-			87,
+			269,
+			2583,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0031"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			80,
+			81,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1661,
-			87,
+			269,
+			2583,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0032"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -812,12 +837,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			538,
-			2373,
+			595,
+			1833,
 			90,
 			84
 		},
@@ -825,7 +850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0033"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -837,12 +862,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			538,
-			2373,
+			595,
+			1833,
 			90,
 			84
 		},
@@ -850,7 +875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0034"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -862,12 +887,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			769,
-			1986,
+			825,
+			894,
 			89,
 			84
 		},
@@ -875,7 +900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0035"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -887,12 +912,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			769,
-			1986,
+			825,
+			894,
 			89,
 			84
 		},
@@ -900,57 +925,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0036"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			86,
+			87,
             54,
             75,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			171,
-			2475,
-			86,
+			596,
+			2314,
+			85,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0037"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			86,
+			87,
             54,
             75,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			171,
-			2475,
-			86,
+			596,
+			2314,
+			85,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0038"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -962,12 +987,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			1308,
+			596,
+			2083,
 			76,
 			83
 		},
@@ -975,7 +1000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0039"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -987,12 +1012,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			1308,
+			596,
+			2083,
 			76,
 			83
 		},
@@ -1000,57 +1025,57 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0040"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			68,
-            56,
+            57,
             87,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			538,
-			2279,
+			357,
+			2540,
 			92,
-			83
+			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0041"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			68,
-            56,
+            57,
             87,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			538,
-			2279,
+			357,
+			2540,
 			92,
-			83
+			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0042"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1058,24 +1083,24 @@ return {
 		trim = {
 			88,
             56,
-            78,
+            79,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			539,
-			2548,
-			81,
+			596,
+			2161,
+			80,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0043"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1083,99 +1108,99 @@ return {
 		trim = {
 			88,
             56,
-            78,
+            79,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			539,
-			2548,
-			81,
+			596,
+			2161,
+			80,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0044"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			98,
-            43,
+            44,
             78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1569,
+			903,
+			1903,
 			71,
-			96
+			95
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0045"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			98,
-            43,
+            44,
             78,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1569,
+			903,
+			1903,
 			71,
-			96
+			95
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0046"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			98,
+			99,
             30,
-            71,
+            73,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			253,
-			991,
-			78,
+			381,
+			1854,
+			75,
 			109
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0047"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1187,12 +1212,12 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			860,
-			246,
+			678,
+			1470,
 			128,
 			144
 		},
@@ -1200,7 +1225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0048"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1212,12 +1237,12 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			860,
-			246,
+			678,
+			1470,
 			128,
 			144
 		},
@@ -1225,57 +1250,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0049"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			67,
+			68,
             35,
             48,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			868,
-			1160,
-			132,
+			808,
+			980,
+			131,
 			104
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0050"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			67,
+			68,
             35,
             48,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			868,
-			1160,
-			132,
+			808,
+			980,
+			131,
 			104
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0051"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1287,12 +1312,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			163,
-			1958,
+			737,
+			1308,
 			128,
 			76
 		},
@@ -1300,7 +1325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0052"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1312,12 +1337,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1386,
+			292,
+			1791,
 			101,
 			76
 		},
@@ -1325,7 +1350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0053"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1333,24 +1358,24 @@ return {
 		trim = {
 			56,
             61,
-            95,
+            97,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1642,
-			96,
+			374,
+			1982,
+			94,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0054"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1358,99 +1383,99 @@ return {
 		trim = {
 			56,
             61,
-            95,
+            97,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1642,
-			96,
+			374,
+			1982,
+			94,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0055"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			64,
-            59,
-            95,
+            60,
+            96,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			700,
-			2333,
-			88,
-			80
+			603,
+			2490,
+			87,
+			79
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0056"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             59,
             95,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2241,
-			78,
+			447,
+			2634,
+			77,
 			80
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0057"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			80,
+			81,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1661,
-			87,
+			269,
+			2583,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0058"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1458,24 +1483,24 @@ return {
 		trim = {
 			81,
             57,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			553,
-			2873,
-			88,
+			683,
+			2302,
+			86,
 			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0059"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1483,24 +1508,24 @@ return {
 		trim = {
 			81,
             57,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			553,
-			2873,
-			88,
+			683,
+			2302,
+			86,
 			82
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0060"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1512,12 +1537,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			459,
-			2534,
+			429,
+			2713,
 			92,
 			78
 		},
@@ -1525,7 +1550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0061"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1537,12 +1562,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			459,
-			2534,
+			429,
+			2713,
 			92,
 			78
 		},
@@ -1550,7 +1575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0062"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1558,24 +1583,24 @@ return {
 		trim = {
 			77,
             62,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1904,
-			92,
+			517,
+			2358,
+			90,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0063"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1583,74 +1608,74 @@ return {
 		trim = {
 			77,
             62,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1904,
-			92,
+			517,
+			2358,
+			90,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0064"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			75,
+			77,
             62,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			487,
-			1850,
-			94,
+			523,
+			2450,
+			90,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0065"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			75,
+			77,
             62,
-            78,
+            80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			487,
-			1850,
-			94,
+			523,
+			2450,
+			90,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0066"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1662,12 +1687,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			607,
-			2026,
+			441,
+			2540,
 			92,
 			77
 		},
@@ -1675,7 +1700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0067"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1687,12 +1712,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			607,
-			2026,
+			441,
+			2540,
 			92,
 			77
 		},
@@ -1700,7 +1725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0068"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1712,12 +1737,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1821,
+			919,
+			1820,
 			94,
 			81
 		},
@@ -1725,7 +1750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0069"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1737,12 +1762,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1821,
+			919,
+			1820,
 			94,
 			81
 		},
@@ -1750,7 +1775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0070"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1758,24 +1783,24 @@ return {
 		trim = {
 			91,
             55,
-            84,
+            85,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			637,
-			2859,
-			72,
+			595,
+			1925,
+			71,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0071"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1783,74 +1808,74 @@ return {
 		trim = {
 			91,
             55,
-            84,
+            85,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			637,
-			2859,
-			72,
+			595,
+			1925,
+			71,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0072"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			94,
-            50,
-            84,
+			95,
+            52,
+            85,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			703,
-			2671,
-			69,
-			89
+			429,
+			2807,
+			67,
+			87
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0073"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			94,
-            50,
-            84,
+			95,
+            52,
+            85,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			703,
-			2671,
-			69,
-			89
+			429,
+			2807,
+			67,
+			87
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0074"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1862,12 +1887,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -1875,7 +1900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0075"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1887,12 +1912,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -1900,7 +1925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0076"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1912,20 +1937,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0077"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1937,20 +1962,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0078"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1962,20 +1987,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0079"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -1987,20 +2012,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0080"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2008,24 +2033,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0081"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2033,24 +2058,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0082"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2062,12 +2087,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -2075,7 +2100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0083"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2087,12 +2112,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -2100,7 +2125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0084"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2112,20 +2137,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0085"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2137,20 +2162,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0086"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2162,20 +2187,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0087"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2187,20 +2212,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0088"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2208,24 +2233,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0089"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2233,24 +2258,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0090"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2262,12 +2287,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -2275,7 +2300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0091"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2287,12 +2312,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			466,
-			2873,
+			454,
+			2268,
 			85,
 			88
 		},
@@ -2300,7 +2325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0092"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2312,20 +2337,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0093"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2337,20 +2362,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			421,
-			1736,
+			877,
+			2039,
 			91,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0094"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2362,20 +2387,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0095"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2387,20 +2412,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			410,
-			1929,
+			916,
+			1068,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0096"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2408,24 +2433,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0097"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2433,24 +2458,24 @@ return {
 		trim = {
 			95,
             41,
-            56,
+            57,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1386,
-			96,
+			913,
+			1332,
+			95,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0098"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2462,12 +2487,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1294,
+			602,
+			2401,
 			79,
 			87
 		},
@@ -2475,7 +2500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0099"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2487,12 +2512,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1294,
+			602,
+			2401,
 			79,
 			87
 		},
@@ -2500,57 +2525,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0100"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			77,
+			78,
             58,
-            80,
+            81,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			686,
-			1983,
-			90,
+			681,
+			2132,
+			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0101"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			77,
+			78,
             58,
-            80,
+            81,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			686,
-			1983,
-			90,
+			681,
+			2132,
+			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0102"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2562,12 +2587,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			691,
-			2242,
+			520,
+			2542,
 			89,
 			81
 		},
@@ -2575,7 +2600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0103"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2587,12 +2612,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			691,
-			2242,
+			520,
+			2542,
 			89,
 			81
 		},
@@ -2600,7 +2625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0104"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2608,24 +2633,24 @@ return {
 		trim = {
 			80,
             58,
-            80,
+            81,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			624,
-			2546,
-			87,
+			683,
+			2390,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0105"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2633,24 +2658,24 @@ return {
 		trim = {
 			80,
             58,
-            80,
+            81,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			624,
-			2546,
-			87,
+			683,
+			2390,
+			86,
 			81
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0106"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2662,20 +2687,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0107"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2687,120 +2712,120 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0108"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0109"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0110"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0111"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0112"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2812,20 +2837,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0113"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2837,20 +2862,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0114"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2858,24 +2883,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0115"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2883,24 +2908,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0116"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2912,20 +2937,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0117"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2937,20 +2962,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0118"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2962,20 +2987,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0119"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -2987,120 +3012,120 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0120"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0121"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0122"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0123"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0124"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3112,20 +3137,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0125"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3137,20 +3162,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0126"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3158,24 +3183,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0127"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3183,24 +3208,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0128"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3212,20 +3237,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0129"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3237,20 +3262,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0130"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3262,20 +3287,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0131"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3287,120 +3312,120 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1709,
+			596,
+			2243,
 			69,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0132"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0133"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			71,
-            56,
-            98,
+			73,
+            58,
+            99,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2635,
-			78,
-			83
+			684,
+			2565,
+			75,
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0134"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0135"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			74,
+			75,
             57,
             98,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2072,
-			75,
+			852,
+			2343,
+			74,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0136"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3412,20 +3437,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0137"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3437,20 +3462,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			782,
-			2321,
+			770,
+			2251,
 			72,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0138"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3458,24 +3483,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0139"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3483,24 +3508,24 @@ return {
 		trim = {
 			85,
             56,
-            91,
+            92,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
+			767,
 			2325,
-			71,
+			70,
 			83
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0140"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3512,20 +3537,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0141"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3537,20 +3562,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			785,
-			2406,
+			851,
+			2419,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0142"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3562,20 +3587,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2241,
+			847,
+			2491,
 			75,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0143"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3587,20 +3612,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2241,
+			847,
+			2491,
 			75,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0144"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3612,12 +3637,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1552,
+			529,
+			2633,
 			79,
 			78
 		},
@@ -3625,7 +3650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0145"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3637,12 +3662,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1552,
+			529,
+			2633,
 			79,
 			78
 		},
@@ -3650,57 +3675,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0146"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			68,
+			70,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			515,
-			1516,
-			99,
+			916,
+			1249,
+			97,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0147"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			68,
+			70,
             58,
             80,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			515,
-			1516,
-			99,
+			916,
+			1249,
+			97,
 			81
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0148"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3712,12 +3737,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			514,
-			1681,
+			681,
+			1988,
 			98,
 			81
 		},
@@ -3725,7 +3750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0149"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3737,12 +3762,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			514,
-			1681,
+			681,
+			1988,
 			98,
 			81
 		},
@@ -3750,7 +3775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0150"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3758,24 +3783,24 @@ return {
 		trim = {
 			80,
             18,
-            80,
+            81,
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			254,
-			2201,
-			87,
+			260,
+			2328,
+			86,
 			125
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0151"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3787,11 +3812,11 @@ return {
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			255,
+			171,
 			2328,
 			87,
 			125
@@ -3800,7 +3825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0152"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3808,24 +3833,24 @@ return {
 		trim = {
 			77,
             17,
-            83,
+            84,
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			181,
-			2563,
-			87,
+			2523,
+			86,
 			126
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0153"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3837,12 +3862,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			163,
-			2088,
+			860,
+			197,
 			87,
 			127
 		},
@@ -3850,7 +3875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0154"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3862,12 +3887,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			423,
-			1524,
+			825,
+			765,
 			89,
 			127
 		},
@@ -3875,7 +3900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0155"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3887,20 +3912,20 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			163,
-			2217,
+			180,
+			1700,
 			89,
 			127
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0156"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3912,12 +3937,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			241,
-			1945,
+			165,
+			2715,
 			82,
 			126
 		},
@@ -3925,7 +3950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0157"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3934,23 +3959,23 @@ return {
 			82,
             17,
             83,
-            17
+            19
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			171,
-			2346,
+			511,
+			1625,
 			82,
-			127
+			125
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0158"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3962,12 +3987,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			252,
-			2073,
+			249,
+			2715,
 			84,
 			126
 		},
@@ -3975,7 +4000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0159"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -3984,23 +4009,23 @@ return {
 			80,
             18,
             83,
-            19
+            20
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			270,
-			2561,
+			595,
+			1622,
 			84,
-			124
+			123
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0160"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4012,45 +4037,45 @@ return {
             19
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			280,
-			2687,
+			889,
+			1,
 			86,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0161"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			78,
+			79,
             19,
             82,
             19
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			868,
-			1071,
-			87,
+			681,
+			1810,
+			86,
 			123
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0162"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4062,20 +4087,20 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			368,
-			2647,
+			800,
+			1718,
 			88,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0163"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4087,20 +4112,20 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			368,
-			2647,
+			800,
+			1718,
 			88,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0164"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4112,12 +4137,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1470,
+			766,
+			2477,
 			79,
 			80
 		},
@@ -4125,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_0165"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4137,45 +4162,45 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			602,
-			1885,
+			641,
+			2801,
 			73,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_0166"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
-			54,
+			55,
             59,
             119,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			624,
-			2464,
-			74,
+			940,
+			2297,
+			73,
 			80
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_0167"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4187,12 +4212,12 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1585,
+			841,
+			2568,
 			74,
 			76
 		},
@@ -4200,57 +4225,57 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0168"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			44,
-            69,
+            70,
             118,
             15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			707,
-			2509,
+			774,
+			2111,
 			85,
-			77
+			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0169"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
 		},
 		trim = {
 			41,
-            86,
+            88,
             114,
-            9
+            10
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			623,
-			2278,
+			949,
+			256,
 			92,
-			66
+			63
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_0170"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4258,24 +4283,24 @@ return {
 		trim = {
 			41,
             100,
-            114,
+            115,
             3
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			573,
-			2757,
-			92,
+			266,
+			2268,
+			91,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0171"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4283,24 +4308,24 @@ return {
 		trim = {
 			41,
             100,
-            114,
+            115,
             3
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			573,
-			2757,
-			92,
+			266,
+			2268,
+			91,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0172"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4312,20 +4337,20 @@ return {
             5
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			616,
-			1516,
+			681,
+			2071,
 			91,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_0173"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4337,12 +4362,12 @@ return {
             6
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1386,
+			509,
+			2713,
 			92,
 			57
 		},
@@ -4350,7 +4375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0174"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4362,12 +4387,12 @@ return {
             6
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1386,
+			509,
+			2713,
 			92,
 			57
 		},
@@ -4375,7 +4400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_0175"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			247,
 			161
@@ -4387,20 +4412,20 @@ return {
             3
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			614,
-			1792,
+			518,
+			2807,
 			91,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0001"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4408,24 +4433,24 @@ return {
 		trim = {
 			97,
             32,
-            101,
-            30
+            102,
+            31
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			329,
-			1790,
-			47,
-			46
+			525,
+			2111,
+			46,
+			45
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0002"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4433,24 +4458,24 @@ return {
 		trim = {
 			97,
             32,
-            101,
-            30
+            102,
+            31
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			329,
-			1790,
-			47,
-			46
+			525,
+			2111,
+			46,
+			45
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0003"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4458,24 +4483,24 @@ return {
 		trim = {
 			101,
             41,
-            100,
-            24
+            101,
+            26
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2353,
-			44,
-			43
+			972,
+			2039,
+			43,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0004"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4483,149 +4508,149 @@ return {
 		trim = {
 			101,
             41,
-            100,
-            24
+            101,
+            26
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2353,
-			44,
-			43
+			972,
+			2039,
+			43,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0005"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			101,
-            40,
-            100,
+            41,
+            101,
             24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2307,
-			44,
-			44
+			523,
+			2160,
+			43,
+			43
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0006"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			101,
-            40,
-            100,
+            41,
+            101,
             24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2307,
-			44,
-			44
+			523,
+			2160,
+			43,
+			43
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0007"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			93,
-            40,
+            42,
             80,
             32
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			541,
-			2719,
+			979,
+			350,
 			72,
-			36
+			34
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0008"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			93,
-            40,
+            42,
             80,
             32
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
+		},
+		f_quad = {
+			979,
+			350,
+			72,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_beastMaster_bird_0009"] = {
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			245,
+			108
+		},
+		trim = {
+			92,
+            30,
+            100,
+            29
+		},
+		a_size = {
+			1014,
+			2875
 		},
 		f_quad = {
 			541,
-			2719,
-			72,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_beastMaster_bird_0009"] = {
-		a_name = "go_items_hero_beastmaster.dds",
-		size = {
-			245,
-			108
-		},
-		trim = {
-			92,
-            30,
-            100,
-            29
-		},
-		a_size = {
-			992,
-			2962
-		},
-		f_quad = {
-			941,
-			2201,
+			2060,
 			53,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0010"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4637,20 +4662,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2201,
+			541,
+			2060,
 			53,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0011"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4658,24 +4683,24 @@ return {
 		trim = {
 			97,
             22,
-            100,
+            101,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2085,
-			48,
+			262,
+			2666,
+			47,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0012"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4683,49 +4708,49 @@ return {
 		trim = {
 			97,
             22,
-            100,
+            101,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2085,
-			48,
+			262,
+			2666,
+			47,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0013"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			98,
-            26,
+            27,
             98,
-            33
+            35
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2256,
+			309,
+			1700,
 			49,
-			49
+			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0014"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4734,48 +4759,48 @@ return {
 			100,
             36,
             93,
-            16
+            17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			175,
-			2909,
+			538,
+			1835,
 			52,
-			56
+			55
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0015"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			97,
+			98,
             36,
             93,
-            18
+            19
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			927,
-			2762,
-			55,
-			54
+			538,
+			1940,
+			54,
+			53
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0016"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4787,12 +4812,12 @@ return {
             16
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			790,
-			2745,
+			458,
+			1955,
 			62,
 			73
 		},
@@ -4800,7 +4825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0017"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4809,73 +4834,73 @@ return {
 			97,
             17,
             86,
-            16
+            17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			607,
-			2120,
+			830,
+			2717,
 			62,
-			75
+			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0018"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			93,
-            17,
+			94,
+            18,
             85,
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			855,
-			2532,
-			67,
-			78
+			726,
+			2797,
+			66,
+			77
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0019"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			93,
+			94,
             20,
             85,
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			924,
-			2532,
-			67,
+			918,
+			2644,
+			66,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0020"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4887,12 +4912,12 @@ return {
             25
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
-			2676,
+			533,
+			1995,
 			58,
 			63
 		},
@@ -4900,7 +4925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0021"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4909,23 +4934,23 @@ return {
 			91,
             29,
             82,
-            25
+            26
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			602,
-			1970,
+			958,
+			2712,
 			72,
-			54
+			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0022"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4937,12 +4962,12 @@ return {
             20
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			865,
-			2822,
+			462,
+			2160,
 			72,
 			59
 		},
@@ -4950,32 +4975,32 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0023"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			73,
+			75,
             24,
             95,
-            20
+            22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			927,
-			2683,
-			77,
-			64
+			894,
+			2715,
+			75,
+			62
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0024"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -4987,20 +5012,20 @@ return {
             25
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			633,
-			2720,
+			215,
+			1447,
 			68,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0025"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5012,20 +5037,20 @@ return {
             24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			788,
-			2895,
+			914,
+			2792,
 			66,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0026"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5037,12 +5062,12 @@ return {
             24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1951,
+			759,
+			2717,
 			69,
 			74
 		},
@@ -5050,7 +5075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0027"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5062,20 +5087,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1873,
+			840,
+			2644,
 			69,
 			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0028"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5083,24 +5108,24 @@ return {
 		trim = {
 			81,
             10,
-            81,
-            20
+            83,
+            21
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			711,
-			2810,
-			83,
-			78
+			936,
+			2379,
+			81,
+			77
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0029"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5112,20 +5137,20 @@ return {
             20
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			861,
-			2156,
+			766,
+			2397,
 			83,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0030"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5133,24 +5158,24 @@ return {
 		trim = {
 			80,
             10,
-            80,
+            81,
             19
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1383,
-			85,
+			861,
+			2132,
+			84,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0031"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5158,24 +5183,24 @@ return {
 		trim = {
 			79,
             10,
-            80,
+            81,
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			541,
-			2631,
-			86,
+			684,
+			2478,
+			85,
 			80
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0032"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5187,12 +5212,12 @@ return {
             16
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			451,
-			2375,
+			353,
+			2447,
 			91,
 			85
 		},
@@ -5200,32 +5225,32 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0033"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			76,
-            7,
-            76,
+            9,
+            77,
             15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			519,
-			2027,
-			93,
-			86
+			335,
+			2713,
+			92,
+			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0034"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5237,12 +5262,12 @@ return {
             14
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			448,
-			2185,
+			370,
+			2088,
 			93,
 			85
 		},
@@ -5250,7 +5275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0035"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5262,12 +5287,12 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			773,
-			1830,
+			919,
+			1732,
 			94,
 			86
 		},
@@ -5275,7 +5300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0036"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5283,24 +5308,24 @@ return {
 		trim = {
 			73,
             9,
-            79,
+            80,
             12
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			449,
-			2280,
-			93,
+			348,
+			2358,
+			92,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0037"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5312,20 +5337,20 @@ return {
             11
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			428,
-			2028,
+			919,
+			1641,
 			94,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0038"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5337,12 +5362,12 @@ return {
             12
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			371,
-			2873,
+			359,
+			2268,
 			93,
 			88
 		},
@@ -5350,82 +5375,82 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0039"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			90,
+			91,
             9,
-            80,
-            20
+            81,
+            22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			912,
-			1632,
-			75,
-			79
+			761,
+			2642,
+			73,
+			77
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0040"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			103,
+			104,
             39,
             111,
             37
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			671,
-			939,
-			31,
+			808,
+			1113,
+			30,
 			32
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0041"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			103,
+			104,
             39,
             111,
             37
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			671,
-			939,
-			31,
+			808,
+			1113,
+			30,
 			32
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0042"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5437,20 +5462,20 @@ return {
             30
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2144,
+			538,
+			1889,
 			55,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0043"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5462,120 +5487,120 @@ return {
             30
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2144,
+			538,
+			1889,
 			55,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0044"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			87,
-            23,
+            24,
             90,
-            23
+            24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			633,
-			2795,
+			290,
+			1447,
 			68,
-			62
+			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0045"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
 			87,
-            23,
+            24,
             90,
-            23
+            24
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			633,
-			2795,
+			290,
+			1447,
 			68,
-			62
+			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0046"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			84,
-            20,
+			86,
+            21,
             86,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			711,
-			2895,
-			75,
-			66
+			454,
+			2019,
+			73,
+			65
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0047"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			84,
-            20,
+			86,
+            21,
             86,
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			711,
-			2895,
-			75,
-			66
+			454,
+			2019,
+			73,
+			65
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_bird_0048"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5584,23 +5609,23 @@ return {
 			84,
             17,
             84,
-            19
+            20
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			791,
-			2809,
+			942,
+			2218,
 			77,
-			72
+			71
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0049"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5609,23 +5634,23 @@ return {
 			84,
             17,
             84,
-            19
+            20
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			791,
-			2809,
+			942,
+			2218,
 			77,
-			72
+			71
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0050"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5637,20 +5662,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1794,
+			682,
+			2642,
 			77,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0051"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5662,20 +5687,20 @@ return {
             22
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			922,
-			1794,
+			682,
+			2642,
 			77,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_bird_0052"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5684,23 +5709,23 @@ return {
 			86,
             19,
             87,
-            22
+            23
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			924,
-			2609,
+			457,
+			2086,
 			72,
-			67
+			66
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0053"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5709,23 +5734,23 @@ return {
 			86,
             19,
             87,
-            22
+            23
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			924,
-			2609,
+			457,
+			2086,
 			72,
-			67
+			66
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0054"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5734,23 +5759,23 @@ return {
 			95,
             19,
             88,
-            23
+            25
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
-			2612,
+			949,
+			192,
 			62,
-			66
+			64
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0055"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
@@ -5759,73 +5784,73 @@ return {
 			95,
             19,
             88,
-            23
+            25
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			856,
-			2612,
+			949,
+			192,
 			62,
-			66
+			64
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_bird_0056"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			101,
+			102,
             32,
             105,
-            42
+            43
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			1071,
-			39,
-			34
+			309,
+			1751,
+			38,
+			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_bird_0057"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			245,
 			108
 		},
 		trim = {
-			101,
+			102,
             32,
             105,
-            42
+            43
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			1071,
-			39,
-			34
+			309,
+			1751,
+			38,
+			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0001"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -5837,20 +5862,45 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			615,
-			1609,
+			267,
+			2206,
 			85,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0002"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			144,
+			119
+		},
+		trim = {
+			38,
+            28,
+            27,
+            29
+		},
+		a_size = {
+			1014,
+			2875
+		},
+		f_quad = {
+			181,
+			2651,
+			79,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_beastMaster_pumba_0003"] = {
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -5858,124 +5908,99 @@ return {
 		trim = {
 			36,
             27,
-            26,
+            27,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			790,
-			2575,
-			82,
+			794,
+			2793,
+			81,
 			63
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_beastMaster_pumba_0003"] = {
-		a_name = "go_items_hero_beastmaster.dds",
-		size = {
-			144,
-			119
-		},
-		trim = {
-			36,
-            26,
-            26,
-            29
-		},
-		a_size = {
-			992,
-			2962
-		},
-		f_quad = {
-			451,
-			2468,
-			82,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_beastMaster_pumba_0004"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			35,
-            23,
+            24,
             26,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			786,
-			2490,
+			857,
+			2213,
 			83,
-			67
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_beastMaster_pumba_0005"] = {
-		a_name = "go_items_hero_beastmaster.dds",
-		size = {
-			144,
-			119
-		},
-		trim = {
-			36,
-            24,
-            23,
-            29
-		},
-		a_size = {
-			992,
-			2962
-		},
-		f_quad = {
-			703,
-			2742,
-			85,
 			66
 		},
 		alias = {},
 		textureRotated = false
 	},
+	["hero_beastMaster_pumba_0005"] = {
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			144,
+			119
+		},
+		trim = {
+			37,
+            24,
+            23,
+            29
+		},
+		a_size = {
+			1014,
+			2875
+		},
+		f_quad = {
+			947,
+			2132,
+			84,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
 	["hero_beastMaster_pumba_0006"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			40,
-            33,
+            34,
             22,
             28
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			857,
-			2472,
+			931,
+			2523,
 			82,
-			58
+			57
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0007"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -5983,49 +6008,49 @@ return {
 		trim = {
 			41,
             37,
-            26,
+            27,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			864,
-			2896,
-			77,
+			859,
+			2793,
+			76,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0008"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
-			37,
+			38,
             30,
-            26,
+            27,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			524,
-			2122,
-			81,
+			919,
+			2582,
+			79,
 			60
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0009"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6037,20 +6062,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			615,
-			1609,
+			267,
+			2206,
 			85,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0010"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6062,20 +6087,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			615,
-			1609,
+			267,
+			2206,
 			85,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0011"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6087,12 +6112,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1480,
+			700,
+			2713,
 			82,
 			57
 		},
@@ -6100,7 +6125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0012"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6112,12 +6137,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1480,
+			700,
+			2713,
 			82,
 			57
 		},
@@ -6125,57 +6150,57 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0013"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			26,
-            30,
-            39,
+            31,
+            40,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			865,
-			2741,
-			79,
-			60
+			935,
+			2462,
+			78,
+			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0014"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			26,
-            30,
-            39,
+            31,
+            40,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			865,
-			2741,
-			79,
-			60
+			935,
+			2462,
+			78,
+			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0015"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6183,24 +6208,24 @@ return {
 		trim = {
 			41,
             26,
-            6,
+            7,
             27
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			771,
-			1918,
-			97,
+			171,
+			2455,
+			96,
 			66
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0016"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6208,74 +6233,74 @@ return {
 		trim = {
 			41,
             26,
-            6,
+            7,
             27
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			771,
-			1918,
-			97,
+			171,
+			2455,
+			96,
 			66
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0017"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			40,
-            10,
+            12,
             5,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			514,
-			1599,
+			458,
+			1854,
 			99,
-			80
+			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0018"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			40,
-            6,
-            6,
+            7,
+            7,
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			514,
-			1764,
-			98,
-			84
+			916,
+			1164,
+			97,
+			83
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0019"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6287,12 +6312,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			613,
-			2184,
+			568,
+			2713,
 			92,
 			71
 		},
@@ -6300,7 +6325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0020"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6312,12 +6337,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			613,
-			2184,
+			568,
+			2713,
 			92,
 			71
 		},
@@ -6325,7 +6350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0021"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6337,12 +6362,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1564,
+			641,
+			2713,
 			86,
 			57
 		},
@@ -6350,7 +6375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0022"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6362,12 +6387,12 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			853,
-			1564,
+			641,
+			2713,
 			86,
 			57
 		},
@@ -6375,7 +6400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0023"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6387,20 +6412,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			615,
-			1609,
+			267,
+			2206,
 			85,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0024"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6412,20 +6437,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			615,
-			1609,
+			267,
+			2206,
 			85,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0025"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6437,12 +6462,12 @@ return {
             15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			428,
-			2124,
+			799,
+			1974,
 			94,
 			59
 		},
@@ -6450,7 +6475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0026"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6462,20 +6487,20 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			614,
-			1696,
+			895,
+			1976,
 			94,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0027"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6484,48 +6509,48 @@ return {
 			30,
             30,
             20,
-            13
+            15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			775,
-			1489,
+			781,
+			2035,
 			94,
-			76
+			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0028"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
-			30,
+			31,
             30,
             21,
-            13
+            14
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			535,
-			2184,
-			93,
-			76
+			335,
+			2799,
+			92,
+			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0029"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6537,12 +6562,12 @@ return {
             6
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			258,
-			2455,
+			282,
+			1982,
 			104,
 			90
 		},
@@ -6550,7 +6575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0030"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6562,12 +6587,12 @@ return {
             6
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			296,
-			1838,
+			923,
+			1429,
 			104,
 			90
 		},
@@ -6575,7 +6600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0031"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6584,48 +6609,48 @@ return {
 			24,
             17,
             10,
-            3
+            4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			371,
-			2761,
+			798,
+			1618,
 			110,
-			99
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0032"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			23,
-            17,
+            19,
             10,
             3
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			350,
-			2421,
+			916,
+			563,
 			111,
-			99
+			97
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0033"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6637,12 +6662,12 @@ return {
             0
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			178,
-			1838,
+			174,
+			1791,
 			116,
 			105
 		},
@@ -6650,57 +6675,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0034"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			19,
-            14,
-            6,
+            15,
+            8,
             0
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			370,
-			1067,
-			119,
-			105
+			163,
+			1982,
+			117,
+			104
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0035"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
-			20,
+			21,
             14,
             7,
-            2
+            4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			343,
-			2187,
-			117,
-			103
+			267,
+			2088,
+			116,
+			101
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0036"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6709,23 +6734,23 @@ return {
 			19,
             14,
             7,
-            2
+            3
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			175,
-			2789,
+			163,
+			2088,
 			118,
-			103
+			102
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0037"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6737,12 +6762,12 @@ return {
             4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			890,
-			126,
+			163,
+			2208,
 			118,
 			101
 		},
@@ -6750,7 +6775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0038"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6762,20 +6787,20 @@ return {
             4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			890,
-			1,
+			889,
+			89,
 			123,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0039"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6787,20 +6812,20 @@ return {
             7
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			364,
-			969,
+			815,
+			1290,
 			125,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0040"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6812,20 +6837,20 @@ return {
             7
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			677,
-			1722,
+			916,
+			872,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0041"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6837,20 +6862,20 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			860,
-			1986,
+			771,
+			2189,
 			84,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0042"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6862,70 +6887,70 @@ return {
             29
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
+		},
+		f_quad = {
+			771,
+			2189,
+			84,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_beastMaster_pumba_0043"] = {
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			144,
+			119
+		},
+		trim = {
+			37,
+            30,
+            24,
+            29
+		},
+		a_size = {
+			1014,
+			2875
+		},
+		f_quad = {
+			855,
+			2281,
+			83,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_beastMaster_pumba_0044"] = {
+		a_name = "go_items_hero_beastmaster.png",
+		size = {
+			144,
+			119
+		},
+		trim = {
+			47,
+            34,
+            54,
+            38
+		},
+		a_size = {
+			1014,
+			2875
 		},
 		f_quad = {
 			860,
-			1986,
-			84,
-			60
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_beastMaster_pumba_0043"] = {
-		a_name = "go_items_hero_beastmaster.dds",
-		size = {
-			144,
-			119
-		},
-		trim = {
-			36,
-            30,
-            24,
-            29
-		},
-		a_size = {
-			992,
-			2962
-		},
-		f_quad = {
-			794,
-			2659,
-			84,
-			60
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_beastMaster_pumba_0044"] = {
-		a_name = "go_items_hero_beastmaster.dds",
-		size = {
-			144,
-			119
-		},
-		trim = {
-			47,
-            34,
-            53,
-            38
-		},
-		a_size = {
-			992,
-			2962
-		},
-		f_quad = {
-			233,
-			2909,
-			44,
+			326,
+			43,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0045"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6933,24 +6958,24 @@ return {
 		trim = {
 			47,
             34,
-            53,
+            54,
             38
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			233,
-			2909,
-			44,
+			860,
+			326,
+			43,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0046"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6962,20 +6987,20 @@ return {
             27
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			857,
-			2398,
+			767,
+			2559,
 			81,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0047"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -6987,20 +7012,20 @@ return {
             27
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			857,
-			2398,
+			767,
+			2559,
 			81,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0048"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7012,12 +7037,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			329,
-			1684,
+			923,
+			1535,
 			104,
 			90
 		},
@@ -7025,7 +7050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0049"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7037,12 +7062,12 @@ return {
             17
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			329,
-			1684,
+			923,
+			1535,
 			104,
 			90
 		},
@@ -7050,7 +7075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0050"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7062,20 +7087,20 @@ return {
             14
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			472,
-			2761,
+			804,
+			664,
 			110,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0051"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7087,70 +7112,70 @@ return {
             14
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			472,
-			2761,
+			804,
+			664,
 			110,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0052"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			19,
-            3,
+            5,
             10,
-            10
+            11
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			253,
-			1071,
+			681,
+			1616,
 			115,
-			106
+			103
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0053"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
 		},
 		trim = {
 			19,
-            3,
+            5,
             10,
-            10
+            11
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			253,
-			1071,
+			681,
+			1616,
 			115,
-			106
+			103
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0054"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7162,20 +7187,20 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			344,
-			2306,
+			808,
+			1513,
 			113,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0055"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7187,20 +7212,20 @@ return {
             13
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			344,
-			2306,
+			808,
+			1513,
 			113,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0056"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7208,24 +7233,24 @@ return {
 		trim = {
 			20,
             5,
-            13,
-            13
+            15,
+            15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			356,
-			2534,
-			111,
-			101
+			805,
+			563,
+			109,
+			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0057"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7233,24 +7258,24 @@ return {
 		trim = {
 			20,
             5,
-            13,
-            13
+            15,
+            15
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			356,
-			2534,
-			111,
-			101
+			805,
+			563,
+			109,
+			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0058"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7262,20 +7287,20 @@ return {
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			506,
-			1929,
+			815,
+			1417,
 			94,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0059"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7287,20 +7312,20 @@ return {
             18
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			506,
-			1929,
+			815,
+			1417,
 			94,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_pumba_0060"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7309,23 +7334,23 @@ return {
 			46,
             24,
             42,
-            45
+            46
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2027,
+			603,
+			2579,
 			56,
-			50
+			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_pumba_0061"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			144,
 			119
@@ -7334,23 +7359,23 @@ return {
 			46,
             24,
             42,
-            45
+            46
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			941,
-			2027,
+			603,
+			2579,
 			56,
-			50
+			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0001"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7362,8 +7387,8 @@ return {
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
@@ -7375,7 +7400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0002"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7387,8 +7412,8 @@ return {
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			627,
@@ -7400,7 +7425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0003"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7408,24 +7433,24 @@ return {
 		trim = {
 			40,
             47,
-            101,
+            102,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			274,
+			273,
 			787,
-			239,
+			238,
 			180
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0004"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7437,8 +7462,8 @@ return {
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
@@ -7450,7 +7475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0005"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7458,24 +7483,24 @@ return {
 		trim = {
 			19,
             33,
-            100,
+            101,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			627,
 			1,
-			261,
+			260,
 			194
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0006"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7483,49 +7508,49 @@ return {
 		trim = {
 			9,
             25,
-            100,
+            101,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
 			787,
-			271,
+			270,
 			202
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0007"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
 		},
 		trim = {
-			99,
+			100,
             73,
             97,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			515,
+			513,
 			787,
-			184,
+			183,
 			154
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0008"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7533,24 +7558,24 @@ return {
 		trim = {
 			93,
             73,
-            93,
+            94,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			671,
-			743,
-			194,
+			669,
+			777,
+			193,
 			154
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0009"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7558,24 +7583,24 @@ return {
 		trim = {
 			87,
             67,
-            93,
+            95,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
-			2165,
-			200,
+			2129,
+			198,
 			160
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0010"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7587,12 +7612,12 @@ return {
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
-			1958,
+			1922,
 			205,
 			160
 		},
@@ -7600,7 +7625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0011"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7608,24 +7633,24 @@ return {
 		trim = {
 			72,
             61,
-            94,
+            96,
             117
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			627,
-			372,
-			214,
+			1,
+			1349,
+			212,
 			166
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0012"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7637,20 +7662,20 @@ return {
             82
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			558,
-			1146,
+			225,
+			1290,
 			155,
 			169
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0013"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7662,20 +7687,20 @@ return {
             76
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			723,
+			456,
+			972,
 			158,
 			175
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0014"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7687,12 +7712,12 @@ return {
             69
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			179,
-			1349,
+			180,
+			1517,
 			175,
 			181
 		},
@@ -7700,7 +7725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0015"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7712,12 +7737,12 @@ return {
             60
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
-			2563,
+			2523,
 			178,
 			190
 		},
@@ -7725,57 +7750,57 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0016"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
 		},
 		trim = {
 			116,
-            98,
+            100,
             96,
             52
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
-			2367,
+			2329,
 			168,
-			194
+			192
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0017"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
 		},
 		trim = {
 			116,
-            98,
+            100,
             93,
             44
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
-			1555,
+			1720,
 			171,
-			202
+			200
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0018"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7787,12 +7812,12 @@ return {
             37
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			1,
-			1349,
+			627,
+			372,
 			176,
 			204
 		},
@@ -7800,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0019"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7812,20 +7837,20 @@ return {
             98
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			843,
-			392,
+			772,
+			1145,
 			143,
 			142
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0020"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7837,20 +7862,20 @@ return {
             94
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			178,
-			1684,
+			357,
+			1625,
 			149,
 			152
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0021"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7862,12 +7887,12 @@ return {
             89
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			179,
-			1532,
+			519,
+			1470,
 			150,
 			157
 		},
@@ -7875,7 +7900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0022"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7887,20 +7912,20 @@ return {
             84
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			715,
-			1137,
+			396,
+			1303,
 			151,
 			169
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0023"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7912,20 +7937,20 @@ return {
             125
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			225,
-			1179,
+			567,
+			1308,
 			160,
 			168
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0024"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7937,20 +7962,20 @@ return {
             124
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			356,
-			1349,
+			253,
+			1131,
 			157,
 			173
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0025"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7962,20 +7987,20 @@ return {
             124
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			806,
-			540,
+			273,
+			969,
 			160,
 			181
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0026"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -7987,12 +8012,12 @@ return {
             124
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			1,
-			2755,
+			805,
+			372,
 			172,
 			189
 		},
@@ -8000,7 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0027"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8012,12 +8037,12 @@ return {
             124
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			1,
-			1759,
+			627,
+			578,
 			175,
 			197
 		},
@@ -8025,7 +8050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0028"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8037,12 +8062,12 @@ return {
             127
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			627,
-			540,
+			1,
+			1517,
 			177,
 			201
 		},
@@ -8050,7 +8075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0029"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8062,20 +8087,20 @@ return {
             127
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			827,
-			900,
+			601,
+			1145,
 			161,
 			169
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0030"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8087,12 +8112,12 @@ return {
             126
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			491,
-			973,
+			633,
+			972,
 			173,
 			171
 		},
@@ -8100,7 +8125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_beastMaster_Rhyno_0031"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8112,20 +8137,20 @@ return {
             126
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			387,
-			1174,
+			428,
+			1132,
 			169,
 			171
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0032"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8137,20 +8162,20 @@ return {
             126
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			666,
-			973,
+			1,
+			2715,
 			159,
 			162
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_beastMaster_Rhyno_0033"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			380,
 			344
@@ -8162,12 +8187,12 @@ return {
             126
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			515,
-			1347,
+			357,
+			1456,
 			160,
 			167
 		},
@@ -8175,7 +8200,7 @@ return {
 		textureRotated = false
 	},
 	["item_thumb_hero_beastmaster"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			624,
 			784
@@ -8187,8 +8212,8 @@ return {
             0
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
 			1,
@@ -8200,7 +8225,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0123"] = {
-		a_name = "go_items_hero_beastmaster.dds",
+		a_name = "go_items_hero_beastmaster.png",
 		size = {
 			104,
 			104
@@ -8212,12 +8237,12 @@ return {
             4
 		},
 		a_size = {
-			992,
-			2962
+			1014,
+			2875
 		},
 		f_quad = {
-			388,
-			1831,
+			916,
+			970,
 			97,
 			96
 		},

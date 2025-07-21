@@ -6044,6 +6044,7 @@ tt.particle_system.particle_lifetime = {
 	0.35
 }
 tt.particle_system.emission_rate = 20
+
 tt = E:register_t("controller_item_hero_beastmaster", "controller_item_hero")
 tt.entity = "hero_beastmaster"
 
@@ -6296,18 +6297,16 @@ tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].entity = "beastmaster_boar"
 tt.timed_attacks.list[2].sound = "HeroBeastMasterSummonBoar"
 tt.timed_attacks.list[2].spawn_time = fts(35)
+
 tt = E:register_t("aura_beastmaster_regeneration", "aura")
-
 E:add_comps(tt, "hps")
-
 tt.hps.heal_min = nil
 tt.hps.heal_max = nil
 tt.hps.heal_every = nil
 tt.main_script.update = kr2_scripts.aura_beastmaster_regeneration.update
+
 tt = E:register_t("mod_beastmaster_lash", "modifier")
-
 E:add_comps(tt, "dps")
-
 tt.modifier.duration = 6
 tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.fx = "fx_bleeding"
@@ -6315,13 +6314,12 @@ tt.dps.fx_with_blood_color = true
 tt.dps.fx_tracks_target = true
 tt.main_script.insert = kr2_scripts.mod_dps.insert
 tt.main_script.update = kr2_scripts.mod_dps.update
+
 tt = E:register_t("beastmaster_boar", "soldier")
-
-E:add_comps(tt, "melee", "nav_grid")
-
+E:add_comps(tt, "melee")
 anchor_y = 0.29
 image_y = 60
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0010" or "info_portraits_heroes_0010"
+tt.info.portrait = "bottom_info_image_soldiers_0047"
 tt.health.armor = 0
 tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 28)
@@ -6433,16 +6431,15 @@ tt.render.sprites[1].size_names = {
 }
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
+
 tt = E:register_t("beastmaster_falcon", "decal_scripted")
-
 E:add_comps(tt, "force_motion", "info", "ui", "custom_attack")
-
 anchor_y = 0.5
 image_y = 54
 tt.fake_hp = nil
 tt.main_script.update = kr2_scripts.beastmaster_falcon.update
 tt.info.fn = kr2_scripts.beastmaster_falcon.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0011" or "info_portraits_heroes_0011"
+tt.info.portrait = "bottom_info_image_soldiers_0048"
 tt.flight_speed = 45
 tt.flight_height = 80
 tt.custom_attack = E:clone_c("custom_attack")
@@ -6466,10 +6463,9 @@ tt.render.sprites[2].name = "decal_flying_shadow"
 tt.render.sprites[2].offset = v(0, 0)
 tt.ui.click_rect = r(-15, 65, 30, 30)
 tt.owner = nil
-tt = E:register_t("hero_alien", "hero")
 
+tt = E:register_t("hero_alien", "hero5")
 E:add_comps(tt, "melee", "ranged", "selfdestruct", "timed_attacks")
-
 anchor_y = 0.31
 image_y = 112
 tt.hero.level_stats.hp_max = {
@@ -7037,6 +7033,7 @@ tt.switch_targets_every = fts(31)
 tt.vis_bans = bor(F_BOSS)
 tt.vis_flags = bor(F_RANGED)
 tt.duration = nil
+
 tt = E:register_t("controller_item_hero_priest", "controller_item_hero")
 tt.entity = "hero_priest"
 
@@ -7144,7 +7141,7 @@ tt.hero.skills.holylight.heal_count = {
 tt.hero.skills.holylight.revive_chance = {
 	0.1,
 	0.2,
-	0.3
+	1
 }
 tt.hero.skills.holylight.xp_gain_factor = 12
 tt.hero.skills.consecrate = E:clone_c("hero_skill")
@@ -7233,7 +7230,7 @@ tt.hero.fn_level_up = kr2_scripts.hero_priest.level_up
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_priest.get_info
-tt.info.portrait = "portraits_hero_0124" 
+tt.info.portrait = "portraits_hero_0124"
 tt.info.damage_icon = "magic"
 tt.main_script.insert = kr2_scripts.hero_priest.insert
 tt.main_script.update = kr2_scripts.hero_priest.update
@@ -7284,15 +7281,6 @@ tt.timed_attacks.list[1].revive_chance = 0
 tt.timed_attacks.list[1].range = 125
 tt.timed_attacks.list[1].shoot_time = fts(4)
 tt.timed_attacks.list[1].sound = "HeroPriestHolyLight"
-tt.timed_attacks.list[1].excluded_templates = {
-	"soldier_mecha",
-	"soldier_death_rider",
-	"soldier_skeleton",
-	"soldier_skeleton_knight",
-	"soldier_frankenstein",
-	"soldier_sand_warrior",
-	"soldier_dracolich_golem"
-}
 tt.timed_attacks.list[2] = E:clone_c("mod_attack")
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].animation = "consecrate"

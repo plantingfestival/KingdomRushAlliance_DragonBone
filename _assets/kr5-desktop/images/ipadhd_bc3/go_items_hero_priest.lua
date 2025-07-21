@@ -1,6 +1,6 @@
 return {
 	["hero_barracks_buff_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -9,23 +9,23 @@ return {
 			57,
             71,
             53,
-            2
+            3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1912,
-			730,
+			1727,
+			785,
 			78,
-			31
+			30
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -37,12 +37,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2126,
-			507,
+			1977,
+			662,
 			80,
 			31
 		},
@@ -50,7 +50,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0003"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -62,12 +62,12 @@ return {
             6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1778,
-			300,
+			63,
+			997,
 			56,
 			26
 		},
@@ -75,7 +75,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0004"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -87,12 +87,12 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2384,
-			901,
+			2210,
+			899,
 			56,
 			25
 		},
@@ -100,7 +100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -112,20 +112,20 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2420,
-			735,
+			1991,
+			91,
 			58,
 			25
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_barracks_buff_0006"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -137,20 +137,20 @@ return {
             6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2254,
-			874,
+			1,
+			997,
 			60,
 			26
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0007"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -158,24 +158,24 @@ return {
 		trim = {
 			65,
             72,
-            61,
+            62,
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1775,
-			404,
-			62,
+			2386,
+			832,
+			61,
 			27
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_barracks_buff_0008"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -187,20 +187,20 @@ return {
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2451,
-			670,
+			2080,
+			899,
 			63,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0009"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -212,20 +212,20 @@ return {
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2350,
-			618,
+			1659,
+			783,
 			66,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0010"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -233,24 +233,24 @@ return {
 		trim = {
 			62,
             72,
-            58,
+            59,
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2280,
-			995,
-			68,
+			2253,
+			830,
+			67,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_barracks_buff_0011"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -262,20 +262,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1296,
-			983,
+			2042,
+			755,
 			69,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_barracks_buff_0012"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -287,12 +287,12 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2277,
-			541,
+			1629,
+			845,
 			73,
 			28
 		},
@@ -300,7 +300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0013"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -312,20 +312,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2208,
-			511,
+			1490,
+			425,
 			74,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_barracks_buff_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -337,20 +337,20 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1714,
-			607,
+			1580,
+			548,
 			76,
 			30
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_barracks_buff_0015"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -359,23 +359,23 @@ return {
 			57,
             71,
             53,
-            2
+            3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2124,
-			686,
+			1884,
+			805,
 			78,
-			31
+			30
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_barracks_buff_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -387,20 +387,20 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2188,
-			719,
+			1581,
+			812,
 			80,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -408,24 +408,24 @@ return {
 		trim = {
 			68,
             72,
-            63,
-            6
+            64,
+            7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2420,
-			762,
-			57,
-			26
+			2080,
+			928,
+			56,
+			25
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_barracks_buff_0018"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -437,20 +437,20 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2400,
-			957,
+			2021,
+			899,
 			57,
 			25
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0019"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -462,12 +462,12 @@ return {
             6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1787,
-			510,
+			2451,
+			1,
 			60,
 			26
 		},
@@ -475,7 +475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0020"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -483,24 +483,24 @@ return {
 		trim = {
 			65,
             72,
-            61,
+            62,
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1775,
-			404,
-			62,
+			2386,
+			832,
+			61,
 			27
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_barracks_buff_0021"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -512,12 +512,12 @@ return {
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2354,
-			928,
+			2145,
+			899,
 			63,
 			27
 		},
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0022"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -533,24 +533,24 @@ return {
 		trim = {
 			63,
             72,
-            59,
+            60,
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2451,
-			602,
-			66,
+			1954,
+			898,
+			65,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0023"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -562,12 +562,12 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2354,
-			858,
+			2449,
+			811,
 			68,
 			28
 		},
@@ -575,7 +575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0024"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -587,45 +587,45 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2307,
-			588,
+			2449,
+			740,
 			69,
-			28
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_barracks_buff_0025"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			188,
-			104
-		},
-		trim = {
-			59,
-            72,
-            56,
-            4
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2378,
-			516,
-			73,
 			28
 		},
 		alias = {},
 		textureRotated = true
 	},
+	["hero_barracks_buff_0025"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			188,
+			104
+		},
+		trim = {
+			60,
+            72,
+            57,
+            4
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2246,
+			719,
+			71,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
 	["hero_barracks_buff_0026"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -637,20 +637,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1840,
-			305,
+			1583,
+			708,
 			74,
 			29
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0027"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -662,20 +662,20 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2018,
-			790,
+			1807,
+			802,
 			75,
 			30
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_barracks_buff_0028"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			188,
 			104
@@ -684,48 +684,73 @@ return {
 			57,
             71,
             53,
-            2
+            3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1912,
-			730,
+			1727,
+			785,
 			78,
-			31
+			30
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			37,
+            156,
+            54,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1921,
+			450,
+			65,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_0003"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -737,45 +762,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			2265,
+			646,
 			65,
 			71
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_0003"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			37,
-            155,
-            53,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1960,
-			326,
-			66,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
 	["hero_priest_0004"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -783,24 +783,24 @@ return {
 		trim = {
 			37,
             155,
-            53,
+            54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			326,
-			66,
+			2265,
+			646,
+			65,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -812,20 +812,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			394,
+			2039,
+			826,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0006"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -837,70 +837,70 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			394,
+			2039,
+			826,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0007"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             47,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1778,
-			736,
+			1655,
+			256,
 			72,
-			71
+			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0008"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             47,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1778,
-			736,
+			1655,
+			256,
 			72,
-			71
+			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0009"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -912,20 +912,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1701,
-			737,
+			2105,
+			226,
 			75,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0010"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -937,45 +937,45 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1701,
-			737,
+			2105,
+			226,
+			75,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0011"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			37,
+            155,
+            44,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1727,
+			817,
 			75,
 			71
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_0011"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			37,
-            155,
-            43,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1960,
-			465,
-			76,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
 	["hero_priest_0012"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -983,24 +983,24 @@ return {
 		trim = {
 			37,
             155,
-            43,
+            44,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			465,
-			76,
+			1727,
+			817,
+			75,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0013"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1012,20 +1012,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			543,
+			1581,
+			739,
 			76,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1037,20 +1037,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			543,
+			1581,
+			739,
 			76,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0015"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1062,12 +1062,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			621,
+			2091,
+			151,
 			73,
 			71
 		},
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1087,12 +1087,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			621,
+			2091,
+			151,
 			73,
 			71
 		},
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1112,12 +1112,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1989,
-			951,
+			1804,
+			834,
 			73,
 			71
 		},
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0018"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1137,12 +1137,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1989,
-			951,
+			1804,
+			834,
 			73,
 			71
 		},
@@ -1150,107 +1150,107 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0019"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
-            155,
-            49,
+			39,
+            156,
+            50,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2041,
-			879,
-			70,
-			71
+			1659,
+			638,
+			67,
+			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0020"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			39,
+            156,
+            50,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1659,
+			638,
+			67,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_0021"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
-            49,
+            156,
+            52,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2041,
-			879,
-			70,
-			71
+			1659,
+			956,
+			67,
+			70
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_0021"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			37,
-            155,
-            51,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2064,
-			951,
-			68,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_0022"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
-            51,
+            156,
+            52,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2064,
-			951,
-			68,
-			71
+			1659,
+			956,
+			67,
+			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0023"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1262,12 +1262,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2188,
-			801,
+			1659,
+			403,
 			68,
 			71
 		},
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0024"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1287,12 +1287,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2188,
-			801,
+			1659,
+			403,
 			68,
 			71
 		},
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0025"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1308,99 +1308,99 @@ return {
 		trim = {
 			20,
             152,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1653,
-			810,
-			82,
+			1583,
+			626,
+			80,
 			74
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0026"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			43,
-            145,
-            54,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1877,
-			964,
-			59,
-			81
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_priest_0027"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			44,
-            142,
+            145,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1561,
-			890,
+			1813,
+			599,
 			58,
-			84
+			81
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_0028"] = {
-		a_name = "go_items_hero_priest.dds",
+	["hero_priest_0027"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
+			44,
+            144,
+            54,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1520,
+			488,
+			58,
+			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0028"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			39,
             149,
             53,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2412,
-			452,
-			66,
+			1728,
+			719,
+			64,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0029"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1412,20 +1412,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2379,
-			671,
+			1663,
+			812,
 			62,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0030"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1437,20 +1437,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1729,
-			810,
+			1520,
+			411,
 			84,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0031"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1462,70 +1462,70 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1729,
-			810,
+			1520,
+			411,
 			84,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0032"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			16,
+			17,
             157,
             49,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1219,
-			655,
-			91,
+			2173,
+			557,
+			90,
 			69
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0033"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			16,
+			17,
             157,
             49,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1219,
-			655,
-			91,
+			2173,
+			557,
+			90,
 			69
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0034"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1537,20 +1537,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1561,
-			810,
+			2201,
+			390,
 			90,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0035"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1562,45 +1562,45 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1561,
-			810,
+			2201,
+			390,
 			90,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0036"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			14,
-            149,
+            151,
             53,
-            40
+            41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1695,
-			321,
+			783,
+			934,
 			89,
-			78
+			75
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0037"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1612,20 +1612,20 @@ return {
             37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1793,
-			964,
+			1520,
+			761,
 			82,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0038"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1637,20 +1637,20 @@ return {
             37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1793,
-			964,
+			1520,
+			761,
 			82,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0039"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1659,23 +1659,23 @@ return {
 			30,
             172,
             15,
-            27
+            29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1427,
-			425,
+			1064,
+			766,
 			111,
-			68
+			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0040"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1684,223 +1684,223 @@ return {
 			30,
             172,
             15,
-            27
+            29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1427,
-			425,
+			1064,
+			766,
 			111,
-			68
+			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0041"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			47,
+			48,
             178,
             12,
             29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1183,
-			726,
-			97,
+			2281,
+			332,
+			96,
 			60
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0042"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			47,
+			48,
             178,
             12,
             29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1183,
-			726,
-			97,
+			2281,
+			332,
+			96,
 			60
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0043"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             14,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1099,
-			968,
-			86,
-			53
+			2228,
+			303,
+			85,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0044"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             14,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1099,
-			968,
-			86,
-			53
+			2228,
+			303,
+			85,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0045"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             29,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1187,
-			968,
-			71,
-			53
+			1606,
+			403,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0046"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             29,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1187,
-			968,
-			71,
-			53
+			1606,
+			403,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0047"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             29,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1187,
-			968,
-			71,
-			53
+			1606,
+			403,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0048"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			56,
-            178,
+			57,
+            179,
             29,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1187,
-			968,
-			71,
-			53
+			1606,
+			403,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0049"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1912,12 +1912,12 @@ return {
             43
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2187,
-			874,
+			2106,
+			686,
 			60,
 			65
 		},
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0050"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1937,12 +1937,12 @@ return {
             43
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2187,
-			874,
+			2106,
+			686,
 			60,
 			65
 		},
@@ -1950,32 +1950,32 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0051"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0052"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -1984,23 +1984,23 @@ return {
 			37,
             157,
             47,
-            40
+            41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1886,
-			422,
+			1731,
+			954,
 			72,
-			70
+			69
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0053"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2009,73 +2009,73 @@ return {
 			37,
             157,
             47,
-            40
+            41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1886,
-			422,
+			1731,
+			954,
 			72,
-			70
+			69
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0054"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            158,
+            159,
             43,
             40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2110,
-			719,
+			1659,
+			476,
 			76,
-			69
+			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0055"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            158,
+            159,
             43,
             40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2110,
-			719,
+			1659,
+			476,
 			76,
-			69
+			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0056"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2087,12 +2087,12 @@ return {
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2110,
-			790,
+			1886,
+			737,
 			76,
 			66
 		},
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0057"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2112,12 +2112,12 @@ return {
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2110,
-			790,
+			1886,
+			737,
 			76,
 			66
 		},
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0058"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2137,12 +2137,12 @@ return {
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2110,
-			790,
+			1886,
+			737,
 			76,
 			66
 		},
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0059"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2162,20 +2162,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1722,
-			944,
+			1896,
+			601,
 			69,
 			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0060"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2187,20 +2187,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1722,
-			944,
+			1896,
+			601,
 			69,
 			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0061"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2208,49 +2208,49 @@ return {
 		trim = {
 			32,
             135,
-            48,
+            49,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			241,
-			932,
-			76,
+			1823,
+			522,
+			75,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0062"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			32,
-            135,
+			33,
+            136,
             48,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			319,
-			932,
-			76,
-			91
+			1988,
+			523,
+			75,
+			90
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0063"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2262,45 +2262,45 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			397,
-			932,
+			2080,
+			547,
 			73,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0064"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			30,
+			31,
             129,
             51,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2267,
-			287,
-			75,
+			1583,
+			926,
+			74,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0065"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2312,12 +2312,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1191,
-			886,
+			2178,
+			221,
 			80,
 			103
 		},
@@ -2325,32 +2325,32 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0066"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			20,
+			21,
             118,
             53,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
+			1177,
 			764,
-			782,
-			83,
+			82,
 			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0067"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2358,24 +2358,24 @@ return {
 		trim = {
 			18,
             116,
-            53,
+            54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			595,
-			913,
-			85,
+			760,
+			714,
+			84,
 			110
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0068"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2387,12 +2387,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1944,
-			121,
+			975,
+			709,
 			87,
 			112
 		},
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0069"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2408,24 +2408,24 @@ return {
 		trim = {
 			17,
             114,
-            54,
+            55,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1608,
-			300,
-			85,
+			615,
+			820,
+			84,
 			112
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0070"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2433,24 +2433,24 @@ return {
 		trim = {
 			16,
             113,
-            54,
+            55,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			1642,
 			141,
-			86,
+			85,
 			113
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0071"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2462,7 +2462,7 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0072"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2483,24 +2483,24 @@ return {
 		trim = {
 			14,
             111,
-            54,
+            55,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			852,
-			892,
-			88,
+			1404,
+			545,
+			87,
 			115
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0073"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2512,12 +2512,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			974,
-			802,
+			1050,
+			934,
 			88,
 			115
 		},
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0074"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2537,12 +2537,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1065,
-			700,
+			567,
+			934,
 			89,
 			116
 		},
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0075"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2562,20 +2562,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			947,
-			710,
+			1202,
+			542,
 			90,
 			116
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0076"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2587,20 +2587,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1,
-			933,
+			1398,
+			425,
 			90,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0077"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2612,20 +2612,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			682,
-			892,
+			219,
+			931,
 			92,
 			119
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0078"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2637,20 +2637,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1607,
-			414,
+			340,
+			931,
 			92,
 			118
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0079"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2662,12 +2662,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			121,
-			933,
+			1400,
+			766,
 			90,
 			118
 		},
@@ -2675,107 +2675,107 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0080"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
+			38,
             129,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2366,
-			308,
-			65,
+			2283,
+			268,
+			62,
 			97
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0081"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0082"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0083"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0084"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -2787,245 +2787,320 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2204,
-			612,
+			1659,
+			710,
 			71,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0085"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			16,
+			17,
             159,
-            70,
+            72,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2379,
-			602,
-			70,
+			2209,
+			761,
+			67,
 			67
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0086"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			13,
-            162,
+            164,
             74,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2221,
-			735,
+			2072,
+			755,
 			69,
-			64
+			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0087"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			10,
+			12,
             186,
             74,
-            30
+            32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1647,
-			894,
-			72,
-			51
+			1507,
+			710,
+			70,
+			49
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0088"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			12,
-            195,
+			13,
+            197,
             74,
             31
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1560,
-			733,
-			70,
-			41
+			1802,
+			907,
+			69,
+			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0089"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			12,
-            195,
+			13,
+            197,
             74,
             31
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1560,
-			733,
-			70,
-			41
+			1802,
+			907,
+			69,
+			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0090"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			7,
-            192,
+            193,
             77,
             29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1721,
-			896,
+			1612,
+			534,
 			72,
-			46
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0091"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
+			39,
             156,
-            50,
+            51,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2307,
-			516,
-			69,
+			1659,
+			884,
+			66,
 			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0092"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
+			39,
             156,
-            50,
+            51,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2307,
-			516,
-			69,
+			1659,
+			884,
+			66,
 			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0093"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			37,
+			39,
             155,
-            43,
+            44,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2124,
-			613,
-			76,
+			1879,
+			837,
+			73,
 			71
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0094"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			39,
+            155,
+            44,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1879,
+			837,
+			73,
+			71
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_0095"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			36,
+            156,
+            43,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1916,
+			522,
+			77,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0096"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			36,
+            156,
+            43,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1916,
+			522,
+			77,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0097"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3033,149 +3108,49 @@ return {
 		trim = {
 			37,
             155,
-            43,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2124,
-			613,
-			76,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0095"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			36,
-            155,
-            43,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2125,
-			540,
-			77,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0096"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			36,
-            155,
-            43,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2125,
-			540,
-			77,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0097"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			36,
-            155,
             46,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1884,
-			494,
-			74,
+			1805,
+			948,
+			73,
 			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0098"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			36,
-            155,
-            46,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1884,
-			494,
-			74,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0099"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			31,
-            151,
-            39,
-            40
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1806,
-			810,
-			86,
-			76
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_0100"] = {
-		a_name = "go_items_hero_priest.dds",
+	["hero_priest_0098"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			37,
+            155,
+            46,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1805,
+			948,
+			73,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0099"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3187,45 +3162,70 @@ return {
             40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1850,
-			652,
+			2391,
+			112,
 			86,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_0100"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			31,
+            151,
+            40,
+            40
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1493,
+			548,
+			85,
 			76
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0101"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			24,
-            138,
+            139,
             27,
             26
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2369,
-			203,
+			1400,
+			662,
 			105,
-			103
+			102
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0102"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3234,23 +3234,23 @@ return {
 			24,
             138,
             27,
-            26
+            28
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1607,
-			534,
+			460,
+			922,
 			105,
-			103
+			101
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0103"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3258,99 +3258,24 @@ return {
 		trim = {
 			21,
             135,
-            24,
+            26,
             24
 		},
 		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1202,
-			542,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_priest_0104"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			21,
-            135,
-            24,
-            24
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			651,
-			782,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0105"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			21,
-            135,
-            24,
-            24
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			651,
-			782,
-			111,
-			108
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0106"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			21,
-            135,
-            24,
-            24
-		},
-		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			1495,
-			300,
-			111,
+			301,
+			109,
 			108
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_0107"] = {
-		a_name = "go_items_hero_priest.dds",
+	["hero_priest_0104"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3362,70 +3287,145 @@ return {
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1497,
-			410,
+			1294,
+			547,
 			111,
 			108
 		},
 		alias = {},
 		textureRotated = true
+	},
+	["hero_priest_0105"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			21,
+            135,
+            24,
+            24
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1294,
+			547,
+			111,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0106"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			23,
+            135,
+            24,
+            24
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			923,
+			823,
+			109,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0107"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			21,
+            137,
+            26,
+            24
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			701,
+			826,
+			109,
+			106
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["hero_priest_0108"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			21,
-            135,
-            24,
+            137,
+            26,
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1497,
-			410,
-			111,
-			108
+			701,
+			826,
+			109,
+			106
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0109"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			24,
-            135,
-            26,
-            23
+			25,
+            136,
+            27,
+            24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1499,
-			523,
-			106,
-			109
+			2164,
+			112,
+			104,
+			107
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0110"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3437,45 +3437,45 @@ return {
             23
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1836,
-			121,
+			812,
+			826,
 			106,
 			109
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0111"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			24,
-            135,
+            136,
             26,
             23
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			75,
+			1857,
+			121,
 			106,
-			109
+			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0112"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3487,12 +3487,12 @@ return {
             23
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			186,
+			1064,
+			655,
 			106,
 			109
 		},
@@ -3500,32 +3500,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0113"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			27,
+			28,
             141,
             30,
-            29
+            30
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1091,
-			791,
-			99,
-			97
+			1033,
+			834,
+			98,
+			96
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0114"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3537,12 +3537,12 @@ return {
             29
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1505,
-			634,
+			1384,
+			926,
 			99,
 			97
 		},
@@ -3550,107 +3550,107 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0115"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			33,
+			34,
             152,
             40,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1884,
-			567,
-			83,
+			1507,
+			626,
+			82,
 			74
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0116"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			33,
+			34,
             152,
             40,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1884,
-			567,
-			83,
+			1507,
+			626,
+			82,
 			74
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0117"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
-            155,
+			37,
+            156,
             46,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2134,
-			936,
-			74,
-			71
+			1964,
+			826,
+			73,
+			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0118"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             155,
             46,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2207,
-			936,
-			74,
+			1878,
+			910,
+			73,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0119"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3662,12 +3662,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2408,
-			531,
+			2110,
+			828,
 			70,
 			69
 		},
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0120"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3687,12 +3687,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2408,
-			531,
+			2110,
+			828,
 			70,
 			69
 		},
@@ -3700,32 +3700,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0121"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0122"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3737,12 +3737,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2204,
-			541,
+			2173,
+			690,
 			69,
 			71
 		},
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0123"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3762,12 +3762,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2204,
-			541,
+			2173,
+			690,
 			69,
 			71
 		},
@@ -3775,82 +3775,82 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0124"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            157,
             43,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2114,
-			858,
+			1964,
+			755,
 			76,
-			71
+			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0125"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            157,
             43,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2114,
-			858,
+			1964,
+			755,
 			76,
-			71
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_0126"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			36,
+            111,
+            44,
+            32
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1729,
+			222,
+			76,
+			124
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_0126"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			36,
-            111,
-            43,
-            32
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			572,
-			787,
-			77,
-			124
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_0127"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3858,24 +3858,24 @@ return {
 		trim = {
 			36,
             111,
-            43,
+            44,
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			572,
-			787,
-			77,
+			1729,
+			222,
+			76,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0128"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3887,12 +3887,12 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1312,
-			660,
+			1855,
+			229,
 			70,
 			124
 		},
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0129"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3912,12 +3912,12 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1312,
-			660,
+			1855,
+			229,
 			70,
 			124
 		},
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0130"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3937,12 +3937,12 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2141,
-			291,
+			1253,
+			858,
 			68,
 			124
 		},
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0131"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -3962,12 +3962,12 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2141,
-			291,
+			1253,
+			858,
 			68,
 			124
 		},
@@ -3975,107 +3975,107 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0132"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			40,
+			41,
             111,
             49,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			849,
-			823,
-			67,
+			1379,
+			858,
+			66,
 			123
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0133"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			40,
+			41,
             111,
             49,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1436,
-			808,
-			67,
+			1504,
+			858,
+			66,
 			123
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0134"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			40,
+			41,
             110,
             46,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1296,
-			857,
-			70,
+			1729,
+			300,
+			69,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0135"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			40,
+			41,
             110,
             46,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1296,
-			857,
-			70,
+			1729,
+			300,
+			69,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0136"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4083,24 +4083,24 @@ return {
 		trim = {
 			24,
             107,
-            28,
+            29,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1312,
-			531,
-			104,
+			846,
+			709,
+			103,
 			127
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0137"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4108,99 +4108,99 @@ return {
 		trim = {
 			24,
             107,
-            28,
+            29,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1312,
-			531,
-			104,
+			846,
+			709,
+			103,
 			127
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0138"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			8,
+			9,
             101,
             15,
             33
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			437,
 			787,
-			133,
+			132,
 			133
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0139"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			16,
-            95,
+            96,
             25,
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			1281,
 			283,
 			115,
-			140
+			139
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0140"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			16,
-            95,
+            96,
             25,
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			1281,
 			283,
 			115,
-			140
+			139
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0141"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4212,7 +4212,7 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0142"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4237,7 +4237,7 @@ return {
             32
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0143"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4262,20 +4262,20 @@ return {
             74
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1499,
-			256,
+			571,
+			787,
 			42,
 			145
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0144"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4287,20 +4287,20 @@ return {
             74
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1499,
-			256,
+			571,
+			787,
 			42,
 			145
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0145"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4312,20 +4312,20 @@ return {
             113
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2451,
-			1,
+			2270,
+			189,
 			27,
 			117
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0146"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4337,20 +4337,20 @@ return {
             171
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1960,
-			964,
+			2386,
+			861,
 			27,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0147"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4362,7 +4362,7 @@ return {
             116
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0148"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4387,12 +4387,12 @@ return {
             92
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1063,
-			655,
+			1499,
+			256,
 			43,
 			154
 		},
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0149"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4412,12 +4412,12 @@ return {
             49
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			627,
-			717,
+			1,
+			932,
 			63,
 			203
 		},
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0150"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4437,12 +4437,12 @@ return {
             49
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			627,
-			717,
+			1,
+			932,
 			63,
 			203
 		},
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0151"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4462,7 +4462,7 @@ return {
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0152"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4487,7 +4487,7 @@ return {
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0153"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4512,7 +4512,7 @@ return {
             25
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0154"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4537,7 +4537,7 @@ return {
             25
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0155"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4562,20 +4562,20 @@ return {
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			849,
-			710,
+			1287,
+			760,
 			96,
 			111
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0156"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4587,12 +4587,12 @@ return {
             24
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2141,
-			187,
+			1172,
+			660,
 			102,
 			111
 		},
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0157"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4612,12 +4612,12 @@ return {
             22
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2254,
-			187,
+			1285,
+			660,
 			113,
 			98
 		},
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0158"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4637,45 +4637,45 @@ return {
             21
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			472,
-			922,
+			1297,
+			424,
 			121,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0159"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			10,
+			11,
             144,
-            18,
+            19,
             19
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1297,
-			425,
-			128,
+			1729,
+			116,
+			126,
 			104
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0160"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4687,20 +4687,20 @@ return {
             19
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1730,
-			116,
+			627,
+			714,
 			131,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0161"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4712,7 +4712,7 @@ return {
             18
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0162"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4737,7 +4737,7 @@ return {
             18
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0163"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4762,7 +4762,7 @@ return {
             18
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0164"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4787,7 +4787,7 @@ return {
             17
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4800,7 +4800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0165"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4812,7 +4812,7 @@ return {
             17
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4825,7 +4825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0166"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4837,7 +4837,7 @@ return {
             17
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -4850,7 +4850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0167"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4858,24 +4858,24 @@ return {
 		trim = {
 			37,
             155,
-            53,
+            54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2277,
-			618,
-			66,
+			2136,
+			761,
+			65,
 			71
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0168"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4883,24 +4883,24 @@ return {
 		trim = {
 			36,
             159,
-            50,
+            51,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2282,
-			874,
-			70,
+			2182,
+			830,
+			69,
 			67
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0169"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -4908,199 +4908,199 @@ return {
 		trim = {
 			36,
             159,
-            50,
+            51,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2282,
-			874,
-			70,
+			2182,
+			830,
+			69,
 			67
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0170"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             162,
             42,
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1368,
-			856,
-			78,
+			1807,
+			734,
+			77,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0171"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             162,
             42,
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1368,
-			856,
-			78,
+			1807,
+			734,
+			77,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0172"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             165,
             40,
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1696,
-			256,
-			80,
+			1893,
+			672,
+			79,
 			63
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0173"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             165,
             40,
             39
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1696,
-			256,
-			80,
+			1893,
+			672,
+			79,
 			63
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0174"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             165,
             46,
-            39
+            40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1775,
-			328,
-			74,
-			63
+			1727,
+			890,
+			73,
+			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0175"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             165,
             46,
-            39
+            40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1775,
-			328,
-			74,
-			63
+			1727,
+			890,
+			73,
+			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0176"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			36,
+			37,
             165,
             46,
-            39
+            40
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1775,
-			328,
-			74,
-			63
+			1727,
+			890,
+			73,
+			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0177"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5108,24 +5108,24 @@ return {
 		trim = {
 			41,
             144,
-            47,
+            49,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1884,
-			810,
-			68,
+			1729,
+			580,
+			66,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0178"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5133,49 +5133,49 @@ return {
 		trim = {
 			41,
             144,
-            47,
+            49,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1884,
-			810,
-			68,
+			1729,
+			580,
+			66,
 			82
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0179"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			42,
+            137,
+            50,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			860,
+			934,
+			64,
+			89
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_0179"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			42,
-            137,
-            50,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1795,
-			898,
-			64,
-			89
-		},
-		alias = {},
-		textureRotated = true
-	},
 	["hero_priest_0180"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5187,20 +5187,20 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1795,
-			898,
+			860,
+			934,
 			64,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0181"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5208,24 +5208,24 @@ return {
 		trim = {
 			40,
             134,
-            51,
+            53,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2225,
-			444,
-			65,
+			1729,
+			515,
+			63,
 			92
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0182"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5233,24 +5233,24 @@ return {
 		trim = {
 			40,
             134,
-            51,
+            53,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2225,
-			444,
-			65,
+			1729,
+			515,
+			63,
 			92
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0183"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5262,12 +5262,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2319,
-			452,
+			2080,
+			622,
 			62,
 			91
 		},
@@ -5275,32 +5275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0184"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			40,
-            135,
-            54,
-            41
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2033,
-			455,
-			62,
-			91
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_priest_0185"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5308,24 +5283,49 @@ return {
 		trim = {
 			40,
             136,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			519,
-			62,
+			1988,
+			600,
+			60,
+			90
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0185"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			40,
+            136,
+            56,
+            41
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2173,
+			628,
+			60,
 			90
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0186"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5333,24 +5333,24 @@ return {
 		trim = {
 			40,
             137,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			583,
-			62,
+			926,
+			934,
+			60,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0187"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5358,24 +5358,24 @@ return {
 		trim = {
 			40,
             137,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			647,
-			62,
+			988,
+			934,
+			60,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0188"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5383,24 +5383,24 @@ return {
 		trim = {
 			40,
             138,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2020,
-			711,
-			62,
+			2389,
+			190,
+			60,
 			88
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0189"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5408,24 +5408,24 @@ return {
 		trim = {
 			40,
             139,
-            54,
+            56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1954,
-			778,
-			62,
+			2265,
+			557,
+			60,
 			87
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_0190"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5437,70 +5437,70 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1368,
-			936,
+			2379,
+			573,
 			63,
 			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0191"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			41,
+			42,
             148,
             56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1851,
-			730,
-			59,
+			1974,
+			695,
+			58,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0192"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			41,
+			42,
             148,
             56,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1851,
-			730,
-			59,
+			1974,
+			695,
+			58,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0193"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5512,12 +5512,12 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2258,
-			801,
+			2278,
+			749,
 			65,
 			71
 		},
@@ -5525,32 +5525,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0194"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			39,
+			40,
             108,
             43,
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			776,
-			892,
-			74,
+			1855,
+			301,
+			73,
 			123
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0195"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5562,12 +5562,12 @@ return {
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1436,
-			877,
+			1729,
+			371,
 			71,
 			123
 		},
@@ -5575,7 +5575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0196"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5584,48 +5584,48 @@ return {
 			40,
             108,
             45,
-            36
+            37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2131,
-			361,
+			1979,
+			376,
 			71,
-			123
+			122
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0197"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			40,
-            108,
-            43,
+            109,
+            45,
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2141,
-			112,
-			73,
-			123
+			2104,
+			303,
+			71,
+			122
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0198"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5633,74 +5633,49 @@ return {
 		trim = {
 			40,
             108,
-            43,
+            44,
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2266,
-			112,
-			73,
+			1854,
+			376,
+			72,
 			123
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0199"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			40,
-            108,
+            109,
             43,
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1286,
-			732,
-			73,
-			123
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_0200"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			156,
-			267
-		},
-		trim = {
-			40,
-            108,
-            43,
-            37
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1361,
-			732,
+			1967,
+			151,
 			73,
 			122
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
-	["hero_priest_0201"] = {
-		a_name = "go_items_hero_priest.dds",
+	["hero_priest_0200"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5712,12 +5687,37 @@ return {
             37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1436,
-			733,
+			1981,
+			226,
+			73,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_0201"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			156,
+			267
+		},
+		trim = {
+			40,
+            108,
+            43,
+            37
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1980,
+			301,
 			73,
 			122
 		},
@@ -5725,7 +5725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0202"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5737,12 +5737,12 @@ return {
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			942,
-			892,
+			2018,
+			75,
 			74,
 			123
 		},
@@ -5750,32 +5750,32 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0203"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
-			39,
+			40,
             108,
             43,
-            37
+            38
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1067,
-			892,
-			74,
-			122
+			1606,
+			328,
+			73,
+			121
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_0204"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5787,12 +5787,12 @@ return {
             38
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2354,
-			375,
+			2270,
+			112,
 			75,
 			119
 		},
@@ -5800,7 +5800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0205"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5808,24 +5808,24 @@ return {
 		trim = {
 			36,
             110,
-            41,
+            42,
             37
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1418,
-			538,
-			79,
+			1131,
+			848,
+			78,
 			120
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0206"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5837,12 +5837,12 @@ return {
             36
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2391,
-			120,
+			2332,
+			638,
 			81,
 			87
 		},
@@ -5850,32 +5850,32 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0207"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			40,
-            144,
+            145,
             47,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1970,
-			867,
+			1728,
+			648,
 			69,
-			82
+			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_0208"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
@@ -5887,70 +5887,320 @@ return {
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1886,
-			894,
+			1659,
+			554,
 			68,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_0209"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			156,
 			267
 		},
 		trim = {
 			37,
-            155,
+            156,
             54,
             41
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1438,
-			660,
+			1921,
+			450,
 			65,
-			71
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0001"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			9,
+            13,
+            26,
+            9
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1914,
+			983,
+			45,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0002"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			0,
+            13,
+            26,
+            9
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2345,
+			789,
+			54,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0003"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            2,
+            13,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2334,
+			882,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0004"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            2,
+            13,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2334,
+			882,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0005"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            2,
+            13,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2334,
+			882,
+			50,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0006"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            1,
+            18,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2003,
+			927,
+			45,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0007"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            1,
+            18,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2003,
+			927,
+			45,
+			52
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_bolt_0008"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            1,
+            16,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2397,
+			740,
+			47,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_bolt_0009"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			17,
+            1,
+            16,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2397,
+			740,
+			47,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_bolt_0010"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			80,
+			53
+		},
+		trim = {
+			25,
+            10,
+            25,
+            12
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2447,
+			881,
+			30,
+			31
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_healFx_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
 		},
 		trim = {
-			3,
+			4,
             37,
             27,
             8
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1840,
-			381,
-			30,
+			2218,
+			926,
+			29,
 			30
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_healFx_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -5962,12 +6212,12 @@ return {
             11
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2449,
-			928,
+			2177,
+			993,
 			30,
 			29
 		},
@@ -5975,7 +6225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0003"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -5987,12 +6237,12 @@ return {
             14
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1845,
-			534,
+			2188,
+			962,
 			29,
 			29
 		},
@@ -6000,7 +6250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0004"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6012,12 +6262,12 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1646,
-			256,
+			1961,
+			981,
 			48,
 			42
 		},
@@ -6025,7 +6275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6037,12 +6287,12 @@ return {
             6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1774,
-			433,
+			2401,
+			789,
 			46,
 			41
 		},
@@ -6050,7 +6300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0006"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6062,12 +6312,12 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2384,
-			849,
+			2334,
+			935,
 			50,
 			50
 		},
@@ -6075,7 +6325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0007"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6087,12 +6337,12 @@ return {
             1
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2221,
-			681,
+			2283,
+			892,
 			49,
 			52
 		},
@@ -6100,7 +6350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0008"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6112,12 +6362,12 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2429,
-			790,
+			1953,
+			927,
 			48,
 			52
 		},
@@ -6125,7 +6375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0009"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6137,20 +6387,20 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2316,
-			686,
+			1606,
+			475,
 			51,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0010"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6162,20 +6412,20 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2050,
-			775,
+			2054,
+			695,
 			50,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0011"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6187,20 +6437,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2050,
-			827,
+			2334,
+			822,
 			50,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0012"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6212,20 +6462,20 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2377,
-			790,
+			2386,
+			890,
 			50,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_healFx_0013"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6237,12 +6487,12 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2325,
-			790,
+			2345,
+			721,
 			50,
 			66
 		},
@@ -6250,7 +6500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6262,20 +6512,20 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2280,
-			943,
+			2327,
+			547,
 			50,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0015"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6287,20 +6537,20 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2292,
-			739,
+			2283,
+			822,
 			49,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6312,12 +6562,12 @@ return {
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1778,
-			249,
+			2421,
+			638,
 			49,
 			56
 		},
@@ -6325,7 +6575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6337,12 +6587,12 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2362,
-			739,
+			2421,
+			689,
 			49,
 			56
 		},
@@ -6350,7 +6600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0018"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6362,20 +6612,20 @@ return {
             10
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1048,
-			968,
+			2386,
+			942,
 			49,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_healFx_0019"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6387,12 +6637,12 @@ return {
             12
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2350,
-			957,
+			2138,
+			928,
 			48,
 			43
 		},
@@ -6400,7 +6650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0020"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6412,20 +6662,20 @@ return {
             15
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2436,
-			844,
+			2011,
+			981,
 			48,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["hero_priest_healFx_0021"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6437,12 +6687,12 @@ return {
             17
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2272,
-			686,
+			2094,
+			955,
 			47,
 			42
 		},
@@ -6450,7 +6700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0022"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6462,12 +6712,12 @@ return {
             20
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1260,
-			968,
+			1878,
+			983,
 			34,
 			40
 		},
@@ -6475,7 +6725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0023"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6487,12 +6737,12 @@ return {
             22
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1847,
-			565,
+			2279,
+			946,
 			29,
 			29
 		},
@@ -6500,32 +6750,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0024"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
 		},
 		trim = {
 			10,
-            21,
+            22,
             22,
             25
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1852,
-			596,
+			2443,
+			982,
 			28,
-			29
+			28
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_healFx_0025"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			60,
 			75
@@ -6537,12 +6787,12 @@ return {
             28
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2427,
-			991,
+			2310,
+			987,
 			28,
 			28
 		},
@@ -6550,7 +6800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healWave"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			104,
 			48
@@ -6562,12 +6812,12 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			942,
-			968,
+			2283,
+			218,
 			104,
 			48
 		},
@@ -6575,7 +6825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_revive_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6587,20 +6837,20 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1190,
-			788,
+			2103,
+			376,
 			94,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_revive_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6612,12 +6862,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1935,
-			235,
+			685,
+			934,
 			89,
 			96
 		},
@@ -6625,7 +6875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0003"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6633,24 +6883,24 @@ return {
 		trim = {
 			8,
             6,
-            5,
+            6,
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			297,
-			84,
+			2379,
+			340,
+			83,
 			96
 		},
 		alias = {},
 		textureRotated = true
 	},
 	["hero_priest_revive_0004"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6662,12 +6912,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2256,
-			364,
+			2281,
+			394,
 			78,
 			96
 		},
@@ -6675,7 +6925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6687,12 +6937,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1433,
-			950,
+			2379,
+			425,
 			73,
 			96
 		},
@@ -6700,132 +6950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0006"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			13,
-            6,
-            13,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1603,
-			737,
-			71,
-			96
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_priest_revive_0007"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			13,
-            5,
-            13,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1836,
-			232,
-			71,
-			97
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["hero_priest_revive_0008"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			13,
-            6,
-            13,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1705,
-			639,
-			71,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_revive_0009"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			13,
-            6,
-            13,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1701,
-			412,
-			71,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_revive_0010"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			13,
-            6,
-            13,
-            3
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1714,
-			510,
-			71,
-			95
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_revive_0011"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6837,20 +6962,170 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1778,
-			639,
+			1240,
+			928,
 			70,
 			95
 		},
 		alias = {},
 		textureRotated = false
 	},
+	["hero_priest_revive_0007"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			13,
+            5,
+            13,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2281,
+			474,
+			71,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_revive_0008"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			13,
+            6,
+            13,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2379,
+			500,
+			71,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_revive_0009"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			13,
+            6,
+            13,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1167,
+			928,
+			71,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_revive_0010"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			13,
+            6,
+            14,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1312,
+			928,
+			70,
+			95
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_revive_0011"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			13,
+            6,
+            14,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2382,
+			268,
+			70,
+			95
+		},
+		alias = {},
+		textureRotated = true
+	},
 	["hero_priest_revive_0012"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			97,
+			104
+		},
+		trim = {
+			14,
+            6,
+            14,
+            4
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1729,
+			444,
+			69,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_revive_0013"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6862,45 +7137,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2033,
-			383,
+			1825,
+			450,
 			70,
 			94
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_revive_0013"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			97,
-			104
-		},
-		trim = {
-			14,
-            6,
-            12,
-            4
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2129,
-			434,
-			71,
-			94
-		},
-		alias = {},
-		textureRotated = true
-	},
 	["hero_priest_revive_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6912,20 +7162,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1886,
-			326,
+			1988,
+			449,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_revive_0015"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6937,12 +7187,12 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1531,
-			950,
+			2084,
+			472,
 			73,
 			94
 		},
@@ -6950,7 +7200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6962,12 +7212,12 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1627,
-			950,
+			2180,
+			482,
 			73,
 			93
 		},
@@ -6975,7 +7225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			97,
 			104
@@ -6987,20 +7237,20 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1945,
-			696,
+			1811,
+			659,
 			73,
 			80
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_shieldFx_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7012,12 +7262,12 @@ return {
             34
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2272,
-			681,
+			1172,
+			655,
 			3,
 			3
 		},
@@ -7025,7 +7275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7037,12 +7287,12 @@ return {
             5
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1938,
-			652,
+			2310,
+			946,
 			20,
 			21
 		},
@@ -7050,7 +7300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0003"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7059,48 +7309,23 @@ return {
 			0,
             6,
             0,
-            0
+            2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1792,
-			606,
+			2279,
+			977,
 			28,
-			31
+			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_shieldFx_0004"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			28,
-			37
-		},
-		trim = {
-			0,
-            2,
-            0,
-            0
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			2141,
-			75,
-			28,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_shieldFx_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7112,120 +7337,95 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1991,
-			91,
+			1490,
+			501,
+			28,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_shieldFx_0005"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			28,
+			37
+		},
+		trim = {
+			0,
+            4,
+            0,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2050,
+			926,
+			28,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_shieldFx_0006"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			28,
+			37
+		},
+		trim = {
+			0,
+            3,
+            0,
+            1
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2138,
+			973,
+			28,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["hero_priest_shieldFx_0007"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			28,
+			37
+		},
+		trim = {
+			0,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2443,
+			952,
 			28,
 			34
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["hero_priest_shieldFx_0006"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			28,
-			37
-		},
-		trim = {
-			0,
-            3,
-            0,
-            0
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1815,
-			510,
-			28,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_shieldFx_0007"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			28,
-			37
-		},
-		trim = {
-			0,
-            3,
-            0,
-            0
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1822,
-			433,
-			28,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_shieldFx_0008"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			28,
-			37
-		},
-		trim = {
-			0,
-            3,
-            0,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1774,
-			476,
-			28,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_shieldFx_0009"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			28,
-			37
-		},
-		trim = {
-			0,
-            3,
-            0,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1804,
-			476,
-			28,
-			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_shieldFx_0010"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7237,12 +7437,62 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1834,
-			469,
+			2219,
+			958,
+			28,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_shieldFx_0009"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			28,
+			37
+		},
+		trim = {
+			1,
+            3,
+            0,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2249,
+			926,
+			27,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_shieldFx_0010"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			28,
+			37
+		},
+		trim = {
+			0,
+            3,
+            0,
+            3
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2249,
+			959,
 			28,
 			31
 		},
@@ -7250,32 +7500,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0011"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1787,
-			572,
+			2238,
+			992,
 			28,
-			32
+			31
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0012"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7287,12 +7537,12 @@ return {
             3
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2442,
-			894,
+			2188,
+			928,
 			28,
 			32
 		},
@@ -7300,7 +7550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0013"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7308,49 +7558,49 @@ return {
 		trim = {
 			0,
             2,
-            0,
-            5
+            2,
+            6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1845,
-			502,
-			28,
-			30
+			121,
+			997,
+			26,
+			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_shieldFx_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
             6
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2427,
-			960,
+			2340,
+			987,
 			28,
-			29
+			28
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0015"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7362,12 +7612,12 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1822,
-			605,
+			2208,
+			993,
 			28,
 			30
 		},
@@ -7375,7 +7625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7387,12 +7637,12 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2419,
-			928,
+			2370,
+			993,
 			27,
 			28
 		},
@@ -7400,7 +7650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7412,12 +7662,12 @@ return {
             7
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1817,
-			546,
+			2451,
+			63,
 			26,
 			29
 		},
@@ -7425,7 +7675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0018"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7437,12 +7687,12 @@ return {
             8
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1817,
-			577,
+			152,
+			997,
 			26,
 			28
 		},
@@ -7450,7 +7700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0019"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7462,20 +7712,20 @@ return {
             8
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1852,
-			413,
+			182,
+			997,
 			26,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["hero_priest_shieldFx_0020"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			28,
 			37
@@ -7487,12 +7737,12 @@ return {
             34
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			2272,
-			681,
+			1172,
+			655,
 			3,
 			3
 		},
@@ -7500,7 +7750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0001"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7512,12 +7762,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			845,
-			571,
+			570,
 			216,
 			137
 		},
@@ -7525,7 +7775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0002"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7537,7 +7787,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7550,7 +7800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0003"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7562,7 +7812,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7575,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0004"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7587,12 +7837,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			627,
-			433,
+			431,
 			216,
 			140
 		},
@@ -7600,7 +7850,57 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0005"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			228,
+			172
+		},
+		trim = {
+			6,
+            31,
+            6,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			627,
+			573,
+			216,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_swords_0006"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			228,
+			172
+		},
+		trim = {
+			6,
+            29,
+            6,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			627,
+			145,
+			216,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_swords_0007"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7612,7 +7912,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7624,8 +7924,8 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_swords_0006"] = {
-		a_name = "go_items_hero_priest.dds",
+	["hero_priest_swords_0008"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7637,7 +7937,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7649,58 +7949,8 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_swords_0007"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			228,
-			172
-		},
-		trim = {
-			6,
-            30,
-            6,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1063,
-			143,
-			216,
-			140
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_swords_0008"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			228,
-			172
-		},
-		trim = {
-			6,
-            29,
-            6,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			627,
-			290,
-			216,
-			141
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_swords_0009"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7712,12 +7962,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			627,
 			1,
+			787,
 			216,
 			143
 		},
@@ -7725,32 +7975,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0010"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
 		},
 		trim = {
 			6,
-            27,
+            29,
             6,
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			219,
-			787,
+			627,
+			288,
 			216,
-			143
+			141
 		},
 		alias = {},
 		textureRotated = false
 	},
 	["hero_priest_swords_0011"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7762,12 +8012,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			627,
-			146,
+			1,
 			216,
 			142
 		},
@@ -7775,32 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0012"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			228,
-			172
-		},
-		trim = {
-			6,
-            26,
-            6,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			1,
-			787,
-			216,
-			144
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["hero_priest_swords_0013"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7812,12 +8037,37 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
+			1024
+		},
+		f_quad = {
+			219,
+			787,
+			216,
+			142
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_swords_0013"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			228,
+			172
+		},
+		trim = {
+			6,
+            28,
+            6,
+            2
+		},
+		a_size = {
+			2478,
 			1024
 		},
 		f_quad = {
 			627,
-			146,
+			1,
 			216,
 			142
 		},
@@ -7825,7 +8075,32 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0014"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
+		size = {
+			228,
+			172
+		},
+		trim = {
+			6,
+            29,
+            6,
+            2
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			627,
+			288,
+			216,
+			141
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_swords_0015"] = {
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7837,11 +8112,11 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			219,
+			1,
 			787,
 			216,
 			143
@@ -7849,33 +8124,8 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_swords_0015"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			228,
-			172
-		},
-		trim = {
-			6,
-            27,
-            6,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			627,
-			1,
-			216,
-			143
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_swords_0016"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7887,12 +8137,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			627,
-			290,
+			845,
+			1,
 			216,
 			141
 		},
@@ -7900,7 +8150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0017"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7912,7 +8162,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7925,7 +8175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0018"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7937,12 +8187,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1281,
-			1,
+			1063,
+			143,
 			216,
 			140
 		},
@@ -7950,7 +8200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0019"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -7962,7 +8212,32 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
+			1024
+		},
+		f_quad = {
+			845,
+			429,
+			216,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["hero_priest_swords_0020"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			228,
+			172
+		},
+		trim = {
+			6,
+            31,
+            6,
+            2
+		},
+		a_size = {
+			2478,
 			1024
 		},
 		f_quad = {
@@ -7974,33 +8249,8 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_priest_swords_0020"] = {
-		a_name = "go_items_hero_priest.dds",
-		size = {
-			228,
-			172
-		},
-		trim = {
-			6,
-            30,
-            6,
-            2
-		},
-		a_size = {
-			2479,
-			1024
-		},
-		f_quad = {
-			627,
-			575,
-			216,
-			140
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["hero_priest_swords_0021"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -8012,12 +8262,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			845,
-			429,
+			1281,
+			1,
 			216,
 			140
 		},
@@ -8025,7 +8275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0022"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -8037,7 +8287,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -8050,7 +8300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0023"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -8062,7 +8312,7 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -8075,7 +8325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0024"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			228,
 			172
@@ -8087,12 +8337,12 @@ return {
             2
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
 			845,
-			571,
+			570,
 			216,
 			137
 		},
@@ -8100,7 +8350,7 @@ return {
 		textureRotated = false
 	},
 	["item_thumb_hero_priest"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			624,
 			784
@@ -8112,7 +8362,7 @@ return {
             0
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
@@ -8125,7 +8375,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0124"] = {
-		a_name = "go_items_hero_priest.dds",
+		a_name = "go_items_hero_priest.png",
 		size = {
 			104,
 			104
@@ -8137,16 +8387,266 @@ return {
             4
 		},
 		a_size = {
-			2479,
+			2478,
 			1024
 		},
 		f_quad = {
-			1606,
-			639,
+			1485,
+			926,
 			97,
 			96
 		},
 		alias = {},
+		textureRotated = true
+	},
+	["tmp/hero_priest_bolt_0001"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			7,
+            10,
+            19,
+            7
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1606,
+			301,
+			30,
+			20
+		},
+		alias = {},
 		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0002"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			0,
+            10,
+            19,
+            7
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2138,
+			1003,
+			37,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0003"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			13,
+            1,
+            9,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2143,
+			75,
+			34,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tmp/hero_priest_bolt_0004"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			13,
+            1,
+            9,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2143,
+			75,
+			34,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tmp/hero_priest_bolt_0005"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			13,
+            1,
+            9,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2143,
+			75,
+			34,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["tmp/hero_priest_bolt_0006"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			12,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2061,
+			987,
+			31,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0007"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			12,
+            1,
+            13,
+            0
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2061,
+			987,
+			31,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0008"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			12,
+            0,
+            12,
+            1
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2445,
+			914,
+			32,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0009"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			12,
+            0,
+            12,
+            1
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			2445,
+			914,
+			32,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tmp/hero_priest_bolt_0010"] = {
+		a_name = "go_items_hero_priest.png",
+		size = {
+			56,
+			37
+		},
+		trim = {
+			18,
+            7,
+            17,
+            8
+		},
+		a_size = {
+			2478,
+			1024
+		},
+		f_quad = {
+			1967,
+			121,
+			21,
+			22
+		},
+		alias = {},
+		textureRotated = true
 	}
 }
