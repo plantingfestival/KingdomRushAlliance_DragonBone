@@ -2910,7 +2910,7 @@ return {
 	ITEM_HERO_PRIEST_NAME = "Dierdre the Priestess",
 	ITEM_HERO_PRIEST_BOTTOM_DESC = "Summon Dierdre to defeat your enemies.",
 	ITEM_HERO_PRIEST_BOTTOM_INFO = "Summon Dierdre to fight alongside you.",
-	ITEM_HERO_PRIEST_DESC = "The loyal priestess is instructed by the gods to help the king fight against foreign invaders, and she will crush any invading enemies with the light they bestow.",
+	ITEM_HERO_PRIEST_DESC = "The devout priestess has devoted her life to fulfilling the sacred will of the order. On the battlefield, she wields her magic to protect her allies and heal the wounded.",
 	HERO_BEASTMASTER_NAME = "Cronan",
 	BEASTMASTER_BOAR_NAME = "Wild Boar",
 	BEASTMASTER_FALCON_NAME = "Falcon",

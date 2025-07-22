@@ -2911,7 +2911,7 @@ return {
 	ITEM_HERO_PRIEST_NAME = "女祭司德得尔",
 	ITEM_HERO_PRIEST_BOTTOM_DESC = "召唤女祭司德得尔来击败你的敌人。",
 	ITEM_HERO_PRIEST_BOTTOM_INFO = "召唤女祭司德得尔来与你并肩作战。",
-	ITEM_HERO_PRIEST_DESC = "忠诚的女祭司受神明的指示，帮助国王对抗外来的入侵者，她将用神明赐予的光明击溃任何来犯之敌。",
+	ITEM_HERO_PRIEST_DESC = "虔诚的女祭司毕生致力于践行修会的崇高意志。在战场上，她运用魔法守护战友，治愈伤者。",
 	HERO_BEASTMASTER_NAME = "克罗南",
 	BEASTMASTER_BOAR_NAME = "野猪",
 	BEASTMASTER_FALCON_NAME = "猎鹰",
