@@ -1,3 +1,18 @@
+local lldebugger = nil
+if arg[2] == "debug" then
+	lldebugger = require("lldebugger")
+	lldebugger.start()
+end
+
+local love_errorhandler = love.errhand
+function love.errorhandler(msg)
+	if lldebugger then
+		error(msg, 2) -- 直接跳转到错误行
+	else
+		return love_errorhandler(msg)
+	end
+end
+
 local dok, deval = pcall(require, "debug_eval")
 
 if not dok or not deval then
