@@ -3013,7 +3013,7 @@ function game_gui.q_is_wave_ready(ctx)
 end
 
 function game_gui.q_is_hero_custom_active(ctx)
-	return false
+	return true
 end
 
 function game_gui.q_has_noti_queued(ctx)
@@ -4300,7 +4300,18 @@ function game_gui.c_send_wave(ctx)
 end
 
 function game_gui.c_select_hero_custom(ctx)
-	local list = LU.list_entities(game_gui.game.store.entities, "hero_durax_clone")
+	local list = table.filter(game_gui.game.store.entities, function(k, v)
+		local is_hero = not v.pending_removal and v.soldier and v.hero and v.vis and v.health and not v.health.dead and band(v.vis.flags, F_HERO) ~= 0
+		if is_hero then
+			for i, h in ipairs(wid("hero_portraits_view").children) do
+				if h.hero_id == v.id then
+					return false
+				end
+			end
+			return true
+		end
+		return false
+	end)
 
 	if not list or #list < 1 then
 		return false
