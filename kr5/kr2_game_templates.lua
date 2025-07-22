@@ -5698,9 +5698,7 @@ tt = E:register_t("controller_item_hero_wizard", "controller_item_hero")
 tt.entity = "hero_wizard"
 
 tt = E:register_t("hero_wizard", "hero5")
-
 E:add_comps(tt, "teleport", "melee", "ranged", "timed_attacks")
-
 anchor_y = 0.22
 image_y = 78
 tt.hero.level_stats.hp_max = {
@@ -5742,50 +5740,50 @@ tt.hero.level_stats.armor = {
 tt.hero.level_stats.melee_damage_min = {
 	3,
 	4,
-	4,
-	5,
 	5,
 	6,
-	6,
 	7,
-	7,
-	8
+	8,
+	9,
+	10,
+	11,
+	12
 }
 tt.hero.level_stats.melee_damage_max = {
 	9,
 	11,
-	12,
-	14,
+	13,
 	15,
 	17,
-	18,
-	20,
+	19,
 	21,
-	23
+	23,
+	25,
+	27
 }
 tt.hero.level_stats.ranged_damage_min = {
 	9,
 	11,
-	12,
-	14,
+	13,
 	15,
 	17,
-	18,
-	20,
+	19,
 	21,
-	23
+	23,
+	25,
+	27
 }
 tt.hero.level_stats.ranged_damage_max = {
 	27,
 	32,
-	36,
-	41,
-	45,
-	50,
-	54,
-	59,
-	63,
-	68
+	37,
+	42,
+	47,
+	52,
+	57,
+	62,
+	67,
+	72
 }
 tt.hero.skills.magicmissile = E:clone_c("hero_skill")
 tt.hero.skills.magicmissile.count = {
@@ -5796,7 +5794,7 @@ tt.hero.skills.magicmissile.count = {
 tt.hero.skills.magicmissile.damage = {
 	12,
 	24,
-	36
+	48
 }
 tt.hero.skills.magicmissile.xp_gain_factor = 15
 tt.hero.skills.chainspell = E:clone_c("hero_skill")
@@ -5826,9 +5824,9 @@ tt.hero.skills.arcanereach.extra_range_factor = {
 }
 tt.hero.skills.arcanefocus = E:clone_c("hero_skill")
 tt.hero.skills.arcanefocus.extra_damage = {
-	2,
-	6,
-	12
+	4,
+	12,
+	24
 }
 tt.hero.skills.magicmissile.hr_cost = {
 	1,
@@ -7036,9 +7034,7 @@ tt = E:register_t("controller_item_hero_priest", "controller_item_hero")
 tt.entity = "hero_priest"
 
 tt = E:register_t("hero_priest", "hero5")
-
 E:add_comps(tt, "melee", "ranged", "teleport", "timed_attacks")
-
 anchor_y = 0.18
 image_y = 134
 tt.hero.level_stats.hp_max = {
@@ -7081,49 +7077,49 @@ tt.hero.level_stats.melee_damage_min = {
 	4,
 	5,
 	6,
-	6,
 	7,
 	8,
 	9,
-	9,
 	10,
-	11
+	11,
+	12,
+	13
 }
 tt.hero.level_stats.melee_damage_max = {
 	12,
-	14,
-	17,
-	19,
+	15,
+	18,
 	21,
-	23,
-	26,
-	28,
+	24,
+	27,
 	30,
-	32
+	33,
+	36,
+	39
 }
 tt.hero.level_stats.ranged_damage_min = {
 	4,
 	5,
 	6,
-	6,
 	7,
 	8,
 	9,
-	9,
 	10,
-	11
+	11,
+	12,
+	13
 }
 tt.hero.level_stats.ranged_damage_max = {
 	12,
-	14,
-	17,
-	19,
+	15,
+	18,
 	21,
-	23,
-	26,
-	28,
+	24,
+	27,
 	30,
-	32
+	33,
+	36,
+	39
 }
 tt.hero.skills.holylight = E:clone_c("hero_skill")
 tt.hero.skills.holylight.heal_hp = {
@@ -7139,7 +7135,7 @@ tt.hero.skills.holylight.heal_count = {
 tt.hero.skills.holylight.revive_chance = {
 	0.1,
 	0.2,
-	1
+	0.3
 }
 tt.hero.skills.holylight.xp_gain_factor = 12
 tt.hero.skills.consecrate = E:clone_c("hero_skill")
@@ -7177,7 +7173,7 @@ tt.hero.skills.divinehealth = E:clone_c("hero_skill")
 tt.hero.skills.divinehealth.extra_hp = {
 	30,
 	90,
-	180
+	270
 }
 tt.hero.skills.divinehealth.regen_factor = {
 	1.06,
@@ -8866,63 +8862,63 @@ tt.hero.level_stats.armor = {
 }
 tt.hero.level_stats.damage_min = {
 	4,
-	5,
-	7,
+	6,
 	8,
 	10,
-	11,
-	13,
+	12,
 	14,
 	16,
-	17
+	18,
+	20,
+	22
 }
 tt.hero.level_stats.damage_max = {
 	11,
 	16,
-	20,
-	25,
-	29,
-	34,
-	38,
-	43,
-	47,
-	52
+	21,
+	26,
+	31,
+	36,
+	41,
+	46,
+	51,
+	56
 }
 tt.hero.level_stats.ranged_damage_min = {
 	4,
-	5,
-	7,
+	6,
 	8,
 	10,
-	11,
-	13,
+	12,
 	14,
 	16,
-	17
+	18,
+	20,
+	22
 }
 tt.hero.level_stats.ranged_damage_max = {
 	11,
 	16,
-	20,
-	25,
-	29,
-	34,
-	38,
-	43,
-	47,
-	52
+	21,
+	26,
+	31,
+	36,
+	41,
+	46,
+	51,
+	56
 }
 tt.hero.skills.laughingskulls = E:clone_c("hero_skill")
 tt.hero.skills.laughingskulls.extra_damage = {
 	4,
-	6,
-	8
+	8,
+	12
 }
 tt.hero.skills.deathskull = E:clone_c("hero_skill")
 tt.hero.skills.deathskull.damage = {
 	18,
 	36,
-	54
+	72
 }
 tt.hero.skills.deathskull.xp_gain_factor = 20
 tt.hero.skills.bonedance = E:clone_c("hero_skill")
@@ -8939,9 +8935,9 @@ tt.hero.skills.deathaura.slow_factor = {
 }
 tt.hero.skills.voodoomagic = E:clone_c("hero_skill")
 tt.hero.skills.voodoomagic.damage = {
-	40,
-	80,
-	120
+	60,
+	120,
+	180
 }
 tt.hero.skills.voodoomagic.xp_gain_factor = 140
 tt.hero.skills.laughingskulls.hr_cost = {
@@ -9035,7 +9031,7 @@ tt.timed_attacks.list[1].cooldown = 20
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 100
 tt.timed_attacks.list[1].min_count = 5
-tt.timed_attacks.list[1].count = 10
+tt.timed_attacks.list[1].count = 15
 tt.timed_attacks.list[1].sound = "HeroVoodooWitchVoodooMagic"
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].damage = nil
