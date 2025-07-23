@@ -390,33 +390,13 @@ function cheat_view:init()
 	
 			enemies_bar:update_layout()
 		elseif page_number == 2 then
+			local data = require("data.game_debug_data")
 			for i = 1, 6 do
 				local enemies_bar = view:ci("cheat_view_enemies_" .. i)
 				local enemy_button_template = table.deepclone(tt.enemy_button)
 				enemies_bar:remove_children()
-				if i == 1 then
-					local enemy_names = require("data.game_debug_data").enemy_pages[9]
-					for index, template_name in ipairs(enemy_names) do
-						local enemy = E:get_template(template_name)
-						local button = KView:new_from_table(enemy_button_template)
-						button:ci("enemy_image"):set_image(enemy.info.portrait)
-			
-						function button.on_click(this)
-							log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
-							local e = E:create_entity(template_name)
-							if e and e.enemy then
-								e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
-								e.nav_path.pi = game.dbg_active_pi
-								e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
-								e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
-								game.simulation:queue_insert_entity(e)
-							end
-						end
-						enemies_bar:add_child(button)
-					end
-					enemies_bar:update_layout()
-				elseif i == 2 then
-					local enemy_names = require("data.game_debug_data").enemy_pages[10]
+				if i <= 3 then
+					local enemy_names = data.enemy_pages[i + 8]
 					for index, template_name in ipairs(enemy_names) do
 						local enemy = E:get_template(template_name)
 						local button = KView:new_from_table(enemy_button_template)

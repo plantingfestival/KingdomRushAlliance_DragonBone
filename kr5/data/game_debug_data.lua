@@ -194,6 +194,9 @@ return {
 			"enemy_elvira",
 		},
 		{
+			"enemy_bone_carrier",
+		},
+		{
 			"mod_natures_vigor",
 			"mod_wrath_of_the_fallen",
 			"enemy_skunk_bombardier_poison_mod",

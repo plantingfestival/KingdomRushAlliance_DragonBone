@@ -1177,6 +1177,88 @@ function scripts.mod_track_target_with_fade.update(this, store, script)
 	end
 end
 
+scripts.mod_hps_with_fade = {}
+function scripts.mod_hps_with_fade.update(this, store, script)
+	local target = store.entities[m.target_id]
+	if not target or not target.pos then
+		queue_remove(store, this)
+		return
+	end
+	this.pos = target.pos
+
+	local m = this.modifier
+	m.ts = store.tick_ts
+	local hps = this.hps
+	local duration = m.duration
+	if m.duration_inc then
+		duration = duration + m.level * m.duration_inc
+	end
+	local heal_min = hps.heal_min
+	local heal_max = hps.heal_max
+	if hps.heal_min_inc and hps.heal_max_inc then
+		heal_min = hps.heal_min + m.level * hps.heal_min_inc
+		heal_max = hps.heal_max + m.level * hps.heal_max_inc
+	end
+	if hps.heal_inc then
+		heal_min = hps.heal_min + m.level * hps.heal_inc
+		heal_max = hps.heal_max + m.level * hps.heal_inc
+	end
+
+	if this.tween then
+		this.tween.reverse = false
+		this.tween.remove = false
+		if this.fade_in then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+		else
+			this.tween.disabled = true
+		end
+	end
+
+	while true do
+		target = store.entities[m.target_id]
+		if not target or target.health and target.health.dead or duration < store.tick_ts - m.ts then
+			if this.tween and this.fade_out then
+				this.tween.reverse = true
+				this.tween.remove = true
+				this.tween.disabled = false
+				this.tween.ts = store.tick_ts
+			else
+				queue_remove(store, this)
+			end
+			return
+		end
+
+		if this.render and m.use_mod_offset and target.unit and target.unit.mod_offset then
+			for _, s in pairs(this.render.sprites) do
+				if not s.exclude_mod_offset then
+					local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+					s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
+				end
+			end
+		end
+
+		if hps.heal_every and store.tick_ts - hps.ts >= hps.heal_every then
+			hps.ts = store.tick_ts
+			local hp_start = target.health.hp
+			target.health.hp = target.health.hp + math.random(heal_min, heal_max)
+			target.health.hp = km.clamp(0, target.health.hp_max, target.health.hp)
+			local heal_amount = target.health.hp - hp_start
+			target.health.hp_healed = (target.health.hp_healed or 0) + heal_amount
+			signal.emit("entity-healed", this, target, heal_amount)
+			if hps.fx then
+				local fx = E:create_entity(hps.fx)
+				fx.pos = V.vclone(this.pos)
+				fx.render.sprites[1].ts = store.tick_ts
+				fx.render.sprites[1].runs = 0
+				queue_insert(store, fx)
+			end
+		end
+
+		coroutine.yield()
+	end
+end
+
 scripts.flame = {}
 function scripts.flame.insert(this, store, script)
 	local b = this.bullet
@@ -1504,6 +1586,7 @@ function scripts.continuous_ray.update(this, store, script)
 				break
 			end
 			if store.tick_ts - last_hit_ts >= this.bullet.tick_time then
+				last_hit_ts = store.tick_ts
 				local d = SU.create_bullet_damage(b, target.id, this.id)
 				queue_damage(store, d)
 				if b.mod or b.mods then

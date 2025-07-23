@@ -4080,5 +4080,7 @@ return {
 	ENEMY_SCREECHER_BAT_NAME = "尖啸蝙蝠",
 	ENEMY_TWILIGHT_GOLEM_NAME = "暮光傀儡",
 	ENEMY_TWILIGHT_HERETIC_NAME = "暮光异教徒",
+	-- kr4_enemies
+	ENEMY_BONE_CARRIER_NAME = "载骨机",
 
 }

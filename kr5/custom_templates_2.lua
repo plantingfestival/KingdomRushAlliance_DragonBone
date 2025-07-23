@@ -580,3 +580,92 @@ tt.nav_mesh_id = nil
 tt.cooldown_min = 15
 tt.cooldown_max = 25
 tt.main_script.update = scripts.controller_holder_roots_lands_blocked.update
+
+tt = E:register_t("enemy_bone_carrier", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "death_spawns", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.death_spawns.name = "bone_carrier_death_aura"
+tt.death_spawns.concurrent_with_death = true
+tt.enemy.lives_cost = 2
+tt.enemy.gold = 95
+tt.enemy.melee_slot = v(27, 0)
+tt.health.armor = 0.8
+tt.health.hp_max = 1400
+tt.health.magic_armor = 0
+tt.health_bar.offset = v(0, 48)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.info.portrait = "bottom_info_image_enemies_0067"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.enemy_mixed.update
+tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].damage_max = 160
+tt.melee.attacks[1].damage_min = 120
+tt.melee.attacks[1].hit_time = fts(13)
+tt.moon.speed_factor = 2
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 15
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "bone_carrier"
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "bone_carrier_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.22)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "dwarves_sulfur_alchemist_death"
+tt.ui.click_rect = r(-35, -5, 70, 54)
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 20)
+tt.unit.head_offset = v(0, 46)
+tt.unit.mod_offset = v(0, 21)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.size = UNIT_SIZE_LARGE
+
+tt = E:register_t("bone_carrier_death_aura", "aura")
+tt.aura.duration = 0.1
+tt.aura.mods = {
+	"mod_bone_carrier_death_heal"
+}
+tt.aura.cycle_time = 1e+99
+tt.aura.radius = 125
+tt.aura.vis_bans = bor(F_FRIEND)
+tt.aura.vis_flags = 0
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("mod_bone_carrier_death_heal", "modifier")
+E:add_comps(tt, "hps", "render", "tween")
+tt.modifier.duration = 1
+tt.modifier.allows_duplicates = true
+tt.hps.heal_min = 300
+tt.hps.heal_max = 300
+tt.hps.heal_every = 1e+99
+tt.render.sprites[1].name = "haunted_skeleton_modifier_damage_fx_run"
+tt.render.sprites[1].anchor = v(0.5, 0)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].draw_order = DO_MOD_FX
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.2,
+		255
+	}
+}
+tt.tween.remove = nil
+tt.fade_in = true
+tt.fade_out = true
+tt.main_script.insert = scripts.mod_hps.insert
+tt.main_script.update = scripts.mod_hps_with_fade.update

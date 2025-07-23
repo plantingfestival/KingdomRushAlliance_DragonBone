@@ -110,8 +110,93 @@ return{
 		from = 91
 	},
 	ghost_spawn = {
-		prefix = "ghost_spawn",
-		to = 25,
+		prefix = "ghost",
+		to = 91,
+		from = 115
+	},
+	haunted_skeleton_idle = {
+		prefix = "haunted_skeleton",
+		to = 14,
+		from = 1
+	},
+	haunted_skeleton_walk = {
+		prefix = "haunted_skeleton",
+		to = 38,
+		from = 15
+	},
+	haunted_skeleton_walkDown = {
+		prefix = "haunted_skeleton",
+		to = 62,
+		from = 39
+	},
+	haunted_skeleton_walkUp = {
+		prefix = "haunted_skeleton",
+		to = 86,
+		from = 63
+	},
+	haunted_skeleton_attack = {
+		prefix = "haunted_skeleton",
+		to = 108,
+		from = 87
+	},
+	haunted_skeleton_death = {
+		prefix = "haunted_skeleton",
+		to = 131,
+		from = 109
+	},
+	haunted_skeleton_spawn = {
+		prefix = "haunted_skeleton",
+		to = 157,
+		from = 132
+	},
+	haunted_skeleton_modifier_damage_fx_run = {
+		prefix = "haunted_skeleton_modifier_damage_fx",
+		to = 24,
+		from = 1
+	},
+	lich_walk = {
+		prefix = "lich",
+		to = 24,
+		from = 1
+	},
+	lich_walkDown = {
+		prefix = "lich",
+		to = 50,
+		from = 25
+	},
+	lich_walkUp = {
+		prefix = "lich",
+		to = 75,
+		from = 51
+	},
+	lich_attack = {
+		prefix = "lich",
+		to = 103,
+		from = 76
+	},
+	lich_shoot = {
+		prefix = "lich",
+		to = 139,
+		from = 104
+	},
+	lich_special = {
+		prefix = "lich",
+		to = 177,
+		from = 140
+	},
+	lich_death = {
+		prefix = "lich",
+		to = 214,
+		from = 178
+	},
+	lich_ray_travel = {
+		prefix = "lich_ray",
+		to = 14,
+		from = 1
+	},
+	lich_ray_hit_fx_run = {
+		prefix = "lich_ray_hit_fx",
+		to = 6,
 		from = 1
 	},
     roots_holder_front_idle = {

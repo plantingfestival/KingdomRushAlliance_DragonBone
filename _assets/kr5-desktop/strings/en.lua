@@ -2961,4 +2961,8 @@ return {
 
 	LEVEL_427_HISTORY = "General, now we will enter the deep swamps of the Rotten Forest, the most dangerous place in Valardul. It’s our only option because if we evade it, we are vulnerable to an attack from the rear. Beware of the powerful undead that will confront us in those swamps.",
 	LEVEL_427_TITLE = "427. A NIGHT IN THE SWAMP",
+
+	-- kr4_enemies
+	ENEMY_BONE_CARRIER_NAME = "Bone Carrier",
+
 }

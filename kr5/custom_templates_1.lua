@@ -465,7 +465,7 @@ tt.health.dead_lifetime = 30
 tt.health_bar.draw_order = -1
 tt.health_bar.offset = v(0, 175)
 tt.health_bar.sort_y_offset = -200
-tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.z = Z_FLYING_HEROES
 tt.hero.fn_level_up = customScripts1.hero_eiskalt.level_up
 tt.hero.tombstone_show_time = nil
@@ -4042,8 +4042,8 @@ tt.main_script.update = customScripts1.veznan_crystal.update
 
 tt = E:register_t("veznan_crystal_ray", "continuous_ray")
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_min = 12
-tt.bullet.damage_max = 12
+tt.bullet.damage_min = 60
+tt.bullet.damage_max = 60
 tt.bullet.mods = {
 	"mod_veznan_crystal_ray",
 }
