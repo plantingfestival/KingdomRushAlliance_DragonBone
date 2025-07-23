@@ -1511,12 +1511,19 @@ function scripts.continuous_ray.update(this, store, script)
 						b.mod
 					}
 					for _, mod_name in pairs(mods) do
-						local m = E:create_entity(mod_name)
-						m.modifier.target_id = b.target_id
-						m.modifier.source_id = this.id
-						m.modifier.level = b.level
+						local has_modifiers, modifiers = U.has_modifiers(store, this, mod_name)
+						local m
+						if has_modifiers then
+							m = modifiers[1]
+							m.modifier.ts = store.tick_ts
+						else
+							local m = E:create_entity(mod_name)
+							m.modifier.target_id = b.target_id
+							m.modifier.source_id = this.id
+							m.modifier.level = b.level
+							queue_insert(store, m)
+						end
 						table.insert(mods_added, m)
-						queue_insert(store, m)
 					end
 				end
 			end
@@ -1541,10 +1548,23 @@ end
 scripts.mod_continuous_ray = {}
 function scripts.mod_continuous_ray.update(this, store, script)
 	local m = this.modifier
+	local target = store.entities[m.target_id]
+	if not target or target.health and target.health.dead then
+		queue_remove(store, this)
+		return
+	end
+	local s = this.render.sprites[1]
+	if target.unit and target.unit.hit_offset then
+		local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+		s.offset.x, s.offset.y = target.unit.hit_offset.x * flip_sign, target.unit.hit_offset.y
+	end
+	this.pos = target.pos
 	U.y_animation_play(this, this.animation_start, nil, store.tick_ts)
+	this.pos = target.pos
 	m.ts = store.tick_ts
 	U.animation_start(this, this.animation_loop, nil, store.tick_ts, true)
 	while store.tick_ts - m.ts <= m.duration do
+		this.pos = target.pos
 		coroutine.yield()
 	end
 	queue_remove(store, this)

@@ -218,6 +218,8 @@ AC(tt, "render")
 tt.animation_start = ""
 tt.animation_loop = ""
 tt.modifier.duration = 0.3
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].z = Z_EFFECTS
 tt.main_script.update = scripts.mod_continuous_ray.update
 
 

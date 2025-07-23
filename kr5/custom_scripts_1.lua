@@ -3877,66 +3877,88 @@ function scripts.controller_war_elephant_drummer.update(this, store, script)
 					local start_ts = store.tick_ts
 					a.ts = start_ts
 					S:queue(a.sound)
-					U.animation_start(this.owner, a.animation_start, nil, store.tick_ts, false, sid)
+					U.animation_start(this.owner, a.animation_start, nil, store.tick_ts, nil, sid)
+					local interrupted = nil
 					while store.tick_ts - start_ts < a.cast_time do
-						if this.owner.health.dead then
-							return
+						if SU.soldier_interrupted(this.owner) then
+							interrupted = true
+							break
 						end
 						coroutine.yield()
 					end
-					soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, a.vis_flags, a.vis_bans, function(e)
-						for i, name in ipairs(a.elephant_templates) do
-							if e.template_name == name and not e.render.sprites[1].hidden then
-								return true
-							end
-						end
-						return false
-					end)
-					local max_targets = a.max_targets
-					if soldiers then
-						soldiers = table.slice(soldiers, 1, max_targets)
-						for _, s in ipairs(soldiers) do
-							for _, mod_name in ipairs(a.mods_on_elephant) do
-								local mod = E:create_entity(mod_name)
-								mod.modifier.source_id = this.id
-								mod.modifier.target_id = s.id
-								queue_insert(store, mod)
-							end
-						end
-						max_targets = max_targets - #soldiers
-					end
-					if max_targets > 0 then
+					if not interrupted then
 						soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, a.vis_flags, a.vis_bans, function(e)
 							for i, name in ipairs(a.elephant_templates) do
-								if e.template_name ~= name and not e.render.sprites[1].hidden then
+								if e.template_name == name and not e.render.sprites[1].hidden then
 									return true
 								end
 							end
 							return false
 						end)
+						local max_targets = a.max_targets
 						if soldiers then
 							soldiers = table.slice(soldiers, 1, max_targets)
 							for _, s in ipairs(soldiers) do
-								for _, mod_name in ipairs(a.mods) do
+								for _, mod_name in ipairs(a.mods_on_elephant) do
 									local mod = E:create_entity(mod_name)
 									mod.modifier.source_id = this.id
 									mod.modifier.target_id = s.id
 									queue_insert(store, mod)
 								end
 							end
+							max_targets = max_targets - #soldiers
+						end
+						if max_targets > 0 then
+							soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, a.vis_flags, a.vis_bans, function(e)
+								for i, name in ipairs(a.elephant_templates) do
+									if e.template_name ~= name and not e.render.sprites[1].hidden then
+										return true
+									end
+								end
+								return false
+							end)
+							if soldiers then
+								soldiers = table.slice(soldiers, 1, max_targets)
+								for _, s in ipairs(soldiers) do
+									for _, mod_name in ipairs(a.mods) do
+										local mod = E:create_entity(mod_name)
+										mod.modifier.source_id = this.id
+										mod.modifier.target_id = s.id
+										queue_insert(store, mod)
+									end
+								end
+							end
 						end
 					end
-					U.y_animation_wait(this.owner, sid)
+					while not interrupted and not U.animation_finished(this.owner, sid) do
+						if SU.soldier_interrupted(this.owner) then
+							interrupted = true
+							break
+						end
+						coroutine.yield()
+					end
 					for i = 1, a.loop_times do
-						if this.owner.health.dead then
-							return
+						if not interrupted then
+							U.animation_start(this.owner, a.animation_loop, nil, store.tick_ts, nil, sid)
+							while not U.animation_finished(this.owner, sid) do
+								if SU.soldier_interrupted(this.owner) then
+									interrupted = true
+									break
+								end
+								coroutine.yield()
+							end
 						end
-						U.y_animation_play(this.owner, a.animation_loop, nil, store.tick_ts, false, sid)
 					end
-					if this.owner.health.dead then
-						return
+					if not interrupted then
+						U.animation_start(this.owner, a.animation_end, nil, store.tick_ts, nil, sid)
+						while not U.animation_finished(this.owner, sid) do
+							if SU.soldier_interrupted(this.owner) then
+								interrupted = true
+								break
+							end
+							coroutine.yield()
+						end
 					end
-					U.y_animation_play(this.owner, a.animation_end, nil, store.tick_ts, false, sid)
 					S:stop(a.sound)
 				end
 			end
