@@ -99,7 +99,7 @@ return{
 		to = 118,
 		from = 91
 	},
-	ghost_spawn = {
+	ghost_raise = {
 		prefix = "ghost",
 		to = 91,
 		from = 115

@@ -535,6 +535,7 @@ return {
 			"kr4_dwarves_sulfur_alchemist_death.ogg",
 			"Sound_EnemyRocketeer.ogg",
 			"kr4_frog_erudite_shot.ogg",
+			"kr4_puff_death.ogg",
 		}
 	},
 	-- customization

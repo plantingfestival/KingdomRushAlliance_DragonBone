@@ -194,8 +194,10 @@ return {
 			"enemy_elvira",
 		},
 		{
-			"enemy_bone_carrier",
+			"enemy_kr4_ghost",
 			"enemy_haunted_skeleton",
+			"enemy_corrosive_soul",
+			"enemy_bone_carrier",
 		},
 		{
 			"mod_natures_vigor",

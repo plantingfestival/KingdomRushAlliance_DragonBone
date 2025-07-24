@@ -4082,6 +4082,7 @@ return {
 	ENEMY_TWILIGHT_HERETIC_NAME = "暮光异教徒",
 	-- kr4_enemies
 	ENEMY_BONE_CARRIER_NAME = "载骨机",
+	ENEMY_CORROSIVE_SOUL_NAME = "蚀骨之魂",
 	ENEMY_HAUNTED_SKELETON_NAME = "鬼缠骷髅",
 
 }

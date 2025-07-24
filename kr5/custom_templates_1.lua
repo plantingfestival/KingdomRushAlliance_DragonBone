@@ -1899,7 +1899,7 @@ tt.particle_system.animated = true
 tt.particle_system.loop = false
 tt.particle_system.animation_fps = 20
 tt.particle_system.emission_rate = 35
-tt.particle_system.z = Z_DECALS
+tt.particle_system.z = Z_DECALS + 1
 
 tt = E:register_t("elves_soldier_harasser_arrow_lvl2", "arrow5_fixed_height")
 tt.render.sprites[1].name = "elves_soldier_harasser_arrow"

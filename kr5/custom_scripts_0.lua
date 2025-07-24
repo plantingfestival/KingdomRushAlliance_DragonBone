@@ -1653,4 +1653,80 @@ function scripts.mod_continuous_ray.update(this, store, script)
 	queue_remove(store, this)
 end
 
+scripts.kr4_enemy_mixed = {}
+function scripts.kr4_enemy_mixed.update(this, store, script)
+	local function hide_shadow(isHidden)
+		for i, sprite in ipairs(this.render.sprites) do
+			if sprite.is_shadow then
+				sprite.hidden = isHidden
+			end
+		end
+	end
+
+	if this.render.sprites[1].name == "raise" then
+		if this.sound_events and this.sound_events.raise then
+			S:queue(this.sound_events.raise, this.sound_events.raise_args)
+		end
+		this.health_bar.hidden = true
+		local an, af = U.animation_name_facing_point(this, "raise", this.motion.dest)
+		hide_shadow(true)
+		U.y_animation_play(this, an, af, store.tick_ts, 1)
+		hide_shadow(false)
+		if not this.health.dead then
+			this.health_bar.hidden = nil
+		end
+	end
+
+	local ps
+	if this.particle then
+		ps = E:create_entity(this.particle)
+		ps.particle_system.emit = true
+		ps.particle_system.track_id = this.id
+		queue_insert(store, ps)
+	end
+
+	::label_29_0::
+
+	while true do
+		if this.health.dead then
+			if ps then
+				ps.particle_system.emit = nil
+			end
+			hide_shadow(true)
+			SU.y_enemy_death(store, this)
+			return
+		end
+
+		if this.unit.is_stunned then
+			SU.y_enemy_stun(store, this)
+		else
+			local cont, blocker, ranged = SU.y_enemy_walk_until_blocked(store, this)
+			if not cont then
+				-- block empty
+			else
+				if blocker then
+					if not SU.y_wait_for_blocker(store, this, blocker) then
+						goto label_29_0
+					end
+					while SU.can_melee_blocker(store, this, blocker) do
+						if not SU.y_enemy_melee_attacks(store, this, blocker) then
+							goto label_29_0
+						end
+						coroutine.yield()
+					end
+				elseif ranged then
+					while SU.can_range_soldier(store, this, ranged) and #this.enemy.blockers == 0 do
+						if not SU.y_enemy_range_attacks(store, this, ranged) then
+							goto label_29_0
+						end
+						coroutine.yield()
+					end
+				end
+				coroutine.yield()
+			end
+		end
+	end
+end
+
+
 return scripts

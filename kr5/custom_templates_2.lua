@@ -601,7 +601,7 @@ tt.health_bar.offset = v(0, 48)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.info.portrait = "bottom_info_image_enemies_0067"
 tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed.update
+tt.main_script.update = scripts.kr4_enemy_mixed.update
 tt.melee.attacks[1].cooldown = 2
 tt.melee.attacks[1].damage_max = 160
 tt.melee.attacks[1].damage_min = 120
@@ -642,7 +642,7 @@ tt.aura.mods = {
 tt.aura.cycle_time = 1e+99
 tt.aura.radius = 125
 tt.aura.vis_bans = bor(F_FRIEND)
-tt.aura.vis_flags = 0
+tt.aura.vis_flags = bor(F_MOD)
 tt.main_script.insert = scripts.aura_apply_mod.insert
 tt.main_script.update = scripts.aura_apply_mod.update
 
@@ -749,10 +749,10 @@ tt.health.hp_max = 160
 tt.health_bar.offset = v(0, 30)
 tt.info.portrait = "bottom_info_image_enemies_0069"
 tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed.update
+tt.main_script.update = scripts.kr4_enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 15
-tt.melee.attacks[1].damage_min = 30
+tt.melee.attacks[1].damage_max = 30
+tt.melee.attacks[1].damage_min = 15
 tt.melee.attacks[1].hit_time = fts(9)
 tt.moon.speed_factor = 5 / 3
 tt.moon.regen_hp = 4
@@ -784,7 +784,8 @@ tt.unit.marker_offset = v(0, 0)
 
 tt = E:register_t("haunted_skeleton_death_aura", "bone_carrier_death_aura")
 tt.aura.mods = {
-	"mod_haunted_skeleton_death_heal"
+	"mod_haunted_skeleton_death_heal",
+	"mod_haunted_skeleton_damage_multiplier"
 }
 
 tt = E:register_t("mod_haunted_skeleton_death_heal", "mod_bone_carrier_death_heal")
@@ -798,3 +799,108 @@ tt.inflicted_damage_factor = 1.2
 tt.main_script.insert = scripts.mod_fury.insert
 tt.main_script.remove = scripts.mod_fury.remove
 tt.main_script.update = scripts.mod_track_target_with_fade.update
+
+tt = E:register_t("enemy_kr4_ghost", "enemy_KR5")
+E:add_comps(tt, "auras")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "ghost_sound_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.gold = 16
+tt.enemy.melee_slot = v(10, 0)
+tt.health.armor = 1
+tt.health.hp_max = 110
+tt.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
+tt.health.magic_armor = 0
+tt.health_bar.offset = v(0, 47)
+tt.info.portrait = "bottom_info_image_enemies_0068"
+tt.info.i18n_key = "ENEMY_GHOST"
+tt.motion.max_speed = 35
+tt.render.sprites[1].prefix = "ghost"
+tt.render.sprites[1].anchor.y = 0.166
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].name = "raise"
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "ghost_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.166)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_NONE
+tt.unit.show_blood_pool = false
+tt.unit.can_explode = false
+tt.unit.hide_after_death = true
+tt.unit.hit_offset = v(0, 30)
+tt.unit.head_offset = v(0, 45)
+tt.unit.mod_offset = v(0, 30)
+tt.unit.marker_offset = v(0, 0)
+tt.sound_events.death = "puff_death_sound"
+tt.sound_events.insert = nil
+tt.ui.click_rect = r(-32, -5, 64, 42)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH)
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("enemy_corrosive_soul", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.lives_cost = 1
+tt.enemy.gold = 70
+tt.enemy.melee_slot = v(18, 0)
+tt.health.armor = 0.5
+tt.health.magic_armor = 0
+tt.health.hp_max = 700
+tt.health_bar.offset = v(0, 42)
+tt.info.portrait = "bottom_info_image_enemies_0066"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+tt.melee.attacks[1].cooldown = 0.6
+tt.melee.attacks[1].damage_max = 45
+tt.melee.attacks[1].damage_min = 35
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
+tt.melee.attacks[1].hit_time = fts(14)
+tt.moon.speed_factor = 1.5
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 65
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "corrosive_soul"
+tt.render.sprites[1].anchor.y = 0.125
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "corrosive_soul_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.125)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "corrosive_soul_death"
+tt.ui.click_rect = r(-31, -5, 62, 40)
+tt.unit.blood_color = BLOOD_NONE
+tt.unit.hit_offset = v(0, 20)
+tt.unit.head_offset = v(0, 30)
+tt.unit.mod_offset = v(0, 21)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.size = UNIT_SIZE_MEDIUM
+tt.particle = "ps_corrosive_soul_fx"
+
+tt = E:register_t("ps_corrosive_soul_fx")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "corrosive_soul_fx_run"
+tt.particle_system.anchor = v(0.5, 0.5)
+tt.particle_system.track_offset = v(0, 30)
+tt.particle_system.emission_rate = 3
+tt.particle_system.animation_fps = 30
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.z = Z_OBJECTS + 2
