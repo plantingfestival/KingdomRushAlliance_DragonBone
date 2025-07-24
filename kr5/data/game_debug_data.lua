@@ -195,6 +195,7 @@ return {
 		},
 		{
 			"enemy_bone_carrier",
+			"enemy_haunted_skeleton",
 		},
 		{
 			"mod_natures_vigor",

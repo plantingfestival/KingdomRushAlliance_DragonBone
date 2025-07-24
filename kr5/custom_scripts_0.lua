@@ -1179,6 +1179,7 @@ end
 
 scripts.mod_hps_with_fade = {}
 function scripts.mod_hps_with_fade.update(this, store, script)
+	local m = this.modifier
 	local target = store.entities[m.target_id]
 	if not target or not target.pos then
 		queue_remove(store, this)
@@ -1186,7 +1187,6 @@ function scripts.mod_hps_with_fade.update(this, store, script)
 	end
 	this.pos = target.pos
 
-	local m = this.modifier
 	m.ts = store.tick_ts
 	local hps = this.hps
 	local duration = m.duration

@@ -9488,6 +9488,7 @@ tt.aura.mods = {
 	"mod_spectral_knight_heal",
 }
 tt.aura.radius = 106.38297872340426
+tt.aura.targets_per_cycle = 12
 tt.aura.track_source = true
 tt.aura.use_mod_offset = false
 tt.main_script.insert = kr1_scripts.aura_apply_mod.insert

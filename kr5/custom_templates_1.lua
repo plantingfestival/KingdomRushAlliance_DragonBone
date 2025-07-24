@@ -3133,9 +3133,9 @@ tt.main_script.update = scripts.mod_hps.update
 tt = E:register_t("mod_war_elephant_buff", "modifier")
 E:add_comps(tt, "render", "tween")
 tt.modifier.duration = 6
+tt.modifier.use_mod_offset = false
 tt.inflicted_damage_factor = 1.5
 tt.speed_factor = 1.5
-tt.modifier.use_mod_offset = false
 tt.main_script.insert = scripts.mod_fury.insert
 tt.main_script.remove = scripts.mod_fury.remove
 tt.main_script.update = customScripts1.mod_track_target_with_fade.update

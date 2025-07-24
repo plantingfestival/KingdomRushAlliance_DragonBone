@@ -1,34 +1,34 @@
 return{
-    bone_carrier_idle = {
-        prefix = "bone_carrier",
-        to = 30,
-        from = 1
-    },
-    bone_carrier_walk = {
-        prefix = "bone_carrier",
-        to = 60,
-        from = 31
-    },
-    bone_carrier_walkDown = {
-        prefix = "bone_carrier",
-        to = 94,
-        from = 61
-    },
-    bone_carrier_walkUp = {
-        prefix = "bone_carrier",
-        to = 128,
-        from = 95
-    },
-    bone_carrier_attack = {
-        prefix = "bone_carrier",
-        to = 160,
-        from = 129
-    },
-    bone_carrier_death = {
-        prefix = "bone_carrier",
-        to = 230,
-        from = 161
-    },
+	bone_carrier_idle = {
+		prefix = "bone_carrier",
+		to = 30,
+		from = 1
+	},
+	bone_carrier_walk = {
+		prefix = "bone_carrier",
+		to = 60,
+		from = 31
+	},
+	bone_carrier_walkDown = {
+		prefix = "bone_carrier",
+		to = 94,
+		from = 61
+	},
+	bone_carrier_walkUp = {
+		prefix = "bone_carrier",
+		to = 128,
+		from = 95
+	},
+	bone_carrier_attack = {
+		prefix = "bone_carrier",
+		to = 160,
+		from = 129
+	},
+	bone_carrier_death = {
+		prefix = "bone_carrier",
+		to = 230,
+		from = 161
+	},
 	bone_carrier_modifier_init = {
 		prefix = "bone_carrier_modifier",
 		to = 9,
@@ -39,17 +39,7 @@ return{
 		to = 10,
 		from = 10
 	},
-    bone_carrier_modifier_init = {
-		prefix = "bone_carrier_modifier",
-		to = 9,
-		from = 1
-	},
-	bone_carrier_modifier_loop = {
-		prefix = "bone_carrier_modifier",
-		to = 10,
-		from = 10
-	},
-    corrosive_soul_idle = {
+	corrosive_soul_idle = {
 		prefix = "corrosive_soul",
 		to = 1,
 		from = 1
@@ -79,12 +69,12 @@ return{
 		to = 119,
 		from = 85
 	},
-    corrosive_soul_fx_run = {
+	corrosive_soul_fx_run = {
 		prefix = "corrosive_soul_fx",
 		to = 14,
 		from = 1
 	},
-    ghost_idle = {
+	ghost_idle = {
 		prefix = "ghost",
 		to = 1,
 		from = 1
@@ -144,7 +134,7 @@ return{
 		to = 131,
 		from = 109
 	},
-	haunted_skeleton_spawn = {
+	haunted_skeleton_raise = {
 		prefix = "haunted_skeleton",
 		to = 157,
 		from = 132
@@ -199,7 +189,7 @@ return{
 		to = 6,
 		from = 1
 	},
-    roots_holder_front_idle = {
+	roots_holder_front_idle = {
 		prefix = "roots_holder_front",
 		to = 24,
 		from = 1

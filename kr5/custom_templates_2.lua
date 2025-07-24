@@ -586,6 +586,9 @@ E:add_comps(tt, "melee", "moon", "death_spawns", "auras", "regen")
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "moon_enemy_aura"
 tt.auras.list[1].cooldown = 0
+tt.auras.list[2] = E:clone_c("aura_attack")
+tt.auras.list[2].name = "aura_bone_carrier_damage_multiplier"
+tt.auras.list[2].cooldown = 0
 tt.death_spawns.name = "bone_carrier_death_aura"
 tt.death_spawns.concurrent_with_death = true
 tt.enemy.lives_cost = 2
@@ -629,7 +632,7 @@ tt.unit.hit_offset = v(0, 20)
 tt.unit.head_offset = v(0, 46)
 tt.unit.mod_offset = v(0, 21)
 tt.unit.marker_offset = v(0, 0)
-tt.unit.size = UNIT_SIZE_LARGE
+tt.unit.size = UNIT_SIZE_MEDIUM
 
 tt = E:register_t("bone_carrier_death_aura", "aura")
 tt.aura.duration = 0.1
@@ -647,6 +650,7 @@ tt = E:register_t("mod_bone_carrier_death_heal", "modifier")
 E:add_comps(tt, "hps", "render", "tween")
 tt.modifier.duration = 1
 tt.modifier.allows_duplicates = true
+tt.modifier.use_mod_offset = false
 tt.hps.heal_min = 300
 tt.hps.heal_max = 300
 tt.hps.heal_every = 1e+99
@@ -654,6 +658,11 @@ tt.render.sprites[1].name = "haunted_skeleton_modifier_damage_fx_run"
 tt.render.sprites[1].anchor = v(0.5, 0)
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].draw_order = DO_MOD_FX
+tt.render.sprites[1].size_scales = {
+	vv(1),
+	vv(1.3),
+	vv(1.5)
+}
 tt.tween.props[1].keys = {
 	{
 		0,
@@ -669,3 +678,123 @@ tt.fade_in = true
 tt.fade_out = true
 tt.main_script.insert = scripts.mod_hps.insert
 tt.main_script.update = scripts.mod_hps_with_fade.update
+
+tt = E:register_t("aura_bone_carrier_damage_multiplier", "aura")
+tt.aura.duration = -1
+tt.aura.mods = {
+	"mod_bone_carrier_damage_multiplier"
+}
+tt.aura.cycle_time = 0.2
+tt.aura.radius = 75
+tt.aura.vis_bans = bor(F_FRIEND)
+tt.aura.vis_flags = 0
+tt.aura.targets_per_cycle = 12
+tt.aura.track_source = true
+tt.aura.allowed_templates = {
+	"enemy_haunted_skeleton"
+}
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("mod_bone_carrier_damage_multiplier", "modifier")
+E:add_comps(tt, "render", "tween")
+tt.modifier.duration = 1
+tt.modifier.use_mod_offset = false
+tt.inflicted_damage_factor = 1.5
+tt.render.sprites[1].name = "bone_carrier_modifier_loop"
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].z = Z_DECALS + 2
+tt.fade_in = true
+tt.fade_out = true
+tt.tween.props[1].keys = {
+	{
+		fts(0),
+		0
+	},
+	{
+		fts(6),
+		255
+	}
+}
+tt.tween.props[2] = E:clone_c("tween_prop")
+tt.tween.props[2].name = "scale"
+tt.tween.props[2].keys = {
+	{
+		0,
+		v(0, 0)
+	},
+	{
+		fts(6),
+		v(1, 1)
+	}
+}
+tt.main_script.insert = scripts.mod_fury.insert
+tt.main_script.remove = scripts.mod_fury.remove
+tt.main_script.update = scripts.mod_track_target_with_fade.update
+
+tt = E:register_t("enemy_haunted_skeleton", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "death_spawns", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.death_spawns.name = "haunted_skeleton_death_aura"
+tt.death_spawns.concurrent_with_death = true
+tt.enemy.lives_cost = 1
+tt.enemy.gold = 22
+tt.enemy.melee_slot = v(10, 0)
+tt.health.armor = 0
+tt.health.magic_armor = 0.8
+tt.health.hp_max = 160
+tt.health_bar.offset = v(0, 30)
+tt.info.portrait = "bottom_info_image_enemies_0069"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.enemy_mixed.update
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 15
+tt.melee.attacks[1].damage_min = 30
+tt.melee.attacks[1].hit_time = fts(9)
+tt.moon.speed_factor = 5 / 3
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 30
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "haunted_skeleton"
+tt.render.sprites[1].anchor.y = 0.257
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].name = "raise"
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "haunted_skeleton_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.257)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "haunted_skeleton_death"
+tt.ui.click_rect = r(-21, -5, 42, 33)
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 14)
+tt.unit.head_offset = v(0, 28)
+tt.unit.mod_offset = v(0, 17)
+tt.unit.marker_offset = v(0, 0)
+
+tt = E:register_t("haunted_skeleton_death_aura", "bone_carrier_death_aura")
+tt.aura.mods = {
+	"mod_haunted_skeleton_death_heal"
+}
+
+tt = E:register_t("mod_haunted_skeleton_death_heal", "mod_bone_carrier_death_heal")
+tt.hps.heal_min = 100
+tt.hps.heal_max = 100
+
+tt = E:register_t("mod_haunted_skeleton_damage_multiplier", "modifier")
+tt.modifier.duration = 3
+tt.modifier.allows_duplicates = true
+tt.inflicted_damage_factor = 1.2
+tt.main_script.insert = scripts.mod_fury.insert
+tt.main_script.remove = scripts.mod_fury.remove
+tt.main_script.update = scripts.mod_track_target_with_fade.update

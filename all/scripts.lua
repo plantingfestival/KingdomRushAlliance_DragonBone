@@ -4151,7 +4151,8 @@ function scripts.aura_apply_mod.insert(this, store, script)
 		local target = store.entities[this.aura.source_id]
 
 		if target and this.render and this.aura.use_mod_offset and target.unit and target.unit.mod_offset then
-			this.render.sprites[1].offset.x, this.render.sprites[1].offset.y = target.unit.mod_offset.x, target.unit.mod_offset.y
+			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+			this.render.sprites[1].offset.x, this.render.sprites[1].offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
 		end
 	end
 
@@ -5212,14 +5213,14 @@ function scripts.mod_hps.insert(this, store, script)
 		return false
 	end
 
-	if target and target.unit and this.render then
-		for i = 1, #this.render.sprites do
-			local s = this.render.sprites[i]
-
+	if this.render and target.unit then
+		for _, s in pairs(this.render.sprites) do
 			s.ts = store.tick_ts
-
 			if s.size_names then
 				s.name = s.size_names[target.unit.size]
+			end
+			if s.size_scales then
+				s.scale = s.size_scales[target.unit.size]
 			end
 		end
 	end
