@@ -198,6 +198,7 @@ return {
 			"enemy_haunted_skeleton",
 			"enemy_corrosive_soul",
 			"enemy_bone_carrier",
+			"enemy_lich",
 		},
 		{
 			"mod_natures_vigor",

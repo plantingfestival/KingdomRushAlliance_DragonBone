@@ -1,5 +1,5 @@
 return {
-	["hero_mage_0001"] = {
+	["kr1_hero_mage_0001"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -24,7 +24,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0002"] = {
+	["kr1_hero_mage_0002"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -49,7 +49,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0003"] = {
+	["kr1_hero_mage_0003"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -74,7 +74,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0004"] = {
+	["kr1_hero_mage_0004"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -99,7 +99,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0005"] = {
+	["kr1_hero_mage_0005"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -124,7 +124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0006"] = {
+	["kr1_hero_mage_0006"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -149,7 +149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0007"] = {
+	["kr1_hero_mage_0007"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -174,7 +174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0008"] = {
+	["kr1_hero_mage_0008"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -199,7 +199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0009"] = {
+	["kr1_hero_mage_0009"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -224,7 +224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0010"] = {
+	["kr1_hero_mage_0010"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -249,7 +249,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0011"] = {
+	["kr1_hero_mage_0011"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -274,7 +274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0012"] = {
+	["kr1_hero_mage_0012"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -299,7 +299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0013"] = {
+	["kr1_hero_mage_0013"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -324,7 +324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0014"] = {
+	["kr1_hero_mage_0014"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -349,7 +349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0015"] = {
+	["kr1_hero_mage_0015"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -374,7 +374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0016"] = {
+	["kr1_hero_mage_0016"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -399,7 +399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0017"] = {
+	["kr1_hero_mage_0017"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -424,7 +424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0018"] = {
+	["kr1_hero_mage_0018"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -449,7 +449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0019"] = {
+	["kr1_hero_mage_0019"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -474,7 +474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0020"] = {
+	["kr1_hero_mage_0020"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -499,7 +499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0021"] = {
+	["kr1_hero_mage_0021"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -524,7 +524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0022"] = {
+	["kr1_hero_mage_0022"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -549,7 +549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0023"] = {
+	["kr1_hero_mage_0023"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -574,7 +574,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0024"] = {
+	["kr1_hero_mage_0024"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -599,7 +599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0025"] = {
+	["kr1_hero_mage_0025"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -624,7 +624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0026"] = {
+	["kr1_hero_mage_0026"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -649,7 +649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0027"] = {
+	["kr1_hero_mage_0027"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -674,7 +674,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0028"] = {
+	["kr1_hero_mage_0028"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -699,7 +699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0029"] = {
+	["kr1_hero_mage_0029"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -724,7 +724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0030"] = {
+	["kr1_hero_mage_0030"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -749,7 +749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0031"] = {
+	["kr1_hero_mage_0031"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -774,7 +774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0032"] = {
+	["kr1_hero_mage_0032"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -799,7 +799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0033"] = {
+	["kr1_hero_mage_0033"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -824,7 +824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0034"] = {
+	["kr1_hero_mage_0034"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -849,7 +849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0035"] = {
+	["kr1_hero_mage_0035"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -874,7 +874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0036"] = {
+	["kr1_hero_mage_0036"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -899,7 +899,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0037"] = {
+	["kr1_hero_mage_0037"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -924,7 +924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0038"] = {
+	["kr1_hero_mage_0038"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -949,7 +949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0039"] = {
+	["kr1_hero_mage_0039"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -974,7 +974,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0040"] = {
+	["kr1_hero_mage_0040"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -999,7 +999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0041"] = {
+	["kr1_hero_mage_0041"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1024,7 +1024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0042"] = {
+	["kr1_hero_mage_0042"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1049,7 +1049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0043"] = {
+	["kr1_hero_mage_0043"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1074,7 +1074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0044"] = {
+	["kr1_hero_mage_0044"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1099,7 +1099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0045"] = {
+	["kr1_hero_mage_0045"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1124,7 +1124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0046"] = {
+	["kr1_hero_mage_0046"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1149,7 +1149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0047"] = {
+	["kr1_hero_mage_0047"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1174,7 +1174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0048"] = {
+	["kr1_hero_mage_0048"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1199,7 +1199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0049"] = {
+	["kr1_hero_mage_0049"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1224,7 +1224,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0050"] = {
+	["kr1_hero_mage_0050"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1249,7 +1249,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0051"] = {
+	["kr1_hero_mage_0051"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1274,7 +1274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0052"] = {
+	["kr1_hero_mage_0052"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1299,7 +1299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0053"] = {
+	["kr1_hero_mage_0053"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1324,7 +1324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0054"] = {
+	["kr1_hero_mage_0054"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1349,7 +1349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0055"] = {
+	["kr1_hero_mage_0055"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1374,7 +1374,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0056"] = {
+	["kr1_hero_mage_0056"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1399,7 +1399,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0057"] = {
+	["kr1_hero_mage_0057"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1424,7 +1424,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0058"] = {
+	["kr1_hero_mage_0058"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1449,7 +1449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0059"] = {
+	["kr1_hero_mage_0059"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1474,7 +1474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0060"] = {
+	["kr1_hero_mage_0060"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1499,7 +1499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0061"] = {
+	["kr1_hero_mage_0061"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1524,7 +1524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0062"] = {
+	["kr1_hero_mage_0062"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1549,7 +1549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0063"] = {
+	["kr1_hero_mage_0063"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1574,7 +1574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0064"] = {
+	["kr1_hero_mage_0064"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1599,7 +1599,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0065"] = {
+	["kr1_hero_mage_0065"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1624,7 +1624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0066"] = {
+	["kr1_hero_mage_0066"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1649,7 +1649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0067"] = {
+	["kr1_hero_mage_0067"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1674,7 +1674,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0068"] = {
+	["kr1_hero_mage_0068"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1699,7 +1699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0069"] = {
+	["kr1_hero_mage_0069"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1724,7 +1724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0070"] = {
+	["kr1_hero_mage_0070"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1749,7 +1749,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0071"] = {
+	["kr1_hero_mage_0071"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1774,7 +1774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0072"] = {
+	["kr1_hero_mage_0072"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1799,7 +1799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0073"] = {
+	["kr1_hero_mage_0073"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1824,7 +1824,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0074"] = {
+	["kr1_hero_mage_0074"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1849,7 +1849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0075"] = {
+	["kr1_hero_mage_0075"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1874,7 +1874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0076"] = {
+	["kr1_hero_mage_0076"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1899,7 +1899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0077"] = {
+	["kr1_hero_mage_0077"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1924,7 +1924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0078"] = {
+	["kr1_hero_mage_0078"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1949,7 +1949,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0079"] = {
+	["kr1_hero_mage_0079"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1974,7 +1974,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0080"] = {
+	["kr1_hero_mage_0080"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -1999,7 +1999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0081"] = {
+	["kr1_hero_mage_0081"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2024,7 +2024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0082"] = {
+	["kr1_hero_mage_0082"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2049,7 +2049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0083"] = {
+	["kr1_hero_mage_0083"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2074,7 +2074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0084"] = {
+	["kr1_hero_mage_0084"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2099,7 +2099,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0085"] = {
+	["kr1_hero_mage_0085"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2124,7 +2124,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0086"] = {
+	["kr1_hero_mage_0086"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2149,7 +2149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0087"] = {
+	["kr1_hero_mage_0087"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2174,7 +2174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0088"] = {
+	["kr1_hero_mage_0088"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2199,7 +2199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0089"] = {
+	["kr1_hero_mage_0089"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2224,7 +2224,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0090"] = {
+	["kr1_hero_mage_0090"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2249,7 +2249,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0091"] = {
+	["kr1_hero_mage_0091"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2274,7 +2274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0092"] = {
+	["kr1_hero_mage_0092"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2299,7 +2299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0093"] = {
+	["kr1_hero_mage_0093"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2324,7 +2324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0094"] = {
+	["kr1_hero_mage_0094"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2349,7 +2349,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0095"] = {
+	["kr1_hero_mage_0095"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2374,7 +2374,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0096"] = {
+	["kr1_hero_mage_0096"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2399,7 +2399,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0097"] = {
+	["kr1_hero_mage_0097"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2424,7 +2424,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0098"] = {
+	["kr1_hero_mage_0098"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2449,7 +2449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0099"] = {
+	["kr1_hero_mage_0099"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2474,7 +2474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0100"] = {
+	["kr1_hero_mage_0100"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2499,7 +2499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0101"] = {
+	["kr1_hero_mage_0101"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2524,7 +2524,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0102"] = {
+	["kr1_hero_mage_0102"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2549,7 +2549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0103"] = {
+	["kr1_hero_mage_0103"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2574,7 +2574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0104"] = {
+	["kr1_hero_mage_0104"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2599,7 +2599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0105"] = {
+	["kr1_hero_mage_0105"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2624,7 +2624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0106"] = {
+	["kr1_hero_mage_0106"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2649,7 +2649,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0107"] = {
+	["kr1_hero_mage_0107"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2674,7 +2674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0108"] = {
+	["kr1_hero_mage_0108"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2699,7 +2699,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0109"] = {
+	["kr1_hero_mage_0109"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2724,7 +2724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0110"] = {
+	["kr1_hero_mage_0110"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2749,7 +2749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0111"] = {
+	["kr1_hero_mage_0111"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2774,7 +2774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0112"] = {
+	["kr1_hero_mage_0112"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2799,7 +2799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0113"] = {
+	["kr1_hero_mage_0113"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2824,7 +2824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0114"] = {
+	["kr1_hero_mage_0114"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2849,7 +2849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0115"] = {
+	["kr1_hero_mage_0115"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2874,7 +2874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0116"] = {
+	["kr1_hero_mage_0116"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2899,7 +2899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0117"] = {
+	["kr1_hero_mage_0117"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2924,7 +2924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0118"] = {
+	["kr1_hero_mage_0118"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2949,7 +2949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0119"] = {
+	["kr1_hero_mage_0119"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2974,7 +2974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0120"] = {
+	["kr1_hero_mage_0120"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -2999,7 +2999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0121"] = {
+	["kr1_hero_mage_0121"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3024,7 +3024,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0122"] = {
+	["kr1_hero_mage_0122"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3049,7 +3049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0123"] = {
+	["kr1_hero_mage_0123"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3074,7 +3074,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0124"] = {
+	["kr1_hero_mage_0124"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3099,7 +3099,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0125"] = {
+	["kr1_hero_mage_0125"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3124,7 +3124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0126"] = {
+	["kr1_hero_mage_0126"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3149,7 +3149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0127"] = {
+	["kr1_hero_mage_0127"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3174,7 +3174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0128"] = {
+	["kr1_hero_mage_0128"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3199,7 +3199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0129"] = {
+	["kr1_hero_mage_0129"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3224,7 +3224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0130"] = {
+	["kr1_hero_mage_0130"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3249,7 +3249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0131"] = {
+	["kr1_hero_mage_0131"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3274,7 +3274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0132"] = {
+	["kr1_hero_mage_0132"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3299,7 +3299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0133"] = {
+	["kr1_hero_mage_0133"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3324,7 +3324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0134"] = {
+	["kr1_hero_mage_0134"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3349,7 +3349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0135"] = {
+	["kr1_hero_mage_0135"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3374,7 +3374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0136"] = {
+	["kr1_hero_mage_0136"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3399,7 +3399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0137"] = {
+	["kr1_hero_mage_0137"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3424,7 +3424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0138"] = {
+	["kr1_hero_mage_0138"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3449,7 +3449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0139"] = {
+	["kr1_hero_mage_0139"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3474,7 +3474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0140"] = {
+	["kr1_hero_mage_0140"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3499,7 +3499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0141"] = {
+	["kr1_hero_mage_0141"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3524,7 +3524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0142"] = {
+	["kr1_hero_mage_0142"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3549,7 +3549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0143"] = {
+	["kr1_hero_mage_0143"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3574,7 +3574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0144"] = {
+	["kr1_hero_mage_0144"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3599,7 +3599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0145"] = {
+	["kr1_hero_mage_0145"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3624,7 +3624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0146"] = {
+	["kr1_hero_mage_0146"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3649,7 +3649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0147"] = {
+	["kr1_hero_mage_0147"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3674,7 +3674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0148"] = {
+	["kr1_hero_mage_0148"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3699,7 +3699,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0149"] = {
+	["kr1_hero_mage_0149"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3724,7 +3724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0150"] = {
+	["kr1_hero_mage_0150"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3749,7 +3749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0151"] = {
+	["kr1_hero_mage_0151"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3774,7 +3774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0152"] = {
+	["kr1_hero_mage_0152"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3799,7 +3799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0153"] = {
+	["kr1_hero_mage_0153"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3824,7 +3824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0154"] = {
+	["kr1_hero_mage_0154"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3849,7 +3849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0155"] = {
+	["kr1_hero_mage_0155"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3874,7 +3874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0156"] = {
+	["kr1_hero_mage_0156"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3899,7 +3899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0157"] = {
+	["kr1_hero_mage_0157"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3924,7 +3924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0158"] = {
+	["kr1_hero_mage_0158"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3949,7 +3949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0159"] = {
+	["kr1_hero_mage_0159"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3974,7 +3974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0160"] = {
+	["kr1_hero_mage_0160"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -3999,7 +3999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0161"] = {
+	["kr1_hero_mage_0161"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4024,7 +4024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0162"] = {
+	["kr1_hero_mage_0162"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4049,7 +4049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0163"] = {
+	["kr1_hero_mage_0163"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4074,7 +4074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0164"] = {
+	["kr1_hero_mage_0164"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4099,7 +4099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0165"] = {
+	["kr1_hero_mage_0165"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4124,7 +4124,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0166"] = {
+	["kr1_hero_mage_0166"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4149,7 +4149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0167"] = {
+	["kr1_hero_mage_0167"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4174,7 +4174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0168"] = {
+	["kr1_hero_mage_0168"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4199,7 +4199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0169"] = {
+	["kr1_hero_mage_0169"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4224,7 +4224,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0170"] = {
+	["kr1_hero_mage_0170"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4249,7 +4249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0171"] = {
+	["kr1_hero_mage_0171"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4274,7 +4274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0172"] = {
+	["kr1_hero_mage_0172"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4299,7 +4299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0173"] = {
+	["kr1_hero_mage_0173"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4324,7 +4324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_0174"] = {
+	["kr1_hero_mage_0174"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4349,7 +4349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0175"] = {
+	["kr1_hero_mage_0175"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4374,7 +4374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0176"] = {
+	["kr1_hero_mage_0176"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4399,7 +4399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0177"] = {
+	["kr1_hero_mage_0177"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4424,7 +4424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0178"] = {
+	["kr1_hero_mage_0178"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4449,7 +4449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_0179"] = {
+	["kr1_hero_mage_0179"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			122,
@@ -4474,7 +4474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_bolt_0001"] = {
+	["kr1_hero_mage_bolt_0001"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4499,7 +4499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_bolt_0002"] = {
+	["kr1_hero_mage_bolt_0002"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4524,7 +4524,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_bolt_0003"] = {
+	["kr1_hero_mage_bolt_0003"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4549,7 +4549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_bolt_0004"] = {
+	["kr1_hero_mage_bolt_0004"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4574,7 +4574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_bolt_0005"] = {
+	["kr1_hero_mage_bolt_0005"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4599,7 +4599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_bolt_0006"] = {
+	["kr1_hero_mage_bolt_0006"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4624,7 +4624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_bolt_0007"] = {
+	["kr1_hero_mage_bolt_0007"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4649,7 +4649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_bolt_0008"] = {
+	["kr1_hero_mage_bolt_0008"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4674,7 +4674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_bolt_0009"] = {
+	["kr1_hero_mage_bolt_0009"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4699,7 +4699,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_bolt_0010"] = {
+	["kr1_hero_mage_bolt_0010"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			82,
@@ -4724,7 +4724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0001"] = {
+	["kr1_hero_mage_rain_0001"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4749,7 +4749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0002"] = {
+	["kr1_hero_mage_rain_0002"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4774,7 +4774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0003"] = {
+	["kr1_hero_mage_rain_0003"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4799,7 +4799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0004"] = {
+	["kr1_hero_mage_rain_0004"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4824,7 +4824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0005"] = {
+	["kr1_hero_mage_rain_0005"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4849,7 +4849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0006"] = {
+	["kr1_hero_mage_rain_0006"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4874,7 +4874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0007"] = {
+	["kr1_hero_mage_rain_0007"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4899,7 +4899,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0008"] = {
+	["kr1_hero_mage_rain_0008"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4924,7 +4924,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0009"] = {
+	["kr1_hero_mage_rain_0009"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4949,7 +4949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0010"] = {
+	["kr1_hero_mage_rain_0010"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4974,7 +4974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0011"] = {
+	["kr1_hero_mage_rain_0011"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -4999,7 +4999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0012"] = {
+	["kr1_hero_mage_rain_0012"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5024,7 +5024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["hero_mage_rain_0013"] = {
+	["kr1_hero_mage_rain_0013"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5049,7 +5049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0014"] = {
+	["kr1_hero_mage_rain_0014"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5074,7 +5074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0015"] = {
+	["kr1_hero_mage_rain_0015"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5099,7 +5099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0016"] = {
+	["kr1_hero_mage_rain_0016"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5124,7 +5124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_0017"] = {
+	["kr1_hero_mage_rain_0017"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			179,
@@ -5149,7 +5149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["hero_mage_rain_decal"] = {
+	["kr1_hero_mage_rain_decal"] = {
 		a_name = "go_items_hero_magnus.dds",
 		size = {
 			182,

@@ -857,6 +857,7 @@ tt.health.armor = 0.5
 tt.health.magic_armor = 0
 tt.health.hp_max = 700
 tt.health_bar.offset = v(0, 42)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0066"
 tt.main_script.insert = scripts.enemy_basic.insert
 tt.main_script.update = scripts.kr4_enemy_mixed.update
@@ -904,3 +905,95 @@ tt.particle_system.animation_fps = 30
 tt.particle_system.animated = true
 tt.particle_system.loop = false
 tt.particle_system.z = Z_OBJECTS + 2
+
+tt = RT("enemy_lich", "enemy_KR5")
+AC(tt, "melee", "ranged", "timed_attacks", "moon", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.gold = 85
+tt.enemy.lives_cost = 2
+tt.enemy.melee_slot = v(12, 0)
+tt.health.armor = 0
+tt.health.magic_armor = 0.9
+tt.health.hp_max = 400
+tt.health_bar.offset = v(0, 42)
+tt.info.portrait = "bottom_info_image_enemies_0070"
+tt.motion.max_speed = 18
+tt.moon.speed_factor = 5 / 3
+tt.moon.regen_hp = 4
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].damage_max = 70
+tt.melee.attacks[1].damage_min = 40
+tt.melee.attacks[1].hit_time = fts(14)
+tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].bullet = "lich_ray"
+tt.ranged.attacks[1].bullet_start_offset = {
+	v(15, 48)
+}
+tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].max_range = 150
+tt.ranged.attacks[1].min_range = 25
+tt.ranged.attacks[1].shoot_time = fts(19)
+tt.ranged.attacks[1].animation = "shoot"
+tt.timed_attacks.list[1] = E:clone_c("spawn_attack")
+tt.timed_attacks.list[1].can_be_silenced = true
+tt.timed_attacks.list[1].melee_break = nil
+tt.timed_attacks.list[1].ranged_break = true
+tt.timed_attacks.list[1].cooldown = 10
+tt.timed_attacks.list[1].animation = "special"
+tt.timed_attacks.list[1].spawn_time = fts(15)
+tt.timed_attacks.list[1].spawn_delay = fts(3)
+tt.timed_attacks.list[1].nodes_to_entrance = 1
+tt.timed_attacks.list[1].nodes_to_exit = 40
+tt.timed_attacks.list[1].min_nodes = 5
+tt.timed_attacks.list[1].max_nodes = 5
+tt.timed_attacks.list[1].use_center = nil
+tt.timed_attacks.list[1].random_subpath = true
+tt.timed_attacks.list[1].max_count = 1
+tt.timed_attacks.list[1].entity_chances = {
+	1,
+}
+tt.timed_attacks.list[1].entity_names = {
+	"enemy_haunted_skeleton",
+}
+tt.render.sprites[1].anchor = v(0.5, 0.176)
+tt.render.sprites[1].prefix = "lich"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "lich_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.176)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 18)
+tt.unit.head_offset = v(0, 40)
+tt.unit.mod_offset = v(0, 17)
+tt.ui.click_rect = r(-25, -5, 50, 42)
+tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
+tt.sound_events.death = "frog_erudite_shot"
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("lich_ray", "bullet")
+tt.image_width = 98
+tt.main_script.update = scripts.ray_enemy.update
+tt.render.sprites[1].name = "lich_ray_travel"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor = v(0, 0.5)
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_min = 60
+tt.bullet.damage_max = 90
+tt.bullet.hit_time = fts(6)
+tt.bullet.hit_fx = "lich_ray_hit_fx"
+tt.sound_events.insert = nil
+
+tt = RT("lich_ray_hit_fx", "fx")
+tt.render.sprites[1].name = "lich_ray_hit_fx_run"

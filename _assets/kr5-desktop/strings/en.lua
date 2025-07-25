@@ -2966,5 +2966,6 @@ return {
 	ENEMY_BONE_CARRIER_NAME = "Bone Carrier",
 	ENEMY_CORROSIVE_SOUL_NAME = "Corrosive Soul",
 	ENEMY_HAUNTED_SKELETON_NAME = "Haunted Skeleton",
+	ENEMY_LICH_NAME = "Lich",
 
 }

@@ -144,6 +144,11 @@ return{
 		to = 24,
 		from = 1
 	},
+	lich_idle = {
+		prefix = "lich",
+		to = 24,
+		from = 1
+	},
 	lich_walk = {
 		prefix = "lich",
 		to = 24,
