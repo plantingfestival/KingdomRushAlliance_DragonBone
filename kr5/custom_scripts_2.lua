@@ -348,7 +348,9 @@ function scripts.swamp_spawner.update(this, store, script)
 	local sp = this.spawner
 
 	while true do
-		if sp.spawn_data then
+		if sp.spawn_data == false then
+			break
+		elseif sp.spawn_data then
 			sp.spawn_data = nil
 			S:queue(this.spawn_sound, this.spawn_sound_args)
 			for _, s in pairs(this.render.sprites) do
@@ -376,7 +378,10 @@ function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
 
 	while true do
 		local spawn_data = sp.spawn_data
-		if spawn_data and type(spawn_data) == "table" then
+		if sp.spawn_data == false then
+			break
+		elseif spawn_data and type(spawn_data) == "table" then
+			sp.spawn_data = nil
 			for i, data in ipairs(spawn_data) do
 				local b = E:create_entity(a.bullet)
 				b.pos.x, b.pos.y = this.pos.x, this.pos.y
@@ -391,7 +396,6 @@ function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
 					U.y_wait(store, a.cooldown)
 				end
 			end
-			sp.spawn_data = nil
 		end
 		coroutine.yield()
 	end

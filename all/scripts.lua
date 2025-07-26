@@ -6654,7 +6654,7 @@ function scripts.mega_spawner.update(this, store)
 
 			local ptr = 1
 
-			while this.manual_wave and current_wave == this.manual_wave or not store.waves_finished and current_wave == store.wave_group_number do
+			while this.manual_wave and current_wave == this.manual_wave or current_wave == store.wave_group_number do
 				if this.interrupt then
 					goto label_160_2
 				end

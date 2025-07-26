@@ -1550,6 +1550,19 @@ return {
 					true
 				},
 				{
+					2,
+					0,
+					"som2",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					false
+				},
+				{
 					1,
 					0,
 					2,
@@ -1596,6 +1609,19 @@ return {
 						{ 1, 1, 88 },
 						{ 1, 1, 110 },
 					}
+				},
+				{
+					32.0,
+					0,
+					"som4",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					false
 				},
 				{
 					1.5,
@@ -1695,6 +1721,19 @@ return {
 					true
 				},
 				{
+					22,
+					0,
+					"som1",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					false
+				},
+				{
 					21,
 					0,
 					1,
@@ -1741,6 +1780,19 @@ return {
 						{ 4, 1, 53 },
 						{ 4, 1, 67 },
 					}
+				},
+				{
+					53.0,
+					0,
+					"som3",
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					nil,
+					"CUSTOM",
+					false
 				},
 				{
 					27.5,
