@@ -22,6 +22,65 @@ return {
 	},
 	entities_list = {
 		{
+			template = "swamp_controller",
+			["graveyard.pi"] = 1,
+			["graveyard.spawn_pos"] = {
+				{
+					x = 300,
+					y = 672
+				}
+			},
+			pos = {
+				x = 300,
+				y = 672
+			}
+		},
+		{
+			template = "decal_spider_rotten_egg_shooter",
+			pos = {
+				x = 386,
+				y = 81
+			},
+			["spawner.pi"] = 4,
+			["spawner.name"] = "shooter1",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "decal_spider_rotten_egg_shooter",
+			pos = {
+				x = 300,
+				y = 672
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "shooter2",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "swamp_spawner",
+			pos = {
+				x = 386,
+				y = 81
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object1",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "swamp_spawner",
+			pos = {
+				x = 300,
+				y = 672
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object2",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "mega_spawner",
+			load_file = "level427campaign_spawner",
+			["editor.game_mode"] = 1,
+		},
+		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
 			["render.sprites[1].name"] = "stage_427",
@@ -399,8 +458,8 @@ return {
 			locked_hero = false,
 			max_upgrade_level = 5,
 			available_towers = {
-				"tower_build_dwarf",
-				"tower_build_arcane_wizard"
+				"tower_build_warmongers_barrack",
+				"tower_build_royal_archers"
 			}
 		}
 	},
@@ -408,14 +467,12 @@ return {
 		"kr1_common",
 		"sounds_stage427",
 		"HalloweenSounds",
-		"MushroomSounds"
 	},
 	required_textures = {
 		"go_enemies_halloween",
-		"kr1_enemies_common",
 		"go_enemies_rotten",
-		"go_enemies_wastelands",
 		"go_enemies_kr2_halloween",
 		"go_stage427",
+		"go_stage115",
 	}
 }

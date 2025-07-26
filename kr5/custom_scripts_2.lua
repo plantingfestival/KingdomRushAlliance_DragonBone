@@ -343,4 +343,60 @@ function scripts.controller_holder_roots_lands_blocked.update(this, store, scrip
 	queue_remove(store, this)
 end
 
+scripts.swamp_spawner = {}
+function scripts.swamp_spawner.update(this, store, script)
+	local sp = this.spawner
+
+	while true do
+		if sp.spawn_data then
+			sp.spawn_data = nil
+			S:queue(this.spawn_sound, this.spawn_sound_args)
+			for _, s in pairs(this.render.sprites) do
+				if s.group == this.animation_group then
+					s.hidden = nil
+				end
+			end
+			U.y_animation_play_group(this, this.spawn_animation, nil, store.tick_ts, nil, this.animation_group)
+			for _, s in pairs(this.render.sprites) do
+				if s.group == this.animation_group then
+					s.hidden = true
+				end
+			end
+		end
+		coroutine.yield()
+	end
+
+	queue_remove(store, this)
+end
+
+scripts.decal_spider_rotten_egg_shooter = {}
+function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
+	local sp = this.spawner
+	local a = this.ranged.attacks[1]
+
+	while true do
+		local spawn_data = sp.spawn_data
+		if spawn_data and type(spawn_data) == "table" then
+			for i, data in ipairs(spawn_data) do
+				local b = E:create_entity(a.bullet)
+				b.pos.x, b.pos.y = this.pos.x, this.pos.y
+				b.bullet.from = V.vclone(b.pos)
+				b.bullet.to = P:node_pos(data[1], data[2], data[3])
+				b.bullet.source_id = this.id
+				local hp = E:create_entity(b.bullet.hit_payload)
+				hp.spawner.pi, hp.spawner.spi, hp.spawner.ni = unpack(data)
+				b.bullet.hit_payload = hp
+				queue_insert(store, b)
+				if i < #spawn_data then
+					U.y_wait(store, a.cooldown)
+				end
+			end
+			sp.spawn_data = nil
+		end
+		coroutine.yield()
+	end
+
+	queue_remove(store, this)
+end
+
 return scripts

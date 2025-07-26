@@ -70,7 +70,7 @@ return {
 							interval = 160,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_spectral_knight",
+							creep = "enemy_phantom_warrior",
 							path = 1,
 							interval_next = 320,
 							max = 3
@@ -626,7 +626,7 @@ return {
 							interval = 130,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_spectral_knight",
+							creep = "enemy_phantom_warrior",
 							path = 3,
 							interval_next = 0,
 							max = 6

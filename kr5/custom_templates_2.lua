@@ -997,3 +997,50 @@ tt.sound_events.insert = nil
 
 tt = RT("lich_ray_hit_fx", "fx")
 tt.render.sprites[1].name = "lich_ray_hit_fx_run"
+
+tt = E:register_t("swamp_spawner", "decal_scripted")
+E:add_comps(tt, "spawner", "render", "sound_events", "editor")
+tt.animation_group = "animation"
+tt.render.sprites[1].name = ""
+tt.render.sprites[1].anchor.y = 0.390625
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].hidden = true
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = ""
+tt.render.sprites[2].anchor.y = 0.390625
+tt.render.sprites[2].animated = true
+tt.render.sprites[2].loop = nil
+tt.render.sprites[2].hidden = true
+tt.render.sprites[2].group = tt.animation_group
+tt.spawn_animation = "decal_swamp_bubble_jump"
+tt.spawn_sound = nil
+tt.spawn_sound_args = nil
+tt.main_script.update = scripts.swamp_spawner.update
+
+tt = E:register_t("decal_spider_rotten_egg_shooter", "decal_scripted")
+E:add_comps(tt, "ranged", "spawner", "editor")
+tt.ranged.attacks[1].bullet = "bomb_spider_rotten_egg"
+tt.ranged.attacks[1].cooldown = 10
+tt.main_script.update = scripts.decal_spider_rotten_egg_shooter.update
+
+tt = E:register_t("bomb_spider_rotten_egg", "bomb")
+tt.bullet.damage_min = 100
+tt.bullet.damage_max = 100
+tt.bullet.damage_radius = 60
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_bans = F_ENEMY
+tt.bullet.damage_flags = F_AREA
+tt.bullet.pop = nil
+tt.bullet.hit_fx = "fx_explosion_rotten_shot"
+tt.bullet.hit_decal = nil
+tt.bullet.hit_payload = "enemy_spider_rotten_egg"
+tt.bullet.flight_time = fts(30)
+tt.bullet.rotation_speed = 2 * math.pi
+tt.render.sprites[1].name = "rotten_egg_0001"
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].animated = false
+tt.sound_events.insert = "swamp_thing_bomb_shot"
+tt.sound_events.hit = "swamp_thing_bomb_explosion"
+tt.main_script.insert = scripts.enemy_bomb.insert
+tt.main_script.update = scripts.enemy_bomb.update

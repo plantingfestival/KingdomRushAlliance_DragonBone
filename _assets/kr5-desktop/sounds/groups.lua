@@ -536,6 +536,7 @@ return {
 			"Sound_EnemyRocketeer.ogg",
 			"kr4_frog_erudite_shot.ogg",
 			"kr4_puff_death.ogg",
+			"kro_sfx_bitteringrancor_screecher-death.ogg",
 		}
 	},
 	-- customization

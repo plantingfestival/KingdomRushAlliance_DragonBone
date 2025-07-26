@@ -6667,7 +6667,7 @@ function scripts.mega_spawner.update(this, store)
 					if template == "CUSTOM" then
 						custom_data.spawner.spawner.spawn_data = custom_data.data
 
-						log.paranoid("%06.2f : SPAWN (%06.2f) - %s spawner:%s, data:%s", store.tick_ts, ts, template, custom_data.spawner.id, getdump(custom_data.data))
+						-- log.paranoid("%06.2f : SPAWN (%06.2f) - %s spawner:%s, data:%s", store.tick_ts, ts, template, custom_data.spawner.id, getdump(custom_data.data))
 					else
 						local p_from, p_to, p_pi = p_point.from, p_point.to, p_point.path
 						local raise = p_from ~= nil
