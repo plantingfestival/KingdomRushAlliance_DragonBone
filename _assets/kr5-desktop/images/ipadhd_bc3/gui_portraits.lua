@@ -1,6 +1,6 @@
 return {
 	["bottom_info_image_enemies_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -25,7 +25,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -50,7 +50,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -75,7 +75,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -100,7 +100,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -125,7 +125,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -150,7 +150,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -175,7 +175,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -200,7 +200,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -225,7 +225,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -250,7 +250,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -275,7 +275,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -300,7 +300,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -325,7 +325,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -350,7 +350,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -375,7 +375,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -400,7 +400,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -425,7 +425,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0018"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -450,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0019"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -475,7 +475,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0020"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -500,7 +500,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0021"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0022"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -550,7 +550,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0023"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -575,7 +575,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0024"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -600,7 +600,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0025"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -625,7 +625,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0026"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -650,7 +650,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0027"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -675,7 +675,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0028"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -700,7 +700,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0029"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -725,7 +725,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0030"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -750,7 +750,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0031"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -775,7 +775,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0032"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -800,7 +800,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0033"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -825,7 +825,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0034"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -850,7 +850,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0035"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -875,7 +875,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0036"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -900,7 +900,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0037"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -925,7 +925,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0038"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -950,7 +950,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0039"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -975,7 +975,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0040"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1000,7 +1000,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0041"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1025,7 +1025,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0042"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1050,7 +1050,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0043"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0044"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0045"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0046"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1150,7 +1150,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0047"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1175,7 +1175,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0048"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1200,7 +1200,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0049"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1225,7 +1225,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0050"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1250,7 +1250,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0051"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0052"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0053"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1325,7 +1325,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0054"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1350,7 +1350,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0055"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1375,7 +1375,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0056"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1400,7 +1400,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0057"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1425,7 +1425,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0058"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1450,7 +1450,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0059"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1475,7 +1475,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0060"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1500,7 +1500,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0061"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1525,7 +1525,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0062"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1550,7 +1550,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0063"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1575,7 +1575,7 @@ return {
 		textureRotated = true
 	},
 	["bottom_info_image_enemies_0064"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1600,7 +1600,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0065"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1625,7 +1625,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0066"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1650,7 +1650,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0067"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1675,7 +1675,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0068"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1700,7 +1700,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0069"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1725,7 +1725,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0070"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1750,7 +1750,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0071"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1775,7 +1775,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_enemies_0072"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1800,7 +1800,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1825,7 +1825,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0020"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1850,7 +1850,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0021"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1875,7 +1875,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0022"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1900,7 +1900,7 @@ return {
 		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0023"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1950,7 +1950,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -1975,7 +1975,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2000,7 +2000,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2025,7 +2025,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2050,7 +2050,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2075,7 +2075,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2175,7 +2175,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2200,7 +2200,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2225,7 +2225,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2250,7 +2250,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2275,7 +2275,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2300,7 +2300,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2325,7 +2325,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2350,7 +2350,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0018"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2375,7 +2375,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0019"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0020"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2425,7 +2425,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0021"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2450,7 +2450,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0022"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0023"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2500,7 +2500,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0024"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0025"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0026"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2575,7 +2575,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0027"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2600,7 +2600,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0028"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2625,7 +2625,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0029"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2650,7 +2650,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0030"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2675,7 +2675,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0031"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2700,7 +2700,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0032"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2725,7 +2725,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0033"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2750,7 +2750,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0034"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2775,7 +2775,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0035"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2800,7 +2800,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0036"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2825,7 +2825,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0037"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2850,7 +2850,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0038"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2875,7 +2875,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0039"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2900,7 +2900,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0040"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2925,7 +2925,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0041"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2950,7 +2950,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0042"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -2975,7 +2975,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0043"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3000,7 +3000,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0044"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3025,7 +3025,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0045"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3050,7 +3050,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0046"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3075,7 +3075,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0047"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3100,7 +3100,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0048"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3125,7 +3125,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0049"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3150,7 +3150,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0050"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3175,7 +3175,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0051"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3200,7 +3200,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0052"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3225,7 +3225,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0053"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3250,7 +3250,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0054"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3275,7 +3275,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0055"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3300,7 +3300,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0056"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3325,7 +3325,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0057"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3350,7 +3350,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0058"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3375,7 +3375,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0059"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3400,7 +3400,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0060"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3425,7 +3425,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0061"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3450,7 +3450,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0062"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3475,7 +3475,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0063"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3500,7 +3500,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0064"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3525,7 +3525,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0065"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3550,7 +3550,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0066"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3575,7 +3575,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0067"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3600,7 +3600,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0068"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3625,7 +3625,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0069"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3650,7 +3650,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0070"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0071"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3700,7 +3700,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0072"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3725,7 +3725,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0073"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0074"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3775,7 +3775,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0075"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3800,7 +3800,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0076"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3825,7 +3825,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0077"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3850,7 +3850,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0078"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3875,7 +3875,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0079"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0080"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0081"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0082"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -3975,7 +3975,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0083"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4000,7 +4000,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0084"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4025,7 +4025,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0085"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4050,7 +4050,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_enemies_0086"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4075,7 +4075,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0087"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4100,7 +4100,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0088"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4125,7 +4125,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0089"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4150,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0090"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4175,7 +4175,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0091"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4200,7 +4200,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0092"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0093"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0094"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4275,7 +4275,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0095"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4300,7 +4300,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0096"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4325,7 +4325,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0097"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4350,7 +4350,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0098"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4575,7 +4575,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4650,7 +4650,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4675,7 +4675,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4700,7 +4700,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4800,7 +4800,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0018"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4825,7 +4825,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0019"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4850,7 +4850,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0020"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4875,7 +4875,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0021"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4900,7 +4900,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0022"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4925,7 +4925,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0023"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4950,7 +4950,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0024"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -4975,7 +4975,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0025"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5000,7 +5000,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0026"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5025,7 +5025,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0027"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5050,7 +5050,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0028"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5075,7 +5075,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0029"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5100,7 +5100,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0030"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5125,7 +5125,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0031"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5150,7 +5150,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0032"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5175,7 +5175,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0033"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5200,7 +5200,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0034"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5225,7 +5225,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0035"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5250,7 +5250,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0036"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5275,7 +5275,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0037"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5300,7 +5300,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0038"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5325,7 +5325,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0039"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5350,7 +5350,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0040"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5375,7 +5375,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0041"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5400,7 +5400,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0042"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5425,7 +5425,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0043"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5450,7 +5450,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0044"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5475,7 +5475,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0045"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5500,7 +5500,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0046"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5525,7 +5525,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0047"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5550,7 +5550,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0048"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5575,7 +5575,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0049"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5600,7 +5600,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0050"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5625,7 +5625,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0051"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5650,7 +5650,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0052"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5675,7 +5675,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0053"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5700,7 +5700,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0054"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5725,7 +5725,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0055"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5750,7 +5750,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0056"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5775,7 +5775,7 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_soldiers_0057"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5800,7 +5800,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0058"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5825,7 +5825,7 @@ return {
 		textureRotated = true
 	},
 	["gui_bottom_info_image_soldiers_0059"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -5850,7 +5850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -5875,7 +5875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -5900,7 +5900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -5925,7 +5925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -5950,7 +5950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -5975,7 +5975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6000,7 +6000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6025,7 +6025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6050,7 +6050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6075,7 +6075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6100,7 +6100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6125,7 +6125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6150,7 +6150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6175,7 +6175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6200,7 +6200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6225,7 +6225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6250,7 +6250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6275,7 +6275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6300,7 +6300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6325,7 +6325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6350,7 +6350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6375,7 +6375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6400,7 +6400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6425,7 +6425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_disabled_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6450,7 +6450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6475,7 +6475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6500,7 +6500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_disabled_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6525,7 +6525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6550,7 +6550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6575,7 +6575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6600,7 +6600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6625,7 +6625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_disabled_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6650,7 +6650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6675,7 +6675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_disabled_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6700,7 +6700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_none"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			134,
 			134
@@ -6725,7 +6725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6750,7 +6750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6775,7 +6775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6800,7 +6800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6825,7 +6825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6850,7 +6850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6875,7 +6875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6900,7 +6900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6925,7 +6925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6950,7 +6950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -6975,7 +6975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7000,7 +7000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7025,7 +7025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7050,7 +7050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7075,7 +7075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7100,7 +7100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_portraits_selected_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7125,7 +7125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_portraits_selected_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			280,
 			260
@@ -7150,7 +7150,7 @@ return {
 		textureRotated = true
 	},
 	["ingame_ui_gui_portraits_hero_bg"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			268,
 			304
@@ -7175,7 +7175,7 @@ return {
 		textureRotated = true
 	},
 	["ingame_ui_gui_portraits_hero_bg_hover"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			328,
 			368
@@ -7200,7 +7200,7 @@ return {
 		textureRotated = false
 	},
 	["ingame_ui_hero_cooldown"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			200,
 			200
@@ -7225,7 +7225,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7250,7 +7250,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7275,7 +7275,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0002ar"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7300,7 +7300,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7325,7 +7325,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7350,7 +7350,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7375,7 +7375,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7400,7 +7400,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7425,7 +7425,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7450,7 +7450,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7475,7 +7475,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7500,7 +7500,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7525,7 +7525,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0012"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7550,7 +7550,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0013"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7575,7 +7575,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7600,7 +7600,7 @@ return {
 		textureRotated = true
 	},
 	["portraits_hero_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7625,7 +7625,7 @@ return {
 		textureRotated = true
 	},
 	["portraits_hero_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7650,7 +7650,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7675,7 +7675,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_bg"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			272,
 			304
@@ -7700,7 +7700,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_bg_hover"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			272,
 			304
@@ -7725,7 +7725,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_sc"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			122,
 			122
@@ -7750,7 +7750,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0001"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7775,7 +7775,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0002"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7800,7 +7800,7 @@ return {
 		textureRotated = true
 	},
 	["portraits_towers_0003"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7825,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0004"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7850,7 +7850,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0005"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7875,7 +7875,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0006"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7900,7 +7900,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0007"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7925,7 +7925,7 @@ return {
 		textureRotated = true
 	},
 	["portraits_towers_0008"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7950,7 +7950,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0009"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -7975,7 +7975,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0010"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8000,7 +8000,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0011"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8025,7 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0014"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8050,7 +8050,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0015"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8075,7 +8075,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0016"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8100,7 +8100,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0017"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8125,7 +8125,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0018"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8150,7 +8150,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0019"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8175,7 +8175,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0020"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8200,7 +8200,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0021"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8225,7 +8225,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0022"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8250,7 +8250,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0023"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8275,7 +8275,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0024"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8300,7 +8300,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0025"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8325,7 +8325,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0026"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8350,7 +8350,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0027"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8375,7 +8375,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0028"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8400,7 +8400,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0029"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104
@@ -8425,7 +8425,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_towers_0030"] = {
-		a_name = "gui_portraits.png",
+		a_name = "gui_portraits.dds",
 		size = {
 			104,
 			104

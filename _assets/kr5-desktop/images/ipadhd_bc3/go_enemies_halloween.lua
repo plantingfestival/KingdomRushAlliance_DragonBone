@@ -1,6 +1,6 @@
 return {
 	["bone_carrier_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -9,7 +9,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -18,7 +18,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -27,7 +27,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -36,7 +36,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -45,7 +45,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -54,7 +54,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -63,7 +63,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -72,7 +72,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -81,7 +81,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -90,7 +90,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -99,7 +99,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,62,62,36},
 		["a_size"] = {2048,3168},
@@ -108,7 +108,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -117,7 +117,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -126,7 +126,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -135,7 +135,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -144,7 +144,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -153,7 +153,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,60,62,36},
 		["a_size"] = {2048,3168},
@@ -162,7 +162,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,58,62,36},
 		["a_size"] = {2048,3168},
@@ -171,7 +171,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,58,62,36},
 		["a_size"] = {2048,3168},
@@ -180,7 +180,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,56,62,36},
 		["a_size"] = {2048,3168},
@@ -189,7 +189,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,56,62,36},
 		["a_size"] = {2048,3168},
@@ -198,7 +198,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -207,7 +207,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -216,7 +216,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -225,7 +225,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -234,7 +234,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -243,7 +243,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,54,62,36},
 		["a_size"] = {2048,3168},
@@ -252,7 +252,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -261,7 +261,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -270,7 +270,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,35},
 		["a_size"] = {2048,3168},
@@ -279,7 +279,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,35},
 		["a_size"] = {2048,3168},
@@ -288,7 +288,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,52,62,36},
 		["a_size"] = {2048,3168},
@@ -297,7 +297,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,52,62,36},
 		["a_size"] = {2048,3168},
@@ -306,7 +306,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,51,61,37},
 		["a_size"] = {2048,3168},
@@ -315,7 +315,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,51,61,37},
 		["a_size"] = {2048,3168},
@@ -324,7 +324,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,61,59,37},
 		["a_size"] = {2048,3168},
@@ -333,7 +333,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,61,59,37},
 		["a_size"] = {2048,3168},
@@ -342,7 +342,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,63,58,37},
 		["a_size"] = {2048,3168},
@@ -351,7 +351,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,63,58,37},
 		["a_size"] = {2048,3168},
@@ -360,7 +360,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,63,57,37},
 		["a_size"] = {2048,3168},
@@ -369,7 +369,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,63,57,37},
 		["a_size"] = {2048,3168},
@@ -378,7 +378,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,61,57,37},
 		["a_size"] = {2048,3168},
@@ -387,7 +387,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,61,57,37},
 		["a_size"] = {2048,3168},
@@ -396,7 +396,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,60,58,36},
 		["a_size"] = {2048,3168},
@@ -405,7 +405,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,60,58,36},
 		["a_size"] = {2048,3168},
@@ -414,7 +414,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,61,58,35},
 		["a_size"] = {2048,3168},
@@ -423,7 +423,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,61,58,35},
 		["a_size"] = {2048,3168},
@@ -432,7 +432,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,58,59,36},
 		["a_size"] = {2048,3168},
@@ -441,7 +441,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,58,59,36},
 		["a_size"] = {2048,3168},
@@ -450,7 +450,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,56,60,36},
 		["a_size"] = {2048,3168},
@@ -459,7 +459,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,56,60,36},
 		["a_size"] = {2048,3168},
@@ -468,7 +468,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,56,61,36},
 		["a_size"] = {2048,3168},
@@ -477,7 +477,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,56,61,36},
 		["a_size"] = {2048,3168},
@@ -486,7 +486,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,54,62,36},
 		["a_size"] = {2048,3168},
@@ -495,7 +495,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,54,62,36},
 		["a_size"] = {2048,3168},
@@ -504,7 +504,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,54,63,36},
 		["a_size"] = {2048,3168},
@@ -513,7 +513,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,54,63,36},
 		["a_size"] = {2048,3168},
@@ -522,7 +522,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,37},
 		["a_size"] = {2048,3168},
@@ -531,7 +531,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,37},
 		["a_size"] = {2048,3168},
@@ -540,7 +540,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {76,48,60,38},
 		["a_size"] = {2048,3168},
@@ -549,7 +549,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {76,48,60,38},
 		["a_size"] = {2048,3168},
@@ -558,7 +558,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,48,61,38},
 		["a_size"] = {2048,3168},
@@ -567,7 +567,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,48,61,38},
 		["a_size"] = {2048,3168},
@@ -576,7 +576,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,48,61,38},
 		["a_size"] = {2048,3168},
@@ -585,7 +585,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,48,61,38},
 		["a_size"] = {2048,3168},
@@ -594,7 +594,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,58,61,38},
 		["a_size"] = {2048,3168},
@@ -603,7 +603,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {75,58,61,38},
 		["a_size"] = {2048,3168},
@@ -612,7 +612,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {74,59,60,39},
 		["a_size"] = {2048,3168},
@@ -621,7 +621,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {74,59,60,39},
 		["a_size"] = {2048,3168},
@@ -630,7 +630,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,60,61,40},
 		["a_size"] = {2048,3168},
@@ -639,7 +639,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,60,61,40},
 		["a_size"] = {2048,3168},
@@ -648,7 +648,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,57,62,41},
 		["a_size"] = {2048,3168},
@@ -657,7 +657,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,57,62,41},
 		["a_size"] = {2048,3168},
@@ -666,7 +666,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,56,62,40},
 		["a_size"] = {2048,3168},
@@ -675,7 +675,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,56,62,40},
 		["a_size"] = {2048,3168},
@@ -684,7 +684,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,57,65,35},
 		["a_size"] = {2048,3168},
@@ -693,7 +693,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,57,65,35},
 		["a_size"] = {2048,3168},
@@ -702,7 +702,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,57,65,35},
 		["a_size"] = {2048,3168},
@@ -711,7 +711,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,57,65,35},
 		["a_size"] = {2048,3168},
@@ -720,7 +720,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {73,54,65,34},
 		["a_size"] = {2048,3168},
@@ -729,7 +729,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {73,54,65,34},
 		["a_size"] = {2048,3168},
@@ -738,7 +738,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,35},
 		["a_size"] = {2048,3168},
@@ -747,7 +747,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {69,53,63,35},
 		["a_size"] = {2048,3168},
@@ -756,7 +756,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,52,62,36},
 		["a_size"] = {2048,3168},
@@ -765,7 +765,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,52,62,36},
 		["a_size"] = {2048,3168},
@@ -774,7 +774,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,51,60,37},
 		["a_size"] = {2048,3168},
@@ -783,7 +783,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,51,60,37},
 		["a_size"] = {2048,3168},
@@ -792,7 +792,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,60,38},
 		["a_size"] = {2048,3168},
@@ -801,7 +801,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,60,38},
 		["a_size"] = {2048,3168},
@@ -810,7 +810,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,48,60,38},
 		["a_size"] = {2048,3168},
@@ -819,7 +819,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,48,60,38},
 		["a_size"] = {2048,3168},
@@ -828,7 +828,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {76,48,60,38},
 		["a_size"] = {2048,3168},
@@ -837,7 +837,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {76,48,60,38},
 		["a_size"] = {2048,3168},
@@ -846,7 +846,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,53,62,35},
 		["a_size"] = {2048,3168},
@@ -855,7 +855,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,53,62,35},
 		["a_size"] = {2048,3168},
@@ -864,7 +864,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0097"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,51,63,35},
 		["a_size"] = {2048,3168},
@@ -873,7 +873,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0098"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {67,51,63,35},
 		["a_size"] = {2048,3168},
@@ -882,7 +882,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0099"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,52,63,38},
 		["a_size"] = {2048,3168},
@@ -891,7 +891,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0100"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,52,63,38},
 		["a_size"] = {2048,3168},
@@ -900,7 +900,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0101"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,61,63,37},
 		["a_size"] = {2048,3168},
@@ -909,7 +909,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0102"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {65,61,63,37},
 		["a_size"] = {2048,3168},
@@ -918,7 +918,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0103"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,61,62,37},
 		["a_size"] = {2048,3168},
@@ -927,7 +927,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0104"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,61,62,37},
 		["a_size"] = {2048,3168},
@@ -936,7 +936,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0105"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,60,63,36},
 		["a_size"] = {2048,3168},
@@ -945,7 +945,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0106"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,60,63,36},
 		["a_size"] = {2048,3168},
@@ -954,7 +954,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0107"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,61,64,35},
 		["a_size"] = {2048,3168},
@@ -963,7 +963,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0108"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,61,64,35},
 		["a_size"] = {2048,3168},
@@ -972,7 +972,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0109"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,59,66,35},
 		["a_size"] = {2048,3168},
@@ -981,7 +981,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0110"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,59,66,35},
 		["a_size"] = {2048,3168},
@@ -990,7 +990,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0111"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {61,59,67,35},
 		["a_size"] = {2048,3168},
@@ -999,7 +999,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0112"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {61,59,67,35},
 		["a_size"] = {2048,3168},
@@ -1008,7 +1008,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0113"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,59,67,35},
 		["a_size"] = {2048,3168},
@@ -1017,7 +1017,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0114"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,59,67,35},
 		["a_size"] = {2048,3168},
@@ -1026,7 +1026,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0115"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,58,67,38},
 		["a_size"] = {2048,3168},
@@ -1035,7 +1035,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0116"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,58,67,38},
 		["a_size"] = {2048,3168},
@@ -1044,7 +1044,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0117"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {61,57,65,37},
 		["a_size"] = {2048,3168},
@@ -1053,7 +1053,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0118"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {61,57,65,37},
 		["a_size"] = {2048,3168},
@@ -1062,7 +1062,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0119"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,55,63,37},
 		["a_size"] = {2048,3168},
@@ -1071,7 +1071,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0120"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {63,55,63,37},
 		["a_size"] = {2048,3168},
@@ -1080,7 +1080,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0121"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,54,62,36},
 		["a_size"] = {2048,3168},
@@ -1089,7 +1089,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0122"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {62,54,62,36},
 		["a_size"] = {2048,3168},
@@ -1098,7 +1098,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0123"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,55,62,35},
 		["a_size"] = {2048,3168},
@@ -1107,7 +1107,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0124"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,55,62,35},
 		["a_size"] = {2048,3168},
@@ -1116,7 +1116,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0125"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,53,62,35},
 		["a_size"] = {2048,3168},
@@ -1125,7 +1125,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0126"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {66,53,62,35},
 		["a_size"] = {2048,3168},
@@ -1134,7 +1134,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0127"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,53,62,35},
 		["a_size"] = {2048,3168},
@@ -1143,7 +1143,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0128"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {68,53,62,35},
 		["a_size"] = {2048,3168},
@@ -1152,7 +1152,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0129"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1161,7 +1161,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0130"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1170,7 +1170,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0131"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,50,74,36},
 		["a_size"] = {2048,3168},
@@ -1179,7 +1179,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0132"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,50,74,36},
 		["a_size"] = {2048,3168},
@@ -1188,7 +1188,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0133"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {52,45,104,35},
 		["a_size"] = {2048,3168},
@@ -1197,7 +1197,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0134"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {52,45,104,35},
 		["a_size"] = {2048,3168},
@@ -1206,7 +1206,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0135"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {39,39,111,35},
 		["a_size"] = {2048,3168},
@@ -1215,7 +1215,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0136"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {39,39,111,35},
 		["a_size"] = {2048,3168},
@@ -1224,7 +1224,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0137"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {33,33,113,35},
 		["a_size"] = {2048,3168},
@@ -1233,7 +1233,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0138"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {33,33,113,35},
 		["a_size"] = {2048,3168},
@@ -1242,7 +1242,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0139"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {33,33,115,35},
 		["a_size"] = {2048,3168},
@@ -1251,7 +1251,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0140"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {33,33,115,35},
 		["a_size"] = {2048,3168},
@@ -1260,7 +1260,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0141"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,51,0,9},
 		["a_size"] = {2048,3168},
@@ -1269,7 +1269,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0142"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,51,0,9},
 		["a_size"] = {2048,3168},
@@ -1278,7 +1278,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0143"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,62,0,6},
 		["a_size"] = {2048,3168},
@@ -1287,7 +1287,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0144"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,62,0,6},
 		["a_size"] = {2048,3168},
@@ -1296,7 +1296,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0145"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {104,77,0,3},
 		["a_size"] = {2048,3168},
@@ -1305,7 +1305,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0146"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {104,77,0,3},
 		["a_size"] = {2048,3168},
@@ -1314,7 +1314,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0147"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {104,81,0,5},
 		["a_size"] = {2048,3168},
@@ -1323,7 +1323,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0148"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {104,81,0,5},
 		["a_size"] = {2048,3168},
@@ -1332,7 +1332,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0149"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {103,77,11,11},
 		["a_size"] = {2048,3168},
@@ -1341,7 +1341,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0150"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {103,77,11,11},
 		["a_size"] = {2048,3168},
@@ -1350,7 +1350,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0151"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,71,36,19},
 		["a_size"] = {2048,3168},
@@ -1359,7 +1359,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0152"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,71,36,19},
 		["a_size"] = {2048,3168},
@@ -1368,7 +1368,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0153"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,65,46,17},
 		["a_size"] = {2048,3168},
@@ -1377,7 +1377,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0154"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {102,65,46,17},
 		["a_size"] = {2048,3168},
@@ -1386,7 +1386,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0155"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,54,61,36},
 		["a_size"] = {2048,3168},
@@ -1395,7 +1395,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0156"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {71,54,61,36},
 		["a_size"] = {2048,3168},
@@ -1404,7 +1404,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0157"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1413,7 +1413,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0158"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1422,7 +1422,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0159"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1431,7 +1431,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0160"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,52,62,36},
 		["a_size"] = {2048,3168},
@@ -1440,7 +1440,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0161"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,53,62,33},
 		["a_size"] = {2048,3168},
@@ -1449,7 +1449,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0162"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {70,53,62,33},
 		["a_size"] = {2048,3168},
@@ -1458,7 +1458,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0163"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,39,71,33},
 		["a_size"] = {2048,3168},
@@ -1467,7 +1467,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0164"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,39,71,33},
 		["a_size"] = {2048,3168},
@@ -1476,7 +1476,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0165"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,39,71,33},
 		["a_size"] = {2048,3168},
@@ -1485,7 +1485,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0166"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,39,71,33},
 		["a_size"] = {2048,3168},
@@ -1494,7 +1494,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0167"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,49,71,33},
 		["a_size"] = {2048,3168},
@@ -1503,7 +1503,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0168"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,49,71,33},
 		["a_size"] = {2048,3168},
@@ -1512,7 +1512,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0169"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,53,71,33},
 		["a_size"] = {2048,3168},
@@ -1521,7 +1521,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0170"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,53,71,33},
 		["a_size"] = {2048,3168},
@@ -1530,7 +1530,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0171"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,51,71,33},
 		["a_size"] = {2048,3168},
@@ -1539,7 +1539,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0172"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,38,71,30},
 		["a_size"] = {2048,3168},
@@ -1548,7 +1548,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0173"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,38,71,30},
 		["a_size"] = {2048,3168},
@@ -1557,7 +1557,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0174"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,49,71,13},
 		["a_size"] = {2048,3168},
@@ -1566,7 +1566,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0175"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {55,47,71,13},
 		["a_size"] = {2048,3168},
@@ -1575,7 +1575,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0176"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,44,70,14},
 		["a_size"] = {2048,3168},
@@ -1584,7 +1584,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0177"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {64,44,70,14},
 		["a_size"] = {2048,3168},
@@ -1593,7 +1593,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0178"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {53,36,77,16},
 		["a_size"] = {2048,3168},
@@ -1602,7 +1602,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0179"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {53,36,77,16},
 		["a_size"] = {2048,3168},
@@ -1611,7 +1611,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0180"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {51,32,71,16},
 		["a_size"] = {2048,3168},
@@ -1620,7 +1620,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0181"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {51,32,71,16},
 		["a_size"] = {2048,3168},
@@ -1629,7 +1629,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0182"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {50,32,66,16},
 		["a_size"] = {2048,3168},
@@ -1638,7 +1638,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0183"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {50,32,66,16},
 		["a_size"] = {2048,3168},
@@ -1647,7 +1647,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0184"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {59,30,63,18},
 		["a_size"] = {2048,3168},
@@ -1656,7 +1656,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0185"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {59,30,63,18},
 		["a_size"] = {2048,3168},
@@ -1665,7 +1665,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0186"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {59,29,63,21},
 		["a_size"] = {2048,3168},
@@ -1674,7 +1674,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0187"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {59,29,63,21},
 		["a_size"] = {2048,3168},
@@ -1683,7 +1683,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0188"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {56,30,60,20},
 		["a_size"] = {2048,3168},
@@ -1692,7 +1692,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0189"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {56,30,60,20},
 		["a_size"] = {2048,3168},
@@ -1701,7 +1701,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0190"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {87,81,65,33},
 		["a_size"] = {2048,3168},
@@ -1710,7 +1710,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0191"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {87,81,63,35},
 		["a_size"] = {2048,3168},
@@ -1719,7 +1719,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0192"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {84,86,62,34},
 		["a_size"] = {2048,3168},
@@ -1728,7 +1728,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0193"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {82,90,60,34},
 		["a_size"] = {2048,3168},
@@ -1737,7 +1737,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0194"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {81,94,59,34},
 		["a_size"] = {2048,3168},
@@ -1746,7 +1746,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0195"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {80,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1755,7 +1755,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0196"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1764,7 +1764,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0197"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1773,7 +1773,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0198"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1782,7 +1782,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0199"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1791,7 +1791,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0200"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {78,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1800,7 +1800,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0201"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {76,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1809,7 +1809,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0202"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {74,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1818,7 +1818,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0203"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1827,7 +1827,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0204"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1836,7 +1836,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0205"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1845,7 +1845,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0206"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1854,7 +1854,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0207"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1863,7 +1863,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0208"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1872,7 +1872,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0209"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1881,7 +1881,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0210"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1890,7 +1890,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0211"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1899,7 +1899,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0212"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1908,7 +1908,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0213"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1917,7 +1917,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0214"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1926,7 +1926,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0215"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1935,7 +1935,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0216"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,98,58,34},
 		["a_size"] = {2048,3168},
@@ -1944,7 +1944,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0217"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1953,7 +1953,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0218"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1962,7 +1962,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0219"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1971,7 +1971,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0220"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1980,7 +1980,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0221"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1989,7 +1989,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0222"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -1998,7 +1998,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0223"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -2007,7 +2007,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0224"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -2016,7 +2016,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0225"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -2025,7 +2025,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0226"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {72,99,104,43},
 		["a_size"] = {2048,3168},
@@ -2034,7 +2034,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0227"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {122,140,136,46},
 		["a_size"] = {2048,3168},
@@ -2043,7 +2043,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_0228"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {122,140,136,46},
 		["a_size"] = {2048,3168},
@@ -2052,7 +2052,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0229"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {122,140,136,46},
 		["a_size"] = {2048,3168},
@@ -2061,7 +2061,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_0230"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {0,0,271,195},
 		["a_size"] = {2048,3168},
@@ -2070,7 +2070,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {27,9,29,9},
 		["a_size"] = {2048,3168},
@@ -2079,7 +2079,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_modifier_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {23,7,23,7},
 		["a_size"] = {2048,3168},
@@ -2088,7 +2088,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_modifier_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {17,4,17,4},
 		["a_size"] = {2048,3168},
@@ -2097,7 +2097,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {11,2,11,2},
 		["a_size"] = {2048,3168},
@@ -2106,7 +2106,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {5,0,5,0},
 		["a_size"] = {2048,3168},
@@ -2115,7 +2115,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -2124,7 +2124,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {1,0,1,0},
 		["a_size"] = {2048,3168},
@@ -2133,7 +2133,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_modifier_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {3,0,3,0},
 		["a_size"] = {2048,3168},
@@ -2142,7 +2142,7 @@ return {
 		["textureRotated"] = true
 	},
 	["bone_carrier_modifier_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {2,0,2,0},
 		["a_size"] = {2048,3168},
@@ -2151,7 +2151,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_modifier_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {91,30},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -2160,7 +2160,7 @@ return {
 		["textureRotated"] = false
 	},
 	["bone_carrier_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {276,200},
 		["trim"] = {100,147,102,33},
 		["a_size"] = {2048,3168},
@@ -2169,7 +2169,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {23,52,27,8},
 		["a_size"] = {2048,3168},
@@ -2178,7 +2178,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {29,42,35,18},
 		["a_size"] = {2048,3168},
@@ -2187,7 +2187,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {29,42,35,18},
 		["a_size"] = {2048,3168},
@@ -2196,7 +2196,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {25,45,37,21},
 		["a_size"] = {2048,3168},
@@ -2205,7 +2205,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {25,45,37,21},
 		["a_size"] = {2048,3168},
@@ -2214,7 +2214,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {29,53,33,13},
 		["a_size"] = {2048,3168},
@@ -2223,7 +2223,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {29,53,33,13},
 		["a_size"] = {2048,3168},
@@ -2232,7 +2232,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,54,28,10},
 		["a_size"] = {2048,3168},
@@ -2241,7 +2241,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,54,28,10},
 		["a_size"] = {2048,3168},
@@ -2250,7 +2250,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {39,57,33,11},
 		["a_size"] = {2048,3168},
@@ -2259,7 +2259,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {39,57,33,11},
 		["a_size"] = {2048,3168},
@@ -2268,7 +2268,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {43,55,31,11},
 		["a_size"] = {2048,3168},
@@ -2277,7 +2277,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {43,55,31,11},
 		["a_size"] = {2048,3168},
@@ -2286,7 +2286,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {38,50,36,12},
 		["a_size"] = {2048,3168},
@@ -2295,7 +2295,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {38,50,36,12},
 		["a_size"] = {2048,3168},
@@ -2304,7 +2304,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {33,47,37,13},
 		["a_size"] = {2048,3168},
@@ -2313,7 +2313,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {33,47,37,13},
 		["a_size"] = {2048,3168},
@@ -2322,7 +2322,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {24,44,34,14},
 		["a_size"] = {2048,3168},
@@ -2331,7 +2331,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {24,44,34,14},
 		["a_size"] = {2048,3168},
@@ -2340,7 +2340,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,37,49,29},
 		["a_size"] = {2048,3168},
@@ -2349,7 +2349,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,37,49,29},
 		["a_size"] = {2048,3168},
@@ -2358,7 +2358,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,37,45,29},
 		["a_size"] = {2048,3168},
@@ -2367,7 +2367,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,37,45,29},
 		["a_size"] = {2048,3168},
@@ -2376,7 +2376,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,40,45,16},
 		["a_size"] = {2048,3168},
@@ -2385,7 +2385,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,40,45,16},
 		["a_size"] = {2048,3168},
@@ -2394,7 +2394,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,33,45,5},
 		["a_size"] = {2048,3168},
@@ -2403,7 +2403,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,33,45,5},
 		["a_size"] = {2048,3168},
@@ -2412,7 +2412,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,41,43,1},
 		["a_size"] = {2048,3168},
@@ -2421,7 +2421,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,41,43,1},
 		["a_size"] = {2048,3168},
@@ -2430,7 +2430,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,56,46,0},
 		["a_size"] = {2048,3168},
@@ -2439,7 +2439,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,56,46,0},
 		["a_size"] = {2048,3168},
@@ -2448,7 +2448,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,49,45,9},
 		["a_size"] = {2048,3168},
@@ -2457,7 +2457,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,49,45,9},
 		["a_size"] = {2048,3168},
@@ -2466,7 +2466,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,53,51,15},
 		["a_size"] = {2048,3168},
@@ -2475,7 +2475,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,53,51,15},
 		["a_size"] = {2048,3168},
@@ -2484,7 +2484,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,47,54,17},
 		["a_size"] = {2048,3168},
@@ -2493,7 +2493,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,47,54,17},
 		["a_size"] = {2048,3168},
@@ -2502,7 +2502,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {52,37,52,19},
 		["a_size"] = {2048,3168},
@@ -2511,7 +2511,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {52,37,52,19},
 		["a_size"] = {2048,3168},
@@ -2520,7 +2520,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {51,36,55,26},
 		["a_size"] = {2048,3168},
@@ -2529,7 +2529,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {51,36,55,26},
 		["a_size"] = {2048,3168},
@@ -2538,7 +2538,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {60,45,54,17},
 		["a_size"] = {2048,3168},
@@ -2547,7 +2547,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {60,45,54,17},
 		["a_size"] = {2048,3168},
@@ -2556,7 +2556,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {55,34,49,16},
 		["a_size"] = {2048,3168},
@@ -2565,7 +2565,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {55,34,49,16},
 		["a_size"] = {2048,3168},
@@ -2574,7 +2574,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {56,40,48,14},
 		["a_size"] = {2048,3168},
@@ -2583,7 +2583,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {56,40,48,14},
 		["a_size"] = {2048,3168},
@@ -2592,7 +2592,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {50,43,44,15},
 		["a_size"] = {2048,3168},
@@ -2601,7 +2601,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {50,43,44,15},
 		["a_size"] = {2048,3168},
@@ -2610,7 +2610,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {47,45,45,17},
 		["a_size"] = {2048,3168},
@@ -2619,7 +2619,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {47,45,45,17},
 		["a_size"] = {2048,3168},
@@ -2628,7 +2628,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {53,53,49,13},
 		["a_size"] = {2048,3168},
@@ -2637,7 +2637,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {53,53,49,13},
 		["a_size"] = {2048,3168},
@@ -2646,7 +2646,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {56,41,54,9},
 		["a_size"] = {2048,3168},
@@ -2655,7 +2655,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {56,41,54,9},
 		["a_size"] = {2048,3168},
@@ -2664,7 +2664,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,54,13,8},
 		["a_size"] = {2048,3168},
@@ -2673,7 +2673,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {35,54,13,8},
 		["a_size"] = {2048,3168},
@@ -2682,7 +2682,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {24,66,6,8},
 		["a_size"] = {2048,3168},
@@ -2691,7 +2691,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {24,66,6,8},
 		["a_size"] = {2048,3168},
@@ -2700,7 +2700,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {5,12,11,12},
 		["a_size"] = {2048,3168},
@@ -2709,7 +2709,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {5,12,11,12},
 		["a_size"] = {2048,3168},
@@ -2718,7 +2718,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,7,11,11},
 		["a_size"] = {2048,3168},
@@ -2727,7 +2727,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,7,11,11},
 		["a_size"] = {2048,3168},
@@ -2736,7 +2736,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,8,11,12},
 		["a_size"] = {2048,3168},
@@ -2745,7 +2745,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,8,11,12},
 		["a_size"] = {2048,3168},
@@ -2754,7 +2754,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {1,7,11,13},
 		["a_size"] = {2048,3168},
@@ -2763,7 +2763,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {1,7,11,13},
 		["a_size"] = {2048,3168},
@@ -2772,7 +2772,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {1,7,11,13},
 		["a_size"] = {2048,3168},
@@ -2781,7 +2781,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {1,7,11,13},
 		["a_size"] = {2048,3168},
@@ -2790,7 +2790,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {22,5,0,5},
 		["a_size"] = {2048,3168},
@@ -2799,7 +2799,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {22,4,0,2},
 		["a_size"] = {2048,3168},
@@ -2808,7 +2808,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {38,18,0,0},
 		["a_size"] = {2048,3168},
@@ -2817,7 +2817,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {38,18,0,0},
 		["a_size"] = {2048,3168},
@@ -2826,7 +2826,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {38,18,0,0},
 		["a_size"] = {2048,3168},
@@ -2835,7 +2835,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {37,62,1,0},
 		["a_size"] = {2048,3168},
@@ -2844,7 +2844,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {41,42,1,0},
 		["a_size"] = {2048,3168},
@@ -2853,7 +2853,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {42,42,0,0},
 		["a_size"] = {2048,3168},
@@ -2862,7 +2862,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {23,52,27,8},
 		["a_size"] = {2048,3168},
@@ -2871,7 +2871,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {23,52,27,8},
 		["a_size"] = {2048,3168},
@@ -2880,7 +2880,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {21,54,27,8},
 		["a_size"] = {2048,3168},
@@ -2889,7 +2889,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {21,54,27,8},
 		["a_size"] = {2048,3168},
@@ -2898,7 +2898,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {18,54,28,8},
 		["a_size"] = {2048,3168},
@@ -2907,7 +2907,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {18,54,28,8},
 		["a_size"] = {2048,3168},
@@ -2916,7 +2916,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {20,52,28,8},
 		["a_size"] = {2048,3168},
@@ -2925,7 +2925,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {10,75,28,9},
 		["a_size"] = {2048,3168},
@@ -2934,7 +2934,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {10,75,28,9},
 		["a_size"] = {2048,3168},
@@ -2943,7 +2943,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {25,57,33,9},
 		["a_size"] = {2048,3168},
@@ -2952,7 +2952,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {25,57,33,9},
 		["a_size"] = {2048,3168},
@@ -2961,7 +2961,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {26,57,28,9},
 		["a_size"] = {2048,3168},
@@ -2970,7 +2970,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {26,56,28,2},
 		["a_size"] = {2048,3168},
@@ -2979,7 +2979,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {12,62,28,2},
 		["a_size"] = {2048,3168},
@@ -2988,7 +2988,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {13,62,33,6},
 		["a_size"] = {2048,3168},
@@ -2997,7 +2997,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {12,66,30,8},
 		["a_size"] = {2048,3168},
@@ -3006,7 +3006,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {14,66,34,12},
 		["a_size"] = {2048,3168},
@@ -3015,7 +3015,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {12,55,40,17},
 		["a_size"] = {2048,3168},
@@ -3024,7 +3024,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {12,55,40,17},
 		["a_size"] = {2048,3168},
@@ -3033,7 +3033,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0097"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,45,41,9},
 		["a_size"] = {2048,3168},
@@ -3042,7 +3042,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0098"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {3,45,41,9},
 		["a_size"] = {2048,3168},
@@ -3051,7 +3051,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0099"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {5,40,41,10},
 		["a_size"] = {2048,3168},
@@ -3060,7 +3060,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0100"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {5,38,41,10},
 		["a_size"] = {2048,3168},
@@ -3069,7 +3069,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0101"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {6,38,42,10},
 		["a_size"] = {2048,3168},
@@ -3078,7 +3078,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0102"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {6,42,42,10},
 		["a_size"] = {2048,3168},
@@ -3087,7 +3087,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0103"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {6,40,44,10},
 		["a_size"] = {2048,3168},
@@ -3096,7 +3096,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0104"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {6,40,44,10},
 		["a_size"] = {2048,3168},
@@ -3105,7 +3105,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0105"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {8,38,46,10},
 		["a_size"] = {2048,3168},
@@ -3114,7 +3114,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0106"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {8,38,46,10},
 		["a_size"] = {2048,3168},
@@ -3123,7 +3123,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0107"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {7,38,45,10},
 		["a_size"] = {2048,3168},
@@ -3132,7 +3132,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0108"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {7,38,45,10},
 		["a_size"] = {2048,3168},
@@ -3141,7 +3141,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0109"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {9,40,47,8},
 		["a_size"] = {2048,3168},
@@ -3150,7 +3150,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0110"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {9,40,45,10},
 		["a_size"] = {2048,3168},
@@ -3159,7 +3159,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0111"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {12,40,44,10},
 		["a_size"] = {2048,3168},
@@ -3168,7 +3168,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0112"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {11,39,43,9},
 		["a_size"] = {2048,3168},
@@ -3177,7 +3177,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0113"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {14,41,42,7},
 		["a_size"] = {2048,3168},
@@ -3186,7 +3186,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0114"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {13,41,41,7},
 		["a_size"] = {2048,3168},
@@ -3195,7 +3195,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0115"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {18,97,40,7},
 		["a_size"] = {2048,3168},
@@ -3204,7 +3204,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_0116"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {19,97,39,7},
 		["a_size"] = {2048,3168},
@@ -3213,7 +3213,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0117"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {19,97,39,7},
 		["a_size"] = {2048,3168},
@@ -3222,7 +3222,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0118"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {19,97,39,7},
 		["a_size"] = {2048,3168},
@@ -3231,7 +3231,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_0119"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {19,97,39,7},
 		["a_size"] = {2048,3168},
@@ -3240,7 +3240,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,6,0,0},
 		["a_size"] = {2048,3168},
@@ -3249,7 +3249,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,6,0,0},
 		["a_size"] = {2048,3168},
@@ -3258,7 +3258,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,3,0,5},
 		["a_size"] = {2048,3168},
@@ -3267,7 +3267,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,3,0,5},
 		["a_size"] = {2048,3168},
@@ -3276,7 +3276,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,2,0,12},
 		["a_size"] = {2048,3168},
@@ -3285,7 +3285,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,2,0,12},
 		["a_size"] = {2048,3168},
@@ -3294,7 +3294,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,1,0,17},
 		["a_size"] = {2048,3168},
@@ -3303,7 +3303,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,1,0,17},
 		["a_size"] = {2048,3168},
@@ -3312,7 +3312,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,0,22},
 		["a_size"] = {2048,3168},
@@ -3321,7 +3321,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,0,22},
 		["a_size"] = {2048,3168},
@@ -3330,7 +3330,7 @@ return {
 		["textureRotated"] = false
 	},
 	["corrosive_soul_fx_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,2,26},
 		["a_size"] = {2048,3168},
@@ -3339,7 +3339,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,2,26},
 		["a_size"] = {2048,3168},
@@ -3348,7 +3348,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,4,30},
 		["a_size"] = {2048,3168},
@@ -3357,7 +3357,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_fx_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {29,41},
 		["trim"] = {0,0,4,30},
 		["a_size"] = {2048,3168},
@@ -3366,7 +3366,7 @@ return {
 		["textureRotated"] = true
 	},
 	["corrosive_soul_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {174,144},
 		["trim"] = {36,112,32,10},
 		["a_size"] = {2048,3168},
@@ -3375,7 +3375,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,16,31,16},
 		["a_size"] = {2048,3168},
@@ -3384,7 +3384,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,16,31,16},
 		["a_size"] = {2048,3168},
@@ -3393,7 +3393,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,14,30,16},
 		["a_size"] = {2048,3168},
@@ -3402,7 +3402,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,14,30,16},
 		["a_size"] = {2048,3168},
@@ -3411,7 +3411,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,12,30,16},
 		["a_size"] = {2048,3168},
@@ -3420,7 +3420,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,12,30,16},
 		["a_size"] = {2048,3168},
@@ -3429,7 +3429,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {2,10,30,16},
 		["a_size"] = {2048,3168},
@@ -3438,7 +3438,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {2,10,30,16},
 		["a_size"] = {2048,3168},
@@ -3447,7 +3447,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,10,30,16},
 		["a_size"] = {2048,3168},
@@ -3456,7 +3456,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,10,30,16},
 		["a_size"] = {2048,3168},
@@ -3465,7 +3465,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3474,7 +3474,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3483,7 +3483,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3492,7 +3492,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3501,7 +3501,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,6,29,16},
 		["a_size"] = {2048,3168},
@@ -3510,7 +3510,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,6,29,16},
 		["a_size"] = {2048,3168},
@@ -3519,7 +3519,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3528,7 +3528,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3537,7 +3537,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3546,7 +3546,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,8,29,16},
 		["a_size"] = {2048,3168},
@@ -3555,7 +3555,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,10,28,16},
 		["a_size"] = {2048,3168},
@@ -3564,7 +3564,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,10,28,16},
 		["a_size"] = {2048,3168},
@@ -3573,7 +3573,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,12,29,16},
 		["a_size"] = {2048,3168},
@@ -3582,7 +3582,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,12,29,16},
 		["a_size"] = {2048,3168},
@@ -3591,7 +3591,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,12,29,16},
 		["a_size"] = {2048,3168},
@@ -3600,7 +3600,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,12,29,16},
 		["a_size"] = {2048,3168},
@@ -3609,7 +3609,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,14,30,16},
 		["a_size"] = {2048,3168},
@@ -3618,7 +3618,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {0,14,30,16},
 		["a_size"] = {2048,3168},
@@ -3627,7 +3627,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,14,31,16},
 		["a_size"] = {2048,3168},
@@ -3636,7 +3636,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {1,14,31,16},
 		["a_size"] = {2048,3168},
@@ -3645,7 +3645,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,16,30,10},
 		["a_size"] = {2048,3168},
@@ -3654,7 +3654,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,16,30,10},
 		["a_size"] = {2048,3168},
@@ -3663,7 +3663,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,15,29,9},
 		["a_size"] = {2048,3168},
@@ -3672,7 +3672,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,15,29,9},
 		["a_size"] = {2048,3168},
@@ -3681,7 +3681,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,14,28,8},
 		["a_size"] = {2048,3168},
@@ -3690,7 +3690,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,14,28,8},
 		["a_size"] = {2048,3168},
@@ -3699,7 +3699,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,12,32,10},
 		["a_size"] = {2048,3168},
@@ -3708,7 +3708,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,12,32,10},
 		["a_size"] = {2048,3168},
@@ -3717,7 +3717,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,11,31,9},
 		["a_size"] = {2048,3168},
@@ -3726,7 +3726,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,11,31,9},
 		["a_size"] = {2048,3168},
@@ -3735,7 +3735,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,10,27,8},
 		["a_size"] = {2048,3168},
@@ -3744,7 +3744,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,10,27,8},
 		["a_size"] = {2048,3168},
@@ -3753,7 +3753,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,10,26,10},
 		["a_size"] = {2048,3168},
@@ -3762,7 +3762,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,10,26,10},
 		["a_size"] = {2048,3168},
@@ -3771,7 +3771,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,7,30,9},
 		["a_size"] = {2048,3168},
@@ -3780,7 +3780,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,7,30,9},
 		["a_size"] = {2048,3168},
@@ -3789,7 +3789,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,8,25,8},
 		["a_size"] = {2048,3168},
@@ -3798,7 +3798,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,8,25,8},
 		["a_size"] = {2048,3168},
@@ -3807,7 +3807,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,10,26,10},
 		["a_size"] = {2048,3168},
@@ -3816,7 +3816,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,10,26,10},
 		["a_size"] = {2048,3168},
@@ -3825,7 +3825,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,11,29,9},
 		["a_size"] = {2048,3168},
@@ -3834,7 +3834,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {39,11,29,9},
 		["a_size"] = {2048,3168},
@@ -3843,7 +3843,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,12,26,8},
 		["a_size"] = {2048,3168},
@@ -3852,7 +3852,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {40,12,26,8},
 		["a_size"] = {2048,3168},
@@ -3861,7 +3861,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,14,31,10},
 		["a_size"] = {2048,3168},
@@ -3870,7 +3870,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,14,31,10},
 		["a_size"] = {2048,3168},
@@ -3879,7 +3879,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,15,33,9},
 		["a_size"] = {2048,3168},
@@ -3888,7 +3888,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,15,33,9},
 		["a_size"] = {2048,3168},
@@ -3897,7 +3897,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,16,29,8},
 		["a_size"] = {2048,3168},
@@ -3906,7 +3906,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {41,16,29,8},
 		["a_size"] = {2048,3168},
@@ -3915,7 +3915,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,17,27,21},
 		["a_size"] = {2048,3168},
@@ -3924,7 +3924,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,17,27,21},
 		["a_size"] = {2048,3168},
@@ -3933,7 +3933,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,15,27,21},
 		["a_size"] = {2048,3168},
@@ -3942,7 +3942,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,15,27,21},
 		["a_size"] = {2048,3168},
@@ -3951,7 +3951,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {31,13,27,21},
 		["a_size"] = {2048,3168},
@@ -3960,7 +3960,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {31,13,27,21},
 		["a_size"] = {2048,3168},
@@ -3969,7 +3969,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {38,12,26,22},
 		["a_size"] = {2048,3168},
@@ -3978,7 +3978,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {38,12,26,22},
 		["a_size"] = {2048,3168},
@@ -3987,7 +3987,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,11,26,21},
 		["a_size"] = {2048,3168},
@@ -3996,7 +3996,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,11,26,21},
 		["a_size"] = {2048,3168},
@@ -4005,7 +4005,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,9,26,21},
 		["a_size"] = {2048,3168},
@@ -4014,7 +4014,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,9,26,21},
 		["a_size"] = {2048,3168},
@@ -4023,7 +4023,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {34,8,26,22},
 		["a_size"] = {2048,3168},
@@ -4032,7 +4032,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {34,8,26,22},
 		["a_size"] = {2048,3168},
@@ -4041,7 +4041,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {34,9,26,21},
 		["a_size"] = {2048,3168},
@@ -4050,7 +4050,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {34,9,26,21},
 		["a_size"] = {2048,3168},
@@ -4059,7 +4059,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,9,25,21},
 		["a_size"] = {2048,3168},
@@ -4068,7 +4068,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,9,25,21},
 		["a_size"] = {2048,3168},
@@ -4077,7 +4077,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {31,10,25,22},
 		["a_size"] = {2048,3168},
@@ -4086,7 +4086,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {31,10,25,22},
 		["a_size"] = {2048,3168},
@@ -4095,7 +4095,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {32,11,24,21},
 		["a_size"] = {2048,3168},
@@ -4104,7 +4104,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {32,11,24,21},
 		["a_size"] = {2048,3168},
@@ -4113,7 +4113,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {37,13,25,21},
 		["a_size"] = {2048,3168},
@@ -4122,7 +4122,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {37,13,25,21},
 		["a_size"] = {2048,3168},
@@ -4131,7 +4131,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {37,14,25,22},
 		["a_size"] = {2048,3168},
@@ -4140,7 +4140,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {37,14,25,22},
 		["a_size"] = {2048,3168},
@@ -4149,7 +4149,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,15,26,21},
 		["a_size"] = {2048,3168},
@@ -4158,7 +4158,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,15,26,21},
 		["a_size"] = {2048,3168},
@@ -4167,7 +4167,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,17,27,21},
 		["a_size"] = {2048,3168},
@@ -4176,7 +4176,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {33,17,27,21},
 		["a_size"] = {2048,3168},
@@ -4185,7 +4185,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {17,15,31,13},
 		["a_size"] = {2048,3168},
@@ -4194,7 +4194,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {17,15,31,13},
 		["a_size"] = {2048,3168},
@@ -4203,7 +4203,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {17,23,33,13},
 		["a_size"] = {2048,3168},
@@ -4212,7 +4212,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {17,23,33,13},
 		["a_size"] = {2048,3168},
@@ -4221,7 +4221,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,7,36,13},
 		["a_size"] = {2048,3168},
@@ -4230,7 +4230,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,7,36,13},
 		["a_size"] = {2048,3168},
@@ -4239,7 +4239,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0097"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,23,36,13},
 		["a_size"] = {2048,3168},
@@ -4248,7 +4248,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0098"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,23,36,13},
 		["a_size"] = {2048,3168},
@@ -4257,7 +4257,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0099"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,7,36,13},
 		["a_size"] = {2048,3168},
@@ -4266,7 +4266,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0100"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {16,7,36,13},
 		["a_size"] = {2048,3168},
@@ -4275,7 +4275,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0101"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,11,36,13},
 		["a_size"] = {2048,3168},
@@ -4284,7 +4284,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0102"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,11,36,13},
 		["a_size"] = {2048,3168},
@@ -4293,7 +4293,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0103"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,0,35,14},
 		["a_size"] = {2048,3168},
@@ -4302,7 +4302,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0104"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,0,35,14},
 		["a_size"] = {2048,3168},
@@ -4311,7 +4311,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0105"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {14,2,40,16},
 		["a_size"] = {2048,3168},
@@ -4320,7 +4320,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0106"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {14,2,40,16},
 		["a_size"] = {2048,3168},
@@ -4329,7 +4329,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0107"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,4,47,16},
 		["a_size"] = {2048,3168},
@@ -4338,7 +4338,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0108"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,4,47,16},
 		["a_size"] = {2048,3168},
@@ -4347,7 +4347,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0109"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,4,51,16},
 		["a_size"] = {2048,3168},
@@ -4356,7 +4356,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0110"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,4,51,16},
 		["a_size"] = {2048,3168},
@@ -4365,7 +4365,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0111"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,2,63,16},
 		["a_size"] = {2048,3168},
@@ -4374,7 +4374,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0112"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {19,2,63,16},
 		["a_size"] = {2048,3168},
@@ -4383,7 +4383,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0113"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {18,0,66,16},
 		["a_size"] = {2048,3168},
@@ -4392,7 +4392,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0114"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {18,0,66,16},
 		["a_size"] = {2048,3168},
@@ -4401,7 +4401,7 @@ return {
 		["textureRotated"] = true
 	},
 	["ghost_0115"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4410,7 +4410,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0116"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4419,7 +4419,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0117"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4428,7 +4428,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0118"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4437,7 +4437,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0119"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4446,7 +4446,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0120"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4455,7 +4455,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0121"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4464,7 +4464,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_0122"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {20,79,64,15},
 		["a_size"] = {2048,3168},
@@ -4473,7 +4473,7 @@ return {
 		["textureRotated"] = false
 	},
 	["ghost_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {136,120},
 		["trim"] = {36,91,36,13},
 		["a_size"] = {2048,3168},
@@ -4482,7 +4482,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,44,40,26},
 		["a_size"] = {2048,3168},
@@ -4491,7 +4491,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,44,40,26},
 		["a_size"] = {2048,3168},
@@ -4500,7 +4500,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,39,26},
 		["a_size"] = {2048,3168},
@@ -4509,7 +4509,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,39,26},
 		["a_size"] = {2048,3168},
@@ -4518,7 +4518,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,48,40,26},
 		["a_size"] = {2048,3168},
@@ -4527,7 +4527,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,48,40,26},
 		["a_size"] = {2048,3168},
@@ -4536,7 +4536,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4545,7 +4545,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4554,7 +4554,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4563,7 +4563,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4572,7 +4572,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4581,7 +4581,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -4590,7 +4590,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,44,39,26},
 		["a_size"] = {2048,3168},
@@ -4599,7 +4599,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,44,39,26},
 		["a_size"] = {2048,3168},
@@ -4608,7 +4608,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,42,38,24},
 		["a_size"] = {2048,3168},
@@ -4617,7 +4617,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,42,38,24},
 		["a_size"] = {2048,3168},
@@ -4626,7 +4626,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,34,38,24},
 		["a_size"] = {2048,3168},
@@ -4635,7 +4635,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,34,38,24},
 		["a_size"] = {2048,3168},
@@ -4644,7 +4644,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,42,39,24},
 		["a_size"] = {2048,3168},
@@ -4653,7 +4653,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,42,39,24},
 		["a_size"] = {2048,3168},
@@ -4662,7 +4662,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,40,37,24},
 		["a_size"] = {2048,3168},
@@ -4671,7 +4671,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,40,37,24},
 		["a_size"] = {2048,3168},
@@ -4680,7 +4680,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,35,24},
 		["a_size"] = {2048,3168},
@@ -4689,7 +4689,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,35,24},
 		["a_size"] = {2048,3168},
@@ -4698,7 +4698,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,48,35,24},
 		["a_size"] = {2048,3168},
@@ -4707,7 +4707,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,48,35,24},
 		["a_size"] = {2048,3168},
@@ -4716,7 +4716,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,44,34,24},
 		["a_size"] = {2048,3168},
@@ -4725,7 +4725,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,44,34,24},
 		["a_size"] = {2048,3168},
@@ -4734,7 +4734,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,38,36,24},
 		["a_size"] = {2048,3168},
@@ -4743,7 +4743,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,38,36,24},
 		["a_size"] = {2048,3168},
@@ -4752,7 +4752,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,34,37,24},
 		["a_size"] = {2048,3168},
@@ -4761,7 +4761,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,34,37,24},
 		["a_size"] = {2048,3168},
@@ -4770,7 +4770,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,37,24},
 		["a_size"] = {2048,3168},
@@ -4779,7 +4779,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,37,24},
 		["a_size"] = {2048,3168},
@@ -4788,7 +4788,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,42,37,24},
 		["a_size"] = {2048,3168},
@@ -4797,7 +4797,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {27,42,37,24},
 		["a_size"] = {2048,3168},
@@ -4806,7 +4806,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,44,36,24},
 		["a_size"] = {2048,3168},
@@ -4815,7 +4815,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,44,36,24},
 		["a_size"] = {2048,3168},
@@ -4824,7 +4824,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,43,41,29},
 		["a_size"] = {2048,3168},
@@ -4833,7 +4833,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,43,41,29},
 		["a_size"] = {2048,3168},
@@ -4842,7 +4842,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,36,41,30},
 		["a_size"] = {2048,3168},
@@ -4851,7 +4851,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,36,41,30},
 		["a_size"] = {2048,3168},
@@ -4860,7 +4860,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {33,39,41,31},
 		["a_size"] = {2048,3168},
@@ -4869,7 +4869,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {33,39,41,31},
 		["a_size"] = {2048,3168},
@@ -4878,7 +4878,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,40,41,32},
 		["a_size"] = {2048,3168},
@@ -4887,7 +4887,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,40,41,32},
 		["a_size"] = {2048,3168},
@@ -4896,7 +4896,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,41,41,33},
 		["a_size"] = {2048,3168},
@@ -4905,7 +4905,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,41,41,33},
 		["a_size"] = {2048,3168},
@@ -4914,7 +4914,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,48,41,32},
 		["a_size"] = {2048,3168},
@@ -4923,7 +4923,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,48,41,32},
 		["a_size"] = {2048,3168},
@@ -4932,7 +4932,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,45,41,29},
 		["a_size"] = {2048,3168},
@@ -4941,7 +4941,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,45,41,29},
 		["a_size"] = {2048,3168},
@@ -4950,7 +4950,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,38,41,30},
 		["a_size"] = {2048,3168},
@@ -4959,7 +4959,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,38,41,30},
 		["a_size"] = {2048,3168},
@@ -4968,7 +4968,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,31,41,31},
 		["a_size"] = {2048,3168},
@@ -4977,7 +4977,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,31,41,31},
 		["a_size"] = {2048,3168},
@@ -4986,7 +4986,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,40,41,32},
 		["a_size"] = {2048,3168},
@@ -4995,7 +4995,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,40,41,32},
 		["a_size"] = {2048,3168},
@@ -5004,7 +5004,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,43,41,33},
 		["a_size"] = {2048,3168},
@@ -5013,7 +5013,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,43,41,33},
 		["a_size"] = {2048,3168},
@@ -5022,7 +5022,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,44,41,32},
 		["a_size"] = {2048,3168},
@@ -5031,7 +5031,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,44,41,32},
 		["a_size"] = {2048,3168},
@@ -5040,7 +5040,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,46,41,24},
 		["a_size"] = {2048,3168},
@@ -5049,7 +5049,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,46,41,24},
 		["a_size"] = {2048,3168},
@@ -5058,7 +5058,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,41,41,23},
 		["a_size"] = {2048,3168},
@@ -5067,7 +5067,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,41,41,23},
 		["a_size"] = {2048,3168},
@@ -5076,7 +5076,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {34,46,40,24},
 		["a_size"] = {2048,3168},
@@ -5085,7 +5085,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {34,46,40,24},
 		["a_size"] = {2048,3168},
@@ -5094,7 +5094,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,46,39,24},
 		["a_size"] = {2048,3168},
@@ -5103,7 +5103,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,46,39,24},
 		["a_size"] = {2048,3168},
@@ -5112,7 +5112,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {32,45,36,23},
 		["a_size"] = {2048,3168},
@@ -5121,7 +5121,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {32,45,36,23},
 		["a_size"] = {2048,3168},
@@ -5130,7 +5130,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,48,35,24},
 		["a_size"] = {2048,3168},
@@ -5139,7 +5139,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,48,35,24},
 		["a_size"] = {2048,3168},
@@ -5148,7 +5148,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,48,35,24},
 		["a_size"] = {2048,3168},
@@ -5157,7 +5157,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,48,35,24},
 		["a_size"] = {2048,3168},
@@ -5166,7 +5166,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,45,37,23},
 		["a_size"] = {2048,3168},
@@ -5175,7 +5175,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {35,45,37,23},
 		["a_size"] = {2048,3168},
@@ -5184,7 +5184,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {32,42,38,24},
 		["a_size"] = {2048,3168},
@@ -5193,7 +5193,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {32,42,38,24},
 		["a_size"] = {2048,3168},
@@ -5202,7 +5202,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,46,39,24},
 		["a_size"] = {2048,3168},
@@ -5211,7 +5211,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,46,39,24},
 		["a_size"] = {2048,3168},
@@ -5220,7 +5220,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,45,41,23},
 		["a_size"] = {2048,3168},
@@ -5229,7 +5229,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,45,41,23},
 		["a_size"] = {2048,3168},
@@ -5238,7 +5238,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,44,41,24},
 		["a_size"] = {2048,3168},
@@ -5247,7 +5247,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {31,44,41,24},
 		["a_size"] = {2048,3168},
@@ -5256,7 +5256,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,44,40,26},
 		["a_size"] = {2048,3168},
@@ -5265,7 +5265,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,44,40,26},
 		["a_size"] = {2048,3168},
@@ -5274,7 +5274,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {10,32,48,32},
 		["a_size"] = {2048,3168},
@@ -5283,7 +5283,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {10,32,48,32},
 		["a_size"] = {2048,3168},
@@ -5292,7 +5292,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {10,32,48,32},
 		["a_size"] = {2048,3168},
@@ -5301,7 +5301,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {10,32,48,32},
 		["a_size"] = {2048,3168},
@@ -5310,7 +5310,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {7,34,45,32},
 		["a_size"] = {2048,3168},
@@ -5319,7 +5319,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {7,34,45,32},
 		["a_size"] = {2048,3168},
@@ -5328,7 +5328,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {42,27,6,27},
 		["a_size"] = {2048,3168},
@@ -5337,7 +5337,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {42,27,6,27},
 		["a_size"] = {2048,3168},
@@ -5346,7 +5346,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0097"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {56,27,6,27},
 		["a_size"] = {2048,3168},
@@ -5355,7 +5355,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0098"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {56,27,6,27},
 		["a_size"] = {2048,3168},
@@ -5364,7 +5364,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0099"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,51,5,27},
 		["a_size"] = {2048,3168},
@@ -5373,7 +5373,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0100"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,51,5,27},
 		["a_size"] = {2048,3168},
@@ -5382,7 +5382,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0101"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,41,5,27},
 		["a_size"] = {2048,3168},
@@ -5391,7 +5391,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0102"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,41,5,27},
 		["a_size"] = {2048,3168},
@@ -5400,7 +5400,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0103"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,49,5,27},
 		["a_size"] = {2048,3168},
@@ -5409,7 +5409,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0104"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {57,49,5,27},
 		["a_size"] = {2048,3168},
@@ -5418,7 +5418,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0105"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {50,47,0,27},
 		["a_size"] = {2048,3168},
@@ -5427,7 +5427,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0106"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {50,47,0,27},
 		["a_size"] = {2048,3168},
@@ -5436,7 +5436,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0107"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {44,37,40,27},
 		["a_size"] = {2048,3168},
@@ -5445,7 +5445,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0108"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {44,37,40,27},
 		["a_size"] = {2048,3168},
@@ -5454,7 +5454,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0109"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,44,40,26},
 		["a_size"] = {2048,3168},
@@ -5463,7 +5463,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0110"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,25,29,29},
 		["a_size"] = {2048,3168},
@@ -5472,7 +5472,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0111"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,25,29,29},
 		["a_size"] = {2048,3168},
@@ -5481,7 +5481,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0112"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,15,29,29},
 		["a_size"] = {2048,3168},
@@ -5490,7 +5490,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0113"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,15,29,29},
 		["a_size"] = {2048,3168},
@@ -5499,7 +5499,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0114"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,15,32,29},
 		["a_size"] = {2048,3168},
@@ -5508,7 +5508,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0115"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {24,15,32,29},
 		["a_size"] = {2048,3168},
@@ -5517,7 +5517,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0116"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,16,33,28},
 		["a_size"] = {2048,3168},
@@ -5526,7 +5526,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0117"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,16,33,28},
 		["a_size"] = {2048,3168},
@@ -5535,7 +5535,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0118"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,20,34,28},
 		["a_size"] = {2048,3168},
@@ -5544,7 +5544,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0119"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,20,34,28},
 		["a_size"] = {2048,3168},
@@ -5553,7 +5553,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0120"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,32,34,28},
 		["a_size"] = {2048,3168},
@@ -5562,7 +5562,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0121"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,32,34,28},
 		["a_size"] = {2048,3168},
@@ -5571,7 +5571,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0122"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,32,37,16},
 		["a_size"] = {2048,3168},
@@ -5580,7 +5580,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0123"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,32,37,16},
 		["a_size"] = {2048,3168},
@@ -5589,7 +5589,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0124"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,44,37,16},
 		["a_size"] = {2048,3168},
@@ -5598,7 +5598,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0125"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {23,44,37,16},
 		["a_size"] = {2048,3168},
@@ -5607,7 +5607,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0126"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,44,36,16},
 		["a_size"] = {2048,3168},
@@ -5616,7 +5616,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0127"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,44,36,16},
 		["a_size"] = {2048,3168},
@@ -5625,7 +5625,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0128"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,62,36,16},
 		["a_size"] = {2048,3168},
@@ -5634,7 +5634,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0129"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,62,36,16},
 		["a_size"] = {2048,3168},
@@ -5643,7 +5643,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0130"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,76,36,16},
 		["a_size"] = {2048,3168},
@@ -5652,7 +5652,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0131"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {22,76,36,16},
 		["a_size"] = {2048,3168},
@@ -5661,7 +5661,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0132"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {52,79,46,23},
 		["a_size"] = {2048,3168},
@@ -5670,7 +5670,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0133"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {52,79,46,23},
 		["a_size"] = {2048,3168},
@@ -5679,7 +5679,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0134"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {55,44,51,28},
 		["a_size"] = {2048,3168},
@@ -5688,7 +5688,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0135"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {55,44,51,28},
 		["a_size"] = {2048,3168},
@@ -5697,7 +5697,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0136"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {53,29,49,29},
 		["a_size"] = {2048,3168},
@@ -5706,7 +5706,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0137"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {53,29,49,29},
 		["a_size"] = {2048,3168},
@@ -5715,7 +5715,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0138"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {49,17,37,31},
 		["a_size"] = {2048,3168},
@@ -5724,7 +5724,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0139"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {49,17,37,31},
 		["a_size"] = {2048,3168},
@@ -5733,7 +5733,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0140"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {49,19,37,31},
 		["a_size"] = {2048,3168},
@@ -5742,7 +5742,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0141"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {49,19,37,31},
 		["a_size"] = {2048,3168},
@@ -5751,7 +5751,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0142"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {51,14,39,32},
 		["a_size"] = {2048,3168},
@@ -5760,7 +5760,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0143"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {51,14,39,32},
 		["a_size"] = {2048,3168},
@@ -5769,7 +5769,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0144"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {45,12,41,30},
 		["a_size"] = {2048,3168},
@@ -5778,7 +5778,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0145"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {45,12,41,30},
 		["a_size"] = {2048,3168},
@@ -5787,7 +5787,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0146"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {29,17,39,27},
 		["a_size"] = {2048,3168},
@@ -5796,7 +5796,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0147"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {29,17,39,27},
 		["a_size"] = {2048,3168},
@@ -5805,7 +5805,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0148"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {21,20,31,28},
 		["a_size"] = {2048,3168},
@@ -5814,7 +5814,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0149"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {21,20,31,28},
 		["a_size"] = {2048,3168},
@@ -5823,7 +5823,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0150"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,34,42,26},
 		["a_size"] = {2048,3168},
@@ -5832,7 +5832,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0151"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {28,34,42,26},
 		["a_size"] = {2048,3168},
@@ -5841,7 +5841,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0152"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,39,26},
 		["a_size"] = {2048,3168},
@@ -5850,7 +5850,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0153"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {25,42,39,26},
 		["a_size"] = {2048,3168},
@@ -5859,7 +5859,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0154"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,48,40,26},
 		["a_size"] = {2048,3168},
@@ -5868,7 +5868,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0155"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,48,40,26},
 		["a_size"] = {2048,3168},
@@ -5877,7 +5877,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_0156"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -5886,7 +5886,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_0157"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {26,46,40,26},
 		["a_size"] = {2048,3168},
@@ -5895,7 +5895,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_modifier_damage_fx_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,12,8,0},
 		["a_size"] = {2048,3168},
@@ -5904,7 +5904,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,10,8,0},
 		["a_size"] = {2048,3168},
@@ -5913,7 +5913,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,10,8,0},
 		["a_size"] = {2048,3168},
@@ -5922,7 +5922,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,8,8,0},
 		["a_size"] = {2048,3168},
@@ -5931,7 +5931,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,8,8,0},
 		["a_size"] = {2048,3168},
@@ -5940,7 +5940,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,8,8,0},
 		["a_size"] = {2048,3168},
@@ -5949,7 +5949,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,8,8,0},
 		["a_size"] = {2048,3168},
@@ -5958,7 +5958,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,6,8,0},
 		["a_size"] = {2048,3168},
@@ -5967,7 +5967,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,6,8,0},
 		["a_size"] = {2048,3168},
@@ -5976,7 +5976,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,6,8,0},
 		["a_size"] = {2048,3168},
@@ -5985,7 +5985,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_modifier_damage_fx_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,6,8,0},
 		["a_size"] = {2048,3168},
@@ -5994,7 +5994,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,14,8,0},
 		["a_size"] = {2048,3168},
@@ -6003,7 +6003,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,14,8,0},
 		["a_size"] = {2048,3168},
@@ -6012,7 +6012,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_modifier_damage_fx_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,14,8,0},
 		["a_size"] = {2048,3168},
@@ -6021,7 +6021,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,12,8,0},
 		["a_size"] = {2048,3168},
@@ -6030,7 +6030,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,12,8,0},
 		["a_size"] = {2048,3168},
@@ -6039,7 +6039,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,12,8,0},
 		["a_size"] = {2048,3168},
@@ -6048,7 +6048,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,16,8,0},
 		["a_size"] = {2048,3168},
@@ -6057,7 +6057,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,18,8,0},
 		["a_size"] = {2048,3168},
@@ -6066,7 +6066,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_modifier_damage_fx_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,18,8,0},
 		["a_size"] = {2048,3168},
@@ -6075,7 +6075,7 @@ return {
 		["textureRotated"] = true
 	},
 	["haunted_skeleton_modifier_damage_fx_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,16,8,0},
 		["a_size"] = {2048,3168},
@@ -6084,7 +6084,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,16,8,0},
 		["a_size"] = {2048,3168},
@@ -6093,7 +6093,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,16,8,0},
 		["a_size"] = {2048,3168},
@@ -6102,7 +6102,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_modifier_damage_fx_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {90,120},
 		["trim"] = {12,14,8,0},
 		["a_size"] = {2048,3168},
@@ -6111,7 +6111,7 @@ return {
 		["textureRotated"] = false
 	},
 	["haunted_skeleton_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {140,140},
 		["trim"] = {48,99,48,29},
 		["a_size"] = {2048,3168},
@@ -6120,7 +6120,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -6129,7 +6129,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -6138,7 +6138,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,49,50,27},
 		["a_size"] = {2048,3168},
@@ -6147,7 +6147,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,49,50,27},
 		["a_size"] = {2048,3168},
@@ -6156,7 +6156,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,52,49,28},
 		["a_size"] = {2048,3168},
@@ -6165,7 +6165,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,52,49,28},
 		["a_size"] = {2048,3168},
@@ -6174,7 +6174,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,49,49,31},
 		["a_size"] = {2048,3168},
@@ -6183,7 +6183,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,49,49,31},
 		["a_size"] = {2048,3168},
@@ -6192,7 +6192,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,44,49,34},
 		["a_size"] = {2048,3168},
@@ -6201,7 +6201,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,44,49,34},
 		["a_size"] = {2048,3168},
@@ -6210,7 +6210,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,44,50,38},
 		["a_size"] = {2048,3168},
@@ -6219,7 +6219,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,44,50,38},
 		["a_size"] = {2048,3168},
@@ -6228,7 +6228,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,42,52,40},
 		["a_size"] = {2048,3168},
@@ -6237,7 +6237,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,42,52,40},
 		["a_size"] = {2048,3168},
@@ -6246,7 +6246,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,42,53,38},
 		["a_size"] = {2048,3168},
@@ -6255,7 +6255,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,42,53,38},
 		["a_size"] = {2048,3168},
@@ -6264,7 +6264,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,43,55,33},
 		["a_size"] = {2048,3168},
@@ -6273,7 +6273,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,43,55,33},
 		["a_size"] = {2048,3168},
@@ -6282,7 +6282,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {72,52,56,30},
 		["a_size"] = {2048,3168},
@@ -6291,7 +6291,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {72,52,56,30},
 		["a_size"] = {2048,3168},
@@ -6300,7 +6300,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,53,55,29},
 		["a_size"] = {2048,3168},
@@ -6309,7 +6309,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,53,55,29},
 		["a_size"] = {2048,3168},
@@ -6318,7 +6318,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,51,53,27},
 		["a_size"] = {2048,3168},
@@ -6327,7 +6327,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,51,53,27},
 		["a_size"] = {2048,3168},
@@ -6336,7 +6336,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,32},
 		["a_size"] = {2048,3168},
@@ -6345,7 +6345,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,32},
 		["a_size"] = {2048,3168},
@@ -6354,7 +6354,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,49,67,33},
 		["a_size"] = {2048,3168},
@@ -6363,7 +6363,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,49,67,33},
 		["a_size"] = {2048,3168},
@@ -6372,7 +6372,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,34},
 		["a_size"] = {2048,3168},
@@ -6381,7 +6381,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,34},
 		["a_size"] = {2048,3168},
@@ -6390,7 +6390,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,50,67,38},
 		["a_size"] = {2048,3168},
@@ -6399,7 +6399,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,50,67,38},
 		["a_size"] = {2048,3168},
@@ -6408,7 +6408,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,45,67,41},
 		["a_size"] = {2048,3168},
@@ -6417,7 +6417,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,45,67,41},
 		["a_size"] = {2048,3168},
@@ -6426,7 +6426,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,41,67,43},
 		["a_size"] = {2048,3168},
@@ -6435,7 +6435,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,41,67,43},
 		["a_size"] = {2048,3168},
@@ -6444,7 +6444,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,40,67,44},
 		["a_size"] = {2048,3168},
@@ -6453,7 +6453,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,40,67,44},
 		["a_size"] = {2048,3168},
@@ -6462,7 +6462,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,42,67,42},
 		["a_size"] = {2048,3168},
@@ -6471,7 +6471,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,42,67,42},
 		["a_size"] = {2048,3168},
@@ -6480,7 +6480,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,43,67,39},
 		["a_size"] = {2048,3168},
@@ -6489,7 +6489,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,43,67,39},
 		["a_size"] = {2048,3168},
@@ -6498,7 +6498,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,48,67,38},
 		["a_size"] = {2048,3168},
@@ -6507,7 +6507,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,48,67,38},
 		["a_size"] = {2048,3168},
@@ -6516,7 +6516,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,52,67,36},
 		["a_size"] = {2048,3168},
@@ -6525,7 +6525,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,52,67,36},
 		["a_size"] = {2048,3168},
@@ -6534,7 +6534,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,53,67,33},
 		["a_size"] = {2048,3168},
@@ -6543,7 +6543,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,53,67,33},
 		["a_size"] = {2048,3168},
@@ -6552,7 +6552,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,32},
 		["a_size"] = {2048,3168},
@@ -6561,7 +6561,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,54,67,32},
 		["a_size"] = {2048,3168},
@@ -6570,7 +6570,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,51,78,31},
 		["a_size"] = {2048,3168},
@@ -6579,7 +6579,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,51,78,31},
 		["a_size"] = {2048,3168},
@@ -6588,7 +6588,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,56,78,34},
 		["a_size"] = {2048,3168},
@@ -6597,7 +6597,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,56,78,34},
 		["a_size"] = {2048,3168},
@@ -6606,7 +6606,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,49,78,37},
 		["a_size"] = {2048,3168},
@@ -6615,7 +6615,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,49,78,37},
 		["a_size"] = {2048,3168},
@@ -6624,7 +6624,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,45,78,41},
 		["a_size"] = {2048,3168},
@@ -6633,7 +6633,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,45,78,41},
 		["a_size"] = {2048,3168},
@@ -6642,7 +6642,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,41,78,43},
 		["a_size"] = {2048,3168},
@@ -6651,7 +6651,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,41,78,43},
 		["a_size"] = {2048,3168},
@@ -6660,7 +6660,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,41,78,43},
 		["a_size"] = {2048,3168},
@@ -6669,7 +6669,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,41,78,43},
 		["a_size"] = {2048,3168},
@@ -6678,7 +6678,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,42,78,42},
 		["a_size"] = {2048,3168},
@@ -6687,7 +6687,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,42,78,42},
 		["a_size"] = {2048,3168},
@@ -6696,7 +6696,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,45,77,39},
 		["a_size"] = {2048,3168},
@@ -6705,7 +6705,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,45,77,39},
 		["a_size"] = {2048,3168},
@@ -6714,7 +6714,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,48,77,38},
 		["a_size"] = {2048,3168},
@@ -6723,7 +6723,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,48,77,38},
 		["a_size"] = {2048,3168},
@@ -6732,7 +6732,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,53,77,35},
 		["a_size"] = {2048,3168},
@@ -6741,7 +6741,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {63,53,77,35},
 		["a_size"] = {2048,3168},
@@ -6750,7 +6750,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,55,78,33},
 		["a_size"] = {2048,3168},
@@ -6759,7 +6759,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,55,78,33},
 		["a_size"] = {2048,3168},
@@ -6768,7 +6768,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,58,78,30},
 		["a_size"] = {2048,3168},
@@ -6777,7 +6777,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,58,78,30},
 		["a_size"] = {2048,3168},
@@ -6786,7 +6786,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {64,51,78,31},
 		["a_size"] = {2048,3168},
@@ -6795,7 +6795,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,54,60,24},
 		["a_size"] = {2048,3168},
@@ -6804,7 +6804,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,54,60,24},
 		["a_size"] = {2048,3168},
@@ -6813,7 +6813,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,62,63,24},
 		["a_size"] = {2048,3168},
@@ -6822,7 +6822,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,62,63,24},
 		["a_size"] = {2048,3168},
@@ -6831,7 +6831,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,53,66,29},
 		["a_size"] = {2048,3168},
@@ -6840,7 +6840,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,53,66,29},
 		["a_size"] = {2048,3168},
@@ -6849,7 +6849,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {59,47,73,39},
 		["a_size"] = {2048,3168},
@@ -6858,7 +6858,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {59,47,73,39},
 		["a_size"] = {2048,3168},
@@ -6867,7 +6867,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {56,43,74,41},
 		["a_size"] = {2048,3168},
@@ -6876,7 +6876,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {56,43,74,41},
 		["a_size"] = {2048,3168},
@@ -6885,7 +6885,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {57,46,75,42},
 		["a_size"] = {2048,3168},
@@ -6894,7 +6894,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {57,46,75,42},
 		["a_size"] = {2048,3168},
@@ -6903,7 +6903,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {56,43,76,43},
 		["a_size"] = {2048,3168},
@@ -6912,7 +6912,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {56,43,76,43},
 		["a_size"] = {2048,3168},
@@ -6921,7 +6921,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {61,51,63,37},
 		["a_size"] = {2048,3168},
@@ -6930,7 +6930,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {61,51,63,37},
 		["a_size"] = {2048,3168},
@@ -6939,7 +6939,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {68,47,24,31},
 		["a_size"] = {2048,3168},
@@ -6948,7 +6948,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {68,47,24,31},
 		["a_size"] = {2048,3168},
@@ -6957,7 +6957,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,52,38,34},
 		["a_size"] = {2048,3168},
@@ -6966,7 +6966,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,52,38,34},
 		["a_size"] = {2048,3168},
@@ -6975,7 +6975,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,53,35,33},
 		["a_size"] = {2048,3168},
@@ -6984,7 +6984,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0097"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,53,35,33},
 		["a_size"] = {2048,3168},
@@ -6993,7 +6993,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0098"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {85,53,41,31},
 		["a_size"] = {2048,3168},
@@ -7002,7 +7002,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0099"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {85,53,41,31},
 		["a_size"] = {2048,3168},
@@ -7011,7 +7011,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0100"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {81,57,45,29},
 		["a_size"] = {2048,3168},
@@ -7020,7 +7020,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0101"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {81,57,45,29},
 		["a_size"] = {2048,3168},
@@ -7029,7 +7029,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0102"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,44,27},
 		["a_size"] = {2048,3168},
@@ -7038,7 +7038,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0103"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,44,27},
 		["a_size"] = {2048,3168},
@@ -7047,7 +7047,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0104"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,53,48,23},
 		["a_size"] = {2048,3168},
@@ -7056,7 +7056,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0105"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,53,48,23},
 		["a_size"] = {2048,3168},
@@ -7065,7 +7065,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0106"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,62,42,24},
 		["a_size"] = {2048,3168},
@@ -7074,7 +7074,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0107"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,62,42,24},
 		["a_size"] = {2048,3168},
@@ -7083,7 +7083,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0108"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,56,44,32},
 		["a_size"] = {2048,3168},
@@ -7092,7 +7092,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0109"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,56,44,32},
 		["a_size"] = {2048,3168},
@@ -7101,7 +7101,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0110"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,29,44,35},
 		["a_size"] = {2048,3168},
@@ -7110,7 +7110,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0111"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,29,44,35},
 		["a_size"] = {2048,3168},
@@ -7119,7 +7119,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0112"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,24,46,38},
 		["a_size"] = {2048,3168},
@@ -7128,7 +7128,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0113"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,24,46,38},
 		["a_size"] = {2048,3168},
@@ -7137,7 +7137,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0114"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,43,40},
 		["a_size"] = {2048,3168},
@@ -7146,7 +7146,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0115"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,43,40},
 		["a_size"] = {2048,3168},
@@ -7155,7 +7155,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0116"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {68,17,44,39},
 		["a_size"] = {2048,3168},
@@ -7164,7 +7164,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0117"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,19,45,39},
 		["a_size"] = {2048,3168},
@@ -7173,7 +7173,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0118"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,15,45,41},
 		["a_size"] = {2048,3168},
@@ -7182,7 +7182,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0119"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,15,45,41},
 		["a_size"] = {2048,3168},
@@ -7191,7 +7191,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0120"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7200,7 +7200,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0121"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7209,7 +7209,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0122"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7218,7 +7218,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0123"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7227,7 +7227,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0124"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7236,7 +7236,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0125"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7245,7 +7245,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0126"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7254,7 +7254,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0127"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,40},
 		["a_size"] = {2048,3168},
@@ -7263,7 +7263,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0128"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,21,45,39},
 		["a_size"] = {2048,3168},
@@ -7272,7 +7272,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0129"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,21,45,39},
 		["a_size"] = {2048,3168},
@@ -7281,7 +7281,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0130"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,43,51,33},
 		["a_size"] = {2048,3168},
@@ -7290,7 +7290,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0131"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,43,51,33},
 		["a_size"] = {2048,3168},
@@ -7299,7 +7299,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0132"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,50,50,32},
 		["a_size"] = {2048,3168},
@@ -7308,7 +7308,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0133"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,50,50,32},
 		["a_size"] = {2048,3168},
@@ -7317,7 +7317,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0134"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,54,50,28},
 		["a_size"] = {2048,3168},
@@ -7326,7 +7326,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0135"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,54,50,28},
 		["a_size"] = {2048,3168},
@@ -7335,7 +7335,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0136"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,60,52,24},
 		["a_size"] = {2048,3168},
@@ -7344,7 +7344,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0137"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,60,52,24},
 		["a_size"] = {2048,3168},
@@ -7353,7 +7353,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0138"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,58,51,26},
 		["a_size"] = {2048,3168},
@@ -7362,7 +7362,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0139"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,58,51,26},
 		["a_size"] = {2048,3168},
@@ -7371,7 +7371,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0140"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -7380,7 +7380,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0141"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -7389,7 +7389,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0142"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,53,48,23},
 		["a_size"] = {2048,3168},
@@ -7398,7 +7398,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0143"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,53,48,23},
 		["a_size"] = {2048,3168},
@@ -7407,7 +7407,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0144"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,62,42,24},
 		["a_size"] = {2048,3168},
@@ -7416,7 +7416,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0145"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,62,42,24},
 		["a_size"] = {2048,3168},
@@ -7425,7 +7425,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0146"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,56,44,32},
 		["a_size"] = {2048,3168},
@@ -7434,7 +7434,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0147"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {74,56,44,32},
 		["a_size"] = {2048,3168},
@@ -7443,7 +7443,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0148"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,29,44,35},
 		["a_size"] = {2048,3168},
@@ -7452,7 +7452,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0149"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,29,44,35},
 		["a_size"] = {2048,3168},
@@ -7461,7 +7461,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0150"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,24,28,38},
 		["a_size"] = {2048,3168},
@@ -7470,7 +7470,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0151"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,24,28,38},
 		["a_size"] = {2048,3168},
@@ -7479,7 +7479,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0152"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,15,40},
 		["a_size"] = {2048,3168},
@@ -7488,7 +7488,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0153"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,15,40},
 		["a_size"] = {2048,3168},
@@ -7497,7 +7497,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0154"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,17,25,39},
 		["a_size"] = {2048,3168},
@@ -7506,7 +7506,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0155"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,19,25,39},
 		["a_size"] = {2048,3168},
@@ -7515,7 +7515,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0156"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,23,18},
 		["a_size"] = {2048,3168},
@@ -7524,7 +7524,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0157"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,23,18},
 		["a_size"] = {2048,3168},
@@ -7533,7 +7533,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0158"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,19,23,17},
 		["a_size"] = {2048,3168},
@@ -7542,7 +7542,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0159"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,19,23,17},
 		["a_size"] = {2048,3168},
@@ -7551,7 +7551,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0160"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {68,18,26,18},
 		["a_size"] = {2048,3168},
@@ -7560,7 +7560,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0161"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {68,18,26,18},
 		["a_size"] = {2048,3168},
@@ -7569,7 +7569,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0162"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,22},
 		["a_size"] = {2048,3168},
@@ -7578,7 +7578,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0163"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,18,45,22},
 		["a_size"] = {2048,3168},
@@ -7587,7 +7587,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0164"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,21,42,23},
 		["a_size"] = {2048,3168},
@@ -7596,7 +7596,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0165"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,21,42,23},
 		["a_size"] = {2048,3168},
@@ -7605,7 +7605,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0166"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,37,29,33},
 		["a_size"] = {2048,3168},
@@ -7614,7 +7614,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0167"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,37,29,33},
 		["a_size"] = {2048,3168},
@@ -7623,7 +7623,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0168"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,36,39,32},
 		["a_size"] = {2048,3168},
@@ -7632,7 +7632,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0169"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {75,36,39,32},
 		["a_size"] = {2048,3168},
@@ -7641,7 +7641,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0170"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,55,36,23},
 		["a_size"] = {2048,3168},
@@ -7650,7 +7650,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0171"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {78,55,36,23},
 		["a_size"] = {2048,3168},
@@ -7659,7 +7659,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0172"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,60,37,22},
 		["a_size"] = {2048,3168},
@@ -7668,7 +7668,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0173"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,60,37,22},
 		["a_size"] = {2048,3168},
@@ -7677,7 +7677,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0174"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,57,39,23},
 		["a_size"] = {2048,3168},
@@ -7686,7 +7686,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0175"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,57,39,23},
 		["a_size"] = {2048,3168},
@@ -7695,7 +7695,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0176"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -7704,7 +7704,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0177"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,55,52,27},
 		["a_size"] = {2048,3168},
@@ -7713,7 +7713,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0178"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,68,53,24},
 		["a_size"] = {2048,3168},
@@ -7722,7 +7722,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0179"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,68,53,24},
 		["a_size"] = {2048,3168},
@@ -7731,7 +7731,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0180"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,52,53,24},
 		["a_size"] = {2048,3168},
@@ -7740,7 +7740,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0181"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,52,53,24},
 		["a_size"] = {2048,3168},
@@ -7749,7 +7749,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0182"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,60,53,24},
 		["a_size"] = {2048,3168},
@@ -7758,7 +7758,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0183"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,60,53,24},
 		["a_size"] = {2048,3168},
@@ -7767,7 +7767,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0184"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,54,53,24},
 		["a_size"] = {2048,3168},
@@ -7776,7 +7776,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0185"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,54,53,24},
 		["a_size"] = {2048,3168},
@@ -7785,7 +7785,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0186"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,58,53,24},
 		["a_size"] = {2048,3168},
@@ -7794,7 +7794,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0187"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,40,56,24},
 		["a_size"] = {2048,3168},
@@ -7803,7 +7803,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0188"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {76,40,56,36},
 		["a_size"] = {2048,3168},
@@ -7812,7 +7812,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0189"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,38,57,48},
 		["a_size"] = {2048,3168},
@@ -7821,7 +7821,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0190"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,38,57,48},
 		["a_size"] = {2048,3168},
@@ -7830,7 +7830,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0191"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,38,61,52},
 		["a_size"] = {2048,3168},
@@ -7839,7 +7839,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0192"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {69,38,61,52},
 		["a_size"] = {2048,3168},
@@ -7848,7 +7848,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0193"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,38,62,56},
 		["a_size"] = {2048,3168},
@@ -7857,7 +7857,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0194"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,38,62,56},
 		["a_size"] = {2048,3168},
@@ -7866,7 +7866,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0195"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,40,61,62},
 		["a_size"] = {2048,3168},
@@ -7875,7 +7875,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0196"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {71,40,61,62},
 		["a_size"] = {2048,3168},
@@ -7884,7 +7884,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0197"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,53,70,65},
 		["a_size"] = {2048,3168},
@@ -7893,7 +7893,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0198"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {70,53,70,65},
 		["a_size"] = {2048,3168},
@@ -7902,7 +7902,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0199"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,52,73,22},
 		["a_size"] = {2048,3168},
@@ -7911,7 +7911,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0200"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {77,52,73,22},
 		["a_size"] = {2048,3168},
@@ -7920,7 +7920,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0201"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {83,49,83,47},
 		["a_size"] = {2048,3168},
@@ -7929,7 +7929,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0202"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {83,49,83,47},
 		["a_size"] = {2048,3168},
@@ -7938,7 +7938,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0203"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {86,55,84,55},
 		["a_size"] = {2048,3168},
@@ -7947,7 +7947,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0204"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {86,55,84,55},
 		["a_size"] = {2048,3168},
@@ -7956,7 +7956,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0205"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {84,94,96,56},
 		["a_size"] = {2048,3168},
@@ -7965,7 +7965,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0206"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {84,94,96,56},
 		["a_size"] = {2048,3168},
@@ -7974,7 +7974,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0207"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {80,94,96,50},
 		["a_size"] = {2048,3168},
@@ -7983,7 +7983,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0208"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {80,94,96,50},
 		["a_size"] = {2048,3168},
@@ -7992,7 +7992,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0209"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,87,93,45},
 		["a_size"] = {2048,3168},
@@ -8001,7 +8001,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0210"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,87,93,45},
 		["a_size"] = {2048,3168},
@@ -8010,7 +8010,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0211"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,88,91,40},
 		["a_size"] = {2048,3168},
@@ -8019,7 +8019,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0212"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,88,91,40},
 		["a_size"] = {2048,3168},
@@ -8028,7 +8028,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_0213"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,87,89,39},
 		["a_size"] = {2048,3168},
@@ -8037,7 +8037,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_0214"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {73,87,89,39},
 		["a_size"] = {2048,3168},
@@ -8046,7 +8046,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,116,0},
 		["a_size"] = {2048,3168},
@@ -8055,7 +8055,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_ray_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,116,0},
 		["a_size"] = {2048,3168},
@@ -8064,7 +8064,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_ray_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,1,6,3},
 		["a_size"] = {2048,3168},
@@ -8073,7 +8073,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,1,6,3},
 		["a_size"] = {2048,3168},
@@ -8082,7 +8082,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -8091,7 +8091,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -8100,7 +8100,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,2,0},
 		["a_size"] = {2048,3168},
@@ -8109,7 +8109,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,2,0},
 		["a_size"] = {2048,3168},
@@ -8118,7 +8118,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,6,0},
 		["a_size"] = {2048,3168},
@@ -8127,7 +8127,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {0,0,6,0},
 		["a_size"] = {2048,3168},
@@ -8136,7 +8136,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {6,3,10,5},
 		["a_size"] = {2048,3168},
@@ -8145,7 +8145,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {6,3,10,5},
 		["a_size"] = {2048,3168},
@@ -8154,7 +8154,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {122,2,12,6},
 		["a_size"] = {2048,3168},
@@ -8163,7 +8163,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,40},
 		["trim"] = {122,2,12,6},
 		["a_size"] = {2048,3168},
@@ -8172,7 +8172,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_hit_fx_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {10,9,4,9},
 		["a_size"] = {2048,3168},
@@ -8181,7 +8181,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_ray_hit_fx_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {10,9,4,9},
 		["a_size"] = {2048,3168},
@@ -8190,7 +8190,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_ray_hit_fx_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -8199,7 +8199,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_hit_fx_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {0,0,0,0},
 		["a_size"] = {2048,3168},
@@ -8208,7 +8208,7 @@ return {
 		["textureRotated"] = true
 	},
 	["lich_ray_hit_fx_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {0,0,0,2},
 		["a_size"] = {2048,3168},
@@ -8217,7 +8217,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_ray_hit_fx_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {57,64},
 		["trim"] = {0,0,0,2},
 		["a_size"] = {2048,3168},
@@ -8226,7 +8226,7 @@ return {
 		["textureRotated"] = false
 	},
 	["lich_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {210,170},
 		["trim"] = {82,134,88,24},
 		["a_size"] = {2048,3168},
@@ -8235,7 +8235,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,55,68,71},
 		["a_size"] = {2048,3168},
@@ -8244,7 +8244,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,55,68,71},
 		["a_size"] = {2048,3168},
@@ -8253,7 +8253,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {61,49,67,93},
 		["a_size"] = {2048,3168},
@@ -8262,7 +8262,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {61,49,67,93},
 		["a_size"] = {2048,3168},
@@ -8271,7 +8271,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {53,37,67,101},
 		["a_size"] = {2048,3168},
@@ -8280,7 +8280,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {53,37,67,101},
 		["a_size"] = {2048,3168},
@@ -8289,7 +8289,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,30,66,100},
 		["a_size"] = {2048,3168},
@@ -8298,7 +8298,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,30,66,100},
 		["a_size"] = {2048,3168},
@@ -8307,7 +8307,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,20,66,96},
 		["a_size"] = {2048,3168},
@@ -8316,7 +8316,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,20,66,96},
 		["a_size"] = {2048,3168},
@@ -8325,7 +8325,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {53,16,67,92},
 		["a_size"] = {2048,3168},
@@ -8334,7 +8334,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {53,16,67,92},
 		["a_size"] = {2048,3168},
@@ -8343,7 +8343,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,21,67,93},
 		["a_size"] = {2048,3168},
@@ -8352,7 +8352,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,21,67,93},
 		["a_size"] = {2048,3168},
@@ -8361,7 +8361,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {62,57,62,63},
 		["a_size"] = {2048,3168},
@@ -8370,7 +8370,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {62,57,62,63},
 		["a_size"] = {2048,3168},
@@ -8379,7 +8379,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,51,62,75},
 		["a_size"] = {2048,3168},
@@ -8388,7 +8388,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,51,62,75},
 		["a_size"] = {2048,3168},
@@ -8397,7 +8397,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {48,40,48,104},
 		["a_size"] = {2048,3168},
@@ -8406,7 +8406,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {48,40,48,104},
 		["a_size"] = {2048,3168},
@@ -8415,7 +8415,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,37,54,103},
 		["a_size"] = {2048,3168},
@@ -8424,7 +8424,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,37,54,103},
 		["a_size"] = {2048,3168},
@@ -8433,7 +8433,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,27,49,97},
 		["a_size"] = {2048,3168},
@@ -8442,7 +8442,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,27,49,97},
 		["a_size"] = {2048,3168},
@@ -8451,7 +8451,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,15,52,93},
 		["a_size"] = {2048,3168},
@@ -8460,7 +8460,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,15,52,93},
 		["a_size"] = {2048,3168},
@@ -8469,7 +8469,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,23,56,91},
 		["a_size"] = {2048,3168},
@@ -8478,7 +8478,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,23,56,91},
 		["a_size"] = {2048,3168},
@@ -8487,7 +8487,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {62,51,62,63},
 		["a_size"] = {2048,3168},
@@ -8496,7 +8496,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {62,51,62,63},
 		["a_size"] = {2048,3168},
@@ -8505,7 +8505,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,45,62,75},
 		["a_size"] = {2048,3168},
@@ -8514,7 +8514,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {64,45,62,75},
 		["a_size"] = {2048,3168},
@@ -8523,7 +8523,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {48,41,48,101},
 		["a_size"] = {2048,3168},
@@ -8532,7 +8532,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {48,41,48,101},
 		["a_size"] = {2048,3168},
@@ -8541,7 +8541,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,37,54,99},
 		["a_size"] = {2048,3168},
@@ -8550,7 +8550,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,37,54,99},
 		["a_size"] = {2048,3168},
@@ -8559,7 +8559,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,26,49,94},
 		["a_size"] = {2048,3168},
@@ -8568,7 +8568,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {49,26,49,94},
 		["a_size"] = {2048,3168},
@@ -8577,7 +8577,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,16,52,90},
 		["a_size"] = {2048,3168},
@@ -8586,7 +8586,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,16,52,90},
 		["a_size"] = {2048,3168},
@@ -8595,7 +8595,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,23,56,91},
 		["a_size"] = {2048,3168},
@@ -8604,7 +8604,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,23,56,91},
 		["a_size"] = {2048,3168},
@@ -8613,7 +8613,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {69,55,67,69},
 		["a_size"] = {2048,3168},
@@ -8622,7 +8622,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {69,55,67,69},
 		["a_size"] = {2048,3168},
@@ -8631,7 +8631,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,29,70,93},
 		["a_size"] = {2048,3168},
@@ -8640,7 +8640,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,29,70,93},
 		["a_size"] = {2048,3168},
@@ -8649,7 +8649,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {40,15,74,109},
 		["a_size"] = {2048,3168},
@@ -8658,7 +8658,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {40,15,74,109},
 		["a_size"] = {2048,3168},
@@ -8667,7 +8667,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {40,17,72,113},
 		["a_size"] = {2048,3168},
@@ -8676,7 +8676,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {40,17,72,113},
 		["a_size"] = {2048,3168},
@@ -8685,7 +8685,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {57,35,63,105},
 		["a_size"] = {2048,3168},
@@ -8694,7 +8694,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {57,35,63,105},
 		["a_size"] = {2048,3168},
@@ -8703,7 +8703,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,12,35,50},
 		["a_size"] = {2048,3168},
@@ -8712,7 +8712,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,12,35,50},
 		["a_size"] = {2048,3168},
@@ -8721,7 +8721,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,11,26,43},
 		["a_size"] = {2048,3168},
@@ -8730,7 +8730,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,11,26,43},
 		["a_size"] = {2048,3168},
@@ -8739,7 +8739,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,13,26,43},
 		["a_size"] = {2048,3168},
@@ -8748,7 +8748,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,14,15,36},
 		["a_size"] = {2048,3168},
@@ -8757,7 +8757,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,10,15,36},
 		["a_size"] = {2048,3168},
@@ -8766,7 +8766,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,11,18,37},
 		["a_size"] = {2048,3168},
@@ -8775,7 +8775,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,13,18,37},
 		["a_size"] = {2048,3168},
@@ -8784,7 +8784,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,14,26,46},
 		["a_size"] = {2048,3168},
@@ -8793,7 +8793,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,10,26,46},
 		["a_size"] = {2048,3168},
@@ -8802,7 +8802,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,10,35,50},
 		["a_size"] = {2048,3168},
@@ -8811,7 +8811,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,14,35,50},
 		["a_size"] = {2048,3168},
@@ -8820,7 +8820,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,13,26,43},
 		["a_size"] = {2048,3168},
@@ -8829,7 +8829,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,11,26,43},
 		["a_size"] = {2048,3168},
@@ -8838,7 +8838,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {44,11,26,43},
 		["a_size"] = {2048,3168},
@@ -8847,7 +8847,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,10,15,36},
 		["a_size"] = {2048,3168},
@@ -8856,7 +8856,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {43,10,15,36},
 		["a_size"] = {2048,3168},
@@ -8865,7 +8865,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {46,33,18,37},
 		["a_size"] = {2048,3168},
@@ -8874,7 +8874,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {62,35,62,1},
 		["a_size"] = {2048,3168},
@@ -8883,7 +8883,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,21,54,3},
 		["a_size"] = {2048,3168},
@@ -8892,7 +8892,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,21,54,3},
 		["a_size"] = {2048,3168},
@@ -8901,7 +8901,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,7,34,3},
 		["a_size"] = {2048,3168},
@@ -8910,7 +8910,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {50,9,36,3},
 		["a_size"] = {2048,3168},
@@ -8919,7 +8919,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,13,38,3},
 		["a_size"] = {2048,3168},
@@ -8928,7 +8928,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,15,38,3},
 		["a_size"] = {2048,3168},
@@ -8937,7 +8937,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {57,18,39,4},
 		["a_size"] = {2048,3168},
@@ -8946,7 +8946,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,18,40,4},
 		["a_size"] = {2048,3168},
@@ -8955,7 +8955,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,19,40,5},
 		["a_size"] = {2048,3168},
@@ -8964,7 +8964,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {56,19,40,5},
 		["a_size"] = {2048,3168},
@@ -8973,7 +8973,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {54,20,40,6},
 		["a_size"] = {2048,3168},
@@ -8982,7 +8982,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {55,22,41,6},
 		["a_size"] = {2048,3168},
@@ -8991,7 +8991,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,20,42,6},
 		["a_size"] = {2048,3168},
@@ -9000,7 +9000,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {52,20,46,6},
 		["a_size"] = {2048,3168},
@@ -9009,7 +9009,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {66,31,60,101},
 		["a_size"] = {2048,3168},
@@ -9018,7 +9018,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {66,31,60,101},
 		["a_size"] = {2048,3168},
@@ -9027,7 +9027,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9036,7 +9036,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9045,7 +9045,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9054,7 +9054,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9063,7 +9063,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9072,7 +9072,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9081,7 +9081,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0095"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9090,7 +9090,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_0096"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {0,0,195,195},
 		["a_size"] = {2048,3168},
@@ -9099,7 +9099,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {200,200},
 		["trim"] = {75,183,75,1},
 		["a_size"] = {2048,3168},
@@ -9108,7 +9108,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {13,13,13,13},
 		["a_size"] = {2048,3168},
@@ -9117,7 +9117,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {11,11,11,11},
 		["a_size"] = {2048,3168},
@@ -9126,7 +9126,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {11,10,11,10},
 		["a_size"] = {2048,3168},
@@ -9135,7 +9135,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_stun_modifier_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9144,7 +9144,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9153,7 +9153,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9162,7 +9162,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {17,17,17,17},
 		["a_size"] = {2048,3168},
@@ -9171,7 +9171,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {15,15,15,15},
 		["a_size"] = {2048,3168},
@@ -9180,7 +9180,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {13,13,13,13},
 		["a_size"] = {2048,3168},
@@ -9189,7 +9189,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {11,11,11,11},
 		["a_size"] = {2048,3168},
@@ -9198,7 +9198,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {11,10,11,10},
 		["a_size"] = {2048,3168},
@@ -9207,7 +9207,7 @@ return {
 		["textureRotated"] = true
 	},
 	["screecher_bat_stun_modifier_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9216,7 +9216,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9225,7 +9225,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {10,10,10,10},
 		["a_size"] = {2048,3168},
@@ -9234,7 +9234,7 @@ return {
 		["textureRotated"] = false
 	},
 	["screecher_bat_stun_modifier_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {92,92},
 		["trim"] = {15,15,15,15},
 		["a_size"] = {2048,3168},
@@ -9243,7 +9243,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0001"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,52,75,22},
 		["a_size"] = {2048,3168},
@@ -9252,7 +9252,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0002"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,54,78,30},
 		["a_size"] = {2048,3168},
@@ -9261,7 +9261,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0003"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,54,78,30},
 		["a_size"] = {2048,3168},
@@ -9270,7 +9270,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0004"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {96,57,76,21},
 		["a_size"] = {2048,3168},
@@ -9279,7 +9279,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0005"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {96,57,76,21},
 		["a_size"] = {2048,3168},
@@ -9288,7 +9288,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0006"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {97,66,77,20},
 		["a_size"] = {2048,3168},
@@ -9297,7 +9297,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0007"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {97,66,77,20},
 		["a_size"] = {2048,3168},
@@ -9306,7 +9306,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0008"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,60,78,22},
 		["a_size"] = {2048,3168},
@@ -9315,7 +9315,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0009"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,60,78,22},
 		["a_size"] = {2048,3168},
@@ -9324,7 +9324,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0010"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,51,80,27},
 		["a_size"] = {2048,3168},
@@ -9333,7 +9333,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0011"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,51,80,27},
 		["a_size"] = {2048,3168},
@@ -9342,7 +9342,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0012"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {96,55,78,21},
 		["a_size"] = {2048,3168},
@@ -9351,7 +9351,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0013"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {96,55,78,21},
 		["a_size"] = {2048,3168},
@@ -9360,7 +9360,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0014"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {98,67,78,19},
 		["a_size"] = {2048,3168},
@@ -9369,7 +9369,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0015"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {98,67,78,19},
 		["a_size"] = {2048,3168},
@@ -9378,7 +9378,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0016"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {94,61,78,19},
 		["a_size"] = {2048,3168},
@@ -9387,7 +9387,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0017"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,61,84,21},
 		["a_size"] = {2048,3168},
@@ -9396,7 +9396,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0018"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {85,52,87,24},
 		["a_size"] = {2048,3168},
@@ -9405,7 +9405,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0019"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {85,52,87,24},
 		["a_size"] = {2048,3168},
@@ -9414,7 +9414,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0020"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,46,86,32},
 		["a_size"] = {2048,3168},
@@ -9423,7 +9423,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0021"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,46,86,32},
 		["a_size"] = {2048,3168},
@@ -9432,7 +9432,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0022"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,49,86,25},
 		["a_size"] = {2048,3168},
@@ -9441,7 +9441,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0023"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,49,86,25},
 		["a_size"] = {2048,3168},
@@ -9450,7 +9450,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0024"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,61,84,21},
 		["a_size"] = {2048,3168},
@@ -9459,7 +9459,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0025"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,61,84,21},
 		["a_size"] = {2048,3168},
@@ -9468,7 +9468,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0026"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,52,86,22},
 		["a_size"] = {2048,3168},
@@ -9477,7 +9477,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0027"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,52,86,22},
 		["a_size"] = {2048,3168},
@@ -9486,7 +9486,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0028"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,43,85,33},
 		["a_size"] = {2048,3168},
@@ -9495,7 +9495,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0029"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,43,85,33},
 		["a_size"] = {2048,3168},
@@ -9504,7 +9504,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0030"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {82,49,84,23},
 		["a_size"] = {2048,3168},
@@ -9513,7 +9513,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0031"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {82,49,84,23},
 		["a_size"] = {2048,3168},
@@ -9522,7 +9522,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0032"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,61,84,21},
 		["a_size"] = {2048,3168},
@@ -9531,7 +9531,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0033"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,57,87,25},
 		["a_size"] = {2048,3168},
@@ -9540,7 +9540,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0034"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,52,88,26},
 		["a_size"] = {2048,3168},
@@ -9549,7 +9549,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0035"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,52,88,26},
 		["a_size"] = {2048,3168},
@@ -9558,7 +9558,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0036"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,48,88,30},
 		["a_size"] = {2048,3168},
@@ -9567,7 +9567,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0037"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,48,88,30},
 		["a_size"] = {2048,3168},
@@ -9576,7 +9576,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0038"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {85,51,87,29},
 		["a_size"] = {2048,3168},
@@ -9585,7 +9585,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0039"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {85,51,87,29},
 		["a_size"] = {2048,3168},
@@ -9594,7 +9594,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0040"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,58,87,26},
 		["a_size"] = {2048,3168},
@@ -9603,7 +9603,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0041"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,58,87,26},
 		["a_size"] = {2048,3168},
@@ -9612,7 +9612,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0042"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,53,88,23},
 		["a_size"] = {2048,3168},
@@ -9621,7 +9621,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0043"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,53,88,23},
 		["a_size"] = {2048,3168},
@@ -9630,7 +9630,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0044"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,50,88,28},
 		["a_size"] = {2048,3168},
@@ -9639,7 +9639,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0045"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,50,88,28},
 		["a_size"] = {2048,3168},
@@ -9648,7 +9648,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0046"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,52,87,28},
 		["a_size"] = {2048,3168},
@@ -9657,7 +9657,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0047"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,52,87,28},
 		["a_size"] = {2048,3168},
@@ -9666,7 +9666,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0048"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {83,57,87,25},
 		["a_size"] = {2048,3168},
@@ -9675,7 +9675,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0049"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,52,75,22},
 		["a_size"] = {2048,3168},
@@ -9684,7 +9684,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0050"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,52,75,22},
 		["a_size"] = {2048,3168},
@@ -9693,7 +9693,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0051"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {95,62,75,22},
 		["a_size"] = {2048,3168},
@@ -9702,7 +9702,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0052"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {95,62,75,22},
 		["a_size"] = {2048,3168},
@@ -9711,7 +9711,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0053"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {92,60,80,22},
 		["a_size"] = {2048,3168},
@@ -9720,7 +9720,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0054"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {92,60,80,22},
 		["a_size"] = {2048,3168},
@@ -9729,7 +9729,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0055"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {89,40,87,22},
 		["a_size"] = {2048,3168},
@@ -9738,7 +9738,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0056"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {89,40,87,22},
 		["a_size"] = {2048,3168},
@@ -9747,7 +9747,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0057"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {87,38,87,22},
 		["a_size"] = {2048,3168},
@@ -9756,7 +9756,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0058"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {87,38,87,22},
 		["a_size"] = {2048,3168},
@@ -9765,7 +9765,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0059"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,36,94,22},
 		["a_size"] = {2048,3168},
@@ -9774,7 +9774,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0060"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {84,36,94,22},
 		["a_size"] = {2048,3168},
@@ -9783,7 +9783,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0061"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,30,83,22},
 		["a_size"] = {2048,3168},
@@ -9792,7 +9792,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0062"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,30,83,22},
 		["a_size"] = {2048,3168},
@@ -9801,7 +9801,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0063"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,43,55,21},
 		["a_size"] = {2048,3168},
@@ -9810,7 +9810,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0064"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,43,55,21},
 		["a_size"] = {2048,3168},
@@ -9819,7 +9819,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0065"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,53,53,21},
 		["a_size"] = {2048,3168},
@@ -9828,7 +9828,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0066"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,53,53,21},
 		["a_size"] = {2048,3168},
@@ -9837,7 +9837,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0067"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,67,53,21},
 		["a_size"] = {2048,3168},
@@ -9846,7 +9846,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0068"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {107,67,53,21},
 		["a_size"] = {2048,3168},
@@ -9855,7 +9855,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0069"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {99,58,73,22},
 		["a_size"] = {2048,3168},
@@ -9864,7 +9864,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0070"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {99,58,73,22},
 		["a_size"] = {2048,3168},
@@ -9873,7 +9873,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0071"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,52,75,22},
 		["a_size"] = {2048,3168},
@@ -9882,7 +9882,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0072"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,52,75,22},
 		["a_size"] = {2048,3168},
@@ -9891,7 +9891,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0073"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,53,75,17},
 		["a_size"] = {2048,3168},
@@ -9900,7 +9900,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0074"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {91,53,75,17},
 		["a_size"] = {2048,3168},
@@ -9909,7 +9909,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0075"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,57,77,17},
 		["a_size"] = {2048,3168},
@@ -9918,7 +9918,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0076"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,57,77,17},
 		["a_size"] = {2048,3168},
@@ -9927,7 +9927,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0077"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,32,84,18},
 		["a_size"] = {2048,3168},
@@ -9936,7 +9936,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0078"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {86,32,84,18},
 		["a_size"] = {2048,3168},
@@ -9945,7 +9945,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0079"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {69,34,93,18},
 		["a_size"] = {2048,3168},
@@ -9954,7 +9954,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0080"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {69,34,93,18},
 		["a_size"] = {2048,3168},
@@ -9963,7 +9963,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0081"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {64,30,98,18},
 		["a_size"] = {2048,3168},
@@ -9972,7 +9972,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0082"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {64,30,98,18},
 		["a_size"] = {2048,3168},
@@ -9981,7 +9981,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0083"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {61,30,101,18},
 		["a_size"] = {2048,3168},
@@ -9990,7 +9990,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0084"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {61,30,101,18},
 		["a_size"] = {2048,3168},
@@ -9999,7 +9999,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0085"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {52,40,112,18},
 		["a_size"] = {2048,3168},
@@ -10008,7 +10008,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0086"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {52,40,112,18},
 		["a_size"] = {2048,3168},
@@ -10017,7 +10017,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0087"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {51,63,97,9},
 		["a_size"] = {2048,3168},
@@ -10026,7 +10026,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0088"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {51,63,97,9},
 		["a_size"] = {2048,3168},
@@ -10035,7 +10035,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0089"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {44,66,112,12},
 		["a_size"] = {2048,3168},
@@ -10044,7 +10044,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0090"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {44,66,112,12},
 		["a_size"] = {2048,3168},
@@ -10053,7 +10053,7 @@ return {
 		["textureRotated"] = true
 	},
 	["werewolf_0091"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {44,79,112,9},
 		["a_size"] = {2048,3168},
@@ -10062,7 +10062,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0092"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {44,79,112,9},
 		["a_size"] = {2048,3168},
@@ -10071,7 +10071,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0093"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {45,74,93,10},
 		["a_size"] = {2048,3168},
@@ -10080,7 +10080,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_0094"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {45,74,93,10},
 		["a_size"] = {2048,3168},
@@ -10089,7 +10089,7 @@ return {
 		["textureRotated"] = false
 	},
 	["werewolf_shadow"] = {
-		["a_name"] = "kr4_halloween.png",
+		["a_name"] = "kr4_halloween.dds",
 		["size"] = {240,140},
 		["trim"] = {93,107,95,17},
 		["a_size"] = {2048,3168},
