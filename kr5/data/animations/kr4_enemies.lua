@@ -264,5 +264,9 @@ return{
 		to = 42,
 		from = 1
 	},
-
+	swamp_bubble_run = {
+		prefix = "Stage_26_swamp_bubble",
+		to = 33,
+		from = 1
+	},
 }

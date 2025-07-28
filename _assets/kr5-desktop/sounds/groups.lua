@@ -483,6 +483,13 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
+	sounds_stage426 = {
+		sounds = {
+			"MusicBattlePrep_426",
+			"MusicBattle_426",
+			"dark_army_blazing_mage_attack_loopstart",
+		}
+	},
 	sounds_stage427 = {
 		sounds = {
 			"MusicBattlePrep_427",

@@ -9,81 +9,29 @@ return {
 	custom_spawn_pos = {
 		{
 			pos = {
-				x = 50,
-				y = 483
+				x = 950,
+				y = 438
 			}
 		},
 		{
 			pos = {
-				x = 50,
-				y = 270
+				x = 950,
+				y = 212
 			}
-		}
+		},
 	},
 	entities_list = {
 		{
-			template = "swamp_controller",
-			["graveyard.pi"] = 1,
-			["graveyard.spawn_pos"] = {
-				{
-					x = 300,
-					y = 672
-				}
-			},
-			pos = {
-				x = 300,
-				y = 672
-			}
-		},
-		{
-			template = "decal_spider_rotten_egg_shooter",
-			pos = {
-				x = 386,
-				y = 81
-			},
-			["spawner.pi"] = 4,
-			["spawner.name"] = "shooter1",
-			["editor.game_mode"] = 1,
-		},
-		{
-			template = "decal_spider_rotten_egg_shooter",
-			pos = {
-				x = 300,
-				y = 672
-			},
-			["spawner.pi"] = 1,
-			["spawner.name"] = "shooter2",
-			["editor.game_mode"] = 1,
-		},
-		{
-			template = "swamp_spawner",
-			pos = {
-				x = 386,
-				y = 81
-			},
-			["spawner.pi"] = 1,
-			["spawner.name"] = "object1",
-			["editor.game_mode"] = 1,
-		},
-		{
-			template = "swamp_spawner",
-			pos = {
-				x = 300,
-				y = 672
-			},
-			["spawner.pi"] = 1,
-			["spawner.name"] = "object2",
-			["editor.game_mode"] = 1,
-		},
-		{
-			template = "mega_spawner",
-			load_file = "level427campaign_spawner",
-			["editor.game_mode"] = 1,
+			template = "controller_teleport_enemies",
+			path = 3,
+			start_ni = 97,
+			end_ni = 114,
+			duration = 0.5,
 		},
 		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
-			["render.sprites[1].name"] = "stage_427",
+			["render.sprites[1].name"] = "stage_426",
 			pos = {
 				x = 512,
 				y = 384
@@ -93,12 +41,12 @@ return {
 			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 137,
-				y = 386
+				x = 860,
+				y = 510
 			},
 			["tower.default_rally_pos"] = {
-				x = 149,
-				y = 471
+				x = 764,
+				y = 486
 			},
 			["ui.nav_mesh_id"] = "1",
 			["tower.holder_id"] = "1",
@@ -107,12 +55,12 @@ return {
 			template = "holder_roots_lands_blocked",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 526,
-				y = 579
+				x = 590,
+				y = 622
 			},
 			["tower.default_rally_pos"] = {
-				x = 424,
-				y = 587
+				x = 556,
+				y = 555
 			},
 			["ui.nav_mesh_id"] = "2",
 			["tower.holder_id"] = "2",
@@ -121,40 +69,40 @@ return {
 			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 672,
-				y = 417
+				x = 615,
+				y = 457
 			},
 			["tower.default_rally_pos"] = {
-				x = 749,
-				y = 386
+				x = 657,
+				y = 542
 			},
 			["ui.nav_mesh_id"] = "3",
 			["tower.holder_id"] = "3",
 		},
 		{
-			template = "tower_holder",
+			template = "holder_roots_lands_blocked",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 771,
-				y = 536
+				x = 486,
+				y = 462
 			},
 			["tower.default_rally_pos"] = {
-				x = 844,
-				y = 494
+				x = 467,
+				y = 555
 			},
 			["ui.nav_mesh_id"] = "4",
 			["tower.holder_id"] = "4",
 		},
 		{
-			template = "holder_roots_lands_blocked",
+			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 901,
-				y = 258
+				x = 124,
+				y = 352
 			},
 			["tower.default_rally_pos"] = {
-				x = 871,
-				y = 200
+				x = 119,
+				y = 438
 			},
 			["ui.nav_mesh_id"] = "5",
 			["tower.holder_id"] = "5",
@@ -163,12 +111,12 @@ return {
 			template = "holder_roots_lands_blocked",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 830,
-				y = 325
+				x = 815,
+				y = 357
 			},
 			["tower.default_rally_pos"] = {
-				x = 762,
-				y = 264
+				x = 848,
+				y = 449
 			},
 			["ui.nav_mesh_id"] = "6",
 			["tower.holder_id"] = "6",
@@ -177,12 +125,12 @@ return {
 			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 384,
-				y = 478
+				x = 435,
+				y = 617
 			},
 			["tower.default_rally_pos"] = {
-				x = 404,
-				y = 422
+				x = 337,
+				y = 594
 			},
 			["ui.nav_mesh_id"] = "7",
 			["tower.holder_id"] = "7",
@@ -191,12 +139,12 @@ return {
 			template = "holder_roots_lands_blocked",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 305,
-				y = 460
+				x = 256,
+				y = 552
 			},
 			["tower.default_rally_pos"] = {
-				x = 249,
-				y = 408
+				x = 311,
+				y = 507
 			},
 			["ui.nav_mesh_id"] = "8",
 			["tower.holder_id"] = "8",
@@ -205,26 +153,26 @@ return {
 			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 484,
-				y = 319
+				x = 700,
+				y = 219
 			},
 			["tower.default_rally_pos"] = {
-				x = 481,
-				y = 244
+				x = 753,
+				y = 167
 			},
 			["ui.nav_mesh_id"] = "9",
 			["tower.holder_id"] = "9",
 		},
 		{
-			template = "tower_holder",
+			template = "holder_roots_lands_blocked",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 554,
-				y = 399
+				x = 609,
+				y = 197
 			},
 			["tower.default_rally_pos"] = {
-				x = 475,
-				y = 462
+				x = 600,
+				y = 127
 			},
 			["ui.nav_mesh_id"] = "10",
 			["tower.holder_id"] = "10",
@@ -233,226 +181,290 @@ return {
 			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 387,
-				y = 161
+				x = 167,
+				y = 195
 			},
 			["tower.default_rally_pos"] = {
-				x = 376,
-				y = 247
+				x = 166,
+				y = 298
 			},
 			["ui.nav_mesh_id"] = "11",
 			["tower.holder_id"] = "11",
 		},
 		{
-			template = "holder_roots_lands_blocked",
+			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 594,
-				y = 182
+				x = 818,
+				y = 270
 			},
 			["tower.default_rally_pos"] = {
-				x = 550,
-				y = 261
+				x = 850,
+				y = 212
 			},
 			["ui.nav_mesh_id"] = "12",
 			["tower.holder_id"] = "12",
 		},
 		{
-			template = "holder_roots_lands_blocked",
+			template = "tower_holder",
 			["tower.terrain_style"] = 408,
 			pos = {
-				x = 215,
-				y = 167
+				x = 280,
+				y = 187
 			},
 			["tower.default_rally_pos"] = {
-				x = 225,
-				y = 264
+				x = 284,
+				y = 292
 			},
 			["ui.nav_mesh_id"] = "13",
 			["tower.holder_id"] = "13",
 		},
 		{
-			template = "holder_roots_lands_blocked",
-			["tower.terrain_style"] = 408,
-			pos = {
-				x = 683,
-				y = 212
-			},
-			["tower.default_rally_pos"] = {
-				x = 627,
-				y = 286
-			},
-			["ui.nav_mesh_id"] = "14",
-			["tower.holder_id"] = "14",
-		},
-		{
-			template = "tower_holder",
-			["tower.terrain_style"] = 408,
-			pos = {
-				x = 137,
-				y = 535
-			},
-			["tower.default_rally_pos"] = {
-				x = 149,
-				y = 471
-			},
-			["ui.nav_mesh_id"] = "15",
-			["tower.holder_id"] = "15",
-		},
-		{
-			["editor.r"] = 1.0921685650267206,
+			["editor.r"] = 1.5791294672350324,
 			["editor.path_id"] = 1,
 			template = "editor_wave_flag",
 			["editor.len"] = 200,
 			pos = {
-				x = 555,
-				y = 723
+				x = 284,
+				y = 715
 			},
 		},
 		{
-			["editor.r"] = -0.008333140440135918,
+			["editor.r"] = 3.141592653589793,
 			["editor.path_id"] = 2,
 			template = "editor_wave_flag",
 			["editor.len"] = 200,
 			pos = {
-				x = 1140,
-				y = 562
+				x = -116,
+				y = 462
 			},
 		},
 		{
-			["editor.r"] = -0.008333140440135918,
+			["editor.r"] = 3.141592653589793,
 			["editor.path_id"] = 3,
 			template = "editor_wave_flag",
 			["editor.len"] = 200,
 			pos = {
-				x = 1140,
-				y = 193
+				x = -116,
+				y = 419
 			},
 		},
 		{
-			["editor.r"] = -1.5707963267948966,
+			["editor.r"] = 3.141592653589793,
 			["editor.path_id"] = 4,
 			template = "editor_wave_flag",
 			["editor.len"] = 200,
 			pos = {
-				x = 575,
-				y = 60
-			},
-		},
-		{
-			template = "decal_defense_flag5",
-			pos = {
-				x = 40,
-				y = 548
-			},
-			["render.sprites[1].z"] = Z_DECALS,
-			["editor.flip"] = 0,
-			["editor.tag"] = 0,
-		},
-		{
-			template = "decal_defense_flag5",
-			pos = {
-				x = 40,
-				y = 420
-			},
-			["render.sprites[1].z"] = Z_OBJECTS,
-			["editor.flip"] = 0,
-			["editor.tag"] = 0,
-		},
-		{
-			template = "decal_defense_flag5",
-			pos = {
-				x = 40,
-				y = 320
-			},
-			["render.sprites[1].z"] = Z_DECALS,
-			["editor.flip"] = 0,
-			["editor.tag"] = 0,
-		},
-		{
-			template = "decal_defense_flag5",
-			pos = {
-				x = 40,
-				y = 205
-			},
-			["render.sprites[1].z"] = Z_OBJECTS,
-			["editor.flip"] = 0,
-			["editor.tag"] = 0,
-		},
-		{
-			template = "decal_defend_point5",
-			["editor.flip"] = 0,
-			["editor.exit_id"] = 1,
-			["editor.alpha"] = 10,
-			["editor.orientation"] = 1,
-			pos = {
-				x = 50,
-				y = 483
-			},
-		},
-		{
-			template = "decal_defend_point5",
-			["editor.flip"] = 0,
-			["editor.exit_id"] = 1,
-			["editor.alpha"] = 10,
-			["editor.orientation"] = 1,
-			pos = {
-				x = 50,
-				y = 270
-			},
-		},
-		{
-			template = "veznan_crystal",
-			pos = {
-				x = 267,
-				y = 327
-			},
-		},
-		{
-			template = "veznan_crystal",
-			pos = {
-				x = 389,
-				y = 328
-			},
-		},
-		{
-			template = "veznan_crystal",
-			pos = {
-				x = 590,
-				y = 357
+				x = -116,
+				y = 283
 			},
 		},
 		{
 			template = "fx_repeat_forever",
 			pos = {
-				x = 345,
-				y = 665
+				x = -155,
+				y = 735
+			},
+			["render.sprites[1].anchor.x"] = 0.47,
+			["render.sprites[1].anchor.y"] = 0.242,
+			["render.sprites[1].scale.x"] = 1.16,
+			["render.sprites[1].scale.y"] = 1.942,
+			["render.sprites[1].name"] = "swamp_bubble_run",
+			["render.sprites[1].animated"] = true,
+			max_delay = 10,
+			min_delay = 0,
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 1124,
+				y = 750
+			},
+			["render.sprites[1].anchor.x"] = 0.47,
+			["render.sprites[1].anchor.y"] = 0.242,
+			["render.sprites[1].scale.x"] = 1.16,
+			["render.sprites[1].scale.y"] = 1.942,
+			["render.sprites[1].name"] = "swamp_bubble_run",
+			["render.sprites[1].animated"] = true,
+			max_delay = 10,
+			min_delay = 0,
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 1070,
+				y = 716
+			},
+			["render.sprites[1].anchor.x"] = 0.47,
+			["render.sprites[1].anchor.y"] = 0.242,
+			["render.sprites[1].scale.x"] = 1.16,
+			["render.sprites[1].scale.y"] = 1.942,
+			["render.sprites[1].name"] = "swamp_bubble_run",
+			["render.sprites[1].animated"] = true,
+			max_delay = 10,
+			min_delay = 0,
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 1100,
+				y = 741
+			},
+			["render.sprites[1].anchor.x"] = 0.47,
+			["render.sprites[1].anchor.y"] = 0.242,
+			["render.sprites[1].scale.x"] = 1.16,
+			["render.sprites[1].scale.y"] = 1.942,
+			["render.sprites[1].name"] = "swamp_bubble_run",
+			["render.sprites[1].animated"] = true,
+			max_delay = 10,
+			min_delay = 0,
+		},
+		{
+			template = "decal_defense_flag5",
+			pos = {
+				x = 960,
+				y = 497
+			},
+			["render.sprites[1].z"] = Z_DECALS,
+			["editor.flip"] = 0,
+			["editor.tag"] = 0,
+		},
+		{
+			template = "decal_defense_flag5",
+			pos = {
+				x = 960,
+				y = 366
+			},
+			["render.sprites[1].z"] = Z_OBJECTS,
+			["editor.flip"] = 0,
+			["editor.tag"] = 0,
+		},
+		{
+			template = "decal_defense_flag5",
+			pos = {
+				x = 960,
+				y = 273
+			},
+			["render.sprites[1].z"] = Z_OBJECTS,
+			["editor.flip"] = 0,
+			["editor.tag"] = 0,
+		},
+		{
+			template = "decal_defense_flag5",
+			pos = {
+				x = 960,
+				y = 151
+			},
+			["render.sprites[1].z"] = Z_OBJECTS,
+			["editor.flip"] = 0,
+			["editor.tag"] = 0,
+		},
+		{
+			template = "decal_defend_point5",
+			["editor.flip"] = 0,
+			["editor.exit_id"] = 1,
+			["editor.alpha"] = 10,
+			["editor.orientation"] = 1,
+			pos = {
+				x = 950,
+				y = 438
+			},
+		},
+		{
+			template = "decal_defend_point5",
+			["editor.flip"] = 0,
+			["editor.exit_id"] = 1,
+			["editor.alpha"] = 10,
+			["editor.orientation"] = 1,
+			pos = {
+				x = 950,
+				y = 212
+			},
+		},
+		{
+			template = "veznan_crystal",
+			pos = {
+				x = 350,
+				y = 177
+			},
+		},
+		{
+			template = "veznan_crystal",
+			pos = {
+				x = 838,
+				y = 118
+			},
+		},
+		{
+			template = "veznan_crystal",
+			pos = {
+				x = 686,
+				y = 595
+			},
+		},
+		{
+			template = "veznan_crystal",
+			pos = {
+				x = 764,
+				y = 404
+			},
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 325,
+				y = 321
 			},
 			["render.sprites[1].anchor.x"] = 0.5,
-			["render.sprites[1].anchor.y"] = 0.5,
-			["render.sprites[1].z"] = Z_DECALS,
-			["render.sprites[1].name"] = "kr4_level27_wharf",
+			["render.sprites[1].anchor.y"] = 0,
+			["render.sprites[1].name"] = "Stage_26_mask_1_1",
+			["render.sprites[1].animated"] = false,
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 400,
+				y = 303
+			},
+			["render.sprites[1].anchor.x"] = 0.5,
+			["render.sprites[1].anchor.y"] = 0,
+			["render.sprites[1].name"] = "Stage_26_mask_1",
+			["render.sprites[1].animated"] = false,
+		},
+		{
+			template = "fx_repeat_forever",
+			pos = {
+				x = 520,
+				y = 233
+			},
+			["render.sprites[1].anchor.x"] = 0.5,
+			["render.sprites[1].anchor.y"] = 0,
+			["render.sprites[1].name"] = "Stage_26_mask_2",
 			["render.sprites[1].animated"] = false,
 		},
 	},
 	nav_mesh = {
-		{ 8, 15, nil, 13 },
-		{ 4, nil, 7, 10 },
-		{ 6, 4, 10, 14 },
-		{ nil, nil, 2, 3 },
-		{ nil, 4, 6, nil },
-		{ 5, 4, 3, nil },
-		{ 2, nil, 8, 9 },
-		{ 7, nil, 1, 13 },
-		{ 3, 10, 8, 12 },
-		{ 3, 2, 7, 9 },
-		{ 12, 9, 13, nil },
-		{ 14, 9, 11, nil },
-		{ 11, 1, nil, nil },
-		{ 6, 3, 12, nil },
-		{ 8, nil, nil, 1 },
+		{ nil, nil, 3, 6 },
+		{ 1, nil, 7, 3 },
+		{ 6, 2, 4, 9 },
+		{ 3, 7, 8, 10 },
+		{ 4, 8, nil, 11 },
+		{ nil, 1, 3, 12 },
+		{ 2, nil, 8, 4 },
+		{ 7, nil, nil, 5 },
+		{ 12, 6, 10, nil },
+		{ 9, 3, 13, nil },
+		{ 13, 5, nil, nil },
+		{ nil, 6, 9, nil },
+		{ 10, 5, 11, nil },
 	},
-	invalid_path_ranges = {},
+	invalid_path_ranges = {
+		{
+			from = 97,
+			to = 114,
+			path_id = 3,
+		},
+	},
 	level_mode_overrides = {
 		[3] = {
 			locked_hero = false,
@@ -465,14 +477,12 @@ return {
 	},
 	required_sounds = {
 		"kr1_common",
-		"sounds_stage427",
+		"sounds_stage426",
 		"HalloweenSounds",
 	},
 	required_textures = {
 		"go_enemies_halloween",
 		"go_enemies_rotten",
-		"go_enemies_kr2_halloween",
-		"go_stage427",
-		"go_stage115",
+		"go_stage426",
 	}
 }

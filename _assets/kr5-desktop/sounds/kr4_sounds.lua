@@ -1,5 +1,21 @@
 return {
 	-- customization
+	MusicBattlePrep_426 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Tutorial_Exploracion.ogg"
+		}
+	},
+	MusicBattle_426 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Tutorial_Guerra.ogg"
+		}
+	},
 	MusicBattlePrep_427 = {
 		source_group = "MUSIC",
 		gain = 0.15,
