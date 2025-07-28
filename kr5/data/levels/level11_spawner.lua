@@ -443,7 +443,7 @@ return {
 					true,
 					0,
 					0,
-					"eb_saurian_king"
+					"enemy_saurian_king"
 				},
 				{
 					68,
@@ -1165,7 +1165,7 @@ return {
 					true,
 					1,
 					1,
-					"eb_saurian_king"
+					"enemy_saurian_king"
 				},
 				{
 					65,
