@@ -1,6 +1,6 @@
 return {
 	["roots_cloud_tower_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -25,7 +25,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -50,7 +50,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -75,7 +75,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -100,7 +100,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -125,7 +125,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -150,7 +150,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -175,7 +175,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -200,7 +200,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -225,7 +225,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -250,7 +250,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -275,7 +275,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -300,7 +300,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -325,7 +325,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -350,7 +350,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -375,7 +375,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -400,7 +400,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -425,7 +425,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -450,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -475,7 +475,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -500,7 +500,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -550,7 +550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -575,7 +575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -600,7 +600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -625,7 +625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -650,7 +650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -675,7 +675,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -700,7 +700,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -725,7 +725,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -750,7 +750,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -775,7 +775,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -800,7 +800,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -825,7 +825,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -850,7 +850,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -875,7 +875,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -900,7 +900,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -925,7 +925,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -950,7 +950,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -975,7 +975,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -1000,7 +1000,7 @@ return {
 		textureRotated = true
 	},
 	["roots_cloud_tower_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -1025,7 +1025,7 @@ return {
 		textureRotated = false
 	},
 	["roots_cloud_tower_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			160,
 			123
@@ -1050,7 +1050,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1150,7 +1150,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1175,7 +1175,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1200,7 +1200,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1225,7 +1225,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1250,7 +1250,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1325,7 +1325,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1350,7 +1350,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1375,7 +1375,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1400,7 +1400,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1425,7 +1425,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1450,7 +1450,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1475,7 +1475,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1500,7 +1500,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1525,7 +1525,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1550,7 +1550,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1575,7 +1575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_fog_tower_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1600,7 +1600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_fog_tower_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1625,7 +1625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_fog_tower_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1650,7 +1650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_fog_tower_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1675,7 +1675,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1700,7 +1700,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1725,7 +1725,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1750,7 +1750,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1775,7 +1775,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1800,7 +1800,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1825,7 +1825,7 @@ return {
 		textureRotated = true
 	},
 	["roots_fog_tower_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			242,
 			152
@@ -1850,7 +1850,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -1875,7 +1875,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -1900,7 +1900,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -1950,7 +1950,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -1975,7 +1975,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2000,7 +2000,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2025,7 +2025,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2050,7 +2050,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2075,7 +2075,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2175,7 +2175,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2200,7 +2200,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2225,7 +2225,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2250,7 +2250,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2275,7 +2275,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2300,7 +2300,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2325,7 +2325,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2350,7 +2350,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2375,7 +2375,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2425,7 +2425,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2450,7 +2450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2500,7 +2500,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2575,7 +2575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2600,7 +2600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2625,7 +2625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2650,7 +2650,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2675,7 +2675,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2700,7 +2700,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2725,7 +2725,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2750,7 +2750,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2775,7 +2775,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2800,7 +2800,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2825,7 +2825,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2850,7 +2850,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2875,7 +2875,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2900,7 +2900,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2925,7 +2925,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_back_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2950,7 +2950,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -2975,7 +2975,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -3000,7 +3000,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -3025,7 +3025,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -3050,7 +3050,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_back_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			174,
 			136
@@ -3075,7 +3075,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3100,7 +3100,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3125,7 +3125,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3150,7 +3150,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3175,7 +3175,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3200,7 +3200,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3225,7 +3225,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3250,7 +3250,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3275,7 +3275,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3300,7 +3300,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3325,7 +3325,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3350,7 +3350,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3375,7 +3375,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3400,7 +3400,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3425,7 +3425,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3450,7 +3450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3475,7 +3475,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3500,7 +3500,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3525,7 +3525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3550,7 +3550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3575,7 +3575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3600,7 +3600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3625,7 +3625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3650,7 +3650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3700,7 +3700,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3725,7 +3725,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3775,7 +3775,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3800,7 +3800,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3825,7 +3825,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3850,7 +3850,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3875,7 +3875,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -3975,7 +3975,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4000,7 +4000,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4025,7 +4025,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4050,7 +4050,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4075,7 +4075,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4100,7 +4100,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4125,7 +4125,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4150,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4175,7 +4175,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4200,7 +4200,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4275,7 +4275,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4300,7 +4300,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4325,7 +4325,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4350,7 +4350,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = true
 	},
 	["roots_holder_front_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4575,7 +4575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4650,7 +4650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4675,7 +4675,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4700,7 +4700,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0066"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0067"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0068"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0069"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4800,7 +4800,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0070"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4825,7 +4825,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0071"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4850,7 +4850,7 @@ return {
 		textureRotated = false
 	},
 	["roots_holder_front_0072"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			224,
 			148
@@ -4875,7 +4875,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -4900,7 +4900,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -4925,7 +4925,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -4950,7 +4950,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -4975,7 +4975,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5000,7 +5000,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5025,7 +5025,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5050,7 +5050,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5075,7 +5075,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5100,7 +5100,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5125,7 +5125,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5150,7 +5150,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5175,7 +5175,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5200,7 +5200,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5225,7 +5225,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5250,7 +5250,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5275,7 +5275,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5300,7 +5300,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5325,7 +5325,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5350,7 +5350,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5375,7 +5375,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5400,7 +5400,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5425,7 +5425,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5450,7 +5450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5475,7 +5475,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5500,7 +5500,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5525,7 +5525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5550,7 +5550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5575,7 +5575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5600,7 +5600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5625,7 +5625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5650,7 +5650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5675,7 +5675,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5700,7 +5700,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5725,7 +5725,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5750,7 +5750,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5775,7 +5775,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5800,7 +5800,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5825,7 +5825,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5850,7 +5850,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5875,7 +5875,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5900,7 +5900,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5925,7 +5925,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5950,7 +5950,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -5975,7 +5975,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -6000,7 +6000,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -6025,7 +6025,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -6050,7 +6050,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_back_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -6075,7 +6075,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_back_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			157,
 			67
@@ -6100,7 +6100,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6125,7 +6125,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6150,7 +6150,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6175,7 +6175,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6200,7 +6200,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6225,7 +6225,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6250,7 +6250,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6275,7 +6275,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6300,7 +6300,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6325,7 +6325,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6350,7 +6350,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6375,7 +6375,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6400,7 +6400,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6425,7 +6425,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6450,7 +6450,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6475,7 +6475,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6500,7 +6500,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6525,7 +6525,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6550,7 +6550,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6575,7 +6575,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6600,7 +6600,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6625,7 +6625,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6650,7 +6650,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6675,7 +6675,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6700,7 +6700,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6725,7 +6725,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6750,7 +6750,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6775,7 +6775,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6800,7 +6800,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6825,7 +6825,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6850,7 +6850,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6875,7 +6875,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6900,7 +6900,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6925,7 +6925,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6950,7 +6950,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -6975,7 +6975,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7000,7 +7000,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7025,7 +7025,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7050,7 +7050,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7075,7 +7075,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7100,7 +7100,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7125,7 +7125,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7150,7 +7150,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7175,7 +7175,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7200,7 +7200,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7225,7 +7225,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7250,7 +7250,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7275,7 +7275,7 @@ return {
 		textureRotated = true
 	},
 	["roots_tower_front_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7300,7 +7300,7 @@ return {
 		textureRotated = false
 	},
 	["roots_tower_front_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			243,
 			152
@@ -7325,7 +7325,7 @@ return {
 		textureRotated = false
 	},
 	["stage_426"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			2729,
 			1536
@@ -7350,7 +7350,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_mask_1"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			635,
 			312
@@ -7375,7 +7375,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_mask_1_1"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			332,
 			242
@@ -7400,7 +7400,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_mask_2"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			272,
 			247
@@ -7425,7 +7425,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7450,7 +7450,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7475,7 +7475,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7500,7 +7500,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7525,7 +7525,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7550,7 +7550,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7575,7 +7575,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7600,7 +7600,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7625,7 +7625,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7650,7 +7650,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7675,7 +7675,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7700,7 +7700,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7725,7 +7725,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7750,7 +7750,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7775,7 +7775,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7800,7 +7800,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7825,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7850,7 +7850,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7875,7 +7875,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7900,7 +7900,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7925,7 +7925,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7950,7 +7950,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -7975,7 +7975,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8000,7 +8000,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8025,7 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8050,7 +8050,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8075,7 +8075,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8100,7 +8100,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8125,7 +8125,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8150,7 +8150,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_paper_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8175,7 +8175,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8200,7 +8200,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8225,7 +8225,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8250,7 +8250,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8275,7 +8275,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8300,7 +8300,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_paper_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			90,
 			115
@@ -8325,7 +8325,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8350,7 +8350,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8375,7 +8375,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8400,7 +8400,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8425,7 +8425,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8450,7 +8450,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8475,7 +8475,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8500,7 +8500,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8525,7 +8525,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8550,7 +8550,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8575,7 +8575,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8600,7 +8600,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8625,7 +8625,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8650,7 +8650,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8675,7 +8675,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8700,7 +8700,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8725,7 +8725,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8750,7 +8750,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8775,7 +8775,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8800,7 +8800,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8825,7 +8825,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8850,7 +8850,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8875,7 +8875,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8900,7 +8900,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8925,7 +8925,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8950,7 +8950,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -8975,7 +8975,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9000,7 +9000,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9025,7 +9025,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9050,7 +9050,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9075,7 +9075,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9100,7 +9100,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9125,7 +9125,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9150,7 +9150,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9175,7 +9175,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9200,7 +9200,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9225,7 +9225,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9250,7 +9250,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9275,7 +9275,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9300,7 +9300,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9325,7 +9325,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9350,7 +9350,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9375,7 +9375,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9400,7 +9400,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9425,7 +9425,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9450,7 +9450,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9475,7 +9475,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9500,7 +9500,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9525,7 +9525,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9550,7 +9550,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9575,7 +9575,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9600,7 +9600,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9625,7 +9625,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9650,7 +9650,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9675,7 +9675,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9700,7 +9700,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9725,7 +9725,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9750,7 +9750,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9775,7 +9775,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9800,7 +9800,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9825,7 +9825,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9850,7 +9850,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9875,7 +9875,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9900,7 +9900,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9925,7 +9925,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9950,7 +9950,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0066"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -9975,7 +9975,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0067"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10000,7 +10000,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0068"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10025,7 +10025,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0069"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10050,7 +10050,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0070"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10075,7 +10075,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0071"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10100,7 +10100,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0072"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10125,7 +10125,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0073"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10150,7 +10150,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0074"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10175,7 +10175,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0075"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10200,7 +10200,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0076"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10225,7 +10225,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0077"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10250,7 +10250,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0078"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10275,7 +10275,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0079"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10300,7 +10300,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0080"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10325,7 +10325,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0081"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10350,7 +10350,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0082"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10375,7 +10375,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0083"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10400,7 +10400,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0084"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10425,7 +10425,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0085"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10450,7 +10450,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0086"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10475,7 +10475,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0087"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10500,7 +10500,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0088"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10525,7 +10525,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0089"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10550,7 +10550,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0090"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10575,7 +10575,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0091"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10600,7 +10600,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0092"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10625,7 +10625,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0093"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10650,7 +10650,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0094"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10675,7 +10675,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0095"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10700,7 +10700,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0096"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10725,7 +10725,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0097"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10750,7 +10750,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0098"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10775,7 +10775,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0099"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10800,7 +10800,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0100"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10825,7 +10825,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0101"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10850,7 +10850,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0102"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10875,7 +10875,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0103"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10900,7 +10900,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0104"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10925,7 +10925,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0105"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10950,7 +10950,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0106"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -10975,7 +10975,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0107"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11000,7 +11000,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0108"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11025,7 +11025,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0109"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11050,7 +11050,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0110"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11075,7 +11075,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0111"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11100,7 +11100,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0112"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11125,7 +11125,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0113"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11150,7 +11150,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0114"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11175,7 +11175,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0115"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11200,7 +11200,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0116"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11225,7 +11225,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0117"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11250,7 +11250,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0118"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11275,7 +11275,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0119"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11300,7 +11300,7 @@ return {
 		textureRotated = true
 	},
 	["stage_26_slender_man_0120"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11325,7 +11325,7 @@ return {
 		textureRotated = false
 	},
 	["stage_26_slender_man_0121"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			184,
 			141
@@ -11350,7 +11350,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11375,7 +11375,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11400,7 +11400,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11425,7 +11425,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11450,7 +11450,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11475,7 +11475,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11500,7 +11500,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11525,7 +11525,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11550,7 +11550,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11575,7 +11575,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11600,7 +11600,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11625,7 +11625,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11650,7 +11650,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11675,7 +11675,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11700,7 +11700,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11725,7 +11725,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11750,7 +11750,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11775,7 +11775,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11800,7 +11800,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11825,7 +11825,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11850,7 +11850,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11875,7 +11875,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11900,7 +11900,7 @@ return {
 		textureRotated = false
 	},
 	["Stage_26_swamp_bubble_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11925,7 +11925,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11950,7 +11950,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -11975,7 +11975,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12000,7 +12000,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12025,7 +12025,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12050,7 +12050,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12075,7 +12075,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12100,7 +12100,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12125,7 +12125,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12150,7 +12150,7 @@ return {
 		textureRotated = true
 	},
 	["Stage_26_swamp_bubble_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			27,
 			15
@@ -12175,7 +12175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12200,7 +12200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12225,7 +12225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12250,7 +12250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12275,7 +12275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12300,7 +12300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12325,7 +12325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12350,7 +12350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_end_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			44,
 			44
@@ -12375,7 +12375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12400,7 +12400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12425,7 +12425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12450,7 +12450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12475,7 +12475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12500,7 +12500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12525,7 +12525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_hit_start_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12550,7 +12550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_hit_start_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			40,
 			44
@@ -12575,7 +12575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer1_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12600,7 +12600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12625,7 +12625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12650,7 +12650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12675,7 +12675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12700,7 +12700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12725,7 +12725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12750,7 +12750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12775,7 +12775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12800,7 +12800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12825,7 +12825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12850,7 +12850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12875,7 +12875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12900,7 +12900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12925,7 +12925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12950,7 +12950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -12975,7 +12975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13000,7 +13000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13025,7 +13025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13050,7 +13050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13075,7 +13075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13100,7 +13100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13125,7 +13125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13150,7 +13150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13175,7 +13175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13200,7 +13200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13225,7 +13225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13250,7 +13250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13275,7 +13275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13300,7 +13300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13325,7 +13325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13350,7 +13350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13375,7 +13375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13400,7 +13400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13425,7 +13425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13450,7 +13450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13475,7 +13475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13500,7 +13500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13525,7 +13525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13550,7 +13550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13575,7 +13575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13600,7 +13600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13625,7 +13625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13650,7 +13650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13675,7 +13675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13700,7 +13700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13725,7 +13725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13750,7 +13750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13775,7 +13775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13800,7 +13800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13825,7 +13825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13850,7 +13850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13875,7 +13875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13900,7 +13900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13925,7 +13925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13950,7 +13950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -13975,7 +13975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14000,7 +14000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14025,7 +14025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14050,7 +14050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14075,7 +14075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14100,7 +14100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14125,7 +14125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer1_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14150,7 +14150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14175,7 +14175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer1_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14200,7 +14200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer2_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14225,7 +14225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14250,7 +14250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14275,7 +14275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14300,7 +14300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14325,7 +14325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14350,7 +14350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14375,7 +14375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14400,7 +14400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14425,7 +14425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14450,7 +14450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14475,7 +14475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14500,7 +14500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14525,7 +14525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14550,7 +14550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14575,7 +14575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14600,7 +14600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14625,7 +14625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14650,7 +14650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14675,7 +14675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14700,7 +14700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14725,7 +14725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14750,7 +14750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14775,7 +14775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14800,7 +14800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14825,7 +14825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14850,7 +14850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14875,7 +14875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14900,7 +14900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14925,7 +14925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14950,7 +14950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -14975,7 +14975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15000,7 +15000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15025,7 +15025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15050,7 +15050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15075,7 +15075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15100,7 +15100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15125,7 +15125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15150,7 +15150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15175,7 +15175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15200,7 +15200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15225,7 +15225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15250,7 +15250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15275,7 +15275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15300,7 +15300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15325,7 +15325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15350,7 +15350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15375,7 +15375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15400,7 +15400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15425,7 +15425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15450,7 +15450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15475,7 +15475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15500,7 +15500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15525,7 +15525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15550,7 +15550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15575,7 +15575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15600,7 +15600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15625,7 +15625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15650,7 +15650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15675,7 +15675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15700,7 +15700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15725,7 +15725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15750,7 +15750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15775,7 +15775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15800,7 +15800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer2_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15825,7 +15825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer3_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15850,7 +15850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer3_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15875,7 +15875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15900,7 +15900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15925,7 +15925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15950,7 +15950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -15975,7 +15975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16000,7 +16000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16025,7 +16025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16050,7 +16050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16075,7 +16075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16100,7 +16100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16125,7 +16125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16150,7 +16150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16175,7 +16175,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16200,7 +16200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16225,7 +16225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16250,7 +16250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16275,7 +16275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16300,7 +16300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16325,7 +16325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16350,7 +16350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16375,7 +16375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16400,7 +16400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16425,7 +16425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16450,7 +16450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16475,7 +16475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16500,7 +16500,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16525,7 +16525,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16550,7 +16550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16575,7 +16575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16600,7 +16600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16625,7 +16625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16650,7 +16650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16675,7 +16675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16700,7 +16700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16725,7 +16725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16750,7 +16750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16775,7 +16775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16800,7 +16800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16825,7 +16825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16850,7 +16850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16875,7 +16875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16900,7 +16900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16925,7 +16925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16950,7 +16950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -16975,7 +16975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17000,7 +17000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17025,7 +17025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17050,7 +17050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17075,7 +17075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17100,7 +17100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17125,7 +17125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17150,7 +17150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17175,7 +17175,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17200,7 +17200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17225,7 +17225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17250,7 +17250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17275,7 +17275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17300,7 +17300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17325,7 +17325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17350,7 +17350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer3_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17375,7 +17375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer3_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17400,7 +17400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer3_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17425,7 +17425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer3_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17450,7 +17450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17475,7 +17475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17500,7 +17500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17525,7 +17525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17550,7 +17550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17575,7 +17575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17600,7 +17600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17625,7 +17625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17650,7 +17650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17675,7 +17675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17700,7 +17700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17725,7 +17725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17750,7 +17750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17775,7 +17775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17800,7 +17800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17825,7 +17825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17850,7 +17850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17875,7 +17875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17900,7 +17900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17925,7 +17925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17950,7 +17950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -17975,7 +17975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18000,7 +18000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18025,7 +18025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18050,7 +18050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18075,7 +18075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18100,7 +18100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18125,7 +18125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18150,7 +18150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18175,7 +18175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18200,7 +18200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18225,7 +18225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18250,7 +18250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18275,7 +18275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18300,7 +18300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18325,7 +18325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18350,7 +18350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18375,7 +18375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18400,7 +18400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18425,7 +18425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18450,7 +18450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18475,7 +18475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18500,7 +18500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18525,7 +18525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18550,7 +18550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18575,7 +18575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18600,7 +18600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18625,7 +18625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18650,7 +18650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18675,7 +18675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18700,7 +18700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18725,7 +18725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18750,7 +18750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18775,7 +18775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18800,7 +18800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18825,7 +18825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18850,7 +18850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18875,7 +18875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18900,7 +18900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18925,7 +18925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18950,7 +18950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -18975,7 +18975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19000,7 +19000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19025,7 +19025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19050,7 +19050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer4_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19075,7 +19075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19100,7 +19100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19125,7 +19125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19150,7 +19150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19175,7 +19175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19200,7 +19200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19225,7 +19225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19250,7 +19250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19275,7 +19275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19300,7 +19300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19325,7 +19325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19350,7 +19350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19375,7 +19375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19400,7 +19400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19425,7 +19425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19450,7 +19450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19475,7 +19475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19500,7 +19500,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19525,7 +19525,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19550,7 +19550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19575,7 +19575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19600,7 +19600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19625,7 +19625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19650,7 +19650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19675,7 +19675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19700,7 +19700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19725,7 +19725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19750,7 +19750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19775,7 +19775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19800,7 +19800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19825,7 +19825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19850,7 +19850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19875,7 +19875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19900,7 +19900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19925,7 +19925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19950,7 +19950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -19975,7 +19975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20000,7 +20000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20025,7 +20025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20050,7 +20050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20075,7 +20075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20100,7 +20100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20125,7 +20125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20150,7 +20150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20175,7 +20175,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20200,7 +20200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20225,7 +20225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20250,7 +20250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20275,7 +20275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20300,7 +20300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20325,7 +20325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20350,7 +20350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20375,7 +20375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20400,7 +20400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20425,7 +20425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20450,7 +20450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20475,7 +20475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer5_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20500,7 +20500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20525,7 +20525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20550,7 +20550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20575,7 +20575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20600,7 +20600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20625,7 +20625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20650,7 +20650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20675,7 +20675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer5_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20700,7 +20700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20725,7 +20725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20750,7 +20750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20775,7 +20775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20800,7 +20800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20825,7 +20825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20850,7 +20850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20875,7 +20875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20900,7 +20900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20925,7 +20925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20950,7 +20950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -20975,7 +20975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21000,7 +21000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21025,7 +21025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21050,7 +21050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21075,7 +21075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21100,7 +21100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21125,7 +21125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21150,7 +21150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21175,7 +21175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21200,7 +21200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21225,7 +21225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21250,7 +21250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21275,7 +21275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21300,7 +21300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21325,7 +21325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21350,7 +21350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21375,7 +21375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21400,7 +21400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21425,7 +21425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21450,7 +21450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21475,7 +21475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21500,7 +21500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21525,7 +21525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21550,7 +21550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21575,7 +21575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21600,7 +21600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21625,7 +21625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21650,7 +21650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21675,7 +21675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21700,7 +21700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21725,7 +21725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21750,7 +21750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21775,7 +21775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21800,7 +21800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21825,7 +21825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21850,7 +21850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21875,7 +21875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21900,7 +21900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21925,7 +21925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21950,7 +21950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -21975,7 +21975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22000,7 +22000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22025,7 +22025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22050,7 +22050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22075,7 +22075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22100,7 +22100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22125,7 +22125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22150,7 +22150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22175,7 +22175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22200,7 +22200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22225,7 +22225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22250,7 +22250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22275,7 +22275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22300,7 +22300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer6_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22325,7 +22325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22350,7 +22350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22375,7 +22375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22400,7 +22400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22425,7 +22425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22450,7 +22450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22475,7 +22475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22500,7 +22500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22525,7 +22525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22550,7 +22550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22575,7 +22575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22600,7 +22600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22625,7 +22625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22650,7 +22650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22675,7 +22675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22700,7 +22700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22725,7 +22725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22750,7 +22750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22775,7 +22775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22800,7 +22800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22825,7 +22825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22850,7 +22850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22875,7 +22875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22900,7 +22900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22925,7 +22925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22950,7 +22950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -22975,7 +22975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23000,7 +23000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23025,7 +23025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23050,7 +23050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23075,7 +23075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23100,7 +23100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23125,7 +23125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23150,7 +23150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23175,7 +23175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23200,7 +23200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23225,7 +23225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23250,7 +23250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23275,7 +23275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23300,7 +23300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23325,7 +23325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23350,7 +23350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23375,7 +23375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23400,7 +23400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23425,7 +23425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23450,7 +23450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23475,7 +23475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23500,7 +23500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23525,7 +23525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23550,7 +23550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23575,7 +23575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23600,7 +23600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23625,7 +23625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23650,7 +23650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23675,7 +23675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23700,7 +23700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23725,7 +23725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23750,7 +23750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23775,7 +23775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23800,7 +23800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23825,7 +23825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23850,7 +23850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23875,7 +23875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23900,7 +23900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23925,7 +23925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer7_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23950,7 +23950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -23975,7 +23975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24000,7 +24000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24025,7 +24025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24050,7 +24050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24075,7 +24075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24100,7 +24100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24125,7 +24125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24150,7 +24150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24175,7 +24175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24200,7 +24200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24225,7 +24225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24250,7 +24250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24275,7 +24275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24300,7 +24300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24325,7 +24325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24350,7 +24350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24375,7 +24375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24400,7 +24400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24425,7 +24425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24450,7 +24450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24475,7 +24475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24500,7 +24500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24525,7 +24525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24550,7 +24550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24575,7 +24575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24600,7 +24600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24625,7 +24625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24650,7 +24650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24675,7 +24675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24700,7 +24700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24725,7 +24725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24750,7 +24750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24775,7 +24775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24800,7 +24800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24825,7 +24825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24850,7 +24850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24875,7 +24875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24900,7 +24900,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24925,7 +24925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24950,7 +24950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -24975,7 +24975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25000,7 +25000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25025,7 +25025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25050,7 +25050,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25075,7 +25075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25100,7 +25100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25125,7 +25125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25150,7 +25150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25175,7 +25175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25200,7 +25200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25225,7 +25225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25250,7 +25250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25275,7 +25275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25300,7 +25300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25325,7 +25325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25350,7 +25350,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25375,7 +25375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25400,7 +25400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25425,7 +25425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25450,7 +25450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25475,7 +25475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25500,7 +25500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25525,7 +25525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25550,7 +25550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer8_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25575,7 +25575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25600,7 +25600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25625,7 +25625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25650,7 +25650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25675,7 +25675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25700,7 +25700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25725,7 +25725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25750,7 +25750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25775,7 +25775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25800,7 +25800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25825,7 +25825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25850,7 +25850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25875,7 +25875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25900,7 +25900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25925,7 +25925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25950,7 +25950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -25975,7 +25975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26000,7 +26000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26025,7 +26025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26050,7 +26050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26075,7 +26075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26100,7 +26100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26125,7 +26125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26150,7 +26150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26175,7 +26175,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26200,7 +26200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26225,7 +26225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26250,7 +26250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26275,7 +26275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26300,7 +26300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26325,7 +26325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26350,7 +26350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26375,7 +26375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26400,7 +26400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26425,7 +26425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26450,7 +26450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26475,7 +26475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26500,7 +26500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26525,7 +26525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26550,7 +26550,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26575,7 +26575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26600,7 +26600,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26625,7 +26625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26650,7 +26650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26675,7 +26675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26700,7 +26700,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26725,7 +26725,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26750,7 +26750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26775,7 +26775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26800,7 +26800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26825,7 +26825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26850,7 +26850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26875,7 +26875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26900,7 +26900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26925,7 +26925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26950,7 +26950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -26975,7 +26975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27000,7 +27000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27025,7 +27025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27050,7 +27050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27075,7 +27075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27100,7 +27100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer9_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27125,7 +27125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27150,7 +27150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27175,7 +27175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer9_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27200,7 +27200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer10_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27225,7 +27225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer10_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27250,7 +27250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27275,7 +27275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27300,7 +27300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27325,7 +27325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27350,7 +27350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27375,7 +27375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27400,7 +27400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27425,7 +27425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27450,7 +27450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27475,7 +27475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27500,7 +27500,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27525,7 +27525,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27550,7 +27550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27575,7 +27575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27600,7 +27600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27625,7 +27625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27650,7 +27650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27675,7 +27675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27700,7 +27700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27725,7 +27725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27750,7 +27750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27775,7 +27775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27800,7 +27800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27825,7 +27825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27850,7 +27850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27875,7 +27875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27900,7 +27900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27925,7 +27925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27950,7 +27950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -27975,7 +27975,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28000,7 +28000,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28025,7 +28025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28050,7 +28050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28075,7 +28075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28100,7 +28100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28125,7 +28125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28150,7 +28150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28175,7 +28175,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28200,7 +28200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28225,7 +28225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28250,7 +28250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28275,7 +28275,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28300,7 +28300,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28325,7 +28325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28350,7 +28350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28375,7 +28375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28400,7 +28400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28425,7 +28425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28450,7 +28450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28475,7 +28475,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28500,7 +28500,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28525,7 +28525,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28550,7 +28550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28575,7 +28575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28600,7 +28600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28625,7 +28625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28650,7 +28650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28675,7 +28675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28700,7 +28700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28725,7 +28725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer10_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28750,7 +28750,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer10_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28775,7 +28775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer10_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28800,7 +28800,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer10_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28825,7 +28825,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28850,7 +28850,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28875,7 +28875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28900,7 +28900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28925,7 +28925,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28950,7 +28950,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -28975,7 +28975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29000,7 +29000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29025,7 +29025,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29050,7 +29050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29075,7 +29075,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29100,7 +29100,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29125,7 +29125,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29150,7 +29150,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29175,7 +29175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29200,7 +29200,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29225,7 +29225,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29250,7 +29250,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29275,7 +29275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29300,7 +29300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0020"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29325,7 +29325,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0021"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29350,7 +29350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0022"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29375,7 +29375,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0023"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29400,7 +29400,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0024"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29425,7 +29425,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0025"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29450,7 +29450,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0026"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29475,7 +29475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0027"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29500,7 +29500,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0028"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29525,7 +29525,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0029"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29550,7 +29550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0030"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29575,7 +29575,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0031"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29600,7 +29600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0032"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29625,7 +29625,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0033"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29650,7 +29650,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0034"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29675,7 +29675,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0035"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29700,7 +29700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0036"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29725,7 +29725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0037"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29750,7 +29750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0038"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29775,7 +29775,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0039"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29800,7 +29800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0040"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29825,7 +29825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0041"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29850,7 +29850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0042"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29875,7 +29875,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0043"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29900,7 +29900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0044"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29925,7 +29925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0045"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29950,7 +29950,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0046"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -29975,7 +29975,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0047"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30000,7 +30000,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0048"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30025,7 +30025,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0049"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30050,7 +30050,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0050"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30075,7 +30075,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0051"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30100,7 +30100,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0052"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30125,7 +30125,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0053"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30150,7 +30150,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0054"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30175,7 +30175,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0055"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30200,7 +30200,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0056"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30225,7 +30225,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0057"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30250,7 +30250,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0058"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30275,7 +30275,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0059"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30300,7 +30300,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0060"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30325,7 +30325,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0061"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30350,7 +30350,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_layer11_0062"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30375,7 +30375,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0063"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30400,7 +30400,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0064"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30425,7 +30425,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_layer11_0065"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			146,
 			130
@@ -30450,7 +30450,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_range"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			216,
 			216
@@ -30475,7 +30475,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_ray_0001"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30500,7 +30500,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_ray_0002"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30525,7 +30525,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_ray_0003"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30550,7 +30550,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0004"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30575,7 +30575,7 @@ return {
 		textureRotated = false
 	},
 	["veznan_crystal_ray_0005"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30600,7 +30600,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0006"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30625,7 +30625,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0007"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30650,7 +30650,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0008"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30675,7 +30675,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0009"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30700,7 +30700,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0010"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30725,7 +30725,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0011"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30750,7 +30750,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0012"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30775,7 +30775,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0013"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30800,7 +30800,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0014"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30825,7 +30825,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0015"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30850,7 +30850,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0016"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30875,7 +30875,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0017"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30900,7 +30900,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0018"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32
@@ -30925,7 +30925,7 @@ return {
 		textureRotated = true
 	},
 	["veznan_crystal_ray_0019"] = {
-		a_name = "go_stage426.png",
+		a_name = "go_stage426.dds",
 		size = {
 			130,
 			32

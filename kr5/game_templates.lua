@@ -26849,7 +26849,7 @@ tt.render.sprites[1].angles_custom = {
 	}
 }
 tt.render.sprites[1].exo = true
-tt.render.sprites[1].offset = v(2, 0)
+tt.render.sprites[1].offset = v(-2, 0)
 tt.ui.click_rect = r(-30, -3, 60, 50)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.unit.size = UNIT_SIZE_LARGE

@@ -199,7 +199,7 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 					local ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
 					local oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
 					if ss.textureRotated then
-						r = r - math.pi / 2 * (f.flip_x and -1 or 1)
+						r = r - math.pi / 2
 						ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
 						oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
 						sy = xf.sx * (f.flip_y and -1 or 1) * ref_scale
@@ -213,7 +213,7 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 					x = x * f_sx + f.pos.x + f.offset.x
 					y = REF_H - (-y * f_sy + f.pos.y + f.offset.y)
 
-					batch:add(quad, x, y, r, sx, sy, ox, oy, kx, ky)
+					batch:add(quad, x, y, r * (f.flip_x and -1 or 1), sx, sy, ox, oy, kx, ky)
 
 					batch_count = batch_count + 1
 				end

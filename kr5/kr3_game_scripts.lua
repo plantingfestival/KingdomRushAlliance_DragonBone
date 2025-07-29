@@ -9719,15 +9719,15 @@ function scripts.soldier_chomp_bot.update(this, store, script)
 	path_ni = path_ni - 2
 
 	U.y_wait(store, 1.5)
-	local spawner = this.spawner
-	if spawner and spawner.health and not spawner.health.dead then
+	local transformer = this.transformer
+	if transformer and transformer.health and not transformer.health.dead then
 		local bullet = E:create_entity(this.spawn_bullet)
-		bullet.pos = V.vclone(spawner.pos)
+		bullet.pos = V.vclone(transformer.pos)
 		bullet.pos.y = bullet.pos.y + 55
 		bullet.bullet.from = V.vclone(bullet.pos)
 		bullet.bullet.to = V.vclone(this.pos)
 		bullet.bullet.target_id = this.id
-		bullet.bullet.source_id = spawner.id
+		bullet.bullet.source_id = transformer.id
 		queue_insert(store, bullet)
 	end
 
@@ -9882,7 +9882,7 @@ function scripts.mod_chomp_bot_transformation.remove(this, store, script)
 			local s = E:create_entity(target.death_transformation_entity_name)
 
 			s.pos = V.vclone(target.pos)
-			s.spawner = source
+			s.transformer = source
 			s.source = target
 
 			if s.nav_path then

@@ -1440,8 +1440,8 @@ function GG5PopUpMessage:show(kind, arg)
 		wid("label_desc").text = _("KR5_NO_GEMS")
 		self:ci("button_popup_yes").on_click = function(this)
 			S:queue("GUIButtonCommon")
-			screen_map:hide_item_room()
-			screen_map:show_shop(true)
+			-- screen_map:hide_item_room()
+			-- screen_map:show_shop(true)
 			self:hide()
 		end
 	else
