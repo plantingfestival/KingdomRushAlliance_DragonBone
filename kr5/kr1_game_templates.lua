@@ -1908,11 +1908,11 @@ tt.bullet.use_unit_damage_factor = true
 tt.sound_events.insert = "ShotgunSound"
 
 tt = RT("bomb_tar_bolin", "bomb")
-tt.bullet.damage_bans = F_ALL
+tt.bullet.damage_bans = 0
 tt.bullet.damage_flags = 0
-tt.bullet.damage_max = 0
-tt.bullet.damage_min = 0
-tt.bullet.damage_radius = 1
+tt.bullet.damage_max = 80
+tt.bullet.damage_min = 80
+tt.bullet.damage_radius = 80
 tt.bullet.flight_time_base = fts(34)
 tt.bullet.flight_time_factor = fts(0.016666666666666666)
 tt.bullet.pop = nil

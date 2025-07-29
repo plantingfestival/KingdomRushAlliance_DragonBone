@@ -38598,6 +38598,10 @@ tt = E:register_t("user_item_2", "item_control_custom")
 tt.item_id = nil
 tt = E:register_t("user_item_3", "item_control_custom")
 tt.item_id = nil
+tt = E:register_t("user_item_4", "item_control_custom")
+tt.item_id = nil
+tt = E:register_t("user_item_5", "item_control_custom")
+tt.item_id = nil
 tt = E:register_t("controller_item")
 
 E:add_comps(tt, "pos", "main_script")

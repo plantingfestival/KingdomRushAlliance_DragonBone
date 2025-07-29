@@ -22,6 +22,7 @@ local UPGR = require("upgrades")
 local RC = require("remote_config")
 local signal = require("hump.signal")
 local storage = require("storage")
+local slot_template = require("data.slot_template")
 local U = require("utils")
 local utf8_string = require("klove.utf8_string")
 local achievements_data = require("data.achievements_data")
@@ -3905,16 +3906,25 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 	self.wheel_sel_items = {
 		wheel:ci("button_item_ring_sel_01"),
 		wheel:ci("button_item_ring_sel_02"),
-		wheel:ci("button_item_ring_sel_03")
+		wheel:ci("button_item_ring_sel_03"),
+		wheel:ci("button_item_ring_sel_04"),
+		wheel:ci("button_item_ring_sel_05"),
 	}
 	self.wheel_sel_positions = {
 		V.vclone(self.wheel_sel_items[1].thumb_image.pos),
 		V.vclone(self.wheel_sel_items[2].thumb_image.pos),
-		V.vclone(self.wheel_sel_items[3].thumb_image.pos)
+		V.vclone(self.wheel_sel_items[3].thumb_image.pos),
+		V.vclone(self.wheel_sel_items[4].thumb_image.pos),
+		V.vclone(self.wheel_sel_items[5].thumb_image.pos),
 	}
 
-	for i, v in pairs(user_data.items.selected) do
-		self.wheel_sel_items[i]:set_item(user_data, v)
+	for i, v in ipairs(self.wheel_sel_items) do
+		local item = user_data.items.selected[i]
+		if item then
+			v:set_item(user_data, item)
+		else
+			v:set_item(user_data, slot_template.items.selected[i])
+		end
 	end
 
 	local irpf = self:ci("item_room_portrait_flash")

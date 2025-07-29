@@ -282,7 +282,9 @@ return {
 		selected = {
 			"cluster_bomb",
 			"portable_coil",
-			"winter_age"
+			"winter_age",
+			"summon_blackburn",
+			"veznan_wrath",
 		},
 		status = {
 			winter_age = 0,

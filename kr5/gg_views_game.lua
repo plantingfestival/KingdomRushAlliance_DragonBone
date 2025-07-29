@@ -3018,8 +3018,11 @@ function GG5PopupIngameShop:show(selected_items)
 
 	for i, item_name in ipairs(selected_items) do
 		local item_element = self:ci("group_item_portrait_0" .. i)
-		local qty = slot.items.status[item_name] or 0
+		if not item_element then
+			goto label_continue
+		end
 
+		local qty = slot.items.status[item_name] or 0
 		item_element:ci("label_amount").text = qty
 
 		local key = "ITEM_" .. string.upper(item_name)
@@ -3089,6 +3092,7 @@ function GG5PopupIngameShop:show(selected_items)
 			item_element:ci("label_amount").text = qty
 			item_element.buy_fx.ts = 0
 		end
+		::label_continue::
 	end
 
 	local user_data = storage:load_slot()

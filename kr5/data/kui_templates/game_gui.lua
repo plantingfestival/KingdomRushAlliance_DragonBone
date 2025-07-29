@@ -1462,7 +1462,7 @@ return {
 									class = "BagItemButton",
 									template_name = "game_gui_bag_item_button",
 									id = "bag_item_1",
-									pos = v(0, 0),
+									pos = v(-98, 0),
 									anchor = v(0, 0)
 								},
 								{
@@ -1478,6 +1478,22 @@ return {
 									class = "BagItemButton",
 									template_name = "game_gui_bag_item_button",
 									id = "bag_item_3",
+									pos = v(0, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 4,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_4",
+									pos = v(-196, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 5,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_5",
 									pos = v(196, 0),
 									anchor = v(0, 0)
 								}
