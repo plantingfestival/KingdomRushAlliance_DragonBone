@@ -482,6 +482,7 @@ return {
 	},
 	required_textures = {
 		"go_enemies_halloween",
+		"go_enemies_kr2_halloween",
 		"go_enemies_rotten",
 		"go_stage426",
 	}
