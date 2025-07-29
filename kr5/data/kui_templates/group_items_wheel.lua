@@ -29,7 +29,13 @@ return {
 			id = "button_item_ring_sel_04",
 			class = "ItemRingItemButton",
 			template_name = "button_item_ring_sel",
-			pos = v(-130, 83.6)
+			pos = v(-150, 73.6)
+		},
+		{
+			id = "button_item_ring_sel_05",
+			class = "ItemRingItemButton",
+			template_name = "button_item_ring_sel",
+			pos = v(154.75, 73.6)
 		}
 	}
 }
