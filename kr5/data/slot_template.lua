@@ -280,11 +280,11 @@ return {
 	},
 	items = {
 		selected = {
-			"cluster_bomb",
-			"portable_coil",
-			"winter_age",
-			"summon_blackburn",
-			"veznan_wrath",
+			"hero_elves_archer",
+			"hero_dragon",
+			"kr4_hero_malik",
+			"hero_voodoo_witch",
+			"hero_elora",
 		},
 		status = {
 			winter_age = 0,
