@@ -1304,6 +1304,40 @@ return {
 			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
+	item_hero_veznan = {
+		files = {
+			"kro_sfx_veznan_arcanenova_v1.ogg",
+			"kro_sfx_veznan_demondeath_v3.ogg",
+			"Veznan_death-[new]01b.ogg",
+			"kro_sfx_veznan_darkpact_v1.ogg",
+			"kro_sfx_veznan_teleport_v1.ogg",
+			"Veznan-confirm_03_custom_fb.ogg",
+			"kro_sfx_veznan_demonfireball_hit_v3.1.ogg",
+			"Veznan-confirm_01e.ogg",
+			"Veznan-confirm_02f.ogg",
+			"Veznan-confirm_03_custom_fb.ogg",
+			"Veznan-confirm_04_custom_ec.ogg",
+			"kro_sfx_veznan_demonfireball_throw_v3.ogg",
+			"kro_sfx_veznan_range_shoot_v1.ogg",
+			"kro_sfx_veznan_soulburn_v8[sinimpacto].ogg",
+			"kro_sfx_veznan_magicshackles_v1[op2]-01.ogg",
+		}
+	},
+	item_hero_phoenix = {
+		files = {
+			"Phoenix2-death_01b.ogg",
+			"Phoenix2-death_01a.ogg",
+			"kro_sfx_phoenix_eggexplosion.ogg",
+			"kro_sfx_phoenix_fireegg_activate_v2.ogg",
+			"kro_sfx_phoenix_blazingoffspring_shot[op1].ogg",
+			"kro_sfx_phoenix_ringoffire_spawn[op2].ogg",
+			"kro_sfx_phoenix_blazingoffspring_hit_v2.ogg",
+			"kro_sfx_phoenix_basicattack.ogg",
+			"kro_sfx_phoenix_ringoffire_explode_v2.ogg",
+			"kro_sfx_phoenix_immolation_v2.ogg",
+			"kro_sfx_phoenix_fireegg_v3.ogg",
+		}
+	},
 	tower_rock_thrower = {
 		files = {
 			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg",

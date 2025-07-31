@@ -282,9 +282,9 @@ return {
 		selected = {
 			"hero_elves_archer",
 			"hero_dragon",
+			"hero_veznan",
+			"hero_phoenix",
 			"kr4_hero_malik",
-			"hero_voodoo_witch",
-			"hero_elora",
 		},
 		status = {
 			winter_age = 0,
@@ -314,7 +314,9 @@ return {
 			hero_dragon = 1,
 			hero_wizard = 1,
 			hero_dwarf = 1,
-			hero_elves_archer = 1
+			hero_elves_archer = 1,
+			hero_phoenix = 1,
+			hero_veznan = 1
 		}
 	},
 	claimed_gifts = {}

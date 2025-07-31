@@ -1924,7 +1924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0001"] = {
+	["bottom_info_image_soldiers_0047"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -1942,6 +1942,31 @@ return {
 		},
 		f_quad = {
 			1480,
+			710,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0001"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1579,
 			710,
 			97,
 			96
@@ -1966,7 +1991,7 @@ return {
 			2582
 		},
 		f_quad = {
-			1579,
+			1678,
 			710,
 			97,
 			96
@@ -1991,31 +2016,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1678,
-			710,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0004"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1777,
 			711,
 			97,
@@ -2024,7 +2024,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0005"] = {
+	["gui_bottom_info_image_enemies_0004"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2049,7 +2049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0006"] = {
+	["gui_bottom_info_image_enemies_0005"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2067,6 +2067,31 @@ return {
 		},
 		f_quad = {
 			1381,
+			808,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0006"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1480,
 			808,
 			97,
 			96
@@ -2091,7 +2116,7 @@ return {
 			2582
 		},
 		f_quad = {
-			1480,
+			1579,
 			808,
 			97,
 			96
@@ -2116,7 +2141,7 @@ return {
 			2582
 		},
 		f_quad = {
-			1579,
+			1678,
 			808,
 			97,
 			96
@@ -2141,31 +2166,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1678,
-			808,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0010"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1777,
 			809,
 			97,
@@ -2174,7 +2174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0011"] = {
+	["gui_bottom_info_image_enemies_0010"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2199,7 +2199,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0012"] = {
+	["gui_bottom_info_image_enemies_0011"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2224,7 +2224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0013"] = {
+	["gui_bottom_info_image_enemies_0012"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2249,7 +2249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0014"] = {
+	["gui_bottom_info_image_enemies_0013"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2274,7 +2274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0015"] = {
+	["gui_bottom_info_image_enemies_0014"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2299,7 +2299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0016"] = {
+	["gui_bottom_info_image_enemies_0015"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2324,7 +2324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0017"] = {
+	["gui_bottom_info_image_enemies_0016"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2349,7 +2349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0018"] = {
+	["gui_bottom_info_image_enemies_0017"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2374,7 +2374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0019"] = {
+	["gui_bottom_info_image_enemies_0018"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2399,7 +2399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0020"] = {
+	["gui_bottom_info_image_enemies_0019"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2424,7 +2424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0021"] = {
+	["gui_bottom_info_image_enemies_0020"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2449,7 +2449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0022"] = {
+	["gui_bottom_info_image_enemies_0021"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2474,7 +2474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0023"] = {
+	["gui_bottom_info_image_enemies_0022"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2499,7 +2499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0024"] = {
+	["gui_bottom_info_image_enemies_0023"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2524,7 +2524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0025"] = {
+	["gui_bottom_info_image_enemies_0024"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2549,7 +2549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0026"] = {
+	["gui_bottom_info_image_enemies_0025"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2574,7 +2574,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0027"] = {
+	["gui_bottom_info_image_enemies_0026"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2599,7 +2599,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0028"] = {
+	["gui_bottom_info_image_enemies_0027"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2624,7 +2624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0029"] = {
+	["gui_bottom_info_image_enemies_0028"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2643,6 +2643,31 @@ return {
 		f_quad = {
 			1053,
 			997,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_image_enemies_0029"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1053,
+			1096,
 			97,
 			96
 		},
@@ -2667,31 +2692,6 @@ return {
 		},
 		f_quad = {
 			1053,
-			1096,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_image_enemies_0031"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1053,
 			1195,
 			97,
 			96
@@ -2699,7 +2699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0032"] = {
+	["gui_bottom_info_image_enemies_0031"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2724,7 +2724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0033"] = {
+	["gui_bottom_info_image_enemies_0032"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2749,7 +2749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0034"] = {
+	["gui_bottom_info_image_enemies_0033"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2774,7 +2774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0035"] = {
+	["gui_bottom_info_image_enemies_0034"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2799,7 +2799,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0036"] = {
+	["gui_bottom_info_image_enemies_0035"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2824,7 +2824,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0037"] = {
+	["gui_bottom_info_image_enemies_0036"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2849,7 +2849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0038"] = {
+	["gui_bottom_info_image_enemies_0037"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2874,7 +2874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0039"] = {
+	["gui_bottom_info_image_enemies_0038"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2899,7 +2899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0040"] = {
+	["gui_bottom_info_image_enemies_0039"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2924,7 +2924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0041"] = {
+	["gui_bottom_info_image_enemies_0040"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2949,7 +2949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0042"] = {
+	["gui_bottom_info_image_enemies_0041"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2974,7 +2974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0043"] = {
+	["gui_bottom_info_image_enemies_0042"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -2999,7 +2999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0044"] = {
+	["gui_bottom_info_image_enemies_0043"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3024,7 +3024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0045"] = {
+	["gui_bottom_info_image_enemies_0044"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3049,7 +3049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0046"] = {
+	["gui_bottom_info_image_enemies_0045"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3068,6 +3068,31 @@ return {
 		f_quad = {
 			1120,
 			1392,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_image_enemies_0046"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1120,
+			1491,
 			97,
 			96
 		},
@@ -3092,31 +3117,6 @@ return {
 		},
 		f_quad = {
 			1120,
-			1491,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_image_enemies_0048"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1120,
 			1590,
 			97,
 			96
@@ -3124,7 +3124,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0049"] = {
+	["gui_bottom_info_image_enemies_0048"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3149,7 +3149,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0050"] = {
+	["gui_bottom_info_image_enemies_0049"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3174,7 +3174,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0051"] = {
+	["gui_bottom_info_image_enemies_0050"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3199,7 +3199,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0052"] = {
+	["gui_bottom_info_image_enemies_0051"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3224,7 +3224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0053"] = {
+	["gui_bottom_info_image_enemies_0052"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3249,7 +3249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0054"] = {
+	["gui_bottom_info_image_enemies_0053"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3274,7 +3274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0055"] = {
+	["gui_bottom_info_image_enemies_0054"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3299,7 +3299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0056"] = {
+	["gui_bottom_info_image_enemies_0055"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3317,6 +3317,31 @@ return {
 		},
 		f_quad = {
 			1348,
+			1004,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0056"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1447,
 			1004,
 			97,
 			96
@@ -3341,31 +3366,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1447,
-			1004,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0058"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1348,
 			1102,
 			97,
@@ -3374,7 +3374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0059"] = {
+	["gui_bottom_info_image_enemies_0058"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3399,7 +3399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0060"] = {
+	["gui_bottom_info_image_enemies_0059"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3424,7 +3424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0061"] = {
+	["gui_bottom_info_image_enemies_0060"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3449,7 +3449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0062"] = {
+	["gui_bottom_info_image_enemies_0061"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3474,7 +3474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0063"] = {
+	["gui_bottom_info_image_enemies_0062"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3493,6 +3493,31 @@ return {
 		f_quad = {
 			1447,
 			1200,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0063"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1546,
+			1102,
 			97,
 			96
 		},
@@ -3517,7 +3542,7 @@ return {
 		},
 		f_quad = {
 			1546,
-			1102,
+			1200,
 			97,
 			96
 		},
@@ -3541,8 +3566,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1546,
-			1200,
+			1645,
+			1102,
 			97,
 			96
 		},
@@ -3567,7 +3592,7 @@ return {
 		},
 		f_quad = {
 			1645,
-			1102,
+			1200,
 			97,
 			96
 		},
@@ -3591,8 +3616,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1645,
-			1200,
+			1348,
+			1298,
 			97,
 			96
 		},
@@ -3600,106 +3625,6 @@ return {
 		textureRotated = false
 	},
 	["gui_bottom_info_image_enemies_0068"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1348,
-			1298,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0069"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1348,
-			1298,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0070"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1348,
-			1298,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0071"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1348,
-			1298,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0072"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3724,7 +3649,82 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0073"] = {
+	["gui_bottom_info_image_enemies_0069"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1447,
+			1298,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0070"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1447,
+			1298,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0071"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1447,
+			1298,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0072"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3749,7 +3749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0074"] = {
+	["gui_bottom_info_image_enemies_0073"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3774,7 +3774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0075"] = {
+	["gui_bottom_info_image_enemies_0074"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3793,6 +3793,31 @@ return {
 		f_quad = {
 			1744,
 			1005,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0075"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1744,
+			1103,
 			97,
 			96
 		},
@@ -3817,7 +3842,7 @@ return {
 		},
 		f_quad = {
 			1744,
-			1103,
+			1201,
 			97,
 			96
 		},
@@ -3842,7 +3867,7 @@ return {
 		},
 		f_quad = {
 			1744,
-			1201,
+			1299,
 			97,
 			96
 		},
@@ -3866,8 +3891,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1744,
-			1299,
+			1843,
+			1006,
 			97,
 			96
 		},
@@ -3892,7 +3917,7 @@ return {
 		},
 		f_quad = {
 			1843,
-			1006,
+			1104,
 			97,
 			96
 		},
@@ -3917,7 +3942,7 @@ return {
 		},
 		f_quad = {
 			1843,
-			1104,
+			1202,
 			97,
 			96
 		},
@@ -3942,31 +3967,6 @@ return {
 		},
 		f_quad = {
 			1843,
-			1202,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0082"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1843,
 			1300,
 			97,
 			96
@@ -3974,7 +3974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0083"] = {
+	["gui_bottom_info_image_enemies_0082"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -3999,7 +3999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0084"] = {
+	["gui_bottom_info_image_enemies_0083"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4024,7 +4024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0085"] = {
+	["gui_bottom_info_image_enemies_0084"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4049,7 +4049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_enemies_0086"] = {
+	["gui_bottom_info_image_enemies_0085"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4074,7 +4074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0087"] = {
+	["gui_bottom_info_image_enemies_0086"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4092,6 +4092,31 @@ return {
 		},
 		f_quad = {
 			1316,
+			1396,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0087"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1415,
 			1396,
 			97,
 			96
@@ -4116,31 +4141,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1415,
-			1396,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0089"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1316,
 			1494,
 			97,
@@ -4149,7 +4149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0090"] = {
+	["gui_bottom_info_image_enemies_0089"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4174,7 +4174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0091"] = {
+	["gui_bottom_info_image_enemies_0090"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4199,7 +4199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0092"] = {
+	["gui_bottom_info_image_enemies_0091"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4224,7 +4224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_enemies_0093"] = {
+	["gui_bottom_info_image_enemies_0092"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4242,6 +4242,31 @@ return {
 		},
 		f_quad = {
 			1514,
+			1494,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["gui_bottom_info_image_enemies_0093"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1613,
 			1494,
 			97,
 			96
@@ -4266,8 +4291,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1613,
-			1494,
+			1712,
+			1397,
 			97,
 			96
 		},
@@ -4292,7 +4317,7 @@ return {
 		},
 		f_quad = {
 			1712,
-			1397,
+			1495,
 			97,
 			96
 		},
@@ -4316,8 +4341,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1712,
-			1495,
+			1811,
+			1398,
 			97,
 			96
 		},
@@ -4342,31 +4367,6 @@ return {
 		},
 		f_quad = {
 			1811,
-			1398,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["gui_bottom_info_image_enemies_0098"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1811,
 			1496,
 			97,
 			96
@@ -4374,7 +4374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0001"] = {
+	["gui_bottom_info_image_enemies_0098"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4399,7 +4399,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0002"] = {
+	["gui_bottom_info_image_soldiers_0001"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4424,7 +4424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0003"] = {
+	["gui_bottom_info_image_soldiers_0002"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4443,6 +4443,31 @@ return {
 		f_quad = {
 			1005,
 			1886,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_image_soldiers_0003"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1005,
+			1985,
 			97,
 			96
 		},
@@ -4467,7 +4492,7 @@ return {
 		},
 		f_quad = {
 			1005,
-			1985,
+			2084,
 			97,
 			96
 		},
@@ -4491,8 +4516,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1005,
-			2084,
+			1006,
+			2183,
 			97,
 			96
 		},
@@ -4517,31 +4542,6 @@ return {
 		},
 		f_quad = {
 			1006,
-			2183,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_image_soldiers_0007"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1006,
 			2282,
 			97,
 			96
@@ -4549,7 +4549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0008"] = {
+	["gui_bottom_info_image_soldiers_0007"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4574,7 +4574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0009"] = {
+	["gui_bottom_info_image_soldiers_0008"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4599,7 +4599,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0010"] = {
+	["gui_bottom_info_image_soldiers_0009"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4624,7 +4624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0011"] = {
+	["gui_bottom_info_image_soldiers_0010"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4649,7 +4649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0012"] = {
+	["gui_bottom_info_image_soldiers_0011"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4674,7 +4674,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0013"] = {
+	["gui_bottom_info_image_soldiers_0012"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4699,7 +4699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0014"] = {
+	["gui_bottom_info_image_soldiers_0013"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4724,7 +4724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0015"] = {
+	["gui_bottom_info_image_soldiers_0014"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4749,7 +4749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0016"] = {
+	["gui_bottom_info_image_soldiers_0015"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4774,7 +4774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0017"] = {
+	["gui_bottom_info_image_soldiers_0016"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4799,7 +4799,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0018"] = {
+	["gui_bottom_info_image_soldiers_0017"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4824,7 +4824,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0019"] = {
+	["gui_bottom_info_image_soldiers_0018"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4849,7 +4849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0020"] = {
+	["gui_bottom_info_image_soldiers_0019"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4874,7 +4874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0021"] = {
+	["gui_bottom_info_image_soldiers_0020"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4893,6 +4893,31 @@ return {
 		f_quad = {
 			1300,
 			1885,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["gui_bottom_info_image_soldiers_0021"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1300,
+			1984,
 			97,
 			96
 		},
@@ -4917,31 +4942,6 @@ return {
 		},
 		f_quad = {
 			1300,
-			1984,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["gui_bottom_info_image_soldiers_0023"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1300,
 			2083,
 			97,
 			96
@@ -4949,7 +4949,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0024"] = {
+	["gui_bottom_info_image_soldiers_0023"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4974,7 +4974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0025"] = {
+	["gui_bottom_info_image_soldiers_0024"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -4999,7 +4999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0026"] = {
+	["gui_bottom_info_image_soldiers_0025"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5024,7 +5024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0027"] = {
+	["gui_bottom_info_image_soldiers_0026"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5049,7 +5049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0028"] = {
+	["gui_bottom_info_image_soldiers_0027"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5074,7 +5074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0029"] = {
+	["gui_bottom_info_image_soldiers_0028"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5099,7 +5099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0030"] = {
+	["gui_bottom_info_image_soldiers_0029"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5124,7 +5124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0031"] = {
+	["gui_bottom_info_image_soldiers_0030"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5149,7 +5149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0032"] = {
+	["gui_bottom_info_image_soldiers_0031"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5174,7 +5174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0033"] = {
+	["gui_bottom_info_image_soldiers_0032"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5199,7 +5199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0034"] = {
+	["gui_bottom_info_image_soldiers_0033"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5224,7 +5224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0035"] = {
+	["gui_bottom_info_image_soldiers_0034"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5249,7 +5249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0036"] = {
+	["gui_bottom_info_image_soldiers_0035"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5274,7 +5274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0037"] = {
+	["gui_bottom_info_image_soldiers_0036"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5299,7 +5299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0038"] = {
+	["gui_bottom_info_image_soldiers_0037"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5324,7 +5324,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0039"] = {
+	["gui_bottom_info_image_soldiers_0038"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5349,7 +5349,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0040"] = {
+	["gui_bottom_info_image_soldiers_0039"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5374,7 +5374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0041"] = {
+	["gui_bottom_info_image_soldiers_0040"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5399,7 +5399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0042"] = {
+	["gui_bottom_info_image_soldiers_0041"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5424,7 +5424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0043"] = {
+	["gui_bottom_info_image_soldiers_0042"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5449,7 +5449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0044"] = {
+	["gui_bottom_info_image_soldiers_0043"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5474,7 +5474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0045"] = {
+	["gui_bottom_info_image_soldiers_0044"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5499,7 +5499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0046"] = {
+	["gui_bottom_info_image_soldiers_0045"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5524,7 +5524,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0047"] = {
+	["gui_bottom_info_image_soldiers_0046"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5549,7 +5549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0048"] = {
+	["gui_bottom_info_image_soldiers_0047"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5574,7 +5574,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0049"] = {
+	["gui_bottom_info_image_soldiers_0048"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5599,7 +5599,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0050"] = {
+	["gui_bottom_info_image_soldiers_0049"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5624,7 +5624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0051"] = {
+	["gui_bottom_info_image_soldiers_0050"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5649,7 +5649,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0052"] = {
+	["gui_bottom_info_image_soldiers_0051"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5674,7 +5674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0053"] = {
+	["gui_bottom_info_image_soldiers_0052"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5699,7 +5699,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0054"] = {
+	["gui_bottom_info_image_soldiers_0053"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5724,7 +5724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0055"] = {
+	["gui_bottom_info_image_soldiers_0054"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5749,7 +5749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0056"] = {
+	["gui_bottom_info_image_soldiers_0055"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5774,7 +5774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["gui_bottom_info_image_soldiers_0057"] = {
+	["gui_bottom_info_image_soldiers_0056"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5799,7 +5799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0058"] = {
+	["gui_bottom_info_image_soldiers_0057"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5824,7 +5824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["gui_bottom_info_image_soldiers_0059"] = {
+	["gui_bottom_info_image_soldiers_0058"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -5848,6 +5848,31 @@ return {
 		},
 		alias = {},
 		textureRotated = true
+	},
+	["gui_bottom_info_image_soldiers_0059"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1595,
+			1789,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["hero_portraits_0001"] = {
 		a_name = "gui_portraits.dds",
@@ -7242,31 +7267,6 @@ return {
 		},
 		f_quad = {
 			1595,
-			1789,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_hero_0002"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1595,
 			1887,
 			97,
 			96
@@ -7274,7 +7274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0002ar"] = {
+	["portraits_hero_0002"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7299,7 +7299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0003"] = {
+	["portraits_hero_0002ar"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7318,6 +7318,31 @@ return {
 		f_quad = {
 			1595,
 			1985,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_hero_0003"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1694,
+			1887,
 			97,
 			96
 		},
@@ -7342,31 +7367,6 @@ return {
 		},
 		f_quad = {
 			1694,
-			1887,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_hero_0005"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
-			1694,
 			1985,
 			97,
 			96
@@ -7374,7 +7374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0006"] = {
+	["portraits_hero_0005"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7399,7 +7399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0007"] = {
+	["portraits_hero_0006"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7424,7 +7424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0008"] = {
+	["portraits_hero_0007"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7449,7 +7449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0009"] = {
+	["portraits_hero_0008"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7474,7 +7474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0010"] = {
+	["portraits_hero_0009"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7499,7 +7499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0011"] = {
+	["portraits_hero_0010"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7524,7 +7524,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0012"] = {
+	["portraits_hero_0011"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7549,7 +7549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0013"] = {
+	["portraits_hero_0012"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7574,7 +7574,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0014"] = {
+	["portraits_hero_0013"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7599,7 +7599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["portraits_hero_0015"] = {
+	["portraits_hero_0014"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7624,7 +7624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["portraits_hero_0016"] = {
+	["portraits_hero_0015"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7649,7 +7649,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_hero_0017"] = {
+	["portraits_hero_0016"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7668,6 +7668,31 @@ return {
 		f_quad = {
 			1697,
 			2182,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_hero_0017"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1696,
+			2280,
 			97,
 			96
 		},
@@ -7766,31 +7791,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1696,
-			2280,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_towers_0002"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1697,
 			2378,
 			97,
@@ -7799,7 +7799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["portraits_towers_0003"] = {
+	["portraits_towers_0002"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7824,7 +7824,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0004"] = {
+	["portraits_towers_0003"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7849,7 +7849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0005"] = {
+	["portraits_towers_0004"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7874,7 +7874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0006"] = {
+	["portraits_towers_0005"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7899,7 +7899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0007"] = {
+	["portraits_towers_0006"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7924,7 +7924,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["portraits_towers_0008"] = {
+	["portraits_towers_0007"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7949,7 +7949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0009"] = {
+	["portraits_towers_0008"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7974,7 +7974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0010"] = {
+	["portraits_towers_0009"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -7999,7 +7999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0011"] = {
+	["portraits_towers_0010"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8024,7 +8024,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0014"] = {
+	["portraits_towers_0011"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8049,7 +8049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0015"] = {
+	["portraits_towers_0014"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8074,7 +8074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0016"] = {
+	["portraits_towers_0015"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8099,7 +8099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0017"] = {
+	["portraits_towers_0016"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8124,7 +8124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0018"] = {
+	["portraits_towers_0017"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8149,7 +8149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0019"] = {
+	["portraits_towers_0018"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8167,6 +8167,31 @@ return {
 		},
 		f_quad = {
 			901,
+			2478,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0019"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1000,
 			2478,
 			97,
 			96
@@ -8216,7 +8241,7 @@ return {
 			2582
 		},
 		f_quad = {
-			1000,
+			1099,
 			2478,
 			97,
 			96
@@ -8241,8 +8266,8 @@ return {
 			2582
 		},
 		f_quad = {
-			1099,
-			2478,
+			1198,
+			2475,
 			97,
 			96
 		},
@@ -8291,31 +8316,6 @@ return {
 			2582
 		},
 		f_quad = {
-			1198,
-			2475,
-			97,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["portraits_towers_0025"] = {
-		a_name = "gui_portraits.dds",
-		size = {
-			104,
-			104
-		},
-		trim = {
-			4,
-            4,
-            3,
-            4
-		},
-		a_size = {
-			2035,
-			2582
-		},
-		f_quad = {
 			1297,
 			2476,
 			97,
@@ -8324,7 +8324,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0026"] = {
+	["portraits_towers_0025"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8349,7 +8349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0027"] = {
+	["portraits_towers_0026"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8374,7 +8374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0028"] = {
+	["portraits_towers_0027"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8399,7 +8399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0029"] = {
+	["portraits_towers_0028"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8424,7 +8424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["portraits_towers_0030"] = {
+	["portraits_towers_0029"] = {
 		a_name = "gui_portraits.dds",
 		size = {
 			104,
@@ -8443,6 +8443,31 @@ return {
 		f_quad = {
 			1792,
 			2477,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["portraits_towers_0030"] = {
+		a_name = "gui_portraits.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			2035,
+			2582
+		},
+		f_quad = {
+			1891,
+			2478,
 			97,
 			96
 		},

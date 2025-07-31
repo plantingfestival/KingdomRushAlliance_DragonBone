@@ -253,7 +253,25 @@ return {
 				31,
 				255
 			}
-		}
+		},
+		hero_phoenix = {
+			cost = 500,
+			color_bg = {
+				253,
+				253,
+				85,
+				255
+			}
+		},
+		hero_veznan = {
+			cost = 500,
+			color_bg = {
+				115,
+				59,
+				178,
+				255
+			}
+		},
 	},
 	gems_data = {
 		gems_handful = {

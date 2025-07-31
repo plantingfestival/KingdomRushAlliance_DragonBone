@@ -19,6 +19,7 @@ local customScripts1 = require("custom_scripts_1")
 
 require("templates")
 
+local U = require("utils")
 local H = require("helpers")
 local balance = require("balance/balance")
 local IS_PHONE = KR_TARGET == "phone"

@@ -12,13 +12,12 @@ local anchor_y = 0
 local image_y = 0
 local tt, b
 local scripts = require("game_scripts")
-local kr1_scripts = require("kr1_game_scripts")
-local kr2_scripts = require("kr2_game_scripts")
 local kr3_scripts = require("kr3_game_scripts")
 local customScripts1 = require("custom_scripts_1")
 
 require("templates")
 
+local U = require("utils")
 local H = require("helpers")
 local balance = require("balance/balance")
 local IS_PHONE = KR_TARGET == "phone"
@@ -1059,7 +1058,7 @@ tt.hero.skills.ultimate.hr_order = 5
 tt.hero.skills.ultimate.key = "HAIL"
 tt.hero.skills.ultimate.max_range = 250
 tt.hero.skills.ultimate.range_nodes_max = 15
-tt.hero.skills.ultimate.min_targets = 3
+tt.hero.skills.ultimate.min_targets = 4
 tt.health.armor = nil
 tt.health.dead_lifetime = 15
 tt.health.hp_max = nil
@@ -1412,7 +1411,7 @@ tt.hero.skills.ultimate = E:clone_c("hero_skill")
 tt.hero.skills.ultimate.controller_name = "hero_arivan_ultimate"
 tt.hero.skills.ultimate.max_range = 200
 tt.hero.skills.ultimate.range_nodes_max = 15
-tt.hero.skills.ultimate.min_targets = 3
+tt.hero.skills.ultimate.min_targets = 5
 tt.hero.skills.ultimate.damage = {
 	[0] = 6,
 	8,
@@ -7893,10 +7892,9 @@ tt.ranged.attacks[1].min_range = 25
 tt.regen.health = 15
 tt.render.sprites[1].prefix = "soldier_barrack_3"
 tt.unit.mod_offset = v(0, 12)
+
 tt = E:register_t("soldier_bravebark", "soldier_militia")
-
 E:add_comps(tt, "reinforcement")
-
 image_y = 58
 anchor_y = 12 / image_y
 tt.health.armor = 0
@@ -8061,20 +8059,19 @@ tt.unit.level = 0
 tt.unit.hit_offset = v(0, 16)
 tt.unit.mod_offset = v(0, 22)
 tt.unit.hide_after_death = true
+
 tt = RT("soldier_veznan_demon", "soldier_militia")
-
-AC(tt, "reinforcement", "ranged")
-
-tt.health.armor = 0
+AC(tt, "reinforcement", "ranged", "nav_grid")
+tt.health.armor = 0.3
 tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 65)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.fn = kr3_scripts.soldier_reinforcement.get_info
-tt.info.portrait = "portraits_sc_0058"
+tt.info.portrait = "bottom_info_image_soldiers_0047"
 tt.info.random_name_count = 8
 tt.info.random_name_format = "ELVES_SOLDIER_VEZNAN_DEMON_%i_NAME"
 tt.main_script.insert = kr3_scripts.soldier_reinforcement.insert
-tt.main_script.update = kr3_scripts.soldier_reinforcement.update
+tt.main_script.update = scripts.soldier_reinforcement_kr5.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = nil
 tt.melee.attacks[1].damage_min = nil
@@ -8667,10 +8664,9 @@ tt.rebound_range = 125
 tt = E:register_t("fx_shield_elves_denas_hit", "fx")
 tt.render.sprites[1].name = "fx_shield_elves_denas_hit"
 tt.render.sprites[1].z = Z_EFFECTS - 1
-tt = E:register_t("hero_regson", "hero")
 
+tt = E:register_t("hero_regson", "hero5")
 E:add_comps(tt, "melee", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -8985,10 +8981,9 @@ tt.range = 50
 tt.vis_flags = F_RANGED
 tt.vis_bans = 0
 tt.hit_time = fts(20)
-tt = E:register_t("hero_faustus", "hero")
 
+tt = E:register_t("hero_faustus", "hero5")
 E:add_comps(tt, "ranged", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -9353,10 +9348,9 @@ tt.render.sprites[2].offset = v(0, 70)
 tt.emit_ox = 180
 tt.cast_ox = 80
 tt.image_w = 40
-tt = E:register_t("hero_bravebark", "hero")
 
+tt = E:register_t("hero_bravebark", "hero5")
 E:add_comps(tt, "melee", "teleport", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0.04,
 	0.08,
@@ -9644,10 +9638,9 @@ tt.damage_type = DAMAGE_TRUE
 tt.vis_flags = bor(F_STUN)
 tt.vis_bans = bor(F_FLYING, F_BOSS)
 tt.mod = "mod_bravebark_ultimate"
-tt = E:register_t("hero_xin", "hero")
 
+tt = E:register_t("hero_xin", "hero5")
 E:add_comps(tt, "melee", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0.25,
 	0.25,
@@ -9928,10 +9921,9 @@ tt.sound_events.insert = "ElvesHeroXinPandamonium"
 tt.vis_flags = bor(F_RANGED)
 tt.vis_bans = bor(F_FLYING)
 tt.entity = "soldier_xin_ultimate"
-tt = E:register_t("hero_catha", "hero")
 
+tt = E:register_t("hero_catha", "hero5")
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0,
 	0.05,
@@ -10263,10 +10255,9 @@ tt.vis_bans = 0
 tt.render.sprites[1].name = "hero_catha_ultimate"
 tt.render.sprites[1].anchor.y = 0.373
 tt.hit_time = fts(22)
-tt = RT("hero_rag", "hero")
 
+tt = RT("hero_rag", "hero5")
 AC(tt, "melee", "ranged", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -10600,10 +10591,12 @@ tt.main_script.update = kr3_scripts.hero_rag_ultimate.update
 tt.vis_flags = bor(F_RANGED, F_MOD, F_RAGGIFY)
 tt.vis_bans = bor(F_BOSS, F_FLYING)
 tt.hit_time = fts(2)
-tt = RT("hero_veznan", "hero")
 
+tt = E:register_t("controller_item_hero_veznan", "controller_item_hero")
+tt.entity = "hero_veznan"
+
+tt = RT("hero_veznan", "hero5")
 AC(tt, "melee", "ranged", "timed_attacks", "teleport")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -10631,26 +10624,26 @@ tt.hero.level_stats.hp_max = {
 tt.hero.level_stats.melee_damage_max = {
 	8,
 	10,
-	11,
 	12,
-	13,
 	14,
 	16,
-	17,
 	18,
-	19
+	20,
+	22,
+	24,
+	26
 }
 tt.hero.level_stats.melee_damage_min = {
-	6,
 	6,
 	7,
 	8,
 	9,
 	10,
-	10,
 	11,
 	12,
-	13
+	13,
+	14,
+	15
 }
 tt.hero.level_stats.regen_health = {
 	12,
@@ -10666,27 +10659,27 @@ tt.hero.level_stats.regen_health = {
 }
 tt.hero.level_stats.ranged_damage_min = {
 	11,
-	12,
-	14,
+	13,
 	15,
 	17,
-	18,
+	19,
 	20,
-	21,
-	23,
-	24
+	22,
+	24,
+	26,
+	28
 }
 tt.hero.level_stats.ranged_damage_max = {
 	32,
-	36,
-	41,
-	45,
-	50,
-	54,
-	59,
-	63,
-	68,
-	72
+	37,
+	42,
+	47,
+	52,
+	57,
+	62,
+	67,
+	72,
+	77
 }
 tt.hero.skills.soulburn = E:clone_c("hero_skill")
 tt.hero.skills.soulburn.hr_cost = {
@@ -10699,7 +10692,7 @@ tt.hero.skills.soulburn.hr_order = 1
 tt.hero.skills.soulburn.total_hp = {
 	250,
 	500,
-	750
+	1000
 }
 tt.hero.skills.soulburn.xp_gain = {
 	105,
@@ -10740,13 +10733,13 @@ tt.hero.skills.hermeticinsight.range_factor = {
 tt.hero.skills.arcanenova = E:clone_c("hero_skill")
 tt.hero.skills.arcanenova.damage_min = {
 	28,
-	46,
-	64
+	56,
+	84
 }
 tt.hero.skills.arcanenova.damage_max = {
 	52,
-	86,
-	120
+	104,
+	156
 }
 tt.hero.skills.arcanenova.hr_cost = {
 	2,
@@ -10777,14 +10770,14 @@ tt.hero.skills.ultimate.soldier_hp_max = {
 tt.hero.skills.ultimate.soldier_damage_max = {
 	[0] = 50,
 	90,
-	115,
-	130
+	130,
+	170
 }
 tt.hero.skills.ultimate.soldier_damage_min = {
 	[0] = 30,
 	50,
-	65,
-	80
+	70,
+	90
 }
 tt.hero.skills.ultimate.hr_cost = {
 	4,
@@ -10794,16 +10787,20 @@ tt.hero.skills.ultimate.hr_cost = {
 tt.hero.skills.ultimate.hr_icon = "0030"
 tt.hero.skills.ultimate.hr_order = 5
 tt.hero.skills.ultimate.key = "DARKPACT"
+tt.hero.skills.ultimate.max_range = 250
+tt.hero.skills.ultimate.search_type = U.search_type.find_max_crowd
+tt.hero.skills.ultimate.crowd_range = 70
+tt.hero.skills.ultimate.min_targets = 5
 tt.health.dead_lifetime = 20
 tt.health_bar.offset = v(0, 41)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr3_scripts.hero_veznan.level_up
+tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.info.damage_icon = "magic"
 tt.info.fn = kr3_scripts.hero_basic.get_info_ranged
-tt.info.hero_portrait = "hero_portraits_0006"
 tt.info.i18n_key = "HERO_ELVES_VEZNAN"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0006"
+tt.info.portrait = "portraits_hero_0127"
 tt.info.ultimate_icon = "0006"
 tt.main_script.update = kr3_scripts.hero_veznan.update
 tt.motion.max_speed = 2 * FPS
@@ -10821,11 +10818,14 @@ tt.teleport.sound = "ElvesHeroVeznanTeleport"
 tt.unit.hit_offset = v(0, 15)
 tt.unit.mod_offset = v(0, 15)
 tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].hit_time = fts(7)
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].xp_gain_factor = 0.38
 tt.melee.range = 55
 tt.ranged.attacks[1] = CC("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[1].max_range = 165
 tt.ranged.attacks[1].min_range = 20
 tt.ranged.attacks[1].cooldown = 1.5
@@ -10850,7 +10850,7 @@ tt.timed_attacks.list[1].radius = 110
 tt.timed_attacks.list[1].range = 140
 tt.timed_attacks.list[1].sound = "ElvesHeroVeznanSoulBurn"
 tt.timed_attacks.list[1].total_hp = nil
-tt.timed_attacks.list[1].vis_bans = bor(F_BOSS)
+tt.timed_attacks.list[1].vis_bans = bor(F_BOSS, F_NIGHTMARE)
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_INSTAKILL)
 tt.timed_attacks.list[2] = CC("mod_attack")
 tt.timed_attacks.list[2].animation = "shackles"
@@ -10865,7 +10865,7 @@ tt.timed_attacks.list[2].mods = {
 }
 tt.timed_attacks.list[2].radius = 100
 tt.timed_attacks.list[2].range = 150
-tt.timed_attacks.list[2].vis_bans = bor(F_BOSS)
+tt.timed_attacks.list[2].vis_bans = bor(F_BOSS, F_NIGHTMARE)
 tt.timed_attacks.list[2].vis_flags = bor(F_RANGED, F_MOD, F_STUN)
 tt.timed_attacks.list[3] = CC("area_attack")
 tt.timed_attacks.list[3].animation = "arcaneNova"
@@ -10883,14 +10883,13 @@ tt.timed_attacks.list[3].max_range = 165
 tt.timed_attacks.list[3].min_range = 75
 tt.timed_attacks.list[3].min_count = 2
 tt.timed_attacks.list[3].mod = "mod_veznan_arcanenova"
-tt.timed_attacks.list[3].vis_bans = 0
+tt.timed_attacks.list[3].vis_bans = bor(F_NIGHTMARE)
 tt.timed_attacks.list[3].vis_flags = bor(F_RANGED)
+
 tt = RT("hero_veznan_ultimate")
-
 E:add_comps(tt, "pos", "main_script", "sound_events")
-
 tt.can_fire_fn = kr3_scripts.hero_veznan_ultimate.can_fire_fn
-tt.cooldown = 120
+tt.cooldown = 86.4
 tt.entity = "soldier_veznan_demon"
 tt.main_script.update = kr3_scripts.hero_veznan_ultimate.update
 tt.mod = "mod_veznan_ultimate_stun"
@@ -10898,10 +10897,9 @@ tt.range = 65
 tt.sound_events.insert = "ElvesHeroVeznanDarkPact"
 tt.vis_bans = bor(F_BOSS)
 tt.vis_flags = bor(F_MOD, F_STUN)
-tt = RT("hero_durax", "hero")
 
+tt = RT("hero_durax", "hero5")
 AC(tt, "melee", "ranged", "timed_attacks", "transfer")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -11209,10 +11207,9 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.transfer.particles_name = "ps_durax_clone_transfer"
-tt = RT("hero_lilith", "hero")
 
+tt = RT("hero_lilith", "hero5")
 E:add_comps(tt, "melee", "ranged", "timed_attacks", "revive")
-
 tt.hero.level_stats.armor = {
 	0.1,
 	0.15,
@@ -11501,10 +11498,9 @@ tt.angel_vis_bans = bor(F_FRIEND, F_FLYING)
 tt.meteor_bullet = "meteor_lilith"
 tt.meteor_chance = 0.5
 tt.meteor_node_spread = 5
-tt = RT("hero_bruce", "hero")
 
+tt = RT("hero_bruce", "hero5")
 AC(tt, "melee", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0.05,
 	0.1,
@@ -11813,10 +11809,9 @@ tt.tween.props[1].keys = {
 		255
 	}
 }
-tt = RT("hero_lynn", "hero")
 
+tt = RT("hero_lynn", "hero5")
 AC(tt, "dodge", "melee", "timed_attacks")
-
 tt.hero.level_stats.armor = {
 	0.04,
 	0.08,
@@ -12097,10 +12092,12 @@ tt.vis_flags = F_RANGED
 tt.vis_bans = 0
 tt.cooldown = 30
 tt.sound_events.insert = "ElvesHeroLynnFateSealed"
-tt = RT("hero_phoenix", "hero")
 
+tt = E:register_t("controller_item_hero_phoenix", "controller_item_hero")
+tt.entity = "hero_phoenix"
+
+tt = RT("hero_phoenix", "hero5")
 E:add_comps(tt, "ranged", "timed_attacks", "selfdestruct")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -12188,16 +12185,30 @@ tt.hero.level_stats.ranged_damage_max = {
 tt.hero.level_stats.egg_damage = {
 	4,
 	5,
-	5,
 	6,
-	7,
 	7,
 	8,
 	9,
-	9,
-	10
+	10,
+	11,
+	12,
+	13
 }
 tt.hero.level_stats.egg_explosion_damage_max = {
+	72,
+	90,
+	108,
+	126,
+	144,
+	162,
+	180,
+	198,
+	216,
+	234
+}
+tt.hero.level_stats.egg_explosion_damage_min = {
+	48,
+	60,
 	72,
 	84,
 	96,
@@ -12205,21 +12216,7 @@ tt.hero.level_stats.egg_explosion_damage_max = {
 	120,
 	132,
 	144,
-	156,
-	168,
-	180
-}
-tt.hero.level_stats.egg_explosion_damage_min = {
-	48,
-	56,
-	64,
-	72,
-	80,
-	88,
-	96,
-	104,
-	112,
-	120
+	156
 }
 tt.hero.skills.inmolate = E:clone_c("hero_skill")
 tt.hero.skills.inmolate.hr_cost = {
@@ -12278,12 +12275,12 @@ tt.hero.skills.blazing_offspring.hr_order = 3
 tt.hero.skills.blazing_offspring.damage_max = {
 	55,
 	70,
-	80
+	85
 }
 tt.hero.skills.blazing_offspring.damage_min = {
 	30,
 	40,
-	45
+	50
 }
 tt.hero.skills.blazing_offspring.count = {
 	2,
@@ -12318,13 +12315,13 @@ tt.hero.skills.ultimate.damage_max = {
 	[0] = 45,
 	105,
 	220,
-	400
+	445
 }
 tt.hero.skills.ultimate.damage_min = {
 	[0] = 25,
 	55,
 	120,
-	200
+	255
 }
 tt.hero.skills.ultimate.hr_cost = {
 	3,
@@ -12351,9 +12348,8 @@ tt.hero.use_custom_spawn_point = true
 tt.idle_flip.cooldown = 10
 tt.info.damage_icon = "fireball"
 tt.info.fn = kr3_scripts.hero_phoenix.get_info
-tt.info.hero_portrait = "hero_portraits_0011"
 tt.info.i18n_key = "HERO_ELVES_PHOENIX"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0011"
+tt.info.portrait = "portraits_hero_0126"
 tt.info.ultimate_icon = "0011"
 tt.main_script.insert = kr3_scripts.hero_phoenix.insert
 tt.main_script.update = kr3_scripts.hero_phoenix.update
@@ -12362,6 +12358,7 @@ tt.nav_rally.requires_node_nearby = false
 tt.nav_grid.ignore_waypoints = true
 tt.nav_grid.valid_terrains = TERRAIN_ALL_MASK
 tt.nav_grid.valid_terrains_dest = TERRAIN_ALL_MASK
+tt.drag_line_origin_offset = v(0, 100)
 tt.regen.cooldown = 1
 tt.render.sprites[1].anchor.y = 0.19411764705882
 tt.render.sprites[1].prefix = "hero_phoenix"
@@ -12388,6 +12385,7 @@ tt.unit.mod_offset = v(0, 134)
 tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET, F_POISON, F_BURN)
 tt.vis.flags = bor(tt.vis.flags, F_FLYING)
 tt.ranged.attacks[1] = CC("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].bullet = "ray_phoenix"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(0, 100)
@@ -12451,10 +12449,9 @@ tt.selfdestruct.sound_args = {
 }
 tt.selfdestruct.dead_lifetime = 5
 tt.selfdestruct.xp_from_skill = "inmolate"
+
 tt = RT("hero_phoenix_ultimate", "aura")
-
 AC(tt, "render", "tween")
-
 tt.aura.duration = 180
 tt.aura.vis_flags = F_RANGED
 tt.aura.vis_bans = F_FLYING
@@ -12466,7 +12463,7 @@ tt.aura.damage_type = DAMAGE_TRUE
 tt.aura.damage_max = nil
 tt.aura.damage_min = nil
 tt.can_fire_fn = kr3_scripts.hero_phoenix_ultimate.can_fire_fn
-tt.cooldown = 18
+tt.cooldown = 12.96
 tt.main_script.update = kr3_scripts.hero_phoenix_ultimate.update
 tt.sound_events.insert = "ElvesHeroPhoenixFireEggDrop"
 tt.sound_events.activate = "ElvesHeroPhoenixFireEggActivate"
@@ -16673,6 +16670,7 @@ tt.sound_events.hit = "ElvesHeroVeznanDemonFireballHit"
 tt = RT("bolt_veznan", "bolt")
 tt.render.sprites[1].prefix = "veznan_hero_bolt"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.bullet.use_unit_damage_factor = true
 tt.bullet.damage_type = DAMAGE_MAGICAL
 tt.bullet.acceleration_factor = 0.1
 tt.bullet.min_speed = 30
@@ -18114,7 +18112,7 @@ tt = RT("mod_phoenix_flaming_path", "modifier")
 AC(tt, "custom_attack", "render", "tween")
 
 tt.main_script.update = kr3_scripts.mod_phoenix_flaming_path.update
-tt.modifier.duration = 6.5
+tt.modifier.duration = 15
 tt.custom_attack = CC("custom_attack")
 tt.custom_attack.damage = nil
 tt.custom_attack.cooldown = 2
@@ -18123,7 +18121,7 @@ tt.custom_attack.fx_start = "fx_flaming_path_start"
 tt.custom_attack.fx_end = "fx_flaming_path_end"
 tt.custom_attack.hit_time = 0.1
 tt.custom_attack.mod = "mod_veznan_demon_fire"
-tt.custom_attack.radius = 125
+tt.custom_attack.radius = 150
 tt.custom_attack.damage_type = DAMAGE_TRUE
 tt.custom_attack.sound = "ElvesHeroPhoenixRingOfFireExplode"
 tt.custom_attack.vis_flags = F_RANGED
