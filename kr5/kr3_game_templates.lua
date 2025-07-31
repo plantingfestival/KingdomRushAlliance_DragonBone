@@ -8985,7 +8985,10 @@ tt.range = 50
 tt.vis_flags = F_RANGED
 tt.vis_bans = 0
 tt.hit_time = fts(20)
-tt = E:register_t("hero_faustus", "hero")
+tt = E:register_t("controller_item_hero_faustus", "controller_item_hero")
+tt.entity = "hero_faustus"
+
+tt = E:register_t("hero_faustus", "hero5")
 
 E:add_comps(tt, "ranged", "timed_attacks")
 
@@ -9179,6 +9182,9 @@ tt.hero.skills.ultimate.mod_damage = {
 	5,
 	7
 }
+tt.hero.skills.ultimate.min_targets = 2
+tt.hero.skills.ultimate.max_range = 200
+tt.hero.skills.ultimate.range_nodes_max = 200
 tt.hero.skills.ultimate.controller_name = "hero_faustus_ultimate"
 tt.hero.skills.ultimate.key = "DRAGON_RAGE"
 tt.health.dead_lifetime = 30
@@ -9192,9 +9198,8 @@ tt.hero.use_custom_spawn_point = true
 tt.idle_flip.cooldown = 10
 tt.info.damage_icon = "magic"
 tt.info.fn = kr3_scripts.hero_faustus.get_info
-tt.info.hero_portrait = "hero_portraits_0009"
 tt.info.i18n_key = "HERO_ELVES_FAUSTUS"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0009"
+tt.info.portrait = "portraits_hero_0125"
 tt.info.ultimate_icon = "0009"
 tt.info.ultimate_pointer_style = "area"
 tt.main_script.insert = kr3_scripts.hero_faustus.insert
@@ -9235,11 +9240,13 @@ tt.ranged.attacks[1].bullet_start_offset = {
 	v(26, 80)
 }
 tt.ranged.attacks[1].cooldown = 1
-tt.ranged.attacks[1].bullet_count = 3
+tt.ranged.attacks[1].bullet_count = 40
 tt.ranged.attacks[1].min_range = 40
 tt.ranged.attacks[1].max_range = 150
 tt.ranged.attacks[1].extra_range = 80
 tt.ranged.attacks[1].shoot_time = fts(12)
+tt.ranged.attacks[1].basic_attack = true
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[1].sync_animation = true
 tt.ranged.attacks[1].animation = "attackBase"
 tt.ranged.attacks[1].start_fx = "fx_faustus_start_attack"
@@ -9250,7 +9257,7 @@ tt.ranged.attacks[2].bullet = "bolt_lance_faustus"
 tt.ranged.attacks[2].bullet_start_offset = {
 	v(22, 110)
 }
-tt.ranged.attacks[2].cooldown = 25
+tt.ranged.attacks[2].cooldown = 15
 tt.ranged.attacks[2].min_range = 20
 tt.ranged.attacks[2].max_range = 150
 tt.ranged.attacks[2].shoot_time = fts(22)
@@ -9267,7 +9274,7 @@ tt.ranged.attacks[2].xp_from_skill = "dragon_lance"
 tt.ranged.attacks[3] = E:clone_c("aura_attack")
 tt.ranged.attacks[3].disabled = true
 tt.ranged.attacks[3].bullet = "aura_teleport_faustus"
-tt.ranged.attacks[3].cooldown = 28
+tt.ranged.attacks[3].cooldown = 20
 tt.ranged.attacks[3].min_range = 0
 tt.ranged.attacks[3].max_range = 100
 tt.ranged.attacks[3].shoot_time = fts(16)
@@ -9324,7 +9331,7 @@ tt = E:register_t("hero_faustus_ultimate")
 E:add_comps(tt, "pos", "main_script", "sound_events")
 
 tt.can_fire_fn = kr3_scripts.hero_faustus_ultimate.can_fire_fn
-tt.cooldown = 40
+tt.cooldown = 30
 tt.main_script.update = kr3_scripts.hero_faustus_ultimate.update
 tt.sound_events.insert = "ElvesHeroFaustusUltimate"
 tt.separation_nodes = 20

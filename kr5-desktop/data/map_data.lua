@@ -587,6 +587,7 @@ return {
 		"hero_dragon",
 		"hero_beastmaster",
 		"hero_priest",
+		"hero_faustus",
 		"hero_voodoo_witch",
 		"hero_wizard",
 		"hero_dwarf",

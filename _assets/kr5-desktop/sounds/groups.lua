@@ -483,16 +483,6 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
-	sounds_stage427 = {
-		sounds = {
-			"MusicBattlePrep_427",
-			"MusicBattle_427",
-			"level27_gillman_jump",
-			"level27_gillman_appear",
-			"level27_girl_drinking",
-			"dark_army_blazing_mage_attack_loopstart",
-		}
-	},
 	MushroomSounds = {
 		files = {
 			"KR_sfx_mushroomboss_gas_op1.ogg",
@@ -530,11 +520,6 @@ return {
 			"Vampiress-Death02c.ogg",
 			"halloween_vampiress_areaattack_confilo.ogg",
 			"halloween_vampiress_drainlifeOP2.ogg",
-			"Sound_EnemySkeletonBreak2.ogg",
-			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg",
-			"kr4_dwarves_sulfur_alchemist_death.ogg",
-			"Sound_EnemyRocketeer.ogg",
-			"kr4_frog_erudite_shot.ogg",
 		}
 	},
 	-- customization
@@ -1293,6 +1278,23 @@ return {
 			"KRF_sfx_vodoo_munieco.ogg",
 			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
 			"KRF_sfx_vodoo_ataqueV3.ogg"
+		}
+	},
+	item_hero_faustus = {
+		files = {
+			"kro_sfx_veznan_faustus_killray_v3.ogg",
+            "kro_sfx_faustus_normalattack_v1.ogg",
+            "Faustus-death_01e2.ogg",
+            "kro_sfx_faustus_enervation_v2_[op1].ogg",
+            "kro_sfx_faustus_activate[op2].ogg",
+            "Faustus-confirm_01b2.ogg",
+            "kro_sfx_faustus_liquidfire_v2_sinchimes.ogg",
+            "kro_sfx_faustus_fireloop_v1.ogg",
+            "Faustus-confirm_04b2.ogg",
+			"Faustus-confirm_02b2.ogg",
+			"Faustus-confirm_03a2.ogg",
+			"Faustus-confirm_01b2.ogg",
+            "kro_sfx_faustus_teleport_v1[sinarpa].ogg",
 		}
 	},
 	tower_rock_thrower = {
