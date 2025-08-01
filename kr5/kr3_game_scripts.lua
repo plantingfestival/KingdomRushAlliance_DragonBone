@@ -7217,6 +7217,10 @@ function scripts.hero_veznan.update(this, store)
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
+	for k, a in pairs(this.idle_animations) do
+		a.ts = store.tick_ts
+		a.cooldown = U.frandom(a.cooldown_min, a.cooldown_max)
+	end
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -7441,7 +7445,8 @@ function scripts.hero_veznan.update(this, store)
 				local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, nil, nil, nil, nil, nil, 
 				skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
 				if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
-					U.animation_start(this, "arcaneNova", nil, store.tick_ts, nil, 1)
+					local an, af = U.animation_name_facing_point(this, "arcaneNova", ultimatePos)
+					U.animation_start(this, an, af, store.tick_ts, nil, 1)
 					local u = E:create_entity(ultimate_controller)
 					u.pos = ultimatePos
 					u.level = skill_ultimate.level
@@ -7470,6 +7475,19 @@ function scripts.hero_veznan.update(this, store)
 				elseif SU.soldier_go_back_step(store, this) then
 					-- block empty
 				else
+					for k, a in pairs(this.idle_animations) do
+						if store.tick_ts - a.ts > a.cooldown then
+							a.ts = store.tick_ts
+							a.cooldown = U.frandom(a.cooldown_min, a.cooldown_max)
+							U.animation_start(this, k, nil, store.tick_ts, nil, 1)
+							while not U.animation_finished(this) do
+								if SU.hero_interrupted(this) then
+									goto label_154_0
+								end
+								coroutine.yield()
+							end
+						end
+					end
 					SU.soldier_idle(store, this)
 					SU.soldier_regen(store, this)
 				end

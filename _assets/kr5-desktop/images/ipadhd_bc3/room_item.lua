@@ -824,7 +824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_alien"] = {
+	["item_room_portrait_hero_alien"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -849,7 +849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_beastmaster"] = {
+	["item_room_portrait_hero_beastmaster"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -874,7 +874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_crab"] = {
+	["item_room_portrait_hero_crab"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -899,7 +899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_giant"] = {
+	["item_room_portrait_hero_giant"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -924,7 +924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_minotaur"] = {
+	["item_room_portrait_hero_minotaur"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -949,7 +949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_monk"] = {
+	["item_room_portrait_hero_monk"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -974,7 +974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["item_room_porrait_hero_monkey_god"] = {
+	["item_room_portrait_hero_monkey_god"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -999,7 +999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_pirate"] = {
+	["item_room_portrait_hero_pirate"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -1024,7 +1024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_priest"] = {
+	["item_room_portrait_hero_priest"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -1049,7 +1049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_van_helsing"] = {
+	["item_room_portrait_hero_van_helsing"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -1074,7 +1074,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_voodoo_witch"] = {
+	["item_room_portrait_hero_voodoo_witch"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,
@@ -1099,7 +1099,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["item_room_porrait_hero_wizard"] = {
+	["item_room_portrait_hero_wizard"] = {
 		a_name = "room_item-0.dds",
 		size = {
 			630,

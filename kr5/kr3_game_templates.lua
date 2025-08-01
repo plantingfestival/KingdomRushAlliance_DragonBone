@@ -10886,6 +10886,13 @@ tt.timed_attacks.list[3].min_count = 2
 tt.timed_attacks.list[3].mod = "mod_veznan_arcanenova"
 tt.timed_attacks.list[3].vis_bans = bor(F_NIGHTMARE)
 tt.timed_attacks.list[3].vis_flags = bor(F_RANGED)
+tt.idle_animations = {
+	stand = {
+		cooldown_min = 7,
+		cooldown_max = 13,
+		ts = 0
+	}
+}
 
 tt = RT("hero_veznan_ultimate")
 E:add_comps(tt, "pos", "main_script", "sound_events")
