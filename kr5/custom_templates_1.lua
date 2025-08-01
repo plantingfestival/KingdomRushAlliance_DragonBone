@@ -465,7 +465,7 @@ tt.health.dead_lifetime = 30
 tt.health_bar.draw_order = -1
 tt.health_bar.offset = v(0, 175)
 tt.health_bar.sort_y_offset = -200
-tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.z = Z_FLYING_HEROES
 tt.hero.fn_level_up = customScripts1.hero_eiskalt.level_up
 tt.hero.tombstone_show_time = nil
@@ -801,7 +801,7 @@ tt.bullet.damage_min = b.ice_ball.damage_min
 tt.bullet.damage_max = b.ice_ball.damage_max
 tt.bullet.damage_radius = 75
 tt.bullet.flight_time = fts(35)
-tt.bullet.rotation_speed = 3 * FPS * math.pi / 35
+tt.bullet.rotation_speed = 6 * FPS * math.pi / 35
 tt.bullet.hit_fx = "fx_frosty_explosion"
 tt.bullet.hit_fx_water = "fx_frosty_explosion"
 tt.bullet.hit_decal = nil
@@ -1899,7 +1899,7 @@ tt.particle_system.animated = true
 tt.particle_system.loop = false
 tt.particle_system.animation_fps = 20
 tt.particle_system.emission_rate = 35
-tt.particle_system.z = Z_DECALS
+tt.particle_system.z = Z_DECALS + 1
 
 tt = E:register_t("elves_soldier_harasser_arrow_lvl2", "arrow5_fixed_height")
 tt.render.sprites[1].name = "elves_soldier_harasser_arrow"
@@ -3133,9 +3133,9 @@ tt.main_script.update = scripts.mod_hps.update
 tt = E:register_t("mod_war_elephant_buff", "modifier")
 E:add_comps(tt, "render", "tween")
 tt.modifier.duration = 6
+tt.modifier.use_mod_offset = false
 tt.inflicted_damage_factor = 1.5
 tt.speed_factor = 1.5
-tt.modifier.use_mod_offset = false
 tt.main_script.insert = scripts.mod_fury.insert
 tt.main_script.remove = scripts.mod_fury.remove
 tt.main_script.update = customScripts1.mod_track_target_with_fade.update
@@ -4042,8 +4042,8 @@ tt.main_script.update = customScripts1.veznan_crystal.update
 
 tt = E:register_t("veznan_crystal_ray", "continuous_ray")
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_min = 12
-tt.bullet.damage_max = 12
+tt.bullet.damage_min = 60
+tt.bullet.damage_max = 60
 tt.bullet.mods = {
 	"mod_veznan_crystal_ray",
 }

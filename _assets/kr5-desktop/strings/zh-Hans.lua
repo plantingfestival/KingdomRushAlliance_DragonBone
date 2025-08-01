@@ -2909,10 +2909,23 @@ return {
 	ITEM_KR4_HERO_MALIK_NAME = "马利克·愤怒之锤",
 	HERO_PRIEST_NAME = "德得尔",
 	ITEM_HERO_PRIEST_NAME = "女祭司德得尔",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	ITEM_HERO_PRIEST_BOTTOM_DESC = "召唤女祭司德得尔来击败你的敌人。",
+	ITEM_HERO_PRIEST_BOTTOM_INFO = "召唤女祭司德得尔来与你并肩作战。",
+	ITEM_HERO_PRIEST_DESC = "虔诚的女祭司毕生致力于践行修会的崇高意志。在战场上，她运用魔法守护战友，治愈伤者。",
+	HERO_BEASTMASTER_NAME = "克罗南",
+=======
+>>>>>>> main
 	ITEM_HERO_PRIEST_BOTTOM_DESC = "召唤德得尔来击败你的敌人。",
 	ITEM_HERO_PRIEST_BOTTOM_INFO = "召唤德得尔来与你并肩作战。",
 	ITEM_HERO_PRIEST_DESC = "忠诚的女祭司受神明的指示，帮助国王对抗外来的入侵者，她将用神明赐予的光明击溃任何来犯之敌。",
 	HERO_VBEASTMASTER_NAME = "克罗南",
+<<<<<<< HEAD
+=======
+>>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
+>>>>>>> main
 	BEASTMASTER_BOAR_NAME = "野猪",
 	BEASTMASTER_FALCON_NAME = "猎鹰",
 	ITEM_HERO_BEASTMASTER_NAME = "野兽大师克罗南",
@@ -2933,12 +2946,51 @@ return {
 	ITEM_HERO_WIZARD_NAME = "大法师纽维斯",
 	ITEM_HERO_WIZARD_BOTTOM_DESC = "召唤大法师纽维斯来击败你的敌人。",
 	ITEM_HERO_WIZARD_BOTTOM_INFO = "召唤大法师纽维斯来与你并肩作战。",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有着令人惊叹的强大力量，与此同时也是重担在肩。",
+	HERO_ELVES_PHOENIX_NAME = "火凤凰",
+	ITEM_HERO_PHOENIX_NAME = "不死鸟火凤凰",
+	ITEM_HERO_PHOENIX_BOTTOM_DESC = "召唤不死鸟火凤凰来击败你的敌人。",
+	ITEM_HERO_PHOENIX_BOTTOM_INFO = "召唤不死鸟火凤凰来与你并肩作战。",
+	ITEM_HERO_PHOENIX_DESC = "一种神话般的生物......总是能从灰烬中重生，焚烧一切！凤凰将会对那些胆敢侵犯精灵王国的家伙释放太阳之力！那些面对她的烈火的可怜家伙最好戴副太阳镜吧还是。",
+	HERO_ELVES_VEZNAN_NAME = "维兹南的分身",
+	ELVES_SOLDIER_VEZNAN_DEMON_1_NAME = "麦尔金",
+	ELVES_SOLDIER_VEZNAN_DEMON_2_NAME = "瑟露",
+	ELVES_SOLDIER_VEZNAN_DEMON_3_NAME = "范·海伦",
+	ELVES_SOLDIER_VEZNAN_DEMON_4_NAME = "阿斯塔罗特",
+	ELVES_SOLDIER_VEZNAN_DEMON_5_NAME = "巴洛尔",
+	ELVES_SOLDIER_VEZNAN_DEMON_6_NAME = "奥茲",
+	ELVES_SOLDIER_VEZNAN_DEMON_7_NAME = "格罗尔",
+	ELVES_SOLDIER_VEZNAN_DEMON_8_NAME = "犹格",
+	ITEM_HERO_VEZNAN_NAME = "黑暗巫师维兹南的分身",
+	ITEM_HERO_VEZNAN_BOTTOM_DESC = "召唤黑暗巫师维兹南的分身来击败你的敌人。",
+	ITEM_HERO_VEZNAN_BOTTOM_INFO = "召唤黑暗巫师维兹南的分身来与你并肩作战。",
+	ITEM_HERO_VEZNAN_DESC = "利尼维亚史上首屈一指的伟大法师，他已经挣脱了书本和咒语的条条框框，只为追求灵魂的力量。虽说一切力量都有其代价，但是维兹南可能陷得太深了......",
+	HERO_ELVES_PIXIE_NAME = "卡莎",
+	HERO_ELVES_RAG_NAME = "瑞兹与大瑞格",
+	HERO_ELVES_LYNN_NAME = "莉恩",
+	HERO_ELVES_ELDRITCH_NAME = "雷格森",
+	HERO_ELVES_PANDA_NAME = "鑫",
+	HERO_ELVES_DURAX_NAME = "杜拉斯",
+	HERO_ELVES_FOREST_ELEMENTAL_NAME = "无畏巴克",
+	HERO_ELVES_FOREST_ELEMENTAL_MINION_NAME = "小树人",
+	HERO_ELVES_BRUCE_NAME = "布鲁斯",
+	HERO_ELVES_FAUSTUS_NAME = "浮士德",
+	HERO_ELVES_FALLEN_ANGEL_NAME = "莉莉斯",
+=======
+>>>>>>> main
 	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有者令人惊叹的强大力量，与此同时也是重担在肩。无师自通，但桃李满天下，他的神奇魔法如同他的胡言乱语一般难以捉摸。但他十分谨慎的掌握着自己的力量，因为他深知，能力越大，麻烦越多。",
 	HERO_ELVES_FAUSTUS_NAME = "浮士德",
 	ITEM_HERO_FAUSTUS_NAME = "浮士德",
 	ITEM_HERO_FAUSTUS_BOTTOM_DESC = "召唤浮士德来击败你的敌人。",
 	ITEM_HERO_FAUSTUS_BOTTOM_INFO = "召唤浮士德来与你并肩作战。",
 	ITEM_HERO_FAUSTUS_DESC = "传言说他是艾纳尼女神的亲密好友，也有人宣称当浮士德降生的那个夜晚，天龙座的某一颗星星失去了光彩......但一些传奇又把他描绘成精灵族的永恒守护者。不管怎么说，浮士德几乎已经掌握了所有已知的龙族法术......其中一种仍然是一个迷...",
+<<<<<<< HEAD
+=======
+>>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
+>>>>>>> main
 
 	SOLDIER_DRACOLICH_GOLEM_NAME = "叉骨",
 	SOLDIER_DEATH_RIDER_NAME = "死亡骑士",
@@ -3940,6 +3992,16 @@ return {
 	LEVEL_125_TITLE = "125. 夜牙沼泽",
 	LEVEL_126_HISTORY = "望向这个堕落勇士时，我们的心里充满了悲伤。布莱克本魔王当初为了对抗邪恶，太过于追求力量，以致于被力量腐蚀，就连他的领地也堕入黑暗之中。可惜呀，我们救不了他；但我们还来得及从绞刑架上救下巴内斯蒂国王。将军，你掌握着两个王国之间和平的关键…击败魔王布莱克本，也许死亡会给他带来救赎！",
 	LEVEL_126_TITLE = "126. 布莱克本城堡",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	LEVEL_426_HISTORY = "我就知道，这一刻终将到来。瓦拉杜勒的幽魂想让我付清之前欠他们的账。但它们开的价码太高了！我才不会把自己领土上一半的生灵交给它们呢！现在它们带着手下最强的生物来了，不过好在我事先也做了一些准备。",
+	LEVEL_426_TITLE = "426. 重返腐朽森林",
+	LEVEL_427_HISTORY = "将军，现在我们就要进入腐朽森林的深沼泽了。这里是瓦拉杜勒全境最危险的地方，但我们不得不走这条路。因为一旦绕过这里，聚集起来的敌人就有可能趁我军向北进军之际，从后方袭击我军。请务必当心沼泽地里那些实力强劲的不死生物。",
+	LEVEL_427_TITLE = "427. 沼泽地里的一夜",
+=======
+>>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
+>>>>>>> main
 	-- kr1_enemies
 	ENEMY_ABOMINATION_NAME = "憎恶",
 	ENEMY_BANDIT_NAME = "强盗",
@@ -4083,5 +4145,53 @@ return {
 	ENEMY_SCREECHER_BAT_NAME = "尖啸蝙蝠",
 	ENEMY_TWILIGHT_GOLEM_NAME = "暮光傀儡",
 	ENEMY_TWILIGHT_HERETIC_NAME = "暮光异教徒",
+	ENEMY_ARACHNOMANCER_NAME = "控蛛师",
+	ENEMY_ARACHNOMANCER_SPIDER_NAME = "蜘蛛幼虫",
+	ENEMY_BANDERSNATCH_NAME = "大毛怪",
+	ENEMY_BLOOD_SERVANT_NAME = "血祭仆从",
+	ENEMY_BOOMSHROOMS_NAME = "炸弹魔菇",
+	ENEMY_BOSS_BAJNIMEN_NAME = "憎恶者巴杰尼蒙",
+	ENEMY_BOSS_BALROG_NAME = "戈迪斯",
+	ENEMY_BOSS_BRAM_NAME = "歼灭者布拉姆",
+	ENEMY_BOSS_DROW_QUEEN_NAME = "玛丽西娅",
+	ENEMY_BOSS_DROW_QUEEN_ZEALOT_NAME = "狂热者",
+	ENEMY_BOSS_GNOLL_NAME = "嗨嗨恩哈",
+	ENEMY_BOSS_SPIDER_NAME = "蜘蛛女神",
+	ENEMY_DARK_SPITTERS_NAME = "黑暗喷吐者",
+	ENEMY_DRIDER_NAME = "蛛化精灵",
+	ENEMY_ENDLESS_MINIBOSS_GNOLL_NAME = "豺狼人战争领主",
+	ENEMY_ENDLESS_MINIBOSS_TWILIGHT_NAME = "暮光狂战士",
+	ENEMY_ETTIN_NAME = "双头食人魔",
+	ENEMY_GLOOMY_NAME = "幽暗蝇",
+	ENEMY_GNOLL_BLIGHTER_NAME = "豺狼人摧残者",
+	ENEMY_GNOLL_BURNER_NAME = "豺狼人纵火者",
+	ENEMY_GNOLL_CATAPULT_NAME = "豺狼人投石车",
+	ENEMY_GNOLL_GNAWER_NAME = "豺狼人咬噬者",
+	ENEMY_GNOLL_REAVER_NAME = "豺狼人盗匪",
+	ENEMY_GRIM_DEVOURERS_NAME = "吞噬者",
+	ENEMY_HYENA_NAME = "鬣狗",
+	ENEMY_MOUNTED_AVENGER_NAME = "复仇骑兵",
+	ENEMY_MUNCHSHROOMS_NAME = "咀嚼魔菇",
+	ENEMY_OGRE_MAGI_NAME = "食人魔魔法师",
+	ENEMY_PERYTHON_NAME = "佩利顿鹰",
+	ENEMY_RAZORBOAR_NAME = "剃刀野猪",
+	ENEMY_REDCAP_NAME = "小红帽",
+	ENEMY_SATYR_CUTTHROAT_NAME = "萨梯割喉者",
+	ENEMY_SATYR_HOPLITE_NAME = "萨梯重装步兵",
+	ENEMY_SHADOW_CHAMPION_NAME = "暗影勇士",
+	ENEMY_SHADOWS_SPAWNS_NAME = "暗影兵卒",
+	ENEMY_SHROOM_BREEDER_NAME = "菌菇饲养者",
+	ENEMY_SON_OF_MACTANS_NAME = "黑寡妇之子",
+	ENEMY_SWORD_SPIDER_NAME = "刃脚蜘蛛",
+	ENEMY_TWILIGHT_AVENGER_NAME = "暮光复仇者",
+	ENEMY_TWILIGHT_ELF_HARASSER_NAME = "暮光骚扰者",
+	ENEMY_TWILIGHT_SCOURGER_BANSHEE_NAME = "鞭笞者班西",
+	ENEMY_TWILIGHT_SCOURGER_NAME = "暮光鞭笞者",
+	ENEMY_WEBSPITTING_SPIDER_NAME = "喷网蜘蛛",
+	-- kr4_enemies
+	ENEMY_BONE_CARRIER_NAME = "载骨机",
+	ENEMY_CORROSIVE_SOUL_NAME = "蚀骨之魂",
+	ENEMY_HAUNTED_SKELETON_NAME = "鬼缠骷髅",
+	ENEMY_LICH_NAME = "巫妖",
 
 }

@@ -1,34 +1,34 @@
 return{
-    bone_carrier_idle = {
-        prefix = "bone_carrier",
-        to = 30,
-        from = 1
-    },
-    bone_carrier_walk = {
-        prefix = "bone_carrier",
-        to = 60,
-        from = 31
-    },
-    bone_carrier_walkDown = {
-        prefix = "bone_carrier",
-        to = 94,
-        from = 61
-    },
-    bone_carrier_walkUp = {
-        prefix = "bone_carrier",
-        to = 128,
-        from = 95
-    },
-    bone_carrier_attack = {
-        prefix = "bone_carrier",
-        to = 160,
-        from = 129
-    },
-    bone_carrier_death = {
-        prefix = "bone_carrier",
-        to = 230,
-        from = 161
-    },
+	bone_carrier_idle = {
+		prefix = "bone_carrier",
+		to = 30,
+		from = 1
+	},
+	bone_carrier_walk = {
+		prefix = "bone_carrier",
+		to = 60,
+		from = 31
+	},
+	bone_carrier_walkDown = {
+		prefix = "bone_carrier",
+		to = 94,
+		from = 61
+	},
+	bone_carrier_walkUp = {
+		prefix = "bone_carrier",
+		to = 128,
+		from = 95
+	},
+	bone_carrier_attack = {
+		prefix = "bone_carrier",
+		to = 160,
+		from = 129
+	},
+	bone_carrier_death = {
+		prefix = "bone_carrier",
+		to = 230,
+		from = 161
+	},
 	bone_carrier_modifier_init = {
 		prefix = "bone_carrier_modifier",
 		to = 9,
@@ -39,17 +39,7 @@ return{
 		to = 10,
 		from = 10
 	},
-    bone_carrier_modifier_init = {
-		prefix = "bone_carrier_modifier",
-		to = 9,
-		from = 1
-	},
-	bone_carrier_modifier_loop = {
-		prefix = "bone_carrier_modifier",
-		to = 10,
-		from = 10
-	},
-    corrosive_soul_idle = {
+	corrosive_soul_idle = {
 		prefix = "corrosive_soul",
 		to = 1,
 		from = 1
@@ -79,12 +69,12 @@ return{
 		to = 119,
 		from = 85
 	},
-    corrosive_soul_fx_run = {
+	corrosive_soul_fx_run = {
 		prefix = "corrosive_soul_fx",
 		to = 14,
 		from = 1
 	},
-    ghost_idle = {
+	ghost_idle = {
 		prefix = "ghost",
 		to = 1,
 		from = 1
@@ -109,12 +99,102 @@ return{
 		to = 118,
 		from = 91
 	},
-	ghost_spawn = {
-		prefix = "ghost_spawn",
-		to = 25,
+	ghost_raise = {
+		prefix = "ghost",
+		to = 91,
+		from = 115
+	},
+	haunted_skeleton_idle = {
+		prefix = "haunted_skeleton",
+		to = 14,
 		from = 1
 	},
-    roots_holder_front_idle = {
+	haunted_skeleton_walk = {
+		prefix = "haunted_skeleton",
+		to = 38,
+		from = 15
+	},
+	haunted_skeleton_walkDown = {
+		prefix = "haunted_skeleton",
+		to = 62,
+		from = 39
+	},
+	haunted_skeleton_walkUp = {
+		prefix = "haunted_skeleton",
+		to = 86,
+		from = 63
+	},
+	haunted_skeleton_attack = {
+		prefix = "haunted_skeleton",
+		to = 108,
+		from = 87
+	},
+	haunted_skeleton_death = {
+		prefix = "haunted_skeleton",
+		to = 131,
+		from = 109
+	},
+	haunted_skeleton_raise = {
+		prefix = "haunted_skeleton",
+		to = 157,
+		from = 132
+	},
+	haunted_skeleton_modifier_damage_fx_run = {
+		prefix = "haunted_skeleton_modifier_damage_fx",
+		to = 24,
+		from = 1
+	},
+	lich_idle = {
+		prefix = "lich",
+		to = 24,
+		from = 1
+	},
+	lich_walk = {
+		prefix = "lich",
+		to = 24,
+		from = 1
+	},
+	lich_walkDown = {
+		prefix = "lich",
+		to = 50,
+		from = 25
+	},
+	lich_walkUp = {
+		prefix = "lich",
+		to = 75,
+		from = 51
+	},
+	lich_attack = {
+		prefix = "lich",
+		to = 103,
+		from = 76
+	},
+	lich_shoot = {
+		prefix = "lich",
+		to = 139,
+		from = 104
+	},
+	lich_special = {
+		prefix = "lich",
+		to = 177,
+		from = 140
+	},
+	lich_death = {
+		prefix = "lich",
+		to = 214,
+		from = 178
+	},
+	lich_ray_travel = {
+		prefix = "lich_ray",
+		to = 14,
+		from = 1
+	},
+	lich_ray_hit_fx_run = {
+		prefix = "lich_ray_hit_fx",
+		to = 6,
+		from = 1
+	},
+	roots_holder_front_idle = {
 		prefix = "roots_holder_front",
 		to = 24,
 		from = 1
@@ -184,5 +264,9 @@ return{
 		to = 42,
 		from = 1
 	},
-
+	swamp_bubble_run = {
+		prefix = "Stage_26_swamp_bubble",
+		to = 33,
+		from = 1
+	},
 }

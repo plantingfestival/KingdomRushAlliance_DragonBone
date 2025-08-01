@@ -1,587 +1,325 @@
 return {
-	lives = 1,
-	cash = 1000,
+	cash = 1400,
 	groups = {
 		{
-			interval = 1000,
+			interval = 200,
 			waves = {
 				{
 					delay = 0,
 					path_index = 1,
 					spawns = {
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 380,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 380,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 380,
-							max = 1
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 3,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 100,
-							max = 0
-						},
-						{
-							interval = 19,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 200,
-							max = 5
-						},
-						{
-							interval = 19,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 200,
-							max = 5
-						},
-						{
-							interval = 19,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 200,
-							max = 10
-						},
-						{
-							interval = 19,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 300,
-							max = 10
-						},
-						{
-							interval = 19,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_spider_small",
-							path = 1,
-							interval_next = 200,
-							max = 15
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 2,
-					some_flying = true,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 90,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 0,
-							max = 5
-						}
-					}
-				}
-			}
-		},
-		{
-			interval = 800,
-			waves = {
-				{
-					delay = 0,
-					path_index = 1,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 400,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 400,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 400,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 400,
-							max = 1
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 2,
-					some_flying = true,
-					spawns = {
-						{
-							interval = 90,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 400,
-							max = 6
-						},
-						{
-							interval = 64,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon",
-							path = 1,
-							interval_next = 400,
-							max = 6
-						},
-						{
-							interval = 90,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 400,
-							max = 6
-						},
-						{
-							interval = 64,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon",
-							path = 1,
-							interval_next = 400,
-							max = 8
-						}
-					}
-				}
-			}
-		},
-		{
-			interval = 1000,
-			waves = {
-				{
-					delay = 0,
-					path_index = 1,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 0,
-							max = 1
-						},
-						{
-							interval = 512,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 300,
-							max = 5
-						},
-						{
-							interval = 384,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 300,
-							max = 5
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 3,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_necromancer",
-							path = 1,
-							interval_next = 600,
-							max = 1
-						}
-					}
-				}
-			}
-		},
-		{
-			interval = 1000,
-			waves = {
-				{
-					delay = 0,
-					path_index = 1,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 200,
-							max = 1
-						},
-						{
-							interval = 256,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 200,
-							max = 15
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 3,
-					spawns = {
-						{
-							interval = 128,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
-							path = 2,
-							interval_next = 800,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
+							creep = "enemy_haunted_skeleton",
 							path = 3,
-							interval_next = 400,
-							max = 1
+							interval_next = 100,
+							max = 5
+						},
+						{
+							interval = 80,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 0,
+							max = 5
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 75,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_kr4_ghost",
+							path = 3,
+							interval_next = 75,
+							max = 8
+						},
+						{
+							interval = 55,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_kr4_ghost",
+							path = 3,
+							interval_next = 55,
+							max = 7
 						}
 					}
 				}
 			}
 		},
 		{
-			interval = 1000,
+			interval = 400,
+			waves = {
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 130,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 130,
+							max = 10
+						},
+						{
+							interval = 110,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 110,
+							max = 5
+						}
+					}
+				},
+				{
+					delay = 350,
+					path_index = 4,
+					spawns = {
+						{
+							interval = 750,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_bone_carrier",
+							path = 3,
+							interval_next = 0,
+							max = 2
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 900,
 			waves = {
 				{
 					delay = 0,
 					path_index = 1,
 					spawns = {
 						{
-							interval = 0,
+							interval = 180,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 300,
-							max = 1
+							creep = "enemy_werewolf",
+							path = 3,
+							interval_next = 180,
+							max = 6
 						},
 						{
-							interval = 256,
+							interval = 150,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 1,
-							interval_next = 300,
+							creep = "enemy_werewolf",
+							path = 3,
+							interval_next = 150,
+							max = 6
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 320,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_corrosive_soul",
+							path = 3,
+							interval_next = 320,
+							max = 3
+						},
+						{
+							interval = 270,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_corrosive_soul",
+							path = 3,
+							interval_next = 270,
+							max = 3
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 400,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 170,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 170,
+							max = 8
+						},
+						{
+							interval = 150,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 150,
+							max = 5
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 160,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_screecher_bat",
+							path = 3,
+							interval_next = 0,
 							max = 12
 						}
 					}
 				},
 				{
 					delay = 0,
-					path_index = 2,
+					path_index = 4,
 					spawns = {
 						{
-							interval = 0,
+							interval = 170,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 300,
-							max = 0
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 200,
-							max = 4
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 200,
-							max = 4
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 200,
-							max = 5
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 300,
-							max = 5
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 300,
-							max = 5
-						},
-						{
-							interval = 51,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_demon_wolf",
-							path = 1,
-							interval_next = 300,
-							max = 5
-						}
-					}
-				},
-				{
-					delay = 0,
-					path_index = 3,
-					spawns = {
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
-							path = 2,
-							interval_next = 1000,
-							max = 1
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
+							creep = "enemy_haunted_skeleton",
 							path = 3,
-							interval_next = 1000,
-							max = 1
+							interval_next = 170,
+							max = 8
 						},
 						{
-							interval = 0,
+							interval = 150,
 							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
-							path = 1,
-							interval_next = 1000,
-							max = 1
+							fixed_sub_path = 0,
+							creep = "enemy_haunted_skeleton",
+							path = 3,
+							interval_next = 150,
+							max = 5
 						}
 					}
 				}
 			}
 		},
 		{
-			interval = 1200,
+			interval = 400,
 			waves = {
 				{
 					delay = 0,
 					path_index = 1,
 					spawns = {
 						{
-							interval = 256,
+							interval = 300,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_greenmuck",
+							creep = "enemy_corrosive_soul",
 							path = 3,
-							interval_next = 256,
-							max = 3
-						},
-						{
-							interval = 256,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 3,
-							interval_next = 256,
-							max = 3
-						},
-						{
-							interval = 256,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
-							path = 1,
 							interval_next = 300,
-							max = 1
+							max = 3
 						},
 						{
-							interval = 192,
+							interval = 270,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_greenmuck",
+							creep = "enemy_corrosive_soul",
 							path = 3,
-							interval_next = 192,
-							max = 5
-						},
-						{
-							interval = 192,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 3,
-							interval_next = 192,
-							max = 5
+							interval_next = 270,
+							max = 3
 						}
 					}
 				},
 				{
 					delay = 0,
 					path_index = 2,
-					some_flying = true,
 					spawns = {
 						{
-							interval = 51,
+							interval = 400,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 1000,
-							max = 10
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 400,
+							max = 3
 						},
 						{
-							interval = 45,
+							interval = 370,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 1000,
-							max = 15
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 370,
+							max = 3
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 600,
+			waves = {
+				{
+					delay = 200,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 390,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 390,
+							max = 3
 						},
 						{
-							interval = 38,
+							interval = 360,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 1000,
-							max = 15
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 360,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 420,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 420,
+							max = 3
+						},
+						{
+							interval = 390,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_lich",
+							path = 3,
+							interval_next = 390,
+							max = 3
 						}
 					}
 				},
@@ -590,49 +328,13 @@ return {
 					path_index = 3,
 					spawns = {
 						{
-							interval = 256,
+							interval = 1000,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_greenmuck",
+							creep = "enemy_bone_carrier",
 							path = 3,
-							interval_next = 256,
+							interval_next = 0,
 							max = 3
-						},
-						{
-							interval = 256,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 3,
-							interval_next = 256,
-							max = 3
-						},
-						{
-							interval = 256,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_swamp_thing",
-							path = 1,
-							interval_next = 300,
-							max = 1
-						},
-						{
-							interval = 192,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_greenmuck",
-							path = 3,
-							interval_next = 192,
-							max = 5
-						},
-						{
-							interval = 192,
-							max_same = 0,
-							fixed_sub_path = 0,
-							creep = "enemy_rotten_tree",
-							path = 3,
-							interval_next = 192,
-							max = 5
 						}
 					}
 				}

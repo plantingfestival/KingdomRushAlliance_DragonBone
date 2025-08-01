@@ -5879,10 +5879,13 @@ function scripts.enemy_crocs_tank.update(this, store, script)
 	local a = this.timed_attacks.list[1]
 
 	this.ps_charge_id = nil
+	if not this.vis._original_bans then
+		this.vis._original_bans = this.vis.bans
+	end
 
 	if this._placed_from_tunnel then
 		this._placed_from_tunnel = nil
-		this.vis.bans = U.flag_clear(this.vis.bans, F_BLOCK)
+		this.vis.bans = this.vis._original_bans
 		this.render.sprites[1].angles.walk = this.original_angles_walk
 
 		if this.ps_charge_id ~= nil then
@@ -5985,7 +5988,7 @@ function scripts.enemy_crocs_tank.update(this, store, script)
 
 					U.y_animation_play(this, a.animation_end, nil, store.tick_ts, 1)
 
-					this.vis.bans = U.flag_clear(this.vis.bans, F_BLOCK)
+					this.vis.bans = this.vis._original_bans
 					this.on_charge = nil
 
 					goto label_175_0

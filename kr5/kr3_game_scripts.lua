@@ -7294,7 +7294,14 @@ function scripts.hero_veznan.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
+	local skill_ultimate = this.hero.skills.ultimate
+	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
+	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
+	for k, a in pairs(this.idle_animations) do
+		a.ts = store.tick_ts
+		a.cooldown = U.frandom(a.cooldown_min, a.cooldown_max)
+	end
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -7312,6 +7319,9 @@ function scripts.hero_veznan.update(this, store)
 					goto label_154_0
 				end
 			end
+
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.hero_level_up(store, this) then
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
@@ -7512,18 +7522,53 @@ function scripts.hero_veznan.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+				local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, nil, nil, nil, nil, nil, 
+				skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
+				if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+					local an, af = U.animation_name_facing_point(this, "arcaneNova", ultimatePos)
+					U.animation_start(this, an, af, store.tick_ts, nil, 1)
+					local u = E:create_entity(ultimate_controller)
+					u.pos = ultimatePos
+					u.level = skill_ultimate.level
+					queue_insert(store, u)
+					skill_ultimate.ts = store.tick_ts
+					while not U.animation_finished(this) do
+						if SU.hero_interrupted(this) then
+							goto label_154_0
+						end
+						coroutine.yield()
+					end
+				else
+					skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+				end
+			end
+
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty
 			else
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty
 				elseif SU.soldier_go_back_step(store, this) then
 					-- block empty
 				else
+					for k, a in pairs(this.idle_animations) do
+						if store.tick_ts - a.ts > a.cooldown then
+							a.ts = store.tick_ts
+							a.cooldown = U.frandom(a.cooldown_min, a.cooldown_max)
+							U.animation_start(this, k, nil, store.tick_ts, nil, 1)
+							while not U.animation_finished(this) do
+								if SU.hero_interrupted(this) then
+									goto label_154_0
+								end
+								coroutine.yield()
+							end
+						end
+					end
 					SU.soldier_idle(store, this)
 					SU.soldier_regen(store, this)
 				end
@@ -8854,6 +8899,7 @@ function scripts.hero_phoenix.get_info(this)
 	local b = E:get_template(this.ranged.attacks[1].bullet)
 	local ba = E:get_template(b.bullet.hit_payload)
 	local min, max = ba.aura.damage_min, ba.aura.damage_max
+	min, max = min * this.unit.damage_factor, max * this.unit.damage_factor
 
 	return {
 		type = STATS_TYPE_SOLDIER,
@@ -8985,6 +9031,97 @@ function scripts.hero_phoenix.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
+	local skill_ultimate = this.hero.skills.ultimate
+	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
+	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
+
+	local function y_hero_ranged_attacks(store, hero)
+		local target, attack, pred_pos = SU.soldier_pick_ranged_target_and_attack(store, hero)
+
+		if not target then
+			return false, A_NO_TARGET
+		end
+
+		if not attack then
+			return false, A_IN_COOLDOWN
+		end
+
+		local upg = UP:get_upgrade("heroes_lethal_focus")
+		local triggered_lethal_focus = false
+		local bullet_t = E:get_template(attack.bullet)
+		local bullet_use_unit_damage_factor = bullet_t.bullet.use_unit_damage_factor
+		local bullet_pop = bullet_t.bullet.pop
+		local bullet_pop_conds = bullet_t.bullet.pop_conds
+
+		if attack.basic_attack and upg then
+			if not hero._lethal_focus_deck then
+				hero._lethal_focus_deck = SU.deck_new(upg.trigger_cards, upg.total_cards)
+			end
+
+			triggered_lethal_focus = SU.deck_draw(hero._lethal_focus_deck)
+		end
+
+		if triggered_lethal_focus then
+			hero.unit.damage_factor = hero.unit.damage_factor * upg.damage_factor_area
+			bullet_t.bullet.use_unit_damage_factor = true
+			bullet_t.bullet.pop = {
+				"pop_crit"
+			}
+			bullet_t.bullet.pop_conds = DR_DAMAGE
+		end
+
+		local hit_payload
+		if attack.basic_attack then
+			hit_payload = E:get_template(bullet_t.bullet.hit_payload)
+			hit_payload.aura.damage_min = hit_payload.aura.damage_min * hero.unit.damage_factor
+			hit_payload.aura.damage_max = hit_payload.aura.damage_max * hero.unit.damage_factor
+		end
+
+		local start_ts = store.tick_ts
+		local attack_done
+
+		U.set_destination(hero, hero.pos)
+
+		if attack.loops then
+			attack_done = SU.y_soldier_do_loopable_ranged_attack(store, hero, target, attack)
+		else
+			attack_done = SU.y_soldier_do_ranged_attack(store, hero, target, attack, pred_pos)
+		end
+
+		if attack_done then
+			attack.ts = start_ts
+
+			if attack.shared_cooldown then
+				for _, aa in pairs(hero.ranged.attacks) do
+					if aa ~= attack and aa.shared_cooldown then
+						aa.ts = attack.ts
+					end
+				end
+			end
+
+			if hero.ranged.forced_cooldown then
+				hero.ranged.forced_ts = start_ts
+			end
+		end
+
+		if hit_payload then
+			hit_payload.aura.damage_min = hit_payload.aura.damage_min / hero.unit.damage_factor
+			hit_payload.aura.damage_max = hit_payload.aura.damage_max / hero.unit.damage_factor
+		end
+
+		if triggered_lethal_focus then
+			hero.unit.damage_factor = hero.unit.damage_factor / upg.damage_factor_area
+			bullet_t.bullet.use_unit_damage_factor = bullet_use_unit_damage_factor
+			bullet_t.bullet.pop = bullet_pop
+			bullet_t.bullet.pop_conds = bullet_pop_conds
+		end
+
+		if attack_done then
+			return false, A_DONE
+		else
+			return true
+		end
+	end
 
 	U.y_animation_play(this, "respawn", nil, store.tick_ts, 1)
 
@@ -9038,9 +9175,19 @@ function scripts.hero_phoenix.update(this, store)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 		end
 
-		while this.nav_rally.new do
-			SU.y_hero_new_rally(store, this)
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+			goto label_190_0
 		end
+
+		while this.nav_rally.new do
+			if SU.y_hero_new_rally(store, this) then
+				goto label_190_0
+			end
+		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		if SU.hero_level_up(store, this) then
 			-- block empty
@@ -9111,7 +9258,27 @@ function scripts.hero_phoenix.update(this, store)
 			end
 		end
 
-		brk, sta = SU.y_soldier_ranged_attacks(store, this)
+		if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			local ultimatePos = V.vclone(this.pos)
+			if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+			else
+				U.animation_start(this, "birdThrow", nil, store.tick_ts, nil, 1)
+				local u = E:create_entity(ultimate_controller)
+				u.pos = ultimatePos
+				u.level = skill_ultimate.level
+				queue_insert(store, u)
+				skill_ultimate.ts = store.tick_ts
+				while not U.animation_finished(this) do
+					if SU.hero_interrupted(this) then
+						goto label_190_0
+					end
+					coroutine.yield()
+				end
+			end
+		end
+
+		brk, sta = y_hero_ranged_attacks(store, this)
 
 		if brk then
 			-- block empty
@@ -9800,15 +9967,15 @@ function scripts.soldier_chomp_bot.update(this, store, script)
 	path_ni = path_ni - 2
 
 	U.y_wait(store, 1.5)
-	local spawner = this.spawner
-	if spawner and spawner.health and not spawner.health.dead then
+	local transformer = this.transformer
+	if transformer and transformer.health and not transformer.health.dead then
 		local bullet = E:create_entity(this.spawn_bullet)
-		bullet.pos = V.vclone(spawner.pos)
+		bullet.pos = V.vclone(transformer.pos)
 		bullet.pos.y = bullet.pos.y + 55
 		bullet.bullet.from = V.vclone(bullet.pos)
 		bullet.bullet.to = V.vclone(this.pos)
 		bullet.bullet.target_id = this.id
-		bullet.bullet.source_id = spawner.id
+		bullet.bullet.source_id = transformer.id
 		queue_insert(store, bullet)
 	end
 
@@ -9963,7 +10130,7 @@ function scripts.mod_chomp_bot_transformation.remove(this, store, script)
 			local s = E:create_entity(target.death_transformation_entity_name)
 
 			s.pos = V.vclone(target.pos)
-			s.spawner = source
+			s.transformer = source
 			s.source = target
 
 			if s.nav_path then

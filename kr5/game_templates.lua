@@ -26849,7 +26849,7 @@ tt.render.sprites[1].angles_custom = {
 	}
 }
 tt.render.sprites[1].exo = true
-tt.render.sprites[1].offset = v(2, 0)
+tt.render.sprites[1].offset = v(-2, 0)
 tt.ui.click_rect = r(-30, -3, 60, 50)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.unit.size = UNIT_SIZE_LARGE
@@ -38597,6 +38597,10 @@ tt.item_id = nil
 tt = E:register_t("user_item_2", "item_control_custom")
 tt.item_id = nil
 tt = E:register_t("user_item_3", "item_control_custom")
+tt.item_id = nil
+tt = E:register_t("user_item_4", "item_control_custom")
+tt.item_id = nil
+tt = E:register_t("user_item_5", "item_control_custom")
 tt.item_id = nil
 tt = E:register_t("controller_item")
 

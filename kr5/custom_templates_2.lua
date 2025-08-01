@@ -580,3 +580,467 @@ tt.nav_mesh_id = nil
 tt.cooldown_min = 15
 tt.cooldown_max = 25
 tt.main_script.update = scripts.controller_holder_roots_lands_blocked.update
+
+tt = E:register_t("enemy_bone_carrier", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "death_spawns", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.auras.list[2] = E:clone_c("aura_attack")
+tt.auras.list[2].name = "aura_bone_carrier_damage_multiplier"
+tt.auras.list[2].cooldown = 0
+tt.death_spawns.name = "bone_carrier_death_aura"
+tt.death_spawns.concurrent_with_death = true
+tt.enemy.lives_cost = 2
+tt.enemy.gold = 95
+tt.enemy.melee_slot = v(27, 0)
+tt.health.armor = 0.8
+tt.health.hp_max = 1400
+tt.health.magic_armor = 0
+tt.health_bar.offset = v(0, 48)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.info.portrait = "bottom_info_image_enemies_0067"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].damage_max = 160
+tt.melee.attacks[1].damage_min = 120
+tt.melee.attacks[1].hit_time = fts(13)
+tt.moon.speed_factor = 2
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 15
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "bone_carrier"
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "bone_carrier_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.22)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "dwarves_sulfur_alchemist_death"
+tt.ui.click_rect = r(-35, -5, 70, 54)
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 20)
+tt.unit.head_offset = v(0, 46)
+tt.unit.mod_offset = v(0, 21)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.size = UNIT_SIZE_MEDIUM
+
+tt = E:register_t("bone_carrier_death_aura", "aura")
+tt.aura.duration = 0.1
+tt.aura.mods = {
+	"mod_bone_carrier_death_heal"
+}
+tt.aura.cycle_time = 1e+99
+tt.aura.radius = 125
+tt.aura.vis_bans = bor(F_FRIEND)
+tt.aura.vis_flags = bor(F_MOD)
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("mod_bone_carrier_death_heal", "modifier")
+E:add_comps(tt, "hps", "render", "tween")
+tt.modifier.duration = 1
+tt.modifier.allows_duplicates = true
+tt.modifier.use_mod_offset = false
+tt.hps.heal_min = 300
+tt.hps.heal_max = 300
+tt.hps.heal_every = 1e+99
+tt.render.sprites[1].name = "haunted_skeleton_modifier_damage_fx_run"
+tt.render.sprites[1].anchor = v(0.5, 0)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].draw_order = DO_MOD_FX
+tt.render.sprites[1].size_scales = {
+	vv(1),
+	vv(1.3),
+	vv(1.5)
+}
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		0.2,
+		255
+	}
+}
+tt.tween.remove = nil
+tt.fade_in = true
+tt.fade_out = true
+tt.main_script.insert = scripts.mod_hps.insert
+tt.main_script.update = scripts.mod_hps_with_fade.update
+
+tt = E:register_t("aura_bone_carrier_damage_multiplier", "aura")
+tt.aura.duration = -1
+tt.aura.mods = {
+	"mod_bone_carrier_damage_multiplier"
+}
+tt.aura.cycle_time = 0.2
+tt.aura.radius = 75
+tt.aura.vis_bans = bor(F_FRIEND)
+tt.aura.vis_flags = 0
+tt.aura.targets_per_cycle = 12
+tt.aura.track_source = true
+tt.aura.allowed_templates = {
+	"enemy_haunted_skeleton"
+}
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = E:register_t("mod_bone_carrier_damage_multiplier", "modifier")
+E:add_comps(tt, "render", "tween")
+tt.modifier.duration = 1
+tt.modifier.use_mod_offset = false
+tt.inflicted_damage_factor = 1.5
+tt.render.sprites[1].name = "bone_carrier_modifier_loop"
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].z = Z_DECALS + 2
+tt.fade_in = true
+tt.fade_out = true
+tt.tween.props[1].keys = {
+	{
+		fts(0),
+		0
+	},
+	{
+		fts(6),
+		255
+	}
+}
+tt.tween.props[2] = E:clone_c("tween_prop")
+tt.tween.props[2].name = "scale"
+tt.tween.props[2].keys = {
+	{
+		0,
+		v(0, 0)
+	},
+	{
+		fts(6),
+		v(1, 1)
+	}
+}
+tt.main_script.insert = scripts.mod_fury.insert
+tt.main_script.remove = scripts.mod_fury.remove
+tt.main_script.update = scripts.mod_track_target_with_fade.update
+
+tt = E:register_t("enemy_haunted_skeleton", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "death_spawns", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.death_spawns.name = "haunted_skeleton_death_aura"
+tt.death_spawns.concurrent_with_death = true
+tt.enemy.lives_cost = 1
+tt.enemy.gold = 22
+tt.enemy.melee_slot = v(10, 0)
+tt.health.armor = 0
+tt.health.magic_armor = 0.8
+tt.health.hp_max = 160
+tt.health_bar.offset = v(0, 30)
+tt.info.portrait = "bottom_info_image_enemies_0069"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 30
+tt.melee.attacks[1].damage_min = 15
+tt.melee.attacks[1].hit_time = fts(9)
+tt.moon.speed_factor = 5 / 3
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 30
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "haunted_skeleton"
+tt.render.sprites[1].anchor.y = 0.257
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].name = "raise"
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "haunted_skeleton_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.257)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "haunted_skeleton_death"
+tt.ui.click_rect = r(-21, -5, 42, 33)
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 14)
+tt.unit.head_offset = v(0, 28)
+tt.unit.mod_offset = v(0, 17)
+tt.unit.marker_offset = v(0, 0)
+
+tt = E:register_t("haunted_skeleton_death_aura", "bone_carrier_death_aura")
+tt.aura.mods = {
+	"mod_haunted_skeleton_death_heal",
+	"mod_haunted_skeleton_damage_multiplier"
+}
+
+tt = E:register_t("mod_haunted_skeleton_death_heal", "mod_bone_carrier_death_heal")
+tt.hps.heal_min = 100
+tt.hps.heal_max = 100
+
+tt = E:register_t("mod_haunted_skeleton_damage_multiplier", "modifier")
+tt.modifier.duration = 3
+tt.modifier.allows_duplicates = true
+tt.inflicted_damage_factor = 1.2
+tt.main_script.insert = scripts.mod_fury.insert
+tt.main_script.remove = scripts.mod_fury.remove
+tt.main_script.update = scripts.mod_track_target_with_fade.update
+
+tt = E:register_t("enemy_kr4_ghost", "enemy_KR5")
+E:add_comps(tt, "auras")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "ghost_sound_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.gold = 16
+tt.enemy.melee_slot = v(10, 0)
+tt.health.armor = 1
+tt.health.hp_max = 110
+tt.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
+tt.health.magic_armor = 0
+tt.health_bar.offset = v(0, 47)
+tt.info.portrait = "bottom_info_image_enemies_0068"
+tt.info.i18n_key = "ENEMY_GHOST"
+tt.motion.max_speed = 35
+tt.render.sprites[1].prefix = "ghost"
+tt.render.sprites[1].anchor.y = 0.166
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].name = "raise"
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "ghost_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.166)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_NONE
+tt.unit.show_blood_pool = false
+tt.unit.can_explode = false
+tt.unit.hide_after_death = true
+tt.unit.hit_offset = v(0, 30)
+tt.unit.head_offset = v(0, 45)
+tt.unit.mod_offset = v(0, 30)
+tt.unit.marker_offset = v(0, 0)
+tt.sound_events.death = "puff_death_sound"
+tt.sound_events.insert = nil
+tt.ui.click_rect = r(-32, -5, 64, 42)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH)
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("enemy_corrosive_soul", "enemy_KR5")
+E:add_comps(tt, "melee", "moon", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.lives_cost = 1
+tt.enemy.gold = 70
+tt.enemy.melee_slot = v(18, 0)
+tt.health.armor = 0.5
+tt.health.magic_armor = 0
+tt.health.hp_max = 700
+tt.health_bar.offset = v(0, 42)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
+tt.info.portrait = "bottom_info_image_enemies_0066"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+tt.melee.attacks[1].cooldown = 0.6
+tt.melee.attacks[1].damage_max = 45
+tt.melee.attacks[1].damage_min = 35
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
+tt.melee.attacks[1].hit_time = fts(14)
+tt.moon.speed_factor = 1.5
+tt.moon.regen_hp = 4
+tt.motion.max_speed = 65
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.render.sprites[1].prefix = "corrosive_soul"
+tt.render.sprites[1].anchor.y = 0.125
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "corrosive_soul_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.125)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.death = "corrosive_soul_death"
+tt.ui.click_rect = r(-31, -5, 62, 40)
+tt.unit.blood_color = BLOOD_NONE
+tt.unit.hit_offset = v(0, 20)
+tt.unit.head_offset = v(0, 30)
+tt.unit.mod_offset = v(0, 21)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.size = UNIT_SIZE_MEDIUM
+tt.particle = "ps_corrosive_soul_fx"
+
+tt = E:register_t("ps_corrosive_soul_fx")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "corrosive_soul_fx_run"
+tt.particle_system.anchor = v(0.5, 0.5)
+tt.particle_system.track_offset = v(0, 30)
+tt.particle_system.emission_rate = 3
+tt.particle_system.animation_fps = 30
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.z = Z_OBJECTS + 2
+
+tt = RT("enemy_lich", "enemy_KR5")
+AC(tt, "melee", "ranged", "timed_attacks", "moon", "auras", "regen")
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "moon_enemy_aura"
+tt.auras.list[1].cooldown = 0
+tt.enemy.gold = 85
+tt.enemy.lives_cost = 2
+tt.enemy.melee_slot = v(12, 0)
+tt.health.armor = 0
+tt.health.magic_armor = 0.9
+tt.health.hp_max = 400
+tt.health_bar.offset = v(0, 42)
+tt.info.portrait = "bottom_info_image_enemies_0070"
+tt.motion.max_speed = 18
+tt.moon.speed_factor = 5 / 3
+tt.moon.regen_hp = 4
+tt.regen.cooldown = 0.25
+tt.regen.health = 0
+tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].damage_max = 70
+tt.melee.attacks[1].damage_min = 40
+tt.melee.attacks[1].hit_time = fts(14)
+tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].bullet = "lich_ray"
+tt.ranged.attacks[1].bullet_start_offset = {
+	v(15, 48)
+}
+tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].max_range = 150
+tt.ranged.attacks[1].min_range = 25
+tt.ranged.attacks[1].shoot_time = fts(19)
+tt.ranged.attacks[1].animation = "shoot"
+tt.timed_attacks.list[1] = E:clone_c("spawn_attack")
+tt.timed_attacks.list[1].can_be_silenced = true
+tt.timed_attacks.list[1].melee_break = nil
+tt.timed_attacks.list[1].ranged_break = true
+tt.timed_attacks.list[1].cooldown = 10
+tt.timed_attacks.list[1].animation = "special"
+tt.timed_attacks.list[1].spawn_time = fts(15)
+tt.timed_attacks.list[1].spawn_delay = fts(3)
+tt.timed_attacks.list[1].nodes_to_entrance = 1
+tt.timed_attacks.list[1].nodes_to_exit = 40
+tt.timed_attacks.list[1].min_nodes = 5
+tt.timed_attacks.list[1].max_nodes = 5
+tt.timed_attacks.list[1].use_center = nil
+tt.timed_attacks.list[1].random_subpath = true
+tt.timed_attacks.list[1].max_count = 1
+tt.timed_attacks.list[1].entity_chances = {
+	1,
+}
+tt.timed_attacks.list[1].entity_names = {
+	"enemy_haunted_skeleton",
+}
+tt.render.sprites[1].anchor = v(0.5, 0.176)
+tt.render.sprites[1].prefix = "lich"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "lich_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.176)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 18)
+tt.unit.head_offset = v(0, 40)
+tt.unit.mod_offset = v(0, 17)
+tt.ui.click_rect = r(-25, -5, 50, 42)
+tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
+tt.sound_events.death = "frog_erudite_shot"
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("lich_ray", "bullet")
+tt.image_width = 98
+tt.main_script.update = scripts.ray_enemy.update
+tt.render.sprites[1].name = "lich_ray_travel"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor = v(0, 0.5)
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_min = 60
+tt.bullet.damage_max = 90
+tt.bullet.hit_time = fts(6)
+tt.bullet.hit_fx = "lich_ray_hit_fx"
+tt.sound_events.insert = nil
+
+tt = RT("lich_ray_hit_fx", "fx")
+tt.render.sprites[1].name = "lich_ray_hit_fx_run"
+
+tt = E:register_t("swamp_spawner", "decal_scripted")
+E:add_comps(tt, "spawner", "render", "sound_events", "editor")
+tt.animation_group = "animation"
+tt.render.sprites[1].name = ""
+tt.render.sprites[1].anchor.y = 0.390625
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].hidden = true
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = ""
+tt.render.sprites[2].anchor.y = 0.390625
+tt.render.sprites[2].animated = true
+tt.render.sprites[2].loop = nil
+tt.render.sprites[2].hidden = true
+tt.render.sprites[2].group = tt.animation_group
+tt.spawn_animation = "decal_swamp_bubble_jump"
+tt.spawn_sound = nil
+tt.spawn_sound_args = nil
+tt.main_script.update = scripts.swamp_spawner.update
+
+tt = E:register_t("decal_spider_rotten_egg_shooter", "decal_scripted")
+E:add_comps(tt, "ranged", "spawner", "editor")
+tt.ranged.attacks[1].bullet = "bomb_spider_rotten_egg"
+tt.ranged.attacks[1].cooldown = 10
+tt.main_script.update = scripts.decal_spider_rotten_egg_shooter.update
+
+tt = E:register_t("bomb_spider_rotten_egg", "bomb")
+tt.bullet.damage_min = 100
+tt.bullet.damage_max = 100
+tt.bullet.damage_radius = 60
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_bans = F_ENEMY
+tt.bullet.damage_flags = F_AREA
+tt.bullet.pop = nil
+tt.bullet.hit_fx = "fx_explosion_rotten_shot"
+tt.bullet.hit_decal = nil
+tt.bullet.hit_payload = "enemy_spider_rotten_egg"
+tt.bullet.flight_time = fts(30)
+tt.bullet.rotation_speed = 2 * math.pi
+tt.render.sprites[1].name = "rotten_egg_0001"
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].animated = false
+tt.sound_events.insert = "swamp_thing_bomb_shot"
+tt.sound_events.hit = "swamp_thing_bomb_explosion"
+tt.main_script.insert = scripts.enemy_bomb.insert
+tt.main_script.update = scripts.enemy_bomb.update

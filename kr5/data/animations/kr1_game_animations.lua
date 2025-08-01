@@ -600,7 +600,7 @@ return {
 		to = 15,
 	},
 	soldier_magnus_illusion_raise = {
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		from = 151,
 		post = {
 			149,
@@ -944,7 +944,7 @@ return {
 	},
 	magnus_arcane_rain_idle = {
 		from = 1,
-		prefix = "hero_mage_rain",
+		prefix = "kr1_hero_mage_rain",
 		to = 1,
 	},
 	soldier_ingvar_ancestor_attack = {
@@ -969,7 +969,7 @@ return {
 	},
 	hero_magnus_idle = {
 		from = 1,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 1,
 	},
 	enemy_ogre_attack = {
@@ -1102,7 +1102,7 @@ return {
 	},
 	hero_magnus_respawn = {
 		from = 51,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 67,
 	},
 	kr1_soldier_paladin_running = {
@@ -1611,7 +1611,7 @@ return {
 	},
 	hero_magnus_running = {
 		from = 2,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 17,
 	},
 	enemy_sheep_fly_idle = {
@@ -1671,7 +1671,7 @@ return {
 	},
 	bolt_magnus_idle = {
 		from = 1,
-		prefix = "hero_mage_bolt",
+		prefix = "kr1_hero_mage_bolt",
 		to = 2,
 	},
 	eb_kingpin_walkingRightLeft = {
@@ -1828,7 +1828,7 @@ return {
 	},
 	magnus_arcane_rain_drop = {
 		from = 1,
-		prefix = "hero_mage_rain",
+		prefix = "kr1_hero_mage_rain",
 		to = 17,
 	},
 	enemy_goblin_zapper_walkingUp = {
@@ -1930,7 +1930,7 @@ return {
 	},
 	bolt_magnus_hit = {
 		from = 3,
-		prefix = "hero_mage_bolt",
+		prefix = "kr1_hero_mage_bolt",
 		to = 10,
 	},
 	re_legionnaire_ranged_1_ranged_attack_p = {
@@ -1953,7 +1953,7 @@ return {
 	},
 	hero_magnus_death = {
 		from = 162,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 169,
 	},
 	enemy_fallen_knight_idle = {
@@ -1983,7 +1983,7 @@ return {
 	},
 	soldier_magnus_illusion_running = {
 		from = 2,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 17,
 	},
 	enemy_troll_death = {
@@ -2216,7 +2216,7 @@ return {
 	},
 	bolt_magnus_flying = {
 		from = 1,
-		prefix = "hero_mage_bolt",
+		prefix = "kr1_hero_mage_bolt",
 		to = 2,
 	},
 	eb_veznan_demon_idle = {
@@ -2236,7 +2236,7 @@ return {
 	},
 	hero_magnus_teleport_in = {
 		from = 170,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 179,
 	},
 	enemy_demon_wolf_death = {
@@ -2374,7 +2374,7 @@ return {
 	},
 	hero_magnus_arcaneRain = {
 		from = 103,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 141,
 	},
 	enemy_demon_attack = {
@@ -3442,7 +3442,7 @@ return {
 	},
 	hero_magnus_attack = {
 		from = 18,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 39,
 	},
 	decal_inferno_ground_portal_active = {
@@ -3933,7 +3933,7 @@ return {
 		},
 		to = 153,
 		from = 143,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		post = {
 			153,
 			153,
@@ -4122,7 +4122,7 @@ return {
 	},
 	soldier_magnus_illusion_attack = {
 		from = 18,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 39,
 	},
 	decal_blackburn_weed_idle = {
@@ -4219,7 +4219,7 @@ return {
 	},
 	hero_magnus_levelUp = {
 		from = 40,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 68,
 	},
 	enemy_demon_gulaemon_fly_death = {
@@ -4229,7 +4229,7 @@ return {
 	},
 	soldier_magnus_illusion_shoot = {
 		from = 69,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 93,
 	},
 	elder_shaman_totem_blue_end = {
@@ -4379,7 +4379,7 @@ return {
 	},
 	hero_magnus_shoot = {
 		from = 69,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 93,
 	},
 	enemy_swamp_thing_walkingRightLeft = {
@@ -4454,7 +4454,7 @@ return {
 	},
 	soldier_magnus_illusion_idle = {
 		from = 1,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 1,
 	},
 	decal_s25_nessie_bubble_play = {
@@ -5080,7 +5080,7 @@ return {
 			101,
 		},
 		from = 170,
-		prefix = "hero_mage",
+		prefix = "kr1_hero_mage",
 		to = 179,
 	},
 	decal_s23_splinter_clicked = {

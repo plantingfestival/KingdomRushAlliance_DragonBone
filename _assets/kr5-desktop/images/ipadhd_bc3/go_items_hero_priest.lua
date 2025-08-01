@@ -1,6 +1,6 @@
 return {
 	["hero_barracks_buff_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -25,7 +25,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -50,7 +50,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -75,7 +75,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -100,7 +100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -125,7 +125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -150,7 +150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -175,7 +175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -200,7 +200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -225,7 +225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -250,7 +250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -275,7 +275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -300,7 +300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -325,7 +325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -350,7 +350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -375,7 +375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -400,7 +400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -425,7 +425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0018"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -450,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0019"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -475,7 +475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0020"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -500,7 +500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0021"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0022"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -550,7 +550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0023"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -575,7 +575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0024"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -600,7 +600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_barracks_buff_0025"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -625,7 +625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0026"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -650,7 +650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0027"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -675,7 +675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_barracks_buff_0028"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			188,
 			104
@@ -700,7 +700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -725,7 +725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -750,7 +750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -775,7 +775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -800,7 +800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -825,7 +825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -850,7 +850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -875,7 +875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -900,7 +900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -925,7 +925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -950,7 +950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -975,7 +975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1000,7 +1000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1025,7 +1025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1050,7 +1050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0018"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1150,7 +1150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0019"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1175,7 +1175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0020"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1200,7 +1200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0021"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1225,7 +1225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0022"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1250,7 +1250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0023"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0024"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0025"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1325,7 +1325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0026"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1350,7 +1350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0027"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1375,7 +1375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0028"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1400,7 +1400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0029"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1425,7 +1425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0030"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1450,7 +1450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0031"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1475,7 +1475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0032"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1500,7 +1500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0033"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1525,7 +1525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0034"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1550,7 +1550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0035"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1575,7 +1575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0036"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1600,7 +1600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0037"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1625,7 +1625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0038"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1650,7 +1650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0039"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1675,7 +1675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0040"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1700,7 +1700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0041"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1725,7 +1725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0042"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1750,7 +1750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0043"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1775,7 +1775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0044"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1800,7 +1800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0045"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1825,7 +1825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0046"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1850,7 +1850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0047"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1875,7 +1875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0048"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1900,7 +1900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0049"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0050"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1950,7 +1950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0051"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -1975,7 +1975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0052"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2000,7 +2000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0053"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2025,7 +2025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0054"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2050,7 +2050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0055"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2075,7 +2075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0056"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0057"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0058"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0059"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2175,7 +2175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0060"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2200,7 +2200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0061"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2225,7 +2225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0062"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2250,7 +2250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0063"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2275,7 +2275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0064"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2300,7 +2300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0065"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2325,7 +2325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0066"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2350,7 +2350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0067"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2375,7 +2375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0068"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0069"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2425,7 +2425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0070"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2450,7 +2450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0071"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0072"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2500,7 +2500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0073"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0074"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0075"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2575,7 +2575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0076"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2600,7 +2600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0077"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2625,7 +2625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0078"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2650,7 +2650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0079"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2675,7 +2675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0080"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2700,7 +2700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0081"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2725,7 +2725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0082"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2750,7 +2750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0083"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2775,7 +2775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0084"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2800,7 +2800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0085"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2825,7 +2825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0086"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2850,7 +2850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0087"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2875,7 +2875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0088"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2900,7 +2900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0089"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2925,7 +2925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0090"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2950,7 +2950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0091"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -2975,7 +2975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0092"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3000,7 +3000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0093"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3025,7 +3025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0094"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3050,7 +3050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0095"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3075,7 +3075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0096"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3100,7 +3100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0097"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3125,7 +3125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0098"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3150,7 +3150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0099"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3175,7 +3175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0100"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3200,7 +3200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0101"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3225,7 +3225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0102"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3250,7 +3250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0103"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3275,7 +3275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0104"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3300,7 +3300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0105"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3325,7 +3325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0106"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3350,7 +3350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0107"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3375,7 +3375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0108"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3400,7 +3400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0109"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3425,7 +3425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0110"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3450,7 +3450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0111"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3475,7 +3475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0112"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3500,7 +3500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0113"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3525,7 +3525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0114"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3550,7 +3550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0115"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3575,7 +3575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0116"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3600,7 +3600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0117"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3625,7 +3625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0118"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3650,7 +3650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0119"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0120"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3700,7 +3700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0121"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3725,7 +3725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0122"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0123"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3775,7 +3775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0124"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3800,7 +3800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0125"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3825,7 +3825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0126"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3850,7 +3850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0127"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3875,7 +3875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0128"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0129"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0130"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0131"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -3975,7 +3975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0132"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4000,7 +4000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0133"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4025,7 +4025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0134"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4050,7 +4050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0135"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4075,7 +4075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0136"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4100,7 +4100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0137"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4125,7 +4125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0138"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4150,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0139"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4175,7 +4175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0140"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4200,7 +4200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0141"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0142"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0143"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4275,7 +4275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0144"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4300,7 +4300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0145"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4325,7 +4325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0146"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4350,7 +4350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0147"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0148"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0149"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0150"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0151"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0152"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0153"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0154"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0155"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4575,7 +4575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0156"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0157"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0158"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4650,7 +4650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0159"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4675,7 +4675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0160"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4700,7 +4700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0161"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0162"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0163"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0164"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4800,7 +4800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0165"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4825,7 +4825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0166"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4850,7 +4850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0167"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4875,7 +4875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0168"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4900,7 +4900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0169"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4925,7 +4925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0170"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4950,7 +4950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0171"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -4975,7 +4975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0172"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5000,7 +5000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0173"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5025,7 +5025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0174"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5050,7 +5050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0175"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5075,7 +5075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0176"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5100,7 +5100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0177"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5125,7 +5125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0178"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5150,7 +5150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0179"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5175,7 +5175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0180"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5200,7 +5200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0181"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5225,7 +5225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0182"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5250,7 +5250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0183"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5275,7 +5275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0184"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5300,7 +5300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0185"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5325,7 +5325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0186"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5350,7 +5350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0187"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5375,7 +5375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0188"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5400,7 +5400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0189"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5425,7 +5425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0190"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5450,7 +5450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0191"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5475,7 +5475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0192"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5500,7 +5500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0193"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5525,7 +5525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0194"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5550,7 +5550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0195"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5575,7 +5575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0196"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5600,7 +5600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0197"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5625,7 +5625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0198"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5650,7 +5650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0199"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5675,7 +5675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0200"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5700,7 +5700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0201"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5725,7 +5725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0202"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5750,7 +5750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0203"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5775,7 +5775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0204"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5800,7 +5800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0205"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5825,7 +5825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0206"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5850,7 +5850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0207"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5875,7 +5875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_0208"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5900,7 +5900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_0209"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			156,
 			267
@@ -5925,7 +5925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -5950,7 +5950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -5975,7 +5975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6000,7 +6000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6025,7 +6025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6050,7 +6050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6075,7 +6075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6100,7 +6100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_bolt_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6125,7 +6125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_bolt_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6150,7 +6150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_bolt_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			80,
 			53
@@ -6175,7 +6175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6200,7 +6200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6225,7 +6225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6250,7 +6250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6275,7 +6275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6300,7 +6300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6325,7 +6325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6350,7 +6350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6375,7 +6375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6400,7 +6400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6425,7 +6425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6450,7 +6450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6475,7 +6475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6500,7 +6500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6525,7 +6525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6550,7 +6550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6575,7 +6575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6600,7 +6600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0018"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6625,7 +6625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0019"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6650,7 +6650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0020"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6675,7 +6675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0021"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6700,7 +6700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_healFx_0022"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6725,7 +6725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0023"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6750,7 +6750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0024"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6775,7 +6775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healFx_0025"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			60,
 			75
@@ -6800,7 +6800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_healWave"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			104,
 			48
@@ -6825,7 +6825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_revive_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6850,7 +6850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6875,7 +6875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6900,7 +6900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6925,7 +6925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6950,7 +6950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -6975,7 +6975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_revive_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7000,7 +7000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7025,7 +7025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7050,7 +7050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_revive_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7075,7 +7075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_revive_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7100,7 +7100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7125,7 +7125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7150,7 +7150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7175,7 +7175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7200,7 +7200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7225,7 +7225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_revive_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			97,
 			104
@@ -7250,7 +7250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7275,7 +7275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7300,7 +7300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7325,7 +7325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7350,7 +7350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7375,7 +7375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7400,7 +7400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7425,7 +7425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7450,7 +7450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7475,7 +7475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7500,7 +7500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7525,7 +7525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7550,7 +7550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7575,7 +7575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7600,7 +7600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7625,7 +7625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7650,7 +7650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7675,7 +7675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_shieldFx_0018"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7700,7 +7700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0019"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7725,7 +7725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_priest_shieldFx_0020"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			28,
 			37
@@ -7750,7 +7750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7775,7 +7775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7800,7 +7800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7825,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7850,7 +7850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7875,7 +7875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7900,7 +7900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7925,7 +7925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7950,7 +7950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -7975,7 +7975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8000,7 +8000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0011"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8025,7 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0012"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8050,7 +8050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0013"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8075,7 +8075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0014"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8100,7 +8100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0015"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8125,7 +8125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0016"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8150,7 +8150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0017"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8175,7 +8175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0018"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8200,7 +8200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0019"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8225,7 +8225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0020"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8250,7 +8250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0021"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8275,7 +8275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0022"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8300,7 +8300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0023"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8325,7 +8325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_priest_swords_0024"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			228,
 			172
@@ -8350,7 +8350,7 @@ return {
 		textureRotated = false
 	},
 	["item_thumb_hero_priest"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			624,
 			784
@@ -8375,7 +8375,7 @@ return {
 		textureRotated = false
 	},
 	["portraits_hero_0124"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			104,
 			104
@@ -8400,7 +8400,7 @@ return {
 		textureRotated = true
 	},
 	["tmp/hero_priest_bolt_0001"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8425,7 +8425,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0002"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8450,7 +8450,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0003"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8475,7 +8475,7 @@ return {
 		textureRotated = true
 	},
 	["tmp/hero_priest_bolt_0004"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8500,7 +8500,7 @@ return {
 		textureRotated = true
 	},
 	["tmp/hero_priest_bolt_0005"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8525,7 +8525,7 @@ return {
 		textureRotated = true
 	},
 	["tmp/hero_priest_bolt_0006"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8550,7 +8550,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0007"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8575,7 +8575,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0008"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8600,7 +8600,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0009"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37
@@ -8625,7 +8625,7 @@ return {
 		textureRotated = false
 	},
 	["tmp/hero_priest_bolt_0010"] = {
-		a_name = "go_items_hero_priest.png",
+		a_name = "go_items_hero_priest.dds",
 		size = {
 			56,
 			37

@@ -194,6 +194,13 @@ return {
 			"enemy_elvira",
 		},
 		{
+			"enemy_kr4_ghost",
+			"enemy_haunted_skeleton",
+			"enemy_corrosive_soul",
+			"enemy_bone_carrier",
+			"enemy_lich",
+		},
+		{
 			"mod_natures_vigor",
 			"mod_wrath_of_the_fallen",
 			"enemy_skunk_bombardier_poison_mod",

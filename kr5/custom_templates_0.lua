@@ -156,6 +156,7 @@ tt.max_delay = nil
 tt.min_delay = nil
 tt.render.sprites[1].loop = nil
 tt.render.sprites[1].time_offset = 0
+tt.render.sprites[1].scale = v(1, 1)
 
 tt = RT("controller_teleport_enemies")
 E:add_comps(tt, "main_script")
@@ -218,6 +219,8 @@ AC(tt, "render")
 tt.animation_start = ""
 tt.animation_loop = ""
 tt.modifier.duration = 0.3
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].z = Z_EFFECTS
 tt.main_script.update = scripts.mod_continuous_ray.update
 
 

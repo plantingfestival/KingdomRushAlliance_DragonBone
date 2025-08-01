@@ -22,6 +22,65 @@ return {
 	},
 	entities_list = {
 		{
+			template = "swamp_controller",
+			["graveyard.pi"] = 1,
+			["graveyard.spawn_pos"] = {
+				{
+					x = 300,
+					y = 672
+				}
+			},
+			pos = {
+				x = 300,
+				y = 672
+			}
+		},
+		{
+			template = "decal_spider_rotten_egg_shooter",
+			pos = {
+				x = 386,
+				y = 81
+			},
+			["spawner.pi"] = 4,
+			["spawner.name"] = "shooter1",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "decal_spider_rotten_egg_shooter",
+			pos = {
+				x = 300,
+				y = 672
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "shooter2",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "swamp_spawner",
+			pos = {
+				x = 386,
+				y = 81
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object1",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "swamp_spawner",
+			pos = {
+				x = 300,
+				y = 672
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object2",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "mega_spawner",
+			load_file = "level427campaign_spawner",
+			["editor.game_mode"] = 1,
+		},
+		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
 			["render.sprites[1].name"] = "stage_427",
@@ -377,21 +436,21 @@ return {
 		},
 	},
 	nav_mesh = {
-		{ 8, 13, nil, 15 },
-		{ 4, 10, 7, nil },
-		{ 6, 14, 10, 4 },
-		{ nil, 3, 2, nil },
-		{ nil, nil, 6, 4 },
-		{ 5, nil, 3, 4 },
-		{ 2, 9, 8, nil },
-		{ 7, 13, 1, nil },
-		{ 3, 12, 8, 10 },
-		{ 3, 9, 7, 2 },
-		{ 12, nil, 13, 9 },
-		{ 14, nil, 11, 9 },
-		{ 11, nil, nil, 1 },
-		{ 6, nil, 12, 3 },
-		{ 8, 1, nil, nil },
+		{ 8, 15, nil, 13 },
+		{ 4, nil, 7, 10 },
+		{ 6, 4, 10, 14 },
+		{ nil, nil, 2, 3 },
+		{ nil, 4, 6, nil },
+		{ 5, 4, 3, nil },
+		{ 2, nil, 8, 9 },
+		{ 7, nil, 1, 13 },
+		{ 3, 10, 8, 12 },
+		{ 3, 2, 7, 9 },
+		{ 12, 9, 13, nil },
+		{ 14, 9, 11, nil },
+		{ 11, 1, nil, nil },
+		{ 6, 3, 12, nil },
+		{ 8, nil, nil, 1 },
 	},
 	invalid_path_ranges = {},
 	level_mode_overrides = {
@@ -399,8 +458,8 @@ return {
 			locked_hero = false,
 			max_upgrade_level = 5,
 			available_towers = {
-				"tower_build_dwarf",
-				"tower_build_arcane_wizard"
+				"tower_build_warmongers_barrack",
+				"tower_build_royal_archers"
 			}
 		}
 	},
@@ -408,14 +467,12 @@ return {
 		"kr1_common",
 		"sounds_stage427",
 		"HalloweenSounds",
-		"MushroomSounds"
 	},
 	required_textures = {
 		"go_enemies_halloween",
-		"kr1_enemies_common",
 		"go_enemies_rotten",
-		"go_enemies_wastelands",
 		"go_enemies_kr2_halloween",
 		"go_stage427",
+		"go_stage115",
 	}
 }

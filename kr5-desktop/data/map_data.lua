@@ -591,7 +591,9 @@ return {
 		"hero_voodoo_witch",
 		"hero_wizard",
 		"hero_dwarf",
-		"hero_elves_archer"
+		"hero_elves_archer",
+		"hero_phoenix",
+		"hero_veznan",
 	},
 	item_order_censored_cn = {
 		"cluster_bomb",

@@ -1149,6 +1149,8 @@ function upgrades:patch_templates(max_level)
 		"hero_dwarf",
 		"hero_elves_archer",
 		"hero_arivan",
+		"hero_phoenix",
+		"hero_veznan",
 	}
 
 	u = self:get_upgrade("heroes_desperate_effort")

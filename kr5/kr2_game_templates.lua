@@ -19,6 +19,7 @@ local customScripts1 = require("custom_scripts_1")
 
 require("templates")
 
+local U = require("utils")
 local H = require("helpers")
 local balance = require("balance/balance")
 local IS_PHONE = KR_TARGET == "phone"
@@ -6229,6 +6230,7 @@ tt.health_bar.offset = v(0, 39)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_beastmaster.level_up
 tt.hero.tombstone_show_time = fts(60)
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_beastmaster.get_info
 tt.info.portrait = "portraits_hero_0123"
@@ -7222,6 +7224,7 @@ tt.health_bar.offset = v(0, 37)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_priest.level_up
 tt.hero.tombstone_show_time = fts(60)
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_priest.get_info
 tt.info.portrait = "portraits_hero_0124"
@@ -7279,13 +7282,7 @@ tt.timed_attacks.list[2] = E:clone_c("mod_attack")
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].animation = "consecrate"
 tt.timed_attacks.list[2].cooldown = 8
-tt.timed_attacks.list[2].excluded_templates = {
-	"tower_barrack_1",
-	"tower_barrack_2",
-	"tower_barrack_3",
-	"tower_assassin",
-	"tower_templar"
-}
+tt.timed_attacks.list[2].excluded_templates = {}
 tt.timed_attacks.list[2].mod = "mod_priest_consecrate"
 tt.timed_attacks.list[2].range = 150
 tt.timed_attacks.list[2].shoot_time = fts(15)
@@ -9067,7 +9064,7 @@ tt.force_motion.max_v = 120
 tt.force_motion.ramp_radius = 50
 tt.main_script.update = kr2_scripts.voodoo_witch_skull.update
 tt.max_flight_height = 25
-tt.max_shots = 8
+tt.max_shots = 16
 tt.min_flight_height = 15
 tt.ranged.attacks[1].bullet = "bolt_voodoo_witch_skull"
 tt.ranged.attacks[1].cooldown = 1.1

@@ -1723,52 +1723,52 @@ tt.hero.level_stats.hp_max = {
 	670
 }
 tt.hero.level_stats.melee_damage_max = {
-	30,
-	36,
-	40,
-	46,
-	50,
-	56,
-	60,
-	66,
-	70,
-	76
+	45,
+	54,
+	63,
+	72,
+	81,
+	90,
+	99,
+	108,
+	117,
+	126
 }
 tt.hero.level_stats.melee_damage_min = {
-	18,
-	22,
-	24,
-	28,
-	30,
-	34,
-	36,
-	40,
-	42,
-	46
+	27,
+	33,
+	39,
+	45,
+	51,
+	57,
+	63,
+	69,
+	75,
+	81
 }
 tt.hero.level_stats.ranged_damage_max = {
-	30,
-	36,
-	40,
-	46,
-	50,
-	56,
-	60,
-	66,
-	70,
-	76
+	45,
+	54,
+	63,
+	72,
+	81,
+	90,
+	99,
+	108,
+	117,
+	126
 }
 tt.hero.level_stats.ranged_damage_min = {
-	18,
-	22,
-	24,
-	28,
-	30,
-	34,
-	36,
-	40,
-	42,
-	46
+	27,
+	33,
+	39,
+	45,
+	51,
+	57,
+	63,
+	69,
+	75,
+	81
 }
 tt.hero.level_stats.regen_health = {
 	100,
@@ -1908,11 +1908,11 @@ tt.bullet.use_unit_damage_factor = true
 tt.sound_events.insert = "ShotgunSound"
 
 tt = RT("bomb_tar_bolin", "bomb")
-tt.bullet.damage_bans = F_ALL
+tt.bullet.damage_bans = 0
 tt.bullet.damage_flags = 0
-tt.bullet.damage_max = 0
-tt.bullet.damage_min = 0
-tt.bullet.damage_radius = 1
+tt.bullet.damage_max = 80
+tt.bullet.damage_min = 80
+tt.bullet.damage_radius = 80
 tt.bullet.flight_time_base = fts(34)
 tt.bullet.flight_time_factor = fts(0.016666666666666666)
 tt.bullet.pop = nil
@@ -9488,6 +9488,7 @@ tt.aura.mods = {
 	"mod_spectral_knight_heal",
 }
 tt.aura.radius = 106.38297872340426
+tt.aura.targets_per_cycle = 12
 tt.aura.track_source = true
 tt.aura.use_mod_offset = false
 tt.main_script.insert = kr1_scripts.aura_apply_mod.insert

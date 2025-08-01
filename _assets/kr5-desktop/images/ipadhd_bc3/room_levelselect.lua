@@ -2730,6 +2730,83 @@ return {
 		alias = {}
 	},
 	-- customization
+	-- room_levelselect-2
+	["level_select_tower_icons_0000_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			474,
+			158
+		},
+		f_quad = {
+			1,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["level_select_tower_icons_0125_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			474,
+			158
+		},
+		f_quad = {
+			159,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["level_select_tower_icons_0132_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			474,
+			158
+		},
+		f_quad = {
+			317,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	-- room_levelselect-2
 	level_select_thumbs_thumb_stage_122_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-122.dds",
 		defer = true,
@@ -2857,6 +2934,31 @@ return {
 	},
 	level_select_thumbs_thumb_stage_126_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-126.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_426_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-426.dds",
 		defer = true,
 		size = {
 			2016,

@@ -1718,7 +1718,7 @@ function sys.main_script:on_update(dt, ts, store)
 				local resume = false
 				if s.co then
 					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) 
-					or count < 256 then
+					or count < 512 then
 						resume = true
 					else
 						local chance = math.random()
