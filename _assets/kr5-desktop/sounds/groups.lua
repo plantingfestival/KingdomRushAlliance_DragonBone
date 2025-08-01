@@ -483,9 +483,6 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	sounds_stage426 = {
 		sounds = {
 			"MusicBattlePrep_426",
@@ -503,9 +500,6 @@ return {
 			"dark_army_blazing_mage_attack_loopstart",
 		}
 	},
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 	MushroomSounds = {
 		files = {
 			"KR_sfx_mushroomboss_gas_op1.ogg",
@@ -543,9 +537,6 @@ return {
 			"Vampiress-Death02c.ogg",
 			"halloween_vampiress_areaattack_confilo.ogg",
 			"halloween_vampiress_drainlifeOP2.ogg",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 			"Sound_EnemySkeletonBreak2.ogg",
 			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg",
 			"kr4_dwarves_sulfur_alchemist_death.ogg",
@@ -553,9 +544,6 @@ return {
 			"kr4_frog_erudite_shot.ogg",
 			"kr4_puff_death.ogg",
 			"kro_sfx_bitteringrancor_screecher-death.ogg",
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 		}
 	},
 	-- customization
@@ -1316,9 +1304,6 @@ return {
 			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	item_hero_veznan = {
 		files = {
 			"kro_sfx_veznan_arcanenova_v1.ogg",
@@ -1351,8 +1336,8 @@ return {
 			"kro_sfx_phoenix_ringoffire_explode_v2.ogg",
 			"kro_sfx_phoenix_immolation_v2.ogg",
 			"kro_sfx_phoenix_fireegg_v3.ogg",
-=======
->>>>>>> main
+		}
+	},
 	item_hero_faustus = {
 		files = {
 			"kro_sfx_veznan_faustus_killray_v3.ogg",
@@ -1368,10 +1353,6 @@ return {
 			"Faustus-confirm_03a2.ogg",
 			"Faustus-confirm_01b2.ogg",
             "kro_sfx_faustus_teleport_v1[sinarpa].ogg",
-<<<<<<< HEAD
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 		}
 	},
 	tower_rock_thrower = {

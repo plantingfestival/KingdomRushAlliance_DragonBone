@@ -2909,23 +2909,14 @@ return {
 	ITEM_KR4_HERO_MALIK_NAME = "马利克·愤怒之锤",
 	HERO_PRIEST_NAME = "德得尔",
 	ITEM_HERO_PRIEST_NAME = "女祭司德得尔",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	ITEM_HERO_PRIEST_BOTTOM_DESC = "召唤女祭司德得尔来击败你的敌人。",
 	ITEM_HERO_PRIEST_BOTTOM_INFO = "召唤女祭司德得尔来与你并肩作战。",
 	ITEM_HERO_PRIEST_DESC = "虔诚的女祭司毕生致力于践行修会的崇高意志。在战场上，她运用魔法守护战友，治愈伤者。",
 	HERO_BEASTMASTER_NAME = "克罗南",
-=======
->>>>>>> main
 	ITEM_HERO_PRIEST_BOTTOM_DESC = "召唤德得尔来击败你的敌人。",
 	ITEM_HERO_PRIEST_BOTTOM_INFO = "召唤德得尔来与你并肩作战。",
 	ITEM_HERO_PRIEST_DESC = "忠诚的女祭司受神明的指示，帮助国王对抗外来的入侵者，她将用神明赐予的光明击溃任何来犯之敌。",
 	HERO_VBEASTMASTER_NAME = "克罗南",
-<<<<<<< HEAD
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 	BEASTMASTER_BOAR_NAME = "野猪",
 	BEASTMASTER_FALCON_NAME = "猎鹰",
 	ITEM_HERO_BEASTMASTER_NAME = "野兽大师克罗南",
@@ -2946,9 +2937,6 @@ return {
 	ITEM_HERO_WIZARD_NAME = "大法师纽维斯",
 	ITEM_HERO_WIZARD_BOTTOM_DESC = "召唤大法师纽维斯来击败你的敌人。",
 	ITEM_HERO_WIZARD_BOTTOM_INFO = "召唤大法师纽维斯来与你并肩作战。",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有着令人惊叹的强大力量，与此同时也是重担在肩。",
 	HERO_ELVES_PHOENIX_NAME = "火凤凰",
 	ITEM_HERO_PHOENIX_NAME = "不死鸟火凤凰",
@@ -2979,19 +2967,12 @@ return {
 	HERO_ELVES_BRUCE_NAME = "布鲁斯",
 	HERO_ELVES_FAUSTUS_NAME = "浮士德",
 	HERO_ELVES_FALLEN_ANGEL_NAME = "莉莉斯",
-=======
->>>>>>> main
 	ITEM_HERO_WIZARD_DESC = "伟大的法师好像都差不多......外表疯癫，内心睿智，现在魔法学校里教的咒语大部分都出自他之手。纽维斯拥有者令人惊叹的强大力量，与此同时也是重担在肩。无师自通，但桃李满天下，他的神奇魔法如同他的胡言乱语一般难以捉摸。但他十分谨慎的掌握着自己的力量，因为他深知，能力越大，麻烦越多。",
 	HERO_ELVES_FAUSTUS_NAME = "浮士德",
 	ITEM_HERO_FAUSTUS_NAME = "浮士德",
 	ITEM_HERO_FAUSTUS_BOTTOM_DESC = "召唤浮士德来击败你的敌人。",
 	ITEM_HERO_FAUSTUS_BOTTOM_INFO = "召唤浮士德来与你并肩作战。",
 	ITEM_HERO_FAUSTUS_DESC = "传言说他是艾纳尼女神的亲密好友，也有人宣称当浮士德降生的那个夜晚，天龙座的某一颗星星失去了光彩......但一些传奇又把他描绘成精灵族的永恒守护者。不管怎么说，浮士德几乎已经掌握了所有已知的龙族法术......其中一种仍然是一个迷...",
-<<<<<<< HEAD
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
-
 	SOLDIER_DRACOLICH_GOLEM_NAME = "叉骨",
 	SOLDIER_DEATH_RIDER_NAME = "死亡骑士",
 	HERO_DRACOLICH_NAME = "波恩哈特",
@@ -3992,16 +3973,10 @@ return {
 	LEVEL_125_TITLE = "125. 夜牙沼泽",
 	LEVEL_126_HISTORY = "望向这个堕落勇士时，我们的心里充满了悲伤。布莱克本魔王当初为了对抗邪恶，太过于追求力量，以致于被力量腐蚀，就连他的领地也堕入黑暗之中。可惜呀，我们救不了他；但我们还来得及从绞刑架上救下巴内斯蒂国王。将军，你掌握着两个王国之间和平的关键…击败魔王布莱克本，也许死亡会给他带来救赎！",
 	LEVEL_126_TITLE = "126. 布莱克本城堡",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	LEVEL_426_HISTORY = "我就知道，这一刻终将到来。瓦拉杜勒的幽魂想让我付清之前欠他们的账。但它们开的价码太高了！我才不会把自己领土上一半的生灵交给它们呢！现在它们带着手下最强的生物来了，不过好在我事先也做了一些准备。",
 	LEVEL_426_TITLE = "426. 重返腐朽森林",
 	LEVEL_427_HISTORY = "将军，现在我们就要进入腐朽森林的深沼泽了。这里是瓦拉杜勒全境最危险的地方，但我们不得不走这条路。因为一旦绕过这里，聚集起来的敌人就有可能趁我军向北进军之际，从后方袭击我军。请务必当心沼泽地里那些实力强劲的不死生物。",
 	LEVEL_427_TITLE = "427. 沼泽地里的一夜",
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 	-- kr1_enemies
 	ENEMY_ABOMINATION_NAME = "憎恶",
 	ENEMY_BANDIT_NAME = "强盗",

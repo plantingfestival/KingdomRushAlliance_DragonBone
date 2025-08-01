@@ -2932,9 +2932,6 @@ return {
 	ITEM_HERO_WIZARD_NAME = "Nivus the Arch-Wizard",
 	ITEM_HERO_WIZARD_BOTTOM_DESC = "Summon Nivus the Arch-Wizard to defeat your enemies.",
 	ITEM_HERO_WIZARD_BOTTOM_INFO = "Summon Nivus the Arch-Wizard to fight alongside you.",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	ITEM_HERO_WIZARD_DESC = "Great mages all seem quite similar... outwardly eccentric, inwardly wise. Most of the spells taught in magic schools today were created by him. Nivus possesses astonishingly formidable power, yet at the same time bears a heavy burden on his shoulders.",
 	HERO_ELVES_PHOENIX_NAME = "Phoenix",
 	ITEM_HERO_PHOENIX_NAME = "Phoenix",
@@ -2965,19 +2962,12 @@ return {
 	HERO_ELVES_BRUCE_NAME = "Bruce",
 	HERO_ELVES_FAUSTUS_NAME = "Faustus",
 	HERO_ELVES_FALLEN_ANGEL_NAME = "Lilith",
-=======
->>>>>>> main
 	ITEM_HERO_WIZARD_DESC = "The great mages seem to be about the same...... Crazy on the outside, wise on the inside, most of the spells taught in the magic school now come from him. The Neuis owner is amazingly powerful, but at the same time it is also burdened with a heavy burden.He is self-taught, but his magic is as elusive as his gibberish. But he is very careful to control his power, because he knows that the greater the power, the more trouble.",
 	HERO_ELVES_FAUSTUS_NAME = "Faustus",
 	ITEM_HERO_FAUSTUS_NAME = "Faustus",
 	ITEM_HERO_FAUSTUS_BOTTOM_DESC = "Summon Faustus the Arch-Wizard to defeat your enemies.",
 	ITEM_HERO_FAUSTUS_BOTTOM_INFO = "Summon Faustus the Arch-Wizard to fight alongside you.",
 	ITEM_HERO_FAUSTUS_DESC = "It is rumored that he was a close friend of Goddess Anani, and it is also claimed that on the night Faust was born, one of the stars in the constellation Draco lost its brilliance...... But some legends portray him as the eternal guardian of the elves. Regardless, Faust had mastered almost every known dragon spell...... One of them is still a mystery...",
-<<<<<<< HEAD
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
-
 	HERO_EISKALT_NAME = "Eiskalt",
 	HERO_EISKALT_DESC = "As son of Jokull, Eiskalt was born to reign in the North. However, his frequent attacks on humans made him a big problem for Arkus and his own mother. Together, they trapped him under innumerable layers of ice, where he remained asleep until Vez'nan managed to free him.",
 	HERO_EISKALT_FIERCE_BREATH_TITLE = "Frost Blast",
@@ -3002,10 +2992,6 @@ return {
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_1 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[2]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[2]%$s cooldown.",
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_2 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[3]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[3]%$s cooldown.",
 	HERO_EISKALT_ULTIMATE_DESCRIPTION_3 = "Freezes all enemies on the map for %$heroes.hero_eiskalt.ultimate.duration[4]%$ seconds. %$heroes.hero_eiskalt.ultimate.cooldown[4]%$s cooldown.",
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	LEVEL_426_HISTORY = "I knew that this moment would come. The greatest ghosts of Valardul want me to pay off my debts with them. But their claims are too high! I will not give them half of the living beings of my realms! They are coming with their most elite creatures. Fortunately, I took my precautions.",
 	LEVEL_426_TITLE = "426. BACK TO THE ROTTEN FOREST",
 	LEVEL_427_HISTORY = "General, now we will enter the deep swamps of the Rotten Forest, the most dangerous place in Valardul. It’s our only option because if we evade it, we are vulnerable to an attack from the rear. Beware of the powerful undead that will confront us in those swamps.",
@@ -3067,8 +3053,4 @@ return {
 	ENEMY_CORROSIVE_SOUL_NAME = "Corrosive Soul",
 	ENEMY_HAUNTED_SKELETON_NAME = "Haunted Skeleton",
 	ENEMY_LICH_NAME = "Lich",
-
-=======
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
->>>>>>> main
 }

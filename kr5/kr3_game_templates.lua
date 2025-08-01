@@ -8982,22 +8982,10 @@ tt.range = 50
 tt.vis_flags = F_RANGED
 tt.vis_bans = 0
 tt.hit_time = fts(20)
-<<<<<<< HEAD
 tt = E:register_t("controller_item_hero_faustus", "controller_item_hero")
 tt.entity = "hero_faustus"
-
 tt = E:register_t("hero_faustus", "hero5")
-=======
-<<<<<<< HEAD
-=======
-tt = E:register_t("controller_item_hero_faustus", "controller_item_hero")
-tt.entity = "hero_faustus"
->>>>>>> main
 
-tt = E:register_t("hero_faustus", "hero5")
->>>>>>> 7b385a4c45d950440b2251f7284df994e6dbd906
-
-tt = E:register_t("hero_faustus", "hero5")
 E:add_comps(tt, "ranged", "timed_attacks")
 tt.hero.level_stats.armor = {
 	0,
