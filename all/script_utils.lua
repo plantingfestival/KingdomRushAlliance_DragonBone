@@ -4273,6 +4273,118 @@ local function hide_shadow(this, isHidden)
 		end
 	end
 end
+
+local function entity_interrupted(this)
+	return this.nav_rally and this.nav_rally.new or this.health and this.health.dead or this.unit and this.unit.is_stunned or this.tower and this.tower.blocked
+end
+
+local function y_entity_wait(store, this, time)
+	return U.y_wait(store, time, function(store, time)
+		return entity_interrupted(this)
+	end)
+end
+
+local function y_entity_animation_wait(this)
+	while not U.animation_finished(this) do
+		if entity_interrupted(this) then
+			return true
+		end
+		coroutine.yield()
+	end
+	return false
+end
+
+-- true代表打断entity现有的动作
+local function entity_attacks(store, this, a)
+	if a.skill == "spawner" then
+		return entity_casts_spawner(store, this, a)
+	end
+end
+
+local function entity_casts_spawner(store, this, a)
+	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
+		S:queue(a.sound, a.sound_args)
+		U.animation_start(this, a.animation, nil, store.tick_ts)
+		if y_entity_wait(store, this, a.spawn_time) then
+			return true
+		end
+		local max_count = math.min(a.max_count or 1, #a.custom_spawn_points)
+		for i = 1, max_count do
+			if y_entity_wait(store, this, a.spawn_delay) then
+				return true
+			end
+			local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
+			local e = E:create_entity(e_name)
+			if e.enemy then
+				e.enemy.gold = 0
+			end
+			if e.render then
+				e.render.sprites[1].name = "raise"
+			end
+			e.pos = a.custom_spawn_points[i]
+			queue_insert(store, e)
+		end
+		if y_entity_animation_wait(this) then
+			return true
+		end
+		a.ts = store.tick_ts
+		if a.xp_from_skill then
+			SU.hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+		end
+		return true
+	elseif this.nav_path then
+		local nodes_to_entrance = a.nodes_to_entrance or 0
+		local nodes_to_exit = a.nodes_to_exit or 0
+		local skip = this.nav_path.ni <= nodes_to_entrance or P:nodes_to_defend_point(this.nav_path) <= nodes_to_exit
+		if not skip then
+			S:queue(a.sound, a.sound_args)
+			U.animation_start(this, a.animation, nil, store.tick_ts)
+			if y_entity_wait(store, this, a.spawn_time) then
+				return true
+			end
+			local max_count = a.max_count or 1
+			local min_nodes = a.min_nodes or 0
+			local max_nodes = a.max_nodes or 0
+			for i = 1, max_count do
+				if y_entity_wait(store, this, a.spawn_delay) then
+					return true
+				end
+				local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
+				local e = E:create_entity(e_name)
+				if e.nav_path then
+					e.nav_path.pi = this.nav_path.pi
+					if a.use_center then
+						e.nav_path.spi = 1
+					elseif a.random_subpath then
+						e.nav_path.spi = math.random(1, 3)
+					else
+						e.nav_path.spi = this.nav_path.spi
+					end
+					e.nav_path.ni = km.clamp(1, P:get_end_node(this.nav_path.pi), this.nav_path.ni + math.random(min_nodes, max_nodes))
+				end
+				if P:is_node_valid(e.nav_path.pi, e.nav_path.ni) then
+					if e.enemy then
+						e.enemy.gold = 0
+					end
+					if e.render then
+						e.render.sprites[1].name = "raise"
+					end
+					e.pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e.nav_path.ni)
+					queue_insert(store, e)
+				end
+			end
+			if y_entity_animation_wait(this) then
+				return true
+			end
+			a.ts = store.tick_ts
+			if a.xp_from_skill then
+				SU.hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+			end
+			return true
+		end
+	end
+	return false
+end
 -- customization
 
 local SU = {
