@@ -1655,60 +1655,9 @@ end
 
 scripts.kr4_enemy_mixed = {}
 function scripts.kr4_enemy_mixed.update(this, store, script)
-	local function hide_shadow(isHidden)
-		for i, sprite in ipairs(this.render.sprites) do
-			if sprite.is_shadow then
-				sprite.hidden = isHidden
-			end
-		end
-	end
-
 	local function check_unit_attack(store, this, a)
 		if SU.check_unit_attack_available(store, this, a) then
-			if a.type == "spawn" and this.nav_path then
-				local nodes_to_entrance = a.nodes_to_entrance or 0
-				local nodes_to_exit = a.nodes_to_exit or 0
-				local skip = this.nav_path.ni <= nodes_to_entrance or P:nodes_to_defend_point(this.nav_path) <= nodes_to_exit
-				if not skip then
-					U.animation_start(this, a.animation, nil, store.tick_ts)
-					if SU.y_enemy_wait(store, this, a.spawn_time) then
-						return true
-					end
-					local max_count = a.max_count or 1
-					local min_nodes = a.min_nodes or 0
-					local max_nodes = a.max_nodes or 0
-					for i = 1, max_count do
-						if SU.y_enemy_wait(store, this, a.spawn_delay) then
-							return true
-						end
-						local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
-						local e = E:create_entity(e_name)
-						if e.nav_path then
-							e.nav_path.pi = this.nav_path.pi
-							if a.use_center then
-								e.nav_path.spi = 1
-							elseif a.random_subpath then
-								e.nav_path.spi = math.random(1, 3)
-							else
-								e.nav_path.spi = this.nav_path.spi
-							end
-							e.nav_path.ni = this.nav_path.ni + math.random(min_nodes, max_nodes)
-						end
-						if P:is_node_valid(e.nav_path.pi, e.nav_path.ni) then
-							e.enemy.gold = 0
-							if e.render then
-								e.render.sprites[1].name = "raise"
-							end
-							queue_insert(store, e)
-						end
-					end
-					if SU.y_enemy_animation_wait(this) then
-						return true
-					end
-					a.ts = store.tick_ts
-					return true
-				end
-			end
+			return SU.entity_attacks(store, this, a)
 		end
 		return false
 	end
@@ -1716,9 +1665,7 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 	local walk_break_fn = function(store, this)
 		if this.timed_attacks then
 			for i, a in ipairs(this.timed_attacks.list) do
-				if check_unit_attack(store, this, a) then
-					return true
-				end
+				return check_unit_attack(store, this, a)
 			end
 		end
 		return false
@@ -1781,7 +1728,7 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 			if ps then
 				ps.particle_system.emit = nil
 			end
-			hide_shadow(true)
+			SU.hide_shadow(true)
 			SU.y_enemy_death(store, this)
 			return
 		end

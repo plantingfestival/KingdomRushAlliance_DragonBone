@@ -31,6 +31,7 @@ local GR = require("grid_db")
 local GS = require("game_settings")
 local GU = require("gui_utils")
 local storage = require("storage")
+local slot_template = require("data.slot_template")
 local RC = require("remote_config")
 local UP = require("upgrades")
 local W = require("wave_db")
@@ -10272,6 +10273,9 @@ function BagItemButton:initialize(default_image_name, selected_image_name, icon_
 	self:set_mode("unlocked")
 
 	local item_name = slot.items.selected[self.item_id]
+	if not item_name then
+		item_name = slot_template.items.selected[self.item_id]
+	end
 	local qty = slot.items.status[item_name] or 0
 
 	self:set_item(item_name, qty)

@@ -9246,7 +9246,7 @@ function scripts.hero_phoenix.update(this, store)
 
 						mod.modifier.target_id = target.id
 						mod.modifier.source_id = this.id
-						mod.pos.x, mod.pos.y = target.pos.x, target.pos.y
+						mod.pos = target.pos
 
 						queue_insert(store, mod)
 					end

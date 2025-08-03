@@ -939,6 +939,7 @@ tt.ranged.attacks[1].min_range = 25
 tt.ranged.attacks[1].shoot_time = fts(19)
 tt.ranged.attacks[1].animation = "shoot"
 tt.timed_attacks.list[1] = E:clone_c("spawn_attack")
+tt.timed_attacks.list[1].skill = "spawner"
 tt.timed_attacks.list[1].can_be_silenced = true
 tt.timed_attacks.list[1].melee_break = nil
 tt.timed_attacks.list[1].ranged_break = true

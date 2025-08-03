@@ -7585,7 +7585,12 @@ function scripts.hacksaw_sawblade.update(this, store)
 		target = store.entities[b.target_id]
 
 		if target and target.health and not target.health.dead then
-			b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x, target.pos.y + target.unit.hit_offset.y
+			if target.unit and target.unit.hit_offset then
+				local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+				b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x * flip_sign, target.pos.y + target.unit.hit_offset.y
+			else
+				b.to.x, b.to.y = target.pos.x, target.pos.y
+			end
 		end
 
 		mspeed = mspeed + FPS * math.ceil(mspeed * (1 / FPS) * b.acceleration_factor)
@@ -7598,31 +7603,26 @@ function scripts.hacksaw_sawblade.update(this, store)
 
 	if target and not target.health.dead then
 		local d = SU.create_bullet_damage(b, target.id, this.id)
-
 		queue_damage(store, d)
+
+		if b.hit_blood_fx and target.unit and target.unit.blood_color ~= BLOOD_NONE then
+			local sfx = E:create_entity(b.hit_blood_fx)
+			sfx.pos = V.vclone(b.to)
+			sfx.render.sprites[1].ts = store.tick_ts
+			if sfx.use_blood_color and target.unit.blood_color then
+				sfx.render.sprites[1].name = target.unit.blood_color
+				sfx.render.sprites[1].r = this.render.sprites[1].r
+			end
+			queue_insert(store, sfx)
+		end
+
 	end
 
 	if b.hit_fx then
 		local sfx = E:create_entity(b.hit_fx)
-
 		sfx.pos.x, sfx.pos.y = b.to.x, b.to.y
 		sfx.render.sprites[1].ts = store.tick_ts
 		sfx.render.sprites[1].runs = 0
-
-		queue_insert(store, sfx)
-	end
-
-	if b.hit_blood_fx and target.unit.blood_color ~= BLOOD_NONE then
-		local sfx = E:create_entity(b.hit_blood_fx)
-
-		sfx.pos = V.vclone(b.to)
-		sfx.render.sprites[1].ts = store.tick_ts
-
-		if sfx.use_blood_color and target.unit.blood_color then
-			sfx.render.sprites[1].name = target.unit.blood_color
-			sfx.render.sprites[1].r = this.render.sprites[1].r
-		end
-
 		queue_insert(store, sfx)
 	end
 
@@ -7633,11 +7633,14 @@ function scripts.hacksaw_sawblade.update(this, store)
 
 		if target then
 			S:queue(this.sound_events.bounce)
-
 			bounce_count = bounce_count + 1
-			b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x, target.pos.y + target.unit.hit_offset.y
+			if target.unit and target.unit.hit_offset then
+				local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+				b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x * flip_sign, target.pos.y + target.unit.hit_offset.y
+			else
+				b.to.x, b.to.y = target.pos.x, target.pos.y
+			end
 			b.target_id = target.id
-
 			goto label_193_0
 		end
 	end
