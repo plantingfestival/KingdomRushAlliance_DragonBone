@@ -36120,7 +36120,10 @@ function scripts.tower_stargazers.update(this, store, script)
 				local pow = pows[i]
 
 				if (not pow or pow.level > 0) and store.tick_ts - aa.ts > aa.cooldown and store.tick_ts - last_ts > a.min_cooldown then
-					if aa == at and this.tower.can_do_magic then
+					if aa == at then
+						if not this.tower.can_do_magic then
+							goto label_continue
+						end
 						enemy, enemies = U.find_foremost_enemy(store.entities, tpos(this), 0, a.range, false, aa.vis_flags, aa.vis_bans)
 
 						if not enemies then
@@ -36403,6 +36406,7 @@ function scripts.tower_stargazers.update(this, store, script)
 
 						aa.ts = start_ts
 					end
+					::label_continue::
 				end
 			end
 		end
@@ -45944,7 +45948,10 @@ function scripts.tower_ray.update(this, store)
 
 			for i, aa in pairs(attacks) do
 				if aa and not aa.disabled and store.tick_ts - aa.ts > aa.cooldown and store.tick_ts - last_ts > a.min_cooldown then
-					if aa == as and this.tower.can_do_magic then
+					if aa == as then
+						if not this.tower.can_do_magic then
+							goto label_continue
+						end
 						local enemy, pred_pos = find_target(aa)
 
 						if not enemy then
@@ -46193,6 +46200,7 @@ function scripts.tower_ray.update(this, store)
 						end
 					end
 				end
+				::label_continue::
 			end
 
 			if store.tick_ts - idle_ts > this.tower.long_idle_cooldown then

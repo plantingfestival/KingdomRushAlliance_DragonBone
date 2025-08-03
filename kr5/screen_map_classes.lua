@@ -3732,6 +3732,13 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 	end
 
 	local user_data = storage:load_slot()
+	if #user_data.items.selected < #slot_template.items.selected then
+		for i = #user_data.items.selected + 1, #slot_template.items.selected do
+			user_data.items.selected[i] = slot_template.items.selected[i]
+		end
+		storage:save_slot(user_data)
+	end
+
 	local gems_label = self:ci("label_item_room_gems")
 
 	gems_label.text = string.format("%s", user_data.gems)
