@@ -236,20 +236,20 @@ return {
 				255
 			}
 		},
-		hero_faustus = {
-			cost = 100,
-			color_bg = {
-				50,
-				231,
-				166,
-				255
-			}
-		},
 		hero_dragon = {
 			cost = 1000,
 			color_bg = {
 				244.79999999999998,
 				119.85,
+				0,
+				255
+			}
+		},
+		hero_faustus = {
+			cost = 100,
+			color_bg = {
+				200,
+				120,
 				0,
 				255
 			}
