@@ -4420,69 +4420,82 @@ local function entity_casts_range_unit(store, this, a)
 				end
 				if newTarget then
 					target = newTarget
+					targets = newTargets
 					pred_pos = newPredPos
 				else
 					target = oldTarget
 				end
 			end
-			local bullet = E:create_entity(a.bullet)
-			local ni
-			if a.use_center then
-				local tpi, tspi, tni
-				if target.nav_path then
-					tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
-				else
-					local nodes
-					if this.nav_path then
-						tpi, tspi = this.nav_path.pi, this.nav_path.spi
-						nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
-					else
-						nodes = P:nearest_nodes(target.pos.x, target.pos.y)
-					end
-					if #nodes >= 1 then
-						tpi, tspi, tni = unpack(nodes[1])
-					end
-				end
-				if tni then
-					local offset = U.get_prediction_offset(target, prediction_time)
-					ni = tni + offset.node
-					pred_pos = P:node_pos(tpi, 1, ni)
-					bullet.bullet.target_id = nil
-				end
-			else
-				bullet.bullet.target_id = target.id
-			end
-			bullet.bullet.source_id = this.id
-			bullet.bullet.to = pred_pos
-			local start_offset = a.bullet_start_offset[ai]
-			local flipSign = af and -1 or 1
-			bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
-			bullet.pos = V.vclone(bullet.bullet.from)
-			if bullet.bullet.hit_payload then
-				local hit_payload = {}
-				local function create_hit_payload(hp_name)
-					local hp = E:create_entity(hp_name)
+			local max_bullets = a.max_bullets or 1
+			for i = 1, max_bullets do
+				target = targets[km.zmod(i, #targets)]
+				local bullet = E:create_entity(a.bullet)
+				bullet.bullet.source_id = this.id
+				bullet.bullet.shot_index = i
+				local ni
+				if a.use_center then
+					local tpi, tspi, tni
 					if target.nav_path then
-						if hp.path_index then
-							hp.path_index = target.nav_path.pi
+						tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
+					else
+						local nodes
+						if this.nav_path then
+							tpi, tspi = this.nav_path.pi, this.nav_path.spi
+							nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
+						else
+							nodes = P:nearest_nodes(target.pos.x, target.pos.y)
 						end
-						if hp.nav_path then
-							hp.nav_path.pi = target.nav_path.pi
-							hp.nav_path.ni = ni
+						if #nodes >= 1 then
+							tpi, tspi, tni = unpack(nodes[1])
 						end
 					end
-					table.insert(hit_payload, hp)
-				end
-				if type(bullet.bullet.hit_payload) == "table" then
-					for i, hp_name in ipairs(bullet.bullet.hit_payload) do
-						create_hit_payload(hp_name)
+					if tni then
+						local offset = U.get_prediction_offset(target, prediction_time)
+						ni = tni + offset.node
+						pred_pos = P:node_pos(tpi, 1, ni)
+						bullet.bullet.target_id = nil
 					end
 				else
-					create_hit_payload(bullet.bullet.hit_payload)
+					bullet.bullet.target_id = target.id
 				end
-				bullet.bullet.hit_payload = hit_payload
+				if bullet.spawn_pos_offset then
+					bullet.pos = target.pos
+				else
+					bullet.bullet.to = pred_pos
+					local start_offset = a.bullet_start_offset[ai]
+					local flipSign = af and -1 or 1
+					bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+					bullet.pos = V.vclone(bullet.bullet.from)
+				end
+				if bullet.bullet.hit_payload then
+					local hit_payload = {}
+					local function create_hit_payload(hp_name)
+						local hp = E:create_entity(hp_name)
+						if target.nav_path then
+							if hp.path_index then
+								hp.path_index = target.nav_path.pi
+							end
+							if hp.nav_path then
+								hp.nav_path.pi = target.nav_path.pi
+								hp.nav_path.ni = ni
+							end
+						end
+						table.insert(hit_payload, hp)
+					end
+					if type(bullet.bullet.hit_payload) == "table" then
+						for i, hp_name in ipairs(bullet.bullet.hit_payload) do
+							create_hit_payload(hp_name)
+						end
+					else
+						create_hit_payload(bullet.bullet.hit_payload)
+					end
+					bullet.bullet.hit_payload = hit_payload
+				end
+				if bullet.bullet.use_unit_damage_factor and this.unit then
+					bullet.bullet.damage_factor = this.unit.damage_factor
+				end
+				queue_insert(store, bullet)
 			end
-			queue_insert(store, bullet)
 			a.ts = start_ts
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])

@@ -5854,8 +5854,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			SU.soldier_idle(store, this)
 		else
 			while this.nav_rally.new do
-				local rally = SU.y_hero_new_rally(store, this)
-				if rally then
+				if SU.y_hero_new_rally(store, this) then
 					goto label_90_1
 				end
 			end
@@ -5864,35 +5863,10 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.check_unit_attack_available(store, this, a1) then
-				local target = U.find_enemy_with_search_type(store.entities, this.pos, a1.min_range, a1.max_range, nil, a1.vis_flags, a1.vis_bans, nil, nil, a1.search_type)
-				if target then
-					local start_ts = store.tick_ts
-					local an, af = U.animation_name_facing_point(this, a1.animation, target.pos)
-					U.animation_start(this, an, af, store.tick_ts, nil, 1)
-					if SU.y_hero_wait(store, this, a1.shoot_time) then
-						goto label_90_1
-					end
-					target = store.entities[target.id]
-					if not target or target.health.dead then
-						target = U.find_enemy_with_search_type(store.entities, this.pos, a1.min_range, a1.max_range, nil, a1.vis_flags, a1.vis_bans, nil, nil, a1.search_type)
-					end
-					if target then
-						local bullet = E:create_entity(a1.bullet)
-						bullet.pos = target.pos
-						bullet.bullet.source_id = this.id
-						bullet.bullet.target_id = target.id
-						if bullet.bullet.use_unit_damage_factor then
-							bullet.bullet.damage_factor = this.unit.damage_factor
-						end
-						queue_insert(store, bullet)
-						a1.ts = start_ts
-					else
-						SU.delay_attack(store, a1, 0.1)
-					end
-					SU.y_hero_animation_wait(this)
-					goto label_90_1
+				if not SU.entity_attacks(store, this, a1) then
+					SU.delay_attack(store, a1, fts(10))
 				else
-					SU.delay_attack(store, a1, 0.1)
+					goto label_90_1
 				end
 			end
 
@@ -5905,7 +5879,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 					local start_ts = store.tick_ts
 					local an, af = U.animation_name_facing_point(this, a2.animation, target.pos)
 					U.animation_start(this, an, af, store.tick_ts, nil, 1)
-					if SU.y_hero_wait(store, this, a2.shoot_time) then
+					if SU.y_hero_wait(store, this, a2.cast_time) then
 						goto label_90_1
 					end
 					target = store.entities[target.id]
@@ -6338,7 +6312,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			if SU.check_unit_attack_available(store, this, attack) then
 				skip = SU.entity_attacks(store, this, attack)
 				if not skip then
-					SU.delay_attack(store, attack, 0.1)
+					SU.delay_attack(store, attack, fts(10))
 				end
 			end
 		end
@@ -6348,7 +6322,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			if SU.check_unit_attack_available(store, this, attack) then
 				skip = SU.entity_attacks(store, this, attack)
 				if not skip then
-					SU.delay_attack(store, attack, 0.1)
+					SU.delay_attack(store, attack, fts(10))
 				end
 			end
 		end
@@ -6358,7 +6332,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			if SU.check_unit_attack_available(store, this, attack) then
 				skip = SU.entity_attacks(store, this, attack)
 				if not skip then
-					SU.delay_attack(store, attack, 0.1)
+					SU.delay_attack(store, attack, fts(10))
 				end
 			end
 		end
