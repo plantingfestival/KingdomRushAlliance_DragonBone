@@ -137,6 +137,13 @@ tt.render.sprites[1].animated = true
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].z = Z_BULLETS
 
+tt = E:register_t("lightning_ray", "bullet")
+tt.main_script.update = scripts.lightning_ray.update
+tt.bullet.use_unit_damage_factor = nil
+tt.bullet.ignore_hit_offset = nil
+tt.bullet.hit_time = fts(2)
+tt.spawn_pos_offset = v(0, 0)
+
 tt = E:register_t("controller_item_hero", "controller_item")
 tt.main_script.insert = scripts.controller_item_hero.insert
 tt.can_fire_fn = scripts.controller_item_summon_blackburn.can_fire_fn

@@ -213,8 +213,7 @@ tt.tween.props[1].keys = {
 	}
 }
 
-tt = E:register_t("malik_attack_ray", "bullet")
-tt.main_script.update = customScripts1.lightning_ray.update
+tt = E:register_t("malik_attack_ray", "lightning_ray")
 tt.render.sprites[1].name = "malik_attack_ray_travel"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -243,8 +242,7 @@ tt.render.sprites[1].name = "run"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 
-tt = E:register_t("malik_tower_destruction_ray", "bullet")
-tt.main_script.update = customScripts1.lightning_ray.update
+tt = E:register_t("malik_tower_destruction_ray", "lightning_ray")
 tt.render.sprites[1].name = "malik_towerdestroction_ray_run"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0.5, 0.04)
