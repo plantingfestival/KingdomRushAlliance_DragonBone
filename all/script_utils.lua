@@ -4428,7 +4428,9 @@ local function entity_casts_range_unit(store, this, a)
 			end
 			local max_bullets = a.max_bullets or 1
 			for i = 1, max_bullets do
-				target = targets[km.zmod(i, #targets)]
+				if not a.same_target then
+					target = targets[km.zmod(i, #targets)]
+				end
 				local bullet = E:create_entity(a.bullet)
 				bullet.bullet.source_id = this.id
 				bullet.bullet.shot_index = i
