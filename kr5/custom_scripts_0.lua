@@ -263,7 +263,7 @@ end
 
 scripts.controller_spawn_on_path = {}
 function scripts.controller_spawn_on_path.update(this, store, script)
-	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { this.path_index }, { 1 })
+	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { this.path_index })
 	if #nodes < 1 then
 		queue_remove(store, this)
 		return
@@ -275,7 +275,13 @@ function scripts.controller_spawn_on_path.update(this, store, script)
 	for i = 1, this.max_entities do
 		local entity = E:create_entity(this.entity_name)
 		if i > 1 then
-			spi = km.zmod(spi + 1, 3)
+			if this.spawn_type == 1 then
+				spi = 1
+			elseif this.spawn_type == 2 then
+				spi = km.clamp(2, 3, km.zmod(spi + 1, 3))
+			else
+				spi = km.zmod(spi + 1, 3)
+			end
 			ni = ni + diff * this.direction
 			delay = this.delay_between_objects
 		elseif this.exclude_first_position then
@@ -1705,9 +1711,9 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 		end
 		this.health_bar.hidden = true
 		local an, af = U.animation_name_facing_point(this, "raise", this.motion.dest)
-		hide_shadow(true)
+		SU.hide_shadow(this, true)
 		U.y_animation_play(this, an, af, store.tick_ts, 1)
-		hide_shadow(false)
+		SU.hide_shadow(this, false)
 		if not this.health.dead then
 			this.health_bar.hidden = nil
 		end
@@ -1728,7 +1734,7 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 			if ps then
 				ps.particle_system.emit = nil
 			end
-			SU.hide_shadow(true)
+			SU.hide_shadow(this, true)
 			SU.y_enemy_death(store, this)
 			return
 		end

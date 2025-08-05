@@ -531,12 +531,14 @@ tt.ranged.attacks[1].shoot_time = fts(16)
 tt.ranged.attacks[1].node_prediction = fts(32)
 -- cold_fury
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].bullet = "flame_cold_fury"
 tt.timed_attacks.list[1].min_range = b.cold_fury.min_range
 tt.timed_attacks.list[1].max_range = b.cold_fury.max_range
 tt.timed_attacks.list[1].cooldown = 20
 tt.timed_attacks.list[1].cast_time = fts(15)
+tt.timed_attacks.list[1].node_prediction = fts(17)
 tt.timed_attacks.list[1].sync_animation = true
 tt.timed_attacks.list[1].animation = "coldFury"
 tt.timed_attacks.list[1].sound = "hero_jigou_breath"
@@ -544,17 +546,20 @@ tt.timed_attacks.list[1].bullet_start_offset = {
 	v(41, 72)
 }
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF)
 tt.timed_attacks.list[1].xp_from_skill = "cold_fury"
 -- ice_ball
 tt.timed_attacks.list[2] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[2].skill = "range_unit"
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].search_type = U.search_type.find_max_crowd
+tt.timed_attacks.list[2].use_center = true
 tt.timed_attacks.list[2].bullet = "bomb_ice_ball"
 tt.timed_attacks.list[2].min_range = b.ice_ball.min_range
 tt.timed_attacks.list[2].max_range = b.ice_ball.max_range
 tt.timed_attacks.list[2].cooldown = 18
 tt.timed_attacks.list[2].cast_time = 0.72
+tt.timed_attacks.list[2].node_prediction = fts(41)
 tt.timed_attacks.list[2].sync_animation = true
 tt.timed_attacks.list[2].animation = "frosty"
 tt.timed_attacks.list[2].sound = "hero_eiskalt_frosty_throw"
@@ -567,11 +572,14 @@ tt.timed_attacks.list[2].bullet_start_offset = {
 	v(20, 98)
 }
 tt.timed_attacks.list[2].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[2].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER)
+tt.timed_attacks.list[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER)
 tt.timed_attacks.list[2].xp_from_skill = "ice_ball"
 -- ice_peaks
 tt.timed_attacks.list[3] = E:clone_c("aura_attack")
+tt.timed_attacks.list[3].skill = "object_on_target"
 tt.timed_attacks.list[3].disabled = true
+tt.timed_attacks.list[3].use_caster_position = true
+tt.timed_attacks.list[3].use_center = true
 tt.timed_attacks.list[3].entity = "controller_aura_ice_peak"
 tt.timed_attacks.list[3].animation = "icePeaks"
 tt.timed_attacks.list[3].sync_animation = true

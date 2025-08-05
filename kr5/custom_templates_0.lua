@@ -95,8 +95,9 @@ tt.entities = nil
 
 tt = E:register_t("controller_spawn_on_path", "entities_delay_controller")
 tt.main_script.update = scripts.controller_spawn_on_path.update
-tt.path_index = nil
-tt.direction = -1
+tt.path_index = 1
+tt.direction = 0
+tt.spawn_type = 3
 tt.start_nodes_offset = 0
 tt.exclude_first_position = nil
 tt.nodes_between_objects = 2

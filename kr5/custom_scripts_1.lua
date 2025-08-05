@@ -6329,48 +6329,15 @@ function scripts.hero_eiskalt.update(this, store, script)
 			skip = true
 		else
 			while this.nav_rally.new do
-				local rally = SU.y_hero_new_rally(store, this)
-				if rally then
-					skip = true
-				end
+				skip = SU.y_hero_new_rally(store, this)
 			end
 		end
 
 		if not skip then
 			attack = ice_peaks_attack
 			if SU.check_unit_attack_available(store, this, attack) then
-				local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, attack.min_range, attack.max_range, attack.cast_time, attack.vis_flags, 
-				attack.vis_bans, function(e)
-					return e.nav_path
-				end)
-				if target then
-					S:queue(attack.sound)
-					local start_ts = store.tick_ts
-					local an, af, ai = U.animation_name_facing_point(this, attack.animation, pred_pos)
-					U.animation_start(this, an, af, store.tick_ts, nil, 1)
-					local interrupted = SU.y_hero_wait(store, this, attack.cast_time)
-					if not interrupted then
-						local direction = -1
-						local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { target.nav_path.pi }, { target.nav_path.spi })
-						if #nodes >= 1 then
-							local _, _, ni = unpack(nodes[1])
-							if ni < target.nav_path.ni then
-								direction = 1
-							end
-						end
-						local controller = E:create_entity(attack.entity)
-						controller.pos.x, controller.pos.y = this.pos.x, this.pos.y
-						controller.path_index = target.nav_path.pi
-						controller.direction = direction
-						queue_insert(store, controller)
-						attack.ts = start_ts
-						if attack.xp_from_skill then
-							SU.hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill])
-						end
-						SU.y_hero_animation_wait(this)
-					end
-					skip = true
-				else
+				skip = SU.entity_attacks(store, this, attack)
+				if not skip then
 					SU.delay_attack(store, attack, 0.1)
 				end
 			end
@@ -6379,55 +6346,8 @@ function scripts.hero_eiskalt.update(this, store, script)
 		if not skip then
 			attack = ice_ball_attack
 			if SU.check_unit_attack_available(store, this, attack) then
-				local flight_time = fts(41)
-				local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, attack.min_range, attack.max_range, attack.cast_time + flight_time, 
-				attack.vis_flags, attack.vis_bans, function(e)
-					return e.nav_path
-				end, nil, attack.search_type, attack.crowd_range, attack.min_targets)
-				if target then
-					S:queue(attack.sound, attack.sound_args)
-					local start_ts = store.tick_ts
-					local an, af, ai = U.animation_name_facing_point(this, attack.animation, pred_pos)
-					U.animation_start(this, an, af, store.tick_ts, nil, 1)
-					local interrupted = SU.y_hero_wait(store, this, attack.cast_time)
-					if not interrupted then
-						local oldTarget = target
-						target = store.entities[target.id]
-						if not target or target.health.dead then
-							local newTarget = U.find_enemy_with_search_type(store.entities, this.pos, attack.min_range, attack.max_range, flight_time, 
-							attack.vis_flags, attack.vis_bans, function(e)
-								return e.nav_path
-							end, nil, attack.search_type, attack.crowd_range, attack.min_targets)
-							if newTarget then
-								target = newTarget
-							else
-								target = oldTarget
-							end
-						end
-						local offset = U.get_prediction_offset(target, flight_time)
-						local ni = target.nav_path.ni + offset.node
-						pred_pos = P:node_pos(target.nav_path.pi, 1, ni)
-						local bullet = E:create_entity(attack.bullet)
-						bullet.bullet.source_id = this.id
-						bullet.bullet.target_id = nil
-						bullet.bullet.to = pred_pos
-						local start_offset = attack.bullet_start_offset[ai]
-						local flipSign = af and -1 or 1
-						bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
-						bullet.pos = V.vclone(bullet.bullet.from)
-						local hp = E:create_entity(bullet.bullet.hit_payload)
-						hp.nav_path.pi = target.nav_path.pi
-						hp.nav_path.ni = ni
-						bullet.bullet.hit_payload = hp
-						queue_insert(store, bullet)
-						attack.ts = start_ts
-						if attack.xp_from_skill then
-							SU.hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill])
-						end
-						SU.y_hero_animation_wait(this)
-					end
-					skip = true
-				else
+				skip = SU.entity_attacks(store, this, attack)
+				if not skip then
 					SU.delay_attack(store, attack, 0.1)
 				end
 			end
@@ -6436,56 +6356,8 @@ function scripts.hero_eiskalt.update(this, store, script)
 		if not skip then
 			attack = cold_fury_attack
 			if SU.check_unit_attack_available(store, this, attack) then
-				local flight_time = fts(17)
-				local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, attack.min_range, attack.max_range, attack.cast_time + flight_time, 
-				attack.vis_flags, attack.vis_bans, function(e)
-					return e.nav_path
-				end)
-				if target then
-					S:queue(attack.sound)
-					local start_ts = store.tick_ts
-					local an, af, ai = U.animation_name_facing_point(this, attack.animation, pred_pos)
-					U.animation_start(this, an, af, store.tick_ts, nil, 1)
-					local interrupted = SU.y_hero_wait(store, this, attack.cast_time)
-					if not interrupted then
-						local oldTarget = target
-						target = store.entities[target.id]
-						if not target or target.health.dead then
-							newTarget, _, new_pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, attack.min_range, attack.max_range, flight_time, 
-							attack.vis_flags, attack.vis_bans, function(e)
-								return e.nav_path
-							end)
-							if newTarget then
-								target = newTarget
-								pred_pos = new_pred_pos
-							else
-								target = oldTarget
-							end
-						end
-						local bullet = E:create_entity(attack.bullet)
-						bullet.bullet.source_id = this.id
-						bullet.bullet.target_id = nil
-						bullet.bullet.to = pred_pos
-						local start_offset = attack.bullet_start_offset[ai]
-						local flipSign = af and -1 or 1
-						bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
-						bullet.pos = V.vclone(bullet.bullet.from)
-						local hit_payload = {}
-						for i, hp_name in ipairs(bullet.bullet.hit_payload) do
-							local hp = E:create_entity(hp_name)
-							hp.path_index = target.nav_path.pi
-							table.insert(hit_payload, hp)
-						end
-						bullet.bullet.hit_payload = hit_payload
-						queue_insert(store, bullet)
-						attack.ts = start_ts
-						if attack.xp_from_skill then
-							SU.hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill])
-						end
-						SU.y_hero_animation_wait(this)
-					end
-					skip = true
-				else
+				skip = SU.entity_attacks(store, this, attack)
+				if not skip then
 					SU.delay_attack(store, attack, 0.1)
 				end
 			end

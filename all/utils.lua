@@ -604,13 +604,13 @@ function U.find_nearest_soldier(entities, origin, min_range, max_range, flags, b
 	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
 
 	if not soldiers or #soldiers == 0 then
-		return nil
+		return nil, nil, nil
 	else
 		table.sort(soldiers, function(e1, e2)
 			return V.dist(e1.pos.x, e1.pos.y, origin.x, origin.y) < V.dist(e2.pos.x, e2.pos.y, origin.x, origin.y)
 		end)
 
-		return soldiers[1]
+		return soldiers[1], soldiers, V.vclone(soldiers[1].pos)
 	end
 end
 
@@ -630,7 +630,7 @@ function U.find_nearest_enemy(entities, origin, min_range, max_range, flags, ban
 	local targets = U.find_enemies_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
 
 	if not targets or #targets == 0 then
-		return nil
+		return nil, nil
 	else
 		table.sort(targets, function(e1, e2)
 			return V.dist(e1.pos.x, e1.pos.y, origin.x, origin.y) < V.dist(e2.pos.x, e2.pos.y, origin.x, origin.y)
@@ -1680,7 +1680,7 @@ function U.sort_by_strongest_enemy(valid_enemies, origin)
 		--[[if the health of the enemies is not the same, then return the enemy with the higher health]]
 		return hp1 > hp2
 	end)
-   
+
 	return sorted_enemies
 end
 
@@ -1729,7 +1729,19 @@ function U.find_weakest_enemy_in_range(entities, origin, min_range, max_range, p
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
 
-function U.find_farthest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+function U.find_farthest_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)
+	local targets = U.find_enemies_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not targets or #targets == 0 then
+		return nil, nil
+	else
+		table.sort(targets, function(e1, e2)
+			return V.dist(e1.pos.x, e1.pos.y, origin.x, origin.y) > V.dist(e2.pos.x, e2.pos.y, origin.x, origin.y)
+		end)
+		return targets[1], targets
+	end
+end
+
+function U.find_rearmost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	flags = flags or 0
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
@@ -1966,13 +1978,14 @@ function U.find_soldier_crowd_position(entities, origin, min_range, max_range, f
 end
 
 U.search_type = {
-	normal = 1,
-	random = 2,
-	max_health = 3,
-	min_health = 4,
-	close_to_exit = 5,
-	far_from_exit = 6,
-	find_max_crowd = 7,
+	nearest = 1,
+	farthest = 2,
+	random = 3,
+	max_health = 4,
+	min_health = 5,
+	close_to_exit = 6,-- 最接近终点
+	far_from_exit = 7,-- 最远离终点
+	find_max_crowd = 8,-- 最密集
 }
 
 function U.find_enemy_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, search_type, crowd_range, min_targets)
@@ -1980,8 +1993,16 @@ function U.find_enemy_with_search_type(entities, origin, min_range, max_range, p
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
 
-	if search_type == U.search_type.normal then
+	if search_type == U.search_type.nearest then
 		local enemy, enemies = U.find_nearest_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)
+		if not enemy then
+			return nil, nil, nil
+		end
+		local offset = U.get_prediction_offset(enemy, prediction_time)
+		enemy.__ffe_pos = V.v(enemy.pos.x + offset.x, enemy.pos.y + offset.y)
+		return enemy, enemies, enemy.__ffe_pos
+	elseif search_type == U.search_type.farthest then
+		local enemy, enemies = U.find_farthest_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)
 		if not enemy then
 			return nil, nil, nil
 		end
@@ -2003,7 +2024,7 @@ function U.find_enemy_with_search_type(entities, origin, min_range, max_range, p
 	elseif search_type == U.search_type.close_to_exit then
 		return U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	elseif search_type == U.search_type.far_from_exit then
-		return U.find_farthest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+		return U.find_rearmost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	elseif search_type == U.search_type.find_max_crowd then
 		local crowd = U.find_enemy_crowd(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range or 60, min_targets or 1, true)
 		if crowd then
@@ -2016,6 +2037,76 @@ function U.find_enemy_with_search_type(entities, origin, min_range, max_range, p
 		end
 	end
 	return U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+end
+
+function U.find_random_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
+	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not soldiers or #soldiers == 0 then
+		return nil, nil
+	else
+		local idx = math.random(1, #soldiers)
+		local soldier = soldiers[idx]
+		return soldier, soldiers, V.vclone(soldier.pos)
+	end
+end
+
+function U.find_strongest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not soldiers or #soldiers == 0 then
+		return nil, nil
+	end
+	table.sort(soldiers, function(soldier1, soldier2)
+		local hp1 = soldier1.health.hp
+		local hp2 = soldier2.health.hp
+		if hp1 == hp2 then
+			return V.dist(soldier1.pos.x, soldier1.pos.y, origin.x, origin.y) < V.dist(soldier2.pos.x, soldier2.pos.y, origin.x, origin.y)
+		end
+		return hp1 > hp2
+	end)
+	local soldier = soldiers[1]
+	return soldier, soldiers, V.vclone(soldier.pos)
+end
+
+function U.find_weakest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not soldiers or #soldiers == 0 then
+		return nil, nil
+	end
+	table.sort(soldiers, function(soldier1, soldier2)
+		local hp1 = soldier1.health.hp
+		local hp2 = soldier2.health.hp
+		if hp1 == hp2 then
+			return V.dist(soldier1.pos.x, soldier1.pos.y, origin.x, origin.y) < V.dist(soldier2.pos.x, soldier2.pos.y, origin.x, origin.y)
+		end
+		return hp1 < hp2
+	end)
+	local soldier = soldiers[1]
+	return soldier, soldiers, V.vclone(soldier.pos)
+end
+
+function U.find_soldier_with_search_type(entities, origin, min_range, max_range, flags, bans, filter_func, search_type, crowd_range, min_targets)
+	flags = flags or 0
+	bans = bans or 0
+	search_type = search_type or U.search_type.nearest
+
+	if search_type == U.search_type.nearest then
+		return U.find_nearest_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
+	elseif search_type == U.search_type.random then
+		return U.find_random_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
+	elseif search_type == U.search_type.max_health then
+		return U.find_strongest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	elseif search_type == U.search_type.min_health then
+		return U.find_weakest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	elseif search_type == U.search_type.find_max_crowd then
+		local pos, crowd = U.find_soldier_crowd_position(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range or 60, min_targets or 1, 
+		true, U.position_type.average)
+		if crowd then
+			local soldier = crowd.center_unit
+			return soldier, crowd.crowd, pos
+		else
+			return nil, nil, nil
+		end
+	end
 end
 
 return U
