@@ -4247,16 +4247,17 @@ local function create_bullet_hit_fx(this, store, target, flip_x)
 	local b = this.bullet
 	if b.hit_fx then
 		local hit_fx_pos = V.vclone(b.to)
-		if not b.hit_fx_ignore_hit_offset and target and target.render and target.unit and target.unit.hit_offset then
-			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
-			hit_fx_pos.x = target.unit.hit_offset.x * flip_sign + hit_fx_pos.x
-			hit_fx_pos.y = target.unit.hit_offset.y + hit_fx_pos.y
+		if b.hit_fx_ignore_hit_offset and target and target.pos then
+			hit_fx_pos.x, hit_fx_pos.y = target.pos.x, target.pos.y
 		end
 		local hit_fx = insert_sprite(store, b.hit_fx, hit_fx_pos, flip_x)
 		if target and target.unit then
 			for _, s in pairs(hit_fx.render.sprites) do
 				if s.size_names then
 					s.name = s.size_names[target.unit.size]
+				end
+				if s.size_scales then
+					s.scale = s.size_scales[target.unit.size]
 				end
 			end
 		end

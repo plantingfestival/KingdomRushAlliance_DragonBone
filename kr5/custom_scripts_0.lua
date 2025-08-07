@@ -416,25 +416,10 @@ function scripts.custom_bolt.update(this, store, script)
 	this.render.sprites[1].hidden = true
 
 	SU.make_bullet_damage_targets(this, store, target)
-	
-	if b.hit_fx then
-		local fx = E:create_entity(b.hit_fx)
-		fx.pos.x, fx.pos.y = b.to.x, b.to.y
-		if fx.render then
-			fx.render.sprites[1].ts = store.tick_ts
-			fx.render.sprites[1].runs = 0
-			if target and fx.render.sprites[1].size_names then
-				fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
-			end
-		end
-		queue_insert(store, fx)
-	end
+	SU.create_bullet_hit_fx(this, store, target)
 
-	if not is_flying and b.hit_decal then
-		local decal = E:create_entity(b.hit_decal)
-		decal.pos.x, decal.pos.y = b.to.x, b.to.y
-		decal.render.sprites[1].ts = store.tick_ts
-		queue_insert(store, decal)
+	if not is_flying then
+		SU.create_bullet_hit_decal(this, store)
 	end
 
 	SU.create_bullet_hit_payload(this, store)
@@ -528,28 +513,8 @@ function scripts.initial_bolt.update(this, store, script)
 	this.render.sprites[1].hidden = true
 
 	SU.make_bullet_damage_targets(this, store, target)
-
-	if b.hit_fx then
-		local sfx = E:create_entity(b.hit_fx)
-		sfx.pos.x, sfx.pos.y = b.to.x, b.to.y
-		sfx.render.sprites[1].ts = store.tick_ts
-		sfx.render.sprites[1].runs = 0
-		if b.flip_x then
-			sfx.render.sprites[1].flip_x = this.render.sprites[1].flip_x
-		end
-		if target and sfx.render.sprites[1].size_names then
-			sfx.render.sprites[1].name = sfx.render.sprites[1].size_names[target.unit.size]
-		end
-		queue_insert(store, sfx)
-	end
-
-	if b.hit_decal then
-		local decal = E:create_entity(b.hit_decal)
-		decal.pos = V.vclone(b.to)
-		decal.render.sprites[1].ts = store.tick_ts
-		queue_insert(store, decal)
-	end
-
+	SU.create_bullet_hit_fx(this, store, target, b.flip_x)
+	SU.create_bullet_hit_decal(this, store, b.flip_x)
 	SU.create_bullet_hit_payload(this, store)
 
 	if this.sound_events and this.sound_events.hit then
@@ -639,31 +604,9 @@ function scripts.lightning_ray.update(this, store, script)
 		insert_damage_and_mods(target, damage_value)
 	end
 
-	if bullet.hit_fx then
-		local hit_fx_pos = V.vclone(this.pos)
-		if target and target.render and target.unit and target.unit.hit_offset then
-			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
-			hit_fx_pos.x = target.unit.hit_offset.x * flip_sign + hit_fx_pos.x
-			hit_fx_pos.y = target.unit.hit_offset.y + hit_fx_pos.y
-		end
-		SU.insert_sprite(store, bullet.hit_fx, hit_fx_pos)
-	end
-
-	if bullet.hit_payload then
-		local hp
-		if type(bullet.hit_payload) == "string" then
-			hp = E:create_entity(bullet.hit_payload)
-		else
-			hp = bullet.hit_payload
-		end
-
-		hp.pos.x, hp.pos.y = this.pos.x, this.pos.y
-		hp.render.sprites[1].ts = store.tick_ts
-		if hp.aura then
-			hp.aura.level = bullet.level
-		end
-		queue_insert(store, hp)
-	end
+	SU.create_bullet_hit_fx(this, store, target)
+	SU.create_bullet_hit_decal(this, store)
+	SU.create_bullet_hit_payload(this, store)
 
 	while not U.animation_finished(this) do
 		coroutine.yield()
