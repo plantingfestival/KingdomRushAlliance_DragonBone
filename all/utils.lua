@@ -804,12 +804,18 @@ end
 
 function U.find_towers_in_range(entities, origin, attack, filter_func)
 	local towers = table.filter(entities, function(k, v)
-		return not v.pending_removal and v.tower and not v.tower.blocked and (not attack.excluded_templates or not table.contains(attack.excluded_templates, v.template_name)) and U.is_inside_ellipse(v.pos, origin, attack.max_range) and (attack.min_range == 0 or not U.is_inside_ellipse(v.pos, origin, attack.min_range)) and (not filter_func or filter_func(v, origin, attack))
+		return not v.pending_removal and v.tower and (attack.including_blocked or not v.tower.blocked) and (attack.including_holder or v.vis) and 
+		(not attack.allowed_templates or table.contains(attack.allowed_templates, v.template_name)) and 
+		(not attack.excluded_templates or not table.contains(attack.excluded_templates, v.template_name)) and U.is_inside_ellipse(v.pos, origin, attack.max_range) and 
+		(attack.min_range == 0 or not U.is_inside_ellipse(v.pos, origin, attack.min_range)) and (not filter_func or filter_func(v, origin, attack))
 	end)
 
 	if not towers or #towers == 0 then
 		return nil
 	else
+		if attack.max_towers and attack.max_towers >= 0 and attack.max_towers < #towers then
+			towers = table.slice(towers, 1, attack.max_towers)
+		end
 		return towers
 	end
 end

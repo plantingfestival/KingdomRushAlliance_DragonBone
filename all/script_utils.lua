@@ -4160,7 +4160,11 @@ end
 local function make_bullet_damage_targets(this, store, target)
 	local b = this.bullet
 	if b.damage_radius and b.damage_radius > 0 then
-		local targetPos = target and target.pos or b.to
+		local targetPos = V.vclone(b.to)
+		if not b.ignore_hit_offset and target and target.unit and target.unit.hit_offset then
+			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+			targetPos.x, targetPos.y = targetPos.x - target.unit.hit_offset.x * flip_sign, targetPos.y - target.unit.hit_offset.y
+		end
 		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
 		if targets then
 			for _, target in ipairs(targets) do
@@ -4181,7 +4185,7 @@ local function make_bullet_damage_targets(this, store, target)
 				end
 			end
 		end
-	elseif target and not target.health.dead then
+	elseif target and target.health and not target.health.dead then
 		local d = create_bullet_damage(b, target.id, this.id)
 		queue_damage(store, d)
 		if b.mod or b.mods then
@@ -4431,30 +4435,30 @@ local function entity_casts_range_unit(store, this, a)
 				if not a.same_target then
 					target = targets[km.zmod(i, #targets)]
 				end
+				local tpi, tspi, tni
+				if target.nav_path then
+					tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
+				else
+					local nodes
+					if this.nav_path then
+						tpi, tspi = this.nav_path.pi, this.nav_path.spi
+						nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
+					else
+						nodes = P:nearest_nodes(target.pos.x, target.pos.y)
+					end
+					if #nodes >= 1 then
+						tpi, tspi, tni = unpack(nodes[1])
+					end
+				end
 				local bullet = E:create_entity(a.bullet)
 				bullet.bullet.source_id = this.id
 				bullet.bullet.shot_index = i
-				local ni
 				if a.use_center then
-					local tpi, tspi, tni
-					if target.nav_path then
-						tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
-					else
-						local nodes
-						if this.nav_path then
-							tpi, tspi = this.nav_path.pi, this.nav_path.spi
-							nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
-						else
-							nodes = P:nearest_nodes(target.pos.x, target.pos.y)
-						end
-						if #nodes >= 1 then
-							tpi, tspi, tni = unpack(nodes[1])
-						end
-					end
+					tspi = 1
 					if tni then
 						local offset = U.get_prediction_offset(target, prediction_time)
-						ni = tni + offset.node
-						pred_pos = P:node_pos(tpi, 1, ni)
+						tni = tni + offset.node
+						pred_pos = P:node_pos(tpi, tspi, tni)
 						bullet.bullet.target_id = nil
 					end
 				else
@@ -4473,14 +4477,13 @@ local function entity_casts_range_unit(store, this, a)
 					local hit_payload = {}
 					local function create_hit_payload(hp_name)
 						local hp = E:create_entity(hp_name)
-						if target.nav_path then
-							if hp.path_index then
-								hp.path_index = target.nav_path.pi
-							end
-							if hp.nav_path then
-								hp.nav_path.pi = target.nav_path.pi
-								hp.nav_path.ni = ni
-							end
+						if hp.path_index then
+							hp.path_index = tpi
+						end
+						if hp.nav_path and tni then
+							hp.nav_path.pi = tpi
+							hp.nav_path.spi = tspi
+							hp.nav_path.ni = tni
 						end
 						table.insert(hit_payload, hp)
 					end
@@ -4507,6 +4510,101 @@ local function entity_casts_range_unit(store, this, a)
 		return true
 	end
 	return false
+end
+
+local function entity_casts_range_at_path(store, this, a)
+	if a.range and a.range > 0 and a.vis_bans then
+		local target = nil
+		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+			target = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		else
+			target = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		end
+		if not target then
+			return false
+		end
+	end
+	local tpi, tspi, tni
+	if this.nav_path then
+		local tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+	else
+		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true)
+		if #nodes >= 1 then
+			tpi, tspi, tni = unpack(nodes[1])
+		else
+			return false
+		end
+	end
+
+	local function new_bullet_to(i)
+		local sign = (i % 2 == 1) and 1 or -1
+		local node = km.clamp(1, P:get_end_node(tpi), math.random(a.min_nodes, a.max_nodes) * sign + tni)
+		local subpath = a.use_center and 1 or math.random(1, 3)
+		local pos = P:node_pos(tpi, subpath, node)
+		return pos, subpath, node
+	end
+
+	local start_ts = store.tick_ts
+	S:queue(a.sound, a.sound_args)
+	local first_pos, first_subpath, first_node = new_bullet_to(1)
+	local an, af, ai = U.animation_name_facing_point(this, a.animation, first_pos)
+	U.animation_start(this, an, af, store.tick_ts)
+	if not y_entity_wait(store, this, a.cast_time) then
+		local max_bullets = a.max_bullets or 1
+		for i = 1, max_bullets do
+			local bullet = E:create_entity(a.bullet)
+			bullet.bullet.source_id = this.id
+			bullet.bullet.shot_index = i
+			bullet.bullet.target_id = nil
+			local subpath, node
+			if i == 1 then
+				bullet.bullet.to, subpath, node = first_pos, first_subpath, first_node
+			else
+				bullet.bullet.to, subpath, node = new_bullet_to(i)
+			end
+			if bullet.spawn_pos_offset then
+				bullet.pos = bullet.bullet.to
+			else
+				local start_offset = a.bullet_start_offset[ai]
+				local flipSign = af and -1 or 1
+				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+				bullet.pos = V.vclone(bullet.bullet.from)
+			end
+			if bullet.bullet.hit_payload then
+				local hit_payload = {}
+				local function create_hit_payload(hp_name)
+					local hp = E:create_entity(hp_name)
+					if hp.path_index then
+						hp.path_index = tpi
+					end
+					if hp.nav_path then
+						hp.nav_path.pi = tpi
+						hp.nav_path.spi = subpath
+						hp.nav_path.ni = node
+					end
+					table.insert(hit_payload, hp)
+				end
+				if type(bullet.bullet.hit_payload) == "table" then
+					for i, hp_name in ipairs(bullet.bullet.hit_payload) do
+						create_hit_payload(hp_name)
+					end
+				else
+					create_hit_payload(bullet.bullet.hit_payload)
+				end
+				bullet.bullet.hit_payload = hit_payload
+			end
+			if bullet.bullet.use_unit_damage_factor and this.unit then
+				bullet.bullet.damage_factor = this.unit.damage_factor
+			end
+			queue_insert(store, bullet)
+		end
+		a.ts = start_ts
+		if a.xp_from_skill then
+			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+		end
+		y_entity_animation_wait(this)
+	end
+	return true
 end
 
 local function entity_casts_object_on_target(store, this, a)
@@ -4612,6 +4710,9 @@ end
 local function entity_attacks(store, this, a)
 	if a.skill == "range_unit" then
 		return entity_casts_range_unit(store, this, a)
+	end
+	if a.skill == "range_at_path" then
+		return entity_casts_range_at_path(store, this, a)
 	end
 	if a.skill == "object_on_target" then
 		return entity_casts_object_on_target(store, this, a)

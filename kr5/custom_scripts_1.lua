@@ -6003,14 +6003,6 @@ function scripts.hero_eiskalt_frosty.update(this, store, script)
 	this.aura.ts = store.tick_ts
 	local last_hit_ts = 0
 
-	local function hide_shadow(isHidden)
-		for i, sprite in ipairs(this.render.sprites) do
-			if sprite.is_shadow then
-				sprite.hidden = isHidden
-			end
-		end
-	end
-
 	U.y_animation_play(this, "spawn", nil, store.tick_ts, nil, 1)
 
 	while true do
@@ -6078,7 +6070,8 @@ function scripts.hero_eiskalt_frosty.update(this, store, script)
 			this.nav_path.ni = nearest[1][3]
 		end
 		local next_pos = P:next_entity_node(this, store.tick_length)
-		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or GR:cell_is(next_pos.x, next_pos.y, bor(TERRAIN_WATER, TERRAIN_CLIFF, TERRAIN_NOWALK)) then
+		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
+		GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
 			break
 		end
 		U.set_destination(this, next_pos)
@@ -6090,7 +6083,7 @@ function scripts.hero_eiskalt_frosty.update(this, store, script)
 	end
 
 	S:queue(this.sound_events.death)
-	hide_shadow(true)
+	SU.hide_shadow(this, true)
 	U.y_animation_play(this, "death", nil, store.tick_ts, nil, 1)
 	U.y_wait(store, this.dead_lifetime)
 	queue_remove(store, this)

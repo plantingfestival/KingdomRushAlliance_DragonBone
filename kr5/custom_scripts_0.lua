@@ -363,20 +363,18 @@ function scripts.custom_bolt.update(this, store, script)
 		target = store.entities[b.target_id]
 
 		if target and target.health and not target.health.dead and band(target.vis.bans, F_RANGED) == 0 then
+			local tpx, tpy = target.pos.x, target.pos.y
 			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
-			local d = math.max(math.abs(target.pos.x + target.unit.hit_offset.x * flip_sign - b.to.x), math.abs(target.pos.y + target.unit.hit_offset.y - b.to.y))
+			if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
+				tpx, tpy = tpx + target.unit.hit_offset.x * flip_sign, tpy + target.unit.hit_offset.y
+			end
 
+			local d = math.max(math.abs(tpx - b.to.x), math.abs(tpy - b.to.y))
 			if d > b.max_track_distance then
-				log.debug("BOLT MAX DISTANCE FAIL. (%s) %s / dist:%s target.pos:%s,%s b.to:%s,%s", this.id, this.template_name, d, target.pos.x, target.pos.y, b.to.x, b.to.y)
-
 				target = nil
 				b.target_id = nil
 			else
-				if b.ignore_hit_offset then
-					b.to.x, b.to.y = target.pos.x, target.pos.y
-				else
-					b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x * flip_sign, target.pos.y + target.unit.hit_offset.y
-				end
+				b.to.x, b.to.y = tpx, tpy
 			end
 		end
 
@@ -484,27 +482,25 @@ function scripts.initial_bolt.update(this, store, script)
 		if target and not new_target then
 			local tpx, tpy = target.pos.x, target.pos.y
 
-			if not b.ignore_hit_offset then
+			if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
 				local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
 				tpx, tpy = tpx + target.unit.hit_offset.x * flip_sign, tpy + target.unit.hit_offset.y
 			end
 
 			local d = math.max(math.abs(tpx - b.to.x), math.abs(tpy - b.to.y))
-
 			if d > b.max_track_distance or band(target.vis.bans, F_RANGED) ~= 0 then
 				target_invalid = true
 				target = nil
+			elseif target.health and not target.health.dead then
+				b.to.x, b.to.y = tpx, tpy
 			end
 		end
 
 		if target and target.health and not target.health.dead then
-			if b.ignore_hit_offset then
-				b.to.x, b.to.y = target.pos.x, target.pos.y
-			else
-				b.to.x, b.to.y = target.pos.x + target.unit.hit_offset.x, target.pos.y + target.unit.hit_offset.y
-			end
-
 			new_target = false
+		else
+			new_target = true
+			-- 此处原有重新索敌。
 		end
 
 		mspeed = mspeed + FPS * math.ceil(mspeed * (1 / FPS) * b.acceleration_factor)
@@ -529,45 +525,10 @@ function scripts.initial_bolt.update(this, store, script)
 	end
 
 	this.pos.x, this.pos.y = b.to.x, b.to.y
-
-	if b.damage_radius and b.damage_radius > 0 then
-		local targetPos = target and target.pos or b.to
-		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
-		if targets then
-			for _, target in ipairs(targets) do
-				local d = SU.create_bullet_damage(b, target.id, this.id)
-				queue_damage(store, d)
-				if b.mod or b.mods then
-					local mods = b.mods or {
-						b.mod
-					}
-					for _, mod_name in ipairs(mods) do
-						local m = E:create_entity(mod_name)
-						m.modifier.target_id = target.id
-						m.modifier.level = b.level
-						queue_insert(store, m)
-					end
-				end
-			end
-		end
-	elseif target and not target.health.dead then
-		local d = SU.create_bullet_damage(b, target.id, this.id)
-		queue_damage(store, d)
-		if b.mod or b.mods then
-			local mods = b.mods or {
-				b.mod
-			}
-			for _, mod_name in ipairs(mods) do
-				local m = E:create_entity(mod_name)
-				m.modifier.target_id = b.target_id
-				m.modifier.level = b.level
-				queue_insert(store, m)
-			end
-		end
-	end
-
 	this.render.sprites[1].hidden = true
-	
+
+	SU.make_bullet_damage_targets(this, store, target)
+
 	if b.hit_fx then
 		local sfx = E:create_entity(b.hit_fx)
 		sfx.pos.x, sfx.pos.y = b.to.x, b.to.y
@@ -1400,6 +1361,136 @@ function scripts.controller_teleport_enemies.update(this, store, script)
 
 		coroutine.yield()
 	end
+end
+
+scripts.common_aura = {}
+function scripts.common_aura.insert(this, store, script)
+	this.aura.ts = store.tick_ts
+
+	if this.render then
+		for _, s in pairs(this.render.sprites) do
+			s.ts = store.tick_ts
+		end
+		if this.aura.source_id and this.aura.use_mod_offset then
+			local source = store.entities[this.aura.source_id]
+			if source and source.unit and source.unit.mod_offset then
+				local flip_sign = source.render and source.render.sprites[1].flip_x and -1 or 1
+				this.render.sprites[1].offset.x, this.render.sprites[1].offset.y = source.unit.mod_offset.x * flip_sign, source.unit.mod_offset.y
+			end
+		end
+	end
+
+	this.actual_duration = this.aura.duration
+
+	if this.aura.duration_inc then
+		this.actual_duration = this.actual_duration + this.aura.level * this.aura.duration_inc
+	end
+
+	return true
+end
+
+scripts.aura_with_towers = {}
+function scripts.aura_with_towers.update(this, store, script)
+	local first_hit_ts
+	local last_hit_ts = 0
+	local cycles_count = 0
+	local victims_count = 0
+
+	if this.aura.track_source and this.aura.source_id then
+		local source = store.entities[this.aura.source_id]
+		if source and source.pos then
+			this.pos = source.pos
+		end
+	end
+
+	last_hit_ts = store.tick_ts - this.aura.cycle_time
+
+	if this.aura.apply_delay then
+		last_hit_ts = last_hit_ts + this.aura.apply_delay
+	end
+
+	while true do
+		if this.aura.cycles and cycles_count >= this.aura.cycles or this.aura.duration >= 0 and store.tick_ts - this.aura.ts > this.actual_duration then
+			break
+		end
+
+		if this.aura.stop_on_max_count and this.aura.max_count and victims_count >= this.aura.max_count then
+			break
+		end
+
+		if this.aura.source_id then
+			local source = store.entities[this.aura.source_id]
+			if this.aura.track_source then
+				if not source or source.health and source.health.dead and not this.aura.track_dead then
+					break
+				end
+				if this.aura.requires_alive_source then
+					if source and source.health and source.health.dead then
+						goto label_93_0
+					end
+				end
+				if this.aura.requires_magic then
+					if not source.enemy then
+						goto label_93_0
+					end
+	
+					if this.render then
+						for _, s in pairs(this.render.sprites) do
+							s.hidden = not source.enemy.can_do_magic
+						end
+					end
+	
+					if not source.enemy.can_do_magic then
+						goto label_93_0
+					end
+				end
+			end
+		end
+
+		if not (store.tick_ts - last_hit_ts >= this.aura.cycle_time) or this.aura.apply_duration and first_hit_ts and store.tick_ts - first_hit_ts > this.aura.apply_duration or this.interrupt then
+			-- block empty
+		else
+			if this.render and this.aura.cast_resets_sprite_id then
+				this.render.sprites[this.aura.cast_resets_sprite_id].ts = store.tick_ts
+			end
+
+			first_hit_ts = first_hit_ts or store.tick_ts
+			last_hit_ts = store.tick_ts
+			cycles_count = cycles_count + 1
+
+			local towers = U.find_towers_in_range(store.entities, this.pos, this.aura)
+			if towers then
+				local mods = this.aura.mods or {
+					this.aura.mod
+				}
+				for i, tower in ipairs(towers) do
+					if this.aura.targets_per_cycle and i > this.aura.targets_per_cycle then
+						break
+					end
+	
+					if this.aura.max_count and victims_count >= this.aura.max_count then
+						break
+					end
+	
+					for i, mod_name in ipairs(mods) do
+						local new_mod = E:create_entity(mod_name)
+						new_mod.modifier.level = this.aura.level
+						new_mod.modifier.target_id = tower.id
+						new_mod.modifier.source_id = this.id
+						queue_insert(store, new_mod)
+						victims_count = victims_count + 1
+					end
+				end
+			end
+		end
+
+		::label_93_0::
+
+		coroutine.yield()
+	end
+
+	signal.emit("aura-apply-mod-victims", this, victims_count)
+	queue_remove(store, this)
 end
 
 scripts.mod_tower_common = {}
