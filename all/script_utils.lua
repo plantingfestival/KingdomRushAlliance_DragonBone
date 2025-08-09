@@ -4160,7 +4160,11 @@ end
 local function make_bullet_damage_targets(this, store, target)
 	local b = this.bullet
 	if b.damage_radius and b.damage_radius > 0 then
-		local targetPos = target and target.pos or b.to
+		local targetPos = V.vclone(b.to)
+		if not b.ignore_hit_offset and target and target.unit and target.unit.hit_offset then
+			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+			targetPos.x, targetPos.y = targetPos.x - target.unit.hit_offset.x * flip_sign, targetPos.y - target.unit.hit_offset.y
+		end
 		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
 		if targets then
 			for _, target in ipairs(targets) do
@@ -4181,7 +4185,7 @@ local function make_bullet_damage_targets(this, store, target)
 				end
 			end
 		end
-	elseif target and not target.health.dead then
+	elseif target and target.health and not target.health.dead then
 		local d = create_bullet_damage(b, target.id, this.id)
 		queue_damage(store, d)
 		if b.mod or b.mods then
@@ -4243,16 +4247,17 @@ local function create_bullet_hit_fx(this, store, target, flip_x)
 	local b = this.bullet
 	if b.hit_fx then
 		local hit_fx_pos = V.vclone(b.to)
-		if not b.hit_fx_ignore_hit_offset and target and target.render and target.unit and target.unit.hit_offset then
-			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
-			hit_fx_pos.x = target.unit.hit_offset.x * flip_sign + hit_fx_pos.x
-			hit_fx_pos.y = target.unit.hit_offset.y + hit_fx_pos.y
+		if b.hit_fx_ignore_hit_offset and target and target.pos then
+			hit_fx_pos.x, hit_fx_pos.y = target.pos.x, target.pos.y
 		end
 		local hit_fx = insert_sprite(store, b.hit_fx, hit_fx_pos, flip_x)
 		if target and target.unit then
 			for _, s in pairs(hit_fx.render.sprites) do
 				if s.size_names then
 					s.name = s.size_names[target.unit.size]
+				end
+				if s.size_scales then
+					s.scale = s.size_scales[target.unit.size]
 				end
 			end
 		end
@@ -4275,7 +4280,8 @@ local function hide_shadow(this, isHidden)
 end
 
 local function entity_interrupted(this)
-	return this.nav_rally and this.nav_rally.new or this.health and this.health.dead or this.unit and this.unit.is_stunned or this.tower and this.tower.blocked
+	return this.nav_rally and this.nav_rally.new or this.health and this.health.dead or this.unit and this.unit.is_stunned or this.tower and this.tower.blocked 
+	or this.owner and entity_interrupted(this.owner)
 end
 
 local function y_entity_wait(store, this, time)
@@ -4294,15 +4300,9 @@ local function y_entity_animation_wait(this)
 	return false
 end
 
--- true代表打断entity现有的动作
-local function entity_attacks(store, this, a)
-	if a.skill == "spawner" then
-		return entity_casts_spawner(store, this, a)
-	end
-end
-
 local function entity_casts_spawner(store, this, a)
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
+		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
 		U.animation_start(this, a.animation, nil, store.tick_ts)
 		if y_entity_wait(store, this, a.spawn_time) then
@@ -4324,19 +4324,18 @@ local function entity_casts_spawner(store, this, a)
 			e.pos = a.custom_spawn_points[i]
 			queue_insert(store, e)
 		end
-		if y_entity_animation_wait(this) then
-			return true
-		end
-		a.ts = store.tick_ts
+		a.ts = start_ts
 		if a.xp_from_skill then
-			SU.hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 		end
+		y_entity_animation_wait(this)
 		return true
 	elseif this.nav_path then
 		local nodes_to_entrance = a.nodes_to_entrance or 0
 		local nodes_to_exit = a.nodes_to_exit or 0
 		local skip = this.nav_path.ni <= nodes_to_entrance or P:nodes_to_defend_point(this.nav_path) <= nodes_to_exit
 		if not skip then
+			local start_ts = store.tick_ts
 			S:queue(a.sound, a.sound_args)
 			U.animation_start(this, a.animation, nil, store.tick_ts)
 			if y_entity_wait(store, this, a.spawn_time) then
@@ -4373,17 +4372,355 @@ local function entity_casts_spawner(store, this, a)
 					queue_insert(store, e)
 				end
 			end
-			if y_entity_animation_wait(this) then
-				return true
-			end
-			a.ts = store.tick_ts
+			a.ts = start_ts
 			if a.xp_from_skill then
-				SU.hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
+			y_entity_animation_wait(this)
 			return true
 		end
 	end
 	return false
+end
+
+local function entity_casts_range_unit(store, this, a)
+	local target, targets, pred_pos, to_soldier
+	local prediction_time = a.node_prediction or 0
+	local filter_fn = nil
+	if a.allowed_templates then
+		filter_fn = function(e)
+			return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	elseif a.excluded_templates then
+		filter_fn = function(e)
+			return not table.contains(a.excluded_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	else
+		filter_fn = a.filter_fn
+	end
+	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+		to_soldier = true
+		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+		filter_fn, a.search_type, a.crowd_range, a.min_targets)
+	else
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+	end
+	if target then
+		S:queue(a.sound, a.sound_args)
+		local start_ts = store.tick_ts
+		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
+		U.animation_start(this, an, af, store.tick_ts)
+		if not y_entity_wait(store, this, a.cast_time) then
+			local oldTarget = target
+			target = store.entities[target.id]
+			if not target or target.health.dead then
+				local newTarget, newTargets, newPredPos
+				if to_soldier then
+					newTarget, newTargets, newPredPos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+					filter_fn, a.search_type, a.crowd_range, a.min_targets)
+				else
+					newTarget, newTargets, newPredPos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
+					a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+				end
+				if newTarget then
+					target = newTarget
+					targets = newTargets
+					pred_pos = newPredPos
+				else
+					target = oldTarget
+				end
+			end
+			local max_bullets = a.max_bullets or 1
+			for i = 1, max_bullets do
+				if not a.same_target then
+					target = targets[km.zmod(i, #targets)]
+				end
+				local tpi, tspi, tni
+				if target.nav_path then
+					tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
+				else
+					local nodes
+					if this.nav_path then
+						tpi, tspi = this.nav_path.pi, this.nav_path.spi
+						nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
+					else
+						nodes = P:nearest_nodes(target.pos.x, target.pos.y)
+					end
+					if #nodes >= 1 then
+						tpi, tspi, tni = unpack(nodes[1])
+					end
+				end
+				local bullet = E:create_entity(a.bullet)
+				bullet.bullet.source_id = this.id
+				bullet.bullet.shot_index = i
+				if a.use_center then
+					tspi = 1
+					if tni then
+						local offset = U.get_prediction_offset(target, prediction_time)
+						tni = tni + offset.node
+						pred_pos = P:node_pos(tpi, tspi, tni)
+						bullet.bullet.target_id = nil
+					end
+				else
+					bullet.bullet.target_id = target.id
+				end
+				if bullet.spawn_pos_offset then
+					bullet.pos = target.pos
+				else
+					bullet.bullet.to = pred_pos
+					local start_offset = a.bullet_start_offset[ai]
+					local flipSign = af and -1 or 1
+					bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+					bullet.pos = V.vclone(bullet.bullet.from)
+				end
+				if bullet.bullet.hit_payload then
+					local hit_payload = {}
+					local function create_hit_payload(hp_name)
+						local hp = E:create_entity(hp_name)
+						if hp.path_index then
+							hp.path_index = tpi
+						end
+						if hp.nav_path and tni then
+							hp.nav_path.pi = tpi
+							hp.nav_path.spi = tspi
+							hp.nav_path.ni = tni
+						end
+						table.insert(hit_payload, hp)
+					end
+					if type(bullet.bullet.hit_payload) == "table" then
+						for i, hp_name in ipairs(bullet.bullet.hit_payload) do
+							create_hit_payload(hp_name)
+						end
+					else
+						create_hit_payload(bullet.bullet.hit_payload)
+					end
+					bullet.bullet.hit_payload = hit_payload
+				end
+				if bullet.bullet.use_unit_damage_factor and this.unit then
+					bullet.bullet.damage_factor = this.unit.damage_factor
+				end
+				queue_insert(store, bullet)
+			end
+			a.ts = start_ts
+			if a.xp_from_skill then
+				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+			end
+			y_entity_animation_wait(this)
+		end
+		return true
+	end
+	return false
+end
+
+local function entity_casts_range_at_path(store, this, a)
+	if a.range and a.range > 0 and a.vis_bans then
+		local target = nil
+		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+			target = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		else
+			target = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		end
+		if not target then
+			return false
+		end
+	end
+	local tpi, tspi, tni
+	if this.nav_path then
+		local tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+	else
+		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true)
+		if #nodes >= 1 then
+			tpi, tspi, tni = unpack(nodes[1])
+		else
+			return false
+		end
+	end
+
+	local function new_bullet_to(i)
+		local sign = (i % 2 == 1) and 1 or -1
+		local node = km.clamp(1, P:get_end_node(tpi), math.random(a.min_nodes, a.max_nodes) * sign + tni)
+		local subpath = a.use_center and 1 or math.random(1, 3)
+		local pos = P:node_pos(tpi, subpath, node)
+		return pos, subpath, node
+	end
+
+	local start_ts = store.tick_ts
+	S:queue(a.sound, a.sound_args)
+	local first_pos, first_subpath, first_node = new_bullet_to(1)
+	local an, af, ai = U.animation_name_facing_point(this, a.animation, first_pos)
+	U.animation_start(this, an, af, store.tick_ts)
+	if not y_entity_wait(store, this, a.cast_time) then
+		local max_bullets = a.max_bullets or 1
+		for i = 1, max_bullets do
+			local bullet = E:create_entity(a.bullet)
+			bullet.bullet.source_id = this.id
+			bullet.bullet.shot_index = i
+			bullet.bullet.target_id = nil
+			local subpath, node
+			if i == 1 then
+				bullet.bullet.to, subpath, node = first_pos, first_subpath, first_node
+			else
+				bullet.bullet.to, subpath, node = new_bullet_to(i)
+			end
+			if bullet.spawn_pos_offset then
+				bullet.pos = bullet.bullet.to
+			else
+				local start_offset = a.bullet_start_offset[ai]
+				local flipSign = af and -1 or 1
+				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+				bullet.pos = V.vclone(bullet.bullet.from)
+			end
+			if bullet.bullet.hit_payload then
+				local hit_payload = {}
+				local function create_hit_payload(hp_name)
+					local hp = E:create_entity(hp_name)
+					if hp.path_index then
+						hp.path_index = tpi
+					end
+					if hp.nav_path then
+						hp.nav_path.pi = tpi
+						hp.nav_path.spi = subpath
+						hp.nav_path.ni = node
+					end
+					table.insert(hit_payload, hp)
+				end
+				if type(bullet.bullet.hit_payload) == "table" then
+					for i, hp_name in ipairs(bullet.bullet.hit_payload) do
+						create_hit_payload(hp_name)
+					end
+				else
+					create_hit_payload(bullet.bullet.hit_payload)
+				end
+				bullet.bullet.hit_payload = hit_payload
+			end
+			if bullet.bullet.use_unit_damage_factor and this.unit then
+				bullet.bullet.damage_factor = this.unit.damage_factor
+			end
+			queue_insert(store, bullet)
+		end
+		a.ts = start_ts
+		if a.xp_from_skill then
+			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+		end
+		y_entity_animation_wait(this)
+	end
+	return true
+end
+
+local function entity_casts_object_on_target(store, this, a)
+	local target, targets, pred_pos, to_soldier
+	local prediction_time = a.node_prediction or 0
+	local filter_fn = nil
+	if a.allowed_templates then
+		filter_fn = function(e)
+			return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	elseif a.excluded_templates then
+		filter_fn = function(e)
+			return not table.contains(a.excluded_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	else
+		filter_fn = a.filter_fn
+	end
+	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+		to_soldier = true
+		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+		filter_fn, a.search_type, a.crowd_range, a.min_targets)
+	else
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+	end
+
+	if target then
+		S:queue(a.sound, a.sound_args)
+		local start_ts = store.tick_ts
+		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
+		U.animation_start(this, an, af, store.tick_ts)
+		if not y_entity_wait(store, this, a.cast_time) then
+			local tpi, tspi, tni
+			if target.nav_path then
+				tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
+			else
+				local nodes
+				if this.nav_path then
+					tpi, tspi = this.nav_path.pi, this.nav_path.spi
+					nodes = P:nearest_nodes(target.pos.x, target.pos.y, { tpi }, { tspi })
+				else
+					nodes = P:nearest_nodes(target.pos.x, target.pos.y)
+				end
+				if #nodes >= 1 then
+					tpi, tspi, tni = unpack(nodes[1])
+				else
+					return false
+				end
+			end
+			local e = E:create_entity(a.entity)
+			local function set_entity_pos(t)
+				e.pos.x, e.pos.y = t.pos.x, t.pos.y
+				if a.use_center then
+					if t.nav_path then
+						e.pos = P:node_pos(t.nav_path.pi, 1, t.nav_path.ni)
+					else
+						local nodes = P:nearest_nodes(t.pos.x, t.pos.y, { tpi }, { 1 })
+						if #nodes >= 1 then
+							local _, _, ni = unpack(nodes[1])
+							e.pos = P:node_pos(tpi, 1, ni)
+						end
+					end
+				end
+			end
+			if a.use_caster_position then
+				set_entity_pos(this)
+			else
+				set_entity_pos(target)
+			end
+			if e.path_index then
+				e.path_index = tpi
+			end
+			if e.direction == 0 then
+				local direction = -1
+				if this.nav_path then
+					if this.nav_path.ni < tni then
+						direction = 1
+					end
+				else
+					local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { tpi }, { tspi })
+					if #nodes >= 1 then
+						local _, _, ni = unpack(nodes[1])
+						if ni < tni then
+							direction = 1
+						end
+					end
+				end
+				e.direction = direction
+			end
+			queue_insert(store, e)
+			a.ts = start_ts
+			if a.xp_from_skill then
+				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+			end
+			y_entity_animation_wait(this)
+		end
+		return true
+	end
+	return false
+end
+
+-- true代表打断entity现有的动作
+local function entity_attacks(store, this, a)
+	if a.skill == "range_unit" then
+		return entity_casts_range_unit(store, this, a)
+	end
+	if a.skill == "range_at_path" then
+		return entity_casts_range_at_path(store, this, a)
+	end
+	if a.skill == "object_on_target" then
+		return entity_casts_object_on_target(store, this, a)
+	end
+	if a.skill == "spawner" then
+		return entity_casts_spawner(store, this, a)
+	end
 end
 -- customization
 
@@ -4498,6 +4835,11 @@ local SU = {
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
 	hide_shadow = hide_shadow,
+	entity_interrupted = entity_interrupted,
+	y_entity_wait = y_entity_wait,
+	y_entity_animation_wait = y_entity_animation_wait,
+	entity_casts_spawner = entity_casts_spawner,
+	entity_attacks = entity_attacks,
 }
 
 return SU

@@ -121,19 +121,20 @@ tt.melee.attacks[1].hit_offset = v(30, 10)
 tt.melee.attacks[1].hit_decal = "malik_attack_decal"
 tt.melee.attacks[1].animation = "melee"
 tt.timed_attacks.list[1] = CC("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
 tt.timed_attacks.list[1].animation = "range"
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 245
 tt.timed_attacks.list[1].cooldown = 4.5
-tt.timed_attacks.list[1].shoot_time = 0.59
+tt.timed_attacks.list[1].cast_time = 0.59
 tt.timed_attacks.list[1].bullet = "malik_attack_ray"
 tt.timed_attacks.list[1].search_type = U.search_type.max_health
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.timed_attacks.list[2] = CC("bullet_attack")
 tt.timed_attacks.list[2].animation = "special"
 tt.timed_attacks.list[2].cooldown = 13
-tt.timed_attacks.list[2].shoot_time = 1.21
+tt.timed_attacks.list[2].cast_time = 1.21
 tt.timed_attacks.list[2].bullet = "malik_tower_destruction_ray"
 tt.launch_movement.min_distance = 150
 tt.launch_movement.animations = {
@@ -212,8 +213,7 @@ tt.tween.props[1].keys = {
 	}
 }
 
-tt = E:register_t("malik_attack_ray", "bullet")
-tt.main_script.update = customScripts1.lightning_ray.update
+tt = E:register_t("malik_attack_ray", "lightning_ray")
 tt.render.sprites[1].name = "malik_attack_ray_travel"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -242,8 +242,7 @@ tt.render.sprites[1].name = "run"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 
-tt = E:register_t("malik_tower_destruction_ray", "bullet")
-tt.main_script.update = customScripts1.lightning_ray.update
+tt = E:register_t("malik_tower_destruction_ray", "lightning_ray")
 tt.render.sprites[1].name = "malik_towerdestroction_ray_run"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0.5, 0.04)
@@ -531,12 +530,14 @@ tt.ranged.attacks[1].shoot_time = fts(16)
 tt.ranged.attacks[1].node_prediction = fts(32)
 -- cold_fury
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].bullet = "flame_cold_fury"
 tt.timed_attacks.list[1].min_range = b.cold_fury.min_range
 tt.timed_attacks.list[1].max_range = b.cold_fury.max_range
 tt.timed_attacks.list[1].cooldown = 20
 tt.timed_attacks.list[1].cast_time = fts(15)
+tt.timed_attacks.list[1].node_prediction = fts(17)
 tt.timed_attacks.list[1].sync_animation = true
 tt.timed_attacks.list[1].animation = "coldFury"
 tt.timed_attacks.list[1].sound = "hero_jigou_breath"
@@ -544,17 +545,20 @@ tt.timed_attacks.list[1].bullet_start_offset = {
 	v(41, 72)
 }
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF)
 tt.timed_attacks.list[1].xp_from_skill = "cold_fury"
 -- ice_ball
 tt.timed_attacks.list[2] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[2].skill = "range_unit"
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].search_type = U.search_type.find_max_crowd
+tt.timed_attacks.list[2].use_center = true
 tt.timed_attacks.list[2].bullet = "bomb_ice_ball"
 tt.timed_attacks.list[2].min_range = b.ice_ball.min_range
 tt.timed_attacks.list[2].max_range = b.ice_ball.max_range
 tt.timed_attacks.list[2].cooldown = 18
 tt.timed_attacks.list[2].cast_time = 0.72
+tt.timed_attacks.list[2].node_prediction = fts(41)
 tt.timed_attacks.list[2].sync_animation = true
 tt.timed_attacks.list[2].animation = "frosty"
 tt.timed_attacks.list[2].sound = "hero_eiskalt_frosty_throw"
@@ -567,11 +571,14 @@ tt.timed_attacks.list[2].bullet_start_offset = {
 	v(20, 98)
 }
 tt.timed_attacks.list[2].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[2].vis_bans = bor(F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER)
+tt.timed_attacks.list[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER)
 tt.timed_attacks.list[2].xp_from_skill = "ice_ball"
 -- ice_peaks
 tt.timed_attacks.list[3] = E:clone_c("aura_attack")
+tt.timed_attacks.list[3].skill = "object_on_target"
 tt.timed_attacks.list[3].disabled = true
+tt.timed_attacks.list[3].use_caster_position = true
+tt.timed_attacks.list[3].use_center = true
 tt.timed_attacks.list[3].entity = "controller_aura_ice_peak"
 tt.timed_attacks.list[3].animation = "icePeaks"
 tt.timed_attacks.list[3].sync_animation = true
@@ -833,9 +840,9 @@ tt.render.sprites[2].anchor.y = 0.162
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.main_script.update = customScripts1.hero_eiskalt_frosty.update
 tt.nav_path.dir = -1
-tt.nav_path.pi = nil
+tt.nav_path.pi = 1
 tt.nav_path.spi = 1
-tt.nav_path.ni = nil
+tt.nav_path.ni = 1
 tt.motion.max_speed = 40
 tt.aura.duration = 7.5
 tt.aura.vis_flags = bor(F_AREA)

@@ -73981,24 +73981,7 @@ function scripts.bomb_KR5.update(this, store, script)
 		queue_insert(store, decal)
 	end
 
-	if b.hit_payload then
-		local hp
-
-		if type(b.hit_payload) == "string" then
-			hp = E:create_entity(b.hit_payload)
-		else
-			hp = b.hit_payload
-		end
-
-		hp.pos.x, hp.pos.y = b.to.x, b.to.y
-		hp.source_id = b.source_id
-
-		if hp.aura then
-			hp.aura.level = this.bullet.level
-		end
-
-		queue_insert(store, hp)
-	end
+	SU.create_bullet_hit_payload(this, store)
 
 	queue_remove(store, this)
 end

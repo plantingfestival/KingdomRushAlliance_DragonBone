@@ -95,8 +95,9 @@ tt.entities = nil
 
 tt = E:register_t("controller_spawn_on_path", "entities_delay_controller")
 tt.main_script.update = scripts.controller_spawn_on_path.update
-tt.path_index = nil
-tt.direction = -1
+tt.path_index = 1
+tt.direction = 0
+tt.spawn_type = 3
 tt.start_nodes_offset = 0
 tt.exclude_first_position = nil
 tt.nodes_between_objects = 2
@@ -135,6 +136,13 @@ E:add_comps(tt, "pos", "render")
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].z = Z_BULLETS
+
+tt = E:register_t("lightning_ray", "bullet")
+tt.main_script.update = scripts.lightning_ray.update
+tt.bullet.use_unit_damage_factor = nil
+tt.bullet.ignore_hit_offset = nil
+tt.bullet.hit_time = fts(2)
+tt.spawn_pos_offset = v(0, 0)
 
 tt = E:register_t("controller_item_hero", "controller_item")
 tt.main_script.insert = scripts.controller_item_hero.insert
@@ -223,6 +231,19 @@ tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_EFFECTS
 tt.main_script.update = scripts.mod_continuous_ray.update
 
+tt = E:register_t("aura_with_towers", "aura")
+tt.aura.duration = -1
+tt.aura.mods = {}
+tt.aura.cycle_time = 1
+tt.aura.min_range = 0
+tt.aura.max_range = 150
+tt.aura.including_blocked = nil
+tt.aura.including_holder = nil
+tt.aura.allowed_templates = nil
+tt.aura.excluded_templates = nil
+tt.aura.targets_per_cycle = 12
+tt.main_script.insert = scripts.common_aura.insert
+tt.main_script.update = scripts.aura_with_towers.update
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil
