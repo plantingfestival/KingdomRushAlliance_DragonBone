@@ -6322,12 +6322,15 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	local h = this.health
 	local explosive_head_attack = this.timed_attacks.list[1]
 	local hero_jacko_thriller_attack = this.timed_attacks.list[2]
+	local skill_ultimate = this.hero.skills.ultimate
+	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 	local attack, skill
 
 	this.melee.attacks[1].ts = store.tick_ts
 	this.melee.attacks[2].ts = store.tick_ts
 	explosive_head_attack.ts = store.tick_ts
 	hero_jacko_thriller_attack.ts = store.tick_ts
+	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	this.health_bar.hidden = false
 	U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
@@ -6354,7 +6357,11 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			skip = true
 		else
 			while this.nav_rally.new do
+				if SU.hero_will_teleport(this, this.nav_rally.pos) then
+					SU.hide_shadow(this, true)
+				end
 				skip = SU.y_hero_new_rally(store, this)
+				SU.hide_shadow(this, false)
 			end
 		end
 
@@ -6374,6 +6381,44 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 				skip = SU.entity_attacks(store, this, attack)
 				if not skip then
 					SU.delay_attack(store, attack, fts(10))
+				end
+			end
+		end
+
+		if not skip and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			local entity = E:get_template(ultimate_controller.entity)
+			local target, ultimatePos, targets_info
+			target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
+			if target then
+				targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max, nil, entity.aura.vis_flags, entity.aura.vis_bans, true)
+			end
+			if targets_info and #targets_info >= skill_ultimate.min_targets then
+				target = targets_info[1].enemy
+				if not target.nav_path then
+					target = nil
+				else
+					ultimatePos = V.vclone(target.pos)
+					if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+						target = nil
+						ultimatePos = nil
+					end
+				end
+			end
+			if not target or not ultimatePos then
+				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+			else
+				U.animation_start(this, "levelup", nil, store.tick_ts)
+				local u = E:create_entity(ultimate_controller)
+				u.pos = ultimatePos
+				u.level = skill_ultimate.level
+				queue_insert(store, u)
+				skill_ultimate.ts = store.tick_ts
+				while not U.animation_finished(this) do
+					if SU.hero_interrupted(this) then
+						skip = true
+						break
+					end
+					coroutine.yield()
 				end
 			end
 		end

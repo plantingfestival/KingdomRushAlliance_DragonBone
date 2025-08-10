@@ -272,6 +272,15 @@ return {
 				255
 			}
 		},
+		hero_jack_o_lantern = {
+			cost = 1000,
+			color_bg = {
+				241,
+				114,
+				9,
+				255
+			}
+		},
 	},
 	gems_data = {
 		gems_handful = {

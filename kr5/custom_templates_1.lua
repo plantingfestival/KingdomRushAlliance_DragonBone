@@ -935,6 +935,9 @@ tt.scale = 0.4375
 tt.scale_var = 0.0625
 tt.speed = {}
 
+tt = E:register_t("controller_item_hero_jack_o_lantern", "controller_item_hero")
+tt.entity = "hero_jack_o_lantern"
+
 tt = E:register_t("hero_jack_o_lantern", "hero5")
 E:add_comps(tt, "melee", "timed_attacks", "teleport")
 tt.hero.level_stats.hp_max = {
@@ -957,6 +960,7 @@ tt.hero.level_stats.regen_health = {
 	32,
 	34,
 	36,
+	38,
 	40,
 	42
 }
@@ -1095,6 +1099,9 @@ tt.hero.skills.ultimate.damage_over_time = {
 	40,
 	60
 }
+tt.hero.skills.ultimate.max_range = 250
+tt.hero.skills.ultimate.range_nodes_max = 45
+tt.hero.skills.ultimate.min_targets = 5
 
 tt.hero.team = TEAM_DARK_ARMY
 tt.health.dead_lifetime = 20

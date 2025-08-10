@@ -593,6 +593,7 @@ return {
 		"hero_elves_archer",
 		"hero_phoenix",
 		"hero_veznan",
+		"hero_jack_o_lantern",
 	},
 	item_order_censored_cn = {
 		"cluster_bomb",

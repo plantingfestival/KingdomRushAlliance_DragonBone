@@ -2258,6 +2258,9 @@ function scripts.soldier_hover.update(this, store, script)
 	this.hover.oni = this.nav_path.ni
 	this.hover.ts = store.tick_ts
 	this.hover.cooldown = U.frandom(this.hover.cooldown_min, this.hover.cooldown_max + 1e-9)
+	if this.reinforcement then
+		this.reinforcement.ts = store.tick_ts
+	end
 
 	if this.render.sprites[1].name == "raise" then
 		this.health_bar.hidden = true

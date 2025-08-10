@@ -1340,10 +1340,14 @@ return {
 	},
 	item_hero_jack_o_lantern = {
 		files = {
-			"hero_jacko_taunt_death.ogg",
-			"hero_jacko_horses.ogg",
-			"group_hero_jacko_taunt.ogg",
-			"group_hero_jacko_teleport.ogg",
+			"kr4_hero_jacko_taunt_death.ogg",
+			"kr4_hero_jacko_horses.ogg",
+			"kr4_hero_jacko_taunt_1.ogg",
+			"kr4_hero_jacko_taunt_2.ogg",
+			"kr4_hero_jacko_taunt_3.ogg",
+			"kr4_hero_jacko_taunt_4.ogg",
+			"kr4_hero_jacko_teleport_var1.ogg",
+			"kr4_hero_jacko_teleport_var2.ogg",
 		}
 	},
 	tower_rock_thrower = {

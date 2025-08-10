@@ -316,7 +316,8 @@ return {
 			hero_dwarf = 1,
 			hero_elves_archer = 1,
 			hero_phoenix = 1,
-			hero_veznan = 1
+			hero_veznan = 1,
+			hero_jack_o_lantern = 1
 		}
 	},
 	claimed_gifts = {}
