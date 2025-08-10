@@ -1253,14 +1253,14 @@ tt.hero.skills.waterball.hr_cost = {
 tt.hero.skills.waterball.hr_order = 2
 tt.hero.skills.waterball.hr_available = true
 tt.hero.skills.waterball.damage_min = {
-	32,
-	64,
-	96
+	40,
+	80,
+	120
 }
 tt.hero.skills.waterball.damage_max = {
-	49,
-	98,
-	147
+	60,
+	120,
+	180
 }
 tt.hero.skills.waterball.key = "WATERBALL"
 

@@ -146,7 +146,7 @@ tt.spawn_pos_offset = v(0, 0)
 
 tt = E:register_t("controller_item_hero", "controller_item")
 tt.main_script.insert = scripts.controller_item_hero.insert
-tt.can_fire_fn = scripts.controller_item_summon_blackburn.can_fire_fn
+tt.can_fire_fn = scripts.summoning_hero_ultimate.can_fire_fn
 tt.vis_bans = 0
 tt.vis_flags = 0
 tt.allowed_templates = nil
@@ -244,6 +244,82 @@ tt.aura.excluded_templates = nil
 tt.aura.targets_per_cycle = 12
 tt.main_script.insert = scripts.common_aura.insert
 tt.main_script.update = scripts.aura_with_towers.update
+
+tt = E:register_t("mod_common_stun", "mod_stun")
+tt.modifier.vis_flags = bor(F_STUN, F_MOD)
+tt.modifier.vis_bans = bor(F_BOSS)
+
+tt = E:register_t("mod_intimidation", "modifier")
+tt.speed_factor = 1
+tt.modifier.vis_flags = bor(F_MOD)
+tt.modifier.vis_bans = bor(F_BOSS)
+tt.main_script.insert = scripts.mod_intimidation.insert
+tt.main_script.remove = scripts.mod_intimidation.remove
+
+tt = RT("aura_wander", "aura")
+AC(tt, "nav_path", "motion", "render", "sound_events", "tween")
+tt.render.sprites[1].name = "walk"
+tt.render.sprites[1].angles = {}
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.main_script.update = scripts.aura_wander.update
+tt.nav_path.dir = -1
+tt.nav_path.pi = 1
+tt.nav_path.spi = 1
+tt.nav_path.ni = 1
+tt.motion.max_speed = 50
+tt.aura.duration = 10
+tt.aura.vis_flags = bor(F_AREA)
+tt.aura.vis_bans = 0
+tt.aura.cycle_time = 0.1
+tt.aura.radius = 60
+tt.aura.damage_min = 0
+tt.aura.damage_max = 0
+tt.aura.damage_type = DAMAGE_PHYSICAL
+tt.aura.hit_blood_fx = nil
+tt.spawn_animation = "spawn"
+tt.death_animation = "death"
+tt.dead_lifetime = 5
+tt.tween.props[1].keys = {
+    {
+        0,
+		0
+	},
+	{
+        1,
+		255
+	}
+}
+tt.tween.disabled = true
+tt.fade_in = nil
+tt.fade_out = nil
+
+tt = RT("soldier_hover", "soldier_militia")
+E:add_comps(tt, "nav_path")
+tt.hover = {}
+tt.hover.oni = 1
+tt.hover.ts = 0
+tt.hover.cooldown_min = 10
+tt.hover.cooldown_max = 10
+tt.hover.random_ni = 0
+tt.hover.random_subpath = true
+tt.main_script.update = scripts.soldier_hover.update
+
+tt = E:register_t("KR5Bomb", "bombKR5")
+tt.main_script.insert = scripts.KR5Bomb.insert
+tt.main_script.update = scripts.KR5Bomb.update
+
+tt = RT("mod_damage_armor", "mod_damage")
+tt.damage_min = 0.01
+tt.damage_max = 0.01
+tt.damage_type = bor(DAMAGE_ARMOR, DAMAGE_NO_SHIELD_HIT)
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

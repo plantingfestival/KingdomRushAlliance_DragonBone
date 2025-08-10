@@ -1925,12 +1925,13 @@ function sys.health:on_update(dt, ts, store)
 							if t and t.health and not t.health.dead then
 								local sad = E:create_entity("damage")
 
+								local damage_type = h.spiked_armor_damage_type or DAMAGE_TRUE
 								if h.spiked_armor > 0 then
-									sad.damage_type = DAMAGE_TRUE
+									sad.damage_type = damage_type
 									sad.value = math.ceil(h.spiked_armor * d.value)
 								else
 									sad.value = h.spiked_armor_damage
-									sad.damage_type = h.spiked_armor_damage_type
+									sad.damage_type = damage_type
 								end
 								sad.damage_applied = sad.value
 								sad.source_id = e.id
@@ -1938,6 +1939,10 @@ function sys.health:on_update(dt, ts, store)
 
 								table.insert(store.damage_queue, sad)
 							end
+						end
+
+						if e and h.accumulated_damage_factor > 0 then
+							h.accumulated_damage = h.accumulated_damage + km.round(actual_damage * h.accumulated_damage_factor)
 						end
 					end
 

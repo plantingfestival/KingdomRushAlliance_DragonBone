@@ -588,7 +588,7 @@ tt.timed_attacks.list[3].sound = "hero_eiskalt_icepeaks"
 tt.timed_attacks.list[3].min_range = b.ice_peaks.min_range
 tt.timed_attacks.list[3].max_range = b.ice_peaks.max_range
 tt.timed_attacks.list[3].vis_flags = bor(F_RANGED)
-tt.timed_attacks.list[3].vis_bans = bor(F_NIGHTMARE, F_CLIFF, F_FLYING)
+tt.timed_attacks.list[3].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_CLIFF, F_FLYING)
 tt.timed_attacks.list[3].xp_from_skill = "ice_peaks"
 
 tt = E:register_t("bolt_eiskalt", "bolt")
@@ -821,8 +821,7 @@ tt.render.sprites[1].name = "hero_eiskalt_frosty_explotion_run"
 tt.render.sprites[1].anchor.y = 0.136
 tt.render.sprites[1].sort_y_offset = -3
 
-tt = RT("hero_eiskalt_frosty", "aura")
-AC(tt, "nav_path", "motion", "render", "sound_events")
+tt = RT("hero_eiskalt_frosty", "aura_wander")
 tt.render.sprites[1].prefix = "hero_eiskalt_frosty"
 tt.render.sprites[1].name = "walk"
 tt.render.sprites[1].anchor.y = 0.162
@@ -838,7 +837,6 @@ tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].name = "hero_eiskalt_frosty_shadow"
 tt.render.sprites[2].anchor.y = 0.162
 tt.render.sprites[2].z = Z_DECALS + 1
-tt.main_script.update = customScripts1.hero_eiskalt_frosty.update
 tt.nav_path.dir = -1
 tt.nav_path.pi = 1
 tt.nav_path.spi = 1
@@ -855,6 +853,8 @@ tt.aura.damage_type = DAMAGE_PHYSICAL
 tt.aura.hit_blood_fx = "fx_blood_splat"
 tt.dead_lifetime = 5
 tt.sound_events.death = "hero_eiskalt_frosty_explodes"
+tt.fade_in = nil
+tt.fade_out = true
 
 tt = E:register_t("aura_ice_peak", "aura")
 E:add_comps(tt, "render")
@@ -934,6 +934,459 @@ tt.render.sprites[1].z = Z_BULLETS + 1
 tt.scale = 0.4375
 tt.scale_var = 0.0625
 tt.speed = {}
+
+tt = E:register_t("hero_jack_o_lantern", "hero5")
+E:add_comps(tt, "melee", "timed_attacks", "teleport")
+tt.hero.level_stats.hp_max = {
+	175,
+	192,
+	210,
+	228,
+	245,
+	262,
+	280,
+	298,
+	315,
+	333
+}
+tt.hero.level_stats.regen_health = {
+	24,
+	26,
+	28,
+	30,
+	32,
+	34,
+	36,
+	40,
+	42
+}
+tt.hero.level_stats.armor = {
+	0.05,
+	0.09,
+	0.13,
+	0.17,
+	0.21,
+	0.25,
+	0.29,
+	0.33,
+	0.37,
+	0.41
+}
+tt.hero.level_stats.melee_damage_min = {
+	12,
+	15,
+	19,
+	22,
+	26,
+	30,
+	33,
+	37,
+	40,
+	44
+}
+tt.hero.level_stats.melee_damage_max = {
+	20,
+	27,
+	33,
+	40,
+	46,
+	52,
+	59,
+	65,
+	72,
+	79
+}
+-- explosive_head
+tt.hero.skills.explosive_head = E:clone_c("hero_skill")
+tt.hero.skills.explosive_head.hr_cost = {
+	2,
+	2,
+	2
+}
+tt.hero.skills.explosive_head.hr_order = 1
+tt.hero.skills.explosive_head.hr_available = true
+tt.hero.skills.explosive_head.damage = {
+	40,
+	80,
+	120
+}
+tt.hero.skills.explosive_head.key = "EXPLOSIVE_HEAD"
+tt.hero.skills.explosive_head.xp_gain = {
+	40,
+	40,
+	40
+}
+-- haunted_blade
+tt.hero.skills.haunted_blade = E:clone_c("hero_skill")
+tt.hero.skills.haunted_blade.hr_cost = {
+	1,
+	1,
+	1
+}
+tt.hero.skills.haunted_blade.hr_order = 2
+tt.hero.skills.haunted_blade.hr_available = true
+tt.hero.skills.haunted_blade.cooldown = {
+	16,
+	8,
+	4
+}
+tt.hero.skills.haunted_blade.xp_gain = {
+	90,
+	180,
+	270
+}
+tt.hero.skills.haunted_blade.key = "HAUNTED_BLADE"
+-- hero_jacko_melee
+tt.hero.skills.hero_jacko_melee = E:clone_c("hero_skill")
+tt.hero.skills.hero_jacko_melee.hr_cost = {
+	2,
+	1,
+	1
+}
+tt.hero.skills.hero_jacko_melee.accumulated_damage_factor = {
+	0.4,
+	0.7,
+	1
+}
+tt.hero.skills.hero_jacko_melee.hr_order = 3
+tt.hero.skills.hero_jacko_melee.hr_available = true
+tt.hero.skills.hero_jacko_melee.key = "HERO_JACKO_MELEE"
+-- hero_jacko_thriller
+tt.hero.skills.hero_jacko_thriller = E:clone_c("hero_skill")
+tt.hero.skills.hero_jacko_thriller.hr_cost = {
+	3,
+	2,
+	2
+}
+tt.hero.skills.hero_jacko_thriller.hr_order = 4
+tt.hero.skills.hero_jacko_thriller.hr_available = true
+tt.hero.skills.hero_jacko_thriller.max_bullets = {
+	2,
+	3,
+	4
+}
+tt.hero.skills.hero_jacko_thriller.xp_gain = {
+	100,
+	200,
+	300
+}
+tt.hero.skills.hero_jacko_thriller.key = "HERO_JACKO_THRILLER"
+-- ultimate
+tt.hero.skills.ultimate = E:clone_c("hero_skill")
+tt.hero.skills.ultimate.hr_cost = {
+	1,
+	6,
+	5,
+	5
+}
+tt.hero.skills.ultimate.controller_name = "hero_jack_o_lantern_ultimate"
+tt.hero.skills.ultimate.hr_order = 5
+tt.hero.skills.ultimate.hr_available = true
+tt.hero.skills.ultimate.key = "ULTIMATE"
+tt.hero.skills.ultimate.cooldown = {
+	40,
+	40,
+	40,
+	40
+}
+tt.hero.skills.ultimate.damage_over_time = {
+	12,
+	20,
+	40,
+	60
+}
+
+tt.hero.team = TEAM_DARK_ARMY
+tt.health.dead_lifetime = 20
+tt.health.accumulated_damage_factor = 0
+tt.health_bar.draw_order = -1
+tt.health_bar.offset = v(0, 53)
+tt.health_bar.sort_y_offset = -200
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
+tt.health_bar.z = Z_FLYING_HEROES
+tt.hero.fn_level_up = customScripts1.hero_jack_o_lantern.level_up
+tt.hero.tombstone_show_time = nil
+tt.hero.tombstone_decal = nil
+tt.hero.use_custom_spawn_point = true
+tt.idle_flip.chance = 0
+tt.info.fn = scripts.hero_basic.get_info_melee
+-- tt.info.hero_portrait = "hero_portraits_0120"
+tt.info.i18n_key = "HERO_JACK_O_LANTERN"
+tt.info.portrait = "bottom_info_image_enemies_0057"
+-- tt.info.ultimate_icon = "0120"
+tt.info.stat_hp = 5
+tt.info.stat_armor = 4
+tt.info.stat_damage = 10
+tt.info.stat_cooldown = 4
+tt.main_script.update = customScripts1.hero_jack_o_lantern.update
+tt.motion.max_speed = 80
+tt.drag_line_origin_offset = v(0, 0)
+tt.regen.cooldown = 2
+tt.render.sprites[1].anchor.y = 0.281
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].prefix = "hero_jack_o_lantern"
+tt.render.sprites[1].angles.walk = {
+	"walk"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].name = "hero_jack_o_lantern_shadow"
+tt.render.sprites[2].anchor.y = 0.281
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.change_rally_point = "group_hero_jacko_taunt"
+tt.sound_events.death = "hero_jacko_taunt_death"
+tt.sound_events.respawn = "HeroLevelUp"
+-- tt.sound_events.hero_room_select = "hero_jacko_taunt_1"
+tt.teleport.min_distance = 150
+tt.teleport.delay = 0
+tt.teleport.sound = "group_hero_jacko_teleport"
+tt.teleport.animations = {
+	"teleportOut",
+	"teleportIn"
+}
+tt.teleport.fx_out = "hero_jack_o_lantern_teleportfx"
+tt.ui.click_rect = r(-29, -5, 58, 105)
+tt.unit.head_offset = v(0, 48)
+tt.unit.hit_offset = v(0, 30)
+tt.unit.mod_offset = v(0, 30)
+tt.unit.hide_after_death = nil
+tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET)
+tt.soldier.melee_slot_offset = v(25, 0)
+tt.melee.range = 60
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].fn_damage = function(this, store, attack, target)
+	local value = math.ceil(this.unit.damage_factor * math.random(attack.damage_min, attack.damage_max)) + this.health.accumulated_damage
+	this.health.accumulated_damage = 0
+	return value
+end
+tt.melee.attacks[1].damage_min = 50
+tt.melee.attacks[1].damage_max = 90
+tt.melee.attacks[1].hit_time = fts(7)
+tt.melee.attacks[1].cooldown = 2
+-- tt.melee.attacks[1].xp_gain_factor = 20
+tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
+tt.melee.attacks[2].disabled = true
+tt.melee.attacks[2].basic_attack = nil
+tt.melee.attacks[2].hit_time = fts(15)
+tt.melee.attacks[2].damage_type = DAMAGE_MAGICAL
+tt.melee.attacks[2].cooldown = 4
+tt.melee.attacks[2].mod = "mod_hero_jacko_reduce_armor"
+-- tt.melee.attacks[2].xp_gain_factor = 270
+-- explosive_head
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
+tt.timed_attacks.list[1].disabled = true
+tt.timed_attacks.list[1].search_type = U.search_type.find_max_crowd
+tt.timed_attacks.list[1].min_targets = 1
+tt.timed_attacks.list[1].bullet = "bomb_explosive_head"
+tt.timed_attacks.list[1].min_range = 0
+tt.timed_attacks.list[1].max_range = 175
+tt.timed_attacks.list[1].cooldown = 4
+tt.timed_attacks.list[1].cast_time = fts(14)
+tt.timed_attacks.list[1].node_prediction = fts(22)
+tt.timed_attacks.list[1].animation = "explosiveHead"
+tt.timed_attacks.list[1].bullet_start_offset = {
+	v(22, 36)
+}
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_CLIFF)
+-- tt.timed_attacks.list[1].xp_from_skill = "explosive_head"
+-- hero_jacko_thriller
+tt.timed_attacks.list[2] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[2].skill = "range_at_path"
+tt.timed_attacks.list[2].disabled = true
+tt.timed_attacks.list[2].use_center = nil
+tt.timed_attacks.list[2].bullet = "hero_jack_o_lantern_spawner_seed"
+tt.timed_attacks.list[2].max_bullets = 4
+tt.timed_attacks.list[2].range_nodes = 25
+tt.timed_attacks.list[2].min_targets = 2
+tt.timed_attacks.list[2].cooldown = 30
+tt.timed_attacks.list[2].min_nodes = -2
+tt.timed_attacks.list[2].max_nodes = -1
+tt.timed_attacks.list[2].cast_time = fts(10)
+tt.timed_attacks.list[2].animation = "spawnGhouls"
+tt.timed_attacks.list[2].bullet_start_offset = {
+	v(19, 55)
+}
+tt.timed_attacks.list[2].vis_bans = bor(F_FRIEND, F_FLYING)
+-- tt.timed_attacks.list[2].xp_from_skill = "hero_jacko_thriller"
+
+tt = RT("mod_hero_jacko_reduce_armor", "mod_damage_armor")
+tt.damage_min = 1
+tt.damage_max = 1
+
+tt = E:register_t("hero_jack_o_lantern_teleportfx", "fx")
+tt.render.sprites[1].name = "hero_jack_o_lantern_teleportfx_run"
+tt.render.sprites[1].anchor.y = 0.281
+
+tt = E:register_t("bomb_explosive_head", "KR5Bomb")
+tt.bullet.damage_min = 120
+tt.bullet.damage_max = 120
+tt.bullet.damage_radius = 75
+tt.bullet.flight_time = fts(20)
+tt.bullet.rotation_speed = 3 * FPS * math.pi / 20
+tt.bullet.pop_chance = 0.1
+tt.bullet.hit_fx = "fx_hero_jack_o_lantern_explosion"
+tt.bullet.hit_fx_water = "fx_hero_jack_o_lantern_explosion"
+tt.render.sprites[1].name = "hero_jack_o_lantern_head_proyectile"
+
+tt = E:register_t("fx_hero_jack_o_lantern_explosion", "fx")
+tt.render.sprites[1].name = "hero_jack_o_lantern_explotion_run"
+tt.render.sprites[1].anchor.y = 0.169
+tt.render.sprites[1].sort_y_offset = -2
+
+tt = E:register_t("hero_jack_o_lantern_spawner_seed", "KR5Bomb")
+tt.bullet.damage_min = 64
+tt.bullet.damage_max = 64
+tt.bullet.damage_radius = 50
+tt.bullet.flight_time = fts(22)
+tt.bullet.rotation_speed = 2 * FPS * math.pi / 22
+tt.bullet.hit_fx = "fx_hero_jack_o_lantern_spawner_hit"
+tt.bullet.hit_fx_water = "fx_hero_jack_o_lantern_spawner_hit"
+tt.bullet.hit_decal = "hero_jack_o_lantern_spawner_seed_decal"
+tt.bullet.hit_payload = "hero_jacko_ghoul"
+tt.render.sprites[1].name = "hero_jack_o_lantern_spawner_seed_travel"
+tt.render.sprites[1].animated = true
+
+tt = E:register_t("fx_hero_jack_o_lantern_spawner_hit", "fx_fade")
+tt.render.sprites[1].name = "hero_jack_o_lantern_spawner_hit_run"
+tt.render.sprites[1].anchor.y = 0.5
+tt.render.sprites[1].z = Z_OBJECTS
+tt.tween.props[1].keys = {
+	{
+		0,
+		255
+	},
+	{
+		fts(56),
+		255
+	},
+	{
+		fts(71),
+		0
+	}
+}
+
+tt = E:register_t("hero_jack_o_lantern_spawner_seed_decal", "decal_timed")
+tt.render.sprites[1].name = "hero_jack_o_lantern_spawner_seed_decal_run"
+tt.render.sprites[1].anchor.y = 0.5
+tt.render.sprites[1].z = Z_DECALS
+
+tt = RT("hero_jacko_ghoul", "soldier_hover")
+E:add_comps(tt, "reinforcement")
+tt.health.armor = 0.2
+tt.health.magic_armor = 0
+tt.health.hp_max = 320
+tt.health_bar.offset = v(0, 32)
+tt.unit.hit_offset = v(0, 16)
+tt.unit.head_offset = v(0, 29)
+tt.unit.mod_offset = v(0, 16)
+tt.unit.marker_offset = v(0, 0)
+tt.info.fn = scripts.soldier_reinforcement.get_info
+tt.info.portrait = "bottom_info_image_soldiers_0048"
+tt.info.random_name_format = nil
+tt.info.random_name_count = nil
+tt.motion.max_speed = 30
+tt.render.sprites[1].prefix = "hero_jack_o_lantern_ghoul"
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].anchor.y = 0.125
+tt.render.sprites[1].angles.walk = {
+	"walk",
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "hero_jack_o_lantern_ghoul_shadow"
+tt.render.sprites[2].anchor.y = 0.125
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.soldier.melee_slot_offset = v(16, 0)
+tt.melee.range = 75
+tt.melee.attacks[1].damage_min = 15
+tt.melee.attacks[1].damage_max = 25
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].hit_time = fts(9)
+tt.regen.health = 8
+tt.regen.cooldown = 0.5
+tt.reinforcement.duration = 20
+tt.hover.cooldown_min = 5
+tt.hover.cooldown_max = 15
+tt.hover.random_ni = 6
+tt.insert_delay = 1.2
+
+tt = E:register_t("hero_jack_o_lantern_ultimate")
+E:add_comps(tt, "pos", "main_script", "sound_events")
+tt.can_fire_fn = customScripts1.summoning_hero_ultimate.can_fire_fn
+tt.main_script.update = customScripts1.summoning_hero_ultimate.update
+tt.use_center = true
+tt.cooldown = 40
+tt.entity = "hero_jacko_horse"
+tt.sound_events.insert = "hero_jacko_horses"
+
+tt = RT("hero_jacko_horse", "aura_wander")
+tt.render.sprites[1].prefix = "hero_jack_o_lantern_ultimate_horse"
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].anchor.y = 0.3
+tt.render.sprites[2] = nil
+tt.motion.max_speed = 90
+tt.aura.duration = 6
+tt.aura.vis_flags = bor(F_AREA)
+tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
+tt.aura.cycle_time = 0.25
+tt.aura.radius = 65
+tt.aura.damage_min = 0
+tt.aura.damage_max = 0
+tt.aura.damage_type = DAMAGE_TRUE
+tt.aura.mods = {
+	"mod_hero_jacko_horse_intimidation"
+}
+tt.aura.hit_blood_fx = nil
+tt.spawn_animation = nil
+tt.death_animation = nil
+tt.dead_lifetime = nil
+tt.fade_in = true
+tt.fade_out = true
+tt.particle = {
+	"ps_hero_jack_o_lantern_ultimate_particle",
+	"ps_hero_jack_o_lantern_ultimate_smoke"
+}
+
+tt = E:register_t("ps_hero_jack_o_lantern_ultimate_particle")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "hero_jack_o_lantern_ultimate_particle_run"
+tt.particle_system.anchor = v(0.5, 0.5)
+tt.particle_system.track_offset = v(0, 29)
+tt.particle_system.emission_rate = 3
+tt.particle_system.animation_fps = 30
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.z = Z_OBJECTS + 1
+
+tt = E:register_t("ps_hero_jack_o_lantern_ultimate_smoke")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "hero_jack_o_lantern_ultimate_smoke_run"
+tt.particle_system.anchor = v(0.5, 0.5)
+tt.particle_system.track_offset = v(0, 29)
+tt.particle_system.emission_rate = 2
+tt.particle_system.animation_fps = 46
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.z = Z_OBJECTS + 2
+
+tt = RT("mod_hero_jacko_horse_intimidation", "mod_intimidation")
+E:add_comps(tt, "render")
+tt.modifier.duration = fts(8)
+tt.speed_factor = 3
+tt.main_script.update = customScripts1.mod_track_target_with_fade.insert
+tt.render.sprites[1].name = "hero_jack_o_lantern_ultimate_fear_modifier_run"
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].draw_order = DO_MOD_FX
+tt.render.sprites[1].size_scales = {
+	vv(1),
+	vv(1.3),
+	vv(1.5)
+}
 
 tt = E:register_t("hero_dianyun", "hero5")
 b = balance.heroes.hero_dianyun
@@ -1325,10 +1778,6 @@ tt = E:register_t("fx_hero_dianyun_lightning_hit", "fx")
 tt.render.sprites[1].name = "hero_storm_dragon_lightning_hit"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 
-tt = E:register_t("mod_common_stun", "mod_stun")
-tt.modifier.vis_flags = bor(F_STUN, F_MOD)
-tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_hero_dianyun_lightning", "mod_common_stun")
 E:add_comps(tt, "tween")
 tt.modifier.duration = fts(20)
@@ -1559,8 +2008,8 @@ tt.render.sprites[1].draw_order = DO_MOD_FX
 
 tt = E:register_t("hero_dianyun_ultimate")
 E:add_comps(tt, "pos", "main_script", "sound_events")
-tt.can_fire_fn = customScripts1.hero_dianyun_ultimate.can_fire_fn
-tt.main_script.update = customScripts1.hero_dianyun_ultimate.update
+tt.can_fire_fn = customScripts1.summoning_hero_ultimate.can_fire_fn
+tt.main_script.update = customScripts1.summoning_hero_ultimate.update
 tt.cooldown = 45
 tt.entity = "hero_dianyun_electric_son"
 tt.sound_events.insert = "HeroDianyunSon"

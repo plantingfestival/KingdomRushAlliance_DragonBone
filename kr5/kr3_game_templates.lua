@@ -1467,7 +1467,6 @@ tt.hero.tombstone_show_time = fts(90)
 tt.info.damage_icon = "magic"
 tt.info.fn = scripts.hero_basic.get_info_ranged
 tt.info.i18n_key = "HERO_ELVES_ELEMENTALIST"
--- tt.info.hero_portrait = "hero_portraits_0002"
 tt.info.portrait = "portraits_hero_0113"
 tt.info.ultimate_icon = "0002"
 tt.main_script.insert = kr3_scripts.hero_arivan.insert

@@ -389,6 +389,8 @@ local function create_bullet_pop(store, this)
 	if b.pop and (not b.pop_chance or math.random() < b.pop_chance) then
 		return create_pop(store, this.pos, b.pop)
 	end
+
+	return nil
 end
 
 local function create_bullet_damage(bullet, target_id, source_id)
@@ -1852,32 +1854,6 @@ local function y_soldier_do_timed_attack(store, this, target, attack)
 	S:stop(attack.sound)
 
 	return attack_done
-end
-
-local function y_soldier_timed_attacks(store, this)
-	for _, a in pairs(this.timed_attacks.list) do
-		if store.tick_ts - a.ts < a.cooldown then
-			-- block empty
-		else
-			local target = U.find_foremost_enemy(store.entities, this.pos, a.min_range, a.max_range, false, a.vis_flags, a.vis_bans)
-
-			if not target then
-				return false, A_NO_TARGET
-			elseif math.random() < a.chance then
-				local attack_done = y_soldier_do_timed_attack(store, this, target, a)
-
-				if attack_done then
-					return false, A_DONE
-				else
-					return true
-				end
-			else
-				a.ts = store.tick_ts
-			end
-		end
-	end
-
-	return false, A_IN_COOLDOWN
 end
 
 local function y_soldier_do_single_area_attack(store, this, target, attack)
@@ -4204,7 +4180,7 @@ local function make_bullet_damage_targets(this, store, target)
 	end
 end
 
-local function create_bullet_hit_payload(this, store)
+local function create_bullet_hit_payload(this, store, flip_x)
 	local b = this.bullet
 	if b.hit_payload then
 		local function insert_payload(hp)
@@ -4214,6 +4190,7 @@ local function create_bullet_hit_payload(this, store)
 			if hp.render then
 				for _, s in pairs(hp.render.sprites) do
 					s.ts = store.tick_ts
+					s.flip_x = flip_x
 				end
 			end
 			if hp.aura then
@@ -4251,7 +4228,7 @@ local function create_bullet_hit_fx(this, store, target, flip_x)
 			hit_fx_pos.x, hit_fx_pos.y = target.pos.x, target.pos.y
 		end
 		local hit_fx = insert_sprite(store, b.hit_fx, hit_fx_pos, flip_x)
-		if target and target.unit then
+		if hit_fx and hit_fx.render and target and target.unit then
 			for _, s in pairs(hit_fx.render.sprites) do
 				if s.size_names then
 					s.name = s.size_names[target.unit.size]
@@ -4301,6 +4278,35 @@ local function y_entity_animation_wait(this)
 end
 
 local function entity_casts_spawner(store, this, a)
+	local min_targets = a.min_targets or 1
+	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
+		if not targets or #targets < min_targets then
+			return false
+		end
+	elseif a.range and a.range > 0 then
+		local targets = nil
+		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+			targets = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		else
+			local vis_bans = a.vis_bans or 0
+			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			local soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			if targets then
+				if soldiers then
+					table.merge(targets, soldiers)
+				end
+			else
+				targets = soldiers
+			end
+		end
+		if not targets or #targets < min_targets then
+			return false
+		end
+	end
+
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
 		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
@@ -4384,7 +4390,7 @@ local function entity_casts_spawner(store, this, a)
 end
 
 local function entity_casts_range_unit(store, this, a)
-	local target, targets, pred_pos, to_soldier
+	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
 	local filter_fn = nil
 	if a.allowed_templates then
@@ -4398,14 +4404,32 @@ local function entity_casts_range_unit(store, this, a)
 	else
 		filter_fn = a.filter_fn
 	end
-	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-		to_soldier = true
-		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
-		filter_fn, a.search_type, a.crowd_range, a.min_targets)
-	else
-		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+
+	local function get_target(prediction_time)
+		local target, targets, pred_pos
+		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+			target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+			filter_fn, a.search_type, a.crowd_range, a.min_targets)
+		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
+			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+		else
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
+			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+			local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+			filter_fn, a.search_type, a.crowd_range, a.min_targets)
+			if targets then
+				if soldiers then
+					table.merge(targets, soldiers)
+				end
+			else
+				target, targets, pred_pos = soldier, soldiers, soldier_pos
+			end
+		end
+		return target, targets, pred_pos
 	end
+
+	target, targets, pred_pos = get_target(a.cast_time + prediction_time)
 	if target then
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
@@ -4415,14 +4439,7 @@ local function entity_casts_range_unit(store, this, a)
 			local oldTarget = target
 			target = store.entities[target.id]
 			if not target or target.health.dead then
-				local newTarget, newTargets, newPredPos
-				if to_soldier then
-					newTarget, newTargets, newPredPos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
-					filter_fn, a.search_type, a.crowd_range, a.min_targets)
-				else
-					newTarget, newTargets, newPredPos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
-					a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
-				end
+				local newTarget, newTargets, newPredPos = get_target(prediction_time)
 				if newTarget then
 					target = newTarget
 					targets = newTargets
@@ -4486,7 +4503,14 @@ local function entity_casts_range_unit(store, this, a)
 							hp.nav_path.spi = tspi
 							hp.nav_path.ni = tni
 						end
-						table.insert(hit_payload, hp)
+						if hp.insert_delay then
+							controller = E:create_entity("entities_delay_controller")
+							controller.delays = { hp.insert_delay }
+							controller.entities = { hp }
+							table.insert(hit_payload, controller)
+						else
+							table.insert(hit_payload, hp)
+						end
 					end
 					if type(bullet.bullet.hit_payload) == "table" then
 						for i, hp_name in ipairs(bullet.bullet.hit_payload) do
@@ -4514,14 +4538,31 @@ local function entity_casts_range_unit(store, this, a)
 end
 
 local function entity_casts_range_at_path(store, this, a)
-	if a.range and a.range > 0 and a.vis_bans then
-		local target = nil
-		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-			target = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
-		else
-			target = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+	local min_targets = a.min_targets or 1
+	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
+		if not targets or #targets < min_targets then
+			return false
 		end
-		if not target then
+	elseif a.range and a.range > 0 then
+		local targets = nil
+		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
+			targets = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+		else
+			local vis_bans = a.vis_bans or 0
+			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			local soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			if targets then
+				if soldiers then
+					table.merge(targets, soldiers)
+				end
+			else
+				targets = soldiers
+			end
+		end
+		if not targets or #targets < min_targets then
 			return false
 		end
 	end
@@ -4583,7 +4624,14 @@ local function entity_casts_range_at_path(store, this, a)
 						hp.nav_path.spi = subpath
 						hp.nav_path.ni = node
 					end
-					table.insert(hit_payload, hp)
+					if hp.insert_delay then
+						controller = E:create_entity("entities_delay_controller")
+						controller.delays = { hp.insert_delay }
+						controller.entities = { hp }
+						table.insert(hit_payload, controller)
+					else
+						table.insert(hit_payload, hp)
+					end
 				end
 				if type(bullet.bullet.hit_payload) == "table" then
 					for i, hp_name in ipairs(bullet.bullet.hit_payload) do
@@ -4609,7 +4657,7 @@ local function entity_casts_range_at_path(store, this, a)
 end
 
 local function entity_casts_object_on_target(store, this, a)
-	local target, targets, pred_pos, to_soldier
+	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
 	local filter_fn = nil
 	if a.allowed_templates then
@@ -4624,12 +4672,23 @@ local function entity_casts_object_on_target(store, this, a)
 		filter_fn = a.filter_fn
 	end
 	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-		to_soldier = true
 		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
 		filter_fn, a.search_type, a.crowd_range, a.min_targets)
+	elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
 	else
 		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, 
+		filter_fn, a.search_type, a.crowd_range, a.min_targets)
+		if targets then
+			if soldiers then
+				table.merge(targets, soldiers)
+			end
+		else
+			target, targets, pred_pos = soldier, soldiers, soldier_pos
+		end
 	end
 
 	if target then
@@ -4721,6 +4780,36 @@ local function entity_attacks(store, this, a)
 	if a.skill == "spawner" then
 		return entity_casts_spawner(store, this, a)
 	end
+end
+
+local function y_soldier_timed_attacks(store, this)
+	for _, a in pairs(this.timed_attacks.list) do
+		if a.spell then
+			if store.tick_ts - a.ts < a.cooldown then
+				-- block empty
+			else
+				local target = U.find_foremost_enemy(store.entities, this.pos, a.min_range, a.max_range, false, a.vis_flags, a.vis_bans)
+	
+				if not target then
+					return false, A_NO_TARGET
+				elseif math.random() < a.chance then
+					local attack_done = y_soldier_do_timed_attack(store, this, target, a)
+	
+					if attack_done then
+						return false, A_DONE
+					else
+						return true
+					end
+				else
+					a.ts = store.tick_ts
+				end
+			end
+		else
+			return entity_attacks(store, this, a)
+		end
+	end
+
+	return false, A_IN_COOLDOWN
 end
 -- customization
 

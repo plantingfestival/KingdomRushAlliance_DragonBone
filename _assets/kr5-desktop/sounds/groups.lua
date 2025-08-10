@@ -1338,6 +1338,14 @@ return {
 			"kro_sfx_phoenix_fireegg_v3.ogg",
 		}
 	},
+	item_hero_jack_o_lantern = {
+		files = {
+			"hero_jacko_taunt_death.ogg",
+			"hero_jacko_horses.ogg",
+			"group_hero_jacko_taunt.ogg",
+			"group_hero_jacko_teleport.ogg",
+		}
+	},
 	tower_rock_thrower = {
 		files = {
 			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg",

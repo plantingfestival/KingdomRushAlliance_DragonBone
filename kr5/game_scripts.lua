@@ -73822,7 +73822,7 @@ function scripts.bomb_KR5.insert(this, store, script)
 	b.last_pos = V.vclone(b.from)
 
 	if b.rotation_speed then
-		this.render.sprites[1].r = (math.random() - 0.5) * math.pi
+		this.render.sprites[1].r = (math.random() - 0.5) * math.pi / 2
 		b.rotation_speed = b.rotation_speed * (b.to.x > b.from.x and -1 or 1)
 	end
 
@@ -73934,19 +73934,24 @@ function scripts.bomb_KR5.update(this, store, script)
 			queue_insert(store, mod)
 		end
 
-		if b.mod then
-			local mod = E:create_entity(b.mod)
-
-			mod.modifier.target_id = enemy.id
-			mod.modifier.source_id = this.id
-
-			queue_insert(store, mod)
+		if b.mod or b.mods then
+			local mods = b.mods or {
+				b.mod
+			}
+			for i, mod_name in ipairs(mods) do
+				local mod = E:create_entity(mod_name)
+				mod.modifier.target_id = enemy.id
+				mod.modifier.source_id = this.id
+				mod.modifier.level = b.level
+				queue_insert(store, mod)
+			end
 		end
 	end
 
 	local p = SU.create_bullet_pop(store, this)
-
-	queue_insert(store, p)
+	if p then
+		queue_insert(store, p)
+	end
 
 	local cell_type = GR:cell_type(b.to.x, b.to.y)
 
@@ -73973,12 +73978,7 @@ function scripts.bomb_KR5.update(this, store, script)
 	end
 
 	if b.hit_decal and band(cell_type, TERRAIN_WATER) == 0 then
-		local decal = E:create_entity(b.hit_decal)
-
-		decal.pos = V.vclone(b.to)
-		decal.render.sprites[1].ts = store.tick_ts
-
-		queue_insert(store, decal)
+		SU.create_bullet_hit_decal(this, store)
 	end
 
 	SU.create_bullet_hit_payload(this, store)
