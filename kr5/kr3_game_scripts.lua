@@ -5275,6 +5275,10 @@ function scripts.hero_faustus.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill
+	local skill_ultimate = this.hero.skills.ultimate
+	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
+	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
+	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	U.y_animation_play(this, "respawn", nil, store.tick_ts, 1)
 
@@ -5295,6 +5299,9 @@ function scripts.hero_faustus.update(this, store)
 		if SU.hero_level_up(store, this) then
 			-- block empty
 		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		for _, i in pairs(this.ranged.order) do
 			local a = this.ranged.attacks[i]
@@ -5367,7 +5374,27 @@ function scripts.hero_faustus.update(this, store)
 						coroutine.yield()
 					end
 
-					S:queue(a.sound)
+					if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+						local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, nil, nil, nil, nil, nil, 
+						skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
+						if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+							local an, af = U.animation_name_facing_point(this, "death", ultimatePos)
+							U.animation_start(this, an, af, store.tick_ts, nil, 1)
+							local u = E:create_entity(ultimate_controller)
+							u.pos = ultimatePos
+							u.level = skill_ultimate.level
+							queue_insert(store, u)
+							skill_ultimate.ts = store.tick_ts
+							while not U.animation_finished(this) do
+								if SU.hero_interrupted(this) then
+									goto label_112_0
+								end
+								coroutine.yield()
+							end
+						else
+							skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+						end
+					end
 
 					targets = {}
 
@@ -5405,6 +5432,26 @@ function scripts.hero_faustus.update(this, store)
 							b.bullet.from = V.vclone(b.pos)
 							b.bullet.to = V.v(t.pos.x + t.unit.hit_offset.x, t.pos.y + t.unit.hit_offset.y)
 							b.bullet.shot_index = i
+
+
+							if upg_lf and a.basic_attack then
+								if not this._lethal_focus_deck then
+									this._lethal_focus_deck = SU.deck_new(upg_lf.trigger_cards, upg_lf.total_cards)
+								end
+
+								local triggered_lethal_focus = SU.deck_draw(this._lethal_focus_deck)
+
+								if triggered_lethal_focus then
+									b.bullet.damage_factor = b.bullet.damage_factor * upg_lf.damage_factor_area
+									b.bullet.pop = {
+										"pop_crit"
+									}
+									b.bullet.pop_chance = 1
+									b.bullet.pop_conds = DR_DAMAGE
+								end
+							end
+
+					S:queue(a.sound)
 
 							if i == 1 then
 								b.initial_impulse = 0

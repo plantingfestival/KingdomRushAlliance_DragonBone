@@ -1290,6 +1290,23 @@ return {
 			"archmage_attack.ogg"
 		}
 	},
+	item_hero_faustus = {
+		files = {
+			"kro_sfx_veznan_faustus_killray_v3.ogg",
+            "kro_sfx_faustus_normalattack_v1.ogg",
+            "Faustus-death_01e2.ogg",
+            "kro_sfx_faustus_enervation_v2_[op1].ogg",
+            "kro_sfx_faustus_activate[op2].ogg",
+            "Faustus-confirm_01b2.ogg",
+            "kro_sfx_faustus_liquidfire_v2_sinchimes.ogg",
+            "kro_sfx_faustus_fireloop_v1.ogg",
+            "Faustus-confirm_04b2.ogg",
+			"Faustus-confirm_02b2.ogg",
+			"Faustus-confirm_03a2.ogg",
+			"Faustus-confirm_01b2.ogg",
+            "kro_sfx_faustus_teleport_v1[sinarpa].ogg",
+		}
+	},
 	item_hero_voodoo_witch = {
 		files = {
 			"Vodoo_01c.ogg",

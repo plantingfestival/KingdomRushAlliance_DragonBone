@@ -303,6 +303,7 @@ return {
 			hero_elora = 1,
 			hero_oni = 1,
 			hero_thor = 1,
+			hero_faustus = 0,
 			hero_voodoo_witch = 1,
 			hero_beastmaster = 1,
 			hero_priest = 1,
