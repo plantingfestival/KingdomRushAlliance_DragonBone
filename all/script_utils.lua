@@ -614,7 +614,8 @@ local function y_hero_new_rally(store, this)
 				queue_insert(store, fx)
 			end
 
-			U.y_animation_play(this, tp.animations[1], nil, store.tick_ts)
+			local an, af = U.animation_name_facing_point(this, tp.animations[1], rp)
+			U.y_animation_play(this, an, af, store.tick_ts)
 
 			if tp.delay > 0 then
 				U.sprites_hide(this, nil, nil, true)
@@ -641,7 +642,7 @@ local function y_hero_new_rally(store, this)
 				queue_insert(store, fx)
 			end
 
-			U.y_animation_play(this, tp.animations[2], nil, store.tick_ts)
+			U.y_animation_play(this, tp.animations[2], af, store.tick_ts)
 
 			this.health_bar.hidden = false
 			this.vis.bans = vis_bans
@@ -4184,7 +4185,7 @@ local function create_bullet_hit_payload(this, store, flip_x)
 	local b = this.bullet
 	if b.hit_payload then
 		local function insert_payload(hp)
-			if hp.pos.x == 0 and hp.pos.y == 0 then
+			if hp.pos and hp.pos.x == 0 and hp.pos.y == 0 then
 				hp.pos.x, hp.pos.y = b.to.x, b.to.y
 			end
 			if hp.render then
@@ -4486,6 +4487,10 @@ local function entity_casts_range_unit(store, this, a)
 					bullet.pos = target.pos
 				else
 					bullet.bullet.to = pred_pos
+					if not bullet.bullet.ignore_hit_offset and target.unit and target.unit.hit_offset then
+						local flipSign = target.render and target.render.sprites[1].flip_x and -1 or 1
+						bullet.bullet.to.x, bullet.bullet.to.y = pred_pos.x + target.unit.hit_offset.x * flipSign, pred_pos.y + target.unit.hit_offset.y
+					end
 					local start_offset = a.bullet_start_offset[ai]
 					local flipSign = af and -1 or 1
 					bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)

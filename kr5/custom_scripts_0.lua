@@ -242,9 +242,16 @@ function scripts.entities_delay_controller.update(this, store, script)
 			local entity = this.entities[1]
 			table.remove(this.delays, 1)
 			table.remove(this.entities, 1)
-			entity.render.sprites[1].ts = store.tick_ts
+			if entity.render then
+				for i, s in pairs(entity.render.sprites) do
+					s.ts = store.tick_ts
+				end
+			end
 			if entity.tween then
 				entity.tween.ts = store.tick_ts
+			end
+			if entity.pos and entity.pos.x == 0 and entity.pos.y == 0 then
+				entity.pos.x, entity.pos.y = this.pos.x, this.pos.y
 			end
 			queue_insert(store, entity)
 			if #this.delays > 0 then
@@ -1971,7 +1978,7 @@ function scripts.summoning_hero_ultimate.can_fire_fn(this, x, y, store)
 	return GR:cell_is_only(x, y, TERRAIN_LAND) and P:valid_node_nearby(x, y, nil, NF_RALLY)
 end
 
-function scripts.summoning_hero_ultimate.update(this, store)
+function scripts.summoning_hero_ultimate.update(this, store, script)
 	local e = E:create_entity(this.entity)
 	if this.use_center or e.nav_rally or e.nav_path or e.path_index then
 		local pi, spi, ni
@@ -2025,6 +2032,11 @@ function scripts.mod_intimidation.insert(this, store, script)
 		else
 			target.nav_path.dir = -1
 		end
+		if target.vis.bans then
+			target.vis._original_bans = target.vis.bans
+			target.vis.bans = U.flag_set(target.vis.bans, F_BLOCK)
+		end
+		U.unblock_all(store, target)
 	end
 
 	if this.render then
@@ -2059,6 +2071,9 @@ function scripts.mod_intimidation.remove(this, store, script)
 				target.nav_path.dir = -1
 			else
 				target.nav_path.dir = 1
+			end
+			if target.vis.bans then
+				target.vis.bans = target.vis._original_bans
 			end
 		end
 	end
@@ -2261,6 +2276,18 @@ function scripts.soldier_hover.update(this, store, script)
 	if this.reinforcement then
 		this.reinforcement.ts = store.tick_ts
 	end
+	U.set_destination(this, this.pos)
+
+	if this.tween then
+		this.tween.reverse = false
+		this.tween.remove = false
+		if this.fade_in then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+		else
+			this.tween.disabled = true
+		end
+	end
 
 	if this.render.sprites[1].name == "raise" then
 		this.health_bar.hidden = true
@@ -2291,9 +2318,16 @@ function scripts.soldier_hover.update(this, store, script)
 			SU.remove_modifiers(store, this)
 			S:queue(this.sound_events.death, this.sound_events.death_args)
 			SU.hide_shadow(this, true)
-			U.animation_start(this, "death", nil, store.tick_ts, false, 1)
+			U.animation_start(this, "death", nil, store.tick_ts)
 			U.y_animation_wait(this)
-			queue_remove(store, this)
+			if this.tween and this.fade_out then
+				this.tween.reverse = true
+				this.tween.remove = true
+				this.tween.disabled = nil
+				this.tween.ts = store.tick_ts
+			else
+				queue_remove(store, this)
+			end
 			return
 		end
 
@@ -2370,24 +2404,26 @@ function scripts.soldier_hover.update(this, store, script)
 				end
 			end
 
-			SU.soldier_regen(store, this)
-
-			if store.tick_ts - this.hover.ts >= this.hover.cooldown then
-				this.hover.ts = store.tick_ts
-				this.hover.cooldown = U.frandom(this.hover.cooldown_min, this.hover.cooldown_max + 1e-9)
-				this.nav_path.spi = this.hover.random_subpath and math.random(1, 3) or this.nav_path.spi
-				this.nav_path.ni = this.hover.oni + math.random(this.hover.random_ni * -1, this.hover.random_ni)
-			end
-
-			local next_pos = P:next_entity_node(this, store.tick_length)
-			if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
-			GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
-				U.animation_start(this, "idle", nil, store.tick_ts, true)
-			else
-				U.set_destination(this, next_pos)
+			if V.veq(this.pos, this.motion.dest) then
+				this.motion.arrived = true
+			elseif not U.walk(this, store.tick_length) then
 				local an, af = U.animation_name_facing_point(this, "walk", this.motion.dest)
 				U.animation_start(this, an, af, store.tick_ts, true)
-				U.walk(this, store.tick_length)
+			end
+			if this.motion.arrived then
+				U.animation_start(this, "idle", nil, store.tick_ts, true)
+				SU.soldier_regen(store, this)
+				if store.tick_ts - this.hover.ts >= this.hover.cooldown then
+					this.hover.ts = store.tick_ts
+					this.hover.cooldown = U.frandom(this.hover.cooldown_min, this.hover.cooldown_max + 1e-9)
+					this.nav_path.spi = this.hover.random_subpath and math.random(1, 3) or this.nav_path.spi
+					this.nav_path.ni = this.hover.oni + math.random(this.hover.random_ni * -1, this.hover.random_ni)
+					local next_pos = P:node_pos(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
+					if next_pos and P:is_node_valid(this.nav_path.pi, this.nav_path.ni) and GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) and 
+					not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+						U.set_destination(this, next_pos)
+					end
+				end
 			end
 		end
 

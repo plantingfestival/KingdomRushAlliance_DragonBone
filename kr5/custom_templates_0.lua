@@ -302,7 +302,7 @@ tt.fade_in = nil
 tt.fade_out = nil
 
 tt = RT("soldier_hover", "soldier_militia")
-E:add_comps(tt, "nav_path")
+E:add_comps(tt, "nav_path", "tween")
 tt.hover = {}
 tt.hover.oni = 1
 tt.hover.ts = 0
@@ -310,9 +310,23 @@ tt.hover.cooldown_min = 10
 tt.hover.cooldown_max = 10
 tt.hover.random_ni = 0
 tt.hover.random_subpath = true
+tt.tween.props[1].keys = {
+    {
+        0,
+		0
+	},
+	{
+        1,
+		255
+	}
+}
+tt.tween.disabled = true
+tt.fade_in = nil
+tt.fade_out = nil
 tt.main_script.update = scripts.soldier_hover.update
 
 tt = E:register_t("KR5Bomb", "bombKR5")
+tt.bullet.ignore_hit_offset = true
 tt.main_script.insert = scripts.KR5Bomb.insert
 tt.main_script.update = scripts.KR5Bomb.update
 
@@ -320,6 +334,11 @@ tt = RT("mod_damage_armor", "mod_damage")
 tt.damage_min = 0.01
 tt.damage_max = 0.01
 tt.damage_type = bor(DAMAGE_ARMOR, DAMAGE_NO_SHIELD_HIT)
+
+tt = RT("mod_damage_magical_armor", "mod_damage")
+tt.damage_min = 0.01
+tt.damage_max = 0.01
+tt.damage_type = bor(DAMAGE_MAGICAL_ARMOR, DAMAGE_NO_SHIELD_HIT)
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

@@ -2564,7 +2564,11 @@ function scripts.tower_spirit_mausoleum.update(this, store, script)
 							local b = a1.stored_bullets[i]
 							b.bullet.shot_index = 2
 							b.bullet.target_id = target.id
-							b.bullet.to = V.v(pred_pos.x + target.unit.hit_offset.x, pred_pos.y + target.unit.hit_offset.y)
+							b.bullet.to = pred_pos
+							if target.unit and target.unit.hit_offset then
+								local flipSign = target.render and target.render.sprites[1].flip_x and -1 or 1
+								b.bullet.to.x, b.bullet.to.y = pred_pos.x + target.unit.hit_offset.x * flipSign, pred_pos.y + target.unit.hit_offset.y
+							end
 							b.target_found = true
 							table.remove(a1.stored_bullets, i)
 						end
@@ -6332,13 +6336,68 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	hero_jacko_thriller_attack.ts = store.tick_ts
 	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
+	this.health_bar.hidden = true
+	U.y_animation_play(this, "respawn", nil, store.tick_ts)
 	this.health_bar.hidden = false
 	U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 
+	local function y_hero_death_and_respawn(store, this)
+		this.ui.can_click = false
+		local death_ts = store.tick_ts
+		local dead_lifetime = h.dead_lifetime
+	
+		U.unblock_target(store, this)
+		S:queue(this.sound_events.death, this.sound_events.death_args)
+		SU.hide_shadow(this, true)
+		if this.unit.death_animation then
+			U.y_animation_play(this, this.unit.death_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "death", nil, store.tick_ts, 1, 1)
+		end
+		U.animation_start(this, this.hero.death_loop_animation, nil, store.tick_ts, true, 1)
+
+		if this.unit.hide_after_death then
+			for _, s in pairs(this.render.sprites) do
+				s.hidden = true
+			end
+		end
+	
+		while dead_lifetime > store.tick_ts - death_ts do
+			if this.force_respawn then
+				this.force_respawn = nil
+				break
+			end
+			coroutine.yield()
+		end
+	
+		if hero and hero.respawn_point then
+			local p = he.respawn_point
+			this.pos.x, this.pos.y = p.x, p.y
+			this.nav_rally.pos.x, this.nav_rally.pos.y = p.x, p.y
+			this.nav_rally.center.x, this.nav_rally.center.y = p.x, p.y
+			this.nav_rally.new = false
+		end
+	
+		h.ignore_damage = true
+		S:queue(this.sound_events.respawn)
+		SU.hide_shadow(this, false)
+		if hero.respawn_animation then
+			U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "respawn", nil, store.tick_ts, 1, 1)
+		end
+	
+		this.health_bar.hidden = false
+		this.ui.can_click = true
+		h.dead = false
+		this.force_respawn = nil
+		h.hp = h.hp_max
+		h.ignore_damage = false
+	end
+
 	while true do
 		if h.dead then
-			SU.hide_shadow(this, true)
-			SU.y_hero_death_and_respawn_kr5(store, this)
+			y_hero_death_and_respawn(store, this)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 		end
 
@@ -6348,7 +6407,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 		SU.alliance_corageous_upgrade(store, this)
 
 		if SU.hero_level_up(store, this) then
-			U.y_animation_play(this, "levelUp", nil, store.tick_ts, nil, 1)
+			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
 		local skip
@@ -6407,7 +6466,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			if not target or not ultimatePos then
 				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
 			else
-				U.animation_start(this, "levelup", nil, store.tick_ts)
+				U.animation_start(this, "levelUp", nil, store.tick_ts)
 				local u = E:create_entity(ultimate_controller)
 				u.pos = ultimatePos
 				u.level = skill_ultimate.level
@@ -6435,5 +6494,28 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	end
 end
 
+scripts.hero_jack_o_lantern_ultimate = {}
+function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
+	for i = 1, 3 do
+		local e = E:create_entity(this.entity)
+		local pi, spi, ni
+		spi = i
+		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, { spi }, true)
+		if #nodes < 1 then
+			goto label_continue
+		end
+		pi, spi, ni = unpack(nodes[1])
+		local npos = P:node_pos(pi, spi, ni)
+		e.pos = npos
+		if e.nav_path then
+			e.nav_path.pi = pi
+			e.nav_path.spi = spi
+			e.nav_path.ni = ni
+		end
+		queue_insert(store, e)
+		::label_continue::
+	end
+	queue_remove(store, this)
+end
 
 return scripts

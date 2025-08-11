@@ -2957,7 +2957,7 @@ return {
 	ITEM_HERO_JACK_O_LANTERN_NAME = "黑暗骑手南瓜灯杰克",
 	ITEM_HERO_JACK_O_LANTERN_BOTTOM_DESC = "召唤黑暗骑手南瓜灯杰克来击败你的敌人。",
 	ITEM_HERO_JACK_O_LANTERN_BOTTOM_INFO = "召唤黑暗骑手南瓜灯杰克来与你并肩作战。",
-	ITEM_HERO_JACK_O_LANTERN_DESC = "杰克曾是一位技艺高超的骑士，统领着一支久负盛名的雇佣兵团。曾作为利尼维亚初代国王的敌手而战，在某场战役中，一颗炮弹正中他的头颅，只留下尸身与腐朽森林的树根相伴。自那以后，凡是行经那片土地的人类，都不得不遭受他的折磨。",
+	ITEM_HERO_JACK_O_LANTERN_DESC = "杰克曾是一位技艺高超的骑士，统领着一支久负盛名的雇佣兵团。在某场战役中，一颗炮弹正中他的头颅，只留下尸身与腐朽森林的树根相伴。自那以后，凡是行经那片土地的人类，都不得不遭受他的折磨。",
 	HERO_ELVES_PIXIE_NAME = "卡莎",
 	HERO_ELVES_RAG_NAME = "瑞兹与大瑞格",
 	HERO_ELVES_LYNN_NAME = "莉恩",

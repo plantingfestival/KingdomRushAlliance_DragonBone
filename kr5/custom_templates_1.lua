@@ -1094,16 +1094,21 @@ tt.hero.skills.ultimate.cooldown = {
 	40
 }
 tt.hero.skills.ultimate.damage_over_time = {
-	12,
-	20,
-	40,
-	60
+	4,
+	7,
+	13,
+	20
 }
 tt.hero.skills.ultimate.max_range = 250
 tt.hero.skills.ultimate.range_nodes_max = 45
 tt.hero.skills.ultimate.min_targets = 5
 
 tt.hero.team = TEAM_DARK_ARMY
+tt.hero.fn_level_up = customScripts1.hero_jack_o_lantern.level_up
+tt.hero.tombstone_show_time = nil
+tt.hero.tombstone_decal = nil
+tt.hero.use_custom_spawn_point = true
+tt.hero.death_loop_animation = "idleDeath"
 tt.health.dead_lifetime = 20
 tt.health.accumulated_damage_factor = 0
 tt.health_bar.draw_order = -1
@@ -1111,10 +1116,6 @@ tt.health_bar.offset = v(0, 53)
 tt.health_bar.sort_y_offset = -200
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.z = Z_FLYING_HEROES
-tt.hero.fn_level_up = customScripts1.hero_jack_o_lantern.level_up
-tt.hero.tombstone_show_time = nil
-tt.hero.tombstone_decal = nil
-tt.hero.use_custom_spawn_point = true
 tt.idle_flip.chance = 0
 tt.info.fn = scripts.hero_basic.get_info_melee
 -- tt.info.hero_portrait = "hero_portraits_0120"
@@ -1144,6 +1145,7 @@ tt.render.sprites[2].z = Z_DECALS + 1
 tt.sound_events.change_rally_point = "group_hero_jacko_taunt"
 tt.sound_events.death = "hero_jacko_taunt_death"
 tt.sound_events.respawn = "HeroLevelUp"
+tt.sound_events.insert = "hero_jacko_taunt_1"
 -- tt.sound_events.hero_room_select = "hero_jacko_taunt_1"
 tt.teleport.min_distance = 150
 tt.teleport.delay = 0
@@ -1167,14 +1169,15 @@ tt.melee.attacks[1].fn_damage = function(this, store, attack, target)
 	this.health.accumulated_damage = 0
 	return value
 end
-tt.melee.attacks[1].damage_min = 50
-tt.melee.attacks[1].damage_max = 90
+tt.melee.attacks[1].damage_min = 180
+tt.melee.attacks[1].damage_max = 180
 tt.melee.attacks[1].hit_time = fts(7)
 tt.melee.attacks[1].cooldown = 2
 -- tt.melee.attacks[1].xp_gain_factor = 20
 tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].basic_attack = nil
+tt.melee.attacks[2].animation = "hauntedBlade"
 tt.melee.attacks[2].hit_time = fts(15)
 tt.melee.attacks[2].damage_type = DAMAGE_MAGICAL
 tt.melee.attacks[2].cooldown = 4
@@ -1209,7 +1212,7 @@ tt.timed_attacks.list[2].max_bullets = 4
 tt.timed_attacks.list[2].range_nodes = 25
 tt.timed_attacks.list[2].min_targets = 2
 tt.timed_attacks.list[2].cooldown = 30
-tt.timed_attacks.list[2].min_nodes = -2
+tt.timed_attacks.list[2].min_nodes = -3
 tt.timed_attacks.list[2].max_nodes = -1
 tt.timed_attacks.list[2].cast_time = fts(10)
 tt.timed_attacks.list[2].animation = "spawnGhouls"
@@ -1219,7 +1222,7 @@ tt.timed_attacks.list[2].bullet_start_offset = {
 tt.timed_attacks.list[2].vis_bans = bor(F_FRIEND, F_FLYING)
 -- tt.timed_attacks.list[2].xp_from_skill = "hero_jacko_thriller"
 
-tt = RT("mod_hero_jacko_reduce_armor", "mod_damage_armor")
+tt = RT("mod_hero_jacko_reduce_armor", "mod_damage_magical_armor")
 tt.damage_min = 1
 tt.damage_max = 1
 
@@ -1253,6 +1256,8 @@ tt.bullet.hit_fx = "fx_hero_jack_o_lantern_spawner_hit"
 tt.bullet.hit_fx_water = "fx_hero_jack_o_lantern_spawner_hit"
 tt.bullet.hit_decal = "hero_jack_o_lantern_spawner_seed_decal"
 tt.bullet.hit_payload = "hero_jacko_ghoul"
+tt.sound_events.hit = nil
+tt.sound_events.hit_water = nil
 tt.render.sprites[1].name = "hero_jack_o_lantern_spawner_seed_travel"
 tt.render.sprites[1].animated = true
 
@@ -1316,16 +1321,17 @@ tt.melee.attacks[1].hit_time = fts(9)
 tt.regen.health = 8
 tt.regen.cooldown = 0.5
 tt.reinforcement.duration = 20
+tt.ui.click_rect = r(-20, -5, 40, 28)
 tt.hover.cooldown_min = 5
 tt.hover.cooldown_max = 15
 tt.hover.random_ni = 6
+tt.fade_out = true
 tt.insert_delay = 1.2
 
 tt = E:register_t("hero_jack_o_lantern_ultimate")
 E:add_comps(tt, "pos", "main_script", "sound_events")
 tt.can_fire_fn = customScripts1.summoning_hero_ultimate.can_fire_fn
-tt.main_script.update = customScripts1.summoning_hero_ultimate.update
-tt.use_center = true
+tt.main_script.update = customScripts1.hero_jack_o_lantern_ultimate.update
 tt.cooldown = 40
 tt.entity = "hero_jacko_horse"
 tt.sound_events.insert = "hero_jacko_horses"
@@ -1334,6 +1340,7 @@ tt = RT("hero_jacko_horse", "aura_wander")
 tt.render.sprites[1].prefix = "hero_jack_o_lantern_ultimate_horse"
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].anchor.y = 0.3
+tt.render.sprites[1].sort_y_offset = -32
 tt.render.sprites[2] = nil
 tt.motion.max_speed = 90
 tt.aura.duration = 6
@@ -1383,8 +1390,9 @@ tt.particle_system.z = Z_OBJECTS + 2
 tt = RT("mod_hero_jacko_horse_intimidation", "mod_intimidation")
 E:add_comps(tt, "render")
 tt.modifier.duration = fts(8)
+tt.modifier.health_bar_offset = v(0, -8)
 tt.speed_factor = 3
-tt.main_script.update = customScripts1.mod_track_target_with_fade.insert
+tt.main_script.update = customScripts1.mod_track_target_with_fade.update
 tt.render.sprites[1].name = "hero_jack_o_lantern_ultimate_fear_modifier_run"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].loop = true

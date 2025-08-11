@@ -2956,7 +2956,7 @@ return {
 	ITEM_HERO_JACK_O_LANTERN_NAME = "Dark Horseman Jack O'Lantern",
 	ITEM_HERO_JACK_O_LANTERN_BOTTOM_DESC = "Summon Dark Horseman Jack O'Lantern to defeat your enemies.",
 	ITEM_HERO_JACK_O_LANTERN_BOTTOM_INFO = "Summon Dark Horseman Jack O'Lantern to fight alongside you.",
-	ITEM_HERO_JACK_O_LANTERN_DESC = "Jack was a skilled knight, the leader of a mercenary band of great renown. He fought for the opposite side of what would be the first king of Linirea. In a battle, a cannonball hit him directly in the head, leaving his body lying among the roots of the Rotten Forest. Since then, he has tormented all humans who pass through his lands.",
+	ITEM_HERO_JACK_O_LANTERN_DESC = "Jack was a skilled knight, the leader of a mercenary band of great renown. In a battle, a cannonball hit him directly in the head, leaving his body lying among the roots of the Rotten Forest. Since then, he has tormented all humans who pass through his lands.",
 	HERO_ELVES_PIXIE_NAME = "Catha",
 	HERO_ELVES_RAG_NAME = "Razz & Rags",
 	HERO_ELVES_LYNN_NAME = "Lynn",
