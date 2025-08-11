@@ -2146,6 +2146,7 @@ function scripts.soldier_wander.update(this, store, script)
 		if not this.health.dead or SU.y_soldier_revive(store, this) then
 			-- block empty
 		else
+			U.unblock_target(store, this)
 			SU.hide_shadow(this, true)
 			U.animation_start(this, "death", nil, store.tick_ts, false, 1)
 			if this.sound_events.death then
@@ -2310,6 +2311,7 @@ function scripts.soldier_hover.update(this, store, script)
 		end
 
 		if this.health.dead or this.reinforcement and this.reinforcement.duration and store.tick_ts - this.reinforcement.ts > this.reinforcement.duration then
+			U.unblock_target(store, this)
 			if this.health.hp > 0 then
 				this.reinforcement.hp_before_timeout = this.health.hp
 			end

@@ -29140,6 +29140,7 @@ tt.ui.click_rect = r(-18, tt.flight_height - 2, 36, 23)
 tt.vis.flags = bor(F_ENEMY, F_FLYING, F_POLYMORPH)
 
 tt = E:register_t("bombKR5", "bomb")
+tt.bullet.ignore_hit_offset = true
 tt.bullet.damage_decay_random = false
 tt.bullet.damage_type = DAMAGE_EXPLOSION
 tt.bullet.hit_decal = "decal_bomb_crater_KR5"

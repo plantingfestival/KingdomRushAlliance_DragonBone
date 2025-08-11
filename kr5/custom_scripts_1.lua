@@ -6324,6 +6324,7 @@ end
 
 function scripts.hero_jack_o_lantern.update(this, store, script)
 	local h = this.health
+	local hero = this.hero
 	local explosive_head_attack = this.timed_attacks.list[1]
 	local hero_jacko_thriller_attack = this.timed_attacks.list[2]
 	local skill_ultimate = this.hero.skills.ultimate
@@ -6496,16 +6497,10 @@ end
 
 scripts.hero_jack_o_lantern_ultimate = {}
 function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
-	for i = 1, 3 do
-		local e = E:create_entity(this.entity)
-		local pi, spi, ni
-		spi = i
-		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, { spi }, true)
-		if #nodes < 1 then
-			goto label_continue
-		end
-		pi, spi, ni = unpack(nodes[1])
+	local pi, spi, ni
+	local function insert_entity()
 		local npos = P:node_pos(pi, spi, ni)
+		local e = E:create_entity(this.entity)
 		e.pos = npos
 		if e.nav_path then
 			e.nav_path.pi = pi
@@ -6513,7 +6508,17 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 			e.nav_path.ni = ni
 		end
 		queue_insert(store, e)
-		::label_continue::
+	end
+
+	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, { 1 }, true)
+	if #nodes < 1 then
+		queue_remove(store, this)
+		return
+	end
+	pi, spi, ni = unpack(nodes[1])
+	for i = 1, 3 do
+		spi = i
+		insert_entity()
 	end
 	queue_remove(store, this)
 end

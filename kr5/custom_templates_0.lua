@@ -326,7 +326,7 @@ tt.fade_out = nil
 tt.main_script.update = scripts.soldier_hover.update
 
 tt = E:register_t("KR5Bomb", "bombKR5")
-tt.bullet.ignore_hit_offset = true
+tt.bullet.pop_chance = 0
 tt.main_script.insert = scripts.KR5Bomb.insert
 tt.main_script.update = scripts.KR5Bomb.update
 

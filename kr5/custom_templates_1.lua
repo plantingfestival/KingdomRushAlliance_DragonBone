@@ -704,6 +704,7 @@ tt.bullet.hit_payload = {
 	"controller_aura_cold_fury_ice"
 }
 tt.bullet.flight_time = fts(15)
+tt.bullet.ignore_hit_offset = true
 tt.delay_betweeen_flames = fts(2)
 tt.flame_bullet = "flame_bullet_cold_fury"
 tt.flames_count = 12

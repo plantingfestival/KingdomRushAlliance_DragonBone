@@ -3730,7 +3730,7 @@ function scripts.hero_elves_archer.update(this, store)
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
-					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max)
+					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max, nil, nil, nil, true)
 				end
 				if targets_info and #targets_info >= skill_ultimate.min_targets then
 					target = targets_info[1].enemy
@@ -4270,7 +4270,7 @@ function scripts.hero_arivan.update(this, store)
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
-					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max)
+					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max, nil, nil, nil, true)
 				end
 				if targets_info and #targets_info >= skill_ultimate.min_targets then
 					target = targets_info[1].enemy
