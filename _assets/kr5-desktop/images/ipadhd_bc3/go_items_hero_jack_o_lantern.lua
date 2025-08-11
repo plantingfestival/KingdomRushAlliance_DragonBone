@@ -1,6 +1,6 @@
 return {
 	["bottom_info_image_soldiers_0048"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			104,
 			104
@@ -25,7 +25,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -50,7 +50,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -75,7 +75,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -100,7 +100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -125,7 +125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -150,7 +150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -175,7 +175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -200,7 +200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -225,7 +225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -250,7 +250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -275,7 +275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -300,7 +300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -325,7 +325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -350,7 +350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -375,7 +375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -400,7 +400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -425,7 +425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -450,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -475,7 +475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -500,7 +500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -550,7 +550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -575,7 +575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -600,7 +600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0024"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -625,7 +625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0025"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -650,7 +650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0026"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -675,7 +675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0027"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -700,7 +700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0028"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -725,7 +725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0029"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -750,7 +750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0030"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -775,7 +775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0031"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -800,7 +800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0032"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -825,7 +825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0033"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -850,7 +850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0034"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -875,7 +875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0035"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -900,7 +900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0036"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -925,7 +925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0037"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -950,7 +950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0038"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -975,7 +975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0039"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1000,7 +1000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0040"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1025,7 +1025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0041"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1050,7 +1050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0042"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0043"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0044"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0045"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1150,7 +1150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0046"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1175,7 +1175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0047"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1200,7 +1200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0048"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1225,7 +1225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0049"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1250,7 +1250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0050"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0051"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0052"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1325,7 +1325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0053"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1350,7 +1350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0054"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1375,7 +1375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0055"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1400,7 +1400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0056"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1425,7 +1425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0057"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1450,7 +1450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0058"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1475,7 +1475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0059"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1500,7 +1500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0060"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1525,7 +1525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0061"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1550,7 +1550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0062"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1575,7 +1575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0063"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1600,7 +1600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0064"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1625,7 +1625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0065"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1650,7 +1650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0066"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1675,7 +1675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0067"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1700,7 +1700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0068"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1725,7 +1725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0069"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1750,7 +1750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0070"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1775,7 +1775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0071"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1800,7 +1800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0072"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1825,7 +1825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0073"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1850,7 +1850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0074"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1875,7 +1875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0075"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1900,7 +1900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0076"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0077"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1950,7 +1950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0078"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -1975,7 +1975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0079"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2000,7 +2000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0080"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2025,7 +2025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0081"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2050,7 +2050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0082"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2075,7 +2075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0083"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0084"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0085"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0086"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2175,7 +2175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0087"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2200,7 +2200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0088"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2225,7 +2225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0089"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2250,7 +2250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0090"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2275,7 +2275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0091"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2300,7 +2300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0092"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2325,7 +2325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0093"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2350,7 +2350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0094"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2375,7 +2375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0095"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0096"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2425,7 +2425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0097"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2450,7 +2450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0098"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0099"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2500,7 +2500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0100"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0101"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0102"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2575,7 +2575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0103"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2600,7 +2600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0104"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2625,7 +2625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0105"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2650,7 +2650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0106"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2675,7 +2675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0107"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2700,7 +2700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0108"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2725,7 +2725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0109"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2750,7 +2750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0110"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2775,7 +2775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0111"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2800,7 +2800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0112"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2825,7 +2825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0113"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2850,7 +2850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0114"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2875,7 +2875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0115"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2900,7 +2900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0116"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2925,7 +2925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0117"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2950,7 +2950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0118"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -2975,7 +2975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0119"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3000,7 +3000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0120"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3025,7 +3025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0121"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3050,7 +3050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0122"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3075,7 +3075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0123"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3100,7 +3100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0124"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3125,7 +3125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0125"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3150,7 +3150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0126"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3175,7 +3175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0127"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3200,7 +3200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0128"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3225,7 +3225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0129"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3250,7 +3250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0130"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3275,7 +3275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0131"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3300,7 +3300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0132"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3325,7 +3325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0133"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3350,7 +3350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0134"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3375,7 +3375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0135"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3400,7 +3400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0136"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3425,7 +3425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0137"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3450,7 +3450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0138"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3475,7 +3475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0139"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3500,7 +3500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0140"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3525,7 +3525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0141"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3550,7 +3550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0142"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3575,7 +3575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0143"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3600,7 +3600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0144"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3625,7 +3625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0145"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3650,7 +3650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0146"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0147"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3700,7 +3700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0148"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3725,7 +3725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0149"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0150"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3775,7 +3775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0151"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3800,7 +3800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0152"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3825,7 +3825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0153"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3850,7 +3850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0154"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3875,7 +3875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0155"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0156"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0157"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0158"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -3975,7 +3975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0159"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4000,7 +4000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0160"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4025,7 +4025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0161"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4050,7 +4050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0162"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4075,7 +4075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0163"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4100,7 +4100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0164"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4125,7 +4125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0165"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4150,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0166"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4175,7 +4175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0167"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4200,7 +4200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0168"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0169"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0170"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4275,7 +4275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0171"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4300,7 +4300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0172"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4325,7 +4325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0173"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4350,7 +4350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0174"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0175"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0176"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0177"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0178"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0179"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0180"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0181"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0182"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4575,7 +4575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0183"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0184"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0185"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4650,7 +4650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0186"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4675,7 +4675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0187"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4700,7 +4700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0188"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0189"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0190"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0191"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4800,7 +4800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0192"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4825,7 +4825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0193"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4850,7 +4850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0194"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4875,7 +4875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0195"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4900,7 +4900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0196"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4925,7 +4925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0197"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4950,7 +4950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0198"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -4975,7 +4975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0199"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5000,7 +5000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0200"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5025,7 +5025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0201"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5050,7 +5050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0202"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5075,7 +5075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0203"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5100,7 +5100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0204"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5125,7 +5125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0205"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5150,7 +5150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0206"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5175,7 +5175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0207"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5200,7 +5200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0208"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5225,7 +5225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0209"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5250,7 +5250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0210"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5275,7 +5275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0211"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5300,7 +5300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0212"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5325,7 +5325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0213"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5350,7 +5350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0214"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5375,7 +5375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0215"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5400,7 +5400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0216"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5425,7 +5425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0217"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5450,7 +5450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0218"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5475,7 +5475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0219"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5500,7 +5500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0220"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5525,7 +5525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0221"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5550,7 +5550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0222"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5575,7 +5575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0223"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5600,7 +5600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0224"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5625,7 +5625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0225"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5650,7 +5650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0226"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5675,7 +5675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0227"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5700,7 +5700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0228"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5725,7 +5725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0229"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5750,7 +5750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0230"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5775,7 +5775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0231"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5800,7 +5800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0232"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5825,7 +5825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0233"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5850,7 +5850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0234"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5875,7 +5875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0235"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5900,7 +5900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0236"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5925,7 +5925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0237"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5950,7 +5950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0238"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -5975,7 +5975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0239"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6000,7 +6000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0240"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6025,7 +6025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0241"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6050,7 +6050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0242"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6075,7 +6075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0243"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6100,7 +6100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0244"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6125,7 +6125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0245"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6150,7 +6150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0246"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6175,7 +6175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0247"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6200,7 +6200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0248"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6225,7 +6225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0249"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6250,7 +6250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0250"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6275,7 +6275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0251"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6300,7 +6300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0252"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6325,7 +6325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0253"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6350,7 +6350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0254"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6375,7 +6375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0255"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6400,7 +6400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0256"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6425,7 +6425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0257"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6450,7 +6450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0258"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6475,7 +6475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0259"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6500,7 +6500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0260"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6525,7 +6525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0261"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6550,7 +6550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0262"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6575,7 +6575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0263"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6600,7 +6600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0264"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6625,7 +6625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0265"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6650,7 +6650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0266"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6675,7 +6675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0267"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6700,7 +6700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0268"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6725,7 +6725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0269"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6750,7 +6750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0270"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6775,7 +6775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0271"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6800,7 +6800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0272"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6825,7 +6825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0273"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6850,7 +6850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0274"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6875,7 +6875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0275"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6900,7 +6900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0276"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6925,7 +6925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0277"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6950,7 +6950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0278"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -6975,7 +6975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0279"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7000,7 +7000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0280"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7025,7 +7025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0281"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7050,7 +7050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0282"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7075,7 +7075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0283"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7100,7 +7100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0284"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7125,7 +7125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0285"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7150,7 +7150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0286"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7175,7 +7175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0287"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7200,7 +7200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0288"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7225,7 +7225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0289"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7250,7 +7250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0290"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7275,7 +7275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0291"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7300,7 +7300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0292"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7325,7 +7325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0293"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7350,7 +7350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0294"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7375,7 +7375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0295"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7400,7 +7400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0296"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7425,7 +7425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0297"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7450,7 +7450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0298"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7475,7 +7475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0299"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7500,7 +7500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0300"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7525,7 +7525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0301"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7550,7 +7550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0302"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7575,7 +7575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0303"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7600,7 +7600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0304"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7625,7 +7625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0305"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7650,7 +7650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0306"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7675,7 +7675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0307"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7700,7 +7700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0308"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7725,7 +7725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0309"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7750,7 +7750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0310"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7775,7 +7775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0311"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7800,7 +7800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0312"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7825,7 +7825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0313"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7850,7 +7850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0314"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7875,7 +7875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0315"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7900,7 +7900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0316"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7925,7 +7925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0317"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7950,7 +7950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0318"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -7975,7 +7975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0319"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8000,7 +8000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0320"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8025,7 +8025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0321"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8050,7 +8050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0322"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8075,7 +8075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0323"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8100,7 +8100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0324"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8125,7 +8125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0325"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8150,7 +8150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0326"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8175,7 +8175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0327"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8200,7 +8200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0328"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8225,7 +8225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0329"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8250,7 +8250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0330"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8275,7 +8275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0331"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8300,7 +8300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0332"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8325,7 +8325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0333"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8350,7 +8350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0334"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8375,7 +8375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0335"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8400,7 +8400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0336"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8425,7 +8425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0337"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8450,7 +8450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0338"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8475,7 +8475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0339"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8500,7 +8500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0340"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8525,7 +8525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0341"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8550,7 +8550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0342"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8575,7 +8575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0343"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8600,7 +8600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0344"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8625,7 +8625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0345"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8650,7 +8650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0346"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8675,7 +8675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0347"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8700,7 +8700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0348"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8725,7 +8725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0349"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8750,7 +8750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0350"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8775,7 +8775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0351"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8800,7 +8800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0352"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8825,7 +8825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0353"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8850,7 +8850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0354"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8875,7 +8875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0355"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8900,7 +8900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0356"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8925,7 +8925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0357"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8950,7 +8950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0358"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -8975,7 +8975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_0359"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -9000,7 +9000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_0360"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -9025,7 +9025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9050,7 +9050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9075,7 +9075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9100,7 +9100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9125,7 +9125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9150,7 +9150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9175,7 +9175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9200,7 +9200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9225,7 +9225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9250,7 +9250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9275,7 +9275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9300,7 +9300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9325,7 +9325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9350,7 +9350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9375,7 +9375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9400,7 +9400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9425,7 +9425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_explotion_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9450,7 +9450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_explotion_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			140,
 			142
@@ -9475,7 +9475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9500,7 +9500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9525,7 +9525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9550,7 +9550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9575,7 +9575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9600,7 +9600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9625,7 +9625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9650,7 +9650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9675,7 +9675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9700,7 +9700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9725,7 +9725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9750,7 +9750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9775,7 +9775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9800,7 +9800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9825,7 +9825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9850,7 +9850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9875,7 +9875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9900,7 +9900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9925,7 +9925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9950,7 +9950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -9975,7 +9975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10000,7 +10000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10025,7 +10025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10050,7 +10050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0024"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10075,7 +10075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0025"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10100,7 +10100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0026"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10125,7 +10125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0027"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10150,7 +10150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0028"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10175,7 +10175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0029"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10200,7 +10200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0030"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10225,7 +10225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0031"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10250,7 +10250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0032"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10275,7 +10275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0033"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10300,7 +10300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0034"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10325,7 +10325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0035"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10350,7 +10350,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0036"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10375,7 +10375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0037"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10400,7 +10400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0038"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10425,7 +10425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0039"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10450,7 +10450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0040"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10475,7 +10475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0041"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10500,7 +10500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0042"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10525,7 +10525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0043"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10550,7 +10550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0044"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10575,7 +10575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0045"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10600,7 +10600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0046"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10625,7 +10625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0047"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10650,7 +10650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0048"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10675,7 +10675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0049"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10700,7 +10700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0050"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10725,7 +10725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0051"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10750,7 +10750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0052"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10775,7 +10775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0053"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10800,7 +10800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0054"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10825,7 +10825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0055"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10850,7 +10850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0056"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10875,7 +10875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0057"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10900,7 +10900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0058"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10925,7 +10925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0059"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10950,7 +10950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0060"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -10975,7 +10975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0061"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11000,7 +11000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0062"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11025,7 +11025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0063"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11050,7 +11050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0064"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11075,7 +11075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0065"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11100,7 +11100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0066"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11125,7 +11125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0067"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11150,7 +11150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0068"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11175,7 +11175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0069"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11200,7 +11200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0070"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11225,7 +11225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0071"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11250,7 +11250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0072"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11275,7 +11275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ghoul_0073"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11300,7 +11300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0074"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11325,7 +11325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0075"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11350,7 +11350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0076"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11375,7 +11375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0077"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11400,7 +11400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_0078"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11425,7 +11425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ghoul_shadow"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			128,
 			97
@@ -11450,7 +11450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_head_proyectile"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			60,
 			60
@@ -11475,7 +11475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_shadow"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -11500,7 +11500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11525,7 +11525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11550,7 +11550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11575,7 +11575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11600,7 +11600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11625,7 +11625,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11650,7 +11650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11675,7 +11675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11700,7 +11700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11725,7 +11725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11750,7 +11750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11775,7 +11775,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11800,7 +11800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11825,7 +11825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11850,7 +11850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11875,7 +11875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11900,7 +11900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11925,7 +11925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11950,7 +11950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -11975,7 +11975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12000,7 +12000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12025,7 +12025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12050,7 +12050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12075,7 +12075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0024"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12100,7 +12100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0025"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12125,7 +12125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0026"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12150,7 +12150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0027"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12175,7 +12175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0028"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12200,7 +12200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0029"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12225,7 +12225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0030"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12250,7 +12250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0031"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12275,7 +12275,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0032"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12300,7 +12300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0033"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12325,7 +12325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0034"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12350,7 +12350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0035"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12375,7 +12375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0036"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12400,7 +12400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0037"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12425,7 +12425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0038"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12450,7 +12450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0039"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12475,7 +12475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0040"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12500,7 +12500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0041"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12525,7 +12525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0042"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12550,7 +12550,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0043"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12575,7 +12575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0044"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12600,7 +12600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0045"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12625,7 +12625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0046"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12650,7 +12650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0047"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12675,7 +12675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0048"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12700,7 +12700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0049"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12725,7 +12725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0050"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12750,7 +12750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0051"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12775,7 +12775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0052"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12800,7 +12800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0053"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12825,7 +12825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0054"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12850,7 +12850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_hit_0055"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12875,7 +12875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_hit_0056"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			106,
 			144
@@ -12900,7 +12900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -12925,7 +12925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -12950,7 +12950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -12975,7 +12975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13000,7 +13000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13025,7 +13025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13050,7 +13050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13075,7 +13075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13100,7 +13100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13125,7 +13125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13150,7 +13150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13175,7 +13175,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13200,7 +13200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13225,7 +13225,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13250,7 +13250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13275,7 +13275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13300,7 +13300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13325,7 +13325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			24,
 			24
@@ -13350,7 +13350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13375,7 +13375,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13400,7 +13400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13425,7 +13425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13450,7 +13450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13475,7 +13475,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13500,7 +13500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13525,7 +13525,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13550,7 +13550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13575,7 +13575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_spawner_seed_decal_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			75,
 			56
@@ -13600,7 +13600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13625,7 +13625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13650,7 +13650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13675,7 +13675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13700,7 +13700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13725,7 +13725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13750,7 +13750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13775,7 +13775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13800,7 +13800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13825,7 +13825,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13850,7 +13850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13875,7 +13875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13900,7 +13900,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13925,7 +13925,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13950,7 +13950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -13975,7 +13975,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14000,7 +14000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14025,7 +14025,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14050,7 +14050,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14075,7 +14075,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14100,7 +14100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14125,7 +14125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14150,7 +14150,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14175,7 +14175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0024"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14200,7 +14200,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0025"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14225,7 +14225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0026"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14250,7 +14250,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_teleportfx_0027"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14275,7 +14275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0028"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14300,7 +14300,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0029"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14325,7 +14325,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0030"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14350,7 +14350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_teleportfx_0031"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			600,
 			255
@@ -14375,7 +14375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_fear_modifier_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			99,
 			49
@@ -14400,7 +14400,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_fear_modifier_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			99,
 			49
@@ -14425,7 +14425,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_fear_modifier_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			99,
 			49
@@ -14450,7 +14450,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_fear_modifier_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			99,
 			49
@@ -14475,7 +14475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14500,7 +14500,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14525,7 +14525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14550,7 +14550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14575,7 +14575,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14600,7 +14600,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14625,7 +14625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14650,7 +14650,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14675,7 +14675,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14700,7 +14700,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14725,7 +14725,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14750,7 +14750,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14775,7 +14775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14800,7 +14800,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14825,7 +14825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14850,7 +14850,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14875,7 +14875,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14900,7 +14900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14925,7 +14925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14950,7 +14950,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -14975,7 +14975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15000,7 +15000,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15025,7 +15025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15050,7 +15050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0024"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15075,7 +15075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0025"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15100,7 +15100,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0026"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15125,7 +15125,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0027"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15150,7 +15150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0028"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15175,7 +15175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0029"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15200,7 +15200,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0030"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15225,7 +15225,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0031"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15250,7 +15250,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0032"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15275,7 +15275,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0033"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15300,7 +15300,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0034"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15325,7 +15325,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_horse_0035"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15350,7 +15350,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_horse_0036"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			194,
 			139
@@ -15375,7 +15375,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_particle_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15400,7 +15400,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_particle_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15425,7 +15425,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_particle_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15450,7 +15450,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_particle_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15475,7 +15475,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_particle_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15500,7 +15500,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_particle_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15525,7 +15525,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_particle_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15550,7 +15550,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_particle_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15575,7 +15575,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_particle_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15600,7 +15600,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_particle_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			51,
 			42
@@ -15625,7 +15625,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0001"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15650,7 +15650,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0002"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15675,7 +15675,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0003"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15700,7 +15700,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0004"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15725,7 +15725,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0005"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15750,7 +15750,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0006"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15775,7 +15775,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0007"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15800,7 +15800,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0008"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15825,7 +15825,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0009"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15850,7 +15850,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0010"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15875,7 +15875,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0011"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15900,7 +15900,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0012"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15925,7 +15925,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0013"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15950,7 +15950,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0014"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -15975,7 +15975,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0015"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16000,7 +16000,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0016"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16025,7 +16025,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0017"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16050,7 +16050,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0018"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16075,7 +16075,7 @@ return {
 		textureRotated = true
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0019"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16100,7 +16100,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0020"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16125,7 +16125,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0021"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16150,7 +16150,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0022"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16175,7 +16175,7 @@ return {
 		textureRotated = false
 	},
 	["hero_jack_o_lantern_ultimate_smoke_0023"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			224,
 			241
@@ -16200,7 +16200,7 @@ return {
 		textureRotated = false
 	},
 	["item_thumb_hero_jack_o_lantern"] = {
-		a_name = "go_items_hero_jack_o_lantern.png",
+		a_name = "go_items_hero_jack_o_lantern.dds",
 		size = {
 			624,
 			784
