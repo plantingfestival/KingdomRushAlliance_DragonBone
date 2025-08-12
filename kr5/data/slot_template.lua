@@ -303,7 +303,6 @@ return {
 			hero_elora = 1,
 			hero_oni = 1,
 			hero_thor = 1,
-			hero_faustus = 0,
 			hero_voodoo_witch = 1,
 			hero_beastmaster = 1,
 			hero_priest = 1,
@@ -316,6 +315,7 @@ return {
 			hero_wizard = 1,
 			hero_dwarf = 1,
 			hero_elves_archer = 1,
+			hero_faustus = 1,
 			hero_phoenix = 1,
 			hero_veznan = 1,
 			hero_jack_o_lantern = 1
