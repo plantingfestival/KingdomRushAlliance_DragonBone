@@ -6402,8 +6402,8 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 		end
 
-		SU.heroes_visual_learning_upgrade(store, this)
-		SU.heroes_lone_wolves_upgrade(store, this)
+		-- SU.heroes_visual_learning_upgrade(store, this)
+		-- SU.heroes_lone_wolves_upgrade(store, this)
 		SU.alliance_merciless_upgrade(store, this)
 		SU.alliance_corageous_upgrade(store, this)
 
@@ -6428,9 +6428,12 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 		if not skip then
 			attack = explosive_head_attack
 			if SU.check_unit_attack_available(store, this, attack) then
-				skip = SU.entity_attacks(store, this, attack)
+				local done = nil
+				skip, done = SU.entity_attacks(store, this, attack)
 				if not skip then
 					SU.delay_attack(store, attack, fts(10))
+				elseif done == A_DONE then
+					hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + attack.extra_cooldown
 				end
 			end
 		end
@@ -6516,9 +6519,16 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 		return
 	end
 	pi, spi, ni = unpack(nodes[1])
-	for i = 1, 3 do
+	insert_entity()
+	for i = 2, 3 do
 		spi = i
+		-- nodes = P:nearest_nodes(this.pos.x, this.pos.y, { pi }, { spi }, true)
+		-- if #nodes < 1 then
+		-- 	goto label_continue
+		-- end
+		-- pi, spi, ni = unpack(nodes[1])
 		insert_entity()
+		-- ::label_continue::
 	end
 	queue_remove(store, this)
 end

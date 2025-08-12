@@ -1838,6 +1838,27 @@ function scripts.aura_wander.update(this, store, script)
 	this.aura.ts = store.tick_ts
 	local last_hit_ts = store.tick_ts - this.aura.cycle_time
 
+	local function wander()
+		local nearest = P:nearest_nodes(this.pos.x, this.pos.y, {
+			this.nav_path.pi
+		}, {
+			this.nav_path.spi
+		})
+		if nearest and nearest[1] and nearest[1][3] < this.nav_path.ni then
+			this.nav_path.ni = nearest[1][3]
+		end
+		local next_pos = P:next_entity_node(this, store.tick_length)
+		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
+		GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+			return true
+		end
+		U.set_destination(this, next_pos)
+		local an, af = U.animation_name_facing_point(this, "walk", this.motion.dest)
+		U.animation_start(this, an, af, store.tick_ts, true)
+		U.walk(this, store.tick_length)
+		return false
+	end
+
 	if this.tween then
 		this.tween.reverse = false
 		this.tween.remove = false
@@ -1929,24 +1950,9 @@ function scripts.aura_wander.update(this, store, script)
 			end
 		end
 
-		local nearest = P:nearest_nodes(this.pos.x, this.pos.y, {
-			this.nav_path.pi
-		}, {
-			this.nav_path.spi
-		})
-		if nearest and nearest[1] and nearest[1][3] < this.nav_path.ni then
-			this.nav_path.ni = nearest[1][3]
-		end
-		local next_pos = P:next_entity_node(this, store.tick_length)
-		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
-		GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+		if wander() then
 			break
 		end
-		U.set_destination(this, next_pos)
-		local an, af = U.animation_name_facing_point(this, "walk", this.motion.dest)
-		U.animation_start(this, an, af, store.tick_ts, true)
-		U.walk(this, store.tick_length)
-
 		coroutine.yield()
 	end
 
@@ -1961,13 +1967,22 @@ function scripts.aura_wander.update(this, store, script)
 		U.y_animation_play(this, this.death_animation, nil, store.tick_ts)
 	end
 	if this.dead_lifetime and this.dead_lifetime > 0 then
-		U.y_wait(store, this.dead_lifetime)
+		if this.death_animation then
+			U.y_wait(store, this.dead_lifetime)
+		else
+			U.y_wait(store, this.dead_lifetime, wander())
+		end
 	end
 	if this.tween and this.fade_out then
 		this.tween.reverse = true
 		this.tween.remove = true
 		this.tween.disabled = nil
 		this.tween.ts = store.tick_ts
+		if not this.death_animation then
+			while not wander() do
+				coroutine.yield()
+			end
+		end
 	else
 		queue_remove(store, this)
 	end

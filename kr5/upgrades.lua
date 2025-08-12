@@ -1151,6 +1151,7 @@ function upgrades:patch_templates(max_level)
 		"hero_arivan",
 		"hero_phoenix",
 		"hero_veznan",
+		"hero_faustus",
 		"hero_jack_o_lantern",
 	}
 

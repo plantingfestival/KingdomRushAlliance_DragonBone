@@ -9081,13 +9081,13 @@ tt.hero.skills.dragon_lance.hr_icon = "0041"
 tt.hero.skills.dragon_lance.hr_order = 1
 tt.hero.skills.dragon_lance.damage_min = {
 	105,
-	185,
-	270
+	210,
+	315
 }
 tt.hero.skills.dragon_lance.damage_max = {
 	195,
-	345,
-	500
+	390,
+	585
 }
 tt.hero.skills.dragon_lance.xp_gain = {
 	50,
@@ -9177,26 +9177,29 @@ tt.hero.skills.ultimate.mod_damage = {
 	5,
 	7
 }
-tt.hero.skills.ultimate.max_range = 300
-tt.hero.skills.ultimate.min_targets = 5
 tt.hero.skills.ultimate.controller_name = "hero_faustus_ultimate"
 tt.hero.skills.ultimate.key = "DRAGON_RAGE"
+tt.hero.skills.ultimate.max_range = 250
+tt.hero.skills.ultimate.min_targets = 5
+tt.hero.skills.ultimate.crowd_range = 80
+tt.hero.skills.ultimate.search_type = U.search_type.find_max_crowd
+tt.hero.skills.ultimate.node_prediction = fts(50)
 tt.health.dead_lifetime = 30
 tt.health_bar.draw_order = -1
 tt.health_bar.offset = v(0, 189)
 tt.health_bar.sort_y_offset = -200
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.hero.fn_level_up = kr3_scripts.hero_faustus.level_up
-tt.hero.tombstone_show_time = nil
+tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
+tt.hero.tombstone_show_time = fts(45)
 tt.hero.use_custom_spawn_point = true
 tt.idle_flip.cooldown = 10
 tt.info.damage_icon = "magic"
 tt.info.fn = kr3_scripts.hero_faustus.get_info
-tt.info.hero_portrait = "hero_portraits_0009"
 tt.info.i18n_key = "HERO_ELVES_FAUSTUS"
-tt.info.portrait = ("portraits_hero_0125")
-tt.info.ultimate_icon = "0009"
-tt.info.ultimate_pointer_style = "area"
+tt.info.portrait = "portraits_hero_0125"
+-- tt.info.ultimate_icon = "0009"
+-- tt.info.ultimate_pointer_style = "area"
 tt.main_script.insert = kr3_scripts.hero_faustus.insert
 tt.main_script.update = kr3_scripts.hero_faustus.update
 tt.motion.max_speed = 6 * FPS
@@ -9204,6 +9207,7 @@ tt.nav_rally.requires_node_nearby = false
 tt.nav_grid.ignore_waypoints = true
 tt.nav_grid.valid_terrains = TERRAIN_ALL_MASK
 tt.nav_grid.valid_terrains_dest = TERRAIN_ALL_MASK
+tt.drag_line_origin_offset = v(0, 120)
 tt.regen.cooldown = 1
 tt.render.sprites[1].anchor.y = 0.065
 tt.render.sprites[1].prefix = "hero_faustus"
@@ -9235,10 +9239,10 @@ tt.ranged.attacks[1].bullet_start_offset = {
 	v(26, 80)
 }
 tt.ranged.attacks[1].cooldown = 1
-tt.ranged.attacks[1].bullet_count = 15
+tt.ranged.attacks[1].bullet_count = 3
 tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
-tt.ranged.attacks[1].min_range = 32
+tt.ranged.attacks[1].min_range = 0
 tt.ranged.attacks[1].max_range = 256
 tt.ranged.attacks[1].extra_range = 80
 tt.ranged.attacks[1].shoot_time = fts(12)
@@ -9252,8 +9256,8 @@ tt.ranged.attacks[2].bullet = "bolt_lance_faustus"
 tt.ranged.attacks[2].bullet_start_offset = {
 	v(22, 110)
 }
-tt.ranged.attacks[2].cooldown = 25
-tt.ranged.attacks[2].min_range = 20
+tt.ranged.attacks[2].cooldown = 20
+tt.ranged.attacks[2].min_range = 0
 tt.ranged.attacks[2].max_range = 150
 tt.ranged.attacks[2].shoot_time = fts(22)
 tt.ranged.attacks[2].sync_animation = true
@@ -9266,10 +9270,11 @@ tt.ranged.attacks[2].start_sound_args = {
 tt.ranged.attacks[2].target_offset_rect = r(40, -80, 110, 160)
 tt.ranged.attacks[2].estimated_flight_time = 1
 tt.ranged.attacks[2].xp_from_skill = "dragon_lance"
+tt.ranged.attacks[2].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[3] = E:clone_c("aura_attack")
 tt.ranged.attacks[3].disabled = true
 tt.ranged.attacks[3].bullet = "aura_teleport_faustus"
-tt.ranged.attacks[3].cooldown = 28
+tt.ranged.attacks[3].cooldown = 20
 tt.ranged.attacks[3].min_range = 0
 tt.ranged.attacks[3].max_range = 100
 tt.ranged.attacks[3].shoot_time = fts(16)
@@ -9287,8 +9292,8 @@ tt.ranged.attacks[3].xp_from_skill = "teleport_rune"
 tt.ranged.attacks[4] = E:clone_c("aura_attack")
 tt.ranged.attacks[4].disabled = true
 tt.ranged.attacks[4].bullet = "aura_enervation_faustus"
-tt.ranged.attacks[4].cooldown = 20
-tt.ranged.attacks[4].min_range = 25
+tt.ranged.attacks[4].cooldown = 15
+tt.ranged.attacks[4].min_range = 0
 tt.ranged.attacks[4].max_range = 100
 tt.ranged.attacks[4].shoot_time = fts(4)
 tt.ranged.attacks[4].sync_animation = true
@@ -9305,11 +9310,11 @@ tt.ranged.attacks[5].bullet = "bullet_liquid_fire_faustus"
 tt.ranged.attacks[5].bullet_start_offset = {
 	v(30, 86)
 }
-tt.ranged.attacks[5].cooldown = 40
+tt.ranged.attacks[5].cooldown = 28
 tt.ranged.attacks[5].disabled = true
 tt.ranged.attacks[5].estimated_flight_time = fts(10)
 tt.ranged.attacks[5].max_range = 180
-tt.ranged.attacks[5].min_range = 50
+tt.ranged.attacks[5].min_range = 0
 tt.ranged.attacks[5].min_count = 3
 tt.ranged.attacks[5].max_count_range = 120
 tt.ranged.attacks[5].min_count_nodes_offset = -5
@@ -9321,20 +9326,18 @@ tt.ranged.attacks[5].target_offset_rect = r(50, -80, 130, 160)
 tt.ranged.attacks[5].vis_bans = bor(F_FLYING)
 tt.ranged.attacks[5].vis_flags = bor(F_RANGED)
 tt.ranged.attacks[5].xp_from_skill = "liquid_fire"
+
 tt = E:register_t("hero_faustus_ultimate")
-
 E:add_comps(tt, "pos", "main_script", "sound_events")
-
 tt.can_fire_fn = kr3_scripts.hero_faustus_ultimate.can_fire_fn
-tt.cooldown = 40
+tt.cooldown = 28.8
 tt.main_script.update = kr3_scripts.hero_faustus_ultimate.update
 tt.sound_events.insert = "ElvesHeroFaustusUltimate"
 tt.separation_nodes = 20
 tt.show_delay = 0.5
+
 tt = E:register_t("decal_minidragon_faustus", "decal_scripted")
-
 E:add_comps(tt, "motion", "attacks")
-
 tt.main_script.update = kr3_scripts.decal_minidragon_faustus.update
 tt.motion.max_speed = 10 * FPS
 tt.attacks.list[1] = E:clone_c("aura_attack")
@@ -16595,15 +16598,18 @@ tt.bullet.damage_min = 10
 tt = E:register_t("arrow_soldier_re_5", "arrow_soldier_re_2")
 tt.bullet.damage_max = 30
 tt.bullet.damage_min = 20
+
 tt = E:register_t("bolt_faustus", "bolt_elves")
 tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.hit_fx = "fx_bolt_faustus_hit"
 tt.bullet.particles_name = "ps_bolt_faustus"
 tt.bullet.xp_gain_factor = 0.38
+tt.bullet.use_unit_damage_factor = true
 tt.initial_impulse = 2100
 tt.render.sprites[1].prefix = "bolt_faustus"
 tt.sound_events.insert = nil
 tt.upgrades_disabled = true
+
 tt = E:register_t("bolt_lance_faustus", "bolt")
 tt.bullet.acceleration_factor = 0.25
 tt.bullet.damage_type = DAMAGE_TRUE

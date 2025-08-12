@@ -4283,7 +4283,7 @@ local function entity_casts_spawner(store, this, a)
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
 		if not targets or #targets < min_targets then
-			return false
+			return false, A_NO_TARGET
 		end
 	elseif a.range and a.range > 0 then
 		local targets = nil
@@ -4304,7 +4304,7 @@ local function entity_casts_spawner(store, this, a)
 			end
 		end
 		if not targets or #targets < min_targets then
-			return false
+			return false, A_NO_TARGET
 		end
 	end
 
@@ -4336,7 +4336,7 @@ local function entity_casts_spawner(store, this, a)
 			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 		end
 		y_entity_animation_wait(this)
-		return true
+		return true, A_DONE
 	elseif this.nav_path then
 		local nodes_to_entrance = a.nodes_to_entrance or 0
 		local nodes_to_exit = a.nodes_to_exit or 0
@@ -4384,10 +4384,10 @@ local function entity_casts_spawner(store, this, a)
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
 			y_entity_animation_wait(this)
-			return true
+			return true, A_DONE
 		end
 	end
-	return false
+	return false, A_NO_TARGET
 end
 
 local function entity_casts_range_unit(store, this, a)
@@ -4536,10 +4536,11 @@ local function entity_casts_range_unit(store, this, a)
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
 			y_entity_animation_wait(this)
+			return true, A_DONE
 		end
 		return true
 	end
-	return false
+	return false, A_NO_TARGET
 end
 
 local function entity_casts_range_at_path(store, this, a)
@@ -4547,7 +4548,7 @@ local function entity_casts_range_at_path(store, this, a)
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
 		if not targets or #targets < min_targets then
-			return false
+			return false, A_NO_TARGET
 		end
 	elseif a.range and a.range > 0 then
 		local targets = nil
@@ -4568,7 +4569,7 @@ local function entity_casts_range_at_path(store, this, a)
 			end
 		end
 		if not targets or #targets < min_targets then
-			return false
+			return false, A_NO_TARGET
 		end
 	end
 	local tpi, tspi, tni
@@ -4579,7 +4580,7 @@ local function entity_casts_range_at_path(store, this, a)
 		if #nodes >= 1 then
 			tpi, tspi, tni = unpack(nodes[1])
 		else
-			return false
+			return false, A_NO_TARGET
 		end
 	end
 
@@ -4657,6 +4658,7 @@ local function entity_casts_range_at_path(store, this, a)
 			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 		end
 		y_entity_animation_wait(this)
+		return true, A_DONE
 	end
 	return true
 end
@@ -4716,7 +4718,7 @@ local function entity_casts_object_on_target(store, this, a)
 				if #nodes >= 1 then
 					tpi, tspi, tni = unpack(nodes[1])
 				else
-					return false
+					return false, A_NO_TARGET
 				end
 			end
 			local e = E:create_entity(a.entity)
@@ -4765,10 +4767,11 @@ local function entity_casts_object_on_target(store, this, a)
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
 			y_entity_animation_wait(this)
+			return true, A_DONE
 		end
 		return true
 	end
-	return false
+	return false, A_NO_TARGET
 end
 
 -- true代表打断entity现有的动作

@@ -246,11 +246,11 @@ return {
 			}
 		},
 		hero_faustus = {
-			cost = 100,
+			cost = 500,
 			color_bg = {
-				200,
-				120,
-				0,
+				41,
+				143,
+				123,
 				255
 			}
 		},

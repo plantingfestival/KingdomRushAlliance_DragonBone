@@ -167,9 +167,9 @@ return {
 		to = 98,
 	},
 	enemy_greenmuck_walkingUp = {
-		from = 1,
+		from = 32,
 		prefix = "EnemyGreenmuck",
-		to = 16,
+		to = 17,
 	},
 	enemy_greenmuck_walkingDown = {
 		from = 17,
@@ -495,9 +495,9 @@ return {
 		to = 28,
 	},
 	eb_myconid_walkingUp = {
-		from = 2,
+		from = 49,
 		prefix = "mushroomBoss",
-		to = 25,
+		to = 26,
 	},
 	enemy_sarelgaz_small_death = {
 		from = 88,
@@ -4525,9 +4525,9 @@ return {
 		to = 1,
 	},
 	eb_greenmuck_walkingUp = {
-		from = 1,
+		from = 32,
 		prefix = "BossRotten",
-		to = 16,
+		to = 17,
 	},
 	enemy_goblin_zapper_thorn = {
 		from = 102,
@@ -4866,9 +4866,9 @@ return {
 		to = 52,
 	},
 	enemy_rotten_lesser_walkingUp = {
-		from = 2,
+		from = 33,
 		prefix = "mushroom",
-		to = 17,
+		to = 18,
 	},
 	decal_frozen_mushroom_idle = {
 		from = 1,

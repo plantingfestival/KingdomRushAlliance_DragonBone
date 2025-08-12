@@ -1194,6 +1194,7 @@ tt.timed_attacks.list[1].bullet = "bomb_explosive_head"
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 175
 tt.timed_attacks.list[1].cooldown = 4
+tt.timed_attacks.list[1].extra_cooldown = -5
 tt.timed_attacks.list[1].cast_time = fts(14)
 tt.timed_attacks.list[1].node_prediction = fts(22)
 tt.timed_attacks.list[1].animation = "explosiveHead"
