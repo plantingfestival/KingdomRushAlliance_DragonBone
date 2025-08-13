@@ -49180,7 +49180,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 						bullet.bullet.damage_factor = this.tower.damage_factor
 						bullet.bullet.source_id = this.id
 
-						local node_offset = P:predict_enemy_node_advance(enemy, bullet.bullet.hit_time)
+						local node_offset = P:predict_enemy_node_advance(enemy, fts(16))
 						local e_ni = enemy.nav_path.ni + node_offset
 
 						target_pred_pos = P:node_pos(enemy.nav_path.pi, enemy.nav_path.spi, e_ni)
