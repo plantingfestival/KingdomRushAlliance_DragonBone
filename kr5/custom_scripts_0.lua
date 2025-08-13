@@ -1025,8 +1025,14 @@ function scripts.controller_item_hero.insert(this, store)
 			for key, value in pairs(entity.hero.skills) do
 				if key == "ultimate" and value.hr_cost and value.hr_cost[4] then
 					value.level = 4
+					local ultimate_controller = E:get_template(value.controller_name)
+					value.ts = store.tick_ts - ultimate_controller.cooldown
 				else
 					value.level = 3
+					if key == "ultimate" then
+						local ultimate_controller = E:get_template(value.controller_name)
+						value.ts = store.tick_ts - ultimate_controller.cooldown
+					end
 				end
 			end
 		end

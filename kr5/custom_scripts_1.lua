@@ -6335,7 +6335,6 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	this.melee.attacks[2].ts = store.tick_ts
 	explosive_head_attack.ts = store.tick_ts
 	hero_jacko_thriller_attack.ts = store.tick_ts
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	this.health_bar.hidden = true
 	U.y_animation_play(this, "respawn", nil, store.tick_ts)
@@ -6402,8 +6401,10 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 		end
 
-		-- SU.heroes_visual_learning_upgrade(store, this)
-		-- SU.heroes_lone_wolves_upgrade(store, this)
+		if not skill_ultimate.ts then
+			SU.heroes_visual_learning_upgrade(store, this)
+			SU.heroes_lone_wolves_upgrade(store, this)
+		end
 		SU.alliance_merciless_upgrade(store, this)
 		SU.alliance_corageous_upgrade(store, this)
 
@@ -6448,7 +6449,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			end
 		end
 
-		if not skip and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+		if not skip and skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local entity = E:get_template(ultimate_controller.entity)
 			local target, ultimatePos, targets_info
 			target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)

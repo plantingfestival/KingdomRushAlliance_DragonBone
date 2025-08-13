@@ -3615,8 +3615,6 @@ function scripts.hero_elves_archer.update(this, store)
 		porcupine_target = target
 	end
 
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
-
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -3726,7 +3724,7 @@ function scripts.hero_elves_archer.update(this, store)
 				is_sword = false
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
@@ -4239,8 +4237,6 @@ function scripts.hero_arivan.update(this, store)
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
-
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -4266,7 +4262,7 @@ function scripts.hero_arivan.update(this, store)
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
@@ -5278,7 +5274,6 @@ function scripts.hero_faustus.update(this, store)
 	local skill_ultimate = this.hero.skills.ultimate
 	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	U.y_animation_play(this, "respawn", nil, store.tick_ts, 1)
 
@@ -5476,7 +5471,7 @@ function scripts.hero_faustus.update(this, store)
 			end
 		end
 
-		if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, skill_ultimate.node_prediction, 
 			nil, nil, nil, nil, skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
 			if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
@@ -7270,7 +7265,6 @@ function scripts.hero_veznan.update(this, store)
 	local a, skill, brk, sta
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	for k, a in pairs(this.idle_animations) do
 		a.ts = store.tick_ts
@@ -7496,7 +7490,7 @@ function scripts.hero_veznan.update(this, store)
 				end
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, nil, nil, nil, nil, nil, 
 				skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
 				if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
@@ -9007,7 +9001,6 @@ function scripts.hero_phoenix.update(this, store)
 	local a, skill, brk, sta
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	local function y_hero_ranged_attacks(store, hero)
 		local target, attack, pred_pos = SU.soldier_pick_ranged_target_and_attack(store, hero)
@@ -9232,7 +9225,7 @@ function scripts.hero_phoenix.update(this, store)
 			end
 		end
 
-		if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local ultimatePos = V.vclone(this.pos)
 			if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
 				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
