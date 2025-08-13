@@ -5605,7 +5605,7 @@ function scripts.decal_minidragon_faustus.update(this, store)
 		end
 
 		if emitting and loop_duration < store.tick_ts - emit_ts then
-			U.animation_start(this, "idle", nil, store.tick_ts, false, 2)
+			U.animation_start(this, "idle", nil, store.tick_ts, true, nil, true)
 
 			ps.particle_system.emit = false
 			emitting = false

@@ -2287,8 +2287,11 @@ function TowerRoomView:initialize(size, image_name, base_scale)
 		storage:save_slot(user_data)
 	end
 
-	if #user_data.towers.selected < 5 and #user_data.levels > 4 then
-		table.insert(user_data.towers.selected, "ballista")
+	if #user_data.towers.selected < 6 and #user_data.levels > 4 then
+		if #user_data.towers.selected < 5 then
+			table.insert(user_data.towers.selected, "ballista")
+		end
+		table.insert(user_data.towers.selected, "arborean_emissary")
 		storage:save_slot(user_data)
 	end
 
@@ -2459,14 +2462,16 @@ function TowerRoomView:initialize(size, image_name, base_scale)
 		self:ci("button_tower_ring_sel_02"),
 		self:ci("button_tower_ring_sel_03"),
 		self:ci("button_tower_ring_sel_04"),
-		self:ci("button_tower_ring_sel_05")
+		self:ci("button_tower_ring_sel_05"),
+		self:ci("button_tower_ring_sel_06")
 	}
 	self.roster_sel_positions = {
 		V.vclone(self.roster_sel_items[1].pos),
 		V.vclone(self.roster_sel_items[2].pos),
 		V.vclone(self.roster_sel_items[3].pos),
 		V.vclone(self.roster_sel_items[4].pos),
-		V.vclone(self.roster_sel_items[5].pos)
+		V.vclone(self.roster_sel_items[5].pos),
+		V.vclone(self.roster_sel_items[6].pos)
 	}
 
 	self:ci("button_tower_roster_sel"):set_tower(screen_map.tower_order[1], true)
