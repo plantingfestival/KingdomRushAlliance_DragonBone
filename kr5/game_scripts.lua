@@ -49139,7 +49139,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 			if store.tick_ts - a_basic.ts > a_basic.cooldown and store.tick_ts - last_ts > a.min_cooldown and not a_basic_break() then
 				local ignore_out_of_range_check = true
 				local target_pred_pos
-				local enemy, enemies, _ = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, a_basic.prediction_time, a_basic.vis_flags, a_basic.vis_bans)
+				local enemy, enemies, _ = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, a_basic.prediction_time, a_basic.vis_flags, a_basic.vis_bans)
 
 				if not enemies or not enemy then
 					SU.delay_attack(store, a_basic, fts(3))
@@ -49153,7 +49153,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 					U.animation_start(this, a_basic.animation_loop, nil, store.tick_ts, true, sid_geode)
 					U.animation_start(this, "loop", nil, store.tick_ts, true, sid_attack_fx)
 
-					local _, new_enemies = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, fts(9), a_basic.vis_flags, a_basic.vis_bans)
+					local _, new_enemies = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, fts(9), a_basic.vis_flags, a_basic.vis_bans)
 
 					if new_enemies then
 						enemies = new_enemies
@@ -49231,7 +49231,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 
 						U.y_wait(store, ray_timing)
 
-						enemy, enemies = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, bullet.bullet.hit_time, a_basic.vis_flags, a_basic.vis_bans)
+						enemy, enemies = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, bullet.bullet.hit_time, a_basic.vis_flags, a_basic.vis_bans)
 
 						if not enemy then
 							break
