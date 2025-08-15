@@ -528,6 +528,7 @@ soldier.melee_slot_offset = v(0, 0)
 soldier.melee_slot_spread = nil
 soldier.target_id = nil
 soldier.courage_ts = 0
+soldier.can_do_magic = true
 
 local reinforcement = E:register_c("reinforcement")
 

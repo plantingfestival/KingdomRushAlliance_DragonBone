@@ -2090,29 +2090,34 @@ function U.find_weakest_soldier_in_range(entities, origin, min_range, max_range,
 	return soldier, soldiers, V.vclone(soldier.pos)
 end
 
-function U.find_soldier_with_search_type(entities, origin, min_range, max_range, flags, bans, filter_func, search_type, crowd_range, min_targets)
+function U.find_soldier_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, search_type, crowd_range, min_targets)
 	flags = flags or 0
 	bans = bans or 0
 	search_type = search_type or U.search_type.nearest
+	local soldier, soldiers, soldier_pos
 
 	if search_type == U.search_type.nearest then
-		return U.find_nearest_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
+		soldier, soldiers, soldier_pos = U.find_nearest_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
 	elseif search_type == U.search_type.random then
-		return U.find_random_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
+		soldier, soldiers, soldier_pos = U.find_random_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
 	elseif search_type == U.search_type.max_health then
-		return U.find_strongest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+		soldier, soldiers, soldier_pos = U.find_strongest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
 	elseif search_type == U.search_type.min_health then
-		return U.find_weakest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+		soldier, soldiers, soldier_pos = U.find_weakest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
 	elseif search_type == U.search_type.find_max_crowd then
-		local pos, crowd = U.find_soldier_crowd_position(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range or 60, min_targets or 1, 
+		local soldier_pos, crowd = U.find_soldier_crowd_position(entities, origin, min_range, max_range, flags, bans, filter_func, crowd_range or 60, min_targets or 1, 
 		true, U.position_type.average)
 		if crowd then
-			local soldier = crowd.center_unit
-			return soldier, crowd.crowd, pos
-		else
-			return nil, nil, nil
+			soldier = crowd.center_unit
+			soldiers = crowd.crowd
 		end
 	end
+
+	if soldier and prediction_time then
+		local offset = U.get_prediction_offset(soldier, prediction_time)
+		soldier_pos.x, soldier_pos.y = soldier_pos.x + offset.x, soldier_pos.y + offset.y
+	end
+	return soldier, soldiers, soldier_pos
 end
 
 return U

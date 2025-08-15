@@ -3777,9 +3777,7 @@ tt.tower.menu_offset = v(0, 22)
 tt.ui.click_rect = r(-40, -10, 80, 90)
 
 tt = RT("kr4_elven_warrior", "soldier_militia")
-
-E:add_comps(tt, "powers", "dodge", "ranged", "revive", "nav_grid")
-
+E:add_comps(tt, "powers", "dodge", "timed_attacks", "revive", "nav_grid")
 anchor_y = 0.267
 tt.health.hp_max = 100
 tt.health.armor = 0.3
@@ -3814,27 +3812,28 @@ tt.melee.attacks[1].track_damage = true
 tt.melee.attacks[1].animation = "hit1"
 tt.melee.range = 50
 tt.soldier.melee_slot_offset = v(8, 0)
-tt.ranged.go_back_during_cooldown = true
-tt.ranged.attacks[1].bullet = "kr4_elven_warrior_arrow"
-tt.ranged.attacks[1].bullet_start_offset = {
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
+tt.timed_attacks.list[1].bullet = "kr4_elven_warrior_arrow"
+tt.timed_attacks.list[1].bullet_start_offset = {
 	v(4, 21)
 }
-tt.ranged.attacks[1].cooldown = 2
-tt.ranged.attacks[1].max_range = 205
-tt.ranged.attacks[1].min_range = 50
-tt.ranged.attacks[1].sprite_group = "shoot"
-tt.ranged.attacks[1].loops = 1
-tt.ranged.attacks[1].shoot_times = {
-	fts(4),
-	fts(9),
-	fts(16)
+tt.timed_attacks.list[1].cooldown = 1.5
+tt.timed_attacks.list[1].max_range = 205
+tt.timed_attacks.list[1].min_range = 50
+tt.timed_attacks.list[1].loops = 1
+tt.timed_attacks.list[1].cast_time = fts(24)
+tt.timed_attacks.list[1].node_prediction = fts(10)
+tt.timed_attacks.list[1].animation_prepare = "shootIn"
+tt.timed_attacks.list[1].animation_start = "shootPrep"
+tt.timed_attacks.list[1].animation_loop = "multiShoot"
+tt.timed_attacks.list[1].animation_end = "shootEnd"
+tt.timed_attacks.list[1].shoot_times = {
+	fts(3),
+	fts(5),
+	fts(5)
 }
-tt.ranged.attacks[1].animations = {
-	"shootPrep",
-	"multiShoot",
-	"shootEnd"
-}
-tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.regen.cooldown = 1
 tt.regen.health = 20
 tt.render.sprites[1].prefix = "kr4_elven_warrior"
@@ -3869,8 +3868,8 @@ tt = RT("kr4_elven_warrior_arrow", "arrow5_45degrees")
 tt.render.sprites[1].name = "kr4_elven_warrior_arrow"
 tt.bullet.miss_decal = "kr4_elven_warrior_arrow_decal_0009"
 tt.bullet.miss_decal_anchor = v(1, 0.5)
-tt.bullet.damage_min = 12
-tt.bullet.damage_max = 22
+tt.bullet.damage_min = 8
+tt.bullet.damage_max = 17
 tt.bullet.flight_time = fts(10)
 tt.bullet.g = -0.7 / (fts(1) * fts(1))
 tt.bullet.reset_to_target_pos = true

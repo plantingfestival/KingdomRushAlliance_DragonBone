@@ -5667,7 +5667,8 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.check_unit_attack_available(store, this, a1) then
-				if not SU.entity_attacks(store, this, a1) then
+				brk, sta = SU.entity_attacks(store, this, a1)
+				if sta == A_NO_TARGET then
 					SU.delay_attack(store, a1, fts(10))
 				else
 					goto label_90_1
@@ -5975,7 +5976,18 @@ function scripts.hero_eiskalt.update(this, store, script)
 	local cold_fury_attack = this.timed_attacks.list[1]
 	local ice_ball_attack = this.timed_attacks.list[2]
 	local ice_peaks_attack = this.timed_attacks.list[3]
-	local attack, skill
+	local skip, interrupted, status
+
+	local function cast_skill(attack)
+		if SU.check_unit_attack_available(store, this, attack) then
+			interrupted, status = SU.entity_attacks(store, this, attack)
+			if status == A_NO_TARGET then
+				SU.delay_attack(store, attack, fts(10))
+			else
+				skip = true
+			end
+		end
+	end
 
 	ranged.ts = store.tick_ts
 	cold_fury_attack.ts = store.tick_ts
@@ -6003,7 +6015,6 @@ function scripts.hero_eiskalt.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts, nil, 1)
 		end
 
-		local skip
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			skip = true
@@ -6014,35 +6025,14 @@ function scripts.hero_eiskalt.update(this, store, script)
 		end
 
 		if not skip then
-			attack = ice_peaks_attack
-			if SU.check_unit_attack_available(store, this, attack) then
-				skip = SU.entity_attacks(store, this, attack)
-				if not skip then
-					SU.delay_attack(store, attack, fts(10))
-				end
-			end
+			cast_skill(ice_peaks_attack)
 		end
-
 		if not skip then
-			attack = ice_ball_attack
-			if SU.check_unit_attack_available(store, this, attack) then
-				skip = SU.entity_attacks(store, this, attack)
-				if not skip then
-					SU.delay_attack(store, attack, fts(10))
-				end
-			end
+			cast_skill(ice_ball_attack)
 		end
-
 		if not skip then
-			attack = cold_fury_attack
-			if SU.check_unit_attack_available(store, this, attack) then
-				skip = SU.entity_attacks(store, this, attack)
-				if not skip then
-					SU.delay_attack(store, attack, fts(10))
-				end
-			end
+			cast_skill(cold_fury_attack)
 		end
-
 		if not skip then
 			local brk, sta = y_hero_ranged_attacks(store, this)
 			if not brk and sta ~= A_DONE then
@@ -6329,7 +6319,18 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	local hero_jacko_thriller_attack = this.timed_attacks.list[2]
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	local attack, skill
+	local skip, interrupted, status
+
+	local function cast_skill(attack)
+		if SU.check_unit_attack_available(store, this, attack) then
+			interrupted, status = SU.entity_attacks(store, this, attack)
+			if status == A_NO_TARGET then
+				SU.delay_attack(store, attack, fts(10))
+			else
+				skip = true
+			end
+		end
+	end
 
 	this.melee.attacks[1].ts = store.tick_ts
 	this.melee.attacks[2].ts = store.tick_ts
@@ -6412,7 +6413,6 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
-		local skip
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			skip = true
@@ -6427,26 +6427,20 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 		end
 
 		if not skip then
-			attack = explosive_head_attack
-			if SU.check_unit_attack_available(store, this, attack) then
-				local done = nil
-				skip, done = SU.entity_attacks(store, this, attack)
-				if not skip then
-					SU.delay_attack(store, attack, fts(10))
-				elseif done == A_DONE then
-					hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + attack.extra_cooldown
+			if SU.check_unit_attack_available(store, this, explosive_head_attack) then
+				interrupted, status = SU.entity_attacks(store, this, explosive_head_attack)
+				if status == A_NO_TARGET then
+					SU.delay_attack(store, explosive_head_attack, fts(10))
+				else
+					skip = true
+					if status == A_DONE then
+						hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + attack.extra_cooldown
+					end
 				end
 			end
 		end
-
 		if not skip then
-			attack = hero_jacko_thriller_attack
-			if SU.check_unit_attack_available(store, this, attack) then
-				skip = SU.entity_attacks(store, this, attack)
-				if not skip then
-					SU.delay_attack(store, attack, fts(10))
-				end
-			end
+			cast_skill(hero_jacko_thriller_attack)
 		end
 
 		if not skip and skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then

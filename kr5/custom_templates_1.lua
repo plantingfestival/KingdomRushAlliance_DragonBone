@@ -2283,7 +2283,7 @@ tt.ranged.attacks[1].bullet_start_offset = {
 	v(5, 23)
 }
 tt.ranged.attacks[2] = E:clone_c("bullet_attack")
-tt.ranged.attacks[2].vis_bans = bor(F_NIGHTMARE)
+tt.ranged.attacks[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.ranged.attacks[2].disabled = true
 tt.ranged.attacks[2].power_name = "arrow_storm"
 tt.ranged.attacks[2].bullet = "elves_soldier_harasser_arrow_multishoot"

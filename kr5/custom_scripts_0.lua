@@ -833,28 +833,26 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 		end
 	end
 
-	local function hide_shadow(isHidden)
-		for i, sprite in ipairs(this.render.sprites) do
-			if sprite.is_shadow then
-				sprite.hidden = isHidden
-			end
-		end
-	end
-
 	if this.vis._bans then
 		this.vis.bans = this.vis._bans
 		this.vis._bans = nil
 	end
 
+	if this.timed_attacks then
+		for i, a in ipairs(this.timed_attacks.list) do
+			a.ts = store.tick_ts
+		end
+	end
+
 	if this.render.sprites[1].name == "raise" then
-		hide_shadow(true)
+		SU.hide_shadow(this, true)
 		this.health_bar.hidden = true
 		U.animation_start(this, "raise", nil, store.tick_ts, 1)
 		while not U.animation_finished(this) and not this.health.dead do
 			coroutine.yield()
 		end
 		if not this.health.dead then
-			hide_shadow(false)
+			SU.hide_shadow(this, false)
 			this.health_bar.hidden = nil
 		end
 	end
@@ -879,7 +877,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 		if not this.health.dead or SU.y_soldier_revive(store, this) then
 			-- block empty
 		else
-			hide_shadow(true)
+			SU.hide_shadow(this, true)
 			SU.y_soldier_death(store, this)
 			return
 		end
@@ -896,14 +894,14 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 					this.dodge.counter_attack_pending = true
 				elseif this.dodge.animation then
 					if this.dodge.hide_shadow then
-						hide_shadow(true)
+						SU.hide_shadow(this, true)
 					end
 					U.animation_start(this, this.dodge.animation, nil, store.tick_ts, 1)
 
 					while not U.animation_finished(this) do
 						coroutine.yield()
 					end
-					hide_shadow(false)
+					SU.hide_shadow(this, false)
 				end
 
 				signal.emit("soldier-dodge", this)
@@ -916,10 +914,9 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 			end
 
 			check_tower_damage_factor()
-			
+
 			if this.timed_actions then
 				brk, sta = SU.y_soldier_timed_actions(store, this)
-
 				if brk then
 					goto label_43_1
 				end
@@ -927,7 +924,6 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 
 			if this.timed_attacks then
 				brk, sta = SU.y_soldier_timed_attacks(store, this)
-
 				if brk then
 					goto label_43_1
 				end
@@ -935,7 +931,6 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 
 			if this.ranged and this.ranged.range_while_blocking then
 				brk, sta = SU.y_soldier_ranged_attacks(store, this)
-
 				if brk then
 					goto label_43_1
 				end
@@ -943,11 +938,11 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 
 			if this.melee then
 				if this.dodge and this.dodge.hide_shadow and this.dodge.counter_attack_pending then
-					hide_shadow(true)
+					SU.hide_shadow(this, true)
 				end
 				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
 				if this.dodge and this.dodge.hide_shadow then
-					hide_shadow(false)
+					SU.hide_shadow(this, false)
 				end
 
 				if brk or sta ~= A_NO_TARGET then
@@ -1810,31 +1805,6 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 			if SU.y_enemy_mixed_walk_melee_ranged(store, this, false, walk_break_fn, melee_break_fn, ranged_break_fn) then
 				coroutine.yield()
 			end
-
-			-- local cont, blocker, ranged = SU.y_enemy_walk_until_blocked(store, this)
-			-- if not cont then
-			-- 	-- block empty
-			-- else
-			-- 	if blocker then
-			-- 		if not SU.y_wait_for_blocker(store, this, blocker) then
-			-- 			goto label_29_0
-			-- 		end
-			-- 		while SU.can_melee_blocker(store, this, blocker) do
-			-- 			if not SU.y_enemy_melee_attacks(store, this, blocker) then
-			-- 				goto label_29_0
-			-- 			end
-			-- 			coroutine.yield()
-			-- 		end
-			-- 	elseif ranged then
-			-- 		while SU.can_range_soldier(store, this, ranged) and #this.enemy.blockers == 0 do
-			-- 			if not SU.y_enemy_range_attacks(store, this, ranged) then
-			-- 				goto label_29_0
-			-- 			end
-			-- 			coroutine.yield()
-			-- 		end
-			-- 	end
-			-- 	coroutine.yield()
-			-- end
 		end
 	end
 end
