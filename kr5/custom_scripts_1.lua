@@ -6015,6 +6015,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts, nil, 1)
 		end
 
+		skip = nil
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			skip = true
@@ -6413,6 +6414,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
+		skip = nil
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			skip = true
@@ -6434,7 +6436,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 				else
 					skip = true
 					if status == A_DONE then
-						hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + attack.extra_cooldown
+						hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + explosive_head_attack.extra_cooldown
 					end
 				end
 			end

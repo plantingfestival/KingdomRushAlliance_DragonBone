@@ -4141,7 +4141,7 @@ local function check_unit_attack_available(store, entity, attack)
 	end
 
 	local function has_blocker()
-		if unit.vis and unit.vis.flags then
+		if unit.melee and unit.vis and unit.vis.flags then
 			if unit.soldier and band(unit.vis.flags, F_FRIEND) ~= 0 then
 				return U.get_blocked(store, unit) ~= nil
 			end
@@ -4505,7 +4505,7 @@ local function entity_casts_range_unit(store, this, a)
 		end
 	end
 
-	local function shoot_bullets(ai)
+	local function shoot_bullets(af, ai)
 		local max_bullets = a.max_bullets or 1
 		for i = 1, max_bullets do
 			if not a.same_target then
@@ -4615,7 +4615,7 @@ local function entity_casts_range_unit(store, this, a)
 						target = targets[km.zmod(i, #targets)]
 					end
 					check_target(prediction_time)
-					shoot_bullets(ai)
+					shoot_bullets(af, ai)
 				end
 				if y_entity_animation_wait(this) then
 					return true
@@ -4635,7 +4635,7 @@ local function entity_casts_range_unit(store, this, a)
 		U.animation_start(this, an, af, store.tick_ts)
 		if not y_entity_wait(store, this, a.cast_time) then
 			check_target(prediction_time)
-			shoot_bullets(ai)
+			shoot_bullets(af, ai)
 			a.ts = start_ts
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
