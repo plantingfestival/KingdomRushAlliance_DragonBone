@@ -4508,8 +4508,9 @@ local function entity_casts_range_unit(store, this, a)
 	local function shoot_bullets(af, ai)
 		local max_bullets = a.max_bullets or 1
 		for i = 1, max_bullets do
-			if not a.same_target then
+			if i > 1 and not a.same_target then
 				target = targets[km.zmod(i, #targets)]
+				check_target(prediction_time)
 			end
 			local tpi, tspi, tni
 			if target.nav_path then
@@ -4611,7 +4612,7 @@ local function entity_casts_range_unit(store, this, a)
 					if y_entity_wait(store, this, st) then
 						return true
 					end
-					if a.different_targets then
+					if i > 1 and a.different_targets then
 						target = targets[km.zmod(i, #targets)]
 					end
 					check_target(prediction_time)
