@@ -4886,7 +4886,8 @@ local function entity_casts_object_on_target(store, this, a)
 	return false, A_NO_TARGET
 end
 
--- 返回true代表必须跳过entity之后的逻辑
+-- 返回的第一个参数，为true代表必须跳过entity之后的逻辑，为false代表可继续，为nil代表可跳可不跳。
+-- 返回的第二个参数，没有合适的目标时返回A_NO_TARGET，技能已施放时返回A_DONE。其他情况返回nil。
 local function entity_attacks(store, this, a)
 	if a.skill == "range_unit" then
 		return entity_casts_range_unit(store, this, a)
