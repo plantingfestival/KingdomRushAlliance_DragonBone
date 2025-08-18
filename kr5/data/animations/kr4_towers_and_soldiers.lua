@@ -1073,10 +1073,15 @@ return {
 		to = 201,
 		from = 169
 	},
+	kr4_elven_warrior_shootIn = {
+		prefix = "kr4_elven_warrior",
+		to = 50,
+		from = 37
+	},
 	kr4_elven_warrior_shootPrep = {
 		prefix = "kr4_elven_warrior",
 		to = 55,
-		from = 37
+		from = 51
 	},
 	kr4_elven_warrior_multiShoot = {
 		prefix = "kr4_elven_warrior",

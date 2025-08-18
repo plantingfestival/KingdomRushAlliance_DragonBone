@@ -5996,9 +5996,8 @@ function scripts.mod_teleport.update(this, store)
 	local m = this.modifier
 	local target = store.entities[m.target_id]
 
-	if not target or not target.health or target.health.dead then
+	if not target or not target.health or target.health.dead or target.health.hp <= 0 then
 		queue_remove(store, this)
-
 		return
 	end
 

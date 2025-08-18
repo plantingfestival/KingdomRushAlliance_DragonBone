@@ -49,7 +49,9 @@ health.magic_armor = 0
 health.poison_armor = 0
 health.spiked_armor = 0
 health.spiked_armor_damage = 0
-health.spiked_armor_damage_type = DAMAGE_PHYSICAL
+health.spiked_armor_damage_type = DAMAGE_TRUE
+health.accumulated_damage_factor = 0
+health.accumulated_damage = 0
 health.damage_factor = 1
 health.damage_factor_magical = nil
 health.immune_to = 0
@@ -526,6 +528,7 @@ soldier.melee_slot_offset = v(0, 0)
 soldier.melee_slot_spread = nil
 soldier.target_id = nil
 soldier.courage_ts = 0
+soldier.can_do_magic = true
 
 local reinforcement = E:register_c("reinforcement")
 

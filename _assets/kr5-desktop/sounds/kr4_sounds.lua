@@ -5170,8 +5170,17 @@ return {
 			"kr4_hero_eiskalt_taunt_4.ogg",
 		}
 	},
+	hero_jacko_taunt_1 = {
+		source_group = "TAUNTS",
+		gain = 0.4,
+		files = {
+			"kr4_hero_jacko_taunt_1.ogg",
+		}
+	},
 	group_hero_jacko_taunt = {
 		source_group = "TAUNTS",
+		ignore = 1,
+		mode = "sequence",
 		gain = 0.4,
 		files = {
 			"kr4_hero_jacko_taunt_1.ogg",
@@ -5182,6 +5191,7 @@ return {
 	},
 	group_hero_jacko_teleport = {
 		source_group = "SFX",
+		mode = "random",
 		gain = 0.7,
 		files = {
 			"kr4_hero_jacko_teleport_var1.ogg",

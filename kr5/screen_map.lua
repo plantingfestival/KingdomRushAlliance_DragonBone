@@ -285,13 +285,13 @@ function screen_map:init(w, h, done_callback)
 					self.unlock_data.show_stars_level = victory.level_idx
 					self.unlock_data.star_count_before = 0
 
-					local next_level_idx = U.find_next_level_in_ranges(GS.level_ranges, victory.level_idx)
-
-					if not levels[next_level_idx] then
-						levels[next_level_idx] = {}
-						self.unlock_data.new_level = next_level_idx
-
-						table.insert(self.unlock_data.unlocked_levels, self.unlock_data.new_level)
+					if not GS.extra_levels[victory.level_idx] then
+						local next_level_idx = U.find_next_level_in_ranges(GS.level_ranges, victory.level_idx)
+						if not levels[next_level_idx] then
+							levels[next_level_idx] = {}
+							self.unlock_data.new_level = next_level_idx
+							table.insert(self.unlock_data.unlocked_levels, self.unlock_data.new_level)
+						end
 					end
 
 					local premium, exceptions

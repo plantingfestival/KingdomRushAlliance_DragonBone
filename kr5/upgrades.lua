@@ -1151,6 +1151,8 @@ function upgrades:patch_templates(max_level)
 		"hero_arivan",
 		"hero_phoenix",
 		"hero_veznan",
+		"hero_faustus",
+		"hero_jack_o_lantern",
 	}
 
 	u = self:get_upgrade("heroes_desperate_effort")
@@ -1738,7 +1740,7 @@ function upgrades:patch_templates(max_level)
 			soldier_t = T(T("tower_special_elf").barrack.soldier_type)
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
-			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t = T(soldier_t.timed_attacks.list[1].bullet)
 			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
 			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
 

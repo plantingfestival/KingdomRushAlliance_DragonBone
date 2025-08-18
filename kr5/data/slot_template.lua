@@ -297,7 +297,6 @@ return {
 			cluster_bomb = 0,
 			scroll_of_spaceshift = 0,
 			medical_kit = 0,
-			hero_faustus = 1,
 			hero_bolin = 1,
 			hero_gerald = 1,
 			hero_ignus = 1,
@@ -306,7 +305,7 @@ return {
 			hero_thor = 1,
 			hero_voodoo_witch = 1,
 			hero_beastmaster = 1,
-			hero_priest = 0,
+			hero_priest = 1,
 			hero_magnus = 1,
 			hero_denas = 1,
 			hero_hacksaw = 1,
@@ -316,8 +315,10 @@ return {
 			hero_wizard = 1,
 			hero_dwarf = 1,
 			hero_elves_archer = 1,
+			hero_faustus = 1,
 			hero_phoenix = 1,
-			hero_veznan = 1
+			hero_veznan = 1,
+			hero_jack_o_lantern = 1
 		}
 	},
 	claimed_gifts = {}

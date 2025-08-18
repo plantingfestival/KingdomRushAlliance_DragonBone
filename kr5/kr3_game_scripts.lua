@@ -3615,8 +3615,6 @@ function scripts.hero_elves_archer.update(this, store)
 		porcupine_target = target
 	end
 
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
-
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -3726,11 +3724,11 @@ function scripts.hero_elves_archer.update(this, store)
 				is_sword = false
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
-					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max)
+					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max, nil, nil, nil, true)
 				end
 				if targets_info and #targets_info >= skill_ultimate.min_targets then
 					target = targets_info[1].enemy
@@ -4239,8 +4237,6 @@ function scripts.hero_arivan.update(this, store)
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
-
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
@@ -4266,11 +4262,11 @@ function scripts.hero_arivan.update(this, store)
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, ultimatePos, targets_info
 				target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
 				if target then
-					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max)
+					targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max, nil, nil, nil, true)
 				end
 				if targets_info and #targets_info >= skill_ultimate.min_targets then
 					target = targets_info[1].enemy
@@ -5164,7 +5160,7 @@ scripts.hero_faustus = {}
 
 function scripts.hero_faustus.get_info(this)
 	local m = E:get_template("bolt_faustus")
-	local min, max = 3 * m.bullet.damage_min, 3 * m.bullet.damage_max
+	local min, max = 3 * m.bullet.damage_min * this.unit.damage_factor, 3 * m.bullet.damage_max * this.unit.damage_factor
 
 	return {
 		type = STATS_TYPE_SOLDIER,
@@ -5275,30 +5271,13 @@ function scripts.hero_faustus.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill
-	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 	local skill_ultimate = this.hero.skills.ultimate
+	local upg_lf = UP:get_upgrade("heroes_lethal_focus")
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 
-	local is_sword = false
-	local porcupine_target, porcupine_level = nil, 0
-
-	local function update_porcupine(attack, target)
-		if porcupine_target == target then
-			porcupine_level = math.min(porcupine_level + 1, 3)
-			attack.level = porcupine_level
-		else
-			porcupine_level = 0
-			attack.level = 0
-		end
-
-		porcupine_target = target
-	end
-	
 	U.y_animation_play(this, "respawn", nil, store.tick_ts, 1)
 
 	this.health_bar.hidden = false
-
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 
@@ -5306,21 +5285,27 @@ function scripts.hero_faustus.update(this, store)
 		if h.dead then
 			SU.y_hero_death_and_respawn(store, this)
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
-		end		
-
-		while this.nav_rally.new do
-			SU.y_hero_new_rally(store, this)
 		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		if SU.hero_level_up(store, this) then
 			-- block empty
 		end
 
-		SU.alliance_corageous_upgrade(store,this)
-		SU.alliance_merciless_upgrade(store, this)
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+		else
+			while this.nav_rally.new do
+				if SU.y_hero_new_rally(store, this) then
+					goto label_112_1
+				end
+			end
+		end
 
 		for _, i in pairs(this.ranged.order) do
-			local a = this.ranged.attacks[i]	
+			local a = this.ranged.attacks[i]
 
 			if a.disabled then
 				-- block empty
@@ -5331,17 +5316,17 @@ function scripts.hero_faustus.update(this, store)
 			else
 				local bullet_t = E:get_template(a.bullet)
 				local flight_time = a.estimated_flight_time or 1
-				local target = U.find_random_enemy(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans, function(e)
+				local target = U.find_strongest_enemy_in_range(store.entities, this.pos, a.min_range, a.max_range, nil, a.vis_flags, a.vis_bans, function(e)
 					if U.flag_has(a.vis_flags, F_SPELLCASTER) and (not U.flag_has(e.vis.flags, F_SPELLCASTER) or not e.enemy.can_do_magic) then
 						log.debug("filtering (%s)%s", e.id, e.template_name)
 
 						return false
-					end					
+					end
 
 					if a.target_offset_rect then
 						local node_offset = P:predict_enemy_node_advance(e, a.shoot_time + flight_time)
 						local e_pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e.nav_path.ni + node_offset)
-						local is_inside = V.is_inside(V.v(math.abs(e_pos.x - this.pos.x), e_pos.y - this.pos.y), a.target_offset_rect)						
+						local is_inside = V.is_inside(V.v(math.abs(e_pos.x - this.pos.x), e_pos.y - this.pos.y), a.target_offset_rect)
 
 						if not is_inside then
 							return false
@@ -5368,7 +5353,7 @@ function scripts.hero_faustus.update(this, store)
 					local an, af, ai = U.animation_name_facing_point(this, a.animation, t_pos)
 
 					U.animation_start(this, an, af, store.tick_ts)
-					S:queue(a.start_sound, a.start_sound_args)					
+					S:queue(a.start_sound, a.start_sound_args)
 
 					if a.start_fx then
 						local fx = E:create_entity(a.start_fx)
@@ -5390,43 +5375,7 @@ function scripts.hero_faustus.update(this, store)
 						coroutine.yield()
 					end
 
-					if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
-						local target, ultimatePos, targets_info
-						target = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
-						if target then
-							targets_info = U.find_enemies_in_paths(store.entities, target.pos, 0, skill_ultimate.range_nodes_max)
-						end
-						if targets_info and #targets_info >= skill_ultimate.min_targets then
-							target = targets_info[1].enemy
-							if not target.nav_path then
-								target = nil
-							else
-								ultimatePos = V.vclone(target.pos)
-								if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
-									target = nil
-									ultimatePos = nil
-								end
-							end
-						end
-						if not target or not ultimatePos then
-							skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
-						else
-							U.animation_start(this, "respawn", nil, store.tick_ts, 1)
-							local u = E:create_entity(ultimate_controller)
-							u.pos = ultimatePos
-							u.level = skill_ultimate.level
-							queue_insert(store, u)
-							skill_ultimate.ts = store.tick_ts
-							while not U.animation_finished(this) do
-								if SU.hero_interrupted(this) then
-									goto label_112_0
-								end
-								coroutine.yield()
-							end
-						end
-					end
-
-					S:queue(a.sound)
+                    S:queue(a.sound)
 
 					targets = {}
 
@@ -5447,10 +5396,10 @@ function scripts.hero_faustus.update(this, store)
 							target
 						}
 					end
-					
+
 					for i, t in ipairs(targets) do
 						b = E:create_entity(a.bullet)
-						
+
 						if a.type == "aura" then
 							b.pos.x, b.pos.y = target.pos.x, target.pos.y
 							b.aura.ts = store.tick_ts
@@ -5468,7 +5417,6 @@ function scripts.hero_faustus.update(this, store)
 							if b.bullet.use_unit_damage_factor then
 								b.bullet.damage_factor = this.unit.damage_factor
 							end
-
 							if upg_lf and a.basic_attack then
 								if not this._lethal_focus_deck then
 									this._lethal_focus_deck = SU.deck_new(upg_lf.trigger_cards, upg_lf.total_cards)
@@ -5477,10 +5425,10 @@ function scripts.hero_faustus.update(this, store)
 								local triggered_lethal_focus = SU.deck_draw(this._lethal_focus_deck)
 
 								if triggered_lethal_focus then
-									b.bullet.damage_factor = b.bullet.damage_factor * upg_lf.damage_factor_area
+									b.bullet.damage_factor = b.bullet.damage_factor * upg_lf.damage_factor
 									b.bullet.pop = {
 										"pop_crit"
-										}
+									}
 									b.bullet.pop_chance = 1
 									b.bullet.pop_conds = DR_DAMAGE
 								end
@@ -5489,7 +5437,7 @@ function scripts.hero_faustus.update(this, store)
 							if i == 1 then
 								b.initial_impulse = 0
 							end
-						end					
+						end
 
 						queue_insert(store, b)
 					end
@@ -5497,7 +5445,7 @@ function scripts.hero_faustus.update(this, store)
 					if a.xp_from_skill then
 						SU.hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 					end
-				
+
 					a.ts = start_ts
 
 					while not U.animation_finished(this) do
@@ -5510,10 +5458,9 @@ function scripts.hero_faustus.update(this, store)
 
 					a.ts = start_ts
 
-					U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)					
+					U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 
 					::label_112_0::
-
 
 					if start_fx then
 						start_fx.render.sprites[1].hidden = true
@@ -5524,7 +5471,29 @@ function scripts.hero_faustus.update(this, store)
 			end
 		end
 
-        SU.soldier_idle(store, this)
+		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, skill_ultimate.node_prediction, 
+			nil, nil, nil, nil, skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
+			if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+				local an, af = U.animation_name_facing_point(this, "altAttackBase", ultimatePos)
+				U.animation_start(this, an, af, store.tick_ts, nil, 1)
+				local u = E:create_entity(ultimate_controller)
+				u.pos = ultimatePos
+				u.level = skill_ultimate.level
+				queue_insert(store, u)
+				skill_ultimate.ts = store.tick_ts
+				while not U.animation_finished(this) do
+					if SU.hero_interrupted(this) then
+						goto label_112_1
+					end
+					coroutine.yield()
+				end
+			else
+				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+			end
+		end
+
+		SU.soldier_idle(store, this)
 		SU.soldier_regen(store, this)
 
 		::label_112_1::
@@ -5631,7 +5600,7 @@ function scripts.decal_minidragon_faustus.update(this, store)
 		end
 
 		if emitting and loop_duration < store.tick_ts - emit_ts then
-			U.animation_start(this, "idle", nil, store.tick_ts, false, 2)
+			U.animation_start(this, "idle", nil, store.tick_ts, true, nil, true)
 
 			ps.particle_system.emit = false
 			emitting = false
@@ -5827,7 +5796,7 @@ function scripts.hero_bravebark.update(this, store)
 			skill = this.hero.skills.oakseeds
 
 			if not a.disabled and store.tick_ts - a.ts > a.cooldown then
-				local target = U.find_foremost_enemy(store.entities, this.pos, 0, 500, 0.5, a.vis_flags, a.vis_bans)
+				local target = U.find_foremost_enemy(store.entities, this.pos, 0, a.max_range, 0.5, a.vis_flags, a.vis_bans)
 
 				if not target then
 					SU.delay_attack(store, a, 0.3333333333333333)
@@ -7296,7 +7265,6 @@ function scripts.hero_veznan.update(this, store)
 	local a, skill, brk, sta
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	for k, a in pairs(this.idle_animations) do
 		a.ts = store.tick_ts
@@ -7522,7 +7490,7 @@ function scripts.hero_veznan.update(this, store)
 				end
 			end
 
-			if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 				local target, targets, ultimatePos = U.find_enemy_with_search_type(store.entities, this.pos, 0, skill_ultimate.max_range, nil, nil, nil, nil, nil, 
 				skill_ultimate.search_type, skill_ultimate.crowd_range, skill_ultimate.min_targets)
 				if target and ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
@@ -9033,7 +9001,6 @@ function scripts.hero_phoenix.update(this, store)
 	local a, skill, brk, sta
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown
 
 	local function y_hero_ranged_attacks(store, hero)
 		local target, attack, pred_pos = SU.soldier_pick_ranged_target_and_attack(store, hero)
@@ -9258,7 +9225,7 @@ function scripts.hero_phoenix.update(this, store)
 			end
 		end
 
-		if store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local ultimatePos = V.vclone(this.pos)
 			if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
 				skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1

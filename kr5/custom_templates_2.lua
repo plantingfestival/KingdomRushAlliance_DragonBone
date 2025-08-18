@@ -941,6 +941,9 @@ tt.ranged.attacks[1].animation = "shoot"
 tt.timed_attacks.list[1] = E:clone_c("spawn_attack")
 tt.timed_attacks.list[1].skill = "spawner"
 tt.timed_attacks.list[1].can_be_silenced = true
+tt.timed_attacks.list[1].disabled_if_having_modifiers = {
+	"mod_possession"
+}
 tt.timed_attacks.list[1].melee_break = nil
 tt.timed_attacks.list[1].ranged_break = true
 tt.timed_attacks.list[1].cooldown = 10

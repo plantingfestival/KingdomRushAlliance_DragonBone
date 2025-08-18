@@ -203,15 +203,14 @@ function game_gui:init(w, h, game)
 		end
 	end
 
-	for i = 1, 5 do
+	for i = 1, 6 do
 		local tower_found = selected_holders[i]
+		index = i + 20
 
 		if tower_found then
 			for _, holder in ipairs(tower_menus.holder[1]) do
 				if holder.type == tower_found then
 					holder.place = index
-					index = index + 1
-
 					break
 				end
 			end
@@ -226,10 +225,7 @@ function game_gui:init(w, h, game)
 				action_arg = "",
 				place = index
 			}
-
 			table.insert(tower_menus.holder[1], locked_holder)
-
-			index = index + 1
 		end
 	end
 

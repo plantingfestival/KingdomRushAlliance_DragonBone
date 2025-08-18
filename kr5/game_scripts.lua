@@ -49139,7 +49139,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 			if store.tick_ts - a_basic.ts > a_basic.cooldown and store.tick_ts - last_ts > a.min_cooldown and not a_basic_break() then
 				local ignore_out_of_range_check = true
 				local target_pred_pos
-				local enemy, enemies, _ = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, a_basic.prediction_time, a_basic.vis_flags, a_basic.vis_bans)
+				local enemy, enemies, _ = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, a_basic.prediction_time, a_basic.vis_flags, a_basic.vis_bans)
 
 				if not enemies or not enemy then
 					SU.delay_attack(store, a_basic, fts(3))
@@ -49153,7 +49153,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 					U.animation_start(this, a_basic.animation_loop, nil, store.tick_ts, true, sid_geode)
 					U.animation_start(this, "loop", nil, store.tick_ts, true, sid_attack_fx)
 
-					local _, new_enemies = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, fts(9), a_basic.vis_flags, a_basic.vis_bans)
+					local _, new_enemies = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, fts(9), a_basic.vis_flags, a_basic.vis_bans)
 
 					if new_enemies then
 						enemies = new_enemies
@@ -49180,7 +49180,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 						bullet.bullet.damage_factor = this.tower.damage_factor
 						bullet.bullet.source_id = this.id
 
-						local node_offset = P:predict_enemy_node_advance(enemy, bullet.bullet.hit_time)
+						local node_offset = P:predict_enemy_node_advance(enemy, fts(16))
 						local e_ni = enemy.nav_path.ni + node_offset
 
 						target_pred_pos = P:node_pos(enemy.nav_path.pi, enemy.nav_path.spi, e_ni)
@@ -49231,7 +49231,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 
 						U.y_wait(store, ray_timing)
 
-						enemy, enemies = U.find_farthest_enemy(store.entities, tpos(this), 0, a.range, bullet.bullet.hit_time, a_basic.vis_flags, a_basic.vis_bans)
+						enemy, enemies = U.find_rearmost_enemy(store.entities, tpos(this), 0, a.range, bullet.bullet.hit_time, a_basic.vis_flags, a_basic.vis_bans)
 
 						if not enemy then
 							break
@@ -73822,7 +73822,7 @@ function scripts.bomb_KR5.insert(this, store, script)
 	b.last_pos = V.vclone(b.from)
 
 	if b.rotation_speed then
-		this.render.sprites[1].r = (math.random() - 0.5) * math.pi
+		this.render.sprites[1].r = (math.random() - 0.5) * math.pi / 2
 		b.rotation_speed = b.rotation_speed * (b.to.x > b.from.x and -1 or 1)
 	end
 
@@ -73934,19 +73934,24 @@ function scripts.bomb_KR5.update(this, store, script)
 			queue_insert(store, mod)
 		end
 
-		if b.mod then
-			local mod = E:create_entity(b.mod)
-
-			mod.modifier.target_id = enemy.id
-			mod.modifier.source_id = this.id
-
-			queue_insert(store, mod)
+		if b.mod or b.mods then
+			local mods = b.mods or {
+				b.mod
+			}
+			for i, mod_name in ipairs(mods) do
+				local mod = E:create_entity(mod_name)
+				mod.modifier.target_id = enemy.id
+				mod.modifier.source_id = this.id
+				mod.modifier.level = b.level
+				queue_insert(store, mod)
+			end
 		end
 	end
 
 	local p = SU.create_bullet_pop(store, this)
-
-	queue_insert(store, p)
+	if p then
+		queue_insert(store, p)
+	end
 
 	local cell_type = GR:cell_type(b.to.x, b.to.y)
 
@@ -73973,12 +73978,7 @@ function scripts.bomb_KR5.update(this, store, script)
 	end
 
 	if b.hit_decal and band(cell_type, TERRAIN_WATER) == 0 then
-		local decal = E:create_entity(b.hit_decal)
-
-		decal.pos = V.vclone(b.to)
-		decal.render.sprites[1].ts = store.tick_ts
-
-		queue_insert(store, decal)
+		SU.create_bullet_hit_decal(this, store)
 	end
 
 	SU.create_bullet_hit_payload(this, store)
