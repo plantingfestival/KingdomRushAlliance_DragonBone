@@ -268,6 +268,17 @@ return {
 			{
 				check = "main_icons_0019",
 				halo = "glow_ico_main",
+				action_arg = "tower_build_deep_devils",
+				type = "deep_devils",
+				action = "tw_upgrade",
+				image = "tower_icons_0138",
+				preview = "deep_devils",
+				tt_title = _("TOWER_DEEP_DEVILS_1_NAME"),
+				tt_desc = _("TOWER_DEEP_DEVILS_1_DESCRIPTION")
+			},
+			{
+				check = "main_icons_0019",
+				halo = "glow_ico_main",
 				action_arg = "tower_build_random",
 				type = "random",
 				action = "tw_upgrade",
@@ -7272,6 +7283,164 @@ return {
 				place = 12,
 				tt_title = _("HOLDER_ROOTS_LANDS_BLOCKED_NAME"),
 				tt_desc = _("HOLDER_ROOTS_LANDS_BLOCKED_DESC")
+			}
+		}
+	},
+	deep_devils = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_deep_devils_lvl2",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_DEEP_DEVILS_2_NAME"),
+				tt_desc = _("TOWER_DEEP_DEVILS_2_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_deep_devils_lvl3",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_DEEP_DEVILS_3_NAME"),
+				tt_desc = _("TOWER_DEEP_DEVILS_3_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_deep_devils_lvl4",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_DEEP_DEVILS_4_NAME"),
+				tt_desc = _("TOWER_DEEP_DEVILS_4_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "special_icons_0020",
+				action_arg = "chosen",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0084",
+				place = 3,
+				halo = "glow_ico_special",
+				sounds = {
+					"deep_devils_amph_upgrade"
+				},
+				tt_phrase = _("TOWER_DEEP_DEVILS_4_CHOSEN_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_CHOSEN_1_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_CHOSEN_1_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "tentangles",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0085",
+				place = 1,
+				halo = "glow_ico_special",
+				sounds = {
+					"deep_devils_net_upgrade"
+				},
+				tt_phrase = _("TOWER_DEEP_DEVILS_4_TENTANGLES_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_TENTANGLES_1_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_TENTANGLES_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_TENTANGLES_2_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_TENTANGLES_2_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "storm",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0086",
+				place = 2,
+				halo = "glow_ico_special",
+				sounds = {
+					"deep_devils_storm_upgrade"
+				},
+				tt_phrase = _("TOWER_DEEP_DEVILS_4_STORM_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_STORM_1_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_STORM_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_STORM_2_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_STORM_2_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_DEEP_DEVILS_4_STORM_3_NAME"),
+						tt_desc = _("TOWER_DEEP_DEVILS_4_STORM_3_DESCRIPTION")
+					},
+				}
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		}
 	},

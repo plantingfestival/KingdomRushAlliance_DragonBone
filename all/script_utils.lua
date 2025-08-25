@@ -406,6 +406,9 @@ local function create_bullet_damage(bullet, target_id, source_id)
 		if type(vmin) == "table" then
 			vmin = table.safe_index(vmin, bullet.level)
 			vmax = table.safe_index(vmax, bullet.level)
+		elseif bullet.damages_min then
+			vmin = table.safe_index(bullet.damages_min, bullet.level)
+			vmax = table.safe_index(bullet.damages_max, bullet.level)
 		else
 			if bullet.damage_min_inc then
 				vmin = vmin + bullet.damage_min_inc * bullet.level
@@ -2658,6 +2661,10 @@ local function soldier_power_upgrade(this, power_name)
 	local pn = power_name
 	local pow = this.powers and this.powers[pn]
 
+	if not pow then
+		return
+	end
+
 	if this.health.power_name == pn and this.health.hp_inc then
 		this.health.hp_max = this.health.hp_max + this.health.hp_inc
 		this.health.hp = this.health.hp_max
@@ -2800,7 +2807,7 @@ local function soldier_power_upgrade(this, power_name)
 		end
 	end
 
-	local fn = pow and pow.on_power_upgrade
+	local fn = pow.on_power_upgrade
 
 	if fn then
 		fn(this, power_name, pow)
@@ -4111,6 +4118,24 @@ local function towers_swaped(store, this, attacks)
 end
 
 -- customization
+local function set_entity_level(entity, level)
+	if entity.aura then
+		entity.aura.level = level
+	elseif entity.unit then
+		entity.unit.level = level
+	elseif entity.bullet then
+		entity.bullet.level = level
+	else
+		entity.level = level
+	end
+end
+
+local function get_entity_range_origin(entity)
+	return entity.owner and get_entity_range_origin(entity.owner) or 
+	entity.tower and entity.tower.range_offset and V.v(entity.pos.x + entity.tower.range_offset.x, entity.pos.y + entity.tower.range_offset.y) or 
+	entity.unit and entity.unit.range_offset and V.v(entity.pos.x + entity.unit.range_offset.x, entity.pos.y + entity.unit.range_offset.y) or entity.pos
+end
+
 local function check_tower_attack_available(store, entity, attack)
 	if not entity then
 		log.error("Entity doesn't exist.")
@@ -4169,7 +4194,7 @@ local function check_entity_attack_available(store, entity, attack)
 	if entity.tower or (entity.owner and entity.owner.tower) then
 		return check_tower_attack_available(store, entity, attack)
 	end
-	if entity.unit then
+	if entity.unit or (entity.owner and entity.owner.unit) then
 		return check_unit_attack_available(store, entity, attack)
 	end
 	if not attack.disabled and attack.ts and attack.ts ~= 0 and store.tick_ts - attack.ts >= attack.cooldown and 
@@ -4191,7 +4216,7 @@ local function make_bullet_damage_targets(this, store, target)
 		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
 		if targets then
 			for _, target in ipairs(targets) do
-				local d = create_bullet_damage(b, target.id, this.id)
+				local d = create_bullet_damage(b, target.id, b.source_id)
 				queue_damage(store, d)
 				if b.mod or b.mods then
 					local mods = b.mods or {
@@ -4199,7 +4224,7 @@ local function make_bullet_damage_targets(this, store, target)
 					}
 					for _, mod_name in ipairs(mods) do
 						local m = E:create_entity(mod_name)
-						m.modifier.source_id = this.id
+						m.modifier.source_id = b.source_id
 						m.modifier.target_id = target.id
 						m.modifier.level = b.level
 						m.modifier.source_damage = d
@@ -4217,7 +4242,7 @@ local function make_bullet_damage_targets(this, store, target)
 			}
 			for _, mod_name in ipairs(mods) do
 				local m = E:create_entity(mod_name)
-				m.modifier.source_id = this.id
+				m.modifier.source_id = b.source_id
 				m.modifier.target_id = target.id
 				m.modifier.level = b.level
 				m.modifier.source_damage = d
@@ -4240,9 +4265,9 @@ local function create_bullet_hit_payload(this, store, flip_x)
 					s.flip_x = flip_x
 				end
 			end
-			if hp.aura then
-				hp.aura.level = b.level
-			end
+			set_entity_level(hp, b.level)
+			hp.target_id = b.target_id
+			hp.source_id = b.source_id
 			queue_insert(store, hp)
 		end
 
@@ -4331,7 +4356,47 @@ local function y_entity_animation_play(entity, name, ts, times, idx, pos)
 	return y_entity_animation_wait(entity, idx, times), an, af, ai
 end
 
+local function entity_idle(store, this, force_ts)
+	if not this.idle_flip or not this.render then
+		return
+	end
+
+	if this.unit and not this.idle_flip.isKR4 then
+		soldier_idle(store, this, force_ts)
+		return
+	end
+
+	if this.idle_flip.ts <= 0 or store.tick_ts - this.idle_flip.ts - this.idle_flip.ts_counter > 4 * store.tick_length then
+		this.idle_flip.ts = store.tick_ts
+		this.idle_flip.ts_counter = 0
+		this.idle_flip.cooldown = math.random(this.idle_flip.cooldown_min, this.idle_flip.cooldown_max)
+		U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, force_ts)
+		return
+	end
+
+	this.idle_flip.ts_counter = this.idle_flip.ts_counter + store.tick_length
+	if this.idle_flip.ts_counter >= this.idle_flip.cooldown then
+		this.idle_flip.ts = store.tick_ts
+		this.idle_flip.ts_counter = 0
+		this.idle_flip.cooldown = math.random(this.idle_flip.cooldown_min, this.idle_flip.cooldown_max)
+
+		local flip_x
+		if not this.idle_flip.reset_flip_x then
+			flip_x = not this.render.sprites[1].flip_x
+		end
+		for i, s in pairs(this.render.sprites) do
+			s.flip_x = flip_x
+		end
+
+		if this.idle_flip.animations then
+			this.idle_flip.last_animation = table.random(this.idle_flip.animations)
+		end
+		U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, force_ts)
+	end
+end
+
 local function entity_casts_spawner(store, this, a)
+	local origin = get_entity_range_origin(this)
 	local min_targets = a.min_targets or 1
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
@@ -4341,13 +4406,13 @@ local function entity_casts_spawner(store, this, a)
 	elseif a.range and a.range > 0 then
 		local targets = nil
 		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-			targets = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+			targets = U.find_soldiers_in_range(store.entities, origin, 0, a.range, 0, a.vis_bans, a.filter_fn)
 		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+			targets = U.find_enemies_in_range(store.entities, origin, 0, a.range, 0, a.vis_bans, a.filter_fn)
 		else
 			local vis_bans = a.vis_bans or 0
-			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
-			local soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			targets = U.find_enemies_in_range(store.entities, origin, 0, a.range, 0, vis_bans, a.filter_fn)
+			local soldiers = U.find_soldiers_in_range(store.entities, origin, 0, a.range, 0, vis_bans, a.filter_fn)
 			if targets then
 				if soldiers then
 					table.merge(targets, soldiers)
@@ -4365,12 +4430,13 @@ local function entity_casts_spawner(store, this, a)
 		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
 		U.animation_start(this, a.animation, nil, store.tick_ts)
-		if y_entity_wait(store, this, a.spawn_time) then
+		if y_entity_wait(store, this, a.cast_time) then
 			return true
 		end
 		local max_count = math.min(a.max_count or 1, #a.custom_spawn_points)
+		local spawn_delay = a.spawn_delay or 0
 		for i = 1, max_count do
-			if y_entity_wait(store, this, a.spawn_delay) then
+			if y_entity_wait(store, this, spawn_delay) then
 				return true
 			end
 			local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
@@ -4378,9 +4444,10 @@ local function entity_casts_spawner(store, this, a)
 			if e.enemy then
 				e.enemy.gold = 0
 			end
-			if e.render then
+			if e.unit and e.render then
 				e.render.sprites[1].name = "raise"
 			end
+			set_entity_level(e, a.level)
 			e.pos = a.custom_spawn_points[i]
 			queue_insert(store, e)
 		end
@@ -4392,57 +4459,70 @@ local function entity_casts_spawner(store, this, a)
 			return true, A_DONE
 		end
 		return nil, A_DONE
-	elseif this.nav_path then
-		local nodes_to_entrance = a.nodes_to_entrance or 0
-		local nodes_to_exit = a.nodes_to_exit or 0
-		local skip = this.nav_path.ni <= nodes_to_entrance or P:nodes_to_defend_point(this.nav_path) <= nodes_to_exit
-		if not skip then
-			local start_ts = store.tick_ts
-			S:queue(a.sound, a.sound_args)
-			U.animation_start(this, a.animation, nil, store.tick_ts)
-			if y_entity_wait(store, this, a.spawn_time) then
+	end
+
+	local tpi, tspi, tni
+	if this.nav_path then
+		local tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+	else
+		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true)
+		if #nodes >= 1 then
+			tpi, tspi, tni = unpack(nodes[1])
+		else
+			return false, A_NO_TARGET
+		end
+	end
+
+	local nodes_to_entrance = a.nodes_to_entrance or 0
+	local nodes_to_exit = a.nodes_to_exit or 0
+	local skip = tni <= nodes_to_entrance or P:nodes_to_defend_point(tpi, tspi, tni) <= nodes_to_exit
+	if not skip then
+		local start_ts = store.tick_ts
+		S:queue(a.sound, a.sound_args)
+		U.animation_start(this, a.animation, nil, store.tick_ts)
+		if y_entity_wait(store, this, a.cast_time) then
+			return true
+		end
+		local max_count = a.max_count or 1
+		local min_nodes = a.min_nodes or 0
+		local max_nodes = a.max_nodes or 0
+		local spawn_delay = a.spawn_delay or 0
+		for i = 1, max_count do
+			if y_entity_wait(store, this, spawn_delay) then
 				return true
 			end
-			local max_count = a.max_count or 1
-			local min_nodes = a.min_nodes or 0
-			local max_nodes = a.max_nodes or 0
-			for i = 1, max_count do
-				if y_entity_wait(store, this, a.spawn_delay) then
-					return true
-				end
-				local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
-				local e = E:create_entity(e_name)
-				if e.nav_path then
-					e.nav_path.pi = this.nav_path.pi
-					if a.use_center then
-						e.nav_path.spi = 1
-					elseif a.random_subpath then
-						e.nav_path.spi = math.random(1, 3)
-					else
-						e.nav_path.spi = this.nav_path.spi
-					end
-					e.nav_path.ni = km.clamp(1, P:get_end_node(this.nav_path.pi), this.nav_path.ni + math.random(min_nodes, max_nodes))
-				end
-				if P:is_node_valid(e.nav_path.pi, e.nav_path.ni) then
-					if e.enemy then
-						e.enemy.gold = 0
-					end
-					if e.render then
-						e.render.sprites[1].name = "raise"
-					end
-					e.pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e.nav_path.ni)
-					queue_insert(store, e)
-				end
+			local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
+			local e = E:create_entity(e_name)
+			local nav_path = e.nav_path or {}
+			nav_path.pi = tpi
+			if a.use_center then
+				nav_path.spi = 1
+			elseif a.random_subpath then
+				nav_path.spi = math.random(1, 3)
+			else
+				nav_path.spi = tspi
 			end
-			a.ts = start_ts
-			if a.xp_from_skill then
-				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+			nav_path.ni = km.clamp(1, P:get_end_node(tpi), tni + math.random(min_nodes, max_nodes))
+			if P:is_node_valid(nav_path.pi, nav_path.ni) then
+				if e.enemy then
+					e.enemy.gold = 0
+				end
+				if e.unit and e.render then
+					e.render.sprites[1].name = "raise"
+				end
+				set_entity_level(e, a.level)
+				e.pos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni)
+				queue_insert(store, e)
 			end
-			if y_entity_animation_wait(this) then
-				return true, A_DONE
-			end
-			return nil, A_DONE
 		end
+		a.ts = start_ts
+		if a.xp_from_skill then
+			hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
+		end
+		if y_entity_animation_wait(this) then
+			return true, A_DONE
+		end
+		return nil, A_DONE
 	end
 	return false, A_NO_TARGET
 end
@@ -4451,31 +4531,21 @@ local function entity_casts_range_unit(store, this, a)
 	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
 	local filter_fn = nil
-	if a.allowed_templates then
-		filter_fn = function(e)
-			return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
-		end
-	elseif a.excluded_templates then
-		filter_fn = function(e)
-			return not table.contains(a.excluded_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
-		end
-	else
-		filter_fn = a.filter_fn
-	end
 
 	local function get_target(prediction_time)
 		local target, targets, pred_pos
+		local origin = get_entity_range_origin(this)
 		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-			target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, a.vis_flags, a.vis_bans, 
-			filter_fn, a.search_type, a.crowd_range, a.min_targets)
+			target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
+			a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets)
 		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
 			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
 		else
-			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, 
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
 			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
-			local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, prediction_time, a.vis_flags, a.vis_bans, 
-			filter_fn, a.search_type, a.crowd_range, a.min_targets)
+			local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 
+			prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets)
 			if targets then
 				if soldiers then
 					table.merge(targets, soldiers)
@@ -4488,6 +4558,9 @@ local function entity_casts_range_unit(store, this, a)
 	end
 
 	local function check_target(prediction_time)
+		if a.target_id then
+			return
+		end
 		local oldTarget = target
 		target = store.entities[target.id]
 		if not target or target.health.dead then
@@ -4529,6 +4602,7 @@ local function entity_casts_range_unit(store, this, a)
 			end
 			local bullet = E:create_entity(a.bullet)
 			bullet.bullet.source_id = this.id
+			bullet.bullet.level = a.level
 			bullet.bullet.shot_index = i
 			if a.use_center then
 				tspi = 1
@@ -4551,7 +4625,8 @@ local function entity_casts_range_unit(store, this, a)
 				end
 				local start_offset = a.bullet_start_offset[ai]
 				local flipSign = af and -1 or 1
-				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+				local origin = get_entity_range_origin(this)
+				bullet.bullet.from = V.v(origin.x + start_offset.x * flipSign, origin.y + start_offset.y)
 				bullet.pos = V.vclone(bullet.bullet.from)
 			end
 			if bullet.bullet.hit_payload then
@@ -4566,8 +4641,27 @@ local function entity_casts_range_unit(store, this, a)
 						hp.nav_path.spi = tspi
 						hp.nav_path.ni = tni
 					end
+					if hp.direction == 0 then
+						local direction = -1
+						if tni then
+							if this.nav_path then
+								if this.nav_path.ni < tni then
+									direction = 1
+								end
+							else
+								local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { tpi }, { tspi })
+								if #nodes >= 1 then
+									local _, _, ni = unpack(nodes[1])
+									if ni < tni then
+										direction = 1
+									end
+								end
+							end
+						end
+						hp.direction = direction
+					end
 					if hp.insert_delay then
-						controller = E:create_entity("entities_delay_controller")
+						local controller = E:create_entity("entities_delay_controller")
 						controller.delays = { hp.insert_delay }
 						controller.entities = { hp }
 						table.insert(hit_payload, controller)
@@ -4591,7 +4685,31 @@ local function entity_casts_range_unit(store, this, a)
 		end
 	end
 
+	if a.target_id then
+		target = store.entities[a.target_id]
+		if not target then
+			return false, A_NO_TARGET
+		end
+		local offset = U.get_prediction_offset(target, a.cast_time + prediction_time)
+		pred_pos = V.v(target.pos.x + offset.x, target.pos.y + offset.y)
+		goto label_start
+	end
+
+	if a.allowed_templates then
+		filter_fn = function(e)
+			return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	elseif a.excluded_templates then
+		filter_fn = function(e)
+			return not table.contains(a.excluded_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+		end
+	else
+		filter_fn = a.filter_fn
+	end
+
 	target, targets, pred_pos = get_target(a.cast_time + prediction_time)
+
+	::label_start::
 	if target then
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
@@ -4652,6 +4770,7 @@ local function entity_casts_range_unit(store, this, a)
 end
 
 local function entity_casts_range_at_path(store, this, a)
+	local origin = get_entity_range_origin(this)
 	local min_targets = a.min_targets or 1
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		local targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn)
@@ -4661,13 +4780,13 @@ local function entity_casts_range_at_path(store, this, a)
 	elseif a.range and a.range > 0 then
 		local targets = nil
 		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-			targets = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+			targets = U.find_soldiers_in_range(store.entities, origin, 0, a.range, 0, a.vis_bans, a.filter_fn)
 		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, a.vis_bans, a.filter_fn)
+			targets = U.find_enemies_in_range(store.entities, origin, 0, a.range, 0, a.vis_bans, a.filter_fn)
 		else
 			local vis_bans = a.vis_bans or 0
-			targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
-			local soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, a.range, 0, vis_bans, a.filter_fn)
+			targets = U.find_enemies_in_range(store.entities, origin, 0, a.range, 0, vis_bans, a.filter_fn)
+			local soldiers = U.find_soldiers_in_range(store.entities, origin, 0, a.range, 0, vis_bans, a.filter_fn)
 			if targets then
 				if soldiers then
 					table.merge(targets, soldiers)
@@ -4710,6 +4829,7 @@ local function entity_casts_range_at_path(store, this, a)
 		for i = 1, max_bullets do
 			local bullet = E:create_entity(a.bullet)
 			bullet.bullet.source_id = this.id
+			bullet.bullet.level = a.level
 			bullet.bullet.shot_index = i
 			bullet.bullet.target_id = nil
 			local subpath, node
@@ -4723,7 +4843,8 @@ local function entity_casts_range_at_path(store, this, a)
 			else
 				local start_offset = a.bullet_start_offset[ai]
 				local flipSign = af and -1 or 1
-				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
+				origin = get_entity_range_origin(this)
+				bullet.bullet.from = V.v(origin.x + start_offset.x * flipSign, origin.y + start_offset.y)
 				bullet.pos = V.vclone(bullet.bullet.from)
 			end
 			if bullet.bullet.hit_payload then
@@ -4738,8 +4859,15 @@ local function entity_casts_range_at_path(store, this, a)
 						hp.nav_path.spi = subpath
 						hp.nav_path.ni = node
 					end
+					if hp.direction == 0 then
+						local direction = -1
+						if tni < node then
+							direction = 1
+						end
+						hp.direction = direction
+					end
 					if hp.insert_delay then
-						controller = E:create_entity("entities_delay_controller")
+						local controller = E:create_entity("entities_delay_controller")
 						controller.delays = { hp.insert_delay }
 						controller.entities = { hp }
 						table.insert(hit_payload, controller)
@@ -4775,8 +4903,20 @@ end
 
 local function entity_casts_object_on_target(store, this, a)
 	local target, targets, pred_pos
+	local origin = get_entity_range_origin(this)
 	local prediction_time = a.node_prediction or 0
 	local filter_fn = nil
+
+	if a.target_id then
+		target = store.entities[a.target_id]
+		if not target then
+			return false, A_NO_TARGET
+		end
+		local offset = U.get_prediction_offset(target, a.cast_time + prediction_time)
+		pred_pos = V.v(target.pos.x + offset.x, target.pos.y + offset.y)
+		goto label_start
+	end
+
 	if a.allowed_templates then
 		filter_fn = function(e)
 			return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
@@ -4789,15 +4929,15 @@ local function entity_casts_object_on_target(store, this, a)
 		filter_fn = a.filter_fn
 	end
 	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, a.vis_flags, a.vis_bans, 
+		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, a.cast_time + prediction_time, a.vis_flags, a.vis_bans, 
 		filter_fn, a.search_type, a.crowd_range, a.min_targets)
 	elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, a.cast_time + prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
 	else
-		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, a.cast_time + prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
-		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.cast_time + prediction_time, 
+		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, a.cast_time + prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets)
 		if targets then
 			if soldiers then
@@ -4808,6 +4948,7 @@ local function entity_casts_object_on_target(store, this, a)
 		end
 	end
 
+	::label_start::
 	if target then
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
@@ -4851,8 +4992,21 @@ local function entity_casts_object_on_target(store, this, a)
 			else
 				set_entity_pos(target)
 			end
+			set_entity_level(e, a.level)
+			if e.aura then
+				e.aura.target_id = target.id
+				e.aura.source_id = this.id
+			else
+				e.target_id = target.id
+				e.source_id = this.id
+			end
 			if e.path_index then
 				e.path_index = tpi
+			end
+			if e.nav_path then
+				e.nav_path.pi = tpi
+				e.nav_path.spi = tspi
+				e.nav_path.ni = tni
 			end
 			if e.direction == 0 then
 				local direction = -1
@@ -4871,7 +5025,14 @@ local function entity_casts_object_on_target(store, this, a)
 				end
 				e.direction = direction
 			end
-			queue_insert(store, e)
+			if a.delay and a.delay > 0 then
+				local controller = E:create_entity("entities_delay_controller")
+				controller.delays = { a.delay }
+				controller.entities = { e }
+				queue_insert(store, controller)
+			else
+				queue_insert(store, e)
+			end
 			a.ts = start_ts
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
@@ -4904,7 +5065,16 @@ local function entity_attacks(store, this, a)
 end
 
 local function y_soldier_timed_attacks(store, this)
-	for _, a in pairs(this.timed_attacks.list) do
+	local list
+	if this.timed_attacks.order then
+		list = {}
+		for _, i in ipairs(this.timed_attacks.order) do
+			table.insert(list, this.timed_attacks.list[i])
+		end
+	else
+		list = this.timed_attacks.list
+	end
+	for _, a in ipairs(list) do
 		if a.spell then
 			if store.tick_ts - a.ts < a.cooldown then
 				-- block empty
@@ -4924,11 +5094,77 @@ local function y_soldier_timed_attacks(store, this)
 				end
 			end
 		elseif check_unit_attack_available(store, this, a) then
-			return entity_attacks(store, this, a)
+			local attacks
+			if (a.skills_interval or a.reset_partners_skill) and a.skill_id and this.soldier and this.soldier.tower_id then
+				local tower = store.entities[this.soldier.tower_id]
+				if tower and tower.barrack and tower.barrack.soldiers then
+					attacks = {}
+					for _, s in ipairs(tower.barrack.soldiers) do
+						if s ~= this and s.timed_attacks then
+							for _, ta in ipairs(s.timed_attacks.list) do
+								if ta.skill_id == a.skill_id then
+									ta.disabled = true
+									table.insert(attacks, ta)
+									break
+								end
+							end
+						end
+					end
+				end
+			end
+			local interrupted, status = entity_attacks(store, this, a)
+			if not attacks or #attacks == 0 then
+				return interrupted, status
+			end
+			if status == A_DONE then
+				if a.reset_partners_skill then
+					for _, ta in ipairs(attacks) do
+						ta.ts = a.ts
+						ta.disabled = nil
+					end
+					a.ts = a.ts + fts(10)
+				elseif a.skills_interval then
+					for _, ta in ipairs(attacks) do
+						if ta.ts + ta.cooldown - store.tick_ts < a.skills_interval then
+							ta.ts = store.tick_ts - ta.cooldown + a.skills_interval
+						end
+						ta.disabled = nil
+					end
+				end
+			end
+			return interrupted, status
+		end
+	end
+	return false, A_IN_COOLDOWN
+end
+
+local function shooter_power_upgrade(this, power_name)
+	local pn = power_name
+	local pow = this.powers and this.powers[pn]
+
+	if not pow then
+		return
+	end
+
+	if this.attacks then
+		for i, a in ipairs(this.attacks.list) do
+			if a.power_name == pn then
+				a.level = pow.level + (a.initial_level or 0)
+				if a.cooldowns then
+					a.cooldown = a.cooldowns[pow.level]
+				end
+				if a.ranges then
+					a.max_range = a.ranges[pow.level]
+				end
+				a.disabled = nil
+			end
 		end
 	end
 
-	return false, A_IN_COOLDOWN
+	local fn = pow.on_power_upgrade
+	if fn then
+		fn(this, power_name, pow)
+	end
 end
 -- customization
 
@@ -5036,6 +5272,8 @@ local SU = {
 	deck_new = deck_new,
 	deck_draw = deck_draw,
 	-- customization
+	set_entity_level = set_entity_level,
+	get_entity_range_origin = get_entity_range_origin,
 	check_tower_attack_available = check_tower_attack_available,
 	check_unit_attack_available = check_unit_attack_available,
 	check_entity_attack_available = check_entity_attack_available,
@@ -5048,11 +5286,13 @@ local SU = {
 	y_entity_wait = y_entity_wait,
 	y_entity_animation_wait = y_entity_animation_wait,
 	y_entity_animation_play = y_entity_animation_play,
+	entity_idle = entity_idle,
 	entity_casts_spawner = entity_casts_spawner,
 	entity_casts_range_unit = entity_casts_range_unit,
 	entity_casts_range_at_path = entity_casts_range_at_path,
 	entity_casts_object_on_target = entity_casts_object_on_target,
 	entity_attacks = entity_attacks,
+	shooter_power_upgrade = shooter_power_upgrade,
 }
 
 return SU

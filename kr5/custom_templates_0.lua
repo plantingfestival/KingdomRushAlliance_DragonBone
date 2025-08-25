@@ -155,6 +155,9 @@ tt.entity = nil
 
 tt = E:register_t("KR5Tower", "tower_KR5")
 E:add_comps(tt, "vis")
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].name = "terrains_%04i"
+tt.render.sprites[1].offset = v(0, 13)
 
 tt = RT("fx_repeat_forever")
 E:add_comps(tt, "main_script", "render")
@@ -246,8 +249,13 @@ tt.main_script.insert = scripts.common_aura.insert
 tt.main_script.update = scripts.aura_with_towers.update
 
 tt = E:register_t("mod_common_stun", "mod_stun")
-tt.modifier.vis_flags = bor(F_STUN, F_MOD)
 tt.modifier.vis_bans = bor(F_BOSS)
+tt.render.sprites[1].size_names = nil
+tt.fade_in = nil
+tt.fade_out = nil
+tt.animation_start = "start"
+tt.animation_loop = "loop"
+tt.animation_end = "end"
 
 tt = E:register_t("mod_intimidation", "modifier")
 tt.speed_factor = 1
@@ -339,6 +347,59 @@ tt = RT("mod_damage_magical_armor", "mod_damage")
 tt.damage_min = 0.01
 tt.damage_max = 0.01
 tt.damage_type = bor(DAMAGE_MAGICAL_ARMOR, DAMAGE_NO_SHIELD_HIT)
+
+tt = E:register_t("decal_scripted_shooter", "decal_scripted")
+E:add_comps(tt, "attacks", "powers")
+tt.owner = nil
+
+tt = E:register_t("tower_shooter", "decal_scripted_shooter")
+tt.main_script.insert = scripts.tower_shooter.insert
+tt.main_script.update = scripts.tower_shooter.update
+
+tt = E:register_t("follow_target", "decal_scripted")
+E:add_comps(tt, "attacks", "reinforcement", "tween")
+tt.reinforcement.duration = 0
+tt.reinforcement.durations = nil
+tt.level = 0
+tt.target_id = nil
+tt.idle_animation = "idle"
+tt.fade_time = 0
+tt.tween.disabled = true
+tt.tween.remove = nil
+tt.main_script.update = scripts.follow_target.update
+
+tt = E:register_t("initial_bolt", "bolt")
+tt.render.sprites[1].prefix = nil
+tt.render.sprites[1].name = ""
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.flip_x = true
+tt.bullet.acceleration_factor = 0
+tt.bullet.min_speed = 300
+tt.bullet.max_speed = 300
+tt.bullet.max_track_distance = REF_H / 6
+tt.bullet.align_with_trajectory = true
+tt.bullet.pop = nil
+tt.bullet.pop_conds = nil
+tt.bullet.hit_fx = nil
+tt.sound_events.insert = nil
+tt.main_script.insert = scripts.initial_bolt.insert
+tt.main_script.update = scripts.initial_bolt.update
+
+tt = E:register_t("custom_bolt", "initial_bolt")
+E:add_comps(tt, "force_motion")
+tt.bullet.shot_index = 1
+tt.initial_impulse = 1
+tt.initial_impulse_duration = 1
+tt.initial_impulse_angle = 0
+tt.force_motion.a_step = 1
+tt.force_motion.max_a = 3000
+tt.force_motion.max_v = 300
+tt.main_script.update = scripts.custom_bolt.update
+
+tt = RT("soldier_in_barrack", "soldier_militia")
+E:add_comps(tt, "nav_grid")
+tt.main_script.update = scripts.kr4_soldier_barrack.update
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

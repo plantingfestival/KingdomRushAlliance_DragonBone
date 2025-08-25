@@ -402,6 +402,9 @@ return {
 		ignis_altar = {
 			icon_idx = 1
 		},
+		deep_devils = {
+			icon_idx = 1
+		},
 		random = {
 			icon_idx = 1
 		}
@@ -491,6 +494,9 @@ return {
 		ignis_altar = {
 			icon_idx = 1
 		},
+		deep_devils = {
+			icon_idx = 1
+		},
 		random = {
 			icon_idx = 1
 		}
@@ -518,6 +524,7 @@ return {
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
+		"deep_devils",
 		"random"
 	},
 	tower_order_free = {
@@ -543,6 +550,7 @@ return {
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
+		"deep_devils",
 		"random"
 	},
 	tower_order_censored_cn = {

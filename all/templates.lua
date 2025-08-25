@@ -424,6 +424,7 @@ arrow.bullet.pop_chance = 1
 arrow.bullet.pop_conds = DR_KILL
 arrow.render.sprites[1].name = "arrow"
 arrow.render.sprites[1].animated = false
+arrow.render.sprites[1].loop = false
 arrow.main_script.insert = scripts.arrow.insert
 arrow.main_script.update = scripts.arrow.update
 arrow.sound_events.insert = "ArrowSound"

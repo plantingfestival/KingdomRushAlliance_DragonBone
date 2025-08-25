@@ -10037,6 +10037,8 @@ id = id + 1
 tt.tower_holder.preview_ids.random = id
 id = id + 1
 tt.tower_holder.preview_ids.ignis_altar = id
+id = id + 1
+tt.tower_holder.preview_ids.deep_devils = id
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_holders_%04i"
 tt.render.sprites[1].offset = v(0, 13)
@@ -10128,6 +10130,11 @@ tt.render.sprites[sid].name = "ignis_altar_lvl1_ghost_0001"
 tt.render.sprites[sid].exo = true
 tt.render.sprites[sid].anchor = v(0.53, 0.16)
 tt.render.sprites[sid].offset = v(0, 4)
+sid = #tt.render.sprites + 1
+tt.render.sprites[sid] = table.deepclone(tt.render.sprites[3])
+tt.render.sprites[sid].name = "deep_devils_reef_towers_lvl1_ghost"
+tt.render.sprites[sid].anchor.y = 0.11
+tt.render.sprites[sid].offset = v(0, 0)
 tt.editor.props = {
 	{
 		"tower.terrain_style",
@@ -11018,7 +11025,7 @@ tt.attacks.list[2] = table.deepclone(tt.attacks.list[1])
 tt.attacks.list[2].animation = "skill1"
 tt.attacks.list[2].bullet = "tower_arcane_wizard_ray_disintegrate"
 tt.attacks.list[2].cooldown = nil
-tt.attacks.list[2].vis_flags = bor(F_DISINTEGRATED)
+tt.attacks.list[2].vis_flags = bor(F_RANGED)
 tt.attacks.list[2].vis_bans = bor(F_NIGHTMARE)
 tt.attacks.list[2].shoot_time = fts(31)
 tt.attacks.list[2].load_time = fts(13)
@@ -29318,10 +29325,12 @@ tt.bullet.pop = {
 	"pop_shunt",
 	"pop_oof"
 }
-tt.bullet.pop_chance = 1
+tt.bullet.pop_chance = 0.1
 tt.bullet.pop_conds = DR_KILL
+tt.bullet.asymmetrical = true
 tt.render.sprites[1].name = "arrow"
 tt.render.sprites[1].animated = false
+tt.render.sprites[1].loop = false
 tt.main_script.insert = scripts.arrow.insert
 tt.main_script.update = scripts.arrow5.update
 tt.sound_events.insert = "ArrowSound"

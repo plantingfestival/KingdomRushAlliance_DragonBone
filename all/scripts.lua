@@ -2103,9 +2103,11 @@ function scripts.tower_barrack.update(this, store, script)
 					s.nav_rally.pos, s.nav_rally.center = U.rally_formation_position(i, b, b.max_soldiers)
 					s.nav_rally.new = true
 
-					if this.powers then
+					if this.powers and s.powers then
 						for pn, p in pairs(this.powers) do
-							s.powers[pn].level = p.level
+							if s.powers[pn] then
+								s.powers[pn].level = p.level
+							end
 						end
 					end
 
@@ -4965,9 +4967,20 @@ function scripts.mod_stun.update(this, store, script)
 
 	this.pos = target.pos
 	start_ts = store.tick_ts
+	if this.tween then
+		this.tween.reverse = false
+		this.tween.remove = false
+		if this.fade_in then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+		else
+			this.tween.disabled = true
+		end
+	end
 
 	if m.animation_phases then
-		U.animation_start(this, "start", nil, store.tick_ts)
+		local animation_start = this.animation_start or "start"
+		U.animation_start(this, animation_start, nil, store.tick_ts)
 
 		while not U.animation_finished(this) do
 			if not target_hidden and m.hide_target_delay and store.tick_ts - start_ts > m.hide_target_delay then
@@ -4990,7 +5003,8 @@ function scripts.mod_stun.update(this, store, script)
 		end
 	end
 
-	U.animation_start(this, "loop", nil, store.tick_ts, true)
+	local animation_loop = this.animation_loop or "loop"
+	U.animation_start(this, animation_loop, nil, store.tick_ts, true)
 
 	while store.tick_ts - m.ts < m.duration and target and not target.health.dead do
 		if this.render and m.use_mod_offset and target.unit.mod_offset and not m.custom_offsets then
@@ -5005,7 +5019,8 @@ function scripts.mod_stun.update(this, store, script)
 	end
 
 	if m.animation_phases then
-		U.animation_start(this, "end", nil, store.tick_ts)
+		local animation_end = this.animation_end or "end"
+		U.animation_start(this, animation_end, nil, store.tick_ts)
 
 		if target_hidden then
 			if target.ui then
@@ -5026,7 +5041,14 @@ function scripts.mod_stun.update(this, store, script)
 		end
 	end
 
-	queue_remove(store, this)
+	if this.tween and this.fade_out then
+		this.tween.reverse = true
+		this.tween.remove = true
+		this.tween.disabled = false
+		this.tween.ts = store.tick_ts
+	else
+		queue_remove(store, this)
+	end
 end
 
 function scripts.mod_stun.remove(this, store, script)

@@ -12,17 +12,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			164,
-			291,
+			589,
+			240,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bottom_info_image_soldiers_0031"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -37,12 +37,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			960,
-			122,
+			502,
+			345,
 			97,
 			96
 		},
@@ -62,17 +62,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1059,
-			122,
+			601,
+			339,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bottom_info_image_soldiers_0033"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -87,12 +87,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			227,
+			721,
+			117,
 			97,
 			96
 		},
@@ -112,12 +112,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			574,
-			227,
+			820,
+			117,
 			97,
 			96
 		},
@@ -137,12 +137,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			673,
-			222,
+			919,
+			117,
 			97,
 			96
 		},
@@ -162,12 +162,12 @@ return {
             5
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			237,
-			151,
+			1976,
+			1,
 			110,
 			110
 		},
@@ -187,12 +187,12 @@ return {
             5
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			147,
-			389,
+			2088,
+			1,
 			110,
 			110
 		},
@@ -212,12 +212,12 @@ return {
             5
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			263,
-			263,
+			2200,
+			1,
 			110,
 			110
 		},
@@ -237,12 +237,12 @@ return {
             5
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			349,
-			151,
+			2312,
+			1,
 			110,
 			110
 		},
@@ -262,12 +262,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			370,
-			6,
+			1,
+			357,
 			114,
 			114
 		},
@@ -287,12 +287,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			532,
+			700,
+			1,
 			114,
 			114
 		},
@@ -312,12 +312,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			486,
-			6,
+			816,
+			1,
 			114,
 			114
 		},
@@ -337,12 +337,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			648,
+			932,
+			1,
 			114,
 			114
 		},
@@ -362,12 +362,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			602,
-			6,
+			1048,
+			1,
 			114,
 			114
 		},
@@ -387,12 +387,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			764,
+			1164,
+			1,
 			114,
 			114
 		},
@@ -412,12 +412,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			718,
-			6,
+			1280,
+			1,
 			114,
 			114
 		},
@@ -437,12 +437,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			880,
+			1396,
+			1,
 			114,
 			114
 		},
@@ -462,12 +462,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			834,
-			6,
+			1512,
+			1,
 			114,
 			114
 		},
@@ -487,12 +487,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			996,
+			1628,
+			1,
 			114,
 			114
 		},
@@ -512,12 +512,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			950,
-			6,
+			1744,
+			1,
 			114,
 			114
 		},
@@ -537,12 +537,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1066,
-			6,
+			1860,
+			1,
 			114,
 			114
 		},
@@ -562,17 +562,42 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			362,
+			365,
+			1,
 			168,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
+	},
+	["warmongers_barrack_towers_lvl1_layer1_0008"] = {
+		a_name = "go_towers_warmongers_barrack.dds",
+		size = {
+			240,
+			200
+		},
+		trim = {
+			42,
+            58,
+            35,
+            5
+		},
+		a_size = {
+			2910,
+			504
+		},
+		f_quad = {
+			535,
+			1,
+			163,
+			137
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -587,17 +612,17 @@ return {
             30
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			589,
-			325,
+			1926,
+			117,
 			74,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -612,17 +637,17 @@ return {
             35
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			886,
-			222,
+			2002,
+			200,
 			74,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -637,17 +662,17 @@ return {
             56
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1072,
-			453,
+			698,
+			438,
 			74,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -662,12 +687,12 @@ return {
             64
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			303,
-			1149,
+			1349,
+			289,
 			74,
 			57
 		},
@@ -687,17 +712,17 @@ return {
             56
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1072,
-			453,
+			698,
+			438,
 			74,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -712,17 +737,17 @@ return {
             35
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			886,
-			222,
+			2002,
+			200,
 			74,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_barrack_towers_lvl1_layer2_0007"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -737,17 +762,17 @@ return {
             30
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			589,
-			325,
+			1926,
+			117,
 			74,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl2_layer1_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -762,12 +787,12 @@ return {
             23
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			193,
-			6,
+			188,
+			1,
 			175,
 			143
 		},
@@ -787,12 +812,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			682,
-			320,
+			1018,
+			117,
 			88,
 			95
 		},
@@ -812,17 +837,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			962,
-			220,
+			1108,
+			117,
 			88,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl2_layer2_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -837,17 +862,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1059,
-			220,
+			1198,
+			117,
 			88,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl2_layer2_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -862,12 +887,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			575,
+			1288,
+			117,
 			88,
 			95
 		},
@@ -887,17 +912,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1059,
-			220,
+			1198,
+			117,
 			88,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl2_layer2_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -912,17 +937,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			962,
-			220,
+			1108,
+			117,
 			88,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl2_layer2_0007"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -937,12 +962,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			682,
-			320,
+			1018,
+			117,
 			88,
 			95
 		},
@@ -962,12 +987,12 @@ return {
             21
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			6,
+			1,
+			1,
 			185,
 			162
 		},
@@ -987,12 +1012,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			672,
+			1378,
+			117,
 			88,
 			95
 		},
@@ -1012,12 +1037,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			769,
+			1468,
+			117,
 			88,
 			95
 		},
@@ -1037,12 +1062,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			866,
+			1558,
+			117,
 			88,
 			95
 		},
@@ -1062,12 +1087,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			963,
+			1648,
+			117,
 			88,
 			95
 		},
@@ -1087,12 +1112,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			866,
+			1558,
+			117,
 			88,
 			95
 		},
@@ -1112,12 +1137,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			769,
+			1468,
+			117,
 			88,
 			95
 		},
@@ -1137,12 +1162,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			672,
+			1378,
+			117,
 			88,
 			95
 		},
@@ -1162,12 +1187,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			170,
+			1,
+			165,
 			190,
 			156
 		},
@@ -1187,12 +1212,12 @@ return {
             26
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			977,
-			762,
+			2649,
+			345,
 			58,
 			51
 		},
@@ -1212,12 +1237,12 @@ return {
             35
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1037,
-			777,
+			265,
+			461,
 			58,
 			42
 		},
@@ -1237,17 +1262,17 @@ return {
             47
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			737,
-			417,
+			1,
+			473,
 			58,
 			30
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl4_layer2_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1262,12 +1287,12 @@ return {
             66
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1182,
-			6,
+			2898,
+			78,
 			49,
 			11
 		},
@@ -1287,17 +1312,17 @@ return {
             47
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			737,
-			417,
+			1,
+			473,
 			58,
 			30
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_barrack_towers_lvl4_layer2_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1312,12 +1337,12 @@ return {
             35
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1037,
-			777,
+			265,
+			461,
 			58,
 			42
 		},
@@ -1337,12 +1362,12 @@ return {
             26
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			977,
-			762,
+			2649,
+			345,
 			58,
 			51
 		},
@@ -1362,12 +1387,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			993,
+			1017,
+			342,
 			75,
 			76
 		},
@@ -1387,17 +1412,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1139,
-			543,
+			1734,
+			405,
 			71,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1412,17 +1437,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			450,
-			1133,
+			2349,
+			201,
 			72,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1437,12 +1462,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			1071,
+			1094,
+			342,
 			76,
 			76
 		},
@@ -1462,12 +1487,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			1071,
+			1094,
+			342,
 			76,
 			76
 		},
@@ -1487,12 +1512,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			364,
-			839,
+			853,
+			421,
 			82,
 			76
 		},
@@ -1512,17 +1537,17 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			345,
-			586,
+			1179,
+			214,
 			80,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0008"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1537,12 +1562,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			699,
-			721,
+			1658,
+			362,
 			74,
 			63
 		},
@@ -1562,12 +1587,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			699,
-			721,
+			1658,
+			362,
 			74,
 			63
 		},
@@ -1587,17 +1612,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			847,
-			449,
+			1738,
+			263,
 			75,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0011"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1612,12 +1637,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			770,
-			641,
+			1734,
+			332,
 			71,
 			71
 		},
@@ -1637,12 +1662,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			775,
-			714,
+			1668,
+			214,
 			72,
 			68
 		},
@@ -1662,12 +1687,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			775,
-			714,
+			1668,
+			214,
 			72,
 			68
 		},
@@ -1687,12 +1712,12 @@ return {
             23
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			695,
-			495,
+			1658,
+			288,
 			72,
 			72
 		},
@@ -1712,12 +1737,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			699,
-			646,
+			1385,
+			418,
 			73,
 			69
 		},
@@ -1737,17 +1762,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			700,
-			863,
+			1807,
+			409,
 			69,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0017"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1762,17 +1787,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			700,
-			863,
+			1807,
+			409,
 			69,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0018"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1787,12 +1812,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			993,
+			1017,
+			342,
 			75,
 			76
 		},
@@ -1812,17 +1837,17 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			886,
-			373,
+			159,
+			165,
 			109,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0020"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1837,17 +1862,17 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			886,
-			373,
+			159,
+			165,
 			109,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0021"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -1862,12 +1887,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			299,
+			2786,
+			1,
 			111,
 			75
 		},
@@ -1887,12 +1912,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			299,
+			2786,
+			1,
 			111,
 			75
 		},
@@ -1912,12 +1937,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			222,
+			2672,
+			1,
 			112,
 			75
 		},
@@ -1937,12 +1962,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			222,
+			2672,
+			1,
 			112,
 			75
 		},
@@ -1962,12 +1987,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			679,
+			496,
+			142,
 			98,
 			73
 		},
@@ -1987,12 +2012,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			679,
+			496,
+			142,
 			98,
 			73
 		},
@@ -2012,17 +2037,17 @@ return {
             9
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			228,
-			1112,
+			770,
+			267,
 			89,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0028"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2037,17 +2062,17 @@ return {
             9
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			228,
-			1112,
+			770,
+			267,
 			89,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0029"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2062,12 +2087,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			758,
+			2350,
+			113,
 			86,
 			72
 		},
@@ -2087,12 +2112,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			758,
+			2350,
+			113,
 			86,
 			72
 		},
@@ -2112,12 +2137,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			758,
+			2350,
+			113,
 			86,
 			72
 		},
@@ -2137,12 +2162,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			758,
+			2350,
+			113,
 			86,
 			72
 		},
@@ -2162,12 +2187,12 @@ return {
             8
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			758,
+			2350,
+			113,
 			86,
 			72
 		},
@@ -2187,12 +2212,12 @@ return {
             6
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			1112,
+			2424,
+			1,
 			125,
 			79
 		},
@@ -2212,12 +2237,12 @@ return {
             6
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			6,
-			1112,
+			2424,
+			1,
 			125,
 			79
 		},
@@ -2237,17 +2262,17 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			357,
-			668,
+			2090,
+			113,
 			84,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0037"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2262,17 +2287,17 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			357,
-			668,
+			2090,
+			113,
 			84,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0038"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2287,12 +2312,12 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			365,
-			923,
+			774,
+			421,
 			77,
 			82
 		},
@@ -2312,12 +2337,12 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			365,
-			923,
+			774,
+			421,
 			77,
 			82
 		},
@@ -2337,17 +2362,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			769,
-			449,
+			1172,
+			342,
 			75,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0041"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2362,17 +2387,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			997,
-			373,
+			509,
+			242,
 			101,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0042"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2387,17 +2412,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			997,
-			373,
+			509,
+			242,
 			101,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_0043"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2412,12 +2437,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			779,
+			427,
+			342,
 			98,
 			73
 		},
@@ -2437,12 +2462,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			779,
+			427,
+			342,
 			98,
 			73
 		},
@@ -2462,12 +2487,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			259,
-			430,
+			601,
+			438,
 			95,
 			65
 		},
@@ -2487,12 +2512,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			259,
-			430,
+			601,
+			438,
 			95,
 			65
 		},
@@ -2512,12 +2537,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1158,
-			122,
+			671,
+			140,
 			98,
 			48
 		},
@@ -2537,12 +2562,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1158,
-			122,
+			671,
+			140,
 			98,
 			48
 		},
@@ -2562,12 +2587,12 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			263,
-			375,
+			2424,
+			155,
 			100,
 			53
 		},
@@ -2587,12 +2612,12 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			263,
-			375,
+			2424,
+			155,
 			100,
 			53
 		},
@@ -2612,17 +2637,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			222,
+			721,
+			215,
 			100,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0052"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2637,17 +2662,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			222,
+			721,
+			215,
 			100,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0053"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2662,12 +2687,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			1060,
+			823,
+			215,
 			99,
 			50
 		},
@@ -2687,12 +2712,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			122,
-			1060,
+			823,
+			215,
 			99,
 			50
 		},
@@ -2712,12 +2737,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			618,
-			495,
+			1581,
+			288,
 			75,
 			74
 		},
@@ -2737,12 +2762,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			448,
+			1249,
+			342,
 			76,
 			74
 		},
@@ -2762,12 +2787,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			994,
-			453,
+			1425,
+			288,
 			76,
 			72
 		},
@@ -2787,12 +2812,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			524,
+			1503,
+			288,
 			76,
 			72
 		},
@@ -2812,12 +2837,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			593,
-			914,
+			943,
+			342,
 			77,
 			72
 		},
@@ -2837,17 +2862,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			550,
-			751,
+			1588,
+			214,
 			78,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0061"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2862,17 +2887,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			444,
-			923,
+			1343,
+			214,
 			80,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0062"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2887,17 +2912,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			423,
-			586,
+			1261,
+			214,
 			80,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_0063"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -2912,12 +2937,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			660,
-			122,
+			396,
+			142,
 			98,
 			98
 		},
@@ -2937,12 +2962,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			660,
-			122,
+			396,
+			142,
 			98,
 			98
 		},
@@ -2962,12 +2987,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -2987,12 +3012,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -3012,12 +3037,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3037,12 +3062,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3062,12 +3087,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			461,
-			122,
+			246,
+			251,
 			98,
 			103
 		},
@@ -3087,12 +3112,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			461,
-			122,
+			246,
+			251,
 			98,
 			103
 		},
@@ -3112,12 +3137,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			860,
-			122,
+			571,
+			140,
 			98,
 			98
 		},
@@ -3137,12 +3162,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			860,
-			122,
+			571,
+			140,
 			98,
 			98
 		},
@@ -3162,12 +3187,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -3187,12 +3212,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -3212,12 +3237,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3237,12 +3262,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3262,12 +3287,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			461,
-			122,
+			246,
+			251,
 			98,
 			103
 		},
@@ -3287,12 +3312,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			461,
-			122,
+			246,
+			251,
 			98,
 			103
 		},
@@ -3312,12 +3337,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			860,
-			122,
+			571,
+			140,
 			98,
 			98
 		},
@@ -3337,12 +3362,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			860,
-			122,
+			571,
+			140,
 			98,
 			98
 		},
@@ -3362,12 +3387,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -3387,12 +3412,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			263,
+			234,
+			146,
 			98,
 			103
 		},
@@ -3412,12 +3437,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3437,12 +3462,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			760,
-			122,
+			409,
+			242,
 			98,
 			98
 		},
@@ -3462,12 +3487,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			461,
-			122,
+			246,
+			251,
 			98,
 			103
 		},
@@ -3487,12 +3512,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			561,
-			122,
+			265,
+			356,
 			97,
 			103
 		},
@@ -3512,12 +3537,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			133,
-			1112,
+			1738,
+			117,
 			93,
 			89
 		},
@@ -3537,17 +3562,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			972,
+			2002,
+			113,
 			86,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_rage_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3562,17 +3587,17 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			307,
-			1024,
+			159,
+			276,
 			85,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_rage_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3587,17 +3612,17 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			307,
-			1024,
+			159,
+			276,
 			85,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_rage_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3612,12 +3637,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			259,
-			497,
+			2090,
+			198,
 			85,
 			76
 		},
@@ -3637,12 +3662,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			259,
-			497,
+			2090,
+			198,
 			85,
 			76
 		},
@@ -3662,12 +3687,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			368,
+			769,
+			342,
 			85,
 			77
 		},
@@ -3687,12 +3712,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			368,
+			769,
+			342,
 			85,
 			77
 		},
@@ -3712,12 +3737,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			563,
-			401,
+			2176,
+			113,
 			85,
 			79
 		},
@@ -3737,12 +3762,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			563,
-			401,
+			2176,
+			113,
 			85,
 			79
 		},
@@ -3762,17 +3787,17 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			879,
+			1833,
+			117,
 			85,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_rage_0010"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3787,17 +3812,17 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			879,
+			1833,
+			117,
 			85,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_rage_0011"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3812,12 +3837,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			650,
-			417,
+			2177,
+			194,
 			85,
 			76
 		},
@@ -3837,12 +3862,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			650,
-			417,
+			2177,
+			194,
 			85,
 			76
 		},
@@ -3862,12 +3887,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			356,
-			447,
+			856,
+			342,
 			85,
 			77
 		},
@@ -3887,12 +3912,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			356,
-			447,
+			856,
+			342,
 			85,
 			77
 		},
@@ -3912,12 +3937,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			443,
-			454,
+			2263,
+			113,
 			85,
 			79
 		},
@@ -3937,12 +3962,12 @@ return {
             39
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			443,
-			454,
+			2263,
+			113,
 			85,
 			79
 		},
@@ -3962,17 +3987,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			370,
-			122,
+			584,
+			443,
 			56,
 			12
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -3987,17 +4012,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			325,
+			117,
+			357,
 			112,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4012,17 +4037,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			147,
-			501,
+			191,
+			357,
 			108,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4037,17 +4062,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			147,
-			501,
+			191,
+			357,
 			108,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4062,17 +4087,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			147,
-			501,
+			191,
+			357,
 			108,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0005"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4087,12 +4112,12 @@ return {
             1
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			376,
+			2424,
+			82,
 			112,
 			71
 		},
@@ -4112,12 +4137,12 @@ return {
             1
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			376,
+			2424,
+			82,
 			112,
 			71
 		},
@@ -4137,12 +4162,12 @@ return {
             1
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			772,
-			376,
+			2424,
+			82,
 			112,
 			71
 		},
@@ -4162,17 +4187,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			325,
+			117,
+			357,
 			112,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_big_0009"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4187,17 +4212,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			325,
+			117,
+			357,
 			112,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4212,17 +4237,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			625,
-			742,
+			1862,
+			263,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4237,17 +4262,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			771,
-			860,
+			2123,
+			276,
 			68,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4262,17 +4287,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			771,
-			860,
+			2123,
+			276,
 			68,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4287,17 +4312,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			771,
-			860,
+			2123,
+			276,
 			68,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0005"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4312,17 +4337,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			667,
-			927,
+			1871,
+			409,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4337,17 +4362,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			667,
-			927,
+			1871,
+			409,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0007"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4362,17 +4387,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			667,
-			927,
+			1871,
+			409,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0008"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4387,17 +4412,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			625,
-			742,
+			1862,
+			263,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_captain_weakness_small_0009"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4412,17 +4437,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			625,
-			742,
+			1862,
+			263,
 			72,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4437,17 +4462,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1034,
-			1158,
+			2806,
+			402,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4462,12 +4487,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			937,
-			940,
+			2716,
+			138,
 			51,
 			50
 		},
@@ -4487,12 +4512,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			969,
-			1049,
+			999,
+			286,
 			54,
 			50
 		},
@@ -4512,12 +4537,12 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			990,
-			936,
+			2861,
+			244,
 			54,
 			48
 		},
@@ -4537,12 +4562,12 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			990,
-			936,
+			2861,
+			244,
 			54,
 			48
 		},
@@ -4562,17 +4587,17 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			968,
-			869,
+			2002,
+			352,
 			55,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0007"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4587,17 +4612,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			567,
-			619,
+			2526,
+			155,
 			53,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0008"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4612,17 +4637,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			913,
-			844,
+			2476,
+			343,
 			53,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0009"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4637,17 +4662,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			913,
-			844,
+			2476,
+			343,
 			53,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0010"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4662,12 +4687,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1094,
-			936,
+			2809,
+			353,
 			50,
 			47
 		},
@@ -4687,12 +4712,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1088,
-			1148,
+			2706,
+			453,
 			47,
 			50
 		},
@@ -4712,12 +4737,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1146,
-			936,
+			2810,
+			456,
 			47,
 			50
 		},
@@ -4737,12 +4762,12 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1146,
-			936,
+			2810,
+			456,
 			47,
 			50
 		},
@@ -4762,12 +4787,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1064,
-			986,
+			2709,
+			345,
 			48,
 			52
 		},
@@ -4787,17 +4812,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			519,
-			535,
+			2860,
+			300,
 			46,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0016"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4812,12 +4837,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			983,
-			1160,
+			2856,
+			403,
 			46,
 			46
 		},
@@ -4837,12 +4862,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			983,
-			1160,
+			2856,
+			403,
 			46,
 			46
 		},
@@ -4862,17 +4887,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1034,
-			1158,
+			2806,
+			402,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0019"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4887,17 +4912,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			575,
-			668,
+			1179,
+			292,
 			81,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0020"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4912,17 +4937,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			575,
-			668,
+			1179,
+			292,
 			81,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0021"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4937,17 +4962,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			223,
-			1060,
+			1008,
+			421,
 			82,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0022"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4962,17 +4987,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			223,
-			1060,
+			1008,
+			421,
 			82,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0023"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -4987,17 +5012,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			223,
-			1060,
+			1008,
+			421,
 			82,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0024"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5012,17 +5037,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			223,
-			1060,
+			1008,
+			421,
 			82,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0025"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5037,17 +5062,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			299,
-			846,
+			2424,
+			210,
 			87,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0026"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5062,17 +5087,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			299,
-			846,
+			2424,
+			210,
 			87,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0027"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5087,17 +5112,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1072,
-			529,
+			1928,
+			210,
 			72,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0028"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5112,17 +5137,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1072,
-			529,
+			1928,
+			210,
 			72,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0029"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5137,17 +5162,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1090,
+			2478,
+			275,
 			66,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0030"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5162,17 +5187,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1090,
+			2478,
+			275,
 			66,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0031"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5187,17 +5212,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1090,
+			2478,
+			275,
 			66,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0032"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5212,17 +5237,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1090,
+			2478,
+			275,
 			66,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0033"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5237,17 +5262,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1090,
+			2478,
+			275,
 			66,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0034"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5262,17 +5287,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			874,
-			1140,
+			2193,
+			338,
 			65,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0035"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5287,17 +5312,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			874,
-			1140,
+			2193,
+			338,
 			65,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0036"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5312,17 +5337,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1025,
-			874,
+			2374,
+			432,
 			55,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0037"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5337,17 +5362,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1025,
-			874,
+			2374,
+			432,
 			55,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0038"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5362,12 +5387,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1071,
-			1040,
+			2759,
+			345,
 			48,
 			52
 		},
@@ -5387,12 +5412,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1071,
-			1040,
+			2759,
+			345,
 			48,
 			52
 		},
@@ -5412,12 +5437,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1040,
-			932,
+			2807,
+			244,
 			52,
 			52
 		},
@@ -5437,17 +5462,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			815,
-			930,
+			2513,
+			210,
 			63,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0042"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5462,17 +5487,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			815,
-			930,
+			2513,
+			210,
 			63,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0043"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5487,12 +5512,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			529,
-			1088,
+			2406,
+			275,
 			70,
 			60
 		},
@@ -5512,12 +5537,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			529,
-			1088,
+			2406,
+			275,
 			70,
 			60
 		},
@@ -5537,17 +5562,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			746,
-			1068,
+			1928,
+			352,
 			72,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0046"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5562,17 +5587,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			746,
-			1068,
+			1928,
+			352,
 			72,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl1_0047"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5587,12 +5612,12 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			847,
-			588,
+			325,
+			463,
 			67,
 			40
 		},
@@ -5612,12 +5637,12 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			847,
-			588,
+			325,
+			463,
 			67,
 			40
 		},
@@ -5637,17 +5662,17 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			618,
-			571,
+			1610,
+			415,
 			71,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0050"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5662,17 +5687,17 @@ return {
             7
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			618,
-			571,
+			1610,
+			415,
 			71,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_0051"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5687,12 +5712,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			845,
-			630,
+			2405,
+			337,
 			69,
 			45
 		},
@@ -5712,12 +5737,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			845,
-			630,
+			2405,
+			337,
 			69,
 			45
 		},
@@ -5737,12 +5762,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			690,
+			2332,
+			385,
 			68,
 			45
 		},
@@ -5762,12 +5787,12 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			690,
+			2332,
+			385,
 			68,
 			45
 		},
@@ -5787,17 +5812,17 @@ return {
             3
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			988,
-			661,
+			1815,
+			263,
 			67,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl1_shadow"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5812,17 +5837,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			607,
-			482,
+			188,
+			146,
 			41,
 			9
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5837,12 +5862,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1157,
-			778,
+			2430,
+			432,
 			55,
 			49
 		},
@@ -5862,12 +5887,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			913,
-			888,
+			2714,
+			190,
 			53,
 			50
 		},
@@ -5887,17 +5912,17 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			411,
+			2481,
+			453,
 			55,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5912,17 +5937,17 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1082,
-			881,
+			2755,
+			399,
 			55,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0005"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5937,17 +5962,17 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1082,
-			881,
+			2755,
+			399,
 			55,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -5962,12 +5987,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1088,
-			827,
+			2582,
+			398,
 			56,
 			52
 		},
@@ -5987,12 +6012,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1021,
-			1048,
+			2861,
+			348,
 			53,
 			48
 		},
@@ -6012,12 +6037,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1139,
-			890,
+			2751,
+			299,
 			55,
 			44
 		},
@@ -6037,12 +6062,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1139,
-			890,
+			2751,
+			299,
 			55,
 			44
 		},
@@ -6062,12 +6087,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			928,
-			1159,
+			2755,
+			456,
 			53,
 			47
 		},
@@ -6087,12 +6112,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			983,
-			1105,
+			2809,
+			298,
 			53,
 			49
 		},
@@ -6112,12 +6137,12 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			880,
-			940,
+			2538,
+			453,
 			55,
 			50
 		},
@@ -6137,12 +6162,12 @@ return {
             25
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			880,
-			940,
+			2538,
+			453,
 			55,
 			50
 		},
@@ -6162,17 +6187,17 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			903,
-			992,
+			1122,
+			287,
 			55,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0015"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6187,17 +6212,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1034,
-			1103,
+			2651,
+			453,
 			53,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0016"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6212,17 +6237,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1086,
-			1094,
+			2402,
+			385,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0017"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6237,17 +6262,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1086,
-			1094,
+			2402,
+			385,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0018"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6262,12 +6287,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1157,
-			778,
+			2430,
+			432,
 			55,
 			49
 		},
@@ -6287,12 +6312,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			433,
-			535,
+			1404,
+			362,
 			84,
 			49
 		},
@@ -6312,12 +6337,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			433,
-			535,
+			1404,
+			362,
 			84,
 			49
 		},
@@ -6337,17 +6362,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			324,
+			1262,
+			290,
 			85,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0022"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6362,17 +6387,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			324,
+			1262,
+			290,
 			85,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0023"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6387,17 +6412,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			324,
+			1262,
+			290,
 			85,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0024"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6412,17 +6437,17 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1156,
-			324,
+			1262,
+			290,
 			85,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0025"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6437,17 +6462,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			299,
-			935,
+			2551,
+			74,
 			87,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0026"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6462,17 +6487,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			299,
-			935,
+			2551,
+			74,
 			87,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0027"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6487,12 +6512,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			679,
-			1069,
+			1937,
+			409,
 			72,
 			65
 		},
@@ -6512,12 +6537,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			679,
-			1069,
+			1937,
+			409,
 			72,
 			65
 		},
@@ -6537,12 +6562,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			647,
+			2260,
+			384,
 			70,
 			41
 		},
@@ -6562,12 +6587,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			647,
+			2260,
+			384,
 			70,
 			41
 		},
@@ -6587,12 +6612,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			647,
+			2260,
+			384,
 			70,
 			41
 		},
@@ -6612,12 +6637,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			647,
+			2260,
+			384,
 			70,
 			41
 		},
@@ -6637,12 +6662,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			647,
+			2260,
+			384,
 			70,
 			41
 		},
@@ -6662,12 +6687,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			845,
-			677,
+			1051,
+			287,
 			69,
 			53
 		},
@@ -6687,12 +6712,12 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			845,
-			677,
+			1051,
+			287,
 			69,
 			53
 		},
@@ -6712,12 +6737,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1110,
-			721,
+			2769,
+			137,
 			58,
 			55
 		},
@@ -6737,12 +6762,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1110,
-			721,
+			2769,
+			137,
 			58,
 			55
 		},
@@ -6762,12 +6787,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			928,
-			1105,
+			2481,
+			399,
 			53,
 			52
 		},
@@ -6787,12 +6812,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			928,
-			1105,
+			2481,
+			399,
 			53,
 			52
 		},
@@ -6812,17 +6837,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			958,
-			992,
+			2698,
+			399,
 			55,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0041"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6837,17 +6862,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			847,
-			526,
+			2521,
+			275,
 			67,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0042"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6862,17 +6887,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			847,
-			526,
+			2521,
+			275,
 			67,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0043"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6887,12 +6912,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			741,
-			993,
+			861,
+			267,
 			73,
 			59
 		},
@@ -6912,12 +6937,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			741,
-			993,
+			861,
+			267,
 			73,
 			59
 		},
@@ -6937,17 +6962,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1100,
-			369,
+			922,
+			286,
 			75,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0046"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6962,17 +6987,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1100,
-			369,
+			922,
+			286,
 			75,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0047"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -6987,12 +7012,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			456,
-			1088,
+			2636,
+			238,
 			71,
 			43
 		},
@@ -7012,12 +7037,12 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			456,
-			1088,
+			2636,
+			238,
 			71,
 			43
 		},
@@ -7037,17 +7062,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			622,
-			618,
+			1807,
+			332,
 			75,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0050"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7062,17 +7087,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			622,
-			618,
+			1807,
+			332,
 			75,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl2_0051"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7087,17 +7112,17 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			803,
-			1068,
+			2640,
+			189,
 			72,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0052"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7112,17 +7137,17 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			803,
-			1068,
+			2640,
+			189,
 			72,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl2_0053"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7137,12 +7162,12 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			598,
+			2260,
+			335,
 			71,
 			47
 		},
@@ -7162,12 +7187,12 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			916,
-			598,
+			2260,
+			335,
 			71,
 			47
 		},
@@ -7187,12 +7212,12 @@ return {
             2
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1132,
-			616,
+			2333,
+			336,
 			70,
 			47
 		},
@@ -7212,12 +7237,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1196,
-			890,
+			2899,
+			1,
 			41,
 			10
 		},
@@ -7237,12 +7262,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1057,
-			665,
+			2520,
+			344,
 			60,
 			53
 		},
@@ -7262,17 +7287,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1119,
-			665,
+			2695,
+			283,
 			60,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0003"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7287,12 +7312,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			845,
-			732,
+			2171,
+			446,
 			63,
 			54
 		},
@@ -7312,12 +7337,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			910,
-			737,
+			2582,
+			345,
 			65,
 			51
 		},
@@ -7337,12 +7362,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			910,
-			737,
+			2582,
+			345,
 			65,
 			51
 		},
@@ -7362,12 +7387,12 @@ return {
             23
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			902,
-			790,
+			2184,
+			392,
 			64,
 			52
 		},
@@ -7387,12 +7412,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			986,
-			708,
+			2250,
+			427,
 			60,
 			52
 		},
@@ -7412,12 +7437,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1097,
-			778,
+			2769,
+			194,
 			58,
 			47
 		},
@@ -7437,12 +7462,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1097,
-			778,
+			2769,
+			194,
 			58,
 			47
 		},
@@ -7462,12 +7487,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			968,
-			815,
+			2829,
+			137,
 			58,
 			52
 		},
@@ -7487,12 +7512,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1146,
-			835,
+			2640,
+			398,
 			56,
 			53
 		},
@@ -7512,12 +7537,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1028,
-			821,
+			2829,
+			191,
 			58,
 			51
 		},
@@ -7537,12 +7562,12 @@ return {
             27
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1028,
-			821,
+			2829,
+			191,
 			58,
 			51
 		},
@@ -7562,12 +7587,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1098,
-			310,
+			2113,
+			446,
 			57,
 			56
 		},
@@ -7587,12 +7612,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			913,
-			1049,
+			2751,
+			243,
 			54,
 			54
 		},
@@ -7612,17 +7637,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1012,
-			992,
+			2595,
+			453,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0017"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7637,17 +7662,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1012,
-			992,
+			2595,
+			453,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0018"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7662,12 +7687,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1057,
-			665,
+			2520,
+			344,
 			60,
 			53
 		},
@@ -7687,17 +7712,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			442,
-			668,
+			2727,
+			78,
 			84,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0020"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7712,17 +7737,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			442,
-			668,
+			2727,
+			78,
 			84,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0021"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7737,12 +7762,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			346,
-			526,
+			2640,
+			78,
 			85,
 			58
 		},
@@ -7762,12 +7787,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			346,
-			526,
+			2640,
+			78,
 			85,
 			58
 		},
@@ -7787,12 +7812,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			346,
-			526,
+			2640,
+			78,
 			85,
 			58
 		},
@@ -7812,12 +7837,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			346,
-			526,
+			2640,
+			78,
 			85,
 			58
 		},
@@ -7837,12 +7862,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			668,
+			699,
+			339,
 			88,
 			68
 		},
@@ -7862,12 +7887,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			287,
-			668,
+			699,
+			339,
 			88,
 			68
 		},
@@ -7887,17 +7912,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			699,
-			569,
+			1327,
+			348,
 			75,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0028"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7912,17 +7937,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			699,
-			569,
+			1327,
+			348,
 			75,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0029"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -7937,12 +7962,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			802,
-			993,
+			1997,
+			277,
 			73,
 			48
 		},
@@ -7962,12 +7987,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			802,
-			993,
+			1997,
+			277,
 			73,
 			48
 		},
@@ -7987,12 +8012,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			802,
-			993,
+			1997,
+			277,
 			73,
 			48
 		},
@@ -8012,12 +8037,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			802,
-			993,
+			1997,
+			277,
 			73,
 			48
 		},
@@ -8037,12 +8062,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			802,
-			993,
+			1997,
+			277,
 			73,
 			48
 		},
@@ -8062,12 +8087,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			741,
-			930,
+			427,
+			442,
 			72,
 			61
 		},
@@ -8087,12 +8112,12 @@ return {
             12
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			741,
-			930,
+			427,
+			442,
 			72,
 			61
 		},
@@ -8112,12 +8137,12 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			679,
-			1143,
+			2117,
+			342,
 			65,
 			63
 		},
@@ -8137,12 +8162,12 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			679,
-			1143,
+			2117,
+			342,
 			65,
 			63
 		},
@@ -8162,12 +8187,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			837,
-			852,
+			2634,
+			283,
 			59,
 			60
 		},
@@ -8187,12 +8212,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			837,
-			852,
+			2634,
+			283,
 			59,
 			60
 		},
@@ -8212,12 +8237,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1048,
-			720,
+			2312,
+			432,
 			60,
 			55
 		},
@@ -8237,12 +8262,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			994,
-			527,
+			1018,
+			214,
 			70,
 			76
 		},
@@ -8262,12 +8287,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			994,
-			527,
+			1018,
+			214,
 			70,
 			76
 		},
@@ -8287,17 +8312,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			519,
-			923,
+			1425,
+			214,
 			72,
 			80
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0044"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8312,17 +8337,17 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			519,
-			923,
+			1425,
+			214,
 			72,
 			80
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0045"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8337,12 +8362,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1139,
-			468,
+			1928,
+			277,
 			73,
 			67
 		},
@@ -8362,12 +8387,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1139,
-			468,
+			1928,
+			277,
 			73,
 			67
 		},
@@ -8387,17 +8412,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			501,
-			668,
+			1507,
+			214,
 			72,
 			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0048"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8412,17 +8437,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			501,
-			668,
+			1507,
+			214,
 			72,
 			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0049"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8437,17 +8462,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			678,
-			993,
+			2047,
+			276,
 			74,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0050"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8462,17 +8487,17 @@ return {
             4
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			678,
-			993,
+			2047,
+			276,
 			74,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl3_0051"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8487,17 +8512,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			530,
-			482,
+			2004,
+			409,
 			75,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0052"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8512,17 +8537,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			530,
-			482,
+			2004,
+			409,
 			75,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl3_0053"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8537,12 +8562,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			769,
-			590,
+			2640,
+			138,
 			74,
 			49
 		},
@@ -8562,12 +8587,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			769,
-			590,
+			2640,
+			138,
 			74,
 			49
 		},
@@ -8587,12 +8612,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			852,
-			992,
+			2583,
+			270,
 			73,
 			49
 		},
@@ -8612,17 +8637,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1195,
-			6,
+			1311,
+			492,
 			44,
 			11
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0001"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8637,17 +8662,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			700,
-			786,
+			1533,
+			415,
 			75,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0002"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8662,12 +8687,12 @@ return {
             15
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			379,
-			1149,
+			1833,
+			204,
 			69,
 			57
 		},
@@ -8687,17 +8712,17 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			852,
-			1067,
+			2333,
+			275,
 			71,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0004"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8712,17 +8737,17 @@ return {
             23
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			769,
-			526,
+			1247,
+			427,
 			76,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0005"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8737,17 +8762,17 @@ return {
             23
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			769,
-			526,
+			1247,
+			427,
 			76,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0006"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8762,12 +8787,12 @@ return {
             18
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			388,
-			1007,
+			1111,
+			420,
 			81,
 			66
 		},
@@ -8787,12 +8812,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			499,
-			586,
+			1179,
+			420,
 			80,
 			66
 		},
@@ -8812,17 +8837,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			1149,
+			2057,
+			409,
 			74,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0009"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8837,17 +8862,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			601,
-			1149,
+			2057,
+			409,
 			74,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0010"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8862,12 +8887,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			524,
-			1150,
+			1657,
+			427,
 			75,
 			56
 		},
@@ -8887,12 +8912,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			989,
-			599,
+			2260,
+			273,
 			71,
 			60
 		},
@@ -8912,17 +8937,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1062,
-			603,
+			2055,
+			339,
 			68,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0013"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8937,17 +8962,17 @@ return {
             24
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			1062,
-			603,
+			2055,
+			339,
 			68,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0014"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -8962,12 +8987,12 @@ return {
             20
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			746,
-			1142,
+			2193,
+			272,
 			65,
 			64
 		},
@@ -8987,12 +9012,12 @@ return {
             19
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			837,
-			788,
+			2575,
+			140,
 			63,
 			62
 		},
@@ -9012,12 +9037,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			813,
-			1142,
+			2575,
+			204,
 			64,
 			59
 		},
@@ -9037,12 +9062,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			813,
-			1142,
+			2575,
+			204,
 			64,
 			59
 		},
@@ -9062,17 +9087,17 @@ return {
             16
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			700,
-			786,
+			1533,
+			415,
 			75,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0019"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9087,12 +9112,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			575,
+			334,
+			146,
 			102,
 			60
 		},
@@ -9112,12 +9137,12 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			212,
-			575,
+			334,
+			146,
 			102,
 			60
 		},
@@ -9137,17 +9162,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			992,
-			310,
+			346,
+			250,
 			104,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0022"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9162,17 +9187,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			992,
-			310,
+			346,
+			250,
 			104,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0023"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9187,17 +9212,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			885,
-			310,
+			364,
+			356,
 			105,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0024"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9212,17 +9237,17 @@ return {
             17
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			885,
-			310,
+			364,
+			356,
 			105,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["warmongers_soldier_orc_lvl4_0025"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9237,17 +9262,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			274,
-			575,
+			924,
+			215,
 			91,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0026"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9262,17 +9287,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			274,
-			575,
+			924,
+			215,
 			91,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0027"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9287,17 +9312,17 @@ return {
             11
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			456,
-			1005,
+			687,
+			267,
 			81,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0028"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9312,17 +9337,17 @@ return {
             11
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			456,
-			1005,
+			687,
+			267,
 			81,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0029"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9337,17 +9362,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			570,
-			831,
+			501,
+			443,
 			81,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0030"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9362,17 +9387,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			570,
-			831,
+			501,
+			443,
 			81,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0031"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9387,17 +9412,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			570,
-			831,
+			501,
+			443,
 			81,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0032"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9412,17 +9437,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			570,
-			831,
+			501,
+			443,
 			81,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0033"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9437,17 +9462,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			570,
-			831,
+			501,
+			443,
 			81,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0034"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9462,17 +9487,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			164,
-			170,
+			2551,
+			1,
 			119,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0035"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9487,17 +9512,17 @@ return {
             10
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			164,
-			170,
+			2551,
+			1,
 			119,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0036"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9512,12 +9537,12 @@ return {
             9
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			625,
-			668,
+			1311,
+			418,
 			72,
 			72
 		},
@@ -9537,12 +9562,12 @@ return {
             9
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			625,
-			668,
+			1311,
+			418,
 			72,
 			72
 		},
@@ -9562,12 +9587,12 @@ return {
             11
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			766,
-			788,
+			1857,
+			337,
 			69,
 			70
 		},
@@ -9587,12 +9612,12 @@ return {
             11
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			766,
-			788,
+			1857,
+			337,
 			69,
 			70
 		},
@@ -9612,17 +9637,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			632,
-			808,
+			1456,
+			413,
 			75,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0041"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9637,17 +9662,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			361,
-			754,
+			2264,
+			194,
 			83,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0042"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9662,17 +9687,17 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			361,
-			754,
+			2264,
+			194,
 			83,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0043"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9687,12 +9712,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			442,
-			839,
+			931,
+			421,
 			82,
 			75
 		},
@@ -9712,12 +9737,12 @@ return {
             14
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			442,
-			839,
+			931,
+			421,
 			82,
 			75
 		},
@@ -9737,17 +9762,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			528,
-			1005,
+			1096,
+			214,
 			81,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0046"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9762,17 +9787,17 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			528,
-			1005,
+			1096,
+			214,
 			81,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0047"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9787,17 +9812,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			440,
-			754,
+			2813,
+			78,
 			83,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0048"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9812,17 +9837,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			440,
-			754,
+			2813,
+			78,
 			83,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0049"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9837,12 +9862,12 @@ return {
             1
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			399,
+			1738,
+			208,
 			86,
 			53
 		},
@@ -9862,12 +9887,12 @@ return {
             1
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			475,
-			399,
+			1738,
+			208,
 			86,
 			53
 		},
@@ -9887,12 +9912,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			499,
-			754,
+			1060,
+			420,
 			83,
 			49
 		},
@@ -9912,12 +9937,12 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			499,
-			754,
+			1060,
+			420,
 			83,
 			49
 		},
@@ -9937,17 +9962,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			519,
-			839,
+			1490,
+			362,
 			82,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0054"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9962,17 +9987,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			519,
-			839,
+			1490,
+			362,
 			82,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_0055"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -9987,17 +10012,17 @@ return {
             0
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			567,
-			535,
+			1574,
+			364,
 			82,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["warmongers_soldier_orc_lvl4_shadow"] = {
 		a_name = "go_towers_warmongers_barrack.dds",
@@ -10012,12 +10037,12 @@ return {
             13
 		},
 		a_size = {
-			1212,
-			1212
+			2910,
+			504
 		},
 		f_quad = {
-			375,
-			368,
+			2538,
+			82,
 			52,
 			11
 		},

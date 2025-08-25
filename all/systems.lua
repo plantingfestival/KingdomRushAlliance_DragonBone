@@ -2531,27 +2531,29 @@ function sys.particle_system:on_update(dt, ts, store)
 		local tl = store.tick_length
 		local to_remove = {}
 		local target, target_rot
+		local target_flip_sign = 1
 
 		if s.track_id then
 			target = store.entities[s.track_id]
 
 			if target then
+				if target.render and target.render.sprites[1] then
+					target_rot = target.render.sprites[1].r
+					target_flip_sign = target.render.sprites[1].flip_x and -1 or 1
+				end
+
 				if not s.last_pos then
 					s.last_pos = V.v(target.pos.x, target.pos.y)
 
 					if s.track_offset then
-						s.last_pos = V.v(target.pos.x + s.track_offset.x, target.pos.y + s.track_offset.y)
+						s.last_pos = V.v(target.pos.x + s.track_offset.x * target_flip_sign, target.pos.y + s.track_offset.y)
 					end
 				end
 
 				e.pos.x, e.pos.y = target.pos.x, target.pos.y
 
 				if s.track_offset then
-					e.pos.x, e.pos.y = e.pos.x + s.track_offset.x, e.pos.y + s.track_offset.y
-				end
-
-				if target.render and target.render.sprites[1] then
-					target_rot = target.render.sprites[1].r
+					e.pos.x, e.pos.y = e.pos.x + s.track_offset.x * target_flip_sign, e.pos.y + s.track_offset.y
 				end
 			else
 				s.emit = false
@@ -2618,8 +2620,10 @@ function sys.particle_system:on_update(dt, ts, store)
 					p.pos.y = p.pos.y + U.frandom(-sp.y / 2, sp.y / 2)
 				end
 
+				f.flip_x = s.flip_x
 				if s.emit_offset then
-					p.pos.x = p.pos.x + s.emit_offset.x
+					local flip_sign = s.flip_x and -1 or 1
+					p.pos.x = p.pos.x + s.emit_offset.x * flip_sign
 					p.pos.y = p.pos.y + s.emit_offset.y
 				end
 
@@ -2634,8 +2638,6 @@ function sys.particle_system:on_update(dt, ts, store)
 				else
 					p.r = s.emit_direction + U.frandom(-s.emit_rotation_spread, s.emit_rotation_spread)
 				end
-
-				f.flip_x = s.flip_x
 
 				if s.spin then
 					p.spin = U.frandom(s.spin[1], s.spin[2])

@@ -11274,6 +11274,15 @@ local towers = {
 			cooldown = 22
 		}
 	},
+	deep_devils = {
+		storm = {
+			cooldowns = {
+				10,
+				10,
+				10
+			}
+		}
+	},
 	random = {
 		allowed_templates = {
 			"tower_mage_1",-- 秘法师高台

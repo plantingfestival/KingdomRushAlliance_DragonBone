@@ -275,6 +275,7 @@ return {
 			rock_thrower = {},
 			warmongers_barrack = {},
 			ignis_altar = {},
+			deep_devils = {},
 			random = {}
 		}
 	},

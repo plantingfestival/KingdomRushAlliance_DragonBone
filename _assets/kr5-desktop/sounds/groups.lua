@@ -50,8 +50,13 @@ return {
 			"kr4_tower_open_door.ogg",
 			"kr4_warmonger_barrack_taunt_4.ogg",
 			"kr4_dinos_ignis_altar_build_taunt_4.ogg",
+			"kr4_deep_devils_taunt_4.ogg",
 			"kr4_dwarves_sulfur_alchemist_death.ogg",
 			"kr4_enemies_common_dead.ogg",
+			"Sound_BattleAxe.ogg",
+			"kr4_bolt_release.ogg",
+			"kr4_arrow_release_1.ogg",
+			"kr4_warmonger_mage_attack.ogg",
 			-- customization
 			"kr_voice_spydyr_taunt-select_b.ogg",
 			"kra_sfx_easterEgg_interactionTap.ogg",
@@ -1049,8 +1054,6 @@ return {
 			"kr4_hero_dianyun_taunt_3.ogg",
 			"kr4_hero_dianyun_taunt_4.ogg",
 			"kr4_hero_dianyun_taunt_death.ogg",
-			"kr4_warmonger_mage_attack.ogg",
-			"kr4_bolt_release.ogg",
 			"kr4_hero_dianyun_son.ogg"
 		}
 	},
@@ -1179,7 +1182,6 @@ return {
 			"KingDenas_sfx_order3.ogg",
 			"KingDenas_sfx_attack.ogg",
 			"Sound_EngineerShot.ogg",
-			"Sound_BattleAxe.ogg",
 		}
 	},
 	item_kr4_hero_malik = {
@@ -1480,7 +1482,19 @@ return {
 			"axlethrower_totem_vanish.ogg",
 			"axlethrower_totem_weakness.ogg",
 			"Ranger_Taunt1.ogg",
-			"Sound_BattleAxe.ogg"
+		}
+	},
+	tower_deep_devils = {
+		files = {
+			"kr4_deep_devils_taunt_1.ogg",
+			"kr4_deep_devils_taunt_2.ogg",
+			"kr4_deep_devils_taunt_3.ogg",
+			"kr4_deep_devils_taunt_4.ogg",
+			"kr4_deep_devils_net_upg.ogg",
+			"kr4_deep_devils_storm_upg.ogg",
+			"kr4_deep_devils_amph_upg.ogg",
+			"kr4_deep_devils_towertrap_catch.ogg",
+			"kr4_deep_devils_towertrap_throw.ogg",
 		}
 	},
 	-- customization
@@ -1602,7 +1616,6 @@ return {
 			"kr_voice_battlebrewmasters_taunt01_d.ogg",
 			"kr_voice_battlebrewmasters_taunt02_a.ogg",
 			"kr_voice_battlebrewmasters_skill-a_b.ogg",
-			"Sound_BattleAxe.ogg",
 			"Barbarian_Ready.ogg",
 			"Barbarian_Taunt1.ogg",
 			"Barbarian_Taunt2.ogg",
@@ -2027,7 +2040,6 @@ return {
 			"dwarfBarracks_taunt_1.ogg",
 			"dwarf_taunt_1.ogg",
 			"dwarf_taunt_2.ogg",
-			"Sound_BattleAxe.ogg"
 		}
 	},
 	tower_sparking_geode = {

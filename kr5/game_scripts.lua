@@ -6352,9 +6352,7 @@ function scripts.enemy_crocs_hydra.on_damage(this, store, damage)
 		if this.health.hp - pd <= 0 then
 			this.transform_hydra = true
 			this.health.hp = 1
-			this.vis.bans = U.flag_set(this.vis.bans, F_RANGED)
-			this.vis.bans = U.flag_set(this.vis.bans, F_BLOCK)
-
+			this.vis.bans = F_ALL
 			return false
 		end
 
@@ -6711,8 +6709,7 @@ function scripts.enemy_crocs_hydra.update(this, store, script)
 			this.health.dead = false
 			this.health_bar.hidden = false
 			this.ui.can_click = true
-			this.vis.bans = U.flag_clear(this.vis.bans, F_RANGED)
-			this.vis.bans = U.flag_clear(this.vis.bans, F_BLOCK)
+			this.vis.bans = this.vis._bans
 			this.transform_hydra = false
 			this.transformed_hydra = true
 		end
@@ -49180,7 +49177,7 @@ function scripts.tower_sparking_geode.update(this, store, script)
 						bullet.bullet.damage_factor = this.tower.damage_factor
 						bullet.bullet.source_id = this.id
 
-						local node_offset = P:predict_enemy_node_advance(enemy, fts(16))
+						local node_offset = P:predict_enemy_node_advance(enemy, fts(9))
 						local e_ni = enemy.nav_path.ni + node_offset
 
 						target_pred_pos = P:node_pos(enemy.nav_path.pi, enemy.nav_path.spi, e_ni)
@@ -54348,15 +54345,27 @@ scripts.arrow5 = {}
 
 function scripts.arrow5.update(this, store, script)
 	local b = this.bullet
-	local ps
 	local s = this.render.sprites[1]
 	local bullet_fly = true
 
+	local ps
 	if b.particles_name then
-		ps = E:create_entity(b.particles_name)
-		ps.particle_system.track_id = this.id
-
-		queue_insert(store, ps)
+		ps = {}
+		if type(b.particles_name) == "table" then
+			for i, value in ipairs(b.particles_name) do
+				local p = E:create_entity(value)
+				p.particle_system.emit = true
+				p.particle_system.track_id = this.id
+				queue_insert(store, p)
+				table.insert(ps, p)
+			end
+		else
+			local p = E:create_entity(b.particles_name)
+			p.particle_system.emit = true
+			p.particle_system.track_id = this.id
+			queue_insert(store, p)
+			table.insert(ps, p)
+		end
 	end
 
 	local target = store.entities[b.target_id]
@@ -54374,11 +54383,20 @@ function scripts.arrow5.update(this, store, script)
 
 			if b.asymmetrical and math.abs(s.r) > math.pi / 2 then
 				s.flip_y = true
+			else
+				s.flip_y = nil
+			end
+			if ps then
+				for i, p in ipairs(ps) do
+					p.particle_system.flip_x = s.flip_y
+				end
 			end
 		end
 
 		if ps then
-			ps.particle_system.emit_direction = s.r
+			for i, p in ipairs(ps) do
+				p.particle_system.emit_direction = s.r
+			end
 		end
 
 		if b.hide_radius then
@@ -54389,9 +54407,13 @@ function scripts.arrow5.update(this, store, script)
 
 			if ps then
 				if b.extend_particles_cutoff then
-					ps.particle_system.emit = not at_start
+					for i, p in ipairs(ps) do
+						p.particle_system.emit = not at_start
+					end
 				else
-					ps.particle_system.emit = not s.hidden
+					for i, p in ipairs(ps) do
+						p.particle_system.emit = not s.hidden
+					end
 				end
 			end
 		end
@@ -54409,8 +54431,9 @@ function scripts.arrow5.update(this, store, script)
 	if target and target.health and not target.health.dead then
 		local target_pos = V.vclone(target.pos)
 
-		if target.unit and target.unit.hit_offset and not b.ignore_hit_offset then
-			target_pos.x, target_pos.y = target_pos.x + target.unit.hit_offset.x, target_pos.y + target.unit.hit_offset.y
+		if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
+			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+			target_pos.x, target_pos.y = target_pos.x + target.unit.hit_offset.x * flip_sign, target_pos.y + target.unit.hit_offset.y
 		end
 
 		if V.dist(this.pos.x, this.pos.y, target_pos.x, target_pos.y) < b.hit_distance and not SU.unit_dodges(store, target, true) and (not b.hit_chance or math.random() < b.hit_chance) then
@@ -54420,15 +54443,15 @@ function scripts.arrow5.update(this, store, script)
 
 			queue_damage(store, d)
 
-			if b.mod then
-				local mods = type(b.mod) == "table" and b.mod or {
+			if b.mod or b.mods then
+				local mods = b.mods or type(b.mod) == "table" and b.mod or {
 					b.mod
 				}
 
 				for _, mod_name in pairs(mods) do
 					local mod = E:create_entity(mod_name)
 
-					mod.modifier.source_id = this.id
+					mod.modifier.source_id = b.source_id
 					mod.modifier.target_id = target.id
 					mod.modifier.level = b.level
 					mod.modifier.source_damage = d
@@ -54496,17 +54519,25 @@ function scripts.arrow5.update(this, store, script)
 						255
 					},
 					{
+						0.5,
+						255
+					},
+					{
 						2.1,
 						0
 					}
 				}
 				decal.render.sprites[1].ts = store.tick_ts
 				decal.render.sprites[1].name = b.miss_decal
-				decal.render.sprites[1].animated = false
+				decal.render.sprites[1].animated = b.miss_decal_animated
+				decal.render.sprites[1].loop = nil
 				decal.render.sprites[1].z = Z_DECALS
+				decal.render.sprites[1].flip_x = s.flip_y
 
 				if b.rotation_speed then
 					decal.render.sprites[1].flip_x = b.rotation_speed > 0
+				elseif b.miss_decal_no_rotation then
+					decal.render.sprites[1].r = math.pi / 2 * ((0.5 - math.random()) * 0.35)
 				else
 					decal.render.sprites[1].r = -math.pi / 2 * (1 + (0.5 - math.random()) * 0.35)
 				end
@@ -54520,35 +54551,21 @@ function scripts.arrow5.update(this, store, script)
 		end
 	end
 
-	if b.payload then
-		local p = E:create_entity(b.payload)
-
-		p.pos.x, p.pos.y = b.to.x, b.to.y
-		p.target_id = b.target_id
-		p.source_id = this.id
-
-		if p.aura then
-			p.aura.level = b.level
-		end
-
-		queue_insert(store, p)
-	end
+	SU.create_bullet_hit_payload(this, store, s.flip_x)
 
 	if ps then
 		if b.extend_particles_cutoff then
-			ps.particle_system.emit = true
-
+			for i, p in ipairs(ps) do
+				p.particle_system.emit = true
+			end
 			coroutine.yield()
 		end
-
-		if ps.particle_system.emit then
-			s.hidden = true
-			ps.particle_system.emit = false
-
-			U.y_wait(store, ps.particle_system.particle_lifetime[2])
+		s.hidden = true
+		for i, p in ipairs(ps) do
+			p.particle_system.emit = false
 		end
+		U.y_wait(store, ps[1].particle_system.particle_lifetime[2])
 	end
-
 	queue_remove(store, this)
 end
 

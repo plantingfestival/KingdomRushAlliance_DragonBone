@@ -594,7 +594,8 @@ function upgrades:patch_templates(max_level)
 		"tower_sparking_geode_lvl",
 		"tower_rock_thrower_lvl",
 		"tower_warmongers_barrack_lvl",
-		"tower_ignis_altar_lvl"
+		"tower_ignis_altar_lvl",
+		"tower_deep_devils_lvl"
 	}
 
 	u = self:get_upgrade("towers_war_rations")
@@ -607,10 +608,17 @@ function upgrades:patch_templates(max_level)
 
 		for _, n in pairs(all_towers) do
 			for i = 1, 4 do
-				if T(n .. i).barrack then
-					st = T(T(n .. i).barrack.soldier_type)
-
-					st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+				local barrack = T(n .. i).barrack
+				if barrack then
+					if type(barrack.soldier_type) == "table" then
+						for _, sn in ipairs(barrack.soldier_type) do
+							st = T(sn)
+							st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+						end
+					else
+						st = T(barrack.soldier_type)
+						st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+					end
 				end
 			end
 		end
@@ -780,6 +788,14 @@ function upgrades:patch_templates(max_level)
 
 				if t.attacks then
 					t.attacks.range = t.attacks.range * range_factor
+				end
+
+				if t.shooters then
+					for _, s in ipairs(t.shooters) do
+						if s.attacks then
+							s.attacks.range = s.attacks.range * range_factor
+						end
+					end
 				end
 			end
 		end
@@ -2001,6 +2017,23 @@ function upgrades:patch_templates(max_level)
 			bullet_t = T(tower_t.attacks.list[1].payload_name)
 			bullet_t.aura.damage_min = math.ceil(bullet_t.aura.damage_min * d_mult)
 			bullet_t.aura.damage_max = math.ceil(bullet_t.aura.damage_max * d_mult)
+
+			for i = 1, 4 do
+				tower_t = T("tower_deep_devils_lvl" .. i)
+				soldier_t = T(tower_t.barrack.soldier_type)
+				soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
+				soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
+				bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
+
+			for i = 1, 4 do
+				tower_t = T("deep_devils_shooter_lvl" .. i)
+				bullet_t = T(tower_t.attacks.list[1].bullet)
+				bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+				bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+			end
 		end
 	end
 

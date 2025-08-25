@@ -2219,7 +2219,7 @@ function scripts.mod_possession.update(this, store, script)
 	target.vis._original_flags = target.vis.flags
 	target.vis.flags = bor(U.flag_clear(target.vis.flags, F_ENEMY), F_FRIEND)
 	target.soldier = {}
-	target.soldier.melee_slot_offset = V.v(target.enemy.melee_slot.x / 2, target.enemy.melee_slot.y)
+	target.soldier.melee_slot_offset = V.v(target.enemy.melee_slot.x * 2 / 3, target.enemy.melee_slot.y)
 	target.nav_rally = {}
 	target.nav_rally.new = false
 	target._original_enemy = target.enemy
@@ -4230,11 +4230,15 @@ function scripts.tower_ignis_altar.get_info(this)
 end
 
 function scripts.tower_ignis_altar.update(this, store, script)
-	if this.shooter then
-		this.shooter = E:create_entity(this.shooter)
-		this.shooter.pos = V.vclone(this.pos)
-		this.shooter.owner = this
-		queue_insert(store, this.shooter)
+	if this.shooters and #this.shooters > 0 then
+		for i, shooter_name in ipairs(this.shooters) do
+			local shooter = E:create_entity(shooter_name)
+			shooter.pos = V.vclone(this.pos)
+			shooter.owner = this
+			queue_insert(store, shooter)
+			this.shooters[i] = shooter
+		end
+		this.shooter = this.shooters[1]
 	end
 
 	local tower_sid = 2
@@ -4270,7 +4274,7 @@ function scripts.tower_ignis_altar.update(this, store, script)
 				barrack.soldiers[level] = soldier
 				signal.emit("tower-spawn", this, soldier)
 			end
-			if pow_extinction and pow_extinction.changed then
+			if pow_extinction and pow_extinction.changed and this.shooter then
 				pow_extinction.changed = nil
 				local attack = this.shooter.attacks.list[1]
 				attack.ts = store.tick_ts
@@ -5976,19 +5980,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 	local cold_fury_attack = this.timed_attacks.list[1]
 	local ice_ball_attack = this.timed_attacks.list[2]
 	local ice_peaks_attack = this.timed_attacks.list[3]
-
-	local function cast_skill(attack)
-		local interrupted, status
-		if SU.check_unit_attack_available(store, this, attack) then
-			interrupted, status = SU.entity_attacks(store, this, attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, attack, fts(10))
-			else
-				goto label_continue
-			end
-		end
-	end
-
+	local attacks = { ice_peaks_attack, ice_ball_attack, cold_fury_attack }
 	ranged.ts = store.tick_ts
 	cold_fury_attack.ts = store.tick_ts
 	ice_ball_attack.ts = store.tick_ts
@@ -6014,21 +6006,36 @@ function scripts.hero_eiskalt.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
+		local interrupted, status = nil, A_NO_TARGET
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			goto label_continue
 		else
 			while this.nav_rally.new do
 				if SU.y_hero_new_rally(store, this) then
-					goto label_continue
+					interrupted = true
+					break
 				end
+			end
+			if interrupted then
+				goto label_continue
 			end
 		end
 
-		cast_skill(ice_peaks_attack)
-		cast_skill(ice_ball_attack)
-		cast_skill(cold_fury_attack)
-		local interrupted, status = y_hero_ranged_attacks(store, this)
+		for i, attack in ipairs(attacks) do
+			if SU.check_unit_attack_available(store, this, attack) then
+				interrupted, status = SU.entity_attacks(store, this, attack)
+				if status == A_NO_TARGET then
+					SU.delay_attack(store, attack, fts(10))
+				else
+					break
+				end
+			end
+		end
+		if status ~= A_NO_TARGET then
+			goto label_continue
+		end
+		interrupted, status = y_hero_ranged_attacks(store, this)
 		if not interrupted and status ~= A_DONE then
 			SU.soldier_idle(store, this)
 			SU.soldier_regen(store, this)
@@ -6313,19 +6320,6 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	local hero_jacko_thriller_attack = this.timed_attacks.list[2]
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	local interrupted, status
-
-	local function cast_skill(attack)
-		if SU.check_unit_attack_available(store, this, attack) then
-			interrupted, status = SU.entity_attacks(store, this, attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, attack, fts(10))
-			else
-				goto label_continue
-			end
-		end
-	end
-
 	this.melee.attacks[1].ts = store.tick_ts
 	this.melee.attacks[2].ts = store.tick_ts
 	explosive_head_attack.ts = store.tick_ts
@@ -6407,6 +6401,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
+		local interrupted, status = nil, A_NO_TARGET
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			goto label_continue
@@ -6415,11 +6410,14 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 				if SU.hero_will_teleport(this, this.nav_rally.pos) then
 					SU.hide_shadow(this, true)
 				end
-				local skip = SU.y_hero_new_rally(store, this)
+				interrupted = SU.y_hero_new_rally(store, this)
 				SU.hide_shadow(this, false)
-				if skip then
-					goto label_continue
+				if interrupted then
+					break
 				end
+			end
+			if interrupted then
+				goto label_continue
 			end
 		end
 
@@ -6434,7 +6432,14 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 				goto label_continue
 			end
 		end
-		cast_skill(hero_jacko_thriller_attack)
+		if SU.check_unit_attack_available(store, this, hero_jacko_thriller_attack) then
+			interrupted, status = SU.entity_attacks(store, this, hero_jacko_thriller_attack)
+			if status == A_NO_TARGET then
+				SU.delay_attack(store, hero_jacko_thriller_attack, fts(10))
+			else
+				goto label_continue
+			end
+		end
 
 		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local entity = E:get_template(ultimate_controller.entity)
@@ -6505,13 +6510,7 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 	insert_entity()
 	for i = 2, 3 do
 		spi = i
-		-- nodes = P:nearest_nodes(this.pos.x, this.pos.y, { pi }, { spi }, true)
-		-- if #nodes < 1 then
-		-- 	goto label_continue
-		-- end
-		-- pi, spi, ni = unpack(nodes[1])
 		insert_entity()
-		-- ::label_continue::
 	end
 	queue_remove(store, this)
 end
