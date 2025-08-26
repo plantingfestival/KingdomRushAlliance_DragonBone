@@ -1194,7 +1194,12 @@ tt.timed_attacks.list[1].bullet = "bomb_explosive_head"
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 175
 tt.timed_attacks.list[1].cooldown = 4
-tt.timed_attacks.list[1].extra_cooldown = -5
+tt.timed_attacks.list[1].extra_cooldowns = {
+	{
+		skill_id = "hero_jacko_thriller",
+		extra_cooldown = -5
+	}
+}
 tt.timed_attacks.list[1].cast_time = fts(14)
 tt.timed_attacks.list[1].node_prediction = fts(22)
 tt.timed_attacks.list[1].animation = "explosiveHead"
@@ -1207,6 +1212,7 @@ tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_CLIFF)
 -- hero_jacko_thriller
 tt.timed_attacks.list[2] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[2].skill = "range_at_path"
+tt.timed_attacks.list[2].skill_id = "hero_jacko_thriller"
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].use_center = nil
 tt.timed_attacks.list[2].melee_break = true
@@ -4790,11 +4796,12 @@ tt.attacks.list[1].animation = "shoot"
 tt.attacks.list[1].bullet = "bolt_deep_devils_shooter_lvl1"
 tt.attacks.list[1].cooldown = 1.5
 tt.attacks.list[1].cast_time = fts(12)
+tt.attacks.list[1].node_prediction = fts(7)
 tt.attacks.list[1].min_range = 0
 tt.attacks.list[1].max_range = tt.attacks.range
 tt.attacks.list[1].bullet_start_offset = {
-	v(8, 37),
-	v(-8, 37)
+	v(8, 74),
+	v(-8, 74)
 }
 
 tt = E:register_t("deep_devils_shooter_lvl2", "deep_devils_shooter_lvl1")
@@ -4804,8 +4811,8 @@ tt.attacks.range = 155
 tt.attacks.list[1].bullet = "bolt_deep_devils_shooter_lvl2"
 tt.attacks.list[1].max_range = tt.attacks.range
 tt.attacks.list[1].bullet_start_offset = {
-	v(8, 37),
-	v(-8, 37)
+	v(8, 76),
+	v(-8, 76)
 }
 
 tt = E:register_t("deep_devils_shooter_lvl3", "deep_devils_shooter_lvl1")
@@ -4815,8 +4822,8 @@ tt.attacks.range = 160
 tt.attacks.list[1].bullet = "bolt_deep_devils_shooter_lvl3"
 tt.attacks.list[1].max_range = tt.attacks.range
 tt.attacks.list[1].bullet_start_offset = {
-	v(8, 37),
-	v(-8, 37)
+	v(8, 80),
+	v(-8, 80)
 }
 
 tt = E:register_t("deep_devils_shooter_lvl4", "deep_devils_shooter_lvl1")
@@ -4828,13 +4835,14 @@ tt.attacks.range = 165
 tt.attacks.list[1].bullet = "bolt_deep_devils_shooter_lvl4"
 tt.attacks.list[1].max_range = tt.attacks.range
 tt.attacks.list[1].bullet_start_offset = {
-	v(8, 37),
-	v(-8, 37)
+	v(8, 86),
+	v(-8, 86)
 }
 tt.attacks.list[2] = CC("spawn_attack")
 tt.attacks.list[2].skill = "object_on_target"
 tt.attacks.list[2].power_name = "storm"
 tt.attacks.list[2].disabled = true
+tt.attacks.list[2].can_be_silenced = true
 tt.attacks.list[2].initial_level = 0
 tt.attacks.list[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.attacks.list[2].animation = "shoot"
@@ -4952,7 +4960,6 @@ tt.particle_system.anchor.y = 0.5
 tt.particle_system.animated = false
 tt.particle_system.loop = false
 tt.particle_system.track_rotation = true
-tt.particle_system.track_offset = v(5, 0)
 tt.particle_system.emission_rate = 56
 tt.particle_system.particle_lifetime = {
 	fts(8),
@@ -4996,7 +5003,7 @@ tt.tower.team = TEAM_DARK_ARMY
 tt.tower.level = 1
 tt.tower.price = 120
 tt.tower.menu_offset = v(0, 20)
-tt.tower.range_offset = v(0, 37)
+tt.tower.range_offset = v(0, 13)
 tt.info.i18n_key = "TOWER_DEEP_DEVILS_1"
 tt.info.portrait = "portraits_towers_0146"
 tt.info.tower_portrait = "tower_room_portraits_big_tower_deep_devils_0001"
@@ -5040,7 +5047,6 @@ tt.ui.click_rect = r(-42, -9, 84, 84)
 tt = E:register_t("tower_deep_devils_lvl2", "tower_deep_devils_lvl1")
 tt.tower.level = 2
 tt.tower.price = 170
-tt.tower.range_offset = v(0, 39)
 tt.info.i18n_key = "TOWER_DEEP_DEVILS_2"
 for i = 3, 4 do
 	tt.render.sprites[i].prefix = "deep_devils_reef_towers_lvl2_layer".. tostring(i - 2)
@@ -5055,7 +5061,6 @@ tt.shooters = {
 tt = E:register_t("tower_deep_devils_lvl3", "tower_deep_devils_lvl1")
 tt.tower.level = 3
 tt.tower.price = 240
-tt.tower.range_offset = v(0, 43)
 tt.info.i18n_key = "TOWER_DEEP_DEVILS_3"
 for i = 3, 4 do
 	tt.render.sprites[i].prefix = "deep_devils_reef_towers_lvl3_layer".. tostring(i - 2)
@@ -5083,7 +5088,6 @@ tt.powers.storm.enc_icon = 109
 tt.powers.storm.cooldown = b.storm.cooldowns
 tt.tower.level = 4
 tt.tower.price = 330
-tt.tower.range_offset = v(0, 49)
 tt.info.i18n_key = "TOWER_DEEP_DEVILS_4"
 tt.render.sprites[3].prefix = "deep_devils_reef_towers_lvl4"
 table.remove(tt.render.sprites, 4)

@@ -1,0 +1,40 @@
+规则：
+entity_attacks函数负责实现所有具有普适性的主动技能。
+该函数返回的第一个参数，为true代表必须跳过entity之后的逻辑，为false代表可继续，为nil代表可跳可不跳。
+返回的第二个参数，没有合适的目标时返回A_NO_TARGET，技能已施放时返回A_DONE。其他情况返回nil。
+
+entity_attacks第三个传入参数a的专用键值对：
+skill：类型string。代表使用哪一种技能。比如"range_unit"。
+vis_bans：类型integer。代表禁止对哪些目标施放技能。如果想禁止对友方单位施放技能，设置为F_FRIEND。如果想禁止对敌我单位施放技能，设置为bor(F_FRIEND, F_ENEMY)。
+cast_time：类型number。代表技能前摇。
+power_name：类型string。代表技能所对应的升级名字。
+initial_level：类型number。代表技能的初始等级，在技能升级时使用。需配合power_name使用。仅对shooter生效。
+can_be_silenced：类型boolean。代表技能是否可以被沉默。
+disabled_if_having_modifiers：类型table。格式为{"xxx", ...}。代表entity身上有某些modifier时， 技能被禁用。
+melee_break：类型boolean。代表技能是否可在近战时施放。true代表可以。
+ranged_break：类型boolean。代表技能是否可在远程攻击时施放。true代表可以。仅对敌方单位生效。
+skill_id：类型string。代表技能的标识。需配合skills_interval，reset_partners_skill或者extra_cooldowns使用。
+skills_interval：类型number。代表同一组士兵或射手的，拥有同一个skill_id的技能的施放间隔。比如四级鱼人塔士兵的掷网，当一个士兵掷网后，另一个士兵将间隔1秒后才能掷网。
+reset_partners_skill：类型boolean。代表技能施放后，是否重置同一组士兵或射手的，拥有同一个skill_id的技能的冷却。true代表重置。
+extra_cooldowns：类型table。格式为{{skill_id = "xxx", extra_cooldown = -1}, ...}。表示技能施放后，增加此entity的带有相同skill_id的技能的冷却。
+增加的时间为extra_cooldown所对应的数值，可为负数。
+search_type：类型number。代表搜索目标的模式。可选的值如下：
+U.search_type = {
+	nearest = 1,
+	farthest = 2,
+	random = 3,
+	max_health = 4,
+	min_health = 5,
+	close_to_exit = 6,-- 最接近终点
+	far_from_exit = 7,-- 最远离终点
+	find_max_crowd = 8,-- 最密集
+}
+crowd_range：类型number。只有search_type为U.search_type.find_max_crowd时有效。需配合min_targets使用。
+min_targets：类型integer。只有search_type为U.search_type.find_max_crowd时有效。需配合crowd_range使用。此时搜索条件之一为：
+主目标周围crowd_range范围内的目标总数（包含主目标）大于等于min_targets。
+
+技能range_unit专用键值对：
+bullet：类型string。代表投射物的名字。
+bullet_start_offset：类型table。格式{v(1, 1), ...}。代表投射物相对entity的初始位置。
+node_prediction：类型number。代表技能的预判时间。通常与投射物的飞行时间一致。
+

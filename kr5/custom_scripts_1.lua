@@ -5980,7 +5980,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 	local cold_fury_attack = this.timed_attacks.list[1]
 	local ice_ball_attack = this.timed_attacks.list[2]
 	local ice_peaks_attack = this.timed_attacks.list[3]
-	local attacks = { ice_peaks_attack, ice_ball_attack, cold_fury_attack }
+	this.timed_attacks.order = { 3, 2, 1 }
 	ranged.ts = store.tick_ts
 	cold_fury_attack.ts = store.tick_ts
 	ice_ball_attack.ts = store.tick_ts
@@ -6006,7 +6006,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
-		local interrupted, status = nil, A_NO_TARGET
+		local interrupted, status = nil, nil
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			goto label_continue
@@ -6022,17 +6022,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			end
 		end
 
-		for i, attack in ipairs(attacks) do
-			if SU.check_unit_attack_available(store, this, attack) then
-				interrupted, status = SU.entity_attacks(store, this, attack)
-				if status == A_NO_TARGET then
-					SU.delay_attack(store, attack, fts(10))
-				else
-					break
-				end
-			end
-		end
-		if status ~= A_NO_TARGET then
+		if SU.y_soldier_timed_attacks(store, this) then
 			goto label_continue
 		end
 		interrupted, status = y_hero_ranged_attacks(store, this)
@@ -6421,24 +6411,8 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			end
 		end
 
-		if SU.check_unit_attack_available(store, this, explosive_head_attack) then
-			interrupted, status = SU.entity_attacks(store, this, explosive_head_attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, explosive_head_attack, fts(10))
-			else
-				if status == A_DONE then
-					hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + explosive_head_attack.extra_cooldown
-				end
-				goto label_continue
-			end
-		end
-		if SU.check_unit_attack_available(store, this, hero_jacko_thriller_attack) then
-			interrupted, status = SU.entity_attacks(store, this, hero_jacko_thriller_attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, hero_jacko_thriller_attack, fts(10))
-			else
-				goto label_continue
-			end
+		if SU.y_soldier_timed_attacks(store, this) then
+			goto label_continue
 		end
 
 		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then

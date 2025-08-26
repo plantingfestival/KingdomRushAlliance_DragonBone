@@ -343,7 +343,8 @@ tt.timed_attacks.list[1].included_templates = {
 	"tower_dwaarp",
 	"tower_mech",
 	"tower_sorcerer",
-	"tower_archmage"
+	"tower_archmage",
+	"tower_deep_devils_lvl4",
 }
 tt.timed_attacks.list[1].vis_flags = bor(F_MOD)
 tt.timed_attacks.list[2] = E:clone_c("mod_attack")
@@ -617,6 +618,7 @@ tt.custom_offsets.tower_dwaarp = v(0, 50)
 tt.custom_offsets.tower_mech = v(0, 30)
 tt.custom_offsets.tower_sorcerer = v(0, 50)
 tt.custom_offsets.tower_archmage = v(0, 50)
+tt.custom_offsets.tower_deep_devils_lvl4 = v(0, 60)
 
 tt = E:register_t("mod_twilight_evoker_heal", "modifier")
 

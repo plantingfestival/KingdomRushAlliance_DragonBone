@@ -4625,8 +4625,7 @@ local function entity_casts_range_unit(store, this, a)
 				end
 				local start_offset = a.bullet_start_offset[ai]
 				local flipSign = af and -1 or 1
-				local origin = get_entity_range_origin(this)
-				bullet.bullet.from = V.v(origin.x + start_offset.x * flipSign, origin.y + start_offset.y)
+				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
 				bullet.pos = V.vclone(bullet.bullet.from)
 			end
 			if bullet.bullet.hit_payload then
@@ -5094,15 +5093,18 @@ local function y_soldier_timed_attacks(store, this)
 				end
 			end
 		elseif check_unit_attack_available(store, this, a) then
-			local attacks
-			if (a.skills_interval or a.reset_partners_skill) and a.skill_id and this.soldier and this.soldier.tower_id then
+			local attacks, index
+			if (a.reset_partners_skill or a.skills_interval) and a.skill_id and this.soldier and this.soldier.tower_id then
 				local tower = store.entities[this.soldier.tower_id]
 				if tower and tower.barrack and tower.barrack.soldiers then
 					attacks = {}
 					for _, s in ipairs(tower.barrack.soldiers) do
-						if s ~= this and s.timed_attacks then
+						if s == this then
+							index = #attacks + 1
+						elseif s.timed_attacks then
 							for _, ta in ipairs(s.timed_attacks.list) do
 								if ta.skill_id == a.skill_id then
+									ta._original_disabled = ta.disabled
 									ta.disabled = true
 									table.insert(attacks, ta)
 									break
@@ -5113,26 +5115,50 @@ local function y_soldier_timed_attacks(store, this)
 				end
 			end
 			local interrupted, status = entity_attacks(store, this, a)
-			if not attacks or #attacks == 0 then
-				return interrupted, status
-			end
-			if status == A_DONE then
-				if a.reset_partners_skill then
-					for _, ta in ipairs(attacks) do
-						ta.ts = a.ts
-						ta.disabled = nil
-					end
-					a.ts = a.ts + fts(10)
-				elseif a.skills_interval then
-					for _, ta in ipairs(attacks) do
-						if ta.ts + ta.cooldown - store.tick_ts < a.skills_interval then
-							ta.ts = store.tick_ts - ta.cooldown + a.skills_interval
+			if a.extra_cooldowns and status == A_DONE then
+				for _, c in ipairs(a.extra_cooldowns) do
+					for _, ta in ipairs(list) do
+						if c.skill_id == ta.skill_id then
+							ta.ts = ta.ts + c.extra_cooldown
+							break
 						end
-						ta.disabled = nil
 					end
 				end
 			end
-			return interrupted, status
+			if not attacks or #attacks == 0 then
+				-- block empty
+			elseif a.reset_partners_skill and status == A_DONE and index then
+				index = km.zmod(index, #attacks)
+				for i, ta in ipairs(attacks) do
+					if i == index then
+						ta.ts = a.ts
+					else
+						ta.ts = a.ts + fts(10)
+					end
+					ta.disabled = ta._original_disabled
+					ta._original_disabled = nil
+				end
+				a.ts = a.ts + fts(10)
+			elseif a.skills_interval and status == A_DONE then
+				for _, ta in ipairs(attacks) do
+					if ta.ts and ta.ts + ta.cooldown - store.tick_ts < a.skills_interval then
+						ta.ts = store.tick_ts - ta.cooldown + a.skills_interval
+					end
+					ta.disabled = ta._original_disabled
+					ta._original_disabled = nil
+				end
+			else
+				for _, ta in ipairs(attacks) do
+					ta.disabled = ta._original_disabled
+					ta._original_disabled = nil
+				end
+			end
+			if status == A_NO_TARGET then
+				delay_attack(store, a, fts(10))
+			end
+			if interrupted then
+				return interrupted, status
+			end
 		end
 	end
 	return false, A_IN_COOLDOWN
@@ -5165,6 +5191,86 @@ local function shooter_power_upgrade(this, power_name)
 	if fn then
 		fn(this, power_name, pow)
 	end
+end
+
+local function shooter_attacks(store, this)
+	local list
+	if this.attacks.order then
+		list = {}
+		for _, i in ipairs(this.attacks.order) do
+			table.insert(list, this.attacks.list[i])
+		end
+	else
+		list = this.attacks.list
+	end
+	for _, a in ipairs(list) do
+		if check_entity_attack_available(store, this, a) then
+			local attacks, index
+			if (a.reset_partners_skill or a.skills_interval) and a.skill_id and this.owner then
+				attacks = {}
+				for _, s in ipairs(this.shooters) do
+					if s == this then
+						index = #attacks + 1
+					elseif s.attacks then
+						for _, sa in ipairs(s.attacks.list) do
+							if sa.skill_id == a.skill_id then
+								sa._original_disabled = sa.disabled
+								sa.disabled = true
+								table.insert(attacks, sa)
+								break
+							end
+						end
+					end
+				end
+			end
+			local interrupted, status = entity_attacks(store, this, a)
+			if a.extra_cooldowns and status == A_DONE then
+				for _, c in ipairs(a.extra_cooldowns) do
+					for _, sa in ipairs(list) do
+						if c.skill_id == sa.skill_id then
+							sa.ts = sa.ts + c.extra_cooldown
+							break
+						end
+					end
+				end
+			end
+			if not attacks or #attacks == 0 then
+				-- block empty
+			elseif a.reset_partners_skill and status == A_DONE and index then
+				index = km.zmod(index, #attacks)
+				for i, sa in ipairs(attacks) do
+					if i == index then
+						sa.ts = a.ts
+					else
+						sa.ts = a.ts + fts(10)
+					end
+					sa.disabled = sa._original_disabled
+					sa._original_disabled = nil
+				end
+				a.ts = a.ts + fts(10)
+			elseif a.skills_interval and status == A_DONE then
+				for _, sa in ipairs(attacks) do
+					if sa.ts and sa.ts + sa.cooldown - store.tick_ts < a.skills_interval then
+						sa.ts = store.tick_ts - sa.cooldown + a.skills_interval
+					end
+					sa.disabled = sa._original_disabled
+					sa._original_disabled = nil
+				end
+			else
+				for _, sa in ipairs(attacks) do
+					sa.disabled = sa._original_disabled
+					sa._original_disabled = nil
+				end
+			end
+			if status == A_NO_TARGET then
+				delay_attack(store, a, fts(10))
+			end
+			if interrupted then
+				return interrupted, status
+			end
+		end
+	end
+	return false, A_IN_COOLDOWN
 end
 -- customization
 
@@ -5293,6 +5399,7 @@ local SU = {
 	entity_casts_object_on_target = entity_casts_object_on_target,
 	entity_attacks = entity_attacks,
 	shooter_power_upgrade = shooter_power_upgrade,
+	shooter_attacks = shooter_attacks,
 }
 
 return SU

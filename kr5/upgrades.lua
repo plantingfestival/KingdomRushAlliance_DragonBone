@@ -792,6 +792,9 @@ function upgrades:patch_templates(max_level)
 
 				if t.shooters then
 					for _, s in ipairs(t.shooters) do
+						if type(s) == "string" then
+							s = T(s)
+						end
 						if s.attacks then
 							s.attacks.range = s.attacks.range * range_factor
 						end

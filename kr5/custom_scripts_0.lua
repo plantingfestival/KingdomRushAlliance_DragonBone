@@ -825,8 +825,6 @@ end
 
 scripts.kr4_soldier_barrack = {}
 function scripts.kr4_soldier_barrack.update(this, store, script)
-	local brk, sta
-
 	local function check_tower_damage_factor()
 		local tower = store.entities[this.soldier.tower_id]
 		if tower then
@@ -895,6 +893,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 			return
 		end
 
+		local brk, sta
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -922,8 +921,12 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 
 			while this.nav_rally.new do
 				if SU.y_soldier_new_rally(store, this) then
-					goto label_43_1
+					brk = true
+					break
 				end
+			end
+			if brk then
+				goto label_43_1
 			end
 
 			check_tower_damage_factor()
@@ -1227,17 +1230,9 @@ function scripts.tower_shooter.update(this, store, script)
 			goto label_continue
 		end
 
-		for _, i in ipairs(this.attacks.order) do
-			local attack = this.attacks.list[i]
-			if SU.check_entity_attack_available(store, this, attack) then
-				interrupted, status = SU.entity_attacks(store, this, attack)
-				if interrupted then
-					break
-				end
-				if status == A_NO_TARGET then
-					SU.delay_attack(store, attack, fts(10))
-				end
-			end
+		interrupted, status = SU.shooter_attacks(store, this)
+		if interrupted then
+			goto label_continue
 		end
 		if status == A_NO_TARGET then
 			SU.entity_idle(store, this, true)
