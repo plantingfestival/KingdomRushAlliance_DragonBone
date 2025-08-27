@@ -724,13 +724,13 @@ E:add_comps(tt, "render", "tween")
 tt.render.sprites[1].name = "hero_eiskalt_cold_fury_ice"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].anchor.y = 0.325
-tt.render.sprites[1].offset.y = -25
+tt.render.sprites[1].offset.y = -12
 tt.render.sprites[1].z = Z_DECALS
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].name = "hero_eiskalt_cold_fury_smoke_run"
 tt.render.sprites[2].loop = true
 tt.render.sprites[2].anchor.y = 0.21
-tt.render.sprites[2].offset.y = -25
+tt.render.sprites[2].offset.y = -12
 tt.aura.duration = 8
 tt.aura.mods = {
 	"mod_cold_fury_ice"

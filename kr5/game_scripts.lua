@@ -6366,11 +6366,10 @@ function scripts.enemy_crocs_hydra.update(this, store, script)
 	local attack_debuff = this.timed_attacks.list[1]
 	local attack_transform = this.timed_attacks.list[2]
 	local _gold = this.enemy.gold
-	local terrain_type = SU.enemy_water_change(store, this)
-
 	this.enemy.gold = 0
 	this.vis._bans = this.vis.bans
-
+	local terrain_type = SU.enemy_water_change(store, this)
+	
 	local function table_get_random_excluding(tbl, exclude)
 		local temp_tbl = table.filter(tbl, function(k, v)
 			return v ~= exclude

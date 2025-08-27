@@ -6,11 +6,12 @@ entity_attacks函数负责实现所有具有普适性的主动技能。
 entity_attacks第三个传入参数a的专用键值对：
 skill：类型string。代表使用哪一种技能。比如"range_unit"。
 vis_bans：类型integer。代表禁止对哪些目标施放技能。如果想禁止对友方单位施放技能，设置为F_FRIEND。如果想禁止对敌我单位施放技能，设置为bor(F_FRIEND, F_ENEMY)。
+animation：类型string。代表施放技能的动画。
 cast_time：类型number。代表技能前摇。
 power_name：类型string。代表技能所对应的升级名字。
 initial_level：类型number。代表技能的初始等级，在技能升级时使用。需配合power_name使用。仅对shooter生效。
 can_be_silenced：类型boolean。代表技能是否可以被沉默。
-disabled_if_having_modifiers：类型table。格式为{"xxx", ...}。代表entity身上有某些modifier时， 技能被禁用。
+disabled_if_having_modifiers：类型table。格式为{"xxx", ...}。xxx为modifier的名字。代表entity身上有某些modifier时， 技能被禁用。
 melee_break：类型boolean。代表技能是否可在近战时施放。true代表可以。
 ranged_break：类型boolean。代表技能是否可在远程攻击时施放。true代表可以。仅对敌方单位生效。
 skill_id：类型string。代表技能的标识。需配合skills_interval，reset_partners_skill或者extra_cooldowns使用。
@@ -33,8 +34,21 @@ crowd_range：类型number。只有search_type为U.search_type.find_max_crowd时
 min_targets：类型integer。只有search_type为U.search_type.find_max_crowd时有效。需配合crowd_range使用。此时搜索条件之一为：
 主目标周围crowd_range范围内的目标总数（包含主目标）大于等于min_targets。
 
-技能range_unit专用键值对：
+射出投射物的技能range_unit，专用键值对：
 bullet：类型string。代表投射物的名字。
 bullet_start_offset：类型table。格式{v(1, 1), ...}。代表投射物相对entity的初始位置。
 node_prediction：类型number。代表技能的预判时间。通常与投射物的飞行时间一致。
-
+allowed_templates：类型table。格式为{"xxx", ...}。xxx为目标的名字。代表名字在allowed_templates中的目标，才会被施放技能。
+excluded_templates：类型table。格式为{"xxx", ...}。xxx为目标的名字。代表名字在excluded_templates中的目标，不会被施放技能。
+max_bullets：类型integer。代表单次发射的投射物数量。
+same_target：类型boolean。代表单次发射的多个投射物是否瞄准同一个目标。true代表是，false代表尽可能瞄准不同的目标。需配合max_bullets使用。
+use_center：类型boolean。代表是否瞄准中间的路径。true代表是。
+animation_prepare：类型string。代表施放技能前的准备动画。
+loops：类型integer。代表连续施放技能的次数。
+animation_start：类型string。代表开始施放技能的动画。需配合loops使用。
+animation_loop：类型string。代表连续施放技能时的动画。需配合loops使用。
+animation_end：类型string。代表施放技能结束的动画。需配合loops使用。
+shoot_times：类型table。代表连续施法时，单次施法的发射时间。需配合loops使用。比如shoot_times为{0.1, 0.2}，loops为3时，代表连续施法3次，
+每次施法，都是在0.1秒后射出第一发投射物，然后在0.2秒后射出第二发投射物。
+different_targets：类型boolean。代表连续施法时的单次发射，是否尽可能瞄准不同的目标。true代表是。
+target_id：类型integer。代表目标的id。如果这个键值对存在，会忽略所有条件，直接向目标施法。
