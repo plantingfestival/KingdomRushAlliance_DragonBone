@@ -4380,7 +4380,7 @@ local function entity_idle(store, this, force_ts)
 		this.idle_flip.ts_counter = 0
 		this.idle_flip.cooldown = math.random(this.idle_flip.cooldown_min, this.idle_flip.cooldown_max)
 
-		local flip_x
+		local flip_x = false
 		if not this.idle_flip.reset_flip_x then
 			flip_x = not this.render.sprites[1].flip_x
 		end
@@ -5154,7 +5154,7 @@ local function y_soldier_timed_attacks(store, this)
 					ta._original_disabled = nil
 				end
 			end
-			if status == A_NO_TARGET then
+			if not a.basic_attack and status == A_NO_TARGET then
 				delay_attack(store, a, fts(10))
 			end
 			if interrupted then
@@ -5264,7 +5264,7 @@ local function shooter_attacks(store, this)
 					sa._original_disabled = nil
 				end
 			end
-			if status == A_NO_TARGET then
+			if not a.basic_attack and status == A_NO_TARGET then
 				delay_attack(store, a, fts(10))
 			end
 			if interrupted then

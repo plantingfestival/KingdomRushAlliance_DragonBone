@@ -6,6 +6,7 @@ entity_attacks函数负责实现所有具有普适性的主动技能。
 entity_attacks第三个传入参数a的专用键值对：
 skill：类型string。代表使用哪一种技能。比如"range_unit"。
 vis_bans：类型integer。代表禁止对哪些目标施放技能。如果想禁止对友方单位施放技能，设置为F_FRIEND。如果想禁止对敌我单位施放技能，设置为bor(F_FRIEND, F_ENEMY)。
+basic_attack：类型boolean。代表是否为基础攻击。true代表是。
 animation：类型string。代表施放技能的动画。
 cast_time：类型number。代表技能前摇。
 power_name：类型string。代表技能所对应的升级名字。
