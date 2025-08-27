@@ -5073,6 +5073,7 @@ local function y_soldier_timed_attacks(store, this)
 	else
 		list = this.timed_attacks.list
 	end
+	local interrupted, status = false, A_IN_COOLDOWN
 	for _, a in ipairs(list) do
 		if a.spell then
 			if store.tick_ts - a.ts < a.cooldown then
@@ -5114,7 +5115,7 @@ local function y_soldier_timed_attacks(store, this)
 					end
 				end
 			end
-			local interrupted, status = entity_attacks(store, this, a)
+			interrupted, status = entity_attacks(store, this, a)
 			if a.extra_cooldowns and status == A_DONE then
 				for _, c in ipairs(a.extra_cooldowns) do
 					for _, ta in ipairs(list) do
@@ -5161,7 +5162,7 @@ local function y_soldier_timed_attacks(store, this)
 			end
 		end
 	end
-	return false, A_IN_COOLDOWN
+	return interrupted, status
 end
 
 local function shooter_power_upgrade(this, power_name)
@@ -5203,6 +5204,7 @@ local function shooter_attacks(store, this)
 	else
 		list = this.attacks.list
 	end
+	local interrupted, status = false, A_IN_COOLDOWN
 	for _, a in ipairs(list) do
 		if check_entity_attack_available(store, this, a) then
 			local attacks, index
@@ -5223,7 +5225,7 @@ local function shooter_attacks(store, this)
 					end
 				end
 			end
-			local interrupted, status = entity_attacks(store, this, a)
+			interrupted, status = entity_attacks(store, this, a)
 			if a.extra_cooldowns and status == A_DONE then
 				for _, c in ipairs(a.extra_cooldowns) do
 					for _, sa in ipairs(list) do
@@ -5270,7 +5272,7 @@ local function shooter_attacks(store, this)
 			end
 		end
 	end
-	return false, A_IN_COOLDOWN
+	return interrupted, status
 end
 -- customization
 
