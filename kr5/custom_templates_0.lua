@@ -338,6 +338,11 @@ tt.bullet.pop_chance = 0
 tt.main_script.insert = scripts.KR5Bomb.insert
 tt.main_script.update = scripts.KR5Bomb.update
 
+tt = E:register_t("KR5Arrow", "arrow5")
+tt.bullet.prediction_error = nil
+tt.bullet.predict_target_pos = nil
+tt.bullet.reset_to_target_pos = nil
+
 tt = RT("mod_damage_armor", "mod_damage")
 tt.damage_min = 0.01
 tt.damage_max = 0.01

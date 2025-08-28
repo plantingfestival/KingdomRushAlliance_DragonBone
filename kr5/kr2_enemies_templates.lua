@@ -83,7 +83,7 @@ end
 DO_ENEMY_BIG = 2
 DO_SOLDIER_BIG = 3
 DO_HEROES = 3
-DO_MOD_FX = 4
+DO_MOD_FX = 8
 DO_TOWER_MODS = 10
 
 if H.command_line_has_arg("balance_override") then
@@ -478,6 +478,7 @@ tt.render.sprites[1].size_anchors = {
 	v(0.5, 0.8409090909090909)
 }
 tt.render.sprites[1].anchor = v(0.5, 1)
+tt.render.sprites[1].draw_order = DO_MOD_FX
 tt.modifier.custom_offsets = {}
 tt.modifier.custom_offsets.default = v(0, 28)
 tt.modifier.custom_offsets.soldier_death_rider = v(5, 31)

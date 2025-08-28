@@ -4569,7 +4569,7 @@ tt.ranged.attacks[1].cooldown = 0.9
 tt.ranged.attacks[1].max_range = 125
 tt.ranged.attacks[1].min_range = 50
 tt.ranged.attacks[1].shoot_time = fts(15)
-tt.ranged.attacks[1].node_prediction = fts(15)
+tt.ranged.attacks[1].node_prediction = fts(30)
 tt.ranged.attacks[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.ui.click_rect = r(-21, -1, 42, 24)
 
@@ -4695,7 +4695,7 @@ tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER, F_BOSS, F_MINIBOSS)
 tt.ui.click_rect = r(-25, -3, 50, 38)
 
-tt = E:register_t("deep_devils_reef_tower_greenfin_spear_lvl1", "arrow5")
+tt = E:register_t("deep_devils_reef_tower_greenfin_spear_lvl1", "KR5Arrow")
 tt.render.sprites[1].name = "deep_devils_reef_tower_greenfin_spear_lvl1"
 tt.bullet.miss_decal = "deep_devils_reef_tower_greenfin_spear_decal_lvl1_run"
 tt.bullet.miss_decal_animated = true
@@ -4731,7 +4731,7 @@ tt.bullet.damages_max = {
 }
 tt.bullet.level = 1
 
-tt = E:register_t("deep_devils_reef_tower_redspine_skill_net", "arrow5")
+tt = E:register_t("deep_devils_reef_tower_redspine_skill_net", "KR5Arrow")
 tt.render.sprites[1].name = "deep_devils_reef_tower_redspine_skill_net"
 tt.bullet.miss_decal = "deep_devils_reef_tower_redspine_skill_net_decal_run"
 tt.bullet.miss_decal_animated = true

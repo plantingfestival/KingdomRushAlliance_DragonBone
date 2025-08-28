@@ -54345,7 +54345,6 @@ scripts.arrow5 = {}
 function scripts.arrow5.update(this, store, script)
 	local b = this.bullet
 	local s = this.render.sprites[1]
-	local bullet_fly = true
 
 	local ps
 	if b.particles_name then
@@ -54369,7 +54368,7 @@ function scripts.arrow5.update(this, store, script)
 
 	local target = store.entities[b.target_id]
 
-	while bullet_fly do
+	while store.tick_ts - b.ts + store.tick_length <= b.flight_time do
 		coroutine.yield()
 
 		b.last_pos.x, b.last_pos.y = this.pos.x, this.pos.y
@@ -54416,13 +54415,8 @@ function scripts.arrow5.update(this, store, script)
 				end
 			end
 		end
-
-		local _, future_pos_y = SU.position_in_parabola(store.tick_ts - b.ts + store.tick_length, b.from, b.speed, b.g)
-
-		if future_pos_y - this.pos.y < 0 and future_pos_y < target.pos.y + target.unit.hit_offset.y then
-			bullet_fly = false
-		end
 	end
+	this.pos.x, this.pos.y = b.to.x, b.to.y
 
 	local hit = false
 	local target = store.entities[b.target_id]
@@ -54435,6 +54429,8 @@ function scripts.arrow5.update(this, store, script)
 			target_pos.x, target_pos.y = target_pos.x + target.unit.hit_offset.x * flip_sign, target_pos.y + target.unit.hit_offset.y
 		end
 
+		-- log.error("dist = %s, x_dist = %s, y_dist = %s, name = %s", V.dist(this.pos.x, this.pos.y, target_pos.x, target_pos.y), this.pos.x - target_pos.x, 
+		-- this.pos.y - target_pos.y, this.template_name)
 		if V.dist(this.pos.x, this.pos.y, target_pos.x, target_pos.y) < b.hit_distance and not SU.unit_dodges(store, target, true) and (not b.hit_chance or math.random() < b.hit_chance) then
 			hit = true
 
