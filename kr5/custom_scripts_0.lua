@@ -1874,7 +1874,7 @@ function scripts.mod_tower_common.insert(this, store, script)
 			target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
 		end
 
-		if this.cooldown_factor and target.attacks.list[1].cooldown then
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
 			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown * this.cooldown_factor
 			if target.attacks.min_cooldown then
 				target.attacks.min_cooldown = target.attacks.min_cooldown * this.cooldown_factor
@@ -1889,7 +1889,7 @@ function scripts.mod_tower_common.insert(this, store, script)
 					s.attacks.range = s.attacks.range * this.range_factor
 				end
 	
-				if this.cooldown_factor and s.attacks.list[1].cooldown then
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
 					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown * this.cooldown_factor
 				end
 			end
@@ -1915,7 +1915,6 @@ function scripts.mod_tower_common.update(this, store, script)
 		return
 	end
 
-	this.pos = target.pos
 	m.ts = store.tick_ts
 	if this.tween then
 		this.tween.reverse = false
@@ -1929,6 +1928,7 @@ function scripts.mod_tower_common.update(this, store, script)
 	end
 
 	while store.tick_ts - m.ts <= m.duration do
+		this.pos = target.pos
 		coroutine.yield()
 	end
 
@@ -1959,7 +1959,7 @@ function scripts.mod_tower_common.remove(this, store, script)
 			target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
 		end
 
-		if this.cooldown_factor and target.attacks.list[1].cooldown then
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
 			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown / this.cooldown_factor
 			if target.attacks.min_cooldown then
 				target.attacks.min_cooldown = target.attacks.min_cooldown / this.cooldown_factor
@@ -1974,7 +1974,7 @@ function scripts.mod_tower_common.remove(this, store, script)
 					s.attacks.range = s.attacks.range / this.range_factor
 				end
 	
-				if this.cooldown_factor and s.attacks.list[1].cooldown then
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
 					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown / this.cooldown_factor
 				end
 			end
