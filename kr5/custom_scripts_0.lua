@@ -982,7 +982,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 
 			::label_43_0::
 
-			SU.entity_idle(store, this, true)
+			SU.entity_idle(store, this)
 
 			if this.cloak then
 				this.vis.flags = bor(this.vis.flags, this.cloak.flags)
@@ -1226,7 +1226,7 @@ function scripts.tower_shooter.update(this, store, script)
 		
 		local interrupted, status = nil, nil
 		if tower.tower.blocked or tower.nav_rally and tower.nav_rally.new then
-			SU.entity_idle(store, this, true)
+			SU.entity_idle(store, this)
 			goto label_continue
 		end
 
@@ -1235,7 +1235,7 @@ function scripts.tower_shooter.update(this, store, script)
 			goto label_continue
 		end
 		if status == A_NO_TARGET then
-			SU.entity_idle(store, this, true)
+			SU.entity_idle(store, this)
 		end
 
 		::label_continue::
