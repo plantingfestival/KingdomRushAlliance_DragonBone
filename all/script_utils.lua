@@ -1688,20 +1688,26 @@ local function soldier_pick_ranged_target_and_attack(store, this)
 		elseif a.sync_animation and not this.render.sprites[1].sync_flag then
 			-- block empty
 		else
-			local ready = store.tick_ts - a.ts >= a.cooldown
-			if this.ranged.forced_cooldown then
-				ready = ready and store.tick_ts - this.ranged.forced_ts >= this.ranged.forced_cooldown
-			end
-			
-			if ready then
-				if math.random() <= a.chance then
-					local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
-					return target, a, pred_pos
+			local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
+
+			if target then
+				-- if pred_pos then
+				-- 	log.paranoid(" target.pos:%s,%s  pred_pos:%s,%s", target.pos.x, target.pos.y, pred_pos.x, pred_pos.y)
+				-- end
+
+				local ready = store.tick_ts - a.ts >= a.cooldown
+
+				if this.ranged.forced_cooldown then
+					ready = ready and store.tick_ts - this.ranged.forced_ts >= this.ranged.forced_cooldown
 				end
-				a.ts = store.tick_ts
-			else
-				local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, nil, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
-				awaiting_target = target
+
+				if not ready then
+					awaiting_target = target
+				elseif math.random() <= a.chance then
+					return target, a, pred_pos
+				else
+					a.ts = store.tick_ts
+				end
 			end
 		end
 	end
@@ -4449,6 +4455,7 @@ local function entity_casts_spawner(store, this, a)
 			end
 			set_entity_level(e, a.level)
 			e.pos = a.custom_spawn_points[i]
+			e.pos.x, e.pos.y = e.pos.x + this.pos.x, e.pos.y + this.pos.y
 			queue_insert(store, e)
 		end
 		a.ts = start_ts

@@ -9,6 +9,8 @@ vis_bans：类型integer。代表禁止对哪些目标施放技能。如果想�
 basic_attack：类型boolean。代表是否为基础攻击。true代表是。
 animation：类型string。代表施放技能的动画。
 cast_time：类型number。代表技能前摇。
+sound：类型string。代表施法时播放的声音。
+sound_args：类型table。格式为{delay = 0.1, ...}。代表施法时播放声音的参数。需配合sound使用。
 power_name：类型string。代表技能所对应的升级名字。
 initial_level：类型number。代表技能的初始等级，在技能升级时使用。需配合power_name使用。仅对shooter生效。
 can_be_silenced：类型boolean。代表技能是否可以被沉默。
@@ -30,12 +32,14 @@ U.search_type = {
 	close_to_exit = 6,-- 最接近终点
 	far_from_exit = 7,-- 最远离终点
 	find_max_crowd = 8,-- 最密集
+	max_initial_health = 9,-- 最大生命值最多
+	min_initial_health = 10,-- 最大生命值最少
 }
 crowd_range：类型number。只有search_type为U.search_type.find_max_crowd时有效。需配合min_targets使用。
 min_targets：类型integer。只有search_type为U.search_type.find_max_crowd时有效。需配合crowd_range使用。此时搜索条件之一为：
 主目标周围crowd_range范围内的目标总数（包含主目标）大于等于min_targets。
 
-射出投射物的技能range_unit，专用键值对：
+向某个目标射出投射物的技能range_unit，专用键值对：
 bullet：类型string。代表投射物的名字。
 bullet_start_offset：类型table。格式{v(1, 1), ...}。代表投射物相对entity的初始位置。
 node_prediction：类型number。代表技能的预判时间。通常与投射物的飞行时间一致。
@@ -43,7 +47,7 @@ allowed_templates：类型table。格式为{"xxx", ...}。xxx为目标的名字�
 excluded_templates：类型table。格式为{"xxx", ...}。xxx为目标的名字。代表名字在excluded_templates中的目标，不会被施放技能。
 max_bullets：类型integer。代表单次发射的投射物数量。
 same_target：类型boolean。代表单次发射的多个投射物是否瞄准同一个目标。true代表是，false代表尽可能瞄准不同的目标。需配合max_bullets使用。
-use_center：类型boolean。代表是否瞄准中间的路径。true代表是。
+use_center：类型boolean。代表是否瞄准中间的子路径。true代表是。
 animation_prepare：类型string。代表施放技能前的准备动画。
 loops：类型integer。代表连续施放技能的次数。
 animation_start：类型string。代表开始施放技能的动画。需配合loops使用。
@@ -53,3 +57,37 @@ shoot_times：类型table。代表连续施法时，单次施法的发射时间�
 每次施法，都是在0.1秒后射出第一发投射物，然后在0.2秒后射出第二发投射物。
 different_targets：类型boolean。代表连续施法时的单次发射，是否尽可能瞄准不同的目标。true代表是。
 target_id：类型integer。代表目标的id。如果这个键值对存在，会忽略所有条件，直接向目标施法。
+
+向施法者附近的路径节点射出投射物的技能range_at_path，专用键值对：
+bullet：类型string。代表投射物的名字。
+bullet_start_offset：类型table。格式{v(1, 1), ...}。代表投射物相对entity的初始位置。
+use_center：类型boolean。代表是否瞄准中间的子路径。true代表是。
+min_targets：类型integer。代表探测到的目标数量大于等于min_targets时，才会施放技能。
+range_nodes：类型integer。代表探测模式为沿路径探测目标，探测范围为range_nodes个节点，该模式只能用于探测敌方单位。
+range：类型number。代表探测模式为根据距离探测目标，探测半径为range，如果设置了range_nodes，此键值对无效。
+min_nodes：类型integer。代表施法时相对施法者位置，可选取的最小节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。
+max_nodes：类型integer。代表施法时相对施法者位置，可选取的最大节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。
+max_bullets：类型integer。代表发射的投射物数量。
+
+在施法者附近添加entity的技能spawner，专用键值对：
+min_targets：类型integer。代表探测到的目标数量大于等于min_targets时，才会施放技能。
+range_nodes：类型integer。代表探测模式为沿路径探测目标，探测范围为range_nodes个节点，该模式只能用于探测敌方单位。
+range：类型number。代表探测模式为根据距离探测目标，探测半径为range，如果设置了range_nodes，此键值对无效。
+custom_spawn_points：类型table。格式为{v(1, 1), ...}。代表被召唤的entity相对施法者的出生位置。
+max_count：类型integer。代表被召唤的entity的数量。
+spawn_delay：类型number。代表召唤entity的间隔时间。
+entity_names：类型table。格式为{"xxx", ...}。xxx为被添加的entity的名字。需配合entity_chances使用。
+entity_chances：类型table。格式为{0.1, ...}。代表被召唤的entity的出现概率。entity_chances与entity_names的长度相同，且表中所有概率之和为1。
+nodes_to_entrance：类型integer。施法者距路径起点小于等于nodes_to_entrance个节点时禁止施法。设置了custom_spawn_points时无效。
+nodes_to_exit：类型integer。施法者距路径终点小于等于nodes_to_exit个节点时禁止施法。设置了custom_spawn_points时无效。
+min_nodes：类型integer。施法时相对施法者位置，可选取的最小节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。设置了custom_spawn_points时无效。
+max_nodes：类型integer。施法时相对施法者位置，可选取的最大节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。设置了custom_spawn_points时无效。
+use_center：类型boolean。代表是否选取中间的子路径。true代表是。设置了custom_spawn_points时无效。
+random_subpath：类型boolean。代表是否随机选择子路径。true代表是。设置了custom_spawn_points或use_center时无效。
+
+向目标所在位置添加entity的技能object_on_target，专用键值对：
+target_id：类型integer。代表目标的id。如果这个键值对存在，会忽略所有条件，直接向目标施法。
+entity：类型string。代表被添加的entity的名字。
+use_center：类型boolean。代表是否选取中间的子路径。true代表是。
+use_caster_position：类型boolean。代表是否选择施法者的位置，来代替目标所在位置。true代表是。
+delay：类型number。代表完成施法前摇后，entity出现的延迟时间。
