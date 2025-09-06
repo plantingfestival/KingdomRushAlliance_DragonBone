@@ -615,6 +615,7 @@ tt.bullet.pop_chance = 0.1
 tt.bullet.shot_index = 1
 tt.bullet.use_unit_damage_factor = true
 tt.bullet.ignore_hit_offset = true
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.initial_impulse = 10
 tt.initial_impulse_duration = 1
 tt.initial_impulse_angle = 0
@@ -1246,6 +1247,7 @@ tt.bullet.damage_radius = 75
 tt.bullet.flight_time = fts(20)
 tt.bullet.rotation_speed = 3 * FPS * math.pi / 20
 tt.bullet.pop_chance = 0.1
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.bullet.hit_fx = "fx_hero_jack_o_lantern_explosion"
 tt.bullet.hit_fx_water = "fx_hero_jack_o_lantern_explosion"
 tt.render.sprites[1].name = "hero_jack_o_lantern_head_proyectile"
@@ -1261,6 +1263,7 @@ tt.bullet.damage_max = 64
 tt.bullet.damage_radius = 50
 tt.bullet.flight_time = fts(22)
 tt.bullet.rotation_speed = 2 * FPS * math.pi / 22
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.bullet.hit_fx = "fx_hero_jack_o_lantern_spawner_hit"
 tt.bullet.hit_fx_water = "fx_hero_jack_o_lantern_spawner_hit"
 tt.bullet.hit_decal = "hero_jack_o_lantern_spawner_seed_decal"
@@ -4800,6 +4803,7 @@ tt.attacks.list[1].cast_time = fts(12)
 tt.attacks.list[1].node_prediction = fts(7)
 tt.attacks.list[1].min_range = 0
 tt.attacks.list[1].max_range = tt.attacks.range
+tt.attacks.list[1].ignore_flip_x = true
 tt.attacks.list[1].bullet_start_offset = {
 	v(8, 74),
 	v(-8, 74)
@@ -4859,6 +4863,7 @@ tt.attacks.list[2].ranges = {
 	200,
 	200
 }
+tt.attacks.list[2].ignore_flip_x = true
 
 tt = E:register_t("deep_devils_reef_tower_storm_cloud", "follow_target")
 tt.fade_time = 0.3
@@ -5004,7 +5009,7 @@ tt.tower.kind = TOWER_KIND_MAGE
 tt.tower.team = TEAM_DARK_ARMY
 tt.tower.level = 1
 tt.tower.price = 120
-tt.tower.menu_offset = v(0, 20)
+tt.tower.menu_offset = v(0, 25)
 tt.tower.range_offset = v(0, 13)
 tt.info.i18n_key = "TOWER_DEEP_DEVILS_1"
 tt.info.portrait = "portraits_towers_0146"
@@ -5101,3 +5106,499 @@ tt.shooters = {
 }
 tt.sound_events.insert = "deep_devils_build_taunt_4"
 tt.sound_events.change_rally_point = "group_deep_devils_move_taunt"
+
+tt = E:register_t("tower_ogres_barrack_lvl1", "KR5Tower")
+E:add_comps(tt, "barrack")
+tt.door_group = "door"
+tt.tower.type = "ogres"
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_DARK_ARMY
+tt.tower.level = 1
+tt.tower.price = 130
+tt.tower.menu_offset = v(0, 25)
+tt.tower.range_offset = v(0, 13)
+tt.info.portrait = "portraits_towers_0147"
+-- tt.info.tower_portrait = "tower_room_portraits_big_tower_deep_devils_0001"
+-- tt.info.room_portrait = "quickmenu_tower_icons_0110_0001"
+-- tt.info.stat_damage = 8
+-- tt.info.stat_range = 6
+-- tt.info.stat_cooldown = 5
+tt.info.fn = scripts.tower_with_shooters.get_info
+for i = 2, 3 do
+	tt.render.sprites[i] = E:clone_c("sprite")
+	tt.render.sprites[i].prefix = "ogre_shipwreck_tower_lvl1_layer".. tostring(i - 1)
+	tt.render.sprites[i].name = "idle"
+	tt.render.sprites[i].group = tt.door_group
+	tt.render.sprites[i].anchor = v(0.5, 0.11)
+	tt.render.sprites[i].offset = v(0, 0)
+end
+tt.sound_events.mute_on_level_insert = true
+tt.sound_events.insert = "group_pirates_ogre_shipwreck_build_taunt"
+tt.sound_events.tower_room_select = "ogre_shipwreck_build_taunt_4"
+tt.sound_events.change_rally_point = "group_pirates_ogre_shipwreck_build_taunt"
+tt.sound_events.open_door = "open_door_sound"
+tt.barrack.soldier_type = {
+	"pirates_soldier_ogre_cook_lvl1"
+}
+tt.barrack.rally_range = 150
+tt.barrack.max_soldiers = 1
+tt.barrack.respawn_offset = v(0, 13)
+tt.main_script.insert = scripts.tower_with_shooters.insert
+tt.main_script.update = scripts.tower_with_shooters.update
+tt.main_script.remove = scripts.tower_with_shooters.remove
+tt.ui.click_rect = r(-55, -10, 110, 107)
+
+tt = E:register_t("tower_ogres_barrack_lvl2", "tower_ogres_barrack_lvl1")
+tt.tower.level = 2
+tt.tower.price = 230
+for i = 2, 3 do
+	tt.render.sprites[i].prefix = "ogre_shipwreck_tower_lvl2_layer".. tostring(i - 1)
+end
+tt.barrack.soldier_type = {
+	"pirates_soldier_ogre_cook_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+}
+tt.barrack.max_soldiers = 2
+
+tt = E:register_t("tower_ogres_barrack_lvl3", "tower_ogres_barrack_lvl1")
+E:add_comps(tt, "attacks")
+tt.tower.level = 3
+tt.tower.price = 220
+for i = 2, 3 do
+	tt.render.sprites[i].prefix = "ogre_shipwreck_tower_lvl3_layer".. tostring(i - 1)
+end
+tt.attacks.range = 160
+tt.barrack.soldier_type = {
+	"pirates_soldier_ogre_cook_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+}
+tt.barrack.max_soldiers = 2
+tt.shooters = {
+	"pirates_soldier_ogre_musket_lvl3"
+}
+
+tt = E:register_t("tower_ogres_barrack_lvl4", "tower_ogres_barrack_lvl3")
+E:add_comps(tt, "powers")
+b = balance.towers.ogres
+tt.powers.better_crew = E:clone_c("power")
+tt.powers.better_crew.price = { 150 }
+tt.powers.better_crew.max_level = 1
+tt.powers.goblin_launcher = E:clone_c("power")
+tt.powers.goblin_launcher.price = { 150, 150 }
+tt.powers.goblin_launcher.max_level = 2
+tt.powers.goblin_launcher.cooldown = b.goblin_launcher.cooldowns
+tt.powers.musket_rage = E:clone_c("power")
+tt.powers.musket_rage.price = { 140, 140 }
+tt.powers.musket_rage.max_level = 2
+tt.powers.musket_rage.cooldown = b.musket_rage.cooldowns
+tt.tower.level = 4
+tt.tower.price = 280
+for i = 2, 3 do
+	tt.render.sprites[i].prefix = "ogre_shipwreck_tower_lvl4_layer".. tostring(i - 1)
+	tt.render.sprites[i].draw_order = 1
+end
+tt.render.sprites[4] = E:clone_c("sprite")
+tt.render.sprites[4].prefix = "ogre_shipwreck_tower_lvl4_flags"
+tt.render.sprites[4].name = "run"
+tt.render.sprites[4].anchor = v(0.5, 0)
+tt.render.sprites[4].offset = v(0, -12)
+tt.render.sprites[4].draw_order = -2
+tt.sound_events.insert = "ogre_shipwreck_build_taunt_4"
+tt.barrack.soldier_type = {
+	"pirates_soldier_ogre_cook_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+}
+tt.barrack.max_soldiers = 3
+tt.shooters = {
+	"pirates_soldier_ogre_musket_lvl3",
+	"pirates_soldier_ogre_slinger_lvl4"
+}
+
+tt = E:register_t("pirates_soldier_ogre_cook_lvl1", "soldier_in_barrack")
+tt.idle_flip.cooldown_min = 5
+tt.idle_flip.cooldown_max = 8
+tt.idle_flip.isKR4 = true
+tt.health.armor = 0
+tt.health.dead_lifetime = 10
+tt.health.hp_max = 450
+tt.health_bar.offset = v(0, 49)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
+tt.unit.hit_offset = v(0, 16)
+tt.unit.head_offset = v(0, 38)
+tt.unit.mod_offset = v(0, 17)
+tt.unit.size = UNIT_SIZE_MEDIUM
+tt.info.portrait = "bottom_info_image_soldiers_0049"
+tt.info.random_name_count = 7
+tt.info.random_name_format = "DEEP_DEVILS_SOLDIER_%i_NAME"
+tt.motion.max_speed = 20
+tt.regen.health = 16
+tt.regen.cooldown = 2
+tt.render.sprites[1].prefix = "cook_ogre"
+tt.render.sprites[1].name = "raise"
+tt.render.sprites[1].anchor.y = 0.192
+tt.render.sprites[1].angles.walk = {
+	"walk"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "cook_ogre_shadow"
+tt.render.sprites[2].anchor.y = 0.192
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.soldier.melee_slot_offset = v(25, 0)
+tt.melee.range = 75
+tt.melee.attacks[1] = E:clone_c("area_attack")
+tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].damage_radius = 35
+tt.melee.attacks[1].hit_offset = v(30, -5)
+tt.melee.attacks[1].hit_decal = "ogre_shipwreck_cook_ogre_decal"
+tt.melee.attacks[1].hit_fx = "fx_ogre_shipwreck_cook_ogre_smoke"
+tt.melee.attacks[1].damage_min = 40
+tt.melee.attacks[1].damage_max = 60
+tt.melee.attacks[1].cooldown = 1.5
+tt.melee.attacks[1].hit_time = fts(12)
+tt.ui.click_rect = r(-31, -4, 62, 45)
+
+tt = E:register_t("ogre_shipwreck_cook_ogre_decal", "decal_timed")
+tt.render.sprites[1].name = "cook_ogre_decal_idle"
+tt.render.sprites[1].anchor = v(0.5, 0.35)
+tt.render.sprites[1].z = Z_DECALS
+
+tt = E:register_t("fx_ogre_shipwreck_cook_ogre_smoke", "fx")
+tt.render.sprites[1].name = "cook_ogre_smoke_idle"
+tt.render.sprites[1].anchor.y = 0.35
+tt.render.sprites[1].sort_y_offset = -10
+
+tt = E:register_t("pirates_soldier_ogre_cook_lvl2", "pirates_soldier_ogre_cook_lvl1")
+E:add_comps(tt, "powers")
+tt.powers.better_crew = E:clone_c("power")
+tt.health.hp_max = 585
+tt.health.armor_inc = 0.3
+tt.health.armor_power_name = "better_crew"
+tt.melee.attacks[1].damage_min = 52
+tt.melee.attacks[1].damage_max = 78
+tt.melee.attacks[1].damage_min_inc = 18
+tt.melee.attacks[1].damage_max_inc = 18
+tt.melee.attacks[1].level = 0
+tt.melee.attacks[1].power_name = "better_crew"
+
+tt = E:register_t("pirates_soldier_goblin_deckhand_lvl2", "soldier_in_barrack")
+E:add_comps(tt, "powers")
+tt.powers.better_crew = E:clone_c("power")
+tt.idle_flip.cooldown_min = 5
+tt.idle_flip.cooldown_max = 8
+tt.idle_flip.isKR4 = true
+tt.health.armor = 0
+tt.health.armor_inc = 0.3
+tt.health.armor_power_name = "better_crew"
+tt.health.dead_lifetime = 6
+tt.health.hp_max = 140
+tt.health_bar.offset = v(0, 27)
+tt.health_bar.type = HEALTH_BAR_SIZE_SMALL
+tt.unit.hit_offset = v(0, 7)
+tt.unit.head_offset = v(0, 26)
+tt.unit.mod_offset = v(0, 8)
+tt.unit.marker_offset = v(0, 1)
+tt.info.portrait = "bottom_info_image_soldiers_0050"
+tt.info.random_name_count = nil
+tt.info.random_name_format = nil
+tt.motion.max_speed = 75
+tt.regen.health = 13
+tt.regen.cooldown = 2
+tt.render.sprites[1].prefix = "deckhand_goblin"
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].anchor.y = 0.17
+tt.render.sprites[1].angles.walk = {
+	"walk"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "deckhand_goblin_shadow"
+tt.render.sprites[2].anchor.y = 0.17
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.soldier.melee_slot_offset = v(14, 0)
+tt.melee.range = 60
+tt.melee.attacks[1].damage_min = 12
+tt.melee.attacks[1].damage_max = 17
+tt.melee.attacks[1].cooldown = 0.7
+tt.melee.attacks[1].damage_min_inc = 4
+tt.melee.attacks[1].damage_max_inc = 4
+tt.melee.attacks[1].level = 0
+tt.melee.attacks[1].power_name = "better_crew"
+tt.melee.attacks[1].hit_time = fts(7)
+tt.ui.click_rect = r(-16, -2, 32, 22)
+
+tt = E:register_t("pirates_soldier_goblin_launched", "pirates_soldier_goblin_deckhand_lvl2")
+E:add_comps(tt, "reinforcement", "tween")
+tt.insert_delay = fts(2)
+tt.reinforcement.duration = 6
+tt.reinforcement.fade = nil
+tt.reinforcement.fade_out = true
+tt.powers.better_crew = nil
+tt.powers.goblin_launcher = E:clone_c("power")
+tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow)
+	if pow.level == 2 then
+		this.reinforcement.duration = 9
+	end
+end
+tt.health.dead_lifetime = 2
+tt.health_bar.offset = v(0, 27)
+tt.info.portrait = "bottom_info_image_soldiers_0051"
+tt.info.fn = scripts.soldier_reinforcement.get_info
+tt.info.i18n_key = "PIRATES_SOLDIER_GOBLIN_LAUNCHED"
+tt.render.sprites[1].prefix = "skill_goblin"
+tt.render.sprites[2].name = "skill_goblin_shadow"
+tt.melee.attacks[1].damage_min = 10
+tt.melee.attacks[1].damage_max = 15
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_min_inc = 3
+tt.melee.attacks[1].damage_max_inc = 4
+tt.nav_grid = nil
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.props[1].sprite_id = {
+	1,
+	2
+}
+tt.tween.reverse = false
+tt.tween.disabled = true
+tt.main_script.insert = scripts.soldier_reinforcement.insert
+tt.main_script.update = scripts.kr4_soldier_reinforcement.update
+
+tt = E:register_t("pirates_soldier_goblin_launched_better_crew", "pirates_soldier_goblin_launched")
+tt.health.armor = 0.3
+
+tt = E:register_t("pirates_soldier_ogre_musket_lvl3", "tower_shooter")
+E:add_comps(tt, "idle_flip", "powers")
+b = balance.towers.ogres
+tt.idle_flip.cooldown_min = 5
+tt.idle_flip.cooldown_max = 8
+tt.idle_flip.isKR4 = true
+tt.idle_flip.reset_flip_x = true
+tt.powers.musket_rage = E:clone_c("power")
+tt.render.sprites[1].prefix = "musketer_tower_shooter"
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].angles = {}
+tt.render.sprites[1].angles.idle = {
+	"idleUp",
+	"idle"
+}
+tt.render.sprites[1].angles.shoot = {
+	"shootUp",
+	"shootDown"
+}
+tt.render.sprites[1].angles.skillIn = {
+	"skillUpIn",
+	"skillDownIn"
+}
+tt.render.sprites[1].angles.skillLoop = {
+	"skillUpLoop",
+	"skillDownLoop"
+}
+tt.render.sprites[1].angles.skillEnd = {
+	"skillUpEnd",
+	"skillDownEnd"
+}
+tt.render.sprites[1].anchor.y = 0.133
+tt.render.sprites[1].offset = v(0, 15)
+tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.attacks.range = 160
+tt.attacks.list[1] = CC("bullet_attack")
+tt.attacks.list[1].skill = "range_unit"
+tt.attacks.list[1].basic_attack = true
+tt.attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
+tt.attacks.list[1].animation = "shoot"
+tt.attacks.list[1].bullet = "bullet_ogre_musketeer"
+tt.attacks.list[1].cooldown = 1.5
+tt.attacks.list[1].cast_time = fts(7)
+tt.attacks.list[1].min_range = 0
+tt.attacks.list[1].max_range = tt.attacks.range
+tt.attacks.list[1].bullet_start_offset = {
+	v(8, 52),
+	v(-8, 52)
+}
+tt.attacks.list[2] = CC("bullet_attack")
+tt.attacks.list[2].skill = "range_unit"
+tt.attacks.list[2].power_name = "musket_rage"
+tt.attacks.list[2].disabled = true
+tt.attacks.list[2].can_be_silenced = true
+tt.attacks.list[2].initial_level = 0
+tt.attacks.list[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
+tt.attacks.list[2].search_type = U.search_type.max_health
+tt.attacks.list[2].bullet = "bullet_musket_rage"
+tt.attacks.list[2].cooldown = b.musket_rage.cooldowns[1]
+tt.attacks.list[2].cooldowns = b.musket_rage.cooldowns
+tt.attacks.list[2].cast_time = fts(5)
+tt.attacks.list[2].min_range = 0
+tt.attacks.list[2].max_range = tt.attacks.range
+tt.attacks.list[2].bullet_start_offset = {
+	v(8, 52),
+	v(-8, 52)
+}
+tt.attacks.list[2].sound = "krv_sfx_tower_ogre_shipwreck_musket_rage"
+tt.attacks.list[2].sound_args = {
+	delay = 0.16
+}
+tt.attacks.list[2].shoot_times = {
+	fts(0),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3),
+	fts(3)
+}
+tt.attacks.list[2].loops = 1
+tt.attacks.list[2].animation_start = "skillIn"
+tt.attacks.list[2].animation_loop = "skillLoop"
+tt.attacks.list[2].animation_end = "skillEnd"
+
+tt = E:register_t("bullet_ogre_musketeer", "bullet_without_trajectory")
+tt.bullet.hit_time = 0.1
+tt.bullet.damage_min = 42
+tt.bullet.damage_max = 60
+tt.bullet.hit_fx = "fx_ogre_musket_hit"
+tt.sound_events.insert = "dwarves_tinbeard_gunman_shootgun"
+
+tt = E:register_t("fx_ogre_musket_hit", "fx")
+tt.render.sprites[1].name = "musket_hit"
+tt.render.sprites[1].sort_y_offset = -30
+
+tt = E:register_t("bullet_musket_rage", "bullet_without_trajectory")
+tt.bullet.hit_time = 0.1
+tt.bullet.damage_min = 15
+tt.bullet.damage_max = 15
+tt.bullet.damages_min = {
+	15,
+	30
+}
+tt.bullet.damages_max = {
+	15,
+	30
+}
+tt.bullet.level = 1
+tt.bullet.hit_fx = "fx_musket_rage_hit"
+
+tt = E:register_t("fx_musket_rage_hit", "fx_random_offset")
+tt.render.sprites[1].name = "musket_hit"
+tt.render.sprites[1].sort_y_offset = -30
+tt.random_offset.x.min = -3
+tt.random_offset.x.max = 3
+tt.random_offset.y.min = -3
+tt.random_offset.y.max = 3
+
+tt = E:register_t("pirates_soldier_ogre_slinger_lvl4", "tower_shooter")
+E:add_comps(tt, "idle_flip", "powers")
+b = balance.towers.ogres
+tt.idle_flip.cooldown_min = 5
+tt.idle_flip.cooldown_max = 8
+tt.idle_flip.isKR4 = true
+tt.idle_flip.reset_flip_x = true
+tt.powers.goblin_launcher = E:clone_c("power")
+tt.powers.better_crew = E:clone_c("power")
+tt.powers.better_crew.on_power_upgrade = function(this, power_name, pow)
+	this.attacks.list[2].bullet = "bomb_skill_goblin_lvl2"
+end
+tt.render.sprites[1].prefix = "goblin_bomber"
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].anchor.y = 0.222
+tt.render.sprites[1].offset = v(-39, 26)
+tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.attacks.range = 200
+tt.attacks.list[1] = CC("bullet_attack")
+tt.attacks.list[1].skill = "range_unit"
+tt.attacks.list[1].basic_attack = true
+tt.attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING)
+tt.attacks.list[1].animation = "shoot"
+tt.attacks.list[1].bullet = "bomb_goblin_bomber"
+tt.attacks.list[1].cooldown = 4
+tt.attacks.list[1].cast_time = 0.93
+tt.attacks.list[1].node_prediction = fts(31)
+tt.attacks.list[1].min_range = 0
+tt.attacks.list[1].max_range = tt.attacks.range
+tt.attacks.list[1].ignore_flip_x = true
+tt.attacks.list[1].bullet_start_offset = {
+	v(-40, 52)
+}
+tt.attacks.list[2] = CC("bullet_attack")
+tt.attacks.list[2].skill = "range_unit"
+tt.attacks.list[2].power_name = "goblin_launcher"
+tt.attacks.list[2].disabled = true
+tt.attacks.list[2].can_be_silenced = true
+tt.attacks.list[2].initial_level = 0
+tt.attacks.list[2].vis_bans = bor(F_FRIEND, F_FLYING, F_WATER, F_CLIFF)
+tt.attacks.list[2].animation = "skillGoblin"
+tt.attacks.list[2].bullet = "bomb_skill_goblin_lvl1"
+tt.attacks.list[2].cooldown = b.goblin_launcher.cooldowns[1]
+tt.attacks.list[2].cooldowns = b.goblin_launcher.cooldowns
+tt.attacks.list[2].cast_time = 0.93
+tt.attacks.list[2].node_prediction = fts(35)
+tt.attacks.list[2].min_range = 0
+tt.attacks.list[2].max_range = tt.attacks.range
+tt.attacks.list[2].ignore_flip_x = true
+tt.attacks.list[2].bullet_start_offset = {
+	v(-34, 52)
+}
+
+tt = E:register_t("bomb_goblin_bomber", "KR5Bomb")
+tt.bullet.damage_min = 50
+tt.bullet.damage_max = 70
+tt.bullet.damage_radius = 52.5
+tt.bullet.flight_time = fts(30)
+tt.bullet.rotation_speed = 25 / 3 * FPS * math.pi / 30
+tt.bullet.vis_bans = bor(F_FRIEND)
+tt.bullet.hit_fx = "fx_goblin_bomber_burst"
+tt.bullet.hit_fx_water = "fx_goblin_bomber_burst"
+tt.bullet.particles_name = "ps_bomb_goblin_bomber"
+tt.render.sprites[1].name = "ogre_shipwreck_bomber_proyectile_travel"
+tt.render.sprites[1].animated = true
+
+tt = E:register_t("fx_goblin_bomber_burst", "fx")
+tt.render.sprites[1].name = "goblin_bomber_burst"
+tt.render.sprites[1].anchor.y = 0.35
+tt.render.sprites[1].sort_y_offset = -10
+
+tt = E:register_t("ps_bomb_goblin_bomber")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "goblin_bomber_trail_travel"
+tt.particle_system.anchor.x = 0.5
+tt.particle_system.anchor.y = 0.5
+tt.particle_system.animated = true
+tt.particle_system.loop = false
+tt.particle_system.track_rotation = true
+tt.particle_system.emission_rate = 15
+tt.particle_system.particle_lifetime = {
+	fts(9),
+	fts(9)
+}
+
+tt = E:register_t("bomb_skill_goblin_lvl1", "bomb_goblin_bomber")
+tt.bullet.hit_payload = "pirates_soldier_goblin_launched"
+tt.render.sprites[1].name = "skill_goblin_projectile_basic_0001"
+tt.render.sprites[1].animated = false
+
+tt = E:register_t("bomb_skill_goblin_lvl2", "bomb_skill_goblin_lvl1")
+tt.bullet.hit_payload = "pirates_soldier_goblin_launched_better_crew"
+

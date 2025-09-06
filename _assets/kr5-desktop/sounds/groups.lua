@@ -1396,7 +1396,17 @@ return {
 			"kr4_warmonger_barrack_battlewits_upg.ogg",
 			"kr4_warmonger_barrack_seal_of_blood_upg.ogg",
 			"kr4_warmonger_barrack_promotion_upg.ogg",
-			"kr4_orcs_death.ogg"
+			"kr4_orcs_death.ogg",
+			-- tower_ogres_barrack
+			"kr_voice_ogreshipwreck_lvl1_b.ogg",
+			"kr_voice_ogreshipwreck_lvl2_a.ogg",
+			"kr_voice_ogreshipwreck_lvl3_b.ogg",
+			"kr_voice_ogreshipwreck_lvl4_b.ogg",
+			"kr_voice_ogreshipwreck_power01_a.ogg",
+			"kr_voice_ogreshipwreck_power02_a.ogg",
+			"kr_voice_ogreshipwreck_power03_a.ogg",
+			"krv_sfx_tower_ogre_shipwreck_musketRage-Skill_v1.ogg",
+			"kr4_dwarves_tinbeard_gunman_shootgun.ogg",
 		}
 	},
 	tower_random = {

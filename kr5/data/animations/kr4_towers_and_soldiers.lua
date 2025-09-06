@@ -1606,5 +1606,276 @@ return {
 		to = 3,
 		from = 3
 	},
-
+	-- pirates_ogres
+	ogre_shipwreck_bomber_proyectile_travel = {
+		prefix = "goblin_bomber_projectil",
+		to = 14,
+		from = 1
+	},
+	cook_ogre_idle = {
+		prefix = "cook_ogre",
+		to = 1,
+		from = 1
+	},
+	cook_ogre_walk = {
+		prefix = "cook_ogre",
+		to = 35,
+		from = 2
+	},
+	cook_ogre_attack = {
+		prefix = "cook_ogre",
+		to = 66,
+		from = 36
+	},
+	cook_ogre_death = {
+		prefix = "cook_ogre",
+		to = 93,
+		from = 67
+	},
+	cook_ogre_raise = {
+		prefix = "cook_ogre",
+		to = 109,
+		from = 94
+	},
+	cook_ogre_decal_idle = {
+		prefix = "cook_ogre_decal",
+		to = 19,
+		from = 1
+	},
+	cook_ogre_smoke_idle = {
+		prefix = "cook_ogre_smoke",
+		to = 17,
+		from = 1
+	},
+	deckhand_goblin_idle = {
+		prefix = "deckhand_goblin",
+		to = 1,
+		from = 1
+	},
+	deckhand_goblin_walk = {
+		prefix = "deckhand_goblin",
+		to = 9,
+		from = 2
+	},
+	deckhand_goblin_attack = {
+		prefix = "deckhand_goblin",
+		to = 23,
+		from = 10
+	},
+	deckhand_goblin_death = {
+		prefix = "deckhand_goblin",
+		to = 36,
+		from = 24
+	},
+	goblin_bomber_burst = {
+		prefix = "goblin_bomber_burst",
+		to = 20,
+		from = 1
+	},
+	goblin_bomber_idle = {
+		prefix = "goblin_bomber",
+		to = 1,
+		from = 1
+	},
+	goblin_bomber_shoot = {
+		prefix = "goblin_bomber",
+		to = 40,
+		from = 2
+	},
+	goblin_bomber_skill = {
+		prefix = "goblin_bomber",
+		to = 80,
+		from = 41
+	},
+	goblin_bomber_idleGoblin = {
+		prefix = "goblin_bomber",
+		to = 81,
+		from = 81
+	},
+	goblin_bomber_shootGoblin = {
+		prefix = "goblin_bomber",
+		to = 120,
+		from = 82
+	},
+	goblin_bomber_skillGoblin = {
+		prefix = "goblin_bomber",
+		to = 160,
+		from = 121
+	},
+	goblin_bomber_trail_travel = {
+		prefix = "goblin_bomber_trail",
+		to = 9,
+		from = 1
+	},
+	musket_hit = {
+		prefix = "musket_hit",
+		to = 7,
+		from = 1
+	},
+	musketer_tower_shooter_idle = {
+		prefix = "musket_tower",
+		to = 1,
+		from = 1
+	},
+	musketer_tower_shooter_shootDown = {
+		prefix = "musket_tower",
+		to = 21,
+		from = 2
+	},
+	musketer_tower_shooter_idleUp = {
+		prefix = "musket_tower",
+		to = 22,
+		from = 22
+	},
+	musketer_tower_shooter_shootUp = {
+		prefix = "musket_tower",
+		to = 44,
+		from = 23
+	},
+	musketer_tower_shooter_skillDownIn = {
+		prefix = "musket_tower",
+		to = 50,
+		from = 45
+	},
+	musketer_tower_shooter_skillDownLoop = {
+		prefix = "musket_tower",
+		to = 56,
+		from = 51
+	},
+	musketer_tower_shooter_skillDownEnd = {
+		prefix = "musket_tower",
+		to = 70,
+		from = 57
+	},
+	musketer_tower_shooter_skillUpIn = {
+		prefix = "musket_tower",
+		to = 76,
+		from = 71
+	},
+	musketer_tower_shooter_skillUpLoop = {
+		prefix = "musket_tower",
+		to = 82,
+		from = 77
+	},
+	musketer_tower_shooter_skillUpEnd = {
+		prefix = "musket_tower",
+		to = 96,
+		from = 83
+	},
+	skill_goblin_idle = {
+		prefix = "skill_goblin",
+		to = 1,
+		from = 1
+	},
+	skill_goblin_walk = {
+		prefix = "skill_goblin",
+		to = 9,
+		from = 2
+	},
+	skill_goblin_attack = {
+		prefix = "skill_goblin",
+		to = 23,
+		from = 10
+	},
+	skill_goblin_death = {
+		prefix = "skill_goblin",
+		to = 36,
+		from = 24
+	},
+    ogre_shipwreck_tower_lvl1_layerX_idle = {
+        layer_to = 2,
+        from = 2,
+        layer_prefix = "ogre_shipwreck_tower_lvl1_layer%i",
+        to = 2,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl1_layerX_build = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl1_layer%i",
+        to = 1,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl1_layerX_open = {
+        layer_to = 2,
+        from = 2,
+        layer_prefix = "ogre_shipwreck_tower_lvl1_layer%i",
+        to = 18,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl1_layerX_close = {
+        layer_to = 2,
+        from = 19,
+        layer_prefix = "ogre_shipwreck_tower_lvl1_layer%i",
+        to = 34,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl2_layerX_idle = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl2_layer%i",
+        to = 1,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl2_layerX_open = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl2_layer%i",
+        to = 17,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl2_layerX_close = {
+        layer_to = 2,
+        from = 18,
+        layer_prefix = "ogre_shipwreck_tower_lvl2_layer%i",
+        to = 34,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl3_layerX_idle = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl3_layer%i",
+        to = 1,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl3_layerX_open = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl3_layer%i",
+        to = 17,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl3_layerX_close = {
+        layer_to = 2,
+        from = 18,
+        layer_prefix = "ogre_shipwreck_tower_lvl3_layer%i",
+        to = 34,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl4_layerX_open = {
+        layer_to = 2,
+        from = 1,
+        layer_prefix = "ogre_shipwreck_tower_lvl4_layer%i",
+        to = 1,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl4_layerX_idle = {
+        layer_to = 2,
+        from = 2,
+        layer_prefix = "ogre_shipwreck_tower_lvl4_layer%i",
+        to = 2,
+        layer_from = 1,
+    },
+    ogre_shipwreck_tower_lvl4_layerX_close = {
+        layer_to = 2,
+        from = 18,
+        layer_prefix = "ogre_shipwreck_tower_lvl4_layer%i",
+        to = 34,
+        layer_from = 1,
+    },
+	ogre_shipwreck_tower_lvl4_flags_run = {
+		prefix = "ogre_shipwreck_tower_lvl4_flags",
+		to = 20,
+		from = 1
+	},
 }

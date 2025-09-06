@@ -393,7 +393,7 @@ local function create_bullet_pop(store, this)
 	return nil
 end
 
-local function create_bullet_damage(bullet, target_id, source_id)
+local function create_bullet_damage(bullet, target_id, source_id, store)
 	local d = E:create_entity("damage")
 
 	d.damage_type = bullet.damage_type
@@ -425,7 +425,18 @@ local function create_bullet_damage(bullet, target_id, source_id)
 		end
 	end
 
-	local value = math.ceil(U.frandom(vmin, vmax))
+	local value
+	if bullet.use_dist_factor and bullet.damage_radius and bullet.damage_radius > 0 then
+		local target = store and store.entities[target_id]
+		if target then
+			local dist_factor = U.dist_factor_inside_ellipse(target.pos, bullet.to, bullet.damage_radius)
+			value = math.floor(vmax - (vmax - vmin) * dist_factor)
+		else
+			value = 0
+		end
+	else
+		value = math.ceil(U.frandom(vmin, vmax))
+	end
 
 	d.value = math.max(1, math.ceil(bullet.damage_factor * value))
 	d.target_id = target_id
@@ -1279,6 +1290,7 @@ local function y_reinforcement_fade_out(store, this)
 
 	this.tween.reverse = true
 	this.tween.disabled = nil
+	this.tween.ts = store.tick_ts
 	this.health.hp = 0
 
 	while not this.motion.arrived do
@@ -4136,6 +4148,27 @@ local function set_entity_level(entity, level)
 	end
 end
 
+local function set_bullet_damage_factor(entity, bullet)
+	if bullet.use_unit_damage_factor then
+		if entity.unit then
+			bullet.damage_factor = entity.unit.damage_factor
+			return
+		end
+		if entity.owner and entity.owner.unit then
+			bullet.damage_factor = entity.owner.unit.damage_factor
+			return
+		end
+	end
+	if entity.tower then
+		bullet.damage_factor = entity.tower.damage_factor
+		return
+	end
+	if entity.owner and entity.owner.tower then
+		bullet.damage_factor = entity.owner.tower.damage_factor
+		return
+	end
+end
+
 local function get_entity_range_origin(entity)
 	return entity.owner and get_entity_range_origin(entity.owner) or 
 	entity.tower and entity.tower.range_offset and V.v(entity.pos.x + entity.tower.range_offset.x, entity.pos.y + entity.tower.range_offset.y) or 
@@ -4213,13 +4246,20 @@ end
 
 local function make_bullet_damage_targets(this, store, target)
 	local b = this.bullet
+
+	if b.level and b.level > 0 then
+		if b.damage_radii then
+			b.damage_radius = b.damage_radii[b.level]
+		end
+	end
+
 	if b.damage_radius and b.damage_radius > 0 then
 		local targetPos = V.vclone(b.to)
 		if not b.ignore_hit_offset and target and target.unit and target.unit.hit_offset then
 			local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
 			targetPos.x, targetPos.y = targetPos.x - target.unit.hit_offset.x * flip_sign, targetPos.y - target.unit.hit_offset.y
 		end
-		local targets = U.find_enemies_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
+		local targets = U.find_targets_in_range(store.entities, targetPos, 0, b.damage_radius, b.vis_flags, b.vis_bans)
 		if targets then
 			for _, target in ipairs(targets) do
 				local d = create_bullet_damage(b, target.id, b.source_id)
@@ -4271,9 +4311,23 @@ local function create_bullet_hit_payload(this, store, flip_x)
 					s.flip_x = flip_x
 				end
 			end
+			if hp.tween and not hp.tween.disabled then
+				hp.tween.ts = store.tick_ts
+			end
 			set_entity_level(hp, b.level)
-			hp.target_id = b.target_id
-			hp.source_id = b.source_id
+			if hp.aura then
+				hp.aura.target_id = b.target_id
+				hp.aura.source_id = b.source_id
+			else
+				hp.target_id = b.target_id
+				hp.source_id = b.source_id
+			end
+			if hp.nav_rally and hp.pos then
+				local npos = V.vclone(hp.pos)
+				hp.nav_rally.center = npos
+				hp.nav_rally.pos = npos
+				hp.nav_rally.new = false
+			end
 			queue_insert(store, hp)
 		end
 
@@ -4306,13 +4360,24 @@ local function create_bullet_hit_fx(this, store, target, flip_x)
 			hit_fx_pos.x, hit_fx_pos.y = target.pos.x, target.pos.y
 		end
 		local hit_fx = insert_sprite(store, b.hit_fx, hit_fx_pos, flip_x)
-		if hit_fx and hit_fx.render and target and target.unit then
-			for _, s in pairs(hit_fx.render.sprites) do
-				if s.size_names then
-					s.name = s.size_names[target.unit.size]
+		if hit_fx then
+			if hit_fx.random_offset then
+				if hit_fx.random_offset.x then
+					hit_fx.pos.x = hit_fx.pos.x + U.frandom(hit_fx.random_offset.x.min, hit_fx.random_offset.x.max)
 				end
-				if s.size_scales then
-					s.scale = s.size_scales[target.unit.size]
+				if hit_fx.random_offset.y then
+					hit_fx.pos.y = hit_fx.pos.y + U.frandom(hit_fx.random_offset.y.min, hit_fx.random_offset.y.max)
+				end
+				hit_fx.random_offset = nil
+			end
+			if hit_fx.render and target and target.unit then
+				for _, s in pairs(hit_fx.render.sprites) do
+					if s.size_names then
+						s.name = s.size_names[target.unit.size]
+					end
+					if s.size_scales then
+						s.scale = s.size_scales[target.unit.size]
+					end
 				end
 			end
 		end
@@ -4355,9 +4420,12 @@ local function y_entity_animation_wait(this, idx, times)
 	return false
 end
 
-local function y_entity_animation_play(entity, name, ts, times, idx, pos)
+local function y_entity_animation_play(entity, name, ts, times, idx, pos, ignore_flip_x)
 	local loop = times and times > 1
 	local an, af, ai = U.animation_name_facing_point(entity, name, pos)
+	if ignore_flip_x then
+		af = false
+	end
 	U.animation_start(entity, an, af, ts, loop, idx, true)
 	return y_entity_animation_wait(entity, idx, times), an, af, ai
 end
@@ -4637,6 +4705,7 @@ local function entity_casts_range_unit(store, this, a)
 			end
 			if bullet.bullet.hit_payload then
 				local hit_payload = {}
+
 				local function create_hit_payload(hp_name)
 					local hp = E:create_entity(hp_name)
 					if hp.path_index then
@@ -4667,14 +4736,16 @@ local function entity_casts_range_unit(store, this, a)
 						hp.direction = direction
 					end
 					if hp.insert_delay then
-						local controller = E:create_entity("entities_delay_controller")
+						local controller = E:create_entity("controller_bullet_hit_payload_delay")
 						controller.delays = { hp.insert_delay }
 						controller.entities = { hp }
+						controller.bullet = bullet.bullet
 						table.insert(hit_payload, controller)
 					else
 						table.insert(hit_payload, hp)
 					end
 				end
+
 				if type(bullet.bullet.hit_payload) == "table" then
 					for i, hp_name in ipairs(bullet.bullet.hit_payload) do
 						create_hit_payload(hp_name)
@@ -4684,9 +4755,7 @@ local function entity_casts_range_unit(store, this, a)
 				end
 				bullet.bullet.hit_payload = hit_payload
 			end
-			if bullet.bullet.use_unit_damage_factor and this.unit then
-				bullet.bullet.damage_factor = this.unit.damage_factor
-			end
+			set_bullet_damage_factor(this, bullet.bullet)
 			queue_insert(store, bullet)
 		end
 	end
@@ -4720,19 +4789,25 @@ local function entity_casts_range_unit(store, this, a)
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
 		if a.animation_prepare then
-			if y_entity_animation_play(this, a.animation_prepare, store.tick_ts, 1, nil, pred_pos) then
+			if y_entity_animation_play(this, a.animation_prepare, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true
 			end
 		end
 
 		if a.loops and a.loops > 0 then
-			if y_entity_animation_play(this, a.animation_start, store.tick_ts, 1, nil, pred_pos) then
+			if y_entity_animation_play(this, a.animation_start, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true
 			end
 			for i = 1, a.loops do
 				local an, af, ai = U.animation_name_facing_point(this, a.animation_loop, pred_pos)
+				if a.ignore_flip_x then
+					af = false
+				end
 				U.animation_start(this, an, af, store.tick_ts)
 				for j, st in ipairs(a.shoot_times) do
+					if U.animation_finished(this) then
+						U.animation_start(this, an, af, store.tick_ts)
+					end
 					if y_entity_wait(store, this, st) then
 						return true
 					end
@@ -4750,13 +4825,16 @@ local function entity_casts_range_unit(store, this, a)
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
-			if y_entity_animation_play(this, a.animation_end, store.tick_ts, 1, nil, pred_pos) then
+			if y_entity_animation_play(this, a.animation_end, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true, A_DONE
 			end
 			return nil, A_DONE
 		end
 
 		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
+		if a.ignore_flip_x then
+			af = false
+		end
 		U.animation_start(this, an, af, store.tick_ts)
 		if not y_entity_wait(store, this, a.cast_time) then
 			check_target(prediction_time)
@@ -4829,6 +4907,9 @@ local function entity_casts_range_at_path(store, this, a)
 	S:queue(a.sound, a.sound_args)
 	local first_pos, first_subpath, first_node = new_bullet_to(1)
 	local an, af, ai = U.animation_name_facing_point(this, a.animation, first_pos)
+	if a.ignore_flip_x then
+		af = false
+	end
 	U.animation_start(this, an, af, store.tick_ts)
 	if not y_entity_wait(store, this, a.cast_time) then
 		local max_bullets = a.max_bullets or 1
@@ -4873,9 +4954,10 @@ local function entity_casts_range_at_path(store, this, a)
 						hp.direction = direction
 					end
 					if hp.insert_delay then
-						local controller = E:create_entity("entities_delay_controller")
+						local controller = E:create_entity("controller_bullet_hit_payload_delay")
 						controller.delays = { hp.insert_delay }
 						controller.entities = { hp }
+						controller.bullet = bullet.bullet
 						table.insert(hit_payload, controller)
 					else
 						table.insert(hit_payload, hp)
@@ -4890,9 +4972,7 @@ local function entity_casts_range_at_path(store, this, a)
 				end
 				bullet.bullet.hit_payload = hit_payload
 			end
-			if bullet.bullet.use_unit_damage_factor and this.unit then
-				bullet.bullet.damage_factor = this.unit.damage_factor
-			end
+			set_bullet_damage_factor(this, bullet.bullet)
 			queue_insert(store, bullet)
 		end
 		a.ts = start_ts
@@ -4959,6 +5039,9 @@ local function entity_casts_object_on_target(store, this, a)
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
 		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
+		if a.ignore_flip_x then
+			af = false
+		end
 		U.animation_start(this, an, af, store.tick_ts)
 		if not y_entity_wait(store, this, a.cast_time) then
 			local tpi, tspi, tni
@@ -5388,6 +5471,7 @@ local SU = {
 	deck_draw = deck_draw,
 	-- customization
 	set_entity_level = set_entity_level,
+	set_bullet_damage_factor = set_bullet_damage_factor,
 	get_entity_range_origin = get_entity_range_origin,
 	check_tower_attack_available = check_tower_attack_available,
 	check_unit_attack_available = check_unit_attack_available,

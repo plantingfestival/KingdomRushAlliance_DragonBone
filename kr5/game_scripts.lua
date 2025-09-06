@@ -49335,7 +49335,7 @@ function scripts.tower_sparking_geode_ray.update(this, store)
 	end
 
 	if target and b.damage_type ~= DAMAGE_NONE then
-		local d = SU.create_bullet_damage(b, target.id, this.id)
+		local d = SU.create_bullet_damage(b, target.id, b.source_id)
 
 		queue_damage(store, d)
 	end

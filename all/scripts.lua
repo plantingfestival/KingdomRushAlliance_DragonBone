@@ -1217,6 +1217,30 @@ function scripts.soldier_reinforcement.insert(this, store, script)
 		this.ranged.order = U.attack_order(this.ranged.attacks)
 	end
 
+	if this.auras then
+		for _, a in pairs(this.auras.list) do
+			if a.cooldown == 0 then
+				local e = E:create_entity(a.name)
+
+				e.pos = V.vclone(this.pos)
+				e.aura.level = this.unit.level
+				e.aura.source_id = this.id
+				e.aura.ts = store.tick_ts
+
+				queue_insert(store, e)
+			end
+		end
+	end
+
+	if this.powers then
+		for pn, p in pairs(this.powers) do
+			p.level = math.min(this.unit.level, p.max_level)
+			for i = 1, p.level do
+				SU.soldier_power_upgrade(this, pn)
+			end
+		end
+	end
+
 	if this.info and this.info.random_name_format then
 		this.info.i18n_key = string.format(string.gsub(this.info.random_name_format, "_NAME", ""), math.random(this.info.random_name_count))
 	end
@@ -1990,7 +2014,12 @@ end
 scripts.tower_barrack = {}
 
 function scripts.tower_barrack.get_info(this)
-	local s = E:create_entity(this.barrack.soldier_type)
+	local s
+	if type(this.barrack.soldier_type) == "table" then
+		s = E:create_entity(this.barrack.soldier_type[1])
+	else
+		s = E:create_entity(this.barrack.soldier_type)
+	end
 
 	if this.powers then
 		for pn, p in pairs(this.powers) do

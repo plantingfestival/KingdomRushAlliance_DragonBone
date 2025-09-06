@@ -93,6 +93,10 @@ tt.start_ts = nil
 tt.delays = nil
 tt.entities = nil
 
+tt = E:register_t("controller_bullet_hit_payload_delay", "entities_delay_controller")
+tt.bullet = nil
+tt.main_script.update = scripts.controller_bullet_hit_payload_delay.update
+
 tt = E:register_t("controller_spawn_on_path", "entities_delay_controller")
 tt.main_script.update = scripts.controller_spawn_on_path.update
 tt.path_index = 1
@@ -401,6 +405,20 @@ tt.force_motion.a_step = 1
 tt.force_motion.max_a = 3000
 tt.force_motion.max_v = 300
 tt.main_script.update = scripts.custom_bolt.update
+
+tt = E:register_t("bullet_without_trajectory", "bullet")
+tt.render = nil
+tt.bullet.hit_time = 0
+tt.main_script.update = scripts.bullet_without_trajectory.update
+
+tt = E:register_t("fx_random_offset", "fx")
+tt.random_offset = {}
+tt.random_offset.x = {}
+tt.random_offset.x.min = 0
+tt.random_offset.x.max = 0
+tt.random_offset.y = {}
+tt.random_offset.y.min = 0
+tt.random_offset.y.max = 0
 
 tt = RT("soldier_in_barrack", "soldier_militia")
 E:add_comps(tt, "nav_grid")

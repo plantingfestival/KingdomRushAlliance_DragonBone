@@ -243,11 +243,66 @@ function scripts.entities_delay_controller.update(this, store, script)
 					s.ts = store.tick_ts
 				end
 			end
-			if entity.tween then
+			if entity.tween and not entity.tween.disabled then
 				entity.tween.ts = store.tick_ts
 			end
 			if entity.pos and entity.pos.x == 0 and entity.pos.y == 0 then
 				entity.pos.x, entity.pos.y = this.pos.x, this.pos.y
+			end
+			queue_insert(store, entity)
+			if #this.delays > 0 then
+				this.delays[1] = delay + this.delays[1]
+				insert_entity()
+			end
+		end
+	end
+
+	while #this.delays > 0 do
+		insert_entity()
+		coroutine.yield()
+	end
+	queue_remove(store, this)
+end
+
+scripts.controller_bullet_hit_payload_delay = {}
+function scripts.controller_bullet_hit_payload_delay.update(this, store, script)
+	if not this.delays or not this.entities or #this.delays ~= #this.entities then
+		queue_remove(store, this)
+		return
+	end
+
+	local b = this.bullet
+	local start_ts = this.start_ts or store.tick_ts
+	local function insert_entity()
+		local delay = this.delays[1]
+		if delay + start_ts <= store.tick_ts then
+			local entity = this.entities[1]
+			table.remove(this.delays, 1)
+			table.remove(this.entities, 1)
+			if entity.render then
+				for i, s in pairs(entity.render.sprites) do
+					s.ts = store.tick_ts
+				end
+			end
+			if entity.tween and not entity.tween.disabled then
+				entity.tween.ts = store.tick_ts
+			end
+			if entity.pos and entity.pos.x == 0 and entity.pos.y == 0 then
+				entity.pos.x, entity.pos.y = this.pos.x, this.pos.y
+			end
+			SU.set_entity_level(entity, b.level)
+			if entity.aura then
+				entity.aura.target_id = b.target_id
+				entity.aura.source_id = b.source_id
+			else
+				entity.target_id = b.target_id
+				entity.source_id = b.source_id
+			end
+			if entity.nav_rally and entity.pos then
+				local npos = V.vclone(entity.pos)
+				entity.nav_rally.center = npos
+				entity.nav_rally.pos = npos
+				entity.nav_rally.new = false
 			end
 			queue_insert(store, entity)
 			if #this.delays > 0 then
@@ -858,7 +913,10 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 	if this.render.sprites[1].name == "raise" then
 		SU.hide_shadow(this, true)
 		this.health_bar.hidden = true
-		U.animation_start(this, "raise", nil, store.tick_ts, 1)
+		if this.sound_events and this.sound_events.raise then
+			S:queue(this.sound_events.raise, this.sound_events.raise_args)
+		end
+		U.animation_start(this, "raise", nil, store.tick_ts)
 		while not U.animation_finished(this) and not this.health.dead do
 			coroutine.yield()
 		end
@@ -902,7 +960,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 			if this.dodge and this.dodge.active then
 				this.dodge.active = false
 
-				if this.dodge.counter_attack and this.powers[this.dodge.counter_attack.power_name].level > 0 then
+				if this.dodge.counter_attack and this.powers and this.powers[this.dodge.counter_attack.power_name].level > 0 then
 					this.dodge.counter_attack_pending = true
 				elseif this.dodge.animation then
 					if this.dodge.hide_shadow then
@@ -1002,6 +1060,180 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 	end
 end
 
+scripts.kr4_soldier_reinforcement = {}
+function scripts.kr4_soldier_reinforcement.update(this, store, script)
+	local brk, sta
+
+	if this.timed_attacks then
+		this.timed_attacks.order = U.attack_order(this.timed_attacks.list)
+		for i, a in ipairs(this.timed_attacks.list) do
+			a.ts = store.tick_ts
+		end
+	end
+
+	if this.reinforcement then
+		this.reinforcement.ts = store.tick_ts
+	end
+
+	if this.render then
+		for _, s in pairs(this.render.sprites) do
+			s.ts = store.tick_ts
+		end
+	end
+
+	if this.reinforcement and (this.reinforcement.fade or this.reinforcement.fade_in) then
+		SU.y_reinforcement_fade_in(store, this)
+	elseif this.render.sprites[1].name == "raise" then
+		if this.sound_events and this.sound_events.raise then
+			S:queue(this.sound_events.raise, this.sound_events.raise_args)
+		end
+
+		this.health_bar.hidden = true
+
+		U.y_animation_play(this, "raise", nil, store.tick_ts)
+
+		if not this.health.dead then
+			this.health_bar.hidden = nil
+		end
+	end
+
+	while true do
+		if this.cloak then
+			this.vis.flags = band(this.vis.flags, bnot(this.cloak.flags))
+			this.vis.bans = band(this.vis.bans, bnot(this.cloak.bans))
+			this.render.sprites[1].alpha = 255
+		end
+
+		if this.health.dead then
+			this.reinforcement.fade = false
+			this.reinforcement.fade_out = false
+			this.ui.can_click = false
+			this.tween = nil
+
+			SU.y_soldier_death(store, this)
+
+			return
+		end
+
+		if this.reinforcement and this.reinforcement.duration and store.tick_ts - this.reinforcement.ts > this.reinforcement.duration then
+			if this.health.hp > 0 then
+				this.reinforcement.hp_before_timeout = this.health.hp
+			end
+
+			this.health.hp = 0
+			this.ui.can_click = false
+
+			SU.remove_modifiers(store, this)
+			SU.y_soldier_death(store, this)
+
+			return
+		end
+
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+		else
+			SU.soldier_courage_upgrade(store, this)
+
+			if this.dodge and this.dodge.active then
+				this.dodge.active = false
+
+				if this.dodge.counter_attack and this.powers and this.powers[this.dodge.counter_attack.power_name].level > 0 then
+					this.dodge.counter_attack_pending = true
+				elseif this.dodge.animation then
+					if this.dodge.hide_shadow then
+						SU.hide_shadow(this, true)
+					end
+					U.animation_start(this, this.dodge.animation, nil, store.tick_ts)
+
+					while not U.animation_finished(this) do
+						coroutine.yield()
+					end
+					SU.hide_shadow(this, false)
+				end
+
+				signal.emit("soldier-dodge", this)
+			end
+
+			while this.nav_rally.new do
+				if this.nav_rally.move_order then
+					U.y_wait(store, this.nav_rally.move_order * math.random() * 0.3)
+				end
+
+				if SU.y_hero_new_rally(store, this) then
+					goto label_481_1
+				end
+			end
+
+			if this.timed_actions then
+				brk, sta = SU.y_soldier_timed_actions(store, this)
+				if brk then
+					goto label_481_1
+				end
+			end
+
+			if this.timed_attacks then
+				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				if brk then
+					goto label_481_1
+				end
+			end
+
+			if this.ranged and this.ranged.range_while_blocking then
+				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				if brk then
+					goto label_481_1
+				end
+			end
+
+			if this.melee then
+				if this.dodge and this.dodge.hide_shadow and this.dodge.counter_attack_pending then
+					SU.hide_shadow(this, true)
+				end
+				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+				if this.dodge and this.dodge.hide_shadow then
+					SU.hide_shadow(this, false)
+				end
+
+				if brk or sta ~= A_NO_TARGET then
+					goto label_481_1
+				end
+			end
+
+			if this.ranged and not this.ranged.range_while_blocking then
+				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				if brk or sta == A_DONE then
+					goto label_481_1
+				elseif sta == A_IN_COOLDOWN and not this.ranged.go_back_during_cooldown then
+					goto label_481_0
+				end
+			end
+
+			if SU.soldier_go_back_step(store, this) then
+				goto label_481_1
+			end
+
+			::label_481_0::
+
+			SU.entity_idle(store, this)
+
+			if this.cloak then
+				this.vis.flags = bor(this.vis.flags, this.cloak.flags)
+				this.vis.bans = bor(this.vis.bans, this.cloak.bans)
+
+				if this.cloak.alpha then
+					this.render.sprites[1].alpha = this.cloak.alpha
+				end
+			end
+
+			SU.soldier_regen(store, this)
+		end
+
+		::label_481_1::
+
+		coroutine.yield()
+	end
+end
+
 scripts.tower_with_shooters = {}
 function scripts.tower_with_shooters.get_info(this)
 	local min, max, d_type, cooldown, range
@@ -1041,7 +1273,11 @@ function scripts.tower_with_shooters.get_info(this)
 		end
 	end
 	if not min then
-		min, max = 0, 0
+		if this.barrack then
+			return scripts.tower_barrack.get_info(this)
+		else
+			min, max = 0, 0
+		end
 	end
 	min, max = math.ceil(min * this.tower.damage_factor), math.ceil(max * this.tower.damage_factor)
 
@@ -2047,7 +2283,7 @@ function scripts.continuous_ray.update(this, store, script)
 			end
 			if store.tick_ts - last_hit_ts >= this.bullet.tick_time then
 				last_hit_ts = store.tick_ts
-				local d = SU.create_bullet_damage(b, target.id, this.id)
+				local d = SU.create_bullet_damage(b, target.id, b.source_id)
 				queue_damage(store, d)
 				if b.mod or b.mods then
 					local mods = b.mods or {
@@ -2869,26 +3105,14 @@ end
 
 function scripts.KR5Bomb.update(this, store, script)
 	local b = this.bullet
-	local dmin, dmax = b.damage_min, b.damage_max
 	local dradius = b.damage_radius
 
 	if b.level and b.level > 0 then
-		if b.damage_radius_inc then
+		if b.damage_radii then
+			b.damage_radius = b.damage_radii[b.level]
+		elseif b.damage_radius_inc then
 			dradius = dradius + b.level * b.damage_radius_inc
 		end
-
-		if b.damage_min_inc then
-			dmin = dmin + b.level * b.damage_min_inc
-		end
-
-		if b.damage_max_inc then
-			dmax = dmax + b.level * b.damage_max_inc
-		end
-	end
-
-	if b.damages_min and b.damages_max and b.level then
-		dmin = b.damages_min[b.level]
-		dmax = b.damages_max[b.level]
 	end
 
 	local ps
@@ -2933,61 +3157,44 @@ function scripts.KR5Bomb.update(this, store, script)
 		end
 	end
 
-	local enemies = table.filter(store.entities, function(k, v)
-		return v.enemy and v.vis and v.health and not v.health.dead and band(v.vis.flags, b.damage_bans) == 0 and band(v.vis.bans, b.damage_flags) == 0 and U.is_inside_ellipse(v.pos, b.to, dradius)
-	end)
-
-	for _, enemy in pairs(enemies) do
-		local d = E:create_entity("damage")
-
-		d.damage_type = b.damage_type
-		d.reduce_armor = b.reduce_armor
-		d.reduce_magic_armor = b.reduce_magic_armor
-
-		if b.damage_decay_random then
-			d.value = U.frandom(dmin, dmax)
+	b.use_dist_factor = nil
+	if not b.damage_decay_random then
+		local upg = UP:get_upgrade("towers_improved_formulas")
+		local source = store.entities[b.source_id]
+		if upg and (source and source.tower or this.from_tower) then
+			b.damage_min = b.damage_max
+			b.damages_min = b.damages_max
+			b.damage_min_inc = b.damage_max_inc
 		else
-			local upg = UP:get_upgrade("towers_improved_formulas")
-			local source = store.entities[b.source_id]
-
-			if upg and (source and source.tower or this.from_tower) then
-				d.value = dmax
-			else
-				local dist_factor = U.dist_factor_inside_ellipse(enemy.pos, b.to, dradius)
-
-				d.value = math.floor(dmax - (dmax - dmin) * dist_factor)
-			end
+			b.use_dist_factor = true
 		end
-
-		d.value = math.ceil(b.damage_factor * d.value)
-		d.source_id = b.source_id
-		d.target_id = enemy.id
-
-		if b.xp_gain_factor and b.xp_dest_id then
-			d.xp_gain_factor = b.xp_gain_factor
-			d.xp_dest_id = b.source_id
-		end
-
-		queue_damage(store, d)
-
-		if this.up_shock_and_awe_chance and band(enemy.vis.bans, F_STUN) == 0 and band(enemy.vis.flags, bor(F_BOSS, F_CLIFF, F_FLYING)) == 0 and math.random() < this.up_shock_and_awe_chance then
-			local mod = E:create_entity("mod_shock_and_awe")
-
-			mod.modifier.target_id = enemy.id
-
-			queue_insert(store, mod)
-		end
-
-		if b.mod or b.mods then
-			local mods = b.mods or {
-				b.mod
-			}
-			for i, mod_name in ipairs(mods) do
-				local mod = E:create_entity(mod_name)
-				mod.modifier.target_id = enemy.id
-				mod.modifier.source_id = b.source_id
-				mod.modifier.level = b.level
+	end
+	
+	local targets = U.find_targets_in_range(store.entities, b.to, 0, b.damage_radius, b.vis_flags, b.vis_bans)
+	if targets then
+		for _, target in ipairs(targets) do
+			local d = SU.create_bullet_damage(b, target.id, b.source_id, store)
+			queue_damage(store, d)
+	
+			if this.up_shock_and_awe_chance and band(target.vis.bans, F_STUN) == 0 and band(target.vis.flags, bor(F_BOSS, F_CLIFF, F_FLYING)) == 0 and 
+			math.random() < this.up_shock_and_awe_chance then
+				local mod = E:create_entity("mod_shock_and_awe")
+				mod.modifier.target_id = target.id
 				queue_insert(store, mod)
+			end
+	
+			if b.mod or b.mods then
+				local mods = b.mods or {
+					b.mod
+				}
+				for i, mod_name in ipairs(mods) do
+					local mod = E:create_entity(mod_name)
+					mod.modifier.target_id = target.id
+					mod.modifier.source_id = b.source_id
+					mod.modifier.level = b.level
+					mod.modifier.source_damage = d
+					queue_insert(store, mod)
+				end
 			end
 		end
 	end
@@ -3029,6 +3236,40 @@ function scripts.KR5Bomb.update(this, store, script)
 			p.particle_system.emit = false
 		end
 	end
+	queue_remove(store, this)
+end
+
+scripts.bullet_without_trajectory = {}
+function scripts.bullet_without_trajectory.update(this, store, script)
+	local b = this.bullet
+	b.ts = store.tick_ts
+	local source = store.entities[b.source_id]
+	
+	if b.hit_time and b.hit_time > 0 then
+		U.y_wait(store, b.hit_time)
+	end
+
+	local target = store.entities[b.target_id]
+	if target then
+		this.pos.x, this.pos.y = target.pos.x, target.pos.y
+		local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
+		if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
+			this.pos.x, this.pos.y = this.pos.x + target.unit.hit_offset.x * flip_sign, this.pos.y + target.unit.hit_offset.y
+		end
+		b.to.x, b.to.y = this.pos.x, this.pos.y
+	else
+		this.pos.x, this.pos.y = b.to.x, b.to.y
+	end
+
+	SU.make_bullet_damage_targets(this, store, target)
+	SU.create_bullet_hit_fx(this, store, target)
+	SU.create_bullet_hit_decal(this, store)
+	SU.create_bullet_hit_payload(this, store)
+	local pop = SU.create_bullet_pop(store, this)
+	if pop then
+		queue_insert(store, pop)
+	end
+
 	queue_remove(store, this)
 end
 

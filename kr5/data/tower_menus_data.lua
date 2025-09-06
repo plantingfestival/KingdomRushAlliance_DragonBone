@@ -5602,6 +5602,16 @@ return {
 				tt_desc = _("TOWER_WARMONGERS_BARRACK_LVL2_DESCRIPTION")
 			},
 			{
+				check = "main_icons_0019",
+				action_arg = "tower_ogres_barrack_lvl2",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "tower_icons_0139",
+				place = 13,
+				tt_title = _("TOWER_OGRES_BARRACK_LVL2_NAME"),
+				tt_desc = _("TOWER_OGRES_BARRACK_LVL2_DESCRIPTION")
+			},
+			{
 				halo = "ingame_ui_sub_icons_0001_hover",
 				image = "ingame_ui_sub_icons_0001",
 				action = "tw_rally",
@@ -7427,6 +7437,160 @@ return {
 						tt_title = _("TOWER_DEEP_DEVILS_4_STORM_3_NAME"),
 						tt_desc = _("TOWER_DEEP_DEVILS_4_STORM_3_DESCRIPTION")
 					},
+				}
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		}
+	},
+	ogres = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_ogres_barrack_lvl2",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_OGRES_BARRACK_LVL2_NAME"),
+				tt_desc = _("TOWER_OGRES_BARRACK_LVL2_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_ogres_barrack_lvl3",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_OGRES_BARRACK_LVL3_NAME"),
+				tt_desc = _("TOWER_OGRES_BARRACK_LVL3_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_ogres_barrack_lvl4",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_OGRES_BARRACK_LVL4_NAME"),
+				tt_desc = _("TOWER_OGRES_BARRACK_LVL4_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		},
+		{
+			{
+				check = "special_icons_0020",
+				action_arg = "better_crew",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0087",
+				place = 3,
+				halo = "glow_ico_special",
+				sounds = {
+					"ogre_shipwreck_upgrade_ogres_armor"
+				},
+				tt_phrase = _("TOWER_OGRES_BARRACK_LVL4_BETTER_CREW_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_OGRES_BARRACK_LVL4_BETTER_CREWS_1_NAME"),
+						tt_desc = _("TOWER_OGRES_BARRACK_LVL4_BETTER_CREWS_1_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "musket_rage",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0088",
+				place = 1,
+				halo = "glow_ico_special",
+				sounds = {
+					"ogre_shipwreck_upgrade_ogre_multishoot"
+				},
+				tt_phrase = _("TOWER_OGRES_BARRACK_LVL4_MUSKET_RAGE_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_OGRES_BARRACK_LVL4_MUSKET_RAGE_1_NAME"),
+						tt_desc = _("TOWER_OGRES_BARRACK_LVL4_MUSKET_RAGE_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_OGRES_BARRACK_LVL4_MUSKET_RAGE_2_NAME"),
+						tt_desc = _("TOWER_OGRES_BARRACK_LVL4_MUSKET_RAGE_2_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "goblin_launcher",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0089",
+				place = 2,
+				halo = "glow_ico_special",
+				sounds = {
+					"ogre_shipwreck_upgrade_goblin_launcher"
+				},
+				tt_phrase = _("TOWER_OGRES_BARRACK_LVL4_GOBLIN_LAUNCHER_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_OGRES_BARRACK_LVL4_GOBLIN_LAUNCHER_1_NAME"),
+						tt_desc = _("TOWER_OGRES_BARRACK_LVL4_GOBLIN_LAUNCHER_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_OGRES_BARRACK_LVL4_GOBLIN_LAUNCHER_2_NAME"),
+						tt_desc = _("TOWER_OGRES_BARRACK_LVL4_GOBLIN_LAUNCHER_2_DESCRIPTION")
+					}
 				}
 			},
 			{

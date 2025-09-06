@@ -11283,6 +11283,20 @@ local towers = {
 			}
 		}
 	},
+	ogres = {
+		goblin_launcher = {
+			cooldowns = {
+				15,
+				10,
+			}
+		},
+		musket_rage = {
+			cooldowns = {
+				15,
+				15,
+			}
+		}
+	},
 	random = {
 		allowed_templates = {
 			"tower_mage_1",-- 秘法师高台
