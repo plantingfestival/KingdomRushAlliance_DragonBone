@@ -5563,6 +5563,7 @@ tt.attacks.list[2].bullet_start_offset = {
 }
 
 tt = E:register_t("bomb_goblin_bomber", "KR5Bomb")
+tt.from_tower = true
 tt.bullet.damage_min = 50
 tt.bullet.damage_max = 70
 tt.bullet.damage_radius = 52.5
