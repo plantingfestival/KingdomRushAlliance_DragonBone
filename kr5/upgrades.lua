@@ -611,6 +611,10 @@ function upgrades:patch_templates(max_level)
 		st.health._hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 		st = T("pirates_soldier_goblin_deckhand_lvl2")
 		st.health._hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T("pirates_soldier_goblin_launched")
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
+		st = T("pirates_soldier_goblin_launched_better_crew")
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 
 		for _, n in pairs(all_towers) do
 			for i = 1, 4 do
