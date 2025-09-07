@@ -202,9 +202,9 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = false
-tt.main_script.insert = scripts.mod_tower_common.insert
-tt.main_script.update = scripts.mod_tower_common.update
-tt.main_script.remove = scripts.mod_tower_common.remove
+tt.main_script.insert = scripts.mod_tower_factors.insert
+tt.main_script.update = scripts.mod_tower_factors.update
+tt.main_script.remove = scripts.mod_tower_factors.remove
 
 tt = E:register_t("continuous_ray", "bullet")
 tt.bullet.damage_type = DAMAGE_PHYSICAL

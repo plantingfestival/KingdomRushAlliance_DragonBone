@@ -9900,8 +9900,8 @@ AC(tt, "render", "tween")
 
 tt.range_factor = 1.2
 tt.cooldown_factor = 0.8
-tt.main_script.insert = kr1_scripts.mod_denas_tower.insert
-tt.main_script.remove = kr1_scripts.mod_denas_tower.remove
+tt.main_script.insert = kr1_scripts.mod_tower_factors.insert
+tt.main_script.remove = kr1_scripts.mod_tower_factors.remove
 tt.main_script.update = kr1_scripts.mod_denas_tower.update
 tt.modifier.duration = nil
 tt.modifier.use_mod_offset = false

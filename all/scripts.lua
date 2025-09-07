@@ -5614,31 +5614,54 @@ function scripts.mod_tower_factors.insert(this, store)
 	local target = store.entities[m.target_id]
 
 	if not target or not target.tower then
-		if not target then
-			log.error("cannot insert mod_tower_factors, target not found")
-		elseif not target.tower then
-			log.error("cannot insert mod_tower_factors to entity %s - ", target.id, target.template_name)
-		end
-
 		return false
 	end
 
-	if this.range_factor then
-		if target.attacks then
+	if target.attacks then
+		if this.range_factor then
 			target.attacks.range = target.attacks.range * this.range_factor
 		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
+		end
 
-		if target.barrack then
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown * this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown * this.cooldown_factor
+			end
+		end
+	end
+
+	if target.barrack then
+		if this.range_factor then
 			target.barrack.rally_range = target.barrack.rally_range * this.range_factor
 		end
 	end
 
-	if this.damage_factor then
-		target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range * this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown * this.cooldown_factor
+				end
+			end
+		end
+	end
+
+	if this.render then
+		for i = 1, #this.render.sprites do
+			local s = this.render.sprites[i]
+			s.ts = store.tick_ts
+		end
 	end
 
 	signal.emit("mod-applied", this, target)
-
 	return true
 end
 
@@ -5647,23 +5670,44 @@ function scripts.mod_tower_factors.remove(this, store)
 	local target = store.entities[m.target_id]
 
 	if not target or not target.tower then
-		log.error("error removing mod_tower_factors %s", this.id)
-
 		return true
 	end
 
-	if this.range_factor then
-		if target.attacks then
+	if target.attacks then
+		if this.range_factor then
 			target.attacks.range = target.attacks.range / this.range_factor
 		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+		end
 
-		if target.barrack then
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown / this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown / this.cooldown_factor
+			end
+		end
+	end
+
+	if target.barrack then
+		if this.range_factor then
 			target.barrack.rally_range = target.barrack.rally_range / this.range_factor
 		end
 	end
 
-	if this.damage_factor then
-		target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range / this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown / this.cooldown_factor
+				end
+			end
+		end
 	end
 
 	return true
@@ -5673,21 +5717,36 @@ function scripts.mod_tower_factors.update(this, store)
 	local m = this.modifier
 	local target = store.entities[m.target_id]
 
-	if target then
-		this.pos = target.pos
+	if not target then
+		queue_remove(store, this)
+		return
 	end
 
 	m.ts = store.tick_ts
-
 	if this.tween then
-		this.tween.ts = store.tick_ts
+		this.tween.reverse = false
+		this.tween.remove = false
+		if this.fade_in then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+		else
+			this.tween.disabled = true
+		end
 	end
 
-	while store.tick_ts - m.ts < m.duration do
+	while store.tick_ts - m.ts <= m.duration do
+		this.pos = target.pos
 		coroutine.yield()
 	end
 
-	queue_remove(store, this)
+	if this.tween and this.fade_out then
+		this.tween.reverse = true
+		this.tween.remove = true
+		this.tween.disabled = false
+		this.tween.ts = store.tick_ts
+	else
+		queue_remove(store, this)
+	end
 end
 
 scripts.mod_tower_block = {}
