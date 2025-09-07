@@ -1735,7 +1735,7 @@ function U.find_weakest_enemy_in_range(entities, origin, min_range, max_range, p
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
 
-function U.find_initial_strongest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+function U.find_initial_strongest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	flags = flags or 0
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
@@ -1759,7 +1759,7 @@ function U.find_initial_strongest_enemy_in_range(entities, origin, min_range, ma
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
 
-function U.find_initial_weakest_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+function U.find_initial_weakest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	flags = flags or 0
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
@@ -1778,6 +1778,23 @@ function U.find_initial_weakest_enemy_in_range(entities, origin, min_range, max_
 			end
 			return hp1 < hp2
 		end)
+	end
+ 
+	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
+end
+
+function U.find_custom_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, sort_func)
+	flags = flags or 0
+	bans = bans or 0
+	min_override_flags = min_override_flags or 0
+ 
+	local _, valid_enemies = U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	if not valid_enemies or #valid_enemies == 0 then
+		return nil, nil, nil
+	end
+
+	if(valid_enemies and #valid_enemies > 0) then
+		table.sort(valid_enemies, sort_func)
 	end
  
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
@@ -2042,9 +2059,11 @@ U.search_type = {
 	find_max_crowd = 8,-- 最密集
 	max_initial_health = 9,-- 最大生命值最多
 	min_initial_health = 10,-- 最大生命值最少
+	custom = 32,-- 自定义
 }
 
-function U.find_enemy_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, search_type, crowd_range, min_targets)
+function U.find_enemy_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, search_type, 
+	crowd_range, min_targets, sort_func)
 	flags = flags or 0
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
@@ -2092,9 +2111,11 @@ function U.find_enemy_with_search_type(entities, origin, min_range, max_range, p
 			return nil, nil, nil
 		end
 	elseif search_type == U.search_type.max_initial_health then
-		return U.find_strongest_initial_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+		return U.find_initial_strongest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 	elseif search_type == U.search_type.min_initial_health then
-		return U.find_weakest_initial_enemy_in_range(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+		return U.find_initial_weakest_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
+	elseif search_type == U.search_type.custom then
+		return U.find_custom_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, sort_func)
 	end
 	return U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
 end
@@ -2178,7 +2199,17 @@ function U.find_initial_weakest_soldier_in_range(entities, origin, min_range, ma
 	return soldier, soldiers, V.vclone(soldier.pos)
 end
 
-function U.find_soldier_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, search_type, crowd_range, min_targets)
+function U.find_custom_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func, sort_func)
+	local soldiers = U.find_soldiers_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	if not soldiers or #soldiers == 0 then
+		return nil, nil
+	end
+	table.sort(soldiers, sort_func)
+	local soldier = soldiers[1]
+	return soldier, soldiers, V.vclone(soldier.pos)
+end
+
+function U.find_soldier_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, search_type, crowd_range, min_targets, sort_func)
 	flags = flags or 0
 	bans = bans or 0
 	local soldier, soldiers, soldier_pos
@@ -2202,6 +2233,8 @@ function U.find_soldier_with_search_type(entities, origin, min_range, max_range,
 		soldier, soldiers, soldier_pos = U.find_initial_strongest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
 	elseif search_type == U.search_type.min_initial_health then
 		soldier, soldiers, soldier_pos = U.find_initial_weakest_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func)
+	elseif search_type == U.search_type.custom then
+		soldier, soldiers, soldier_pos = U.find_custom_soldier_in_range(entities, origin, min_range, max_range, flags, bans, filter_func, sort_func)
 	else
 		soldier, soldiers, soldier_pos = U.find_nearest_soldier(entities, origin, min_range, max_range, flags, bans, filter_func)
 	end

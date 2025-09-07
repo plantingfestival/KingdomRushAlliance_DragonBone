@@ -17,6 +17,8 @@ can_be_silenced：类型boolean。代表技能是否可以被沉默。
 disabled_if_having_modifiers：类型table。格式为{"xxx", ...}。xxx为modifier的名字。代表entity身上有某些modifier时， 技能被禁用。
 melee_break：类型boolean。代表技能是否可在近战时施放。true代表可以。
 ranged_break：类型boolean。代表技能是否可在远程攻击时施放。true代表可以。仅对敌方单位生效。
+ignore_flip_x：类型boolean。为true时禁止entity施法的精灵图水平翻转。
+chance：类型number。代表技能的施放概率。
 skill_id：类型string。代表技能的标识。需配合skills_interval，reset_partners_skill或者extra_cooldowns使用。
 skills_interval：类型number。代表同一组士兵或射手的，拥有同一个skill_id的技能的施放间隔。比如四级鱼人塔士兵的掷网，当一个士兵掷网后，另一个士兵将间隔1秒后才能掷网。
 reset_partners_skill：类型boolean。代表技能施放后，是否重置同一组士兵或射手的，拥有同一个skill_id的技能的冷却。true代表重置。
@@ -34,10 +36,12 @@ U.search_type = {
 	find_max_crowd = 8,-- 最密集
 	max_initial_health = 9,-- 最大生命值最多
 	min_initial_health = 10,-- 最大生命值最少
+	custom = 32,-- 自定义
 }
 crowd_range：类型number。只有search_type为U.search_type.find_max_crowd时有效。需配合min_targets使用。
 min_targets：类型integer。只有search_type为U.search_type.find_max_crowd时有效。需配合crowd_range使用。此时搜索条件之一为：
 主目标周围crowd_range范围内的目标总数（包含主目标）大于等于min_targets。
+sort_func：类型function。只有search_type为U.search_type.custom时有效。排序函数，返回的目标将用sort_func排序。
 
 向某个目标射出投射物的技能range_unit，专用键值对：
 bullet：类型string。代表投射物的名字。

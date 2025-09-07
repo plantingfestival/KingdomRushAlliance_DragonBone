@@ -5336,14 +5336,14 @@ tt.ui.click_rect = r(-16, -2, 32, 22)
 tt = E:register_t("pirates_soldier_goblin_launched", "pirates_soldier_goblin_deckhand_lvl2")
 E:add_comps(tt, "reinforcement", "tween")
 tt.insert_delay = fts(2)
-tt.reinforcement.duration = 6
+tt.reinforcement.duration = 5
 tt.reinforcement.fade = nil
 tt.reinforcement.fade_out = true
 tt.powers.better_crew = nil
 tt.powers.goblin_launcher = E:clone_c("power")
 tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow)
 	if pow.level == 2 then
-		this.reinforcement.duration = 9
+		this.reinforcement.duration = 7
 	end
 end
 tt.health.dead_lifetime = 2
@@ -5554,7 +5554,7 @@ tt.attacks.list[2].bullet = "bomb_skill_goblin_lvl1"
 tt.attacks.list[2].cooldown = b.goblin_launcher.cooldowns[1]
 tt.attacks.list[2].cooldowns = b.goblin_launcher.cooldowns
 tt.attacks.list[2].cast_time = 0.93
-tt.attacks.list[2].node_prediction = fts(35)
+tt.attacks.list[2].node_prediction = fts(39)
 tt.attacks.list[2].min_range = 0
 tt.attacks.list[2].max_range = tt.attacks.range
 tt.attacks.list[2].ignore_flip_x = true
