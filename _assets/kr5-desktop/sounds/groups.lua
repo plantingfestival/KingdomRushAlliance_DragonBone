@@ -444,6 +444,13 @@ return {
 		}
 	},
 	-- customization
+	music_stage114 = {
+		sounds = {
+			"MusicBattlePrep_114",
+			"MusicBattle_114",
+			"MusicBossFight"
+		}
+	},
 	music_stage115 = {
 		sounds = {
 			"MusicBattlePrep_115",
@@ -1265,20 +1272,6 @@ return {
 		"wizzard_taunt_death.ogg"
 		}
 	},
-	item_hero_voodoo_witch = {
-		files = {
-			"Vodoo_01c.ogg",
-			"Vodoo_02b.ogg",
-			"Vodoo_03b.ogg",
-			"Vodoo_04b.ogg",
-			"KRF_sfx_vodoo_kamikazegolpev3.ogg",
-			"Vodoo_05d.ogg",
-			"KRF_sfx_vodoo_kamikazelanza.ogg",
-			"KRF_sfx_vodoo_munieco.ogg",
-			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
-			"KRF_sfx_vodoo_ataqueV3.ogg"
-		}
-	},
 	item_hero_elves_archer = {
 		files = {
 			"Eridan_Death-01a.ogg",
@@ -1321,6 +1314,20 @@ return {
             "kro_sfx_faustus_teleport_v1[sinarpa].ogg",
 		}
 	},
+	item_hero_voodoo_witch = {
+		files = {
+			"Vodoo_01c.ogg",
+			"Vodoo_02b.ogg",
+			"Vodoo_03b.ogg",
+			"Vodoo_04b.ogg",
+			"KRF_sfx_vodoo_kamikazegolpev3.ogg",
+			"Vodoo_05d.ogg",
+			"KRF_sfx_vodoo_kamikazelanza.ogg",
+			"KRF_sfx_vodoo_munieco.ogg",
+			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
+			"KRF_sfx_vodoo_ataqueV3.ogg"
+		}
+	},
 	item_hero_veznan = {
 		files = {
 			"kro_sfx_veznan_arcanenova_v1.ogg",
@@ -1353,18 +1360,6 @@ return {
 			"kro_sfx_phoenix_ringoffire_explode_v2.ogg",
 			"kro_sfx_phoenix_immolation_v2.ogg",
 			"kro_sfx_phoenix_fireegg_v3.ogg",
-		}
-	},
-	item_hero_jack_o_lantern = {
-		files = {
-			"kr4_hero_jacko_taunt_death.ogg",
-			"kr4_hero_jacko_horses.ogg",
-			"kr4_hero_jacko_taunt_1.ogg",
-			"kr4_hero_jacko_taunt_2.ogg",
-			"kr4_hero_jacko_taunt_3.ogg",
-			"kr4_hero_jacko_taunt_4.ogg",
-			"kr4_hero_jacko_teleport_var1.ogg",
-			"kr4_hero_jacko_teleport_var2.ogg",
 		}
 	},
 	tower_rock_thrower = {

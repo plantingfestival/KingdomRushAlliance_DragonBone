@@ -1253,14 +1253,14 @@ tt.hero.skills.waterball.hr_cost = {
 tt.hero.skills.waterball.hr_order = 2
 tt.hero.skills.waterball.hr_available = true
 tt.hero.skills.waterball.damage_min = {
-	40,
-	80,
-	120
+	32,
+	64,
+	96
 }
 tt.hero.skills.waterball.damage_max = {
-	60,
-	120,
-	180
+	49,
+	98,
+	147
 }
 tt.hero.skills.waterball.key = "WATERBALL"
 
@@ -3777,7 +3777,9 @@ tt.tower.menu_offset = v(0, 22)
 tt.ui.click_rect = r(-40, -10, 80, 90)
 
 tt = RT("kr4_elven_warrior", "soldier_militia")
-E:add_comps(tt, "powers", "dodge", "timed_attacks", "revive", "nav_grid")
+
+E:add_comps(tt, "powers", "dodge", "ranged", "revive", "nav_grid")
+
 anchor_y = 0.267
 tt.health.hp_max = 100
 tt.health.armor = 0.3
@@ -3812,28 +3814,27 @@ tt.melee.attacks[1].track_damage = true
 tt.melee.attacks[1].animation = "hit1"
 tt.melee.range = 50
 tt.soldier.melee_slot_offset = v(8, 0)
-tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
-tt.timed_attacks.list[1].skill = "range_unit"
-tt.timed_attacks.list[1].bullet = "kr4_elven_warrior_arrow"
-tt.timed_attacks.list[1].bullet_start_offset = {
+tt.ranged.go_back_during_cooldown = true
+tt.ranged.attacks[1].bullet = "kr4_elven_warrior_arrow"
+tt.ranged.attacks[1].bullet_start_offset = {
 	v(4, 21)
 }
-tt.timed_attacks.list[1].cooldown = 1.5
-tt.timed_attacks.list[1].max_range = 205
-tt.timed_attacks.list[1].min_range = 50
-tt.timed_attacks.list[1].loops = 1
-tt.timed_attacks.list[1].cast_time = fts(24)
-tt.timed_attacks.list[1].node_prediction = fts(10)
-tt.timed_attacks.list[1].animation_prepare = "shootIn"
-tt.timed_attacks.list[1].animation_start = "shootPrep"
-tt.timed_attacks.list[1].animation_loop = "multiShoot"
-tt.timed_attacks.list[1].animation_end = "shootEnd"
-tt.timed_attacks.list[1].shoot_times = {
-	fts(3),
-	fts(5),
-	fts(5)
+tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].max_range = 205
+tt.ranged.attacks[1].min_range = 50
+tt.ranged.attacks[1].sprite_group = "shoot"
+tt.ranged.attacks[1].loops = 1
+tt.ranged.attacks[1].shoot_times = {
+	fts(4),
+	fts(9),
+	fts(16)
 }
-tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
+tt.ranged.attacks[1].animations = {
+	"shootPrep",
+	"multiShoot",
+	"shootEnd"
+}
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.regen.cooldown = 1
 tt.regen.health = 20
 tt.render.sprites[1].prefix = "kr4_elven_warrior"
@@ -3868,8 +3869,8 @@ tt = RT("kr4_elven_warrior_arrow", "arrow5_45degrees")
 tt.render.sprites[1].name = "kr4_elven_warrior_arrow"
 tt.bullet.miss_decal = "kr4_elven_warrior_arrow_decal_0009"
 tt.bullet.miss_decal_anchor = v(1, 0.5)
-tt.bullet.damage_min = 8
-tt.bullet.damage_max = 17
+tt.bullet.damage_min = 12
+tt.bullet.damage_max = 22
 tt.bullet.flight_time = fts(10)
 tt.bullet.g = -0.7 / (fts(1) * fts(1))
 tt.bullet.reset_to_target_pos = true
@@ -5817,7 +5818,7 @@ tt.health.hp_max = 20
 tt.health_bar.offset = v(0, 25)
 tt.info.i18n_key = "ENEMY_GOBLIN"
 tt.info.enc_icon = 1
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0006" or "info_portraits_sc_0006"
+tt.info.portrait = "gui_bottom_info_image_enemies_0100"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 4
 tt.melee.attacks[1].damage_min = 1
@@ -5841,7 +5842,7 @@ tt.health.hp_max = 80
 tt.health_bar.offset = v(0, 30)
 tt.info.i18n_key = "ENEMY_FAT_ORC"
 tt.info.enc_icon = 2
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0007" or "info_portraits_sc_0007"
+tt.info.portrait = "gui_bottom_info_image_enemies_0103"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 8
 tt.melee.attacks[1].damage_min = 4
@@ -6026,7 +6027,7 @@ tt.health_bar.offset = v(0, 53)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_OGRE"
 tt.info.enc_icon = 4
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0011" or "info_portraits_sc_0011"
+tt.info.portrait = "gui_bottom_info_image_enemies_0102"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 60
 tt.melee.attacks[1].damage_min = 40
@@ -6414,7 +6415,7 @@ tt.health_bar.offset = v(0, 76)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_FOREST_TROLL"
 tt.info.enc_icon = 39
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0062" or "info_portraits_sc_0060"
+tt.info.portrait = "gui_bottom_info_image_enemies_0107"
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2.5
 tt.melee.attacks[1].count = 10
@@ -6454,7 +6455,7 @@ tt.health.hp_max = 400
 tt.health_bar.offset = v(0, 36)
 tt.info.i18n_key = "ENEMY_ORC_ARMORED"
 tt.info.enc_icon = 36
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0060" or "info_portraits_sc_0059"
+tt.info.portrait = "gui_bottom_info_image_enemies_0104"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 40
 tt.melee.attacks[1].damage_min = 20
@@ -6484,7 +6485,7 @@ tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, 48)
 tt.info.i18n_key = "ENEMY_ORC_RIDER"
 tt.info.enc_icon = 37
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0060" or "info_portraits_sc_0059"
+tt.info.portrait = "gui_bottom_info_image_enemies_0105"
 tt.melee.attacks[1].cooldown = 1 + fts(14)
 tt.melee.attacks[1].damage_max = 40
 tt.melee.attacks[1].damage_min = 20
@@ -6758,7 +6759,7 @@ tt.health.hp_max = 140
 tt.health_bar.offset = v(0, 34)
 tt.info.i18n_key = "ENEMY_GOBLIN_ZAPPER"
 tt.info.enc_icon = 38
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0061" or "info_portraits_sc_0061"
+tt.info.portrait = "gui_bottom_info_image_enemies_0101"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 20
 tt.melee.attacks[1].damage_min = 10
@@ -8300,7 +8301,7 @@ tt.health_bar.offset = v(0, 95)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.i18n_key = "ENEMY_BOSS_GOBLIN_CHIEFTAIN"
 tt.info.enc_icon = 40
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0063" or "info_portraits_sc_0063"
+tt.info.portrait = "gui_bottom_info_image_enemies_0106"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_shaman.update
 tt.melee.attacks[1].cooldown = 1 + fts(20)

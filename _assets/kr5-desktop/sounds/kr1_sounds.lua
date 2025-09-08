@@ -875,6 +875,24 @@ return {
 		gain = 0.2,
 		loop = false,
 	},
+	MusicBattlePrep_114 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattle_114 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
 	MusicBattlePrep_115 = {
 		source_group = "MUSIC",
 		gain = 0.9,
