@@ -1,6 +1,6 @@
 return {
 	stage_114 = {
-		a_name = "go_stage114_bg.png",
+		a_name = "go_stage114_bg.dds",
 		size = {
 			2731,
 			1536
