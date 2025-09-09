@@ -8,13 +8,10 @@ pull_from_github:
     GIT_STRATEGY: clone
   script:
     - git config --global user.name "plantingfestival"
-
     - git config --global user.email "plantingfestival@126.com"
-
+    - git remote remove github || true
     - git remote add github https://$GITHUB_USERNAME:$GITHUB_PAT@github.com/plantingfestival/KingdomRushAlliance_DragonBone.git
-
-    - git fetch github --prune --tags
-
-    - git push --force origin --mirror
+    - git fetch github --prune --tags --force
+    - git push origin --mirror
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
