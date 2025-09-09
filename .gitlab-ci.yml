@@ -5,20 +5,16 @@ pull_from_github:
   stage: sync
   image: alpine/git
   variables:
-    GIT_STRATEGY: clone # 明确指定克隆策略，确保基于GitLab仓库工作
+    GIT_STRATEGY: clone
   script:
-    # 配置 Git 用户信息
     - git config --global user.name "plantingfestival"
+
     - git config --global user.email "plantingfestival@126.com"
 
-    # 添加 GitHub 远程仓库（命名为 github），使用 HTTPS + PAT 进行认证
     - git remote add github https://$GITHUB_USERNAME:$GITHUB_PAT@github.com/plantingfestival/KingdomRushAlliance-.git
 
-    # 从 GitHub 获取所有更新（分支、标签等）
     - git fetch github --prune --tags
 
-    # 将 GitHub 的所有分支和标签推送到 GitLab (origin)
-    # --force 或 --mirror 是必须的，以确保分支历史保持一致
     - git push --force origin --mirror
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
