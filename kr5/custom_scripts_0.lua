@@ -932,7 +932,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 				if p.changed then
 					p.changed = nil
 
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
@@ -1456,7 +1456,7 @@ function scripts.tower_shooter.update(this, store, script)
 		for pn, p in pairs(this.powers) do
 			if p.changed then
 				p.changed = nil
-				SU.shooter_power_upgrade(this, pn)
+				SU.shooter_power_upgrade(this, pn, store)
 			end
 		end
 		

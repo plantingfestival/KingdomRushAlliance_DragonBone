@@ -282,7 +282,7 @@ function scripts.elves_soldier_harasser_lvl4.update(this, store, script)
 			for pn, p in pairs(this.powers) do
 				if p.changed then
 					p.changed = nil
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
@@ -2755,7 +2755,7 @@ function scripts.warmongers_soldier_orc_captain.update(this, store, script)
 			for pn, p in pairs(this.powers) do
 				if p.changed then
 					p.changed = nil
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 					if p == pow_s then
 						pow_s.ts = store.tick_ts
 					end
@@ -4648,7 +4648,7 @@ function scripts.tower_ignis_altar_ablaze_elemental.update(this, store, script)
 				if p.changed then
 					p.changed = nil
 
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end

@@ -4620,11 +4620,11 @@ tt.ui.click_rect = r(-24, -1, 48, 27)
 tt = E:register_t("redspin_soldier_lvl4", "greenfin_soldier_lvl1")
 E:add_comps(tt, "powers", "timed_attacks")
 tt.powers.chosen = E:clone_c("power")
-tt.powers.chosen.on_power_upgrade = function(this, power_name, pow)
+tt.powers.chosen.on_power_upgrade = function(this, power_name, pow, store)
 	this.render.sprites[4].hidden = nil
 end
 tt.powers.tentangles = E:clone_c("power")
-tt.powers.tentangles.on_power_upgrade = function(this, power_name, pow)
+tt.powers.tentangles.on_power_upgrade = function(this, power_name, pow, store)
 	this.render.sprites[1].hidden = nil
 	this.timed_attacks.list[1].level = pow.level
 	this.timed_attacks.list[1].cooldown = this.timed_attacks.list[1].cooldowns[pow.level]
@@ -5342,7 +5342,7 @@ tt.reinforcement.fade = nil
 tt.reinforcement.fade_out = true
 tt.powers.better_crew = nil
 tt.powers.goblin_launcher = E:clone_c("power")
-tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow)
+tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow, store)
 	if pow.level == 2 then
 		this.reinforcement.duration = 7
 	end
@@ -5518,12 +5518,13 @@ tt.idle_flip.cooldown_max = 8
 tt.idle_flip.isKR4 = true
 tt.idle_flip.reset_flip_x = true
 tt.powers.goblin_launcher = E:clone_c("power")
-tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow)
+tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow, store)
 	this.idle_flip.last_animation = "idleGoblin"
 	this.attacks.list[1].animation = "shootGoblin"
+	U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop)
 end
 tt.powers.better_crew = E:clone_c("power")
-tt.powers.better_crew.on_power_upgrade = function(this, power_name, pow)
+tt.powers.better_crew.on_power_upgrade = function(this, power_name, pow, store)
 	this.attacks.list[2].bullet = "bomb_skill_goblin_lvl2"
 end
 tt.render.sprites[1].prefix = "goblin_bomber"

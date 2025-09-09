@@ -2676,7 +2676,7 @@ local function soldier_regen(store, this)
 	end
 end
 
-local function soldier_power_upgrade(this, power_name)
+local function soldier_power_upgrade(this, power_name, store)
 	local pn = power_name
 	local pow = this.powers and this.powers[pn]
 
@@ -2829,7 +2829,7 @@ local function soldier_power_upgrade(this, power_name)
 	local fn = pow.on_power_upgrade
 
 	if fn then
-		fn(this, power_name, pow)
+		fn(this, power_name, pow, store)
 	end
 end
 
@@ -5296,7 +5296,7 @@ local function y_soldier_timed_attacks(store, this)
 	return interrupted, status
 end
 
-local function shooter_power_upgrade(this, power_name)
+local function shooter_power_upgrade(this, power_name, store)
 	local pn = power_name
 	local pow = this.powers and this.powers[pn]
 
@@ -5321,7 +5321,7 @@ local function shooter_power_upgrade(this, power_name)
 
 	local fn = pow.on_power_upgrade
 	if fn then
-		fn(this, power_name, pow)
+		fn(this, power_name, pow, store)
 	end
 end
 

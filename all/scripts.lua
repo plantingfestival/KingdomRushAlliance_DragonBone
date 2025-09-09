@@ -1236,7 +1236,7 @@ function scripts.soldier_reinforcement.insert(this, store, script)
 		for pn, p in pairs(this.powers) do
 			p.level = math.min(this.unit.level, p.max_level)
 			for i = 1, p.level do
-				SU.soldier_power_upgrade(this, pn)
+				SU.soldier_power_upgrade(this, pn, store)
 			end
 		end
 	end
@@ -1429,7 +1429,7 @@ function scripts.soldier_barrack.insert(this, store, script)
 	if this.powers then
 		for pn, p in pairs(this.powers) do
 			for i = 1, p.level do
-				SU.soldier_power_upgrade(this, pn)
+				SU.soldier_power_upgrade(this, pn, store)
 			end
 		end
 	end
@@ -1500,7 +1500,7 @@ function scripts.soldier_barrack.update(this, store, script)
 				if p.changed then
 					p.changed = nil
 
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
