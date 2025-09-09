@@ -3,7 +3,9 @@ stages:
 
 pull_from_github:
   stage: sync
-  image: alpine/git
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache git openssh
   variables:
     GIT_STRATEGY: clone
   script:
