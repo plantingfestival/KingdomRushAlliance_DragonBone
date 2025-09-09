@@ -11,7 +11,7 @@ pull_from_github:
 
     - git config --global user.email "plantingfestival@126.com"
 
-    - git remote add github https://$GITHUB_USERNAME:$GITHUB_PAT@github.com/plantingfestival/KingdomRushAlliance-.git
+    - git remote add github https://$GITHUB_USERNAME:$GITHUB_PAT@github.com/plantingfestival/KingdomRushAlliance_DragonBone.git
 
     - git fetch github --prune --tags
 
