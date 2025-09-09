@@ -4882,6 +4882,7 @@ tt.render.sprites[1].z = Z_FLYING_HEROES
 tt.attacks.list[1] = CC("bullet_attack")
 tt.attacks.list[1].skill = "range_unit"
 tt.attacks.list[1].basic_attack = true
+tt.attacks.list[1].ignore_flip_x = true
 tt.attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.attacks.list[1].animation = "shoot"
 tt.attacks.list[1].bullet = "deep_devils_reef_tower_storm_bolt"

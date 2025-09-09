@@ -2106,6 +2106,13 @@ function scripts.soldier_from_enemy.update(this, store, script)
 				end
 			end
 
+			if this.timed_attacks then
+				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				if brk then
+					goto label_43_1
+				end
+			end
+
 			if this.ranged and this.ranged.range_while_blocking then
 				brk, sta = SU.y_soldier_ranged_attacks(store, this)
 				if brk then
@@ -2228,7 +2235,13 @@ function scripts.mod_possession.update(this, store, script)
 		target.melee.range = 60
 		for _, a in pairs(target.melee.attacks) do
 			a._original_vis_bans = a.vis_bans
-			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
+			end
 			if a.hit_times and not a.animations then
 				a.animations = {
 					nil,
@@ -2242,12 +2255,30 @@ function scripts.mod_possession.update(this, store, script)
 	if target.ranged and target.ranged.attacks then
 		for _, a in pairs(target.ranged.attacks) do
 			a._original_vis_bans = a.vis_bans
-			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
+			end
 			if a.animations and not a.shoot_times then
 				a.shoot_times = {
 					a.shoot_time
 				}
 				a.loops = 1
+			end
+		end
+	end
+	if target.timed_attacks and target.timed_attacks.list then
+		for _, a in pairs(target.timed_attacks.list) do
+			a._original_vis_bans = a.vis_bans
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
 			end
 		end
 	end

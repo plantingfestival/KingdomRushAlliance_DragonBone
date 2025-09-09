@@ -53,7 +53,7 @@ max_bullets：类型integer。代表单次发射的投射物数量。
 same_target：类型boolean。代表单次发射的多个投射物是否瞄准同一个目标。true代表是，false代表尽可能瞄准不同的目标。需配合max_bullets使用。
 use_center：类型boolean。代表是否瞄准中间的子路径。true代表是。
 animation_prepare：类型string。代表施放技能前的准备动画。
-loops：类型integer。代表连续施放技能的次数。
+loops：类型integer。代表连续施放技能的次数。设置了precharge时无效。
 animation_start：类型string。代表开始施放技能的动画。需配合loops使用。
 animation_loop：类型string。代表连续施放技能时的动画。需配合loops使用。
 animation_end：类型string。代表施放技能结束的动画。需配合loops使用。
@@ -61,6 +61,12 @@ shoot_times：类型table。代表连续施法时，单次施法的发射时间�
 每次施法，都是在0.1秒后射出第一发投射物，然后在0.2秒后射出第二发投射物。
 different_targets：类型boolean。代表连续施法时的单次发射，是否尽可能瞄准不同的目标。true代表是。
 target_id：类型integer。代表目标的id。如果这个键值对存在，会忽略所有条件，直接向目标施法。
+set_bullet_vis_bans：类型boolean。代表是否让投射物的bullet.vis_bans与技能的vis_bans（attack.vis_bans）一致。
+precharge：类型table。作用是预充投射物。
+precharge.bullet_start_offset：类型table。格式{v(1, 1), ...}。代表预充的投射物相对entity的初始位置。
+precharge.animation：类型string。代表预充的动画。可为nil。
+precharge.sound：类型string。代表预充的声音。可为nil。
+precharge.sound_args：类型table。格式为{delay = 0.1, ...}。代表预充的音效的参数。需配合precharge.sound使用。
 
 向施法者附近的路径节点射出投射物的技能range_at_path，专用键值对：
 bullet：类型string。代表投射物的名字。
@@ -72,6 +78,7 @@ range：类型number。代表探测模式为根据距离探测目标，探测半
 min_nodes：类型integer。代表施法时相对施法者位置，可选取的最小节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。
 max_nodes：类型integer。代表施法时相对施法者位置，可选取的最大节点。可为负数，负数时靠近路径起点，正数时靠近路径终点。
 max_bullets：类型integer。代表发射的投射物数量。
+set_bullet_vis_bans：类型boolean。代表是否让投射物的bullet.vis_bans与技能的vis_bans（attack.vis_bans）一致。
 
 在施法者附近添加entity的技能spawner，专用键值对：
 min_targets：类型integer。代表探测到的目标数量大于等于min_targets时，才会施放技能。

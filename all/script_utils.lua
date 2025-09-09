@@ -1700,7 +1700,8 @@ local function soldier_pick_ranged_target_and_attack(store, this)
 		elseif a.sync_animation and not this.render.sprites[1].sync_flag then
 			-- block empty
 		else
-			local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, F_FLYING, a.search_type)
+			local target, _, pred_pos = U.find_enemy_with_search_type(store.entities, this.pos, a.min_range, a.max_range, a.node_prediction, a.vis_flags, a.vis_bans, a.filter_fn, 
+			F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 
 			if target then
 				-- if pred_pos then
@@ -4519,15 +4520,15 @@ local function find_target_with_search_type(store, this, a, origin, prediction_t
 	local target, targets, pred_pos
 	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
 		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets)
+		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 	elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 	else
 		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets)
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 
-		prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets)
+		prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 		if targets then
 			if soldiers then
 				table.merge(targets, soldiers)
@@ -4689,7 +4690,7 @@ local function entity_casts_range_unit(store, this, a)
 	end
 
 	local function shoot_bullets(af, ai)
-		local max_bullets = a.max_bullets or 1
+		local max_bullets = a.precharge and #a.precharge.stored_bullets or a.max_bullets or 1
 		for i = 1, max_bullets do
 			if i > 1 and not a.same_target then
 				target = targets[km.zmod(i, #targets)]
@@ -4710,10 +4711,15 @@ local function entity_casts_range_unit(store, this, a)
 					tpi, tspi, tni = unpack(nodes[1])
 				end
 			end
-			local bullet = E:create_entity(a.bullet)
-			bullet.bullet.source_id = this.id
-			bullet.bullet.level = a.level
-			bullet.bullet.shot_index = i
+			local bullet
+			if not a.precharge then
+				local bullet = E:create_entity(a.bullet)
+				bullet.bullet.source_id = this.id
+				bullet.bullet.level = a.level
+				bullet.bullet.shot_index = i
+			else
+				bullet = a.precharge.stored_bullets[i]
+			end
 			if a.use_center then
 				tspi = 1
 				if tni then
@@ -4727,7 +4733,7 @@ local function entity_casts_range_unit(store, this, a)
 			end
 			if bullet.spawn_pos_offset then
 				bullet.pos = target.pos
-			else
+			elseif not a.precharge then
 				local start_offset = a.bullet_start_offset[ai]
 				local flipSign = af and -1 or 1
 				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
@@ -4792,7 +4798,45 @@ local function entity_casts_range_unit(store, this, a)
 				bullet.bullet.hit_payload = hit_payload
 			end
 			set_bullet_damage_factor(this, bullet.bullet)
-			queue_insert(store, bullet)
+			if a.set_bullet_vis_bans then
+				bullet.bullet.vis_bans = a.vis_bans
+			end
+			if not a.precharge then
+				queue_insert(store, bullet)
+			end
+		end
+	end
+
+	local function precharge(index)
+		local bullet = E:create_entity(a.bullet)
+		bullet.bullet.source_id = this.id
+		bullet.bullet.level = a.level
+		bullet.bullet.shot_index = index
+		bullet.bullet.start_offset = V.vclone(a.precharge.bullet_start_offset[index])
+		bullet.pos = this.pos
+
+		table.insert(a.precharge.stored_bullets, bullet)
+		queue_insert(store, bullet)
+		a.ts = store.tick_ts
+		S:queue(a.precharge.sound, a.precharge.sound_args)
+		if a.precharge.animation then
+			U.animation_start(this, a.precharge.animation, nil, store.tick_ts)
+			if y_entity_animation_wait(this) then
+				return true
+			end
+		end
+		return false
+	end
+
+	if a.precharge then
+		if not a.precharge.stored_bullets then
+			a.precharge.stored_bullets = {}
+		end
+		local stored_bullets = #a.precharge.stored_bullets
+		if stored_bullets < #a.precharge.bullet_start_offset then
+			if precharge(stored_bullets + 1) then
+				return true
+			end
 		end
 	end
 
@@ -4824,7 +4868,7 @@ local function entity_casts_range_unit(store, this, a)
 			end
 		end
 
-		if a.loops and a.loops > 0 then
+		if not a.precharge and a.loops and a.loops > 0 then
 			if y_entity_animation_play(this, a.animation_start, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true
 			end
@@ -4880,6 +4924,7 @@ local function entity_casts_range_unit(store, this, a)
 		end
 		return true
 	end
+
 	return false, A_NO_TARGET
 end
 
@@ -4990,6 +5035,9 @@ local function entity_casts_range_at_path(store, this, a)
 				bullet.bullet.hit_payload = hit_payload
 			end
 			set_bullet_damage_factor(this, bullet.bullet)
+			if a.set_bullet_vis_bans then
+				bullet.bullet.vis_bans = a.vis_bans
+			end
 			queue_insert(store, bullet)
 		end
 		a.ts = start_ts

@@ -362,6 +362,155 @@ return {
 							}
 						},
 						{
+							propagate_on_click = true,
+							propagate_on_down = true,
+							propagate_on_up = true,
+							class = "KView",
+							id = "hero_portraits_view",
+							base_scale = BS_BOTTOM,
+							shown_y = ctx.sh - SF.bl,
+							hidden_y = ctx.sh + 170,
+							pos = v(SF.lb, ctx.sh - SF.bl),
+							anchor = v(18, 136),
+							size = v(0, 0),
+							colors = {
+								background = {
+									0,
+									0,
+									255,
+									100
+								}
+							},
+							scale = v(0.98, 0.98),
+							children = {
+								{
+									id = "hero_portrait_1",
+									class = "HeroPortrait",
+									template_name = "game_gui_hero_portrait",
+									hidden = true,
+									pos = v(0, 0)
+								},
+								{
+									id = "hero_portrait_2",
+									class = "HeroPortrait",
+									template_name = "game_gui_hero_portrait",
+									hidden = true,
+									pos = v(110, 0)
+								}
+							}
+						},
+						{
+							class = "KView",
+							propagate_on_up = true,
+							propagate_on_down = true,
+							propagate_on_click = true,
+							id = "powers_view",
+							base_scale = BS_BOTTOM,
+							pos = v(0, ctx.sh - SF.bl),
+							anchor = v(0, 87),
+							hidden_y = ctx.sh + 170,
+							shown_y = ctx.sh - SF.bl,
+							size = v(0, 0),
+							colors = {
+								background = {
+									100,
+									0,
+									0,
+									100
+								}
+							},
+							scale = v(0.98, 0.98),
+							children = {
+								{
+									i18n_desc = "POWER_SUMMON_DESCRIPTION",
+									image_name = "power_portrait_reinforcement_0001",
+									template_name = "game_gui_power_button",
+									power_id = 1,
+									can_be_unlocked = true,
+									class = "PowerButton",
+									id = "power_button_1",
+									i18n_title = "POWER_SUMMON_NAME",
+									pos = v(0, 0)
+								},
+								{
+									i18n_desc = "POWER_HERO_DESCRIPTION",
+									i18n_title = "POWER_HERO_NAME",
+									class = "PowerButton",
+									template_name = "game_gui_power_button",
+									id = "power_button_2",
+									image_name = "portraits_power_hero_0001",
+									power_id = 2,
+									pos = v(98, 0)
+								},
+								{
+									i18n_desc = "POWER_HERO_DESCRIPTION",
+									i18n_title = "POWER_HERO_NAME",
+									class = "PowerButton",
+									template_name = "game_gui_power_button",
+									id = "power_button_3",
+									image_name = "portraits_power_hero_0001",
+									power_id = 3,
+									pos = v(196, 0)
+								}
+							}
+						},
+						{
+							class = "KView",
+							propagate_on_up = true,
+							propagate_on_down = true,
+							propagate_on_click = true,
+							hidden = false,
+							id = "bag_view",
+							base_scale = v(BS_BOTTOM.x, BS_BOTTOM.y),
+							pos = v(ctx.sw - SF.rb, ctx.sh - SF.br),
+							anchor = v(302, 117),
+							shown_y = ctx.sh - SF.br,
+							size = v(0, 0),
+							hidden_y = ctx.sh + 170,
+							children = {
+								{
+									item_id = 1,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_1",
+									pos = v(-98, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 2,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_2",
+									pos = v(98, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 3,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_3",
+									pos = v(0, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 4,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_4",
+									pos = v(-196, 0),
+									anchor = v(0, 0)
+								},
+								{
+									item_id = 5,
+									class = "BagItemButton",
+									template_name = "game_gui_bag_item_button",
+									id = "bag_item_5",
+									pos = v(196, 0),
+									anchor = v(0, 0)
+								}
+							}
+						},
+						{
 							class = "KView",
 							propagate_on_click = true,
 							propagate_on_down = true,
@@ -1347,155 +1496,6 @@ return {
 											}
 										}
 									}
-								}
-							}
-						},
-						{
-							propagate_on_click = true,
-							propagate_on_down = true,
-							propagate_on_up = true,
-							class = "KView",
-							id = "hero_portraits_view",
-							base_scale = BS_BOTTOM,
-							shown_y = ctx.sh - SF.bl,
-							hidden_y = ctx.sh + 170,
-							pos = v(SF.lb, ctx.sh - SF.bl),
-							anchor = v(18, 136),
-							size = v(0, 0),
-							colors = {
-								background = {
-									0,
-									0,
-									255,
-									100
-								}
-							},
-							scale = v(0.98, 0.98),
-							children = {
-								{
-									id = "hero_portrait_1",
-									class = "HeroPortrait",
-									template_name = "game_gui_hero_portrait",
-									hidden = true,
-									pos = v(0, 0)
-								},
-								{
-									id = "hero_portrait_2",
-									class = "HeroPortrait",
-									template_name = "game_gui_hero_portrait",
-									hidden = true,
-									pos = v(110, 0)
-								}
-							}
-						},
-						{
-							class = "KView",
-							propagate_on_up = true,
-							propagate_on_down = true,
-							propagate_on_click = true,
-							id = "powers_view",
-							base_scale = BS_BOTTOM,
-							pos = v(0, ctx.sh - SF.bl),
-							anchor = v(0, 87),
-							hidden_y = ctx.sh + 170,
-							shown_y = ctx.sh - SF.bl,
-							size = v(0, 0),
-							colors = {
-								background = {
-									100,
-									0,
-									0,
-									100
-								}
-							},
-							scale = v(0.98, 0.98),
-							children = {
-								{
-									i18n_desc = "POWER_SUMMON_DESCRIPTION",
-									image_name = "power_portrait_reinforcement_0001",
-									template_name = "game_gui_power_button",
-									power_id = 1,
-									can_be_unlocked = true,
-									class = "PowerButton",
-									id = "power_button_1",
-									i18n_title = "POWER_SUMMON_NAME",
-									pos = v(0, 0)
-								},
-								{
-									i18n_desc = "POWER_HERO_DESCRIPTION",
-									i18n_title = "POWER_HERO_NAME",
-									class = "PowerButton",
-									template_name = "game_gui_power_button",
-									id = "power_button_2",
-									image_name = "portraits_power_hero_0001",
-									power_id = 2,
-									pos = v(98, 0)
-								},
-								{
-									i18n_desc = "POWER_HERO_DESCRIPTION",
-									i18n_title = "POWER_HERO_NAME",
-									class = "PowerButton",
-									template_name = "game_gui_power_button",
-									id = "power_button_3",
-									image_name = "portraits_power_hero_0001",
-									power_id = 3,
-									pos = v(196, 0)
-								}
-							}
-						},
-						{
-							class = "KView",
-							propagate_on_up = true,
-							propagate_on_down = true,
-							propagate_on_click = true,
-							hidden = false,
-							id = "bag_view",
-							base_scale = v(BS_BOTTOM.x, BS_BOTTOM.y),
-							pos = v(ctx.sw - SF.rb, ctx.sh - SF.br),
-							anchor = v(302, 117),
-							shown_y = ctx.sh - SF.br,
-							size = v(0, 0),
-							hidden_y = ctx.sh + 170,
-							children = {
-								{
-									item_id = 1,
-									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
-									id = "bag_item_1",
-									pos = v(-98, 0),
-									anchor = v(0, 0)
-								},
-								{
-									item_id = 2,
-									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
-									id = "bag_item_2",
-									pos = v(98, 0),
-									anchor = v(0, 0)
-								},
-								{
-									item_id = 3,
-									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
-									id = "bag_item_3",
-									pos = v(0, 0),
-									anchor = v(0, 0)
-								},
-								{
-									item_id = 4,
-									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
-									id = "bag_item_4",
-									pos = v(-196, 0),
-									anchor = v(0, 0)
-								},
-								{
-									item_id = 5,
-									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
-									id = "bag_item_5",
-									pos = v(196, 0),
-									anchor = v(0, 0)
 								}
 							}
 						},
