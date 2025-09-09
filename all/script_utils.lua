@@ -4713,7 +4713,7 @@ local function entity_casts_range_unit(store, this, a)
 			end
 			local bullet
 			if not a.precharge then
-				local bullet = E:create_entity(a.bullet)
+				bullet = E:create_entity(a.bullet)
 				bullet.bullet.source_id = this.id
 				bullet.bullet.level = a.level
 				bullet.bullet.shot_index = i
