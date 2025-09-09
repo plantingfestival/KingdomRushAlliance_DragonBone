@@ -1,0 +1,22 @@
+stages:
+	- sync
+
+# Job: 从 GitHub 拉取更新并推送到 GitLab
+pull_from_github:
+	stage: sync
+	image: alpine/git  # 使用轻量 Git 镜像
+	script:
+		# 配置 Git 用户信息（可选）
+		- git config --global user.name "plantingfestival"
+		- git config --global user.email "plantingfestival@126.com"
+
+		# 添加 GitHub 远程仓库，使用 HTTPS + PAT
+		- git remote add github https://$GITHUB_USERNAME:$GITHUB_PAT@github.com/plantingfestival/KingdomRushAlliance-.git || true
+
+		# 拉取 GitHub 所有分支和标签
+		- git fetch github --prune
+
+		# 推送到 GitLab，保持镜像（分支和标签）
+		- git push origin --mirror
+	only:
+		- schedules
