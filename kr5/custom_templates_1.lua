@@ -5518,6 +5518,10 @@ tt.idle_flip.cooldown_max = 8
 tt.idle_flip.isKR4 = true
 tt.idle_flip.reset_flip_x = true
 tt.powers.goblin_launcher = E:clone_c("power")
+tt.powers.goblin_launcher.on_power_upgrade = function(this, power_name, pow)
+	this.idle_flip.last_animation = "idleGoblin"
+	this.attacks.list[1].animation = "shootGoblin"
+end
 tt.powers.better_crew = E:clone_c("power")
 tt.powers.better_crew.on_power_upgrade = function(this, power_name, pow)
 	this.attacks.list[2].bullet = "bomb_skill_goblin_lvl2"
