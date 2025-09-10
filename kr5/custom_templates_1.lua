@@ -715,7 +715,7 @@ tt.render.sprites[1].fps = 15
 
 tt = E:register_t("controller_aura_cold_fury_ice", "controller_spawn_on_path")
 tt.exclude_first_position = true
-tt.nodes_between_objects = 3
+tt.nodes_between_objects = 2
 tt.delay_between_objects = 0.12
 tt.max_entities = 4
 tt.entity_name = "aura_cold_fury_ice_with_delay"
@@ -740,6 +740,7 @@ tt.aura.cycle_time = 0.2
 tt.aura.radius = 40
 tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
 tt.aura.vis_flags = bor(F_MOD, F_AREA)
+tt.aura.use_mod_offset = nil
 tt.tween.props[1].name = "alpha"
 tt.tween.props[1].keys = {
 	{
