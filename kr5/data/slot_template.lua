@@ -315,10 +315,12 @@ return {
 			hero_dragon = 1,
 			hero_wizard = 1,
 			hero_dwarf = 1,
+			hero_vampiress = 1,
 			hero_elves_archer = 1,
 			hero_faustus = 1,
 			hero_phoenix = 1,
 			hero_veznan = 1,
+			hero_bolverk = 1,
 			hero_jack_o_lantern = 1
 		}
 	},

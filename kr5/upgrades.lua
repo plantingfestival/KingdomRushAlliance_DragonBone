@@ -1186,11 +1186,13 @@ function upgrades:patch_templates(max_level)
 		"hero_wizard",
 		"hero_dragon",
 		"hero_dwarf",
+		"hero_vampiress",
 		"hero_elves_archer",
 		"hero_arivan",
 		"hero_phoenix",
 		"hero_veznan",
 		"hero_faustus",
+		"hero_bolverk",
 		"hero_jack_o_lantern",
 	}
 
