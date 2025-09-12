@@ -1287,6 +1287,16 @@ return {
 			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
+	item_hero_vampiress = {
+		files = {
+			"Vampiress-01c.ogg",
+			"Vampiress-02c.ogg",
+			"Vampiress-03c.ogg",
+			"Vampiress-Death02c.ogg",
+			"halloween_vampiress_drainlifeOP2.ogg",
+			"halloween_vampiress_areaattack_confilo.ogg",
+		}
+	},
 	item_hero_elves_archer = {
 		files = {
 			"Eridan_Death-01a.ogg",
@@ -1361,6 +1371,17 @@ return {
 			"kro_sfx_phoenix_ringoffire_explode_v2.ogg",
 			"kro_sfx_phoenix_immolation_v2.ogg",
 			"kro_sfx_phoenix_fireegg_v3.ogg",
+		}
+	},
+	item_hero_bolverk = {
+		files = {
+			"VarlBerserker_confirm-01a.ogg",
+			"VarlBerserker_confirm-02a.ogg",
+			"VarlBerserker_confirm-03c.ogg",
+			"VarlBerserker_confirm-04a.ogg",
+			"VarlBerserker_death-01c.ogg",
+			"kro_sfx_bolverk_doubleslash[gore].ogg",
+			"kro_sfx_bolverk_bearcry[op1].ogg",
 		}
 	},
 	item_hero_jack_o_lantern = {

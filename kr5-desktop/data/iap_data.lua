@@ -200,6 +200,15 @@ return {
 				255
 			}
 		},
+		hero_vampiress = {
+			cost = 500,
+			color_bg = {
+				228,
+				88,
+				83,
+				255
+			}
+		},
 		hero_voodoo_witch = {
 			cost = 500,
 			color_bg = {
@@ -278,6 +287,15 @@ return {
 				115,
 				59,
 				178,
+				255
+			}
+		},
+		hero_bolverk = {
+			cost = 500,
+			color_bg = {
+				93,
+				15,
+				16,
 				255
 			}
 		},

@@ -12853,10 +12853,12 @@ tt.melee.attacks[4].hit_offset = v(22, 0)
 tt.melee.attacks[4].hit_time = fts(17)
 tt.melee.attacks[4].sound = "HeroReinforcementJump"
 tt.melee.attacks[4].xp_from_skill = "fissure"
-tt = RT("hero_bolverk", "stage_hero")
 
+tt = E:register_t("controller_item_hero_bolverk", "controller_item_hero")
+tt.entity = "hero_bolverk"
+
+tt = RT("hero_bolverk", "hero5")
 AC(tt, "melee", "timed_attacks")
-
 tt.health.armor = 0
 tt.health.dead_lifetime = 15
 tt.health.hp_max = 545
@@ -12864,11 +12866,12 @@ tt.health_bar.offset = v(0, 43)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.level = 10
 tt.hero.xp = 115300
+tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.info.fn = kr3_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0018"
+-- tt.info.hero_portrait = "hero_portraits_0018"
 tt.info.i18n_key = "HERO_ELVES_BOLVERK"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0018"
+tt.info.portrait = "portraits_hero_0129"
 tt.main_script.insert = kr3_scripts.hero_bolverk.insert
 tt.main_script.update = kr3_scripts.hero_bolverk.update
 tt.motion.max_speed = 3 * FPS
@@ -12888,31 +12891,33 @@ tt.sound_events.insert = "ElvesHeroBolverkTauntIntro"
 tt.sound_events.respawn = "ElvesHeroBolverkTauntIntro"
 tt.unit.hit_offset = v(0, 20)
 tt.unit.mod_offset = v(0, 20)
-tt.melee.attacks[1].damage_max = 41
-tt.melee.attacks[1].damage_min = 27
+tt.melee.attacks[1].damage_max = 81
+tt.melee.attacks[1].damage_min = 54
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].xp_gain_factor = 0
 tt.melee.attacks[2] = CC("melee_attack")
 tt.melee.attacks[2].animation = "hit"
-tt.melee.attacks[2].cooldown = 20
-tt.melee.attacks[2].damage_max = 100
-tt.melee.attacks[2].damage_min = 80
+tt.melee.attacks[2].cooldown = 9
+tt.melee.attacks[2].damage_max = 300
+tt.melee.attacks[2].damage_min = 240
+tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].hit_time = fts(9)
 tt.melee.attacks[2].sound = "ElvesHeroBolverkSlash"
-tt.melee.attacks[2].vis_bans = F_BOSS
+-- tt.melee.attacks[2].vis_bans = F_BOSS
 tt.melee.range = 55
 tt.timed_attacks.list[1] = CC("mod_attack")
 tt.timed_attacks.list[1].animation = "scream"
 tt.timed_attacks.list[1].cooldown = 10
-tt.timed_attacks.list[1].max_range = 60
+tt.timed_attacks.list[1].max_range = 120
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].min_count = 3
 tt.timed_attacks.list[1].mod = "mod_bolverk_scream"
 tt.timed_attacks.list[1].hit_time = fts(9)
 tt.timed_attacks.list[1].sound = "ElvesHeroBolverkCry"
 tt.timed_attacks.list[1].vis_flags = F_RANGED
-tt.timed_attacks.list[1].vis_bans = bor(F_FLYING, F_BOSS)
+-- tt.timed_attacks.list[1].vis_bans = bor(F_FLYING, F_BOSS)
+
 tt = E:register_t("enemy_gnoll_reaver", "enemy")
 
 E:add_comps(tt, "melee")

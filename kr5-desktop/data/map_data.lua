@@ -598,10 +598,12 @@ return {
 		"hero_voodoo_witch",
 		"hero_wizard",
 		"hero_dwarf",
+		"hero_vampiress",
 		"hero_elves_archer",
 		"hero_faustus",
 		"hero_phoenix",
 		"hero_veznan",
+		"hero_bolverk",
 		"hero_jack_o_lantern",
 	},
 	item_order_censored_cn = {

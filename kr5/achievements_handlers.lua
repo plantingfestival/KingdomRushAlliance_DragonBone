@@ -240,9 +240,9 @@ function ah:h_entity_killed(entity, damage)
 					self.A:inc_check("LIGHTNING_KILL")
 				end
 
-				if s.template_name == "hero_bolverk" then
-					self.A:inc_check("KILL_BOLJARK")
-				end
+				-- if s.template_name == "hero_bolverk" then
+				-- 	self.A:inc_check("KILL_BOLJARK")
+				-- end
 
 				-- if string.starts(s.template_name, "arrow_soldier_re_") then
 				-- 	self.A:inc_check("GREEN_ARROW")
