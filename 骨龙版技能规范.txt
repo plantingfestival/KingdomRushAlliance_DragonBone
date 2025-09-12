@@ -105,6 +105,7 @@ delay：类型number。代表完成施法前摇后，entity出现的延迟时间
 is_area_damage：类型boolean。表示是否为范围伤害。
 damage_radius：类型number。表示伤害的范围，需要是范围伤害才可用。
 min_count：类型number。表示附近有一定数量的敌人才发动技能。
+node_limit：类型number。表示距离防守点小于设定的键值时不会发动技能。
 jump_type：类型number。表示突进类型。可选的值如下：
 U.jump_type = {
 	parabola = 1,-- 抛物线

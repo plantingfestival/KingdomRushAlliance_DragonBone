@@ -3199,7 +3199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_417"] = {
+	["Stage_17"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			2729,
@@ -4424,7 +4424,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0001"] = {
+	["stage_17_kermit0001"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4449,7 +4449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0002"] = {
+	["stage_17_kermit0002"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4474,7 +4474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0003"] = {
+	["stage_17_kermit0003"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4499,7 +4499,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0004"] = {
+	["stage_17_kermit0004"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4524,7 +4524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0005"] = {
+	["stage_17_kermit0005"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4549,7 +4549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0006"] = {
+	["stage_17_kermit0006"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4574,7 +4574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0007"] = {
+	["stage_17_kermit0007"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4599,7 +4599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0008"] = {
+	["stage_17_kermit0008"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4624,7 +4624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0009"] = {
+	["stage_17_kermit0009"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4649,7 +4649,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0010"] = {
+	["stage_17_kermit0010"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4674,7 +4674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0011"] = {
+	["stage_17_kermit0011"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4699,7 +4699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0012"] = {
+	["stage_17_kermit0012"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4724,7 +4724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0013"] = {
+	["stage_17_kermit0013"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4749,7 +4749,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0014"] = {
+	["stage_17_kermit0014"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4774,7 +4774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0015"] = {
+	["stage_17_kermit0015"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4799,7 +4799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0016"] = {
+	["stage_17_kermit0016"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4824,7 +4824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0017"] = {
+	["stage_17_kermit0017"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4849,7 +4849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0018"] = {
+	["stage_17_kermit0018"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4874,7 +4874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0019"] = {
+	["stage_17_kermit0019"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4899,7 +4899,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0020"] = {
+	["stage_17_kermit0020"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4924,7 +4924,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0021"] = {
+	["stage_17_kermit0021"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4949,7 +4949,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0022"] = {
+	["stage_17_kermit0022"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4974,7 +4974,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0023"] = {
+	["stage_17_kermit0023"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -4999,7 +4999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0024"] = {
+	["stage_17_kermit0024"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5024,7 +5024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0025"] = {
+	["stage_17_kermit0025"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5049,7 +5049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0026"] = {
+	["stage_17_kermit0026"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5074,7 +5074,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0027"] = {
+	["stage_17_kermit0027"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5099,7 +5099,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0028"] = {
+	["stage_17_kermit0028"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5124,7 +5124,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0029"] = {
+	["stage_17_kermit0029"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5149,7 +5149,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0030"] = {
+	["stage_17_kermit0030"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5174,7 +5174,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0031"] = {
+	["stage_17_kermit0031"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5199,7 +5199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0032"] = {
+	["stage_17_kermit0032"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5224,7 +5224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0033"] = {
+	["stage_17_kermit0033"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5249,7 +5249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0034"] = {
+	["stage_17_kermit0034"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5274,7 +5274,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0035"] = {
+	["stage_17_kermit0035"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5299,7 +5299,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0036"] = {
+	["stage_17_kermit0036"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5324,7 +5324,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0037"] = {
+	["stage_17_kermit0037"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5349,7 +5349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0038"] = {
+	["stage_17_kermit0038"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5374,7 +5374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0039"] = {
+	["stage_17_kermit0039"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5399,7 +5399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0040"] = {
+	["stage_17_kermit0040"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5424,7 +5424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0041"] = {
+	["stage_17_kermit0041"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5449,7 +5449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0042"] = {
+	["stage_17_kermit0042"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5474,7 +5474,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0043"] = {
+	["stage_17_kermit0043"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5499,7 +5499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0044"] = {
+	["stage_17_kermit0044"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5524,7 +5524,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0045"] = {
+	["stage_17_kermit0045"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5549,7 +5549,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0046"] = {
+	["stage_17_kermit0046"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5574,7 +5574,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0047"] = {
+	["stage_17_kermit0047"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5599,7 +5599,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0048"] = {
+	["stage_17_kermit0048"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5624,7 +5624,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0049"] = {
+	["stage_17_kermit0049"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5649,7 +5649,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0050"] = {
+	["stage_17_kermit0050"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5674,7 +5674,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0051"] = {
+	["stage_17_kermit0051"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5699,7 +5699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0052"] = {
+	["stage_17_kermit0052"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5724,7 +5724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0053"] = {
+	["stage_17_kermit0053"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5749,7 +5749,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0054"] = {
+	["stage_17_kermit0054"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5774,7 +5774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0055"] = {
+	["stage_17_kermit0055"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5799,7 +5799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0056"] = {
+	["stage_17_kermit0056"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5824,7 +5824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0057"] = {
+	["stage_17_kermit0057"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5849,7 +5849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0058"] = {
+	["stage_17_kermit0058"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5874,7 +5874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0059"] = {
+	["stage_17_kermit0059"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5899,7 +5899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0060"] = {
+	["stage_17_kermit0060"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5924,7 +5924,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0061"] = {
+	["stage_17_kermit0061"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5949,7 +5949,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0062"] = {
+	["stage_17_kermit0062"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5974,7 +5974,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0063"] = {
+	["stage_17_kermit0063"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -5999,7 +5999,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0064"] = {
+	["stage_17_kermit0064"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6024,7 +6024,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0065"] = {
+	["stage_17_kermit0065"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6049,7 +6049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0066"] = {
+	["stage_17_kermit0066"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6074,7 +6074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit0067"] = {
+	["stage_17_kermit0067"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6099,7 +6099,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0068"] = {
+	["stage_17_kermit0068"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6124,7 +6124,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0069"] = {
+	["stage_17_kermit0069"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6149,7 +6149,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0070"] = {
+	["stage_17_kermit0070"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6174,7 +6174,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0071"] = {
+	["stage_17_kermit0071"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6199,7 +6199,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0072"] = {
+	["stage_17_kermit0072"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6224,7 +6224,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit0073"] = {
+	["stage_17_kermit0073"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6249,7 +6249,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0001"] = {
+	["stage_17_kermit_0001"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6274,7 +6274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0002"] = {
+	["stage_17_kermit_0002"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6299,7 +6299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0003"] = {
+	["stage_17_kermit_0003"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6324,7 +6324,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0004"] = {
+	["stage_17_kermit_0004"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6349,7 +6349,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0005"] = {
+	["stage_17_kermit_0005"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6374,7 +6374,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0006"] = {
+	["stage_17_kermit_0006"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6399,7 +6399,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0007"] = {
+	["stage_17_kermit_0007"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6424,7 +6424,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0008"] = {
+	["stage_17_kermit_0008"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6449,7 +6449,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0009"] = {
+	["stage_17_kermit_0009"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6474,7 +6474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0010"] = {
+	["stage_17_kermit_0010"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6499,7 +6499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0011"] = {
+	["stage_17_kermit_0011"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6524,7 +6524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0012"] = {
+	["stage_17_kermit_0012"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6549,7 +6549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0013"] = {
+	["stage_17_kermit_0013"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6574,7 +6574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0014"] = {
+	["stage_17_kermit_0014"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6599,7 +6599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0015"] = {
+	["stage_17_kermit_0015"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6624,7 +6624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0016"] = {
+	["stage_17_kermit_0016"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6649,7 +6649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0017"] = {
+	["stage_17_kermit_0017"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6674,7 +6674,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0018"] = {
+	["stage_17_kermit_0018"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6699,7 +6699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0019"] = {
+	["stage_17_kermit_0019"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6724,7 +6724,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0020"] = {
+	["stage_17_kermit_0020"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6749,7 +6749,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0021"] = {
+	["stage_17_kermit_0021"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6774,7 +6774,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0022"] = {
+	["stage_17_kermit_0022"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6799,7 +6799,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0023"] = {
+	["stage_17_kermit_0023"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6824,7 +6824,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0024"] = {
+	["stage_17_kermit_0024"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6849,7 +6849,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0025"] = {
+	["stage_17_kermit_0025"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6874,7 +6874,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0026"] = {
+	["stage_17_kermit_0026"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6899,7 +6899,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0027"] = {
+	["stage_17_kermit_0027"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6924,7 +6924,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0028"] = {
+	["stage_17_kermit_0028"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6949,7 +6949,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0029"] = {
+	["stage_17_kermit_0029"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6974,7 +6974,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0030"] = {
+	["stage_17_kermit_0030"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -6999,7 +6999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0031"] = {
+	["stage_17_kermit_0031"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7024,7 +7024,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0032"] = {
+	["stage_17_kermit_0032"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7049,7 +7049,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0033"] = {
+	["stage_17_kermit_0033"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7074,7 +7074,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0034"] = {
+	["stage_17_kermit_0034"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7099,7 +7099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0035"] = {
+	["stage_17_kermit_0035"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7124,7 +7124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0036"] = {
+	["stage_17_kermit_0036"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7149,7 +7149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0037"] = {
+	["stage_17_kermit_0037"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7174,7 +7174,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0038"] = {
+	["stage_17_kermit_0038"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7199,7 +7199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0039"] = {
+	["stage_17_kermit_0039"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7224,7 +7224,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0040"] = {
+	["stage_17_kermit_0040"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7249,7 +7249,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0041"] = {
+	["stage_17_kermit_0041"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7274,7 +7274,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0042"] = {
+	["stage_17_kermit_0042"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7299,7 +7299,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0043"] = {
+	["stage_17_kermit_0043"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7324,7 +7324,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0044"] = {
+	["stage_17_kermit_0044"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7349,7 +7349,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0045"] = {
+	["stage_17_kermit_0045"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7374,7 +7374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0046"] = {
+	["stage_17_kermit_0046"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7399,7 +7399,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0047"] = {
+	["stage_17_kermit_0047"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7424,7 +7424,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0048"] = {
+	["stage_17_kermit_0048"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7449,7 +7449,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0049"] = {
+	["stage_17_kermit_0049"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7474,7 +7474,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0050"] = {
+	["stage_17_kermit_0050"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7499,7 +7499,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0051"] = {
+	["stage_17_kermit_0051"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7524,7 +7524,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0052"] = {
+	["stage_17_kermit_0052"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7549,7 +7549,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0053"] = {
+	["stage_17_kermit_0053"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7574,7 +7574,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0054"] = {
+	["stage_17_kermit_0054"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7599,7 +7599,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0055"] = {
+	["stage_17_kermit_0055"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7624,7 +7624,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0056"] = {
+	["stage_17_kermit_0056"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7649,7 +7649,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0057"] = {
+	["stage_17_kermit_0057"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7674,7 +7674,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0058"] = {
+	["stage_17_kermit_0058"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7699,7 +7699,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0059"] = {
+	["stage_17_kermit_0059"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7724,7 +7724,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0060"] = {
+	["stage_17_kermit_0060"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7749,7 +7749,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0061"] = {
+	["stage_17_kermit_0061"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7774,7 +7774,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0062"] = {
+	["stage_17_kermit_0062"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7799,7 +7799,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0063"] = {
+	["stage_17_kermit_0063"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7824,7 +7824,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0064"] = {
+	["stage_17_kermit_0064"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7849,7 +7849,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0065"] = {
+	["stage_17_kermit_0065"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7874,7 +7874,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0066"] = {
+	["stage_17_kermit_0066"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7899,7 +7899,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17_kermit_0067"] = {
+	["stage_17_kermit_0067"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7924,7 +7924,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0068"] = {
+	["stage_17_kermit_0068"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7949,7 +7949,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0069"] = {
+	["stage_17_kermit_0069"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7974,7 +7974,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0070"] = {
+	["stage_17_kermit_0070"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -7999,7 +7999,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0071"] = {
+	["stage_17_kermit_0071"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -8024,7 +8024,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0072"] = {
+	["stage_17_kermit_0072"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -8049,7 +8049,7 @@ return {
 		alias = {},
 		textureRotated = true
 	},
-	["Stage_17_kermit_0073"] = {
+	["stage_17_kermit_0073"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			56,
@@ -11124,7 +11124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["terrains_holders_0405"] = {
+	["terrain_sapos_build"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			188,
@@ -11149,7 +11149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["terrains_holders_0405_flag"] = {
+	["terrain_sapos_flag"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			188,

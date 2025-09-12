@@ -5288,6 +5288,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
 
+			S:queue(a.sounds[2], a.sounds_args[2])
 			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
 			coroutine.yield()
 		end
@@ -5299,6 +5300,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_linear(store.tick_ts - a.ts, from, speed)
 
+			S:queue(a.sounds[2], a.sounds_args[2])
 			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
 
 			coroutine.yield()
@@ -5312,7 +5314,17 @@ local function entity_casts_jump_target(store, this, a)
 
 		local trigger_target, trigger_targets, trigger_target_pos = get_target()
 
-		if not trigger_target or #trigger_targets < a.min_count and P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni) < a.node_limit then
+		if a.target_id then
+			trigger_target = store.entities[a.target_id]
+			if not trigger_target then
+				return false, A_NO_TARGET
+			end
+			local offset = U.get_prediction_offset(trigger_target, a.cast_time + (a.flight_time or 0))
+			trigger_target_pos = V.v(trigger_target.pos.x + offset.x, trigger_target.pos.y + offset.y)
+			trigger_targets = { trigger_target }
+		end
+
+		if not trigger_target or #trigger_targets < a.min_count or P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni) < a.node_limit then
 			return false, A_NO_TARGET
 		end
 
@@ -5333,6 +5345,7 @@ local function entity_casts_jump_target(store, this, a)
 			to, from = t[i - 1].from, t[i - 1].to
 		end
 
+		S:queue(a.sounds[1], a.sounds_args[1])
 		U.y_animation_play(this, a.animations[1], s.flip_x, store.tick_ts, 1)
 		a.ts = store.tick_ts
 
@@ -5356,6 +5369,7 @@ local function entity_casts_jump_target(store, this, a)
 			end
 		end
 
+		S:queue(a.sounds[3], a.sounds_args[3])
 		U.y_animation_play(this, a.animations[3], s.flip_x, store.tick_ts, 1)
 		
 		if this.nav_path then

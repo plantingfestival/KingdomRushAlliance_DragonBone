@@ -2982,12 +2982,11 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_417_0001 = {
-		a_name = "room_levelselect_level_select_thumbs-417.png",
-		defer = true,
+	room_levelselect_level_select_thumbs-417 = {
+		a_name = "room_levelselect_level_select_thumbs-417.dds",
 		size = {
-			2729,
-			1536
+			2731,
+			1538
 		},
 		trim = {
 			0,
@@ -2996,14 +2995,14 @@ return {
 			0
 		},
 		a_size = {
-			2016,
-			1064
+			2733,
+			1540
 		},
 		f_quad = {
-			0,
-			0,
-			2016,
-			1064
+			1,
+			1,
+			2731,
+			1538
 		},
 		alias = {}
 	},

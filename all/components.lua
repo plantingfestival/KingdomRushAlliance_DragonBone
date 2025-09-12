@@ -819,6 +819,8 @@ jump_attack.animations = {
 	"loop",
 	"jumpOut"
 }
+jump_attack.sounds_args = nil
+jump_attack.sounds = nil
 jump_attack.min_range = 0
 jump_attack.max_range = nil
 jump_attack.cooldown = nil
@@ -826,7 +828,6 @@ jump_attack.chance = 1
 jump_attack.vis_flags = 0
 jump_attack.vis_bans = 0
 jump_attack.ts = 0
-jump_attack.sounds = nil
 jump_attack.g = -1 / (fts(1) * fts(1))
 jump_attack.flight_time = fts(20)
 jump_attack.speed = nil
