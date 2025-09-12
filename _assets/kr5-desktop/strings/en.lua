@@ -3196,6 +3196,8 @@ return {
 	LEVEL_321_TITLE = "321. Dwaraman Gates",
 	LEVEL_322_HISTORY = "General! The once proud and powerful dwarves have been exterminated by a powerful demon released by mistake. We must avenge our former allies and defeat Godieth the Infernal before he reaches the surface and unleashes a reign of terror.",
 	LEVEL_322_TITLE = "322. Tainted Pit",
+	LEVEL_417_HISTORY = "Our recent victory seems to have given everyone the impression that they can try to take what is now ours. The Anurians, an ancient race that fled the mainland a long time ago, decided to make a comeback. They control potent crystals crucial to my future plans. Seize that land and teach them that they should never have ceased hiding!",
+	LEVEL_417_TITLE = "417. MAGINICIA SHORES",
 	LEVEL_426_HISTORY = "I knew that this moment would come. The greatest ghosts of Valardul want me to pay off my debts with them. But their claims are too high! I will not give them half of the living beings of my realms! They are coming with their most elite creatures. Fortunately, I took my precautions.",
 	LEVEL_426_TITLE = "426. BACK TO THE ROTTEN FOREST",
 	LEVEL_427_HISTORY = "General, now we will enter the deep swamps of the Rotten Forest, the most dangerous place in Valardul. It’s our only option because if we evade it, we are vulnerable to an attack from the rear. Beware of the powerful undead that will confront us in those swamps.",
@@ -3257,5 +3259,32 @@ return {
 	ENEMY_CORROSIVE_SOUL_NAME = "Corrosive Soul",
 	ENEMY_HAUNTED_SKELETON_NAME = "Haunted Skeleton",
 	ENEMY_LICH_NAME = "Lich",
-
+	ENEMY_ANURIAN_CHASER_NAME = "Anurian Chaser",
+	ENEMY_ANURIAN_CHASER_NOTIFICATION_BOTTOM = "- plunges into units\n- fast speed",
+	ENEMY_ANURIAN_CHASER_NOTIFICATION_DESCRIPTION = "These agile hunters have a strong set of legs they use to jump over their enemies, causing a devastating impact.",
+	ENEMY_ANURIAN_CHASER_NOTIFICATION_TITLE = "Anurian Chaser",
+	ENEMY_ANURIAN_INFUSER_NAME = "Anurian Infuser",
+	ENEMY_ANURIAN_INFUSER_NOTIFICATION_BOTTOM = "- infuses allies with magic\n- medium magic resistance",
+	ENEMY_ANURIAN_INFUSER_NOTIFICATION_DESCRIPTION = "Apprentices of Anurian thaumaturgy. They're capable of infusing their allies with their magical essence with powerful effects.",
+	ENEMY_ANURIAN_INFUSER_NOTIFICATION_TITLE = "Anurian Infuser",
+	ENEMY_ANURIAN_WARDEN_NAME = "Anurian Warden",
+	ENEMY_ANURIAN_WARDEN_NOTIFICATION_BOTTOM = "- gains a shield when infused with magic\n- high armor"
+	ENEMY_ANURIAN_WARDEN_NOTIFICATION_DESCRIPTION = "Warriors who trained all their life to protect the mages of the order. Brutal and resilient, they will try to stop any menace no matter the cost.",
+	ENEMY_ANURIAN_WARDEN_NOTIFICATION_TITLE = "Anurian Warden",
+	ENEMY_CRYSTAL_AMPHIPTERE_NAME = "Crystal Amphiptere",
+	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_BOTTOM = "- gains a burst of speed when infused with magic\n- flying"
+	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_DESCRIPTION = "Magical dragons that evolved to fuse with crystals. They are susceptible to magic and use that energy to reach peak speeds when flying.",
+	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_TITLE = "Crystal Amphiptere",
+	ENEMY_ANURIAN_CHANNELER_NAME = "Anurian Channeler",
+	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_BOTTOM = "- buffs allies around him\n- medium magic resistance"
+	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_DESCRIPTION = "Apprentices of Anurian thaumaturgy. They radiate a powerful magical aura that empowers allies close to them.",
+	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_TITLE = "Anurian Channeler",
+	ENEMY_ANURIAN_ERUDITE_NAME = "Anurian Erudite",
+	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_BOTTOM = "- bonus damage when close to channelers\n- stores magic bolts\n- high magic resistance"
+	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_DESCRIPTION = "Great and wise, these Anurians need great reserves of magic and sap the power of their apprentices to cast powerful spells.",
+	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_TITLE = "Anurian Erudite",
+	ENEMY_CRYSTAL_DEMOLISHER_NAME = "Crystal Demolisher",
+	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_BOTTOM = "- bonus armor when close to channelers\n- deals area damage when it dies\n- very slow speed",
+	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_DESCRIPTION = "A golem constructed with magical crystals all over its body. If they collect enough magic, they become unstoppable creatures of mass destruction.",
+	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_TITLE = "Crystal Demolisher",
 }

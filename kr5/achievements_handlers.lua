@@ -808,4 +808,8 @@ function ah:h_head_stage27(entity)
 	self.A:got("SHUT_YOUR_MOUTH")
 end
 
+function ah:h_kermit_stage417(entity)
+	self.A:got("KERMIT")
+end
+
 return ah

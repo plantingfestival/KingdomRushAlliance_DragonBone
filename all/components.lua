@@ -811,6 +811,50 @@ local timed_attacks = E:register_c("timed_attacks")
 
 timed_attacks.list = {}
 
+local jump_attack = E:register_c("jump_attack")
+jump_attack.skill = "jump_target"
+jump_attack.type = "jump"
+jump_attack.animations = {
+	"jumpIn",
+	"loop",
+	"jumpOut"
+}
+jump_attack.min_range = 0
+jump_attack.max_range = nil
+jump_attack.cooldown = nil
+jump_attack.chance = 1
+jump_attack.vis_flags = 0
+jump_attack.vis_bans = 0
+jump_attack.ts = 0
+jump_attack.sounds = nil
+jump_attack.g = -1 / (fts(1) * fts(1))
+jump_attack.flight_time = fts(20)
+jump_attack.speed = nil
+jump_attack.need_back = false
+jump_attack.backed_attack = false
+jump_attack.loops = 1
+jump_attack.hit_distance = 22
+jump_attack.jump_type = 1
+jump_attack.level = 0
+jump_attack.damage_max = nil
+jump_attack.damage_min = nil
+jump_attack.damage_factor = 1
+jump_attack.damage_type = DAMAGE_PHYSICAL
+jump_attack.mod = nil
+jump_attack.mods = nil
+jump_attack.node_limit = 0
+jump_attack.hit_payload = nil
+jump_attack.is_area_damage = false
+jump_attack.use_range = "damage_radius"
+jump_attack.damage_radius = nil
+jump_attack.min_count = 1
+jump_attack.xp_gain_factor = nil
+jump_attack.hit_fx = nil
+jump_attack.hit_fx_offset = nil
+jump_attack.hit_decal = nil
+jump_attack.hit_decal_offset = nil
+jump_attack.filter_fn = nil
+
 local timed_actions = E:register_c("timed_actions")
 
 timed_actions.list = {}

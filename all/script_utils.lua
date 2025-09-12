@@ -507,6 +507,17 @@ local function parabola_y(phase, from_y, to_y, max_y)
 	return y + offset
 end
 
+local function initial_linear_speed(from, to, time)
+	return V.v((to.x - from.x) / time, (to.y - from.y) / time)
+end
+
+local function position_in_linear(t, from, speed)
+	local x = speed.x * t + from.x
+	local y = speed.y * t + from.y
+
+	return x, y
+end
+
 local function soldier_interrupted(this)
 	return this.nav_rally.new or this.health.dead or this.unit.is_stunned
 end
@@ -4481,7 +4492,27 @@ local function entity_idle(store, this, force_ts)
 	end
 end
 
-local function get_attack_filter_function(attack)
+--- 获得实体最近节点
+--- @param this table
+--- @param entity table 实体
+--- @return this_on_node number, entity_on_node number
+local function get_entity_nearest_nodes(this, entity)
+	local find_spi, find_pi
+
+	if this.nav_path then
+		find_pi = { this.nav_path.pi }
+		find_spi = { this.nav_path.spi }
+	else
+		find_spi = { 1, 2, 3 }
+	end
+
+	local this_on_node = P:nearest_nodes(this.pos.x, this.pos.y, find_pi, find_spi, true)[1][3]
+	local entity_on_node = P:nearest_nodes(entity.pos.x, entity.pos.y, find_pi, find_spi, true)[1][3]
+
+	return this_on_node, entity_on_node
+end
+
+local function get_attack_filter_function(attack, this)
 	local filter_fn
 	if attack.allowed_templates then
 		filter_fn = function(e)
@@ -4494,12 +4525,37 @@ local function get_attack_filter_function(attack)
 	else
 		filter_fn = attack.filter_fn
 	end
+
+	if attack.search_stream == U.search_stream.only_upstream then
+		local last_fn = filter_fn
+		filter_fn = function(e)
+			local this_on_node, e_on_node = get_entity_nearest_nodes(this, e)
+
+			if last_fn then
+				return last_fn(e) and e_on_node > this_on_node
+			else
+				return e_on_node > this_on_node
+			end
+		end
+	elseif attack.search_stream == U.search_stream.only_downstream then
+		local last_fn = filter_fn
+		filter_fn = function(e)
+			local this_on_node, e_on_node = get_entity_nearest_nodes(this, e)
+
+			if last_fn then
+				return last_fn(e) and e_on_node < this_on_node
+			else
+				return e_on_node < this_on_node
+			end
+		end
+	end
+
 	return filter_fn
 end
 
 local function find_targets_in_range(store, this, a, origin, filter_fn)
 	if not filter_fn then
-		filter_fn = get_attack_filter_function(a)
+		filter_fn = get_attack_filter_function(a, this)
 	end
 	if not origin then
 		origin = get_entity_range_origin(this)
@@ -4509,23 +4565,32 @@ local function find_targets_in_range(store, this, a, origin, filter_fn)
 	return U.find_targets_in_range(store.entities, origin, 0, a.range, vis_flags, vis_bans, filter_fn)
 end
 
-local function find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
+local function find_target_with_search_type(store, this, a, origin, prediction_time, use_range, filter_fn)
 	if not filter_fn then
-		filter_fn = get_attack_filter_function(a)
+		filter_fn = get_attack_filter_function(a, this)
 	end
 	if not origin then
 		origin = get_entity_range_origin(this)
 	end
 	prediction_time = prediction_time or a.node_prediction or 0
+	local min_range, max_range
+	if type(use_range) == "table" then
+		min_range = a[use_range[1]]
+		max_range = a[use_range[1]]
+	else
+		min_range = (use_range or not a.min_range) and 0 or a.min_range
+		max_range = use_range and a[use_range] or a.max_range
+	end
+
 	local target, targets, pred_pos
 	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
+		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, min_range, max_range, prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 	elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, min_range, max_range, prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 	else
-		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
+		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, min_range, max_range, prediction_time, 
 		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
 		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 
 		prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
@@ -4541,7 +4606,7 @@ local function find_target_with_search_type(store, this, a, origin, prediction_t
 end
 
 local function entity_casts_spawner(store, this, a)
-	local filter_fn = get_attack_filter_function(a)
+	local filter_fn = get_attack_filter_function(a, this)
 	local targets
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
@@ -4665,7 +4730,7 @@ local function entity_casts_range_unit(store, this, a)
 	local filter_fn, origin
 
 	local function get_target(prediction_time)
-		return find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
+		return find_target_with_search_type(store, this, a, origin, prediction_time, nil, filter_fn)
 	end
 
 	local function check_target(prediction_time)
@@ -4851,7 +4916,7 @@ local function entity_casts_range_unit(store, this, a)
 		goto label_start
 	end
 
-	filter_fn = get_attack_filter_function(a)
+	filter_fn = get_attack_filter_function(a, this)
 	origin = get_entity_range_origin(this)
 	target, targets, pred_pos = get_target(a.cast_time + prediction_time)
 
@@ -4929,7 +4994,7 @@ local function entity_casts_range_unit(store, this, a)
 end
 
 local function entity_casts_range_at_path(store, this, a)
-	local filter_fn = get_attack_filter_function(a)
+	local filter_fn = get_attack_filter_function(a, this)
 	local targets
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
@@ -5068,9 +5133,9 @@ local function entity_casts_object_on_target(store, this, a)
 		goto label_start
 	end
 
-	filter_fn = get_attack_filter_function(a)
+	filter_fn = get_attack_filter_function(a, this)
 	origin = get_entity_range_origin(this)
-	target, targets, pred_pos =	find_target_with_search_type(store, this, a, origin, a.cast_time + prediction_time, filter_fn)
+	target, targets, pred_pos =	find_target_with_search_type(store, this, a, origin, a.cast_time + prediction_time, nil, filter_fn)
 
 	::label_start::
 	if target then
@@ -5177,6 +5242,204 @@ local function entity_casts_object_on_target(store, this, a)
 	return false, A_NO_TARGET
 end
 
+local function entity_casts_jump_target(store, this, a)
+	local hit = false
+	local s = this.render.sprites[1]
+	local t = {}
+
+	local function get_target(prediction_time, use_range)
+		return find_target_with_search_type(store, this, a, origin, prediction_time, use_range, filter_fn)
+	end
+
+	local function create_damage(t)
+		queue_damage(store, create_attack_damage(a, t.id, this.id))
+
+		if a.mod or a.mods then
+			local mods = a.mods or {
+				a.mod
+			}
+
+			for _, mod_name in pairs(mods) do
+				local mod = E:create_entity(mod_name)
+
+				mod.modifier.source_id = this.id
+				mod.modifier.target_id = t.id
+				mod.modifier.level = a.level
+
+				queue_insert(store, mod_name)
+			end
+		end
+
+		if a.hit_fx then
+			local fx = E:create_entity(a.hit_fx)
+
+			fx.pos = V.vclone(t.pos)
+			fx.render.sprites[1].ts = store.tick_ts
+
+			queue_insert(store, fx)
+		end
+
+		hit = true
+	end
+
+	local function parabola(speed, to, from)
+		speed = initial_parabola_speed(from, to, a.flight_time, a.g) or speed
+
+		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
+			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
+
+			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
+			coroutine.yield()
+		end
+	end
+
+	local function linear(speed, to, from)
+		speed = initial_linear_speed(from, to, a.flight_time) or speed
+
+		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
+			this.pos.x, this.pos.y = position_in_linear(store.tick_ts - a.ts, from, speed)
+
+			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
+
+			coroutine.yield()
+		end
+	end
+
+	local function jump(i)
+		if i > a.loops then
+			return false, A_DONE
+		end
+
+		local trigger_target, trigger_targets, trigger_target_pos = get_target()
+
+		if not trigger_target or #trigger_targets < a.min_count and P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni) < a.node_limit then
+			return false, A_NO_TARGET
+		end
+
+		if trigger_target.unit and trigger_target.unit.hit_offset and not a.ignore_hit_offset then
+			trigger_target_pos.x, trigger_target_pos.y = trigger_target_pos.x + trigger_target.unit.hit_offset.x,
+				trigger_target_pos.y + trigger_target.unit.hit_offset.y
+		end
+
+		t[i] = {
+			from = V.vclone(this.pos),
+			to = V.vclone(trigger_target_pos)
+		}
+
+		local from, to = t[i].from, t[i].to
+		local is_backed = i % 2 == 0
+
+		if a.need_back and is_backed then
+			to, from = t[i - 1].from, t[i - 1].to
+		end
+
+		U.y_animation_play(this, a.animations[1], s.flip_x, store.tick_ts, 1)
+		a.ts = store.tick_ts
+
+		if a.jump_type == U.jump_type.parabola then
+			parabola(a.speed, to, from)
+		elseif a.jump_type == U.jump_type.linear then
+			linear(a.speed, to, from)
+		end
+
+		if (a.need_back and is_backed and a.backed_attack) or not is_backed then
+			local target, targets, target_pos = get_target(nil, a.use_range)
+
+			if a.is_area_damage and targets then
+				for _, t in pairs(targets) do
+					create_damage(t)
+				end
+			elseif target then
+				create_damage(target)
+			else
+				hit = false
+			end
+		end
+
+		U.y_animation_play(this, a.animations[3], s.flip_x, store.tick_ts, 1)
+		
+		if this.nav_path then
+			local nearest_path = P:nearest_nodes(to.x, to.y, nil, {1, 2, 3}, true)[1]
+
+			if nearest_path then
+				this.nav_path.pi = nearest_path[1]
+				this.nav_path.spi = nearest_path[2]
+				this.nav_path.ni = nearest_path[3]
+			end
+		elseif this.nav_rally then
+			this.nav_rally = V.vclone(to)
+		end
+
+		if not hit then
+			if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+				if a.miss_fx_water then
+					local water_fx = E:create_entity(a.miss_fx_water)
+
+					water_fx.pos.x, water_fx.pos.y = to.x, to.y
+					water_fx.render.sprites[1].ts = store.tick_ts
+
+					queue_insert(store, water_fx)
+				end
+			else
+				if a.miss_fx then
+					local fx = E:create_entity(a.miss_fx)
+
+					fx.pos.x, fx.pos.y = to.x, to.y
+					fx.render.sprites[1].ts = store.tick_ts
+
+					queue_insert(store, fx)
+				end
+
+				if a.miss_decal then
+					local decal = E:create_entity("decal_tween")
+
+					decal.pos = V.vclone(to)
+					decal.tween.props[1].keys = {
+						{
+							0,
+							255
+						},
+						{
+							2.1,
+							0
+						}
+					}
+					decal.render.sprites[1].ts = store.tick_ts
+					decal.render.sprites[1].name = a.miss_decal
+					decal.render.sprites[1].animated = false
+					decal.render.sprites[1].z = Z_DECALS
+
+					decal.render.sprites[1].r = -math.pi / 2 * (1 + (0.5 - math.random()) * 0.35)
+
+					if a.miss_decal_anchor then
+						decal.render.sprites[1].anchor = a.miss_decal_anchor
+					end
+
+					queue_insert(store, decal)
+				end
+			end
+		end
+
+		if a.payload then
+			local p = E:create_entity(a.payload)
+
+			p.pos.x, p.pos.y = to.x, to.y
+			p.target_id = target.id
+			p.source_id = this.id
+
+			if p.aura then
+				p.aura.level = a.level
+			end
+
+			queue_insert(store, p)
+		end
+
+		return jump(i + 1)
+	end
+
+	return jump(1)
+end
+
 -- 返回的第一个参数，为true代表必须跳过entity之后的逻辑，为false代表可继续，为nil代表可跳可不跳。
 -- 返回的第二个参数，没有合适的目标时返回A_NO_TARGET，技能已施放时返回A_DONE。其他情况返回nil。
 local function entity_attacks(store, this, a)
@@ -5191,6 +5454,9 @@ local function entity_attacks(store, this, a)
 	end
 	if a.skill == "spawner" then
 		return entity_casts_spawner(store, this, a)
+	end
+	if a.skill == "jump_target" then
+		return entity_casts_jump_target(store, this, a)
 	end
 end
 
@@ -5441,6 +5707,8 @@ local SU = {
 	initial_parabola_speed = initial_parabola_speed,
 	position_in_parabola = position_in_parabola,
 	parabola_y = parabola_y,
+	initial_linear_speed = initial_linear_speed,
+	position_in_linear = position_in_linear,
 	y_hero_wait = y_soldier_wait,
 	y_soldier_wait = y_soldier_wait,
 	y_hero_animation_wait = y_soldier_animation_wait,
@@ -5538,6 +5806,7 @@ local SU = {
 	entity_attacks = entity_attacks,
 	shooter_power_upgrade = shooter_power_upgrade,
 	shooter_attacks = shooter_attacks,
+	entity_casts_jump_target = entity_casts_jump_target,
 }
 
 return SU

@@ -1738,8 +1738,8 @@ function sys.main_script:on_update(dt, ts, store)
 				end
 				if resume then
 					local success, error = coroutine.resume(s.co, e, store, s)
-					if coroutine.status(s.co) == "dead" or error ~= nil then
-						if error ~= nil then
+					if coroutine.status(s.co) == "dead" or (not success and error ~= nil) then
+						if not success and error ~= nil then
 							log.error("Error running coro. id:%s template:%s trace:%s", e.id, e.template_name, debug.traceback(s.co, error))
 						end
 	
@@ -1778,8 +1778,8 @@ function sys.main_script:on_update(dt, ts, store)
 			if s.co then
 				local success, error = coroutine.resume(s.co, e, store, s)
 
-				if coroutine.status(s.co) == "dead" or error ~= nil then
-					if error ~= nil then
+				if coroutine.status(s.co) == "dead" or (not success and error ~= nil) then
+					if not success and error ~= nil then
 						log.error("Error running coro. id:%s template:%s trace:%s", e.id, e.template_name, debug.traceback(s.co, error))
 					end
 

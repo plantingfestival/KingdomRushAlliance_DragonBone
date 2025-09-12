@@ -2237,7 +2237,7 @@ function scripts.mod_possession.update(this, store, script)
 			a._original_vis_bans = a.vis_bans
 			if a.vis_bans then
 				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
-					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
+			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
 				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
 					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
 				end
@@ -2257,7 +2257,7 @@ function scripts.mod_possession.update(this, store, script)
 			a._original_vis_bans = a.vis_bans
 			if a.vis_bans then
 				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
-					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
 				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
 					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
 				end
@@ -6518,6 +6518,28 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 		insert_entity()
 	end
 	queue_remove(store, this)
+end
+
+scripts.kermit_stage417 = {}
+
+function scripts.kermit_stage417.update(this, store, script)
+	local s = this.render.sprites[1]
+	local c = this.click_play
+
+	while true do
+		if this.ui.clicked then
+			S:queue(c.clicked_sound)
+			U.y_animation_play(this, c.click_animation, nil, store.tick_ts, 1)
+
+			this.ui.clicked = nil
+
+			U.animation_start(this, c.idle_on_animation, nil, store.tick_ts, true)
+
+			signal.emit("h_kermit_stage417")
+		end
+
+		coroutine.yield()
+	end
 end
 
 return scripts

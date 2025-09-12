@@ -1048,3 +1048,196 @@ tt.sound_events.insert = "swamp_thing_bomb_shot"
 tt.sound_events.hit = "swamp_thing_bomb_explosion"
 tt.main_script.insert = scripts.enemy_bomb.insert
 tt.main_script.update = scripts.enemy_bomb.update
+
+tt = RT("enemy_chaser", "enemy")
+
+AC(tt, "melee", "timed_attacks")
+
+tt.enemy.gold = 16
+tt.enemy.lives_cost = 1
+tt.enemy.melee_slot = v(13, 0)
+tt.health.armor = 0.5
+tt.health.hp_max = 400
+tt.health_bar.offset = v(0, 25)
+tt.info.i18n_key = "ENEMY_ANURIAN_CHASER"
+tt.info.portrait = "gui_bottom_info_image_enemies_0099"
+tt.motion.max_speed = 26
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 20
+tt.melee.attacks[1].damage_min = 16
+tt.melee.attacks[1].hit_time = fts(18)
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].animation = "melee"
+tt.melee.attacks[1].vis_bans = bor(F_ENEMY, F_FLYING)
+tt.timed_attacks.list[1] = E:clone_c("jump_attack")
+tt.timed_attacks.list[1].skill = "jump_target"
+tt.timed_attacks.list[1].cooldown = 5
+tt.timed_attacks.list[1].damage_max = 60
+tt.timed_attacks.list[1].damage_min = 60
+tt.timed_attacks.list[1].max_range = 260
+tt.timed_attacks.list[1].min_range = 30
+tt.timed_attacks.list[1].is_area_damage = true
+tt.timed_attacks.list[1].damage_radius = 60
+tt.timed_attacks.list[1].flight_time = fts(18)
+tt.timed_attacks.list[1].min_count = 2
+tt.timed_attacks.list[1].node_limit = 80
+tt.timed_attacks.list[1].search_type = U.search_type.nearest
+tt.timed_attacks.list[1].search_stream = U.search_stream.only_upstream
+tt.timed_attacks.list[1].cast_time = fts(19)
+tt.timed_attacks.list[1].need_back = false
+tt.timed_attacks.list[1].backed_attack = true
+tt.timed_attacks.list[1].loops = 1
+tt.timed_attacks.list[1].animations = {
+	"jumpIn",
+	"loop",
+	"jumpOut"
+}
+tt.timed_attacks.list[1].sound = "frog_chaser_jump"
+tt.timed_attacks.list[1].hit_fx = "chaser_jump_hit_fx"
+tt.timed_attacks.list[1].vis_bans = bor(F_ENEMY, F_FLYING)
+tt.render.sprites[1].anchor = v(0.5, 0.176)
+tt.render.sprites[1].prefix = "chaser"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].animated = true
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "chaser_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.176)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 18)
+tt.unit.mod_offset = v(0, 4)
+tt.unit.head_offset = v(0, 40)
+tt.ui.click_rect = r(-30, -8, 45, 30)
+tt.vis.flags = bor(F_ENEMY)
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("chaser_jump_hit_fx", "fx")
+
+tt.render.sprites[1].prefix = "chaser_jump_hit_fx"
+tt.render.sprites[1].name = "run"
+tt.render.sprites[1].animated = true
+
+tt = E:register_t("enemy_warden", "enemy")
+
+AC(tt, "melee", "timed_attacks")
+
+tt.enemy.gold = 55
+tt.enemy.lives_cost = 1
+tt.enemy.melee_slot = v(8, 0)
+tt.health.armor = 0.8
+tt.health.hp_max = 600
+tt.health_bar.offset = v(0, 40)
+tt.info.i18n_key = "ENEMY_ANURIAN_WARDEN"
+tt.info.portrait = "gui_bottom_info_image_enemies_0102"
+tt.motion.max_speed = 25
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 50
+tt.melee.attacks[1].damage_min = 30
+tt.melee.attacks[1].hit_time = fts(13)
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].animation = "hit"
+tt.melee.attacks[1].vis_bans = bor(F_ENEMY, F_FLYING)
+tt.render.sprites[1].anchor = v(0.5, 0.176)
+tt.render.sprites[1].prefix = "warden"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].animated = true
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "warden_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.176)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 5)
+tt.unit.mod_offset = v(0, 20)
+tt.unit.head_offset = v(0, 40)
+tt.ui.click_rect = r(-23, 3, 45, 40)
+tt.vis.flags = bor(F_ENEMY)
+tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = E:register_t("enemy_amphiptere", "enemy")
+
+tt.enemy.gold = 7
+tt.health.hp_max = 70
+tt.health_bar.offset = v(0, 42)
+tt.info.i18n_key = "ENEMY_CRYSTAL_AMPHIPTERE"
+tt.info.portrait = "gui_bottom_info_image_enemies_0101"
+tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.update = scripts.enemy_passive.update
+tt.motion.max_speed = 60
+tt.render.sprites[1].prefix = "amphiptere"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].offset = v(0, 30)
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "amphiptere_shadow"
+tt.render.sprites[2].offset = v(0, 30)
+tt.ui.click_rect = r(-18, 10, 28, 30)
+tt.unit.can_explode = false
+tt.unit.can_disintegrate = true
+tt.unit.disintegrate_fx = "fx_enemy_desintegrate_air"
+tt.unit.hit_offset = v(0, 35)
+tt.unit.mod_offset = v(0, 30)
+tt.unit.hide_after_death = true
+tt.unit.show_blood_pool = false
+tt.vis.bans = bor(F_BLOCK, F_THORN, F_SKELETON)
+tt.vis.flags = bor(F_ENEMY, F_FLYING)
+
+tt = RT("enemy_crystal_demolisher", "enemy")
+
+AC(tt, "melee")
+
+tt.enemy.gold = 80
+tt.enemy.lives_cost = 2
+tt.enemy.melee_slot = v(12, 0)
+tt.health.armor = 0
+tt.health.hp_max = 1400
+tt.health_bar.offset = v(0, 60)
+tt.info.i18n_key = "ENEMY_CRYSTAL_DEMOLISHER"
+tt.info.portrait = "gui_bottom_info_image_enemies_0102"
+tt.motion.max_speed = 16
+tt.melee.attacks[1].cooldown = 2.5
+tt.melee.attacks[1].damage_max = 240
+tt.melee.attacks[1].damage_min = 130
+tt.melee.attacks[1].hit_time = fts(20)
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].animation = "attack"
+tt.melee.attacks[1].vis_bans = bor(F_ENEMY, F_FLYING)
+tt.render.sprites[1].anchor = v(0.5, 0.176)
+tt.render.sprites[1].prefix = "bullywags_golem"
+tt.render.sprites[1].angles.walk = {
+	"walk",
+	"walkUp",
+	"walkDown"
+}
+tt.render.sprites[1].animated = true
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].name = "bullywags_golem_shadow"
+tt.render.sprites[2].anchor = v(0.5, 0.176)
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.unit.blood_color = BLOOD_RED
+tt.unit.hit_offset = v(0, 10)
+tt.unit.mod_offset = v(0, 25)
+tt.unit.head_offset = v(0, 40)
+tt.ui.click_rect = r(-12, 12, 53, 65)
+tt.vis.flags = bor(F_ENEMY)
+tt.main_script.update = scripts.kr4_enemy_mixed.update

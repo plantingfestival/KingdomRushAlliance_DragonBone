@@ -15,6 +15,11 @@ require("constants")
 
 local U = {}
 
+U.jump_type = {
+	parabola = 1,
+	linear = 2,
+}
+
 function U.frandom(from, to)
 	return math.random() * (to - from) + from
 end
@@ -2060,6 +2065,11 @@ U.search_type = {
 	max_initial_health = 9,-- 最大生命值最多
 	min_initial_health = 10,-- 最大生命值最少
 	custom = 32,-- 自定义
+}
+
+U.search_stream = {
+	only_upstream = 1,
+	only_downstream = 2,
 }
 
 function U.find_enemy_with_search_type(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags, search_type, 

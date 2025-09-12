@@ -488,6 +488,12 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
+	sounds_stage417 = {
+		sounds = {
+			"MusicBattlePrep_417",
+			"MusicBattle_417",
+		}
+	},
 	sounds_stage426 = {
 		sounds = {
 			"MusicBattlePrep_426",
