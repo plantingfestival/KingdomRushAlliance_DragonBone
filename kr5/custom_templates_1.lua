@@ -5611,7 +5611,7 @@ tt = E:register_t("bomb_skill_goblin_lvl2", "bomb_skill_goblin_lvl1")
 tt.bullet.hit_payload = "pirates_soldier_goblin_launched_better_crew"
 
 tt = RT("kermit_stage417", "decal_click_play")
-tt.render.sprites[1].prefix = "Stage_17_kermit"
+tt.render.sprites[1].prefix = "stage_17_kermit"
 tt.click_play.idle_animation = "idle"
 tt.click_play.click_animation = "drink"
 tt.click_play.idle_on_animation = "foot"

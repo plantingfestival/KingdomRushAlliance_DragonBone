@@ -3199,7 +3199,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["Stage_17"] = {
+	["Stage_417"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			2729,
@@ -11099,7 +11099,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["terrain_sapos_0001"] = {
+	["terrains_0405"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			188,
@@ -11124,7 +11124,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["terrain_sapos_build"] = {
+	["terrains_holders_0405"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			188,
@@ -11149,7 +11149,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["terrain_sapos_flag"] = {
+	["terrains_holders_0405_flag"] = {
 		a_name = "go_stage417.dds",
 		size = {
 			188,
