@@ -1092,8 +1092,16 @@ tt.timed_attacks.list[1].animations = {
 	"loop",
 	"jumpOut"
 }
-tt.timed_attacks.list[1].sound = "frog_chaser_jump"
-tt.timed_attacks.list[1].hit_fx = "chaser_jump_hit_fx"
+tt.timed_attacks.list[1].sounds = {
+	"frog_chaser_jump",
+	nil,
+	nil
+}
+tt.timed_attacks.list[1].fx = {
+	"chaser_jump_hit_fx",
+	"chaser_jump_effect"
+}
+tt.timed_attacks.list[1].decal = "chaser_decal"
 tt.timed_attacks.list[1].vis_bans = bor(F_ENEMY, F_FLYING)
 tt.render.sprites[1].anchor = v(0.5, 0.176)
 tt.render.sprites[1].prefix = "chaser"
@@ -1118,13 +1126,44 @@ tt.ui.click_rect = r(-30, -8, 45, 30)
 tt.vis.flags = bor(F_ENEMY)
 tt.main_script.update = scripts.kr4_enemy_mixed.update
 
-tt = E:register_t("chaser_jump_hit_fx", "fx")
+tt = RT("chaser_jump_hit_fx", "fx")
 
 tt.render.sprites[1].prefix = "chaser_jump_hit_fx"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].animated = true
 
-tt = E:register_t("enemy_warden", "enemy")
+local tt = RT("chaser_decal", "decal_tween")
+
+tt.render.sprites[1].name = "chaser_decal"
+tt.render.sprites[1].animated = false
+tt.tween.props[1].keys = {
+	{
+		1,
+		255
+	},
+	{
+		2.5,
+		0
+	}
+}
+
+local tt = RT("chaser_jump_effect", "decal_tween")
+
+tt.render.sprites[1].name = "chaser_jump_effect"
+tt.render.sprites[1].animated = false
+tt.tween.props[1].name = "scale"
+tt.tween.props[1].keys = {
+	{
+		0,
+		vv(0.35)
+	},
+	{
+		0.15,
+		vv(1)
+	}
+}
+
+tt = RT("enemy_warden", "enemy")
 
 AC(tt, "melee", "timed_attacks")
 
@@ -1167,7 +1206,7 @@ tt.ui.click_rect = r(-23, 3, 45, 40)
 tt.vis.flags = bor(F_ENEMY)
 tt.main_script.update = scripts.kr4_enemy_mixed.update
 
-tt = E:register_t("enemy_amphiptere", "enemy")
+tt = RT("enemy_amphiptere", "enemy")
 
 tt.enemy.gold = 7
 tt.health.hp_max = 70

@@ -4414,6 +4414,90 @@ local function create_bullet_hit_decal(this, store, flip_x)
 	end
 end
 
+local function create_attack_fx_and_decal(store, a, to, flip_x, name)
+	local offset = name .. "_offset"
+	local flip = name .. "_flip"
+	local entities = type(a[name]) == "table" and a[name] or { a[name] }
+
+	for _, v in pairs(entities) do
+		local e = E:create_entity(v)
+
+		e.pos = V.vclone(to)
+		if a[offset] then
+			e.pos.x = e.pos.x + (flip_x and -1 or 1) * a[offset].x
+			e.pos.y = e.pos.y + a[offset].y
+		end
+
+		for _, s in pairs(e.render.sprites) do
+			if a[flip] then
+				s.flip_x = flip_x
+			end
+
+			s.ts = store.tick_ts
+		end
+
+		queue_insert(store, e)
+	end
+end
+
+local function check_create_fx_and_decal(store, a, to, flip_x, is_hit)
+	if is_hit then
+		if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+			if a.hit_fx_water then
+				create_attack_fx_and_decal(store, a, to, flip_x, "hit_fx_water")
+			end
+
+			if a.hit_decal_water then
+				create_attack_fx_and_decal(store, a, to, flip_x, "hit_decal_water")
+			end
+		else
+			if a.hit_fx then
+				create_attack_fx_and_decal(store, a, to, flip_x, "hit_fx")
+			end
+
+			if a.hit_decal then
+				create_attack_fx_and_decal(store, a, to, flip_x, "hit_decal")
+			end
+		end
+	else
+		if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+			if a.miss_fx_water then
+				create_attack_fx_and_decal(store, a, to, flip_x, "miss_fx_water")
+			end
+
+			if a.miss_decal_water then
+				create_attack_fx_and_decal(store, a, to, flip_x, "miss_decal_water")
+			end
+		else
+			if a.miss_fx then
+				create_attack_fx_and_decal(store, a, to, flip_x, "miss_fx")
+			end
+
+			if a.miss_decal then
+				create_attack_fx_and_decal(store, a, to, flip_x, "miss_decal")
+			end
+		end
+	end
+
+	if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+		if a.fx_water then
+			create_attack_fx_and_decal(store, a, to, flip_x, "fx_water")
+		end
+
+		if a.decal_water then
+			create_attack_fx_and_decal(store, a, to, flip_x, "decal_water")
+		end
+	else
+		if a.fx then
+			create_attack_fx_and_decal(store, a, to, flip_x, "fx")
+		end
+
+		if a.decal then
+			create_attack_fx_and_decal(store, a, to, flip_x, "decal")
+		end
+	end
+end
+
 local function hide_shadow(this, isHidden)
 	for _, sprite in pairs(this.render.sprites) do
 		if sprite.is_shadow then
@@ -5242,6 +5326,11 @@ local function entity_casts_object_on_target(store, this, a)
 	return false, A_NO_TARGET
 end
 
+--- 突进技能
+--- @param store table game.store
+--- @param this table 实体
+--- @param a table 攻击
+--- @return boolean 是否跳过此后的其他攻击, number 状态码
 local function entity_casts_jump_target(store, this, a)
 	local hit = false
 	local s = this.render.sprites[1]
@@ -5270,16 +5359,22 @@ local function entity_casts_jump_target(store, this, a)
 			end
 		end
 
-		if a.hit_fx then
-			local fx = E:create_entity(a.hit_fx)
+		hit = true
+	end
 
-			fx.pos = V.vclone(t.pos)
-			fx.render.sprites[1].ts = store.tick_ts
+	local function play_sound_and_ani(index, to, use_ts, times)
+		local use_ts = use_ts or store.tick_ts
+		local times = times or 1
 
-			queue_insert(store, fx)
+		if a.sounds_args then
+			sounds_args = a.sounds_args[index]
 		end
 
-		hit = true
+		S:queue(a.sounds[index], sounds_args)
+		local an, af = U.animation_name_facing_point(this, a.animations[index], to)
+		U.y_animation_play(this, an, af, use_ts, times)
+
+		return an, af
 	end
 
 	local function parabola(speed, to, from)
@@ -5288,8 +5383,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
 
-			S:queue(a.sounds[2], a.sounds_args[2])
-			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
+			play_sound_and_ani(2, to, s.ts)
 			coroutine.yield()
 		end
 	end
@@ -5300,8 +5394,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_linear(store.tick_ts - a.ts, from, speed)
 
-			S:queue(a.sounds[2], a.sounds_args[2])
-			U.y_animation_play(this, a.animations[2], s.flip_x, s.ts, 1)
+			play_sound_and_ani(2, to, s.ts)
 
 			coroutine.yield()
 		end
@@ -5324,13 +5417,19 @@ local function entity_casts_jump_target(store, this, a)
 			trigger_targets = { trigger_target }
 		end
 
-		if not trigger_target or #trigger_targets < a.min_count or P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni) < a.node_limit then
+		local node_limit = P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
+
+		if a.node_limit_offset then
+			node_limit = node_limit + a.node_limit_offset
+		end
+		
+		if not trigger_target or #trigger_targets < a.min_count or node_limit < a.node_limit then
 			return false, A_NO_TARGET
 		end
 
 		if trigger_target.unit and trigger_target.unit.hit_offset and not a.ignore_hit_offset then
-			trigger_target_pos.x, trigger_target_pos.y = trigger_target_pos.x + trigger_target.unit.hit_offset.x,
-				trigger_target_pos.y + trigger_target.unit.hit_offset.y
+			trigger_target_pos.x = trigger_target_pos.x + trigger_target.unit.hit_offset.x
+			trigger_target_pos.y = trigger_target_pos.y + trigger_target.unit.hit_offset.y
 		end
 
 		t[i] = {
@@ -5345,8 +5444,7 @@ local function entity_casts_jump_target(store, this, a)
 			to, from = t[i - 1].from, t[i - 1].to
 		end
 
-		S:queue(a.sounds[1], a.sounds_args[1])
-		U.y_animation_play(this, a.animations[1], s.flip_x, store.tick_ts, 1)
+		local an, af = play_sound_and_ani(1, to)
 		a.ts = store.tick_ts
 
 		if a.jump_type == U.jump_type.parabola then
@@ -5369,70 +5467,7 @@ local function entity_casts_jump_target(store, this, a)
 			end
 		end
 
-		S:queue(a.sounds[3], a.sounds_args[3])
-		U.y_animation_play(this, a.animations[3], s.flip_x, store.tick_ts, 1)
-		
-		if this.nav_path then
-			local nearest_path = P:nearest_nodes(to.x, to.y, nil, {1, 2, 3}, true)[1]
-
-			if nearest_path then
-				this.nav_path.pi = nearest_path[1]
-				this.nav_path.spi = nearest_path[2]
-				this.nav_path.ni = nearest_path[3]
-			end
-		elseif this.nav_rally then
-			this.nav_rally = V.vclone(to)
-		end
-
-		if not hit then
-			if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
-				if a.miss_fx_water then
-					local water_fx = E:create_entity(a.miss_fx_water)
-
-					water_fx.pos.x, water_fx.pos.y = to.x, to.y
-					water_fx.render.sprites[1].ts = store.tick_ts
-
-					queue_insert(store, water_fx)
-				end
-			else
-				if a.miss_fx then
-					local fx = E:create_entity(a.miss_fx)
-
-					fx.pos.x, fx.pos.y = to.x, to.y
-					fx.render.sprites[1].ts = store.tick_ts
-
-					queue_insert(store, fx)
-				end
-
-				if a.miss_decal then
-					local decal = E:create_entity("decal_tween")
-
-					decal.pos = V.vclone(to)
-					decal.tween.props[1].keys = {
-						{
-							0,
-							255
-						},
-						{
-							2.1,
-							0
-						}
-					}
-					decal.render.sprites[1].ts = store.tick_ts
-					decal.render.sprites[1].name = a.miss_decal
-					decal.render.sprites[1].animated = false
-					decal.render.sprites[1].z = Z_DECALS
-
-					decal.render.sprites[1].r = -math.pi / 2 * (1 + (0.5 - math.random()) * 0.35)
-
-					if a.miss_decal_anchor then
-						decal.render.sprites[1].anchor = a.miss_decal_anchor
-					end
-
-					queue_insert(store, decal)
-				end
-			end
-		end
+		check_create_fx_and_decal(store, a, to, af, hit)
 
 		if a.payload then
 			local p = E:create_entity(a.payload)
@@ -5446,6 +5481,21 @@ local function entity_casts_jump_target(store, this, a)
 			end
 
 			queue_insert(store, p)
+		end
+
+		play_sound_and_ani(3, to)
+		
+		-- 有集结点或集结路径则修改为落点附近节点
+		if this.nav_path then
+			local nearest_path = P:nearest_nodes(to.x, to.y, nil, {1, 2, 3}, true)[1]
+
+			if nearest_path then
+				this.nav_path.pi = nearest_path[1]
+				this.nav_path.spi = nearest_path[2]
+				this.nav_path.ni = nearest_path[3]
+			end
+		elseif this.nav_rally then
+			this.nav_rally = V.vclone(to)
 		end
 
 		return jump(i + 1)
@@ -5800,10 +5850,12 @@ local SU = {
 	check_unit_attack_available = check_unit_attack_available,
 	check_entity_attack_available = check_entity_attack_available,
 	check_attack_chance = check_attack_chance,
+	check_create_fx_and_decal = check_create_fx_and_decal,
 	make_bullet_damage_targets = make_bullet_damage_targets,
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
+	create_attack_fx_and_decal = create_attack_fx_and_decal,
 	hide_shadow = hide_shadow,
 	entity_interrupted = entity_interrupted,
 	y_entity_wait = y_entity_wait,

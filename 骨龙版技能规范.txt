@@ -48,6 +48,14 @@ U.search_stream = {
 	only_downstream = 2,-- 仅下游
 }
 
+fx：类型string或table。表示无论有没有击中的特效。
+decal：类型string或table。表示无论有没有击中的贴图。
+hit_fx：类型string或table。表示击中特效。
+hit_decal：类型string或table。表示击中后的贴图。
+miss_fx：类型string或table。表示未击中特效。
+miss_decal：类型string或table。表示未击中后的贴图。
+table类型用于指定多个特效或贴图。
+
 向某个目标射出投射物的技能range_unit，专用键值对：
 bullet：类型string。代表投射物的名字。
 bullet_start_offset：类型table。格式{v(1, 1), ...}。代表投射物相对entity的初始位置。

@@ -2375,6 +2375,21 @@ return {
 			"KRF_sfx_saurianboss_op1.ogg"
 		}
 	},
+	enemies_sapos = {
+		sounds = {
+			"frog_chaser_jump",
+			"frog_erudite_death",
+			"frog_erudite_shot",
+			"frog_infuser_crystal_blockedtower-loop-end",
+			"frog_infuser_crystal_blockedtower-loop",
+			"frog_infuser_crystal_bolt-loopstart",
+			"frog_infuser_crystal_charged",
+			"frog_infuser_crystalcharge-loop-end",
+			"frog_infuser_crystalcharge-loop-start",
+			"frog_infuser_crystalcharge-loop",
+			"frog_infuser_shield-complete"
+		}
+	},
 	-- customization
 	terrain_1_common = {
 		files = {

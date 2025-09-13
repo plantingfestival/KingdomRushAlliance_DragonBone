@@ -24,6 +24,44 @@ local function fts(v)
 	return v / FPS
 end
 
+local fx_and_decal = E:register_c("fx_and_decal")
+fx_and_decal.hit_fx = nil
+fx_and_decal.hit_fx_offset = nil
+fx_and_decal.hit_fx_flip = nil
+fx_and_decal.hit_fx_water = nil
+fx_and_decal.hit_fx_water_offset = nil
+fx_and_decal.hit_fx_water_flip = nil
+fx_and_decal.hit_decal = nil
+fx_and_decal.hit_decal_offset = nil
+fx_and_decal.hit_decal_flip = nil
+fx_and_decal.hit_decal_water = nil
+fx_and_decal.hit_decal_water_offset = nil
+fx_and_decal.hit_decal_water_flip = nil
+fx_and_decal.miss_fx = nil
+fx_and_decal.miss_fx_offset = nil
+fx_and_decal.miss_fx_flip = nil
+fx_and_decal.miss_fx_water = nil
+fx_and_decal.miss_fx_water_offset = nil
+fx_and_decal.miss_fx_water_flip = nil
+fx_and_decal.miss_decal = nil
+fx_and_decal.miss_decal_offset = nil
+fx_and_decal.miss_decal_flip = nil
+fx_and_decal.miss_decal_water = nil
+fx_and_decal.miss_decal_water_offset = nil
+fx_and_decal.miss_decal_water_flip = nil
+fx_and_decal.fx = nil
+fx_and_decal.fx_offset = nil
+fx_and_decal.fx_flip = nil
+fx_and_decal.fx_water = nil
+fx_and_decal.fx_water_offset = nil
+fx_and_decal.fx_water_flip = nil
+fx_and_decal.decal = nil
+fx_and_decal.decal_offset = nil
+fx_and_decal.decal_flip = nil
+fx_and_decal.decal_water = nil
+fx_and_decal.decal_water_offset = nil
+fx_and_decal.decal_water_flip = nil
+
 local pos = E:register_c("pos")
 
 pos.x = 0
@@ -811,7 +849,7 @@ local timed_attacks = E:register_c("timed_attacks")
 
 timed_attacks.list = {}
 
-local jump_attack = E:register_c("jump_attack")
+local jump_attack = E:register_c("jump_attack", "fx_and_decal")
 jump_attack.skill = "jump_target"
 jump_attack.type = "jump"
 jump_attack.animations = {
@@ -834,7 +872,6 @@ jump_attack.speed = nil
 jump_attack.need_back = false
 jump_attack.backed_attack = false
 jump_attack.loops = 1
-jump_attack.hit_distance = 22
 jump_attack.jump_type = 1
 jump_attack.level = 0
 jump_attack.damage_max = nil
@@ -844,16 +881,14 @@ jump_attack.damage_type = DAMAGE_PHYSICAL
 jump_attack.mod = nil
 jump_attack.mods = nil
 jump_attack.node_limit = 0
+jump_attack.node_limit_offset = nil
 jump_attack.hit_payload = nil
 jump_attack.is_area_damage = false
 jump_attack.use_range = "damage_radius"
 jump_attack.damage_radius = nil
 jump_attack.min_count = 1
 jump_attack.xp_gain_factor = nil
-jump_attack.hit_fx = nil
-jump_attack.hit_fx_offset = nil
-jump_attack.hit_decal = nil
-jump_attack.hit_decal_offset = nil
+
 jump_attack.filter_fn = nil
 
 local timed_actions = E:register_c("timed_actions")

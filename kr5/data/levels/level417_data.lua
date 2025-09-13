@@ -882,6 +882,7 @@ return {
 	},
 	required_sounds = {
 		"sounds_stage417",
+		"enemies_sapos"
 	},
 	required_textures = {
 		"go_stage417",
