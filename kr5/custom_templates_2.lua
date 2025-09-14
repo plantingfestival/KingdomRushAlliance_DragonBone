@@ -1296,6 +1296,14 @@ tt.render.sprites[3] = CC("sprite")
 tt.render.sprites[3].prefix = "bullywag_spawner_splash"
 tt.render.sprites[3].offset = v(0, 17)
 tt.render.sprites[3].animated = true
-tt.spawner.animation_loop = "active"
-tt.spawner.animation_end = "idle"
-tt.main_script.update = scripts.bullywag_spawner.update
+tt.spawner.animations = {
+	{
+		name = "active",
+		group = 1
+	},
+	{
+		name = "end",
+		sprite = 3
+	}
+}
+tt.main_script.update = scripts.basic_spawner.update

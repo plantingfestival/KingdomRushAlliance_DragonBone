@@ -274,7 +274,6 @@ return {
 			},
 			["spawner.pi"] = 1,
 			["spawner.name"] = "object1",
-			["editor.game_mode"] = 1,
 		},
 		{
 			template = "bullywag_spawner",
@@ -284,12 +283,21 @@ return {
 			},
 			["spawner.pi"] = 1,
 			["spawner.name"] = "object2",
-			["editor.game_mode"] = 1,
 		},
 		{
 			template = "mega_spawner",
 			load_file = "level417campaign_spawner",
 			["editor.game_mode"] = 1,
+		},
+		{
+			template = "mega_spawner",
+			load_file = "level417heroic_spawner",
+			["editor.game_mode"] = 2,
+		},
+		{
+			template = "mega_spawner",
+			load_file = "level417iron_spawner",
+			["editor.game_mode"] = 3,
 		},
 		{
 			template = "fx_repeat_forever",

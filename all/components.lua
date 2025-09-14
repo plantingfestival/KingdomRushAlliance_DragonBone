@@ -988,6 +988,12 @@ spawner.allowed_subpaths = {
 	2,
 	3
 }
+spawner.animations = nil
+spawner.animations_times = nil
+spawner.facing_point = nil
+spawner.ignore_flip_x = nil
+spawner.sounds = nil
+spawner.sounds_args = nil
 spawner.animation_loop = nil
 spawner.animation_end = nil
 spawner.animation_start = nil

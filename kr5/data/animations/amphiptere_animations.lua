@@ -1,8 +1,8 @@
 return {
 	amphiptere_raise = {
 		prefix = "amphiptere",
-		to = 41,
-		from = 28
+		to = 1,
+		from = 1
 	},
 	amphiptere_walk = {
 		prefix = "amphiptere",

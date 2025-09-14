@@ -4414,7 +4414,7 @@ local function create_bullet_hit_decal(this, store, flip_x)
 	end
 end
 
-local function create_attack_fx_and_decal(store, a, to, flip_x, name)
+local function create_attack_fx_and_decal(store, a, origin, flip_x, name)
 	local offset = name .. "_offset"
 	local flip = name .. "_flip"
 	local entities = type(a[name]) == "table" and a[name] or { a[name] }
@@ -4422,7 +4422,7 @@ local function create_attack_fx_and_decal(store, a, to, flip_x, name)
 	for _, v in pairs(entities) do
 		local e = E:create_entity(v)
 
-		e.pos = V.vclone(to)
+		e.pos = V.vclone(origin)
 		if a[offset] then
 			e.pos.x = e.pos.x + (flip_x and -1 or 1) * a[offset].x
 			e.pos.y = e.pos.y + a[offset].y
@@ -4440,60 +4440,72 @@ local function create_attack_fx_and_decal(store, a, to, flip_x, name)
 	end
 end
 
-local function check_create_fx_and_decal(store, a, to, flip_x, is_hit)
+--- 检查并创建特效与贴图
+--- @param store table game.store
+--- @param this table 实体
+--- @param a table 攻击
+--- @param origin vector 原点
+--- @param flip_x boolean 是否镜像
+--- @param is_hit boolean 是否击中目标
+--- @return nil
+local function check_create_fx_and_decal(store, this , a, origin, flip_x, is_hit)
+	if not origin then
+		origin = get_entity_range_origin(this)
+	end
+
 	if is_hit then
-		if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
 			if a.hit_fx_water then
-				create_attack_fx_and_decal(store, a, to, flip_x, "hit_fx_water")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx_water")
 			end
 
 			if a.hit_decal_water then
-				create_attack_fx_and_decal(store, a, to, flip_x, "hit_decal_water")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal_water")
 			end
 		else
 			if a.hit_fx then
-				create_attack_fx_and_decal(store, a, to, flip_x, "hit_fx")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx")
 			end
 
 			if a.hit_decal then
-				create_attack_fx_and_decal(store, a, to, flip_x, "hit_decal")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal")
 			end
 		end
 	else
-		if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
 			if a.miss_fx_water then
-				create_attack_fx_and_decal(store, a, to, flip_x, "miss_fx_water")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx_water")
 			end
 
 			if a.miss_decal_water then
-				create_attack_fx_and_decal(store, a, to, flip_x, "miss_decal_water")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal_water")
 			end
 		else
 			if a.miss_fx then
-				create_attack_fx_and_decal(store, a, to, flip_x, "miss_fx")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx")
 			end
 
 			if a.miss_decal then
-				create_attack_fx_and_decal(store, a, to, flip_x, "miss_decal")
+				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal")
 			end
 		end
 	end
 
-	if GR:cell_is(to.x, to.y, TERRAIN_WATER) then
+	if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
 		if a.fx_water then
-			create_attack_fx_and_decal(store, a, to, flip_x, "fx_water")
+			create_attack_fx_and_decal(store, a, origin, flip_x, "fx_water")
 		end
 
 		if a.decal_water then
-			create_attack_fx_and_decal(store, a, to, flip_x, "decal_water")
+			create_attack_fx_and_decal(store, a, origin, flip_x, "decal_water")
 		end
 	else
 		if a.fx then
-			create_attack_fx_and_decal(store, a, to, flip_x, "fx")
+			create_attack_fx_and_decal(store, a, origin, flip_x, "fx")
 		end
 
 		if a.decal then
-			create_attack_fx_and_decal(store, a, to, flip_x, "decal")
+			create_attack_fx_and_decal(store, a, origin, flip_x, "decal")
 		end
 	end
 end
@@ -4524,17 +4536,123 @@ local function y_entity_animation_wait(this, idx, times)
 		end
 		coroutine.yield()
 	end
+
 	return false
 end
 
 local function y_entity_animation_play(entity, name, ts, times, idx, pos, ignore_flip_x)
 	local loop = times and times > 1
-	local an, af, ai = U.animation_name_facing_point(entity, name, pos)
+	local an, af, ai = name, false, 1
+	
+	if pos then
+		an, af, ai = U.animation_name_facing_point(entity, name, pos)
+	end
+
 	if ignore_flip_x then
 		af = false
 	end
+
 	U.animation_start(entity, an, af, ts, loop, idx, true)
+
 	return y_entity_animation_wait(entity, idx, times), an, af, ai
+end
+
+---播放实体动画组
+---@param entity table 实体
+---@param name string 动画名称
+---@param ts number 时间戳
+---@param times integer 播放次数
+---@param group integer 动画组
+---@param pos vector 目标位置，决定是否镜像
+---@param ignore_flip_x boolean 是否禁止镜像
+---@return boolean 是否找到对应动画组, string 播放的动画名, boolean 是否镜像, integer 象限索引
+local function y_entity_animation_play_group(entity, name, ts, times, group, pos, ignore_flip_x)
+	local loop = times and times > 1
+	local an, af, ai = name, false, 1
+
+	if pos then
+		an, af, ai = U.animation_name_facing_point(entity, name, pos)
+	end
+
+	U.animation_start_group(entity, name, flip_x, ts, loop, group)
+
+	if ignore_flip_x then
+		af = false
+	end
+
+	local idx
+	for i = 1, #entity.render.sprites do
+		local s = entity.render.sprites[i]
+
+		if s.group == group then
+			idx = i
+
+			break
+		end
+	end
+
+	if idx then
+		return y_entity_animation_wait(entity, idx, times), an, af, ai
+	end
+
+	return false, an, af, ai
+end
+
+---按顺序播放表内所有动画与声音
+---@param store table game.store
+---@param entity table 实体
+---@param animations table 动画表
+---@param sounds table 声音表
+---@param sounds_args table 声音参数表
+---@param times integer 播放次数组，可选默认为 1
+---@param pos vector 目标位置，决定是否镜像
+---@param ignore_flip_x boolean 是否禁止镜像
+---@return table 包含所有动画组或动画的返回值
+local function y_entity_all_ani_and_sounds_play(store, entity, animations, sounds, sounds_args, times, pos, ignore_flip_x)
+	local status = {}
+	times = times or {}
+	if #times == 0 then
+		for t = 1, #animations do
+			table.insert(times, 1)
+		end
+	end
+
+	local function play_sound(s)
+		local s_args = sounds_args and sounds_args[s] or nil
+
+		if sounds then
+			S:queue(sounds[s], s_args)
+		end
+	end
+
+	for i, anim_data in ipairs(animations) do
+		local name = type(anim_data) == "string" and anim_data or anim_data.name
+		status[name] = {}
+
+		if type(anim_data) == "string" then
+			play_sound(1)
+
+			table.insert(status[name],
+				{ y_entity_animation_play(entity, name, store.tick_ts, times[1], 1, pos, ignore_flip_x) })
+		elseif type(anim_data) == "table" then
+			for key, value in pairs(anim_data) do
+				if key == "group" then
+					play_sound(i)
+
+					table.insert(status[name],
+						{ y_entity_animation_play_group(entity, name, store.tick_ts, times[i], value, pos,
+						ignore_flip_x) })
+				elseif key == "sprite" then
+					play_sound(i)
+
+					table.insert(status[name],
+						{ y_entity_animation_play(entity, name, store.tick_ts, times[i], value, pos, ignore_flip_x) })
+				end
+			end
+		end
+	end
+
+	return status
 end
 
 local function entity_idle(store, this, force_ts)
@@ -5365,12 +5483,13 @@ local function entity_casts_jump_target(store, this, a)
 	local function play_sound_and_ani(index, to, use_ts, times)
 		local use_ts = use_ts or store.tick_ts
 		local times = times or 1
+		local s_args
 
 		if a.sounds_args then
-			sounds_args = a.sounds_args[index]
+			s_args = a.sounds_args[index]
 		end
 
-		S:queue(a.sounds[index], sounds_args)
+		S:queue(a.sounds[index], s_args)
 		local an, af = U.animation_name_facing_point(this, a.animations[index], to)
 		U.y_animation_play(this, an, af, use_ts, times)
 
@@ -5409,12 +5528,6 @@ local function entity_casts_jump_target(store, this, a)
 
 		if a.target_id then
 			trigger_target = store.entities[a.target_id]
-			if not trigger_target then
-				return false, A_NO_TARGET
-			end
-			local offset = U.get_prediction_offset(trigger_target, a.cast_time + (a.flight_time or 0))
-			trigger_target_pos = V.v(trigger_target.pos.x + offset.x, trigger_target.pos.y + offset.y)
-			trigger_targets = { trigger_target }
 		end
 
 		local node_limit = P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
@@ -5467,7 +5580,7 @@ local function entity_casts_jump_target(store, this, a)
 			end
 		end
 
-		check_create_fx_and_decal(store, a, to, af, hit)
+		check_create_fx_and_decal(store, this, a, to, af, hit)
 
 		if a.payload then
 			local p = E:create_entity(a.payload)
@@ -5861,6 +5974,8 @@ local SU = {
 	y_entity_wait = y_entity_wait,
 	y_entity_animation_wait = y_entity_animation_wait,
 	y_entity_animation_play = y_entity_animation_play,
+	y_entity_animation_play_group = y_entity_animation_play_group,
+	y_entity_all_ani_and_sounds_play = y_entity_all_ani_and_sounds_play,
 	entity_idle = entity_idle,
 	get_attack_filter_function = get_attack_filter_function,
 	find_targets_in_range = find_targets_in_range,

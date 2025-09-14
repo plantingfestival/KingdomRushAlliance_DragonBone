@@ -124,7 +124,28 @@ flight_time：类型number。表示突进的飞行时间。
 speed：类型vector。表示速度，若指定速度将会跳过计算速度，直接使用此键值。
 loops：类型integer。表示突进次数。
 animations：类型table。表示播放的动画，第一个键为施法动画，第二个键为飞行时的动画，第三个键为结束动画。
-sounds：类型table。表示播放的声音，第一个键为施法声音，第二个键为飞行时的声音，第三个键为结束时的声音。
+sounds：类型table。表示播放的声音，第一个键为施法声音，第二个键为飞行时的声音，第三个键为结束时的声音，格式：
 sounds_args：类型table。表示播放声音的参数。需配合sounds使用。表内每个镶套表对应的声音同上。
 need_back：类型boolean。表示偶数次突进是否往返。
 backed_attack：类型boolean。表示往返后是否造成伤害。
+
+spawner组件，专用键值对：
+animations：类型table或string。表示按顺序播放的动画表，格式：
+{
+	"a",-- 动画 1
+	{	-- 动画 2，可选table或string，若为string则使精灵 1 播放指定，无法播放动画组
+		name = "b",-- 动画名
+		group = 1-- 用于确定播放动画组
+		--sprite = 1-- 与上面二选一用于确定哪个精灵播放动画
+	},
+	...-- 可播放多个动画
+}-- 注：不能在中途出现 nil
+animations_times：类型table。表示索引所对应的动画播放次数表，格式：
+facing_point：类型vector。表示目标点。用于根据朝目标点的角度确定播放的动画。
+ignore_flip_x：类型boolean。表示是否禁止镜像。
+sounds：类型table。表示播放索引所对应的动画播放的声音，格式：
+sounds_args：类型table。表示播放声音的参数。需配合sounds使用，格式：
+{
+	{ ... }-- 动画 1 的声音参数。
+	{ ... }-- 动画 2 的声音参数。
+}

@@ -224,6 +224,28 @@ local function y_hero_ranged_attacks(store, hero)
 	end
 end
 
+scripts.basic_spawner = {}
+function scripts.basic_spawner.update(this, store, script)
+	local sprites = this.render.sprites
+	local sp = this.spawner
+	local group = type(this.animation_group) == "table" and this.animation_group or { this.animation_group }
+
+	while true do
+		if sp.spawn_data then
+			sp.spawn_data = nil
+
+			SU.y_entity_all_ani_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
+				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
+		end
+
+		U.y_animation_play(this, sp.initial_spawn_animation, nil, store.tick_ts, 1, this.animation_group)
+
+		coroutine.yield()
+	end
+
+	queue_remove(store, this)
+end
+
 scripts.entities_delay_controller = {}
 function scripts.entities_delay_controller.update(this, store, script)
 	if not this.delays or not this.entities or #this.delays ~= #this.entities then
