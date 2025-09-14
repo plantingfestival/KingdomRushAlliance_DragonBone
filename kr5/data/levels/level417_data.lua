@@ -267,6 +267,31 @@ return {
 			},
 		},
 		{
+			template = "bullywag_spawner",
+			pos = {
+				x = 260,
+				y = 147
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object1",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "bullywag_spawner",
+			pos = {
+				x = 700,
+				y = 455
+			},
+			["spawner.pi"] = 1,
+			["spawner.name"] = "object2",
+			["editor.game_mode"] = 1,
+		},
+		{
+			template = "mega_spawner",
+			load_file = "level417campaign_spawner",
+			["editor.game_mode"] = 1,
+		},
+		{
 			template = "fx_repeat_forever",
 			pos = {
 				x = -143,

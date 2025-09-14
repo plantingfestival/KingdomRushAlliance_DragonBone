@@ -403,4 +403,22 @@ function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
 	queue_remove(store, this)
 end
 
+scripts.bullywag_spawner = {}
+function scripts.bullywag_spawner.update(this, store, script)
+	local s = this.render.sprites
+	local spawner = this.spawner
+
+	while true do
+		if spawner.spawn_data then
+			U.y_animation_play_group(this, spawner.animation_loop, nil, store.tick_ts, 1, 1)
+			U.y_animation_play(this, "run", nil, store.tick_ts, 1, 3)
+			U.animation_start_group(this, spawner.animation_end, nil, store.tick_ts, true, 1)
+		end
+
+		spawner.spawn_data = false
+
+		coroutine.yield()
+	end
+end
+
 return scripts

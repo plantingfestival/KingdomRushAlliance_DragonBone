@@ -1055,7 +1055,7 @@ AC(tt, "melee", "timed_attacks")
 
 tt.enemy.gold = 16
 tt.enemy.lives_cost = 1
-tt.enemy.melee_slot = v(13, 0)
+tt.enemy.melee_slot = v(20, 0)
 tt.health.armor = 0.5
 tt.health.hp_max = 400
 tt.health_bar.offset = v(0, 25)
@@ -1158,7 +1158,7 @@ tt.tween.props[1].keys = {
 		vv(0.35)
 	},
 	{
-		0.15,
+		0.23,
 		vv(1)
 	}
 }
@@ -1169,7 +1169,7 @@ AC(tt, "melee", "timed_attacks")
 
 tt.enemy.gold = 55
 tt.enemy.lives_cost = 1
-tt.enemy.melee_slot = v(8, 0)
+tt.enemy.melee_slot = v(25, 0)
 tt.health.armor = 0.8
 tt.health.hp_max = 600
 tt.health_bar.offset = v(0, 40)
@@ -1199,7 +1199,7 @@ tt.render.sprites[2].anchor = v(0.5, 0.176)
 tt.render.sprites[2].offset = v(0, 0)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_RED
-tt.unit.hit_offset = v(0, 5)
+tt.unit.hit_offset = v(0, 20)
 tt.unit.mod_offset = v(0, 20)
 tt.unit.head_offset = v(0, 40)
 tt.ui.click_rect = r(-23, 3, 45, 40)
@@ -1244,7 +1244,7 @@ AC(tt, "melee")
 
 tt.enemy.gold = 80
 tt.enemy.lives_cost = 2
-tt.enemy.melee_slot = v(12, 0)
+tt.enemy.melee_slot = v(30, 0)
 tt.health.armor = 0
 tt.health.hp_max = 1400
 tt.health_bar.offset = v(0, 60)
@@ -1280,3 +1280,22 @@ tt.unit.head_offset = v(0, 40)
 tt.ui.click_rect = r(-12, 12, 53, 65)
 tt.vis.flags = bor(F_ENEMY)
 tt.main_script.update = scripts.kr4_enemy_mixed.update
+
+tt = RT("bullywag_spawner", "decal_scripted")
+
+AC(tt, "spawner", "editor")
+
+tt.render.sprites[1].prefix = "bullywag_spawner_layer1"
+tt.render.sprites[1].animated = true
+tt.render.sprites[1].group = 1
+tt.render.sprites[2] = CC("sprite")
+tt.render.sprites[2].prefix = "bullywag_spawner_layer2"
+tt.render.sprites[2].animated = true
+tt.render.sprites[2].group = 1
+tt.render.sprites[3] = CC("sprite")
+tt.render.sprites[3].prefix = "bullywag_spawner_splash"
+tt.render.sprites[3].offset = v(0, 17)
+tt.render.sprites[3].animated = true
+tt.spawner.animation_loop = "active"
+tt.spawner.animation_end = "idle"
+tt.main_script.update = scripts.bullywag_spawner.update

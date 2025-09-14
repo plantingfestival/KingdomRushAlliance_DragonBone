@@ -4,6 +4,11 @@ return {
 		to = 1,
 		from = 1
 	},
+	chaser_raise = {
+		prefix = "chaser",
+		to = 1,
+		from = 1
+	},
 	chaser_walk = {
 		prefix = "chaser",
 		to = 11,

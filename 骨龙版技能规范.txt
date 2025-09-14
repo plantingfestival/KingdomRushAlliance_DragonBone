@@ -112,9 +112,9 @@ delay：类型number。代表完成施法前摇后，entity出现的延迟时间
 向目标突进的技能jump_target，专用键值对：
 is_area_damage：类型boolean。表示是否为范围伤害。
 damage_radius：类型number。表示伤害的范围，需要是范围伤害才可用。
-min_count：类型number。表示附近有一定数量的敌人才发动技能。
-node_limit：类型number。表示距离防守点小于设定的键值时不会发动技能。
-jump_type：类型number。表示突进类型。可选的值如下：
+min_count：类型integer。表示附近有一定数量的敌人才发动技能。
+node_limit：类型integer。表示距离防守点小于设定的键值时不会发动技能。
+jump_type：类型integer。表示突进类型。可选的值如下：
 U.jump_type = {
 	parabola = 1,-- 抛物线
 	linear = 2,-- 直线
@@ -122,7 +122,7 @@ U.jump_type = {
 g：类型number。表示重力加速度，只有突进类型为parabola时可用。
 flight_time：类型number。表示突进的飞行时间。
 speed：类型vector。表示速度，若指定速度将会跳过计算速度，直接使用此键值。
-loops：类型number。表示突进次数。
+loops：类型integer。表示突进次数。
 animations：类型table。表示播放的动画，第一个键为施法动画，第二个键为飞行时的动画，第三个键为结束动画。
 sounds：类型table。表示播放的声音，第一个键为施法声音，第二个键为飞行时的声音，第三个键为结束时的声音。
 sounds_args：类型table。表示播放声音的参数。需配合sounds使用。表内每个镶套表对应的声音同上。
