@@ -2870,6 +2870,7 @@ return {
 	ITEM_HERO_MAGNUS_DESC = "Unleash the arcane forces of Linirea, let loose a mystical storm, and spellbind your enemies with his arcane arts and thirst for knowledge!",
 	ITEM_HERO_MAGNUS_NAME = "Magnus Spellbane",
 	HERO_ARCHER_NAME = "Alleria Swiftwind",
+	HERO_ARCHER_PHANTOM_NAME = "Alleria Swiftwind's phantom",
 	HERO_ARCHER_WILDCAT_NAME = "Wildcat",
 	ITEM_KR4_HERO_ALLERIA_NAME = "Alleria Swiftwind the Elf Princess",
 	ITEM_KR4_HERO_ALLERIA_BOTTOM_DESC = "Summon Alleria Swiftwind the Elf Princess to defeat your enemies.",

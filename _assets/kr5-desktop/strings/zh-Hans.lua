@@ -2871,6 +2871,7 @@ return {
 	ITEM_HERO_MAGNUS_DESC = "解除利尼维亚的奥术力量禁制，释放神秘风暴，镇压你的敌人！一切只凭他的奥术秘法和对知识的渴求。",
 	ITEM_HERO_MAGNUS_NAME = "马格纳斯·灾祸魔导",
 	HERO_ARCHER_NAME = "艾莉瑞雅·迅风",
+	HERO_ARCHER_PHANTOM_NAME = "艾莉瑞雅·迅风的幻影",
 	HERO_ARCHER_WILDCAT_NAME = "野猫",
 	ITEM_KR4_HERO_ALLERIA_NAME = "精灵公主艾莉瑞雅·迅风",
 	ITEM_KR4_HERO_ALLERIA_BOTTOM_DESC = "召唤精灵公主艾莉瑞雅·迅风来击败你的敌人。",

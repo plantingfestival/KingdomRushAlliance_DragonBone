@@ -10161,20 +10161,20 @@ function scripts.smokebeard_engineer_ray.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.hero_alleria = {}
+scripts.kr3_hero_alleria = {}
 
-function scripts.hero_alleria.fixed_ranged_filter_fn(e, origin)
+function scripts.kr3_hero_alleria.fixed_ranged_filter_fn(e, origin)
 	return U.is_inside_ellipse(e.pos, V.v(838, 491), 125, 1.368) or U.is_inside_ellipse(e.pos, V.v(540, 357), 75, 1)
 end
 
-function scripts.hero_alleria.insert(this, store)
+function scripts.kr3_hero_alleria.insert(this, store)
 	this.melee.order = U.attack_order(this.melee.attacks)
 	this.ranged.order = U.attack_order(this.ranged.attacks)
 
 	return true
 end
 
-function scripts.hero_alleria.update(this, store)
+function scripts.kr3_hero_alleria.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local brk, sta, a, skill
