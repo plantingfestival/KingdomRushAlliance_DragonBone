@@ -555,21 +555,8 @@ tt.render.sprites[2].anchor = v(0.5, 0.05)
 tt.render.sprites[2].offset = v(0, 13)
 tt.render.sprites[2].loop = true
 tt.render.sprites[2].z = Z_EFFECTS
-tt.tween.props[1].name = "alpha"
-tt.tween.props[1].sprite_id = {
-	1,
-	2
-}
-tt.tween.props[1].keys = {
-	{
-		0,
-		0
-	},
-	{
-		0.7,
-		255
-	}
-}
+tt.fade_in = 0.7
+tt.fade_out = 0.7
 
 tt = RT("controller_holder_roots_lands_blocked")
 E:add_comps(tt, "main_script", "pos")
@@ -663,19 +650,8 @@ tt.render.sprites[1].size_scales = {
 	vv(1.3),
 	vv(1.5)
 }
-tt.tween.props[1].keys = {
-	{
-		0,
-		0
-	},
-	{
-		0.2,
-		255
-	}
-}
-tt.tween.remove = nil
-tt.fade_in = true
-tt.fade_out = true
+tt.fade_in = 0.2
+tt.fade_out = 0.2
 tt.main_script.insert = scripts.mod_hps.insert
 tt.main_script.update = scripts.mod_hps_with_fade.update
 
@@ -705,18 +681,8 @@ tt.render.sprites[1].name = "bone_carrier_modifier_loop"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].z = Z_DECALS + 2
-tt.fade_in = true
-tt.fade_out = true
-tt.tween.props[1].keys = {
-	{
-		fts(0),
-		0
-	},
-	{
-		fts(6),
-		255
-	}
-}
+tt.fade_in = fts(6)
+tt.fade_out = fts(6)
 tt.tween.props[2] = E:clone_c("tween_prop")
 tt.tween.props[2].name = "scale"
 tt.tween.props[2].keys = {

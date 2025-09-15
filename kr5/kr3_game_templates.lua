@@ -12518,12 +12518,14 @@ tt.tween.props[1].keys = {
 }
 tt.tween.props[1].sprite_id = 2
 tt.tween.props[1].loop = true
-tt = E:register_t("kr3_hero_alleria", "stage_hero")
 
-E:add_comps(tt, "melee", "ranged")
-
+tt = E:register_t("kr3_hero_alleria", "hero5")
+E:add_comps(tt, "melee", "ranged", "reinforcement", "tween")
 image_y = 66
 anchor_y = 15 / image_y
+tt.reinforcement.duration = 30
+tt.reinforcement.fade = nil
+tt.reinforcement.fade_out = true
 tt.health.armor = 0
 tt.health.dead_lifetime = 15
 tt.health.hp_max = 210
@@ -12534,9 +12536,9 @@ tt.hero.xp = 11299
 tt.hero.tombstone_show_time = fts(90)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr3_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0019"
+-- tt.info.hero_portrait = "hero_portraits_0019"
 tt.info.i18n_key = "HERO_ARCHER"
-tt.info.portrait = "portraits_sc_0064"
+tt.info.portrait = "portraits_hero_0130"
 tt.info.damage_icon = "arrow"
 tt.fixed_mode = nil
 tt.main_script.insert = kr3_scripts.hero_alleria.insert
@@ -12563,13 +12565,15 @@ tt.unit.hit_offset = v(0, 16)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 13)
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 15
-tt.melee.attacks[1].damage_min = 10
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].damage_max = 30
+tt.melee.attacks[1].damage_min = 20
 tt.melee.attacks[1].hit_time = fts(8)
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.range = 65
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].animation = "ranged"
 tt.ranged.attacks[1].bullet = "arrow_hero_alleria"
 tt.ranged.attacks[1].bullet_start_offset = {
@@ -12592,6 +12596,20 @@ tt.ranged.attacks[2].min_range = 40
 tt.ranged.attacks[2].node_prediction = fts(13)
 tt.ranged.attacks[2].shoot_time = fts(13)
 tt.ranged.attacks[2].sound = "ElvesHeroAlleriaShoot"
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
+
 tt = E:register_t("hero_alleria_fixed", "kr3_hero_alleria")
 tt.fixed_mode = true
 tt.health.ignore_damage = true
@@ -12609,20 +12627,24 @@ tt.ranged.attacks[2].cooldown = 7
 tt.ranged.attacks[2].filter_fn = kr3_scripts.hero_alleria.fixed_ranged_filter_fn
 tt.ranged.attacks[2].max_range = 600
 tt.ranged.attacks[2].min_range = 0
+
 tt = E:register_t("arrow_hero_alleria", "arrow")
 tt.bullet.flight_time = fts(22)
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 20
+tt.bullet.damage_max = 30
+tt.bullet.use_unit_damage_factor = true
+
 tt = E:register_t("arrow_multishot_hero_alleria", "arrow")
 tt.bullet.particles_name = "ps_arrow_multishot_hero_alleria"
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 20
+tt.bullet.damage_max = 30
 tt.bullet.damage_true = DAMAGE_TRUE
 tt.bullet.flight_time = fts(22)
 tt.extra_arrows_range = 100
 tt.extra_arrows = 2
 tt.main_script.insert = kr3_scripts.arrow_multishot_hero_alleria.insert
 tt.render.sprites[1].name = "hero_alleria_arrow-f"
+
 tt = E:register_t("arrow_hero_alleria_fixed", "arrow_hero_alleria")
 tt.bullet.damage_min = 10
 tt.bullet.damage_max = 30
@@ -12632,10 +12654,9 @@ tt.bullet.damage_min = 10
 tt.bullet.damage_max = 30
 tt.bullet.prediction_error = nil
 tt.extra_arrows = 3
+
 tt = E:register_t("alleria_cat", "soldier")
-
-E:add_comps(tt, "nav_grid")
-
+E:add_comps(tt, "nav_grid", "reinforcement", "tween")
 anchor_y = 0.2619047619047619
 image_y = 42
 tt.behaviour_attack = {}
@@ -12674,10 +12695,22 @@ tt.unit.mod_offset = v(0, 10)
 tt.unit.hide_after_death = true
 tt.unit.explode_fx = nil
 tt.vis.bans = F_ALL
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
+
 tt = RT("hero_baby_malik", "stage_hero")
-
 AC(tt, "melee")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,

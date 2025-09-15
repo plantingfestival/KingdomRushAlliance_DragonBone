@@ -477,4 +477,90 @@ return {
 		to = 36,
 		from = 25
 	},
+	-- kr4_hero_alleria
+	alleria_idle = {
+		prefix = "alleria",
+		to = 1,
+		from = 1
+	},
+	alleria_walk = {
+		prefix = "alleria",
+		to = 16,
+		from = 2
+	},
+	alleria_shootPrep = {
+		prefix = "alleria",
+		to = 26,
+		from = 17
+	},
+	alleria_shootStart = {
+		prefix = "alleria",
+		to = 36,
+		from = 27
+	},
+	alleria_multishoot = {
+		prefix = "alleria",
+		to = 52,
+		from = 37
+	},
+	alleria_shootEnd = {
+		prefix = "alleria",
+		to = 58,
+		from = 53
+	},
+	alleria_melee1 = {
+		prefix = "alleria",
+		to = 86,
+		from = 59
+	},
+	alleria_melee2 = {
+		prefix = "alleria",
+		to = 116,
+		from = 87
+	},
+	alleria_in = {
+		prefix = "alleria",
+		to = 145,
+		from = 117
+	},
+	alleria_death = {
+		prefix = "alleria",
+		to = 182,
+		from = 146
+	},
+	alleria_call = {
+		prefix = "alleria",
+		to = 220,
+		from = 183
+	},
+	alleria_cutscene = {
+		prefix = "alleria",
+		to = 244,
+		from = 221
+	},
+	alleria_arrow_decal_run = {
+		prefix = "alleria_arrow_decal",
+		to = 8,
+		from = 1
+	},
+	alleria_arrow_decal_idle = {
+		prefix = "alleria_arrow_decal",
+		to = 9,
+		from = 9
+	},
+	alleria_arrow_multishoot_decal_run = {
+		prefix = "alleria_arrow_multishoot_decal",
+		to = 8,
+		from = 1
+	},
+	alleria_arrow_multishoot_decal_idle = {
+		prefix = "alleria_arrow_multishoot_decal",
+		to = 9,
+		from = 9
+	},
+	alleria_leaves_run = {
+		prefix = "alleria_leaves",
+		to = 12,
+		from = 1
+	},
 }

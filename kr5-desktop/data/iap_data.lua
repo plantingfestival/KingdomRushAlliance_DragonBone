@@ -191,6 +191,15 @@ return {
 				255
 			}
 		},
+		kr4_hero_alleria = {
+			cost = 1000,
+			color_bg = {
+				178,
+				255,
+				49,
+				255
+			}
+		},
 		hero_dwarf = {
 			cost = 500,
 			color_bg = {

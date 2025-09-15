@@ -4484,12 +4484,12 @@ end
 local function get_attack_filter_function(attack)
 	local filter_fn
 	if attack.allowed_templates then
-		filter_fn = function(e)
-			return table.contains(attack.allowed_templates, e.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(e))
+		filter_fn = function(v, origin)
+			return table.contains(attack.allowed_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	elseif attack.excluded_templates then
-		filter_fn = function(e)
-			return not table.contains(attack.excluded_templates, e.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(e))
+		filter_fn = function(v, origin)
+			return not table.contains(attack.excluded_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	else
 		filter_fn = attack.filter_fn
@@ -4557,6 +4557,15 @@ local function entity_casts_spawner(store, this, a)
 		return false
 	end
 
+	local function set_entity_nav_rally(entity)
+		if entity.nav_rally and entity.pos then
+			local npos = V.vclone(entity.pos)
+			entity.nav_rally.center = npos
+			entity.nav_rally.pos = npos
+			entity.nav_rally.new = false
+		end
+	end
+
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
 		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
@@ -4581,6 +4590,7 @@ local function entity_casts_spawner(store, this, a)
 			set_entity_level(e, a.level)
 			e.pos = a.custom_spawn_points[i]
 			e.pos.x, e.pos.y = e.pos.x + this.pos.x, e.pos.y + this.pos.y
+			set_entity_nav_rally(e)
 			queue_insert(store, e)
 		end
 		a.ts = start_ts
@@ -4644,6 +4654,7 @@ local function entity_casts_spawner(store, this, a)
 				end
 				set_entity_level(e, a.level)
 				e.pos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni)
+				set_entity_nav_rally(e)
 				queue_insert(store, e)
 			end
 		end

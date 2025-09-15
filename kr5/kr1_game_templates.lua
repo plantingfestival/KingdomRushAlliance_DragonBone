@@ -87,7 +87,7 @@ end
 DO_ENEMY_BIG = 2
 DO_SOLDIER_BIG = 3
 DO_HEROES = 3
-DO_MOD_FX = 4
+DO_MOD_FX = 8
 DO_TOWER_MODS = 10
 
 -- heroes
@@ -5397,14 +5397,12 @@ tt.editor.overrides = {
 }
 
 tt = RT("soldier_alleria_wildcat", "soldier")
-
 E:add_comps(tt, "melee", "nav_grid")
-
 anchor_y = 0.28
 image_y = 42
 tt.fn_level_up = kr1_scripts.soldier_alleria_wildcat.level_up
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0007" or "info_portraits_hero_0007"
-tt.health.armor = 0
+tt.info.portrait = "bottom_info_image_soldiers_0052"
+tt.health.armor = 0.2
 tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 35)
 tt.info.fn = kr1_scripts.soldier_alleria_wildcat.get_info
@@ -5437,10 +5435,8 @@ tt.unit.hide_after_death = true
 tt.unit.explode_fx = nil
 tt.vis.bans = bor(F_SKELETON, F_CANNIBALIZE)
 
-tt = RT("kr1_hero_alleria", "hero")
-
-AC(tt, "melee", "ranged", "timed_attacks")
-
+tt = RT("kr1_hero_alleria", "hero5")
+AC(tt, "melee", "ranged", "timed_attacks", "reinforcement", "tween")
 anchor_x, anchor_y = 0.5, 0.14
 image_x, image_y = 60, 76
 tt.hero.fixed_stat_attack = 3
@@ -5473,51 +5469,51 @@ tt.hero.level_stats.hp_max = {
 }
 tt.hero.level_stats.melee_damage_max = {
 	4,
-	6,
-	8,
-	11,
+	7,
+	10,
 	13,
 	16,
-	18,
-	20,
-	23,
-	25
+	19,
+	22,
+	25,
+	28,
+	31
 }
 tt.hero.level_stats.melee_damage_min = {
 	2,
 	4,
 	6,
-	7,
-	9,
+	8,
 	10,
 	12,
 	14,
-	15,
-	17
+	16,
+	18,
+	20
 }
 tt.hero.level_stats.ranged_damage_max = {
 	12,
-	14,
 	15,
-	17,
 	18,
-	20,
 	21,
-	23,
 	24,
-	26
+	27,
+	30,
+	33,
+	36,
+	39
 }
 tt.hero.level_stats.ranged_damage_min = {
 	7,
-	8,
 	9,
-	10,
 	11,
-	12,
 	13,
-	14,
-	14,
-	15
+	15,
+	17,
+	19,
+	21,
+	23,
+	25
 }
 tt.hero.level_stats.regen_health = {
 	63,
@@ -5533,16 +5529,11 @@ tt.hero.level_stats.regen_health = {
 }
 tt.hero.skills.multishot = CC("hero_skill")
 tt.hero.skills.multishot.count_base = 1
-tt.hero.skills.multishot.count_inc = 1
+tt.hero.skills.multishot.count_inc = 2
 tt.hero.skills.multishot.xp_level_steps = {
-	nil,
-	1,
-	nil,
-	nil,
-	2,
-	nil,
-	nil,
-	3
+	[4] = 1,
+	[7] = 2,
+	[10] = 3,
 }
 tt.hero.skills.multishot.xp_gain = {
 	25,
@@ -5550,9 +5541,9 @@ tt.hero.skills.multishot.xp_gain = {
 	75
 }
 tt.hero.skills.callofwild = CC("hero_skill")
-tt.hero.skills.callofwild.damage_max_base = 4
-tt.hero.skills.callofwild.damage_min_base = 2
-tt.hero.skills.callofwild.damage_inc = 4
+tt.hero.skills.callofwild.damage_max_base = 8
+tt.hero.skills.callofwild.damage_min_base = 4
+tt.hero.skills.callofwild.damage_inc = 6
 tt.hero.skills.callofwild.hp_base = 0
 tt.hero.skills.callofwild.hp_inc = 200
 tt.hero.skills.callofwild.xp_gain = {
@@ -5561,25 +5552,29 @@ tt.hero.skills.callofwild.xp_gain = {
 	150
 }
 tt.hero.skills.callofwild.xp_level_steps = {
-	[10] = 3,
 	[4] = 1,
-	[7] = 2
+	[7] = 2,
+	[10] = 3,
 }
+tt.reinforcement.duration = 60
+tt.reinforcement.fade = nil
+tt.reinforcement.fade_out = true
 tt.health.dead_lifetime = 15
 tt.health_bar.offset = v(0, 33)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr1_scripts.hero_alleria.level_up
 tt.hero.tombstone_show_time = fts(90)
+tt.hero.level = 10
 tt.info.damage_icon = "arrow"
-tt.info.hero_portrait = IS_PHONE_OR_TABLET and "hero_portraits_0004" or "heroPortrait_portraits_0004"
+-- tt.info.hero_portrait = IS_PHONE_OR_TABLET and "hero_portraits_0004" or "heroPortrait_portraits_0004"
 tt.info.fn = kr1_scripts.hero_basic.get_info_ranged
 tt.info.i18n_key = "HERO_ARCHER"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0004" or "info_portraits_hero_0001"
+tt.info.portrait = "portraits_hero_0130"
 tt.main_script.update = kr1_scripts.hero_alleria.update
 tt.motion.max_speed = 3 * FPS
 tt.regen.cooldown = 1
 tt.render.sprites[1].anchor = v(0.5, 0.14)
-tt.render.sprites[1].prefix = "hero_alleria"
+tt.render.sprites[1].prefix = "hero_archer"
 tt.soldier.melee_slot_offset = v(4, 0)
 tt.sound_events.change_rally_point = "HeroArcherTaunt"
 tt.sound_events.death = "HeroArcherDeath"
@@ -5591,9 +5586,11 @@ tt.unit.mod_offset = v(0, 15)
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].hit_time = fts(8)
 tt.melee.attacks[1].sound = "MeleeSword"
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].xp_gain_factor = 2.5
 tt.melee.range = 45
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].bullet = "kr1_arrow_hero_alleria"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(0, 12)
@@ -5602,6 +5599,7 @@ tt.ranged.attacks[1].max_range = 150
 tt.ranged.attacks[1].min_range = 45
 tt.ranged.attacks[1].shoot_time = fts(6)
 tt.ranged.attacks[1].cooldown = 0.6
+tt.ranged.attacks[1].node_prediction = fts(6)
 tt.ranged.attacks[2] = E:clone_c("bullet_attack")
 tt.ranged.attacks[2].animation = "multishot"
 tt.ranged.attacks[2].bullet = "kr1_arrow_multishot_hero_alleria"
@@ -5626,6 +5624,19 @@ tt.timed_attacks.list[1].sound = "HeroArcherSummon"
 tt.timed_attacks.list[1].spawn_time = fts(17)
 tt.timed_attacks.list[1].min_range = 30
 tt.timed_attacks.list[1].max_range = 50
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
 
 tt = RT("hero_malik", "hero")
 
@@ -8956,19 +8967,39 @@ tt.bullet.flight_time = fts(15)
 tt = RT("arrow_shadow_archer", "arrow")
 tt.bullet.damage_min = 20
 tt.bullet.damage_max = 30
+
 tt = RT("kr1_arrow_hero_alleria", "arrow")
 tt.bullet.xp_gain_factor = 2.875
 tt.bullet.prediction_error = false
+tt.bullet.use_unit_damage_factor = true
+
 tt = E:register_t("kr1_arrow_multishot_hero_alleria", "arrow")
-tt.bullet.particles_name = "ps_arrow_multishot_hero_alleria"
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.particles_name = "kr1_ps_arrow_multishot_hero_alleria"
+tt.bullet.damage_min = 30
+tt.bullet.damage_max = 45
 tt.bullet.damage_true = DAMAGE_TRUE
 tt.bullet.prediction_error = false
 tt.extra_arrows_range = 100
 tt.extra_arrows = 2
 tt.main_script.insert = kr1_scripts.arrow_multishot_hero_alleria.insert
 tt.render.sprites[1].name = "hero_archer_arrow"
+
+tt = E:register_t("kr1_ps_arrow_multishot_hero_alleria")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "hero_archer_arrow_particle"
+tt.particle_system.animated = false
+tt.particle_system.alphas = {
+	255,
+	0
+}
+tt.particle_system.particle_lifetime = {
+	0.1,
+	0.1
+}
+tt.particle_system.emission_rate = 30
+tt.particle_system.track_rotation = true
+tt.particle_system.z = Z_BULLETS
+
 tt = RT("axe_troll_axe_thrower", "arrow")
 tt.bullet.damage_min = 40
 tt.bullet.damage_max = 80

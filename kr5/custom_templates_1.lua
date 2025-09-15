@@ -288,6 +288,187 @@ tt.damage_min = 137
 tt.damage_max = 164
 tt.damage_type = DAMAGE_PHYSICAL
 
+tt = E:register_t("controller_item_kr4_hero_alleria", "controller_item_hero")
+tt.entity = "kr4_hero_alleria"
+
+tt = E:register_t("kr4_hero_alleria", "hero5")
+AC(tt, "melee", "timed_attacks")
+tt.health.armor = 0
+tt.health.dead_lifetime = 20
+tt.health.hp_max = 500
+tt.health_bar.offset = v(0, 48)
+tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.hero.team = TEAM_LINIREA
+tt.hero.respawn_delay = 1.8
+tt.hero.respawn_animation = "in"
+tt.hero.respawn_decal = "decal_alleria_respawn"
+tt.info.i18n_key = "HERO_ARCHER"
+tt.info.damage_icon = "arrow"
+tt.info.fn = scripts.hero_basic.get_info_timed
+tt.info.portrait = "portraits_hero_0131"
+tt.main_script.update = scripts.kr4_hero_alleria.update
+tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 60
+tt.melee.attacks[1].damage_min = 50
+tt.melee.attacks[1].hit_time = 0.4
+tt.melee.attacks[1].animation = "melee1"
+tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
+tt.melee.attacks[2].hit_time = 0.6
+tt.melee.attacks[2].animation = "melee2"
+tt.timed_attacks.list[1] = CC("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
+tt.timed_attacks.list[1].basic_attack = true
+tt.timed_attacks.list[1].cooldown = 2
+tt.timed_attacks.list[1].bullet = "alleria_arrow"
+tt.timed_attacks.list[1].bullet_start_offset = {
+	v(2, 25)
+}
+tt.timed_attacks.list[1].min_range = 50
+tt.timed_attacks.list[1].max_range = 200
+tt.timed_attacks.list[1].vis_bans = bor(F_NIGHTMARE, F_FRIEND)
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].loops = 1
+tt.timed_attacks.list[1].animation_start = "shootPrep"
+tt.timed_attacks.list[1].animation_loop = "shootStart"
+tt.timed_attacks.list[1].animation_end = "shootEnd"
+tt.timed_attacks.list[1].cast_time = fts(18)
+tt.timed_attacks.list[1].shoot_times = {
+	fts(8)
+}
+tt.timed_attacks.list[1].node_prediction = fts(22)
+tt.timed_attacks.list[2] = CC("bullet_attack")
+tt.timed_attacks.list[2].skill = "range_unit"
+tt.timed_attacks.list[2].cooldown = 4
+tt.timed_attacks.list[2].bullet = "alleria_arrow_multishoot"
+tt.timed_attacks.list[2].bullet_start_offset = {
+	v(2, 25)
+}
+tt.timed_attacks.list[2].min_range = 50
+tt.timed_attacks.list[2].max_range = 400
+tt.timed_attacks.list[2].vis_bans = bor(F_NIGHTMARE, F_FRIEND)
+tt.timed_attacks.list[2].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[2].loops = 2
+tt.timed_attacks.list[2].animation_start = "shootPrep"
+tt.timed_attacks.list[2].animation_loop = "multishoot"
+tt.timed_attacks.list[2].animation_end = "shootEnd"
+tt.timed_attacks.list[2].cast_time = fts(16)
+tt.timed_attacks.list[2].shoot_times = {
+	fts(6),
+	fts(8)
+}
+tt.timed_attacks.list[2].node_prediction = fts(22)
+tt.timed_attacks.list[3] = E:clone_c("spawn_attack")
+tt.timed_attacks.list[3].skill = "spawner"
+tt.timed_attacks.list[3].skill_id = "call_kr3_hero_alleria"
+tt.timed_attacks.list[3].extra_cooldowns = {
+	{
+		skill_id = "call_kr1_hero_alleria",
+		extra_cooldown = 5
+	}
+}
+tt.timed_attacks.list[3].cooldown = 30
+tt.timed_attacks.list[3].range_nodes = 35
+tt.timed_attacks.list[3].min_targets = 1
+tt.timed_attacks.list[3].vis_bans = bor(F_FRIEND)
+tt.timed_attacks.list[3].animation = "call"
+tt.timed_attacks.list[3].cast_time = fts(17)
+tt.timed_attacks.list[3].spawn_delay = 0.25
+tt.timed_attacks.list[3].min_nodes = -9
+tt.timed_attacks.list[3].max_nodes = -9
+tt.timed_attacks.list[3].use_center = true
+tt.timed_attacks.list[3].max_count = 1
+tt.timed_attacks.list[3].entity_chances = {
+	1,
+}
+tt.timed_attacks.list[3].entity_names = {
+	"kr3_hero_alleria"
+}
+tt.timed_attacks.list[4] = E:clone_c("spawn_attack")
+tt.timed_attacks.list[4].skill = "spawner"
+tt.timed_attacks.list[4].skill_id = "call_kr1_hero_alleria"
+tt.timed_attacks.list[4].extra_cooldowns = {
+	{
+		skill_id = "call_kr3_hero_alleria",
+		extra_cooldown = 5
+	}
+}
+tt.timed_attacks.list[4].cooldown = 60
+tt.timed_attacks.list[4].range_nodes = 35
+tt.timed_attacks.list[4].min_targets = 1
+tt.timed_attacks.list[4].vis_bans = bor(F_FRIEND)
+tt.timed_attacks.list[4].animation = "call"
+tt.timed_attacks.list[4].cast_time = fts(17)
+tt.timed_attacks.list[4].spawn_delay = 0.25
+tt.timed_attacks.list[4].min_nodes = -9
+tt.timed_attacks.list[4].max_nodes = -9
+tt.timed_attacks.list[4].use_center = true
+tt.timed_attacks.list[4].max_count = 1
+tt.timed_attacks.list[4].entity_chances = {
+	1,
+}
+tt.timed_attacks.list[4].entity_names = {
+	"kr1_hero_alleria"
+}
+tt.melee.range = 50
+tt.motion.max_speed = 90
+tt.regen.cooldown = 0.2
+tt.regen.health = 5
+tt.render.sprites[1].anchor.y = 0.25
+tt.render.sprites[1].name = "idle"
+tt.render.sprites[1].prefix = "alleria"
+tt.render.sprites[1].angles = {}
+tt.render.sprites[1].angles.walk = {
+	"walk"
+}
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "alleria_shadow"
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].is_shadow = true
+tt.render.sprites[2].anchor.y = 0.25
+tt.render.sprites[2].z = Z_DECALS + 1
+tt.sound_events.change_rally_point = "HeroArcherTaunt"
+tt.sound_events.insert = "HeroArcherTauntIntro"
+tt.sound_events.respawn = "HeroArcherTauntIntro"
+tt.sound_events.death = "HeroArcherDeath"
+tt.soldier.melee_slot_offset.x = 24
+tt.unit.hit_offset = v(0, 23)
+tt.unit.mod_offset = v(0, 23)
+tt.unit.head_offset = v(0, 43)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.hide_after_death = true
+
+tt = E:register_t("decal_alleria_respawn", "decal_fade")
+tt.insert_delay = 0
+tt.duration = 2
+tt.fade_in = fts(6)
+tt.fade_out = fts(6)
+tt.render.sprites[1].name = "alleria_circle"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].z = Z_DECALS
+tt.render.sprites[1].scale = v(1, 0.4)
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "alleria_leaves_run"
+tt.render.sprites[2].z = Z_OBJECTS
+
+tt = E:register_t("alleria_arrow", "KR5Arrow")
+tt.render.sprites[1].name = "alleria_arrow"
+tt.bullet.miss_decal = "alleria_arrow_decal_run"
+tt.bullet.miss_decal_animated = true
+tt.bullet.miss_decal_no_rotation = true
+tt.bullet.miss_decal_anchor = v(0.5, 0)
+tt.bullet.damage_min = 40
+tt.bullet.damage_max = 80
+tt.bullet.flight_time = fts(22)
+tt.bullet.use_unit_damage_factor = true
+
+tt = E:register_t("alleria_arrow_multishoot", "alleria_arrow")
+tt.render.sprites[1].name = "alleria_arrow_multishoot"
+tt.bullet.miss_decal = "alleria_arrow_multishoot_decal_run"
+tt.bullet.damage_type = DAMAGE_MAGICAL
+
 tt = E:register_t("hero_eiskalt", "hero5")
 b = balance.heroes.hero_eiskalt
 E:add_comps(tt, "ranged", "timed_attacks")
@@ -856,7 +1037,7 @@ tt.aura.hit_blood_fx = "fx_blood_splat"
 tt.dead_lifetime = 5
 tt.sound_events.death = "hero_eiskalt_frosty_explodes"
 tt.fade_in = nil
-tt.fade_out = true
+tt.fade_out = 1
 
 tt = E:register_t("aura_ice_peak", "aura")
 E:add_comps(tt, "render")
@@ -1162,7 +1343,6 @@ tt.unit.head_offset = v(0, 48)
 tt.unit.hit_offset = v(0, 30)
 tt.unit.mod_offset = v(0, 30)
 tt.unit.hide_after_death = nil
-tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET)
 tt.soldier.melee_slot_offset = v(25, 0)
 tt.melee.range = 60
 tt.melee.attacks[1].basic_attack = true
@@ -1202,7 +1382,7 @@ tt.timed_attacks.list[1].extra_cooldowns = {
 		extra_cooldown = -5
 	}
 }
-tt.timed_attacks.list[1].cast_time = fts(14)
+tt.timed_attacks.list[1].cast_time = fts(13)
 tt.timed_attacks.list[1].node_prediction = fts(22)
 tt.timed_attacks.list[1].animation = "explosiveHead"
 tt.timed_attacks.list[1].bullet_start_offset = {
@@ -1338,7 +1518,7 @@ tt.ui.click_rect = r(-20, -5, 40, 28)
 tt.hover.cooldown_min = 5
 tt.hover.cooldown_max = 15
 tt.hover.random_ni = 6
-tt.fade_out = true
+tt.fade_out = 1
 tt.insert_delay = 1.2
 
 tt = E:register_t("hero_jack_o_lantern_ultimate")
@@ -1371,8 +1551,8 @@ tt.aura.hit_blood_fx = nil
 tt.spawn_animation = nil
 tt.death_animation = nil
 tt.dead_lifetime = nil
-tt.fade_in = true
-tt.fade_out = true
+tt.fade_in = 1
+tt.fade_out = 1
 tt.particle = {
 	"ps_hero_jack_o_lantern_ultimate_particle",
 	"ps_hero_jack_o_lantern_ultimate_smoke"
@@ -1808,22 +1988,10 @@ tt.render.sprites[1].name = "hero_storm_dragon_lightning_hit"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 
 tt = E:register_t("mod_hero_dianyun_lightning", "mod_common_stun")
-E:add_comps(tt, "tween")
 tt.modifier.duration = fts(20)
 tt.render.sprites[1].prefix = "hero_storm_dragon_lightning_modifier"
 tt.render.sprites[1].anchor = v(0.5, 0.625)
-tt.tween.props[1].name = "alpha"
-tt.tween.props[1].keys = {
-	{
-		0,
-		255
-	},
-	{
-		fts(8),
-		0
-	}
-}
-tt.fade_out = true
+tt.fade_out = fts(8)
 
 tt = E:register_t("controller_lord_storm")
 E:add_comps(tt, "pos", "main_script", "sound_events")
@@ -3178,17 +3346,7 @@ tt.render.sprites[1].anchor = v(0.5, 0.337)
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].z = Z_DECALS + 2
 tt.fade_in = nil
-tt.fade_out = true
-tt.tween.props[1].keys = {
-	{
-		fts(0),
-		0
-	},
-	{
-		fts(6),
-		255
-	}
-}
+tt.fade_out = fts(6)
 
 tt = E:register_t("mod_promotion", "modifier")
 E:add_comps(tt, "render")
@@ -3616,18 +3774,8 @@ tt.render.sprites[1].name = "war_elephant_drummer_buff_unit"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].z = Z_DECALS
-tt.fade_in = true
-tt.fade_out = true
-tt.tween.props[1].keys = {
-	{
-		fts(0),
-		0
-	},
-	{
-		fts(15),
-		255
-	}
-}
+tt.fade_in = fts(15)
+tt.fade_out = fts(15)
 
 tt = E:register_t("mod_war_elephant_on_elephant", "mod_war_elephant_buff")
 tt.inflicted_damage_factor = 1.75
@@ -4708,6 +4856,7 @@ tt.bullet.miss_decal_anchor = v(0.5, 0)
 tt.bullet.damage_min = 2
 tt.bullet.damage_max = 3
 tt.bullet.flight_time = fts(15)
+tt.bullet.use_unit_damage_factor = true
 tt.sound_events.insert = "axe_release_sound"
 
 tt = E:register_t("deep_devils_reef_tower_greenfin_spear_lvl2", "deep_devils_reef_tower_greenfin_spear_lvl1")

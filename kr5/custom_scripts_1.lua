@@ -5641,12 +5641,6 @@ function scripts.kr4_hero_malik.update(this, store, script)
 		end
 		U.animation_start(this, this.hero.death_loop_animation, nil, store.tick_ts, true, 1)
 
-		if this.unit.hide_after_death then
-			for _, s in pairs(this.render.sprites) do
-				s.hidden = true
-			end
-		end
-	
 		while dead_lifetime > store.tick_ts - death_ts do
 			if this.force_respawn then
 				this.force_respawn = nil
@@ -5759,6 +5753,147 @@ function scripts.kr4_hero_malik.update(this, store, script)
 		coroutine.yield()
 	end
 end
+
+scripts.kr4_hero_alleria = {}
+function scripts.kr4_hero_alleria.update(this, store, script)
+	local h = this.health
+	local hero = this.hero
+	for i, a in ipairs(this.timed_attacks.list) do
+		a.ts = store.tick_ts
+	end
+	this.timed_attacks.order = { 4, 3, 2, 1 }
+
+	local function create_respawn_decal()
+		local respawn_decal = E:create_entity(hero.respawn_decal)
+		respawn_decal.pos.x, respawn_decal.pos.y = this.pos.x, this.pos.y
+		if respawn_decal.insert_delay and respawn_decal.insert_delay > 0 then
+			local controller = E:create_entity("entities_delay_controller")
+			controller.start_ts = store.tick_ts
+			controller.delays = { respawn_decal.insert_delay }
+			controller.entities = { respawn_decal }
+			queue_insert(store, controller)
+		else
+			queue_insert(store, respawn_decal)
+		end
+	end
+
+	local function y_hero_death_and_respawn(store, this)
+		this.ui.can_click = false
+		local death_ts = store.tick_ts
+		local dead_lifetime = h.dead_lifetime
+	
+		U.unblock_target(store, this)
+		S:queue(this.sound_events.death, this.sound_events.death_args)
+		for i, sound in ipairs(this.sound_events.after_death) do
+			S:queue(sound, this.sound_events.after_death_args[i])
+		end
+		SU.hide_shadow(this, true)
+		if this.unit.death_animation then
+			U.y_animation_play(this, this.unit.death_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "death", nil, store.tick_ts, 1, 1)
+		end
+
+		if this.unit.hide_after_death then
+			for _, s in pairs(this.render.sprites) do
+				s.hidden = true
+			end
+		end
+	
+		while dead_lifetime > store.tick_ts - death_ts do
+			if this.force_respawn then
+				this.force_respawn = nil
+				break
+			end
+			coroutine.yield()
+		end
+	
+		if hero and hero.respawn_point then
+			local p = he.respawn_point
+			this.pos.x, this.pos.y = p.x, p.y
+			this.nav_rally.pos.x, this.nav_rally.pos.y = p.x, p.y
+			this.nav_rally.center.x, this.nav_rally.center.y = p.x, p.y
+			this.nav_rally.new = false
+		end
+		
+		h.ignore_damage = true
+		S:queue(this.sound_events.respawn)
+		create_respawn_decal()
+		U.y_wait(store, hero.respawn_delay)
+		for _, s in pairs(this.render.sprites) do
+			s.hidden = false
+		end
+		SU.hide_shadow(this, true)
+		if hero.respawn_animation then
+			U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "respawn", nil, store.tick_ts, 1, 1)
+		end
+		SU.hide_shadow(this, false)
+	
+		this.health_bar.hidden = false
+		this.ui.can_click = true
+		h.dead = false
+		this.force_respawn = nil
+		h.hp = h.hp_max
+		h.ignore_damage = false
+	end
+
+	h.ignore_damage = true
+	this.vis._original_bans = this.vis.bans
+	this.vis.bans = F_ALL
+	U.sprites_hide(this)
+	this.health_bar.hidden = true
+	create_respawn_decal()
+	U.y_wait(store, hero.respawn_delay)
+	U.sprites_show(this)
+	SU.hide_shadow(this, true)
+	U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+	SU.hide_shadow(this, false)
+	this.health_bar.hidden = nil
+	this.vis.bans = this.vis._original_bans
+	this.vis._original_bans = nil
+	h.ignore_damage = nil
+
+	while true do
+		if h.dead then
+			y_hero_death_and_respawn(store, this)
+		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
+		local interrupted, status = nil, nil
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+			goto label_continue
+		else
+			while this.nav_rally.new do
+				if SU.y_hero_new_rally(store, this) then
+					interrupted = true
+					break
+				end
+			end
+			if interrupted then
+				goto label_continue
+			end
+		end
+
+		if SU.y_soldier_timed_attacks(store, this) then
+			goto label_continue
+		end
+		interrupted, status = y_hero_melee_block_and_attacks(store, this)
+		if not interrupted and status ~= A_DONE and not SU.soldier_go_back_step(store, this) then
+			SU.soldier_idle(store, this)
+			SU.soldier_regen(store, this)
+		end
+
+		::label_continue::
+		coroutine.yield()
+	end
+end
+
+
 
 scripts.mod_eiskalt_frozen_throat_slow = {}
 function scripts.mod_eiskalt_frozen_throat_slow.update(this, store, script)
