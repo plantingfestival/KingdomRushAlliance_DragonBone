@@ -1826,6 +1826,10 @@ function scripts.controller_item_hero_elves_archer.insert(this, store)
 			if entity.hero.skills then
 				for key, value in pairs(entity.hero.skills) do
 					value.level = 3
+					if key == "ultimate" then
+						local ultimate_controller = E:get_template(value.controller_name)
+						value.ts = store.tick_ts - ultimate_controller.cooldown
+					end
 				end
 			end
 		end
