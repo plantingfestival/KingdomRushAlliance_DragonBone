@@ -5656,13 +5656,13 @@ function scripts.mod_tower_factors.insert(this, store)
 		return false
 	end
 
+	if this.damage_factor then
+		target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
+	end
+
 	if target.attacks then
 		if this.range_factor then
 			target.attacks.range = target.attacks.range * this.range_factor
-		end
-		
-		if this.damage_factor then
-			target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
 		end
 
 		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
@@ -5712,13 +5712,13 @@ function scripts.mod_tower_factors.remove(this, store)
 		return true
 	end
 
+	if this.damage_factor then
+		target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+	end
+
 	if target.attacks then
 		if this.range_factor then
 			target.attacks.range = target.attacks.range / this.range_factor
-		end
-		
-		if this.damage_factor then
-			target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
 		end
 
 		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
