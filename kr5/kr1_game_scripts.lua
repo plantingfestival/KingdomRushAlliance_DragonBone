@@ -1359,9 +1359,9 @@ end
 scripts.soldier_alleria_wildcat = {}
 
 function scripts.soldier_alleria_wildcat.level_up(this, store, skill)
-	local hp_factor = GS.difficulty_soldier_hp_max_factor[store.level_difficulty]
+	-- local hp_factor = GS.difficulty_soldier_hp_max_factor[store.level_difficulty]
 
-	this.health.hp_max = skill.hp_base + skill.hp_inc * skill.level * hp_factor
+	this.health.hp_max = skill.hp_base + skill.hp_inc * skill.level
 	this.health.hp = this.health.hp_max
 
 	local at = this.melee.attacks[1]
@@ -1398,7 +1398,7 @@ function scripts.soldier_alleria_wildcat.update(this, store)
 	while true do
 		if this.health.dead then
 			this.owner.timed_attacks.list[1].pet = nil
-			this.owner.timed_attacks.list[1].ts = store.tick_ts
+			-- this.owner.timed_attacks.list[1].ts = store.tick_ts
 
 			SU.y_soldier_death(store, this)
 
@@ -1686,13 +1686,40 @@ function scripts.hero_alleria.update(this, store)
 	end
 
 	U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
-
 	this.health_bar.hidden = false
+	this.reinforcement.ts = store.tick_ts
 
 	while true do
-		if h.dead then
-			SU.y_hero_death_and_respawn(store, this)
+		if this.health.dead then
+			this.reinforcement.fade = false
+			this.reinforcement.fade_out = false
+			this.ui.can_click = false
+			this.tween = nil
+			a = this.timed_attacks.list[1]
+			if a.pet then
+				a.pet.health.hp = 0
+			end
+			SU.y_soldier_death(store, this)
+			return
 		end
+
+		if this.reinforcement and this.reinforcement.duration and store.tick_ts - this.reinforcement.ts > this.reinforcement.duration then
+			if this.health.hp > 0 then
+				this.reinforcement.hp_before_timeout = this.health.hp
+			end
+			this.health.hp = 0
+			this.ui.can_click = false
+			a = this.timed_attacks.list[1]
+			if a.pet then
+				a.pet.health.hp = 0
+			end
+			SU.remove_modifiers(store, this)
+			SU.y_soldier_death(store, this)
+			return
+		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
@@ -1759,12 +1786,12 @@ function scripts.hero_alleria.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty
 			else
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty

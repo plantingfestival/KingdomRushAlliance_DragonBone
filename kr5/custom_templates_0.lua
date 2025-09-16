@@ -188,20 +188,9 @@ tt.range_factor = 1
 tt.damage_factor = 1
 tt.modifier.duration = 1
 tt.modifier.use_mod_offset = false
-tt.fade_in = true
-tt.fade_out = true
+tt.fade_in = 0.5
+tt.fade_out = 0.5
 tt.tween.props[1].name = "alpha"
-tt.tween.props[1].keys = {
-    {
-        0,
-		0
-	},
-	{
-        0.5,
-		255
-	}
-}
-tt.tween.remove = false
 tt.main_script.insert = scripts.mod_tower_factors.insert
 tt.main_script.update = scripts.mod_tower_factors.update
 tt.main_script.remove = scripts.mod_tower_factors.remove
@@ -253,10 +242,12 @@ tt.main_script.insert = scripts.common_aura.insert
 tt.main_script.update = scripts.aura_with_towers.update
 
 tt = E:register_t("mod_common_stun", "mod_stun")
+E:add_comps(tt, "tween")
 tt.modifier.vis_bans = bor(F_BOSS)
 tt.render.sprites[1].size_names = nil
 tt.fade_in = nil
 tt.fade_out = nil
+tt.tween.props[1].name = "alpha"
 tt.animation_start = "start"
 tt.animation_loop = "loop"
 tt.animation_end = "end"
@@ -299,17 +290,6 @@ tt.aura.hit_blood_fx = nil
 tt.spawn_animation = "spawn"
 tt.death_animation = "death"
 tt.dead_lifetime = 5
-tt.tween.props[1].keys = {
-    {
-        0,
-		0
-	},
-	{
-        1,
-		255
-	}
-}
-tt.tween.disabled = true
 tt.fade_in = nil
 tt.fade_out = nil
 
@@ -322,17 +302,6 @@ tt.hover.cooldown_min = 10
 tt.hover.cooldown_max = 10
 tt.hover.random_ni = 0
 tt.hover.random_subpath = true
-tt.tween.props[1].keys = {
-    {
-        0,
-		0
-	},
-	{
-        1,
-		255
-	}
-}
-tt.tween.disabled = true
 tt.fade_in = nil
 tt.fade_out = nil
 tt.main_script.update = scripts.soldier_hover.update
@@ -423,6 +392,13 @@ tt.random_offset.y.max = 0
 tt = RT("soldier_in_barrack", "soldier_militia")
 E:add_comps(tt, "nav_grid")
 tt.main_script.update = scripts.kr4_soldier_barrack.update
+
+tt = E:register_t("decal_fade", "decal_tween")
+E:add_comps(tt, "main_script")
+tt.duration = 0
+tt.fade_in = nil
+tt.fade_out = nil
+tt.main_script.update = scripts.decal_fade.update
 
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil

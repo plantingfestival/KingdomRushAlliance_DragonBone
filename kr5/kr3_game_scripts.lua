@@ -10161,20 +10161,20 @@ function scripts.smokebeard_engineer_ray.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.hero_alleria = {}
+scripts.kr3_hero_alleria = {}
 
-function scripts.hero_alleria.fixed_ranged_filter_fn(e, origin)
+function scripts.kr3_hero_alleria.fixed_ranged_filter_fn(e, origin)
 	return U.is_inside_ellipse(e.pos, V.v(838, 491), 125, 1.368) or U.is_inside_ellipse(e.pos, V.v(540, 357), 75, 1)
 end
 
-function scripts.hero_alleria.insert(this, store)
+function scripts.kr3_hero_alleria.insert(this, store)
 	this.melee.order = U.attack_order(this.melee.attacks)
 	this.ranged.order = U.attack_order(this.ranged.attacks)
 
 	return true
 end
 
-function scripts.hero_alleria.update(this, store)
+function scripts.kr3_hero_alleria.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local brk, sta, a, skill
@@ -10204,11 +10204,10 @@ function scripts.hero_alleria.update(this, store)
 	end
 
 	U.y_animation_play(this, "respawn", nil, store.tick_ts, 1)
-
 	this.health_bar.hidden = false
+	this.reinforcement.ts = store.tick_ts
 
 	local cat = E:create_entity("alleria_cat")
-
 	cat.owner = this
 
 	if this.fixed_mode then
@@ -10218,8 +10217,11 @@ function scripts.hero_alleria.update(this, store)
 		cat.pos = find_cat_pos(this.pos)
 	end
 
-	cat.nav_rally.center = pos
-	cat.nav_rally.pos = pos
+	if cat.pos then
+		local pos = V.vclone(cat.pos)
+		cat.nav_rally.center = pos
+		cat.nav_rally.pos = pos
+	end
 	cat.render.sprites[1].z = this.render.sprites[1].z
 
 	queue_insert(store, cat)
@@ -10234,9 +10236,30 @@ function scripts.hero_alleria.update(this, store)
 				SU.soldier_idle(store, this)
 			end
 		else
-			if h.dead then
-				SU.y_hero_death_and_respawn(store, this)
+			if this.health.dead then
+				this.reinforcement.fade = false
+				this.reinforcement.fade_out = false
+				this.ui.can_click = false
+				this.tween = nil
+				cat.health.dead = true
+				SU.y_soldier_death(store, this)
+				return
 			end
+
+			if this.reinforcement and this.reinforcement.duration and store.tick_ts - this.reinforcement.ts > this.reinforcement.duration then
+				if this.health.hp > 0 then
+					this.reinforcement.hp_before_timeout = this.health.hp
+				end
+				this.health.hp = 0
+				this.ui.can_click = false
+				cat.health.dead = true
+				SU.remove_modifiers(store, this)
+				SU.y_soldier_death(store, this)
+				return
+			end
+
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
 
 			if this.unit.is_stunned then
 				SU.soldier_idle(store, this)
@@ -10256,14 +10279,14 @@ function scripts.hero_alleria.update(this, store)
 				end
 
 				if this.melee then
-					brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+					brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 					if brk or sta ~= A_NO_TARGET then
 						goto label_212_0
 					end
 				end
 
-				brk, sta = SU.y_soldier_ranged_attacks(store, this)
+				brk, sta = y_hero_ranged_attacks(store, this)
 
 				if brk then
 					-- block empty
@@ -10331,15 +10354,12 @@ function scripts.alleria_cat.update(this, store)
 			end
 		end
 
-		if h and h.health.dead then
+		h = store.entities[h.id]
+		if not h or this.health.dead then
 			U.y_animation_play(this, "toSad", nil, store.tick_ts)
-
-			while h.health.dead do
-				U.y_animation_play(this, "sadSigh", nil, store.tick_ts)
-				U.y_wait(store, U.frandom(1.5, 3))
-			end
-
-			U.y_animation_play(this, "toStand", nil, store.tick_ts)
+			U.y_animation_play(this, "sadSigh", nil, store.tick_ts)
+			SU.y_soldier_death(store, this)
+			return
 		else
 			ht = h and h.soldier.target_id and store.entities[h.soldier.target_id]
 
@@ -10594,6 +10614,9 @@ function scripts.hero_bolverk.update(this, store)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -10640,7 +10663,7 @@ function scripts.hero_bolverk.update(this, store)
 			end
 
 			if this.melee then
-				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+				brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 				if brk or sta ~= A_NO_TARGET then
 					goto label_223_0

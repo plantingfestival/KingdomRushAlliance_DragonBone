@@ -592,6 +592,7 @@ return {
 		"hero_hacksaw",
 		"hero_ingvar",
 		"kr4_hero_malik",
+		"kr4_hero_alleria",
 		"hero_dragon",
 		"hero_beastmaster",
 		"hero_priest",

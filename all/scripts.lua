@@ -1633,6 +1633,7 @@ function scripts.hero_basic.get_info_melee(this)
 		damage_type = a.damage_type,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end
@@ -1654,6 +1655,7 @@ function scripts.hero_basic.get_info_ranged(this)
 		damage_type = b.bullet.damage_type,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end
@@ -4937,11 +4939,13 @@ function scripts.mod_stun.insert(this, store, script)
 	end
 
 	if target and target.unit and this.render then
+		local flip_x = target.render.sprites[1].flip_x
+		local flip_sign = flip_x and -1 or 1
 		for i = 1, #this.render.sprites do
 			local s = this.render.sprites[i]
 
 			if not s.keep_flip_x and target.render then
-				s.flip_x = target.render.sprites[1].flip_x
+				s.flip_x = flip_x
 			end
 
 			if s.size_names then
@@ -4958,14 +4962,13 @@ function scripts.mod_stun.insert(this, store, script)
 
 			if m.custom_offsets then
 				s.offset = V.vclone(m.custom_offsets[target.template_name] or m.custom_offsets.default)
-				s.offset.x = s.offset.x * (s.flip_x and -1 or 1)
+				s.offset.x = s.offset.x * flip_sign
 			elseif m.health_bar_offset then
 				local hb = target.health_bar.offset
 				local hbo = m.health_bar_offset
-
 				s.offset.x, s.offset.y = hb.x + hbo.x, hb.y + hbo.y
 			elseif m.use_mod_offset and target.unit.mod_offset then
-				s.offset.x, s.offset.y = target.unit.mod_offset.x, target.unit.mod_offset.y
+				s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
 			end
 		end
 	end
@@ -4990,20 +4993,38 @@ function scripts.mod_stun.update(this, store, script)
 
 	if not target then
 		queue_remove(store, this)
-
 		return
 	end
 
 	this.pos = target.pos
 	start_ts = store.tick_ts
+	local fade_out = 0
 	if this.tween then
-		this.tween.reverse = false
+		this.tween.props[1].sprite_id = {}
+		for i, s in pairs(this.render.sprites) do
+			table.insert(this.tween.props[1].sprite_id, i)
+		end
 		this.tween.remove = false
-		if this.fade_in then
+		if this.fade_out and this.fade_out > 0 then
+			fade_out = this.fade_out
+		end
+		if this.fade_in and this.fade_in > 0 then
 			this.tween.disabled = false
 			this.tween.ts = store.tick_ts
-		else
+			this.tween.props[1].keys = {
+				{
+					0,
+					0
+				},
+				{
+					this.fade_in,
+					255
+				}
+			}
+		elseif fade_out > 0 then
 			this.tween.disabled = true
+		else
+			this.tween = nil
 		end
 	end
 
@@ -5035,16 +5056,21 @@ function scripts.mod_stun.update(this, store, script)
 	local animation_loop = this.animation_loop or "loop"
 	U.animation_start(this, animation_loop, nil, store.tick_ts, true)
 
-	while store.tick_ts - m.ts < m.duration and target and not target.health.dead do
-		if this.render and m.use_mod_offset and target.unit.mod_offset and not m.custom_offsets then
-			for i = 1, #this.render.sprites do
-				local s = this.render.sprites[i]
-
-				s.offset.x, s.offset.y = target.unit.mod_offset.x, target.unit.mod_offset.y
+	local function loop(duration)
+		while store.tick_ts - m.ts <= duration do
+			target = store.entities[m.target_id]
+			if not target or target.health.dead then
+				queue_remove(store, this)
+				return true
 			end
+			this.pos = target.pos
+			coroutine.yield()
 		end
+		return false
+	end
 
-		coroutine.yield()
+	if loop(m.duration - fade_out) then
+		return
 	end
 
 	if m.animation_phases then
@@ -5070,14 +5096,27 @@ function scripts.mod_stun.update(this, store, script)
 		end
 	end
 
-	if this.tween and this.fade_out then
-		this.tween.reverse = true
+	if fade_out > 0 then
 		this.tween.remove = true
+		this.tween.reverse = true
 		this.tween.disabled = false
 		this.tween.ts = store.tick_ts
+		this.tween.props[1].keys = {
+			{
+				0,
+				0
+			},
+			{
+				fade_out,
+				255
+			}
+		}
 	else
 		queue_remove(store, this)
+		return
 	end
+
+	loop(m.duration)
 end
 
 function scripts.mod_stun.remove(this, store, script)
@@ -5723,30 +5762,74 @@ function scripts.mod_tower_factors.update(this, store)
 	end
 
 	m.ts = store.tick_ts
+	local fade_out = 0
 	if this.tween then
-		this.tween.reverse = false
+		this.tween.props[1].sprite_id = {}
+		for i, s in pairs(this.render.sprites) do
+			table.insert(this.tween.props[1].sprite_id, i)
+		end
 		this.tween.remove = false
-		if this.fade_in then
+		if this.fade_out and this.fade_out > 0 then
+			fade_out = this.fade_out
+		end
+		if this.fade_in and this.fade_in > 0 then
 			this.tween.disabled = false
 			this.tween.ts = store.tick_ts
-		else
+			this.tween.props[1].keys = {
+				{
+					0,
+					0
+				},
+				{
+					this.fade_in,
+					255
+				}
+			}
+		elseif fade_out > 0 then
 			this.tween.disabled = true
+		else
+			this.tween = nil
 		end
 	end
 
-	while store.tick_ts - m.ts <= m.duration do
-		this.pos = target.pos
-		coroutine.yield()
+	local function loop(duration)
+		while store.tick_ts - m.ts <= duration do
+			target = store.entities[m.target_id]
+			if not target then
+				queue_remove(store, this)
+				return true
+			end
+			this.pos = target.pos
+			coroutine.yield()
+		end
+		return false
 	end
 
-	if this.tween and this.fade_out then
-		this.tween.reverse = true
+	if loop(m.duration - fade_out) then
+		return
+	end
+
+	if fade_out > 0 then
 		this.tween.remove = true
+		this.tween.reverse = true
 		this.tween.disabled = false
 		this.tween.ts = store.tick_ts
+		this.tween.props[1].keys = {
+			{
+				0,
+				0
+			},
+			{
+				fade_out,
+				255
+			}
+		}
 	else
 		queue_remove(store, this)
+		return
 	end
+
+	loop(m.duration)
 end
 
 scripts.mod_tower_block = {}

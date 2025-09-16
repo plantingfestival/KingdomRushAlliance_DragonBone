@@ -4916,12 +4916,12 @@ end
 local function get_attack_filter_function(attack, this)
 	local filter_fn
 	if attack.allowed_templates then
-		filter_fn = function(e)
-			return table.contains(attack.allowed_templates, e.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(e))
+		filter_fn = function(v, origin)
+			return table.contains(attack.allowed_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	elseif attack.excluded_templates then
-		filter_fn = function(e)
-			return not table.contains(attack.excluded_templates, e.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(e))
+		filter_fn = function(v, origin)
+			return not table.contains(attack.excluded_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	else
 		filter_fn = attack.filter_fn
@@ -5007,22 +5007,43 @@ local function find_target_with_search_type(store, this, a, origin, prediction_t
 end
 
 local function entity_casts_spawner(store, this, a)
-	local filter_fn = get_attack_filter_function(a, this)
-	local targets
+	local filter_fn = get_attack_filter_function(a)
+	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
 	elseif a.range and a.range > 0 then
 		targets = find_targets_in_range(store, this, a, nil, filter_fn)
+	else
+		unconditional = true
 	end
-	local min_targets = a.min_targets or 1
-	if not targets or #targets < min_targets then
-		return false, A_NO_TARGET
+	if not unconditional then
+		local min_targets = a.min_targets or 1
+		if not targets or #targets < min_targets then
+			return false, A_NO_TARGET
+		end
+	end
+
+	if not check_attack_chance(store, a) then
+		return false
+	end
+
+	local function set_entity_nav_rally(entity)
+		if entity.nav_rally and entity.pos then
+			local npos = V.vclone(entity.pos)
+			entity.nav_rally.center = npos
+			entity.nav_rally.pos = npos
+			entity.nav_rally.new = false
+		end
 	end
 
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
 		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
-		U.animation_start(this, a.animation, nil, store.tick_ts)
+		local an, af, ai = U.animation_name_facing_point(this, a.animation, a.custom_spawn_points[1])
+		if a.ignore_flip_x then
+			af = false
+		end
+		U.animation_start(this, an, af, store.tick_ts)
 		if y_entity_wait(store, this, a.cast_time) then
 			return true
 		end
@@ -5043,6 +5064,7 @@ local function entity_casts_spawner(store, this, a)
 			set_entity_level(e, a.level)
 			e.pos = a.custom_spawn_points[i]
 			e.pos.x, e.pos.y = e.pos.x + this.pos.x, e.pos.y + this.pos.y
+			set_entity_nav_rally(e)
 			queue_insert(store, e)
 		end
 		a.ts = start_ts
@@ -5057,7 +5079,7 @@ local function entity_casts_spawner(store, this, a)
 
 	local tpi, tspi, tni
 	if this.nav_path then
-		local tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+		tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
 	else
 		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true)
 		if #nodes >= 1 then
@@ -5072,19 +5094,10 @@ local function entity_casts_spawner(store, this, a)
 	local skip = tni <= nodes_to_entrance or P:nodes_to_defend_point(tpi, tspi, tni) <= nodes_to_exit
 	if not skip then
 		local start_ts = store.tick_ts
-		S:queue(a.sound, a.sound_args)
-		U.animation_start(this, a.animation, nil, store.tick_ts)
-		if y_entity_wait(store, this, a.cast_time) then
-			return true
-		end
-		local max_count = a.max_count or 1
 		local min_nodes = a.min_nodes or 0
 		local max_nodes = a.max_nodes or 0
-		local spawn_delay = a.spawn_delay or 0
-		for i = 1, max_count do
-			if y_entity_wait(store, this, spawn_delay) then
-				return true
-			end
+
+		local function create_summon()
 			local e_name = a.entity_names[U.random_table_idx(a.entity_chances)]
 			local e = E:create_entity(e_name)
 			local nav_path = e.nav_path or {}
@@ -5097,16 +5110,43 @@ local function entity_casts_spawner(store, this, a)
 				nav_path.spi = tspi
 			end
 			nav_path.ni = km.clamp(1, P:get_end_node(tpi), tni + math.random(min_nodes, max_nodes))
+			e.pos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni)
+			return e, nav_path
+		end
+
+		S:queue(a.sound, a.sound_args)
+		local summon1, nav_path1 = create_summon()
+		local an, af, ai = U.animation_name_facing_point(this, a.animation, summon1.pos)
+		if a.ignore_flip_x then
+			af = false
+		end
+		U.animation_start(this, an, af, store.tick_ts)
+		if y_entity_wait(store, this, a.cast_time) then
+			return true
+		end
+		local max_count = a.max_count or 1
+		local spawn_delay = a.spawn_delay or 0
+		for i = 1, max_count do
+			if y_entity_wait(store, this, spawn_delay) then
+				return true
+			end
+			local summon, nav_path
+			if i > 1 then
+				summon, nav_path = create_summon()
+			else
+				summon, nav_path = summon1, nav_path1
+				summon1, nav_path1 = nil, nil
+			end
 			if P:is_node_valid(nav_path.pi, nav_path.ni) then
-				if e.enemy then
-					e.enemy.gold = 0
+				if summon.enemy then
+					summon.enemy.gold = 0
 				end
-				if e.unit and e.render then
-					e.render.sprites[1].name = "raise"
+				if summon.unit and summon.render then
+					summon.render.sprites[1].name = "raise"
 				end
-				set_entity_level(e, a.level)
-				e.pos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni)
-				queue_insert(store, e)
+				set_entity_level(summon, a.level)
+				set_entity_nav_rally(summon)
+				queue_insert(store, summon)
 			end
 		end
 		a.ts = start_ts
@@ -5388,21 +5428,25 @@ local function entity_casts_range_unit(store, this, a)
 end
 
 local function entity_casts_range_at_path(store, this, a)
-	local filter_fn = get_attack_filter_function(a, this)
-	local targets
+	local filter_fn = get_attack_filter_function(a)
+	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
 	elseif a.range and a.range > 0 then
 		targets = find_targets_in_range(store, this, a, nil, filter_fn)
+	else
+		unconditional = true
 	end
-	local min_targets = a.min_targets or 1
-	if not targets or #targets < min_targets then
-		return false, A_NO_TARGET
+	if not unconditional then
+		local min_targets = a.min_targets or 1
+		if not targets or #targets < min_targets then
+			return false, A_NO_TARGET
+		end
 	end
 
 	local tpi, tspi, tni
 	if this.nav_path then
-		local tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+		tpi, tspi, tni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
 	else
 		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true)
 		if #nodes >= 1 then
