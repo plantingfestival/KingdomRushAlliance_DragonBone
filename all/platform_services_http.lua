@@ -200,7 +200,7 @@ end
 function http:get_request_status(rid)
 	local result = proxy.get_request_status(rid)
 
-	log.paranoid("get_request_status (%s) result: %s", rid, result)
+	--log.paranoid("get_request_status (%s) result: %s", rid, result)
 
 	return result
 end
@@ -344,7 +344,7 @@ function http:post(url, header, body, callback, timeout)
 			return
 		end
 
-		log.debug("cb_post(status:%s, req.id:%s)", status, req.id)
+		--log.debug("cb_post(status:%s, req.id:%s)", status, req.id)
 
 		local success = status == 0
 		local rid, code, header_out, data

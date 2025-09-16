@@ -49,18 +49,6 @@ fx_and_decal.miss_decal_flip = nil
 fx_and_decal.miss_decal_water = nil
 fx_and_decal.miss_decal_water_offset = nil
 fx_and_decal.miss_decal_water_flip = nil
-fx_and_decal.fx = nil
-fx_and_decal.fx_offset = nil
-fx_and_decal.fx_flip = nil
-fx_and_decal.fx_water = nil
-fx_and_decal.fx_water_offset = nil
-fx_and_decal.fx_water_flip = nil
-fx_and_decal.decal = nil
-fx_and_decal.decal_offset = nil
-fx_and_decal.decal_flip = nil
-fx_and_decal.decal_water = nil
-fx_and_decal.decal_water_offset = nil
-fx_and_decal.decal_water_flip = nil
 
 local pos = E:register_c("pos")
 

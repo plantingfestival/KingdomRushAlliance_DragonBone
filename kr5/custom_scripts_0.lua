@@ -228,17 +228,16 @@ scripts.basic_spawner = {}
 function scripts.basic_spawner.update(this, store, script)
 	local sprites = this.render.sprites
 	local sp = this.spawner
-	local group = type(this.animation_group) == "table" and this.animation_group or { this.animation_group }
 
 	while true do
 		if sp.spawn_data then
 			sp.spawn_data = nil
 
-			SU.y_entity_all_ani_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
+			SU.entity_all_animations_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
 				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
 		end
 
-		U.y_animation_play(this, sp.initial_spawn_animation, nil, store.tick_ts, 1, this.animation_group)
+		U.y_animation_play_group(this, sp.initial_spawn_animation, nil, store.tick_ts, 1, this.animation_group)
 
 		coroutine.yield()
 	end
@@ -1632,7 +1631,7 @@ function scripts.follow_target.update(this, store, script)
 		for _, i in ipairs(this.attacks.order) do
 			local attack = this.attacks.list[i]
 			attack.target_id = this.target_id
-			if SU.check_entity_attack_available(store, this, attack) then
+			if SU.check_entity_attack_available(store, this, attack) and SU.check_attack_chance(store, a) then
 				interrupted, status = SU.entity_attacks(store, this, attack)
 				if status == A_DONE then
 					break

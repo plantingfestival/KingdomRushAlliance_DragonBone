@@ -1546,6 +1546,35 @@ function U.has_modifier_types(store, entity, ...)
 	return #mods > 0, mods
 end
 
+---将非表的变量放入表中
+---@param variable any 变量
+---@param white_type? table 白名单，默认为{ "table" }
+---@param black_type? table 黑名单
+---@return table 转化后的表
+function U.convert_to_table(variable, white_type, black_type)
+	local whitelist = { "table" }
+
+	for _, v in pairs(white_type) do
+		table.insert(whitelist, v)
+	end
+
+	-- 在白名单内
+	local in_whitelist = table.contains(white_type, type(variable))
+	-- 没有在黑名单内
+	local not_in_blacklist = not table.contains(white_type, type(variable))
+	local table
+
+	if type(t) == "table" then
+		return t
+	elseif in_whitelist and not_in_blacklist then
+		return { t }
+	else
+		log.warning("The type be already ban")
+	end
+
+	return
+end
+
 function U.balance_format(s, b)
 	local function get_value(obj, path)
 		local p = {}

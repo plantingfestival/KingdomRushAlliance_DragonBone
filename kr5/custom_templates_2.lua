@@ -1083,7 +1083,7 @@ tt.timed_attacks.list[1].min_count = 2
 tt.timed_attacks.list[1].node_limit = 80
 tt.timed_attacks.list[1].search_type = U.search_type.nearest
 tt.timed_attacks.list[1].search_stream = U.search_stream.only_upstream
-tt.timed_attacks.list[1].cast_time = fts(19)
+tt.timed_attacks.list[1].cast_time = fts(22)
 tt.timed_attacks.list[1].need_back = false
 tt.timed_attacks.list[1].backed_attack = true
 tt.timed_attacks.list[1].loops = 1
@@ -1097,11 +1097,16 @@ tt.timed_attacks.list[1].sounds = {
 	nil,
 	nil
 }
-tt.timed_attacks.list[1].fx = {
+tt.timed_attacks.list[1].miss_fx = {
 	"chaser_jump_hit_fx",
 	"chaser_jump_effect"
 }
-tt.timed_attacks.list[1].decal = "chaser_decal"
+tt.timed_attacks.list[1].miss_decal = "chaser_decal"
+tt.timed_attacks.list[1].hit_fx = {
+	"chaser_jump_hit_fx",
+	"chaser_jump_effect"
+}
+tt.timed_attacks.list[1].hit_decal = "chaser_decal"
 tt.timed_attacks.list[1].vis_bans = bor(F_ENEMY, F_FLYING)
 tt.render.sprites[1].anchor = v(0.5, 0.176)
 tt.render.sprites[1].prefix = "chaser"

@@ -479,6 +479,38 @@ local function create_attack_damage(a, target_id, source_id)
 	return d
 end
 
+---创建mod实体
+---
+---返回的mod状态表格式为 { [1] = boolean 是否为多个mod, [2] = integer mod数量 }
+---@param store table game.store
+---@param target table 目标
+---@param source table 来源
+---@param a table 攻击
+---@return boolean 是否成功, table mod状态
+local function create_mods(store, target, source, a)
+	local mods_status = {
+		[1] = false,
+		[2] = 0
+	}
+
+	if a.mods then
+		U.convert_to_table(a.mods, { "string" })
+
+		for _, mod_name in pairs(mods) do
+			local mod = E:create_entity(mod_name)
+
+			mod.modifier.source_id = source.id
+			mod.modifier.target_id = target.id
+			mod.modifier.level = a.level
+
+			queue_insert(store, mod_name)
+			mods_status[2] = mods_status[2] + 1
+		end
+	end
+
+	return true, mods_status
+end
+
 local function initial_parabola_speed(from, to, time, g)
 	return V.v((to.x - from.x) / time, (to.y - from.y - 0.5 * g * time * time) / time)
 end
@@ -4181,36 +4213,83 @@ local function set_bullet_damage_factor(entity, bullet)
 	end
 end
 
-local function get_entity_range_origin(entity)
-	return entity.owner and get_entity_range_origin(entity.owner) or 
-	entity.tower and entity.tower.range_offset and V.v(entity.pos.x + entity.tower.range_offset.x, entity.pos.y + entity.tower.range_offset.y) or 
-	entity.unit and entity.unit.range_offset and V.v(entity.pos.x + entity.unit.range_offset.x, entity.pos.y + entity.unit.range_offset.y) or entity.pos
+---获得实体原点
+---@param e table 实体
+---@return vector 原点位置
+local function get_entity_range_origin(e)
+	-- 获得召唤物的来源的原点
+	local get_owner_origin = e.owner and get_entity_range_origin(e.owner)
+	-- 获得防御塔原点
+	local get_tower_origin = e.tower and e.tower.range_offset and V.v(e.pos.x + e.tower.range_offset.x, e.pos.y + e.tower.range_offset.y) 
+	-- 获得单位原点
+	local get_unit_origin = e.unit and e.unit.range_offset and V.v(e.pos.x + e.unit.range_offset.x, e.pos.y + e.unit.range_offset.y)
+
+	return get_owner_origin or get_tower_origin or get_unit_origin or e.pos
 end
 
-local function check_tower_attack_available(store, entity, attack)
-	if not entity then
+---检查概率
+---@param store table game.store
+---@param a table 攻击
+---@return boolean 是否通过检查
+local function check_attack_chance(store, a)
+	if not a.chance or math.random() <= a.chance then
+		return true
+	end
+
+	attack.ts = store.tick_ts
+
+	return false
+end
+
+---基础检查
+---@param store table game.store
+---@param e table 实体
+---@param a table 攻击
+---@return boolean 是否通过检查
+local function basic_check(store, e, a)
+	-- 冷却完毕
+	local finish_cooldown = a.ts and a.ts ~= 0 and store.tick_ts - a.ts >= a.cooldown
+	-- 没有同步动画
+	local not_has_sync_animation = not a.sync_animation or e.render.sprites[1].sync_flag
+	-- 没有指定mods
+	local not_has_specified_mods = not (a.disabled_if_having_modifiers and U.has_modifier_in_list(store, e, a.disabled_if_having_modifiers))
+
+	return not a.disabled and finish_cooldown and not_has_sync_animation and not_has_specified_mods
+end
+
+---塔攻击检查
+---@param store table game.store
+---@param e table 实体
+---@param a table 攻击
+---@return boolean 是否通过检查
+local function check_tower_attack_available(store, e, a)
+	if not e then
 		log.error("Entity doesn't exist.")
 		return false
 	end
-	local tower = entity.tower and entity or entity.owner
+	local tower = e.tower and e or e.owner
 	if not tower or not tower.tower then
 		log.error("%s is not a tower.", entity.template_name)
 		return false
 	end
-	if not attack.disabled and attack.ts and attack.ts ~= 0 and (not attack.can_be_silenced or tower.tower.can_do_magic) and 
-	store.tick_ts - attack.ts >= attack.cooldown and (not attack.sync_animation or entity.render.sprites[1].sync_flag) and 
-	not (attack.disabled_if_having_modifiers and U.has_modifier_in_list(store, entity, attack.disabled_if_having_modifiers)) then
-		return true
-	end
-	return false
+
+	-- 没有被沉默
+	local not_silenced = not a.can_be_silenced or tower.tower.can_do_magic
+
+	return basic_check(store, e, a) and not_silenced
 end
 
-local function check_unit_attack_available(store, entity, attack)
-	if not entity then
+---单位攻击检查
+---@param store table game.store
+---@param e table 实体
+---@param a table 攻击
+---@return boolean 是否通过检查
+local function check_unit_attack_available(store, e, a)
+	if not a then
 		log.error("Entity doesn't exist.")
 		return false
 	end
-	local unit = entity.unit and entity or entity.owner
+	local unit = e.unit and e or e.owner
 	if not unit or not unit.unit then
 		log.error("%s is not a unit.", unit.template_name)
 		return false
@@ -4228,43 +4307,32 @@ local function check_unit_attack_available(store, entity, attack)
 		return false
 	end
 
-	if not attack.disabled and attack.ts and attack.ts ~= 0 and (attack.melee_break or not has_blocker()) and 
-	(not attack.can_be_silenced or not (unit.enemy and unit.enemy.can_do_magic) or not (unit.soldier and unit.soldier.can_do_magic)) and 
-	store.tick_ts - attack.ts >= attack.cooldown and (not attack.sync_animation or entity.render.sprites[1].sync_flag) and 
-	not (attack.disabled_if_having_modifiers and U.has_modifier_in_list(store, entity, attack.disabled_if_having_modifiers)) then
-		return true
-	end
-	return false
+	-- 没有被沉默
+	local not_silenced = not a.can_be_silenced or (unit.enemy and unit.enemy.can_do_magic) or (unit.soldier and unit.soldier.can_do_magic) or not (unit.enemy or unit.soldier)
+	-- 没有被拦截
+	local not_blocker = a.melee_break or not has_blocker()
+
+	return basic_check(store, e, a) and not_blocker and not_silenced
 end
 
-local function check_entity_attack_available(store, entity, attack)
-	if not entity then
+---实体攻击检查
+---@param store table game.store
+---@param e table 实体
+---@param a table 攻击
+---@return boolean 是否通过检查
+local function check_entity_attack_available(store, e, a)
+	if not e then
 		log.error("Entity doesn't exist.")
 		return false
 	end
-	if entity.tower or (entity.owner and entity.owner.tower) then
-		return check_tower_attack_available(store, entity, attack)
+	if e.tower or (e.owner and e.owner.tower) then
+		return check_tower_attack_available(store, e, a)
 	end
-	if entity.unit or (entity.owner and entity.owner.unit) then
-		return check_unit_attack_available(store, entity, attack)
+	if e.unit or (e.owner and e.owner.unit) then
+		return check_unit_attack_available(store, e, a)
 	end
-	if not attack.disabled and attack.ts and attack.ts ~= 0 and store.tick_ts - attack.ts >= attack.cooldown and 
-	(not attack.sync_animation or entity.render.sprites[1].sync_flag) and 
-	not (attack.disabled_if_having_modifiers and U.has_modifier_in_list(store, entity, attack.disabled_if_having_modifiers)) then
-		return true
-	end
-	return false
-end
 
-local function check_attack_chance(store, attack)
-	if not attack.chance then
-		return true
-	end
-	if math.random() <= attack.chance then
-		return true
-	end
-	attack.ts = store.tick_ts
-	return false
+	return basic_check(store, e, a)
 end
 
 local function make_bullet_damage_targets(this, store, target)
@@ -4414,9 +4482,25 @@ local function create_bullet_hit_decal(this, store, flip_x)
 	end
 end
 
+--- 创建特效与贴图实体
+--- @param store table game.store
+--- @param a table 攻击
+--- @param origin vector 原点
+--- @param flip_x boolean 是否镜像
+--- @param name string 名称，用于区分各种特效与贴图
+--- @return table 创建的实体
 local function create_attack_fx_and_decal(store, a, origin, flip_x, name)
 	local offset = name .. "_offset"
 	local flip = name .. "_flip"
+	local created_entities = {}
+	local is_table
+
+	if type(a[name]) == "table" then
+		is_table = true
+	elseif type(a[name]) == "string" then
+		is_table = false
+	end
+
 	local entities = type(a[name]) == "table" and a[name] or { a[name] }
 
 	for _, v in pairs(entities) do
@@ -4437,77 +4521,151 @@ local function create_attack_fx_and_decal(store, a, origin, flip_x, name)
 		end
 
 		queue_insert(store, e)
+		table.insert(created_entities, e)
 	end
+
+	return created_entities
 end
 
---- 检查并创建特效与贴图
+--- 检查并创建贴图实体
+---
+--- 返回的状态格式为：{ is_water = boolean 是否为水中, is_miss = boolean 是否没击中 }
 --- @param store table game.store
---- @param this table 实体
+--- @param source table 来源
 --- @param a table 攻击
---- @param origin vector 原点
---- @param flip_x boolean 是否镜像
+--- @param origin? vector 原点，默认为实体位置
+--- @param flip_x? boolean 是否镜像
 --- @param is_hit boolean 是否击中目标
---- @return nil
-local function check_create_fx_and_decal(store, this , a, origin, flip_x, is_hit)
+--- @return table 创建的实体, table 状态
+local function check_create_decal(store, source, a, origin, flip_x, is_hit)
 	if not origin then
-		origin = get_entity_range_origin(this)
+		origin = get_entity_range_origin(source)
 	end
+	local created_entities
+	local status = {
+		is_water = false,
+		is_miss = false
+	}
+
+	if is_hit then
+		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
+			if a.hit_decal_water then
+				status.is_water = true
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal_water")
+			end
+		else
+			if a.hit_decal then
+				status.is_water = true
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal")
+			end
+		end
+	else
+		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
+			if a.miss_decal_water then
+				status.is_water = true
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal_water")
+			end
+		else
+			if a.miss_decal then
+				status.is_water = true
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal")
+			end
+		end
+	end
+
+	return created_entities, status
+end
+
+--- 检查并创建特效实体
+--- 
+--- 返回的状态格式为：{ is_water = boolean 是否为水中, is_miss = boolean 是否没击中 }
+--- @param store table game.store
+--- @param source table 来源
+--- @param a table 攻击
+--- @param origin? vector 原点，默认为实体位置
+--- @param flip_x? boolean 是否镜像
+--- @param is_hit boolean 是否击中目标
+--- @return table 创建的实体, table 状态
+local function check_create_fx(store, source, a, origin, flip_x, is_hit)
+	if not origin then
+		origin = get_entity_range_origin(source)
+	end
+	local created_entities
+	local status = {
+		is_water = false,
+		is_miss = false
+	}
 
 	if is_hit then
 		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
 			if a.hit_fx_water then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx_water")
-			end
-
-			if a.hit_decal_water then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal_water")
+				status.is_water = true
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx_water")
 			end
 		else
 			if a.hit_fx then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx")
-			end
-
-			if a.hit_decal then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "hit_decal")
+				status.is_water = false
+				status.is_miss = false
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "hit_fx")
 			end
 		end
 	else
 		if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
 			if a.miss_fx_water then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx_water")
-			end
-
-			if a.miss_decal_water then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal_water")
+				status.is_water = true
+				status.is_miss = true
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx_water")
 			end
 		else
 			if a.miss_fx then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx")
-			end
-
-			if a.miss_decal then
-				create_attack_fx_and_decal(store, a, origin, flip_x, "miss_decal")
+				status.is_water = false
+				status.is_miss = true
+				created_entities = create_attack_fx_and_decal(store, a, origin, flip_x, "miss_fx")
 			end
 		end
 	end
 
-	if GR:cell_is(origin.x, origin.y, TERRAIN_WATER) then
-		if a.fx_water then
-			create_attack_fx_and_decal(store, a, origin, flip_x, "fx_water")
-		end
+	return created_entities, status
+end
 
-		if a.decal_water then
-			create_attack_fx_and_decal(store, a, origin, flip_x, "decal_water")
-		end
-	else
-		if a.fx then
-			create_attack_fx_and_decal(store, a, origin, flip_x, "fx")
-		end
+--- 检查并创建附带实体
+--- @param store table game.store
+--- @param source table 来源
+--- @param target table 目标
+--- @param a table 攻击
+--- @param origin? vector 原点，默认为实体位置
+--- @return table 创建的实体
+local function check_create_payload(store, source, target, a, origin)
+	if not origin then
+		origin = get_entity_range_origin(source)
+	end
+	local created_entities = {}
 
-		if a.decal then
-			create_attack_fx_and_decal(store, a, origin, flip_x, "decal")
+	if a.payloads then
+		U.convert_to_table(a.payloads, { "string" })
+
+		for key, value in pairs(a.payloads) do
+			local p = E:create_entity(a.payload)
+
+			p.pos.x, p.pos.y = origin.x, origin.y
+			p.target_id = target.id
+			p.source_id = source.id
+
+			if p.aura then
+				p.aura.level = a.level
+			end
+
+			queue_insert(store, p)
+			table.insert(created_entities, p)
 		end
 	end
+
+	return created_entities
 end
 
 local function hide_shadow(this, isHidden)
@@ -4598,17 +4756,58 @@ local function y_entity_animation_play_group(entity, name, ts, times, group, pos
 	return false, an, af, ai
 end
 
+---播放动画表与声音表的动画与声音
+---
+---mode可选"only_start"
+---@param store table game.store
+---@param e table 实体
+---@param a table 攻击
+---@param ts number 时间戳，默认为当前时间
+---@param mode string 模式，默认为"play"
+---@param idx? string 表的索引，默认为1
+---@param times? integer 播放次数，默认为1
+---@param pos? vector 目标位置，决定是否镜像
+---@return string 播放的动画名, boolean 是否镜像, integer 象限索引
+local function entity_play_sound_and_animation(store, e, a, ts, mode, idx, times, pos)
+	idx = idx or 1
+	times = times or 1
+	local loop = times and times > 1
+	local s_args
+
+	if a.sound_args then
+		s_args = a.sound_args[idx]
+	end
+
+	S:queue(a.sounds[idx], s_args)
+
+	local an, af, ai = a.animations[idx], false, 1
+	if pos then
+		an, af, ai = U.animation_name_facing_point(e, a.animations[idx], pos)
+	end
+	if a.ignore_flip_x then
+		af = false
+	end
+
+	if mode == "only_start" then
+		U.animation_start(e, an, af, ts, loop)
+	else
+		U.y_animation_play(e, an, af, ts, times)
+	end
+
+	return an, af, ai
+end
+
 ---按顺序播放表内所有动画与声音
 ---@param store table game.store
 ---@param entity table 实体
 ---@param animations table 动画表
 ---@param sounds table 声音表
 ---@param sounds_args table 声音参数表
----@param times integer 播放次数组，可选默认为 1
+---@param times integer 播放次数组，默认为1
 ---@param pos vector 目标位置，决定是否镜像
 ---@param ignore_flip_x boolean 是否禁止镜像
 ---@return table 包含所有动画组或动画的返回值
-local function y_entity_all_ani_and_sounds_play(store, entity, animations, sounds, sounds_args, times, pos, ignore_flip_x)
+local function entity_all_animations_and_sounds_play(store, entity, animations, sounds, sounds_args, times, pos, ignore_flip_x)
 	local status = {}
 	times = times or {}
 	if #times == 0 then
@@ -4818,10 +5017,6 @@ local function entity_casts_spawner(store, this, a)
 	local min_targets = a.min_targets or 1
 	if not targets or #targets < min_targets then
 		return false, A_NO_TARGET
-	end
-
-	if not check_attack_chance(store, a) then
-		return false
 	end
 
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
@@ -5124,9 +5319,6 @@ local function entity_casts_range_unit(store, this, a)
 
 	::label_start::
 	if target then
-		if not check_attack_chance(store, a) then
-			return false
-		end
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
 		if a.animation_prepare then
@@ -5206,10 +5398,6 @@ local function entity_casts_range_at_path(store, this, a)
 	local min_targets = a.min_targets or 1
 	if not targets or #targets < min_targets then
 		return false, A_NO_TARGET
-	end
-
-	if not check_attack_chance(store, a) then
-		return false
 	end
 
 	local tpi, tspi, tni
@@ -5341,9 +5529,6 @@ local function entity_casts_object_on_target(store, this, a)
 
 	::label_start::
 	if target then
-		if not check_attack_chance(store, a) then
-			return false
-		end
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
 		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
@@ -5454,46 +5639,12 @@ local function entity_casts_jump_target(store, this, a)
 	local s = this.render.sprites[1]
 	local t = {}
 
+	local function play_s_and_an(idx, ts, pos, times, mode)
+		return entity_play_sound_and_animation(store, this, a, ts, mode, idx, times, pos)
+	end
+
 	local function get_target(prediction_time, use_range)
 		return find_target_with_search_type(store, this, a, origin, prediction_time, use_range, filter_fn)
-	end
-
-	local function create_damage(t)
-		queue_damage(store, create_attack_damage(a, t.id, this.id))
-
-		if a.mod or a.mods then
-			local mods = a.mods or {
-				a.mod
-			}
-
-			for _, mod_name in pairs(mods) do
-				local mod = E:create_entity(mod_name)
-
-				mod.modifier.source_id = this.id
-				mod.modifier.target_id = t.id
-				mod.modifier.level = a.level
-
-				queue_insert(store, mod_name)
-			end
-		end
-
-		hit = true
-	end
-
-	local function play_sound_and_ani(index, to, use_ts, times)
-		local use_ts = use_ts or store.tick_ts
-		local times = times or 1
-		local s_args
-
-		if a.sounds_args then
-			s_args = a.sounds_args[index]
-		end
-
-		S:queue(a.sounds[index], s_args)
-		local an, af = U.animation_name_facing_point(this, a.animations[index], to)
-		U.y_animation_play(this, an, af, use_ts, times)
-
-		return an, af
 	end
 
 	local function parabola(speed, to, from)
@@ -5502,7 +5653,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
 
-			play_sound_and_ani(2, to, s.ts)
+			local an, af, ai = play_s_and_an(2, s.ts, to)
 			coroutine.yield()
 		end
 	end
@@ -5513,8 +5664,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_linear(store.tick_ts - a.ts, from, speed)
 
-			play_sound_and_ani(2, to, s.ts)
-
+			local an, af, ai = play_s_and_an(2, s.ts, to)
 			coroutine.yield()
 		end
 	end
@@ -5557,7 +5707,7 @@ local function entity_casts_jump_target(store, this, a)
 			to, from = t[i - 1].from, t[i - 1].to
 		end
 
-		local an, af = play_sound_and_ani(1, to)
+		local an, af, ai = play_s_and_an(1, store.tick_ts, to)
 		a.ts = store.tick_ts
 
 		if a.jump_type == U.jump_type.parabola then
@@ -5566,49 +5716,41 @@ local function entity_casts_jump_target(store, this, a)
 			linear(a.speed, to, from)
 		end
 
-		if (a.need_back and is_backed and a.backed_attack) or not is_backed then
-			local target, targets, target_pos = get_target(nil, a.use_range)
+		local an, af, ai = play_s_and_an(3, store.tick_ts, to, 1, "only_start")
 
-			if a.is_area_damage and targets then
-				for _, t in pairs(targets) do
-					create_damage(t)
+		if not y_entity_wait(store, this, a.cast_time) then
+			if (a.need_back and is_backed and a.backed_attack) or not is_backed then
+				local target, targets, target_pos = get_target(nil, a.use_range)
+
+				if a.is_area_damage and targets then
+					for _, t in pairs(targets) do
+						hit = create_attack_damage(a, t.id, this.id)
+						create_mods(store, t.id, this.id, a)
+					end
+				elseif target then
+					hit = create_attack_damage(a, t.id, this.id)
+					create_mods(store, target.id, this.id, a)
+				else
+					hit = false
 				end
-			elseif target then
-				create_damage(target)
-			else
-				hit = false
-			end
-		end
-
-		check_create_fx_and_decal(store, this, a, to, af, hit)
-
-		if a.payload then
-			local p = E:create_entity(a.payload)
-
-			p.pos.x, p.pos.y = to.x, to.y
-			p.target_id = target.id
-			p.source_id = this.id
-
-			if p.aura then
-				p.aura.level = a.level
 			end
 
-			queue_insert(store, p)
-		end
+			check_create_fx(store, this, a, to, af, hit)
+			check_create_decal(store, this, a, to, af, hit)
+			check_create_payload(store, this, trigger_target, a, to)
 
-		play_sound_and_ani(3, to)
-		
-		-- 有集结点或集结路径则修改为落点附近节点
-		if this.nav_path then
-			local nearest_path = P:nearest_nodes(to.x, to.y, nil, {1, 2, 3}, true)[1]
+			-- 有集结点或集结路径则修改为落点附近节点
+			if this.nav_path then
+				local nearest_path = P:nearest_nodes(to.x, to.y, nil, { 1, 2, 3 }, true)[1]
 
-			if nearest_path then
-				this.nav_path.pi = nearest_path[1]
-				this.nav_path.spi = nearest_path[2]
-				this.nav_path.ni = nearest_path[3]
+				if nearest_path then
+					this.nav_path.pi = nearest_path[1]
+					this.nav_path.spi = nearest_path[2]
+					this.nav_path.ni = nearest_path[3]
+				end
+			elseif this.nav_rally then
+				this.nav_rally = V.vclone(to)
 			end
-		elseif this.nav_rally then
-			this.nav_rally = V.vclone(to)
 		end
 
 		return jump(i + 1)
@@ -5780,7 +5922,7 @@ local function shooter_attacks(store, this)
 	end
 	local interrupted, status = false, A_IN_COOLDOWN
 	for _, a in ipairs(list) do
-		if check_entity_attack_available(store, this, a) then
+		if check_entity_attack_available(store, this, a) and check_attack_chance(store, a) then
 			local attacks, index
 			if (a.reset_partners_skill or a.skills_interval) and a.skill_id and this.owner then
 				attacks = {}
@@ -5881,6 +6023,7 @@ local SU = {
 	create_bullet_pop = create_bullet_pop,
 	create_bullet_damage = create_bullet_damage,
 	create_attack_damage = create_attack_damage,
+	create_mods = create_mods,
 	initial_parabola_speed = initial_parabola_speed,
 	position_in_parabola = position_in_parabola,
 	parabola_y = parabola_y,
@@ -5959,24 +6102,29 @@ local SU = {
 	set_entity_level = set_entity_level,
 	set_bullet_damage_factor = set_bullet_damage_factor,
 	get_entity_range_origin = get_entity_range_origin,
+	basic_check = basic_check,
+	check_attack_chance = check_attack_chance,
 	check_tower_attack_available = check_tower_attack_available,
 	check_unit_attack_available = check_unit_attack_available,
 	check_entity_attack_available = check_entity_attack_available,
-	check_attack_chance = check_attack_chance,
-	check_create_fx_and_decal = check_create_fx_and_decal,
 	make_bullet_damage_targets = make_bullet_damage_targets,
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
 	create_attack_fx_and_decal = create_attack_fx_and_decal,
+	check_create_decal = check_create_decal,
+	check_create_fx = check_create_fx,
+	check_create_payload = check_create_payload,
 	hide_shadow = hide_shadow,
 	entity_interrupted = entity_interrupted,
 	y_entity_wait = y_entity_wait,
 	y_entity_animation_wait = y_entity_animation_wait,
 	y_entity_animation_play = y_entity_animation_play,
 	y_entity_animation_play_group = y_entity_animation_play_group,
-	y_entity_all_ani_and_sounds_play = y_entity_all_ani_and_sounds_play,
+	entity_play_sound_and_animation = entity_play_sound_and_animation,
+	entity_all_animation_and_sounds_play = entity_all_animation_and_sounds_play,
 	entity_idle = entity_idle,
+	get_entity_nearest_nodes,
 	get_attack_filter_function = get_attack_filter_function,
 	find_targets_in_range = find_targets_in_range,
 	find_target_with_search_type = find_target_with_search_type,
@@ -5984,10 +6132,10 @@ local SU = {
 	entity_casts_range_unit = entity_casts_range_unit,
 	entity_casts_range_at_path = entity_casts_range_at_path,
 	entity_casts_object_on_target = entity_casts_object_on_target,
+	entity_casts_jump_target = entity_casts_jump_target,
 	entity_attacks = entity_attacks,
 	shooter_power_upgrade = shooter_power_upgrade,
 	shooter_attacks = shooter_attacks,
-	entity_casts_jump_target = entity_casts_jump_target,
 }
 
 return SU

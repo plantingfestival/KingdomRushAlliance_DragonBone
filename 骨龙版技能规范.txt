@@ -47,9 +47,6 @@ U.search_stream = {
 	only_upstream = 1,-- 仅上游
 	only_downstream = 2,-- 仅下游
 }
-
-fx：类型string或table。表示无论有没有击中的特效。
-decal：类型string或table。表示无论有没有击中的贴图。
 hit_fx：类型string或table。表示击中特效。
 hit_decal：类型string或table。表示击中后的贴图。
 miss_fx：类型string或table。表示未击中特效。
@@ -133,13 +130,13 @@ spawner组件，专用键值对：
 animations：类型table或string。表示按顺序播放的动画表，格式：
 {
 	"a",-- 动画 1
-	{	-- 动画 2，可选table或string，若为string则使精灵 1 播放指定，无法播放动画组
-		name = "b",-- 动画名
-		group = 1-- 用于确定播放动画组
-		--sprite = 1-- 与上面二选一用于确定哪个精灵播放动画
+	{	-- 动画 2，可选table或string，若为string则使精灵 1 播放指定动画，无法播放动画组。
+		name = "b",-- 动画名。
+		group = 1-- 用于确定播放动画组。
+		--sprite = 1-- 与上面二选一用于确定哪个精灵播放动画。
 	},
-	...-- 可播放多个动画
-}-- 注：不能在中途出现 nil
+	...-- 可播放多个动画。
+}-- 注：不能在中途出现 nil。
 animations_times：类型table。表示索引所对应的动画播放次数表，格式：
 facing_point：类型vector。表示目标点。用于根据朝目标点的角度确定播放的动画。
 ignore_flip_x：类型boolean。表示是否禁止镜像。
