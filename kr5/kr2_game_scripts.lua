@@ -20290,6 +20290,9 @@ function scripts.hero_vampiress.update(this, store, script)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -20388,7 +20391,7 @@ function scripts.hero_vampiress.update(this, store, script)
 			end
 
 			if this.melee then
-				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+				brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 				if brk or sta ~= A_NO_TARGET then
 					goto label_458_0

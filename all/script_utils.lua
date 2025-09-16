@@ -4218,7 +4218,7 @@ local function check_unit_attack_available(store, entity, attack)
 	end
 
 	if not attack.disabled and attack.ts and attack.ts ~= 0 and (attack.melee_break or not has_blocker()) and 
-	(not attack.can_be_silenced or not (unit.enemy and unit.enemy.can_do_magic) or not (unit.soldier and unit.soldier.can_do_magic)) and 
+	(not attack.can_be_silenced or (unit.enemy and unit.enemy.can_do_magic) or (unit.soldier and unit.soldier.can_do_magic) or not (unit.enemy or unit.soldier)) and 
 	store.tick_ts - attack.ts >= attack.cooldown and (not attack.sync_animation or entity.render.sprites[1].sync_flag) and 
 	not (attack.disabled_if_having_modifiers and U.has_modifier_in_list(store, entity, attack.disabled_if_having_modifiers)) then
 		return true

@@ -5687,6 +5687,9 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -5695,9 +5698,6 @@ function scripts.kr4_hero_malik.update(this, store, script)
 					goto label_90_1
 				end
 			end
-
-			SU.alliance_merciless_upgrade(store, this)
-			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.check_unit_attack_available(store, this, a1) then
 				brk, sta = SU.entity_attacks(store, this, a1)
