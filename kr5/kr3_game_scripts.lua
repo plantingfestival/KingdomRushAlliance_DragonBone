@@ -3175,6 +3175,8 @@ function scripts.hero_elves_denas.update(this, store)
 	local h = this.health
 	local he = this.hero
 	local a, skill, brk, sta
+	local skill_ultimate = this.hero.skills.ultimate
+	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
 
 	local function shield_strike_filter_fn(e, origin)
 		local a = this.ranged.attacks[1]
@@ -3191,6 +3193,13 @@ function scripts.hero_elves_denas.update(this, store)
 		if h.dead then
 			SU.y_hero_death_and_respawn(store, this)
 		end
+
+		if not skill_ultimate.ts then
+			SU.heroes_visual_learning_upgrade(store, this)
+			SU.heroes_lone_wolves_upgrade(store, this)
+		end
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
@@ -3307,7 +3316,36 @@ function scripts.hero_elves_denas.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
+				local target, targets, ultimatePos
+				target, targets = U.find_foremost_enemy(store.entities, this.pos, 0, skill_ultimate.max_range)
+				if targets and #targets >= skill_ultimate.min_targets then
+					if not target.nav_path then
+						target = nil
+					else
+						ultimatePos = V.vclone(target.pos)
+						if not ultimate_controller.can_fire_fn(nil, ultimatePos.x, ultimatePos.y) then
+							target = nil
+							ultimatePos = nil
+						end
+					end
+				end
+				if not target or not ultimatePos then
+					skill_ultimate.ts = store.tick_ts - ultimate_controller.cooldown + 0.1
+				else
+					U.animation_start(this, "levelup", nil, store.tick_ts)
+					local u = E:create_entity(ultimate_controller)
+					u.pos = ultimatePos
+					u.level = skill_ultimate.level
+					queue_insert(store, u)
+					skill_ultimate.ts = store.tick_ts
+					if SU.y_entity_animation_wait(this) then
+						goto label_66_0
+					end
+				end
+			end
+
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty

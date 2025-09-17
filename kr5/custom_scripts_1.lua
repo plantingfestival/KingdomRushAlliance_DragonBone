@@ -1786,59 +1786,6 @@ function scripts.hero_dianyun_electric_son.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.controller_item_hero_elves_archer = {}
-function scripts.controller_item_hero_elves_archer.insert(this, store)
-	if not this.entities or #this.entities == 0 then
-		return false
-	end
-	local entities = table.filter(store.entities, function(k, v)
-		for i, name in ipairs(this.entities) do
-			if v.template_name == name then
-				return true
-			end
-		end
-		return false
-	end)
-	if entities and #entities > 0 then
-		return false
-	end
-
-	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, {
-		1
-	}, true)
-	if #nodes < 1 then
-		return false
-	end
-
-	local pi, spi, ni = unpack(nodes[1])
-	local npos = P:node_pos(pi, spi, ni)
-
-	for i, name in ipairs(this.entities) do
-		local entity = E:create_entity(name)
-		local a = 2 * math.pi / #this.entities
-		local pos = U.point_on_ellipse(npos, 25, (i - 1) * a - math.pi / 2)
-		entity.pos = pos
-		entity.nav_rally.center = npos
-		entity.nav_rally.pos = V.vclone(pos)
-		entity.reinforcement.squad_id = this.id
-		if band(entity.vis.flags, F_HERO) ~= 0 then
-			entity.hero.level = 10
-			if entity.hero.skills then
-				for key, value in pairs(entity.hero.skills) do
-					value.level = 3
-					if key == "ultimate" then
-						local ultimate_controller = E:get_template(value.controller_name)
-						value.ts = store.tick_ts - ultimate_controller.cooldown
-					end
-				end
-			end
-		end
-		queue_insert(store, entity)
-	end
-
-	return false
-end
-
 scripts.tower_spirit_mausoleum_bolt = {}
 function scripts.tower_spirit_mausoleum_bolt.update(this, store, script)
 	local b = this.bullet

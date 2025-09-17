@@ -16314,7 +16314,7 @@ tt.spawn_decal = "decal_soldier_reinforcement_stage_15_denas_spawn"
 tt.floor_decal = "decal_soldier_reinforcement_stage_15_denas_floor"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF, F_WATER)
 tt.melee.attacks[1].vis_flags = F_BLOCK
-tt.melee.attacks[1].sound = "CommonNoSwordAttack"
+-- tt.melee.attacks[1].sound = "CommonNoSwordAttack"
 tt.melee.attacks[1].sound_args = {
 	delay = fts(8)
 }
@@ -16332,7 +16332,7 @@ tt.melee.attacks[2].animation = "attack_b"
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].shared_cooldown = false
 tt.melee.attacks[2].cooldown = 0
-tt.melee.attacks[1].sound = "Stage15ReinforcementDenasBasicAttack2"
+tt.melee.attacks[2].sound = "Stage15ReinforcementDenasBasicAttack2"
 tt.melee.attacks[3] = table.deepclone(tt.melee.attacks[1])
 tt.melee.attacks[3].animation = "attack_c"
 tt.melee.attacks[3].damage_min = b.damage_special_min
