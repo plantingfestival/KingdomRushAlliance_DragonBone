@@ -3902,9 +3902,7 @@ function scripts.hero_oni.update(this, store)
 						U.y_wait(store, a.damage_delay)
 
 						for _, target in pairs(targets) do
-							local d = SU.create_attack_damage(a, target.id, this.id)
-
-							queue_damage(store, d)
+							SU.create_attack_damage(a, target, this)
 						end
 
 						SU.y_hero_animation_wait(this)
@@ -6569,9 +6567,7 @@ function scripts.eb_moloch.update(this, store)
 
 					if targets then
 						for _, t in pairs(targets) do
-							local d = SU.create_attack_damage(ha, t.id, this.id)
-
-							queue_damage(store, d)
+							SU.create_attack_damage(ha, target, this)
 						end
 					end
 
@@ -7806,9 +7802,7 @@ function scripts.aura_tesla_overcharge.update(this, store)
 
 	if targets then
 		for _, e in pairs(targets) do
-			local d = SU.create_attack_damage(a, e.id, this.id)
-
-			queue_damage(store, d)
+			SU.create_attack_damage(a, target, this)
 
 			if not this.aura.excluded_templates or not table.contains(this.aura.excluded_templates, e.template_name) then
 				local m = E:create_entity(a.mod)
@@ -8587,9 +8581,7 @@ function scripts.mod_thorn.update(this, store)
 		if store.tick_ts - hit_ts >= this.damage_every then
 			hit_ts = store.tick_ts
 
-			local d = SU.create_attack_damage(this, target.id, this.id)
-
-			queue_damage(store, d)
+			SU.create_attack_damage(this, target, this)
 		end
 
 		coroutine.yield()

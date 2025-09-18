@@ -21119,9 +21119,7 @@ function scripts.drone_hero_mecha.update(this, store)
 						coroutine.yield()
 					end
 
-					local d = SU.create_attack_damage(a, target.id, this.id)
-
-					queue_damage(store, d)
+					SU.create_attack_damage(a, target, this)
 
 					local fx = E:create_entity(a.hit_fx)
 
@@ -23657,7 +23655,7 @@ function scripts.aura_hero_robot_ultimate_train.update(this, store)
 			if already_hit_target then
 				-- block empty
 			elseif target and not target.health.dead and target.enemy then
-				queue_damage(store, SU.create_attack_damage(this, target.id, this.id))
+				SU.create_attack_damage(this, target, this)
 
 				local hit_fx = E:create_entity(this.hit_fx)
 
@@ -24657,7 +24655,8 @@ function scripts.hero_hunter.update(this, store)
 					fx.render.sprites[1].ts = store.tick_ts
 
 					queue_insert(store, fx)
-					queue_damage(store, SU.create_attack_damage(a, target.id, this.id))
+
+					SU.create_attack_damage(a, target, this)
 
 					this.health.hp = this.health.hp + target.health.hp_max * a.heal_factor
 
@@ -28004,7 +28003,7 @@ function scripts.hero_bird_ultimate_child.update(this, store)
 					end
 
 					do
-						local d = SU.create_attack_damage(a, target.id, this.id)
+						SU.create_attack_damage(a, target, this)
 
 						queue_damage(store, d)
 
@@ -34049,7 +34048,8 @@ function scripts.hero_spider.update(this, store)
 
 				this.health_bar.hidden = nil
 
-				queue_damage(store, SU.create_attack_damage(a, target.id, this.id))
+				SU.create_attack_damage(a, target, this)
+				
 				U.y_animation_wait(this)
 
 				if this.nav_rally.new then
@@ -34600,9 +34600,7 @@ function scripts.crow_reinforcement_special_dark_army.update(this, store)
 
 				U.animation_start(this, an, af, store.tick_ts, 1)
 
-				local d = SU.create_attack_damage(a, target.id, this.id)
-
-				queue_damage(store, d)
+				SU.create_attack_damage(a, target, this)
 
 				local fx = E:create_entity(a.hit_fx)
 
@@ -42709,7 +42707,7 @@ function scripts.aura_tower_necromancer_skill_rider.update(this, store, script)
 				this.damage_min = this.damage_min_config[this.aura.level]
 
 				if target and not target.health.dead and target.enemy then
-					queue_damage(store, SU.create_attack_damage(this, target.id, this.id))
+					SU.create_attack_damage(this, target, this)
 
 					local hit_fx = E:create_entity(this.hit_fx)
 

@@ -80,25 +80,32 @@ end
 -- 	end	
 -- end
 
-function entity_db:register_c(name, base)
+function entity_db:register_c(name, ...)
 	if self.components[name] then
 		log.error("component %s already exists", name)
 
 		return
 	end
 
+	local bases = { ... }
 	local c = {}
 
-	if base then
-		if type(base) == "string" then
-			base = self.components[base]
-		end
+	if bases then
+		for _, base in pairs(bases) do
+			if type(base) == "string" then
+				base = self.components[base]
+			end
 
-		if base == nil then
-			log.error("component base %s does not exist", base)
-		end
+			if base == nil then
+				log.error("component base %s does not exist", base)
+			end
 
-		c = copy(base)
+			if next(c) == nil then
+				c = copy(base)
+			else
+				c = table.merge(c, base)
+			end
+		end
 	end
 
 	self.components[name] = c

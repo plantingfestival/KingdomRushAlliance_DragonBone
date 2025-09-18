@@ -5892,9 +5892,7 @@ function scripts.hero_bravebark.update(this, store)
 							spawn_spikes(13, hit_center, a.decal_range, math.pi * 2 / 26, 0.17, 0.5)
 
 							for _, target in pairs(targets) do
-								local d = SU.create_attack_damage(a, target.id, this.id)
-
-								queue_damage(store, d)
+								SU.create_attack_damage(a, target, this)
 							end
 
 							SU.y_hero_animation_wait(this)
@@ -6264,12 +6262,15 @@ function scripts.hero_xin.update(this, store)
 
 				this.health_bar.hidden = nil
 
-				queue_damage(store, SU.create_attack_damage(a, target.id, this.id))
+				SU.create_attack_damage(a, target, this)
+
 				U.y_animation_wait(this)
 
 				if target and not target.health.dead then
 					U.animation_start(this, a.animations[3], lflip, store.tick_ts)
-					queue_damage(store, SU.create_attack_damage(a, target.id, this.id))
+					
+					SU.create_attack_damage(a, target, this)
+					
 					U.y_animation_wait(this)
 				end
 
@@ -7033,9 +7034,7 @@ function scripts.hero_rag.update(this, store)
 
 								if targets then
 									for _, t in pairs(targets) do
-										local d = SU.create_attack_damage(a, t.id, this.id)
-
-										queue_damage(store, d)
+										SU.create_attack_damage(a, target, this)
 
 										local m = E:create_entity(a.mod)
 
@@ -7320,8 +7319,8 @@ function scripts.hero_veznan.update(this, store)
 						SU.hero_gain_xp_from_skill(this, skill)
 
 						for _, t in pairs(targets) do
-							queue_damage(store, SU.create_attack_damage(a, t.id, this.id))
-
+							SU.create_attack_damage(a, target, this)
+							
 							local m = E:create_entity(a.mod)
 
 							m.modifier.source_id = this.id
@@ -9770,9 +9769,7 @@ function scripts.drone_wilbur.update(this, store)
 						coroutine.yield()
 					end
 
-					local d = SU.create_attack_damage(ca, target.id, this.id)
-
-					queue_damage(store, d)
+					SU.create_attack_damage(ca, target, this)
 				end
 
 				while not U.animation_finished(this) do

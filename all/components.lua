@@ -3,6 +3,8 @@ local bor = bit.bor
 local band = bit.band
 local bnot = bit.bnot
 local E = require("entity_db")
+local U = require("utils")
+local V = require("klua.vector")
 
 require("constants")
 
@@ -26,29 +28,63 @@ end
 
 local fx_and_decal = E:register_c("fx_and_decal")
 fx_and_decal.hit_fx = nil
-fx_and_decal.hit_fx_offset = nil
-fx_and_decal.hit_fx_flip = nil
+fx_and_decal.hit_fx_offset = v(0, 0)
+fx_and_decal.hit_fx_flip = false
 fx_and_decal.hit_fx_water = nil
-fx_and_decal.hit_fx_water_offset = nil
-fx_and_decal.hit_fx_water_flip = nil
+fx_and_decal.hit_fx_water_offset = v(0, 0)
+fx_and_decal.hit_fx_water_flip = false
 fx_and_decal.hit_decal = nil
-fx_and_decal.hit_decal_offset = nil
-fx_and_decal.hit_decal_flip = nil
+fx_and_decal.hit_decal_offset = v(0, 0)
+fx_and_decal.hit_decal_flip = false
 fx_and_decal.hit_decal_water = nil
-fx_and_decal.hit_decal_water_offset = nil
-fx_and_decal.hit_decal_water_flip = nil
+fx_and_decal.hit_decal_water_offset = v(0, 0)
+fx_and_decal.hit_decal_water_flip = false
 fx_and_decal.miss_fx = nil
-fx_and_decal.miss_fx_offset = nil
-fx_and_decal.miss_fx_flip = nil
+fx_and_decal.miss_fx_offset = v(0, 0)
+fx_and_decal.miss_fx_flip = false
 fx_and_decal.miss_fx_water = nil
-fx_and_decal.miss_fx_water_offset = nil
-fx_and_decal.miss_fx_water_flip = nil
-fx_and_decal.miss_decal = nil
-fx_and_decal.miss_decal_offset = nil
-fx_and_decal.miss_decal_flip = nil
+fx_and_decal.miss_fx_water_offset = v(0, 0)
+fx_and_decal.miss_fx_water_flip = false
+fx_and_decal.miss_decal = false
+fx_and_decal.miss_decal_offset = v(0, 0)
+fx_and_decal.miss_decal_flip = false
 fx_and_decal.miss_decal_water = nil
-fx_and_decal.miss_decal_water_offset = nil
-fx_and_decal.miss_decal_water_flip = nil
+fx_and_decal.miss_decal_water_offset = v(0, 0)
+fx_and_decal.miss_decal_water_flip = false
+
+local basic_skill_c = E:register_c("basic_skill_c")
+basic_skill_c.skill = nil
+basic_skill_c.level = 1
+basic_skill_c.basic_attack = false
+basic_skill_c.xp_gain_factor = nil
+basic_skill_c.cooldown = nil
+basic_skill_c.chance = 1
+basic_skill_c.min_range = 0
+basic_skill_c.max_range = 0
+basic_skill_c.min_targets = 1
+basic_skill_c.node_limit = 0
+basic_skill_c.node_limit_offset = 0
+basic_skill_c.animations = nil
+basic_skill_c.sounds = nil
+basic_skill_c.sound_args = nil
+basic_skill_c.vis_flags = 0
+basic_skill_c.vis_bans = 0
+basic_skill_c.ts = 0
+basic_skill_c.power_name = nil
+basic_skill_c.melee_break = false
+basic_skill_c.ranged_break = false
+basic_skill_c.cast_time = 0
+basic_skill_c.can_be_silenced = false
+basic_skill_c.ignore_flip_x = false
+basic_skill_c.skill_id = nil
+basic_skill_c.skills_interval = 0
+basic_skill_c.reset_partners_skill = false
+basic_skill_c.extra_cooldowns = {}
+basic_skill_c.search_type = U.search_type.nearest
+basic_skill_c.crowd_range = 0
+basic_skill_c.sort_func = nil
+basic_skill_c.search_stream = nil
+basic_skill_c.stream_offset = 0
 
 local pos = E:register_c("pos")
 
@@ -255,6 +291,14 @@ local click_play = E:register_c("click_play")
 
 click_play.idle_animation = "idle"
 click_play.click_animation = "clicked"
+click_play.facing_point = nil
+click_play.animations = {
+	"idle",
+	"clicked",
+	nil
+}
+click_play.sounds = {}
+click_play.sounds_args = {}
 click_play.required_clicks = 1
 click_play.achievement = nil
 click_play.achievement_flag = nil
@@ -837,7 +881,7 @@ local timed_attacks = E:register_c("timed_attacks")
 
 timed_attacks.list = {}
 
-local jump_attack = E:register_c("jump_attack", "fx_and_decal")
+local jump_attack = E:register_c("jump_attack", "basic_skill_c", "fx_and_decal")
 jump_attack.skill = "jump_target"
 jump_attack.type = "jump"
 jump_attack.animations = {
@@ -845,36 +889,23 @@ jump_attack.animations = {
 	"loop",
 	"jumpOut"
 }
-jump_attack.sounds_args = nil
-jump_attack.sounds = nil
-jump_attack.min_range = 0
-jump_attack.max_range = nil
-jump_attack.cooldown = nil
-jump_attack.chance = 1
-jump_attack.vis_flags = 0
-jump_attack.vis_bans = 0
-jump_attack.ts = 0
 jump_attack.g = -1 / (fts(1) * fts(1))
 jump_attack.flight_time = fts(20)
 jump_attack.speed = nil
 jump_attack.need_back = false
 jump_attack.backed_attack = false
 jump_attack.loops = 1
-jump_attack.jump_type = 1
-jump_attack.level = 0
+jump_attack.jump_type = U.jump_type.parabola
 jump_attack.damage_max = nil
 jump_attack.damage_min = nil
 jump_attack.damage_factor = 1
 jump_attack.damage_type = DAMAGE_PHYSICAL
-jump_attack.mod = nil
+jump_attack.prediction_time = 0
 jump_attack.mods = nil
-jump_attack.node_limit = 0
-jump_attack.node_limit_offset = nil
 jump_attack.hit_payload = nil
 jump_attack.is_area_damage = false
 jump_attack.use_range = "damage_radius"
 jump_attack.damage_radius = nil
-jump_attack.min_count = 1
 jump_attack.xp_gain_factor = nil
 
 jump_attack.filter_fn = nil
@@ -979,9 +1010,9 @@ spawner.allowed_subpaths = {
 spawner.animations = nil
 spawner.animations_times = nil
 spawner.facing_point = nil
-spawner.ignore_flip_x = nil
-spawner.sounds = nil
-spawner.sounds_args = nil
+spawner.ignore_flip_x = false
+spawner.sounds = {}
+spawner.sounds_args = {}
 spawner.animation_loop = nil
 spawner.animation_end = nil
 spawner.animation_start = nil

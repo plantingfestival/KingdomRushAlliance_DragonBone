@@ -5761,9 +5761,11 @@ tt.bullet.hit_payload = "pirates_soldier_goblin_launched_better_crew"
 
 tt = RT("kermit_stage417", "decal_click_play")
 tt.render.sprites[1].prefix = "stage_17_kermit"
-tt.click_play.idle_animation = "idle"
-tt.click_play.click_animation = "drink"
-tt.click_play.idle_on_animation = "foot"
+tt.click_play.animations = {
+	"idle",
+	"drink",
+	"foot"
+}
 tt.main_script.update = scripts.kermit_stage417.update
 tt.ui.can_click = true
 tt.ui.can_select = false

@@ -233,11 +233,12 @@ function scripts.basic_spawner.update(this, store, script)
 		if sp.spawn_data then
 			sp.spawn_data = nil
 
-			SU.entity_all_animations_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
+			SU.entity_all_animations_and_sounds_play(this, sp.animations, sp.sounds, sp.sounds_args,
 				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
 		end
 
-		U.y_animation_play_group(this, sp.initial_spawn_animation, nil, store.tick_ts, 1, this.animation_group)
+		SU.mixed_entity_play_animation(this, sp.initial_spawn_animation, nil, 1, sp.animations_times,
+		sp.facing_point, sp.ignore_flip_x)
 
 		coroutine.yield()
 	end
