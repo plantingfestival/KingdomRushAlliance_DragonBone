@@ -64092,11 +64092,11 @@ function scripts.soldier_reinforcement_stage_15_denas.update(this, store, script
 
 		::label_1068_0::
 
-		attack.hit_offset.x = target.pos.x - this.pos.x + target.unit.hit_offset.x
+		-- attack.hit_offset.x = target.pos.x - this.pos.x + target.unit.hit_offset.x
 
-		if attack ~= a[3] then
-			attack.hit_offset.y = target.pos.y - this.pos.y + target.unit.hit_offset.y
-		end
+		-- if attack ~= a[3] then
+		-- 	attack.hit_offset.y = target.pos.y - this.pos.y + target.unit.hit_offset.y
+		-- end
 
 		local attack_done
 
