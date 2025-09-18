@@ -5710,7 +5710,7 @@ function scripts.kr4_hero_alleria.update(this, store, script)
 	local h = this.health
 	local hero = this.hero
 	for i, a in ipairs(this.timed_attacks.list) do
-		a.ts = store.tick_ts
+		a.ts = store.tick_ts - a.cooldown
 	end
 	this.timed_attacks.order = { 4, 3, 2, 1 }
 

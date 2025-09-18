@@ -133,8 +133,8 @@ tt.bullet.flight_time = fts(13)
 tt = E:register_t("controller_item_hero_denas", "controller_item_hero")
 tt.main_script.insert = customScripts1.controller_item_heroes.insert
 tt.entities = {
+	"hero_elves_denas",
 	"hero_denas",
-	"hero_elves_denas"
 }
 
 tt = RT("hero_denas", "hero5")
