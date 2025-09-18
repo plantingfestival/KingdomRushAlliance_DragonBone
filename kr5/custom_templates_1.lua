@@ -132,6 +132,7 @@ tt.timed_attacks.list[1].search_type = U.search_type.max_health
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.timed_attacks.list[2] = CC("bullet_attack")
+tt.timed_attacks.list[2].melee_break = true
 tt.timed_attacks.list[2].animation = "special"
 tt.timed_attacks.list[2].cooldown = 13
 tt.timed_attacks.list[2].cast_time = 1.21
@@ -255,6 +256,7 @@ tt.bullet.hit_time = fts(2)
 tt.bullet.mod = "mod_malik_attack_ray"
 tt.bullet.hit_payload = "malik_jump_decal"
 tt.bullet.ignore_hit_offset = true
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.sound_events.insert = "malik_tower_destroy_oneshot"
 tt.spawn_pos_offset = v(0, 0)
 

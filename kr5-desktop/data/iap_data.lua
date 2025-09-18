@@ -156,7 +156,7 @@ return {
 			}
 		},
 		hero_denas = {
-			cost = 500,
+			cost = 1000,
 			color_bg = {
 				201,
 				29,

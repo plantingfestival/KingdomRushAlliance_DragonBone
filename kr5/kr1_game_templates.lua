@@ -131,10 +131,14 @@ tt = RT("projectile_denas_melee_bottle", "projectile_denas_bottle")
 tt.bullet.flight_time = fts(13)
 
 tt = E:register_t("controller_item_hero_denas", "controller_item_hero")
-tt.entity = "hero_denas"
+tt.main_script.insert = customScripts1.controller_item_heroes.insert
+tt.entities = {
+	"hero_elves_denas",
+	"hero_denas",
+}
 
 tt = RT("hero_denas", "hero5")
-AC(tt, "melee", "ranged", "timed_attacks")
+AC(tt, "melee", "ranged", "timed_attacks", "reinforcement")
 anchor_x, anchor_y = 0.5, 0.26
 image_x, image_y = 152, 108
 tt.hero.fixed_stat_attack = 6
@@ -353,6 +357,26 @@ tt.timed_attacks.list[3].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.timed_attacks.list[3].vis_flags = F_RANGED
 tt.timed_attacks.list[3].xp_from_skill = "catapult"
 tt.timed_attacks.list[3].search_type = U.search_type.find_max_crowd
+tt.timed_attacks.list[4] = CC("spawn_attack")
+tt.timed_attacks.list[4].skill = "spawner"
+tt.timed_attacks.list[4].cooldown = 30
+tt.timed_attacks.list[4].range = 200
+tt.timed_attacks.list[4].min_targets = 1
+tt.timed_attacks.list[4].vis_bans = bor(F_FRIEND, F_FLYING)
+tt.timed_attacks.list[4].animation = "levelUp"
+tt.timed_attacks.list[4].cast_time = fts(13)
+tt.timed_attacks.list[4].sound = "HeroLevelUp"
+tt.timed_attacks.list[4].spawn_delay = 0
+tt.timed_attacks.list[4].min_nodes = -9
+tt.timed_attacks.list[4].max_nodes = -9
+tt.timed_attacks.list[4].use_center = true
+tt.timed_attacks.list[4].max_count = 1
+tt.timed_attacks.list[4].entity_chances = {
+	1,
+}
+tt.timed_attacks.list[4].entity_names = {
+	"soldier_reinforcement_stage_15_denas"
+}
 
 tt = E:register_t("denas_catapult_rock", "bombKR5")
 tt.bullet.flight_time = fts(45)

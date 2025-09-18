@@ -2228,8 +2228,8 @@ function scripts.hero_denas.update(this, store)
 	local a, skill, brk, sta, target, pred_pos
 	local rock_flight_time = E:get_template("denas_catapult_rock").bullet.flight_time
 
+	this.timed_attacks.list[4].ts = store.tick_ts - this.timed_attacks.list[4].cooldown
 	U.y_animation_play(this, "levelUp", nil, store.tick_ts, 1)
-
 	this.health_bar.hidden = false
 
 	local function do_denas_attack(target, attack, pred_pos)
@@ -2416,6 +2416,17 @@ function scripts.hero_denas.update(this, store)
 					queue_insert(store, e)
 					SU.y_hero_animation_wait(this)
 
+					goto label_54_0
+				end
+			end
+
+			a = this.timed_attacks.list[4]
+			if SU.check_unit_attack_available(store, this, a) then
+				brk, sta = SU.entity_attacks(store, this, a)
+				if sta == A_NO_TARGET then
+					SU.delay_attack(store, a, fts(10))
+				end
+				if brk then
 					goto label_54_0
 				end
 			end
