@@ -1291,6 +1291,17 @@ function scripts.enemy_rhino.update(this, store, script)
 	a.ts = store.tick_ts - a.cooldown
 	a.hit_targets = {}
 
+	if ps_a ~= nil then
+		ps_a.particle_system.emit = false
+	end
+
+	if ps_b ~= nil then
+		ps_b.particle_system.emit = false
+	end
+
+	this.motion.max_speed = this.base_speed
+	this.vis.bans = U.flag_clear(this.vis.bans, F_BLOCK)
+
 	local function ready_to_charge()
 		return store.tick_ts - a.ts > a.cooldown and not U.get_blocker(store, this) and P:nodes_to_defend_point(this.nav_path) > a.min_distance_from_end
 	end
@@ -1298,7 +1309,6 @@ function scripts.enemy_rhino.update(this, store, script)
 	while true do
 		if this.health.dead then
 			SU.y_enemy_death(store, this)
-
 			return
 		end
 
@@ -1307,17 +1317,6 @@ function scripts.enemy_rhino.update(this, store, script)
 		else
 			if this._placed_from_tunnel then
 				this._placed_from_tunnel = nil
-
-				if ps_a ~= nil then
-					ps_a.particle_system.emit = false
-				end
-
-				if ps_b ~= nil then
-					ps_b.particle_system.emit = false
-				end
-
-				this.motion.max_speed = this.base_speed
-				this.vis.bans = U.flag_clear(this.vis.bans, F_BLOCK)
 			end
 
 			if ready_to_charge() then
