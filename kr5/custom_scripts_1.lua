@@ -2111,7 +2111,7 @@ function scripts.soldier_from_enemy.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 				if brk then
 					goto label_43_1
 				end
@@ -5700,7 +5700,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			end
 
 			if SU.check_unit_attack_available(store, this, a1) then
-				brk, sta = SU.entity_attacks(store, this, a1)
+				brk, sta = SU.entity_attacks(this, a1)
 				if sta == A_NO_TARGET then
 					SU.delay_attack(store, a1, fts(10))
 				else
@@ -5880,7 +5880,7 @@ function scripts.kr4_hero_alleria.update(this, store, script)
 			end
 		end
 
-		if SU.y_soldier_timed_attacks(store, this) then
+		if SU.y_soldier_timed_attacks(this) then
 			goto label_continue
 		end
 		interrupted, status = y_hero_melee_block_and_attacks(store, this)
@@ -6189,7 +6189,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 			end
 		end
 
-		if SU.y_soldier_timed_attacks(store, this) then
+		if SU.y_soldier_timed_attacks(this) then
 			goto label_continue
 		end
 		interrupted, status = y_hero_ranged_attacks(store, this)
@@ -6578,7 +6578,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			end
 		end
 
-		if SU.y_soldier_timed_attacks(store, this) then
+		if SU.y_soldier_timed_attacks(this) then
 			goto label_continue
 		end
 

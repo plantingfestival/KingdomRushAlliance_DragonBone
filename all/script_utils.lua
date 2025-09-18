@@ -23,15 +23,16 @@ local bnot = bit.bnot
 
 require("i18n")
 
-local function queue_insert(store, e)
+local function queue_insert(e)
 	simulation:queue_insert_entity(e)
 end
 
-local function queue_remove(store, e)
+local function queue_remove(e)
 	simulation:queue_remove_entity(e)
 end
 
-local function queue_damage(store, damage)
+local function queue_damage(damage)
+	local store = sim.store
 	table.insert(store.damage_queue, damage)
 end
 
@@ -63,7 +64,7 @@ local function remove_modifiers(store, entity, mod_name, exclude_name)
 	end)
 
 	for _, m in pairs(mods) do
-		queue_remove(store, m)
+		queue_remove(m)
 	end
 end
 
@@ -73,7 +74,7 @@ local function remove_modifiers_by_type(store, entity, mod_type, exclude_name)
 	end)
 
 	for _, m in pairs(mods) do
-		queue_remove(store, m)
+		queue_remove(m)
 	end
 end
 
@@ -83,7 +84,7 @@ local function remove_auras(store, entity)
 	end)
 
 	for _, a in pairs(auras) do
-		queue_remove(store, a)
+		queue_remove(a)
 	end
 end
 
@@ -268,7 +269,7 @@ local function do_death_spawns(store, this)
 			fx.render.sprites[1].flip_x = this.render.sprites[1].flip_x
 		end
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	end
 
 	for i = 1, this.death_spawns.quantity do
@@ -306,7 +307,7 @@ local function do_death_spawns(store, this)
 			s.pos.y = s.pos.y + this.death_spawns.offset.y
 		end
 
-		queue_insert(store, s)
+		queue_insert(s)
 	end
 end
 
@@ -326,7 +327,7 @@ local function insert_sprite(store, name, pos, flip_x, ts_offset)
 		end
 	end
 
-	queue_insert(store, e)
+	queue_insert(e)
 
 	return e
 end
@@ -485,7 +486,7 @@ local function create_attack_damage(a, target, source, not_queue_insert)
 	d.source_id = source.id
 
 	if not not_queue_insert then
-		queue_insert(store, m)
+		queue_insert(m)
 	end
 
 	return d
@@ -512,7 +513,7 @@ local function create_mods(a, target, source, not_queue_insert)
 			m.modifier.level = a.level
 
 			if not not_queue_insert then
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 
 			table.insert(created_entities, m)
@@ -679,7 +680,7 @@ local function y_hero_new_rally(store, this)
 					fx.tween.ts = store.tick_ts
 				end
 
-				queue_insert(store, fx)
+				queue_insert(fx)
 			end
 
 			local an, af = U.animation_name_facing_point(this, tp.animations[1], rp)
@@ -707,7 +708,7 @@ local function y_hero_new_rally(store, this)
 					fx.tween.ts = store.tick_ts
 				end
 
-				queue_insert(store, fx)
+				queue_insert(fx)
 			end
 
 			U.y_animation_play(this, tp.animations[2], af, store.tick_ts)
@@ -744,20 +745,20 @@ local function y_hero_new_rally(store, this)
 					controller.start_ts = store.tick_ts
 					controller.delays = { lm.launch_entity_delay }
 					controller.entities = { entity }
-					queue_insert(store, controller)
+					queue_insert(controller)
 				else
 					entity.render.sprites[1].ts = store.tick_ts
 					if entity.tween then
 						entity.tween.ts = store.tick_ts
 					end
-					queue_insert(store, entity)
+					queue_insert(entity)
 				end
 			end
 			local ps
 			if lm.particles_name then
 				ps = E:create_entity(lm.particles_name)
 				ps.particle_system.track_id = this.id
-				queue_insert(store, ps)
+				queue_insert(ps)
 			end
 			for i, sprite in ipairs(this.render.sprites) do
 				if sprite.is_shadow then
@@ -777,7 +778,7 @@ local function y_hero_new_rally(store, this)
 				this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - flight_ts, from, speed, lm.g)
 			end
 			if ps then
-				queue_remove(store, ps)
+				queue_remove(ps)
 			end
 			this.pos.x, this.pos.y = rp.x, rp.y
 			U.set_destination(this, this.pos)
@@ -797,13 +798,13 @@ local function y_hero_new_rally(store, this)
 					controller.start_ts = store.tick_ts
 					controller.delays = { lm.land_entity_delay }
 					controller.entities = { entity }
-					queue_insert(store, controller)
+					queue_insert(controller)
 				else
 					entity.render.sprites[1].ts = store.tick_ts
 					if entity.tween then
 						entity.tween.ts = store.tick_ts
 					end
-					queue_insert(store, entity)
+					queue_insert(entity)
 				end
 			end
 			for i, sprite in ipairs(this.render.sprites) do
@@ -841,7 +842,7 @@ local function y_hero_new_rally(store, this)
 				ps = E:create_entity(tr.particles_name)
 				ps.particle_system.track_id = this.id
 
-				queue_insert(store, ps)
+				queue_insert(ps)
 			end
 
 			repeat
@@ -1006,7 +1007,7 @@ local function y_hero_death_and_respawn(store, this)
 				d.source_id = this.id
 				d.target_id = t.id
 
-				queue_damage(store, d)
+				queue_damage(d)
 			end
 		end
 
@@ -1019,7 +1020,7 @@ local function y_hero_death_and_respawn(store, this)
 		fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 		fx.render.sprites[1].ts = store.tick_ts
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	elseif band(h.last_damage_types, bor(DAMAGE_EAT)) ~= 0 then
 		this.unit.hide_after_death = true
 	elseif band(h.last_damage_types, bor(DAMAGE_HOST)) ~= 0 then
@@ -1033,7 +1034,7 @@ local function y_hero_death_and_respawn(store, this)
 		fx.render.sprites[1].ts = store.tick_ts
 		fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
@@ -1042,7 +1043,7 @@ local function y_hero_death_and_respawn(store, this)
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
-			queue_insert(store, decal)
+			queue_insert(decal)
 		end
 	else
 		S:queue(this.sound_events.death, this.sound_events.death_args)
@@ -1067,7 +1068,7 @@ local function y_hero_death_and_respawn(store, this)
 		tombstone = E:create_entity(he.tombstone_decal)
 		tombstone.pos = this.pos
 
-		queue_insert(store, tombstone)
+		queue_insert(tombstone)
 
 		for _, s in pairs(this.render.sprites) do
 			s.hidden = true
@@ -1081,7 +1082,7 @@ local function y_hero_death_and_respawn(store, this)
 	this.health.death_finished_ts = nil
 
 	if tombstone then
-		queue_remove(store, tombstone)
+		queue_remove(tombstone)
 	end
 
 	if he and he.respawn_point then
@@ -1152,7 +1153,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 				d.source_id = this.id
 				d.target_id = t.id
 
-				queue_damage(store, d)
+				queue_damage(d)
 			end
 		end
 
@@ -1165,7 +1166,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 		fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 		fx.render.sprites[1].ts = store.tick_ts
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	elseif band(h.last_damage_types, bor(DAMAGE_EAT)) ~= 0 then
 		this.unit.hide_after_death = true
 	elseif band(h.last_damage_types, bor(DAMAGE_HOST)) ~= 0 then
@@ -1179,7 +1180,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 		fx.render.sprites[1].ts = store.tick_ts
 		fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
@@ -1188,7 +1189,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
-			queue_insert(store, decal)
+			queue_insert(decal)
 		end
 	else
 		S:queue(this.sound_events.death, this.sound_events.death_args)
@@ -1239,7 +1240,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 			s.ts = store.tick_ts
 		end
 
-		queue_insert(store, tombstone)
+		queue_insert(tombstone)
 	end
 
 	if he.tombstone_concurrent_with_death then
@@ -1307,7 +1308,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 	end
 
 	if tombstone then
-		queue_remove(store, tombstone)
+		queue_remove(tombstone)
 	end
 
 	this.health_bar.hidden = false
@@ -1440,7 +1441,7 @@ local function y_soldier_revive(store, this)
 			fx.pos = this.pos
 			fx.render.sprites[1].ts = store.tick_ts
 
-			queue_insert(store, fx)
+			queue_insert(fx)
 		end
 
 		if r.animation then
@@ -1487,7 +1488,7 @@ local function y_soldier_death(store, this)
 		fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 		fx.render.sprites[1].ts = store.tick_ts
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	elseif band(h.last_damage_types, bor(DAMAGE_EAT)) ~= 0 then
 		this.unit.hide_during_death = true
 	elseif band(h.last_damage_types, bor(DAMAGE_HOST)) ~= 0 then
@@ -1501,7 +1502,7 @@ local function y_soldier_death(store, this)
 		fx.render.sprites[1].ts = store.tick_ts
 		fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
@@ -1510,7 +1511,7 @@ local function y_soldier_death(store, this)
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
-			queue_insert(store, decal)
+			queue_insert(decal)
 		end
 	elseif this.reinforcement and (this.reinforcement.fade or this.reinforcement.fade_out) then
 		y_reinforcement_fade_out(store, this)
@@ -1621,7 +1622,7 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 				b.bullet.level = attack.level
 			end
 
-			queue_insert(store, b)
+			queue_insert(b)
 
 			if attack.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill])
@@ -1720,7 +1721,7 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 			bullet.bullet.damage_factor = this.unit.damage_factor
 		end
 
-		queue_insert(store, bullet)
+		queue_insert(bullet)
 
 		if attack.xp_from_skill then
 			hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill])
@@ -1852,7 +1853,7 @@ local function y_soldier_do_timed_action(store, this, action)
 				m.modifier.source_id = this.id
 				m.modifier.level = action.level
 
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 		elseif action.aura then
 			local e = E:create_entity(action.aura)
@@ -1861,7 +1862,7 @@ local function y_soldier_do_timed_action(store, this, action)
 			e.aura.level = action.level
 			e.pos = V.vclone(this.pos)
 
-			queue_insert(store, e)
+			queue_insert(e)
 		end
 
 		y_soldier_animation_wait(this)
@@ -1914,7 +1915,7 @@ local function y_soldier_do_timed_attack(store, this, target, attack)
 	spell.spell.source_id = this.id
 	spell.spell.target_id = target.id
 
-	queue_insert(store, spell)
+	queue_insert(spell)
 
 	attack_done = true
 
@@ -2016,7 +2017,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 			d.reduce_magic_armor = attack.reduce_magic_armor
 		end
 
-		queue_damage(store, d)
+		queue_damage(d)
 
 		if attack.mod or attack.mods then
 			local mods = attack.mods or {
@@ -2032,7 +2033,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 				m.modifier.level = attack.level
 				m.modifier.target_idx = i
 
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 		end
 	end
@@ -2044,7 +2045,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 		a.aura.target_id = target.id
 		a.aura.source_id = this.id
 
-		queue_insert(store, a)
+		queue_insert(a)
 	end
 
 	if attack.hit_fx then
@@ -2056,7 +2057,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 			fx.render.sprites[i].ts = store.tick_ts
 		end
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	end
 
 	if attack.hit_decal then
@@ -2068,7 +2069,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 			fx.render.sprites[i].ts = store.tick_ts
 		end
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 	end
 
 	attack_done = true
@@ -2199,7 +2200,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						d.reduce_magic_armor = attack.reduce_magic_armor
 					end
 
-					queue_damage(store, d)
+					queue_damage(d)
 
 					if attack.mod or attack.mods then
 						local mods = attack.mods or {
@@ -2214,7 +2215,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 							m.modifier.source_id = this.id
 							m.modifier.level = attack.level
 			
-							queue_insert(store, m)
+							queue_insert(m)
 						end
 					end
 				end
@@ -2228,7 +2229,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						fx.render.sprites[i].ts = store.tick_ts
 					end
 
-					queue_insert(store, fx)
+					queue_insert(fx)
 				end
 
 				if attack.hit_decal then
@@ -2240,7 +2241,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						fx.render.sprites[i].ts = store.tick_ts
 					end
 
-					queue_insert(store, fx)
+					queue_insert(fx)
 				end
 			elseif this.soldier and this.soldier.target_id == target.id then
 				local d = E:create_entity("damage")
@@ -2263,7 +2264,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				d.pop_chance = attack.pop_chance
 				d.pop_conds = attack.pop_conds
 
-				queue_damage(store, d)
+				queue_damage(d)
 
 				if attack.mod or attack.mods then
 					local mods = attack.mods or {
@@ -2278,7 +2279,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						m.modifier.source_id = this.id
 						m.modifier.level = attack.level
 
-						queue_insert(store, m)
+						queue_insert(m)
 					end
 				end
 			end
@@ -2401,7 +2402,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 				d.value = math.ceil(this.unit.damage_factor * math.random(attack.damage_min, attack.damage_max))
 			end
 
-			queue_damage(store, d)
+			queue_damage(d)
 		end
 
 		if attack.mod or attack.mods then
@@ -2417,7 +2418,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 				m.modifier.source_id = this.id
 				m.modifier.level = attack.level
 
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 		end
 
@@ -2435,7 +2436,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 			a.aura.target_id = target.id
 			a.aura.source_id = this.id
 
-			queue_insert(store, a)
+			queue_insert(a)
 		end
 
 		if attack.hit_fx then
@@ -2447,7 +2448,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 				fx.render.sprites[i].ts = store.tick_ts
 			end
 
-			queue_insert(store, fx)
+			queue_insert(fx)
 		end
 
 		if attack.hit_decal then
@@ -2459,7 +2460,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 				fx.render.sprites[i].ts = store.tick_ts
 			end
 
-			queue_insert(store, fx)
+			queue_insert(fx)
 		end
 	end
 
@@ -2483,7 +2484,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 				fx.pos.x, fx.pos.y = target.pos.x, target.pos.y
 				fx.render.sprites[1].ts = store.tick_ts
 
-				queue_insert(store, fx)
+				queue_insert(fx)
 			end
 		end
 	end
@@ -2905,7 +2906,7 @@ local function heroes_desperate_effort_upgrade(store, this)
 		m.modifier.source_id = this.id
 		m.modifier.target_id = this.id
 
-		queue_insert(store, m)
+		queue_insert(m)
 	end
 end
 
@@ -2942,7 +2943,7 @@ local function heroes_visual_learning_upgrade(store, this)
 				m.modifier.source_id = this.id
 				m.modifier.target_id = this.id
 
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 
 			this._upgrade_data.heroes_visual_learning.ts = store.tick_ts
@@ -2983,7 +2984,7 @@ local function heroes_lone_wolves_upgrade(store, this)
 				m.modifier.source_id = this.id
 				m.modifier.target_id = this.id
 
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 
 			this._upgrade_data.heroes_lone_wolves.ts = store.tick_ts
@@ -3116,7 +3117,7 @@ local function enemy_water_change(store, this)
 			fx.render.sprites[1].ts = store.tick_ts
 			fx.pos = V.vclone(this.pos)
 
-			queue_insert(store, fx)
+			queue_insert(fx)
 
 			if this.sound_events and this.sound_events.water_splash then
 				S:queue(this.sound_events.water_splash)
@@ -3323,7 +3324,7 @@ local function y_enemy_death(store, this)
 			decal.render.sprites[1].z = e.render.sprites[1].z
 			decal.render.sprites[1].sort_y_offset = 1
 
-			queue_insert(store, decal)
+			queue_insert(decal)
 		end
 	end
 
@@ -3347,7 +3348,7 @@ local function y_enemy_death(store, this)
 		fx.render.sprites[1].ts = store.tick_ts
 		fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 		show_blood_pool(this, terrain_type)
 
 		this.unit.hide_during_death = true
@@ -3365,7 +3366,7 @@ local function y_enemy_death(store, this)
 			fx.render.sprites[1].offset.y = this.unit.hit_offset.y
 		end
 
-		queue_insert(store, fx)
+		queue_insert(fx)
 
 		this.unit.hide_during_death = true
 		this.unit.show_blood_pool = false
@@ -3595,7 +3596,7 @@ local function y_enemy_do_ranged_attack(store, this, target, attack)
 			bullet.bullet.damage_factor = attack.damage_factor
 		end
 
-		queue_insert(store, bullet)
+		queue_insert(bullet)
 	end
 
 	while not U.animation_finished(this) do
@@ -3661,7 +3662,7 @@ local function y_enemy_do_loopable_ranged_attack(store, this, target, attack)
 				b.bullet.damage_factor = attack.damage_factor
 			end
 
-			queue_insert(store, b)
+			queue_insert(b)
 
 			attack_done = true
 		end
@@ -3827,12 +3828,12 @@ local function y_enemy_melee_attacks(store, this, target)
 						if ma.instakill then
 							d.damage_type = DAMAGE_INSTAKILL
 
-							queue_damage(store, d)
+							queue_damage(d)
 						elseif ma.damage_min then
 							d.damage_type = ma.damage_type
 							d.value = math.ceil(this.unit.damage_factor * math.random(ma.damage_min, ma.damage_max))
 
-							queue_damage(store, d)
+							queue_damage(d)
 						end
 
 						if ma.mod or ma.mods then
@@ -3846,7 +3847,7 @@ local function y_enemy_melee_attacks(store, this, target)
 								m.modifier.target_id = target.id
 								m.modifier.source_id = this.id
 				
-								queue_insert(store, m)
+								queue_insert(m)
 							end
 						end
 					elseif ma.type == "area" then
@@ -3872,7 +3873,7 @@ local function y_enemy_melee_attacks(store, this, target)
 								d.pop_chance = ma.pop_chance
 								d.pop_conds = ma.pop_conds
 
-								queue_damage(store, d)
+								queue_damage(d)
 
 								if ma.mod or ma.mods then
 									local mods = ma.mods or {
@@ -3885,7 +3886,7 @@ local function y_enemy_melee_attacks(store, this, target)
 										m.modifier.target_id = e.id
 										m.modifier.source_id = this.id
 						
-										queue_insert(store, m)
+										queue_insert(m)
 									end
 								end
 							end
@@ -3910,7 +3911,7 @@ local function y_enemy_melee_attacks(store, this, target)
 							fx.render.sprites[i].ts = store.tick_ts
 						end
 
-						queue_insert(store, fx)
+						queue_insert(fx)
 					end
 
 					if ma.hit_decal then
@@ -3922,7 +3923,7 @@ local function y_enemy_melee_attacks(store, this, target)
 							fx.render.sprites[i].ts = store.tick_ts
 						end
 
-						queue_insert(store, fx)
+						queue_insert(fx)
 					end
 				end
 
@@ -4001,7 +4002,7 @@ local function y_show_taunt_set(store, taunts, set_name, index, pos, duration, w
 	t.duration = duration
 	t.start_ts = store.tick_ts
 
-	queue_insert(store, t)
+	queue_insert(t)
 
 	if wait then
 		U.y_wait(store, duration)
@@ -4065,7 +4066,7 @@ local function y_spawner_spawn(store, this)
 			spawn = table.deepmerge(spawn, sp.patch_props)
 		end
 
-		queue_insert(store, spawn)
+		queue_insert(spawn)
 		table.insert(spawns, spawn)
 
 		local spawn_ts = store.tick_ts
@@ -4365,7 +4366,7 @@ local function make_bullet_damage_targets(this, store, target)
 		if targets then
 			for _, target in ipairs(targets) do
 				local d = create_bullet_damage(b, target.id, b.source_id)
-				queue_damage(store, d)
+				queue_damage(d)
 				if b.mod or b.mods then
 					local mods = b.mods or {
 						b.mod
@@ -4376,14 +4377,14 @@ local function make_bullet_damage_targets(this, store, target)
 						m.modifier.target_id = target.id
 						m.modifier.level = b.level
 						m.modifier.source_damage = d
-						queue_insert(store, m)
+						queue_insert(m)
 					end
 				end
 			end
 		end
 	elseif target and target.health and not target.health.dead then
 		local d = create_bullet_damage(b, target.id, this.id)
-		queue_damage(store, d)
+		queue_damage(d)
 		if b.mod or b.mods then
 			local mods = b.mods or {
 				b.mod
@@ -4394,7 +4395,7 @@ local function make_bullet_damage_targets(this, store, target)
 				m.modifier.target_id = target.id
 				m.modifier.level = b.level
 				m.modifier.source_damage = d
-				queue_insert(store, m)
+				queue_insert(m)
 			end
 		end
 	end
@@ -4430,7 +4431,7 @@ local function create_bullet_hit_payload(this, store, flip_x)
 				hp.nav_rally.pos = npos
 				hp.nav_rally.new = false
 			end
-			queue_insert(store, hp)
+			queue_insert(hp)
 		end
 
 		local payloadType = type(b.hit_payload)
@@ -4531,7 +4532,7 @@ local function create_attack_fx_and_decal(a, origin, flip_x, name)
 			s.ts = store.tick_ts
 		end
 
-		queue_insert(store, e)
+		queue_insert(e)
 		table.insert(created_entities, e)
 	end
 
@@ -4671,7 +4672,7 @@ local function check_create_payload(source, target, a, origin)
 				p.aura.level = a.level
 			end
 
-			queue_insert(store, p)
+			queue_insert(p)
 			table.insert(created_entities, p)
 		end
 	end
@@ -5049,7 +5050,8 @@ local function find_target_with_search_type(store, this, a, origin, prediction_t
 	return target, targets, pred_pos
 end
 
-local function entity_casts_spawner(store, this, a)
+local function entity_casts_spawner(this, a)
+	local store = sim.store
 	local filter_fn = get_attack_filter_function(a)
 	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
@@ -5108,7 +5110,7 @@ local function entity_casts_spawner(store, this, a)
 			e.pos = a.custom_spawn_points[i]
 			e.pos.x, e.pos.y = e.pos.x + this.pos.x, e.pos.y + this.pos.y
 			set_entity_nav_rally(e)
-			queue_insert(store, e)
+			queue_insert(e)
 		end
 		a.ts = start_ts
 		if a.xp_from_skill then
@@ -5189,7 +5191,7 @@ local function entity_casts_spawner(store, this, a)
 				end
 				set_entity_level(summon, a.level)
 				set_entity_nav_rally(summon)
-				queue_insert(store, summon)
+				queue_insert(summon)
 			end
 		end
 		a.ts = start_ts
@@ -5204,7 +5206,8 @@ local function entity_casts_spawner(store, this, a)
 	return false, A_NO_TARGET
 end
 
-local function entity_casts_range_unit(store, this, a)
+local function entity_casts_range_unit(this, a)
+	local store = sim.store
 	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
 	local filter_fn, origin
@@ -5347,7 +5350,7 @@ local function entity_casts_range_unit(store, this, a)
 				bullet.bullet.vis_bans = a.vis_bans
 			end
 			if not a.precharge then
-				queue_insert(store, bullet)
+				queue_insert(bullet)
 			end
 		end
 	end
@@ -5361,7 +5364,7 @@ local function entity_casts_range_unit(store, this, a)
 		bullet.pos = this.pos
 
 		table.insert(a.precharge.stored_bullets, bullet)
-		queue_insert(store, bullet)
+		queue_insert(bullet)
 		a.ts = store.tick_ts
 		S:queue(a.precharge.sound, a.precharge.sound_args)
 		if a.precharge.animation then
@@ -5470,7 +5473,8 @@ local function entity_casts_range_unit(store, this, a)
 	return false, A_NO_TARGET
 end
 
-local function entity_casts_range_at_path(store, this, a)
+local function entity_casts_range_at_path(this, a)
+	local store = sim.store
 	local filter_fn = get_attack_filter_function(a)
 	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
@@ -5580,7 +5584,7 @@ local function entity_casts_range_at_path(store, this, a)
 			if a.set_bullet_vis_bans then
 				bullet.bullet.vis_bans = a.vis_bans
 			end
-			queue_insert(store, bullet)
+			queue_insert(bullet)
 		end
 		a.ts = start_ts
 		if a.xp_from_skill then
@@ -5594,7 +5598,8 @@ local function entity_casts_range_at_path(store, this, a)
 	return true
 end
 
-local function entity_casts_object_on_target(store, this, a)
+local function entity_casts_object_on_target(this, a)
+	local store = sim.store
 	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
 	local filter_fn, origin
@@ -5698,9 +5703,9 @@ local function entity_casts_object_on_target(store, this, a)
 				local controller = E:create_entity("entities_delay_controller")
 				controller.delays = { a.delay }
 				controller.entities = { e }
-				queue_insert(store, controller)
+				queue_insert(controller)
 			else
-				queue_insert(store, e)
+				queue_insert(e)
 			end
 			a.ts = start_ts
 			if a.xp_from_skill then
@@ -5721,7 +5726,8 @@ end
 --- @param this table 实体
 --- @param a table 攻击
 --- @return boolean 是否跳过此后的其他攻击, number 状态码
-local function entity_casts_jump_target(store, this, a)
+local function entity_casts_jump_target(this, a)
+	local store = sim.store
 	local hit = false
 	local s = this.render.sprites[1]
 	local t = {}
@@ -5858,25 +5864,26 @@ end
 
 -- 返回的第一个参数，为true代表必须跳过entity之后的逻辑，为false代表可继续，为nil代表可跳可不跳。
 -- 返回的第二个参数，没有合适的目标时返回A_NO_TARGET，技能已施放时返回A_DONE。其他情况返回nil。
-local function entity_attacks(store, this, a)
+local function entity_attacks(this, a)
 	if a.skill == "range_unit" then
-		return entity_casts_range_unit(store, this, a)
+		return entity_casts_range_unit(this, a)
 	end
 	if a.skill == "range_at_path" then
-		return entity_casts_range_at_path(store, this, a)
+		return entity_casts_range_at_path(this, a)
 	end
 	if a.skill == "object_on_target" then
-		return entity_casts_object_on_target(store, this, a)
+		return entity_casts_object_on_target(this, a)
 	end
 	if a.skill == "spawner" then
-		return entity_casts_spawner(store, this, a)
+		return entity_casts_spawner(this, a)
 	end
 	if a.skill == "jump_target" then
-		return entity_casts_jump_target(store, this, a)
+		return entity_casts_jump_target(this, a)
 	end
 end
 
-local function y_soldier_timed_attacks(store, this)
+local function y_soldier_timed_attacks(this)
+	local store = sim.store
 	local list
 	if this.timed_attacks.order then
 		list = {}
@@ -5928,7 +5935,7 @@ local function y_soldier_timed_attacks(store, this)
 					end
 				end
 			end
-			interrupted, status = entity_attacks(store, this, a)
+			interrupted, status = entity_attacks(this, a)
 			if a.extra_cooldowns and status == A_DONE then
 				for _, c in ipairs(a.extra_cooldowns) do
 					for _, ta in ipairs(list) do
@@ -6038,7 +6045,7 @@ local function shooter_attacks(store, this)
 					end
 				end
 			end
-			interrupted, status = entity_attacks(store, this, a)
+			interrupted, status = entity_attacks(this, a)
 			if a.extra_cooldowns and status == A_DONE then
 				for _, c in ipairs(a.extra_cooldowns) do
 					for _, sa in ipairs(list) do

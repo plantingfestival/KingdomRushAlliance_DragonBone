@@ -1019,7 +1019,7 @@ function scripts.kr4_soldier_barrack.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 				if brk then
 					goto label_43_1
 				end
@@ -1194,7 +1194,7 @@ function scripts.kr4_soldier_reinforcement.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 				if brk then
 					goto label_481_1
 				end
@@ -1633,7 +1633,7 @@ function scripts.follow_target.update(this, store, script)
 			local attack = this.attacks.list[i]
 			attack.target_id = this.target_id
 			if SU.check_entity_attack_available(store, this, attack) and SU.check_attack_chance(store, a) then
-				interrupted, status = SU.entity_attacks(store, this, attack)
+				interrupted, status = SU.entity_attacks(this, attack)
 				if status == A_DONE then
 					break
 				end
@@ -2339,7 +2339,7 @@ scripts.kr4_enemy_mixed = {}
 function scripts.kr4_enemy_mixed.update(this, store, script)
 	local function check_unit_attack(store, this, a)
 		if SU.check_unit_attack_available(store, this, a) then
-			return SU.entity_attacks(store, this, a)
+			return SU.entity_attacks(this, a)
 		end
 		return false
 	end
@@ -2843,7 +2843,7 @@ function scripts.soldier_wander.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 				if brk then
 					goto label_43_1
 				end
@@ -3048,7 +3048,7 @@ function scripts.soldier_hover.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 				if brk then
 					goto label_43_1
 				end

@@ -52992,7 +52992,7 @@ function scripts.soldier_priests_barrack.update(this, store, script)
 				end
 
 				if this.timed_attacks then
-					brk, sta = SU.y_soldier_timed_attacks(store, this)
+					brk, sta = SU.y_soldier_timed_attacks(this)
 
 					if brk then
 						goto label_1140_1
@@ -53152,7 +53152,7 @@ function scripts.soldier_abomination_priests_barrack.update(this, store, script)
 			end
 
 			if this.timed_attacks then
-				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				brk, sta = SU.y_soldier_timed_attacks(this)
 
 				if brk then
 					goto label_1142_1
