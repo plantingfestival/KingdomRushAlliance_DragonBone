@@ -5676,6 +5676,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 						if bullet.bullet.use_unit_damage_factor then
 							bullet.bullet.damage_factor = this.unit.damage_factor
 						end
+						bullet.bullet.to = V.vclone(target.pos)
 						queue_insert(store, bullet)
 						a2.ts = start_ts
 					end
