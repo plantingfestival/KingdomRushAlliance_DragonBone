@@ -1204,6 +1204,7 @@ return {
 			"kra_sfx_stage15_reinforcementDenas_basicAttack_p2_var3_v1.ogg",
 			"kra_sfx_stage15_reinforcementDenas_secondaryAttack_v1.ogg",
 			"kra_sfx_stage15_reinforcementDenas_summon_op1_v1.ogg",
+			"kra_sfx_stage15_reinforcementDenas_out_v1.ogg",
 		}
 	},
 	item_kr4_hero_malik = {

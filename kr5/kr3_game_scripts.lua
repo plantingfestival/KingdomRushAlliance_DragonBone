@@ -3417,8 +3417,8 @@ function scripts.hero_elves_denas_ultimate.update(this, store)
 			e.pos = p
 			e.nav_rally.center = V.vclone(e.pos)
 			e.nav_rally.pos = V.vclone(e.pos)
-			e.melee.attacks[1].xp_dest_id = this.owner.id
-			e.melee.attacks[2].xp_dest_id = this.owner.id
+			-- e.melee.attacks[1].xp_dest_id = this.owner.id
+			-- e.melee.attacks[2].xp_dest_id = this.owner.id
 
 			queue_insert(store, e)
 		end
