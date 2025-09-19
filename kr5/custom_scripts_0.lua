@@ -2044,12 +2044,15 @@ function scripts.fx_repeat_forever.update(this, store, script)
 
 	local start_ts = store.tick_ts
 	if this.random_shift then
-		start_ts = start_ts + math.random() * -1
+		start_ts = start_ts + math.random() * -16
 	end
-	U.y_animation_play(this, this.render.sprites[1].name, nil, start_ts)
+	U.animation_start(this, this.render.sprites[1].name, nil, start_ts, true, nil, true)
+	while not U.animation_finished(this, 1, 1) do
+		coroutine.yield()
+	end
 
 	if this.min_delay and this.max_delay then
-		start_ts = start_ts + U.frandom(this.min_delay, this.max_delay)
+		start_ts = store.tick_ts + U.frandom(this.min_delay, this.max_delay)
 	end
 
 	while true do
