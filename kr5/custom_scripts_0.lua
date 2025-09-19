@@ -1525,7 +1525,18 @@ function scripts.follow_target.update(this, store, script)
 		U.y_wait(store, this.fade_time)
 	end
 
+	local function reset_offset(target)
+		local hit_offset_y = target.unit and target.unit.hit_offset and target.unit.hit_offset.y or 0
+		for _, s in pairs(this.render.sprites) do
+			s.offset.y = s._original_offset_y + hit_offset_y
+		end
+	end
+
+	for _, s in pairs(this.render.sprites) do
+		s._original_offset_y = s.offset.y
+	end
 	this.pos = target.pos
+	reset_offset(target)
 	this.attacks.order = U.attack_order(this.attacks.list)
 	for i, a in ipairs(this.attacks.list) do
 		a.level = this.level
@@ -1599,6 +1610,7 @@ function scripts.follow_target.update(this, store, script)
 		if target then
 			this.target_id = target.id
 			this.pos = target.pos
+			reset_offset(target)
 			if newTarget then
 				fade_in()
 			end
