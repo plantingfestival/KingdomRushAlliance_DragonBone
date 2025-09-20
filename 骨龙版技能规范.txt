@@ -107,8 +107,7 @@ use_caster_position：类型boolean。代表是否选择施法者的位置，来
 delay：类型number。代表完成施法前摇后，entity出现的延迟时间。
 
 向目标突进的技能jump_target，专用键值对：
-is_area_damage：类型boolean。表示是否为范围伤害。
-damage_radius：类型number。表示伤害的范围，需要是范围伤害才可用。
+damage_radius：类型number。表示伤害的范围。
 min_count：类型integer。表示附近有一定数量的敌人才发动技能。
 node_limit：类型integer。表示距离防守点小于设定的键值时不会发动技能。
 jump_type：类型integer。表示突进类型。可选的值如下：
@@ -132,8 +131,9 @@ animations：类型table或string。表示按顺序播放的动画表，格式�
 	"a",-- 动画 1
 	{	-- 动画 2，可选table或string，若为string则使精灵 1 播放指定动画，无法播放动画组。
 		name = "b",-- 动画名。
-		group = 1-- 用于确定播放动画组。
+		group = 1-- 用于确定播放的动画组。
 		--sprite = 1-- 与上面二选一用于确定哪个精灵播放动画。
+		times = 1 播放次数，可选，默认为1。
 	},
 	...-- 可播放多个动画。
 }-- 注：不能在中途出现 nil。

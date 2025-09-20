@@ -1548,31 +1548,29 @@ end
 
 ---将非表的变量放入表中
 ---@param variable any 变量
----@param white_type? table 白名单，默认为{ "table" }
----@param black_type? table 黑名单
----@return table 转化后的表
-function U.convert_to_table(variable, white_type, black_type)
-	local whitelist = { "table" }
-
-	for _, v in pairs(white_type) do
-		table.insert(whitelist, v)
+---@param white_type|string? table 白名单
+---@param black_type|string? table 黑名单
+---@return table 转化后的表, boolean 是否被ban
+function U.put_to_table(variable, white_type, black_type)
+	if type(variable) == "table" then
+		return variable
+	end
+	
+	if white_type and black_type then
+		white_type = type(white_type) == "table" and white_type or { white_type }
+		black_type = type(black_type) == "table" and black_type or { black_type }
+	else
+		white_type = white_type or {}
+		black_type = black_type or {}
 	end
 
-	-- 在白名单内
-	local in_whitelist = table.contains(white_type, type(variable))
-	-- 没有在黑名单内
-	local not_in_blacklist = not table.contains(white_type, type(variable))
-	local table
-
-	if type(t) == "table" then
-		return t
-	elseif in_whitelist and not_in_blacklist then
-		return { t }
+	if not white_type and not black_type or table.contains(white_type, type(variable)) and not table.contains(black_type, type(variable)) then
+		return { variable }
 	else
 		log.warning("The type be already ban")
-	end
 
-	return
+		return variable, true
+	end
 end
 
 function U.balance_format(s, b)

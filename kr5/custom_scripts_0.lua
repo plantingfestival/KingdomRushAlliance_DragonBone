@@ -233,11 +233,11 @@ function scripts.basic_spawner.update(this, store, script)
 		if sp.spawn_data then
 			sp.spawn_data = nil
 
-			SU.entity_all_animations_and_sounds_play(this, sp.animations, sp.sounds, sp.sounds_args,
+			SU.entity_all_animations_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
 				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
 		end
 
-		SU.mixed_entity_play_animation(this, sp.initial_spawn_animation, nil, 1, sp.animations_times,
+		SU.mixed_entity_play_animation(store, this, sp.initial_spawn_animation, store.tick_ts, 1,
 		sp.facing_point, sp.ignore_flip_x)
 
 		coroutine.yield()
@@ -1632,8 +1632,8 @@ function scripts.follow_target.update(this, store, script)
 		for _, i in ipairs(this.attacks.order) do
 			local attack = this.attacks.list[i]
 			attack.target_id = this.target_id
-			if SU.check_entity_attack_available(store, this, attack) and SU.check_attack_chance(store, a) then
-				interrupted, status = SU.entity_attacks(this, attack)
+			if SU.check_entity_attack_available(store, this, attack) then
+				interrupted, status = SU.entity_attacks(store, this, attack)
 				if status == A_DONE then
 					break
 				end
@@ -2398,7 +2398,7 @@ scripts.kr4_enemy_mixed = {}
 function scripts.kr4_enemy_mixed.update(this, store, script)
 	local function check_unit_attack(store, this, a)
 		if SU.check_unit_attack_available(store, this, a) then
-			return SU.entity_attacks(this, a)
+			return SU.entity_attacks(store, this, a)
 		end
 		return false
 	end

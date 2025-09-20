@@ -5647,7 +5647,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			end
 
 			if SU.check_unit_attack_available(store, this, a1) then
-				brk, sta = SU.entity_attacks(this, a1)
+				brk, sta = SU.entity_attacks(store, this, a1)
 				if sta == A_NO_TARGET then
 					SU.delay_attack(store, a1, fts(10))
 				else
@@ -6615,7 +6615,7 @@ function scripts.kermit_stage417.update(this, store, script)
 	end
 
 	local function play_animation(idx, pos, ignore_flip_x, not_wayt)
-		return SU.mixed_entity_play_animation(this, c.animations, nil, idx, 1, pos, ignore_flip_x, not_wayt)
+		return SU.mixed_entity_play_animation(this, c.animations, store.tick_ts, idx, pos, ignore_flip_x, not_wayt)
 	end
 
 	while true do

@@ -903,8 +903,6 @@ jump_attack.damage_type = DAMAGE_PHYSICAL
 jump_attack.prediction_time = 0
 jump_attack.mods = nil
 jump_attack.hit_payload = nil
-jump_attack.is_area_damage = false
-jump_attack.use_range = "damage_radius"
 jump_attack.damage_radius = nil
 jump_attack.xp_gain_factor = nil
 
