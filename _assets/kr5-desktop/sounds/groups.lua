@@ -219,6 +219,91 @@ return {
 			"Sound_RockElementalDeath.ogg",
 		}
 	},
+	kr2_common = {
+		files = {
+			"GUITransitionClose.ogg",
+			"GUITransitionOpen.ogg",
+			"Sound_CommonAreaHit.ogg",
+			"Sound_EnemyBigDead.ogg",
+			"Sound_EnemyExplode1.ogg",
+			"Sound_EnemyGoblinDead.ogg",
+			"Sound_EnemyHealing.ogg",
+			"Sound_EnemyOrcDead.ogg",
+			"Sound_EnemyPuffDead.ogg",
+			"Sound_EnemySkeletonBreak2.ogg",
+			"Sound_EnemyTrollDead.ogg",
+			"Sound_EngineerShot.ogg",
+			"Sound_FireballHit.ogg",
+			"Sound_FireballUnleash.ogg",
+			"Sound_GUIButtonCommon.ogg",
+			"Sound_GUIBuyUpgrade.ogg",
+			"Sound_GUIMouseOverTowerIcon.ogg",
+			"Sound_GUIOpenTowerMenu.ogg",
+			"Sound_HumanDead1.ogg",
+			"Sound_HumanDead2.ogg",
+			"Sound_HumanDead3.ogg",
+			"Sound_HumanDead4.ogg",
+			"Sound_LooseLife.ogg",
+			"Sound_MageShot.ogg",
+			"Sound_MapNewFlag.ogg",
+			"Sound_MapRoad.ogg",
+			"Sound_NextWaveReady.ogg",
+			"Sound_NotificationClose.ogg",
+			"Sound_NotificationOpen.ogg",
+			"Sound_NotificationPaperOver.ogg",
+			"Sound_NotificationSecondLevel.ogg",
+			"Sound_QuestCompleted.ogg",
+			"Sound_QuestFailed.ogg",
+			"Sound_RallyPointPlaced.ogg",
+			"Sound_RocketLaunt.ogg",
+			"Sound_Shootgun.ogg",
+			"Sound_Shrapnel.ogg",
+			"Sound_Sniper.ogg",
+			"Sound_Sorcerer.ogg",
+			"Sound_SpellRefresh.ogg",
+			"Sound_SpellSelect.ogg",
+			"Sound_SpiderAttack2.ogg",
+			"Sound_TowerBuilding.ogg",
+			"Sound_TowerOpenDoor.ogg",
+			"Sound_TowerSell.ogg",
+			"Sound_WaveIncoming.ogg",
+			"Sound_WinStars.ogg",
+			"Sound_WolfAttack.ogg",
+			"Sound_WolfAttack2.ogg",
+			"blazefang_attack.ogg",
+			"blazefang_death.ogg",
+			"canibal_eating.ogg",
+			"canibal_necromancer.ogg",
+			"canibal_zombie_one.ogg",
+			"canibal_zombie_three.ogg",
+			"canibal_zombie_two.ogg",
+			"darter_teleout.ogg",
+			"inapp_atfreezeend.ogg",
+			"inapp_atfreezestart.ogg",
+			"inapp_cash.ogg",
+			"inapp_chin.ogg",
+			"inapp_freeze.ogg",
+			"inapp_gems.ogg",
+			"inapp_gnome.ogg",
+			"inapp_hearts.ogg",
+			"inapp_nuke.ogg",
+			"inapp_nuke_falling.ogg",
+			"mecromancer_summon.ogg",
+			"myrmidon_bite.ogg",
+			"necromancer_attack.ogg",
+			"nightscale_invisibility.ogg",
+			"sandwraith_coffin.ogg",
+			"saurian_brute_attack.ogg",
+			"savant_attack.ogg",
+			"savant_open_portal.ogg",
+			"savant_portal_loop.ogg",
+			"savant_telein.ogg",
+			"wasp_1.ogg",
+			"wasp_2.ogg",
+			"wasp_3.ogg",
+			"wilhelm_scream.ogg"
+		}
+	},
 	-- customization
 	splash = {
 		files = {
@@ -486,6 +571,35 @@ return {
 			"MusicBattlePrep_126",
 			"MusicBattle_126",
 			"KR1_MusicBossFight"
+		}
+	},
+	music_stage219 = {
+		sounds = {
+			"MusicBattlePrep_219",
+			"MusicBattle_219",
+			"MusicHalloweenMoon"
+		}
+	},
+	music_stage220 = {
+		sounds = {
+			"MusicBattlePrep_220",
+			"MusicBattle_220",
+			"MusicHalloweenMoon"
+		}
+	},
+	music_stage221 = {
+		sounds = {
+			"MusicBattlePrep_221",
+			"MusicBattle_221",
+			"MusicHalloweenMoon",
+			"KR2_MusicBossFight"
+		}
+	},
+	music_stage222 = {
+		sounds = {
+			"MusicBattlePrep_222",
+			"MusicBattle_222",
+			"KR2_MusicBossFight"
 		}
 	},
 	sounds_stage426 = {

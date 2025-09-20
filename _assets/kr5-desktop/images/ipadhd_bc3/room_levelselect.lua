@@ -2957,6 +2957,81 @@ return {
 		},
 		alias = {}
 	},
+	level_select_thumbs_thumb_stage_219_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-219.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_220_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-220.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_221_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-221.dds",
+		defer = true,
+		size = {
+			2016,
+			1064
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2016,
+			1064
+		},
+		f_quad = {
+			0,
+			0,
+			2016,
+			1064
+		},
+		alias = {}
+	},
 	level_select_thumbs_thumb_stage_426_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-426.dds",
 		defer = true,
