@@ -402,6 +402,9 @@ return {
 		ignis_altar = {
 			icon_idx = 1
 		},
+		deep_devils = {
+			icon_idx = 1
+		},
 		random = {
 			icon_idx = 1
 		}
@@ -491,6 +494,9 @@ return {
 		ignis_altar = {
 			icon_idx = 1
 		},
+		deep_devils = {
+			icon_idx = 1
+		},
 		random = {
 			icon_idx = 1
 		}
@@ -518,6 +524,7 @@ return {
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
+		"deep_devils",
 		"random"
 	},
 	tower_order_free = {
@@ -543,6 +550,7 @@ return {
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
+		"deep_devils",
 		"random"
 	},
 	tower_order_censored_cn = {
@@ -584,16 +592,19 @@ return {
 		"hero_hacksaw",
 		"hero_ingvar",
 		"kr4_hero_malik",
+		"kr4_hero_alleria",
 		"hero_dragon",
 		"hero_beastmaster",
 		"hero_priest",
 		"hero_voodoo_witch",
 		"hero_wizard",
 		"hero_dwarf",
+		"hero_vampiress",
 		"hero_elves_archer",
 		"hero_faustus",
 		"hero_phoenix",
 		"hero_veznan",
+		"hero_bolverk",
 		"hero_jack_o_lantern",
 	},
 	item_order_censored_cn = {

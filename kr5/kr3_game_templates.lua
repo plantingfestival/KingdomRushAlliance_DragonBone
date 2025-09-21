@@ -1813,7 +1813,7 @@ tt = E:register_t("mod_arivan_ultimate_freeze", "mod_arivan_freeze")
 tt.modifier.duration = nil
 
 tt = E:register_t("controller_item_hero_elves_archer", "controller_item_hero")
-tt.main_script.insert = customScripts1.controller_item_hero_elves_archer.insert
+tt.main_script.insert = customScripts1.controller_item_heroes.insert
 tt.entities = {
 	"hero_elves_archer",
 	"hero_arivan"
@@ -8317,10 +8317,8 @@ end
 -- 	E:set_template("re_current_" .. i, E:get_template("soldier_re_0_" .. i))
 -- end
 
-tt = E:register_t("hero_elves_denas", "hero")
-
-E:add_comps(tt, "melee", "ranged", "timed_attacks")
-
+tt = E:register_t("hero_elves_denas", "hero5")
+E:add_comps(tt, "melee", "ranged", "timed_attacks", "reinforcement")
 tt.hero.level_stats.armor = {
 	0.38,
 	0.41,
@@ -8348,26 +8346,26 @@ tt.hero.level_stats.hp_max = {
 tt.hero.level_stats.melee_damage_max = {
 	14,
 	17,
-	19,
-	21,
+	20,
 	23,
-	25,
-	27,
-	30,
+	26,
+	29,
 	32,
-	34
+	35,
+	38,
+	41
 }
 tt.hero.level_stats.melee_damage_min = {
 	10,
-	11,
 	12,
 	14,
-	15,
-	17,
+	16,
 	18,
 	20,
-	21,
-	23
+	22,
+	24,
+	26,
+	28
 }
 tt.hero.level_stats.regen_health = {
 	18,
@@ -8391,13 +8389,13 @@ tt.hero.skills.celebrity.hr_icon = "0022"
 tt.hero.skills.celebrity.hr_order = 2
 tt.hero.skills.celebrity.max_targets = {
 	3,
-	6,
-	9
+	9,
+	27
 }
 tt.hero.skills.celebrity.stun_duration = {
 	1,
 	2,
-	3
+	4
 }
 tt.hero.skills.celebrity.xp_gain = {
 	50,
@@ -8413,7 +8411,7 @@ tt.hero.skills.mighty.damage_max = {
 tt.hero.skills.mighty.damage_min = {
 	70,
 	122,
-	171
+	174
 }
 tt.hero.skills.mighty.hr_cost = {
 	2,
@@ -8429,14 +8427,14 @@ tt.hero.skills.mighty.xp_gain = {
 }
 tt.hero.skills.shield_strike = E:clone_c("hero_skill")
 tt.hero.skills.shield_strike.damage_max = {
-	36,
-	46,
-	52
+	42,
+	84,
+	126
 }
 tt.hero.skills.shield_strike.damage_min = {
-	20,
-	26,
-	30
+	36,
+	72,
+	108
 }
 tt.hero.skills.shield_strike.hr_cost = {
 	2,
@@ -8447,8 +8445,8 @@ tt.hero.skills.shield_strike.hr_icon = "0024"
 tt.hero.skills.shield_strike.hr_order = 4
 tt.hero.skills.shield_strike.rebounds = {
 	3,
-	4,
-	5
+	5,
+	7
 }
 tt.hero.skills.shield_strike.xp_gain = {
 	25,
@@ -8478,15 +8476,19 @@ tt.hero.skills.ultimate.hr_cost = {
 tt.hero.skills.ultimate.hr_icon = "0025"
 tt.hero.skills.ultimate.hr_order = 5
 tt.hero.skills.ultimate.key = "DEFENDER"
+tt.hero.skills.ultimate.max_range = 200
+tt.hero.skills.ultimate.min_targets = 6
 tt.health.dead_lifetime = 15
 tt.health_bar.offset = v(0, 46)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr3_scripts.hero_elves_denas.level_up
+tt.hero.team = TEAM_LINIREA
+tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.info.fn = kr3_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0005"
+-- tt.info.hero_portrait = "hero_portraits_0005"
 tt.info.i18n_key = "HERO_ELVES_DENAS"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0005"
+tt.info.portrait = "portraits_hero_0132"
 tt.info.ultimate_icon = "0005"
 tt.main_script.insert = kr3_scripts.hero_elves_denas.insert
 tt.main_script.update = kr3_scripts.hero_elves_denas.update
@@ -8500,7 +8502,7 @@ tt.render.sprites[1].angles.walk = {
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "hero_elves_denas"
 tt.soldier.melee_slot_offset = v(10, 0)
-tt.sound_events.change_rally_point = "ElvesHeroDenasTaunt"
+tt.sound_events.change_rally_point = nil
 tt.sound_events.death = "ElvesHeroDenasDeath"
 tt.sound_events.respawn = "ElvesHeroDenasTauntIntro"
 tt.sound_events.insert = "ElvesHeroDenasTauntIntro"
@@ -8512,12 +8514,13 @@ tt.melee.attacks[1].cooldown = 1.2
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].xp_gain_factor = 0.95
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
 tt.melee.attacks[2].animation = "attack2"
 tt.melee.attacks[2].chance = 0.5
 tt.melee.attacks[3] = E:clone_c("melee_attack")
 tt.melee.attacks[3].animation = "specialAttack"
-tt.melee.attacks[3].cooldown = 18
+tt.melee.attacks[3].cooldown = 9
 tt.melee.attacks[3].disabled = true
 tt.melee.attacks[3].damage_type = DAMAGE_TRUE
 tt.melee.attacks[3].hit_time = fts(25)
@@ -8536,7 +8539,7 @@ tt.ranged.attacks[1].bullet_start_offset = {
 tt.ranged.attacks[1].cooldown = 15
 tt.ranged.attacks[1].max_range = 150
 tt.ranged.attacks[1].min_range = 40
-tt.ranged.attacks[1].rebound_range = 125
+tt.ranged.attacks[1].rebound_range = 150
 tt.ranged.attacks[1].shoot_time = fts(13)
 tt.ranged.attacks[1].animation = "shieldThrow"
 tt.ranged.attacks[1].xp_from_skill = "shield_strike"
@@ -8546,7 +8549,7 @@ tt.timed_attacks.list[1].cooldown = 25
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].hit_time = fts(9)
 tt.timed_attacks.list[1].mod = "mod_elves_denas_celebrity"
-tt.timed_attacks.list[1].range = 100
+tt.timed_attacks.list[1].range = 150
 tt.timed_attacks.list[1].sound = "ElvesHeroDenasCelebrity"
 tt.timed_attacks.list[1].vis_bans = bor(F_BOSS)
 tt.timed_attacks.list[1].vis_flags = bor(F_MOD, F_RANGED, F_STUN)
@@ -8556,7 +8559,7 @@ tt.timed_attacks.list[2].animation = "eat"
 tt.timed_attacks.list[2].cooldown = 20
 tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].hit_time = fts(37)
-tt.timed_attacks.list[2].lost_health = 100
+tt.timed_attacks.list[2].lost_health = 120
 tt.timed_attacks.list[2].mod = "mod_elves_denas_sybarite"
 tt.timed_attacks.list[2].sound = "ElvesHeroDenasSybarite"
 tt.wealthy = {}
@@ -8566,21 +8569,21 @@ tt.wealthy.sound = "ElvesHeroDenasWealthy"
 tt.wealthy.last_wave = 1
 tt.wealthy.hit_time = fts(9)
 tt.wealthy.fx = "fx_coin_jump"
+
 tt = E:register_t("hero_elves_denas_ultimate")
-
 E:add_comps(tt, "pos", "main_script", "sound_events")
-
-tt.cooldown = 60
+tt.cooldown = 43.2
 tt.guards_count = {
 	[0] = 2,
-	3,
 	4,
-	5
+	6,
+	8
 }
 tt.guards_template = "soldier_elves_denas_guard"
 tt.main_script.update = kr3_scripts.hero_elves_denas_ultimate.update
 tt.sound_events.insert = "ElvesHeroDenasKingsguardTaunt"
 tt.can_fire_fn = kr3_scripts.hero_elves_denas_ultimate.can_fire_fn
+
 tt = E:register_t("soldier_elves_denas_guard", "soldier_militia")
 
 E:add_comps(tt, "reinforcement", "tween")
@@ -8591,13 +8594,13 @@ tt.health.armor = 0.4
 tt.health.hp_max = 200
 tt.health_bar.offset = v(0, 40)
 tt.info.fn = kr3_scripts.soldier_reinforcement.get_info
-tt.info.portrait = "portraits_sc_0059"
-tt.info.random_name_count = 15
+tt.info.portrait = "bottom_info_image_soldiers_0053"
+tt.info.random_name_count = 17
 tt.info.random_name_format = "ELVES_SOLDIER_IMPERIAL_%i_NAME"
 tt.main_script.insert = kr3_scripts.soldier_reinforcement.insert
 tt.main_script.update = kr3_scripts.soldier_reinforcement.update
-tt.melee.attacks[1].damage_max = 12
-tt.melee.attacks[1].damage_min = 4
+tt.melee.attacks[1].damage_max = 24
+tt.melee.attacks[1].damage_min = 12
 tt.melee.attacks[1].hit_time = fts(13)
 tt.melee.attacks[1].shared_cooldown = true
 tt.melee.attacks[1].chance = 0.5
@@ -8648,7 +8651,7 @@ tt.modifier.bans = {
 	"mod_dark_spitters",
 	"mod_balrog"
 }
-tt.modifier.duration = fts(22)
+tt.modifier.duration = 22
 tt.render.sprites[1].name = "fx_elves_denas_heal"
 tt = E:register_t("fx_elves_denas_flash", "fx")
 tt.render.sprites[1].name = "fx_elves_denas_flash"
@@ -12518,14 +12521,16 @@ tt.tween.props[1].keys = {
 }
 tt.tween.props[1].sprite_id = 2
 tt.tween.props[1].loop = true
-tt = E:register_t("kr3_hero_alleria", "stage_hero")
 
-E:add_comps(tt, "melee", "ranged")
-
+tt = E:register_t("kr3_hero_alleria", "hero5")
+E:add_comps(tt, "melee", "ranged", "reinforcement", "tween")
 image_y = 66
 anchor_y = 15 / image_y
+tt.reinforcement.duration = 30
+tt.reinforcement.fade = nil
+tt.reinforcement.fade_out = true
 tt.health.armor = 0
-tt.health.dead_lifetime = 15
+tt.health.dead_lifetime = 5
 tt.health.hp_max = 210
 tt.health_bar.offset = v(0, 36)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -12534,13 +12539,13 @@ tt.hero.xp = 11299
 tt.hero.tombstone_show_time = fts(90)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr3_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0019"
-tt.info.i18n_key = "HERO_ARCHER"
-tt.info.portrait = "portraits_sc_0064"
+-- tt.info.hero_portrait = "hero_portraits_0019"
+tt.info.i18n_key = "HERO_ARCHER_PHANTOM"
+tt.info.portrait = "portraits_hero_0130"
 tt.info.damage_icon = "arrow"
 tt.fixed_mode = nil
-tt.main_script.insert = kr3_scripts.hero_alleria.insert
-tt.main_script.update = kr3_scripts.hero_alleria.update
+tt.main_script.insert = kr3_scripts.kr3_hero_alleria.insert
+tt.main_script.update = kr3_scripts.kr3_hero_alleria.update
 tt.motion.max_speed = 3 * FPS
 tt.regen.cooldown = 1
 tt.regen.health = 23
@@ -12562,14 +12567,17 @@ tt.sound_events.respawn = "ElvesHeroAlleriaTauntIntro"
 tt.unit.hit_offset = v(0, 16)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 13)
+tt.unit.fade_time_after_death = tt.health.dead_lifetime - 1
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 15
-tt.melee.attacks[1].damage_min = 10
+tt.melee.attacks[1].basic_attack = true
+tt.melee.attacks[1].damage_max = 30
+tt.melee.attacks[1].damage_min = 20
 tt.melee.attacks[1].hit_time = fts(8)
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.range = 65
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].animation = "ranged"
 tt.ranged.attacks[1].bullet = "arrow_hero_alleria"
 tt.ranged.attacks[1].bullet_start_offset = {
@@ -12592,6 +12600,20 @@ tt.ranged.attacks[2].min_range = 40
 tt.ranged.attacks[2].node_prediction = fts(13)
 tt.ranged.attacks[2].shoot_time = fts(13)
 tt.ranged.attacks[2].sound = "ElvesHeroAlleriaShoot"
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
+
 tt = E:register_t("hero_alleria_fixed", "kr3_hero_alleria")
 tt.fixed_mode = true
 tt.health.ignore_damage = true
@@ -12601,28 +12623,32 @@ tt.render.sprites[1].z = Z_OBJECTS + 1
 tt.ui.can_click = false
 tt.ui.can_select = false
 tt.ranged.attacks[1].bullet = "arrow_hero_alleria_fixed"
-tt.ranged.attacks[1].filter_fn = kr3_scripts.hero_alleria.fixed_ranged_filter_fn
+tt.ranged.attacks[1].filter_fn = kr3_scripts.kr3_hero_alleria.fixed_ranged_filter_fn
 tt.ranged.attacks[1].max_range = 600
 tt.ranged.attacks[1].min_range = 0
 tt.ranged.attacks[2].bullet = "arrow_multishot_hero_alleria_fixed"
 tt.ranged.attacks[2].cooldown = 7
-tt.ranged.attacks[2].filter_fn = kr3_scripts.hero_alleria.fixed_ranged_filter_fn
+tt.ranged.attacks[2].filter_fn = kr3_scripts.kr3_hero_alleria.fixed_ranged_filter_fn
 tt.ranged.attacks[2].max_range = 600
 tt.ranged.attacks[2].min_range = 0
+
 tt = E:register_t("arrow_hero_alleria", "arrow")
 tt.bullet.flight_time = fts(22)
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 20
+tt.bullet.damage_max = 30
+tt.bullet.use_unit_damage_factor = true
+
 tt = E:register_t("arrow_multishot_hero_alleria", "arrow")
 tt.bullet.particles_name = "ps_arrow_multishot_hero_alleria"
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 20
+tt.bullet.damage_max = 30
 tt.bullet.damage_true = DAMAGE_TRUE
 tt.bullet.flight_time = fts(22)
 tt.extra_arrows_range = 100
 tt.extra_arrows = 2
 tt.main_script.insert = kr3_scripts.arrow_multishot_hero_alleria.insert
 tt.render.sprites[1].name = "hero_alleria_arrow-f"
+
 tt = E:register_t("arrow_hero_alleria_fixed", "arrow_hero_alleria")
 tt.bullet.damage_min = 10
 tt.bullet.damage_max = 30
@@ -12632,10 +12658,9 @@ tt.bullet.damage_min = 10
 tt.bullet.damage_max = 30
 tt.bullet.prediction_error = nil
 tt.extra_arrows = 3
+
 tt = E:register_t("alleria_cat", "soldier")
-
-E:add_comps(tt, "nav_grid")
-
+E:add_comps(tt, "nav_grid", "reinforcement", "tween")
 anchor_y = 0.2619047619047619
 image_y = 42
 tt.behaviour_attack = {}
@@ -12674,10 +12699,22 @@ tt.unit.mod_offset = v(0, 10)
 tt.unit.hide_after_death = true
 tt.unit.explode_fx = nil
 tt.vis.bans = F_ALL
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
+
 tt = RT("hero_baby_malik", "stage_hero")
-
 AC(tt, "melee")
-
 tt.hero.level_stats.armor = {
 	0,
 	0,
@@ -12853,10 +12890,12 @@ tt.melee.attacks[4].hit_offset = v(22, 0)
 tt.melee.attacks[4].hit_time = fts(17)
 tt.melee.attacks[4].sound = "HeroReinforcementJump"
 tt.melee.attacks[4].xp_from_skill = "fissure"
-tt = RT("hero_bolverk", "stage_hero")
 
+tt = E:register_t("controller_item_hero_bolverk", "controller_item_hero")
+tt.entity = "hero_bolverk"
+
+tt = RT("hero_bolverk", "hero5")
 AC(tt, "melee", "timed_attacks")
-
 tt.health.armor = 0
 tt.health.dead_lifetime = 15
 tt.health.hp_max = 545
@@ -12864,11 +12903,12 @@ tt.health_bar.offset = v(0, 43)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.level = 10
 tt.hero.xp = 115300
+tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.info.fn = kr3_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0018"
+-- tt.info.hero_portrait = "hero_portraits_0018"
 tt.info.i18n_key = "HERO_ELVES_BOLVERK"
-tt.info.portrait = (IS_PHONE and "portraits_hero" or "info_portraits_heroes") .. "_0018"
+tt.info.portrait = "portraits_hero_0129"
 tt.main_script.insert = kr3_scripts.hero_bolverk.insert
 tt.main_script.update = kr3_scripts.hero_bolverk.update
 tt.motion.max_speed = 3 * FPS
@@ -12888,31 +12928,33 @@ tt.sound_events.insert = "ElvesHeroBolverkTauntIntro"
 tt.sound_events.respawn = "ElvesHeroBolverkTauntIntro"
 tt.unit.hit_offset = v(0, 20)
 tt.unit.mod_offset = v(0, 20)
-tt.melee.attacks[1].damage_max = 41
-tt.melee.attacks[1].damage_min = 27
+tt.melee.attacks[1].damage_max = 81
+tt.melee.attacks[1].damage_min = 54
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].xp_gain_factor = 0
 tt.melee.attacks[2] = CC("melee_attack")
 tt.melee.attacks[2].animation = "hit"
-tt.melee.attacks[2].cooldown = 20
-tt.melee.attacks[2].damage_max = 100
-tt.melee.attacks[2].damage_min = 80
+tt.melee.attacks[2].cooldown = 9
+tt.melee.attacks[2].damage_max = 300
+tt.melee.attacks[2].damage_min = 240
+tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].hit_time = fts(9)
 tt.melee.attacks[2].sound = "ElvesHeroBolverkSlash"
-tt.melee.attacks[2].vis_bans = F_BOSS
+-- tt.melee.attacks[2].vis_bans = F_BOSS
 tt.melee.range = 55
 tt.timed_attacks.list[1] = CC("mod_attack")
 tt.timed_attacks.list[1].animation = "scream"
 tt.timed_attacks.list[1].cooldown = 10
-tt.timed_attacks.list[1].max_range = 60
+tt.timed_attacks.list[1].max_range = 120
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].min_count = 3
 tt.timed_attacks.list[1].mod = "mod_bolverk_scream"
 tt.timed_attacks.list[1].hit_time = fts(9)
 tt.timed_attacks.list[1].sound = "ElvesHeroBolverkCry"
 tt.timed_attacks.list[1].vis_flags = F_RANGED
-tt.timed_attacks.list[1].vis_bans = bor(F_FLYING, F_BOSS)
+-- tt.timed_attacks.list[1].vis_bans = bor(F_FLYING, F_BOSS)
+
 tt = E:register_t("enemy_gnoll_reaver", "enemy")
 
 E:add_comps(tt, "melee")

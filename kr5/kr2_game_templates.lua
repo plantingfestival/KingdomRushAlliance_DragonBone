@@ -87,7 +87,7 @@ end
 DO_ENEMY_BIG = 2
 DO_SOLDIER_BIG = 3
 DO_HEROES = 3
-DO_MOD_FX = 4
+DO_MOD_FX = 8
 DO_TOWER_MODS = 10
 
 -- heroes
@@ -4688,10 +4688,12 @@ tt.render.sprites[2].name = "idle"
 tt.render.sprites[2].prefix = "steam_frigate_mine"
 tt.sound_events.insert = "AxeSound"
 tt.trigger_radius = 10
-tt = E:register_t("hero_vampiress", "stage_hero")
 
+tt = E:register_t("controller_item_hero_vampiress", "controller_item_hero")
+tt.entity = "hero_vampiress"
+
+tt = E:register_t("hero_vampiress", "hero5")
 E:add_comps(tt, "melee", "timed_attacks")
-
 image_y = 74
 anchor_y = 24 / image_y
 tt.health.armor = 0.7
@@ -4700,11 +4702,12 @@ tt.health.hp_max = 350
 tt.health_bar.offset = v(0, 34)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.level = 10
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_basic.get_info_melee
-tt.info.hero_portrait = "hero_portraits_0017"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0020" or "info_portraits_heroes_0020"
+-- tt.info.hero_portrait = "hero_portraits_0017"
+tt.info.portrait = "portraits_hero_0128"
 tt.main_script.insert = kr2_scripts.hero_vampiress.insert
 tt.main_script.update = kr2_scripts.hero_vampiress.update
 tt.motion.max_speed = 1.7 * FPS
@@ -4734,16 +4737,16 @@ tt.fly_to = {}
 tt.fly_to.min_distance = 83.2
 tt.fly_to.animation_prefix = "hero_vampiress_bat"
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 20
-tt.melee.attacks[1].damage_min = 10
+tt.melee.attacks[1].damage_max = 40
+tt.melee.attacks[1].damage_min = 30
 tt.melee.attacks[1].hit_time = fts(9)
 tt.melee.attacks[1].sound = "MeleeSword"
 tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2] = E:clone_c("melee_attack")
 tt.melee.attacks[2].animation = "vampirism"
 tt.melee.attacks[2].cooldown = 15
-tt.melee.attacks[2].damage_min = 150
-tt.melee.attacks[2].damage_max = 150
+tt.melee.attacks[2].damage_min = 450
+tt.melee.attacks[2].damage_max = 450
 tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].mod = "mod_vampiress_lifesteal"
 tt.melee.attacks[2].sound = "HWVampiressLifesteal"
@@ -4752,8 +4755,8 @@ tt.melee.range = 83.2
 tt.timed_attacks.list[1] = E:clone_c("area_attack")
 tt.timed_attacks.list[1].animation = "slayer"
 tt.timed_attacks.list[1].cooldown = 10
-tt.timed_attacks.list[1].damage_max = 160
-tt.timed_attacks.list[1].damage_min = 80
+tt.timed_attacks.list[1].damage_max = 240
+tt.timed_attacks.list[1].damage_min = 160
 tt.timed_attacks.list[1].trigger_radius = 50
 tt.timed_attacks.list[1].damage_radius = 65
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
@@ -4763,12 +4766,15 @@ tt.timed_attacks.list[1].extra_damage_templates = {
 	"enemy_elvira"
 }
 tt.timed_attacks.list[1].extra_damage_factor = 10
+
 tt = E:register_t("fx_vampiress_transform", "fx")
 tt.render.sprites[1].name = "fx_vampiress_transform"
 tt.render.sprites[1].anchor.y = 0.32432432432432434
+
 tt = E:register_t("mod_vampiress_lifesteal", "modifier")
-tt.heal_hp = 150
+tt.heal_hp = 450
 tt.main_script.insert = kr2_scripts.mod_simple_lifesteal.insert
+
 tt = E:register_t("hero_alric", "hero")
 
 E:add_comps(tt, "melee", "timed_attacks")

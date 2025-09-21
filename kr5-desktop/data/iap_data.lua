@@ -156,7 +156,7 @@ return {
 			}
 		},
 		hero_denas = {
-			cost = 500,
+			cost = 1000,
 			color_bg = {
 				201,
 				29,
@@ -191,12 +191,30 @@ return {
 				255
 			}
 		},
+		kr4_hero_alleria = {
+			cost = 1000,
+			color_bg = {
+				178,
+				255,
+				49,
+				255
+			}
+		},
 		hero_dwarf = {
 			cost = 500,
 			color_bg = {
 				33,
 				215,
 				198,
+				255
+			}
+		},
+		hero_vampiress = {
+			cost = 500,
+			color_bg = {
+				228,
+				88,
+				83,
 				255
 			}
 		},
@@ -278,6 +296,15 @@ return {
 				115,
 				59,
 				178,
+				255
+			}
+		},
+		hero_bolverk = {
+			cost = 500,
+			color_bg = {
+				93,
+				15,
+				16,
 				255
 			}
 		},

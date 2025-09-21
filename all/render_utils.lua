@@ -47,24 +47,26 @@ function RU.frame_draw_params(f)
 	local r = -f.r
 
 	local ref_scale = ss.ref_scale or 1
-	local sy = (f.flip_y and -1 or 1) * ref_scale
-	local sx = (f.flip_x and -1 or 1) * ref_scale
-
-	if f.scale then
-		sy = sy * f.scale.y
-		sx = sx * f.scale.x
-	end
-
-	local ox = f.anchor.x * ss.size[1] - ss.trim[1]
-	local oy = (1 - f.anchor.y) * ss.size[2] - ss.trim[2]
+	local sy, sx, ox, oy
 	if ss.textureRotated then
-		r = r - math.pi / 2 * (f.flip_x and -1 or 1)
+		r = r - math.pi / 2
 		ox = f.anchor.y * ss.size[2] - ss.trim[4]
 		oy = f.anchor.x * ss.size[1] - ss.trim[1]
+		sy = (f.flip_x and -1 or 1) * ref_scale
+		sx = (f.flip_y and -1 or 1) * ref_scale
 		if f.scale then
-			sy = (f.flip_y and -1 or 1) * ref_scale * f.scale.x
-			sx = (f.flip_x and -1 or 1) * ref_scale * f.scale.y
+			sy = sy * f.scale.x
+			sx = sx * f.scale.y
 		end
+	else
+		sy = (f.flip_y and -1 or 1) * ref_scale
+		sx = (f.flip_x and -1 or 1) * ref_scale
+		if f.scale then
+			sy = sy * f.scale.y
+			sx = sx * f.scale.x
+		end
+		ox = f.anchor.x * ss.size[1] - ss.trim[1]
+		oy = (1 - f.anchor.y) * ss.size[2] - ss.trim[2]
 	end
 
 	return ss.quad, x, y, r, sx, sy, ox, oy
@@ -183,31 +185,32 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 					local x, y, r, sx, sy, kx, ky = xf.x, xf.y, xf.r, xf.sx, xf.sy, xf.kx, xf.ky
 
 					r = -f.r + r
-					sy = sy * (f.flip_y and -1 or 1) * ref_scale
-					sx = sx * (f.flip_x and -1 or 1) * ref_scale
-
 					local f_sx = f.flip_x and -1 or 1
 					local f_sy = f.flip_y and -1 or 1
-
-					if f.scale then
-						sy = sy * f.scale.y
-						sx = sx * f.scale.x
-						f_sx = f_sx * f.scale.x
-						f_sy = f_sy * f.scale.y
-					end
-
-					local ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-					local oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
+					local ox, oy
 					if ss.textureRotated then
 						r = r - math.pi / 2
 						ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
 						oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-						sy = xf.sx * (f.flip_y and -1 or 1) * ref_scale
-						sx = xf.sy * (f.flip_x and -1 or 1) * ref_scale
+						sy = xf.sx * f_sx * ref_scale
+						sx = xf.sy * f_sy * ref_scale
 						if f.scale then
 							sy = sy * f.scale.x
 							sx = sx * f.scale.y
 						end
+					else
+						sy = sy * (f.flip_y and -1 or 1) * ref_scale
+						sx = sx * (f.flip_x and -1 or 1) * ref_scale
+
+						if f.scale then
+							sy = sy * f.scale.y
+							sx = sx * f.scale.x
+							f_sx = f_sx * f.scale.x
+							f_sy = f_sy * f.scale.y
+						end
+
+						ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
+						oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
 					end
 
 					x = x * f_sx + f.pos.x + f.offset.x

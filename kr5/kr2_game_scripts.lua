@@ -5006,16 +5006,44 @@ function scripts.mod_crossbow_eagle.insert(this, store, script)
 
 	if not target or not target.tower then
 		log.error("cannot insert mod_crossbow_eagle to entity %s - ", target.id, target.template_name)
-
 		return false
 	end
 
 	if target.attacks then
-		target.attacks.range = target.attacks.range * (this.range_factor + m.level * this.range_factor_inc)
+		if this.range_factor then
+			target.attacks.range = target.attacks.range * (this.range_factor + m.level * this.range_factor_inc)
+		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
+		end
+
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown * this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown * this.cooldown_factor
+			end
+		end
 	end
 
 	if target.barrack then
-		target.barrack.rally_range = target.barrack.rally_range * (this.range_factor + m.level * this.range_factor_inc)
+		if this.range_factor then
+			target.barrack.rally_range = target.barrack.rally_range * (this.range_factor + m.level * this.range_factor_inc)
+		end
+	end
+
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range * (this.range_factor + m.level * this.range_factor_inc)
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown * this.cooldown_factor
+				end
+			end
+		end
 	end
 
 	signal.emit("mod-applied", this, target)
@@ -5027,12 +5055,45 @@ function scripts.mod_crossbow_eagle.remove(this, store, script)
 	local m = this.modifier
 	local target = store.entities[m.target_id]
 
-	if target and target.attacks then
-		target.attacks.range = target.attacks.range / (this.range_factor + m.level * this.range_factor_inc)
+	if not target or not target.tower then
+		return true
 	end
 
-	if target and target.barrack then
-		target.barrack.rally_range = target.barrack.rally_range / (this.range_factor + m.level * this.range_factor_inc)
+	if target.attacks then
+		if this.range_factor then
+			target.attacks.range = target.attacks.range / (this.range_factor + m.level * this.range_factor_inc)
+		end
+		
+		if this.damage_factor then
+			target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+		end
+
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown / this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown / this.cooldown_factor
+			end
+		end
+	end
+
+	if target.barrack then
+		if this.range_factor then
+			target.barrack.rally_range = target.barrack.rally_range / (this.range_factor + m.level * this.range_factor_inc)
+		end
+	end
+
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range / (this.range_factor + m.level * this.range_factor_inc)
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown / this.cooldown_factor
+				end
+			end
+		end
 	end
 
 	return true
@@ -20229,6 +20290,9 @@ function scripts.hero_vampiress.update(this, store, script)
 			SU.y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -20327,7 +20391,7 @@ function scripts.hero_vampiress.update(this, store, script)
 			end
 
 			if this.melee then
-				brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+				brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 				if brk or sta ~= A_NO_TARGET then
 					goto label_458_0

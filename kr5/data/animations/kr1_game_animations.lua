@@ -3605,11 +3605,6 @@ return {
 		prefix = "boss_JT",
 		to = 136,
 	},
-	hero_alleria_multishot = {
-		from = 54,
-		prefix = "hero_archer",
-		to = 79,
-	},
 	eb_veznan_walkAway = {
 		from = 343,
 		prefix = "boss_veznan",
@@ -4018,10 +4013,50 @@ return {
 		prefix = "spider_medium",
 		to = 84,
 	},
-	hero_alleria_callofwild = {
-		from = 80,
+	hero_archer_attack = {
+		prefix = "hero_archer",
+		to = 34,
+		from = 19
+	},
+	hero_archer_callofwild = {
 		prefix = "hero_archer",
 		to = 118,
+		from = 80
+	},
+	hero_archer_death = {
+		prefix = "hero_archer",
+		to = 125,
+		from = 119
+	},
+	hero_archer_idle = {
+		prefix = "hero_archer",
+		to = 1,
+		from = 1
+	},
+	hero_archer_levelup = {
+		prefix = "hero_archer",
+		to = 53,
+		from = 36
+	},
+	hero_archer_multishot = {
+		prefix = "hero_archer",
+		to = 79,
+		from = 54
+	},
+	hero_archer_respawn = {
+		prefix = "hero_archer",
+		to = 53,
+		from = 36
+	},
+	hero_archer_running = {
+		prefix = "hero_archer",
+		to = 6,
+		from = 2
+	},
+	hero_archer_shoot = {
+		prefix = "hero_archer",
+		to = 18,
+		from = 7
 	},
 	hero_ignus_respawn = {
 		from = 67,
@@ -4114,11 +4149,6 @@ return {
 		layer_prefix = "tower_artillery_lvl3_layer%i",
 		from = 1,
 		layer_from = 1,
-	},
-	hero_alleria_levelup = {
-		from = 36,
-		prefix = "hero_archer",
-		to = 53,
 	},
 	soldier_magnus_illusion_attack = {
 		from = 18,
@@ -4665,11 +4695,6 @@ return {
 		from = 14,
 		prefix = "hero_elemental",
 		to = 32,
-	},
-	hero_alleria_running = {
-		from = 2,
-		prefix = "hero_archer",
-		to = 6,
 	},
 	eb_veznan_demon_deathLoop = {
 		from = 537,

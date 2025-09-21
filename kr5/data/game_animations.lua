@@ -1975,72 +1975,72 @@ local a = {
 		from = 1
 	},
 	hero_elves_denas_idle = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 1,
 		from = 1
 	},
 	hero_elves_denas_walk = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 17,
 		from = 2
 	},
 	hero_elves_denas_attack = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 53,
 		from = 18
 	},
 	hero_elves_denas_attack2 = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 79,
 		from = 54
 	},
 	hero_elves_denas_eat = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 139,
 		from = 80
 	},
 	hero_elves_denas_showOff = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 217,
 		from = 140
 	},
 	hero_elves_denas_specialAttack = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 271,
 		from = 218
 	},
 	hero_elves_denas_coinThrow = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 391,
 		from = 355
 	},
 	hero_elves_denas_death = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 332,
 		from = 307
 	},
 	hero_elves_denas_respawn = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 354,
 		from = 333
 	},
 	hero_elves_denas_levelup = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 354,
 		from = 333
 	},
 	hero_elves_denas_shieldThrow = {
-		prefix = "denas_hero",
+		prefix = "kr3_denas_hero",
 		to = 306,
 		from = 272
 	},
 	fx_elves_denas_heal = {
-		prefix = "denas_hero_healFx",
+		prefix = "kr3_denas_hero_healFx",
 		to = 25,
 		from = 1
 	},
 	fx_elves_denas_flash = {
-		prefix = "denas_hero_flash",
+		prefix = "kr3_denas_hero_flash",
 		to = 3,
 		from = 1
 	},
@@ -2060,37 +2060,37 @@ local a = {
 		from = 1
 	},
 	elves_denas_guard_idle = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 1,
 		from = 1
 	},
 	elves_denas_guard_running = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 6,
 		from = 2
 	},
 	elves_denas_guard_attack = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 28,
 		from = 7
 	},
 	elves_denas_guard_attack2 = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 52,
 		from = 29
 	},
 	elves_denas_guard_death = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 60,
 		from = 53
 	},
 	elves_denas_guard_respawn = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 79,
 		from = 61
 	},
 	elves_denas_guard_raise = {
-		prefix = "denas_hero_guard",
+		prefix = "kr3_denas_hero_guard",
 		to = 79,
 		from = 61
 	},

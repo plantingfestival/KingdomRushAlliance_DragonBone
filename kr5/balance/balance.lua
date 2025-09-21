@@ -11274,6 +11274,29 @@ local towers = {
 			cooldown = 22
 		}
 	},
+	deep_devils = {
+		storm = {
+			cooldowns = {
+				10,
+				10,
+				10
+			}
+		}
+	},
+	ogres = {
+		goblin_launcher = {
+			cooldowns = {
+				15,
+				10,
+			}
+		},
+		musket_rage = {
+			cooldowns = {
+				15,
+				15,
+			}
+		}
+	},
 	random = {
 		allowed_templates = {
 			"tower_mage_1",-- 秘法师高台
@@ -11805,7 +11828,7 @@ local specials = {
 		attack_cooldown = 2,
 		damage_special_max = 500,
 		attack_cooldown_special = 8,
-		duration = 20,
+		duration = 30,
 		range = 72,
 		magic_armor = 0.5,
 		speed = 60,

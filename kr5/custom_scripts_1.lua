@@ -282,7 +282,7 @@ function scripts.elves_soldier_harasser_lvl4.update(this, store, script)
 			for pn, p in pairs(this.powers) do
 				if p.changed then
 					p.changed = nil
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
@@ -1786,55 +1786,6 @@ function scripts.hero_dianyun_electric_son.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.controller_item_hero_elves_archer = {}
-function scripts.controller_item_hero_elves_archer.insert(this, store)
-	if not this.entities or #this.entities == 0 then
-		return false
-	end
-	local entities = table.filter(store.entities, function(k, v)
-		for i, name in ipairs(this.entities) do
-			if v.template_name == name then
-				return true
-			end
-		end
-		return false
-	end)
-	if entities and #entities > 0 then
-		return false
-	end
-
-	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, {
-		1
-	}, true)
-	if #nodes < 1 then
-		return false
-	end
-
-	local pi, spi, ni = unpack(nodes[1])
-	local npos = P:node_pos(pi, spi, ni)
-
-	for i, name in ipairs(this.entities) do
-		local entity = E:create_entity(name)
-		local a = 2 * math.pi / #this.entities
-		local pos = U.point_on_ellipse(npos, 25, (i - 1) * a - math.pi / 2)
-		entity.pos = pos
-		entity.nav_rally.center = npos
-		entity.nav_rally.pos = V.vclone(pos)
-		entity.reinforcement.squad_id = this.id
-		if band(entity.vis.flags, F_HERO) ~= 0 then
-			entity.hero.level = 10
-			if entity.hero.skills then
-				for key, value in pairs(entity.hero.skills) do
-					value.level = 3
-				end
-			end
-		end
-		queue_insert(store, entity)
-	end
-
-	return false
-end
-
 scripts.tower_spirit_mausoleum_bolt = {}
 function scripts.tower_spirit_mausoleum_bolt.update(this, store, script)
 	local b = this.bullet
@@ -2106,6 +2057,13 @@ function scripts.soldier_from_enemy.update(this, store, script)
 				end
 			end
 
+			if this.timed_attacks then
+				brk, sta = SU.y_soldier_timed_attacks(store, this)
+				if brk then
+					goto label_43_1
+				end
+			end
+
 			if this.ranged and this.ranged.range_while_blocking then
 				brk, sta = SU.y_soldier_ranged_attacks(store, this)
 				if brk then
@@ -2219,7 +2177,7 @@ function scripts.mod_possession.update(this, store, script)
 	target.vis._original_flags = target.vis.flags
 	target.vis.flags = bor(U.flag_clear(target.vis.flags, F_ENEMY), F_FRIEND)
 	target.soldier = {}
-	target.soldier.melee_slot_offset = V.v(target.enemy.melee_slot.x / 2, target.enemy.melee_slot.y)
+	target.soldier.melee_slot_offset = V.v(target.enemy.melee_slot.x * 2 / 3, target.enemy.melee_slot.y)
 	target.nav_rally = {}
 	target.nav_rally.new = false
 	target._original_enemy = target.enemy
@@ -2228,7 +2186,13 @@ function scripts.mod_possession.update(this, store, script)
 		target.melee.range = 60
 		for _, a in pairs(target.melee.attacks) do
 			a._original_vis_bans = a.vis_bans
-			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
+			end
 			if a.hit_times and not a.animations then
 				a.animations = {
 					nil,
@@ -2242,12 +2206,30 @@ function scripts.mod_possession.update(this, store, script)
 	if target.ranged and target.ranged.attacks then
 		for _, a in pairs(target.ranged.attacks) do
 			a._original_vis_bans = a.vis_bans
-			a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
+			end
 			if a.animations and not a.shoot_times then
 				a.shoot_times = {
 					a.shoot_time
 				}
 				a.loops = 1
+			end
+		end
+	end
+	if target.timed_attacks and target.timed_attacks.list then
+		for _, a in pairs(target.timed_attacks.list) do
+			a._original_vis_bans = a.vis_bans
+			if a.vis_bans then
+				if U.flag_has(a.vis_bans, F_ENEMY) and not U.flag_has(a.vis_bans, F_FRIEND) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_ENEMY), F_FRIEND, F_NIGHTMARE)
+				elseif U.flag_has(a.vis_bans, F_FRIEND) and not U.flag_has(a.vis_bans, F_ENEMY) then
+					a.vis_bans = bor(U.flag_clear(a.vis_bans, F_FRIEND), F_ENEMY)
+				end
 			end
 		end
 	end
@@ -2724,7 +2706,7 @@ function scripts.warmongers_soldier_orc_captain.update(this, store, script)
 			for pn, p in pairs(this.powers) do
 				if p.changed then
 					p.changed = nil
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 					if p == pow_s then
 						pow_s.ts = store.tick_ts
 					end
@@ -4230,11 +4212,15 @@ function scripts.tower_ignis_altar.get_info(this)
 end
 
 function scripts.tower_ignis_altar.update(this, store, script)
-	if this.shooter then
-		this.shooter = E:create_entity(this.shooter)
-		this.shooter.pos = V.vclone(this.pos)
-		this.shooter.owner = this
-		queue_insert(store, this.shooter)
+	if this.shooters and #this.shooters > 0 then
+		for i, shooter_name in ipairs(this.shooters) do
+			local shooter = E:create_entity(shooter_name)
+			shooter.pos = V.vclone(this.pos)
+			shooter.owner = this
+			queue_insert(store, shooter)
+			this.shooters[i] = shooter
+		end
+		this.shooter = this.shooters[1]
 	end
 
 	local tower_sid = 2
@@ -4270,7 +4256,7 @@ function scripts.tower_ignis_altar.update(this, store, script)
 				barrack.soldiers[level] = soldier
 				signal.emit("tower-spawn", this, soldier)
 			end
-			if pow_extinction and pow_extinction.changed then
+			if pow_extinction and pow_extinction.changed and this.shooter then
 				pow_extinction.changed = nil
 				local attack = this.shooter.attacks.list[1]
 				attack.ts = store.tick_ts
@@ -4613,7 +4599,7 @@ function scripts.tower_ignis_altar_ablaze_elemental.update(this, store, script)
 				if p.changed then
 					p.changed = nil
 
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
@@ -5606,12 +5592,6 @@ function scripts.kr4_hero_malik.update(this, store, script)
 		end
 		U.animation_start(this, this.hero.death_loop_animation, nil, store.tick_ts, true, 1)
 
-		if this.unit.hide_after_death then
-			for _, s in pairs(this.render.sprites) do
-				s.hidden = true
-			end
-		end
-	
 		while dead_lifetime > store.tick_ts - death_ts do
 			if this.force_respawn then
 				this.force_respawn = nil
@@ -5654,6 +5634,9 @@ function scripts.kr4_hero_malik.update(this, store, script)
 			y_hero_death_and_respawn(store, this)
 		end
 
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 		else
@@ -5662,9 +5645,6 @@ function scripts.kr4_hero_malik.update(this, store, script)
 					goto label_90_1
 				end
 			end
-
-			SU.alliance_merciless_upgrade(store, this)
-			SU.alliance_corageous_upgrade(store, this)
 
 			if SU.check_unit_attack_available(store, this, a1) then
 				brk, sta = SU.entity_attacks(store, this, a1)
@@ -5696,6 +5676,7 @@ function scripts.kr4_hero_malik.update(this, store, script)
 						if bullet.bullet.use_unit_damage_factor then
 							bullet.bullet.damage_factor = this.unit.damage_factor
 						end
+						bullet.bullet.to = V.vclone(target.pos)
 						queue_insert(store, bullet)
 						a2.ts = start_ts
 					end
@@ -5724,6 +5705,144 @@ function scripts.kr4_hero_malik.update(this, store, script)
 		coroutine.yield()
 	end
 end
+
+scripts.kr4_hero_alleria = {}
+function scripts.kr4_hero_alleria.update(this, store, script)
+	local h = this.health
+	local hero = this.hero
+	for i, a in ipairs(this.timed_attacks.list) do
+		a.ts = store.tick_ts - a.cooldown
+	end
+	this.timed_attacks.order = { 4, 3, 2, 1 }
+
+	local function create_respawn_decal()
+		local respawn_decal = E:create_entity(hero.respawn_decal)
+		respawn_decal.pos.x, respawn_decal.pos.y = this.pos.x, this.pos.y
+		if respawn_decal.insert_delay and respawn_decal.insert_delay > 0 then
+			local controller = E:create_entity("entities_delay_controller")
+			controller.start_ts = store.tick_ts
+			controller.delays = { respawn_decal.insert_delay }
+			controller.entities = { respawn_decal }
+			queue_insert(store, controller)
+		else
+			queue_insert(store, respawn_decal)
+		end
+	end
+
+	local function y_hero_death_and_respawn(store, this)
+		this.ui.can_click = false
+		local death_ts = store.tick_ts
+		local dead_lifetime = h.dead_lifetime
+	
+		U.unblock_target(store, this)
+		S:queue(this.sound_events.death, this.sound_events.death_args)
+		SU.hide_shadow(this, true)
+		if this.unit.death_animation then
+			U.y_animation_play(this, this.unit.death_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "death", nil, store.tick_ts, 1, 1)
+		end
+
+		if this.unit.hide_after_death then
+			for _, s in pairs(this.render.sprites) do
+				s.hidden = true
+			end
+		end
+	
+		while dead_lifetime > store.tick_ts - death_ts do
+			if this.force_respawn then
+				this.force_respawn = nil
+				break
+			end
+			coroutine.yield()
+		end
+	
+		if hero and hero.respawn_point then
+			local p = he.respawn_point
+			this.pos.x, this.pos.y = p.x, p.y
+			this.nav_rally.pos.x, this.nav_rally.pos.y = p.x, p.y
+			this.nav_rally.center.x, this.nav_rally.center.y = p.x, p.y
+			this.nav_rally.new = false
+		end
+		
+		h.ignore_damage = true
+		S:queue(this.sound_events.respawn)
+		create_respawn_decal()
+		U.y_wait(store, hero.respawn_delay)
+		for _, s in pairs(this.render.sprites) do
+			s.hidden = false
+		end
+		SU.hide_shadow(this, true)
+		if hero.respawn_animation then
+			U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+		else
+			U.y_animation_play(this, "respawn", nil, store.tick_ts, 1, 1)
+		end
+		SU.hide_shadow(this, false)
+	
+		this.health_bar.hidden = false
+		this.ui.can_click = true
+		h.dead = false
+		this.force_respawn = nil
+		h.hp = h.hp_max
+		h.ignore_damage = false
+	end
+
+	h.ignore_damage = true
+	this.vis._original_bans = this.vis.bans
+	this.vis.bans = F_ALL
+	U.sprites_hide(this)
+	this.health_bar.hidden = true
+	create_respawn_decal()
+	U.y_wait(store, hero.respawn_delay)
+	U.sprites_show(this)
+	SU.hide_shadow(this, true)
+	U.y_animation_play(this, hero.respawn_animation, nil, store.tick_ts, 1, 1)
+	SU.hide_shadow(this, false)
+	this.health_bar.hidden = nil
+	this.vis.bans = this.vis._original_bans
+	this.vis._original_bans = nil
+	h.ignore_damage = nil
+
+	while true do
+		if h.dead then
+			y_hero_death_and_respawn(store, this)
+		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
+
+		local interrupted, status = nil, nil
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+			goto label_continue
+		else
+			while this.nav_rally.new do
+				if SU.y_hero_new_rally(store, this) then
+					interrupted = true
+					break
+				end
+			end
+			if interrupted then
+				goto label_continue
+			end
+		end
+
+		if SU.y_soldier_timed_attacks(store, this) then
+			goto label_continue
+		end
+		interrupted, status = y_hero_melee_block_and_attacks(store, this)
+		if not interrupted and status ~= A_DONE and not SU.soldier_go_back_step(store, this) then
+			SU.soldier_idle(store, this)
+			SU.soldier_regen(store, this)
+		end
+
+		::label_continue::
+		coroutine.yield()
+	end
+end
+
+
 
 scripts.mod_eiskalt_frozen_throat_slow = {}
 function scripts.mod_eiskalt_frozen_throat_slow.update(this, store, script)
@@ -5976,19 +6095,7 @@ function scripts.hero_eiskalt.update(this, store, script)
 	local cold_fury_attack = this.timed_attacks.list[1]
 	local ice_ball_attack = this.timed_attacks.list[2]
 	local ice_peaks_attack = this.timed_attacks.list[3]
-
-	local function cast_skill(attack)
-		local interrupted, status
-		if SU.check_unit_attack_available(store, this, attack) then
-			interrupted, status = SU.entity_attacks(store, this, attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, attack, fts(10))
-			else
-				goto label_continue
-			end
-		end
-	end
-
+	this.timed_attacks.order = { 3, 2, 1 }
 	ranged.ts = store.tick_ts
 	cold_fury_attack.ts = store.tick_ts
 	ice_ball_attack.ts = store.tick_ts
@@ -6014,21 +6121,26 @@ function scripts.hero_eiskalt.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
+		local interrupted, status = nil, nil
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			goto label_continue
 		else
 			while this.nav_rally.new do
 				if SU.y_hero_new_rally(store, this) then
-					goto label_continue
+					interrupted = true
+					break
 				end
+			end
+			if interrupted then
+				goto label_continue
 			end
 		end
 
-		cast_skill(ice_peaks_attack)
-		cast_skill(ice_ball_attack)
-		cast_skill(cold_fury_attack)
-		local interrupted, status = y_hero_ranged_attacks(store, this)
+		if SU.y_soldier_timed_attacks(store, this) then
+			goto label_continue
+		end
+		interrupted, status = y_hero_ranged_attacks(store, this)
 		if not interrupted and status ~= A_DONE then
 			SU.soldier_idle(store, this)
 			SU.soldier_regen(store, this)
@@ -6313,19 +6425,6 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 	local hero_jacko_thriller_attack = this.timed_attacks.list[2]
 	local skill_ultimate = this.hero.skills.ultimate
 	local ultimate_controller = E:get_template(skill_ultimate.controller_name)
-	local interrupted, status
-
-	local function cast_skill(attack)
-		if SU.check_unit_attack_available(store, this, attack) then
-			interrupted, status = SU.entity_attacks(store, this, attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, attack, fts(10))
-			else
-				goto label_continue
-			end
-		end
-	end
-
 	this.melee.attacks[1].ts = store.tick_ts
 	this.melee.attacks[2].ts = store.tick_ts
 	explosive_head_attack.ts = store.tick_ts
@@ -6407,6 +6506,7 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 			U.y_animation_play(this, "levelUp", nil, store.tick_ts)
 		end
 
+		local interrupted, status = nil, A_NO_TARGET
 		if this.unit.is_stunned then
 			SU.soldier_idle(store, this)
 			goto label_continue
@@ -6415,26 +6515,20 @@ function scripts.hero_jack_o_lantern.update(this, store, script)
 				if SU.hero_will_teleport(this, this.nav_rally.pos) then
 					SU.hide_shadow(this, true)
 				end
-				local skip = SU.y_hero_new_rally(store, this)
+				interrupted = SU.y_hero_new_rally(store, this)
 				SU.hide_shadow(this, false)
-				if skip then
-					goto label_continue
+				if interrupted then
+					break
 				end
 			end
-		end
-
-		if SU.check_unit_attack_available(store, this, explosive_head_attack) then
-			interrupted, status = SU.entity_attacks(store, this, explosive_head_attack)
-			if status == A_NO_TARGET then
-				SU.delay_attack(store, explosive_head_attack, fts(10))
-			else
-				if status == A_DONE then
-					hero_jacko_thriller_attack.ts = hero_jacko_thriller_attack.ts + explosive_head_attack.extra_cooldown
-				end
+			if interrupted then
 				goto label_continue
 			end
 		end
-		cast_skill(hero_jacko_thriller_attack)
+
+		if SU.y_soldier_timed_attacks(store, this) then
+			goto label_continue
+		end
 
 		if skill_ultimate.ts and store.tick_ts - skill_ultimate.ts >= ultimate_controller.cooldown then
 			local entity = E:get_template(ultimate_controller.entity)
@@ -6505,13 +6599,7 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 	insert_entity()
 	for i = 2, 3 do
 		spi = i
-		-- nodes = P:nearest_nodes(this.pos.x, this.pos.y, { pi }, { spi }, true)
-		-- if #nodes < 1 then
-		-- 	goto label_continue
-		-- end
-		-- pi, spi, ni = unpack(nodes[1])
 		insert_entity()
-		-- ::label_continue::
 	end
 	queue_remove(store, this)
 end

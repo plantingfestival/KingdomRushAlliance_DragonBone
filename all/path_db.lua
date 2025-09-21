@@ -528,9 +528,7 @@ function path_db:next_entity_node(e, dt)
 end
 
 function path_db:predict_enemy_node_advance(e, flight_time, custom_delay)
-	local threshold = 1
-
-	if not flight_time then
+	if not flight_time or flight_time == 0 then
 		return 0
 	elseif flight_time == true then
 		flight_time = 1
@@ -539,10 +537,11 @@ function path_db:predict_enemy_node_advance(e, flight_time, custom_delay)
 	if custom_delay then
 		flight_time = flight_time + custom_delay
 	else
-		flight_time = flight_time + 0.02
+		flight_time = flight_time + 0.1
 	end
 
-	local speed = V.len(e.motion.speed.x, e.motion.speed.y)
+	local speed = (e.motion.speed.x ~= 0 or e.motion.speed.y ~= 0) and e.motion.max_speed or 0
+	local threshold = 3
 	local fDist = flight_time * speed
 	local path = self:path(e.nav_path.pi)
 	local x, y = e.pos.x, e.pos.y

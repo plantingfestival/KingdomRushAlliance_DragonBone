@@ -1217,6 +1217,30 @@ function scripts.soldier_reinforcement.insert(this, store, script)
 		this.ranged.order = U.attack_order(this.ranged.attacks)
 	end
 
+	if this.auras then
+		for _, a in pairs(this.auras.list) do
+			if a.cooldown == 0 then
+				local e = E:create_entity(a.name)
+
+				e.pos = V.vclone(this.pos)
+				e.aura.level = this.unit.level
+				e.aura.source_id = this.id
+				e.aura.ts = store.tick_ts
+
+				queue_insert(store, e)
+			end
+		end
+	end
+
+	if this.powers then
+		for pn, p in pairs(this.powers) do
+			p.level = math.min(this.unit.level, p.max_level)
+			for i = 1, p.level do
+				SU.soldier_power_upgrade(this, pn, store)
+			end
+		end
+	end
+
 	if this.info and this.info.random_name_format then
 		this.info.i18n_key = string.format(string.gsub(this.info.random_name_format, "_NAME", ""), math.random(this.info.random_name_count))
 	end
@@ -1405,7 +1429,7 @@ function scripts.soldier_barrack.insert(this, store, script)
 	if this.powers then
 		for pn, p in pairs(this.powers) do
 			for i = 1, p.level do
-				SU.soldier_power_upgrade(this, pn)
+				SU.soldier_power_upgrade(this, pn, store)
 			end
 		end
 	end
@@ -1476,7 +1500,7 @@ function scripts.soldier_barrack.update(this, store, script)
 				if p.changed then
 					p.changed = nil
 
-					SU.soldier_power_upgrade(this, pn)
+					SU.soldier_power_upgrade(this, pn, store)
 				end
 			end
 		end
@@ -1609,6 +1633,7 @@ function scripts.hero_basic.get_info_melee(this)
 		damage_type = a.damage_type,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end
@@ -1630,6 +1655,7 @@ function scripts.hero_basic.get_info_ranged(this)
 		damage_type = b.bullet.damage_type,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end
@@ -1990,7 +2016,12 @@ end
 scripts.tower_barrack = {}
 
 function scripts.tower_barrack.get_info(this)
-	local s = E:create_entity(this.barrack.soldier_type)
+	local s
+	if type(this.barrack.soldier_type) == "table" then
+		s = E:create_entity(this.barrack.soldier_type[1])
+	else
+		s = E:create_entity(this.barrack.soldier_type)
+	end
 
 	if this.powers then
 		for pn, p in pairs(this.powers) do
@@ -2103,9 +2134,11 @@ function scripts.tower_barrack.update(this, store, script)
 					s.nav_rally.pos, s.nav_rally.center = U.rally_formation_position(i, b, b.max_soldiers)
 					s.nav_rally.new = true
 
-					if this.powers then
+					if this.powers and s.powers then
 						for pn, p in pairs(this.powers) do
-							s.powers[pn].level = p.level
+							if s.powers[pn] then
+								s.powers[pn].level = p.level
+							end
 						end
 					end
 
@@ -4906,11 +4939,13 @@ function scripts.mod_stun.insert(this, store, script)
 	end
 
 	if target and target.unit and this.render then
+		local flip_x = target.render.sprites[1].flip_x
+		local flip_sign = flip_x and -1 or 1
 		for i = 1, #this.render.sprites do
 			local s = this.render.sprites[i]
 
 			if not s.keep_flip_x and target.render then
-				s.flip_x = target.render.sprites[1].flip_x
+				s.flip_x = flip_x
 			end
 
 			if s.size_names then
@@ -4927,14 +4962,13 @@ function scripts.mod_stun.insert(this, store, script)
 
 			if m.custom_offsets then
 				s.offset = V.vclone(m.custom_offsets[target.template_name] or m.custom_offsets.default)
-				s.offset.x = s.offset.x * (s.flip_x and -1 or 1)
+				s.offset.x = s.offset.x * flip_sign
 			elseif m.health_bar_offset then
 				local hb = target.health_bar.offset
 				local hbo = m.health_bar_offset
-
 				s.offset.x, s.offset.y = hb.x + hbo.x, hb.y + hbo.y
 			elseif m.use_mod_offset and target.unit.mod_offset then
-				s.offset.x, s.offset.y = target.unit.mod_offset.x, target.unit.mod_offset.y
+				s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
 			end
 		end
 	end
@@ -4959,15 +4993,44 @@ function scripts.mod_stun.update(this, store, script)
 
 	if not target then
 		queue_remove(store, this)
-
 		return
 	end
 
 	this.pos = target.pos
 	start_ts = store.tick_ts
+	local fade_out = 0
+	if this.tween then
+		this.tween.props[1].sprite_id = {}
+		for i, s in pairs(this.render.sprites) do
+			table.insert(this.tween.props[1].sprite_id, i)
+		end
+		this.tween.remove = false
+		if this.fade_out and this.fade_out > 0 then
+			fade_out = this.fade_out
+		end
+		if this.fade_in and this.fade_in > 0 then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+			this.tween.props[1].keys = {
+				{
+					0,
+					0
+				},
+				{
+					this.fade_in,
+					255
+				}
+			}
+		elseif fade_out > 0 then
+			this.tween.disabled = true
+		else
+			this.tween = nil
+		end
+	end
 
 	if m.animation_phases then
-		U.animation_start(this, "start", nil, store.tick_ts)
+		local animation_start = this.animation_start or "start"
+		U.animation_start(this, animation_start, nil, store.tick_ts)
 
 		while not U.animation_finished(this) do
 			if not target_hidden and m.hide_target_delay and store.tick_ts - start_ts > m.hide_target_delay then
@@ -4990,22 +5053,29 @@ function scripts.mod_stun.update(this, store, script)
 		end
 	end
 
-	U.animation_start(this, "loop", nil, store.tick_ts, true)
+	local animation_loop = this.animation_loop or "loop"
+	U.animation_start(this, animation_loop, nil, store.tick_ts, true)
 
-	while store.tick_ts - m.ts < m.duration and target and not target.health.dead do
-		if this.render and m.use_mod_offset and target.unit.mod_offset and not m.custom_offsets then
-			for i = 1, #this.render.sprites do
-				local s = this.render.sprites[i]
-
-				s.offset.x, s.offset.y = target.unit.mod_offset.x, target.unit.mod_offset.y
+	local function loop(duration)
+		while store.tick_ts - m.ts <= duration do
+			target = store.entities[m.target_id]
+			if not target or target.health.dead then
+				queue_remove(store, this)
+				return true
 			end
+			this.pos = target.pos
+			coroutine.yield()
 		end
+		return false
+	end
 
-		coroutine.yield()
+	if loop(m.duration - fade_out) then
+		return
 	end
 
 	if m.animation_phases then
-		U.animation_start(this, "end", nil, store.tick_ts)
+		local animation_end = this.animation_end or "end"
+		U.animation_start(this, animation_end, nil, store.tick_ts)
 
 		if target_hidden then
 			if target.ui then
@@ -5026,7 +5096,27 @@ function scripts.mod_stun.update(this, store, script)
 		end
 	end
 
-	queue_remove(store, this)
+	if fade_out > 0 then
+		this.tween.remove = true
+		this.tween.reverse = true
+		this.tween.disabled = false
+		this.tween.ts = store.tick_ts
+		this.tween.props[1].keys = {
+			{
+				0,
+				0
+			},
+			{
+				fade_out,
+				255
+			}
+		}
+	else
+		queue_remove(store, this)
+		return
+	end
+
+	loop(m.duration)
 end
 
 function scripts.mod_stun.remove(this, store, script)
@@ -5563,31 +5653,54 @@ function scripts.mod_tower_factors.insert(this, store)
 	local target = store.entities[m.target_id]
 
 	if not target or not target.tower then
-		if not target then
-			log.error("cannot insert mod_tower_factors, target not found")
-		elseif not target.tower then
-			log.error("cannot insert mod_tower_factors to entity %s - ", target.id, target.template_name)
-		end
-
 		return false
-	end
-
-	if this.range_factor then
-		if target.attacks then
-			target.attacks.range = target.attacks.range * this.range_factor
-		end
-
-		if target.barrack then
-			target.barrack.rally_range = target.barrack.rally_range * this.range_factor
-		end
 	end
 
 	if this.damage_factor then
 		target.tower.damage_factor = target.tower.damage_factor * this.damage_factor
 	end
 
-	signal.emit("mod-applied", this, target)
+	if target.attacks then
+		if this.range_factor then
+			target.attacks.range = target.attacks.range * this.range_factor
+		end
 
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown * this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown * this.cooldown_factor
+			end
+		end
+	end
+
+	if target.barrack then
+		if this.range_factor then
+			target.barrack.rally_range = target.barrack.rally_range * this.range_factor
+		end
+	end
+
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range * this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown * this.cooldown_factor
+				end
+			end
+		end
+	end
+
+	if this.render then
+		for i = 1, #this.render.sprites do
+			local s = this.render.sprites[i]
+			s.ts = store.tick_ts
+		end
+	end
+
+	signal.emit("mod-applied", this, target)
 	return true
 end
 
@@ -5596,23 +5709,44 @@ function scripts.mod_tower_factors.remove(this, store)
 	local target = store.entities[m.target_id]
 
 	if not target or not target.tower then
-		log.error("error removing mod_tower_factors %s", this.id)
-
 		return true
-	end
-
-	if this.range_factor then
-		if target.attacks then
-			target.attacks.range = target.attacks.range / this.range_factor
-		end
-
-		if target.barrack then
-			target.barrack.rally_range = target.barrack.rally_range / this.range_factor
-		end
 	end
 
 	if this.damage_factor then
 		target.tower.damage_factor = target.tower.damage_factor / this.damage_factor
+	end
+
+	if target.attacks then
+		if this.range_factor then
+			target.attacks.range = target.attacks.range / this.range_factor
+		end
+
+		if this.cooldown_factor and target.attacks.list[1] and target.attacks.list[1].cooldown then
+			target.attacks.list[1].cooldown = target.attacks.list[1].cooldown / this.cooldown_factor
+			if target.attacks.min_cooldown then
+				target.attacks.min_cooldown = target.attacks.min_cooldown / this.cooldown_factor
+			end
+		end
+	end
+
+	if target.barrack then
+		if this.range_factor then
+			target.barrack.rally_range = target.barrack.rally_range / this.range_factor
+		end
+	end
+
+	if target.shooters then
+		for i, s in ipairs(target.shooters) do
+			if s.attacks then
+				if this.range_factor then
+					s.attacks.range = s.attacks.range / this.range_factor
+				end
+	
+				if this.cooldown_factor and s.attacks.list[1] and s.attacks.list[1].cooldown then
+					s.attacks.list[1].cooldown = s.attacks.list[1].cooldown / this.cooldown_factor
+				end
+			end
+		end
 	end
 
 	return true
@@ -5622,21 +5756,80 @@ function scripts.mod_tower_factors.update(this, store)
 	local m = this.modifier
 	local target = store.entities[m.target_id]
 
-	if target then
-		this.pos = target.pos
+	if not target then
+		queue_remove(store, this)
+		return
 	end
 
 	m.ts = store.tick_ts
-
+	local fade_out = 0
 	if this.tween then
+		this.tween.props[1].sprite_id = {}
+		for i, s in pairs(this.render.sprites) do
+			table.insert(this.tween.props[1].sprite_id, i)
+		end
+		this.tween.remove = false
+		if this.fade_out and this.fade_out > 0 then
+			fade_out = this.fade_out
+		end
+		if this.fade_in and this.fade_in > 0 then
+			this.tween.disabled = false
+			this.tween.ts = store.tick_ts
+			this.tween.props[1].keys = {
+				{
+					0,
+					0
+				},
+				{
+					this.fade_in,
+					255
+				}
+			}
+		elseif fade_out > 0 then
+			this.tween.disabled = true
+		else
+			this.tween = nil
+		end
+	end
+
+	local function loop(duration)
+		while store.tick_ts - m.ts <= duration do
+			target = store.entities[m.target_id]
+			if not target then
+				queue_remove(store, this)
+				return true
+			end
+			this.pos = target.pos
+			coroutine.yield()
+		end
+		return false
+	end
+
+	if loop(m.duration - fade_out) then
+		return
+	end
+
+	if fade_out > 0 then
+		this.tween.remove = true
+		this.tween.reverse = true
+		this.tween.disabled = false
 		this.tween.ts = store.tick_ts
+		this.tween.props[1].keys = {
+			{
+				0,
+				0
+			},
+			{
+				fade_out,
+				255
+			}
+		}
+	else
+		queue_remove(store, this)
+		return
 	end
 
-	while store.tick_ts - m.ts < m.duration do
-		coroutine.yield()
-	end
-
-	queue_remove(store, this)
+	loop(m.duration)
 end
 
 scripts.mod_tower_block = {}

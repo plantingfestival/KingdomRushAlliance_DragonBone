@@ -343,7 +343,9 @@ tt.timed_attacks.list[1].included_templates = {
 	"tower_dwaarp",
 	"tower_mech",
 	"tower_sorcerer",
-	"tower_archmage"
+	"tower_archmage",
+	"tower_deep_devils_lvl4",
+	"tower_ogres_barrack_lvl4",
 }
 tt.timed_attacks.list[1].vis_flags = bor(F_MOD)
 tt.timed_attacks.list[2] = E:clone_c("mod_attack")
@@ -617,6 +619,8 @@ tt.custom_offsets.tower_dwaarp = v(0, 50)
 tt.custom_offsets.tower_mech = v(0, 30)
 tt.custom_offsets.tower_sorcerer = v(0, 50)
 tt.custom_offsets.tower_archmage = v(0, 50)
+tt.custom_offsets.tower_deep_devils_lvl4 = v(0, 60)
+tt.custom_offsets.tower_ogres_barrack_lvl4 = v(0, 60)
 
 tt = E:register_t("mod_twilight_evoker_heal", "modifier")
 
@@ -732,6 +736,7 @@ tt.facehug_offsets.hero_10yr = v(2, 5)
 tt.facehug_offsets.hero_spider = v(0, 46)
 tt.facehug_offsets.hero_denas = v(0, 32)
 tt.facehug_offsets.hero_hacksaw = v(0, 24)
+tt.facehug_offsets.kr4_hero_alleria = v(0, 16)
 tt.facehug_offsets.soldier_default = v(0, 9)
 tt.facehug_offsets.soldier_forest = v(0, 13)
 tt.facehug_offsets.soldier_druid_bear = v(15, 0)

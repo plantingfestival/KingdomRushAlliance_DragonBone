@@ -1362,14 +1362,16 @@ function GGExo:_draw_self_deferred()
 			poy = poy * f
 		end
 
-		local ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-		local oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
+		local ox, oy
 		if ss.textureRotated then
 			r = r - math.pi / 2
 			ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
 			oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
 			sy = xf.sx * ref_scale
 			sx = xf.sy * ref_scale
+		else
+			ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
+			oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
 		end
 
 		batch:add(quad, x, y, r, sx, sy, ox, oy, kx, ky)

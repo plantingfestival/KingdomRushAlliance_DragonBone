@@ -4823,6 +4823,7 @@ return {
 		}
 	},
 	group_hero_mammoth_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.75,
 		files = {
@@ -4833,6 +4834,7 @@ return {
 		}
 	},
 	group_dinos_ambiental_sounds = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_dinos_ambiental_sound_prehistoric_birds_var1.ogg",
@@ -4842,6 +4844,7 @@ return {
 		}
 	},
 	group_dinos_bush_egg_break = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_dinos_bush_egg_break_var1.ogg",
@@ -4850,6 +4853,7 @@ return {
 		}
 	},
 	group_dinos_ignis_altar_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dinos_ignis_altar_build_taunt_1.ogg",
@@ -4858,6 +4862,7 @@ return {
 		}
 	},
 	group_warmonger_archer_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_archer_taunt_1.ogg",
@@ -4866,6 +4871,7 @@ return {
 		}
 	},
 	group_warmonger_barrack_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_barrack_taunt_1.ogg",
@@ -4874,6 +4880,7 @@ return {
 		}
 	},
 	group_warmonger_barrack_move_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_barrack_battlewits_upg.ogg",
@@ -4883,6 +4890,7 @@ return {
 		}
 	},
 	group_warmonger_mage_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.63,
 		files = {
@@ -4892,6 +4900,7 @@ return {
 		}
 	},
 	group_warmonger_balloon_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_balloon_taunt_1.ogg",
@@ -4900,6 +4909,7 @@ return {
 		}
 	},
 	group_warmonger_balloon_move_taunt_4 = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_balloon_forwardSplash_upg.ogg",
@@ -4909,6 +4919,7 @@ return {
 		}
 	},
 	group_warmonger_rocket_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_warmonger_rocket_taunt_1.ogg",
@@ -4917,6 +4928,7 @@ return {
 		}
 	},
 	group_dark_army_barrack_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dark_army_barrack_taunt_1.ogg",
@@ -4925,6 +4937,7 @@ return {
 		}
 	},
 	group_dark_army_barrack_move_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dark_army_barrack_armor_of_thorns_upg.ogg",
@@ -4934,6 +4947,7 @@ return {
 		}
 	},
 	group_ember_lords_mage_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_ember_lords_mage_taunt_1.ogg",
@@ -4942,6 +4956,7 @@ return {
 		}
 	},
 	group_dark_army_melting_furnance_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dark_army_melting_furnance_taunt_1.ogg",
@@ -4950,6 +4965,7 @@ return {
 		}
 	},
 	group_dark_army_archer_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dark_army_archer_taunt_1.ogg",
@@ -4958,6 +4974,7 @@ return {
 		}
 	},
 	group_dark_army_blazing_mage_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_dark_army_blazing_mage_taunt_1.ogg",
@@ -4966,6 +4983,7 @@ return {
 		}
 	},
 	group_fallen_ones_spirit_mausoleum_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_fallen_ones_spirit_mausoleum_taunt_1.ogg",
@@ -4974,6 +4992,7 @@ return {
 		}
 	},
 	group_fallen_ones_grim_cemetery_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_fallen_ones_grim_cemetery_taunt_1.ogg",
@@ -4982,6 +5001,7 @@ return {
 		}
 	},
 	group_fallen_ones_bone_flingers_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.5,
 		files = {
@@ -4991,6 +5011,7 @@ return {
 		}
 	},
 	group_elves_barrack_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_elves_barrack_taunt_1.ogg",
@@ -4999,6 +5020,7 @@ return {
 		}
 	},
 	group_rotten_forest_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_rotten_forest_build_taunt_1.ogg",
@@ -5007,6 +5029,7 @@ return {
 		}
 	},
 	group_wicked_sisters_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_wicked_sisters_build_taunt_1.ogg",
@@ -5015,6 +5038,7 @@ return {
 		}
 	},
 	group_wicked_sisters_move_taunt_4 = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_wicked_sisters_froggification_upg.ogg",
@@ -5024,6 +5048,7 @@ return {
 		}
 	},
 	group_swamp_monster_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_swamp_monster_taunt_1.ogg",
@@ -5032,6 +5057,7 @@ return {
 		}
 	},
 	group_swamp_monster_move_taunt_4 = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_swamp_monster_blinding_liquid_upg.ogg",
@@ -5042,6 +5068,7 @@ return {
 		}
 	},
 	group_shaolin_temple_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_shaolin_temple_taunt_1.ogg",
@@ -5050,6 +5077,7 @@ return {
 		}
 	},
 	group_hero_orc_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_orc_taunt_1.ogg",
@@ -5059,6 +5087,7 @@ return {
 		}
 	},
 	group_hero_asra_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_asra_taunt_1.ogg",
@@ -5068,6 +5097,7 @@ return {
 		}
 	},
 	group_hero_mortemis_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_mortemis_taunt_1.ogg",
@@ -5077,6 +5107,7 @@ return {
 		}
 	},
 	group_hero_oloch_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		gain = 0.59,
 		files = {
@@ -5087,6 +5118,7 @@ return {
 		}
 	},
 	group_hero_beresad_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_beresad_taunt_1.ogg",
@@ -5096,6 +5128,7 @@ return {
 		}
 	},
 	group_hero_jigou_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		gain = 0.5,
 		files = {
@@ -5106,6 +5139,7 @@ return {
 		}
 	},
 	group_hero_tank_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_tank_taunt_1.ogg",
@@ -5115,6 +5149,7 @@ return {
 		}
 	},
 	group_hero_margosa_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_margosa_taunt_1.ogg",
@@ -5124,6 +5159,7 @@ return {
 		}
 	},
 	group_hero_tramin_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_tramin_taunt_1.ogg",
@@ -5133,6 +5169,7 @@ return {
 		}
 	},
 	group_hero_naga_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_hero_naga_taunt_1.ogg",
@@ -5142,6 +5179,7 @@ return {
 		}
 	},
 	group_hero_murglun_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		gain = 0.5,
 		files = {
@@ -5180,7 +5218,7 @@ return {
 	group_hero_jacko_taunt = {
 		source_group = "TAUNTS",
 		ignore = 1,
-		mode = "sequence",
+		mode = "random",
 		gain = 0.4,
 		files = {
 			"kr4_hero_jacko_taunt_1.ogg",
@@ -5199,6 +5237,7 @@ return {
 		}
 	},
 	group_demon_goonies_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.55,
 		files = {
@@ -5208,6 +5247,7 @@ return {
 		}
 	},
 	group_demon_guards_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.55,
 		files = {
@@ -5217,6 +5257,7 @@ return {
 		}
 	},
 	group_demon_tridents_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.55,
 		files = {
@@ -5226,6 +5267,7 @@ return {
 		}
 	},
 	group_veznan_disciples_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_veznan_disciples_taunt_1.ogg",
@@ -5234,6 +5276,7 @@ return {
 		}
 	},
 	group_barbarians_glacial_wolf_attack = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5242,6 +5285,7 @@ return {
 		}
 	},
 	group_arrow_release_sound = {
+		mode = "random",
 		source_group = "BULLETS",
 		gain = 0.5,
 		files = {
@@ -5250,6 +5294,7 @@ return {
 		}
 	},
 	group_arrow_hit_sound = {
+		mode = "random",
 		source_group = "BULLETS",
 		gain = 0.05,
 		files = {
@@ -5258,6 +5303,7 @@ return {
 		}
 	},
 	group_generic_combat = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.6,
 		files = {
@@ -5267,6 +5313,7 @@ return {
 		}
 	},
 	group_fallen_ones_grim_cemetery_summon_moan = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5276,6 +5323,7 @@ return {
 		}
 	},
 	group_party_sarcophagus_mummy_moan = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_power_party_sarcophagus_mummymoan1.ogg",
@@ -5285,6 +5333,7 @@ return {
 		}
 	},
 	group_elves_arrow_release_sound = {
+		mode = "random",
 		source_group = "BULLETS",
 		files = {
 			"kr4_elves_eliteharassers_arrowstorm_single1.ogg",
@@ -5293,6 +5342,7 @@ return {
 		}
 	},
 	group_power_soulimpact_impact = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_power_soulimpact_impact_var1.ogg",
@@ -5301,6 +5351,7 @@ return {
 		}
 	},
 	group_deep_devils_build_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_deep_devils_taunt_1.ogg",
@@ -5309,6 +5360,7 @@ return {
 		}
 	},
 	group_deep_devils_move_taunt = {
+		mode = "sequence",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_deep_devils_net_upg.ogg",
@@ -5318,6 +5370,7 @@ return {
 		}
 	},
 	group_sandstorm_eagle_death = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5327,6 +5380,7 @@ return {
 		}
 	},
 	group_sandstorm_camel_rider_death = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5336,6 +5390,7 @@ return {
 		}
 	},
 	group_sandstorm_mysthic_attack = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5344,6 +5399,7 @@ return {
 		}
 	},
 	group_sandstorm_djinni_goat = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_sfx_djini_polymorph_animals_goat_var1_v1.ogg",
@@ -5351,6 +5407,7 @@ return {
 		}
 	},
 	group_sandstorm_eagle_ambient = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.3,
 		files = {
@@ -5359,6 +5416,7 @@ return {
 		}
 	},
 	group_sandstorm_elephant_ambient = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.8,
 		files = {
@@ -5367,6 +5425,7 @@ return {
 		}
 	},
 	group_sandstorm_barrack_door = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_sfx_dlc_door_open_var1_v1.ogg",
@@ -5375,6 +5434,7 @@ return {
 		}
 	},
 	group_sandstorm_alric_sandwarrior_death = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_sfx_alric_sand_soldier_death_var1_v1.ogg",
@@ -5382,12 +5442,14 @@ return {
 		}
 	},
 	group_sandstorm_alric_sandwarrior_walk = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_sfx_alric_sand_soldier_tornado_v1.ogg",
 		}
 	},
 	group_sandstorm_level_34_sarcophagus_open = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5396,6 +5458,7 @@ return {
 		}
 	},
 	group_hero_isfet_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		gain = 0.75,
 		files = {
@@ -5406,6 +5469,7 @@ return {
 		}
 	},
 	group_hero_isfet_ice_proyectile = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5415,6 +5479,7 @@ return {
 		}
 	},
 	group_hero_isfet_fire_proyectil = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5424,12 +5489,14 @@ return {
 		}
 	},
 	group_worm_nest_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr4_sfx_tower_tremor_voice_towerSkill_v1.ogg",
 		}
 	},
 	group_worm_nest_spawn = {
+		mode = "random",
 		source_group = "SFX",
 		files = {
 			"kr4_sfx_tower_tremor_spawn_var1_v1.ogg",
@@ -5438,6 +5505,7 @@ return {
 		}
 	},
 	group_sandstorm_level_36_veznan_crowd = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5447,6 +5515,7 @@ return {
 		}
 	},
 	group_sandstorm_level_36_malik_crowd = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5456,6 +5525,7 @@ return {
 		}
 	},
 	group_pirates_filibusters_fall_off = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5465,6 +5535,7 @@ return {
 		}
 	},
 	group_pirates_black_corsair_melee = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5474,6 +5545,7 @@ return {
 		}
 	},
 	group_pirates_bomber_parrot_death = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5483,6 +5555,7 @@ return {
 		}
 	},
 	group_hero_lucerna_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr_voice_lucerna_select01_a.ogg",
@@ -5492,6 +5565,7 @@ return {
 		}
 	},
 	group_pirates_ogre_shipwreck_build_taunt = {
+		mode = "random",
 		source_group = "TAUNTS",
 		files = {
 			"kr_voice_ogreshipwreck_lvl1_b.ogg",
@@ -5500,6 +5574,7 @@ return {
 		}
 	},
 	group_hero_lucerna_attack = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5509,6 +5584,7 @@ return {
 		}
 	},
 	group_hero_lucerna_ghost_summon = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5519,6 +5595,7 @@ return {
 		}
 	},
 	group_hero_lucerna_scare = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5527,6 +5604,7 @@ return {
 		}
 	},
 	group_hero_lucerna_ultimate_flag_ghostCast = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.5,
 		files = {
@@ -5536,6 +5614,7 @@ return {
 		}
 	},
 	group_monkeys_boss_spit = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5545,6 +5624,7 @@ return {
 		}
 	},
 	group_sharks_boss_callUnits = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5553,6 +5633,7 @@ return {
 		}
 	},
 	group_sharks_boss_melee_instakill = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5562,6 +5643,7 @@ return {
 		}
 	},
 	group_sharks_bullshark_dasher_dig_in = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5570,6 +5652,7 @@ return {
 		}
 	},
 	group_sharks_bullshark_dasher_dig_out = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5578,6 +5661,7 @@ return {
 		}
 	},
 	group_sharks_splash_spawns = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.2,
 		files = {
@@ -5587,6 +5671,7 @@ return {
 		}
 	},
 	["group_ghosts-corpse-recruiter-ranged"] = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5596,6 +5681,7 @@ return {
 		}
 	},
 	["group_ghosts-ghosts-rising"] = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
@@ -5605,6 +5691,7 @@ return {
 		}
 	},
 	group_pirates_level40_lightning = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.17,
 		files = {
@@ -5614,6 +5701,7 @@ return {
 		}
 	},
 	group_pirates_blackthorne_melee = {
+		mode = "random",
 		source_group = "SFX",
 		gain = 0.7,
 		files = {
