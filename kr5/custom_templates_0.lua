@@ -170,7 +170,6 @@ tt.random_shift = nil
 tt.max_delay = nil
 tt.min_delay = nil
 tt.render.sprites[1].loop = nil
-tt.render.sprites[1].time_offset = 0
 tt.render.sprites[1].scale = v(1, 1)
 
 tt = RT("controller_teleport_enemies")

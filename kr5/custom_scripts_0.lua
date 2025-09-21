@@ -1547,7 +1547,18 @@ function scripts.follow_target.update(this, store, script)
 		U.y_wait(store, this.fade_time)
 	end
 
+	local function reset_offset(target)
+		local hit_offset_y = target.unit and target.unit.hit_offset and target.unit.hit_offset.y or 0
+		for _, s in pairs(this.render.sprites) do
+			s.offset.y = s._original_offset_y + hit_offset_y
+		end
+	end
+
+	for _, s in pairs(this.render.sprites) do
+		s._original_offset_y = s.offset.y
+	end
 	this.pos = target.pos
+	reset_offset(target)
 	this.attacks.order = U.attack_order(this.attacks.list)
 	for i, a in ipairs(this.attacks.list) do
 		a.level = this.level
@@ -1621,6 +1632,7 @@ function scripts.follow_target.update(this, store, script)
 		if target then
 			this.target_id = target.id
 			this.pos = target.pos
+			reset_offset(target)
 			if newTarget then
 				fade_in()
 			end
@@ -2064,12 +2076,15 @@ function scripts.fx_repeat_forever.update(this, store, script)
 		return
 	end
 
+	local start_ts = store.tick_ts
 	if this.random_shift then
-		this.render.sprites[1].time_offset = math.random()
+		start_ts = start_ts + math.random() * -16
+	end
+	U.animation_start(this, this.render.sprites[1].name, nil, start_ts, true, nil, true)
+	while not U.animation_finished(this, 1, 1) do
+		coroutine.yield()
 	end
 
-	local start_ts = store.tick_ts
-	U.y_animation_play(this, this.render.sprites[1].name, nil, store.tick_ts)
 	if this.min_delay and this.max_delay then
 		start_ts = store.tick_ts + U.frandom(this.min_delay, this.max_delay)
 	end
