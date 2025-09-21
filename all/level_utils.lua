@@ -104,6 +104,8 @@ function LU.load_level(store, name)
 		}) do
 			level[n] = level.data[n]
 		end
+	else
+		level:init(store)
 	end
 
 	if level.preprocess then

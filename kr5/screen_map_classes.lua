@@ -5058,6 +5058,20 @@ function GG5PopUpLevelSelect:show_mode(game_mode)
 			level_name = string.format("level%02i", self.level_idx),
 			level_mode = game_mode
 		})
+		if not level_data then
+			local filePath
+			if self.level_idx >= 200 and self.level_idx < 300 then
+				filePath = KR_PATH_GAME .. "/data/levels/kr2_levels_data.lua"
+			end
+			if filePath then
+				local func, err = love.filesystem.load(filePath)
+				if err then
+					log.error("Error loading the iron mode of level %s: %s", self.level_idx, err)
+				end
+				local fileData = func()
+				level_data = fileData[self.level_idx][GAME_MODE_IRON]
+			end
+		end
 		local tower_menu_data = require("data.tower_menus_data")
 		local avail = {}
 

@@ -3231,6 +3231,12 @@ return {
 	LEVEL_321_TITLE = "321. Dwaraman Gates",
 	LEVEL_322_HISTORY = "General! The once proud and powerful dwarves have been exterminated by a powerful demon released by mistake. We must avenge our former allies and defeat Godieth the Infernal before he reaches the surface and unleashes a reign of terror.",
 	LEVEL_322_TITLE = "322. Tainted Pit",
+	LEVEL_417_HISTORY = "Our recent victory seems to have given everyone the impression that they can try to take what is now ours. The Anurians, an ancient race that fled the mainland a long time ago, decided to make a comeback. They control potent crystals crucial to my future plans. Seize that land and teach them that they should never have ceased hiding!",
+	LEVEL_417_TITLE = "417. MAGINICIA SHORES",
+	LEVEL_418_HISTORY = "Look, General! See how they flee as our mighty army approaches with relentless strength. We only need to defeat their garrison and this place will be ours! But do beware, I sense something… odd in the magic emanating from this place. Could this be the power of darkness I'm sensing? If I'm correct, they must be stopped without a moment to waste.",
+	LEVEL_418_TITLE = "418. ANURIAN PLAZA",
+	LEVEL_419_HISTORY = "What I feared is true… Polyx, the sage, delved too deeply into forbidden mysteries and now suffers the tainting grasp of corruption. Did he really think he could control the power of darkness and walk away unscathed? Defeat him and his followers before he's able to influence this land. Failure is not an option!"
+	LEVEL_419_TITLE = "419. POND OF THE SAGE",
 	LEVEL_426_HISTORY = "I knew that this moment would come. The greatest ghosts of Valardul want me to pay off my debts with them. But their claims are too high! I will not give them half of the living beings of my realms! They are coming with their most elite creatures. Fortunately, I took my precautions.",
 	LEVEL_426_TITLE = "426. BACK TO THE ROTTEN FOREST",
 	LEVEL_427_HISTORY = "General, now we will enter the deep swamps of the Rotten Forest, the most dangerous place in Valardul. It’s our only option because if we evade it, we are vulnerable to an attack from the rear. Beware of the powerful undead that will confront us in those swamps.",
@@ -3426,5 +3432,12 @@ return {
 	ENEMY_CORROSIVE_SOUL_NAME = "Corrosive Soul",
 	ENEMY_HAUNTED_SKELETON_NAME = "Haunted Skeleton",
 	ENEMY_LICH_NAME = "Lich",
+	ENEMY_ANURIAN_CHASER_NAME = "Anurian Chaser",
+	ENEMY_ANURIAN_INFUSER_NAME = "Anurian Infuser",
+	ENEMY_ANURIAN_WARDEN_NAME = "Anurian Warden",
+	ENEMY_CRYSTAL_AMPHIPTERE_NAME = "Crystal Amphiptere",
+	ENEMY_ANURIAN_CHANNELER_NAME = "Anurian Channeler",
+	ENEMY_ANURIAN_ERUDITE_NAME = "Anurian Erudite",
+	ENEMY_CRYSTAL_DEMOLISHER_NAME = "Crystal Demolisher",
 
 }
