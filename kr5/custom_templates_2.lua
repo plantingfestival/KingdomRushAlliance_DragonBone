@@ -1057,14 +1057,7 @@ tt.timed_attacks.list[1].animations = {
 	"loop",
 	"jumpOut"
 }
-tt.timed_attacks.list[1].sounds = {
-	"frog_chaser_jump"
-}
-tt.timed_attacks.list[1].miss_fx = {
-	"chaser_jump_hit_fx",
-	"chaser_jump_effect"
-}
-tt.timed_attacks.list[1].miss_decal = "chaser_decal"
+tt.timed_attacks.list[1].sounds = "frog_chaser_jump"
 tt.timed_attacks.list[1].hit_fx = {
 	"chaser_jump_hit_fx",
 	"chaser_jump_effect"
@@ -1118,7 +1111,7 @@ tt.tween.props[1].keys = {
 local tt = RT("chaser_jump_effect", "decal_tween")
 
 tt.render.sprites[1].name = "chaser_jump_effect"
-tt.render.sprites[1].animated = false
+		tt.render.sprites[1].animated = false
 tt.tween.props[1].name = "scale"
 tt.tween.props[1].keys = {
 	{

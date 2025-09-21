@@ -226,7 +226,6 @@ end
 
 scripts.basic_spawner = {}
 function scripts.basic_spawner.update(this, store, script)
-	local sprites = this.render.sprites
 	local sp = this.spawner
 
 	while true do
@@ -237,7 +236,7 @@ function scripts.basic_spawner.update(this, store, script)
 				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
 		end
 
-		SU.mixed_entity_play_animation(store, this, sp.initial_spawn_animation, store.tick_ts, 1,
+		SU.mixed_entity_play_animation(this, sp.initial_spawn_animation, store.tick_ts, 1,
 		sp.facing_point, sp.ignore_flip_x)
 
 		coroutine.yield()
