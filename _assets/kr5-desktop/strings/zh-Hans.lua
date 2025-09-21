@@ -4332,7 +4332,8 @@ return {
 	ENEMY_SCORPION_NAME = "巨型蝎子",
 	ENEMY_SNIPER_NAME = "蜥蜴人狙击手",
 	ENEMY_TREMOR_NAME = "沙虫",
-	ENEMY_WASP_NAME = "巨蜂",
+	ENEMY_WASP_NAME = "巨型黄蜂",
+	ENEMY_WASP_QUEEN_NAME = "巨型蜂后",
 	-- kr3_enemies
 	ENEMY_BLOODSYDIAN_WARLOCK_NAME = "血祭术士",
 	ENEMY_EVOKER_NAME = "堕落女祭司",
