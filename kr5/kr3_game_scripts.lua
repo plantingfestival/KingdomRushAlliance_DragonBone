@@ -23,6 +23,7 @@ local bnot = bit.bnot
 
 require("i18n")
 
+package.loaded.scripts = nil
 local scripts = require("scripts")
 
 local function queue_insert(store, e)

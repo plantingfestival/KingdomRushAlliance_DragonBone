@@ -43,6 +43,7 @@ local function tpos(e)
 	return e.tower and e.tower.range_offset and V.v(e.pos.x + e.tower.range_offset.x, e.pos.y + e.tower.range_offset.y) or e.pos
 end
 
+package.loaded.scripts = nil
 local scripts = require("scripts")
 
 local function y_hero_melee_block_and_attacks(store, hero)
