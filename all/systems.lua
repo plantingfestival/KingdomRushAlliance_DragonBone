@@ -1417,37 +1417,39 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 				end
 			end
 
-			local th = E:create_entity("tower_holder")
-
-			th.pos = V.vclone(e.pos)
-			th.tower.holder_id = e.tower.holder_id
-			th.tower.flip_x = e.tower.flip_x
-
-			if e.tower.default_rally_pos then
-				th.tower.default_rally_pos = e.tower.default_rally_pos
-			end
-
-			if e.tower.terrain_style then
-				th.tower.terrain_style = e.tower.terrain_style
-				th.render.sprites[1].name = string.format(th.render.sprites[1].name, e.tower.terrain_style)
-
-				if IS_KR5 then
-					th.render.sprites[2].name = string.format(th.render.sprites[2].name, e.tower.terrain_style)
+			if not e.nav_rally then
+				local th = E:create_entity("tower_holder")
+	
+				th.pos = V.vclone(e.pos)
+				th.tower.holder_id = e.tower.holder_id
+				th.tower.flip_x = e.tower.flip_x
+	
+				if e.tower.default_rally_pos then
+					th.tower.default_rally_pos = e.tower.default_rally_pos
 				end
+	
+				if e.tower.terrain_style then
+					th.tower.terrain_style = e.tower.terrain_style
+					th.render.sprites[1].name = string.format(th.render.sprites[1].name, e.tower.terrain_style)
+	
+					if IS_KR5 then
+						th.render.sprites[2].name = string.format(th.render.sprites[2].name, e.tower.terrain_style)
+					end
+				end
+	
+				if th.ui and e.ui then
+					th.ui.nav_mesh_id = e.ui.nav_mesh_id
+				end
+				
+				queue_insert(store, th)
+				signal.emit("tower-removed", e, th)
 			end
-
-			if th.ui and e.ui then
-				th.ui.nav_mesh_id = e.ui.nav_mesh_id
-			end
-
-			queue_insert(store, th)
 			queue_remove(store, e)
-			signal.emit("tower-removed", e, th)
 
 			if e.tower.sell then
 				local dust = E:create_entity("fx_tower_sell_dust")
 
-				dust.pos.x, dust.pos.y = th.pos.x, th.pos.y + 35
+				dust.pos.x, dust.pos.y = e.pos.x, e.pos.y + 35
 				dust.render.sprites[1].ts = store.tick_ts
 
 				queue_insert(store, dust)

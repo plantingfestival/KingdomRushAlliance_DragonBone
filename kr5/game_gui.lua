@@ -2690,7 +2690,7 @@ function game_gui.q_selected_swappable_tower(ctx)
 	local e = game_gui:entity_at_pos(wx, wy)
 	local pressed_start = game_gui.pressed_ipos
 
-	if e and e ~= game_gui.swap_entity and e.tower and e.tower.can_be_sold and e.ui and e.ui.can_click then
+	if e and e ~= game_gui.swap_entity and e.tower and e.tower.can_be_sold and e.ui and e.ui.can_click and not e.nav_rally then
 		ctx.entity = e
 
 		return true

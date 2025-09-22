@@ -4953,6 +4953,13 @@ return {
 				place = 12,
 				tt_title = _("TOWER_MAGE_2_NAME"),
 				tt_desc = _("TOWER_MAGE_2_DESCRIPTION")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		},
 		{
@@ -4965,6 +4972,13 @@ return {
 				place = 12,
 				tt_title = _("TOWER_MAGE_3_NAME"),
 				tt_desc = _("TOWER_MAGE_3_DESCRIPTION")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		},
 		{
@@ -4977,6 +4991,13 @@ return {
 				place = 12,
 				tt_title = _("TOWER_MAGE_WILD_MAGUS_NAME"),
 				tt_desc = _("TOWER_MAGE_WILD_MAGUS_DESCRIPTION")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		}
 	},
@@ -5033,6 +5054,13 @@ return {
 						tt_desc = _("TOWER_MAGE_WILD_MAGUS_WARD_DESCRIPTION_3")
 					}
 				}
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		}
 	},

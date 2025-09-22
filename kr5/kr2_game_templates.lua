@@ -131,7 +131,7 @@ mod_death_rider.render.sprites[1].animated = false
 mod_death_rider.render.sprites[1].z = Z_DECALS
 mod_death_rider.main_script.insert = kr2_scripts.mod_death_rider.insert
 mod_death_rider.main_script.remove = kr2_scripts.mod_death_rider.remove
-mod_death_rider.main_script.update = scripts.mod_track_target.update
+mod_death_rider.main_script.update = kr2_scripts.mod_track_target.update
 
 local death_rider_aura = E:register_t("death_rider_aura", "aura")
 
@@ -164,8 +164,8 @@ death_rider_aura.aura.allowed_templates = {
 }
 death_rider_aura.aura.vis_bans = F_ENEMY
 death_rider_aura.aura.vis_flags = F_MOD
-death_rider_aura.main_script.insert = scripts.aura_apply_mod.insert
-death_rider_aura.main_script.update = scripts.aura_apply_mod.update
+death_rider_aura.main_script.insert = kr2_scripts.aura_apply_mod.insert
+death_rider_aura.main_script.update = kr2_scripts.aura_apply_mod.update
 death_rider_aura.render.sprites[1].name = "soldier_death_rider_aura"
 death_rider_aura.render.sprites[1].loop = true
 death_rider_aura.render.sprites[1].z = Z_DECALS
@@ -802,7 +802,7 @@ tt.health_bar.offset = v(0, 36)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "SOLDIER_DRACOLICH_GOLEM"
 tt.info.portrait = "bottom_info_image_soldiers_0001"
-tt.info.fn = scripts.soldier_reinforcement.get_info
+tt.info.fn = kr2_scripts.soldier_reinforcement.get_info
 tt.reinforcement.duration = nil
 tt.reinforcement.fade = false
 tt.main_script.insert = kr2_scripts.kr2_soldier_reinforcement.insert
@@ -1218,8 +1218,8 @@ tt.dps.damage_min = nil
 tt.dps.damage_max = nil
 tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.damage_every = fts(15)
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 tt.render.sprites[1].size_names = {
 	"small",
 	"medium",
@@ -1320,8 +1320,8 @@ tt.aura.duration = nil
 tt.aura.radius = 70
 tt.aura.vis_flags = F_MOD
 tt.aura.vis_bans = F_FRIEND
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
+tt.main_script.update = kr2_scripts.aura_apply_mod.update
 
 tt = E:register_t("mod_slow_fierymist", "mod_slow")
 tt.modifier.duration = fts(5)
@@ -1437,7 +1437,7 @@ tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(60)
 tt.hero.team = TEAM_LINIREA
 tt.idle_flip.cooldown = 1
-tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.fn = kr2_scripts.hero_basic.get_info_melee
 tt.info.portrait = "portraits_hero_0110"
 tt.main_script.insert = kr2_scripts.hero_dwarf.insert
 tt.main_script.update = kr2_scripts.hero_dwarf.update
@@ -2206,7 +2206,7 @@ tt.powers.frankie = E:clone_c("power")
 tt.powers.frankie.price = { 175, 175, 175 }
 tt.main_script.insert = kr2_scripts.tower_frankenstein.insert
 tt.main_script.update = kr2_scripts.tower_frankenstein.update
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.main_script.remove = kr2_scripts.tower_barrack.remove
 tt.barrack.soldier_type = "soldier_frankenstein"
 tt.barrack.rally_range = 179.20000000000002
 tt.attacks.range = 200
@@ -2307,8 +2307,8 @@ tt.dps.pop_conds = DR_KILL
 tt.render.sprites[1].name = "ray_frankenstein_fx"
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].loop = true
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 
 tt = E:register_t("soldier_frankenstein", "soldier")
 
@@ -2326,9 +2326,9 @@ tt.health.dead_lifetime = 12
 tt.health.hp_max = 500
 tt.health_bar.offset = v(0, 48)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.fn = scripts.soldier_barrack.get_info
+tt.info.fn = kr2_scripts.soldier_barrack.get_info
 tt.info.portrait = "bottom_info_image_soldiers_0008"
-tt.main_script.insert = scripts.soldier_barrack.insert
+tt.main_script.insert = kr2_scripts.soldier_barrack.insert
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
 tt.melee.attacks[1].cooldown_lvls = {
 	1,
@@ -2458,9 +2458,9 @@ mod_silence_totem.modifier.bans = {
 	"mod_xerxes_invisibility"
 }
 mod_silence_totem.modifier.remove_banned = true
-mod_silence_totem.main_script.insert = scripts.mod_silence.insert
-mod_silence_totem.main_script.remove = scripts.mod_silence.remove
-mod_silence_totem.main_script.update = scripts.mod_track_target.update
+mod_silence_totem.main_script.insert = kr2_scripts.mod_silence.insert
+mod_silence_totem.main_script.remove = kr2_scripts.mod_silence.remove
+mod_silence_totem.main_script.update = kr2_scripts.mod_track_target.update
 mod_silence_totem.render.sprites[1].prefix = "silence"
 mod_silence_totem.render.sprites[1].size_names = {
 	"small",
@@ -2541,9 +2541,9 @@ mod_weakness_totem.received_damage_factor = 1.4
 mod_weakness_totem.modifier.duration = 1.5
 mod_weakness_totem.modifier.resets_same = false
 mod_weakness_totem.modifier.use_mod_offset = false
-mod_weakness_totem.main_script.insert = scripts.mod_damage_factors.insert
-mod_weakness_totem.main_script.remove = scripts.mod_damage_factors.remove
-mod_weakness_totem.main_script.update = scripts.mod_track_target.update
+mod_weakness_totem.main_script.insert = kr2_scripts.mod_damage_factors.insert
+mod_weakness_totem.main_script.remove = kr2_scripts.mod_damage_factors.remove
+mod_weakness_totem.main_script.update = kr2_scripts.mod_track_target.update
 mod_weakness_totem.render.sprites[1].prefix = "weakness"
 mod_weakness_totem.render.sprites[1].size_names = {
 	"small",
@@ -2952,7 +2952,7 @@ tt.info.portrait = "portraits_towers_0116"
 tt.info.i18n_key = "TOWER_ARCHER_DWARF"
 tt.info.fn = kr2_scripts.tower_archer_dwarf.get_info
 tt.main_script.update = kr2_scripts.tower_archer_dwarf.update
-tt.main_script.remove = scripts.tower_archer.remove
+tt.main_script.remove = kr2_scripts.tower_archer.remove
 tt.attacks.range = 217.6
 tt.attacks.list[1] = E:clone_c("bullet_attack")
 tt.attacks.list[1].vis_bans = bor(F_NIGHTMARE)
@@ -3119,8 +3119,8 @@ tt.render.sprites[2].name = "dwarf_beer_bubbles"
 tt.render.sprites[2].loop = true
 tt.render.sprites[2].offset.y = 10
 tt.render.sprites[2].z = Z_EFFECTS
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr2_scripts.mod_hps.insert
+tt.main_script.update = kr2_scripts.mod_hps.update
 
 tt = E:register_t("tower_barrack_pirates", "tower_KR5")
 E:add_comps(tt, "barrack", "vis")
@@ -3131,9 +3131,9 @@ tt.tower.level = 1
 tt.tower.can_be_mod = true
 tt.tower.menu_offset = v(0, 20)
 tt.info.portrait = "portraits_towers_0129"
-tt.info.fn = scripts.tower_barrack_mercenaries.get_info
-tt.main_script.insert = scripts.tower_barrack.insert
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.info.fn = kr2_scripts.tower_barrack_mercenaries.get_info
+tt.main_script.insert = kr2_scripts.tower_barrack.insert
+tt.main_script.remove = kr2_scripts.tower_barrack.remove
 tt.main_script.update = customScripts1.tower_special_mercenaries.update
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
@@ -3221,8 +3221,8 @@ E:add_comps(tt, "hps")
 tt.hps.heal_every = 1e+99
 tt.hps.heal_min = 100
 tt.hps.heal_max = 100
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr2_scripts.mod_hps.insert
+tt.main_script.update = kr2_scripts.mod_hps.update
 tt.modifier.duration = fts(1)
 
 tt = E:register_t("soldier_pirate_flamer", "soldier_militia")
@@ -3313,8 +3313,8 @@ tt.dps.damage_min = 7
 tt.dps.damage_max = 7
 tt.dps.damage_every = 0.2
 tt.dps.damage_type = DAMAGE_TRUE
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 
 tt = E:register_t("soldier_pirate_anchor", "soldier_militia")
 E:add_comps(tt, "nav_grid")
@@ -3449,8 +3449,8 @@ tt.unit.price = {
 
 tt = E:register_t("amazona_heal_mod", "modifier")
 E:add_comps(tt, "render", "heal_on_kill")
-tt.main_script.insert = scripts.mod_heal_on_kill.insert
-tt.main_script.update = scripts.mod_heal_on_kill.update
+tt.main_script.insert = kr2_scripts.mod_heal_on_kill.insert
+tt.main_script.update = kr2_scripts.mod_heal_on_kill.update
 tt.heal_on_kill.hp = 50
 
 tt = E:register_t("amazon_carnivorous_plant", "decal_scripted")
