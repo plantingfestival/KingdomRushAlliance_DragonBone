@@ -14692,7 +14692,7 @@ E:add_comps(tt, "melee")
 image_y = 80
 anchor_y = 0.1375
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(15, 0)
 tt.health.dead_lifetime = fts(10000)
 tt.health.hp_max = 8475
