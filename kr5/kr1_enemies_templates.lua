@@ -11,7 +11,6 @@ require("constants")
 local anchor_y = 0
 local image_y = 0
 local tt, b
-local scripts = require("game_scripts")
 local kr1_scripts = require("kr1_game_scripts")
 
 require("templates")
