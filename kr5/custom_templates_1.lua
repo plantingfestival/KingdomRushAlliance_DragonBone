@@ -2264,7 +2264,7 @@ end
 tt.main_script.update = scripts.custom_bolt.update
 tt.sound_events.insert = "BoltReleaseSound"
 
-tt = E:register_t("mod_stun_electric_son", "mod_common_stun")
+tt = E:register_t("mod_stun_electric_son", "mod_kr4_stun")
 tt.modifier.duration = b.ultimate.stun
 
 tt = E:register_t("decal_kr1_hero_tombstone", "decal_hero_tombstone")

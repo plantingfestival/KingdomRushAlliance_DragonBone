@@ -73,8 +73,8 @@ function sys.level:init(store)
 	A:load()
 	E:load()
 
-	if store.level.data then
-		EXO:load(store.level.data.required_exoskeletons)
+	if store.level.required_exoskeletons then
+		EXO:load(store.level.required_exoskeletons)
 	end
 
 	if IS_KR5 then

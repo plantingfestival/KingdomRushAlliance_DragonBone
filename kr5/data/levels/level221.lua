@@ -53,6 +53,10 @@ function level:init(store)
 	self.locked_powers = {}
 
 	if store.level_mode == GAME_MODE_IRON then
+		self.required_exoskeletons = {
+			"ray_sunraytowerDef",
+			"ray_sunraytower_hitDef",
+		}
 		self.available_towers = {
 			"tower_build_rock_thrower",
 			"tower_build_ray"

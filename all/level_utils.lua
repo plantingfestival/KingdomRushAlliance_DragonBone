@@ -90,6 +90,7 @@ function LU.load_level(store, name)
 		for _, n in pairs({
 			"required_textures",
 			"required_sounds",
+			"required_exoskeletons",
 			"locked_hero",
 			"locked_powers",
 			"locked_towers",
