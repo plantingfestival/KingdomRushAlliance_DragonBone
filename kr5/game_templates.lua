@@ -13881,7 +13881,6 @@ tt.info.damage_icon = "magic"
 tt.info.stat_damage = b.stats.damage
 tt.info.stat_range = b.stats.range
 tt.info.stat_cooldown = b.stats.cooldown
-tt.main_script.insert = scripts.tower_ray.insert
 tt.main_script.update = scripts.tower_ray.update
 tt.main_script.remove = scripts.tower_ray.remove
 tt.attacks.min_cooldown = b.shared_min_cooldown
@@ -14051,10 +14050,18 @@ for i = 1, #tt.stones_ids do
 end
 
 tt.ui.click_rect = r(-35, 0, 70, 70)
+
 tt = E:register_t("tower_ray_lvl4", "tower_ray_lvl3")
-
-E:add_comps(tt, "powers")
-
+E:add_comps(tt, "powers", "nav_grid", "motion", "nav_rally")
+tt.main_script.insert = customScripts1.mobile_tower_mage.insert
+tt.motion.max_speed = 50
+tt.nav_rally.delay_max = nil
+tt.nav_rally.requires_node_nearby = false
+tt.nav_grid.ignore_waypoints = true
+tt.all_except_flying_nowalk = bor(TERRAIN_NONE, TERRAIN_LAND, TERRAIN_WATER, TERRAIN_CLIFF, TERRAIN_NOWALK, TERRAIN_SHALLOW, TERRAIN_FAERIE, TERRAIN_ICE)
+tt.nav_grid.valid_terrains = tt.all_except_flying_nowalk
+tt.nav_grid.valid_terrains_dest = tt.all_except_flying_nowalk
+tt.sound_events.change_rally_point = "TowerRayTaunt"
 tt.info.enc_icon = 15
 tt.info.i18n_key = "TOWER_RAY_4"
 tt.tower.level = 4
@@ -14095,6 +14102,8 @@ tt.attacks.list[3].excluded_templates = {
 	"enemy_tower_ray_sheep_flying"
 }
 tt.attacks.list[3].disabled = true
+tt.render.sprites[1].name = "terrains_0004"
+tt.render.sprites[1].hidden = true
 tt.render.sprites[2].name = "channeler_tower_lvl4_rock_core"
 tt.render.sprites[2].draw_order = 2
 tt.render.sprites[3].hidden = true

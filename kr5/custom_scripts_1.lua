@@ -3768,19 +3768,19 @@ end
 
 function scripts.tower_random.insert(this, store, script)
 	local random = math.random()
-	local mobile_towers = {
-		"tower_mage_1",
-		"tower_mage_2",
-		"tower_mage_3",
-		"tower_wild_magus",
-		"tower_bastion"
-	}
+	-- local mobile_towers = {
+	-- 	"tower_mage_1",
+	-- 	"tower_mage_2",
+	-- 	"tower_mage_3",
+	-- 	"tower_wild_magus",
+	-- 	"tower_bastion"
+	-- }
 	for i, name in ipairs(this.allowed_templates) do
 		if random <= i / #this.allowed_templates then
 			local t = E:create_entity(name)
-			t.pos = V.vclone(this.pos)
+			t.pos = this.pos
 			t.tower.flip_x = this.tower.flip_x
-			if table.contains(mobile_towers, name) then
+			if t.nav_rally then
 				local th = E:create_entity("tower_holder")
 				th.pos = V.vclone(this.pos)
 				th.tower.holder_id = this.tower.holder_id

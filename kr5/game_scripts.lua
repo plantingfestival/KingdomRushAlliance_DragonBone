@@ -45891,6 +45891,56 @@ function scripts.tower_ray.update(this, store)
 		return target, pred_pos
 	end
 
+	local function tower_walk_waypoints(store, this, animation)
+		local animation = animation or "walk"
+		local r = this.nav_rally
+		local n = this.nav_grid
+		local dest = r.pos
+	
+		while not V.veq(this.pos, dest) do
+			local w = table.remove(n.waypoints, 1) or dest
+			local unsnap = #n.waypoints > 0
+	
+			U.set_destination(this, w)
+
+			local an = U.animation_name_facing_point(this, animation, this.motion.dest, this.render.sid_mage, this.shooter_offset)
+			U.animation_start(this, an, nil, store.tick_ts, true, this.render.sid_mage)
+
+			while not this.motion.arrived do
+				if r.new then
+					return false
+				end
+	
+				U.walk(this, store.tick_length, nil, unsnap)
+
+				coroutine.yield()
+	
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+			end
+		end
+	end
+
+	local function tower_new_rally(store, this)
+		local r = this.nav_rally
+
+		if r.new then
+			r.new = false
+
+			if this.sound_events and this.sound_events.change_rally_point then
+				S:queue(this.sound_events.change_rally_point)
+			end
+
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+
+			local out = tower_walk_waypoints(store, this, "idle")
+
+			this.vis.bans = vis_bans
+
+			return out
+		end
+	end
+
 	do
 		local soffset = this.shooter_offset
 		local an, af, ai = U.animation_name_facing_point(this, "idle", a._last_target_pos, this.render.sid_mage, soffset)
@@ -45899,37 +45949,61 @@ function scripts.tower_ray.update(this, store)
 	end
 
 	while true do
+		local interrupted
+
 		if this.tower.blocked then
-			coroutine.yield()
-		else
+			interrupted = true
+		elseif this.nav_rally then
+			while this.nav_rally.new do
+                if tower_new_rally(store, this) then
+                    interrupted = true
+				end
+            end
+			local available_paths = {}
+			for k, v in pairs(P.paths) do
+				table.insert(available_paths, k)
+			end
+			if store.level.ignore_walk_backwards_paths then
+				available_paths = table.filter(available_paths, function(k, v)
+					return not table.contains(store.level.ignore_walk_backwards_paths, v)
+				end)
+			end
+			local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
+			if #nodes > 0 then
+				local pi, spi, ni = unpack(nodes[1])
+				this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
+			end
+		end
+
+		if not interrupted then
 			if this.powers then
 				for k, pow in pairs(this.powers) do
 					if pow.changed then
 						pow.changed = nil
-
+	
 						if pow == pow_c then
 							if pow.level >= 1 then
 								ab.disabled = true
 								ac.disabled = false
 							end
-
+	
 							ac.ts = store.tick_ts - ac.cooldown
-
+	
 							if pow.level == 1 then
 								for i = 1, #this.shocks_ids do
 									local shock_fx = E:create_entity(this.shock_fx)
-
+	
 									shock_fx.pos = tpos(this)
 									shock_fx.render.sprites[1].prefix = shock_fx.render.sprites[1].prefix .. this.shocks_ids[i]
 									shock_fx.render.sprites[1].ts = store.tick_ts
 									shock_fx.tower_id = this.id
-
+	
 									queue_insert(store, shock_fx)
 									U.animation_start(shock_fx, "idle", nil, store.tick_ts, true)
 								end
 							end
 						end
-
+	
 						if pow == pow_s then
 							as.disabled = false
 							as.cooldown = pow.cooldown[1]
@@ -45938,9 +46012,9 @@ function scripts.tower_ray.update(this, store)
 					end
 				end
 			end
-
+	
 			SU.towers_swaped(store, this, this.attacks.list)
-
+	
 			for i, aa in pairs(attacks) do
 				if aa and not aa.disabled and store.tick_ts - aa.ts > aa.cooldown and store.tick_ts - last_ts > a.min_cooldown then
 					if aa == as then
@@ -45948,57 +46022,57 @@ function scripts.tower_ray.update(this, store)
 							goto label_continue
 						end
 						local enemy, pred_pos = find_target(aa)
-
+	
 						if not enemy then
 							SU.delay_attack(store, aa, fts(10))
 						else
 							local enemy_id = enemy.id
 							local enemy_pos = enemy.pos
-
+	
 							last_ts = store.tick_ts
-
+	
 							S:queue(aa.sound)
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_start, enemy.pos, this.render.sid_mage, this.mage_offset)
-
+	
 							a._last_target_pos.x, a._last_target_pos.y = enemy.pos.x, enemy.pos.y
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, false, this.render.sid_mage)
 							U.animation_start_group(this, "glow_start", nil, store.tick_ts, false, "rocks")
-
+	
 							local b = E:create_entity(aa.bullet)
 							local start_offset = aa.bullet_start_offset
-
+	
 							U.y_wait(store, fts(4))
 							U.animation_start_group(this, "idle_2", nil, store.tick_ts, true, "rocks")
 							U.y_wait(store, aa.shoot_time - fts(4))
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_loop, enemy.pos, this.render.sid_mage, this.mage_offset)
-
+	
 							a._last_target_pos.x, a._last_target_pos.y = enemy.pos.x, enemy.pos.y
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, true, this.render.sid_mage)
-
+	
 							if aa.start_fx then
 								local fx = E:create_entity(aa.start_fx)
-
+	
 								fx.pos.x, fx.pos.y = this.pos.x + start_offset.x, this.pos.y + start_offset.y
 								fx.render.sprites[1].ts = store.tick_ts
-
+	
 								queue_insert(store, fx)
 							end
-
+	
 							U.y_wait(store, fts(1))
-
+	
 							enemy, pred_pos = find_target(aa)
-
+	
 							if enemy then
 								enemy_id = enemy.id
 								enemy_pos = enemy.pos
 							else
 								goto label_722_0
 							end
-
+	
 							aa.ts = last_ts
 							b.pos.x, b.pos.y = this.pos.x + start_offset.x, this.pos.y + start_offset.y
 							b.bullet.from = V.vclone(b.pos)
@@ -46008,124 +46082,124 @@ function scripts.tower_ray.update(this, store)
 							b.bullet.level = this.tower.level
 							b.tower_ref = this
 							b.pred_pos = V.vclone(pred_pos)
-
+	
 							queue_insert(store, b)
-
+	
 							::label_722_0::
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_end, a._last_target_pos, this.render.sid_mage, this.mage_offset)
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, false, this.render.sid_mage)
 							U.y_animation_play_group(this, "glow_end", nil, store.tick_ts, 1, "rocks")
 							U.animation_start_group(this, "idle", nil, store.tick_ts, true, "rocks")
 							U.y_animation_wait(this, this.render.sid_mage)
-
+	
 							local soffset = this.shooter_offset
 							local an, af, ai = U.animation_name_facing_point(this, "idle", a._last_target_pos, this.render.sid_mage, soffset)
-
+	
 							U.animation_start(this, an, false, store.tick_ts, true, this.render.sid_mage)
-
+	
 							idle_ts = store.tick_ts
 						end
 					else
 						local enemy, pred_pos = find_target(aa)
-
+	
 						if not enemy then
 							SU.delay_attack(store, aa, fts(10))
 						else
 							local enemy_id = enemy.id
 							local enemy_pos = enemy.pos
-
+	
 							last_ts = store.tick_ts
-
+	
 							S:queue(aa.sound)
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_start, enemy.pos, this.render.sid_mage, this.mage_offset)
-
+	
 							a._last_target_pos.x, a._last_target_pos.y = enemy.pos.x, enemy.pos.y
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, false, this.render.sid_mage)
 							U.animation_start_group(this, "union", nil, store.tick_ts, false, "crystals")
-
+	
 							if this.tower.level < 4 then
 								this.render.sprites[this.render.sid_glow].hidden = false
-
+	
 								U.animation_start(this, "glow_start", nil, store.tick_ts, false, this.render.sid_glow)
 							else
 								U.animation_start_group(this, "glow_start", nil, store.tick_ts, false, "rocks")
 							end
-
+	
 							if aa.start_fx then
 								local fx = E:create_entity(aa.start_fx)
-
+	
 								fx.pos = V.vclone(tpos(this))
 								fx.render.sprites[1].ts = store.tick_ts
-
+	
 								queue_insert(store, fx)
 							end
-
+	
 							local b = E:create_entity(aa.bullet)
 							local start_offset = aa.bullet_start_offset
-
+	
 							U.y_wait(store, fts(4))
-
+	
 							if this.tower.level < 4 then
 								this.render.sprites[this.render.sid_glow].hidden = false
-
+	
 								U.animation_start(this, "idle", nil, store.tick_ts, true, this.render.sid_glow)
 							else
 								U.animation_start_group(this, "idle_2", nil, store.tick_ts, true, "rocks")
 							end
-
+	
 							U.y_wait(store, aa.shoot_time - fts(4))
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_loop, enemy.pos, this.render.sid_mage, this.mage_offset)
-
+	
 							a._last_target_pos.x, a._last_target_pos.y = enemy.pos.x, enemy.pos.y
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, true, this.render.sid_mage)
-
+	
 							if b.bullet.out_start_fx then
 								local fx = E:create_entity(b.bullet.out_start_fx)
-
+	
 								fx.pos.x, fx.pos.y = this.pos.x + start_offset.x, this.pos.y + start_offset.y
 								fx.render.sprites[1].ts = store.tick_ts
-
+	
 								queue_insert(store, fx)
 							end
-
+	
 							if b.bullet.out_fx then
 								local fx = E:create_entity(b.bullet.out_fx)
-
+	
 								fx.pos.x, fx.pos.y = this.pos.x + start_offset.x, this.pos.y + start_offset.y
 								fx.render.sprites[1].ts = store.tick_ts
-
+	
 								queue_insert(store, fx)
-
+	
 								this.ray_fx_start = fx
 							end
-
+	
 							U.y_wait(store, fts(1))
-
+	
 							local last_fx = store.tick_ts + fts(3)
-
+	
 							this.render.sprites[this.render.sid_crystal_union].hidden = false
-
+	
 							for i = this.render.sid_crystals, this.render.sid_crystals + #this.crystals_ids - 1 do
 								this.render.sprites[i].hidden = true
 							end
-
+	
 							local range_to_stay = a.range + a.extra_range
-
+	
 							enemy, pred_pos = find_target(aa)
-
+	
 							if enemy then
 								enemy_id = enemy.id
 								enemy_pos = enemy.pos
 							else
 								goto label_722_1
 							end
-
+	
 							this.chain_targets = {
 								enemy.id
 							}
@@ -46137,75 +46211,75 @@ function scripts.tower_ray.update(this, store)
 							b.bullet.level = this.tower.level
 							b.bullet.damage_factor = this.tower.damage_factor
 							b.tower_ref = this
-
+	
 							queue_insert(store, b)
-
+	
 							while store.tick_ts - last_ts < aa.duration + aa.shoot_time and enemy and enemy.enemy and not enemy.health.dead and b and not b.force_stop_ray and not this.tower.blocked and V.dist2(tpos(this).x, tpos(this).y, enemy.pos.x, enemy.pos.y) <= range_to_stay * range_to_stay do
 								if store.tick_ts - last_fx > 1 and store.tick_ts - last_ts < aa.duration + aa.shoot_time - 0.75 and b.bullet.out_start_fx then
 									local fx = E:create_entity(b.bullet.out_start_fx)
-
+	
 									fx.pos.x, fx.pos.y = this.pos.x + start_offset.x, this.pos.y + start_offset.y
 									fx.render.sprites[1].ts = store.tick_ts
-
+	
 									queue_insert(store, fx)
-
+	
 									last_fx = store.tick_ts
 								end
-
+	
 								coroutine.yield()
 							end
-
+	
 							b.force_stop_ray = true
-
+	
 							::label_722_1::
-
+	
 							aa.ts = last_ts
-
+	
 							queue_remove(store, this.ray_fx_start)
-
+	
 							this.render.sprites[this.render.sid_crystal_union].hidden = true
-
+	
 							for i = this.render.sid_crystals, this.render.sid_crystals + #this.crystals_ids - 1 do
 								this.render.sprites[i].hidden = false
 							end
-
+	
 							U.animation_start_group(this, "break", nil, store.tick_ts, false, "crystals")
-
+	
 							local an, af, ai = U.animation_name_facing_point(this, aa.animation_end, a._last_target_pos, this.render.sid_mage, this.mage_offset)
-
+	
 							U.animation_start(this, an, nil, store.tick_ts, false, this.render.sid_mage)
-
+	
 							if this.tower.level < 4 then
 								U.y_animation_play(this, "glow_end", nil, store.tick_ts, 1, this.render.sid_glow)
-
+	
 								this.render.sprites[this.render.sid_glow].hidden = true
 							else
 								U.y_animation_play_group(this, "glow_end", nil, store.tick_ts, 1, "rocks")
 								U.animation_start_group(this, "idle", nil, store.tick_ts, true, "rocks")
 							end
-
+	
 							U.y_animation_wait(this, this.render.sid_mage)
-
+	
 							local soffset = this.shooter_offset
 							local an, af, ai = U.animation_name_facing_point(this, "idle", a._last_target_pos, this.render.sid_mage, soffset)
-
+	
 							U.animation_start(this, an, false, store.tick_ts, true, this.render.sid_mage)
-
+	
 							idle_ts = store.tick_ts
 						end
 					end
 				end
 				::label_continue::
 			end
-
+	
 			if store.tick_ts - idle_ts > this.tower.long_idle_cooldown then
 				local an, af, ai = U.animation_name_facing_point(this, "idle", this.tower.long_idle_pos, this.render.sprites.sid_mage, this.mage_offset)
-
+	
 				U.animation_start(this, "idle", false, store.tick_ts, true, this.render.sprites.sid_mage)
 			end
-
-			coroutine.yield()
 		end
+
+		coroutine.yield()
 	end
 end
 

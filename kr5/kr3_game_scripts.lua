@@ -2121,57 +2121,57 @@ function scripts.tower_bastion.update(this, store)
 			this.ui.can_select = true
 		end
 	end
+	
+	local function tower_walk_waypoints(store, this, animation)
+		local animation = animation or "walk"
+		local r = this.nav_rally
+		local n = this.nav_grid
+		local dest = r.pos
+	
+		while not V.veq(this.pos, dest) do
+			local w = table.remove(n.waypoints, 1) or dest
+			local unsnap = #n.waypoints > 0
+	
+			U.set_destination(this, w)
+			-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
+
+			while not this.motion.arrived do
+				if r.new then
+					return false
+				end
+	
+				U.walk(this, store.tick_length, nil, unsnap)
+
+				coroutine.yield()
+	
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+			end
+		end
+	end
+
+	local function tower_new_rally(store, this)
+		local r = this.nav_rally
+
+		if r.new then
+			r.new = false
+
+			if this.sound_events and this.sound_events.change_rally_point then
+				S:queue(this.sound_events.change_rally_point)
+			end
+
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+
+			local out = tower_walk_waypoints(store, this, "idle")
+
+			this.vis.bans = vis_bans
+
+			return out
+		end
+	end
 
 	while true do
 		local skip
-		local function tower_walk_waypoints(store, this, animation)
-			local animation = animation or "walk"
-			local r = this.nav_rally
-			local n = this.nav_grid
-			local dest = r.pos
-		
-			while not V.veq(this.pos, dest) do
-				local w = table.remove(n.waypoints, 1) or dest
-				local unsnap = #n.waypoints > 0
-		
-				U.set_destination(this, w)
-				-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
-
-				while not this.motion.arrived do
-					if r.new then
-						return false
-					end
-		
-					U.walk(this, store.tick_length, nil, unsnap)
-
-					coroutine.yield()
-		
-					this.motion.speed.x, this.motion.speed.y = 0, 0
-				end
-			end
-		end
-
-		local function tower_new_rally(store, this)
-			local r = this.nav_rally
-
-			if r.new then
-				r.new = false
-
-				if this.sound_events and this.sound_events.change_rally_point then
-					S:queue(this.sound_events.change_rally_point)
-				end
-
-				local vis_bans = this.vis.bans
-				this.vis.bans = F_ALL
-
-				local out = tower_walk_waypoints(store, this, "idle")
-
-				this.vis.bans = vis_bans
-
-				return out
-			end
-		end
-
 		check_change_mode()
 
 		if this.tower.blocked then
@@ -2181,21 +2181,21 @@ function scripts.tower_bastion.update(this, store)
                 if tower_new_rally(store, this) then
                     skip = true
 				end
-				local available_paths = {}
-				for k, v in pairs(P.paths) do
-					table.insert(available_paths, k)
-				end
-				if store.level.ignore_walk_backwards_paths then
-					available_paths = table.filter(available_paths, function(k, v)
-						return not table.contains(store.level.ignore_walk_backwards_paths, v)
-					end)
-				end
-				local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
-				if #nodes > 0 then
-					local pi, spi, ni = unpack(nodes[1])
-					this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
-				end
             end
+			local available_paths = {}
+			for k, v in pairs(P.paths) do
+				table.insert(available_paths, k)
+			end
+			if store.level.ignore_walk_backwards_paths then
+				available_paths = table.filter(available_paths, function(k, v)
+					return not table.contains(store.level.ignore_walk_backwards_paths, v)
+				end)
+			end
+			local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
+			if #nodes > 0 then
+				local pi, spi, ni = unpack(nodes[1])
+				this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
+			end
 		end
 
 		if not skip then
