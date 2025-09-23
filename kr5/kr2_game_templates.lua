@@ -7370,7 +7370,7 @@ tt = E:register_t("mod_priest_consecrate", "modifier")
 E:add_comps(tt, "render", "tween")
 
 tt.render.sprites[1].name = "decal_priest_consecrate"
-tt.render.sprites[1].draw_order = 2
+tt.render.sprites[1].draw_order = DO_TOWER_MODS
 tt.render.sprites[1].anchor.y = 0.32
 tt.render.sprites[1].offset.y = 7
 tt.main_script.update = kr2_scripts.mod_priest_consecrate.update

@@ -14707,7 +14707,7 @@ function scripts.mod_priest_consecrate.update(this, store)
 		return
 	end
 
-	this.pos = V.vclone(target.pos)
+	this.pos = target.pos
 	m.ts = store.tick_ts
 	this.tween.disabled = false
 	this.tween.ts = store.tick_ts
