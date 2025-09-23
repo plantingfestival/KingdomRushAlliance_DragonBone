@@ -2744,11 +2744,36 @@ return {
             0
 		},
 		a_size = {
-			474,
+			948,
 			158
 		},
 		f_quad = {
 			1,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["level_select_tower_icons_0106_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			948,
+			158
+		},
+		f_quad = {
+			159,
 			1,
 			156,
 			156
@@ -2769,11 +2794,36 @@ return {
             0
 		},
 		a_size = {
-			474,
+			948,
 			158
 		},
 		f_quad = {
-			159,
+			317,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["level_select_tower_icons_0127_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			948,
+			158
+		},
+		f_quad = {
+			475,
 			1,
 			156,
 			156
@@ -2794,11 +2844,36 @@ return {
             0
 		},
 		a_size = {
-			474,
+			948,
 			158
 		},
 		f_quad = {
-			317,
+			633,
+			1,
+			156,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["level_select_tower_icons_0138_0001"] = {
+		a_name = "room_levelselect-2.dds",
+		size = {
+			156,
+			156
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			948,
+			158
+		},
+		f_quad = {
+			791,
 			1,
 			156,
 			156

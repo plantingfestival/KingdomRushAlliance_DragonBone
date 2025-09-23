@@ -7293,6 +7293,13 @@ return {
 				tt_desc_mode1 = _("ELVES_TOWER_BASTION_FLIP_DESCRIPTION"),
 				tt_title_mode0 = _("ELVES_TOWER_BASTION_FLIP_TITLE"),
 				tt_desc_mode0 = _("ELVES_TOWER_BASTION_FLIP_DESCRIPTION")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
 			}
 		}
 	},

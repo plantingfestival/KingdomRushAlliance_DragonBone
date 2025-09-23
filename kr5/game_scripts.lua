@@ -54533,7 +54533,7 @@ function scripts.arrow5.update(this, store, script)
 				elseif b.miss_decal_no_rotation then
 					decal.render.sprites[1].r = math.pi / 2 * ((0.5 - math.random()) * 0.35)
 				else
-					decal.render.sprites[1].r = -math.pi / 2 * (1 + (0.5 - math.random()) * 0.35)
+					decal.render.sprites[1].r = math.pi / 2 * (1 + (0.5 - math.random()) * 0.35) * (decal.render.sprites[1].flip_x and 1 or -1)
 				end
 
 				if b.miss_decal_anchor then

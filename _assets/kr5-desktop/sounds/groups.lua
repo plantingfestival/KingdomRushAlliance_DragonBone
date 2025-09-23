@@ -663,6 +663,11 @@ return {
 			"kr4_frog_erudite_shot.ogg",
 			"kr4_puff_death.ogg",
 			"kro_sfx_bitteringrancor_screecher-death.ogg",
+			"HeadlessHorseman-03a_WET.ogg",
+			"halloween_headless_sinrisa_conacorde.ogg",
+			"halloween_vampireboss_death.ogg",
+			"halloween_vampireboss_drainlife.ogg",
+			"halloween_vampireboss_gates.ogg",
 		}
 	},
 	-- customization

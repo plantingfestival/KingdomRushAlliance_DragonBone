@@ -5642,15 +5642,15 @@ tt.render.sprites[1].sort_y_offset = -30
 
 tt = E:register_t("bullet_musket_rage", "bullet_without_trajectory")
 tt.bullet.hit_time = 0.1
-tt.bullet.damage_min = 15
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 14
+tt.bullet.damage_max = 14
 tt.bullet.damages_min = {
-	15,
-	30
+	14,
+	28
 }
 tt.bullet.damages_max = {
-	15,
-	30
+	14,
+	28
 }
 tt.bullet.level = 1
 tt.bullet.hit_fx = "fx_musket_rage_hit"

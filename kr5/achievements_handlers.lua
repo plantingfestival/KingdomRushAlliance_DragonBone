@@ -212,9 +212,9 @@ function ah:h_entity_killed(entity, damage)
 				self.A:inc_check("NATURES_WRATH")
 				log.info("KILLED WITH HEART")
 			elseif entity.enemy then
-				if s.template_name == "bolt_plant_magic_blossom" then
-					self.A:inc_check("GATHERING_MAGIC")
-				end
+				-- if s.template_name == "bolt_plant_magic_blossom" then
+					-- self.A:inc_check("GATHERING_MAGIC")
+				-- end
 
 				-- if s.template_name == "mod_plant_poison_pumpkin" then
 					-- self.A:inc_check("KILLER_TOMATOES")

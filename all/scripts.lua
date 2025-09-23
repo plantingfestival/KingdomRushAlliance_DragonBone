@@ -6162,8 +6162,10 @@ end
 function scripts.mod_teleport.insert(this, store)
 	local target = store.entities[this.modifier.target_id]
 
-	if target and target.enemy and target.health and not target.health.dead and this._pushed_bans ~= nil and (not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and (not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
-		-- target.health.ignore_damage = true
+	if target and target.health and not target.health.dead and this._pushed_bans ~= nil and 
+	(not target.enemy or not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and 
+	(not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
+		target.health.ignore_damage = true
 
 		SU.stun_inc(target)
 
@@ -6189,7 +6191,12 @@ function scripts.mod_teleport.update(this, store)
 	local m = this.modifier
 	local target = store.entities[m.target_id]
 
-	if not target or not target.health or target.health.dead or target.health.hp <= 0 then
+	if not target or not target.health then
+		queue_remove(store, this)
+		return
+	end
+	if target.health.dead or target.health.hp <= 0 then
+		target.health.hp = 0
 		queue_remove(store, this)
 		return
 	end

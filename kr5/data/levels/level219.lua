@@ -956,8 +956,6 @@ function level:load(store)
 end
 
 function level:update(store)
-	-- LU.insert_hero(store)
-
 	while store.wave_group_number < 1 do
 		coroutine.yield()
 	end

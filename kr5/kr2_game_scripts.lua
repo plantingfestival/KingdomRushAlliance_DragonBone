@@ -10682,6 +10682,9 @@ function scripts.eb_dracula.update(this, store, script)
 				local _vis_bans = this.vis.bans
 
 				this.vis.bans = bor(this.vis.bans, F_ALL)
+				this.health.armor = 1
+				this.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
+				this.health.magic_armor = 0
 
 				y_fly_to(V.v(525, 540))
 				y_fly_to(V.v(525, 790))
