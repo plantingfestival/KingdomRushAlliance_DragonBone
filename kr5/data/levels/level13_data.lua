@@ -1355,6 +1355,7 @@ return {
 			["ui.nav_mesh_id"] = "72",
 			template = "tower_stage_13_sunray",
 			["editor.game_mode"] = 0,
+			["tower.can_be_sold"] = false,
 			pos = {
 				x = 97,
 				y = 396
@@ -1369,6 +1370,7 @@ return {
 			["ui.nav_mesh_id"] = "78",
 			template = "tower_stage_13_sunray",
 			["editor.game_mode"] = 3,
+			["tower.can_be_sold"] = false,
 			pos = {
 				x = 528,
 				y = 446
