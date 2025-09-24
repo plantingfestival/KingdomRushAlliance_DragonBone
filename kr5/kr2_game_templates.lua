@@ -11630,6 +11630,7 @@ tt.ranged.attacks[1].bullet = "headless_horseman_pumpkin"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(20, 65)
 }
+tt.ranged.attacks[1].ignore_hit_offset = true
 tt.ranged.attacks[1].cooldown = 4
 tt.ranged.attacks[1].min_range = 40
 tt.ranged.attacks[1].max_range = 190

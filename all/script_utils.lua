@@ -4700,18 +4700,27 @@ local function entity_casts_range_unit(store, this, a)
 	local prediction_time = a.node_prediction or 0
 	local filter_fn, origin
 
-	local function get_target(prediction_time)
+	local function get_target(prediction_time, filter_fn)
 		return find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
 	end
 
-	local function check_target(prediction_time)
+	local function check_target(prediction_time, af)
 		if a.target_id then
 			return
 		end
 		local oldTarget = target
 		target = store.entities[target.id]
 		if not target or target.health.dead then
-			local newTarget, newTargets, newPredPos = get_target(prediction_time)
+			local newTarget, newTargets, newPredPos
+			if not a.ignore_flip_x then
+				local new_filter_fn = function(v, origin)
+					return (af and v.pos.x < origin.x or not af and v.pos.x >= origin.x) and 
+					(not filter_fn or filter_fn and filter_fn(v, origin))
+				end
+				newTarget, newTargets, newPredPos = get_target(prediction_time, new_filter_fn)
+			else
+				newTarget, newTargets, newPredPos = get_target(prediction_time, filter_fn)
+			end
 			if newTarget then
 				target = newTarget
 				targets = newTargets
@@ -4730,7 +4739,7 @@ local function entity_casts_range_unit(store, this, a)
 		for i = 1, max_bullets do
 			if i > 1 and not a.same_target then
 				target = targets[km.zmod(i, #targets)]
-				check_target(prediction_time)
+				check_target(prediction_time, af)
 			end
 			local tpi, tspi, tni
 			if target.nav_path then
@@ -4889,7 +4898,7 @@ local function entity_casts_range_unit(store, this, a)
 
 	filter_fn = get_attack_filter_function(a)
 	origin = get_entity_range_origin(this)
-	target, targets, pred_pos = get_target(a.cast_time + prediction_time)
+	target, targets, pred_pos = get_target(a.cast_time + prediction_time, filter_fn)
 
 	::label_start::
 	if target then
@@ -4924,7 +4933,7 @@ local function entity_casts_range_unit(store, this, a)
 					if i > 1 and a.different_targets then
 						target = targets[km.zmod(i, #targets)]
 					end
-					check_target(prediction_time)
+					check_target(prediction_time, af)
 					shoot_bullets(af, ai)
 				end
 				if y_entity_animation_wait(this) then
@@ -4947,7 +4956,7 @@ local function entity_casts_range_unit(store, this, a)
 		end
 		U.animation_start(this, an, af, store.tick_ts)
 		if not y_entity_wait(store, this, a.cast_time) then
-			check_target(prediction_time)
+			check_target(prediction_time, af)
 			shoot_bullets(af, ai)
 			a.ts = start_ts
 			if a.xp_from_skill then
