@@ -11658,6 +11658,7 @@ tt.bullet.damage_radius = 40
 tt.bullet.damage_bans = F_ENEMY
 tt.bullet.damage_flags = F_AREA
 tt.bullet.flight_time = fts(20)
+tt.bullet.ignore_hit_offset = true
 tt.render.sprites[1].name = "HalloweenRider_bomb"
 tt.main_script.insert = kr2_scripts.enemy_bomb.insert
 tt.main_script.update = kr2_scripts.enemy_bomb.update

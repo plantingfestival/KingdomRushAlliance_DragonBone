@@ -301,7 +301,8 @@ return {
 			"wasp_1.ogg",
 			"wasp_2.ogg",
 			"wasp_3.ogg",
-			"wilhelm_scream.ogg"
+			"wilhelm_scream.ogg",
+			"assassin_gold.ogg",
 		}
 	},
 	-- customization
