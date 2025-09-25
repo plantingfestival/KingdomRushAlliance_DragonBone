@@ -11432,7 +11432,7 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 19)
 tt.sound_events.death = nil
 tt.sound_events.insert = "HWGhosts"
-tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH, F_NET)
 
 tt = E:register_t("ghost_sound_aura", "aura")
 tt.loop_delay = fts(70)
@@ -11515,7 +11515,7 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 21)
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
-tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_THORN, F_POLYMORPH, F_STUN)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_THORN, F_POLYMORPH, F_STUN, F_NET)
 
 tt = E:register_t("phantom_warrior_aura", "aura")
 tt.aura.banned_templates = {

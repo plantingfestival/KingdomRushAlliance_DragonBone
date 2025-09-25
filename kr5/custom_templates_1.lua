@@ -4846,7 +4846,7 @@ tt.timed_attacks.list[1].search_type = U.search_type.max_health
 tt.timed_attacks.list[1].bullet_start_offset = {
 	v(18, 35)
 }
-tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_NET)
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER, F_BOSS, F_MINIBOSS)
 tt.ui.click_rect = r(-25, -3, 50, 38)
 

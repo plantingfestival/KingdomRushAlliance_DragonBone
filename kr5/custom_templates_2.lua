@@ -807,7 +807,7 @@ tt.unit.marker_offset = v(0, 0)
 tt.sound_events.death = "puff_death_sound"
 tt.sound_events.insert = nil
 tt.ui.click_rect = r(-32, -5, 64, 42)
-tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH, F_NET)
 tt.main_script.insert = scripts.enemy_basic.insert
 tt.main_script.update = scripts.kr4_enemy_mixed.update
 
