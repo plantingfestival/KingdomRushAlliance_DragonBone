@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_victory.lua
+-- chunkname: @./kr5/data/kui_templates/group_victory.lua
 
 return {
 	class = "KView",

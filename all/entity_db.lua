@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/entity_db.lua
+-- chunkname: @./all/entity_db.lua
 
 local log = require("klua.log"):new("entity_db")
 

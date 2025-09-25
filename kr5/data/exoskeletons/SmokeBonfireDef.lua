@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/SmokeBonfireDef.lua
+-- chunkname: @./kr5/data/exoskeletons/SmokeBonfireDef.lua
 
 return {
 	fps = 30,

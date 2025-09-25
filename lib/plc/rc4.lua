@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/plc/rc4.lua
+-- chunkname: @./lib/plc/rc4.lua
 
 local byte, char, concat = string.byte, string.char, table.concat
 local bit = require("bit")

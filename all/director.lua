@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/director.lua
+-- chunkname: @./all/director.lua
 
 local log = require("klua.log"):new("director")
 local km = require("klua.macros")

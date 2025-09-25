@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/WaterSparksDef.lua
+-- chunkname: @./kr5/data/exoskeletons/WaterSparksDef.lua
 
 return {
 	fps = 30,

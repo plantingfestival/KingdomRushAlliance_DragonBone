@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_muyrn.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_muyrn.lua
 
 return {
 	hero_nyru_faery_dust_nyru_decal_0001 = {

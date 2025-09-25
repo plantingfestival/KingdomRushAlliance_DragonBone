@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage27_decos.lua
+-- chunkname: @./kr5/data/animations/stage27_decos.lua
 
 local a = {
 	cannonLAYERS_flyclone_fly = {

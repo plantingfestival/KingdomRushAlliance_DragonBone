@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level505_grid.lua
+-- chunkname: @./kr5/data/levels/level505_grid.lua
 
 return {
 	ox = -192,

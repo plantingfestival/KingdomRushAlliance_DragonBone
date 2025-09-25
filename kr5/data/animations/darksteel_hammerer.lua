@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_hammerer.lua
+-- chunkname: @./kr5/data/animations/darksteel_hammerer.lua
 
 local a = {
 	darksteel_hammerer_creep_idle = {

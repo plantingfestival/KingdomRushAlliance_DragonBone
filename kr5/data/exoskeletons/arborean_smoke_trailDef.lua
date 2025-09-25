@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/arborean_smoke_trailDef.lua
+-- chunkname: @./kr5/data/exoskeletons/arborean_smoke_trailDef.lua
 
 return {
 	fps = 30,

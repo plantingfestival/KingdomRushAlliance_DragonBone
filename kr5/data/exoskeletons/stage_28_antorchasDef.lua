@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_28_antorchasDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_28_antorchasDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage07.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage07.lua
 
 return {
 	T2_Stage_7_mask = {

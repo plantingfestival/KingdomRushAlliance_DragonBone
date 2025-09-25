@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/kui_db.lua
+-- chunkname: @./lib/klove/kui_db.lua
 
 local log = require("klua.log"):new("kui_db")
 local serpent = require("serpent")

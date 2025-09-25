@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_killertile.lua
+-- chunkname: @./kr5/data/animations/enemy_killertile.lua
 
 local a = {
 	killertile_creep_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_demon_pit.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_demon_pit.lua
 
 return {
 	demon_pit_tower_build = {

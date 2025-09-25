@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_cultbrood.lua
+-- chunkname: @./kr5/data/animations/enemy_cultbrood.lua
 
 local a = {
 	cultbrood_hit_run = {

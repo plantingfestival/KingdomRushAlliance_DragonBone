@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/mutamydrias_ray_decalDef.lua
+-- chunkname: @./kr5/data/exoskeletons/mutamydrias_ray_decalDef.lua
 
 return {
 	fps = 30,

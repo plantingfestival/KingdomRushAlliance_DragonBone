@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_accept_privacy_policy.lua
+-- chunkname: @./kr5/data/kui_templates/popup_accept_privacy_policy.lua
 
 return {
 	class = "GG5PopUpAcceptPrivacyPolicy",

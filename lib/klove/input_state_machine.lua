@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/input_state_machine.lua
+-- chunkname: @./lib/klove/input_state_machine.lua
 
 local log = require("klua.log"):new("ism")
 local J = love.joystick

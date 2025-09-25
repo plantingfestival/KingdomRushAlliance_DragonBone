@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/game_animations_new.lua
+-- chunkname: @./kr5/data/animations/game_animations_new.lua
 
 local a = {
 	desintegrate_enemy_small = {

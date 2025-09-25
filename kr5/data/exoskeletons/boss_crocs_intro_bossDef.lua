@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/boss_crocs_intro_bossDef.lua
+-- chunkname: @./kr5/data/exoskeletons/boss_crocs_intro_bossDef.lua
 
 return {
 	fps = 30,

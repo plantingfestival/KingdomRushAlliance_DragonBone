@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage17.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage17.lua
 
 return {
 	Revenant_asst_path_open_01 = {

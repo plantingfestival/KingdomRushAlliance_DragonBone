@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/toggle_bg_pager_desktop.lua
+-- chunkname: @./kr5/data/kui_templates/toggle_bg_pager_desktop.lua
 
 return {
 	class = "GG5ToggleButton",

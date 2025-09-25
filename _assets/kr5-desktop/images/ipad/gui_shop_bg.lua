@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_shop_bg.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_shop_bg.lua
 
 return {
 	inaps_BG = {

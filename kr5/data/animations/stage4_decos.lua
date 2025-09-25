@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage4_decos.lua
+-- chunkname: @./kr5/data/animations/stage4_decos.lua
 
 local a = {
 	anim_puente1_action1 = {

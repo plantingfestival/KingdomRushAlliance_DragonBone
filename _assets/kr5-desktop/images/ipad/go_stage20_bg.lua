@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage20_bg.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage20_bg.lua
 
 return {
 	Stage20_0001 = {

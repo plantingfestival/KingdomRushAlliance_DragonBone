@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_barrel.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_barrel.lua
 
 return {
 	barrel_tower_berserker_unit_0001 = {

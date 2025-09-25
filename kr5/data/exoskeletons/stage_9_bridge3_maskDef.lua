@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_9_bridge3_maskDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_9_bridge3_maskDef.lua
 
 return {
 	fps = 30,

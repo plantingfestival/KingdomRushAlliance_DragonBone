@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/remote_balance_classes.lua
+-- chunkname: @./all/remote_balance_classes.lua
 
 local log = require("klua.log"):new("remote_balance_classes")
 local class = require("middleclass")

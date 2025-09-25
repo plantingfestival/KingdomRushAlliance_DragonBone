@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_balooning_spider.lua
+-- chunkname: @./kr5/data/animations/enemy_balooning_spider.lua
 
 local a = {
 	balooning_spider_exo_creep_air_walk = {

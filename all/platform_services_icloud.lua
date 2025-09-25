@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_icloud.lua
+-- chunkname: @./all/platform_services_icloud.lua
 
 require("klua.string")
 

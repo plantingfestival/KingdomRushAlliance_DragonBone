@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage10.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage10.lua
 
 return {
 	HealFx1Big_asst_healfx_frame1 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/CutTreeRipplesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/CutTreeRipplesDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_dwarf.lua
+-- chunkname: @./kr5/data/animations/tower_dwarf.lua
 
 local a = {
 	tower_dwarf_preview = {

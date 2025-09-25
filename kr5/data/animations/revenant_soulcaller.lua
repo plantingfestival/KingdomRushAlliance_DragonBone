@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/revenant_soulcaller.lua
+-- chunkname: @./kr5/data/animations/revenant_soulcaller.lua
 
 local a = {
 	revenant_soulcaller_unit_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_consent.lua
+-- chunkname: @./kr5/screen_consent.lua
 
 local log = require("klua.log"):new("screen_consent")
 local class = require("middleclass")

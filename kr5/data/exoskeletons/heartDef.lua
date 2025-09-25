@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/heartDef.lua
+-- chunkname: @./kr5/data/exoskeletons/heartDef.lua
 
 return {
 	fps = 30,

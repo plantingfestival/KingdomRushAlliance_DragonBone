@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage11_decos.lua
+-- chunkname: @./kr5/data/animations/stage11_decos.lua
 
 local a = {
 	mydrias_areaskill_status_in = {

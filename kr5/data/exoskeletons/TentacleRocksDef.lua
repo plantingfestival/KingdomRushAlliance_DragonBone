@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/TentacleRocksDef.lua
+-- chunkname: @./kr5/data/exoskeletons/TentacleRocksDef.lua
 
 return {
 	fps = 30,

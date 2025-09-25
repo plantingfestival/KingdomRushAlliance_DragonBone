@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/AcolyteDef.lua
+-- chunkname: @./kr5/data/exoskeletons/AcolyteDef.lua
 
 return {
 	fps = 30,

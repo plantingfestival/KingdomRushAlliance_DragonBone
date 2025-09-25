@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/CardRocket_gunnersDef.lua
+-- chunkname: @./kr5/data/exoskeletons/CardRocket_gunnersDef.lua
 
 return {
 	fps = 30,

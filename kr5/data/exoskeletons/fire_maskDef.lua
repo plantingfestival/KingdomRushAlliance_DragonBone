@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/fire_maskDef.lua
+-- chunkname: @./kr5/data/exoskeletons/fire_maskDef.lua
 
 return {
 	fps = 30,

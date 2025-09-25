@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_tower_skill.lua
+-- chunkname: @./kr5/data/kui_templates/button_tower_skill.lua
 
 return {
 	default_image_name = "tower_room_image_tower_skill_frame_0001",

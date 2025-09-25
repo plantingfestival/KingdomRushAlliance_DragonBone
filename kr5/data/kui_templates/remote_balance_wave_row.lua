@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/remote_balance_wave_row.lua
+-- chunkname: @./kr5/data/kui_templates/remote_balance_wave_row.lua
 
 return {
 	id = "wave_row",

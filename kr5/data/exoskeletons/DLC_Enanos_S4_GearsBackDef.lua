@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_GearsBackDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_GearsBackDef.lua
 
 return {
 	fps = 30,

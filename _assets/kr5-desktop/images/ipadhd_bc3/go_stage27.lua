@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage27.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage27.lua
 
 return {
 	DLC_enanos_easter_egg_exodia_head_0001 = {

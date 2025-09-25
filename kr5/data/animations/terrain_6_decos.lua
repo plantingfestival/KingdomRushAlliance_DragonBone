@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/terrain_6_decos.lua
+-- chunkname: @./kr5/data/animations/terrain_6_decos.lua
 
 local a = {
 	DLC_enanos_easter_egg_exodia_arm_idle = {

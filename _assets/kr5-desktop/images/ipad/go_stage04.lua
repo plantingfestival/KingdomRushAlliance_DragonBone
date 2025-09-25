@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage04.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage04.lua
 
 return {
 	Stage4_NEW_Submask = {

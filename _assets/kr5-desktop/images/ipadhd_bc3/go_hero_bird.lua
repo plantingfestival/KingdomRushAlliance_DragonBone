@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_bird.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_bird.lua
 
 return {
 	gryph_bulletskill_decal_0001 = {

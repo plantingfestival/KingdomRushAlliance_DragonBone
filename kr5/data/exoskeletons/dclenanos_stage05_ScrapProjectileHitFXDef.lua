@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_ScrapProjectileHitFXDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_ScrapProjectileHitFXDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/hydra_deathDef.lua
+-- chunkname: @./kr5/data/exoskeletons/hydra_deathDef.lua
 
 return {
 	fps = 30,

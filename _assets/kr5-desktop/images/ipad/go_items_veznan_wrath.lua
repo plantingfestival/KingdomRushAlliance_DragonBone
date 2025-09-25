@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_veznan_wrath.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_veznan_wrath.lua
 
 return {
 	item_veznan_wrath_overlay = {

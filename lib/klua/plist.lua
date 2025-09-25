@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/plist.lua
+-- chunkname: @./lib/klua/plist.lua
 
 local log = require("klua.log"):new("klua.plist")
 local plist = {}

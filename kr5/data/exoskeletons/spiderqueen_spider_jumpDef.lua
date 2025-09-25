@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/spiderqueen_spider_jumpDef.lua
+-- chunkname: @./kr5/data/exoskeletons/spiderqueen_spider_jumpDef.lua
 
 return {
 	fps = 30,

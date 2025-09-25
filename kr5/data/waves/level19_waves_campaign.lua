@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/waves/level19_waves_campaign.lua
+-- chunkname: @./kr5/data/waves/level19_waves_campaign.lua
 
 return {
 	cash = 1000,

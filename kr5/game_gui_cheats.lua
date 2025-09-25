@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/game_gui_cheats.lua
+-- chunkname: @./kr5/game_gui_cheats.lua
 
 local log = require("klua.log"):new("game_gui_cheats")
 local kui_db = require("klove.kui_db")

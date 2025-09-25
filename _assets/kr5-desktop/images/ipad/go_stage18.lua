@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage18.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage18.lua
 
 return {
 	armor_0229 = {

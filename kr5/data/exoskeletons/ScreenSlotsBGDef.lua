@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/ScreenSlotsBGDef.lua
+-- chunkname: @./kr5/data/exoskeletons/ScreenSlotsBGDef.lua
 
 return {
 	fps = 30,

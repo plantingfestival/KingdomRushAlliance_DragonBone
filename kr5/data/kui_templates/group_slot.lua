@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_slot.lua
+-- chunkname: @./kr5/data/kui_templates/group_slot.lua
 
 return {
 	class = "SlotView",

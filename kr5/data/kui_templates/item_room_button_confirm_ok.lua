@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/item_room_button_confirm_ok.lua
+-- chunkname: @./kr5/data/kui_templates/item_room_button_confirm_ok.lua
 
 return {
 	class = "KView",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/platform_services_rail.lua
+-- chunkname: @./all-desktop/platform_services_rail.lua
 
 local log = require("klua.log"):new("platform_services_rail")
 local PSU = require("platform_services_utils")

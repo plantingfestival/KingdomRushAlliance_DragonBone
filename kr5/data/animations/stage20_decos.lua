@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage20_decos.lua
+-- chunkname: @./kr5/data/animations/stage20_decos.lua
 
 local a = {
 	arborean_house_hit_1_run = {

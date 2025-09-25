@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_dragon_arb.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_dragon_arb.lua
 
 return {
 	hero_dragon_arborean_arborean_0001 = {

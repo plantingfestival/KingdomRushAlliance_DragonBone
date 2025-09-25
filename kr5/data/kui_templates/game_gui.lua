@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui.lua
 
 local SF = ctx.safe_frame
 local BS_HUD = ctx.bs.hud

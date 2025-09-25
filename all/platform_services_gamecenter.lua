@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_gamecenter.lua
+-- chunkname: @./all/platform_services_gamecenter.lua
 
 require("klua.string")
 

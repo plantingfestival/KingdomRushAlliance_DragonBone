@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/script_utils.lua
+-- chunkname: @./all/script_utils.lua
 
 local log = require("klua.log"):new("script_utils")
 local log_xp = log.xp or log:new("xp")

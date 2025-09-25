@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage14.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage14.lua
 
 return {
 	Amalgam_dude_0034 = {

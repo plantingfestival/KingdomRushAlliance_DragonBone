@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/scrap_speedster.lua
+-- chunkname: @./kr5/data/animations/scrap_speedster.lua
 
 local a = {
 	scrap_speedster_trail = {

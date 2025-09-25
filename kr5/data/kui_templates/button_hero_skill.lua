@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_hero_skill.lua
+-- chunkname: @./kr5/data/kui_templates/button_hero_skill.lua
 
 return {
 	default_image_name = "hero_room_image_skill_button_bg_0001",

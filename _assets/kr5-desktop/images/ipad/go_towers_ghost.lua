@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ghost.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ghost.lua
 
 return {
 	ghost_tower_buff_skill_back_0001 = {

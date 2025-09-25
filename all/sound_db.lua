@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/sound_db.lua
+-- chunkname: @./all/sound_db.lua
 
 local log = require("klua.log"):new("sound_db")
 

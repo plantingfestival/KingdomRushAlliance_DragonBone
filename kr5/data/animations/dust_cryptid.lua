@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/dust_cryptid.lua
+-- chunkname: @./kr5/data/animations/dust_cryptid.lua
 
 local a = {
 	dust_cryptid_dust_fx_loop = {

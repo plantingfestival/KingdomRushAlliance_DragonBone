@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/game_templates.lua
+-- chunkname: @./kr5/game_templates.lua
 
 local bit = require("bit")
 local bor = bit.bor

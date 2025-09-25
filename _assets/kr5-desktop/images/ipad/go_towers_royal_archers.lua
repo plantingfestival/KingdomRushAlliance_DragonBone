@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_royal_archers.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_royal_archers.lua
 
 return {
 	royal_archer_tower_build = {

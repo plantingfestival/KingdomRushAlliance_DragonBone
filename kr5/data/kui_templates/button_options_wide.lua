@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_options_wide.lua
+-- chunkname: @./kr5/data/kui_templates/button_options_wide.lua
 
 return {
 	default_image_name = "gui_popups_desktop_button_wide_bg_0001",

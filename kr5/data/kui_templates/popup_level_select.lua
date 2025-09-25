@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_level_select.lua
+-- chunkname: @./kr5/data/kui_templates/popup_level_select.lua
 
 return {
 	class = "GG5PopUpLevelSelect",

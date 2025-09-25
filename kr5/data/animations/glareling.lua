@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/glareling.lua
+-- chunkname: @./kr5/data/animations/glareling.lua
 
 local a = {
 	glearling_trail_trail = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/encyclopedia.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/encyclopedia.lua
 
 return {
 	encyclopedia_creeps_0001 = {

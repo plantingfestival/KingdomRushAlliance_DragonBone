@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_raelyn.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_raelyn.lua
 
 return {
 	hero_raelyn_brutal_slash_decal = {

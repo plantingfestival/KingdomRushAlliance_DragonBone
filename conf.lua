@@ -1,4 +1,4 @@
-﻿-- chunkname: @./conf.lua
+-- chunkname: @./conf.lua
 
 function love.conf(t)
 	t.modules.physics = false

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/StunWhiteDef.lua
+-- chunkname: @./kr5/data/exoskeletons/StunWhiteDef.lua
 
 return {
 	fps = 30,

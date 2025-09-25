@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_splash.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_splash.lua
 
 return {
 	SplashScreenAnimation_asst_IH_txt = {

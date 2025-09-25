@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLCstage4_deco_modosDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLCstage4_deco_modosDef.lua
 
 return {
 	fps = 30,

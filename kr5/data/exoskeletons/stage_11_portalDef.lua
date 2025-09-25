@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_11_portalDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_11_portalDef.lua
 
 return {
 	fps = 30,

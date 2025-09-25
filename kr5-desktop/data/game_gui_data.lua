@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/game_gui_data.lua
+-- chunkname: @./kr5-desktop/data/game_gui_data.lua
 
 local V = require("klua.vector")
 local v = V.v

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/boss_gator_lvl2_puddleDef.lua
+-- chunkname: @./kr5/data/exoskeletons/boss_gator_lvl2_puddleDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/dump.lua
+-- chunkname: @./lib/klua/dump.lua
 
 function rawtostring(v)
 	local mt = getmetatable(v)

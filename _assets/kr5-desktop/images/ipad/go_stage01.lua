@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage01.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage01.lua
 
 return {
 	Stage_1_decos_waterfall_1 = {

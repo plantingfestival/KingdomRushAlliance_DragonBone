@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_mecha.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_mecha.lua
 
 return {
 	hero_onagro_attack_1_cannon_particle_0001 = {

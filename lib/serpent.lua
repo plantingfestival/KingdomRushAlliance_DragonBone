@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/serpent.lua
+-- chunkname: @./lib/serpent.lua
 
 local n, v = "serpent", 0.284
 local c, d = "Paul Kulchenko", "Lua serializer and pretty printer"

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/room_hero.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/room_hero.lua
 
 return {
 	hero_room_9slice_bg_temp_ = {

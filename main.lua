@@ -1,4 +1,4 @@
-﻿-- chunkname: @./main.lua
+-- chunkname: @./main.lua
 
 local dok, deval = pcall(require, "debug_eval")
 

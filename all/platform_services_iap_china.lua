@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_iap_china.lua
+-- chunkname: @./all/platform_services_iap_china.lua
 
 local log = require("klua.log"):new("test_platform_services_iap")
 

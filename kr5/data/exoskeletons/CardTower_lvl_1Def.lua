@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/CardTower_lvl_1Def.lua
+-- chunkname: @./kr5/data/exoskeletons/CardTower_lvl_1Def.lua
 
 return {
 	fps = 30,

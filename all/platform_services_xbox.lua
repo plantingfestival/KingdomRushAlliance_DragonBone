@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_xbox.lua
+-- chunkname: @./all/platform_services_xbox.lua
 
 local log = require("klua.log"):new("platform_services_xbox")
 local PSU = require("platform_services_utils")

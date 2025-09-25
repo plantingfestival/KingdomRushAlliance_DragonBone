@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/game_editor_gui.lua
+-- chunkname: @./all/game_editor_gui.lua
 
 local log = require("klua.log"):new("game_editor_gui")
 

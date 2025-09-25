@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_glarebrood_crystal.lua
+-- chunkname: @./kr5/data/animations/enemy_glarebrood_crystal.lua
 
 local a = {
 	glarebrood_crystal_enemy_in = {

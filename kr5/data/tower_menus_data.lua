@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/tower_menus_data.lua
+-- chunkname: @./kr5/data/tower_menus_data.lua
 
 return {
 	holder = {

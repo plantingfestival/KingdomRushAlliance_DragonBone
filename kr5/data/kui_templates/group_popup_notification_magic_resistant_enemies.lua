@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_popup_notification_magic_resistant_enemies.lua
+-- chunkname: @./kr5/data/kui_templates/group_popup_notification_magic_resistant_enemies.lua
 
 return {
 	class = "KView",

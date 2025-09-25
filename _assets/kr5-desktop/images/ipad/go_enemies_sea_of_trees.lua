@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_sea_of_trees.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_sea_of_trees.lua
 
 return {
 	bear_vanguard_0001 = {

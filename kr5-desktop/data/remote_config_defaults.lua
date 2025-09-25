@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/remote_config_defaults.lua
+-- chunkname: @./kr5-desktop/data/remote_config_defaults.lua
 
 local d = {
 	premium_show_more_games = false,

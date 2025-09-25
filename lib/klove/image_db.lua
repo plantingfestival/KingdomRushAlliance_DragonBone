@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/image_db.lua
+-- chunkname: @./lib/klove/image_db.lua
 
 local log = require("klua.log"):new("image_db")
 local G = love.graphics

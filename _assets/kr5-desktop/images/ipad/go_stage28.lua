@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage28.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage28.lua
 
 return {
 	ogreverse_character_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/sha1/bit_ops.lua
+-- chunkname: @./lib/sha1/bit_ops.lua
 
 local bit = require("bit")
 local ops = {}

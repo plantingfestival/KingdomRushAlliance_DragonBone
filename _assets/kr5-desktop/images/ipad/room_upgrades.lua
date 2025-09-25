@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/room_upgrades.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/room_upgrades.lua
 
 return {
 	upgrades_room_9slice_bg_temp_ = {

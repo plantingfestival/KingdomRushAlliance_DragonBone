@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/persistence.lua
+-- chunkname: @./lib/klua/persistence.lua
 
 local write, writeIndent, writers, refCount, stringWriter
 local persistence = {}

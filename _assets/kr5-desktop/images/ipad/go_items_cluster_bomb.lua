@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_cluster_bomb.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_cluster_bomb.lua
 
 return {
 	cluster_bomb_bomb_0001 = {

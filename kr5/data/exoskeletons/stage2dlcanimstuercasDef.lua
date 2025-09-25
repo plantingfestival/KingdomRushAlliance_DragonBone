@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage2dlcanimstuercasDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage2dlcanimstuercasDef.lua
 
 return {
 	fps = 30,

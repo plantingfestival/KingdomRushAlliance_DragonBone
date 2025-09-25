@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/GoregrindFlyingDef.lua
+-- chunkname: @./kr5/data/exoskeletons/GoregrindFlyingDef.lua
 
 return {
 	fps = 30,

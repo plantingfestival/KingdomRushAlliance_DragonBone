@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_china_advise.lua
+-- chunkname: @./kr5/screen_china_advise.lua
 
 local log = require("klua.log"):new("screen_china_advise")
 local class = require("middleclass")

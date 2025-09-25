@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/spiderling.lua
+-- chunkname: @./kr5/data/animations/spiderling.lua
 
 local a = {
 	spider_idle = {

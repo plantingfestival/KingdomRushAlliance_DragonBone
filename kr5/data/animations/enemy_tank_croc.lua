@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_tank_croc.lua
+-- chunkname: @./kr5/data/animations/enemy_tank_croc.lua
 
 local a = {
 	tank_trail_trail = {

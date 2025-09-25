@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/WavesRiverDef.lua
+-- chunkname: @./kr5/data/exoskeletons/WavesRiverDef.lua
 
 return {
 	fps = 30,

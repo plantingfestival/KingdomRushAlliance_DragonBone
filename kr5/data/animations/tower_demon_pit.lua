@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_demon_pit.lua
+-- chunkname: @./kr5/data/animations/tower_demon_pit.lua
 
 local a = {
 	demon_pit_tower_demon_big_guy_projectile_idle_1 = {

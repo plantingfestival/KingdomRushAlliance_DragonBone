@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/loading_common_desktop.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/loading_common_desktop.lua
 
 return {
 	screen_loading_desktop_9slice_bottom_overlay_ = {

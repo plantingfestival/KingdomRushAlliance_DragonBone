@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/path_db.lua
+-- chunkname: @./all/path_db.lua
 
 local bit = require("bit")
 local log = require("klua.log"):new("path_db")

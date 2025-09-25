@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_notifications_bg.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_notifications_bg.lua
 
 return {
 	ingame_notifications_9slice_enemy_desc_baloon_ = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_tower_ring_sel.lua
+-- chunkname: @./kr5/data/kui_templates/button_tower_ring_sel.lua
 
 return {
 	default_image_name = "tower_room_image_tower_icon_frame_0001",

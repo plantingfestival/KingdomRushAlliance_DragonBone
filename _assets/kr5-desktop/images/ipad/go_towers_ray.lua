@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ray.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ray.lua
 
 return {
 	channeler_tower_build = {

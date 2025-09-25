@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_sparking_geode.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_sparking_geode.lua
 
 return {
 	sparking_geode_base_0001 = {

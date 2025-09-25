@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_paladin_covenant.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_paladin_covenant.lua
 
 return {
 	paladin_covenant_build = {

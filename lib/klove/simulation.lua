@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/simulation.lua
+-- chunkname: @./lib/klove/simulation.lua
 
 local log = require("klua.log"):new("simulation")
 local km = require("klua.macros")

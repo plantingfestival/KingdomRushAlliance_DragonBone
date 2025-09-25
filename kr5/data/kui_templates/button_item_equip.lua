@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_item_equip.lua
+-- chunkname: @./kr5/data/kui_templates/button_item_equip.lua
 
 return {
 	default_image_name = "item_room_button_equip_bg _0001",

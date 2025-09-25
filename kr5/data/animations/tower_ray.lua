@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_ray.lua
+-- chunkname: @./kr5/data/animations/tower_ray.lua
 
 local a = {
 	channeler_tower_sheep_idle = {

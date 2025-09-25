@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/achievements_data.lua
+-- chunkname: @./kr5/data/achievements_data.lua
 
 local features = require("features")
 local t = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/revenant_harvester.lua
+-- chunkname: @./kr5/data/animations/revenant_harvester.lua
 
 local a = {
 	harvester_harvester_idle = {

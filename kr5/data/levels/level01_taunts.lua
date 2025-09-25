@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level01_taunts.lua
+-- chunkname: @./kr5/data/levels/level01_taunts.lua
 
 return {
 	sequence = {

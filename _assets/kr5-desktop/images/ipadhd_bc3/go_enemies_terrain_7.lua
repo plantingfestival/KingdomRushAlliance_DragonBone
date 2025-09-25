@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_7.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_7.lua
 
 return {
 	balooning_spider_exo_creep_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage_2_props.lua
+-- chunkname: @./kr5/data/animations/stage_2_props.lua
 
 local a = {
 	stage_2_props_wisp = {

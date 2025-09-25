@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/spawner_mausoleumDef.lua
+-- chunkname: @./kr5/data/exoskeletons/spawner_mausoleumDef.lua
 
 return {
 	fps = 30,

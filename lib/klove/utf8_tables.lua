@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/utf8_tables.lua
+-- chunkname: @./lib/klove/utf8_tables.lua
 
 upper = {
 	nil,

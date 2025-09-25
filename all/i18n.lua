@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/i18n.lua
+-- chunkname: @./all/i18n.lua
 
 local i18n = {}
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/t3stage15_eastereggDef.lua
+-- chunkname: @./kr5/data/exoskeletons/t3stage15_eastereggDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/iap_data.lua
+-- chunkname: @./kr5-desktop/data/iap_data.lua
 
 return {
 	gem_pack_reference = "gems_handful",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_acceptpp_agemonth.lua
+-- chunkname: @./kr5/data/kui_templates/popup_acceptpp_agemonth.lua
 
 return {
 	class = "GG5PopupAcceptPPAgemonth",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/madmarcDef.lua
+-- chunkname: @./kr5/data/exoskeletons/madmarcDef.lua
 
 return {
 	fps = 30,

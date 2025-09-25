@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/middleclass.lua
+-- chunkname: @./lib/middleclass.lua
 
 local middleclass = {
 	_VERSION = "middleclass v4.1.0",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_lumenir.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_lumenir.lua
 
 return {
 	hero_lumenir_attack_hit_fx_0001 = {

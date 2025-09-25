@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_spider_priest.lua
+-- chunkname: @./kr5/data/animations/enemy_spider_priest.lua
 
 local a = {
 	cultist_spider_creep_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_ingame_options.lua
+-- chunkname: @./kr5/data/kui_templates/popup_ingame_options.lua
 
 return {
 	class = "GG5PopUpIngameOptions",

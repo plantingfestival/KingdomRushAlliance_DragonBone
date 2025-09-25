@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/toggle_level_mode.lua
+-- chunkname: @./kr5/data/kui_templates/toggle_level_mode.lua
 
 return {
 	class = "LevelSelectModeButton",

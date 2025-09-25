@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/shop_views.lua
+-- chunkname: @./all/shop_views.lua
 
 local log = require("klua.log"):new("shop_views")
 local class = require("middleclass")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/drag_tutorialDef.lua
+-- chunkname: @./kr5/data/exoskeletons/drag_tutorialDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/ScreenLoadingDoorsDef.lua
+-- chunkname: @./kr5/data/exoskeletons/ScreenLoadingDoorsDef.lua
 
 return {
 	fps = 30,

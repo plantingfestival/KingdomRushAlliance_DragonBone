@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/game_debug_data.lua
+-- chunkname: @./kr5/data/game_debug_data.lua
 
 return {
 	default_page_for_terrain = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_dwarf_machinist_modesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_dwarf_machinist_modesDef.lua
 
 return {
 	fps = 30,

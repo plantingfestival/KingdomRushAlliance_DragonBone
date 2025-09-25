@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/marketing.lua
+-- chunkname: @./all/marketing.lua
 
 local log = require("klua.log"):new("marketing")
 local PS = require("platform_services")

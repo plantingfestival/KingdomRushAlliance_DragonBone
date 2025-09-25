@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/room_item.lua
+-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/room_item.lua
 
 return {
 	item_room_9slice_info_bg_ = {

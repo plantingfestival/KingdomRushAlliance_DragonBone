@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/templeDef.lua
+-- chunkname: @./kr5/data/exoskeletons/templeDef.lua
 
 return {
 	fps = 30,

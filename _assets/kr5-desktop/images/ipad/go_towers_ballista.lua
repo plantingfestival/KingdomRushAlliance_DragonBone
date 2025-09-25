@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ballista.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_ballista.lua
 
 return {
 	ballista_tower_arrow_0001 = {

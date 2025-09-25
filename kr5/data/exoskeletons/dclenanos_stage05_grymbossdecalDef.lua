@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_grymbossdecalDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_grymbossdecalDef.lua
 
 return {
 	fps = 30,

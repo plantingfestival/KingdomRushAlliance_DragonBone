@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/brute_welder.lua
+-- chunkname: @./kr5/data/animations/brute_welder.lua
 
 local a = {
 	brute_welder_creep_idle = {

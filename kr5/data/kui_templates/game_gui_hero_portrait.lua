@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_hero_portrait.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui_hero_portrait.lua
 
 local function v(x, y)
 	return {

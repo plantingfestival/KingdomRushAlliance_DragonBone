@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/sounds/groups.lua
+-- chunkname: @./_assets/kr5-desktop/sounds/groups.lua
 
 return {
 	common = {

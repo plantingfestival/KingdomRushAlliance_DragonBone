@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/t3_craterDef.lua
+-- chunkname: @./kr5/data/exoskeletons/t3_craterDef.lua
 
 return {
 	fps = 30,

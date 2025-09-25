@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/nolfs.lua
+-- chunkname: @./lib/klua/nolfs.lua
 
 nolfs = {}
 

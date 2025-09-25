@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/sha1/bit32_ops.lua
+-- chunkname: @./lib/sha1/bit32_ops.lua
 
 local bit32 = require("bit32")
 local ops = {}

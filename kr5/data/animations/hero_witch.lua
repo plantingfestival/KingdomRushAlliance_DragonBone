@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_witch.lua
+-- chunkname: @./kr5/data/animations/hero_witch.lua
 
 local a = {
 	hero_witch_hero_layerX_idle = {

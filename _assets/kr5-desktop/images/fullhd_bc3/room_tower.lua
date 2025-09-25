@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/room_tower.lua
+-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/room_tower.lua
 
 return {
 	quickmenu_main_icons_main_icons_00014_0001 = {

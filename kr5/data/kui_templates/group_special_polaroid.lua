@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_special_polaroid.lua
+-- chunkname: @./kr5/data/kui_templates/group_special_polaroid.lua
 
 return {
 	class = "KView",

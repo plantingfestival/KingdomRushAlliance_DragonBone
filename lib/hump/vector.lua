@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/vector.lua
+-- chunkname: @./lib/hump/vector.lua
 
 local assert = assert
 local sqrt, cos, sin, atan2 = math.sqrt, math.cos, math.sin, math.atan2

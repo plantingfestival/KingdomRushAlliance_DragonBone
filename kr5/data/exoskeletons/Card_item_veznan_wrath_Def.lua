@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/Card_item_veznan_wrath_Def.lua
+-- chunkname: @./kr5/data/exoskeletons/Card_item_veznan_wrath_Def.lua
 
 return {
 	fps = 30,

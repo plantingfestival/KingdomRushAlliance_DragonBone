@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_scroll_of_spaceshift.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_scroll_of_spaceshift.lua
 
 return {
 	item_scroll_of_spaceshift_decal_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/mad_tinkerer.lua
+-- chunkname: @./kr5/data/animations/mad_tinkerer.lua
 
 local a = {
 	mad_tinkerer_idle = {

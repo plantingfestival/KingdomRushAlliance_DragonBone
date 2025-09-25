@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_dragon_gem.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_dragon_gem.lua
 
 return {
 	hero_evil_dragon_area_damage_fx = {

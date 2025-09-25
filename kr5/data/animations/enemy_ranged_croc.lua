@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_ranged_croc.lua
+-- chunkname: @./kr5/data/animations/enemy_ranged_croc.lua
 
 local a = {
 	ranged_croc_proyectile = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_sand.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_sand.lua
 
 return {
 	tower_sand_basic_hit_0001 = {

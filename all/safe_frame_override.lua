@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/safe_frame_override.lua
+-- chunkname: @./all/safe_frame_override.lua
 
 local sfo = {}
 

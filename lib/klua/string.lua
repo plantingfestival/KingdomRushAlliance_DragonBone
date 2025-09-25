@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/string.lua
+-- chunkname: @./lib/klua/string.lua
 
 function string.split(s, sepchars)
 	local ret = {}

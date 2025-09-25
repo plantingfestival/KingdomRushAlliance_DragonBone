@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage26.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage26.lua
 
 return {
 	DLC_Enanos_S4_ActivatorLight_asst_dlc_enanos_s4_activator_red_light = {

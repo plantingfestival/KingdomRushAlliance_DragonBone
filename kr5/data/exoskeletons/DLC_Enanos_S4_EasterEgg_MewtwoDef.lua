@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_EasterEgg_MewtwoDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_EasterEgg_MewtwoDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage01_snowfallDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage01_snowfallDef.lua
 
 return {
 	fps = 30,

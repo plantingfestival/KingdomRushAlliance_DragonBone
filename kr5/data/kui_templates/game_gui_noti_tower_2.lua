@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_noti_tower_2.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui_noti_tower_2.lua
 
 WW = 1024
 WH = 768

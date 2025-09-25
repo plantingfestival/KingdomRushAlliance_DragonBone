@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/loading_images_desktop.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/loading_images_desktop.lua
 
 return {
 	loading_00_1 = {

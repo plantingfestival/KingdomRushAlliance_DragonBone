@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_tower_menu_tooltip.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui_tower_menu_tooltip.lua
 
 return {
 	propagate_on_up = true,

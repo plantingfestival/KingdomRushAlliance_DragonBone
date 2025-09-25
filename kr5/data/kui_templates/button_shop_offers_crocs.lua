@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_shop_offers_crocs.lua
+-- chunkname: @./kr5/data/kui_templates/button_shop_offers_crocs.lua
 
 return {
 	default_image_name = "shop_room_button_offer_big_bg_0001",

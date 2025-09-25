@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage02.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage02.lua
 
 return {
 	Stage02TreePart2_Asst_FX_Roots01 = {

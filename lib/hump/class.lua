@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/class.lua
+-- chunkname: @./lib/hump/class.lua
 
 local function include_helper(to, from, seen)
 	if from == nil then

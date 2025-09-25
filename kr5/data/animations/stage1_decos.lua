@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage1_decos.lua
+-- chunkname: @./kr5/data/animations/stage1_decos.lua
 
 local a = {
 	stage1_tutorial_hand_indicator = {

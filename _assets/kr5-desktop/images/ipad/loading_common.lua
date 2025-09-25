@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/loading_common.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/loading_common.lua
 
 return {
 	ScreenLoadingBar_asst_loading_bar = {

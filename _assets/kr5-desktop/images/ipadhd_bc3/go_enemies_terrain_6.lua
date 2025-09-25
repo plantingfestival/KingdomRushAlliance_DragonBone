@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_6.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_6.lua
 
 return {
 	brute_welder_attack_mod_0001 = {

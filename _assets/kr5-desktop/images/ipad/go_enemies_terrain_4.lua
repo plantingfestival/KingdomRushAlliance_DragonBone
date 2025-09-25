@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_4.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_4.lua
 
 return {
 	armor_0001 = {

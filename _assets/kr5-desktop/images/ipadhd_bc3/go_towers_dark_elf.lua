@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_dark_elf.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_dark_elf.lua
 
 return {
 	Archer_lvl1_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage13.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage13.lua
 
 return {
 	SunrayTower_BigRay_0001 = {

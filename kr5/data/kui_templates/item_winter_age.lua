@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/item_winter_age.lua
+-- chunkname: @./kr5/data/kui_templates/item_winter_age.lua
 
 return {
 	propagate_on_down = true,

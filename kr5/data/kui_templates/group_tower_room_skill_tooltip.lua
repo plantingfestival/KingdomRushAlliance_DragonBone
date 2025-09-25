@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_tower_room_skill_tooltip.lua
+-- chunkname: @./kr5/data/kui_templates/group_tower_room_skill_tooltip.lua
 
 return {
 	class = "KView",

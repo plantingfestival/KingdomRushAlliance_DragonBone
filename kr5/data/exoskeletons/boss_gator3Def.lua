@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/boss_gator3Def.lua
+-- chunkname: @./kr5/data/exoskeletons/boss_gator3Def.lua
 
 return {
 	fps = 30,

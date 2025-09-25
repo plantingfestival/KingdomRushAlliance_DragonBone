@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_editor.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_editor.lua
 
 return {
 	editor_red_circle = {

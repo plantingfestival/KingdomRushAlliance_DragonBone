@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_hero_room_big_select.lua
+-- chunkname: @./kr5/data/kui_templates/button_hero_room_big_select.lua
 
 return {
 	default_image_name = "hero_room_button_select_bg _0001",

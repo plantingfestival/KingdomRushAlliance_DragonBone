@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_slices.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_slices.lua
 
 return {
 	balloon_hero_help_slices_callout_center = {

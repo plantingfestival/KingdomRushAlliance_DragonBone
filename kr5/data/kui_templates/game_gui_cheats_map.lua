@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_cheats_map.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui_cheats_map.lua
 
 local function v(x, y)
 	return {

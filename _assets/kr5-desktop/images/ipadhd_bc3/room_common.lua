@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_common.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_common.lua
 
 return {
 	metagame_menues_bg_asst_menues_bg_02 = {

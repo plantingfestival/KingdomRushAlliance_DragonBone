@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/template_upgrade_tooltip.lua
+-- chunkname: @./kr5/data/kui_templates/template_upgrade_tooltip.lua
 
 return {
 	class = "UpgradeTooltipView",

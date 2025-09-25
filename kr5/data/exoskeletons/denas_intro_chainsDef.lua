@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/denas_intro_chainsDef.lua
+-- chunkname: @./kr5/data/exoskeletons/denas_intro_chainsDef.lua
 
 return {
 	fps = 30,

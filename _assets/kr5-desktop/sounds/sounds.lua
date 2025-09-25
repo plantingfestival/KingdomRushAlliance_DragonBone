@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/sounds/sounds.lua
+-- chunkname: @./_assets/kr5-desktop/sounds/sounds.lua
 
 return {
 	AreaAttack = {

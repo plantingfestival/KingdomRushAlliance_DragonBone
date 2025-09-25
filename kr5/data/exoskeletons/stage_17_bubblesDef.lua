@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_17_bubblesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_17_bubblesDef.lua
 
 return {
 	fps = 30,

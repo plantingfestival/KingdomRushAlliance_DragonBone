@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage18_decos.lua
+-- chunkname: @./kr5/data/animations/stage18_decos.lua
 
 local a = {
 	eridan_s18_arrow_miss = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_sea_of_trees.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_sea_of_trees.lua
 
 return {
 	arborean_baby_0001 = {

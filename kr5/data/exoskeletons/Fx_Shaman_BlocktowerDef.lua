@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/Fx_Shaman_BlocktowerDef.lua
+-- chunkname: @./kr5/data/exoskeletons/Fx_Shaman_BlocktowerDef.lua
 
 return {
 	fps = 30,

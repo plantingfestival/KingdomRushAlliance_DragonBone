@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/loading_screen.lua
+-- chunkname: @./kr5/data/kui_templates/loading_screen.lua
 
 return {
 	class = "KWindow",

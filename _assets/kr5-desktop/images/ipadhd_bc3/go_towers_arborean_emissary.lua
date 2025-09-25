@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_arborean_emissary.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_arborean_emissary.lua
 
 return {
 	arborean_emissary_basic_attack_modifier_0001 = {

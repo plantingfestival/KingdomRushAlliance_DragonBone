@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/jni.lua
+-- chunkname: @./all/jni.lua
 
 ffi = require("ffi")
 

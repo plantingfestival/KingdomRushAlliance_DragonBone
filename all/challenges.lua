@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/challenges.lua
+-- chunkname: @./all/challenges.lua
 
 local log = require("klua.log"):new("challenges")
 

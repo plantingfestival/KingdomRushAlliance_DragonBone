@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_decals.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_decals.lua
 
 return {
 	["archer_arcane_proy2_decal-f"] = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_level_select_buy.lua
+-- chunkname: @./kr5/data/kui_templates/button_level_select_buy.lua
 
 return {
 	default_image_name = "level_select_button_buy_bg_0001",

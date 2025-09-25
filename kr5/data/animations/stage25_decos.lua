@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage25_decos.lua
+-- chunkname: @./kr5/data/animations/stage25_decos.lua
 
 local a = {
 	DLC_stage_03_missile_decal_tower_loop = {

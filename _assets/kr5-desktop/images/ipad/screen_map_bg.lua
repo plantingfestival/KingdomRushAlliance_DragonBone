@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_map_bg.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_map_bg.lua
 
 return {
 	MapBackground1 = {

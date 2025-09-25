@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_credits.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_credits.lua
 
 return {
 	button_credits_close_0001 = {

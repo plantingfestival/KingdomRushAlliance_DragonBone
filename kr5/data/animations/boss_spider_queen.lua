@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/boss_spider_queen.lua
+-- chunkname: @./kr5/data/animations/boss_spider_queen.lua
 
 local a = {
 	boss_effects_circle_drain_loop = {

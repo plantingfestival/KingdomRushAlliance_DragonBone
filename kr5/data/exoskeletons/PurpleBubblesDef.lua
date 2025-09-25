@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/PurpleBubblesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/PurpleBubblesDef.lua
 
 return {
 	fps = 30,

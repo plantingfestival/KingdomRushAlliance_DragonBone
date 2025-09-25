@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_space_elf.lua
+-- chunkname: @./kr5/data/animations/hero_space_elf.lua
 
 local a = {
 	hero_therien_therien_idle = {

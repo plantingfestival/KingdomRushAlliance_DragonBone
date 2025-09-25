@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_venom.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_venom.lua
 
 return {
 	hero_venom_death_decal_0001 = {

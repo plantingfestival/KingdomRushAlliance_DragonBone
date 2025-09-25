@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_popups_desktop.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_popups_desktop.lua
 
 return {
 	gui_popups_desktop_9slice_image_controllerline_ = {

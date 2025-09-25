@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/CrystalsDef.lua
+-- chunkname: @./kr5/data/exoskeletons/CrystalsDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage16.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage16.lua
 
 return {
 	glare_stage_16_eye_big = {

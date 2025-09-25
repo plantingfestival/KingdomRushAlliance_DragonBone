@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_splash.lua
+-- chunkname: @./kr5/screen_splash.lua
 
 local log = require("klua.log"):new("screen_splash")
 local V = require("klua.vector")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage03.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage03.lua
 
 return {
 	energybeam_Asst_ShamanEnergyBeamPart01 = {

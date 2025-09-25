@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/sam_and_frodoDef.lua
+-- chunkname: @./kr5/data/exoskeletons/sam_and_frodoDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/_debug_textures.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/_debug_textures.lua
 
 return {
 	_debug_textures_missing = {

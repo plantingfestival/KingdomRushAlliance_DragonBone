@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/sha1/common.lua
+-- chunkname: @./lib/sha1/common.lua
 
 local common = {}
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage11.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage11.lua
 
 return {
 	T2_Stage_11_floating_rocks_1 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level19.lua
+-- chunkname: @./kr5/data/levels/level19.lua
 
 local log = require("klua.log"):new("level01")
 local signal = require("hump.signal")

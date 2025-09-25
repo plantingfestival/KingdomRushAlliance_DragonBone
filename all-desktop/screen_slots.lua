@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/screen_slots.lua
+-- chunkname: @./all-desktop/screen_slots.lua
 
 local log = require("klua.log"):new("screen_slots")
 local class = require("middleclass")

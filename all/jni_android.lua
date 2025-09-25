@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/jni_android.lua
+-- chunkname: @./all/jni_android.lua
 
 require("all.jni")
 

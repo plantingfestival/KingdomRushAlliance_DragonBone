@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_elven_barrack.lua
+-- chunkname: @./kr5/data/animations/tower_elven_barrack.lua
 
 local a = {
 	elven_barracks_tower4_top_idle = {

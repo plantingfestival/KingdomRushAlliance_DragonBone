@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_shop.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_shop.lua
 
 return {
 	gem_packs_portraits_0001 = {

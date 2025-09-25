@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stages_terrain4.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stages_terrain4.lua
 
 return {
 	UpdateHalloween_terrain_anim_0001 = {

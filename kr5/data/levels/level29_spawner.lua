@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level29_spawner.lua
+-- chunkname: @./kr5/data/levels/level29_spawner.lua
 
 local delay_spawn = 4
 local delay_close = delay_spawn + 1

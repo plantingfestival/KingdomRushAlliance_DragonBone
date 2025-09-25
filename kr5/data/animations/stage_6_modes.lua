@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage_6_modes.lua
+-- chunkname: @./kr5/data/animations/stage_6_modes.lua
 
 local a = {
 	stage_6_poolparty_deco_weapons = {

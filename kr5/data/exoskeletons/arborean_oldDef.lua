@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/arborean_oldDef.lua
+-- chunkname: @./kr5/data/exoskeletons/arborean_oldDef.lua
 
 return {
 	fps = 30,

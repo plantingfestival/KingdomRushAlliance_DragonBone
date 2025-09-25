@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_17_bubbles_waterDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_17_bubbles_waterDef.lua
 
 return {
 	fps = 30,

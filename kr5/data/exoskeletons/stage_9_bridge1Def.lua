@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_9_bridge1Def.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_9_bridge1Def.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/BlinkersDef.lua
+-- chunkname: @./kr5/data/exoskeletons/BlinkersDef.lua
 
 return {
 	fps = 30,

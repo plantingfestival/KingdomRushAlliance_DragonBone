@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/crystal_golem.lua
+-- chunkname: @./kr5/data/animations/crystal_golem.lua
 
 local a = {
 	crystal_golem_creep_idle = {

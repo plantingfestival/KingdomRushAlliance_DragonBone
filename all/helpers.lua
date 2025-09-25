@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/helpers.lua
+-- chunkname: @./all/helpers.lua
 
 local helpers = {}
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_popup_notification_rally_point.lua
+-- chunkname: @./kr5/data/kui_templates/group_popup_notification_rally_point.lua
 
 return {
 	class = "KView",

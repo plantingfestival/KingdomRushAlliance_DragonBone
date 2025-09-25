@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/back_maskDef.lua
+-- chunkname: @./kr5/data/exoskeletons/back_maskDef.lua
 
 return {
 	fps = 30,

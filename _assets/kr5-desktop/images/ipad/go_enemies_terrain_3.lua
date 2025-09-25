@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_3.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_3.lua
 
 return {
 	Amalgam_Attack1_0001 = {

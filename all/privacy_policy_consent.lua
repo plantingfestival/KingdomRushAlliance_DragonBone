@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/privacy_policy_consent.lua
+-- chunkname: @./all/privacy_policy_consent.lua
 
 local log = require("klua.log"):new("privacy_policy_consent")
 

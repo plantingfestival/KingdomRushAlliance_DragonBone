@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/BKtentacle_S15Def.lua
+-- chunkname: @./kr5/data/exoskeletons/BKtentacle_S15Def.lua
 
 return {
 	fps = 30,

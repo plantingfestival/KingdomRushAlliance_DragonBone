@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/timer.lua
+-- chunkname: @./lib/hump/timer.lua
 
 local Timer = {}
 

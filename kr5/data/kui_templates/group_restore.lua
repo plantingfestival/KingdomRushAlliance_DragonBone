@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_restore.lua
+-- chunkname: @./kr5/data/kui_templates/group_restore.lua
 
 return {
 	class = "RestoreView",

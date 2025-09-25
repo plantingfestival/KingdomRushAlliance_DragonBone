@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/lfs.lua
+-- chunkname: @./lib/klua/lfs.lua
 
 local success, lfs = pcall(require, "lfs")
 

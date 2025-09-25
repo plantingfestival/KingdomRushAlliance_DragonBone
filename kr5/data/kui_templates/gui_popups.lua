@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/gui_popups.lua
+-- chunkname: @./kr5/data/kui_templates/gui_popups.lua
 
 return {
 	class = "KWindow",

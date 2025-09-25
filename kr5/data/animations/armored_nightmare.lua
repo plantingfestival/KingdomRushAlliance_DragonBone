@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/armored_nightmare.lua
+-- chunkname: @./kr5/data/animations/armored_nightmare.lua
 
 local a = {
 	armored_nightmare_explosion_idle = {

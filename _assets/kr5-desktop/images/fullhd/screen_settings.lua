@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/fullhd/screen_settings.lua
+-- chunkname: @./_assets/kr5-desktop/images/fullhd/screen_settings.lua
 
 return {
 	game_image = {

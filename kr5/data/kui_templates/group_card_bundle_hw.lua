@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_card_bundle_hw.lua
+-- chunkname: @./kr5/data/kui_templates/group_card_bundle_hw.lua
 
 return {
 	class = "KView",

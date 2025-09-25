@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_boss_fight_8_end.lua
+-- chunkname: @./kr5/screen_boss_fight_8_end.lua
 
 require("klove.kui")
 

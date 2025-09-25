@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage05.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage05.lua
 
 return {
 	bear_woodcutter_asst_bear_arm_01 = {

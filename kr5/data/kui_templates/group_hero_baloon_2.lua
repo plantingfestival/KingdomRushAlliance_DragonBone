@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_hero_baloon_2.lua
+-- chunkname: @./kr5/data/kui_templates/group_hero_baloon_2.lua
 
 return {
 	class = "KView",

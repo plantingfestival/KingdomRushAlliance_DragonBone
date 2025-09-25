@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/room_difficulty.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/room_difficulty.lua
 
 return {
 	difficulty_room_9slice_bg_temp_ = {

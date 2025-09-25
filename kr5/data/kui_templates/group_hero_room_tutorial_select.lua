@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_hero_room_tutorial_select.lua
+-- chunkname: @./kr5/data/kui_templates/group_hero_room_tutorial_select.lua
 
 return {
 	class = "KView",

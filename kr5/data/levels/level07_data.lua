@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level07_data.lua
+-- chunkname: @./kr5/data/levels/level07_data.lua
 
 return {
 	locked_hero = false,

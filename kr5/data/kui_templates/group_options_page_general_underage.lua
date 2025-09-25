@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_options_page_general_underage.lua
+-- chunkname: @./kr5/data/kui_templates/group_options_page_general_underage.lua
 
 return {
 	class = "KView",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hog_invader.lua
+-- chunkname: @./kr5/data/animations/hog_invader.lua
 
 local a = {
 	hog_invader_raise = {

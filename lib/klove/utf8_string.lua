@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/utf8_string.lua
+-- chunkname: @./lib/klove/utf8_string.lua
 
 local mappings = require("klove.utf8_tables")
 local utf8 = require("utf8")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage30.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage30.lua
 
 return {
 	asst_spider_queen_jump = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/splash_screen.lua
+-- chunkname: @./kr5/data/kui_templates/splash_screen.lua
 
 local BG_W = 1728
 local BG_H = 768

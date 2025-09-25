@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_flying_croc.lua
+-- chunkname: @./kr5/data/animations/enemy_flying_croc.lua
 
 local a = {
 	winged_crock_creep_walk = {

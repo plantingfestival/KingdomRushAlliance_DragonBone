@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage08.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage08.lua
 
 return {
 	Abomination2_Asst_Blood01 = {

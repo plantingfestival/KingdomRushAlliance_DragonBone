@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/explosiondecalDef.lua
+-- chunkname: @./kr5/data/exoskeletons/explosiondecalDef.lua
 
 return {
 	fps = 30,

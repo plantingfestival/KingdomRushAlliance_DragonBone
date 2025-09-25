@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_commons.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_commons.lua
 
 return {
 	blood_green_0001 = {

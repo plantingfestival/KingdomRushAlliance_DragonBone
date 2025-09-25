@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/amalgam.lua
+-- chunkname: @./kr5/data/animations/amalgam.lua
 
 local a = {
 	Amalgam_Death_Decal_decal = {

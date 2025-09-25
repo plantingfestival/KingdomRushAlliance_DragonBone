@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/strings/de.lua
+-- chunkname: @./_assets/kr5-desktop/strings/de.lua
 
 return {
 	LEVEL_SELECT_CHALLENGE_ONE_LIFE = "Leben: 1",

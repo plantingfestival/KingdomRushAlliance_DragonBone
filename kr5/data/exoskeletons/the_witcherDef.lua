@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/the_witcherDef.lua
+-- chunkname: @./kr5/data/exoskeletons/the_witcherDef.lua
 
 return {
 	fps = 30,

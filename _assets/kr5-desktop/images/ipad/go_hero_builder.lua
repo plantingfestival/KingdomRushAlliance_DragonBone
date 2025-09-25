@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_builder.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_builder.lua
 
 return {
 	hero_obdul_basic_attack_hit_0001 = {

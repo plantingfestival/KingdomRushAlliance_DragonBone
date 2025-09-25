@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_medical_kit.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_medical_kit.lua
 
 return {
 	item_medical_kit_bag_0001 = {

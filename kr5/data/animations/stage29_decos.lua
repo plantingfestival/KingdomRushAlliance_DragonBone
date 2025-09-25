@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage29_decos.lua
+-- chunkname: @./kr5/data/animations/stage29_decos.lua
 
 local a = {
 	cocon_stage2_coocoon_idle = {

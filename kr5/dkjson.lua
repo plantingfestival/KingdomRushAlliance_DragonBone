@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/dkjson.lua
+-- chunkname: @./kr5/dkjson.lua
 
 local always_use_lpeg = false
 local register_global_module_table = false

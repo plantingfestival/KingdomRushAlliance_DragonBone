@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_second_breath.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_second_breath.lua
 
 return {
 	item_second_breath_decal_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_locale_list.lua
+-- chunkname: @./kr5/data/kui_templates/popup_locale_list.lua
 
 return {
 	class = "GG5PopUpLocaleList",

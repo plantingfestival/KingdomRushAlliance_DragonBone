@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/victory_defeat.lua
+-- chunkname: @./kr5/data/kui_templates/victory_defeat.lua
 
 return {
 	class = "KWindow",

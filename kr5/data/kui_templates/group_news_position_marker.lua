@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_news_position_marker.lua
+-- chunkname: @./kr5/data/kui_templates/group_news_position_marker.lua
 
 return {
 	class = "KView",

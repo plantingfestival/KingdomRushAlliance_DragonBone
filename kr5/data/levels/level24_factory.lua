@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level24_factory.lua
+-- chunkname: @./kr5/data/levels/level24_factory.lua
 
 return {
 	groups = {

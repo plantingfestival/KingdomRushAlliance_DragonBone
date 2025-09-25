@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage_2_decos.lua
+-- chunkname: @./kr5/data/animations/stage_2_decos.lua
 
 local a = {
 	stage2_decos_viejo_idle1 = {

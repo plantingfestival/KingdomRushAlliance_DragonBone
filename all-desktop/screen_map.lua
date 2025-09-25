@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/screen_map.lua
+-- chunkname: @./all-desktop/screen_map.lua
 
 local log = require("klua.log"):new("screen_map")
 local class = require("middleclass")

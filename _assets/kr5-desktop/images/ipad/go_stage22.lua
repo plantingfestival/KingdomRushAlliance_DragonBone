@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage22.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage22.lua
 
 return {
 	Rocks_Paths1_asst_stage_3_rocks_paths_big_rock_path_01 = {

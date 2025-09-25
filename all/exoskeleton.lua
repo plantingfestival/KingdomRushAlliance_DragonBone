@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/exoskeleton.lua
+-- chunkname: @./all/exoskeleton.lua
 
 local log = require("klua.log"):new("exoskeleton")
 local FS = love.filesystem

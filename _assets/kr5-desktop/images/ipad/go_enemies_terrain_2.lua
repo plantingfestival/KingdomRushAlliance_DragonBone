@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_2.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_enemies_terrain_2.lua
 
 return {
 	acolyte_enemy_0001 = {

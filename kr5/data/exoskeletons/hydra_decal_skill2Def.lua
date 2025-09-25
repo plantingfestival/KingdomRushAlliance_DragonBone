@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/hydra_decal_skill2Def.lua
+-- chunkname: @./kr5/data/exoskeletons/hydra_decal_skill2Def.lua
 
 return {
 	fps = 30,

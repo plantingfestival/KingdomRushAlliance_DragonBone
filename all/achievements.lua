@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/achievements.lua
+-- chunkname: @./all/achievements.lua
 
 local log = require("klua.log"):new("achievements")
 local signal = require("hump.signal")

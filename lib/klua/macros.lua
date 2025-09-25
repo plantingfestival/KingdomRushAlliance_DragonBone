@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/macros.lua
+-- chunkname: @./lib/klua/macros.lua
 
 local fmod = math.fmod
 local pi = math.pi

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/scrap.lua
+-- chunkname: @./kr5/data/animations/scrap.lua
 
 local a = {
 	scrap_pile_in = {

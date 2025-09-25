@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_robot_armDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_robot_armDef.lua
 
 return {
 	fps = 30,

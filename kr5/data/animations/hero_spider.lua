@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_spider.lua
+-- chunkname: @./kr5/data/animations/hero_spider.lua
 
 local a = {
 	hero_spider_05_modifier_run = {

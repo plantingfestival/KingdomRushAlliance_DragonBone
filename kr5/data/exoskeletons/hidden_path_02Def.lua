@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/hidden_path_02Def.lua
+-- chunkname: @./kr5/data/exoskeletons/hidden_path_02Def.lua
 
 return {
 	fps = 30,

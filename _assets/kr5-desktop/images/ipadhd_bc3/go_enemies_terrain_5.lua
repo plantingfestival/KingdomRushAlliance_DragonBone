@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_5.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_enemies_terrain_5.lua
 
 return {
 	Fx_Shaman_Blocktower_asst_energy_hojas_01 = {

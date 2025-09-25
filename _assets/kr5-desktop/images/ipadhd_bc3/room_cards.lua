@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_cards.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_cards.lua
 
 return {
 	CardFx_asst_back_light_beams = {

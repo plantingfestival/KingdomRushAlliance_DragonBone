@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLCstage5_enanos_vigaDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLCstage5_enanos_vigaDef.lua
 
 return {
 	fps = 30,

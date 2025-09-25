@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_raelyn_command_orders.lua
+-- chunkname: @./kr5/data/animations/hero_raelyn_command_orders.lua
 
 local a = {
 	hero_raelyn_command_orders_dark_knight_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/map_data.lua
+-- chunkname: @./kr5-desktop/data/map_data.lua
 
 return {
 	hero_data_iap = {

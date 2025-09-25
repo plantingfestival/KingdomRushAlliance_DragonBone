@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/screen_settings.lua
+-- chunkname: @./all-desktop/screen_settings.lua
 
 local log = require("klua.log"):new("screen_settings")
 local km = require("klua.macros")

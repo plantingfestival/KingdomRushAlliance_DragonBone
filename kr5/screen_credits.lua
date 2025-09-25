@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_credits.lua
+-- chunkname: @./kr5/screen_credits.lua
 
 local log = require("klua.log"):new("screen_slots")
 local class = require("middleclass")

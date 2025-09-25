@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/http_download_thread.lua
+-- chunkname: @./all/http_download_thread.lua
 
 local cin, cout, th_i = ...
 

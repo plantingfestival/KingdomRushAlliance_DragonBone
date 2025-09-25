@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_builder.lua
+-- chunkname: @./kr5/data/animations/hero_builder.lua
 
 local a = {
 	hero_obdul_hero_idle = {

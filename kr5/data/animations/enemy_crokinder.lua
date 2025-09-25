@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_crokinder.lua
+-- chunkname: @./kr5/data/animations/enemy_crokinder.lua
 
 local a = {
 	crokinder_creep_idle = {

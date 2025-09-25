@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_dragon_arb.lua
+-- chunkname: @./kr5/data/animations/hero_dragon_arb.lua
 
 local a = {
 	hero_dragon_arborean_powered_hit_fx_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_hermit_toad.lua
+-- chunkname: @./kr5/data/animations/tower_hermit_toad.lua
 
 local a = {
 	hermit_toad_tower_bubbles_run = {

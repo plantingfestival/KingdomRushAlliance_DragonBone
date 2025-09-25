@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/strings/fr.lua
+-- chunkname: @./_assets/kr5-desktop/strings/fr.lua
 
 return {
 	LEVEL_SELECT_CHALLENGE_ONE_LIFE = "1 PV au total",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_summon_blackburn.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_summon_blackburn.lua
 
 return {
 	item_summon_blackburn_attack_1_hit_0001 = {

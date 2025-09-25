@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/ChainPendulumDef.lua
+-- chunkname: @./kr5/data/exoskeletons/ChainPendulumDef.lua
 
 return {
 	fps = 30,

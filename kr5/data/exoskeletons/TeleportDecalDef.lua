@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/TeleportDecalDef.lua
+-- chunkname: @./kr5/data/exoskeletons/TeleportDecalDef.lua
 
 return {
 	fps = 30,

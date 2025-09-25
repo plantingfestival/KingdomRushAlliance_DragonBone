@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/gg_views_custom.lua
+-- chunkname: @./all-desktop/gg_views_custom.lua
 
 local log = require("klua.log"):new("gg_views_custom")
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_vesper.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_vesper.lua
 
 return {
 	hero_vesper_arrow = {

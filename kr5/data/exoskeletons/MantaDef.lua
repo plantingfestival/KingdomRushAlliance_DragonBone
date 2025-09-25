@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/MantaDef.lua
+-- chunkname: @./kr5/data/exoskeletons/MantaDef.lua
 
 return {
 	fps = 30,

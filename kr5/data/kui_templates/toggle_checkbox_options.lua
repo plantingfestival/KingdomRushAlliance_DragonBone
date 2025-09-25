@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/toggle_checkbox_options.lua
+-- chunkname: @./kr5/data/kui_templates/toggle_checkbox_options.lua
 
 return {
 	class = "GG5ToggleButton",

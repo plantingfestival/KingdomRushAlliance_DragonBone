@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/tower_treeDef.lua
+-- chunkname: @./kr5/data/exoskeletons/tower_treeDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_spider.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_spider.lua
 
 return {
 	hero_spider_05_dirt_explosion_0001 = {

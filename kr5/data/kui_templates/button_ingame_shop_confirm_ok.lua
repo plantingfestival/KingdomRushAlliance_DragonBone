@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_ingame_shop_confirm_ok.lua
+-- chunkname: @./kr5/data/kui_templates/button_ingame_shop_confirm_ok.lua
 
 return {
 	default_image_name = "ingame_shop_kui_button_confirm_yes_bg_0001",

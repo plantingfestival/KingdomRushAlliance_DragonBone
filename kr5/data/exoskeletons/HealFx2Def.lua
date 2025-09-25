@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/HealFx2Def.lua
+-- chunkname: @./kr5/data/exoskeletons/HealFx2Def.lua
 
 return {
 	fps = 30,

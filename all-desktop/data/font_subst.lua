@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/data/font_subst.lua
+-- chunkname: @./all-desktop/data/font_subst.lua
 
 return {
 	global = {

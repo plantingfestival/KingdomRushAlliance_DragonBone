@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/shell.lua
+-- chunkname: @./lib/klua/shell.lua
 
 local klog = require("klua.log"):new("klog.shell")
 local lfs = require("lfs")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_9_candles_glow_backDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_9_candles_glow_backDef.lua
 
 return {
 	fps = 30,

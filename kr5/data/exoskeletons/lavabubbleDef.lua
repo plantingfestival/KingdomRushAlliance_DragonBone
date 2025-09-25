@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/lavabubbleDef.lua
+-- chunkname: @./kr5/data/exoskeletons/lavabubbleDef.lua
 
 return {
 	fps = 30,

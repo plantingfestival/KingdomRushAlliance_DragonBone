@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/uuid4.lua
+-- chunkname: @./lib/uuid4.lua
 
 local M = {}
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_elven_stargazers.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_elven_stargazers.lua
 
 return {
 	elven_stargazers_tower_build = {

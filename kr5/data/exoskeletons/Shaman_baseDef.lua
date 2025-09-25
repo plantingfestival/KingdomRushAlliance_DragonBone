@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/Shaman_baseDef.lua
+-- chunkname: @./kr5/data/exoskeletons/Shaman_baseDef.lua
 
 return {
 	fps = 30,

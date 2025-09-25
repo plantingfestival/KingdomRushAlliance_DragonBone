@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_loot_box.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_loot_box.lua
 
 return {
 	item_loot_box_chest_0001 = {

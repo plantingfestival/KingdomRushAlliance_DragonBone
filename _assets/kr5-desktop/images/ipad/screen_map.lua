@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_map.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_map.lua
 
 return {
 	Acolyte_asst_acolyte_1 = {

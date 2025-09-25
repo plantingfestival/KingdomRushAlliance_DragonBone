@@ -1,4 +1,4 @@
-﻿-- chunkname: @./version.lua
+-- chunkname: @./version.lua
 
 version = {}
 version.identity = "kingdom_rush_alliance"

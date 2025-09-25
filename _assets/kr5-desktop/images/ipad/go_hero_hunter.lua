@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_hunter.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_hunter.lua
 
 return {
 	anya_0001 = {

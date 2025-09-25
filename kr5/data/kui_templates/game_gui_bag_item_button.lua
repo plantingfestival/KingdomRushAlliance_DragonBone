@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/game_gui_bag_item_button.lua
+-- chunkname: @./kr5/data/kui_templates/game_gui_bag_item_button.lua
 
 return {
 	class = "BagItemButton",

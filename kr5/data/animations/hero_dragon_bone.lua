@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_dragon_bone.lua
+-- chunkname: @./kr5/data/animations/hero_dragon_bone.lua
 
 local a = {
 	hero_dragon_bone_hero_walk = {

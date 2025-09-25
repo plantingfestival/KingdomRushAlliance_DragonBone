@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/remote_balance_view.lua
+-- chunkname: @./kr5/data/kui_templates/remote_balance_view.lua
 
 local TW = ctx.rb_prop_w
 local BH = ctx.rb_prop_h

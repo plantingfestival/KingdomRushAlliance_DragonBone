@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_tower_room_big_locked.lua
+-- chunkname: @./kr5/data/kui_templates/button_tower_room_big_locked.lua
 
 return {
 	default_image_name = "tower_room_button_locked_bg _0001",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_item_gems.lua
+-- chunkname: @./kr5/data/kui_templates/button_item_gems.lua
 
 return {
 	focus_image_name = "item_room_undefined_0003",

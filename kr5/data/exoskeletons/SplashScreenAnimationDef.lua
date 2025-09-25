@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/SplashScreenAnimationDef.lua
+-- chunkname: @./kr5/data/exoskeletons/SplashScreenAnimationDef.lua
 
 return {
 	fps = 30,

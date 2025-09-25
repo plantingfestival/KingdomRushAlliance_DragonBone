@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/md5.lua
+-- chunkname: @./lib/md5.lua
 
 local md5 = {
 	_VERSION = "md5.lua 1.1.0",

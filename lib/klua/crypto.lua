@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/crypto.lua
+-- chunkname: @./lib/klua/crypto.lua
 
 local success, ffi = pcall(require, "ffi")
 

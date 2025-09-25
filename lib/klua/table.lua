@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/table.lua
+-- chunkname: @./lib/klua/table.lua
 
 function table.keys(t)
 	local kk = {}

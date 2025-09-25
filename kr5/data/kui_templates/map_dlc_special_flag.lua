@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/map_dlc_special_flag.lua
+-- chunkname: @./kr5/data/kui_templates/map_dlc_special_flag.lua
 
 return {
 	class = "KWindow",

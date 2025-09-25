@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_sand.lua
+-- chunkname: @./kr5/data/animations/tower_sand.lua
 
 local a = {
 	tower_sand_basic_hit = {

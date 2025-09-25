@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/sha1/init.lua
+-- chunkname: @./lib/sha1/init.lua
 
 local common = require("sha1.common")
 local sha1 = {

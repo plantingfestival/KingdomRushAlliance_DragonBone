@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/game_gui.lua
+-- chunkname: @./all-desktop/game_gui.lua
 
 if DEBUG then
 	package.loaded["data.game_gui_data"] = nil

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_12_glareDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_12_glareDef.lua
 
 return {
 	fps = 30,

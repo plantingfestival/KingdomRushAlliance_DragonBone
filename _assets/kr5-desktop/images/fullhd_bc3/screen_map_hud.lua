@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/screen_map_hud.lua
+-- chunkname: @./_assets/kr5-desktop/images/fullhd_bc3/screen_map_hud.lua
 
 return {
 	screen_map_9slice_bg_new_item_ = {

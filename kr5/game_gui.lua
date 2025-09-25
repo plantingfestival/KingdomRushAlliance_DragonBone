@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/game_gui.lua
+-- chunkname: @./kr5/game_gui.lua
 
 local log = require("klua.log"):new("game_gui")
 local km = require("klua.macros")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_basic_croc.lua
+-- chunkname: @./kr5/data/animations/enemy_basic_croc.lua
 
 local a = {
 	gator_creep_idle = {

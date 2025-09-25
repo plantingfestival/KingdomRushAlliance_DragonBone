@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage01_robobootDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage01_robobootDef.lua
 
 return {
 	fps = 30,

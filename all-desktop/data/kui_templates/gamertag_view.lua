@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/data/kui_templates/gamertag_view.lua
+-- chunkname: @./all-desktop/data/kui_templates/gamertag_view.lua
 
 return {
 	hidden = false,

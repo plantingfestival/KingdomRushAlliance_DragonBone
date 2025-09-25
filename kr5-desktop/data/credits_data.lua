@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/credits_data.lua
+-- chunkname: @./kr5-desktop/data/credits_data.lua
 
 return {
 	{

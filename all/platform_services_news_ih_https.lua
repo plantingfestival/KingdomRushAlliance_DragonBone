@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_news_ih_https.lua
+-- chunkname: @./all/platform_services_news_ih_https.lua
 
 local log = require("klua.log"):new("platform_services_news_ih_https")
 

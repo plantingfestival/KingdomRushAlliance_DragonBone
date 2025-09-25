@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_mc_goliath.lua
+-- chunkname: @./all/platform_services_mc_goliath.lua
 
 local log = require("klua.log"):new("platform_services_mc_goliath")
 local signal = require("hump.signal")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/dotnet_bfds.lua
+-- chunkname: @./lib/klua/dotnet_bfds.lua
 
 local _TESTING
 

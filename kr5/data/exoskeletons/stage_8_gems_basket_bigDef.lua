@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_8_gems_basket_bigDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_8_gems_basket_bigDef.lua
 
 return {
 	fps = 30,

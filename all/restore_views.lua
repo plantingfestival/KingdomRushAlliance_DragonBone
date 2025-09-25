@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/restore_views.lua
+-- chunkname: @./all/restore_views.lua
 
 local log = require("klua.log"):new("restore_views")
 

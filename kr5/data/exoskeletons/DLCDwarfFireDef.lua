@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLCDwarfFireDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLCDwarfFireDef.lua
 
 return {
 	fps = 30,

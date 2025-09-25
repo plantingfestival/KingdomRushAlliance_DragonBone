@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/VeznanTowerDef.lua
+-- chunkname: @./kr5/data/exoskeletons/VeznanTowerDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_shop_gems_portrait.lua
+-- chunkname: @./kr5/data/kui_templates/button_shop_gems_portrait.lua
 
 return {
 	default_image_name = "shop_room_image_shop_room_portrait_highlight_0001",

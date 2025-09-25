@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/remote_config.lua
+-- chunkname: @./all/remote_config.lua
 
 local log = require("klua.log"):new("remote_config")
 local signal = require("hump.signal")

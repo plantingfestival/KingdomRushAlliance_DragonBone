@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_tower_room_confirm_ok.lua
+-- chunkname: @./kr5/data/kui_templates/button_tower_room_confirm_ok.lua
 
 return {
 	default_image_name = "tower_room_button_confirm_yes_bg_0001",

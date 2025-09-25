@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_dwarf_inDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_stage3_dwarf_inDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_necromancer.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_necromancer.lua
 
 return {
 	necromancer_tower_bone_golem_0001 = {

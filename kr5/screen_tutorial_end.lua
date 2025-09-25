@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/screen_tutorial_end.lua
+-- chunkname: @./kr5/screen_tutorial_end.lua
 
 require("klove.kui")
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_popups.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_popups.lua
 
 return {
 	gui_popups_9slice_image_title_bg_ = {

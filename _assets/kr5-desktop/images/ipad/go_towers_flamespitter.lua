@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_flamespitter.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_flamespitter.lua
 
 return {
 	dwarven_flamespitter_tower_blazing_trail_explosion_0001 = {

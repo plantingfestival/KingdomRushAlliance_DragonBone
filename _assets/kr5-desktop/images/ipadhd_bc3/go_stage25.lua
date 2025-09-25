@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage25.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_stage25.lua
 
 return {
 	DLC_Enanos_S3_EasterEgg_SolidSnake_asst_aleta_1 = {

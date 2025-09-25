@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_robot.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_robot.lua
 
 return {
 	Blaze_humitodeatras_0001 = {

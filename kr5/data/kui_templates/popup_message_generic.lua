@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_message_generic.lua
+-- chunkname: @./kr5/data/kui_templates/popup_message_generic.lua
 
 return {
 	class = "GG5PopUpMessageGeneric",

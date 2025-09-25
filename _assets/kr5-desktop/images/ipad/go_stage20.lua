@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage20.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage20.lua
 
 return {
 	anim_arborean_ruperto_arborean_0001 = {

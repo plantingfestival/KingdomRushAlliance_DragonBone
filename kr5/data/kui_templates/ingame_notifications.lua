@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/ingame_notifications.lua
+-- chunkname: @./kr5/data/kui_templates/ingame_notifications.lua
 
 return {
 	class = "KWindow",

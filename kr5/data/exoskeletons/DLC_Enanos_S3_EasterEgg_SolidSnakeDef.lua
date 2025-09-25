@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S3_EasterEgg_SolidSnakeDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S3_EasterEgg_SolidSnakeDef.lua
 
 return {
 	fps = 30,

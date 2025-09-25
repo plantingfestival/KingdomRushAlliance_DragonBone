@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/Card_gems_chest_Def.lua
+-- chunkname: @./kr5/data/exoskeletons/Card_gems_chest_Def.lua
 
 return {
 	fps = 30,

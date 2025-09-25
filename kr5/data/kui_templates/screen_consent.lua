@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/screen_consent.lua
+-- chunkname: @./kr5/data/kui_templates/screen_consent.lua
 
 return {
 	class = "KWindow",

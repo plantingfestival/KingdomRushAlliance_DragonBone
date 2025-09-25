@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/overseer_mouthDef.lua
+-- chunkname: @./kr5/data/exoskeletons/overseer_mouthDef.lua
 
 return {
 	fps = 30,

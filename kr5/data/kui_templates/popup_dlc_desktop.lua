@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_dlc_desktop.lua
+-- chunkname: @./kr5/data/kui_templates/popup_dlc_desktop.lua
 
 return {
 	class = "GG5PopUp",

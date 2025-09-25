@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_mecha.lua
+-- chunkname: @./kr5/data/animations/hero_mecha.lua
 
 local a = {
 	hero_onagro_ultimate_layerX_idle = {

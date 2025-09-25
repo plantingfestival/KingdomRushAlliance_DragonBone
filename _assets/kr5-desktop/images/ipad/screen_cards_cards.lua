@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_cards_cards.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_cards_cards.lua
 
 return {
 	CardArborean_asst_card_arborean = {

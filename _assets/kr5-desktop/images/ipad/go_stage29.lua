@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage29.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage29.lua
 
 return {
 	cocon_stage2_coocoon_0001 = {

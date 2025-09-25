@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_12_sheepyDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_12_sheepyDef.lua
 
 return {
 	fps = 30,

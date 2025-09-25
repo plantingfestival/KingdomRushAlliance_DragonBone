@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage19_decos.lua
+-- chunkname: @./kr5/data/animations/stage19_decos.lua
 
 local a = {
 	navira_navira_idle = {

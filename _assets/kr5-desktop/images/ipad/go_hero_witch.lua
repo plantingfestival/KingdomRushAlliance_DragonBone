@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_witch.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_witch.lua
 
 return {
 	hero_witch_cat_0001 = {

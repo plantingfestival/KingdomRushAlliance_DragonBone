@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_map_paths.lua
+-- chunkname: @./kr5/data/kui_templates/group_map_paths.lua
 
 return {
 	class = "KView",

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage19.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stage19.lua
 
 return {
 	navira_hands_0001 = {

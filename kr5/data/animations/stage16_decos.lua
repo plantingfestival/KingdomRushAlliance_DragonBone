@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage16_decos.lua
+-- chunkname: @./kr5/data/animations/stage16_decos.lua
 
 local a = {
 	overseer_fx_overseer_proyectile_proyectile = {

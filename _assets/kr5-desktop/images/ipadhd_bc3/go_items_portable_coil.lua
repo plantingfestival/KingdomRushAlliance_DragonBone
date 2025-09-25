@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_portable_coil.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_portable_coil.lua
 
 return {
 	item_portable_coil_asst_portable_coil_bolt1_f1 = {

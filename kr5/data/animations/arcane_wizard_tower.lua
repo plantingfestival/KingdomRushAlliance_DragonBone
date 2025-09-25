@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/arcane_wizard_tower.lua
+-- chunkname: @./kr5/data/animations/arcane_wizard_tower.lua
 
 local a = {
 	arcane_wizard_tower_empowerment_indicator = {

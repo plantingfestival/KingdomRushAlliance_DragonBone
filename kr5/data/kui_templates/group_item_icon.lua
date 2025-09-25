@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_item_icon.lua
+-- chunkname: @./kr5/data/kui_templates/group_item_icon.lua
 
 return {
 	class = "ItemRingItemButtonThumb",

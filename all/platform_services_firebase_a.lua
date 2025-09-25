@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_firebase_a.lua
+-- chunkname: @./all/platform_services_firebase_a.lua
 
 local log = require("klua.log"):new("platform_services_firebase_a")
 local signal = require("hump.signal")

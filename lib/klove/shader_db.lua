@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/shader_db.lua
+-- chunkname: @./lib/klove/shader_db.lua
 
 local log = require("klua.log"):new("shader_db")
 

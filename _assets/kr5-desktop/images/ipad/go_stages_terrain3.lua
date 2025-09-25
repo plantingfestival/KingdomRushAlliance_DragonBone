@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_terrain3.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_terrain3.lua
 
 return {
 	BKtentacle13_asst_BK_tentacle_02 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/json.lua
+-- chunkname: @./lib/json.lua
 
 local json = {
 	_version = "0.1.1"

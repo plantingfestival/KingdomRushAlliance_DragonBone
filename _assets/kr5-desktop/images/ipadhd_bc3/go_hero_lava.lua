@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_lava.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_lava.lua
 
 return {
 	brute_welder_attack_mod_0001 = {

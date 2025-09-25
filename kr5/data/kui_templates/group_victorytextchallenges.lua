@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_victorytextchallenges.lua
+-- chunkname: @./kr5/data/kui_templates/group_victorytextchallenges.lua
 
 return {
 	class = "KView",

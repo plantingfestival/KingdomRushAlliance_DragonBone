@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_tricannon.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_tricannon.lua
 
 return {
 	tower_preview_tricannon = {

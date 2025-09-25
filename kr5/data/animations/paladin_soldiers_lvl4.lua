@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/paladin_soldiers_lvl4.lua
+-- chunkname: @./kr5/data/animations/paladin_soldiers_lvl4.lua
 
 local a = {
 	paladin_soldier_lvl4_idle = {

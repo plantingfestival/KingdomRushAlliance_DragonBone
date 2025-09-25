@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_shop_gems_special_offer_title.lua
+-- chunkname: @./kr5/data/kui_templates/group_shop_gems_special_offer_title.lua
 
 return {
 	class = "KView",

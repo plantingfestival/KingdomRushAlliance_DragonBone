@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers.lua
 
 return {
 	arborean_emissary_tower_preview = {

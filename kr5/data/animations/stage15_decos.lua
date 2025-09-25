@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage15_decos.lua
+-- chunkname: @./kr5/data/animations/stage15_decos.lua
 
 local a = {
 	denas_decal_Idle = {

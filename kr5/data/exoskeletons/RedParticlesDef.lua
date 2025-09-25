@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/RedParticlesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/RedParticlesDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/font_subst.lua
+-- chunkname: @./kr5/data/font_subst.lua
 
 return {
 	global = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/director_data.lua
+-- chunkname: @./kr5-desktop/data/director_data.lua
 
 local d = {}
 

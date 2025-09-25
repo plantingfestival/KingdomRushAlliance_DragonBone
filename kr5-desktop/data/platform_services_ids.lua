@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5-desktop/data/platform_services_ids.lua
+-- chunkname: @./kr5-desktop/data/platform_services_ids.lua
 
 require("constants")
 require("version")

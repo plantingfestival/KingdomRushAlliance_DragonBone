@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_storekit.lua
+-- chunkname: @./all/platform_services_storekit.lua
 
 require("klua.string")
 

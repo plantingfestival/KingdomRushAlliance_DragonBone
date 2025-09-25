@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/item_portable_coilDef.lua
+-- chunkname: @./kr5/data/exoskeletons/item_portable_coilDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/rayos_t3inactiveDef.lua
+-- chunkname: @./kr5/data/exoskeletons/rayos_t3inactiveDef.lua
 
 return {
 	fps = 30,

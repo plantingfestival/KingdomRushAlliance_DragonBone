@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/group_items_wheel.lua
+-- chunkname: @./kr5/data/kui_templates/group_items_wheel.lua
 
 return {
 	class = "KView",

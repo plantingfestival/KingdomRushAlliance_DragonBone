@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_guardian.lua
+-- chunkname: @./kr5/data/animations/darksteel_guardian.lua
 
 local a = {
 	darksteel_guardian_stage_rock_idle = {

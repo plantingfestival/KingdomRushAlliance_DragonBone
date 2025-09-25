@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/energybeamDef.lua
+-- chunkname: @./kr5/data/exoskeletons/energybeamDef.lua
 
 return {
 	fps = 30,

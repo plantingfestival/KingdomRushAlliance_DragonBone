@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_Boss01Def.lua
+-- chunkname: @./kr5/data/exoskeletons/DLC_Enanos_S4_Boss01Def.lua
 
 return {
 	fps = 30,

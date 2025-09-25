@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_appstore_rating.lua
+-- chunkname: @./all/platform_services_appstore_rating.lua
 
 require("klua.string")
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/converterDef.lua
+-- chunkname: @./kr5/data/exoskeletons/converterDef.lua
 
 return {
 	fps = 30,

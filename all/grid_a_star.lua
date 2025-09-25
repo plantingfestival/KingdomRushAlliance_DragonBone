@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/grid_a_star.lua
+-- chunkname: @./all/grid_a_star.lua
 
 local log = require("klua.log"):new("grid_a_star")
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/types.lua
+-- chunkname: @./lib/klua/types.lua
 
 NULL = setmetatable({}, {
 	__index = function(t, k)

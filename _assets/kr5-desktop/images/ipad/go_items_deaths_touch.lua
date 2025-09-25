@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_deaths_touch.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_items_deaths_touch.lua
 
 return {
 	deaths_touch_fx_0001 = {

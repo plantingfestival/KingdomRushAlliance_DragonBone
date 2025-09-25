@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_dragon_bone.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_hero_dragon_bone.lua
 
 return {
 	hero_dragon_bone_bones_a_green_air = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_ingame_shop_item_price.lua
+-- chunkname: @./kr5/data/kui_templates/button_ingame_shop_item_price.lua
 
 return {
 	default_image_name = "ingame_shop_kui_button_price_bg_0001",

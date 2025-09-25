@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dlcdwarfbossstage02_particleDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dlcdwarfbossstage02_particleDef.lua
 
 return {
 	fps = 30,

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/strings/kr.lua
+-- chunkname: @./_assets/kr5-desktop/strings/kr.lua
 
 local _ = {
 	CREDITS_TITLE_16 = "Q&A & 테스트",

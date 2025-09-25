@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/wave_db.lua
+-- chunkname: @./all/wave_db.lua
 
 local log = require("klua.log"):new("wave_db")
 local km = require("klua.macros")

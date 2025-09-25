@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klove/tween.lua
+-- chunkname: @./lib/klove/tween.lua
 
 local log = require("klua.log"):new("klove.tween")
 

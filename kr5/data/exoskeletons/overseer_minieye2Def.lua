@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/overseer_minieye2Def.lua
+-- chunkname: @./kr5/data/exoskeletons/overseer_minieye2Def.lua
 
 return {
 	fps = 30,

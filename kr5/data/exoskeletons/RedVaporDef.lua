@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/RedVaporDef.lua
+-- chunkname: @./kr5/data/exoskeletons/RedVaporDef.lua
 
 return {
 	fps = 30,

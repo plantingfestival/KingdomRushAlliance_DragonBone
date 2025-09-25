@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_croc_shaman.lua
+-- chunkname: @./kr5/data/animations/enemy_croc_shaman.lua
 
 local a = {
 	shaman_buff = {

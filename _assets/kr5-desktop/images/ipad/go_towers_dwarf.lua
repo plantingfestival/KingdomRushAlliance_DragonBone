@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_dwarf.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_dwarf.lua
 
 return {
 	tower_dwarf_attack_1_hit_0001 = {

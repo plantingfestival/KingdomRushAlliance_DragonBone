@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/YMCAPuntosDef.lua
+-- chunkname: @./kr5/data/exoskeletons/YMCAPuntosDef.lua
 
 return {
 	fps = 30,

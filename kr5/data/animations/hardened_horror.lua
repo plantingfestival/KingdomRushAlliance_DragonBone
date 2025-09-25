@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hardened_horror.lua
+-- chunkname: @./kr5/data/animations/hardened_horror.lua
 
 local a = {
 	hardened_horror_hit_vfx_attack_1_hit = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_platform_introDef.lua
+-- chunkname: @./kr5/data/exoskeletons/dclenanos_stage05_platform_introDef.lua
 
 return {
 	fps = 30,

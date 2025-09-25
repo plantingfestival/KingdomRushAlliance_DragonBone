@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/metagame_menues_bgDef.lua
+-- chunkname: @./kr5/data/exoskeletons/metagame_menues_bgDef.lua
 
 return {
 	fps = 30,

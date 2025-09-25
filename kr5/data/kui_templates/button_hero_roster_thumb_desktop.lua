@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_hero_roster_thumb_desktop.lua
+-- chunkname: @./kr5/data/kui_templates/button_hero_roster_thumb_desktop.lua
 
 return {
 	default_image_name = "hero_room_image_roster_thumb_desktop_bg_0001",

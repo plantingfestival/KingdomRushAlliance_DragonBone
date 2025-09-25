@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/DLCenanos_stage1_deco_gruaDef.lua
+-- chunkname: @./kr5/data/exoskeletons/DLCenanos_stage1_deco_gruaDef.lua
 
 return {
 	fps = 30,

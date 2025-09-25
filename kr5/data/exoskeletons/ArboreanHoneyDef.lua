@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/ArboreanHoneyDef.lua
+-- chunkname: @./kr5/data/exoskeletons/ArboreanHoneyDef.lua
 
 return {
 	fps = 30,

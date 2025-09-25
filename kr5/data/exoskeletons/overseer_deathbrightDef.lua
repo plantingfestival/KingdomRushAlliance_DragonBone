@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/overseer_deathbrightDef.lua
+-- chunkname: @./kr5/data/exoskeletons/overseer_deathbrightDef.lua
 
 return {
 	fps = 30,

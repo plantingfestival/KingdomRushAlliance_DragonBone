@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/game_gui_classes.lua
+-- chunkname: @./kr5/game_gui_classes.lua
 
 local log = require("klua.log"):new("game_gui_classes")
 local class = require("middleclass")

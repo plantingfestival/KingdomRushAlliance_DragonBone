@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage28_decos.lua
+-- chunkname: @./kr5/data/animations/stage28_decos.lua
 
 local a = {
 	redemeed_cultist_barraca_tentacle_raise = {

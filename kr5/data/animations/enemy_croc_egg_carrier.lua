@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_croc_egg_carrier.lua
+-- chunkname: @./kr5/data/animations/enemy_croc_egg_carrier.lua
 
 local a = {
 	crokinder_carrier_trail_run = {

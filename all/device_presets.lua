@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/device_presets.lua
+-- chunkname: @./all/device_presets.lua
 
 local log = require("klua.log")
 

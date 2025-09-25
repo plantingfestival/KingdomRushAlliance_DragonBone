@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_terrain2.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_stages_terrain2.lua
 
 return {
 	t2_dust_asst_stage7smoke_smokepurp = {

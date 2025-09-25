@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/gamestate.lua
+-- chunkname: @./lib/hump/gamestate.lua
 
 local function __NULL__()
 	return

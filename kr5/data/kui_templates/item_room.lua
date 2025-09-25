@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/item_room.lua
+-- chunkname: @./kr5/data/kui_templates/item_room.lua
 
 return {
 	class = "KWindow",

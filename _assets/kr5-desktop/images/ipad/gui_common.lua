@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_common.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_common.lua
 
 return {
 	achievement_ingame_icon_001_0001 = {

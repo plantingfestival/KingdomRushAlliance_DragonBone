@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_fist.lua
+-- chunkname: @./kr5/data/animations/darksteel_fist.lua
 
 local a = {
 	darksteel_fist_stun_explosion = {

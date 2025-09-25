@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/StunCircleDef.lua
+-- chunkname: @./kr5/data/exoskeletons/StunCircleDef.lua
 
 return {
 	fps = 30,

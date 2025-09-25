@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/stage4_decos2.lua
+-- chunkname: @./kr5/data/animations/stage4_decos2.lua
 
 local a = {
 	anim_liana_idle1 = {

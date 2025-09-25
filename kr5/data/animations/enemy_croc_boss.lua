@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/enemy_croc_boss.lua
+-- chunkname: @./kr5/data/animations/enemy_croc_boss.lua
 
 local a = {
 	crokinder_mom_creep_eat_tower_start = {

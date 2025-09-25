@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/evolving_scourge.lua
+-- chunkname: @./kr5/data/animations/evolving_scourge.lua
 
 local a = {
 	evolving_scourge_fase3_idle = {

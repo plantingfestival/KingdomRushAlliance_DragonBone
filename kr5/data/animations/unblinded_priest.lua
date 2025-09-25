@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/unblinded_priest.lua
+-- chunkname: @./kr5/data/animations/unblinded_priest.lua
 
 local a = {
 	unblinded_priest_idle = {

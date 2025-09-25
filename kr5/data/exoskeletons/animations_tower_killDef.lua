@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/animations_tower_killDef.lua
+-- chunkname: @./kr5/data/exoskeletons/animations_tower_killDef.lua
 
 return {
 	fps = 30,

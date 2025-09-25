@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/camera.lua
+-- chunkname: @./lib/hump/camera.lua
 
 local _PATH = (...):match("^(.*[%./])[^%.%/]+$") or ""
 local cos, sin = math.cos, math.sin

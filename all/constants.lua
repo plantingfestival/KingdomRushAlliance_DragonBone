@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/constants.lua
+-- chunkname: @./all/constants.lua
 
 IS_KR1 = KR_GAME == "kr1"
 IS_KR2 = KR_GAME == "kr2"

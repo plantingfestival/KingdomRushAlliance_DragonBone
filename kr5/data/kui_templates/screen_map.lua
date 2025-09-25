@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/screen_map.lua
+-- chunkname: @./kr5/data/kui_templates/screen_map.lua
 
 local BG_W = 1728
 local BG_H = 768

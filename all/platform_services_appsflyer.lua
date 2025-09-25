@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_appsflyer.lua
+-- chunkname: @./all/platform_services_appsflyer.lua
 
 local log = require("klua.log"):new("platform_services_appsflyer")
 local signal = require("hump.signal")

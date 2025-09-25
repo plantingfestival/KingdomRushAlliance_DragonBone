@@ -1,4 +1,4 @@
-﻿-- chunkname: @./features.lua
+-- chunkname: @./features.lua
 
 local _ft = {
 	no_gems = true,

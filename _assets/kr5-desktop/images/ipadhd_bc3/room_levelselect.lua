@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_levelselect.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_levelselect.lua
 
 return {
 	level_select_9slice_hero_room_skill_tooltip_bg_ = {

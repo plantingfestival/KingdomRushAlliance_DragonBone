@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/log.lua
+-- chunkname: @./lib/klua/log.lua
 
 local dgetinfo = debug.getinfo
 local strformat = string.format

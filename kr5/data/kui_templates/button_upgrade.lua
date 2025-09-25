@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_upgrade.lua
+-- chunkname: @./kr5/data/kui_templates/button_upgrade.lua
 
 return {
 	default_image_name = "upgrades_room_image_upgrade_button_bg_0001",

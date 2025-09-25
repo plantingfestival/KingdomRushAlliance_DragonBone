@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/popup_message_china.lua
+-- chunkname: @./kr5/data/kui_templates/popup_message_china.lua
 
 return {
 	class = "GG5PopUpMessageChina",

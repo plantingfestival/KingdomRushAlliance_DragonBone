@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_map_stage_flag.lua
+-- chunkname: @./kr5/data/kui_templates/button_map_stage_flag.lua
 
 return {
 	default_image_name = "map_flags_stage_flag_bg_0001",

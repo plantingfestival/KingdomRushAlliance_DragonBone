@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/view_done_button.lua
+-- chunkname: @./kr5/data/kui_templates/view_done_button.lua
 
 return {
 	vertical_align = "middle",

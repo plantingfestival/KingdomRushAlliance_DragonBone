@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/GoregrindPoolDef.lua
+-- chunkname: @./kr5/data/exoskeletons/GoregrindPoolDef.lua
 
 return {
 	fps = 30,

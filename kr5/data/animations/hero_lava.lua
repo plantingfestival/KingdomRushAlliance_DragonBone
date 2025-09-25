@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_lava.lua
+-- chunkname: @./kr5/data/animations/hero_lava.lua
 
 local a = {
 	hero_lava_hero_idle = {

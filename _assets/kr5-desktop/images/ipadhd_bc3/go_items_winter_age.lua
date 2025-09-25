@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_winter_age.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_items_winter_age.lua
 
 return {
 	winter_age_gust = {

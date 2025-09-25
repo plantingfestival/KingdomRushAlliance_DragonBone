@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/components.lua
+-- chunkname: @./all/components.lua
 
 local bit = require("bit")
 local bor = bit.bor

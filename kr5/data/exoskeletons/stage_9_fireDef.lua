@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_9_fireDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_9_fireDef.lua
 
 return {
 	fps = 30,

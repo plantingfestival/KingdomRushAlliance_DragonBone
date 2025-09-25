@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/hump/signal.lua
+-- chunkname: @./lib/hump/signal.lua
 
 local Registry = {}
 

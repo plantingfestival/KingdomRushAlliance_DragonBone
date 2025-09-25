@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_slots.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/screen_slots.lua
 
 return {
 	ScreenSlotsBG_asst_archers = {

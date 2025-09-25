@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_hermit_toad.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_towers_hermit_toad.lua
 
 return {
 	hermit_toad_tower_bubbles2_0001 = {

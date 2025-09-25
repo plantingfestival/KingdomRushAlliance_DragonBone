@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/sunraytower_hitDef.lua
+-- chunkname: @./kr5/data/exoskeletons/sunraytower_hitDef.lua
 
 return {
 	fps = 30,

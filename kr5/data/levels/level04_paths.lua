@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level04_paths.lua
+-- chunkname: @./kr5/data/levels/level04_paths.lua
 
 return {
 	active = {

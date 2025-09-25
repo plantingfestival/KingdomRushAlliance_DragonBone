@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/spiders_stage29_eyes_stageDef.lua
+-- chunkname: @./kr5/data/exoskeletons/spiders_stage29_eyes_stageDef.lua
 
 return {
 	fps = 30,

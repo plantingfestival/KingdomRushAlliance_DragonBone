@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/xmlSimple.lua
+-- chunkname: @./lib/xmlSimple.lua
 
 local xmlSimple = {}
 

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/NoxiousHorrorDef.lua
+-- chunkname: @./kr5/data/exoskeletons/NoxiousHorrorDef.lua
 
 return {
 	fps = 30,

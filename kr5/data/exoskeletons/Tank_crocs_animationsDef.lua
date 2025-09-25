@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/Tank_crocs_animationsDef.lua
+-- chunkname: @./kr5/data/exoskeletons/Tank_crocs_animationsDef.lua
 
 return {
 	fps = 30,

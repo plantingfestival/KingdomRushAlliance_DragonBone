@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/game_settings.lua
+-- chunkname: @./kr5/game_settings.lua
 
 local GS = {}
 

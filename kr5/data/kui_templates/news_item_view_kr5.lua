@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/news_item_view_kr5.lua
+-- chunkname: @./kr5/data/kui_templates/news_item_view_kr5.lua
 
 local function v(x, y)
 	return {

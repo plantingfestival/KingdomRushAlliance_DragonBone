@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/grid_db.lua
+-- chunkname: @./all/grid_db.lua
 
 local log = require("klua.log"):new("grid_db")
 local FS = love.filesystem

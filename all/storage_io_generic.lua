@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/storage_io_generic.lua
+-- chunkname: @./all/storage_io_generic.lua
 
 local log = require("klua.log"):new("storage_io_generic")
 local signal = require("hump.signal")

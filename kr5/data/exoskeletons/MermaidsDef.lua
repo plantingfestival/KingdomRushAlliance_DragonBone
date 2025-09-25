@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/MermaidsDef.lua
+-- chunkname: @./kr5/data/exoskeletons/MermaidsDef.lua
 
 return {
 	fps = 30,

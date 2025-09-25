@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_space_elf.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/go_hero_space_elf.lua
 
 return {
 	hero_therien_black_aegis_bottom_big = {

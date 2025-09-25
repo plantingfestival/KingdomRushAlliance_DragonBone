@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/klua/vector.lua
+-- chunkname: @./lib/klua/vector.lua
 
 local V = require("hump.vector-light")
 

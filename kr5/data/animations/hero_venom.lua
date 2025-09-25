@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/hero_venom.lua
+-- chunkname: @./kr5/data/animations/hero_venom.lua
 
 local a = {
 	hero_venom_hero_idle = {

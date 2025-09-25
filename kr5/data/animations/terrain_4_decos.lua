@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/terrain_4_decos.lua
+-- chunkname: @./kr5/data/animations/terrain_4_decos.lua
 
 local a = {
 	cheshire_cat_easter_egg_cat_in = {

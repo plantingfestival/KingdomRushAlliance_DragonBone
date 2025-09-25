@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/slot_template.lua
+-- chunkname: @./kr5/data/slot_template.lua
 
 return {
 	achievements = {},

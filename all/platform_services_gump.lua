@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_gump.lua
+-- chunkname: @./all/platform_services_gump.lua
 
 local log = require("klua.log"):new("platform_services_gump")
 local PSU = require("platform_services_utils")

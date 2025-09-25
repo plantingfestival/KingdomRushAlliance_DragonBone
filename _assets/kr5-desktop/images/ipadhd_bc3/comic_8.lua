@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/comic_8.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/comic_8.lua
 
 return {
 	comic_08_image_8_1_ = {

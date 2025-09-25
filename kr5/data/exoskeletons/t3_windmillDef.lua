@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/t3_windmillDef.lua
+-- chunkname: @./kr5/data/exoskeletons/t3_windmillDef.lua
 
 return {
 	fps = 30,

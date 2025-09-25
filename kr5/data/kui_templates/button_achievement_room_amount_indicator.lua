@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/button_achievement_room_amount_indicator.lua
+-- chunkname: @./kr5/data/kui_templates/button_achievement_room_amount_indicator.lua
 
 return {
 	focus_image_name = "achievements_room_undefined_0003",

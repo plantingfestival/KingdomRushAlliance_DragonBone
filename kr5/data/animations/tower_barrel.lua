@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_barrel.lua
+-- chunkname: @./kr5/data/animations/tower_barrel.lua
 
 local a = {
 	barrel_tower_preview = {

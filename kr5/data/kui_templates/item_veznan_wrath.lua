@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/item_veznan_wrath.lua
+-- chunkname: @./kr5/data/kui_templates/item_veznan_wrath.lua
 
 return {
 	class = "KView",

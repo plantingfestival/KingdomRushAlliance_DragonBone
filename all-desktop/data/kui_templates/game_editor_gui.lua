@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all-desktop/data/kui_templates/game_editor_gui.lua
+-- chunkname: @./all-desktop/data/kui_templates/game_editor_gui.lua
 
 local function v(x, y)
 	return {

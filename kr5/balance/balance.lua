@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/balance/balance.lua
+-- chunkname: @./kr5/balance/balance.lua
 
 local function v(v1, v2)
 	return {

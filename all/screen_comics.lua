@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/screen_comics.lua
+-- chunkname: @./all/screen_comics.lua
 
 local log = require("klua.log"):new("screen_comics")
 local V = require("klua.vector")

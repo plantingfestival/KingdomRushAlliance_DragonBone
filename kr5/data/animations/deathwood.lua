@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/deathwood.lua
+-- chunkname: @./kr5/data/animations/deathwood.lua
 
 local a = {
 	deathwood_spirit_ball_idle = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_necromancer.lua
+-- chunkname: @./kr5/data/animations/tower_necromancer.lua
 
 local a = {
 	necromancer_tower_death_rider_spawn = {

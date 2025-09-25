@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_portraits.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/gui_portraits.lua
 
 return {
 	gui_bottom_info_image_enemies_0001 = {

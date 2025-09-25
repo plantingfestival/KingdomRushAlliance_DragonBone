@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/tower_tree_projectile_explosionDef.lua
+-- chunkname: @./kr5/data/exoskeletons/tower_tree_projectile_explosionDef.lua
 
 return {
 	fps = 30,

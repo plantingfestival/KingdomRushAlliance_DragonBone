@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/game_animations.lua
+-- chunkname: @./kr5/data/game_animations.lua
 
 local a = {
 	tower_build_dust = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/darksteel_shielder.lua
+-- chunkname: @./kr5/data/animations/darksteel_shielder.lua
 
 local a = {
 	darksteel_shielder_creep_idle = {

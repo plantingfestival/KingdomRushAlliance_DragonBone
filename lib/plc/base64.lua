@@ -1,4 +1,4 @@
-﻿-- chunkname: @./lib/plc/base64.lua
+-- chunkname: @./lib/plc/base64.lua
 
 local byte, char, concat = string.byte, string.char, table.concat
 local shl, shr, band, bor

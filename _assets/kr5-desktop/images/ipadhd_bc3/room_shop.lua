@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_shop.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/room_shop.lua
 
 return {
 	shop_offer_card_cluster_bomb = {

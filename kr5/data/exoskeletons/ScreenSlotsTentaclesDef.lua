@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/ScreenSlotsTentaclesDef.lua
+-- chunkname: @./kr5/data/exoskeletons/ScreenSlotsTentaclesDef.lua
 
 return {
 	fps = 30,

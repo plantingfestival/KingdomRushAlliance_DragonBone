@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_notifications_common.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipad/gui_notifications_common.lua
 
 return {
 	alert_tip_0001 = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/platform_services_deep_links.lua
+-- chunkname: @./all/platform_services_deep_links.lua
 
 local log = require("klua.log"):new("platform_services_deep_links")
 local signal = require("hump.signal")

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/rolling_sentry.lua
+-- chunkname: @./kr5/data/animations/rolling_sentry.lua
 
 a = {
 	rolling_sentry_creep_idle = {

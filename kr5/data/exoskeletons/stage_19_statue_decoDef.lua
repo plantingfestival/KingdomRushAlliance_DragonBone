@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_19_statue_decoDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_19_statue_decoDef.lua
 
 return {
 	fps = 30,

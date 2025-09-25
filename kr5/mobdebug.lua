@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/mobdebug.lua
+-- chunkname: @./kr5/mobdebug.lua
 
 local require = require
 

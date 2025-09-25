@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/overseer_underbacktents1Def.lua
+-- chunkname: @./kr5/data/exoskeletons/overseer_underbacktents1Def.lua
 
 return {
 	fps = 30,

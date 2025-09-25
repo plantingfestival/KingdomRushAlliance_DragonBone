@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/elevator_cosoDef.lua
+-- chunkname: @./kr5/data/exoskeletons/elevator_cosoDef.lua
 
 return {
 	fps = 30,

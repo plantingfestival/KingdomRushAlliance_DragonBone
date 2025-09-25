@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/animations/tower_stargazers.lua
+-- chunkname: @./kr5/data/animations/tower_stargazers.lua
 
 local a = {
 	elven_stargazers_tower_mark_start = {

@@ -1,4 +1,4 @@
-﻿-- chunkname: @./all/gui_utils.lua
+-- chunkname: @./all/gui_utils.lua
 
 local GU = {}
 local log = require("klua.log"):new("game_scripts")

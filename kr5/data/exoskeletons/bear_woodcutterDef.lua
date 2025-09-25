@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/bear_woodcutterDef.lua
+-- chunkname: @./kr5/data/exoskeletons/bear_woodcutterDef.lua
 
 return {
 	fps = 30,

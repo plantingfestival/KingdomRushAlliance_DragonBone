@@ -1,4 +1,4 @@
-﻿-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_arcane_wizard.lua
+-- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_towers_arcane_wizard.lua
 
 return {
 	arcane_wizard_tower_build = {

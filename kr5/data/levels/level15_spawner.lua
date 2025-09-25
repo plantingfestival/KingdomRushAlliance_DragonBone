@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/levels/level15_spawner.lua
+-- chunkname: @./kr5/data/levels/level15_spawner.lua
 
 return {
 	groups = {

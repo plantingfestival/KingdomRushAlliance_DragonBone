@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/kui_templates/ingame_achievement_ui.lua
+-- chunkname: @./kr5/data/kui_templates/ingame_achievement_ui.lua
 
 return {
 	class = "KWindow",

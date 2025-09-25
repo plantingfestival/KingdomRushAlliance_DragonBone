@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr5/data/exoskeletons/stage_30_spider_doorDef.lua
+-- chunkname: @./kr5/data/exoskeletons/stage_30_spider_doorDef.lua
 
 return {
 	fps = 30,
