@@ -2658,7 +2658,7 @@ function scripts.hero_elora.update(this, store)
 			skill = this.hero.skills.ice_storm
 
 			if not a.disabled and store.tick_ts - a.ts > a.cooldown then
-				local target = U.find_random_enemy(store.entities, this.pos, a.min_range, a.max_range, a.vis_flags, a.vis_bans)
+				local target = U.find_foremost_enemy(store.entities, this.pos, a.min_range, a.max_range, 0, a.vis_flags, a.vis_bans, nil, F_FLYING)
 
 				if not target then
 					SU.delay_attack(store, a, 0.13333333333333333)
@@ -2687,6 +2687,7 @@ function scripts.hero_elora.update(this, store)
 						SU.hero_gain_xp_from_skill(this, skill)
 
 						local delay = 0
+						ni = target.nav_path.ni
 						local n_step = ni < s_ni and -2 or 2
 
 						local nodes_offset = P:predict_enemy_node_advance(target, a.node_prediction)

@@ -1663,6 +1663,7 @@ tt.bullet.max_speed = 300
 tt.bullet.min_speed = 30
 tt.bullet.pop_chance = 0
 tt.bullet.shot_index = 1
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.initial_impulse = 15000
 tt.initial_impulse_duration = 0.15
 tt.initial_impulse_angle = math.pi / 6
@@ -2291,13 +2292,13 @@ tt.hero.skills.ice_storm.count = {
 }
 tt.hero.skills.ice_storm.damage_max = {
 	40,
-	50,
-	60
+	60,
+	80
 }
 tt.hero.skills.ice_storm.damage_min = {
 	20,
-	30,
-	40
+	40,
+	60
 }
 tt.hero.skills.ice_storm.max_range = {
 	153.6,
@@ -2375,7 +2376,7 @@ tt.timed_attacks.list[1].cooldown = 10 + fts(39)
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].max_range = nil
 tt.timed_attacks.list[1].min_range = 38.4
-tt.timed_attacks.list[1].node_prediction = fts(27)
+tt.timed_attacks.list[1].node_prediction = fts(12)
 tt.timed_attacks.list[1].sound = "HeroFrostIceRainSummon"
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND)
 tt.timed_attacks.list[1].vis_flags = F_RANGED
