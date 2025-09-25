@@ -10682,6 +10682,7 @@ function scripts.eb_dracula.update(this, store, script)
 				local _vis_bans = this.vis.bans
 
 				this.vis.bans = bor(this.vis.bans, F_ALL)
+				this.ui.can_click = nil
 				this.health.armor = 1
 				this.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
 				this.health.magic_armor = 0
@@ -10695,6 +10696,7 @@ function scripts.eb_dracula.update(this, store, script)
 				this.health.hp = this.health.hp_max
 				this.health.dead = false
 				this.motion.max_speed = this.motion.max_speed_angry
+				this.ui.can_click = true
 
 				local e = E:create_entity("dracula_damage_aura")
 

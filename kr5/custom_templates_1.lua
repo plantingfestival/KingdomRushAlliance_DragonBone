@@ -888,6 +888,7 @@ tt.bullet.hit_payload = {
 }
 tt.bullet.flight_time = fts(15)
 tt.bullet.ignore_hit_offset = true
+tt.bullet.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.delay_betweeen_flames = fts(2)
 tt.flame_bullet = "flame_bullet_cold_fury"
 tt.flames_count = 12
