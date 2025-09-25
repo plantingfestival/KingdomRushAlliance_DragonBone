@@ -358,25 +358,17 @@ tt.timed_attacks.list[3].vis_flags = F_RANGED
 tt.timed_attacks.list[3].xp_from_skill = "catapult"
 tt.timed_attacks.list[3].search_type = U.search_type.find_max_crowd
 tt.timed_attacks.list[4] = CC("spawn_attack")
-tt.timed_attacks.list[4].skill = "spawner"
+tt.timed_attacks.list[4].skill = "object_on_target"
 tt.timed_attacks.list[4].cooldown = 30
-tt.timed_attacks.list[4].range = 200
-tt.timed_attacks.list[4].min_targets = 1
+tt.timed_attacks.list[4].max_range = 200
+tt.timed_attacks.list[4].min_range = 0
 tt.timed_attacks.list[4].vis_bans = bor(F_FRIEND, F_FLYING)
 tt.timed_attacks.list[4].animation = "levelUp"
 tt.timed_attacks.list[4].cast_time = fts(13)
+tt.timed_attacks.list[4].node_prediction = fts(0)
 tt.timed_attacks.list[4].sound = "HeroLevelUp"
-tt.timed_attacks.list[4].spawn_delay = 0
-tt.timed_attacks.list[4].min_nodes = -9
-tt.timed_attacks.list[4].max_nodes = -9
 tt.timed_attacks.list[4].use_center = true
-tt.timed_attacks.list[4].max_count = 1
-tt.timed_attacks.list[4].entity_chances = {
-	1,
-}
-tt.timed_attacks.list[4].entity_names = {
-	"soldier_reinforcement_stage_15_denas"
-}
+tt.timed_attacks.list[4].entity = "soldier_reinforcement_stage_15_denas"
 
 tt = E:register_t("denas_catapult_rock", "bombKR5")
 tt.bullet.flight_time = fts(45)

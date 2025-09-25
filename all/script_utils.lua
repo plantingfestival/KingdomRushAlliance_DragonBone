@@ -4403,6 +4403,22 @@ local function create_bullet_hit_decal(this, store, flip_x)
 	end
 end
 
+local function set_entity_nav_rally(entity, rallyCenter, rallyPos, squadId)
+	if entity.nav_rally then
+		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
+		if rallyPos then
+			entity.nav_rally.pos = rallyPos
+			entity.nav_rally.new = true
+		else
+			entity.nav_rally.pos = V.vclone(entity.pos)
+			entity.nav_rally.new = false
+		end
+	end
+	if entity.reinforcement and squadId then
+		entity.reinforcement.squad_id = squadId
+	end
+end
+
 local function hide_shadow(this, isHidden)
 	for _, sprite in pairs(this.render.sprites) do
 		if sprite.is_shadow then
@@ -4559,15 +4575,6 @@ local function entity_casts_spawner(store, this, a)
 
 	if not check_attack_chance(store, a) then
 		return false
-	end
-
-	local function set_entity_nav_rally(entity)
-		if entity.nav_rally and entity.pos then
-			local npos = V.vclone(entity.pos)
-			entity.nav_rally.center = npos
-			entity.nav_rally.pos = npos
-			entity.nav_rally.new = false
-		end
 	end
 
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
@@ -5172,6 +5179,7 @@ local function entity_casts_object_on_target(store, this, a)
 				set_entity_pos(target)
 			end
 			set_entity_level(e, a.level)
+			set_entity_nav_rally(e)
 			if e.aura then
 				e.aura.target_id = target.id
 				e.aura.source_id = this.id
@@ -5571,6 +5579,7 @@ local SU = {
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
+	set_entity_nav_rally = set_entity_nav_rally,
 	hide_shadow = hide_shadow,
 	entity_interrupted = entity_interrupted,
 	y_entity_wait = y_entity_wait,

@@ -3416,8 +3416,9 @@ function scripts.hero_elves_denas_ultimate.update(this, store)
 			local e = E:create_entity(this.guards_template)
 
 			e.pos = p
-			e.nav_rally.center = V.vclone(e.pos)
+			e.nav_rally.center = pos
 			e.nav_rally.pos = V.vclone(e.pos)
+			e.reinforcement.squad_id = this.id
 			-- e.melee.attacks[1].xp_dest_id = this.owner.id
 			-- e.melee.attacks[2].xp_dest_id = this.owner.id
 
