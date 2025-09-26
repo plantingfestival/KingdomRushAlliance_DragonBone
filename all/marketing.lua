@@ -246,14 +246,14 @@ function marketing:get_candidate_offers(persistent)
 			elseif not offer.price or not offer.price_micros then
 				log.debug("offer %s has no price yet (not synched yet?)", id)
 				log.debug("%s", getfulldump(offer))
-			elseif offer.persistent ~= "any" and (persistent and not offer.persistent or not persistent and offer.persistent) then
+			elseif not DBG_SHOW_ALL_OFFERS and offer.persistent ~= "any" and (persistent and not offer.persistent or not persistent and offer.persistent) then
 				log.debug("offer %s does not match persistent filter %s", id, persistent)
 			else
 				local od = table.deepclone(offer)
 				local dc = RC.v.default_offer_conditions or {}
 				local conds = table.merge(dc, od.conditions, true)
 
-				if conds.debug_skip_conditions then
+				if conds.debug_skip_conditions or DBG_SHOW_ALL_OFFERS then
 					log.debug("offer %s conditions skipped! debug_skip_conditions ON", id)
 				else
 					for cond_name, cond_value in pairs(conds) do
@@ -409,7 +409,7 @@ function marketing:set_active_offer(offer)
 end
 
 function marketing:get_sale_offer(name)
-	if not table.contains(PS.services.iap:get_tower_sales(), name) and not table.contains(PS.services.iap:get_hero_sales(), name) then
+	if not table.contains(PS.services.iap:get_tower_sales(), name) and not table.contains(PS.services.iap:get_hero_sales(), name) and not table.contains(PS.services.iap:get_gems_sales(), name) then
 		return nil
 	end
 

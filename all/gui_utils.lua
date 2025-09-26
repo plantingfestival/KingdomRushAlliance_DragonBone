@@ -19,7 +19,21 @@ end
 function GU.armor_value_desc(v, short)
 	local pref = short and "CArmorSmall" or "CArmor"
 
-	if not v or type(v) ~= "number" then
+	if KR_GAME == "kr5" then
+		if not v or type(v) ~= "number" then
+			return _(pref .. "0")
+		elseif v >= 1 then
+			return _(pref .. "9")
+		elseif v >= 0.75 then
+			return _(pref .. "3")
+		elseif v >= 0.31 then
+			return _(pref .. "2")
+		elseif v >= 0.01 then
+			return _(pref .. "1")
+		else
+			return _(pref .. "0")
+		end
+	elseif not v or type(v) ~= "number" then
 		return _(pref .. "0")
 	elseif v >= 1 then
 		return _(pref .. "9")
@@ -242,13 +256,13 @@ function GU.rounded_rectangle(x, y, width, height, segments, tip_offset, custom_
 		end
 	end
 
-	if tip_offset then
+	if tip_offset and tip_offset.y == 0 then
 		table.insert(vertices, x + tip_offset.x)
-		table.insert(vertices, y)
 	else
 		table.insert(vertices, x + width * 0.5)
-		table.insert(vertices, y)
 	end
+
+	table.insert(vertices, y)
 
 	corner_x = x + width - border
 	corner_y = y + border
@@ -266,13 +280,23 @@ function GU.rounded_rectangle(x, y, width, height, segments, tip_offset, custom_
 		vector.x = border
 		vector.y = 0
 
-		roundedCorner()
-		table.insert(vertices, x + tip_offset.x + tip_radius)
-		table.insert(vertices, y + height)
-		table.insert(vertices, x + tip_offset.x)
-		table.insert(vertices, y + height + tip_height)
-		table.insert(vertices, x + tip_offset.x - tip_radius)
-		table.insert(vertices, y + height)
+		if tip_offset.y ~= 0 then
+			table.insert(vertices, x + width)
+			table.insert(vertices, y + tip_offset.y - tip_radius)
+			table.insert(vertices, x + width + tip_height)
+			table.insert(vertices, y + tip_offset.y)
+			table.insert(vertices, x + width)
+			table.insert(vertices, y + tip_offset.y + tip_radius)
+			roundedCorner()
+		else
+			roundedCorner()
+			table.insert(vertices, x + tip_offset.x + tip_radius)
+			table.insert(vertices, y + height)
+			table.insert(vertices, x + tip_offset.x)
+			table.insert(vertices, y + height + tip_height)
+			table.insert(vertices, x + tip_offset.x - tip_radius)
+			table.insert(vertices, y + height)
+		end
 	else
 		table.insert(vertices, x + width)
 		table.insert(vertices, y + height - 7 * custom_scale)

@@ -223,6 +223,11 @@ return {
 							class = "KEButton"
 						},
 						{
+							id = "tools_particles",
+							title = "particles",
+							class = "KEButton"
+						},
+						{
 							class = "KESep",
 							title = "Toggles"
 						},
@@ -750,7 +755,7 @@ return {
 			},
 			size = {
 				x = 200,
-				y = 450
+				y = 500
 			},
 			colors = {
 				background = {
@@ -1155,6 +1160,456 @@ return {
 							id = "nav_renumber_holders",
 							title = "renumber (WARN!)",
 							class = "KEButton"
+						}
+					}
+				}
+			}
+		},
+		{
+			can_drag = true,
+			class = "KView",
+			id = "particles",
+			pos = {
+				x = 900,
+				y = 100
+			},
+			size = {
+				x = 400,
+				y = 640
+			},
+			colors = {
+				background = {
+					220,
+					220,
+					220,
+					255
+				}
+			},
+			children = {
+				{
+					text = "X",
+					class = "KButton",
+					id = "particles_close",
+					colors = {
+						background = {
+							120,
+							120,
+							120,
+							255
+						}
+					},
+					size = {
+						x = 20,
+						y = 20
+					},
+					pos = {
+						x = 0,
+						y = 0
+					},
+					text_offset = {
+						x = 0,
+						y = 4
+					}
+				},
+				{
+					text = "PARTICLES",
+					class = "KLabel",
+					id = "particles_title",
+					text_align = "left",
+					colors = {
+						background = {
+							180,
+							180,
+							180,
+							255
+						}
+					},
+					size = {
+						x = 380,
+						y = 20
+					},
+					pos = {
+						x = 20,
+						y = 0
+					},
+					text_offset = {
+						x = 10,
+						y = 4
+					}
+				},
+				{
+					text = "",
+					class = "KLabel",
+					id = "ps_stats",
+					text_align = "left",
+					pos = v(10, 30),
+					size = {
+						x = 380,
+						y = 20
+					}
+				},
+				{
+					style = "horizontal",
+					class = "KELayout",
+					id = "particles_data",
+					pos = {
+						x = 10,
+						y = 50
+					},
+					children = {
+						{
+							style = "vertical",
+							class = "KELayout",
+							id = "particles_data_left",
+							pos = {
+								x = 10,
+								y = 30
+							},
+							children = {
+								{
+									id = "ps_list",
+									class = "KEList",
+									size = {
+										x = 0,
+										y = 60
+									}
+								},
+								{
+									id = "particles_data_buttons",
+									style = "horizontal",
+									class = "KELayout",
+									children = {
+										{
+											id = "ps_create",
+											title = "add",
+											class = "KEButton",
+											size = {
+												x = 40,
+												y = 20
+											}
+										},
+										{
+											id = "ps_remove",
+											title = "rem",
+											class = "KEButton",
+											size = {
+												x = 40,
+												y = 20
+											}
+										},
+										{
+											id = "ps_copy",
+											title = "copy",
+											class = "KEButton",
+											size = {
+												x = 40,
+												y = 20
+											}
+										},
+										{
+											id = "ps_paste",
+											title = "paste",
+											class = "KEButton",
+											size = {
+												x = 40,
+												y = 20
+											}
+										}
+									}
+								},
+								{
+									prop_name = "emit",
+									class = "KEPropBool",
+									value = true,
+									title = "running",
+									inactive_title = "paused"
+								},
+								{
+									prop_name = "emission_rate",
+									class = "KEPropNum",
+									value = 1,
+									title = "emission rate parts/sec",
+									step = 5,
+									range = {
+										0,
+										100
+									}
+								},
+								{
+									title = "area spread (x,y)",
+									class = "KEPropCoords",
+									prop_name = "emit_area_spread",
+									ranges = {
+										{
+											-800,
+											800
+										},
+										{
+											-400,
+											400
+										}
+									}
+								},
+								{
+									prop_name = "emit_direction",
+									class = "KEPropNum",
+									value = 0,
+									title = "direction (rad)",
+									range = {
+										-math.pi,
+										math.pi
+									},
+									step = math.pi / 18
+								},
+								{
+									prop_name = "emit_spread",
+									class = "KEPropNum",
+									value = 0,
+									title = "direction spread angle",
+									range = {
+										0,
+										math.pi
+									},
+									step = math.pi / 18
+								},
+								{
+									title = "emit offset (x,y)",
+									class = "KEPropCoords",
+									prop_name = "emit_offset",
+									ranges = {
+										{
+											-100,
+											100
+										},
+										{
+											-100,
+											100
+										}
+									}
+								},
+								{
+									prop_name = "emit_rotation",
+									class = "KEPropNum",
+									nil_value = 0,
+									value = 0,
+									title = "rotation angle",
+									range = {
+										-math.pi,
+										math.pi
+									},
+									step = math.pi / 18
+								},
+								{
+									prop_name = "emit_rotation_spread",
+									class = "KEPropNum",
+									value = 0,
+									title = "rotation spread (rad)",
+									range = {
+										0,
+										math.pi
+									},
+									step = math.pi / 18
+								},
+								{
+									prop_name = "emit_speed",
+									class = "KEPropPair",
+									title = "speed (min,max)",
+									step = 5,
+									ranges = {
+										{
+											-150,
+											150
+										},
+										{
+											-150,
+											150
+										}
+									}
+								},
+								{
+									prop_name = "spin",
+									class = "KEPropPair",
+									title = "spin (min,max)",
+									step = 0.5,
+									ranges = {
+										{
+											-50,
+											50
+										},
+										{
+											-50,
+											50
+										}
+									}
+								}
+							}
+						},
+						{
+							style = "vertical",
+							class = "KELayout",
+							id = "particles_data_right",
+							pos = {
+								x = 10,
+								y = 30
+							},
+							children = {
+								{
+									id = "ps_images",
+									class = "KEList",
+									size = {
+										x = 0,
+										y = 90
+									}
+								},
+								{
+									id = "ps_animated",
+									prop_name = "animated",
+									class = "KEPropBool",
+									value = false,
+									title = "animated",
+									inactive_title = "single frame"
+								},
+								{
+									prop_name = "loop",
+									class = "KEPropBool",
+									value = false,
+									title = "loop ani",
+									inactive_title = "one time ani"
+								},
+								{
+									title = "anchor",
+									class = "KEPropCoords",
+									prop_name = "anchor",
+									ranges = {
+										{
+											0,
+											1
+										},
+										{
+											0,
+											1
+										}
+									}
+								},
+								{
+									prop_name = "alphas",
+									class = "KEPropTrio",
+									title = "alphas",
+									value_format = "%d",
+									step = 10,
+									ranges = {
+										{
+											0,
+											255
+										},
+										{
+											0,
+											255
+										},
+										{
+											0,
+											255
+										}
+									}
+								},
+								{
+									title = "particle life (min,max)",
+									class = "KEPropPair",
+									prop_name = "particle_lifetime",
+									ranges = {
+										{
+											0,
+											20
+										},
+										{
+											0,
+											20
+										}
+									}
+								},
+								{
+									prop_name = "emit_duration",
+									class = "KEPropNum",
+									nil_value = 0,
+									value = 0,
+									title = "emission duration",
+									range = {
+										0,
+										20
+									}
+								},
+								{
+									prop_name = "scale_var",
+									class = "KEPropPair",
+									title = "initial scale (min,max)",
+									step = 0.1,
+									ranges = {
+										{
+											-10,
+											10
+										},
+										{
+											-10,
+											10
+										}
+									}
+								},
+								{
+									prop_name = "scales_x",
+									class = "KEPropTrio",
+									title = "scales x",
+									ranges = {
+										{
+											-10,
+											10
+										},
+										{
+											-10,
+											10
+										},
+										{
+											-10,
+											10
+										}
+									},
+									nil_value = {
+										0,
+										0,
+										0
+									}
+								},
+								{
+									prop_name = "scales_y",
+									class = "KEPropTrio",
+									title = "scales y",
+									ranges = {
+										{
+											-10,
+											10
+										},
+										{
+											-10,
+											10
+										},
+										{
+											-10,
+											10
+										}
+									},
+									nil_value = {
+										0,
+										0,
+										0
+									}
+								},
+								{
+									prop_name = "scale_same_aspect",
+									class = "KEPropBool",
+									value = true,
+									title = "same scale x/y",
+									inactive_title = "different scale x/y"
+								}
+							}
 						}
 					}
 				}

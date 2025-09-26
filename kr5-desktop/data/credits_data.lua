@@ -175,7 +175,7 @@ return {
 		"h1"
 	},
 	{
-		"Guillermo Sotuyo\nCamile Cazot"
+		"Guillermo Sotuyo\nCamile Cazot\nRodrigo Aguiar"
 	},
 	{
 		""
@@ -275,7 +275,7 @@ return {
 		"h1"
 	},
 	{
-		"Sean Crisden\nLauren Synger\nArielle DeLisle\nKane Black\nEric Braa\nLani Minella"
+		"Sean Crisden\nLauren Synger\nArielle DeLisle\nKane Black\nEric Braa\nLani Minella\nTianhao Wu"
 	},
 	{
 		""
@@ -302,7 +302,7 @@ return {
 		"h1"
 	},
 	{
-		"AerisDraco, Muffet, sunnydaler, Celicni,\nSoundso, Thokrumgrozo, Frostyyy, SuperFishy14,\nTheGreenDigi, Oofffff, TGM, Voduke,\nAudrey Lynn, Mmlh, Zezitra, Fyar,\nDanche, Smokingflash, Harkmen, Sentinel,\nAnteater, Function, Prahant, Shyguymask\nTaurmega, CloudisDum, Diron, Alonko\nKing Rexy, Lin"
+		"AerisDraco, Muffet, sunnydaler, Celicni,\nSoundso, Thokrumgrozo, Frostyyy, SuperFishy14,\nTheGreenDigi, Oofffff, TGM, Voduke,\nAudrey Lynn, Mmlh, Zezitra, Fyar,\nDanche, Smokingflash, Harkmen, Sentinel,\nAnteater, Function, Prahant, Shyguymask\nTaurmega, CloudisDum, Diron, Alonko\nKing Rexy, Lin, Zappa, THUNDER XP\nBHYT, White"
 	},
 	{
 		""
@@ -315,10 +315,10 @@ return {
 		"h1"
 	},
 	{
-		"ECInnovations\n\n-/-\n\nMaxim Novikov (Lord Noximus), Egor Gordeev (Random Key Combinator)\nWhite\n\n-/-\n\nMuffet\n\n-/-\n\nsunnydaler\n\n-/-\n\nAnita Aranha\n\n-/-\n\n"
+		"ECInnovations\n\n-/-\n\nMaxim Novikov (Lord Noximus), Egor Gordeev (Random Key Combinator)\nWhite, Muffet, sunnydaler, Anita Aranha"
 	},
 	{
-		"简体中文: 小清Eric, 路过的中世纪骑士,\n恶魔呆头鹅, 司徒音梦, Luner, 夏末雨\n\n-/-\n\n繁體中文: Andrew Yang(伊特納爾), TD & TD(KR-Allplay), HenryChess",
+		"简体中文: 小清Eric, 路过的中世纪骑士,\n恶魔呆头鹅, 司徒音梦, Luner, 夏末雨\n繁體中文: Andrew Yang(伊特納爾), TD & TD(KR-Allplay), HenryChess",
 		"body_all"
 	},
 	{

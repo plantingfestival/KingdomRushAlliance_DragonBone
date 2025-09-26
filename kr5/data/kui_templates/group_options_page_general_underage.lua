@@ -497,9 +497,9 @@ return {
 		},
 		{
 			id = "button_restore_purchases",
-			focus_image_name = "gui_popups_button_clear_progress_0003",
+			focus_image_name = "gui_popups_button_restore_purchases_0003",
 			class = "GG5Button",
-			default_image_name = "gui_popups_button_clear_progress_0001",
+			default_image_name = "gui_popups_button_restore_purchases_0001",
 			pos = v(506.7, 257.7),
 			anchor = v(56.15, 55.95)
 		},

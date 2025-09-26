@@ -107,7 +107,10 @@ return {
 			"gui_popups_button_main_menu_0003",
 			"gui_popups_button_more_games_0003",
 			"gui_popups_button_privacy_policy_0003",
+			"gui_popups_button_redeem_code_0003",
+			"gui_popups_button_restore_purchases_0003",
 			"gui_popups_button_support_0003",
+			"gui_popups_button_trashcan_0003",
 			"gui_popups_button_twitter_0003",
 			"gui_popups_toggle_cloud_save_0003",
 			"gui_popups_toggle_google_play_0003",
@@ -288,7 +291,9 @@ return {
 			184
 		},
 		alias = {
-			"gui_popups_button_clear_progress_0002"
+			"gui_popups_button_clear_progress_0002",
+			"gui_popups_button_restore_purchases_0001",
+			"gui_popups_button_restore_purchases_0002"
 		}
 	},
 	gui_popups_button_close_ingame_0001 = {
@@ -929,7 +934,7 @@ return {
 			"gui_popups_button_privacy_policy_0002"
 		}
 	},
-	gui_popups_button_support_0001 = {
+	gui_popups_button_redeem_code_0001 = {
 		a_name = "gui_popups-1.dds",
 		size = {
 			230,
@@ -947,6 +952,32 @@ return {
 		},
 		f_quad = {
 			2850,
+			610,
+			184,
+			184
+		},
+		alias = {
+			"gui_popups_button_redeem_code_0002"
+		}
+	},
+	gui_popups_button_support_0001 = {
+		a_name = "gui_popups-1.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			19,
+			20,
+			27,
+			26
+		},
+		a_size = {
+			4096,
+			2048
+		},
+		f_quad = {
+			3040,
 			610,
 			184,
 			184
@@ -1005,6 +1036,32 @@ return {
 		},
 		alias = {}
 	},
+	gui_popups_button_trashcan_0001 = {
+		a_name = "gui_popups-1.dds",
+		size = {
+			230,
+			230
+		},
+		trim = {
+			19,
+			20,
+			27,
+			26
+		},
+		a_size = {
+			4096,
+			2048
+		},
+		f_quad = {
+			3230,
+			610,
+			184,
+			184
+		},
+		alias = {
+			"gui_popups_button_trashcan_0002"
+		}
+	},
 	gui_popups_button_twitter_0001 = {
 		a_name = "gui_popups-1.dds",
 		size = {
@@ -1022,7 +1079,7 @@ return {
 			2048
 		},
 		f_quad = {
-			3040,
+			3420,
 			610,
 			184,
 			184
@@ -1242,8 +1299,8 @@ return {
 			2048
 		},
 		f_quad = {
-			2660,
-			1560,
+			3005,
+			1470,
 			36,
 			440
 		},
@@ -2036,7 +2093,7 @@ return {
 			2048
 		},
 		f_quad = {
-			3230,
+			3610,
 			610,
 			184,
 			184
@@ -2060,7 +2117,7 @@ return {
 			2048
 		},
 		f_quad = {
-			3420,
+			3800,
 			610,
 			184,
 			184
@@ -2084,8 +2141,8 @@ return {
 			2048
 		},
 		f_quad = {
-			3610,
-			610,
+			2660,
+			800,
 			184,
 			184
 		},
@@ -2108,8 +2165,8 @@ return {
 			2048
 		},
 		f_quad = {
-			3800,
-			610,
+			2660,
+			990,
 			184,
 			184
 		},
@@ -2327,7 +2384,7 @@ return {
 		},
 		f_quad = {
 			2660,
-			800,
+			1180,
 			184,
 			184
 		},
@@ -2351,7 +2408,7 @@ return {
 		},
 		f_quad = {
 			2660,
-			990,
+			1370,
 			184,
 			184
 		},
@@ -2375,7 +2432,7 @@ return {
 		},
 		f_quad = {
 			2660,
-			1180,
+			1560,
 			184,
 			184
 		},
@@ -2399,7 +2456,7 @@ return {
 		},
 		f_quad = {
 			2660,
-			1370,
+			1750,
 			184,
 			184
 		},

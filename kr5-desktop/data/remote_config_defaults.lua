@@ -32,7 +32,8 @@ local d = {
 		default = "https://www.ironhidegames.com/games"
 	},
 	url_privacy_policy = {
-		default = "https://www.ironhidegames.com/PrivacyPolicy"
+		default = "https://www.ironhidegames.com/PrivacyPolicy",
+		["com.ironhidegames.kingdomrush.alliance.universal.premium"] = "https://www.kingdomrushalliance.com/privacy-policy/apple-arcade"
 	},
 	url_terms_of_service = {
 		default = "https://www.ironhidegames.com/TermsOfService"

@@ -359,6 +359,34 @@ function storage:load_slot(idx, force)
 		end
 	end
 
+	local ignore_keys = {
+		"achievements",
+		"achievements_claimed",
+		"difficulty",
+		"last_victory",
+		"levels",
+		"upgrades",
+		"seen",
+		"heroes",
+		"towers",
+		"items",
+		"powers"
+	}
+
+	for tk, tv in pairs(tpl) do
+		if table.contains(ignore_keys, tk) then
+			-- block empty
+		elseif not input[tk] then
+			input[tk] = table.deepclone(tv)
+		elseif type(tv) == "table" and type(input[tk]) == "table" then
+			for k, v in pairs(tv) do
+				if not input[tk][k] then
+					input[tk][k] = table.deepclone(v)
+				end
+			end
+		end
+	end
+
 	return input
 end
 

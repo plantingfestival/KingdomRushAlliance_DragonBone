@@ -200,5 +200,30 @@ return {
 			768
 		},
 		alias = {}
+	},
+	loading_08_1 = {
+		a_name = "loading_images_desktop-9.png",
+		defer = true,
+		size = {
+			1366,
+			768
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1366,
+			768
+		},
+		f_quad = {
+			0,
+			0,
+			1366,
+			768
+		},
+		alias = {}
 	}
 }

@@ -17,10 +17,9 @@ return {
 			UNLESS = ctx.is_mobile
 		},
 		{
-			WHEN = false,
 			class = "KView",
 			id = "group_shop_room_cards_container",
-			transition = "left",
+			WHEN = false,
 			pos = v(893.75, 358.95),
 			children = {
 				{
@@ -58,6 +57,18 @@ return {
 					class = "KView",
 					template_name = "group_shop_offers_dlc_1",
 					pos = v(184.65, 24.4)
+				},
+				{
+					id = "group_shop_offers_dlc_2",
+					class = "KView",
+					template_name = "group_shop_offers_dlc_2",
+					pos = v(184.65, 24.4)
+				},
+				{
+					id = "group_shop_offers_spiders",
+					class = "KView",
+					template_name = "group_shop_offers_spiders",
+					pos = v(185.55, 24.4)
 				}
 			}
 		},

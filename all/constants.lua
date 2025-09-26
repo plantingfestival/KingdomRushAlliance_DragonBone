@@ -1,15 +1,5 @@
 -- chunkname: @./all/constants.lua
 
-IS_KR1 = KR_GAME == "kr1"
-IS_KR2 = KR_GAME == "kr2"
-IS_KR3 = KR_GAME == "kr3"
-IS_KR5 = KR_GAME == "kr5"
-IS_TRILOGY = IS_KR1 or IS_KR2 or IS_KR3
-IS_PHONE = KR_TARGET == "phone"
-IS_TABLET = KR_TARGET == "tablet"
-IS_DESKTOP = KR_TARGET == "desktop"
-IS_CONSOLE = KR_TARGET == "console"
-IS_MOBILE = IS_PHONE or IS_TABLET
 NULL = "__NULL__"
 FPS = 30
 ASPECT = 0.7
@@ -111,6 +101,7 @@ end
 TEXTURE_SIZE_ALIAS = {
 	iphone = 480,
 	ipadhd = 1536,
+	uhd = 2160,
 	ipad = 768,
 	iphonehd = 960,
 	fullhd = 1080
@@ -231,6 +222,13 @@ TERRAIN_STYLE_SEA_OF_TREES_6 = 6
 TERRAIN_STYLE_SEA_OF_TREES_7 = 7
 TERRAIN_STYLE_SEA_OF_TREES_8 = 8
 TERRAIN_STYLE_SEA_OF_TREES_9 = 9
+TERRAIN_STYLE_SEA_OF_TREES_10 = 10
+TERRAIN_STYLE_SEA_OF_TREES_11 = 11
+TERRAIN_STYLE_SEA_OF_TREES_12 = 12
+TERRAIN_STYLE_SEA_OF_TREES_13 = 13
+TERRAIN_STYLE_SEA_OF_TREES_14 = 14
+TERRAIN_STYLE_SEA_OF_TREES_15 = 15
+TERRAIN_STYLE_SEA_OF_TREES_15 = 16
 TERRAIN_STYLES = {
 	grass = TERRAIN_STYLE_GRASS,
 	snow = TERRAIN_STYLE_SNOW,
@@ -397,46 +395,6 @@ HEALTH_BAR_COLORS = {
 		255
 	}
 }
-HEALTH_BAR_COLORS_KR5 = {
-	black = {
-		0,
-		0,
-		0,
-		255
-	},
-	bg = {
-		208,
-		0,
-		23,
-		255
-	},
-	fg = {
-		0,
-		186,
-		0,
-		255
-	}
-}
-HEALTH_BAR_COLORS_KR5_CENSORED_CN = {
-	black = {
-		0,
-		0,
-		0,
-		255
-	},
-	bg = {
-		0,
-		0,
-		23,
-		255
-	},
-	fg = {
-		0,
-		186,
-		0,
-		255
-	}
-}
 HEALTH_BAR_CORNER_DOT_QUAD = {
 	0,
 	0,
@@ -538,15 +496,20 @@ AD_TYPE_INTERSTITIAL = "interstitial"
 SGN_PS_STATUS_CHANGED = "platform-service-status-changed"
 SGN_PS_SYNC_SLOTS_FINISHED = "platform-service-sync-slots-finished"
 SGN_PS_SYNC_SETTINGS_FINISHED = "platform-service-sync-settings-finished"
+SGN_PS_PULL_CLOUDFILE_FINISHED = "platform-service-pull-cloudfile-finished"
 SGN_PS_PUSH_SLOT_FINISHED = "platform-service-push-slot-finished"
-SGN_PS_DELETE_SLOT_FINISHED = "platform-service-delete-slot-finished"
 SGN_PS_PUSH_SETTINGS_FINISHED = "platform-service-push-settings-finished"
+SGN_PS_PUSH_CLOUDFILE_FINISHED = "platform-service-push-cloudfile-finished"
+SGN_PS_DELETE_SLOT_FINISHED = "platform-service-delete-slot-finished"
+SGN_PS_DELETE_CLOUDFILE_FINISHED = "platform-service-delete-cloudfile-finished"
 SGN_PS_SYNC_PRODUCTS_FINISHED = "platform-service-sync-products-finished"
 SGN_PS_SYNC_PURCHASES_FINISHED = "platform-service-sync-purchases-finished"
 SGN_PS_SYNC_PURCHASE_HISTORY_FINISHED = "platform-service-sync-purchase-history-finished"
 SGN_PS_PURCHASE_PRODUCT_FINISHED = "platform-service-purchase-product-finished"
 SGN_PS_PURCHASE_PRODUCT_PENDING = "platform-service-purchase-product-pending"
 SGN_PS_RESTORE_PURCHASES_FINISHED = "platform-service-restore-purchases-finished"
+SGN_PS_REDEEM_CODE_FINISHED = "platform-service-redeem-code-finished"
+SGN_PS_SHOW_REDEEM_DIALOG_FINISHED = "platform-service-show-redeem-dialog-finished"
 SGN_PS_PREMIUM_UNLOCKED = "platform-service-premium-unlocked"
 SGN_PS_AD_SHOW_VIDEO_STARTED = "platform-service-ad-show-video-started"
 SGN_PS_AD_SHOW_VIDEO_FINISHED = "platform-service-ad-show-video-finished"
@@ -561,6 +524,7 @@ SGN_PS_HTTP_GET_FINISHED = "platform-service-http-get-finished"
 SGN_PS_AUTH_STARTED = "platform-service-auth-started"
 SGN_PS_AUTH_FINISHED = "platform-service-auth-finished"
 SGN_PS_CHANNEL_QUIT_REQUESTED = "platform-service-channel-quit-requested"
+SGN_PS_CHANNEL_LOGOUT = "platform-service-channel-logout"
 SGN_PS_CONSOLE_NO_JOYSTICK_PRESENT = "platform-service-console-no-joystick-present"
 SGN_PS_CONSOLE_JOYSTICK_PRESENT = "platform-service-console-joystick-present"
 SGN_FS_COMMIT_STARTED = "filesystem-commit-started"
@@ -593,6 +557,8 @@ SGN_PS_PUSH_NOTI_PERMISSION_FINISHED = "platform-service-push-noti-permission-fi
 SGN_PS_GOLIATH_LIBRA_RESPONSE_RECEIVED = "platgorm-service-goliath-libra-response-received"
 SGN_PS_REMOTE_BALANCE_SYNC_STARTED = "platform-service-remote-balance-sync-started"
 SGN_PS_REMOTE_BALANCE_WAVES_CACHED = "platform-service-remote-balance-sheets-cached"
+SGN_PS_APPSFLYER_INIT_FINISHED = "platform-service-appsflyer-init-finished"
+SGN_PS_GLVL2_CHECK_LICENSE_FINISHED = "platform-service-glvl2-check-license-finished"
 
 function OV(dimension, default, ...)
 	local dims = {
@@ -654,3 +620,5 @@ end
 function OVnm(default, notmobile)
 	return OVT(default, OV_DESKTOP, notmobile, OV_DESKTOP, notmobile)
 end
+
+DRAG_ENTITY_LOOKUP_MARGIN = OVT(20, "phone", 36, "tablet", 20)

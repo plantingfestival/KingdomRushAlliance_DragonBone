@@ -164,6 +164,14 @@ return {
 			anchor = v(51.75, 31.2)
 		},
 		{
+			class = "KImageView",
+			image_name = "hero_room_image_dlc_wukong_badge_big_",
+			id = "image_dlc_2_badge_big",
+			pos = v(284.8, 47.9),
+			scale = v(1, 1),
+			anchor = v(51.75, 31.2)
+		},
+		{
 			id = "group_dlc_tooltip",
 			class = "KView",
 			pos = v(383.15, 61.95),

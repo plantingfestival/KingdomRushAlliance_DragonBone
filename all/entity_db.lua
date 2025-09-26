@@ -15,15 +15,26 @@ function entity_db:load()
 	self.components = {}
 	self.entities = {}
 	package.loaded.components = nil
-	package.loaded.game_templates = nil
-	package.loaded.templates = nil
-	package.loaded.game_scripts = nil
-	package.loaded.scripts = nil
 	package.loaded.script_utils = nil
 
+	if __CHAINED_TEMPLATES then
+		for _, n in pairs(__CHAINED_TEMPLATES) do
+			package.loaded[n] = nil
+		end
+
+		__CHAINED_TEMPLATES = nil
+	end
+
+	if __CHAINED_SCRIPTS then
+		for _, n in pairs(__CHAINED_SCRIPTS) do
+			package.loaded[n] = nil
+		end
+
+		__CHAINED_SCRIPTS = nil
+	end
+
 	require("components")
-	require("templates")
-	require("game_templates")
+	require("templates_game")
 end
 
 function entity_db:register_t(name, base)
@@ -41,7 +52,7 @@ function entity_db:register_t(name, base)
 		end
 
 		if base == nil then
-			log.error("template base %s does not exist", base)
+			log.error("template base %s does not exist for %s", base, name)
 
 			return
 		end

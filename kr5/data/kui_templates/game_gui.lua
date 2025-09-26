@@ -894,7 +894,7 @@ return {
 													text = "20 s",
 													class = "GGLabel",
 													id = "respawn",
-													font_name = "numbers_italic",
+													font_name = "hud",
 													pos = v(208, -8),
 													size = v(48, 38.4),
 													colors = {
@@ -1407,27 +1407,33 @@ return {
 									class = "PowerButton",
 									id = "power_button_1",
 									i18n_title = "POWER_SUMMON_NAME",
-									pos = v(0, 0)
+									pos = v(0, 0),
+									click_rect_factor = ctx.OVT(nil, "phone", v(0.11, 0.48), "tablet", v(0.11, 0.3)),
+									click_rect_drag_factor = ctx.OVT(nil, "phone", v(1.8, 1.8))
 								},
 								{
 									i18n_desc = "POWER_HERO_DESCRIPTION",
-									i18n_title = "POWER_HERO_NAME",
-									class = "PowerButton",
-									template_name = "game_gui_power_button",
-									id = "power_button_2",
 									image_name = "portraits_power_hero_0001",
+									template_name = "game_gui_power_button",
 									power_id = 2,
-									pos = v(98, 0)
+									class = "PowerButton",
+									id = "power_button_2",
+									i18n_title = "POWER_HERO_NAME",
+									pos = v(98, 0),
+									click_rect_factor = ctx.OVT(nil, "phone", v(0.11, 0.48), "tablet", v(0.11, 0.3)),
+									click_rect_drag_factor = ctx.OVT(nil, "phone", v(1.8, 1.8))
 								},
 								{
 									i18n_desc = "POWER_HERO_DESCRIPTION",
-									i18n_title = "POWER_HERO_NAME",
-									class = "PowerButton",
-									template_name = "game_gui_power_button",
-									id = "power_button_3",
 									image_name = "portraits_power_hero_0001",
+									template_name = "game_gui_power_button",
 									power_id = 3,
-									pos = v(196, 0)
+									class = "PowerButton",
+									id = "power_button_3",
+									i18n_title = "POWER_HERO_NAME",
+									pos = v(196, 0),
+									click_rect_factor = ctx.OVT(nil, "phone", v(0.11, 0.48), "tablet", v(0.11, 0.3)),
+									click_rect_drag_factor = ctx.OVT(nil, "phone", v(1.8, 1.8))
 								}
 							}
 						},
@@ -1448,24 +1454,27 @@ return {
 								{
 									item_id = 1,
 									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
+									hit_rect_factor = 0.75,
 									id = "bag_item_1",
+									template_name = "game_gui_bag_item_button",
 									pos = v(0, 0),
 									anchor = v(0, 0)
 								},
 								{
 									item_id = 2,
 									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
+									hit_rect_factor = 0.75,
 									id = "bag_item_2",
+									template_name = "game_gui_bag_item_button",
 									pos = v(98, 0),
 									anchor = v(0, 0)
 								},
 								{
 									item_id = 3,
 									class = "BagItemButton",
-									template_name = "game_gui_bag_item_button",
+									hit_rect_factor = 0.75,
 									id = "bag_item_3",
+									template_name = "game_gui_bag_item_button",
 									pos = v(196, 0),
 									anchor = v(0, 0)
 								}

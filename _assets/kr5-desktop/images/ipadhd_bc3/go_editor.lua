@@ -1,6 +1,54 @@
 -- chunkname: @./_assets/kr5-desktop/images/ipadhd_bc3/go_editor.lua
 
 return {
+	editor_cyan_circle = {
+		a_name = "go_editor-1.dds",
+		size = {
+			200,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			512
+		},
+		f_quad = {
+			6,
+			266,
+			200,
+			140
+		},
+		alias = {}
+	},
+	editor_green_circle = {
+		a_name = "go_editor-1.dds",
+		size = {
+			200,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			512
+		},
+		f_quad = {
+			265,
+			6,
+			200,
+			140
+		},
+		alias = {}
+	},
 	editor_red_circle = {
 		a_name = "go_editor-1.dds",
 		size = {
@@ -14,14 +62,62 @@ return {
 			0
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
+		},
+		f_quad = {
+			265,
+			152,
+			200,
+			140
+		},
+		alias = {}
+	},
+	editor_red_circle_filled = {
+		a_name = "go_editor-1.dds",
+		size = {
+			200,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			512
+		},
+		f_quad = {
+			265,
+			298,
+			200,
+			140
+		},
+		alias = {}
+	},
+	editor_red_square_filled = {
+		a_name = "go_editor-1.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			512
 		},
 		f_quad = {
 			6,
 			60,
 			200,
-			140
+			200
 		},
 		alias = {}
 	},
@@ -38,8 +134,8 @@ return {
 			23
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			212,
@@ -62,8 +158,8 @@ return {
 			23
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			236,
@@ -86,8 +182,8 @@ return {
 			27
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			6,
@@ -110,8 +206,8 @@ return {
 			25
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			6,
@@ -134,8 +230,8 @@ return {
 			25
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			6,
@@ -158,12 +254,12 @@ return {
 			47
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
-			265,
 			6,
+			412,
 			110,
 			86
 		},
@@ -182,12 +278,12 @@ return {
 			3
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
-			265,
-			98,
+			122,
+			412,
 			94,
 			94
 		},
@@ -206,8 +302,8 @@ return {
 			0
 		},
 		a_size = {
-			512,
-			256
+			1024,
+			512
 		},
 		f_quad = {
 			212,

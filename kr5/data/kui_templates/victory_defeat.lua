@@ -1528,19 +1528,19 @@ return {
 					}
 				},
 				{
-					image_name = "victory_defeat_image_subframe_desktop_",
 					class = "KImageView",
+					image_name = "victory_defeat_image_subframe_desktop_",
 					id = "subframe_desktop",
 					pos = v(-6.85, -207.45),
-					UNLESS = ctx.is_mobile,
+					WHEN = ctx.no_gems,
 					anchor = v(149.7, 55.55)
 				},
 				{
-					class = "KImageView",
 					image_name = "victory_defeat_image_subframe_",
+					class = "KImageView",
 					id = "subframe",
 					pos = v(-4, -205.75),
-					WHEN = ctx.is_mobile,
+					UNLESS = ctx.no_gems,
 					anchor = v(172.25, 47.3)
 				},
 				{
@@ -3148,18 +3148,19 @@ return {
 					anchor = v(87.35, 109.85)
 				},
 				{
-					id = "subframe_desktop",
-					image_name = "victory_defeat_image_subframe_desktop_",
 					class = "KImageView",
+					image_name = "victory_defeat_image_subframe_desktop_",
+					id = "subframe_desktop",
 					pos = v(-6.85, -207.45),
+					WHEN = ctx.no_gems,
 					anchor = v(149.7, 55.55)
 				},
 				{
-					class = "KImageView",
 					image_name = "victory_defeat_image_subframe_",
+					class = "KImageView",
 					id = "subframe",
 					pos = v(-4, -205.75),
-					WHEN = ctx.is_mobile,
+					UNLESS = ctx.no_gems,
 					anchor = v(172.25, 47.3)
 				},
 				{
@@ -4555,19 +4556,19 @@ return {
 					}
 				},
 				{
-					image_name = "victory_defeat_image_subframe_desktop_",
 					class = "KImageView",
+					image_name = "victory_defeat_image_subframe_desktop_",
 					id = "subframe_desktop",
 					pos = v(-2.65, -207.45),
-					UNLESS = ctx.is_mobile,
+					WHEN = ctx.no_gems,
 					anchor = v(149.7, 55.55)
 				},
 				{
-					class = "KImageView",
 					image_name = "victory_defeat_image_subframe_",
+					class = "KImageView",
 					id = "subframe",
 					pos = v(-4, -224.85),
-					WHEN = ctx.is_mobile,
+					UNLESS = ctx.no_gems,
 					anchor = v(172.25, 47.3)
 				},
 				{

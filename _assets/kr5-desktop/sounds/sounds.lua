@@ -63,6 +63,17 @@ return {
 			"kra_sfx_combat_meleeAttack_noSword_var2.ogg"
 		}
 	},
+	CommonLightning = {
+		loop = false,
+		mode = "sequence",
+		gain = 1,
+		source_group = "SFX",
+		files = {
+			"kr5_sfx_lightning_op1.ogg",
+			"kr5_sfx_lightning_op2.ogg",
+			"kr5_sfx_lightning_op3.ogg"
+		}
+	},
 	DeathEplosion = {
 		loop = false,
 		gain = 0.4,
@@ -2642,6 +2653,164 @@ return {
 			"kr_voice_spydyr_death_b.ogg"
 		}
 	},
+	HeroWukongTaunt = {
+		loop = false,
+		gain = 0.6,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_sunwukong_1_c.ogg",
+			"kr_voice_sunwukong_2_b.ogg",
+			"kr_voice_sunwukong_3_b.ogg",
+			"kr_voice_sunwukong_4_a.ogg"
+		}
+	},
+	HeroWukongTauntIntro = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_sunwukong_1_c.ogg"
+		}
+	},
+	HeroWukongTauntSelect = {
+		loop = false,
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_sunwukong_4_a.ogg"
+		}
+	},
+	HeroWukongDeath = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_sunwukong_5_c.ogg"
+		}
+	},
+	HeroWukongTauntZH = {
+		loop = false,
+		gain = 0.9,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_wukong_here_comes_your_grandpa_sun_1.ogg",
+			"kr_voice_CN_wukong_are_there_any_peaches_in_your_land_1.ogg",
+			"kr_voice_CN_wukong_vivid_and_monkey-like_2.ogg",
+			"kr_voice_CN_wukong_where_are_you_going_demon_2.ogg"
+		}
+	},
+	HeroWukongTauntZHIntro = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_wukong_here_comes_your_grandpa_sun_1.ogg"
+		}
+	},
+	HeroWukongTauntZHSelect = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_wukong_here_comes_your_grandpa_sun_1.ogg"
+		}
+	},
+	HeroWukongDeathZH = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_wukong_grandpa_sun_will_be_right_back_2.ogg"
+		}
+	},
+	HeroWukongDeathSFX = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_death_op3_v1.ogg"
+		}
+	},
+	HeroWukongUltimate = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_ultimate_v1.ogg"
+		}
+	},
+	HeroWukongClones = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_hair_clones_v1.ogg"
+		}
+	},
+	HeroWukongInstakill = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_instakill_v2.ogg"
+		}
+	},
+	HeroWukongMeleeFast = {
+		loop = false,
+		gain = 0.4,
+		source_group = "SFX",
+		chance = 0.5,
+		files = {
+			"kra_sfx_wukong_hero_melee_fast_hits_v1.ogg"
+		}
+	},
+	HeroWukongMeleeJump = {
+		loop = false,
+		gain = 0.4,
+		source_group = "SFX",
+		chance = 0.5,
+		files = {
+			"kra_sfx_wukong_hero_melee_jump_v1.ogg"
+		}
+	},
+	HeroWukongMeleeSimple = {
+		loop = false,
+		gain = 0.4,
+		source_group = "SFX",
+		chance = 0.5,
+		files = {
+			"kra_sfx_wukong_hero_melee_simple_v1.ogg"
+		}
+	},
+	HeroWukongMeleeSpin = {
+		loop = false,
+		gain = 0.4,
+		source_group = "SFX",
+		chance = 0.5,
+		files = {
+			"kra_sfx_wukong_hero_melee_spin_v1.ogg"
+		}
+	},
+	HeroWukongMultiStaff = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_multi_staf_op1_v1.ogg"
+		}
+	},
+	HeroWukongZhuSmash = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_hero_zhu_smash_v1.ogg"
+		}
+	},
 	TowerRoyalArchersTaunt = {
 		loop = false,
 		gain = 0.7,
@@ -4167,7 +4336,7 @@ return {
 	TowerSparkingGeodeRay = {
 		loop = false,
 		mode = "random",
-		gain = 0.23,
+		gain = 0.15,
 		source_group = "SFX",
 		files = {
 			"kra_sfx_spiders_tower_heode_ray_var1_v1.ogg",
@@ -4247,6 +4416,187 @@ return {
 		source_group = "TAUNTS",
 		files = {
 			"kr_voice_surgecolossus_02c.ogg"
+		}
+	},
+	TowerPandasTaunt = {
+		loop = false,
+		gain = 0.7,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_pandatower_taunt01_f.ogg",
+			"kr_voice_pandatower_taunt02_b.ogg",
+			"kr_voice_pandatower_taunt03_c.ogg"
+		}
+	},
+	TowerPandasTauntSelect = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.8,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_pandatower_taunt01_f.ogg"
+		}
+	},
+	TowerPandasSkillATaunt = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_pandatower_thunderskill_a.ogg"
+		}
+	},
+	TowerPandasSkillBTaunt = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_pandatower_hatskill_a.ogg"
+		}
+	},
+	TowerPandasSkillCTaunt = {
+		loop = false,
+		gain = 0.7,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_pandatower_fieryskill_b.ogg"
+		}
+	},
+	TowerPandasTauntZH = {
+		loop = false,
+		gain = 0.9,
+		ignore = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_pandas_panda_style_3.ogg",
+			"kr_voice_CN_pandas_no_charge_for_awesome_2.ogg",
+			"kr_voice_CN_pandas_we_know_kung-fu_2.ogg"
+		}
+	},
+	TowerPandasTauntZHSelect = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_pandas_panda_style_3.ogg"
+		}
+	},
+	TowerPandasSkillATauntZH = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_pandas_ayumbabayeee_1.ogg"
+		}
+	},
+	TowerPandasSkillBTauntZH = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_pandas_watch_and_see_3.ogg"
+		}
+	},
+	TowerPandasSkillCTauntZH = {
+		loop = false,
+		gain = 0.9,
+		source_group = "TAUNTS",
+		files = {
+			"kr_voice_CN_pandas_get_over_there_2.ogg"
+		}
+	},
+	TowerPandasArrival = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_arrival_single_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_arrival_single_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_arrival_single_var3_v1.ogg"
+		}
+	},
+	TowerPandasDeath = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_death_generic_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_death_generic_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_death_generic_var3_v1.ogg"
+		}
+	},
+	TowerPandasRangedBolt = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.4,
+		source_group = "BULLETS",
+		files = {
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var3_v1.ogg"
+		}
+	},
+	TowerPandasRangedFire = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.4,
+		source_group = "BULLETS",
+		files = {
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var3_v1.ogg"
+		}
+	},
+	TowerPandasRangedHat = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.4,
+		source_group = "BULLETS",
+		files = {
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var3_v1.ogg"
+		}
+	},
+	TowerPandasSkillBolt = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_skill_bolt_op1_v1.ogg"
+		}
+	},
+	TowerPandasSkillFire = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_skill_fire_v1.ogg"
+		}
+	},
+	TowerPandasSkillHat = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_skill_hat_throw_v1.ogg"
+		}
+	},
+	TowerPandasMelee = {
+		loop = false,
+		mode = "sequence",
+		gain = 0.2,
+		chance = 0.2,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_tower_pandas_melee_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_melee_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_melee_var3_v1.ogg"
 		}
 	},
 	ReinforcementTaunt = {
@@ -5451,6 +5801,585 @@ return {
 		source_group = "SFX",
 		files = {
 			"kra_sfx_spiders_mechanic_spider_working_LOOP_v1.ogg"
+		}
+	},
+	EnemyAshSpiritDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_ash_spirit_death_v1.ogg"
+		}
+	},
+	EnemyAshSpiritMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var1.ogg",
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var2.ogg",
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var3.ogg"
+		}
+	},
+	EnemyBlazeRaiderMeleeSpecial = {
+		loop = false,
+		mode = "random",
+		gain = 0.25,
+		delay = 0.15,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_blaze_raider_special_v1.ogg"
+		}
+	},
+	EnemyBurningTreantDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_burning_treant_death_v1.ogg"
+		}
+	},
+	EnemyBurningTreantSpecial = {
+		loop = false,
+		mode = "random",
+		gain = 0.25,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_burning_treant_special_v1.ogg"
+		}
+	},
+	EnemyFireFoxDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_fire_fox_death_v1.ogg"
+		}
+	},
+	EnemyFireFoxMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_fire_fox_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_melee_var3_v1.ogg"
+		}
+	},
+	EnemyFirePhoenixDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_fire_phoenix_death_wScreech_v1.ogg"
+		}
+	},
+	EnemyFlameGuardMeleeSpecial = {
+		loop = false,
+		gain = 0.4,
+		mode = "random",
+		source_group = "SFX",
+		dealy = 0.1,
+		files = {
+			"kra_sfx_wukong_enemy_flame_guard_special_v1.ogg"
+		}
+	},
+	EnemyNineTailedFoxDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_nine_tailed_fox_death_wWhimper_v1.ogg"
+		}
+	},
+	EnemyNineTailedFoxMeleeDouble = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_double_v1.ogg"
+		}
+	},
+	EnemyNineTailedFoxMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.05,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var3_v1.ogg"
+		}
+	},
+	EnemyNineTailedFoxTeleportIn = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_nine_tailed_fox_teleport_IN_v1.ogg"
+		}
+	},
+	EnemyNineTailedFoxTeleportOut = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_nine_tailed_fox_teleport_OUT_v1.ogg"
+		}
+	},
+	EnemyWuxianDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_wuxian_death_v1.ogg"
+		}
+	},
+	EnemyWuxianRanged = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_wuxian_ranged_v1.ogg"
+		}
+	},
+	EnemyWuxianSpecial = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_wuxian_special_woVoice_v1.ogg",
+			"kra_sfx_wukong_enemy_wuxian_special_wVoice_v1.ogg"
+		}
+	},
+	EnemyStormSpiritLeap = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_drakeling_leap_v1.ogg"
+		}
+	},
+	EnemyStormSpiritDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_drakeling_death_v1.ogg"
+		}
+	},
+	EnemyQiongqiRanged = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_qiongqi_ranged_op1_v1.ogg"
+		}
+	},
+	EnemyQiongqiDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_qiongqi_death_v1.ogg"
+		}
+	},
+	EnemyWaterSorceressSpecial = {
+		loop = false,
+		mode = "random",
+		gain = 0.2,
+		delay = 0.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_wmaster_special_v1.ogg"
+		}
+	},
+	EnemyElementalMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_elemental_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_melee_var3_v1.ogg"
+		}
+	},
+	EnemyElementalRangedImpact = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var3_v1.ogg"
+		}
+	},
+	EnemyElementalDeathEffectCast = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_elemental_death_effect_cast_op1_v1.ogg"
+		}
+	},
+	EnemyElementalDeathEffectStun = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_elemental_death_effect_stun_v1.ogg"
+		}
+	},
+	EnemyElementalDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_elemental_death_normal_v1.ogg"
+		}
+	},
+	EnemyFanGuardDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_fan_guard_death_op1_v1.ogg",
+			"kra_sfx_wukong_enemy_fan_guard_death_op2_v1.ogg"
+		}
+	},
+	EnemyFanGuardSpecial = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_fan_guard_special_v1.ogg"
+		}
+	},
+	EnemyDoomBringerDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_doombringer_death_v1.ogg"
+		}
+	},
+	EnemyDoomBringerStun = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_doombringer_stun_v1.ogg"
+		}
+	},
+	EnemyGoldenEyedAura = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_gebeast_aura_v1.ogg"
+		}
+	},
+	EnemyGoldenEyedDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_gebeast_death_op2_v1.ogg"
+		}
+	},
+	EnemyGoldenEyedMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_gebeast_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_melee_var3_v1.ogg"
+		}
+	},
+	EnemyGoldenEyedSummon = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_gebeast_bdksummon_v1.ogg"
+		}
+	},
+	EnemyDemonMinotaurChargeStop = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_minotaur_charge_stop_v1.ogg"
+		}
+	},
+	EnemyDemonMinotaurChargeTrample = {
+		loop = true,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_minotaur_charge_trample-LOOP_v1.ogg"
+		}
+	},
+	EnemyDemonMinotaurChargeWarning = {
+		loop = false,
+		mode = "random",
+		gain = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_minotaur_charge_warning_v1.ogg"
+		}
+	},
+	EnemyDemonMinotaurDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_minotaur_death_v1.ogg"
+		}
+	},
+	EnemyDemonMinotaurHeadButt = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 1.3,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var3_v1.ogg"
+		}
+	},
+	EnemyWarlockDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.6,
+		delay = 1.1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_warlock_death_v1.ogg"
+		}
+	},
+	EnemyWarlockRangedCast = {
+		loop = false,
+		mode = "random",
+		gain = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var3_v1.ogg"
+		}
+	},
+	EnemyWarlockRangedImpact = {
+		loop = false,
+		mode = "random",
+		gain = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var3_v1.ogg"
+		}
+	},
+	EnemyWarlockSummonChannel = {
+		loop = false,
+		mode = "random",
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_warlock_summon_channel_v1.ogg"
+		}
+	},
+	EnemyWarlockSummonSpawn = {
+		loop = false,
+		mode = "random",
+		gain = 0.7,
+		delay = 1.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_enemy_warlock_summon_spawn_v1.ogg"
+		}
+	},
+	EnemyBossPrincessClone = {
+		loop = false,
+		mode = "random",
+		gain = 0.7,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_princess_clone_v1.ogg"
+		}
+	},
+	EnemyBossPrincessDeath = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_death_v1.ogg"
+		}
+	},
+	EnemyBossPrincessHeroStunChannel = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_princess_hero_stun_channel_v2.ogg"
+		}
+	},
+	EnemyBossPrincessHeroStunFail = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_hero_stun_fail_woVoice_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_fail_wVoice_v1.ogg"
+		}
+	},
+	EnemyBossPrincessHeroStunSuccess = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_princess_hero_stun_success_v2.ogg"
+		}
+	},
+	EnemyBossPrincessMeleeArea = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_melee_area_v1.ogg"
+		}
+	},
+	EnemyBossPrincessMelee = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		delay = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_melee_var1_v1.ogg",
+			"kra_sfx_wukong_princess_melee_var2_v1.ogg",
+			"kra_sfx_wukong_princess_melee_var3_v1.ogg"
+		}
+	},
+	EnemyBossPrincessMudPoolTransformation = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_mud_pool_transformation_v1.ogg"
+		}
+	},
+	EnemyBossPrincessMudPoolSummon = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_mud_summon_var1_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var2_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var3_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var4_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var5_v1.ogg"
+		}
+	},
+	EnemyBossPrincessMudTower = {
+		loop = false,
+		gain = 0.8,
+		mode = "random",
+		delay = 0,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_princess_mud_tower_op1_v2.ogg",
+			"kra_sfx_wukong_princess_mud_tower_op2_v2.ogg"
+		}
+	},
+	EnemyBossPrincessRangedCast = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_ranged_cast_v1.ogg"
+		}
+	},
+	EnemyBossPrincessRangedImpact = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_princess_ranged_impact_var2_v1.ogg"
+		}
+	},
+	EnemyBossPrincessTeleportIn = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_teleport-IN_v1.ogg"
+		}
+	},
+	EnemyBossPrincessTeleportOut = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_princess_teleport-OUT_v1.ogg"
 		}
 	},
 	Terrain1AmbienceSoundBirds = {
@@ -7947,6 +8876,328 @@ return {
 			"kra_sfx_spiders_bossfight_buff_charge_v1.ogg"
 		}
 	},
+	Stage31FountainRefill = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SPECIALS",
+		delay = 3,
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_fountain_refill_v1.ogg"
+		}
+	},
+	Stage31FountainSplash = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_fountain_splash_v1.ogg"
+		}
+	},
+	Stage31FountainTapoon = {
+		loop = false,
+		mode = "random",
+		gain = 0.7,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var3_v1.ogg"
+		}
+	},
+	Stage32RedboyDragonSamadhiFireStart = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.35,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_samadhi_fire_part1_v2.ogg"
+		}
+	},
+	Stage32RedboyDragonSamadhiFireEnd = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 2.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_samadhi_fire_part2_v2.ogg"
+		}
+	},
+	Stage32RedboyDragonLavaSurge = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_lava_surge_woVoice_v2.ogg"
+		}
+	},
+	Stage32RedboyDragonRoar = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 1,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_dragon_roar_v1.ogg"
+		}
+	},
+	Stage32RedboyDragonBlockTowers = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 1.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_dragon_lava_spit_op2_v1.ogg"
+		}
+	},
+	Stage32RedboyAbsorbFire = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.2,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_explosion_v1.ogg"
+		}
+	},
+	Stage32RedboyTransform = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_transform_v1.ogg"
+		}
+	},
+	Stage32RedboyJumpFromDragon = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_entrance_op2_v1.ogg"
+		}
+	},
+	Stage32RedboySamadhiAsTeen = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 1.3,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_samadhi_teen_prep_op2_v1.ogg"
+		}
+	},
+	Stage32RedboyDeathStart = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_death_part1_v1.ogg"
+		}
+	},
+	Stage32RedboyDeathEnd = {
+		loop = false,
+		gain = 0.7,
+		mode = "random",
+		delay = 0.6,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_stage32_redboy_death_part2_v1.ogg"
+		}
+	},
+	Stage33StormStart = {
+		loop = false,
+		mode = "random",
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_LOOPStart_v1.ogg"
+		}
+	},
+	Stage33StormLoop = {
+		loop = true,
+		gain = 0.2,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_LOOP_v1.ogg"
+		}
+	},
+	Stage33StormDistantThunder = {
+		loop = false,
+		mode = "random",
+		gain = 0.2,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var3_v1.ogg"
+		}
+	},
+	Stage33StormLightning = {
+		loop = false,
+		mode = "random",
+		gain = 0.4,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var3_v1.ogg"
+		}
+	},
+	Stage33StormLightningMark = {
+		loop = false,
+		mode = "random",
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_mark_v1.ogg"
+		}
+	},
+	Stage33BoatDrumLoop = {
+		loop = true,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_boat_drum_op2_v1.ogg"
+		}
+	},
+	Stage35PortalWater = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_portal_water_v1.ogg"
+		}
+	},
+	Stage35Spawners = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_spawners_v1.ogg"
+		}
+	},
+	Stage35BossBullKingEat = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_bdk_intro_eatandgrow_v1.ogg"
+		}
+	},
+	Stage35BossBullKingDeath = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_bdk_death_v1.ogg"
+		}
+	},
+	Stage35BossBullKingJumpToPath = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_bdk_intro_jumpToPath_v1.ogg"
+		}
+	},
+	Stage35BossBullKingStand = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_bdk_intro_stand_v1.ogg"
+		}
+	},
+	Stage35BossBullKingMeleeArea = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_bdk_melee_area_v1.ogg"
+		}
+	},
+	Stage35BossBullKingMeleeVar1 = {
+		loop = false,
+		mode = "random",
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_bdk_melee_var1_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var2_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var3_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var4_v1.ogg"
+		}
+	},
+	Stage35BossBullKingStun = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_bdk_stun_op1_v1.ogg"
+		}
+	},
+	Stage35Cinematic1 = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		delay = 1.5,
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_1_v1.ogg"
+		}
+	},
+	Stage35Cinematic2 = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		delay = 1.5,
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_2_v1.ogg"
+		}
+	},
+	Stage35Cinematic3 = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		delay = 1.5,
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_3_v1.ogg"
+		}
+	},
+	Stage35Cinematic4Part1 = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		delay = 0.5,
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_part1_v1.ogg"
+		}
+	},
+	Stage35Cinematic4Part2 = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_part2_v1.ogg"
+		}
+	},
+	Stage35Cinematic4Part2Scream = {
+		loop = false,
+		gain = 0.5,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_scream_v2.ogg"
+		}
+	},
 	Terrain3GlareOnSmall1 = {
 		loop = false,
 		gain = 1,
@@ -8014,6 +9265,87 @@ return {
 		source_group = "SFX",
 		files = {
 			"kra_sfx_easterEgg_exodiaPart_v1.ogg"
+		}
+	},
+	TerrainWukongMeteoriteCast = {
+		loop = false,
+		gain = 0.55,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_meteorites_LOOP_in_faded_martin.ogg"
+		}
+	},
+	TerrainWukongMeteoriteImpact = {
+		loop = false,
+		gain = 0.55,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_meteorites_impact_v2.ogg"
+		}
+	},
+	TerrainWukongMeteoriteTravelLoop = {
+		loop = true,
+		gain = 0.55,
+		source_group = "SPECIALS",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_meteorites_travel-LOOP_v1.ogg"
+		}
+	},
+	TerrainWukongElementalHolderEvolve = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_holder_evolve_v1.ogg"
+		}
+	},
+	TerrainWukongElementalHolderUnlock = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_holder_unlock.ogg"
+		}
+	},
+	TerrainWukongElementalHolderWoodActive = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_holder_active_vines_v1.ogg"
+		}
+	},
+	TerrainWukongElementalHolderFireActiveIn = {
+		loop = false,
+		gain = 0.3,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_in.ogg"
+		}
+	},
+	TerrainWukongElementalHolderFireActiveKill = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_kill.ogg"
+		}
+	},
+	TerrainWukongElementalHolderEarthActive = {
+		loop = false,
+		gain = 0.7,
+		source_group = "SFX",
+		delay = 2,
+		files = {
+			"kra_sfx_wukong_mechanic_stage34_holder_active_summon_v1.ogg"
+		}
+	},
+	TerrainWukongElementalHolderMetalActive = {
+		loop = false,
+		gain = 0.9,
+		source_group = "SFX",
+		files = {
+			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg"
 		}
 	},
 	ItemsClusterBombCast = {
@@ -8607,6 +9939,51 @@ return {
 			"kr5_update3_bgmusic_preparation1_v1.ogg"
 		}
 	},
+	MusicBattlePrep_31 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_preparation1_v1.ogg"
+		}
+	},
+	MusicBattlePrep_32 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_preparation2_v1.ogg"
+		}
+	},
+	MusicBattlePrep_33 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_preparation1_v1.ogg"
+		}
+	},
+	MusicBattlePrep_34 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_preparation1_v1.ogg"
+		}
+	},
+	MusicBattlePrep_35 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_preparation2_v1.ogg"
+		}
+	},
 	MusicBattlePrep_81 = {
 		source_group = "MUSIC",
 		gain = 0.6,
@@ -8895,6 +10272,51 @@ return {
 			"kr5_update3_bgmusic_battle1_v1.ogg"
 		}
 	},
+	MusicBattle_31 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_battle1_v1.ogg"
+		}
+	},
+	MusicBattle_32 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_battle2_v1.ogg"
+		}
+	},
+	MusicBattle_33 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_battle3_v1.ogg"
+		}
+	},
+	MusicBattle_34 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_battle1_v1.ogg"
+		}
+	},
+	MusicBattle_35 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_battle2_v1.ogg"
+		}
+	},
 	MusicBattle_81 = {
 		source_group = "MUSIC",
 		gain = 0.2,
@@ -8983,6 +10405,15 @@ return {
 		stream = true,
 		files = {
 			"kr5_update3_bgmusic_bossBattle_v1.ogg"
+		}
+	},
+	MusicBossFight_35 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kr5_dlc2_bgmusic_bossBattle_v1.ogg"
 		}
 	},
 	MusicEndVictory = {

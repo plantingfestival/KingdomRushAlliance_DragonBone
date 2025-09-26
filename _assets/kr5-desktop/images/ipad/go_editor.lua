@@ -1,6 +1,54 @@
 -- chunkname: @./_assets/kr5-desktop/images/ipad/go_editor.lua
 
 return {
+	editor_cyan_circle = {
+		a_name = "go_editor-1.png",
+		size = {
+			100,
+			70
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			126,
+			100,
+			70
+		},
+		alias = {}
+	},
+	editor_green_circle = {
+		a_name = "go_editor-1.png",
+		size = {
+			100,
+			70
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			202,
+			100,
+			70
+		},
+		alias = {}
+	},
 	editor_red_circle = {
 		a_name = "go_editor-1.png",
 		size = {
@@ -19,9 +67,57 @@ return {
 		},
 		f_quad = {
 			6,
-			20,
+			278,
 			100,
 			70
+		},
+		alias = {}
+	},
+	editor_red_circle_filled = {
+		a_name = "go_editor-1.png",
+		size = {
+			100,
+			70
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			354,
+			100,
+			70
+		},
+		alias = {}
+	},
+	editor_red_square_filled = {
+		a_name = "go_editor-1.png",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			20,
+			100,
+			100
 		},
 		alias = {}
 	},
@@ -42,8 +138,8 @@ return {
 			2048
 		},
 		f_quad = {
-			139,
-			70,
+			95,
+			430,
 			10,
 			10
 		},
@@ -66,8 +162,8 @@ return {
 			2048
 		},
 		f_quad = {
-			155,
-			70,
+			68,
+			454,
 			10,
 			10
 		},
@@ -162,8 +258,8 @@ return {
 			2048
 		},
 		f_quad = {
-			112,
-			20,
+			6,
+			430,
 			56,
 			44
 		},
@@ -186,8 +282,8 @@ return {
 			2048
 		},
 		f_quad = {
-			174,
-			20,
+			6,
+			480,
 			48,
 			47
 		},
@@ -210,8 +306,8 @@ return {
 			2048
 		},
 		f_quad = {
-			112,
-			70,
+			68,
+			430,
 			21,
 			18
 		},

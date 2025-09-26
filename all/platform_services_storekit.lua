@@ -29,6 +29,10 @@ function sk:init(name, params)
 	if self.initied then
 		log.debug("service %s already inited", name)
 	else
+		if params and params.rc_suffix then
+			self.rc_suffix = params.rc_suffix
+		end
+
 		self.lib = PSU:load_library("kstore", ffi)
 
 		if not self.lib then
@@ -476,6 +480,24 @@ function sk:get_tower_sales()
 	return offers
 end
 
+function sk:get_gems_sales()
+	if self:is_premium() then
+		log.error("storekit is premium. no gems sales shown")
+
+		return {}
+	end
+
+	local offers = RC.v["gems_sales_" .. self.rc_suffix]
+
+	if not offers then
+		log.error("gems_sales_storekit not found in remote_config")
+
+		return {}
+	end
+
+	return offers
+end
+
 function sk:get_dlcs(owned)
 	local dlcs = {}
 
@@ -559,7 +581,7 @@ function sk:parse_products(str)
 	local out = {}
 
 	for _, line in pairs(lines) do
-		local sku, title, description, price, price_micros, price_currency_code = unpack(string.split(line, ";"))
+		local sku, title, description, price, price_micros, price_currency_code = unpack(string.split_by_char(line, ";"))
 		local id = self.sku_index[sku]
 
 		if not id then

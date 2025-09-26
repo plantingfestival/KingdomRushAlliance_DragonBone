@@ -10,8 +10,14 @@ local WU = require("window_utils")
 local mu = {}
 
 function mu.basic_init()
-	collectgarbage("setpause", 100)
-	collectgarbage("setstepmul", 100)
+	if love.nx then
+		collectgarbage("setpause", 150)
+		collectgarbage("setstepmul", 150)
+	else
+		collectgarbage("setpause", 100)
+		collectgarbage("setstepmul", 100)
+	end
+
 	math.randomseed(os.time())
 	love.keyboard.setKeyRepeat(true)
 end
@@ -177,6 +183,14 @@ function mu.parse_args(arg, params)
 		params.safe_frame = table.map(string.split(argv("safe_frame"), ","), function(_, v)
 			return tonumber(v)
 		end)
+	end
+
+	if has_arg("skip_cutscenes") then
+		params.skip_cutscenes = true
+	end
+
+	if has_arg("slot") then
+		params.slot = argv("slot")
 	end
 end
 
@@ -384,7 +398,7 @@ function mu.default_params(params, game_name, game_target, game_platform)
 		d("fps", 60)
 		d("msaa", 0)
 		d("vsync", false)
-		d("fullscreentype", "exclusive")
+		d("fullscreentype", KR_OS == "OS X" and "desktop" or "exclusive")
 		d("volume_music", 0.5)
 		d("volume_fx", 1)
 		d("highdpi", false)

@@ -87,6 +87,14 @@ local _ft = {
 							"hero_lava",
 							"tower_dwarf"
 						}
+					},
+					{
+						id = "dlc_2",
+						app_id = 3732970,
+						includes = {
+							"hero_wukong",
+							"tower_pandas"
+						}
 					}
 				}
 			}

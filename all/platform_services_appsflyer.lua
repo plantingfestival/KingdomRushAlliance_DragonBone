@@ -10,12 +10,13 @@ require("constants")
 local UPGR = require("upgrades")
 local PP = require("privacy_policy_consent")
 local PS = require("platform_services")
+local PSU = require("platform_services_utils")
 local srv = {}
 
 srv.can_be_paused = true
 srv.update_interval = 3
 srv.SRV_ID = 21
-srv.SRV_DISPLAY_NAME = "Firebase Analytics"
+srv.SRV_DISPLAY_NAME = "Appsflyer Analytics"
 srv.signal_handlers = {
 	["ftue-step"] = function(step)
 		if step == "tutorial_ends" then
@@ -67,7 +68,7 @@ if KR_PLATFORM == "ios" then
 
 	local ffi = require("ffi")
 
-	ffi.cdef("typedef struct kafKeyValue{\n    const char* key;\n    const char* value;\n} kafKeyValue;\nvoid kaf_set_service_param(const char* key, const char* value);\nbool kaf_initialize(void);\nbool kaf_initialize_notifications(void);\nvoid kaf_log_analytics_events(const char* name, kafKeyValue *params, size_t size);\n")
+	ffi.cdef("typedef struct kafKeyValue{\n    const char* key;\n    const char* value;\n} kafKeyValue;\nvoid kaf_set_service_param(const char* key, const char* value);\nbool kaf_initialize(void);\nbool kaf_initialize_notifications(void);\nvoid kaf_log_analytics_events(const char* name, kafKeyValue *params, size_t size);\nsize_t kaf_get_analytics_uid(char* buf, size_t bufSize);\n")
 
 	local C = ffi.C
 
@@ -104,6 +105,16 @@ if KR_PLATFORM == "ios" then
 		end
 
 		C.kaf_log_analytics_events(name, kva, kva_size)
+	end
+
+	function proxy.get_analytics_uid(srvid)
+		if not srv.inited then
+			return
+		end
+
+		local s = PSU:get_ffi_func_string(C.kaf_get_analytics_uid)
+
+		return s ~= "" and s or nil
 	end
 else
 	proxy = require("all.jni_android")
@@ -206,6 +217,8 @@ function srv:native_init()
 
 		return nil
 	end
+
+	signal.emit(SGN_PS_APPSFLYER_INIT_FINISHED)
 end
 
 function srv:log_event(name, key, value)
@@ -216,6 +229,10 @@ end
 
 function srv:log_events(name, params)
 	proxy.log_analytics_event_multiparam(self.SRV_ID, name, params)
+end
+
+function srv:get_uid()
+	return proxy.get_analytics_uid(self.SRV_ID)
 end
 
 return srv

@@ -79,6 +79,13 @@ return {
 			anchor = v(118.9, 34)
 		},
 		{
+			id = "image_shop_discount_tag",
+			image_name = "shop_room_image_shop_gems_tag_discount_",
+			class = "KImageView",
+			pos = v(44.5, -114.8),
+			anchor = v(306.1, 81.5)
+		},
+		{
 			vertical_align = "middle",
 			text_align = "center",
 			font_size = 22,
@@ -143,6 +150,75 @@ return {
 						0.0275,
 						0.4314,
 						0.6039,
+						1
+					}
+				}
+			}
+		},
+		{
+			vertical_align = "middle",
+			text_align = "center",
+			font_size = 24,
+			line_height_extra = "2",
+			text_key = "DISCOUNT",
+			text = "descuento",
+			class = "GG5ShaderLabel",
+			id = "label_shop_discount",
+			fit_size = true,
+			font_name = "fla_h",
+			pos = v(-34.65, -109.55),
+			size = v(179.45, 25.7),
+			colors = {
+				text = {
+					244,
+					227,
+					52
+				}
+			},
+			shaders = {
+				"p_outline_tint"
+			},
+			shader_args = {
+				{
+					thickness = 2.5,
+					outline_color = {
+						0.8588,
+						0,
+						0,
+						1
+					}
+				}
+			}
+		},
+		{
+			vertical_align = "middle",
+			text_align = "center",
+			class = "GG5ShaderLabel",
+			font_size = 34,
+			line_height_extra = "0",
+			text = "50%",
+			id = "label_shop_discount_percent",
+			fit_size = true,
+			font_name = "fla_h",
+			pos = v(-34.65, -142.05),
+			size = v(179.45, 34.75),
+			colors = {
+				text = {
+					255,
+					255,
+					255
+				}
+			},
+			shaders = {
+				"p_outline_tint"
+			},
+			shader_args = {
+				{
+					thickness = 2.5,
+					outline_color = {
+						0.8588,
+						0,
+						0,
 						1
 					}
 				}

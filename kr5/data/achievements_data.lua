@@ -557,6 +557,49 @@ local t = {
 		name = "ARACHNED",
 		icon = 88,
 		order = "85"
+	},
+	{
+		reward = 50,
+		name = "DLC2_KILL_FOUNTAIN",
+		dlc = "dlc_2",
+		icon = 93,
+		order = "86"
+	},
+	{
+		reward = 50,
+		name = "DLC2_WIN_BOSS_REDBOY",
+		dlc = "dlc_2",
+		icon = 89,
+		order = "87"
+	},
+	{
+		reward = 30,
+		name = "DLC2_GATHER_ENVELOPS",
+		dlc = "dlc_2",
+		icon = 92,
+		order = "88"
+	},
+	{
+		reward = 50,
+		name = "DLC2_WIN_BOSS_PRINCESS",
+		dlc = "dlc_2",
+		icon = 90,
+		order = "89"
+	},
+	{
+		reward = 50,
+		name = "DLC2_SAITAM",
+		dlc = "dlc_2",
+		goal = 31,
+		icon = 94,
+		order = "90"
+	},
+	{
+		reward = 50,
+		name = "DLC2_WIN_BOSS_KING",
+		dlc = "dlc_2",
+		icon = 91,
+		order = "91"
 	}
 }
 
@@ -575,6 +618,10 @@ for i = #t, 1, -1 do
 		end
 
 		if features.censored_cn and t[i].censored_cn then
+			table.remove(t, i)
+		end
+
+		if features.only_dlc_1 and t[i].dlc and t[i].dlc ~= "dlc_1" then
 			table.remove(t, i)
 		end
 	end

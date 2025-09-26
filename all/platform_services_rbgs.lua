@@ -73,7 +73,7 @@ function srv:parse_json_waves_index(data)
 		return nil
 	end
 
-	if not dl.values[1] then
+	if not dl or not dl.values or not dl.values[1] then
 		self:log_sync_error("Sheet has no first row")
 
 		return nil

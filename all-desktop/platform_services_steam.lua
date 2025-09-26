@@ -293,10 +293,6 @@ function steam:unlock_achievement(ach_id, defer_store)
 	end
 end
 
-function steam:show_achievements()
-	log.info("unsupported by steam")
-end
-
 function steam:show_leaderboard(level_idx, diff_idx)
 	local meta = self.ids and self.ids.leaderboards_metadata and self.ids.leaderboards_metadata[level_idx][diff_idx] or nil
 
@@ -460,6 +456,12 @@ end
 
 function steam:get_tower_sales()
 	log.debug("platform_services_steam does not show tower sales")
+
+	return {}
+end
+
+function steam:get_gems_sales()
+	log.debug("platform_services_steam does not show gems sales")
 
 	return {}
 end

@@ -4225,7 +4225,7 @@ return {
 		},
 		alias = {}
 	},
-	achievements_icons__overlay_0001 = {
+	achievements_icons_089_0001 = {
 		a_name = "room_achievements-2.png",
 		size = {
 			117,
@@ -4243,6 +4243,294 @@ return {
 		},
 		f_quad = {
 			6,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_089_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			129,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_090_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			252,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_090_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			375,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_091_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			498,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_091_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			621,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_092_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			744,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_092_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			867,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_093_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			990,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_093_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1113,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_094_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1236,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons_094_disabled_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1359,
+			6,
+			117,
+			117
+		},
+		alias = {}
+	},
+	achievements_icons__overlay_0001 = {
+		a_name = "room_achievements-2.png",
+		size = {
+			117,
+			117
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1482,
 			6,
 			117,
 			117
@@ -4314,7 +4602,7 @@ return {
 			2048
 		},
 		f_quad = {
-			462,
+			1938,
 			6,
 			101,
 			88
@@ -4842,7 +5130,7 @@ return {
 			2048
 		},
 		f_quad = {
-			246,
+			1722,
 			6,
 			102,
 			84
@@ -4892,7 +5180,7 @@ return {
 			2048
 		},
 		f_quad = {
-			354,
+			1830,
 			6,
 			102,
 			84
@@ -4918,7 +5206,7 @@ return {
 			2048
 		},
 		f_quad = {
-			129,
+			1605,
 			6,
 			111,
 			93
@@ -5186,10 +5474,34 @@ return {
 			2048
 		},
 		f_quad = {
-			1860,
-			329,
+			1952,
+			224,
 			43,
 			48
+		},
+		alias = {}
+	},
+	achievements_room_image_dlc_wukong_flag_ = {
+		a_name = "room_achievements-1.png",
+		size = {
+			54,
+			60
+		},
+		trim = {
+			3,
+			4,
+			5,
+			6
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1860,
+			329,
+			46,
+			50
 		},
 		alias = {}
 	}

@@ -113,7 +113,7 @@ function level:update(store)
 			y = 280
 		}, OVm(1, 1.3))
 		signal.emit("show-gui")
-		signal.emit("end-cinematic")
+		signal.emit("end-cinematic", true)
 
 		local last_gas = store.tick_ts
 		local gas_cd = math.random(20, 30)

@@ -2,6 +2,7 @@
 
 require("constants")
 require("version")
+require("klua.table")
 
 local ids = {}
 
@@ -20,7 +21,7 @@ ids.gamecenter.achievements = {
 	BREAKER_OF_CHAINS = "kr5mac.BREAKER_OF_CHAINS",
 	ITS_A_SECRET_TO_EVERYONE = "kr5mac.ITS_A_SECRET_TO_EVERYONE",
 	PORKS_OFF_THE_MENU = "kr5mac.PORKS_OFF_THE_MENU",
-	OVINE_JOURNALISM = "kr5mac.OVINE_JOURNALISM",
+	DLC2_WIN_BOSS_PRINCESS = "kr5mac.DLC2_WIN_BOSS_PRINCESS",
 	NOT_A_MOMENT_TO_WASTE = "kr5mac.NOT_A_MOMENT_TO_WASTE",
 	SILVER_FOR_MONSTERS = "kr5mac.SILVER_FOR_MONSTERS",
 	UNBOUND_VICTORY = "kr5mac.UNBOUND_VICTORY",
@@ -55,9 +56,13 @@ ids.gamecenter.achievements = {
 	LUCAS_SPIDER = "kr5mac.LUCAS_SPIDER",
 	FACTORY_STRIKE = "kr5mac.FACTORY_STRIKE",
 	ARACHNED = "kr5mac.ARACHNED",
+	DLC2_KILL_FOUNTAIN = "kr5mac.DLC2_KILL_FOUNTAIN",
 	MIGHTY_II = "kr5mac.MIGHTY_II",
 	SAVIOUR_OF_THE_GREEN = "kr5mac.SAVIOUR_OF_THE_GREEN",
+	DLC2_WIN_BOSS_REDBOY = "kr5mac.DLC2_WIN_BOSS_REDBOY",
 	IRONCLAD = "kr5mac.IRONCLAD",
+	DLC2_GATHER_ENVELOPS = "kr5mac.DLC2_GATHER_ENVELOPS",
+	OVINE_JOURNALISM = "kr5mac.OVINE_JOURNALISM",
 	TAKE_ME_HOME = "kr5mac.TAKE_ME_HOME",
 	TIPPING_THE_SCALES = "kr5mac.TIPPING_THE_SCALES",
 	THE_CAVALRY_IS_HERE = "kr5mac.THE_CAVALRY_IS_HERE",
@@ -77,6 +82,7 @@ ids.gamecenter.achievements = {
 	LINIREAN_RESISTANCE = "kr5mac.LINIREAN_RESISTANCE",
 	SEASONED_GENERAL = "kr5mac.SEASONED_GENERAL",
 	DISTURBING_THE_PEACE = "kr5mac.DISTURBING_THE_PEACE",
+	DLC2_WIN_BOSS_KING = "kr5mac.DLC2_WIN_BOSS_KING",
 	GARBAGE_DISPOSAL = "kr5mac.GARBAGE_DISPOSAL",
 	GET_THE_PARTY_STARTED = "kr5mac.GET_THE_PARTY_STARTED",
 	TREE_HUGGER = "kr5mac.TREE_HUGGER",
@@ -87,6 +93,7 @@ ids.gamecenter.achievements = {
 	TURN_A_BLIND_EYE = "kr5mac.TURN_A_BLIND_EYE",
 	WE_RE_NOT_GONNA_TAKE_IT = "kr5mac.WE_RE_NOT_GONNA_TAKE_IT",
 	CLEANUP_IS_OPTIONAL = "kr5mac.CLEANUP_IS_OPTIONAL",
+	DLC2_SAITAM = "kr5mac.DLC2_SAITAM",
 	CROWD_CONTROL = "kr5mac.CROWD_CONTROL",
 	WOBBA_LUBBA_DUB_DUB = "kr5mac.WOBBA_LUBBA_DUB_DUB",
 	MASTER_TACTICIAN = "kr5mac.MASTER_TACTICIAN",
@@ -433,7 +440,126 @@ ids.gamecenter.achievements_metadata = {
 	ARACHNED = {
 		10,
 		false
+	},
+	DLC2_KILL_FOUNTAIN = {
+		5,
+		false
+	},
+	DLC2_WIN_BOSS_REDBOY = {
+		5,
+		false
+	},
+	DLC2_GATHER_ENVELOPS = {
+		5,
+		false
+	},
+	DLC2_WIN_BOSS_PRINCESS = {
+		5,
+		false
+	},
+	DLC2_SAITAM = {
+		5,
+		false
+	},
+	DLC2_WIN_BOSS_KING = {
+		10,
+		false
 	}
 }
+ids.gamecenter_universal_premium = {}
+ids.gamecenter_universal_premium.achievements = {
+	ROCK_BEATS_ROCK = "kr5.universal.premium.ROCK_BEATS_ROCK",
+	GEM_SPILLER = "kr5.universal.premium.GEM_SPILLER",
+	WE_ARE_ALL_MAD_HERE = "kr5.universal.premium.WE_ARE_ALL_MAD_HERE",
+	ROYAL_CAPTAIN = "kr5.universal.premium.ROYAL_CAPTAIN",
+	CRAFTING_IN_THE_MINES = "kr5.universal.premium.CRAFTING_IN_THE_MINES",
+	NATURES_WRATH = "kr5.universal.premium.NATURES_WRATH",
+	AGE_OF_HEROES = "kr5.universal.premium.AGE_OF_HEROES",
+	KEPT_YOU_WAITING = "kr5.universal.premium.KEPT_YOU_WAITING",
+	FOREST_PROTECTOR = "kr5.universal.premium.FOREST_PROTECTOR",
+	CONJUNTIVICTORY = "kr5.universal.premium.CONJUNTIVICTORY",
+	BREAKER_OF_CHAINS = "kr5.universal.premium.BREAKER_OF_CHAINS",
+	ITS_A_SECRET_TO_EVERYONE = "kr5.universal.premium.ITS_A_SECRET_TO_EVERYONE",
+	PORKS_OFF_THE_MENU = "kr5.universal.premium.PORKS_OFF_THE_MENU",
+	DLC2_WIN_BOSS_PRINCESS = "kr5.universal.premium.DLC2_WIN_BOSS_PRINCESS",
+	NOT_A_MOMENT_TO_WASTE = "kr5.universal.premium.NOT_A_MOMENT_TO_WASTE",
+	SILVER_FOR_MONSTERS = "kr5.universal.premium.SILVER_FOR_MONSTERS",
+	UNBOUND_VICTORY = "kr5.universal.premium.UNBOUND_VICTORY",
+	GREENLIT_ALLIES = "kr5.universal.premium.GREENLIT_ALLIES",
+	CROW_SCARER = "kr5.universal.premium.CROW_SCARER",
+	SIGNATURE_TECHNIQUES = "kr5.universal.premium.SIGNATURE_TECHNIQUES",
+	FIELD_TRIP_RUINER = "kr5.universal.premium.FIELD_TRIP_RUINER",
+	CLEANSE_THE_KING = "kr5.universal.premium.CLEANSE_THE_KING",
+	SPECTRAL_FURY = "kr5.universal.premium.SPECTRAL_FURY",
+	SMOOTH_OPER_GATOR = "kr5.universal.premium.SMOOTH_OPER_GATOR",
+	CONQUEROR_OF_THE_VOID = "kr5.universal.premium.CONQUEROR_OF_THE_VOID",
+	UNENDING_RICHES = "kr5.universal.premium.UNENDING_RICHES",
+	MECHANICAL_BURNOUT = "kr5.universal.premium.MECHANICAL_BURNOUT",
+	HAIL_TO_THE_K_BABY = "kr5.universal.premium.HAIL_TO_THE_K_BABY",
+	NO_FLY_ZONE = "kr5.universal.premium.NO_FLY_ZONE",
+	DOMO_ARIGATO = "kr5.universal.premium.DOMO_ARIGATO",
+	DARK_RUTHLESSNESS = "kr5.universal.premium.DARK_RUTHLESSNESS",
+	PEST_CONTROL = "kr5.universal.premium.PEST_CONTROL",
+	OBLITERATE = "kr5.universal.premium.OBLITERATE",
+	SEE_YA_LATER_ALLIGATOR = "kr5.universal.premium.SEE_YA_LATER_ALLIGATOR",
+	MOST_DELICIOUS = "kr5.universal.premium.MOST_DELICIOUS",
+	CRYSTAL_CLEAR = "kr5.universal.premium.CRYSTAL_CLEAR",
+	NONE_SHALL_PASS = "kr5.universal.premium.NONE_SHALL_PASS",
+	YOU_SHALL_NOT_CAST = "kr5.universal.premium.YOU_SHALL_NOT_CAST",
+	RUNEQUEST = "kr5.universal.premium.RUNEQUEST",
+	PLAYFUL_FRIENDS = "kr5.universal.premium.PLAYFUL_FRIENDS",
+	SAVIOUR_OF_THE_FOREST = "kr5.universal.premium.SAVIOUR_OF_THE_FOREST",
+	SHUT_YOUR_MOUTH = "kr5.universal.premium.SHUT_YOUR_MOUTH",
+	DLC1_WIN_BOSS = "kr5.universal.premium.DLC1_WIN_BOSS",
+	A_COON_OF_SURPRISES = "kr5.universal.premium.A_COON_OF_SURPRISES",
+	WEIRDER_THINGS = "kr5.universal.premium.WEIRDER_THINGS",
+	LUCAS_SPIDER = "kr5.universal.premium.LUCAS_SPIDER",
+	FACTORY_STRIKE = "kr5.universal.premium.FACTORY_STRIKE",
+	ARACHNED = "kr5.universal.premium.ARACHNED",
+	DLC2_KILL_FOUNTAIN = "kr5.universal.premium.DLC2_KILL_FOUNTAIN",
+	MIGHTY_II = "kr5.universal.premium.MIGHTY_II",
+	SAVIOUR_OF_THE_GREEN = "kr5.universal.premium.SAVIOUR_OF_THE_GREEN",
+	DLC2_WIN_BOSS_REDBOY = "kr5.universal.premium.DLC2_WIN_BOSS_REDBOY",
+	IRONCLAD = "kr5.universal.premium.IRONCLAD",
+	DLC2_GATHER_ENVELOPS = "kr5.universal.premium.DLC2_GATHER_ENVELOPS",
+	OVINE_JOURNALISM = "kr5.universal.premium.OVINE_JOURNALISM",
+	TAKE_ME_HOME = "kr5.universal.premium.TAKE_ME_HOME",
+	TIPPING_THE_SCALES = "kr5.universal.premium.TIPPING_THE_SCALES",
+	THE_CAVALRY_IS_HERE = "kr5.universal.premium.THE_CAVALRY_IS_HERE",
+	OUTBACK_BARBEQUICK = "kr5.universal.premium.OUTBACK_BARBEQUICK",
+	ONE_SHOT_TOWER = "kr5.universal.premium.ONE_SHOT_TOWER",
+	OVER_THE_EDGE = "kr5.universal.premium.OVER_THE_EDGE",
+	STARLIGHT = "kr5.universal.premium.STARLIGHT",
+	BUTTERTENTACLES = "kr5.universal.premium.BUTTERTENTACLES",
+	INTO_THE_OGREVERSE = "kr5.universal.premium.INTO_THE_OGREVERSE",
+	PROMOTION_DENIED = "kr5.universal.premium.PROMOTION_DENIED",
+	RUST_IN_PEACE = "kr5.universal.premium.RUST_IN_PEACE",
+	WAR_MASONRY = "kr5.universal.premium.WAR_MASONRY",
+	MIGHTY_I = "kr5.universal.premium.MIGHTY_I",
+	MIGHTY_III = "kr5.universal.premium.MIGHTY_III",
+	ALL_THE_SMALL_THINGS = "kr5.universal.premium.ALL_THE_SMALL_THINGS",
+	LEARNING_THE_ROPES = "kr5.universal.premium.LEARNING_THE_ROPES",
+	LINIREAN_RESISTANCE = "kr5.universal.premium.LINIREAN_RESISTANCE",
+	SEASONED_GENERAL = "kr5.universal.premium.SEASONED_GENERAL",
+	DISTURBING_THE_PEACE = "kr5.universal.premium.DISTURBING_THE_PEACE",
+	DLC2_WIN_BOSS_KING = "kr5.universal.premium.DLC2_WIN_BOSS_KING",
+	GARBAGE_DISPOSAL = "kr5.universal.premium.GARBAGE_DISPOSAL",
+	GET_THE_PARTY_STARTED = "kr5.universal.premium.GET_THE_PARTY_STARTED",
+	TREE_HUGGER = "kr5.universal.premium.TREE_HUGGER",
+	DARK_LIEUTENANT = "kr5.universal.premium.DARK_LIEUTENANT",
+	BYE_BYE_BEAUTIFUL = "kr5.universal.premium.BYE_BYE_BEAUTIFUL",
+	GIFT_OF_LIFE = "kr5.universal.premium.GIFT_OF_LIFE",
+	UNTAMED_BEAST = "kr5.universal.premium.UNTAMED_BEAST",
+	TURN_A_BLIND_EYE = "kr5.universal.premium.TURN_A_BLIND_EYE",
+	WE_RE_NOT_GONNA_TAKE_IT = "kr5.universal.premium.WE_RE_NOT_GONNA_TAKE_IT",
+	CLEANUP_IS_OPTIONAL = "kr5.universal.premium.CLEANUP_IS_OPTIONAL",
+	DLC2_SAITAM = "kr5.universal.premium.DLC2_SAITAM",
+	CROWD_CONTROL = "kr5.universal.premium.CROWD_CONTROL",
+	WOBBA_LUBBA_DUB_DUB = "kr5.universal.premium.WOBBA_LUBBA_DUB_DUB",
+	MASTER_TACTICIAN = "kr5.universal.premium.MASTER_TACTICIAN",
+	SCRAMBLED_EGGS = "kr5.universal.premium.SCRAMBLED_EGGS",
+	CIRCLE_OF_LIFE = "kr5.universal.premium.CIRCLE_OF_LIFE"
+}
+ids.gamecenter_universal_premium.achievements_metadata = table.deepclone(ids.gamecenter.achievements_metadata)
 
 return ids

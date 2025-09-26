@@ -527,8 +527,8 @@ function ism.q_is_view_visible(ctx, view)
 	return not v.hidden
 end
 
-function ism.q_is_escape_show_quit()
-	return IS_MOBILE and KR_PLATFORM == "android"
+function ism.q_is_plarform(ctx, platform)
+	return KR_PLATFORM == platform
 end
 
 function ism.q_rate_limit(ctx, delay, delay_repeat)

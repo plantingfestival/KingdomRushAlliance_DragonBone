@@ -1,5 +1,7 @@
 -- chunkname: @./kr5/data/tower_menus_data.lua
 
+local i18n = require("i18n")
+
 return {
 	holder = {
 		{
@@ -233,6 +235,17 @@ return {
 				preview = "sparking_geode",
 				tt_title = _("TOWER_SPARKING_GEODE_1_NAME"),
 				tt_desc = _("TOWER_SPARKING_GEODE_1_DESCRIPTION")
+			},
+			{
+				check = "main_icons_0019",
+				halo = "glow_ico_main",
+				action_arg = "tower_build_pandas",
+				type = "pandas",
+				action = "tw_upgrade",
+				image = "main_icons_0049",
+				preview = "pandas",
+				tt_title = _("TOWER_PANDAS_1_NAME"),
+				tt_desc = _("TOWER_PANDAS_1_DESCRIPTION")
 			}
 		}
 	},
@@ -306,6 +319,20 @@ return {
 			}
 		}
 	},
+	tower_broken_stage_32 = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "",
+				action = "tw_repair",
+				halo = "glow_ico_main",
+				image = "main_icons_0035",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_DRAGON_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_DRAGON_DESCRIPTION")
+			}
+		}
+	},
 	holder_blocked_spiders = {
 		{
 			{
@@ -317,6 +344,76 @@ return {
 				place = 12,
 				tt_title = _("SPECIAL_REPAIR_HOLDER_SPIDERS_NAME"),
 				tt_desc = _("SPECIAL_REPAIR_HOLDER_SPIDERS_DESCRIPTION")
+			}
+		}
+	},
+	holder_blocked_elemental_wood = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_holder_elemental_wood",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "main_icons_0045",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_WOOD_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_WOOD_DESCRIPTION")
+			}
+		}
+	},
+	holder_blocked_elemental_fire = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_holder_elemental_fire",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "main_icons_0044",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_FIRE_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_FIRE_DESCRIPTION")
+			}
+		}
+	},
+	holder_blocked_elemental_water = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_holder_elemental_water",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "main_icons_0046",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_WATER_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_WATER_DESCRIPTION")
+			}
+		}
+	},
+	holder_blocked_elemental_earth = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_holder_elemental_earth",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "main_icons_0050",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_EARTH_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_EARTH_DESCRIPTION")
+			}
+		}
+	},
+	holder_blocked_elemental_metal = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_holder_elemental_metal",
+				action = "tw_unblock",
+				halo = "glow_ico_main",
+				image = "main_icons_0047",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_METAL_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_ELEMENTAL_METAL_DESCRIPTION")
 			}
 		}
 	},
@@ -3280,6 +3377,204 @@ return {
 				halo = "ingame_ui_ico_sell_0001_hover",
 				image = "ingame_ui_ico_sell_0001",
 				place = 9
+			}
+		}
+	},
+	pandas = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_pandas_lvl2",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_PANDAS_2_NAME"),
+				tt_desc = _("TOWER_PANDAS_2_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "pandas_retreat",
+				action = "tw_free_action",
+				halo = "glow_ico_main",
+				image = "quickmenu_retreat_icons_tower_panda",
+				place = 13,
+				tt_title = _("TOWER_PANDAS_RETREAT_NAME"),
+				tt_desc = _("TOWER_PANDAS_RETREAT_DESCRIPTION")
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_pandas_lvl3",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_PANDAS_3_NAME"),
+				tt_desc = _("TOWER_PANDAS_3_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "pandas_retreat",
+				action = "tw_free_action",
+				halo = "glow_ico_main",
+				image = "quickmenu_retreat_icons_tower_panda",
+				place = 13,
+				tt_title = _("TOWER_PANDAS_RETREAT_NAME"),
+				tt_desc = _("TOWER_PANDAS_RETREAT_DESCRIPTION")
+			}
+		},
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_pandas_lvl4",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "main_icons_0005",
+				place = 12,
+				tt_title = _("TOWER_PANDAS_4_NAME"),
+				tt_desc = _("TOWER_PANDAS_4_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "pandas_retreat",
+				action = "tw_free_action",
+				halo = "glow_ico_main",
+				image = "quickmenu_retreat_icons_tower_panda",
+				place = 13,
+				tt_title = _("TOWER_PANDAS_RETREAT_NAME"),
+				tt_desc = _("TOWER_PANDAS_RETREAT_DESCRIPTION")
+			}
+		},
+		{
+			{
+				check = "special_icons_0020",
+				action_arg = "thunder",
+				action = "upgrade_power",
+				image = "special_icons_0041",
+				place = 12,
+				halo = "glow_ico_special",
+				sounds = {
+					i18n:cjk("TowerPandasSkillATaunt", "TowerPandasSkillATauntZH", nil, nil)
+				},
+				tt_phrase = _("TOWER_PANDAS_4_THUNDER"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_PANDAS_4_THUNDER_1_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_THUNDER_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_PANDAS_4_THUNDER_2_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_THUNDER_2_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "hat",
+				action = "upgrade_power",
+				image = "special_icons_0040",
+				place = 14,
+				halo = "glow_ico_special",
+				sounds = {
+					i18n:cjk("TowerPandasSkillBTaunt", "TowerPandasSkillBTauntZH", nil, nil)
+				},
+				tt_phrase = _("TOWER_PANDAS_4_HAT"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_PANDAS_4_HAT_1_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_HAT_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_PANDAS_4_HAT_2_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_HAT_2_DESCRIPTION")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "teleport",
+				action = "upgrade_power",
+				image = "special_icons_0042",
+				place = 15,
+				halo = "glow_ico_special",
+				sounds = {
+					i18n:cjk("TowerPandasSkillCTaunt", "TowerPandasSkillCTauntZH", nil, nil)
+				},
+				tt_phrase = _("TOWER_PANDAS_4_FIERY"),
+				tt_list = {
+					{
+						tt_title = _("TOWER_PANDAS_4_FIERY_1_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_FIERY_1_DESCRIPTION")
+					},
+					{
+						tt_title = _("TOWER_PANDAS_4_FIERY_2_NAME"),
+						tt_desc = _("TOWER_PANDAS_4_FIERY_2_DESCRIPTION")
+					}
+				}
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "pandas_retreat",
+				action = "tw_free_action",
+				halo = "glow_ico_main",
+				image = "quickmenu_retreat_icons_tower_panda",
+				place = 13,
+				tt_title = _("TOWER_PANDAS_RETREAT_NAME"),
+				tt_desc = _("TOWER_PANDAS_RETREAT_DESCRIPTION")
 			}
 		}
 	},

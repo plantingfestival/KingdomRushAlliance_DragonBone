@@ -133,6 +133,14 @@ return {
 			pos = v(41.8, -33.35),
 			scale = v(1, 1),
 			anchor = v(43.45, 25.9)
+		},
+		{
+			class = "KImageView",
+			image_name = "hero_room_image_dlc_wukong_badge_small_",
+			id = "image_dlc_2_badge_small",
+			pos = v(41.8, -33.35),
+			scale = v(1, 1),
+			anchor = v(43.45, 25.9)
 		}
 	}
 }

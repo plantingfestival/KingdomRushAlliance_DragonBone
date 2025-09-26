@@ -484,8 +484,8 @@ return {
 			2048
 		},
 		f_quad = {
-			769,
-			1489,
+			537,
+			1605,
 			105,
 			98
 		},
@@ -534,7 +534,7 @@ return {
 			2048
 		},
 		f_quad = {
-			653,
+			885,
 			1489,
 			110,
 			108
@@ -1837,7 +1837,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_main_icons_0105_0001 = {
+	level_select_main_icons_0042_0001 = {
 		a_name = "room_levelselect-1.dds",
 		size = {
 			110,
@@ -1855,6 +1855,54 @@ return {
 		},
 		f_quad = {
 			537,
+			1489,
+			110,
+			110
+		},
+		alias = {}
+	},
+	level_select_main_icons_0049_0001 = {
+		a_name = "room_levelselect-1.dds",
+		size = {
+			110,
+			110
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			653,
+			1489,
+			110,
+			110
+		},
+		alias = {}
+	},
+	level_select_main_icons_0105_0001 = {
+		a_name = "room_levelselect-1.dds",
+		size = {
+			110,
+			110
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			769,
 			1489,
 			110,
 			110
@@ -2532,7 +2580,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_3_0001 = {
+	level_select_thumbs_thumb_stage_31_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-24.dds",
 		defer = true,
 		size = {
@@ -2557,7 +2605,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_4_0001 = {
+	level_select_thumbs_thumb_stage_32_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-25.dds",
 		defer = true,
 		size = {
@@ -2582,7 +2630,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_5_0001 = {
+	level_select_thumbs_thumb_stage_33_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-26.dds",
 		defer = true,
 		size = {
@@ -2607,7 +2655,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_6_0001 = {
+	level_select_thumbs_thumb_stage_34_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-27.dds",
 		defer = true,
 		size = {
@@ -2632,7 +2680,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_7_0001 = {
+	level_select_thumbs_thumb_stage_35_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-28.dds",
 		defer = true,
 		size = {
@@ -2657,7 +2705,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_8_0001 = {
+	level_select_thumbs_thumb_stage_3_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-29.dds",
 		defer = true,
 		size = {
@@ -2682,8 +2730,133 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_9_0001 = {
+	level_select_thumbs_thumb_stage_4_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-30.dds",
+		defer = true,
+		size = {
+			1418,
+			748
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1420,
+			748
+		},
+		f_quad = {
+			0,
+			0,
+			1418,
+			748
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_5_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-31.dds",
+		defer = true,
+		size = {
+			1418,
+			748
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1420,
+			748
+		},
+		f_quad = {
+			0,
+			0,
+			1418,
+			748
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_6_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-32.dds",
+		defer = true,
+		size = {
+			1418,
+			748
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1420,
+			748
+		},
+		f_quad = {
+			0,
+			0,
+			1418,
+			748
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_7_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-33.dds",
+		defer = true,
+		size = {
+			1418,
+			748
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1420,
+			748
+		},
+		f_quad = {
+			0,
+			0,
+			1418,
+			748
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_8_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-34.dds",
+		defer = true,
+		size = {
+			1418,
+			748
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1420,
+			748
+		},
+		f_quad = {
+			0,
+			0,
+			1418,
+			748
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_9_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-35.dds",
 		defer = true,
 		size = {
 			1418,

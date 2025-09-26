@@ -195,6 +195,16 @@ return {
 					instakill_melee = 0,
 					ultimate = 1
 				}
+			},
+			hero_wukong = {
+				xp = 0,
+				skills = {
+					giant_staff = 0,
+					pole_ranged = 0,
+					zhu_apprentice = 0,
+					hair_clones = 0,
+					ultimate = 1
+				}
 			}
 		}
 	},
@@ -223,7 +233,8 @@ return {
 			dark_elf = {},
 			hermit_toad = {},
 			dwarf = {},
-			sparking_geode = {}
+			sparking_geode = {},
+			pandas = {}
 		}
 	},
 	items = {

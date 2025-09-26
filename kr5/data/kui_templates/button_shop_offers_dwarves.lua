@@ -33,9 +33,9 @@ return {
 			class = "GG5ShaderLabel",
 			id = "label_shop_offer_cost",
 			font_name = "fla_numbers_2",
-			pos = v(-403.3, 152.5),
+			pos = v(-403.3, 156),
 			scale = v(1, 1),
-			size = v(804.95, 59.55),
+			size = v(804.95, 60),
 			colors = {
 				text = {
 					255,

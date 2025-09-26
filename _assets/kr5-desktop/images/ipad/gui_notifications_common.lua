@@ -2025,6 +2025,510 @@ return {
 		},
 		alias = {}
 	},
+	notification_enemies_0078 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			614,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0079 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			681,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0080 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			748,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0081 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			815,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0082 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			882,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0083 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			949,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0084 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1016,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0085 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1083,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0086 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1150,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0087 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1217,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0088 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1284,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0089 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1351,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0090 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1418,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0091 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1485,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0092 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1552,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0093 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1619,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0094 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1686,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0095 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1753,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0096 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1820,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0097 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1887,
+			65,
+			64
+		},
+		alias = {}
+	},
+	notification_enemies_0098 = {
+		a_name = "gui_notifications_common-1.png",
+		size = {
+			90,
+			64
+		},
+		trim = {
+			12,
+			0,
+			13,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			198,
+			1954,
+			65,
+			64
+		},
+		alias = {}
+	},
 	notifications_but_lightblue_0001 = {
 		a_name = "gui_notifications_common-1.png",
 		size = {

@@ -29,7 +29,7 @@ function level:update(store)
 
 		local boss_controller
 
-		if not store.restarted then
+		if not store.restarted and not main.params.skip_cutscenes then
 			signal.emit("pan-zoom-camera", 0, {
 				x = 533,
 				y = 600
@@ -62,7 +62,7 @@ function level:update(store)
 				y = 430
 			}, OVm(1, 1.2))
 			signal.emit("show-gui")
-			signal.emit("end-cinematic")
+			signal.emit("end-cinematic", true)
 		else
 			signal.emit("pan-zoom-camera", 0, {
 				x = 533,

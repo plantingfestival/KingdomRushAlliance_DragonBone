@@ -2,7 +2,31 @@
 
 return {
 	shop_offer_card_cluster_bomb = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
+		size = {
+			155,
+			222
+		},
+		trim = {
+			0,
+			7,
+			2,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			1699,
+			153,
+			214
+		},
+		alias = {}
+	},
+	shop_offer_card_deaths_touch = {
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -19,38 +43,14 @@ return {
 		},
 		f_quad = {
 			165,
-			1821,
-			153,
-			214
-		},
-		alias = {}
-	},
-	shop_offer_card_deaths_touch = {
-		a_name = "room_shop-1.png",
-		size = {
-			155,
-			222
-		},
-		trim = {
-			0,
-			7,
-			2,
-			1
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			324,
-			1821,
+			1699,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_barrel = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -66,15 +66,15 @@ return {
 			2048
 		},
 		f_quad = {
-			571,
-			1757,
+			385,
+			1669,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_chest = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -90,15 +90,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1212,
-			1811,
+			544,
+			1669,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_handful = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -114,15 +114,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1371,
-			1811,
+			1369,
+			1548,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_mountain = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -138,15 +138,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1576,
-			1772,
+			1369,
+			1768,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_pouch = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -162,15 +162,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1735,
-			1772,
+			1528,
+			1548,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_gems_wagon = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			155,
 			222
@@ -186,8 +186,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1894,
-			1772,
+			1528,
+			1768,
 			153,
 			214
 		},
@@ -210,8 +210,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1840,
-			6,
+			1687,
+			1548,
 			153,
 			214
 		},
@@ -234,8 +234,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1890,
-			185,
+			1650,
+			906,
 			153,
 			215
 		},
@@ -258,8 +258,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1840,
-			226,
+			1846,
+			1548,
 			153,
 			214
 		},
@@ -282,8 +282,8 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			1365,
+			1687,
+			1768,
 			153,
 			214
 		},
@@ -306,15 +306,15 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			1585,
+			1846,
+			1768,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_hero_hunter = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -330,15 +330,15 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			1805,
+			6,
+			1139,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_hero_lumenir = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -354,8 +354,8 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			467,
+			6,
+			1359,
 			153,
 			214
 		},
@@ -378,15 +378,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1850,
-			415,
+			1809,
+			906,
 			153,
 			215
 		},
 		alias = {}
 	},
 	shop_offer_card_hero_robot = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -402,8 +402,8 @@ return {
 			2048
 		},
 		f_quad = {
-			795,
-			467,
+			6,
+			1579,
 			153,
 			214
 		},
@@ -426,15 +426,15 @@ return {
 			2048
 		},
 		f_quad = {
-			659,
-			1309,
+			1873,
+			1449,
 			153,
 			215
 		},
 		alias = {}
 	},
 	shop_offer_card_hero_spider = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -450,15 +450,15 @@ return {
 			2048
 		},
 		f_quad = {
-			954,
-			467,
+			6,
+			1799,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_hero_witch = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -474,15 +474,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1113,
-			467,
+			209,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_cluster_bomb = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -498,15 +498,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1272,
-			467,
+			368,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_deaths_touch = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -522,15 +522,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1431,
-			467,
+			527,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_loot_box = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -546,15 +546,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1590,
-			467,
+			686,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_medical_kit = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -570,15 +570,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1749,
-			467,
+			845,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_portable_coil = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -594,15 +594,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			687,
+			1004,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_scroll_of_spaceshift = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -618,15 +618,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			907,
+			1163,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_second_breath = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -642,15 +642,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			1127,
+			1322,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_summon_blackburn = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -666,15 +666,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			1347,
+			1481,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_veznan_wrath = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -690,15 +690,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			1567,
+			1640,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_item_winter_age = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -714,15 +714,15 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			1787,
+			1799,
+			6,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_barrel = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -738,15 +738,15 @@ return {
 			2048
 		},
 		f_quad = {
-			795,
-			687,
+			209,
+			226,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_dark_elf = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -762,15 +762,15 @@ return {
 			2048
 		},
 		f_quad = {
-			954,
-			687,
+			209,
+			446,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_elven_stargazers = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -786,15 +786,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1113,
-			687,
+			209,
+			666,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_ghost = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -810,15 +810,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1272,
-			687,
+			209,
+			886,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_hermit_toad = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -834,15 +834,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1431,
-			687,
+			209,
+			1106,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_necromancer = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -858,15 +858,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1590,
-			687,
+			209,
+			1326,
 			153,
 			214
 		},
 		alias = {}
 	},
 	shop_offer_card_tower_sand = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-3.png",
 		size = {
 			155,
 			222
@@ -882,8 +882,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1749,
-			687,
+			209,
+			1546,
 			153,
 			214
 		},
@@ -906,8 +906,8 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1821,
+			1873,
+			1670,
 			153,
 			215
 		},
@@ -930,8 +930,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1652,
-			366,
+			1786,
+			109,
 			40,
 			40
 		},
@@ -954,8 +954,8 @@ return {
 			2048
 		},
 		f_quad = {
-			483,
-			1821,
+			700,
+			1869,
 			80,
 			80
 		},
@@ -978,7 +978,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1881,
+			1856,
 			6,
 			107,
 			96
@@ -1002,8 +1002,8 @@ return {
 			2048
 		},
 		f_quad = {
-			2009,
-			415,
+			2002,
+			223,
 			32,
 			65
 		},
@@ -1026,8 +1026,8 @@ return {
 			2048
 		},
 		f_quad = {
-			2032,
-			109,
+			1984,
+			318,
 			16,
 			64
 		},
@@ -1050,8 +1050,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1819,
-			563,
+			2006,
+			318,
 			16,
 			64
 		},
@@ -1074,8 +1074,32 @@ return {
 			2048
 		},
 		f_quad = {
-			795,
-			1127,
+			1907,
+			983,
+			129,
+			522
+		},
+		alias = {}
+	},
+	shop_room_9slice_shop_offer_frame_w_ = {
+		a_name = "room_shop-3.png",
+		size = {
+			129,
+			522
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			368,
+			226,
 			129,
 			522
 		},
@@ -1098,8 +1122,8 @@ return {
 			2048
 		},
 		f_quad = {
-			730,
-			1757,
+			1968,
+			906,
 			64,
 			127
 		},
@@ -1124,8 +1148,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1072,
-			97,
+			1832,
+			109,
 			2,
 			2
 		},
@@ -1148,8 +1172,8 @@ return {
 			2048
 		},
 		f_quad = {
-			730,
-			1890,
+			1968,
+			1039,
 			64,
 			127
 		},
@@ -1172,8 +1196,8 @@ return {
 			2048
 		},
 		f_quad = {
-			483,
-			1907,
+			1969,
+			6,
 			65,
 			128
 		},
@@ -1196,8 +1220,8 @@ return {
 			2048
 		},
 		f_quad = {
-			824,
-			1850,
+			832,
+			1919,
 			64,
 			127
 		},
@@ -1220,8 +1244,8 @@ return {
 			2048
 		},
 		f_quad = {
-			894,
-			1850,
+			902,
+			1919,
 			64,
 			127
 		},
@@ -1244,8 +1268,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1652,
-			109,
+			1658,
+			318,
 			232,
 			70
 		},
@@ -1270,8 +1294,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1625,
-			6,
+			1658,
+			223,
 			250,
 			89
 		},
@@ -1294,8 +1318,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1643,
-			415,
+			1650,
+			724,
 			201,
 			85
 		},
@@ -1320,8 +1344,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1652,
-			261,
+			1650,
+			619,
 			215,
 			99
 		},
@@ -1344,8 +1368,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1080,
-			97,
+			1840,
+			109,
 			2,
 			2
 		},
@@ -1374,8 +1398,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1994,
-			6,
+			1883,
+			158,
 			48,
 			49
 		},
@@ -1400,8 +1424,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1978,
-			109,
+			1937,
+			158,
 			48,
 			49
 		},
@@ -1424,8 +1448,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1088,
-			97,
+			1848,
+			109,
 			2,
 			2
 		},
@@ -1451,8 +1475,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1099,
-			70,
+			1832,
+			117,
 			2,
 			2
 		},
@@ -1475,15 +1499,15 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			504,
+			749,
+			522,
 			313,
 			603
 		},
 		alias = {}
 	},
 	shop_room_image_crocs_art_left_ = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			469,
 			652
@@ -1499,8 +1523,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1212,
-			1218,
+			385,
+			522,
 			358,
 			587
 		},
@@ -1524,14 +1548,86 @@ return {
 		},
 		f_quad = {
 			6,
-			109,
+			619,
 			820,
 			300
 		},
 		alias = {}
 	},
-	shop_room_image_dwarves_art_left_ = {
+	shop_room_image_dlc_dwarves_screenshots_video_ = {
 		a_name = "room_shop-1.png",
+		size = {
+			820,
+			390
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			223,
+			820,
+			390
+		},
+		alias = {}
+	},
+	shop_room_image_dlc_wukong_screenshots_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			820,
+			300
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			925,
+			820,
+			300
+		},
+		alias = {}
+	},
+	shop_room_image_dlc_wukong_screenshots_video_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			820,
+			390
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			832,
+			223,
+			820,
+			390
+		},
+		alias = {}
+	},
+	shop_room_image_dwarves_art_left_ = {
+		a_name = "room_shop-2.png",
 		size = {
 			444,
 			589
@@ -1547,8 +1643,8 @@ return {
 			2048
 		},
 		f_quad = {
-			824,
-			1284,
+			6,
+			1133,
 			368,
 			560
 		},
@@ -1571,10 +1667,106 @@ return {
 			2048
 		},
 		f_quad = {
-			824,
-			702,
+			1485,
+			1449,
 			382,
 			576
+		},
+		alias = {}
+	},
+	shop_room_image_dwarves_dlc1_art_left_video_ = {
+		a_name = "room_shop-3.png",
+		size = {
+			276,
+			590
+		},
+		trim = {
+			62,
+			0,
+			17,
+			29
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			6,
+			197,
+			561
+		},
+		alias = {}
+	},
+	shop_room_image_dwarves_dlc1_art_right_video_ = {
+		a_name = "room_shop-3.png",
+		size = {
+			273,
+			589
+		},
+		trim = {
+			14,
+			0,
+			66,
+			29
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			573,
+			193,
+			560
+		},
+		alias = {}
+	},
+	shop_room_image_frame_dlc1_overlay_bottom_video_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			802,
+			41
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			931,
+			109,
+			802,
+			41
+		},
+		alias = {}
+	},
+	shop_room_image_frame_dlc1_overlay_top_video_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			802,
+			18
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			868,
+			158,
+			802,
+			18
 		},
 		alias = {}
 	},
@@ -1595,15 +1787,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1072,
-			70,
+			1938,
+			108,
 			21,
 			21
 		},
 		alias = {}
 	},
 	shop_room_image_hw_art_left_ = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			371,
 			574
@@ -1619,15 +1811,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1576,
-			1218,
+			385,
+			1115,
 			351,
 			548
 		},
 		alias = {}
 	},
 	shop_room_image_hw_art_right_ = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			372,
 			498
@@ -1643,10 +1835,34 @@ return {
 			2048
 		},
 		f_quad = {
-			1582,
-			702,
+			755,
+			6,
 			341,
 			436
+		},
+		alias = {}
+	},
+	shop_room_image_price_shadow_video_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			856,
+			59
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			158,
+			856,
+			59
 		},
 		alias = {}
 	},
@@ -1667,8 +1883,8 @@ return {
 			2048
 		},
 		f_quad = {
-			931,
-			70,
+			1902,
+			108,
 			30,
 			30
 		},
@@ -1691,8 +1907,8 @@ return {
 			2048
 		},
 		f_quad = {
-			967,
-			70,
+			868,
+			182,
 			29,
 			29
 		},
@@ -1715,8 +1931,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1002,
-			70,
+			903,
+			182,
 			29,
 			29
 		},
@@ -1739,10 +1955,34 @@ return {
 			2048
 		},
 		f_quad = {
-			1037,
-			70,
+			938,
+			182,
 			29,
 			29
+		},
+		alias = {}
+	},
+	shop_room_image_sale_bg_big_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			166,
+			167
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1871,
+			619,
+			166,
+			167
 		},
 		alias = {}
 	},
@@ -1763,10 +2003,34 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
+			931,
 			6,
 			919,
 			97
+		},
+		alias = {}
+	},
+	shop_room_image_shop_dlc_title_bg_wukong_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			965,
+			193
+		},
+		trim = {
+			39,
+			34,
+			7,
+			13
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			6,
+			919,
+			146
 		},
 		alias = {}
 	},
@@ -1787,10 +2051,34 @@ return {
 			2048
 		},
 		f_quad = {
-			1652,
-			185,
+			1658,
+			394,
 			232,
 			70
+		},
+		alias = {}
+	},
+	shop_room_image_shop_gems_tag_discount_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			427,
+			172
+		},
+		trim = {
+			191,
+			50,
+			5,
+			51
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1658,
+			470,
+			231,
+			71
 		},
 		alias = {}
 	},
@@ -1811,8 +2099,8 @@ return {
 			2048
 		},
 		f_quad = {
-			832,
-			109,
+			6,
+			1231,
 			814,
 			281
 		},
@@ -1835,8 +2123,8 @@ return {
 			2048
 		},
 		f_quad = {
-			825,
-			415,
+			832,
+			619,
 			812,
 			281
 		},
@@ -1860,7 +2148,7 @@ return {
 		},
 		f_quad = {
 			6,
-			415,
+			1518,
 			813,
 			281
 		},
@@ -1883,8 +2171,8 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			702,
+			832,
+			906,
 			812,
 			281
 		},
@@ -1907,8 +2195,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1099,
-			78,
+			1840,
+			117,
 			2,
 			2
 		},
@@ -1933,15 +2221,15 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1309,
+			832,
+			1449,
 			647,
 			336
 		},
 		alias = {}
 	},
 	shop_room_image_shop_offer_card_ = {
-		a_name = "room_shop-2.png",
+		a_name = "room_shop-1.png",
 		size = {
 			155,
 			222
@@ -1957,8 +2245,8 @@ return {
 			2048
 		},
 		f_quad = {
-			795,
-			907,
+			1896,
+			394,
 			152,
 			214
 		},
@@ -1981,8 +2269,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1994,
-			61,
+			1739,
+			109,
 			41,
 			39
 		},
@@ -2005,8 +2293,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1890,
-			109,
+			1914,
+			223,
 			82,
 			65
 		},
@@ -2029,8 +2317,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1643,
-			563,
+			1896,
+			318,
 			82,
 			65
 		},
@@ -2053,8 +2341,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1731,
-			563,
+			1658,
+			547,
 			82,
 			65
 		},
@@ -2077,8 +2365,8 @@ return {
 			2048
 		},
 		f_quad = {
-			659,
-			1530,
+			1746,
+			547,
 			82,
 			65
 		},
@@ -2102,7 +2390,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1651,
+			1997,
 			603,
 			36
 		},
@@ -2125,8 +2413,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1099,
-			86,
+			1848,
+			117,
 			2,
 			2
 		},
@@ -2151,34 +2439,10 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			928,
+			1068,
+			1444,
 			275,
 			431
-		},
-		alias = {}
-	},
-	["shop_room_image_shop_offer_title_bg copy_"] = {
-		a_name = "room_shop-1.png",
-		size = {
-			563,
-			61
-		},
-		trim = {
-			1,
-			1,
-			3,
-			2
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			6,
-			1757,
-			559,
-			58
 		},
 		alias = {}
 	},
@@ -2199,9 +2463,33 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1245,
+			832,
+			1385,
 			687,
+			58
+		},
+		alias = {}
+	},
+	shop_room_image_shop_offer_title_bg_short_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			563,
+			61
+		},
+		trim = {
+			1,
+			1,
+			3,
+			2
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			832,
+			1855,
+			559,
 			58
 		},
 		alias = {}
@@ -2223,8 +2511,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1698,
-			366,
+			1856,
+			108,
 			40,
 			38
 		},
@@ -2247,8 +2535,8 @@ return {
 			2048
 		},
 		f_quad = {
+			1742,
 			6,
-			1575,
 			295,
 			455
 		},
@@ -2271,7 +2559,7 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
+			1102,
 			6,
 			323,
 			492
@@ -2295,8 +2583,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1099,
-			94,
+			1832,
+			125,
 			2,
 			2
 		},
@@ -2322,8 +2610,8 @@ return {
 			2048
 		},
 		f_quad = {
-			931,
 			6,
+			1805,
 			688,
 			58
 		},
@@ -2347,7 +2635,7 @@ return {
 		},
 		f_quad = {
 			6,
-			989,
+			1869,
 			688,
 			58
 		},
@@ -2371,7 +2659,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1053,
+			1933,
 			688,
 			58
 		},
@@ -2394,8 +2682,8 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1117,
+			832,
+			1193,
 			688,
 			58
 		},
@@ -2418,8 +2706,32 @@ return {
 			2048
 		},
 		f_quad = {
+			832,
+			1257,
+			688,
+			58
+		},
+		alias = {}
+	},
+	shop_room_image_shop_special_offer_title_bg_wukong_ = {
+		a_name = "room_shop-1.png",
+		size = {
+			695,
+			64
+		},
+		trim = {
+			1,
+			1,
 			6,
-			1181,
+			5
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			832,
+			1321,
 			688,
 			58
 		},
@@ -2442,8 +2754,8 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1693,
+			832,
+			1791,
 			560,
 			58
 		},
@@ -2466,15 +2778,15 @@ return {
 			2048
 		},
 		f_quad = {
-			1643,
-			506,
+			1676,
+			158,
 			201,
 			51
 		},
 		alias = {}
 	},
 	["shop_room_image_spiders_art_left _"] = {
-		a_name = "room_shop-1.png",
+		a_name = "room_shop-2.png",
 		size = {
 			407,
 			574
@@ -2490,8 +2802,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1212,
-			702,
+			385,
+			6,
 			364,
 			510
 		},
@@ -2514,10 +2826,106 @@ return {
 			2048
 		},
 		f_quad = {
+			1431,
 			6,
-			1113,
 			305,
 			456
+		},
+		alias = {}
+	},
+	shop_room_image_wukong_art_left_ = {
+		a_name = "room_shop-2.png",
+		size = {
+			386,
+			561
+		},
+		trim = {
+			0,
+			0,
+			15,
+			2
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			568,
+			371,
+			559
+		},
+		alias = {}
+	},
+	shop_room_image_wukong_art_right_ = {
+		a_name = "room_shop-2.png",
+		size = {
+			383,
+			556
+		},
+		trim = {
+			10,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			6,
+			6,
+			373,
+			556
+		},
+		alias = {}
+	},
+	shop_room_image_wukong_dlc2_art_left_video_ = {
+		a_name = "room_shop-2.png",
+		size = {
+			271,
+			559
+		},
+		trim = {
+			0,
+			0,
+			1,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1369,
+			983,
+			270,
+			559
+		},
+		alias = {}
+	},
+	shop_room_image_wukong_dlc2_art_right_video_ = {
+		a_name = "room_shop-2.png",
+		size = {
+			257,
+			556
+		},
+		trim = {
+			1,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1645,
+			983,
+			256,
+			556
 		},
 		alias = {}
 	},
@@ -2538,8 +2946,8 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			6,
+			749,
+			1131,
 			295,
 			455
 		},
@@ -2562,8 +2970,8 @@ return {
 			2048
 		},
 		f_quad = {
-			636,
-			6,
+			749,
+			1592,
 			295,
 			455
 		},
@@ -2586,8 +2994,8 @@ return {
 			2048
 		},
 		f_quad = {
-			937,
-			6,
+			1068,
+			522,
 			295,
 			455
 		},
@@ -2610,8 +3018,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1238,
-			6,
+			1369,
+			522,
 			295,
 			455
 		},
@@ -2634,8 +3042,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1539,
-			6,
+			1670,
+			522,
 			295,
 			455
 		},
@@ -2658,8 +3066,8 @@ return {
 			2048
 		},
 		f_quad = {
-			335,
-			467,
+			1068,
+			983,
 			295,
 			455
 		},

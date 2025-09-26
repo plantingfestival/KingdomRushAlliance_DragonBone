@@ -64,7 +64,7 @@ return {
 			hidden = true,
 			default_image_name = "screen_slots_button_start_bg_0001",
 			WHEN = ctx.is_mobile,
-			pos = v(ctx.sw / 2, 700.6),
+			pos = v(ctx.sw / 2, ctx.has_footer and 650 or 700),
 			image_offset = v(-210.7, -68.85),
 			hit_rect = r(-ctx.sw, -ctx.sh, ctx.sw * 2, ctx.sh * 2),
 			children = {
@@ -139,6 +139,29 @@ return {
 			pos = v(ctx.sw / 2, 0.97 * ctx.sh)
 		},
 		{
+			vertical_align = "bottom",
+			font_size = 13,
+			text_align = "center",
+			id = "group_footer",
+			line_height = 0.8,
+			class = "GGLabel",
+			font_name = "fla_body",
+			WHEN = ctx.has_footer,
+			pos = v(ctx.sw / 2, ctx.OVT(760, "tablet", 745)),
+			size = v(ctx.OVT(0.8, "tablet", 0.68) * ctx.sw, 80),
+			anchor = v(ctx.OVT(0.8, "tablet", 0.68) * ctx.sw / 2, 80),
+			fit_size = ctx.OVT(false, "tablet", true),
+			text_key = ctx.footer_text_key,
+			colors = {
+				text = {
+					255,
+					255,
+					255,
+					255
+				}
+			}
+		},
+		{
 			class = "KView",
 			template_name = "group_slots_menu",
 			id = "group_slots_list",
@@ -176,7 +199,7 @@ return {
 			template_name = "group_8plus",
 			id = "group_8plus",
 			pos = v(ctx.sw - ctx.safe_frame.r, 126.65),
-			WHEN = ctx.is_censored_cn
+			WHEN = ctx.has_age_rating_logo
 		},
 		{
 			class = "RestoreView",
@@ -252,9 +275,9 @@ return {
 		},
 		{
 			initial_focus_id = "button_popup_no",
-			class = "GG5PopUpMessageChina",
-			template_name = "popup_message_china",
-			id = "popup_message_china",
+			class = "GG5PopUpMessageLong",
+			template_name = "popup_message_long",
+			id = "popup_message_long",
 			pos = v(ctx.sw / 2, 362),
 			size = v(ctx.sw, ctx.sh)
 		}

@@ -1,7 +1,7 @@
 -- chunkname: @./lib/middleclass.lua
 
 local middleclass = {
-	_VERSION = "middleclass v4.1.0",
+	_VERSION = "middleclass v4.1.1",
 	_URL = "https://github.com/kikito/middleclass",
 	_DESCRIPTION = "Object Orientation for Lua",
 	_LICENSE = "    MIT LICENSE\n\n    Copyright (c) 2011 Enrique García Cota\n\n    Permission is hereby granted, free of charge, to any person obtaining a\n    copy of this software and associated documentation files (the\n    \"Software\"), to deal in the Software without restriction, including\n    without limitation the rights to use, copy, modify, merge, publish,\n    distribute, sublicense, and/or sell copies of the Software, and to\n    permit persons to whom the Software is furnished to do so, subject to\n    the following conditions:\n\n    The above copyright notice and this permission notice shall be included\n    in all copies or substantial portions of the Software.\n\n    THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n  "
@@ -10,14 +10,22 @@ local middleclass = {
 local function _createIndexWrapper(aClass, f)
 	if f == nil then
 		return aClass.__instanceDict
+	elseif type(f) == "function" then
+		return function(self, name)
+			local value = aClass.__instanceDict[name]
+
+			if value ~= nil then
+				return value
+			else
+				return (f(self, name))
+			end
+		end
 	else
 		return function(self, name)
 			local value = aClass.__instanceDict[name]
 
 			if value ~= nil then
 				return value
-			elseif type(f) == "function" then
-				return (f(self, name))
 			else
 				return f[name]
 			end
@@ -73,7 +81,13 @@ local function _createClass(name, super)
 	if super then
 		setmetatable(aClass.static, {
 			__index = function(_, k)
-				return rawget(dict, k) or super.static[k]
+				local result = rawget(dict, k)
+
+				if result == nil then
+					return super.static[k]
+				end
+
+				return result
 			end
 		})
 	else
@@ -122,7 +136,7 @@ local DefaultMixin = {
 		return
 	end,
 	isInstanceOf = function(self, aClass)
-		return type(aClass) == "table" and (aClass == self.class or self.class:isSubclassOf(aClass))
+		return type(aClass) == "table" and type(self) == "table" and (self.class == aClass or type(self.class) == "table" and type(self.class.isSubclassOf) == "function" and self.class:isSubclassOf(aClass))
 	end,
 	static = {
 		allocate = function(self)
@@ -148,7 +162,9 @@ local DefaultMixin = {
 			local subclass = _createClass(name, self)
 
 			for methodName, f in pairs(self.__instanceDict) do
-				_propagateInstanceMethod(subclass, methodName, f)
+				if methodName ~= "__index" or type(f) ~= "table" then
+					_propagateInstanceMethod(subclass, methodName, f)
+				end
 			end
 
 			function subclass.initialize(instance, ...)

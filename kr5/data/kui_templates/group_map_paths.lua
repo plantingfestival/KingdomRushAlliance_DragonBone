@@ -1424,31 +1424,31 @@ return {
 					id = "l4_map_path_dot",
 					class = "KView",
 					template_name = "map_path_dot",
-					pos = v(180.35, 139.05)
+					pos = v(180.35, -60.3)
 				},
 				{
 					id = "l3_map_path_dot",
 					class = "KView",
 					template_name = "map_path_dot",
-					pos = v(192.8, 152.5)
+					pos = v(192.8, -46.85)
 				},
 				{
 					id = "l2_map_path_dot",
 					class = "KView",
 					template_name = "map_path_dot",
-					pos = v(200.75, 167.65)
+					pos = v(200.75, -31.7)
 				},
 				{
 					id = "l1_map_path_dot",
 					class = "KView",
 					template_name = "map_path_dot",
-					pos = v(203.4, 181.45)
+					pos = v(203.4, -17.9)
 				},
 				{
 					id = "l0_map_path_dot",
 					class = "KView",
 					template_name = "map_path_dot",
-					pos = v(195.95, 197.65)
+					pos = v(195.95, -1.7)
 				}
 			},
 			timeline = {
@@ -1513,7 +1513,7 @@ return {
 					frame_duration = 55,
 					id = "l4_map_path_dot",
 					f = 67,
-					pos = v(180.35, 139.05)
+					pos = v(180.35, -60.3)
 				},
 				{
 					a_from = 1,
@@ -1522,7 +1522,7 @@ return {
 					frame_duration = 48,
 					id = "l3_map_path_dot",
 					f = 74,
-					pos = v(192.8, 152.5)
+					pos = v(192.8, -46.85)
 				},
 				{
 					a_from = 1,
@@ -1531,7 +1531,7 @@ return {
 					frame_duration = 41,
 					id = "l2_map_path_dot",
 					f = 81,
-					pos = v(200.75, 167.65)
+					pos = v(200.75, -31.7)
 				},
 				{
 					a_from = 1,
@@ -1540,7 +1540,7 @@ return {
 					frame_duration = 34,
 					id = "l1_map_path_dot",
 					f = 88,
-					pos = v(203.4, 181.45)
+					pos = v(203.4, -17.9)
 				},
 				{
 					a_from = 1,
@@ -1549,7 +1549,7 @@ return {
 					frame_duration = 27,
 					id = "l0_map_path_dot",
 					f = 95,
-					pos = v(195.95, 197.65)
+					pos = v(195.95, -1.7)
 				}
 			}
 		},
@@ -1558,7 +1558,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 95,
-			pos = v(1491.45, -516.1),
+			pos = v(1491.45, -714.85),
 			children = {
 				{
 					id = "l9_map_path_dot",
@@ -1674,7 +1674,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 107,
-			pos = v(1438.75, -449.6),
+			pos = v(1438.75, -648.35),
 			children = {
 				{
 					id = "l8_map_path_dot",
@@ -1820,7 +1820,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 129,
-			pos = v(1504.5, -338.8),
+			pos = v(1504.5, -537.55),
 			children = {
 				{
 					id = "l13_map_path_dot",
@@ -2011,243 +2011,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 120,
-			pos = v(1776.6, -385.1),
-			children = {
-				{
-					id = "l15_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-18, 285.35)
-				},
-				{
-					id = "l14_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-37.65, 289.15)
-				},
-				{
-					id = "l13_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-53.9, 281.7)
-				},
-				{
-					id = "l12_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-55.95, 266.15)
-				},
-				{
-					id = "l11_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-47.9, 251.5)
-				},
-				{
-					id = "l10_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-48.1, 235.8)
-				},
-				{
-					id = "l9_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-71, 229)
-				},
-				{
-					id = "l8_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-102.65, 144)
-				},
-				{
-					id = "l7_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-116.95, 134.1)
-				},
-				{
-					id = "l6_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-136.9, 134.1)
-				},
-				{
-					id = "l5_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-136.9, 134.1)
-				},
-				{
-					id = "l4_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-155.8, 132)
-				},
-				{
-					id = "l3_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-166.3, 120.45)
-				},
-				{
-					id = "l2_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-165.25, 106.8)
-				},
-				{
-					id = "l1_map_path_dot",
-					class = "KView",
-					template_name = "map_path_dot",
-					pos = v(-150.55, 98.4)
-				}
-			},
-			timeline = {
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 113,
-					id = "l15_map_path_dot",
-					f = 8,
-					pos = v(-18, 285.35)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 106,
-					id = "l14_map_path_dot",
-					f = 15,
-					pos = v(-37.65, 289.15)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 100,
-					id = "l13_map_path_dot",
-					f = 21,
-					pos = v(-53.9, 281.7)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 94,
-					id = "l12_map_path_dot",
-					f = 27,
-					pos = v(-55.95, 266.15)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 88,
-					id = "l11_map_path_dot",
-					f = 33,
-					pos = v(-47.9, 251.5)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 82,
-					id = "l10_map_path_dot",
-					f = 39,
-					pos = v(-48.1, 235.8)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 76,
-					id = "l9_map_path_dot",
-					f = 45,
-					pos = v(-71, 229)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 56,
-					id = "l8_map_path_dot",
-					f = 65,
-					pos = v(-102.65, 144)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 49,
-					id = "l7_map_path_dot",
-					f = 72,
-					pos = v(-116.95, 134.1)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 43,
-					id = "l6_map_path_dot",
-					f = 78,
-					pos = v(-136.9, 134.1)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 37,
-					id = "l5_map_path_dot",
-					f = 84,
-					pos = v(-136.9, 134.1)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 31,
-					id = "l4_map_path_dot",
-					f = 90,
-					pos = v(-155.8, 132)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 25,
-					id = "l3_map_path_dot",
-					f = 96,
-					pos = v(-166.3, 120.45)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 19,
-					id = "l2_map_path_dot",
-					f = 102,
-					pos = v(-165.25, 106.8)
-				},
-				{
-					a_from = 1,
-					play = "once",
-					a_to = 10,
-					frame_duration = 14,
-					id = "l1_map_path_dot",
-					f = 107,
-					pos = v(-150.55, 98.4)
-				}
-			}
-		},
-		{
-			id = "path_16",
-			fps = 30,
-			class = "GGTimeline",
-			frame_duration = 120,
-			pos = v(1776.6, -385.1),
+			pos = v(1776.6, -583.85),
 			children = {
 				{
 					id = "l15_map_path_dot",
@@ -3213,7 +2977,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 135,
-			pos = v(1409.25, 330.85),
+			pos = v(1408, 135.85),
 			children = {
 				{
 					id = "l7_map_path_dot",
@@ -3329,7 +3093,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 138,
-			pos = v(1516.4, 284.55),
+			pos = v(1515.15, 89.55),
 			children = {
 				{
 					id = "l4_map_path_dot",
@@ -3415,7 +3179,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 121,
-			pos = v(1776.1, 335.55),
+			pos = v(1774.85, 140.55),
 			children = {
 				{
 					id = "l8_map_path_dot",
@@ -3561,7 +3325,7 @@ return {
 			fps = 30,
 			class = "GGTimeline",
 			frame_duration = 149,
-			pos = v(1967.2, 296.8),
+			pos = v(1965.95, 101.8),
 			children = {
 				{
 					id = "l7_map_path_dot",
@@ -3691,7 +3455,7 @@ return {
 			id = "path_29",
 			fps = 30,
 			class = "GGTimeline",
-			frame_duration = 63,
+			frame_duration = 121,
 			pos = v(992.9, -624.8),
 			children = {
 				{
@@ -3724,7 +3488,7 @@ return {
 					a_from = 1,
 					play = "once",
 					a_to = 10,
-					frame_duration = 56,
+					frame_duration = 114,
 					id = "l3_map_path_dot",
 					f = 8,
 					pos = v(23.8, 30.8)
@@ -3733,7 +3497,7 @@ return {
 					a_from = 1,
 					play = "once",
 					a_to = 10,
-					frame_duration = 49,
+					frame_duration = 107,
 					id = "l2_map_path_dot",
 					f = 15,
 					pos = v(14.65, 14)
@@ -3742,7 +3506,7 @@ return {
 					a_from = 1,
 					play = "once",
 					a_to = 10,
-					frame_duration = 42,
+					frame_duration = 100,
 					id = "l1_map_path_dot",
 					f = 22,
 					pos = v(-29.65, -27.4)
@@ -3751,7 +3515,7 @@ return {
 					a_from = 1,
 					play = "once",
 					a_to = 10,
-					frame_duration = 35,
+					frame_duration = 93,
 					id = "l0_map_path_dot",
 					f = 29,
 					pos = v(-47.9, -34.7)
@@ -3905,6 +3669,650 @@ return {
 			}
 		},
 		{
+			id = "path_32",
+			fps = 30,
+			class = "GGTimeline",
+			frame_duration = 99,
+			pos = v(1081.1, 610.85),
+			children = {
+				{
+					id = "l11_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-47.8, -34.35)
+				},
+				{
+					id = "l10_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-28.65, -25.65)
+				},
+				{
+					id = "l9_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-21.55, -7.2)
+				},
+				{
+					id = "l8_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-19.6, 8.6)
+				},
+				{
+					id = "l7_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-9.5, 23.95)
+				},
+				{
+					id = "l6_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-7.5, 40.15)
+				},
+				{
+					id = "l5_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-13.5, 56.95)
+				},
+				{
+					id = "l4_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-11.1, 75.2)
+				},
+				{
+					id = "l3_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(7.15, 88.15)
+				},
+				{
+					id = "l2_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(29.55, 96.15)
+				},
+				{
+					id = "l1_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(53.55, 102.15)
+				}
+			},
+			timeline = {
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 92,
+					id = "l11_map_path_dot",
+					f = 8,
+					pos = v(-47.8, -34.35)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 85,
+					id = "l10_map_path_dot",
+					f = 15,
+					pos = v(-28.65, -25.65)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 78,
+					id = "l9_map_path_dot",
+					f = 22,
+					pos = v(-21.55, -7.2)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 71,
+					id = "l8_map_path_dot",
+					f = 29,
+					pos = v(-19.6, 8.6)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 64,
+					id = "l7_map_path_dot",
+					f = 36,
+					pos = v(-9.5, 23.95)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 57,
+					id = "l6_map_path_dot",
+					f = 43,
+					pos = v(-7.5, 40.15)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 50,
+					id = "l5_map_path_dot",
+					f = 50,
+					pos = v(-13.5, 56.95)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 43,
+					id = "l4_map_path_dot",
+					f = 57,
+					pos = v(-11.1, 75.2)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 36,
+					id = "l3_map_path_dot",
+					f = 64,
+					pos = v(7.15, 88.15)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 29,
+					id = "l2_map_path_dot",
+					f = 71,
+					pos = v(29.55, 96.15)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 22,
+					id = "l1_map_path_dot",
+					f = 78,
+					pos = v(53.55, 102.15)
+				}
+			}
+		},
+		{
+			id = "path_33",
+			fps = 30,
+			class = "GGTimeline",
+			frame_duration = 66,
+			pos = v(1233.3, 746.9),
+			children = {
+				{
+					id = "l4_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-29.8, -44.7)
+				},
+				{
+					id = "l3_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-11.85, -57.75)
+				},
+				{
+					id = "l2_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(12, -63.45)
+				},
+				{
+					id = "l1_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(37.9, -62.65)
+				}
+			},
+			timeline = {
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 52,
+					id = "l4_map_path_dot",
+					f = 15,
+					pos = v(-29.8, -44.7)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 45,
+					id = "l3_map_path_dot",
+					f = 22,
+					pos = v(-11.85, -57.75)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 38,
+					id = "l2_map_path_dot",
+					f = 29,
+					pos = v(12, -63.45)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 31,
+					id = "l1_map_path_dot",
+					f = 36,
+					pos = v(37.9, -62.65)
+				}
+			}
+		},
+		{
+			id = "path_34",
+			fps = 30,
+			class = "GGTimeline",
+			frame_duration = 137,
+			pos = v(1370.85, 709.7),
+			children = {
+				{
+					id = "l13_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-47.4, -34.35)
+				},
+				{
+					id = "l12_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-23.35, -42.25)
+				},
+				{
+					id = "l11_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-21.55, -61.8)
+				},
+				{
+					id = "l10_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-35.8, -75.6)
+				},
+				{
+					id = "l9_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-49.15, -88.55)
+				},
+				{
+					id = "l8_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-59.35, -102.25)
+				},
+				{
+					id = "l7_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-104.4, -136.35)
+				},
+				{
+					id = "l6_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-117.95, -143.5)
+				},
+				{
+					id = "l5_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-136.85, -137.5)
+				},
+				{
+					id = "l4_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-158, -131.35)
+				},
+				{
+					id = "l3_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-177.35, -133.5)
+				},
+				{
+					id = "l2_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-170.5, -154.9)
+				},
+				{
+					id = "l1_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-182.7, -169.2)
+				}
+			},
+			timeline = {
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 130,
+					id = "l13_map_path_dot",
+					f = 8,
+					pos = v(-47.4, -34.35)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 123,
+					id = "l12_map_path_dot",
+					f = 15,
+					pos = v(-23.35, -42.25)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 116,
+					id = "l11_map_path_dot",
+					f = 22,
+					pos = v(-21.55, -61.8)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 109,
+					id = "l10_map_path_dot",
+					f = 29,
+					pos = v(-35.8, -75.6)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 102,
+					id = "l9_map_path_dot",
+					f = 36,
+					pos = v(-49.15, -88.55)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 95,
+					id = "l8_map_path_dot",
+					f = 43,
+					pos = v(-59.35, -102.25)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 83,
+					id = "l7_map_path_dot",
+					f = 55,
+					pos = v(-104.4, -136.35)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 76,
+					id = "l6_map_path_dot",
+					f = 62,
+					pos = v(-117.95, -143.5)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 69,
+					id = "l5_map_path_dot",
+					f = 69,
+					pos = v(-136.85, -137.5)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 62,
+					id = "l4_map_path_dot",
+					f = 76,
+					pos = v(-158, -131.35)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 55,
+					id = "l3_map_path_dot",
+					f = 83,
+					pos = v(-177.35, -133.5)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 48,
+					id = "l2_map_path_dot",
+					f = 90,
+					pos = v(-170.5, -154.9)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 41,
+					id = "l1_map_path_dot",
+					f = 97,
+					pos = v(-182.7, -169.2)
+				}
+			}
+		},
+		{
+			id = "path_35",
+			fps = 30,
+			class = "GGTimeline",
+			frame_duration = 108,
+			pos = v(1332.5, 601.15),
+			children = {
+				{
+					id = "l11_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-135.75, -79.45)
+				},
+				{
+					id = "l10_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-113.45, -82.75)
+				},
+				{
+					id = "l9_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-96.4, -89.25)
+				},
+				{
+					id = "l8_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-79.45, -96.15)
+				},
+				{
+					id = "l7_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-58.55, -90.95)
+				},
+				{
+					id = "l6_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-44.55, -76.75)
+				},
+				{
+					id = "l5_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-32.1, -61.55)
+				},
+				{
+					id = "l4_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(-15.05, -51.3)
+				},
+				{
+					id = "l3_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(0.6, -40.45)
+				},
+				{
+					id = "l2_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(15.75, -32.25)
+				},
+				{
+					id = "l1_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(28.3, -19.7)
+				},
+				{
+					id = "l0_map_path_dot",
+					class = "KView",
+					template_name = "map_path_dot",
+					pos = v(46.95, -8.45)
+				}
+			},
+			timeline = {
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 101,
+					id = "l11_map_path_dot",
+					f = 8,
+					pos = v(-135.75, -79.45)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 94,
+					id = "l10_map_path_dot",
+					f = 15,
+					pos = v(-113.45, -82.75)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 87,
+					id = "l9_map_path_dot",
+					f = 22,
+					pos = v(-96.4, -89.25)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 80,
+					id = "l8_map_path_dot",
+					f = 29,
+					pos = v(-79.45, -96.15)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 73,
+					id = "l7_map_path_dot",
+					f = 36,
+					pos = v(-58.55, -90.95)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 66,
+					id = "l6_map_path_dot",
+					f = 43,
+					pos = v(-44.55, -76.75)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 59,
+					id = "l5_map_path_dot",
+					f = 50,
+					pos = v(-32.1, -61.55)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 52,
+					id = "l4_map_path_dot",
+					f = 57,
+					pos = v(-15.05, -51.3)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 45,
+					id = "l3_map_path_dot",
+					f = 64,
+					pos = v(0.6, -40.45)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 38,
+					id = "l2_map_path_dot",
+					f = 71,
+					pos = v(15.75, -32.25)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 31,
+					id = "l1_map_path_dot",
+					f = 78,
+					pos = v(28.3, -19.7)
+				},
+				{
+					a_from = 1,
+					play = "once",
+					a_to = 10,
+					frame_duration = 24,
+					id = "l0_map_path_dot",
+					f = 85,
+					pos = v(46.95, -8.45)
+				}
+			}
+		},
+		{
 			id = "timeline_portal_t2",
 			fps = 30,
 			class = "GGTimeline",
@@ -3987,7 +4395,7 @@ return {
 			class = "GGTimeline",
 			frame_duration = 17,
 			play = "loop",
-			pos = v(1434.35, -529.3),
+			pos = v(1434.35, -730.35),
 			children = {
 				{
 					class = "GGAni",

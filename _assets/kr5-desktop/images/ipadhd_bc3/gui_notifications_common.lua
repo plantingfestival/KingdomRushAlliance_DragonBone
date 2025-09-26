@@ -2025,6 +2025,510 @@ return {
 		},
 		alias = {}
 	},
+	notification_enemies_0078 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1259,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0079 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1388,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0080 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1517,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0081 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1646,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0082 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1775,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0083 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			746,
+			1904,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0084 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0085 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1006,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0086 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1136,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0087 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1266,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0088 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1396,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0089 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1526,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0090 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1656,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0091 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1786,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0092 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1916,
+			872,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0093 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1001,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0094 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1130,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0095 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1259,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0096 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1388,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0097 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1517,
+			127,
+			126
+		},
+		alias = {}
+	},
+	notification_enemies_0098 = {
+		a_name = "gui_notifications_common-1.dds",
+		size = {
+			180,
+			128
+		},
+		trim = {
+			26,
+			1,
+			27,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			876,
+			1646,
+			127,
+			126
+		},
+		alias = {}
+	},
 	notifications_but_lightblue_0001 = {
 		a_name = "gui_notifications_common-1.dds",
 		size = {

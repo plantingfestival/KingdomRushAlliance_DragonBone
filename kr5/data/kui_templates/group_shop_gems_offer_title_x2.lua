@@ -5,7 +5,7 @@ return {
 	children = {
 		{
 			class = "KImageView",
-			image_name = "shop_room_image_shop_offer_title_bg copy_",
+			image_name = "shop_room_image_shop_offer_title_bg_short_",
 			pos = v(2.05, -1.1),
 			anchor = v(285.15, 28.7)
 		},

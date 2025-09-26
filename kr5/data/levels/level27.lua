@@ -45,7 +45,7 @@ function level:update(store)
 			y = 384
 		}, 1)
 		signal.emit("show-gui")
-		signal.emit("end-cinematic")
+		signal.emit("end-cinematic", true)
 
 		while not store.waves_finished or LU.has_alive_enemies(store) do
 			coroutine.yield()

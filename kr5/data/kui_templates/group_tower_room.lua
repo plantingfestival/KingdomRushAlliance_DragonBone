@@ -322,6 +322,14 @@ return {
 			pos = v(248.75, 497.65)
 		},
 		{
+			template_name = "group_tower_skills_triple",
+			class = "KView",
+			transition_delay = 0.15,
+			id = "group_tower_skills_triple",
+			transition = "up",
+			pos = v(248.75, 497.65)
+		},
+		{
 			class = "KView",
 			template_name = "group_tower_roster",
 			id = "group_tower_roster",
@@ -512,6 +520,14 @@ return {
 					anchor = v(51.75, 31.2)
 				},
 				{
+					class = "KImageView",
+					image_name = "tower_room_image_dlc_wukong_badge_big_",
+					id = "image_dlc_2_badge_big",
+					pos = v(284.8, 47.9),
+					scale = v(1, 1),
+					anchor = v(51.75, 31.2)
+				},
+				{
 					id = "group_dlc_tooltip",
 					class = "KView",
 					pos = v(383.15, 61.95),
@@ -581,6 +597,12 @@ return {
 			id = "tower_room_skill_tooltip",
 			class = "KView",
 			template_name = "group_tower_room_skill_tooltip",
+			pos = v(405.25, 402.25)
+		},
+		{
+			id = "tower_room_skill_tooltip_triple",
+			class = "KView",
+			template_name = "group_tower_room_skill_triple_tooltip",
 			pos = v(405.25, 402.25)
 		},
 		{

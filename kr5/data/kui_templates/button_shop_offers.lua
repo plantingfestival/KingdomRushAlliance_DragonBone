@@ -155,7 +155,15 @@ return {
 			image_name = "shop_room_image_shop_offer_all_towers_",
 			id = "all_tower",
 			pos = v(-2, 5),
-			WHEN = ctx.custom_offer and ctx.all_towers,
+			WHEN = ctx.custom_offer and ctx.all_towers and not ctx.is_censored_cn,
+			anchor = v(525.85, 144.1)
+		},
+		{
+			class = "KImageView",
+			image_name = "shop_room_image_shop_offer_all_towers_censored_cn_",
+			id = "all_tower_censored_cn",
+			pos = v(-2, 5),
+			WHEN = ctx.custom_offer and ctx.all_towers and ctx.is_censored_cn,
 			anchor = v(525.85, 144.1)
 		},
 		{
@@ -163,7 +171,15 @@ return {
 			image_name = "shop_room_image_shop_offer_all_heroes_",
 			id = "all_heroes",
 			pos = v(-2, 5),
-			WHEN = ctx.custom_offer and ctx.all_heroes,
+			WHEN = ctx.custom_offer and ctx.all_heroes and not ctx.is_censored_cn,
+			anchor = v(525.85, 144.1)
+		},
+		{
+			class = "KImageView",
+			image_name = "shop_room_image_shop_offer_all_heroes_censored_cn_",
+			id = "all_heroes_censored_cn",
+			pos = v(-2, 5),
+			WHEN = ctx.custom_offer and ctx.all_heroes and ctx.is_censored_cn,
 			anchor = v(525.85, 144.1)
 		},
 		{

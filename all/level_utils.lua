@@ -615,16 +615,20 @@ function LU.list_entities(t, template_name, tag)
 end
 
 function LU.has_alive_enemies(store, excluded_templates)
-	local store_enemies = table.filter(store.entities, function(_, e)
-		return e.main_script and (e.main_script.co or e.main_script.runs > 0) and (e.enemy and e.health and not e.health.dead or e.enemy and e.death_spawns or e.spawner and not e.spawner.eternal or e.picked_enemies and #e.picked_enemies > 0 or e.tunnel and #e.tunnel.picked_enemies > 0 or e.template_name == "nav_faerie") and (not excluded_templates or not table.contains(excluded_templates, e.template_name))
+	local store_enemies
+	local l_entities = SSO and SSO:get_p_list("alive_enemies") or store.entities
+
+	store_enemies = table.filter(l_entities, function(_, e)
+		return e.main_script and (e.main_script.co or e.main_script.runs > 0) and (e.enemy and e.health and not e.health.dead or e.enemy and e.death_spawns or e.spawner and not e.spawner.eternal or e.picked_enemies and #e.picked_enemies > 0 or e.tunnel and #e.tunnel.picked_enemies > 0 or IS_KR3 and e.template_name == "nav_faerie") and (not excluded_templates or not table.contains(excluded_templates, e.template_name))
 	end)
+
 	local pending_enemies = table.filter(store.pending_inserts, function(_, e)
-		return e.enemy or e.template_name == "nav_faerie"
+		return e.enemy or IS_KR3 and e.template_name == "nav_faerie"
 	end)
 	local wait_for_graveyard = false
 
 	if #store_enemies == 0 and #pending_enemies == 0 then
-		local graveyards = E:filter(store.entities, "graveyard")
+		local graveyards = SSO and SSO:get_p_list("graveyards") or E:filter(store.entities, "graveyard")
 
 		if #graveyards > 0 then
 			if store._graveyards_check_ts then

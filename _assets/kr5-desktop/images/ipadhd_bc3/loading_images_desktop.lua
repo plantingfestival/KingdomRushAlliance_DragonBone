@@ -200,5 +200,30 @@ return {
 			1536
 		},
 		alias = {}
+	},
+	loading_08_1 = {
+		a_name = "loading_images_desktop-9.dds",
+		defer = true,
+		size = {
+			2731,
+			1536
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2732,
+			1536
+		},
+		f_quad = {
+			0,
+			0,
+			2731,
+			1536
+		},
+		alias = {}
 	}
 }

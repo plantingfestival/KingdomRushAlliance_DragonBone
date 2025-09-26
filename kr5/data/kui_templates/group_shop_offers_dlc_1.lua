@@ -20,17 +20,40 @@ return {
 			slice_rect = r(42, 183.4, 46.05, 154.05)
 		},
 		{
+			id = "MovieClip5418",
+			image_name = "shop_room_image_frame_dlc1_overlay_bottom_video_",
+			class = "KImageView",
+			pos = v(-3.6, 233.25),
+			anchor = v(400.7, 26.9)
+		},
+		{
+			class = "KImageView",
+			image_name = "shop_room_image_frame_dlc1_overlay_top_video_",
+			id = "MovieClip5419",
+			pos = v(-3.65, -265.95),
+			WHEN = ctx.show_video,
+			anchor = v(400.7, 8.6)
+		},
+		{
+			class = "GG5Button",
+			template_name = "button_shop_offers_dwarves_video",
+			id = "button_shop_offers_bg",
+			pos = v(-6, -18.8),
+			WHEN = ctx.show_video
+		},
+		{
 			class = "GG5Button",
 			template_name = "button_shop_offers_dwarves",
 			id = "button_shop_offers_bg",
 			pos = v(-7.3, -18.8),
-			WHEN = ctx.big_offer
+			WHEN = ctx.big_offer and not ctx.show_video
 		},
 		{
-			id = "image_shop_offer_ends_bg",
 			image_name = "shop_room_image_shop_offer_ends_bg_",
 			class = "KImageView",
+			id = "image_shop_offer_ends_bg",
 			pos = v(54.1, 227.5),
+			UNLESS = ctx.show_video,
 			anchor = v(366.7, 16.8)
 		},
 		{
@@ -39,16 +62,36 @@ return {
 			pos = v(-10.75, -267.95)
 		},
 		{
-			class = "KImageView",
 			image_name = "shop_room_image_dwarves_art_right_",
+			class = "KImageView",
+			id = "MovieClip5415",
 			pos = v(331.35, 77.5),
+			UNLESS = ctx.show_video,
 			anchor = v(225.35, 368)
 		},
 		{
-			class = "KImageView",
 			image_name = "shop_room_image_dwarves_art_left_",
+			class = "KImageView",
+			id = "MovieClip5414",
 			pos = v(-347.2, 49),
+			UNLESS = ctx.show_video,
 			anchor = v(227.65, 339.5)
+		},
+		{
+			class = "KImageView",
+			image_name = "shop_room_image_dwarves_dlc1_art_right_video_",
+			id = "MovieClip5413",
+			pos = v(329.55, 77.5),
+			WHEN = ctx.show_video,
+			anchor = v(41.1, 368)
+		},
+		{
+			class = "KImageView",
+			image_name = "shop_room_image_dwarves_dlc1_art_left_video_",
+			id = "MovieClip5412",
+			pos = v(-347.2, 49),
+			WHEN = ctx.show_video,
+			anchor = v(226.55, 339.5)
 		},
 		{
 			class = "KView",

@@ -5,12 +5,12 @@ local d = {}
 d.item_props = {
 	splash = {
 		src = "screen_splash",
-		next = "china_advise",
+		next = "splash_message",
 		type = "screen"
 	},
-	china_advise = {
-		src = "screen_china_advise",
-		skip_check = "check_skip_china_advise",
+	splash_message = {
+		src = "screen_splash_message",
+		skip_check = "check_skip_splash_message",
 		next = "consent",
 		type = "screen"
 	},
@@ -83,6 +83,16 @@ d.item_props = {
 	},
 	boss_fight_8_end = {
 		src = "screen_boss_fight_8_end",
+		next = "map",
+		type = "screen"
+	},
+	boss_fight_9_end = {
+		src = "screen_boss_fight_9_end",
+		next = "map",
+		type = "screen"
+	},
+	boss_fight_10_end = {
+		src = "screen_boss_fight_10_end",
 		next = "map",
 		type = "screen"
 	},
@@ -167,6 +177,16 @@ d.loading_image_name = {
 			28,
 			29,
 			30
+		}
+	},
+	{
+		"loading_08_1",
+		{
+			31,
+			32,
+			33,
+			34,
+			35
 		}
 	},
 	default = "loading_00_1"

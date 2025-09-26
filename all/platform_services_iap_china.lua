@@ -1136,6 +1136,24 @@ function tiap:get_tower_sales()
 	return offers
 end
 
+function tiap:get_gems_sales()
+	if self:is_premium() then
+		log.error("gems_sales_gpiab is premium. no gems sales shown")
+
+		return {}
+	end
+
+	local offers = RC.v["gems_sales_" .. self.rc_suffix]
+
+	if not offers then
+		log.error("TEST IAP gems_sales_%s not found in remote_config", self.rc_suffix)
+
+		return {}
+	end
+
+	return offers
+end
+
 function tiap:get_dlcs(owned)
 	local dlcs = {}
 

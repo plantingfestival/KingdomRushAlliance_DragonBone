@@ -461,6 +461,143 @@ return {
 			template = "enemy",
 			image = "encyclopedia_creeps_0088"
 		},
+		enemy_fire_phoenix = {
+			icon = "notification_enemies_0078",
+			image = "encyclopedia_creeps_0090",
+			template = "enemy"
+		},
+		enemy_blaze_raider = {
+			icon = "notification_enemies_0080",
+			image = "encyclopedia_creeps_0092",
+			template = "enemy"
+		},
+		enemy_flame_guard = {
+			icon = "notification_enemies_0081",
+			image = "encyclopedia_creeps_0093",
+			template = "enemy"
+		},
+		enemy_fire_fox = {
+			icon = "notification_enemies_0079",
+			image = "encyclopedia_creeps_0091",
+			template = "enemy"
+		},
+		enemy_nine_tailed_fox = {
+			icon = "notification_enemies_0085",
+			image = "encyclopedia_creeps_0097",
+			template = "enemy"
+		},
+		enemy_burning_treant = {
+			icon = "notification_enemies_0083",
+			image = "encyclopedia_creeps_0095",
+			template = "enemy"
+		},
+		enemy_wuxian = {
+			icon = "notification_enemies_0082",
+			image = "encyclopedia_creeps_0094",
+			template = "enemy"
+		},
+		enemy_ash_spirit = {
+			icon = "notification_enemies_0084",
+			image = "encyclopedia_creeps_0096",
+			template = "enemy"
+		},
+		boss_redboy_teen = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0098"
+		},
+		enemy_water_spirit = {
+			icon = "notification_enemies_0086",
+			image = "encyclopedia_creeps_0099",
+			template = "enemy"
+		},
+		enemy_water_spirit_spawnless = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0099"
+		},
+		enemy_storm_spirit = {
+			icon = "notification_enemies_0087",
+			image = "encyclopedia_creeps_0100",
+			template = "enemy"
+		},
+		enemy_qiongqi = {
+			icon = "notification_enemies_0088",
+			image = "encyclopedia_creeps_0101",
+			template = "enemy"
+		},
+		enemy_gale_warrior = {
+			icon = "notification_enemies_0089",
+			image = "encyclopedia_creeps_0102",
+			template = "enemy"
+		},
+		enemy_water_sorceress = {
+			icon = "notification_enemies_0090",
+			image = "encyclopedia_creeps_0103",
+			template = "enemy"
+		},
+		enemy_storm_elemental = {
+			icon = "notification_enemies_0091",
+			image = "encyclopedia_creeps_0104",
+			template = "enemy"
+		},
+		enemy_citizen = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0105"
+		},
+		enemy_citizen_1 = {
+			icon = "notification_enemies_0092",
+			image = "encyclopedia_creeps_0105",
+			template = "enemy"
+		},
+		enemy_citizen_2 = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0105"
+		},
+		enemy_citizen_3 = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0105"
+		},
+		enemy_citizen_4 = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0105"
+		},
+		enemy_fan_guard = {
+			icon = "notification_enemies_0094",
+			image = "encyclopedia_creeps_0106",
+			template = "enemy"
+		},
+		enemy_palace_guard = {
+			icon = "notification_enemies_0093",
+			image = "encyclopedia_creeps_0107",
+			template = "enemy"
+		},
+		boss_princess_iron_fan = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0108"
+		},
+		enemy_golden_eyed = {
+			icon = "notification_enemies_0096",
+			image = "encyclopedia_creeps_0109",
+			template = "enemy"
+		},
+		enemy_demon_minotaur = {
+			icon = "notification_enemies_0095",
+			image = "encyclopedia_creeps_0113",
+			template = "enemy"
+		},
+		enemy_hellfire_warlock = {
+			icon = "notification_enemies_0098",
+			image = "encyclopedia_creeps_0111",
+			template = "enemy"
+		},
+		enemy_doom_bringer = {
+			icon = "notification_enemies_0097",
+			image = "encyclopedia_creeps_0110",
+			template = "enemy"
+		},
+		boss_bull_king = {
+			template = "enemy",
+			image = "encyclopedia_creeps_0112"
+		},
 		TIP_ARMOR = {
 			always = true,
 			ach_flag = 1,
@@ -4142,6 +4279,843 @@ return {
 				80,
 				255
 			}
+		},
+		LV32_BOSS_INTRO_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_INTRO_01",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_INTRO_02 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_INTRO_02",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_INTRO_03 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_INTRO_03",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_PREFIGHT_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_PREFIGHT_01",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_PREFIGHT_02 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_PREFIGHT_02",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_PREFIGHT_03 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_PREFIGHT_03",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_01_LOW = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_01",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_02_LOW = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_02",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_03_LOW = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_03",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_04_LOW = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_04",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_05_LOW = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_05",
+			size = v(200, 40),
+			offset = v(512, 490),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_01_HIGH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_01",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_02_HIGH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_02",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_03_HIGH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_03",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_04_HIGH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_04",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_ABILITY_05_HIGH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL32_BOSS_ABILITY_05",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV32_BOSS_DEATH = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL32_BOSS_FINAL_01",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_INTRO_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL34_BOSS_INTRO_01",
+			size = v(200, 40),
+			offset = v(600, 450),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_BOSSFIGHT_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL34_BOSS_BOSSFIGHT_01",
+			size = v(200, 40),
+			offset = v(600, 450),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_BOSS_WAVES_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL34_BOSS_WAVES_01",
+			size = v(200, 40),
+			offset = v(600, 450),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_BOSS_WAVES_02 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL34_BOSS_WAVES_02",
+			size = v(200, 40),
+			offset = v(600, 450),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_BOSS_DEATH_01_UP = {
+			time = 2,
+			origin = "world",
+			flags = "callout-center-down centered dialog",
+			text = "TAUNT_LVL34_BOSS_DEATH_01",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV34_BOSS_BOSS_DEATH_01_DOWN = {
+			time = 2,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL34_BOSS_DEATH_01",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_INTRO_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL35_BOSS_INTRO_01",
+			size = v(200, 40),
+			offset = v(512, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_INTRO_02 = {
+			time = 1.5,
+			origin = "world",
+			flags = "callout--side-right centered dialog",
+			text = "TAUNT_LVL35_BOSS_INTRO_02",
+			size = v(200, 40),
+			offset = v(1050, 570),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_INTRO_03 = {
+			time = 2,
+			origin = "world",
+			flags = "callout-side-left centered dialog",
+			text = "TAUNT_LVL35_BOSS_INTRO_03",
+			size = v(200, 40),
+			offset = v(-40, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_DESTROY_HOUSE_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL35_BOSS_DESTROY_HOUSE_01",
+			size = v(200, 40),
+			offset = v(512, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_DESTROY_HOUSE_02 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL35_BOSS_DESTROY_HOUSE_02",
+			size = v(200, 40),
+			offset = v(512, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_DESTROY_HOUSE_03 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL35_BOSS_DESTROY_HOUSE_03",
+			size = v(200, 40),
+			offset = v(512, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_PREFIGHT_01 = {
+			time = 3,
+			origin = "world",
+			flags = "callout-center-top centered dialog",
+			text = "TAUNT_LVL35_BOSS_PREFIGHT_01",
+			size = v(200, 40),
+			offset = v(512, 550),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
+		},
+		LV35_BOSS_DEATH = {
+			time = 1.5,
+			origin = "world",
+			flags = "callout-center-bottom centered dialog",
+			text = "TAUNT_LVL35_BOSS_DEATH_01",
+			size = v(200, 40),
+			offset = v(512, 500),
+			padding = v(40, 15),
+			bg_color = {
+				37,
+				43,
+				47,
+				255
+			},
+			text_color = {
+				255,
+				50,
+				80,
+				255
+			},
+			line_color = {
+				255,
+				50,
+				80,
+				255
+			}
 		}
 	},
 	tower_menu_button_places = {
@@ -4157,12 +5131,18 @@ return {
 		v(-92 * ring_scale, -146 * ring_scale),
 		v(92 * ring_scale, -146 * ring_scale),
 		v(0 * ring_scale, -155 * ring_scale),
-		v(-145 * ring_scale, 78 * ring_scale)
+		v(-145 * ring_scale, 78 * ring_scale),
+		v(-140 * ring_scale, -100 * ring_scale),
+		v(140 * ring_scale, -100 * ring_scale)
 	},
 	tower_menu_power_places = {
 		v(30, 0.8),
 		v(50.8, 9.6),
 		v(58.8, 29.6)
+	},
+	tower_menu_buttons_hit_rect_factors = {
+		tw_sell = 0.55,
+		tw_rally = 0.8
 	},
 	range_center_offset = v(0, -12),
 	damage_icons = {
@@ -4205,6 +5185,43 @@ return {
 					to = 20,
 					prefix = "spiderQueen_powerNet",
 					from = 15
+				}
+			}
+		},
+		dragon_boss = {
+			image = "ui_redboy_image_0001",
+			animations = {
+				block = {
+					to = 23,
+					prefix = "ui_redboy_image",
+					from = 1
+				},
+				unblock = {
+					to = 40,
+					prefix = "ui_redboy_image",
+					from = 24
+				}
+			}
+		}
+	},
+	hero_portrait_block_styles = {
+		boss_princess = {
+			image = "hero_stun_fire_0001",
+			animations = {
+				block = {
+					to = 16,
+					prefix = "hero_stun_fire",
+					from = 1
+				},
+				loop = {
+					to = 26,
+					prefix = "hero_stun_fire",
+					from = 17
+				},
+				unblock = {
+					to = 43,
+					prefix = "hero_stun_fire",
+					from = 27
 				}
 			}
 		}

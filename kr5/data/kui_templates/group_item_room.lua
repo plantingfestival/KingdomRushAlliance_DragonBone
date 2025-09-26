@@ -4,6 +4,302 @@ return {
 	class = "KView",
 	children = {
 		{
+			class = "KView",
+			id = "group_room_bg_desktop",
+			transition = "down",
+			pos = v(3, 316.05),
+			UNLESS = ctx.is_mobile,
+			children = {
+				{
+					class = "GG59View",
+					image_name = "room_bg_desktop_9slice_bg_color_desktop_",
+					id = "bg_color",
+					pos = v(-8.05, 36.55),
+					size = v(1398.6968, 838.2636),
+					anchor = v(698.6868, 419.1318),
+					slice_rect = r(21.3, 20.45, 10, 10.05)
+				},
+				{
+					class = "KView",
+					id = "group_bg_textures",
+					pos = v(-8, 19.7),
+					scale = v(1.0147, 0.8005),
+					children = {
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_1",
+							pos = v(-575, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_2",
+							pos = v(-345, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_3",
+							pos = v(-115, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_4",
+							pos = v(115, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_5",
+							pos = v(345, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_texture_desktop_",
+							id = "bg_texture_6",
+							pos = v(575, 31.2),
+							scale = v(1.0428, 1.1723),
+							anchor = v(107.45, 454.15)
+						}
+					}
+				},
+				{
+					class = "GG59View",
+					image_name = "room_bg_desktop_9slice_bg_frame_desktop_",
+					id = "bg_frame",
+					pos = v(-17.2, -6.8),
+					size = v(1486.6628, 905.3759),
+					anchor = v(729.575, 392.9887),
+					slice_rect = r(100.4, 75.25, 22.3, 15.4)
+				},
+				{
+					id = "frame_top_right_corner",
+					class = "KImageView",
+					image_name = "room_bg_desktop_image_bg_frame_topcorner_desktop_",
+					hidden = true,
+					pos = v(656.7, -369.55),
+					anchor = v(9.9, 29.15)
+				},
+				{
+					class = "GG5Button",
+					focus_image_name = "room_bg_desktop_button_bg_close_desktop_0003",
+					id = "button_close_popup",
+					default_image_name = "room_bg_desktop_button_bg_close_desktop_0001",
+					pos = v(679.75, -381.8),
+					scale = v(1, 1),
+					anchor = v(42.7, 49.45)
+				},
+				{
+					id = "group_rivets_left",
+					class = "KView",
+					pos = v(-717.35, 276.8),
+					children = {
+						{
+							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
+							class = "KImageView",
+							pos = v(8.65, -456.45),
+							scale = v(0.7772, 0.7772),
+							anchor = v(11.1, 9.6)
+						},
+						{
+							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
+							class = "KImageView",
+							pos = v(8.65, -10.5),
+							scale = v(0.7772, 0.7772),
+							anchor = v(11.1, 9.6)
+						}
+					}
+				},
+				{
+					id = "group_rivets_right",
+					class = "KView",
+					pos = v(686.95, 276.8),
+					children = {
+						{
+							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
+							class = "KImageView",
+							pos = v(8.65, -456.45),
+							scale = v(0.7772, 0.7772),
+							anchor = v(11.1, 9.6)
+						},
+						{
+							image_name = "room_bg_desktop_image_bg_rivet_desktop_",
+							class = "KImageView",
+							pos = v(8.65, -9.25),
+							scale = v(0.7772, 0.7772),
+							anchor = v(11.1, 9.6)
+						}
+					}
+				},
+				{
+					id = "group_rivets_bottom",
+					class = "KView",
+					pos = v(-460.3, 458.5),
+					children = {
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(-146.55, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(-45.75, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(55.05, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(155.85, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(256.65, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(357.45, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(458.25, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(559.05, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(659.85, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(760.65, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(861.45, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(962.25, -6.45),
+							anchor = v(5.75, 6.4)
+						},
+						{
+							class = "KImageView",
+							image_name = "room_bg_desktop_image_bg_rivet_small_desktop_",
+							pos = v(1063.05, -6.45),
+							anchor = v(5.75, 6.4)
+						}
+					}
+				},
+				{
+					class = "GG59View",
+					image_name = "room_bg_desktop_9slice_bg_title_desktop_",
+					id = "title_bg",
+					pos = v(-6.6, -425.6),
+					size = v(556.9127, 73.5989),
+					anchor = v(273.4073, 32.5995),
+					slice_rect = r(99.95, 3.05, 16.8, 24.75)
+				},
+				{
+					vertical_align = "middle-caps",
+					text_align = "center",
+					font_size = 50,
+					line_height_extra = "1",
+					fit_size = true,
+					text = "ITEMS",
+					text_key = "MAP_BUTTON_ITEMS",
+					class = "GG5ShaderLabel",
+					id = "title_text",
+					font_name = "fla_h",
+					pos = v(-230.6, -450.65),
+					scale = v(1, 1),
+					size = v(460, 68.15),
+					colors = {
+						text = {
+							85,
+							186,
+							255
+						}
+					},
+					shaders = {
+						"p_bands",
+						"p_outline_tint"
+					},
+					shader_args = {
+						{
+							margin = 1,
+							p1 = 0.5,
+							p2 = 0.99,
+							c1 = {
+								0.4745,
+								1,
+								1,
+								1
+							},
+							c2 = {
+								0.3333,
+								0.7255,
+								0.9961,
+								1
+							},
+							c3 = {
+								0.3333,
+								0.7255,
+								0.9961,
+								1
+							}
+						},
+						{
+							thickness = 4.166666666666667,
+							outline_color = {
+								0.0745,
+								0.2039,
+								0.2784,
+								1
+							}
+						}
+					}
+				}
+			}
+		},
+		{
 			template_name = "group_item_info_panel",
 			class = "KView",
 			transition_delay = 0.1,
@@ -32,14 +328,32 @@ return {
 			template_name = "group_item_roster",
 			id = "group_item_roster",
 			transition = "down",
-			pos = v(-395.5, 6.35)
+			pos = v(-395.5, 6.35),
+			WHEN = ctx.is_mobile
+		},
+		{
+			template_name = "group_item_roster_desktop",
+			class = "KView",
+			id = "group_item_roster",
+			transition = "down",
+			pos = v(-986.2, -13.9),
+			UNLESS = ctx.is_mobile
 		},
 		{
 			class = "KView",
 			template_name = "group_item_gems",
 			id = "group_item_gems",
 			transition = "down",
-			pos = v(-528.65, 58.25)
+			pos = v(-528.65, 58.25),
+			WHEN = ctx.is_mobile
+		},
+		{
+			template_name = "group_item_gems_desktop",
+			class = "KView",
+			id = "group_item_gems",
+			transition = "down",
+			pos = v(-424.25, 661.95),
+			UNLESS = ctx.is_mobile
 		},
 		{
 			template_name = "group_title_equipped_items",
@@ -47,7 +361,7 @@ return {
 			transition_delay = 0.15,
 			id = "group_title_equipped_items",
 			transition = "scale",
-			pos = v(-429.95, 194.85)
+			pos = v(-428.2, 205.05)
 		},
 		{
 			id = "item_room_wheel_sel_overlay",

@@ -2225,5 +2225,605 @@ return {
 			660
 		},
 		alias = {}
+	},
+	encyclopedia_creeps_0090 = {
+		a_name = "encyclopedia-90.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0091 = {
+		a_name = "encyclopedia-91.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0092 = {
+		a_name = "encyclopedia-92.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0093 = {
+		a_name = "encyclopedia-93.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0094 = {
+		a_name = "encyclopedia-94.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0095 = {
+		a_name = "encyclopedia-95.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0096 = {
+		a_name = "encyclopedia-96.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0097 = {
+		a_name = "encyclopedia-97.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0098 = {
+		a_name = "encyclopedia-98.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0099 = {
+		a_name = "encyclopedia-99.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0100 = {
+		a_name = "encyclopedia-100.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0101 = {
+		a_name = "encyclopedia-113.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0102 = {
+		a_name = "encyclopedia-101.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0103 = {
+		a_name = "encyclopedia-102.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0104 = {
+		a_name = "encyclopedia-103.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0105 = {
+		a_name = "encyclopedia-104.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0106 = {
+		a_name = "encyclopedia-105.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0107 = {
+		a_name = "encyclopedia-106.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0108 = {
+		a_name = "encyclopedia-107.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0109 = {
+		a_name = "encyclopedia-108.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0110 = {
+		a_name = "encyclopedia-109.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0111 = {
+		a_name = "encyclopedia-110.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0112 = {
+		a_name = "encyclopedia-111.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
+	},
+	encyclopedia_creeps_0113 = {
+		a_name = "encyclopedia-112.dds",
+		defer = true,
+		size = {
+			660,
+			660
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			660,
+			660
+		},
+		f_quad = {
+			0,
+			0,
+			660,
+			660
+		},
+		alias = {}
 	}
 }

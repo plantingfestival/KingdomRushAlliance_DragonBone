@@ -3388,6 +3388,35 @@ return {
 									}
 								},
 								{
+									id = "button_achievements",
+									focus_image_name = "gui_popups_desktop_button_achievements_0003",
+									class = "GG5Button",
+									default_image_name = "gui_popups_desktop_button_achievements_0001",
+									pos = v(292.05, 141.8),
+									anchor = v(56.15, 55.95)
+								},
+								{
+									text_key = "Achievements",
+									text_align = "center",
+									line_height_extra = "1",
+									font_size = 22,
+									fit_size = true,
+									text = "Achievements\n",
+									class = "GG5Label",
+									id = "label_achievements",
+									font_name = "fla_body",
+									pos = v(220.85, 197),
+									scale = v(1, 1),
+									size = v(150, 59.2),
+									colors = {
+										text = {
+											231,
+											244,
+											251
+										}
+									}
+								},
+								{
 									style = "sfx",
 									class = "GG5Slider",
 									template_name = "slider_options",
@@ -3512,6 +3541,35 @@ return {
 									default_image_name = "gui_popups_desktop_button_credits_0001",
 									pos = v(-86.3, 108.2),
 									anchor = v(56.15, 55.95)
+								},
+								{
+									id = "button_achievements",
+									focus_image_name = "gui_popups_desktop_button_achievements_0003",
+									class = "GG5Button",
+									default_image_name = "gui_popups_desktop_button_achievements_0001",
+									pos = v(280.05, 108.8),
+									anchor = v(56.15, 55.95)
+								},
+								{
+									text_key = "Achievements",
+									text_align = "center",
+									line_height_extra = "1",
+									font_size = 22,
+									fit_size = true,
+									text = "Achievements\n",
+									class = "GG5Label",
+									id = "label_achievements",
+									font_name = "fla_body",
+									pos = v(208.85, 164),
+									scale = v(1, 1),
+									size = v(150, 59.2),
+									colors = {
+										text = {
+											231,
+											244,
+											251
+										}
+									}
 								},
 								{
 									vertical_align = "top",

@@ -258,8 +258,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			1464,
+			1526,
+			1820,
 			86,
 			82
 		},
@@ -282,8 +282,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			1578,
+			1526,
+			1908,
 			86,
 			82
 		},
@@ -306,8 +306,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			1692,
+			1626,
+			1620,
 			86,
 			82
 		},
@@ -330,8 +330,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			1806,
+			1718,
+			1620,
 			86,
 			82
 		},
@@ -354,8 +354,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			1920,
+			1810,
+			1620,
 			86,
 			82
 		},
@@ -378,8 +378,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1961,
-			1092,
+			1902,
+			1620,
 			86,
 			82
 		},
@@ -402,8 +402,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1506,
+			1626,
+			1708,
 			86,
 			82
 		},
@@ -426,8 +426,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1594,
+			1626,
+			1796,
 			86,
 			82
 		},
@@ -450,8 +450,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1682,
+			1626,
+			1884,
 			86,
 			82
 		},
@@ -474,8 +474,32 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1770,
+			1718,
+			1708,
+			86,
+			82
+		},
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0025_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			86,
+			86
+		},
+		trim = {
+			0,
+			2,
+			0,
+			2
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1810,
+			1708,
 			86,
 			82
 		},
@@ -690,8 +714,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1658,
-			1092,
+			984,
+			1950,
 			95,
 			94
 		},
@@ -714,8 +738,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1759,
-			1092,
+			1085,
+			1950,
 			95,
 			94
 		},
@@ -738,8 +762,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1860,
-			1092,
+			1186,
+			1950,
 			95,
 			94
 		},
@@ -763,7 +787,7 @@ return {
 		},
 		f_quad = {
 			1310,
-			1206,
+			1548,
 			95,
 			94
 		},
@@ -786,8 +810,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1411,
-			1206,
+			1310,
+			1648,
 			95,
 			94
 		},
@@ -810,8 +834,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1512,
-			1206,
+			1310,
+			1748,
 			95,
 			94
 		},
@@ -858,8 +882,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1815,
-			1206,
+			1426,
+			1320,
 			94,
 			94
 		},
@@ -882,8 +906,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1915,
-			1206,
+			1526,
+			1320,
 			94,
 			94
 		},
@@ -906,8 +930,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1306,
+			1626,
+			1320,
 			94,
 			94
 		},
@@ -930,8 +954,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1306,
+			1726,
+			1320,
 			94,
 			94
 		},
@@ -954,8 +978,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1510,
-			1306,
+			1826,
+			1320,
 			94,
 			94
 		},
@@ -978,8 +1002,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1610,
-			1306,
+			1926,
+			1320,
 			94,
 			94
 		},
@@ -1002,8 +1026,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1710,
-			1306,
+			1426,
+			1420,
 			94,
 			94
 		},
@@ -1026,8 +1050,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1810,
-			1306,
+			1526,
+			1420,
 			94,
 			94
 		},
@@ -1050,8 +1074,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1910,
-			1306,
+			1626,
+			1420,
 			94,
 			94
 		},
@@ -1074,8 +1098,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1406,
+			1726,
+			1420,
 			94,
 			94
 		},
@@ -1098,8 +1122,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1506,
+			1826,
+			1420,
 			94,
 			94
 		},
@@ -1122,8 +1146,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1606,
+			1926,
+			1420,
 			94,
 			94
 		},
@@ -1146,8 +1170,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1706,
+			1426,
+			1520,
 			94,
 			94
 		},
@@ -1170,8 +1194,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1806,
+			1426,
+			1620,
 			94,
 			94
 		},
@@ -1194,8 +1218,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
-			1906,
+			1426,
+			1720,
 			94,
 			94
 		},
@@ -1218,8 +1242,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1410,
-			1406,
+			1426,
+			1820,
 			94,
 			94
 		},
@@ -1242,8 +1266,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1510,
-			1406,
+			1426,
+			1920,
 			94,
 			94
 		},
@@ -1266,8 +1290,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1610,
-			1406,
+			1526,
+			1520,
 			94,
 			94
 		},
@@ -1290,8 +1314,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1710,
-			1406,
+			1626,
+			1520,
 			94,
 			94
 		},
@@ -1314,8 +1338,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1810,
-			1406,
+			1726,
+			1520,
 			94,
 			94
 		},
@@ -1338,8 +1362,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1910,
-			1406,
+			1826,
+			1520,
 			94,
 			94
 		},
@@ -1362,8 +1386,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1613,
-			1206,
+			1310,
+			1848,
 			95,
 			94
 		},
@@ -1386,9 +1410,81 @@ return {
 			2048
 		},
 		f_quad = {
-			1714,
-			1206,
+			1310,
+			1948,
 			95,
+			94
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0039_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			3,
+			3,
+			3,
+			3
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1926,
+			1520,
+			94,
+			94
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0040_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			3,
+			3,
+			3,
+			3
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1526,
+			1620,
+			94,
+			94
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0041_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			100,
+			100
+		},
+		trim = {
+			3,
+			3,
+			3,
+			3
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1526,
+			1720,
+			94,
 			94
 		},
 		alias = {}
@@ -1904,9 +2000,57 @@ return {
 			2048
 		},
 		f_quad = {
+			299,
+			1877,
+			51,
+			57
+		},
+		alias = {}
+	},
+	tower_room_image_dlc_wukong_badge_big_ = {
+		a_name = "room_tower_tower_room-1.png",
+		size = {
+			82,
+			94
+		},
+		trim = {
+			4,
+			4,
+			4,
+			6
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1401,
+			166,
+			74,
+			84
+		},
+		alias = {}
+	},
+	tower_room_image_dlc_wukong_badge_small_ = {
+		a_name = "room_tower_tower_room-1.png",
+		size = {
+			60,
+			67
+		},
+		trim = {
+			3,
+			4,
+			5,
+			6
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
 			286,
 			919,
-			51,
+			52,
 			57
 		},
 		alias = {}
@@ -3218,7 +3362,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_big_tower_ray_0001 = {
+	tower_room_portraits_big_tower_pandas_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			320,
@@ -3236,6 +3380,30 @@ return {
 		},
 		f_quad = {
 			984,
+			492,
+			320,
+			480
+		},
+		alias = {}
+	},
+	tower_room_portraits_big_tower_ray_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			320,
+			480
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1310,
 			492,
 			320,
 			480
@@ -3259,7 +3427,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1310,
+			1636,
 			492,
 			320,
 			480
@@ -3283,8 +3451,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1636,
-			492,
+			658,
+			978,
 			320,
 			480
 		},
@@ -3308,7 +3476,7 @@ return {
 		},
 		f_quad = {
 			658,
-			978,
+			1464,
 			320,
 			480
 		},
@@ -3331,8 +3499,8 @@ return {
 			2048
 		},
 		f_quad = {
-			658,
-			1464,
+			984,
+			978,
 			320,
 			480
 		},
@@ -3356,253 +3524,13 @@ return {
 		},
 		f_quad = {
 			984,
-			978,
+			1464,
 			320,
 			480
 		},
 		alias = {}
 	},
 	tower_room_portraits_small_tower_arborean_emissary_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			984,
-			1464,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_arcane_wizard_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			1100,
-			1464,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_ballista_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			984,
-			1578,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_barrel_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			1100,
-			1578,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_dark_elf_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			984,
-			1692,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_demon_pit_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			1100,
-			1692,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_dwarf_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			984,
-			1806,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_elven_stargazers_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			984,
-			1920,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_flamespitter_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			1100,
-			1806,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_ghost_0001 = {
-		a_name = "room_tower-1.png",
-		size = {
-			110,
-			108
-		},
-		trim = {
-			0,
-			0,
-			0,
-			0
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			1100,
-			1920,
-			110,
-			108
-		},
-		alias = {}
-	},
-	tower_room_portraits_small_tower_hermit_toad_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3626,7 +3554,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_necromancer_0001 = {
+	tower_room_portraits_small_tower_arcane_wizard_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3650,7 +3578,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_paladin_covenant_0001 = {
+	tower_room_portraits_small_tower_ballista_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3674,7 +3602,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_ray_0001 = {
+	tower_room_portraits_small_tower_barrel_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3698,7 +3626,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_rocket_gunners_0001 = {
+	tower_room_portraits_small_tower_dark_elf_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3722,7 +3650,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_royal_archers_0001 = {
+	tower_room_portraits_small_tower_demon_pit_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3746,7 +3674,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_sand_0001 = {
+	tower_room_portraits_small_tower_dwarf_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3770,7 +3698,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_sparking_geode_0001 = {
+	tower_room_portraits_small_tower_elven_stargazers_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3794,7 +3722,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_tricannon_0001 = {
+	tower_room_portraits_small_tower_flamespitter_0001 = {
 		a_name = "room_tower-1.png",
 		size = {
 			110,
@@ -3813,6 +3741,270 @@ return {
 		f_quad = {
 			1542,
 			1092,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_ghost_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1658,
+			1092,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_hermit_toad_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1774,
+			1092,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_necromancer_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1890,
+			1092,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_paladin_covenant_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1310,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_pandas_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1426,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_ray_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1542,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_rocket_gunners_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1658,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_royal_archers_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1774,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_sand_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1890,
+			1206,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_sparking_geode_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1310,
+			1320,
+			110,
+			108
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_tricannon_0001 = {
+		a_name = "room_tower-1.png",
+		size = {
+			110,
+			108
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1310,
+			1434,
 			110,
 			108
 		},
@@ -3883,8 +4075,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1216,
-			2008,
+			2006,
+			978,
 			19,
 			26
 		},

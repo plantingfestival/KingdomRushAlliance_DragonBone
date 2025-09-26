@@ -485,7 +485,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1215,
+			1383,
 			75,
 			70
 		},
@@ -535,7 +535,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1132,
+			1300,
 			78,
 			77
 		},
@@ -1039,7 +1039,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1417,
+			1585,
 			68,
 			55
 		},
@@ -1063,7 +1063,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1478,
+			1646,
 			68,
 			55
 		},
@@ -1231,7 +1231,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1539,
+			1707,
 			53,
 			45
 		},
@@ -1837,7 +1837,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_main_icons_0105_0001 = {
+	level_select_main_icons_0042_0001 = {
 		a_name = "room_levelselect-1.png",
 		size = {
 			78,
@@ -1861,6 +1861,54 @@ return {
 		},
 		alias = {}
 	},
+	level_select_main_icons_0049_0001 = {
+		a_name = "room_levelselect-1.png",
+		size = {
+			78,
+			78
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			293,
+			1132,
+			78,
+			78
+		},
+		alias = {}
+	},
+	level_select_main_icons_0105_0001 = {
+		a_name = "room_levelselect-1.png",
+		size = {
+			78,
+			78
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			293,
+			1216,
+			78,
+			78
+		},
+		alias = {}
+	},
 	level_select_mode_icons_campaign_0001 = {
 		a_name = "room_levelselect-1.png",
 		size = {
@@ -1879,7 +1927,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1291,
+			1459,
 			72,
 			56
 		},
@@ -2433,7 +2481,7 @@ return {
 		alias = {}
 	},
 	level_select_thumbs_thumb_stage_28_0001 = {
-		a_name = "room_levelselect_level_select_thumbs-30.png",
+		a_name = "room_levelselect_level_select_thumbs-35.png",
 		defer = true,
 		size = {
 			1008,
@@ -2532,7 +2580,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_3_0001 = {
+	level_select_thumbs_thumb_stage_31_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-23.png",
 		defer = true,
 		size = {
@@ -2557,7 +2605,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_4_0001 = {
+	level_select_thumbs_thumb_stage_32_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-24.png",
 		defer = true,
 		size = {
@@ -2582,7 +2630,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_5_0001 = {
+	level_select_thumbs_thumb_stage_33_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-25.png",
 		defer = true,
 		size = {
@@ -2607,7 +2655,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_6_0001 = {
+	level_select_thumbs_thumb_stage_34_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-26.png",
 		defer = true,
 		size = {
@@ -2632,7 +2680,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_7_0001 = {
+	level_select_thumbs_thumb_stage_35_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-27.png",
 		defer = true,
 		size = {
@@ -2657,7 +2705,7 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_8_0001 = {
+	level_select_thumbs_thumb_stage_3_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-28.png",
 		defer = true,
 		size = {
@@ -2682,8 +2730,133 @@ return {
 		},
 		alias = {}
 	},
-	level_select_thumbs_thumb_stage_9_0001 = {
+	level_select_thumbs_thumb_stage_4_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-29.png",
+		defer = true,
+		size = {
+			1008,
+			532
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1008,
+			532
+		},
+		f_quad = {
+			0,
+			0,
+			1008,
+			532
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_5_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-30.png",
+		defer = true,
+		size = {
+			1008,
+			532
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1008,
+			532
+		},
+		f_quad = {
+			0,
+			0,
+			1008,
+			532
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_6_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-31.png",
+		defer = true,
+		size = {
+			1008,
+			532
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1008,
+			532
+		},
+		f_quad = {
+			0,
+			0,
+			1008,
+			532
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_7_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-32.png",
+		defer = true,
+		size = {
+			1008,
+			532
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1008,
+			532
+		},
+		f_quad = {
+			0,
+			0,
+			1008,
+			532
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_8_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-33.png",
+		defer = true,
+		size = {
+			1008,
+			532
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1008,
+			532
+		},
+		f_quad = {
+			0,
+			0,
+			1008,
+			532
+		},
+		alias = {}
+	},
+	level_select_thumbs_thumb_stage_9_0001 = {
+		a_name = "room_levelselect_level_select_thumbs-34.png",
 		defer = true,
 		size = {
 			1008,
@@ -2725,7 +2898,7 @@ return {
 		},
 		f_quad = {
 			293,
-			1353,
+			1521,
 			71,
 			58
 		},

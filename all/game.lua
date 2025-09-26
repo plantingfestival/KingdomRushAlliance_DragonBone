@@ -17,8 +17,10 @@ local GS = require("game_settings")
 local UP = require("upgrades")
 local AC = require("achievements")
 local PS = require("platform_services")
+local SSO = require("klove.sso")
 local simulation = require("klove.simulation")
 local game_gui = require("game_gui")
+local features = require("features")
 local G = love.graphics
 local bit = require("bit")
 
@@ -52,6 +54,7 @@ game.simulation_systems = {
 	"wave_spawn_tsv",
 	"wave_spawn",
 	"mod_lifecycle",
+	SSO and "sso" or "",
 	"events",
 	"main_script",
 	"timed",
@@ -69,7 +72,8 @@ game.simulation_systems = {
 	"particle_system",
 	"render",
 	"sound_events",
-	"seen_tracker"
+	"seen_tracker",
+	SSO and "sso_post" or ""
 }
 
 function game:init(screen_w, screen_h, done_callback)
@@ -190,6 +194,11 @@ function game:init(screen_w, screen_h, done_callback)
 		end
 	end
 
+	if DEBUG and DEBUG_WAVE_SS_DATA then
+		game.store.current_wave_ss_data = DEBUG_WAVE_SS_DATA
+		game.store.current_wave_ss_name = "manual"
+	end
+
 	self.store.ephemeral = {}
 
 	local systems = require("systems")
@@ -238,13 +247,22 @@ if DEBUG then
 end
 
 function game:restart()
+	self.simulation:destroy()
+
+	if DEBUG and DEBUG_WAVE_SS_DATA then
+		game.store.current_wave_ss_data = DEBUG_WAVE_SS_DATA
+		game.store.current_wave_ss_name = "manual"
+	end
+
 	self.store.restarted = true
 	self.store.restart_count = (self.store.restart_count or 0) + 1
 	self.store.ephemeral = {}
 
-	local systems = require("systems")
+	if self.forced_fps_value then
+		self:force_fps(DRAW_FPS)
+	end
 
-	self.force_change_fps = DRAW_FPS
+	local systems = require("systems")
 
 	self.simulation:init(self.store, systems, self.simulation_systems, TICK_LENGTH)
 	self.game_gui:init(self.screen_w, self.screen_h, self)
@@ -264,6 +282,7 @@ function game:destroy()
 
 	self.game_gui = nil
 
+	self.simulation:destroy()
 	RU.destroy()
 end
 
@@ -356,6 +375,7 @@ function game:update(dt)
 	end
 
 	self.game_gui:update(dt)
+	self:check_fps_fallback(dt)
 end
 
 function game:keypressed(key, isrepeat)
@@ -463,6 +483,39 @@ end
 function game:get_ism_state()
 	if self.game_gui and self.game_gui.get_ism_state then
 		return self.game_gui:get_ism_state()
+	end
+end
+
+function game:force_fps(new_fps)
+	local A = require("klove.animation_db")
+	local change_factor = new_fps / (self.forced_fps_value or DRAW_FPS)
+	local d = self.store
+
+	d.tick = d.tick * change_factor
+	d.tick_length = 1 / new_fps
+	A.tick_length = 1 / new_fps
+	self.forced_fps_value = DRAW_FPS ~= new_fps and new_fps or nil
+
+	log.warning("force fps to:%s change_factor:%s forced_fps_value:%s", new_fps, change_factor, self.forced_fps_value)
+end
+
+function game:check_fps_fallback(dt)
+	if features.fps_fallback and self.store and not self.forced_fps_value and features.fps_fallback < DRAW_FPS then
+		local frames_under = self.fps_fallback_frames_under or 0
+
+		if dt > TICK_LENGTH * features.fps_fallback_time_threshold_factor then
+			frames_under = frames_under + 1
+
+			if frames_under > features.fps_fallback_count_threshold then
+				self:force_fps(features.fps_fallback)
+
+				frames_under = 0
+			end
+
+			self.fps_fallback_frames_under = frames_under
+		else
+			self.fps_fallback_frames_under = 0
+		end
 	end
 end
 
@@ -623,9 +676,22 @@ if DEBUG then
 
 			if e and e.enemy then
 				e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
-				e.nav_path.pi = self.dbg_active_pi
-				e.nav_path.spi = self.dbg_use_random_subpath and math.random(1, 3) or 1
-				e.nav_path.ni = P:get_start_node(self.dbg_active_pi)
+
+				if shift then
+					local x, y = love.mouse.getPosition()
+					local wx, wy = self.game_gui:s2g(V.v(x, y))
+
+					e.pos = V.v(wx, wy)
+					e.nav_path.pi, e.nav_path.spi, e.nav_path.ni = unpack(P:nearest_nodes(e.pos.x, e.pos.y, nil, {
+						1,
+						2,
+						3
+					})[1])
+				else
+					e.nav_path.pi = self.dbg_active_pi
+					e.nav_path.spi = self.dbg_use_random_subpath and math.random(1, 3) or 1
+					e.nav_path.ni = P:get_start_node(self.dbg_active_pi)
+				end
 
 				if self.DBG_AUTO_SEND then
 					if self.auto_send_list[e.template_name] then
@@ -825,7 +891,7 @@ if DEBUG then
 		elseif key == "f5" then
 			DEBUG_SHOW_DAMAGES = not DEBUG_SHOW_DAMAGES
 		elseif key == "f8" then
-			if self.game_gui.manual_gui_hide then
+			if self.game_gui.manual_gui_hide or self.game_gui.gui_hud_hidden then
 				signal.emit("show-gui")
 			else
 				signal.emit("hide-gui")
@@ -1103,9 +1169,11 @@ function game:draw_game()
 		end
 
 		for _, e in pairs(self.store.entities) do
-			if e.aura and e.aura.damage_radius then
+			local r = e.aura and (e.aura.damage_radius or e.aura.radius)
+
+			if e.aura and r then
 				G.setColor(100, 100, 255, 100)
-				G.ellipse("fill", e.pos.x, REF_H - e.pos.y, e.aura.damage_radius, e.aura.damage_radius * ASPECT)
+				G.ellipse("fill", e.pos.x, REF_H - e.pos.y, r, r * ASPECT)
 			end
 		end
 
@@ -1260,10 +1328,18 @@ function game:draw_game()
 
 		for _, e in pairs(self.store.entities) do
 			if e.ui then
-				G.setColor(255, 255, 0, 70)
-
 				local rect = e.ui.click_rect
 
+				if DRAG_ENTITY_LOOKUP_MARGIN and e.health and e.nav_grid then
+					local margin = DRAG_ENTITY_LOOKUP_MARGIN
+
+					margin = margin * game.game_gui.gui_scale / (game.game_scale * (game.camera and game.camera.zoom or 1))
+
+					G.setColor(100, 100, 255, 70)
+					G.rectangle("fill", e.pos.x + rect.pos.x - margin, REF_H - (e.pos.y + rect.pos.y - margin), rect.size.x + 2 * margin, -rect.size.y - 2 * margin)
+				end
+
+				G.setColor(255, 255, 0, 70)
 				G.rectangle("fill", e.pos.x + rect.pos.x, REF_H - (e.pos.y + rect.pos.y), rect.size.x, -rect.size.y)
 			end
 		end

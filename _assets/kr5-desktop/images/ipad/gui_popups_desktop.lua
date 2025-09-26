@@ -43,11 +43,63 @@ return {
 		},
 		f_quad = {
 			1531,
-			361,
+			376,
 			89,
 			52
 		},
 		alias = {}
+	},
+	gui_popups_desktop_button_achievements_0001 = {
+		a_name = "gui_popups_desktop-1.png",
+		size = {
+			115,
+			115
+		},
+		trim = {
+			9,
+			9,
+			13,
+			12
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1425,
+			338,
+			93,
+			94
+		},
+		alias = {
+			"gui_popups_desktop_button_achievements_0002"
+		}
+	},
+	gui_popups_desktop_button_achievements_0003 = {
+		a_name = "gui_popups_desktop-1.png",
+		size = {
+			115,
+			115
+		},
+		trim = {
+			0,
+			0,
+			3,
+			3
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1531,
+			22,
+			112,
+			112
+		},
+		alias = {
+			"gui_popups_desktop_button_cloud_save_0003"
+		}
 	},
 	gui_popups_desktop_button_checkbox_bg_0001 = {
 		a_name = "gui_popups_desktop-1.png",
@@ -66,8 +118,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1930,
-			122,
+			1931,
+			225,
 			57,
 			55
 		},
@@ -121,6 +173,54 @@ return {
 		},
 		alias = {}
 	},
+	gui_popups_desktop_button_cloud_save_0001 = {
+		a_name = "gui_popups_desktop-1.png",
+		size = {
+			115,
+			115
+		},
+		trim = {
+			9,
+			9,
+			13,
+			12
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1751,
+			22,
+			93,
+			94
+		},
+		alias = {}
+	},
+	gui_popups_desktop_button_cloud_save_0002 = {
+		a_name = "gui_popups_desktop-1.png",
+		size = {
+			115,
+			115
+		},
+		trim = {
+			9,
+			9,
+			13,
+			12
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1850,
+			22,
+			93,
+			94
+		},
+		alias = {}
+	},
 	gui_popups_desktop_button_credits_0001 = {
 		a_name = "gui_popups_desktop-1.png",
 		size = {
@@ -138,8 +238,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1425,
-			338,
+			1949,
+			22,
 			93,
 			94
 		},
@@ -165,7 +265,7 @@ return {
 		},
 		f_quad = {
 			1531,
-			22,
+			140,
 			112,
 			112
 		},
@@ -274,7 +374,7 @@ return {
 		},
 		f_quad = {
 			1649,
-			22,
+			125,
 			93,
 			94
 		},
@@ -299,8 +399,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1649,
-			222,
+			1946,
+			125,
 			93,
 			93
 		},
@@ -325,8 +425,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1748,
-			22,
+			1649,
+			225,
 			93,
 			94
 		},
@@ -351,8 +451,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1847,
-			22,
+			1649,
+			325,
 			93,
 			94
 		},
@@ -403,8 +503,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1946,
-			22,
+			1748,
+			125,
 			93,
 			94
 		},
@@ -429,8 +529,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1649,
-			321,
+			1748,
+			225,
 			93,
 			93
 		},
@@ -456,7 +556,7 @@ return {
 		},
 		f_quad = {
 			1531,
-			140,
+			258,
 			112,
 			112
 		},
@@ -479,8 +579,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1649,
-			122,
+			1847,
+			125,
 			93,
 			94
 		},
@@ -747,8 +847,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1531,
-			258,
+			1649,
+			22,
 			96,
 			97
 		},
@@ -795,8 +895,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1748,
-			220,
+			1994,
+			225,
 			53,
 			51
 		},
@@ -891,8 +991,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1846,
-			122,
+			1847,
+			225,
 			78,
 			79
 		},
@@ -918,7 +1018,7 @@ return {
 		},
 		f_quad = {
 			1748,
-			122,
+			324,
 			92,
 			92
 		},
@@ -941,8 +1041,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1748,
-			277,
+			1847,
+			371,
 			51,
 			51
 		},
@@ -965,8 +1065,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1748,
-			334,
+			1908,
+			310,
 			51,
 			51
 		},
@@ -989,8 +1089,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1993,
-			122,
+			1847,
+			310,
 			55,
 			55
 		},

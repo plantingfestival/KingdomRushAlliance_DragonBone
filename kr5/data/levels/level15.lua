@@ -66,7 +66,7 @@ function level:update(store)
 			y = 400
 		}, OVm(1, 1.3))
 		signal.emit("show-gui")
-		signal.emit("end-cinematic")
+		signal.emit("end-cinematic", true)
 		U.y_wait(store, 1.3)
 
 		while not store.waves_finished or LU.has_alive_enemies(store) do

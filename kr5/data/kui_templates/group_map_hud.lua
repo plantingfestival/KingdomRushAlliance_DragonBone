@@ -577,6 +577,57 @@ return {
 			}
 		},
 		{
+			class = "KView",
+			id = "group_bottom_left",
+			pos = v(ctx.safe_frame.l, 768),
+			UNLESS = ctx.is_mobile,
+			children = {
+				{
+					id = "button_map_encyclopedia",
+					focus_image_name = "screen_map_button_map_encyclopedia_0003",
+					class = "GG5Button",
+					default_image_name = "screen_map_button_map_encyclopedia_0001",
+					pos = v(111.45, -103.55),
+					anchor = v(69.45, 68)
+				},
+				{
+					text_align = "center",
+					font_size = 23,
+					fit_size = true,
+					line_height_extra = "2",
+					text = "ENCYCLOPEDIA",
+					text_key = "MAP_BUTTON_ENCYCLOPEDIA",
+					class = "GG5ShaderLabel",
+					id = "label_map_encyclopedia",
+					font_name = "fla_body",
+					pos = v(3.75, -60.1),
+					scale = v(1, 1),
+					size = v(217.9, 32.35),
+					colors = {
+						text = {
+							224,
+							249,
+							241
+						}
+					},
+					shaders = {
+						"p_outline_tint"
+					},
+					shader_args = {
+						{
+							thickness = 2.5,
+							outline_color = {
+								0,
+								0.2314,
+								0.2706,
+								1
+							}
+						}
+					}
+				}
+			}
+		},
+		{
 			id = "group_top_right",
 			class = "KView",
 			pos = v(ctx.sw - ctx.safe_frame.r, 0),

@@ -99,7 +99,7 @@ function screen:next_item()
 	elseif self.phase == "credits" then
 		local features = require("features")
 
-		if features.censored_cn then
+		if features.no_end_credits then
 			S:stop_all()
 
 			self.active_screen = nil

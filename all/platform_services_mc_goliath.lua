@@ -919,6 +919,8 @@ function mcg:send_event_to_server(event)
 			if not ok then
 				log.error("cb_send_event: error parsing response for req.id:%s : %s : %s", req.id, res or "", data)
 			elseif req.event.event == "client_init" then
+				log.debug("client_init response: %s", getfulldump(res or {}))
+
 				if res and res.content and type(res.content) == "table" then
 					local libra_configs = {}
 
@@ -1064,28 +1066,44 @@ end
 function mcg:apply_active_trials()
 	local trials = self:get_global("active_trials") or {}
 
-	for k, v in pairs(trials) do
-		if string.starts(k, "iap_pricing_offers") then
-			if not PS or not PS.services or not PS.services.iap then
-				log.error("%s requires iap platform service configured", self.names[1])
+	if not PS or not PS.services or not PS.services.iap then
+		log.error("%s requires iap platform service configured", self.names[1])
 
-				return
+		return
+	end
+
+	for k, v in pairs(trials) do
+		if string.starts(k, "iap_pricing_") then
+			log.debug("processing trial %s", k)
+
+			local parts = string.split(k, "_")
+			local rc_key = ""
+
+			if parts[3] == "offers" then
+				rc_key = "offers_" .. PS.services.iap.rc_suffix
+			elseif parts[4] == "sales" then
+				rc_key = parts[3] .. "_sales_" .. PS.services.iap.rc_suffix
+			else
+				log.error("iap_pricing type not supported: %s", k)
+
+				goto label_63_0
 			end
 
-			local rc_key = "offers_" .. PS.services.iap.rc_suffix
 			local trial_rc_key = rc_key .. "_" .. k .. "_" .. v
 			local trial_rc_value = RC.v[trial_rc_key]
 
 			if not trial_rc_value then
 				log.error("could not find Goliath iap_pricing trial remote config with key %s", trial_rc_key)
 			else
-				log.debug("overwriting remote config %s with %s", rc_key, trial_rc_key)
+				log.debug("overwriting remote config %s with value of %s", rc_key, trial_rc_key)
 
 				RC.v[rc_key] = trial_rc_value
 			end
 		else
 			log.error("unknown libra trial type %s", k)
 		end
+
+		::label_63_0::
 	end
 end
 

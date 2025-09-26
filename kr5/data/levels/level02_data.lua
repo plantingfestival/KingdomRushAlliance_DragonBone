@@ -847,7 +847,8 @@ return {
 				"tower_dark_elf_lvl3",
 				"tower_dwarf_lvl3",
 				"tower_hermit_toad_lvl3",
-				"tower_sparking_geode_lvl3"
+				"tower_sparking_geode_lvl3",
+				"tower_pandas_lvl3"
 			}
 		},
 		{
@@ -870,7 +871,8 @@ return {
 				"tower_dark_elf_lvl3",
 				"tower_dwarf_lvl3",
 				"tower_hermit_toad_lvl3",
-				"tower_sparking_geode_lvl3"
+				"tower_sparking_geode_lvl3",
+				"tower_pandas_lvl3"
 			}
 		},
 		{

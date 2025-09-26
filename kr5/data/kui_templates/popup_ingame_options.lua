@@ -176,6 +176,158 @@ return {
 					focus_image_name = "gui_popups_toggle_ingame_music_0003",
 					pos = v(-86.65, 187.5),
 					anchor = v(99.3, 74.85)
+				},
+				{
+					class = "KView",
+					id = "group_pause_options_captions",
+					pos = v(-1, 188.9),
+					WHEN = ctx.show_button_captions,
+					children = {
+						{
+							vertical_align = "top",
+							text_align = "center",
+							font_size = 28,
+							line_height_extra = "1",
+							fit_size = true,
+							text = "Exit",
+							text_key = "QUIT",
+							class = "GG5ShaderLabel",
+							id = "label_pause_exit",
+							font_name = "fla_body",
+							pos = v(-219.5, -115.9),
+							scale = v(1, 1),
+							size = v(174, 46.45),
+							colors = {
+								text = {
+									231,
+									244,
+									251
+								}
+							},
+							shaders = {
+								"p_glow"
+							},
+							shader_args = {
+								{
+									thickness = 2,
+									glow_color = {
+										0,
+										0,
+										0,
+										1
+									}
+								}
+							}
+						},
+						{
+							vertical_align = "top",
+							text_align = "center",
+							font_size = 28,
+							line_height_extra = "1",
+							fit_size = true,
+							text = "Restart",
+							text_key = "BUTTON_RESTART",
+							class = "GG5ShaderLabel",
+							id = "label_pause_restart",
+							font_name = "fla_body",
+							pos = v(45.45, -115.9),
+							scale = v(1, 1),
+							size = v(174, 46.45),
+							colors = {
+								text = {
+									231,
+									244,
+									251
+								}
+							},
+							shaders = {
+								"p_glow"
+							},
+							shader_args = {
+								{
+									thickness = 2,
+									glow_color = {
+										0,
+										0,
+										0,
+										1
+									}
+								}
+							}
+						},
+						{
+							vertical_align = "top",
+							text_align = "center",
+							font_size = 28,
+							line_height_extra = "1",
+							fit_size = true,
+							text = "Music",
+							text_key = "POPUP_SETTINGS_MUSIC",
+							class = "GG5ShaderLabel",
+							id = "label_pause_music",
+							font_name = "fla_body",
+							pos = v(-170.5, 69.45),
+							scale = v(1, 1),
+							size = v(163.6, 46.45),
+							colors = {
+								text = {
+									231,
+									244,
+									251
+								}
+							},
+							shaders = {
+								"p_glow"
+							},
+							shader_args = {
+								{
+									thickness = 2,
+									glow_color = {
+										0,
+										0,
+										0,
+										1
+									}
+								}
+							}
+						},
+						{
+							vertical_align = "top",
+							text_align = "center",
+							font_size = 28,
+							line_height_extra = "1",
+							fit_size = true,
+							text = "SFX",
+							text_key = "POPUP_SETTINGS_SFX",
+							class = "GG5ShaderLabel",
+							id = "label_pause_sound",
+							font_name = "fla_body",
+							pos = v(9.15, 69.45),
+							scale = v(1, 1),
+							size = v(160.2, 46.45),
+							colors = {
+								text = {
+									231,
+									244,
+									251
+								}
+							},
+							shaders = {
+								"p_glow"
+							},
+							shader_args = {
+								{
+									thickness = 2,
+									glow_color = {
+										0,
+										0,
+										0,
+										1
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

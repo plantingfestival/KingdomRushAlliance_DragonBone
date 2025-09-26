@@ -107,6 +107,70 @@ local function RAD2DEG(rad)
 	return rad * 180 / pi
 end
 
+local function EASE_PHASE(phase, easing)
+	phase = CLAMP(0, 1, phase)
+	easing = easing or ""
+
+	local function rotate_fn(f)
+		return function(s, ...)
+			return 1 - f(1 - s, ...)
+		end
+	end
+
+	local easing_functions = {
+		linear = function(s)
+			return s
+		end,
+		quad = function(s)
+			return s * s
+		end,
+		cubic = function(s)
+			return s * s * s
+		end,
+		quart = function(s)
+			return s * s * s * s
+		end,
+		quint = function(s)
+			return s * s * s * s * s
+		end,
+		sine = function(s)
+			return 1 - math.cos(s * math.pi / 2)
+		end,
+		expo = function(s)
+			return 2^(10 * (s - 1))
+		end,
+		circ = function(s)
+			return 1 - math.sqrt(1 - s * s)
+		end
+	}
+	local fn_name, first_ease = string.match(easing, "([^-]+)%-([^-]+)")
+	local fn = easing_functions[fn_name]
+
+	fn = fn or easing_functions.linear
+
+	if first_ease == "outin" then
+		if phase <= 0.5 then
+			return fn(phase * 2) / 2
+		else
+			return 0.5 + rotate_fn(fn)((phase - 0.5) * 2) / 2
+		end
+	elseif first_ease == "inout" then
+		if phase <= 0.5 then
+			return rotate_fn(fn)(phase * 2) / 2
+		else
+			return 0.5 + fn((phase - 0.5) * 2) / 2
+		end
+	elseif first_ease == "in" then
+		return rotate_fn(fn)(phase)
+	else
+		return fn(phase)
+	end
+end
+
+local function EASE_VALUE(from, to, phase, easing)
+	return from + (to - from) * EASE_PHASE(phase, easing)
+end
+
 return {
 	twopi = twopi,
 	pi = pi,
@@ -126,5 +190,7 @@ return {
 	rand_sign = RAND_SIGN,
 	rand_uniq = RAND_UNIQ,
 	deg2rad = DEG2RAD,
-	rad2deg = RAD2DEG
+	rad2deg = RAD2DEG,
+	ease_phase = EASE_PHASE,
+	ease_value = EASE_VALUE
 }

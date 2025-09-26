@@ -271,6 +271,46 @@ function jnia.get_service_status(srvid)
 	return result
 end
 
+function jnia.is_auth(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("isAuth", "(I)Z")
+
+	if jm then
+		result = jenv[0].CallBooleanMethod(jenv, jact, jm, csrvid)
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+
+	return result == 1
+end
+
+function jnia.do_deauth(srvid)
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("doDeauth", "(I)V")
+
+	if jm then
+		jenv[0].CallVoidMethod(jenv, jact, jm, csrvid)
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+	log.paranoid("jnia call ok")
+end
+
+function jnia.create_request_do_auth(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestDoAuth", "(I)I")
+
+	if jm then
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid)
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+
+	return result
+end
+
 function jnia.do_signin(srvid)
 	local csrvid = ffi.cast("int", srvid)
 	local jenv, jact, jclass, jm = jni_get_method("doServiceSignIn", "(I)V")
@@ -470,6 +510,81 @@ function jnia.get_cloud_identity(srvid)
 
 	jni_delete_refs(jenv, jact, jclass)
 	log.paranoid("jnia call ok")
+
+	return result
+end
+
+function jnia.get_cached_cloud_file(srvid, name)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getCachedCloudFile", "(ILjava/lang/String;)Ljava/lang/String;")
+	local name_j
+
+	if jm then
+		name_j = jenv[0].NewStringUTF(jenv, name)
+
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid, name_j)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass, name_j)
+
+	return result
+end
+
+function jnia.create_request_push_cloud_file(srvid, name, data, overwrite)
+	local result = -1
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestPushCloudFile", "(ILjava/lang/String;Ljava/lang/String;Z)I")
+	local name_j, data_j
+
+	if jm then
+		name_j = jenv[0].NewStringUTF(jenv, name)
+		data_j = jenv[0].NewStringUTF(jenv, data)
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid, name_j, data_j, overwrite)
+	end
+
+	jni_delete_refs(jenv, name_j, data_j, jact, jclass)
+
+	return result
+end
+
+function jnia.create_request_pull_cloud_file(srvid, name)
+	local result = -1
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestPullCloudFile", "(ILjava/lang/String;)I")
+	local name_j
+
+	if jm then
+		name_j = jenv[0].NewStringUTF(jenv, name)
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid, name_j)
+	end
+
+	jni_delete_refs(jenv, jact, jclass, name_j)
+
+	return result
+end
+
+function jnia.create_request_delete_cloud_file(srvid, name)
+	local result = -1
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestDeleteCloudFile", "(ILjava/lang/String;)I")
+	local name_j
+
+	if jm then
+		name_j = jenv[0].NewStringUTF(jenv, name)
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid, name_j)
+	end
+
+	jni_delete_refs(jenv, jact, jclass, name_j)
 
 	return result
 end
@@ -734,6 +849,36 @@ function jnia.get_drm_status(srvid)
 	return result
 end
 
+function jnia.create_request_redeem_code(srvid, code)
+	local result = -1
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestRedeemCode", "(ILjava/lang/String;)I")
+	local jp2
+
+	if jm then
+		jp2 = jenv[0].NewStringUTF(jenv, code)
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid, jp2)
+	end
+
+	jni_delete_refs(jenv, jp2, jact, jclass)
+
+	return result
+end
+
+function jnia.create_request_show_redeem_dialog(srvid)
+	local result = -1
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("createRequestShowRedeemDialog", "(I)I")
+
+	if jm then
+		result = jenv[0].CallIntMethod(jenv, jact, jm, csrvid)
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+
+	return result
+end
+
 function jnia.has_video_ad(srvid, style)
 	local result
 	local csrvid = ffi.cast("int", srvid)
@@ -847,6 +992,31 @@ function jnia.log_analytics_event_multiparam(srvid, name, params)
 
 	jni_delete_refs(jenv, jp2, jp3, jclass, jact)
 	log.paranoid("jnia call ok")
+end
+
+function jnia.get_analytics_uid(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getAnalyticsUID", "(I)Ljava/lang/String;")
+
+	if jm then
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+			result = result ~= "" and result or nil
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+	log.paranoid("jnia call ok")
+
+	return result
 end
 
 function jnia.get_messaging_token(srvid)
@@ -1306,6 +1476,54 @@ function jnia.get_license_status(srvid)
 	return result
 end
 
+function jnia.get_license_payload(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getLicensePayload", "(I)Ljava/lang/String;")
+
+	if jm then
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+	log.paranoid("jnia call ok")
+
+	return result
+end
+
+function jnia.get_license_data(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getLicenseData", "(I)Ljava/lang/String;")
+
+	if jm then
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+	log.paranoid("jnia call ok")
+
+	return result
+end
+
 function jnia.get_consent_status(srvid)
 	local result
 	local csrvid = ffi.cast("int", srvid)
@@ -1530,6 +1748,52 @@ function jnia.should_hide_quit_prompt(srvid)
 	log.paranoid("jnia call ok")
 
 	return result == 1
+end
+
+function jnia.get_channel_name(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getChannelName", "(I)Ljava/lang/String;")
+
+	if jm then
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+
+	return result
+end
+
+function jnia.get_channel_uid(srvid)
+	local result
+	local csrvid = ffi.cast("int", srvid)
+	local jenv, jact, jclass, jm = jni_get_method("getChannelUserID", "(I)Ljava/lang/String;")
+
+	if jm then
+		local jo = jenv[0].CallObjectMethod(jenv, jact, jm, csrvid)
+
+		if jo ~= nil then
+			local js = jenv[0].GetStringUTFChars(jenv, jo, nil)
+
+			result = ffi.string(js)
+
+			jenv[0].ReleaseStringUTFChars(jenv, jo, js)
+			jenv[0].DeleteLocalRef(jenv, jo)
+		end
+	end
+
+	jni_delete_refs(jenv, jact, jclass)
+
+	return result
 end
 
 function jnia.debug_set_quit_game_status(srvid, msg)

@@ -42,8 +42,8 @@ return {
 			3400
 		},
 		f_quad = {
-			390,
-			1164,
+			6,
+			2513,
 			172,
 			160
 		},
@@ -66,8 +66,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			1356,
+			184,
+			2513,
 			172,
 			160
 		},
@@ -90,8 +90,8 @@ return {
 			3400
 		},
 		f_quad = {
-			184,
-			1356,
+			362,
+			2513,
 			172,
 			160
 		},
@@ -114,8 +114,8 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			1356,
+			6,
+			2679,
 			172,
 			160
 		},
@@ -138,8 +138,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			1522,
+			184,
+			2679,
 			172,
 			160
 		},
@@ -162,8 +162,8 @@ return {
 			3400
 		},
 		f_quad = {
-			184,
-			1522,
+			362,
+			2679,
 			172,
 			160
 		},
@@ -186,8 +186,8 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			1522,
+			6,
+			2845,
 			172,
 			160
 		},
@@ -211,7 +211,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1688,
+			3011,
 			172,
 			160
 		},
@@ -234,8 +234,8 @@ return {
 			3400
 		},
 		f_quad = {
-			184,
-			1688,
+			6,
+			3177,
 			172,
 			160
 		},
@@ -258,8 +258,8 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			1688,
+			184,
+			2845,
 			172,
 			160
 		},
@@ -282,8 +282,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			1854,
+			362,
+			2845,
 			172,
 			160
 		},
@@ -307,7 +307,7 @@ return {
 		},
 		f_quad = {
 			184,
-			1854,
+			3011,
 			172,
 			160
 		},
@@ -330,8 +330,8 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			1854,
+			184,
+			3177,
 			172,
 			160
 		},
@@ -354,8 +354,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			2020,
+			362,
+			3011,
 			172,
 			160
 		},
@@ -378,8 +378,8 @@ return {
 			3400
 		},
 		f_quad = {
-			184,
-			2020,
+			362,
+			3177,
 			172,
 			160
 		},
@@ -402,8 +402,8 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			2020,
+			652,
+			6,
 			172,
 			160
 		},
@@ -426,8 +426,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			2186,
+			652,
+			172,
 			172,
 			160
 		},
@@ -450,8 +450,8 @@ return {
 			3400
 		},
 		f_quad = {
-			184,
-			2186,
+			652,
+			338,
 			172,
 			160
 		},
@@ -474,8 +474,32 @@ return {
 			3400
 		},
 		f_quad = {
-			362,
-			2186,
+			652,
+			504,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0025_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			652,
+			670,
 			172,
 			160
 		},
@@ -930,7 +954,7 @@ return {
 			3400
 		},
 		f_quad = {
-			2816,
+			3042,
 			3126,
 			187,
 			186
@@ -954,8 +978,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3009,
-			3126,
+			3882,
+			1938,
 			187,
 			186
 		},
@@ -979,7 +1003,7 @@ return {
 		},
 		f_quad = {
 			3882,
-			1938,
+			2130,
 			187,
 			186
 		},
@@ -1003,7 +1027,7 @@ return {
 		},
 		f_quad = {
 			3882,
-			2130,
+			2322,
 			187,
 			186
 		},
@@ -1026,8 +1050,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3882,
-			2706,
+			3236,
+			2904,
 			186,
 			186
 		},
@@ -1051,7 +1075,7 @@ return {
 		},
 		f_quad = {
 			3236,
-			2903,
+			3096,
 			186,
 			186
 		},
@@ -1075,7 +1099,7 @@ return {
 		},
 		f_quad = {
 			3882,
-			2322,
+			2514,
 			187,
 			186
 		},
@@ -1099,7 +1123,7 @@ return {
 		},
 		f_quad = {
 			3882,
-			2514,
+			2706,
 			187,
 			186
 		},
@@ -1122,8 +1146,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3236,
-			3095,
+			3428,
+			2904,
 			186,
 			186
 		},
@@ -1147,7 +1171,7 @@ return {
 		},
 		f_quad = {
 			3428,
-			2903,
+			3096,
 			186,
 			186
 		},
@@ -1170,8 +1194,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3428,
-			3095,
+			3620,
+			2904,
 			186,
 			186
 		},
@@ -1194,8 +1218,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3620,
-			2903,
+			3812,
+			2904,
 			186,
 			186
 		},
@@ -1218,8 +1242,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3812,
-			2903,
+			3620,
+			3096,
 			186,
 			186
 		},
@@ -1242,15 +1266,15 @@ return {
 			3400
 		},
 		f_quad = {
-			3620,
-			3095,
+			3812,
+			3096,
 			186,
 			186
 		},
 		alias = {}
 	},
 	quickmenu_special_icons_0033_0001 = {
-		a_name = "room_tower-1.dds",
+		a_name = "room_tower-2.dds",
 		size = {
 			200,
 			200
@@ -1266,8 +1290,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3812,
-			3095,
+			6,
+			1937,
 			186,
 			186
 		},
@@ -1290,8 +1314,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			972,
+			198,
+			1937,
 			186,
 			186
 		},
@@ -1314,8 +1338,8 @@ return {
 			3400
 		},
 		f_quad = {
-			198,
-			972,
+			390,
+			1937,
 			186,
 			186
 		},
@@ -1338,8 +1362,8 @@ return {
 			3400
 		},
 		f_quad = {
-			390,
-			972,
+			6,
+			2129,
 			186,
 			186
 		},
@@ -1362,8 +1386,8 @@ return {
 			3400
 		},
 		f_quad = {
-			6,
-			1164,
+			198,
+			2129,
 			186,
 			186
 		},
@@ -1386,8 +1410,80 @@ return {
 			3400
 		},
 		f_quad = {
+			390,
+			2129,
+			186,
+			186
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0039_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			7,
+			7,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			6,
+			2321,
+			186,
+			186
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0040_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			7,
+			7,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
 			198,
-			1164,
+			2321,
+			186,
+			186
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0041_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			7,
+			7,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			390,
+			2321,
 			186,
 			186
 		},
@@ -1905,8 +2001,56 @@ return {
 		},
 		f_quad = {
 			1487,
-			1599,
+			1719,
 			102,
+			114
+		},
+		alias = {}
+	},
+	tower_room_image_dlc_wukong_badge_big_ = {
+		a_name = "room_tower_tower_room-1.dds",
+		size = {
+			164,
+			188
+		},
+		trim = {
+			8,
+			7,
+			8,
+			13
+		},
+		a_size = {
+			4096,
+			1900
+		},
+		f_quad = {
+			1825,
+			1340,
+			148,
+			168
+		},
+		alias = {}
+	},
+	tower_room_image_dlc_wukong_badge_small_ = {
+		a_name = "room_tower_tower_room-1.dds",
+		size = {
+			120,
+			134
+		},
+		trim = {
+			7,
+			7,
+			10,
+			13
+		},
+		a_size = {
+			4096,
+			1900
+		},
+		f_quad = {
+			1487,
+			1599,
+			103,
 			114
 		},
 		alias = {}
@@ -2097,7 +2241,7 @@ return {
 		},
 		f_quad = {
 			1825,
-			1340,
+			1514,
 			135,
 			250
 		},
@@ -2948,7 +3092,7 @@ return {
 		},
 		f_quad = {
 			6,
-			6,
+			971,
 			639,
 			960
 		},
@@ -3218,7 +3362,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_big_tower_ray_0001 = {
+	tower_room_portraits_big_tower_pandas_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			640,
@@ -3242,31 +3386,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_big_tower_rocket_gunners_0001 = {
-		a_name = "room_tower-1.dds",
-		size = {
-			640,
-			960
-		},
-		trim = {
-			0,
-			1,
-			0,
-			0
-		},
-		a_size = {
-			4096,
-			3400
-		},
-		f_quad = {
-			3236,
-			1938,
-			640,
-			959
-		},
-		alias = {}
-	},
-	tower_room_portraits_big_tower_royal_archers_0001 = {
+	tower_room_portraits_big_tower_ray_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			640,
@@ -3290,7 +3410,31 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_big_tower_sand_0001 = {
+	tower_room_portraits_big_tower_rocket_gunners_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			640,
+			960
+		},
+		trim = {
+			0,
+			1,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			6,
+			6,
+			640,
+			959
+		},
+		alias = {}
+	},
+	tower_room_portraits_big_tower_royal_archers_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			640,
@@ -3308,6 +3452,30 @@ return {
 		},
 		f_quad = {
 			2590,
+			972,
+			640,
+			960
+		},
+		alias = {}
+	},
+	tower_room_portraits_big_tower_sand_0001 = {
+		a_name = "room_tower-1.dds",
+		size = {
+			640,
+			960
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			3236,
 			972,
 			640,
 			960
@@ -3331,8 +3499,8 @@ return {
 			3400
 		},
 		f_quad = {
-			3236,
-			972,
+			2590,
+			1938,
 			640,
 			960
 		},
@@ -3355,7 +3523,7 @@ return {
 			3400
 		},
 		f_quad = {
-			2590,
+			3236,
 			1938,
 			640,
 			960
@@ -3674,7 +3842,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_ray_0001 = {
+	tower_room_portraits_small_tower_pandas_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			220,
@@ -3698,7 +3866,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_rocket_gunners_0001 = {
+	tower_room_portraits_small_tower_ray_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			220,
@@ -3722,7 +3890,7 @@ return {
 		},
 		alias = {}
 	},
-	tower_room_portraits_small_tower_royal_archers_0001 = {
+	tower_room_portraits_small_tower_rocket_gunners_0001 = {
 		a_name = "room_tower-1.dds",
 		size = {
 			220,
@@ -3741,6 +3909,30 @@ return {
 		f_quad = {
 			2170,
 			3126,
+			220,
+			216
+		},
+		alias = {}
+	},
+	tower_room_portraits_small_tower_royal_archers_0001 = {
+		a_name = "room_tower-1.dds",
+		size = {
+			220,
+			216
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			3400
+		},
+		f_quad = {
+			2590,
+			2904,
 			220,
 			216
 		},
@@ -3764,7 +3956,7 @@ return {
 		},
 		f_quad = {
 			2590,
-			2904,
+			3126,
 			220,
 			216
 		},
@@ -3787,8 +3979,8 @@ return {
 			3400
 		},
 		f_quad = {
-			2590,
-			3126,
+			2816,
+			2904,
 			220,
 			216
 		},
@@ -3812,7 +4004,7 @@ return {
 		},
 		f_quad = {
 			2816,
-			2904,
+			3126,
 			220,
 			216
 		},

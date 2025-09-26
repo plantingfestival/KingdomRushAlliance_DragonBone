@@ -18,8 +18,8 @@ return {
 			2048
 		},
 		f_quad = {
-			308,
-			1755,
+			6,
+			2006,
 			40,
 			40
 		},
@@ -68,10 +68,58 @@ return {
 			2048
 		},
 		f_quad = {
-			266,
-			1077,
+			252,
+			1183,
 			80,
 			80
+		},
+		alias = {}
+	},
+	item_room_9slice_roster_bg_desktop_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			45,
+			45
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			308,
+			1686,
+			45,
+			45
+		},
+		alias = {}
+	},
+	item_room_9slice_shadow_roster_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			124,
+			97
+		},
+		trim = {
+			7,
+			0,
+			10,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			246,
+			1289,
+			107,
+			96
 		},
 		alias = {}
 	},
@@ -92,8 +140,8 @@ return {
 			2048
 		},
 		f_quad = {
-			252,
-			1302,
+			246,
+			1530,
 			74,
 			74
 		},
@@ -117,7 +165,7 @@ return {
 		},
 		f_quad = {
 			360,
-			1527,
+			1177,
 			109,
 			109
 		},
@@ -140,8 +188,8 @@ return {
 			2048
 		},
 		f_quad = {
-			360,
-			401,
+			1782,
+			166,
 			142,
 			143
 		},
@@ -164,7 +212,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1690,
+			1455,
 			166,
 			173,
 			174
@@ -188,7 +236,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1268,
+			1033,
 			166,
 			209,
 			209
@@ -212,7 +260,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1051,
+			816,
 			166,
 			211,
 			211
@@ -236,7 +284,7 @@ return {
 			2048
 		},
 		f_quad = {
-			826,
+			591,
 			166,
 			219,
 			219
@@ -260,7 +308,7 @@ return {
 			2048
 		},
 		f_quad = {
-			595,
+			360,
 			166,
 			225,
 			225
@@ -284,8 +332,8 @@ return {
 			2048
 		},
 		f_quad = {
-			360,
-			166,
+			6,
+			1771,
 			229,
 			229
 		},
@@ -309,7 +357,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1514,
+			1289,
 			234,
 			235
 		},
@@ -333,7 +381,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1755,
+			1530,
 			234,
 			235
 		},
@@ -356,8 +404,8 @@ return {
 			2048
 		},
 		f_quad = {
-			246,
-			1814,
+			1248,
+			314,
 			55,
 			56
 		},
@@ -404,7 +452,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1483,
+			1248,
 			166,
 			201,
 			85
@@ -531,7 +579,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1196,
+			1077,
 			240,
 			100
 		},
@@ -581,7 +629,7 @@ return {
 		},
 		f_quad = {
 			246,
-			1755,
+			1686,
 			56,
 			53
 		},
@@ -606,8 +654,8 @@ return {
 			2048
 		},
 		f_quad = {
-			252,
-			1408,
+			246,
+			1610,
 			72,
 			70
 		},
@@ -703,7 +751,7 @@ return {
 		},
 		f_quad = {
 			6,
-			1302,
+			1183,
 			240,
 			100
 		},
@@ -780,56 +828,6 @@ return {
 			499,
 			116,
 			116
-		},
-		alias = {}
-	},
-	["item_room_button_select_bg _0001"] = {
-		a_name = "room_item_item_room-1.png",
-		size = {
-			258,
-			117
-		},
-		trim = {
-			7,
-			7,
-			11,
-			10
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			6,
-			1408,
-			240,
-			100
-		},
-		alias = {
-			"item_room_button_select_bg _0002"
-		}
-	},
-	["item_room_button_select_bg _0003"] = {
-		a_name = "room_item_item_room-1.png",
-		size = {
-			258,
-			117
-		},
-		trim = {
-			0,
-			0,
-			4,
-			4
-		},
-		a_size = {
-			2048,
-			2048
-		},
-		f_quad = {
-			6,
-			1077,
-			254,
-			113
 		},
 		alias = {}
 	},
@@ -922,8 +920,8 @@ return {
 			2048
 		},
 		f_quad = {
-			6,
-			1996,
+			1248,
+			257,
 			201,
 			51
 		},
@@ -947,7 +945,7 @@ return {
 		},
 		f_quad = {
 			360,
-			1055,
+			935,
 			116,
 			118
 		},
@@ -971,7 +969,7 @@ return {
 		},
 		f_quad = {
 			360,
-			809,
+			689,
 			117,
 			117
 		},
@@ -994,8 +992,8 @@ return {
 			2048
 		},
 		f_quad = {
-			1483,
-			257,
+			1930,
+			166,
 			118,
 			102
 		},
@@ -1019,7 +1017,7 @@ return {
 		},
 		f_quad = {
 			360,
-			932,
+			812,
 			117,
 			117
 		},
@@ -1043,7 +1041,7 @@ return {
 		},
 		f_quad = {
 			360,
-			550,
+			538,
 			136,
 			145
 		},
@@ -1068,8 +1066,8 @@ return {
 			2048
 		},
 		f_quad = {
-			360,
-			701,
+			1930,
+			274,
 			118,
 			102
 		},
@@ -1092,7 +1090,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1869,
+			1634,
 			166,
 			142,
 			146
@@ -1236,7 +1234,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1523,
+			1725,
 			125,
 			21,
 			21
@@ -1260,7 +1258,7 @@ return {
 			2048
 		},
 		f_quad = {
-			1550,
+			1752,
 			125,
 			21,
 			21
@@ -1285,9 +1283,129 @@ return {
 		},
 		f_quad = {
 			246,
-			1514,
+			1391,
 			106,
 			91
+		},
+		alias = {}
+	},
+	item_room_image_rivet_roster_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			12,
+			13
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1783,
+			125,
+			12,
+			13
+		},
+		alias = {}
+	},
+	item_room_image_roster_corner_01_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			36,
+			34
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1523,
+			125,
+			36,
+			34
+		},
+		alias = {}
+	},
+	item_room_image_roster_corner_02_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			36,
+			34
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1565,
+			125,
+			36,
+			34
+		},
+		alias = {}
+	},
+	item_room_image_roster_corner_03_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			36,
+			34
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1607,
+			125,
+			36,
+			34
+		},
+		alias = {}
+	},
+	item_room_image_roster_corner_04_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			36,
+			34
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1649,
+			125,
+			36,
+			34
 		},
 		alias = {}
 	},
@@ -1309,7 +1427,7 @@ return {
 		},
 		f_quad = {
 			252,
-			1196,
+			1077,
 			101,
 			99
 		},
@@ -1356,8 +1474,8 @@ return {
 			2048
 		},
 		f_quad = {
-			246,
-			1611,
+			360,
+			1292,
 			68,
 			125
 		},
@@ -1380,8 +1498,8 @@ return {
 			2048
 		},
 		f_quad = {
-			360,
-			1413,
+			241,
+			1887,
 			110,
 			108
 		},
@@ -1404,8 +1522,8 @@ return {
 			2048
 		},
 		f_quad = {
-			360,
-			1297,
+			241,
+			1771,
 			112,
 			110
 		},
@@ -1431,9 +1549,129 @@ return {
 		},
 		f_quad = {
 			360,
-			1179,
+			1059,
 			114,
 			112
+		},
+		alias = {}
+	},
+	item_room_image_roster_thumb_empty_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			140,
+			136
+		},
+		trim = {
+			0,
+			0,
+			3,
+			1
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			360,
+			397,
+			137,
+			135
+		},
+		alias = {}
+	},
+	item_room_image_rosterframe2_l_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			16,
+			128
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			324,
+			591,
+			16,
+			128
+		},
+		alias = {}
+	},
+	item_room_image_rosterframe2_r_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			15,
+			131
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			324,
+			725,
+			15,
+			131
+		},
+		alias = {}
+	},
+	item_room_image_rosterframe_b_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			20,
+			14
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1691,
+			145,
+			20,
+			14
+		},
+		alias = {}
+	},
+	item_room_image_rosterframe_t_ = {
+		a_name = "room_item_item_room-1.png",
+		size = {
+			28,
+			14
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			2048,
+			2048
+		},
+		f_quad = {
+			1691,
+			125,
+			28,
+			14
 		},
 		alias = {}
 	},

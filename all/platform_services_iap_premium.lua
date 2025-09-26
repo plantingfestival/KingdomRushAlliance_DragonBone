@@ -129,6 +129,12 @@ function tiap:get_tower_sales()
 	return {}
 end
 
+function tiap:get_gems_sales()
+	log.debug("platform_services_iap_premium does not show gems sales")
+
+	return {}
+end
+
 function tiap:get_dlcs(owned)
 	local list = {}
 	local gs = require("game_settings")

@@ -89,6 +89,14 @@ return {
 			pos = v(44.65, -38.3),
 			scale = v(1, 1),
 			anchor = v(43.45, 25.9)
+		},
+		{
+			class = "KImageView",
+			image_name = "tower_room_image_dlc_wukong_badge_small_",
+			id = "image_dlc_2_badge_small",
+			pos = v(44.65, -38.3),
+			scale = v(1, 1),
+			anchor = v(43.45, 25.9)
 		}
 	}
 }

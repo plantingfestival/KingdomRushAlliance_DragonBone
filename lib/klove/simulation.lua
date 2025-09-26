@@ -2,7 +2,6 @@
 
 local log = require("klua.log"):new("simulation")
 local km = require("klua.macros")
-local A = require("klove.animation_db")
 
 simulation = {}
 
@@ -23,14 +22,12 @@ function simulation:init(store, systems, active_system_names, tick_length)
 	d.pending_removals = {}
 	d.entity_count = 0
 	d.entity_max = 0
-	self.max_count = 60
-	self.last_time = 0
-	self.counter = 0
 	self.systems_on_queue = {}
 	self.systems_on_dequeue = {}
 	self.systems_on_insert = {}
 	self.systems_on_remove = {}
 	self.systems_on_update = {}
+	self.systems_destroy = {}
 
 	local systems_order = {}
 
@@ -71,7 +68,17 @@ function simulation:init(store, systems, active_system_names, tick_length)
 			if s.on_update then
 				table.insert(self.systems_on_update, s)
 			end
+
+			if s.destroy then
+				table.insert(self.systems_destroy, s)
+			end
 		end
+	end
+end
+
+function simulation:destroy()
+	for _, sys in ipairs(self.systems_destroy) do
+		sys:destroy(self.store)
 	end
 end
 
@@ -113,43 +120,6 @@ function simulation:do_tick()
 		local e = table.remove(d.pending_removals, 1)
 
 		self:remove_entity(e)
-	end
-
-	if IS_KR5 and game then
-		local dt = d.tick_ts - self.last_time
-
-		self.last_time = d.tick_ts
-
-		if d.dt > 0.02 and game.limit_fps and game.limit_fps > 30 then
-			self.counter = self.counter + 1
-
-			if self.counter > self.max_count then
-				game.limit_fps = 30
-				d.tick_length = 0.03333333333333333
-				A.tick_length = 0.03333333333333333
-				d.tick = d.tick * 0.5
-				d.tick_ts = d.tick * d.tick_length
-			end
-		else
-			self.counter = 0
-		end
-
-		if game.force_change_fps then
-			game.limit_fps = game.force_change_fps
-			d.tick_length = 1 / game.force_change_fps
-			A.tick_length = 1 / game.force_change_fps
-
-			if game.force_change_fps == 60 then
-				d.tick = d.tick * 2
-			end
-
-			if game.force_change_fps == 30 then
-				d.tick = d.tick * 0.5
-			end
-
-			d.tick_ts = d.tick * d.tick_length
-			game.force_change_fps = nil
-		end
 	end
 
 	for _, sys in ipairs(self.systems_on_update) do

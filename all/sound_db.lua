@@ -36,11 +36,12 @@ local _THREADS_ENABLED = true
 local _MAX_THREADS = 8
 local _LOAD_AUDIO_THREAD_CODE = "local cin,cout,th_i = ...\nrequire \"love.filesystem\"\nrequire \"love.audio\"\nrequire \"love.sound\"\nlocal file_count = 0\nwhile true do\n    -- get params\n    local file = cin:demand()\n    if file == 'QUIT' then goto quit end\n    local mode = cin:demand()\n    local id = cin:demand()\n    \n    if not love.filesystem.isFile(file) then\n        cout:push({'ERROR','Not a file',file})\n    else\n        local ok, result = pcall(love.audio.newSource, file, mode)\n        collectgarbage()\n        if ok and result then\n            cout:push({'OK',result,id})\n            file_count = file_count + 1\n        else\n            cout:push({'ERROR',result,file})\n        end\n    end\nend\n::quit::\ncout:supply({'DONE'})\n--print('TH  ' ..th_i.. ' QUIT - FILES LOADED ' .. file_count .. '\\n')\n"
 
-function sound_db:init(path)
+function sound_db:init(path, overrides)
 	log.debug("path:%s", path)
 
 	self.path = path
 	self.files_path = path .. "/files"
+	self.overrides = overrides or {}
 
 	local f_settings = FS.load(path .. "/settings.lua")()
 
@@ -253,6 +254,17 @@ function sound_db:load_group(name, yielding, filter)
 				self.source_uses[fn] = self.source_uses[fn] + 1
 			else
 				local file = string.format(self.files_path .. "/%s", fn)
+
+				for _, ov in pairs(self.overrides) do
+					local f = string.format("%s/_ov/%s/%s", self.files_path, ov, fn)
+
+					if love.filesystem.isFile(f) then
+						file = f
+
+						break
+					end
+				end
+
 				local cin = load_threads[th_i][2]
 
 				cin:push(file)
@@ -320,8 +332,20 @@ function sound_db:load_group(name, yielding, filter)
 				self.source_uses[fn] = self.source_uses[fn] + 1
 			else
 				local file = string.format(self.files_path .. "/%s", fn)
+				local override_found = false
 
-				if love.filesystem.isFile(file) then
+				for _, ov in pairs(self.overrides) do
+					local f = string.format(self.files_path .. "/_ov/%s" .. "/%s", ov, fn)
+
+					if love.filesystem.isFile(f) then
+						f = file
+						override_found = true
+
+						break
+					end
+				end
+
+				if override_found or love.filesystem.isFile(file) then
 					local ok, master_src = pcall(love.audio.newSource, file, mode)
 
 					if ok and master_src then
@@ -556,6 +580,57 @@ function sound_db:set_main_gain_music(gain)
 	})
 end
 
+function sound_db:fade_in_group(group, duration)
+	local gv = self:get_group_volume(group)
+	local gg = self:get_group_gain(group)
+
+	if gg == gv then
+		return
+	end
+
+	self.fade_queue = self.fade_queue or {}
+	self.fade_queue[group] = self.fade_queue[group] or {}
+
+	local fq = self.fade_queue[group]
+
+	if fq and fq.type == "in" then
+		return
+	end
+
+	fq.type = "in"
+	fq.ts = self.ts
+	fq.duration = duration or 1
+	fq.v0 = gv
+	fq.v1 = gg
+
+	log.debug("fading in %s to %s", group, fq.v1)
+end
+
+function sound_db:fade_out_group(group, duration)
+	local gv = self:get_group_volume(group)
+
+	if gv == 0 then
+		return
+	end
+
+	self.fade_queue = self.fade_queue or {}
+	self.fade_queue[group] = self.fade_queue[group] or {}
+
+	local fq = self.fade_queue[group]
+
+	if fq and fq.type == "out" then
+		return
+	end
+
+	fq.type = "out"
+	fq.ts = self.ts
+	fq.duration = duration or 1
+	fq.v0 = gv
+	fq.v1 = 0
+
+	log.debug("fading out %s to %s", group, fq.v1)
+end
+
 function sound_db:set_groups_gains(ggs)
 	local active_sources = self.active_sources
 	local group_gains = sound_db.group_gains
@@ -566,6 +641,38 @@ function sound_db:set_groups_gains(ggs)
 		if active_sources and active_sources[gid] then
 			for _, ast in pairs(active_sources[gid]) do
 				ast.source:setVolume(ast.ref_vol * gain)
+			end
+		end
+	end
+end
+
+function sound_db:get_group_gain(group)
+	return sound_db.group_gains[group] or 0.8
+end
+
+function sound_db:get_group_volume(group, id)
+	local active_sources = self.active_sources
+
+	if active_sources and active_sources[group] then
+		if active_sources[group][id] then
+			return active_sources[group][id].source:getVolume()
+		else
+			for _, ast in pairs(active_sources[group]) do
+				return km.clamp(0, 1, ast.source:getVolume() / (ast.ref_vol or 1))
+			end
+		end
+	end
+
+	return 0
+end
+
+function sound_db:set_groups_volumes(ggs)
+	local active_sources = self.active_sources
+
+	for gid, gain in pairs(ggs) do
+		if active_sources and active_sources[gid] then
+			for _, ast in pairs(active_sources[gid]) do
+				ast.source:setVolume(km.clamp(0, 1, ast.ref_vol * gain))
 			end
 		end
 	end
@@ -634,6 +741,34 @@ function sound_db:update(dt)
 		if not req.options.delay or self.ts - req.qts >= req.options.delay then
 			self:play(req)
 			table.remove(queue, i)
+		end
+	end
+
+	if self.fade_queue then
+		local remove_groups = {}
+
+		for g, fq in pairs(self.fade_queue) do
+			local gg = self:get_group_gain(group)
+			local ts = self.ts
+
+			if fq.ts + fq.duration < self.ts then
+				self:set_groups_volumes({
+					[g] = fq.v1
+				})
+				table.insert(remove_groups, g)
+				log.debug("finished fading %s : %s->%s", g, fq.v0, fq.v1)
+			else
+				local phase = (ts - fq.ts) / fq.duration
+				local v = km.clamp(0, 1, km.ease_value(fq.v0, fq.v1, phase, fq.type == "in" and "cubic-out" or "cubic-in"))
+
+				self:set_groups_volumes({
+					[g] = v
+				})
+			end
+		end
+
+		for _, g in pairs(remove_groups) do
+			self.fade_queue[g] = nil
 		end
 	end
 end

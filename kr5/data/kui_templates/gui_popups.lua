@@ -22,6 +22,13 @@ return {
 			size = v(ctx.sw, ctx.sh)
 		},
 		{
+			class = "GG5PopUpMessageLong",
+			template_name = "popup_message_long",
+			id = "popup_message_long",
+			pos = v(ctx.sw / 2, 362),
+			size = v(ctx.sw, ctx.sh)
+		},
+		{
 			class = "GG5PopUpMessage",
 			template_name = "popup_message",
 			id = "popup_message",

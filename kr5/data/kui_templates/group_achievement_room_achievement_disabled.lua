@@ -132,6 +132,13 @@ return {
 			class = "KImageView",
 			pos = v(-218.9, -68.45),
 			anchor = v(23.9, 26.3)
+		},
+		{
+			id = "image_dlc_2_flag",
+			image_name = "achievements_room_image_dlc_wukong_flag_",
+			class = "KImageView",
+			pos = v(-218.9, -68.45),
+			anchor = v(23.9, 26.3)
 		}
 	}
 }
