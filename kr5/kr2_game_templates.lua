@@ -6311,6 +6311,7 @@ tt = E:register_t("beastmaster_boar", "soldier")
 E:add_comps(tt, "melee")
 anchor_y = 0.29
 image_y = 60
+tt.not_draggable = true
 tt.info.portrait = "bottom_info_image_soldiers_0047"
 tt.health.armor = 0
 tt.health.hp_max = nil

@@ -5702,15 +5702,15 @@ local heroes = {
 		},
 		armor = {
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			0.03,
+			0.07,
+			0.1,
+			0.13,
+			0.17,
+			0.2,
+			0.23,
+			0.27,
+			0.3
 		},
 		hp_max = {
 			200,
@@ -5726,15 +5726,15 @@ local heroes = {
 		},
 		regen_health = {
 			13,
-			14,
-			14,
-			15,
 			16,
-			17,
-			18,
-			18,
 			19,
-			20
+			22,
+			25,
+			28,
+			31,
+			34,
+			37,
+			40
 		},
 		melee_attacks = {
 			can_repeat_attack = false,
@@ -5745,26 +5745,26 @@ local heroes = {
 				damage_max = {
 					8,
 					10,
-					12,
 					13,
 					15,
-					17,
-					19,
-					21,
+					18,
+					20,
 					23,
-					25
+					25,
+					28,
+					30
 				},
 				damage_min = {
 					6,
-					7,
 					8,
-					9,
 					10,
 					12,
 					14,
 					16,
 					18,
-					20
+					20,
+					22,
+					24
 				}
 			},
 			jump = {
@@ -5773,26 +5773,26 @@ local heroes = {
 				damage_max = {
 					8,
 					10,
-					12,
 					13,
 					15,
-					17,
-					19,
-					21,
+					18,
+					20,
 					23,
-					25
+					25,
+					28,
+					30
 				},
 				damage_min = {
 					6,
-					7,
 					8,
-					9,
 					10,
 					12,
 					14,
 					16,
 					18,
-					20
+					20,
+					22,
+					24
 				}
 			},
 			simple = {
@@ -5801,26 +5801,26 @@ local heroes = {
 				damage_max = {
 					8,
 					10,
-					12,
 					13,
 					15,
-					17,
-					19,
-					21,
+					18,
+					20,
 					23,
-					25
+					25,
+					28,
+					30
 				},
 				damage_min = {
 					6,
-					7,
 					8,
-					9,
 					10,
 					12,
 					14,
 					16,
 					18,
-					20
+					20,
+					22,
+					24
 				}
 			},
 			fast_hits = {
@@ -5829,26 +5829,26 @@ local heroes = {
 				damage_max = {
 					8,
 					10,
-					12,
 					13,
 					15,
-					17,
-					19,
-					21,
+					18,
+					20,
 					23,
-					25
+					25,
+					28,
+					30
 				},
 				damage_min = {
 					6,
-					7,
 					8,
-					9,
 					10,
 					12,
 					14,
 					16,
 					18,
-					20
+					20,
+					22,
+					24
 				}
 			}
 		},
@@ -5863,21 +5863,21 @@ local heroes = {
 				18,
 				18
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_TRUE,
 			damage_max = {
 				15,
-				25,
-				30
+				30,
+				45
 			},
 			damage_min = {
 				10,
-				14,
-				18
+				20,
+				30
 			},
 			pole_amounts = {
 				3,
-				5,
-				7
+				6,
+				9
 			},
 			xp_gain = {
 				20,
@@ -5890,8 +5890,8 @@ local heroes = {
 			min_targets = 2,
 			cooldown = {
 				25,
-				23,
-				21
+				22,
+				19
 			},
 			xp_gain = {
 				20,
@@ -5900,29 +5900,29 @@ local heroes = {
 			},
 			soldier = {
 				max_speed = 60,
-				armor = 0,
+				armor = 0.15,
 				hp_max = {
 					80,
-					100,
-					120
+					120,
+					160
 				},
 				duration = {
 					9,
-					9,
-					9
+					12,
+					15
 				},
 				melee_attack = {
 					cooldown = 1,
 					range = 72,
 					damage_min = {
-						4,
 						8,
-						12
+						16,
+						24
 					},
 					damage_max = {
-						5,
 						10,
-						14
+						20,
+						30
 					}
 				}
 			}
@@ -5930,24 +5930,24 @@ local heroes = {
 		zhu_apprentice = {
 			dead_lifetime = 9,
 			max_speed = 100,
-			armor = 0,
+			armor = 0.2,
 			hp_max = {
-				60,
-				90,
-				140
+				120,
+				180,
+				240
 			},
 			melee_attack = {
 				range = 150,
 				cooldown = 1,
 				damage_min = {
-					2,
 					4,
-					8
+					8,
+					16
 				},
 				damage_max = {
-					3,
 					6,
-					12
+					12,
+					24
 				},
 				damage_type = DAMAGE_PHYSICAL
 			},
@@ -5984,18 +5984,18 @@ local heroes = {
 				60
 			},
 			area_damage = {
-				max_targets = 10,
+				max_targets = 64,
 				damage_radius = 70,
-				damage_type = DAMAGE_PHYSICAL,
+				damage_type = DAMAGE_TRUE,
 				damage_max = {
-					50,
-					75,
-					100
+					100,
+					200,
+					300
 				},
 				damage_min = {
-					45,
-					60,
-					85
+					90,
+					180,
+					270
 				}
 			}
 		},
@@ -6008,16 +6008,16 @@ local heroes = {
 			},
 			damage_total = {
 				200,
-				300,
 				400,
-				500
+				600,
+				800
 			},
 			damage_type = DAMAGE_TRUE,
 			slow_duration = {
 				3,
-				3.5,
 				4,
-				4.5
+				5,
+				6
 			},
 			slow_factor = {
 				0.5,
