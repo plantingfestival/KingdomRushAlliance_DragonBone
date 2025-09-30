@@ -35,14 +35,15 @@ local slot_template = require("data.slot_template")
 local RC = require("remote_config")
 local UP = require("upgrades")
 local W = require("wave_db")
-local balance = require("balance/balance")
+local SSO = require("klove.sso")
 local features = require("features")
+local balance = require("data.balance.balance")
 local G = love.graphics
 
 require("constants")
-require("gg_views_custom")
-require("gg_views_game")
-require("game_gui_classes")
+require("kviews_gg_sequels")
+require("kviews_game_gui_sequels")
+require("kviews_game_gui_game")
 
 local PS = require("platform_services")
 local dbe
@@ -52,8 +53,8 @@ if DBG_SLIDE_EDITOR then
 end
 
 if DEBUG and PS.services and PS.services.remote_balance and PS.services.remote_balance.inited then
-	require("game_editor_classes")
-	require("remote_balance_classes")
+	require("kviews_game_editor")
+	require("kviews_remote_balance")
 
 	KE_CONST.PROP_W = 600
 	KE_CONST.PROP_H = 28
@@ -62,15 +63,13 @@ end
 
 local data = require("data.game_gui_data")
 local tower_menus
-local IS_PHONE = KR_TARGET == "phone"
-local IS_TABLET = KR_TARGET == "tablet"
-local DRAG_ENTITY_LOOKUP_MARGIN = 15
-local DRAG_ENTITY_THRESHOLD = IS_MOBILE and 10 or 25
-local DRAG_TOWER_THRESHOLD = IS_MOBILE and 10 or 25
-local POWER_BUTTON_DRAG_SCALE = 1.6
-local QUICK_CLICK_TIME = 0.2
+local DRAG_ENTITY_THRESHOLD = OVT(19, "phone", 19, "tablet", 11)
+local DRAG_TOWER_THRESHOLD = OVT(19, "phone", 19, "tablet", 11)
+local PAN_START_THRESHOLD = OVT(20, "phone", 20, "tablet", 12)
+local PAN_LARGE_FACTOR = 4
+local QUICK_CLICK_TIME = OVT(0.2, OV_PHONE, 0.15, OV_TABLET, 0.15)
 local PAN_TO_ENTITY_TIME = 0.6
-local TOWERMENU_SHOW_TOOLTIP_ON_MAXED_POWER = not IS_MOBILE
+local TOWERMENU_SHOW_TOOLTIP_ON_MAXED_POWER = true
 local SHOW_INGAME_SHOP = true
 local game_gui = {}
 
@@ -78,13 +77,13 @@ if DEBUG then
 	game_gui.reload_list = {
 		"gui_utils",
 		"data.game_gui_data",
-		"gg_views_custom",
-		"gg_views_game",
-		"game_gui_classes"
+		"kviews_gg_sequels",
+		"kviews_game_gui_sequels",
+		"kviews_game_gui_game"
 	}
 
 	if PS.services and PS.services.remote_balance then
-		table.insert(game_gui.reload_list, "remote_balance_classes")
+		table.insert(game_gui.reload_list, "kviews_remote_balance")
 	end
 end
 
@@ -113,6 +112,7 @@ game_gui.ref_h = GUI_REF_H
 game_gui.ref_res = TEXTURE_SIZE_ALIAS.ipad
 game_gui._last_mouse_pos_x, game_gui._last_mouse_pos_y = 0, 0
 game_gui.tutorial = {}
+game_gui.focus_circle = nil
 game_gui.base_scale_list = {
 	wave_flag = V.vv(OVT(1, OV_PHONE, 1)),
 	enemy_alert = V.vv(OVT(0.65, OV_PHONE, 0.95)),
@@ -177,6 +177,7 @@ function game_gui:init(w, h, game)
 	self.sh = sh
 	self.gui_scale = scale
 	self.safe_frame = SU.get_safe_frame(w, h, self.ref_w, self.ref_h)
+	self.game.store.safe_frame = self.safe_frame
 	self.bs = SU.factor_base_scale_list(game_gui.base_scale_list, game_gui.base_scale_aspect_factors, sw / sh)
 
 	log.info("WindowData\nw:%f - h:%f - ch:%f - sw:%f - sh:%f - scale:%f", self.w, self.h, self.clamped_h, self.sw, self.sh, self.gui_scale)
@@ -237,6 +238,9 @@ function game_gui:init(w, h, game)
 	ctx.endless = self.game.store.level_mode == GAME_MODE_ENDLESS
 	ctx.bs = self.bs
 	ctx.has_iap = SHOW_INGAME_SHOP
+	ctx.no_gems = features.no_gems or false
+	ctx.is_e2w = features.e2w and true or false
+	ctx.show_button_captions = features.show_button_captions or false
 	ctx.remote_balance = PS.services and PS.services.remote_balance and PS.services.remote_balance.inited or false
 
 	if ctx.remote_balance then
@@ -475,15 +479,7 @@ function game_gui:init(w, h, game)
 
 			sv:ci("damage_icon"):set_image(ddi[stats.damage_icon] or ddi[band(DAMAGE_BASE_TYPES, stats.damage_type or 0)] or ddi.default)
 
-			sv:ci("respawn").text = stats.respawn and string.format("%is", stats.respawn) or "-"
-
-			if features.censored_cn then
-				sv:ci("respawn").text = stats.respawn and string.format("%i秒", stats.respawn) or "-"
-
-				if sv:ci("respawn").font_name ~= "currency" then
-					sv:ci("respawn").font_name = "currency"
-				end
-			end
+			sv:ci("respawn").text = stats.respawn and string.format(_("%is"), stats.respawn) or "-"
 
 			local armor_count = GU.armor_value_descrete(stats.armor)
 			local magical_armor_count = GU.armor_value_descrete(stats.magic_armor)
@@ -645,12 +641,61 @@ function game_gui:destroy()
 	self.wave_flags = nil
 	self.selected_entity = nil
 	self.swap_entity = nil
+	self.focus_circle = nil
 
 	SU.remove_references(self, KView)
 
 	for sn, fn in pairs(self.signal_handlers) do
 		signal.remove(sn, fn)
 	end
+end
+
+local function set_can_click_on_all_holders(store, can_click)
+	local holders = table.filter(store.entities, function(_, v)
+		return v.tower and v.tower.holder_id
+	end)
+
+	for _, h in ipairs(holders) do
+		h.ui.can_click = can_click
+		h.tower.can_hover = can_click
+	end
+end
+
+local function get_holder_by_id(store, id)
+	return table.filter(store.entities, function(_, v)
+		return v.tower and v.tower.holder_id == id
+	end)[1]
+end
+
+local function restore_all_holders_and_builds(store)
+	signal.emit("tutorial-tower-enable-all")
+	set_can_click_on_all_holders(store, true)
+end
+
+local function remove_focus_circle(store, circle)
+	if not circle then
+		return
+	end
+
+	circle.tween.remove = true
+	circle.tween.ts = store.tick_ts
+	circle.tween.reverse = true
+end
+
+local function show_focus_circle(store, pos)
+	if game_gui.focus_circle then
+		log.error("there can only be one focus circle active at a time. hiding last one, but this is not the intended use.")
+		remove_focus_circle(store, game_gui.focus_circle)
+	end
+
+	local screen_focus_circle = E:create_entity("screen_focus_circle")
+
+	screen_focus_circle.circle_pos = pos
+	screen_focus_circle.circle_radius = 200
+
+	LU.queue_insert(store, screen_focus_circle)
+
+	return screen_focus_circle
 end
 
 game_gui.signal_handlers = {
@@ -682,7 +727,11 @@ game_gui.signal_handlers = {
 	end,
 	["next-wave-ready"] = function(group)
 		log.debug("next_wave_ready_handler")
-		S:queue("GUINextWaveReady")
+
+		if game_gui.mode ~= GUI_MODE_CINEMATIC_LOCK then
+			S:queue("GUINextWaveReady")
+		end
+
 		game_gui:create_wave_flags(group)
 
 		if game_gui.gui_hud_hidden then
@@ -741,8 +790,12 @@ game_gui.signal_handlers = {
 	["start-cinematic"] = function()
 		game_gui:set_mode(GUI_MODE_CINEMATIC_LOCK)
 	end,
-	["end-cinematic"] = function()
+	["end-cinematic"] = function(play_next_wave_ready_sound)
 		game_gui:set_mode(GUI_MODE_IDLE)
+
+		if play_next_wave_ready_sound then
+			S:queue("GUINextWaveReady")
+		end
 	end,
 	["start-tutorial"] = function()
 		wid("overlay_view").hidden = false
@@ -798,8 +851,16 @@ game_gui.signal_handlers = {
 			game_gui:show_clickable_hover(e)
 		end
 	end,
+	["show-balloon_tutorial-xy"] = function(key, sx, sy)
+		local x, y = tonumber(sx), tonumber(sy)
+
+		game_gui:show_balloon_tutorial_pos(key, false, V.v(x, y))
+	end,
 	["show-balloon_tutorial"] = function(id, show)
 		game_gui:show_balloon_tutorial(id, show)
+	end,
+	["show-balloon_tutorial-pos"] = function(id, show, pos)
+		game_gui:show_balloon_tutorial_pos(id, show, pos)
 	end,
 	["hide-balloon-tutorial"] = function(id)
 		local balloon = game_gui.tutorial_balloon
@@ -913,7 +974,8 @@ game_gui.signal_handlers = {
 			"tutorial_end",
 			"boss_fight_5_end",
 			"boss_fight_6_end",
-			"boss_fight_8_end"
+			"boss_fight_8_end",
+			"boss_fight_10_end"
 		}
 
 		if game_gui.game.store.custom_game_outcome and table.contains(items_to_reduce, game_gui.game.store.custom_game_outcome.next_item_name) then
@@ -1065,6 +1127,15 @@ game_gui.signal_handlers = {
 		timer:tween(1, cb.pos, {
 			y = cb.shown_y
 		}, "out-cubic")
+
+		local grox = game_gui.game.game_ref_origin.x / game_gui.gui_scale
+
+		game_gui.game.store.curtain_visible_limits = {
+			top = REF_H - ct.shown_y,
+			bottom = REF_H - cb.shown_y,
+			left = -grox,
+			right = REF_W + grox
+		}
 	end,
 	["hide-curtains"] = function()
 		local ct, cb = wid("curtain_top_view"), wid("curtain_bottom_view")
@@ -1356,17 +1427,25 @@ game_gui.signal_handlers = {
 		log.debug("pan-zoom-camera: to:%s,%s zooom:%s", tox, toy, to_zoom)
 		game.camera:tween(timer, time, tox, toy, to_zoom, easing)
 	end,
-	["block-random-power"] = function(duration, style)
+	["pan-zoom-camera-xy"] = function(time, to_x, to_y, to_zoom, easing)
+		time = tonumber(time)
+		to_zoom = tonumber(to_zoom)
+
+		local x, y = tonumber(to_x), tonumber(to_y)
+
+		signal.emit("pan-zoom-camera", time, V.v(x, y), to_zoom, easing)
+	end,
+	["block-random-power"] = function(duration, style, ignore_disabled)
 		local powers = {}
 
 		for i = 1, 3 do
 			local p = wid("power_button_" .. i)
 
-			if p and not p:is_disabled() and table.contains({
+			if p and (ignore_disabled or not p:is_disabled() and table.contains({
 				"default",
 				"unlocked",
 				"ready"
-			}, p.mode) then
+			}, p.mode)) then
 				table.insert(powers, p)
 			end
 		end
@@ -1377,6 +1456,26 @@ game_gui.signal_handlers = {
 			log.debug("blocking power: %s", p)
 
 			local pbb = PowerButtonBlock:new(p, duration, style)
+
+			p:add_child(pbb)
+			pbb:block()
+		end
+	end,
+	["block-hero"] = function(duration, style, ignore_disabled, hero_id)
+		local p
+
+		for i, v in pairs(wid("hero_portraits_view").children) do
+			if v:isInstanceOf(HeroPortrait) and v.hero_entity and v.hero_entity.id == hero_id then
+				p = v
+
+				break
+			end
+		end
+
+		if p and (ignore_disabled or not p:is_disabled() and not p:is_blocked()) then
+			log.debug("blocking hero: %s", p)
+
+			local pbb = HeroPortraitBlock:new(p, duration, style)
 
 			p:add_child(pbb)
 			pbb:block()
@@ -1402,6 +1501,44 @@ game_gui.signal_handlers = {
 				alpha = 0
 			}, "in-cubic")
 		end
+	end,
+	["highlight-hud-label"] = function(hud_label, amount)
+		amount = tonumber(amount)
+
+		local glow = wid(hud_label .. "_highlight")
+
+		if glow then
+			glow.hidden = false
+			glow.alpha = 1
+
+			timer:tween(amount, glow, {
+				alpha = 0
+			}, "in-cubic")
+		end
+	end,
+	["disable-all-holders"] = function()
+		set_can_click_on_all_holders(game_gui.game.store, false)
+		signal.emit("tutorial-tower-enable-only", "tower_build_archers")
+	end,
+	["enable-all-holders"] = function()
+		restore_all_holders_and_builds(game_gui.game.store)
+	end,
+	["enable-holder"] = function(id)
+		local holder = get_holder_by_id(game_gui.game.store, id)
+
+		holder.ui.can_click = true
+		holder.tower.can_hover = true
+	end,
+	["show-focus-circle-xy"] = function(sx, sy)
+		local x, y = tonumber(sx), tonumber(sy)
+		local circle = show_focus_circle(game_gui.game.store, V.v(x, y))
+
+		game_gui.focus_circle = circle
+	end,
+	["hide-focus-circle"] = function()
+		remove_focus_circle(game_gui.game.store, game_gui.focus_circle)
+
+		game_gui.focus_circle = nil
 	end,
 	[SGN_SHOP_SHOWN] = function()
 		S:pause()
@@ -1657,44 +1794,16 @@ function game_gui:set_mode(mode)
 	self.mouse_pointer:update_pointer(mode)
 end
 
-function game_gui:entity_at_pos(x, y)
+function game_gui:entity_at_pos(x, y, margin_ui, filter)
 	local found = {}
+	local margin_ui = margin_ui or 0
+	local margin = margin_ui * game_gui.gui_scale / (game.game_scale * (game.camera and game.camera.zoom or 1))
 
 	for _, e in pairs(self.game.simulation.store.entities) do
-		if e.pos and e.ui and e.ui.can_click then
+		if e.pos and e.ui and e.ui.can_click and (not filter or filter(e)) then
 			local r = e.ui.click_rect
 
-			if x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y then
-				table.insert(found, e)
-			end
-		end
-	end
-
-	table.sort(found, function(e1, e2)
-		if e1.ui.z == e2.ui.z then
-			return e1.pos.y < e2.pos.y
-		else
-			return e1.ui.z > e2.ui.z
-		end
-	end)
-
-	if #found > 0 then
-		local e = found[1]
-
-		return e
-	else
-		return nil
-	end
-end
-
-function game_gui:drag_entity_around_pos(x, y, margin)
-	local found = {}
-
-	for _, e in pairs(self.game.simulation.store.entities) do
-		if e.pos and e.ui and e.ui.can_click and (e.health and not e.health.dead or e.tower and e.motion) then
-			local r = e.ui.click_rect
-
-			if e.ui and e.ui.can_click and e.nav_grid and (x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x > e.pos.x + r.pos.x and x < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y > e.pos.y + r.pos.y and y < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y or x - margin > e.pos.x + r.pos.x and x - margin < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y - margin > e.pos.y + r.pos.y and y - margin < e.pos.y + r.pos.y + r.size.y or x + margin > e.pos.x + r.pos.x and x + margin < e.pos.x + r.pos.x + r.size.x and y + margin > e.pos.y + r.pos.y and y + margin < e.pos.y + r.pos.y + r.size.y) then
+			if x > e.pos.x + r.pos.x - margin and x < e.pos.x + r.pos.x + r.size.x + margin and y > e.pos.y + r.pos.y - margin and y < e.pos.y + r.pos.y + r.size.y + margin then
 				table.insert(found, e)
 			end
 		end
@@ -1735,39 +1844,52 @@ function game_gui:create_wave_flags(group)
 		local item = flags_positions[w.path_index]
 
 		if item and P:is_path_active(w.path_index) and W:is_flag_visible(w.path_index) then
-			local duration = group.group_idx > 1 and group.interval / FPS or nil
-			local incoming_report = GU.incoming_wave_report(group, w.path_index, self.game.store.level_mode)
+			local wf
 
-			if game_gui.game.store.level_idx == 16 and self.game.store.level_mode == GAME_MODE_CAMPAIGN then
-				incoming_report = GU.incoming_wave_report(group, w.path_index, GAME_MODE_IRON)
+			for _, f in pairs(self.wave_flags) do
+				if f.path_index == w.path_index then
+					wf = f
+				end
 			end
 
-			local wf = WaveFlag:new(w.some_flying, duration, incoming_report)
+			if wf then
+				if w.some_flying then
+					wf:set_flying(true)
+				end
+			else
+				local duration = group.group_idx > 1 and group.interval / FPS or nil
+				local incoming_report = GU.incoming_wave_report(group, w.path_index, self.game.store.level_mode)
 
-			wf.pointer.r = item.r
-			wf.hidden = false
-			wf.path_index = w.path_index
+				if game_gui.game.store.level_idx == 16 and self.game.store.level_mode == GAME_MODE_CAMPAIGN then
+					incoming_report = GU.incoming_wave_report(group, w.path_index, GAME_MODE_IRON)
+				end
 
-			local vf = V.v(V.rotate(item.r, 1, 0))
-			local wfx, wfy = self:w2u(item.pos)
-			local pf = V.v(wfx, wfy)
-			local margins = table.deepclone(self.safe_frame)
+				wf = WaveFlag:new(w.some_flying, duration, incoming_report)
+				wf.pointer.r = item.r
+				wf.hidden = false
+				wf.path_index = w.path_index
 
-			margins.l = margins.l + 65
-			margins.r = margins.r + 65
-			margins.t = margins.t + 65
-			margins.b = margins.b + 65
-			wf.world_pos = item.pos
+				local vf = V.v(V.rotate(item.r, 1, 0))
+				local wfx, wfy = self:w2u(item.pos)
+				local pf = V.v(wfx, wfy)
+				local margins = table.deepclone(self.safe_frame)
 
-			wf:update(0)
-			wid("layer_wave_flags"):add_child(wf, 1)
-			table.insert(self.wave_flags, wf)
+				margins.l = margins.l + 65
+				margins.r = margins.r + 65
+				margins.t = margins.t + 65
+				margins.b = margins.b + 65
+				wf.world_pos = item.pos
 
-			local av = WaveAlertView:new(wf)
+				wf:update(0)
+				wid("layer_wave_flags"):add_child(wf, 1)
+				table.insert(self.wave_flags, wf)
 
-			wid("alerts_view"):add_child(av)
+				local av = WaveAlertView:new(wf)
 
-			wf.alert_view = av
+				wid("alerts_view"):add_child(av)
+
+				wf.alert_view = av
+			end
 		end
 	end
 end
@@ -2372,7 +2494,58 @@ function game_gui:show_balloon(id)
 	end
 end
 
-function game_gui:show_balloon_tutorial(id, show)
+function game_gui:show_balloon_tutorial(id, show, world_pos_override)
+	log.debug("balloon %s", id)
+
+	local b = wid(id)
+
+	if not b then
+		if features.censored_cn then
+			local function is_red(c)
+				local delta = 50
+
+				return c[1] > c[2] + delta and c[1] > c[3] + delta
+			end
+
+			local bd = data.text_balloons[id]
+
+			if bd.text_color and is_red(bd.text_color) then
+				bd.text_color = {
+					180,
+					0,
+					255,
+					255
+				}
+			end
+
+			if bd.line_color and is_red(bd.line_color) then
+				bd.line_color = {
+					180,
+					0,
+					255,
+					255
+				}
+			end
+		end
+
+		b = TextBalloon:new(id)
+
+		if b.world_pos then
+			if world_pos_override then
+				b.world_pos = world_pos_override
+			end
+
+			wid("layer_gui_world"):add_child(b, 1)
+		elseif not b.add_as_child then
+			wid("layer_gui_hud"):add_child(b)
+		end
+	end
+
+	self.tutorial_balloon = b
+	b.hidden = show
+end
+
+function game_gui:show_balloon_tutorial_pos(id, show, pos)
 	log.debug("balloon %s", id)
 
 	local b = wid(id)
@@ -2417,6 +2590,10 @@ function game_gui:show_balloon_tutorial(id, show)
 
 	self.tutorial_balloon = b
 	b.hidden = show
+
+	if pos then
+		b.world_pos = pos
+	end
 end
 
 function game_gui:show_balloons(keep_ts)
@@ -2519,6 +2696,18 @@ function game_gui.q_is_power_active(ctx, power)
 
 	if not b then
 		log.info("power button %s is nil", power)
+
+		return false
+	end
+
+	return not b:is_disabled()
+end
+
+function game_gui.q_is_item_active(ctx, item)
+	local b = wid("bag_item_" .. item)
+
+	if not b then
+		log.info("item button %s is nil", item)
 
 		return false
 	end
@@ -2665,7 +2854,9 @@ function game_gui.q_can_drag_entity(ctx)
 		return false
 	end
 
-	local e = game_gui:drag_entity_around_pos(wx, wy, DRAG_ENTITY_LOOKUP_MARGIN)
+	local e = game_gui:entity_at_pos(wx, wy, DRAG_ENTITY_LOOKUP_MARGIN, function(e)
+		return e.nav_grid and e.health and not e.health.dead
+	end)
 
 	log.debug("DRAG_ENTITY:%s AT:%s,%s", e and e.id, wx, wy)
 
@@ -2713,6 +2904,10 @@ function game_gui.q_selected_combined_tower(ctx)
 	return false
 end
 
+function game_gui.q_in_quick_click(ctx)
+	return game_gui._on_down_ts and game_gui.window.ts - game_gui._on_down_ts < QUICK_CLICK_TIME
+end
+
 function game_gui.q_selected_drag_entity(ctx)
 	local x, y, wx, wy = game_gui.get_pos_from_ctx(ctx)
 
@@ -2729,8 +2924,9 @@ function game_gui.q_selected_drag_entity(ctx)
 		end
 
 		local dist = V.dist(pressed_start.x, pressed_start.y, wx, wy)
+		local dist_ui = dist * game.game_scale * (game.camera and game.camera.zoom or 1) / game_gui.gui_scale
 
-		if dist > DRAG_ENTITY_THRESHOLD then
+		if dist_ui > DRAG_ENTITY_THRESHOLD then
 			return true
 		end
 	end
@@ -2750,8 +2946,9 @@ function game_gui.q_selected_drag_tower(ctx)
 
 	if e and e.soldier and e.soldier.tower_id then
 		local dist = V.dist(pressed_start.x, pressed_start.y, wx, wy)
+		local dist_ui = dist * game.game_scale * (game.camera and game.camera.zoom or 1) / game_gui.gui_scale
 
-		if dist > DRAG_TOWER_THRESHOLD then
+		if dist_ui > DRAG_TOWER_THRESHOLD then
 			return true
 		end
 	end
@@ -3391,6 +3588,20 @@ function game_gui.c_deselect_item(ctx, item)
 	end
 end
 
+function game_gui.c_select_item(ctx, item_id)
+	game_gui.c_deselect(ctx)
+
+	local b = wid("bag_item_" .. item_id)
+
+	if b then
+		b:select_item(b.item)
+		game_gui:set_mode("ITEM_" .. b.item_id)
+		signal.emit("item-selected", "ITEM_" .. b.item_id)
+	else
+		log.error("item button %s is nil", item_id)
+	end
+end
+
 function game_gui.c_fire_item(ctx, item_id)
 	local x, y, wx, wy = game_gui.get_pos_from_ctx(ctx)
 
@@ -3991,7 +4202,7 @@ function game_gui.c_set_tower_rally_drag(ctx, entity)
 	local dir_size = 0
 	local last_valid_size = 0
 
-	::label_216_0::
+	::label_237_0::
 
 	while dir_size < len do
 		dir_size = dir_size + 3
@@ -4002,7 +4213,7 @@ function game_gui.c_set_tower_rally_drag(ctx, entity)
 			if last_valid_size > 0 then
 				break
 			else
-				goto label_216_0
+				goto label_237_0
 			end
 		end
 
@@ -4077,6 +4288,12 @@ function game_gui.c_swap_tower(ctx)
 
 	if e == game_gui.selected_entity then
 		log.debug("cannot select tower %s: is already selected", e.id)
+
+		return
+	end
+
+	if e.cannot_be_swapped then
+		log.debug("cannot be swap this tower", e.id)
 
 		return
 	end
@@ -4651,6 +4868,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			"escape"
 		},
@@ -5150,6 +5400,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -5539,6 +5822,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -5798,6 +6114,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -5877,6 +6226,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -6054,6 +6409,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -6112,6 +6500,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -6289,6 +6683,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -6361,6 +6788,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -6531,6 +6964,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -6603,6 +7069,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -6771,6 +7243,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"ja",
 			"return"
 		},
@@ -6879,6 +7384,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -7013,6 +7524,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"ja",
 			"return"
 		},
@@ -7105,6 +7649,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -7276,6 +7826,39 @@ g.ism_data = {
 			"6",
 			g.q_is_re_active,
 			[4] = g.c_select_next_re
+		},
+		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
 		},
 		{
 			"jstart",
@@ -7521,6 +8104,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -7736,6 +8352,32 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			"escape"
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -7808,6 +8450,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -7985,6 +8633,32 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			"escape"
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -8057,6 +8731,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -8234,6 +8914,32 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			"escape"
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -8306,6 +9012,12 @@ g.ism_data = {
 			"touch_down",
 			g.q_can_drag_entity,
 			[4] = g.c_down_dragable
+		},
+		{
+			"touch_move",
+			g.q_in_quick_click,
+			nil,
+			true
 		},
 		{
 			"touch_move",
@@ -9003,6 +9715,39 @@ g.ism_data = {
 			[4] = g.c_select_next_re
 		},
 		{
+			"f1",
+			g.q_is_item_active,
+			{
+				1
+			},
+			g.c_select_item,
+			{
+				1
+			}
+		},
+		{
+			"f2",
+			g.q_is_item_active,
+			{
+				2
+			},
+			g.c_select_item,
+			{
+				2
+			}
+		},
+		{
+			"f3",
+			g.q_is_item_active,
+			{
+				3
+			},
+			g.c_select_item,
+			{
+				3
+			}
+		},
+		{
 			"jstart",
 			true,
 			[4] = g.c_pause
@@ -9375,7 +10120,6 @@ function TouchView:initialize(size)
 	self.inertia_factor = 0.9
 	self.inertia_dt = 1 / FPS
 	self.pan_damping = 0.8
-	self.pan_start_threshold = 30
 	self.path_direction = E:create_entity("controller_path_direction")
 
 	game_gui.game.simulation:insert_entity(self.path_direction)
@@ -9419,6 +10163,8 @@ end
 function TouchView:on_down(button, x, y, istouch)
 	log.paranoid("button:%s istouch:%s", button, istouch)
 
+	game_gui._on_down_ts = game_gui.window.ts
+
 	if button == 2 then
 		local wx, wy = game_gui:u2w(V.v(x, y))
 
@@ -9429,10 +10175,6 @@ function TouchView:on_down(button, x, y, istouch)
 		self.mousestate[button] = true
 
 		self:on_touch_down("mouse", x, y)
-	end
-
-	if not istouch then
-		self._on_down_ts = self:get_window().ts
 	end
 end
 
@@ -9462,20 +10204,27 @@ function TouchView:on_click(button, x, y, istouch, moved)
 		return
 	end
 
-	local is_quick_click
+	local is_quick_click = button == 1 and game_gui.q_in_quick_click() and not self.panning_large and not self.prevent_quick_click
 
-	if not istouch and button == 1 and self._on_down_ts then
-		local click_time = self:get_window().ts - self._on_down_ts
+	self.prevent_quick_click = nil
+	game_gui._on_down_ts = nil
 
-		is_quick_click = not is_touch and self._on_down_ts and click_time < QUICK_CLICK_TIME
-		self._on_down_ts = nil
+	if button == 1 and (not self.panning or is_quick_click) and not self.zooming then
+		local was_idle = game_gui.mode == GUI_MODE_IDLE
+		local handled = ISM:proc_click(game_gui.mode, button, game_gui:u2s(V.v(x, y)))
+
+		if handled and not was_idle then
+			for i = 1, #self.inertia_deltas do
+				local d = self.inertia_deltas[i]
+
+				d.x, d.y = 0, 0
+				d.ts = 0
+			end
+
+			self.inertia_last_pos.x = game.camera.x
+			self.inertia_last_pos.y = game.camera.y
+		end
 	end
-
-	if button == 1 and (not self.panning or is_quick_click) and not self.zooming and not self.selected_on_down then
-		ISM:proc_click(game_gui.mode, button, game_gui:u2s(V.v(x, y)))
-	end
-
-	self.selected_on_down = nil
 end
 
 function TouchView:update(dt)
@@ -9521,7 +10270,7 @@ function TouchView:on_touch_down(id, x, y, dx, dy, pressure)
 
 	for i, v in pairs(self.touch_fingers) do
 		if v[1] == id then
-			goto label_239_0
+			goto label_260_0
 		end
 	end
 
@@ -9533,7 +10282,7 @@ function TouchView:on_touch_down(id, x, y, dx, dy, pressure)
 		y
 	})
 
-	::label_239_0::
+	::label_260_0::
 
 	if #self.touch_fingers > 1 then
 		self.multitouch = true
@@ -9556,6 +10305,7 @@ function TouchView:on_touch_down(id, x, y, dx, dy, pressure)
 	end
 
 	self.panning = false
+	self.panning_large = false
 	self.zooming = false
 
 	log.paranoid("resetting inertia for %s", id)
@@ -9569,9 +10319,13 @@ function TouchView:on_touch_down(id, x, y, dx, dy, pressure)
 
 	self.inertia_last_pos.x = game.camera.x
 	self.inertia_last_pos.y = game.camera.y
-	self.selected_on_down = nil
 
 	game.camera:cancel_tween(timer)
+
+	local wx, wy = game_gui:u2w(V.v(x, y))
+	local e = game_gui:entity_at_pos(wx, wy)
+
+	self.prevent_quick_click = e and e.tower
 end
 
 function TouchView:on_touch_up(id, x, y, dx, dy, pressure)
@@ -9626,6 +10380,8 @@ function TouchView:on_touch_up(id, x, y, dx, dy, pressure)
 	if #self.touch_fingers == 0 then
 		self.multitouch = false
 		self.path_direction.first_move = nil
+		self.panning = false
+		self.zooming = false
 	end
 end
 
@@ -9647,9 +10403,15 @@ function TouchView:on_touch_move(id, x, y, dx, dy, pressure)
 
 	if #fingers == 1 and fingers[1][1] == id then
 		local ix, iy = fingers[1][2], fingers[1][3]
-		local mth = self.pan_start_threshold
+		local mth = PAN_START_THRESHOLD * game_gui.gui_scale
+		local dix = math.abs(ix - x)
+		local diy = math.abs(iy - y)
 
-		if self.panning or mth < math.abs(ix - x) or mth < math.abs(iy - y) then
+		if not self.panning_large then
+			self.panning_large = dix > PAN_LARGE_FACTOR * mth or diy > PAN_LARGE_FACTOR * mth
+		end
+
+		if self.panning or mth < dix or mth < diy then
 			self.panning = true
 
 			local deltaX = (fingers[1][4] - x) * game_gui.gui_scale / game.camera.zoom
@@ -10085,6 +10847,16 @@ function HeroPortrait:update(dt)
 
 	local is_dragging_hero = game_gui.touch_view.path_direction.selected_entity ~= nil
 
+	if self:is_blocked() and not self.was_blocked then
+		self:ci("hero_face"):set_image(self.disable_image)
+
+		self.was_blocked = true
+	elseif not self:is_blocked() and self.was_blocked then
+		self:ci("hero_face"):set_image(self.portrait_image_name)
+
+		self.was_blocked = nil
+	end
+
 	if e.health.dead and not e.health.ignore_damage then
 		if not self.hero_dead then
 			self.hero_dead = true
@@ -10112,7 +10884,7 @@ function HeroPortrait:update(dt)
 
 			self:ci("overlay").size.y = self:ci("overlay_img").pos.y - phase * self:ci("overlay_img").pos.y
 		end
-	elseif (e.health.dead or not e.health.ignore_damage) and (self:is_disabled() or not self:ci("overlay").hidden) then
+	elseif (e.health.dead or not e.health.ignore_damage) and (self:is_disabled() or not self:ci("overlay").hidden) and not self:is_blocked() then
 		if self.hero_dead then
 			if is_dragging_hero then
 				self:enable()
@@ -10197,6 +10969,16 @@ function HeroPortrait:on_up(button, x, y)
 	GG5Button.static.up_bounce_ani(self)
 end
 
+function HeroPortrait:is_blocked()
+	for _, child in ipairs(self.children) do
+		if child:isInstanceOf(HeroPortraitBlock) then
+			return true
+		end
+	end
+
+	return false
+end
+
 BagItemButton = class("BagItemButton", KImageView)
 BagItemButton.static.init_arg_names = {
 	"default_image_name",
@@ -10232,7 +11014,7 @@ function BagItemButton:initialize(default_image_name, selected_image_name, icon_
 	local selected = self:ci("selected")
 
 	function selected.on_click(this)
-		self:deselect()
+		self:on_click()
 	end
 
 	function selected.on_enter(this)
@@ -10257,12 +11039,20 @@ function BagItemButton:initialize(default_image_name, selected_image_name, icon_
 		self:on_exit()
 	end
 
-	local rect_w, rect_h = frame.size.x * 0.75, frame.size.y * 0.75
+	local function scale_hit_rect(v, factor)
+		local rect_w, rect_h = frame.size.x * factor, frame.size.y * factor
 
-	frame.hit_rect = {
-		pos = V.v(frame.pos.x + (frame.size.x - rect_w) * 0.5, frame.pos.y + (frame.size.y - rect_h) * 0.5),
-		size = V.v(rect_w, rect_h)
-	}
+		v.hit_rect = {
+			pos = V.v(v.pos.x + (v.size.x - rect_w) * 0.5, v.pos.y + (v.size.y - rect_h) * 0.5),
+			size = V.v(rect_w, rect_h)
+		}
+	end
+
+	if self.hit_rect_factor then
+		scale_hit_rect(frame, self.hit_rect_factor)
+		scale_hit_rect(selected, self.hit_rect_factor)
+		scale_hit_rect(frame_buy, self.hit_rect_factor)
+	end
 
 	local slot = storage:load_slot()
 
@@ -10310,10 +11100,6 @@ function BagItemButton:set_mode(new_mode, item_name)
 		doors.animation.paused = nil
 	elseif new_mode == "item" then
 		self.selected_item = item_name
-
-		game_gui.c_deselect()
-		game_gui:set_mode("ITEM_" .. self.item_id)
-
 		frame.hidden = true
 		sid("selected").hidden = false
 		sid("bag_item_qty").hidden = true
@@ -10321,14 +11107,11 @@ function BagItemButton:set_mode(new_mode, item_name)
 
 		wid("infobar_view"):show_text(_(string.upper("ITEM_" .. item_name .. "_NAME")), _(string.upper("ITEM_" .. item_name .. "_BOTTOM_INFO")))
 	elseif new_mode == "buy" then
-		game_gui.c_deselect()
-
 		frame.hidden = true
 		sid("bag_item_purchase").hidden = false
 		sid("bag_item_qty").hidden = true
 		sid("bag_item_qty_back").hidden = true
 	else
-		game_gui.c_deselect()
 		self:enable(false)
 
 		self.mode = "default"
@@ -10423,13 +11206,17 @@ function BagItemButton:fire(item_name, x, y, entity)
 	end
 end
 
+function BagItemButton:is_disabled()
+	return self._disabled or self.mode == "locked" or self.mode == "buy" or self.mode == "cooldown"
+end
+
 function BagItemButton:toggle_selection()
 	log.debug("gui_mode:%s", game_gui.mode)
 
 	if self.selected_item then
-		self:deselect()
+		game_gui.c_deselect_item(nil, self.item_id)
 	else
-		self:select_item(self.item)
+		game_gui.c_select_item(nil, self.item_id)
 	end
 end
 
@@ -10522,6 +11309,15 @@ function PowerButton:initialize(power_id, image_name)
 	self.anchor.x, self.anchor.y = self.size.x / 2, self.size.y / 2
 	self.pos.x = self.pos.x + self.anchor.x
 	self.pos.y = self.pos.y + self.anchor.y
+
+	if self.click_rect_factor then
+		local mx = self.size.x * self.click_rect_factor.x
+		local my = self.size.y * self.click_rect_factor.y
+
+		self.default_hit_rect = V.r(-mx, -my, self.size.x + 2 * mx, self.size.y + 2 * my)
+		self.hit_rect = self.default_hit_rect
+	end
+
 	self.propagate_on_down = false
 	self.propagate_on_up = false
 	self.propagate_on_click = false
@@ -10709,6 +11505,16 @@ function PowerButton:set_mode(new_mode)
 	end
 end
 
+function PowerButton:is_blocked()
+	for _, child in ipairs(self.children) do
+		if child:isInstanceOf(PowerButtonBlock) then
+			return true
+		end
+	end
+
+	return false
+end
+
 function PowerButton:update(dt)
 	KImageView.update(self, dt)
 
@@ -10717,7 +11523,7 @@ function PowerButton:update(dt)
 
 		self.tm.phase = phase
 
-		if phase == 1 then
+		if phase == 1 and not self:is_blocked() then
 			self:set_mode("ready")
 		end
 	end
@@ -10781,7 +11587,10 @@ end
 function PowerButton:on_exit()
 	self:ci("hover").hidden = true
 	self.scale.x, self.scale.y = 1, 1
-	self.hit_rect = nil
+
+	if self.default_hit_rect then
+		self.hit_rect = self.default_hit_rect
+	end
 end
 
 function PowerButton:on_focus()
@@ -10796,15 +11605,20 @@ function PowerButton:on_down(id, x, y, dx, dy, pressure)
 	GG5Button.static.down_bounce_ani(self)
 	self:order_to_front()
 
-	local m = self.size.x * POWER_BUTTON_DRAG_SCALE
+	if self.click_rect_drag_factor then
+		local mx = self.size.x * self.click_rect_drag_factor.x
+		local my = self.size.y * self.click_rect_drag_factor.y
 
-	self.hit_rect = V.r(-m, -m, self.size.x + 2 * m, self.size.y + 2 * m)
+		self.hit_rect = V.r(-mx, -my, self.size.x + 2 * mx, self.size.y + 2 * my)
+	end
 end
 
 function PowerButton:on_up(id, x, y, dx, dy, pressure)
 	GG5Button.static.up_bounce_ani(self)
 
-	self.hit_rect = nil
+	if self.default_hit_rect then
+		self.hit_rect = self.default_hit_rect
+	end
 end
 
 PowerButtonBlock = class("PowerButtonBlock", KImageView)
@@ -10849,6 +11663,65 @@ function PowerButtonBlock:update(dt)
 	end
 
 	PowerButtonBlock.super.update(self, dt)
+end
+
+HeroPortraitBlock = class("HeroPortraitBlock", KImageView)
+
+function HeroPortraitBlock:initialize(hero_portrait, duration, style_name)
+	self.hero_portrait = hero_portrait
+	self.duration = duration
+
+	local styles = data.hero_portrait_block_styles
+	local style = styles[style_name] or styles.boss_princess
+
+	KImageView.initialize(self, style.image)
+
+	self.anchor = V.v(self.size.x / 2, self.size.y / 2)
+	self.pos.x, self.pos.y = hero_portrait.size.x / 2, hero_portrait.size.y / 2
+	self.animations = style.animations
+end
+
+function HeroPortraitBlock:block()
+	self.hero_portrait:disable(false)
+
+	self.start_ts = game_gui.game.store.ts
+	self.animation = self.animations.block
+	self.ts = 0
+
+	if self.animations.loop then
+		timer:after((self.animation.to - self.animation.from + 1) / 30, function()
+			self.animation = self.animations.loop
+			self.ts = 0
+			self.start_looping_ts = game_gui.game.store.ts
+			self.looping = true
+		end)
+	end
+end
+
+function HeroPortraitBlock:unblock()
+	self.hero_portrait:enable(false)
+
+	self.start_ts = nil
+	self.animation = self.animations.unblock
+	self.ts = 0
+
+	timer:after((self.animation.to - self.animation.from + 1) / 30, function()
+		self:remove_from_parent()
+	end)
+end
+
+function HeroPortraitBlock:update(dt)
+	if self.start_ts and game_gui.game.store.ts - self.start_ts > self.duration then
+		self.looping = false
+
+		self:unblock()
+	elseif self.looping and game_gui.game.store.ts - self.start_looping_ts > (self.animation.to - self.animation.from + 1) / 30 then
+		self.animation = self.animations.loop
+		self.ts = 0
+		self.start_looping_ts = game_gui.game.store.ts
+	end
+
+	HeroPortraitBlock.super.update(self, dt)
 end
 
 TowerMenu = class("TowerMenu", KImageView)
@@ -10988,6 +11861,8 @@ function TowerMenu:show(entity, force_focus)
 
 					b:add_child(bo)
 				end
+			elseif entity.ui and entity.ui.hidden_tower_menu_actions and table.contains(entity.ui.hidden_tower_menu_actions, item.action) then
+				-- block empty
 			else
 				local b = TowerMenuButton:new(item, entity)
 
@@ -11273,8 +12148,17 @@ function TowerMenuButton:initialize(item, entity)
 		image_frame.disabled_tint_color = nil
 		image_halo = KImageView:new("ingame_ui_action_icon_frame_hover")
 		image_halo.pos = V.v(math.floor(-0.5 * (image_halo.size.x - b.size.x)), math.floor(-0.5 * (image_halo.size.y - b.size.y)))
-	elseif item.action == "tw_sell" or item.action == "tw_rally" then
-		local rect_w, rect_h = b.size.x * 0.5, b.size.y * 0.5
+	elseif item.action == "tw_rally" then
+		-- block empty
+	elseif item.action == "tw_sell" then
+		-- block empty
+	end
+
+	local hit_rect_factor = item.hit_rect_factor or data.tower_menu_buttons_hit_rect_factors and data.tower_menu_buttons_hit_rect_factors[item.action]
+
+	if hit_rect_factor then
+		local f = hit_rect_factor
+		local rect_w, rect_h = b.size.x * f, b.size.y * f
 
 		self.hit_rect = {
 			pos = V.v(self.pos.x + (b.size.x - rect_w) * 0.5, self.pos.y + (b.size.y - rect_h) * 0.5),
@@ -11348,7 +12232,14 @@ function TowerMenuButton:initialize(item, entity)
 			nt = E:get_template(nt.build_name)
 		end
 
-		price_tag = tostring(nt.tower.price)
+		local price = nt.tower.price
+
+		if entity.tower.upgrade_price_multiplier then
+			price = math.ceil(price * entity.tower.upgrade_price_multiplier)
+			price = math.floor(price / 10) * 10
+		end
+
+		price_tag = tostring(price)
 	elseif item.action == "tw_unblock" then
 		price_tag = tostring(entity.tower_holder.unblock_price)
 	elseif item.action == "tw_prevent_timed_destroy" then
@@ -11649,7 +12540,7 @@ function TowerMenuButton:confirm()
 			if upg and power.level == #power.price then
 				local factor = upg.refund_cost_factor
 
-				if power.level < 3 then
+				if power.level == 1 then
 					factor = upg.refund_cost_factor_one_level
 				end
 
@@ -11797,7 +12688,14 @@ function TowerMenuButton:update(dt)
 			nt = E:get_template(nt.build_name)
 		end
 
-		if nt.tower.price > store.player_gold then
+		local price = nt.tower.price
+
+		if e.tower.upgrade_price_multiplier then
+			price = math.ceil(price * e.tower.upgrade_price_multiplier)
+			price = math.floor(price / 10) * 10
+		end
+
+		if price > store.player_gold then
 			self:disable()
 		else
 			self:enable()
@@ -11816,7 +12714,18 @@ function TowerMenuButton:update(dt)
 		end
 	elseif e and self.item_props.action == "upgrade_power" then
 		local power = e.powers[self.item_props.action_arg]
-		local price = power.level < #power.price and power.price[power.level + 1] or nil
+		local upg = UP:get_upgrade("towers_favorite_customer")
+		local factor = 1
+
+		if upg and power.level + 1 == #power.price then
+			factor = 1 - upg.refund_cost_factor
+
+			if power.level + 1 == 1 then
+				factor = 1 - upg.refund_cost_factor_one_level
+			end
+		end
+
+		local price = power.level < #power.price and power.price[power.level + 1] * factor or nil
 		local max_level = power.level >= #power.price
 
 		if not max_level and price > store.player_gold then
@@ -11873,7 +12782,15 @@ function TowerMenuButton:update(dt)
 			pt.hidden = false
 		end
 	elseif e and self.item_props.action == "tw_free_action" then
-		if not e.user_selection.allowed then
+		local usa = e.user_selection and e.user_selection.actions
+
+		if usa and usa.tw_free_action then
+			if not usa.tw_free_action.allowed then
+				self:disable()
+			else
+				self:enable()
+			end
+		elseif not e.user_selection.allowed then
 			self:disable()
 		else
 			self:enable()
@@ -12490,6 +13407,9 @@ function WaveFlag:initialize(flying, duration, report)
 	local halo = KImageView:new("waveFlag_selected")
 	local bg_circle = KImageView:new("waveFlag_0003")
 	local icon = KImageView:new(flying and "waveFlag_0002" or "waveFlag_0001")
+
+	icon.id = "icon"
+
 	local pointer = KImageView:new("waveFlag_0004")
 
 	self.size.x, self.size.y = halo.size.x, halo.size.y
@@ -12509,8 +13429,8 @@ function WaveFlag:initialize(flying, duration, report)
 	for _, v in pairs({
 		halo,
 		bg_circle,
-		icon,
-		pointer
+		pointer,
+		icon
 	}) do
 		v.pos.x, v.pos.y = self.size.x / 2, self.size.y / 2
 		v.propagate_on_click = true
@@ -12540,6 +13460,14 @@ function WaveFlag:initialize(flying, duration, report)
 	self.bg_circle = bg_circle
 	self.pointer = pointer
 	self.base_scale = game_gui.base_scale_list.wave_flag
+end
+
+function WaveFlag:set_flying(flying)
+	local v = self:ci("icon")
+
+	if v then
+		v:set_image(flying and "waveFlag_0002" or "waveFlag_0001")
+	end
 end
 
 function WaveFlag:update(dt)
@@ -13359,13 +14287,34 @@ AlertsView = class("AlertsView", KView)
 function AlertsView:update(dt)
 	local store = game_gui.game.store
 
-	for _, e in E:filter_iter(store.entities, "enemy") do
-		if e.ui and e.health and not e.health.dead and e.enemy.lives_cost ~= 0 and not e.ui.alert_view and P:nodes_to_defend_point(e.nav_path) < ALERT_NODES_TO_DEFEND and e.nav_path.ni < P:get_visible_end_node(e.nav_path.pi) then
+	if SSO then
+		local enemies = {}
+
+		for pi, p in ipairs(P.paths) do
+			local dp_ni = P:get_defend_point_node(pi) or P:get_visible_end_node(pi)
+			local dp_pos = P:node_pos(pi, 1, dp_ni - ALERT_NODES_TO_DEFEND, true)
+
+			SSO:filter(enemies, "targets", dp_pos.x, dp_pos.y, 60, function(k, e)
+				return e.ui and not e.ui.alert_view and e.enemy and e.enemy.lives_cost ~= 0 and P:nodes_to_defend_point(e.nav_path) < ALERT_NODES_TO_DEFEND and e.nav_path.ni < P:get_visible_end_node(e.nav_path.pi)
+			end)
+		end
+
+		for _, e in pairs(enemies) do
 			local a = EnemyAlertView:new(e)
 
 			self:add_child(a)
 
 			e.ui.alert_view = a
+		end
+	else
+		for _, e in E:filter_iter(store.entities, "enemy") do
+			if e.ui and e.health and not e.health.dead and e.enemy.lives_cost ~= 0 and not e.ui.alert_view and P:nodes_to_defend_point(e.nav_path) < ALERT_NODES_TO_DEFEND and e.nav_path.ni < P:get_visible_end_node(e.nav_path.pi) then
+				local a = EnemyAlertView:new(e)
+
+				self:add_child(a)
+
+				e.ui.alert_view = a
+			end
 		end
 	end
 
@@ -13424,6 +14373,7 @@ EnemyAlertView = class("EnemyAlertView", KImageView)
 function EnemyAlertView:initialize(enemy)
 	KImageView.initialize(self, "creepAlert")
 
+	self.update_while_hidden = true
 	self.enemy = enemy
 	self.pointer = KImageView:new("creepAlertArrow")
 	self.pointer.anchor = V.v(-self.size.x / 2, self.pointer.size.y / 2)
@@ -13467,8 +14417,12 @@ function EnemyAlertView:update(dt)
 end
 
 function EnemyAlertView:remove()
-	self.enemy.ui.alert_view = nil
-	self.enemy = nil
+	if not self.enemy then
+		log.warning("Double remove? Removing EnemyAlertView without enemy: %s", self.id)
+	else
+		self.enemy.ui.alert_view = nil
+		self.enemy = nil
+	end
 
 	self:remove_from_parent()
 end
@@ -13731,7 +14685,11 @@ function VictoryView:show()
 
 		for i = 1, 3 do
 			if stars < i then
-				self:ci("timeline_victory"):ci("animation_star_" .. i).alpha = 0
+				for _, row in pairs(self:ci("timeline_victory").timeline) do
+					if row.id == "animation_star_" .. i then
+						row.hidden = true
+					end
+				end
 			else
 				S:queue("GUIWinStars", {
 					delay = 2.1 + 0.45 * i
@@ -13750,7 +14708,11 @@ function VictoryView:show()
 		scale_in(label_victory, 0.85, 1.12, 0)
 
 		if features.no_gems then
-			self:ci("timeline_victory"):ci("animation_gem").alpha = 0
+			for _, row in pairs(self:ci("timeline_victory").timeline) do
+				if row.id == "animation_gem" then
+					row.hidden = true
+				end
+			end
 		else
 			timer:script(function(wait)
 				wait(1)
@@ -13812,7 +14774,11 @@ function VictoryView:show()
 		scale_in(label_victory, 0.85, 1.12, 0)
 
 		if features.no_gems then
-			self:ci("timeline_victorychallenges"):ci("animation_gem").alpha = 0
+			for _, row in pairs(self:ci("timeline_victorychallenges").timeline) do
+				if row.id == "animation_gem" then
+					row.hidden = true
+				end
+			end
 		else
 			timer:script(function(wait)
 				wait(1)
@@ -13874,7 +14840,11 @@ function VictoryView:show()
 		scale_in(label_victory, 0.85, 1.12, 0)
 
 		if features.no_gems then
-			self:ci("timeline_victorychallenges"):ci("animation_gem").alpha = 0
+			for _, row in pairs(self:ci("timeline_victorychallenges").timeline) do
+				if row.id == "animation_gem" then
+					row.hidden = true
+				end
+			end
 		else
 			timer:script(function(wait)
 				wait(1)
@@ -14044,7 +15014,11 @@ function DefeatView:show()
 	label_gems.hidden = true
 
 	if features.no_gems then
-		self:ci("timeline_defeat"):ci("animation_gem").alpha = 0
+		for _, row in pairs(self:ci("timeline_defeat").timeline) do
+			if row.id == "animation_gem" then
+				row.hidden = true
+			end
+		end
 	else
 		timer:script(function(wait)
 			wait(1)

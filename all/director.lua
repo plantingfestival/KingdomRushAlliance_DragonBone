@@ -73,7 +73,7 @@ function director:init(params)
 		local p = v.path .. "/sounds"
 
 		if love.filesystem.exists(p .. "/sounds.lua") then
-			S:init(p)
+			S:init(p, features.overrides)
 
 			break
 		end
@@ -106,7 +106,7 @@ function director:init(params)
 		love.window.setTitle(_("GAME_TITLE_" .. string.upper(KR_GAME)))
 	end
 
-	if features.overrides and (table.contains(features.overrides, "censored_cn") or table.contains(features.overrides, "yodo1sdk")) then
+	if features.gray_blood then
 		BLOOD_RED = BLOOD_GRAY
 	end
 
@@ -135,16 +135,19 @@ function director:init(params)
 	self.next_item_name = "splash"
 
 	if params.level or params.screen or params.challenge then
-		if not storage:load_slot(1) then
-			storage:create_slot(1)
+		local slot_idx = params.slot or 1
+
+		if not storage:load_slot(slot_idx) then
+			storage:create_slot(slot_idx)
 		end
 
-		storage:set_active_slot(1)
+		storage:set_active_slot(slot_idx)
 
 		if params.screen then
 			self.next_item_name = params.screen
 			self.next_item_args = {
 				custom = params.custom,
+				custom2 = params.custom2,
 				texture_size = params.texture_size
 			}
 		elseif params.level then
@@ -582,6 +585,8 @@ function director:queue_load_item_named(name, force_reload)
 	local props = self.item_props[name]
 
 	self:reset_screen_params(props and props.scissor)
+
+	I.last_preloaded_group_names = {}
 
 	if DBG_REPLACE_MISSING_TEXTURES then
 		self:load_texture_groups({
@@ -1236,12 +1241,16 @@ end
 
 director.skip_checks = {}
 
-function director.skip_checks.check_skip_consent()
-	return not PP:should_ask()
-end
-
 function director.skip_checks.check_skip_splash_custom()
 	return not features.show_splash_custom
+end
+
+function director.skip_checks.check_skip_splash_message()
+	return not features.show_splash_message
+end
+
+function director.skip_checks.check_skip_consent()
+	return not PP:should_ask()
 end
 
 function director.skip_checks.check_skip_consent_simple()
@@ -1256,10 +1265,6 @@ function director.skip_checks.check_skip_consent_simple()
 	end
 
 	return false
-end
-
-function director.skip_checks.check_skip_china_advise()
-	return not features.censored_cn
 end
 
 return director

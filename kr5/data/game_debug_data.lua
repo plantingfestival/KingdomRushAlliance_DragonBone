@@ -32,7 +32,12 @@ return {
 		6,
 		7,
 		7,
-		7
+		7,
+		8,
+		8,
+		9,
+		9,
+		11
 	},
 	enemy_pages = {
 		{
@@ -128,6 +133,41 @@ return {
 			"boss_spider_queen"
 		},
 		{
+			"enemy_fire_phoenix",
+			"enemy_blaze_raider",
+			"enemy_flame_guard",
+			"enemy_fire_fox",
+			"enemy_nine_tailed_fox",
+			"enemy_burning_treant",
+			"enemy_wuxian",
+			"enemy_ash_spirit"
+		},
+		{
+			"enemy_storm_spirit",
+			"enemy_qiongqi",
+			"enemy_gale_warrior",
+			"enemy_storm_elemental",
+			"enemy_water_sorceress",
+			"enemy_fan_guard",
+			"enemy_water_spirit",
+			"enemy_water_spirit_spawnless",
+			"enemy_citizen",
+			"enemy_palace_guard"
+		},
+		{
+			"enemy_terracota",
+			"enemy_big_terracota",
+			"enemy_palace_guard",
+			"boss_princess_iron_fan"
+		},
+		{
+			"enemy_hellfire_warlock",
+			"enemy_golden_eyed",
+			"enemy_doom_bringer",
+			"enemy_demon_minotaur",
+			"boss_bull_king"
+		},
+		{
 			"enemy_gnoll_bloodsydian",
 			"enemy_bloodsydian_warlock",
 			"enemy_twilight_evoker",
@@ -219,10 +259,11 @@ return {
 			"hero_alleria5_invisibility_modifier"
 		},
 		{
-			"mod_hide_tower",
+			"mod_hide_tower_test",
 			"mod_boss_crocs_tower_eat",
 			"mod_stage_22_tower_destroyed",
-			"mod_boss_crocs_tower_timed_destroy"
+			"mod_boss_crocs_tower_timed_destroy",
+			"boss_princess_iron_fan_tower_debuff_bossfight"
 		}
 	}
 }

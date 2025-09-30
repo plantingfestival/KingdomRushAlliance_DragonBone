@@ -22,6 +22,7 @@ image_db.threads = {}
 image_db.image_name_queue = {}
 image_db.queue_load_total_images = 0
 image_db.queue_load_done_images = 0
+image_db.last_preloaded_group_names = {}
 image_db.use_canvas = true
 image_db.release_compressed_data = false
 
@@ -383,6 +384,9 @@ function image_db:preload_atlas(ref_scale, path, name)
 	end
 
 	self.atlas_uses[name_scale] = 1
+
+	table.insert(self.last_preloaded_group_names, name)
+
 	self.progress = 0
 	ref_scale = ref_scale or 1
 

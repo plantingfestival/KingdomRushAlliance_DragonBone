@@ -49,6 +49,9 @@ end
 
 local scripts = {}
 
+__CHAINED_SCRIPTS = {
+	"scripts"
+}
 scripts.sequence = {}
 
 function scripts.sequence.update(this, store, script)
@@ -4621,7 +4624,7 @@ function scripts.aura_screen_shake.update(this, store)
 
 	while store.tick_ts - start_ts < a.duration do
 		local t = store.tick_ts - start_ts
-		local fade = km.clamp(0, 1, 1 - t / a.duration) * a.amplitude
+		local fade = km.clamp(0, 1, a.reverse_fade and t / a.duration or 1 - t / a.duration) * a.amplitude
 		local wox = math.sin(t * fx + phase) * sx * fade
 		local woy = math.sin(t * fy + phase) * sy * fade + math.cos(t * fy2) * sy2 * fade
 
@@ -6189,6 +6192,11 @@ end
 
 function scripts.mod_teleport.update(this, store)
 	local m = this.modifier
+
+	if this.begin_wait then
+		U.y_wait(store, this.begin_wait)
+	end
+
 	local target = store.entities[m.target_id]
 
 	if not target or not target.health then
@@ -6228,6 +6236,23 @@ function scripts.mod_teleport.update(this, store)
 	fx.render.sprites[1].ts = store.tick_ts
 
 	queue_insert(store, fx)
+
+	if this.decal_start then
+		local decal = E:create_entity(this.decal_start)
+
+		if fx.render.sprites[1].size_names and target.unit then
+			fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
+		end
+
+		if fx.render.sprites[1].size_scales then
+			fx.render.sprites[1].scale = fx.render.sprites[1].size_scales[target.unit.size]
+		end
+
+		decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		decal.render.sprites[1].ts = store.tick_ts
+
+		queue_insert(store, decal)
+	end
 
 	if this.delay_start then
 		U.y_wait(store, this.delay_start)
@@ -6319,6 +6344,23 @@ function scripts.mod_teleport.update(this, store)
 	fx.render.sprites[1].ts = store.tick_ts
 
 	queue_insert(store, fx)
+
+	if this.decal_end then
+		local decal = E:create_entity(this.decal_end)
+
+		if fx.render.sprites[1].size_names and target.unit then
+			fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
+		end
+
+		if fx.render.sprites[1].size_scales then
+			fx.render.sprites[1].scale = fx.render.sprites[1].size_scales[target.unit.size]
+		end
+
+		decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		decal.render.sprites[1].ts = store.tick_ts
+
+		queue_insert(store, decal)
+	end
 
 	if this.delay_end then
 		U.y_wait(store, this.delay_end)

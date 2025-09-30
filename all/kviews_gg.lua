@@ -97,6 +97,8 @@ function GGLabel:_wrap_text()
 			local width, count, wrapped = self:get_wrap_lines()
 
 			self._wrapped_text = table.concat(wrapped, "\n")
+			self._wrapped_width = width
+			self._wrapped_count = count
 			self._wrapped_state_font = self.font
 			self._wrapped_state_font_size = self.font_size
 			self._wrapped_state_size = self.text_size
@@ -105,6 +107,8 @@ function GGLabel:_wrap_text()
 		end
 	elseif self._wrapped_text then
 		self._wrapped_text = nil
+		self._wrapped_width = nil
+		self._wrapped_count = nil
 	end
 end
 
@@ -161,8 +165,8 @@ function GGLabel:_fit_text()
 			self._fitted_font_size = nil
 		end
 
-		self._fitted_starting_font_size = self.font_size
 		self._fitted_font = self.font
+		self._fitted_starting_font_size = self.font_size
 		self._fitted_lines = fit_lines
 		self._fitted_fit_size = fit_size
 		self._fitted_step = self.fit_step
@@ -176,6 +180,7 @@ function GGLabel:_draw_self()
 	KLabel.super._draw_self(self)
 	self:_load_font()
 	self:_fit_text()
+	self:_wrap_text()
 
 	local font_scale = self._font_scale or GGLabel.static.font_scale
 
@@ -184,11 +189,32 @@ function GGLabel:_draw_self()
 		self.font:setLineHeight(self.line_height)
 	end
 
+	if DEBUG and not self.text then
+		local path_to_root = {}
+		local item = self
+
+		repeat
+			table.insert(path_to_root, item.id)
+
+			item = item.parent
+		until not item
+
+		log.info("GGLabel with nil text - %s", table.concat(path_to_root, "->"))
+	end
+
 	local pr, pg, pb, pa = G.getColor()
 	local voff = (self.font_adj.top or 0) / font_scale
 
 	if self.vertical_align and self.vertical_align ~= "top" then
-		local tw, tl = self:get_wrap_lines()
+		local tw, tl
+
+		if self._wrapped_text then
+			tw = self._wrapped_width
+			tl = self._wrapped_count
+		else
+			tw, tl = self:get_wrap_lines()
+		end
+
 		local th = self:get_font_height()
 		local des = -1 * self.font:getDescent() / font_scale
 		local base = self.font:getBaseline() / font_scale
@@ -269,21 +295,6 @@ function GGLabel:_draw_self()
 		G.setColor(new_c)
 	end
 
-	if not self.text then
-		local path_to_root = {}
-		local item = self
-
-		repeat
-			table.insert(path_to_root, item.id)
-
-			item = item.parent
-		until not item
-
-		log.info("GGLabel with nil text - %s", table.concat(path_to_root, "->"))
-	end
-
-	self:_wrap_text()
-
 	local text = self._wrapped_text or self.text
 
 	G.printf(text, self.text_offset.x, self.text_offset.y + voff, self.text_size.x * font_scale, self.text_align, 0, 1 / font_scale)
@@ -300,12 +311,18 @@ function GGLabel:get_wrap_lines()
 
 			if char == "" then
 				-- block empty
-			elseif table.contains(spec_chars, char) or string.match(char, "^%d+$") then
+			elseif char ~= "\n" and (table.contains(spec_chars, char) or string.match(char, "^%d+$")) then
 				current_word = current_word .. char
 			else
 				table.insert(words, current_word)
 
-				current_word = char
+				if char == "\n" then
+					table.insert(words, "\n")
+
+					current_word = ""
+				else
+					current_word = char
+				end
 			end
 		end
 
@@ -1212,10 +1229,18 @@ function GGExo:initialize(size, exo_name, exo_animation, exo_scale_factor)
 	end
 end
 
+function GGExo:destroy()
+	EXO:unload(self.exo_name)
+end
+
 function GGExo:load_exo()
 	local anis, max_parts = EXO:load_kui(self.exo_name, true)
 
 	self.animations = anis
+
+	if KR_NATIVE then
+		return
+	end
 
 	local temp_canvas = G.newCanvas(2, 2)
 
@@ -1257,19 +1282,27 @@ function GGExo:update(dt)
 end
 
 function GGExo:get_attach_pos(name)
-	if not self._exo_frame then
-		return
-	end
-
 	local exo_frame = self._exo_frame
-	local ap = exo_frame.attachPoints and exo_frame.attachPoints[name]
 
-	if not ap then
+	if not exo_frame then
 		return
 	end
 
-	local xf = ap.xform
-	local x, y, r, sx, sy, kx, ky = xf.x, xf.y, xf.r, xf.sx, xf.sy, xf.kx, xf.ky
+	local xf
+
+	if KR_NATIVE then
+		xf = EXO:get_last_attach_point_xform_kui(self._exo_frame, name)
+	else
+		local ap = exo_frame.attachPoints and exo_frame.attachPoints[name]
+
+		if not ap then
+			return
+		end
+
+		xf = ap.xform
+	end
+
+	local x, y, r, sx, sy = xf.x, xf.y, xf.r, xf.sx, xf.sy
 
 	r = -self.r + r
 
@@ -1292,18 +1325,39 @@ function GGExo:_draw_self()
 end
 
 function GGExo:_draw_self_deferred()
+	if KR_NATIVE then
+		local cr = 255
+		local cg = 255
+		local cb = 255
+		local cr, cg, cb, ca = cr, cg, cb, self.alpha or 1
+
+		if self.colors.exo then
+			cr, cg, cb = unpack(self.colors.exo)
+		end
+
+		if _V11 then
+			cr, cg, cb = cr / 255, cg / 255, cb / 255
+		end
+
+		EXO:draw_frame_kui(self._exo_frame, self.exo_scale_factor or 1, cr, cg, cb, ca)
+
+		return
+	end
+
 	local exo_frame = self._exo_frame
 	local current_atlas
 	local batch = self.batch
 	local batch_count = 0
-	local r, g, b, a = 255, 255, 255, 255
+	local cr, cg, cb, ca = 255, 255, 255, 255
 	local lr, lg, lb, la
 	local texture_swap_count = 0
 
 	batch:clear()
 
-	for part_idx, part in ipairs(exo_frame.parts) do
-		local ss = I:s(part.name)
+	for part_idx, part in ipairs(exo_frame) do
+		local part_type, part_name_idx, alpha, x, y, sx, sy, r, kx, ky = unpack(part)
+		local part_name, pox, poy = unpack(exo_frame.exo.parts[part_name_idx])
+		local ss = I:s(part_name)
 
 		if ss.atlas and ss.atlas ~= current_atlas then
 			if batch_count > 0 then
@@ -1329,25 +1383,21 @@ function GGExo:_draw_self_deferred()
 		if self.colors.exo then
 			local c = self.colors.exo
 
-			r, g, b = c[1], c[2], c[3]
+			cr, cg, cb = c[1], c[2], c[3]
 		else
-			r, g, b = 255, 255, 255
+			cr, cg, cb = 255, 255, 255
 		end
 
-		a = self.alpha * (part.alpha or 1)
+		ca = self.alpha * (alpha or 1)
 
-		if a ~= la or r ~= lr or g ~= lg or b ~= lb then
-			batch:setColor(r, g, b, a * 255)
+		if ca ~= la or cr ~= lr or cg ~= lg or cb ~= lb then
+			batch:setColor(cr, cg, cb, ca * 255)
 
-			lr, lg, lb, la = r, g, b, a
+			lr, lg, lb, la = cr, cg, cb, ca
 		end
 
-		local exo_part = exo_frame.exo.parts[part.name]
-		local pox, poy = exo_part.offsetX, exo_part.offsetY
 		local quad = ss.quad
 		local ref_scale = ss.ref_scale or 1
-		local xf = part.xform
-		local x, y, r, sx, sy, kx, ky = xf.x, xf.y, xf.r, xf.sx, xf.sy, xf.kx, xf.ky
 
 		r = -self.r + r
 		sx = sx * ref_scale
@@ -1395,6 +1445,9 @@ GGAni = class("GGAni", KView)
 function GGAni:initialize(size, image_name)
 	GGAni.super.initialize(self, size, image_name)
 
+	self.propagate_on_click = true
+	self.propagate_on_down = true
+	self.propagate_on_up = true
 	self.mute_sounds = nil
 	self.mute_events = nil
 	self.last_frame = 0
@@ -1479,6 +1532,11 @@ GGTimeline = class("GGTimeline", KView)
 function GGTimeline:initialize(size)
 	KView.initialize(self, size)
 
+	self.propagate_on_click = true
+	self.propagate_on_down = true
+	self.propagate_on_up = true
+	self.enable_canvas_caching = nil
+
 	if not self.timeline then
 		log.error("timeline property missing")
 
@@ -1488,6 +1546,13 @@ function GGTimeline:initialize(size)
 	table.sort(self.timeline, function(e1, e2)
 		return e1.f < e2.f
 	end)
+
+	if self.sequences then
+		for i, r in ipairs(self.sequences) do
+			self.sequences[r.name] = r
+		end
+	end
+
 	self:reset()
 end
 
@@ -1505,12 +1570,37 @@ function GGTimeline:reset()
 			self:do_row(row, 0)
 		end
 	end
+
+	self.sequence = nil
+	self._cached_canvas_requested = nil
+	self._cached_canvas = nil
+	self.image = nil
 end
 
-function GGTimeline:start()
+function GGTimeline:start(name)
 	self:reset()
 
 	self.paused = false
+
+	if not name then
+		return
+	end
+
+	local sequence = self.sequences and self.sequences[name]
+
+	if not sequence then
+		log.error("sequence named %s not found in timeline %s", name, self.id)
+
+		return
+	end
+
+	self.sequence = sequence
+
+	local fps = self.fps or FPS
+	local dt = 1 / fps
+	local stime = dt * sequence.from
+
+	self:update(stime, true)
 end
 
 function GGTimeline:jump(time, pause)
@@ -1523,8 +1613,70 @@ function GGTimeline:jump(time, pause)
 	self.paused = pause
 end
 
+function GGTimeline:_draw_children()
+	if self._cached_canvas then
+		return
+	end
+
+	GGTimeline.super._draw_children(self)
+end
+
+function GGTimeline:draw()
+	if self.hidden then
+		return
+	end
+
+	if self._cached_canvas_requested then
+		self._cached_canvas_requested = nil
+		self.image = nil
+
+		local cr = self:get_bounds_rect()
+		local cw, ch = math.ceil(cr.size.x), math.ceil(cr.size.y)
+
+		if cw <= 0 or ch <= 0 then
+			log.error("bounds for %s are 0. skipping cached canvas request ", self.id)
+			log.error("  image_ss:%s", getdump(self.image_ss))
+			log.error("  bounds:%s", getfulldump(cr))
+		else
+			log.debug("GGTimeline - caching canvas for %s", self.id)
+
+			local _cached_canvas = G.newCanvas(cw, ch)
+			local pr, pg, pb, pa = G.getColor()
+			local scx, scy, scw, sch = G.getScissor()
+
+			G.setColor(255, 255, 255, 255)
+			G.push()
+			G.setCanvas(_cached_canvas)
+			G.setScissor()
+			G.origin()
+
+			local dx, dy = self.pos.x - cr.pos.x, self.pos.y - cr.pos.y
+
+			G.translate(dx, dy)
+			self:_draw_self()
+			self:_draw_children()
+			G.setCanvas()
+			G.pop()
+			G.setScissor(scx, scy, scw, sch)
+			G.setColor(pr, pg, pb, pa)
+			self:set_image(_cached_canvas)
+
+			self._cached_canvas = _cached_canvas
+			self.image_offset = V.v(-dx, -dy)
+
+			return
+		end
+	end
+
+	GGTimeline.super.draw(self)
+end
+
 function GGTimeline:update(dt, jumping)
 	if self.paused then
+		if not jumping and not self.hidden and self.enable_canvas_caching and not self._cached_canvas and not self.sequence then
+			self._cached_canvas_requested = true
+		end
+
 		return
 	end
 
@@ -1537,14 +1689,24 @@ function GGTimeline:update(dt, jumping)
 
 	if self.play == "loop" then
 		frame = km.zmod(frame, self.frame_duration)
-	elseif jumping then
-		frame = km.clamp(1, self.frame_duration, frame)
+
+		if frame < self.last_frame then
+			self.last_frame = 0
+		end
+	else
+		if jumping then
+			frame = km.clamp(1, self.frame_duration, frame)
+		end
+
+		if self.sequence then
+			frame = km.clamp(1, self.sequence.to, frame)
+		end
 	end
 
 	local changed_ids = {}
 
 	for i, row in ipairs(self.timeline) do
-		if row.f > self.last_frame and frame >= row.f or row.f == frame and self.last_frame == self.frame_duration then
+		if row.f > self.last_frame and frame >= row.f then
 			local next_row
 
 			if row.ease then
@@ -1570,10 +1732,14 @@ function GGTimeline:update(dt, jumping)
 		if not c.hidden and frame <= self.frame_duration and c.frame_duration then
 			local cframe = math.ceil(c.ts * fps)
 
-			if self.play ~= "loop" then
+			if self.play ~= "loop" and not self.sequence then
 				c.hidden = cframe > c.frame_duration
 			end
 		end
+	end
+
+	if self.enable_canvas_caching and not jumping and not self.hidden and not self.sequence and self.play ~= "loop" and frame > 1.5 * self.frame_duration then
+		self.paused = true
 	end
 end
 
@@ -1586,7 +1752,17 @@ function GGTimeline:do_row(row, ts, next_row)
 		return
 	end
 
-	v.hidden = false
+	local ktw
+
+	if self:get_window() then
+		ktw = self:get_window().ktw
+
+		if ktw then
+			ktw:cancel(v)
+		end
+	end
+
+	v.hidden = row.hidden or false
 
 	if row.pos then
 		v.pos.x, v.pos.y = row.pos.x, row.pos.y
@@ -1595,6 +1771,10 @@ function GGTimeline:do_row(row, ts, next_row)
 	if row.scale then
 		v.scale = v.scale or V.v(0, 0)
 		v.scale.x, v.scale.y = row.scale.x, row.scale.y
+	elseif v.scale then
+		v.scale.x, v.scale.y = 1, 1
+	else
+		v.scale = V.v(1, 1)
 	end
 
 	if row.r then
@@ -1603,6 +1783,8 @@ function GGTimeline:do_row(row, ts, next_row)
 
 	if row.alpha then
 		v.alpha = row.alpha
+	else
+		v.alpha = 1
 	end
 
 	if row.frame_duration then
@@ -1621,12 +1803,6 @@ function GGTimeline:do_row(row, ts, next_row)
 		end
 
 		if row.ease and next_row and duration > v.ts then
-			local ktw = self:get_window().ktw
-
-			if not ktw then
-				log.error("no klove.tween available")
-			end
-
 			local props = {}
 
 			if row.pos and next_row.pos and (row.pos.x ~= next_row.pos.x or row.pos.y ~= next_row.pos.y) then

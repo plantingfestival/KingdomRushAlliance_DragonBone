@@ -6,18 +6,16 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
 
 local anchor_y = 0
 local image_y = 0
 local tt, b
 local scripts = require("custom_scripts_1")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "custom_templates_1")
 
 local U = require("utils")
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
@@ -79,12 +77,6 @@ end
 local function CC(comp_name)
     return E:clone_c(comp_name)
 end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 8
-DO_TOWER_MODS = 10
 
 tt = E:register_t("controller_item_kr4_hero_malik", "controller_item_hero")
 tt.entity = "kr4_hero_malik"

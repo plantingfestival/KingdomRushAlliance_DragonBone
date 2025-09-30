@@ -12,6 +12,11 @@ local anchor_y = 0
 local image_y = 0
 local tt
 local scripts = require("scripts")
+
+__CHAINED_TEMPLATES = {
+	"templates"
+}
+
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_KR1 = KR_GAME == "kr1"
@@ -1312,6 +1317,7 @@ tt.melee.attacks[1].vis_flags = F_BLOCK
 tt.melee.range = 60
 tt.motion.max_speed = 75
 tt.nav_rally.delay_max = IS_KR5 and 0.25 or nil
+tt.nav_rally.delay_min = IS_KR5 and 0 or nil
 tt.regen.cooldown = 1
 tt.regen.health = 5
 tt.render.sprites[1] = E:clone_c("sprite")
@@ -1526,36 +1532,34 @@ tt.main_script.insert = scripts.power_reinforcements_control.insert
 tt.user_selection.can_select_point_fn = scripts.power_reinforcements_control.can_select_point
 tt.cooldown = 99
 
-do
-	local tt = E:register_t("debug_damage_text")
+local tt = E:register_t("debug_damage_text")
 
-	E:add_comps(tt, "texts", "pos", "render", "tween")
+E:add_comps(tt, "texts", "pos", "render", "tween")
 
-	tt.texts.list[1].size = v(40, 20)
-	tt.texts.list[1].font_size = 18
-	tt.texts.list[1].font_name = "NotoSansCJKjp-Regular"
-	tt.texts.list[1].color = {
+tt.texts.list[1].size = v(40, 20)
+tt.texts.list[1].font_size = 18
+tt.texts.list[1].font_name = "NotoSansCJKjp-Regular"
+tt.texts.list[1].color = {
+	0,
+	0,
+	0
+}
+tt.texts.list[1].sprite_id = 1
+tt.render.sprites[1].z = Z_BULLETS
+tt.tween.props[1].name = "offset"
+tt.tween.props[1].keys = {
+	{
 		0,
-		0,
-		0
+		v(0, 0)
+	},
+	{
+		0.5,
+		v(0, 10)
+	},
+	{
+		1,
+		v(0, 20)
 	}
-	tt.texts.list[1].sprite_id = 1
-	tt.render.sprites[1].z = Z_BULLETS
-	tt.tween.props[1].name = "offset"
-	tt.tween.props[1].keys = {
-		{
-			0,
-			v(0, 0)
-		},
-		{
-			0.5,
-			v(0, 10)
-		},
-		{
-			1,
-			v(0, 20)
-		}
-	}
-	tt.tween.props[1].loop = false
-	tt.tween.remove = true
-end
+}
+tt.tween.props[1].loop = false
+tt.tween.remove = true

@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("game_scripts")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -21,7 +19,10 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
+package.loaded.scripts = nil
+local scripts = require("scripts")
+
+table.insert(__CHAINED_SCRIPTS, "kr2_game_scripts")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -42,9 +43,6 @@ end
 local function tpos(e)
 	return e.tower and e.tower.range_offset and V.v(e.pos.x + e.tower.range_offset.x, e.pos.y + e.tower.range_offset.y) or e.pos
 end
-
-package.loaded.scripts = nil
-local scripts = require("scripts")
 
 local function y_hero_melee_block_and_attacks(store, hero)
 	local target = SU.soldier_pick_melee_target(store, hero)

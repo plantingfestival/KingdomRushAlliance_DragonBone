@@ -1,4 +1,4 @@
-return {
+local d = {
 	hero_data_iap = {
 		hero_vesper = {
 			starting_level = 1,
@@ -96,6 +96,12 @@ return {
 			iap = true
 		},
 		hero_spider = {
+			starting_level = 5,
+			icon_idx = 6,
+			coming_soon = false,
+			iap = true
+		},
+		hero_wukong = {
 			starting_level = 5,
 			icon_idx = 6,
 			coming_soon = false,
@@ -230,6 +236,13 @@ return {
 			icon_idx = 7,
 			coming_soon = false
 		},
+		hero_wukong = {
+			coming_soon = false,
+			starting_level = 5,
+			iap = true,
+			icon_idx = 7,
+			available_at_stage = 33
+		},
 		hero_dracolich = {
 			starting_level = 1,
 			icon_idx = 1,
@@ -266,6 +279,7 @@ return {
 		"hero_hunter",
 		"hero_witch",
 		"hero_lava",
+		"hero_wukong",
 		"hero_robot",
 		"hero_spider",
 		"hero_mecha",
@@ -298,26 +312,12 @@ return {
 		"hero_dragon_bone",
 		"hero_dragon_arb",
 		"hero_spider",
+		"hero_wukong",
 		"hero_dianyun",
 		"hero_eiskalt",
 		"hero_wilbur",
 		"hero_dracolich",
 		"hero_10yr"
-	},
-	hero_order_censored_cn = {
-		"hero_vesper",
-		"hero_raelyn",
-		"hero_muyrn",
-		"hero_builder",
-		"hero_hunter",
-		"hero_venom",
-		"hero_bird",
-		"hero_space_elf",
-		"hero_mecha",
-		"hero_robot",
-		"hero_lumenir",
-		"hero_dragon_gem",
-		"hero_witch"
 	},
 	tower_data_iap = {
 		paladin_covenant = {
@@ -390,6 +390,10 @@ return {
 			iap = true
 		},
 		sparking_geode = {
+			icon_idx = 1,
+			iap = true
+		},
+		pandas = {
 			icon_idx = 1,
 			iap = true
 		},
@@ -470,7 +474,6 @@ return {
 		dark_elf = {
 			icon_idx = 1,
 			available_at_stage = 19
-			-- censored_cn = true
 		},
 		hermit_toad = {
 			icon_idx = 1,
@@ -484,6 +487,11 @@ return {
 		sparking_geode = {
 			icon_idx = 1,
 			available_at_stage = 29
+		},
+		pandas = {
+			icon_idx = 1,
+			available_at_stage = 32,
+			iap = true
 		},
 		rock_thrower = {
 			icon_idx = 1
@@ -521,6 +529,7 @@ return {
 		"sparking_geode",
 		"necromancer",
 		"ghost",
+		"pandas",
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
@@ -547,28 +556,12 @@ return {
 		"hermit_toad",
 		"dwarf",
 		"sparking_geode",
+		"pandas",
 		"rock_thrower",
 		"warmongers_barrack",
 		"ignis_altar",
 		"deep_devils",
 		"random"
-	},
-	tower_order_censored_cn = {
-		"royal_archers",
-		"paladin_covenant",
-		"arcane_wizard",
-		"tricannon",
-		"ballista",
-		"arborean_emissary",
-		"demon_pit",
-		"barrel",
-		"elven_stargazers",
-		"flamespitter",
-		"sand",
-		"rocket_gunners",
-		"ray",
-		"ghost",
-		"dark_elf"
 	},
 	item_order = {
 		"cluster_bomb",
@@ -606,16 +599,24 @@ return {
 		"hero_veznan",
 		"hero_bolverk",
 		"hero_jack_o_lantern",
-	},
-	item_order_censored_cn = {
-		"cluster_bomb",
-		"portable_coil",
-		"scroll_of_spaceshift",
-		"second_breath",
-		"medical_kit",
-		"winter_age",
-		"loot_box",
-		"summon_blackburn",
-		"veznan_wrath"
 	}
 }
+
+local features = require("features")
+
+if features.only_dlc_1 then
+	d.hero_order_free = table.filter(d.hero_order_free, function(k, v)
+		return v ~= "hero_wukong"
+	end)
+	d.hero_order_iap = table.filter(d.hero_order_iap, function(k, v)
+		return v ~= "hero_wukong"
+	end)
+	d.tower_order_free = table.filter(d.tower_order_free, function(k, v)
+		return v ~= "pandas"
+	end)
+	d.tower_order_iap = table.filter(d.tower_order_iap, function(k, v)
+		return v ~= "pandas"
+	end)
+end
+
+return d

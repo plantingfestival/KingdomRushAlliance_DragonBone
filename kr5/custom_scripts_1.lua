@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("custom_scripts_1")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -25,9 +23,9 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
-
 local scripts = require("custom_scripts_0")
+
+table.insert(__CHAINED_SCRIPTS, "custom_scripts_1")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)

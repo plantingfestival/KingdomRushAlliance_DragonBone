@@ -6,97 +6,74 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
 local kr1_scripts = require("kr1_game_scripts")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "kr1_enemies_templates")
 
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
 
 local function v(v1, v2)
-    return {
-        x = v1,
-        y = v2
-    }
+	return {
+		x = v1,
+		y = v2
+	}
 end
 
 local function vv(v1)
-    return {
-        x = v1,
-        y = v1
-    }
+	return {
+		x = v1,
+		y = v1
+	}
 end
 
 local function r(x, y, w, h)
-    return {
-        pos = v(x, y),
-        size = v(w, h)
-    }
+	return {
+		pos = v(x, y),
+		size = v(w, h)
+	}
 end
 
 local function fts(v)
-    return v / FPS
+	return v / FPS
 end
 
 local function ady(v)
-    return v - anchor_y * image_y
+	return v - anchor_y * image_y
 end
 
 local function adx(v)
-    return v - anchor_x * image_x
+	return v - anchor_x * image_x
 end
 
 local function np(pi, spi, ni)
-    return {
-        dir = 1,
-        pi = pi,
-        spi = spi,
-        ni = ni
-    }
+	return {
+		dir = 1,
+		pi = pi,
+		spi = spi,
+		ni = ni
+	}
 end
 
 local function d2r(d)
-    return d * math.pi / 180
+	return d * math.pi / 180
 end
 
 local function RT(name, ref)
-    return E:register_t(name, ref)
+	return E:register_t(name, ref)
 end
 
 local function AC(tpl, ...)
-    return E:add_comps(tpl, ...)
+	return E:add_comps(tpl, ...)
 end
 
 local function CC(comp_name)
-    return E:clone_c(comp_name)
-end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 4
-DO_TOWER_MODS = 10
-
-if H.command_line_has_arg("balance_override") then
-    local balance_override_path = H.command_line_argv("balance_override")
-
-    require(balance_override_path)
-end
-
-if game and game.store and game.store.level and game.store.level.test_case and game.store.level.test_case.patch_balance then
-    local new_balance = game.store.level.test_case:patch_balance()
-
-    if new_balance then
-        balance = new_balance
-    end
+	return E:clone_c(comp_name)
 end
 
 tt = RT("enemy_sheep_ground", "enemy_KR5")

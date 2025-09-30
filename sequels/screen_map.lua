@@ -35,9 +35,9 @@ require("klove.kui")
 local kui_db = require("klove.kui_db")
 
 require("constants")
-require("gg_views_game")
-require("screen_map_classes")
-require("shop_views")
+require("kviews_gg_sequels")
+require("kviews_screen_map_sequels")
+require("kviews_screen_map_game")
 
 local dbe
 
@@ -49,8 +49,9 @@ screen_map = {}
 
 if DEBUG then
 	screen_map.reload_list = {
-		"screen_map_classes",
-		"gg_views_game"
+		"kviews_gg_sequels",
+		"kviews_screen_map_sequels",
+		"kviews_screen_map_game"
 	}
 end
 
@@ -75,7 +76,11 @@ screen_map.required_textures = {
 	"room_levelselect",
 	-- "achievements",
 	"gui_popups",
-	"gui_portraits"
+	"gui_portraits",
+	"room_encyclopedia",
+	"encyclopedia_thumbs",
+	"encyclopedia",
+	"encyclopedia_towers"
 }
 
 if not IS_MOBILE then
@@ -178,6 +183,11 @@ screen_map.signal_handlers = {
 
 				if PS.services.iap then
 					screen_map:hide_shop()
+
+					if string.find(product_id, "sale_gems_") then
+						product_id = string.gsub(product_id, "sale_", "")
+					end
+
 					screen_map:show_product_cards(product_id)
 				end
 			end
@@ -230,6 +240,14 @@ screen_map.signal_handlers = {
 	[SGN_PS_CHANNEL_QUIT_REQUESTED] = function(service_name, error_msg)
 		return
 	end,
+	[SGN_PS_CHANNEL_LOGOUT] = function()
+		screen_map:quit_to_slots()
+	end,
+	[SGN_PS_SHOW_REDEEM_DIALOG_FINISHED] = function(service_name, success)
+		local msg = success and _("REDEEM_CODE_SUCCESS") or _("REDEEM_CODE_FAILURE")
+
+		screen_map:show_error(msg, success)
+	end,
 	["map-pan-to-flag"] = function(flag)
 		if not flag then
 			return
@@ -270,6 +288,11 @@ function screen_map:init(w, h, done_callback)
 	local levels = user_data.levels
 	local victory = user_data.last_victory
 	local show_card_rewards = false
+	local premium, exceptions
+
+	if PS.services.iap then
+		premium, exceptions = PS.services.iap:is_premium()
+	end
 
 	if victory then
 		local level = levels[victory.level_idx]
@@ -292,12 +315,6 @@ function screen_map:init(w, h, done_callback)
 							self.unlock_data.new_level = next_level_idx
 							table.insert(self.unlock_data.unlocked_levels, self.unlock_data.new_level)
 						end
-					end
-
-					local premium, exceptions
-
-					if PS.services.iap then
-						premium, exceptions = PS.services.iap:is_premium()
 					end
 
 					if victory.level_idx > GS.main_campaign_levels then
@@ -350,6 +367,10 @@ function screen_map:init(w, h, done_callback)
 	local unlocked_campaigns = {}
 	local owned_dlcs = PS.services.iap and PS.services.iap:get_dlcs(true) or {}
 
+	if premium and not exceptions then
+		owned_dlcs = {}
+	end
+
 	if U.unlock_next_levels_in_ranges(self.unlock_data, levels, GS, owned_dlcs) then
 		storage:save_slot(user_data)
 
@@ -401,6 +422,7 @@ function screen_map:init(w, h, done_callback)
 	ctx.is_underage = PP:is_underage()
 	ctx.is_main = false
 	ctx.is_censored_cn = features.censored_cn and true or false
+	ctx.is_e2w = features.e2w and true or false
 
 	local tt = kui_db:get_table("screen_map", ctx)
 	local window = KWindow:new_from_table(tt)
@@ -466,6 +488,14 @@ function screen_map:init(w, h, done_callback)
 		S:queue("GUIButtonCommon")
 		screen_map:show_upgrades()
 	end
+
+	if not IS_MOBILE and not features.no_encyclopedia then
+		wid("button_map_encyclopedia").on_click = function()
+			S:queue("GUIButtonCommon")
+			screen_map:show_encyclopedia()
+		end
+	end
+
 	wid("button_map_achievements").on_click = function(this)
 		S:queue("GUIButtonCommon")
 		screen_map:show_achievements()
@@ -487,6 +517,10 @@ function screen_map:init(w, h, done_callback)
 	wid("button_map_towers").propagate_on_touch_move = true
 	wid("button_map_upgrades").propagate_on_touch_move = true
 	wid("button_map_achievements").propagate_on_touch_move = true
+
+	if not IS_MOBILE then
+		wid("button_map_encyclopedia").propagate_on_touch_move = true
+	end
 
 	local st = storage:load_settings()
 
@@ -527,6 +561,11 @@ function screen_map:init(w, h, done_callback)
 				"escape",
 				self.q_is_picking_tower,
 				[4] = self.c_stop_picking_tower
+			},
+			{
+				"escape",
+				self.q_is_picking_item,
+				[4] = self.c_stop_picking_item
 			},
 			{
 				"escape",
@@ -577,6 +616,17 @@ function screen_map:init(w, h, done_callback)
 				ISM.c_hide_view,
 				{
 					"achievements_room_view"
+				}
+			},
+			{
+				"escape",
+				ISM.q_is_view_visible,
+				{
+					"encyclopedia_room_view"
+				},
+				ISM.c_hide_view,
+				{
+					"encyclopedia_room_view"
 				}
 			},
 			{
@@ -643,8 +693,19 @@ function screen_map:init(w, h, done_callback)
 			},
 			{
 				"escape",
-				ISM.q_is_escape_show_quit,
-				[4] = self.c_return_main_menu
+				ISM.q_is_view_visible,
+				{
+					"item_room_view"
+				},
+				self.hide_item_room
+			},
+			{
+				"escape",
+				ISM.q_is_platform,
+				{
+					"android"
+				},
+				self.c_return_main_menu
 			},
 			{
 				"escape",
@@ -743,6 +804,32 @@ function screen_map:init(w, h, done_callback)
 				ISM.c_call_view_fn,
 				{
 					"achievements_room_view",
+					"change_page",
+					"next"
+				}
+			},
+			{
+				"pageup",
+				ISM.q_is_view_visible,
+				{
+					"encyclopedia_room_view"
+				},
+				ISM.c_call_view_fn,
+				{
+					"encyclopedia_room_view",
+					"change_page",
+					"prev"
+				}
+			},
+			{
+				"pagedown",
+				ISM.q_is_view_visible,
+				{
+					"encyclopedia_room_view"
+				},
+				ISM.c_call_view_fn,
+				{
+					"encyclopedia_room_view",
 					"change_page",
 					"next"
 				}
@@ -905,7 +992,7 @@ function screen_map:init(w, h, done_callback)
 	elseif DBG_SHOP_EDITOR then
 		dbe:inject_editor(wid("shop_view"), self)
 	elseif DBG_MAP_EDITOR then
-		dbe:inject_editor(wid("gems_store_view"), self)
+		-- block empty
 	end
 
 	if DEBUG then
@@ -943,10 +1030,6 @@ function screen_map:init(w, h, done_callback)
 		return v and v:isInstanceOf(GG5ShaderLabel)
 	end)) do
 		v:prepare_canvas()
-	end
-
-	if not show_card_rewards then
-		screen_map:process_new_dlc()
 	end
 end
 
@@ -1186,7 +1269,8 @@ else
 		"group_bottom",
 		"group_top_right",
 		"group_top_left",
-		"group_bottom_right"
+		"group_bottom_right",
+		"group_bottom_left"
 	}
 end
 
@@ -1208,13 +1292,22 @@ function screen_map:init_bars()
 			gr.pos.x = (self.sw / 2 + (gr:ci("button_map_items").pos.x - gr:ci("button_map_upgrades").pos.x) / 2) * gr.base_scale.x
 		end
 	else
-		wid("group_map_hud"):ci("label_map_gems").hidden = true
-		wid("group_map_hud"):ci("bg_gems").hidden = true
-		wid("group_map_hud"):ci("button_map_hud_buy_gems").hidden = true
+		if features.no_gems then
+			wid("group_map_hud"):ci("label_map_gems").hidden = true
+			wid("group_map_hud"):ci("bg_gems").hidden = true
+			wid("group_map_hud"):ci("button_map_hud_buy_gems").hidden = true
+		end
+
+		if features.no_encyclopedia then
+			wid("group_map_hud"):ci("button_map_encyclopedia").hidden = true
+			wid("group_map_hud"):ci("label_map_encyclopedia").hidden = true
+		end
 
 		local gr = wid("group_map_hud"):ci("group_bottom")
 		local list = {
 			-- "items",
+			"shop"
+		} or {
 			"shop"
 		}
 
@@ -1223,8 +1316,14 @@ function screen_map:init_bars()
 			gr:ci("label_map_" .. n).hidden = true
 		end
 
-		gr.pos.x = self.sw / 2 + (gr:ci("button_map_towers").pos.x - gr:ci("button_map_heroes").pos.x) * gr.base_scale.x
+		if features.no_gems then
+			gr.pos.x = self.sw / 2 + (gr:ci("button_map_towers").pos.x - gr:ci("button_map_heroes").pos.x) * gr.base_scale.x
+		else
+			gr.pos.x = self.sw / 2 + (gr:ci("button_map_towers").pos.x - gr:ci("button_map_heroes").pos.x) / 2 * gr.base_scale.x
+		end
 	end
+
+	wid("group_map_hud"):ci("button_map_hud_buy_gems").hidden = features.no_gems or not PS.services.iap or PS.services.iap:is_premium()
 
 	for _, n in pairs(bar_names) do
 		if string.find(n, "group_offer_icon") then
@@ -1448,7 +1547,7 @@ function screen_map:show_bars()
 
 				log.debug("ask_for_rating_level:%s", ask_for_rating_level)
 
-				if RC.v.ask_for_rating and not features.censored_cn and global and not global.rating_accepted and user_data.levels[ask_for_rating_level] and not user_data.levels[ask_for_rating_level + 1] and not PP:is_underage() then
+				if RC.v.ask_for_rating and global and not global.rating_accepted and user_data.levels[ask_for_rating_level] and not user_data.levels[ask_for_rating_level + 1] and not PP:is_underage() then
 					global.rating_last_level_asked = ask_for_rating_level
 
 					storage:save_global(global)
@@ -1535,6 +1634,19 @@ function screen_map:show_difficulty(fn)
 	wid("difficulty_room_view"):show(fn)
 end
 
+function screen_map:show_encyclopedia()
+	local user_data = storage:load_slot()
+
+	E:load()
+	DI:set_level(user_data.difficulty)
+	DI:patch_templates()
+	wid("encyclopedia_room_view"):show()
+end
+
+function screen_map:hide_encyclopedia()
+	wid("encyclopedia_room_view"):hide()
+end
+
 function screen_map:show_achievements()
 	wid("achievements_room_view"):show()
 
@@ -1612,7 +1724,7 @@ end
 
 function screen_map:show_product_cards(product_id)
 	local p = PS.services.iap:get_product(product_id, true)
-	local includes = p.includes_consumables or p.includes
+	local includes = {}
 
 	if string.find(product_id, "gems_") then
 		includes = {
@@ -1621,7 +1733,9 @@ function screen_map:show_product_cards(product_id)
 				name = product_id
 			}
 		}
-	elseif includes then
+	elseif p.includes_consumables or p.includes then
+		includes = table.clone(p.includes_consumables or p.includes)
+
 		local queue = table.clone(includes)
 
 		while #queue > 0 do
@@ -1641,18 +1755,12 @@ function screen_map:show_product_cards(product_id)
 	end
 
 	if string.find(product_id, "dlc_") then
-		if IS_DESKTOP then
-			table.insert(includes, 1, product_id)
-		end
+		local premium, exceptions = PS.services.iap:is_premium()
+		local premium_full = premium and not exceptions
+		local dlc = string.match(product_id, "(dlc_%d)")
 
-		local dlc = product_id
-
-		for _, v in pairs(p.includes) do
-			if string.starts(v, "dlc_") then
-				dlc = v
-
-				break
-			end
+		if not table.contains(includes, dlc) then
+			table.insert(includes, 1, dlc)
 		end
 
 		local dlc_first_level = U.get_dlc_level_range(dlc)[1]
@@ -1661,7 +1769,7 @@ function screen_map:show_product_cards(product_id)
 
 		local user_data = storage:load_slot(nil, true)
 
-		if U.unlock_next_levels_in_ranges({}, user_data.levels, GS, {
+		if U.unlock_next_levels_in_ranges({}, user_data.levels, GS, premium_full and {} or {
 			dlc
 		}) then
 			storage:save_slot(user_data)
@@ -1679,12 +1787,14 @@ function screen_map:show_product_cards(product_id)
 		end
 	end
 
-	screen_map:show_cards(includes)
+	if #includes > 0 then
+		screen_map:show_cards(includes)
+	end
 end
 
 function screen_map:process_new_dlc()
 	local user_data = storage:load_slot(nil, true)
-	local reached_min_level = user_data.levels[GS.dlcs_unlock_level + 1]
+	local reached_min_level = user_data.levels[U.get_dlcs_unlock_level(GS) + 1]
 
 	if reached_min_level and PS.services.iap then
 		local is_premium, premium_excludes = PS.services.iap:is_premium()
@@ -1700,24 +1810,18 @@ function screen_map:process_new_dlc()
 		for _, dlc in pairs(dlcs) do
 			local dlc_first_level = U.get_dlc_level_range(dlc)[1]
 
-			if not table.contains(user_data.levels, dlc_first_level) then
-				local global = storage:load_global()
+			if not user_data.levels[dlc_first_level] and U.unlock_next_levels_in_ranges({}, user_data.levels, GS, {
+				dlc
+			}) then
+				storage:save_slot(user_data)
+			end
 
-				if not global.unlocked_dlcs or not table.contains(global.unlocked_dlcs, dlc) then
-					screen_map:show_product_cards(dlc)
+			local global = storage:load_global()
 
-					return true
-				else
-					local user_data = storage:load_slot(nil, true)
+			if not global.unlocked_dlcs or not table.contains(global.unlocked_dlcs, dlc) then
+				screen_map:show_product_cards(dlc)
 
-					if U.unlock_next_levels_in_ranges({}, user_data.levels, GS, {
-						dlc
-					}) then
-						storage:save_slot(user_data)
-					end
-
-					return false
-				end
+				return true
 			end
 		end
 	end
@@ -1852,8 +1956,8 @@ function screen_map:hide_iap_progress()
 	wid("processing_view"):hide()
 end
 
-function screen_map:show_error(msg)
-	wid("error_view"):show(msg)
+function screen_map:show_error(msg, hide_title)
+	wid("error_view"):show(msg, hide_title)
 end
 
 function screen_map:hide_error()
@@ -1951,10 +2055,7 @@ function screen_map:update_badges()
 end
 
 function screen_map:update_tower_data()
-	if features.censored_cn then
-		screen_map.tower_data = map_data.tower_data_iap
-		screen_map.tower_order = map_data.tower_order_censored_cn
-	elseif not PS.services.iap or PS.services.iap:is_premium() then
+	if not PS.services.iap or PS.services.iap:is_premium() then
 		screen_map.tower_data = table.deepclone(map_data.tower_data_free)
 		screen_map.tower_order = map_data.tower_order_free
 	else
@@ -1969,12 +2070,7 @@ end
 
 function screen_map:update_item_data()
 	screen_map.item_data = table.deepclone(iap_data.shop_data)
-	
-	if features.censored_cn then
-		screen_map.item_order = map_data.item_order_censored_cn
-	else
-		screen_map.item_order = map_data.item_order
-	end
+	screen_map.item_order = map_data.item_order
 end
 
 function screen_map.q_is_picking_team()
@@ -1983,6 +2079,10 @@ end
 
 function screen_map.q_is_picking_tower()
 	return wid("tower_room_view").picking_team_slot
+end
+
+function screen_map.q_is_picking_item()
+	return wid("item_room_view").picking_team_slot
 end
 
 function screen_map.q_is_flag_focused(ctx)
@@ -2003,6 +2103,10 @@ end
 
 function screen_map.c_stop_picking_tower()
 	return wid("tower_room_view"):pick_tower_slot_stop()
+end
+
+function screen_map.c_stop_picking_item()
+	return wid("item_room_view"):pick_item_slot_stop()
 end
 
 function screen_map.c_focus_next_flag(ctx, dir)

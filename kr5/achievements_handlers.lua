@@ -91,6 +91,7 @@ function ah:register_handlers(A)
 	reg("spiders-into-the-ogreverse", ah.h_into_the_ogreverse)
 	reg("spiders-a-coon-of-surprises", ah.h_a_coon_of_surprises)
 	reg("spiders-lucas-spider", ah.h_lucas_spider)
+	reg("saitam-dlc2", ah.h_saitam_dlc2)
 end
 
 function ah:h_custom_event(event)
@@ -128,6 +129,12 @@ function ah:h_boss_killed(entity)
 		self.A:got("DLC1_WIN_BOSS")
 	elseif entity.template_name == "boss_spider_queen" then
 		self.A:got("ARACHNED")
+	elseif entity.template_name == "boss_redboy_teen" then
+		self.A:got("DLC2_WIN_BOSS_REDBOY")
+	elseif entity.template_name == "boss_princess_iron_fan" then
+		self.A:got("DLC2_WIN_BOSS_PRINCESS")
+	elseif entity.template_name == "boss_bull_king" then
+		self.A:got("DLC2_WIN_BOSS_KING")
 	end
 end
 
@@ -806,6 +813,12 @@ end
 
 function ah:h_head_stage27(entity)
 	self.A:got("SHUT_YOUR_MOUTH")
+end
+
+function ah:h_saitam_dlc2(level)
+	local current_saitam = self.A:get_count("DLC2_SAITAM")
+
+	self.A:flag_check("DLC2_SAITAM", bit.bor(current_saitam, 2^level))
 end
 
 return ah

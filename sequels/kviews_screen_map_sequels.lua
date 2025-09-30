@@ -1,4 +1,4 @@
-local log = require("klua.log"):new("screen_map_classes")
+local log = require("klua.log"):new("kviews_screen_map_sequels")
 local class = require("middleclass")
 
 require("klua.table")
@@ -26,9 +26,10 @@ local slot_template = require("data.slot_template")
 local U = require("utils")
 local utf8_string = require("klove.utf8_string")
 local achievements_data = require("data.achievements_data")
-local balance = require("balance/balance")
 local iap_data = require("data.iap_data")
 local features = require("features")
+local balance = require("data.balance.balance")
+local GD = require("data.game_gui_data")
 
 require("constants")
 
@@ -655,10 +656,6 @@ function HeroRoomView:initialize(size, image_name, base_scale)
 		end
 	end
 
-	self:ci("button_hero_room_big_buy").on_click = function(this)
-		S:queue("GUIBuyUpgrade")
-		this:get_parent_of_class(HeroRoomView):buy_iap()
-	end
 	self:ci("button_hero_room_big_select").on_click = function(this)
 		S:queue("GUIButtonCommon")
 		this:get_parent_of_class(HeroRoomView):pick_team_slot_start()
@@ -1343,6 +1340,10 @@ function HeroRoomView:show_hero(hero_name, flash)
 				screen_map:show_shop_dlc()
 			end
 		else
+			self:ci("button_hero_room_big_buy").on_click = function(this)
+				S:queue("GUIBuyUpgrade")
+				this:get_parent_of_class(HeroRoomView):buy_iap()
+			end
 			self:ci("label_button_price").text = product and product.price or "?"
 
 			if PS.services.iap then
@@ -1501,10 +1502,7 @@ end
 function HeroRoomView:update_hero_data()
 	local map_data = require("data.map_data")
 
-	if features.censored_cn then
-		screen_map.hero_data = map_data.hero_data_iap
-		screen_map.hero_order = map_data.hero_order_censored_cn
-	elseif not PS.services.iap or PS.services.iap:is_premium() then
+	if not PS.services.iap or PS.services.iap:is_premium() then
 		screen_map.hero_data = table.deepclone(map_data.hero_data_free)
 		screen_map.hero_order = map_data.hero_order_free
 	else
@@ -1981,7 +1979,7 @@ function HeroSkillItemView:load(hero_name, skill_name, skill, remaining_points, 
 
 	local title_suffix = skill_level_for_text >= 2 and "III" or skill_level_for_text == 1 and "II" or "I"
 
-	if features.censored_cn then
+	if features.no_roman_numerals then
 		title_suffix = skill_level_for_text >= 2 and "3" or skill_level_for_text == 1 and "2" or "1"
 	end
 
@@ -2341,10 +2339,6 @@ function TowerRoomView:initialize(size, image_name, base_scale)
 		end
 	end
 
-	self:ci("button_tower_room_big_buy").on_click = function(this)
-		S:queue("GUIBuyUpgrade")
-		this:get_parent_of_class(TowerRoomView):buy_iap()
-	end
 	self:ci("button_tower_room_big_select").on_click = function(this)
 		S:queue("GUIButtonCommon")
 		this:get_parent_of_class(TowerRoomView):pick_tower_slot_start()
@@ -2485,6 +2479,7 @@ function TowerRoomView:initialize(size, image_name, base_scale)
 	self:ci("button_tower_room_big_disabled"):ci("label_button_selected").text = _("MAP_TOWER_ROOM_SELECTED")
 	self:ci("button_tower_room_big_select"):ci("label_button_select").text = _("MAP_TOWER_ROOM_SELECT")
 	self:ci("tower_room_skill_tooltip").hidden = true
+	self:ci("tower_room_skill_tooltip_triple").hidden = true
 	self:ci("group_dlc_tooltip").hidden = true
 
 	for _, v in pairs(GS.dlc_names) do
@@ -2687,13 +2682,13 @@ function TowerRoomView:hide()
 end
 
 function TowerRoomView:show_skill_tooltip(item)
-	local t = self:ci("tower_room_skill_tooltip")
+	local t = self:ci(self.skills_tooltip_template)
 
-	self:ci("label_tower_room_skill_tooltip_title").text = item.title
-	self:ci("label_tower_room_skill_tooltip_desc").text = GU.balance_format(item.desc, balance)
+	t:ci("label_tower_room_skill_tooltip_title").text = item.title
+	t:ci("label_tower_room_skill_tooltip_desc").text = GU.balance_format(item.desc, balance)
 
-	for i = 1, 2 do
-		self:ci("hero_room_skill_tooltip_arrow_" .. i).hidden = i ~= item.idx
+	for i = 1, self.count_powers do
+		t:ci("hero_room_skill_tooltip_arrow_" .. i).hidden = i ~= item.idx
 	end
 
 	local function show_tooltip(ktw)
@@ -2734,9 +2729,9 @@ function TowerRoomView:show_skill_tooltip(item)
 		t.hidden = true
 	end
 
-	local title = self:ci("label_tower_room_skill_tooltip_title")
-	local description = self:ci("label_tower_room_skill_tooltip_desc")
-	local background = self:ci("hero_room_skill_tooltip_bg")
+	local title = t:ci("label_tower_room_skill_tooltip_title")
+	local description = t:ci("label_tower_room_skill_tooltip_desc")
+	local background = t:ci("hero_room_skill_tooltip_bg")
 
 	title.fit_size = false
 	description.fit_size = false
@@ -2764,7 +2759,7 @@ function TowerRoomView:show_skill_tooltip(item)
 end
 
 function TowerRoomView:hide_skill_tooltip()
-	local t = self:ci("tower_room_skill_tooltip")
+	local t = self:ci(self.skills_tooltip_template)
 	local lhn = self:ci("label_tower_name")
 	local lhd = self:ci("label_tower_desc")
 	local ktw = self:get_window().ktw
@@ -2873,6 +2868,24 @@ function TowerRoomView:show_tower(tower_name, flash)
 		self:ci("group_sale_label_big").hidden = true
 	end
 
+	self.count_powers = 0
+
+	for k, v in pairs(tt.powers) do
+		self.count_powers = self.count_powers + 1
+	end
+
+	if self.count_powers == 3 then
+		self.skills_template = "group_tower_skills_triple"
+		self.skills_tooltip_template = "tower_room_skill_tooltip_triple"
+		self:ci("group_tower_skills").hidden = true
+		self:ci("group_tower_skills_triple").hidden = false
+	else
+		self.skills_template = "group_tower_skills"
+		self.skills_tooltip_template = "tower_room_skill_tooltip"
+		self:ci("group_tower_skills").hidden = false
+		self:ci("group_tower_skills_triple").hidden = true
+	end
+
 	local dlc_p = PS.services.iap and PS.services.iap:get_container_dlc("tower_" .. tower_name) or nil
 
 	for _, v in pairs(GS.dlc_names) do
@@ -2953,7 +2966,7 @@ function TowerRoomView:show_tower(tower_name, flash)
 		self:ci("image_towerroom_badside").hidden = false
 	end
 
-	local skill_views = self:ci("group_tower_skills").children
+	local skill_views = self:ci(self.skills_template).children
 	local skill_index = 1
 
 	for i, skill_view in ipairs(skill_views) do
@@ -3005,6 +3018,10 @@ function TowerRoomView:show_tower(tower_name, flash)
 				screen_map:show_shop_dlc()
 			end
 		else
+			self:ci("button_tower_room_big_buy").on_click = function(this)
+				S:queue("GUIBuyUpgrade")
+				this:get_parent_of_class(TowerRoomView):buy_iap()
+			end
 			self:ci("label_button_price").text = product and product.price or "?"
 
 			if PS.services.iap then
@@ -3155,16 +3172,13 @@ function TowerRoomView:get_slider_items()
 end
 
 function TowerRoomView:get_skill_items()
-	return self:ci("group_tower_skills").children
+	return self:ci(self.skills_template).children
 end
 
 function TowerRoomView:update_tower_data()
 	local map_data = require("data.map_data")
 
-	if features.censored_cn then
-		screen_map.tower_data = map_data.tower_data_iap
-		screen_map.tower_order = map_data.tower_order_censored_cn
-	elseif not PS.services.iap or PS.services.iap:is_premium() then
+	if not PS.services.iap or PS.services.iap:is_premium() then
 		screen_map.tower_data = table.deepclone(map_data.tower_data_free)
 		screen_map.tower_order = map_data.tower_order_free
 	else
@@ -3732,8 +3746,10 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 
 	if self.base_scale.y ~= 1 then
 		irov.scale = V.v(3, 3)
+		irov.anchor.x = irov.size.x / 2
 		irov.anchor.y = irov.size.y / 2
-		irov.pos.y = 384
+		irov.pos.x = 0
+		irov.pos.y = 0
 	end
 
 	local user_data = storage:load_slot()
@@ -3779,6 +3795,13 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 	function button_confirm.on_click(this)
 		S:queue("GUIButtonOut")
 		screen_map:hide_item_room()
+	end
+
+	if self:ci("button_close_popup") then
+		self:ci("button_close_popup").on_click = function(this)
+			S:queue("GUIButtonOut")
+			self:hide()
+		end
 	end
 
 	local button_buy = self:ci("item_room_button_item_price")
@@ -3852,13 +3875,50 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 	self.buy_fx = self:ci("animation_item_buy_fx")
 	self.buy_fx.loop = false
 
+	-- if not IS_MOBILE then
+	-- 	local ir = self:ci("item_room_items")
+	-- 	local ctx = SU.new_screen_ctx(screen_map)
+
+	-- 	self.slider_items = {}
+
+	-- 	local mew_item = false
+
+	-- 	for i, n in ipairs(screen_map.item_order) do
+	-- 		local bi = ir:ci(string.format("button_item_roster_%02i", i))
+
+	-- 		if not bi then
+	-- 			log.error("There are not enough buttons for all the items. %s", i)
+
+	-- 			break
+	-- 		end
+
+	-- 		local tt = kui_db:get_table("button_item_roster_thumb", ctx)
+	-- 		local siv = ItemSliderItemView:new_from_table(tt)
+
+	-- 		siv.id = bi.id
+
+	-- 		siv:set_item(user_data, n)
+
+	-- 		siv.pos = bi.pos
+
+	-- 		bi.parent:add_child(siv)
+
+	-- 		bi.hidden = true
+
+	-- 		bi:remove_from_parent()
+
+	-- 		self.slider_items[n] = siv
+	-- 	end
+	-- else
 	local iri = self:ci("item_room_items")
 
 	iri.clip = true
 
 	local placeholder_item = self:ci("button_item_roster_sel")
 
-	placeholder_item.hidden = true
+	if placeholder_item then
+		placeholder_item.hidden = true
+	end
 
 	local isl = KInertialView:new()
 
@@ -3898,6 +3958,17 @@ function ItemRoomView:initialize(size, image_name, base_scale)
 		siv_width = siv.size.x
 		self.slider_items[n] = siv
 	end
+
+	if new_item then
+		storage:save_slot(user_data)
+	end
+
+	-- local drag_width = isl.size.x - #screen_map.item_order * (siv_width + 1) - 20
+
+	-- drag_width = drag_width > 0 and 0 or drag_width
+	-- isl.drag_limits = V.r(0, 0, drag_width, 0)
+	-- isl.elastic_limits = V.r(-isl.size.x, 0, drag_width + isl.size.x * 2, 0)
+	-- end
 
 	if new_item then
 		storage:save_slot(user_data)
@@ -4313,12 +4384,7 @@ function ItemRoomView:update_item_data()
 	local map_data = require("data.map_data")
 
 	screen_map.item_data = table.deepclone(iap_data.shop_data)
-
-	if features.censored_cn then
-		screen_map.item_order = map_data.item_order_censored_cn
-	else
-		screen_map.item_order = map_data.item_order
-	end
+	screen_map.item_order = map_data.item_order
 end
 
 function ItemRoomView.static:get_item_stock(data, item_name)
@@ -4792,6 +4858,468 @@ function ItemRingItemButtonThumb:on_dropped(istouch)
 	end
 end
 
+EncyclopediaRoomView = class("EncyclopediaRoomView", RoomView)
+
+function EncyclopediaRoomView:initialize(size, image_name, base_scale)
+	EncyclopediaRoomView.super.initialize(self, size, image_name, base_scale)
+
+	local ctx = SU.new_screen_ctx(screen_map)
+
+	ctx.show_encyclopedia = not IS_MOBILE and not features.no_encyclopedia
+
+	if not ctx.show_encyclopedia then
+		return
+	end
+
+	self.TAB = {
+		TOWERS = "towers",
+		ENEMIES = "enemies"
+	}
+	self.LEVELS_PER_TOWER = 4
+	self.ui = {
+		btn_towers = self:ci("button_tab_towers"),
+		btn_towers_sel = self:ci("button_tab_towers_selected"),
+		btn_enemies = self:ci("button_tab_enemies"),
+		btn_enemies_sel = self:ci("button_tab_enemies_selected"),
+		pager = self:ci("pager"),
+		page_group = self:ci("group_thumbs"),
+		close = self:ci("button_close_popup"),
+		polaroid_frame = self:ci("detail_polaroid"),
+		polaroid_label_name = self:ci("label_title_details"),
+		polaroid_label_description = self:ci("label_details_desc"),
+		group_stats_enemy = self:ci("group_stats_enemy"),
+		group_stats_tower = self:ci("group_stats_tower"),
+		group_stats_barracks = self:ci("group_stats_barracks"),
+		group_skills_tower = self:ci("group_skills_tower"),
+		group_skills_tower_triple = self:ci("group_skills_tower_triple"),
+		label_details_footer = self:ci("label_details_footer"),
+		label_title_thumbs = self:ci("label_title_thumbs")
+	}
+	self.item_positions = {}
+
+	if self.ui.page_group and self.ui.page_group.children then
+		for i = 1, #self.ui.page_group.children do
+			local c = self.ui.page_group:ci(string.format("button_thumbs_%02i", i))
+
+			if c then
+				c:ci("image_thumb_frame_highlight").hidden = true
+
+				table.insert(self.item_positions, {
+					id = c.id,
+					pos = c.pos
+				})
+			end
+		end
+	end
+
+	self.page_idx = 1
+	self.type = self.TAB.ENEMIES
+	self.select_first_item = true
+	self.ui.label_title_thumbs.text = _("ENCYCLOPEDIA_ENEMIES_TITLE")
+
+	local function toggle_tabs(kind)
+		local u = self.ui
+		local enemies_active = kind == self.TAB.ENEMIES
+
+		u.btn_enemies.hidden = enemies_active
+		u.btn_enemies_sel.hidden = not enemies_active
+		u.btn_towers.hidden = not enemies_active
+		u.btn_towers_sel.hidden = enemies_active
+	end
+
+	function self:compute_pages(kind)
+		kind = kind or self.type
+
+		local slots = #self.item_positions
+
+		if slots == 0 then
+			return 1
+		end
+
+		if kind == self.TAB.ENEMIES then
+			return math.max(1, math.ceil(#GS.encyclopedia_enemies / slots))
+		else
+			local towers_per_page = math.max(1, math.floor(slots / self.LEVELS_PER_TOWER))
+
+			return math.max(1, math.ceil(#GS.tower_order / towers_per_page))
+		end
+	end
+
+	function self:update_pager()
+		if not self.ui.pager or not self.ui.pager.setup then
+			return
+		end
+
+		local pages = self:compute_pages(self.type)
+
+		self.ui.pager:setup(pages, self, self.show_page)
+
+		for _, v in pairs(self.ui.pager.children or {}) do
+			if v.halo_image then
+				v:ci("label_page"):order_above(v.halo_image)
+				v:ci("label_page_selected"):order_above(v.halo_image)
+			end
+		end
+
+		self.ui.pager:show_page(self.page_idx)
+	end
+
+	local function set_tab(kind)
+		S:queue("GUIButtonCommon")
+
+		self.type = kind
+		self.selected_template_name = nil
+		self.select_first_item = true
+		self.page_idx = 1
+		self.ui.label_title_thumbs.text = kind == self.TAB.ENEMIES and _("ENCYCLOPEDIA_ENEMIES_TITLE") or _("ENCYCLOPEDIA_TOWERS_TITLE")
+
+		toggle_tabs(kind)
+		self:update_pager()
+		self:show_page(1)
+	end
+
+	if self.ui.btn_enemies then
+		function self.ui.btn_enemies.on_click()
+			set_tab(self.TAB.ENEMIES)
+		end
+	end
+
+	if self.ui.btn_towers then
+		function self.ui.btn_towers.on_click()
+			set_tab(self.TAB.TOWERS)
+		end
+	end
+
+	toggle_tabs(self.TAB.ENEMIES)
+
+	if #self.item_positions > 0 then
+		self:update_pager()
+	end
+
+	if self.ui.close then
+		function self.ui.close.on_click()
+			S:queue("GUIButtonOut")
+			self:hide()
+		end
+	end
+end
+
+function EncyclopediaRoomView:destroy()
+	EncyclopediaRoomView.super.destroy(self)
+end
+
+function EncyclopediaRoomView:show()
+	EncyclopediaRoomView.super.show(self)
+	self:show_detail(self.selected_template_name)
+end
+
+function EncyclopediaRoomView:hide()
+	EncyclopediaRoomView.super.hide(self)
+
+	local win = self:get_window()
+
+	if win and self.background_id and win:ci(self.background_id) then
+		win:ci(self.background_id).on_click = nil
+	end
+end
+
+function EncyclopediaRoomView:change_page(dir)
+	local slots = #self.item_positions
+
+	if slots == 0 then
+		return
+	end
+
+	local page_count = self:compute_pages(self.type)
+
+	self.page_idx = self.page_idx or 1
+
+	if dir == "next" then
+		self.page_idx = km.clamp(1, page_count, self.page_idx + 1)
+	elseif dir == "prev" then
+		self.page_idx = km.clamp(1, page_count, self.page_idx - 1)
+	end
+
+	local pager = self.ui and self.ui.pager
+
+	if pager and pager.isInstanceOf and pager:isInstanceOf(GG5Pager) then
+		pager:show_page(self.page_idx)
+	else
+		self:show_page(self.page_idx)
+	end
+end
+
+function EncyclopediaRoomView:tower_any_level_seen(base_name)
+	for lvl = 1, self.LEVELS_PER_TOWER do
+		if screen_map:is_seen(string.format("%s_lvl%d", base_name, lvl)) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function EncyclopediaRoomView:show_page(page_idx)
+	local u = self.ui
+	local slots = #self.item_positions
+
+	if slots == 0 or not u.page_group then
+		return
+	end
+
+	self.page_idx = page_idx
+	self.selected_button = nil
+
+	for i = 1, #u.page_group.children do
+		local c = u.page_group:ci(string.format("button_thumbs_%02i", i))
+
+		if c then
+			c.hidden = true
+		end
+	end
+
+	local function enemy_index_for_slot(slot)
+		return (page_idx - 1) * slots + slot
+	end
+
+	local function tower_index_and_level_for_slot(slot)
+		local towers_per_page = math.max(1, math.floor(slots / self.LEVELS_PER_TOWER))
+		local first_tower_idx = (page_idx - 1) * towers_per_page + 1
+		local tower_offset = math.floor((slot - 1) / self.LEVELS_PER_TOWER)
+		local level = (slot - 1) % self.LEVELS_PER_TOWER + 1
+
+		return first_tower_idx + tower_offset, level
+	end
+
+	local tower_seen_cache
+
+	if self.type == self.TAB.TOWERS then
+		tower_seen_cache = {}
+
+		local towers_per_page = math.max(1, math.floor(slots / self.LEVELS_PER_TOWER))
+		local first_tower_idx = (page_idx - 1) * towers_per_page + 1
+
+		for t_idx = first_tower_idx, first_tower_idx + towers_per_page - 1 do
+			local tw = GS.tower_order[t_idx]
+
+			if tw then
+				tower_seen_cache[tw.name] = tw.always_shown or self:tower_any_level_seen(tw.name)
+			end
+		end
+	end
+
+	local first_template_name
+
+	for slot = 1, slots do
+		local posInfo = self.item_positions[slot]
+
+		if not posInfo then
+			break
+		end
+
+		local c = self:ci(posInfo.id)
+
+		if not c then
+			break
+		end
+
+		c:ci("image_thumb_frame_highlight").hidden = true
+
+		if self.type == self.TAB.ENEMIES then
+			local idx = enemy_index_for_slot(slot)
+			local item = GS.encyclopedia_enemies[idx]
+
+			if not item then
+				c.hidden = true
+			else
+				local template_name = item.name
+
+				if template_name == self.selected_template_name then
+					c:ci("image_thumb_frame_highlight").hidden = false
+					self.selected_button = c
+				end
+
+				if self.select_first_item and slot == 1 then
+					c:ci("image_thumb_frame_highlight").hidden = false
+					self.selected_button = c
+				end
+
+				local seen = screen_map:is_seen(template_name)
+
+				if seen or item.always_shown then
+					first_template_name = first_template_name or template_name
+
+					local t = E:get_template(template_name)
+					local enc_icon = t and t.info and t.info.enc_icon or 1
+
+					c.hidden = false
+
+					c:ci("image_thumb_mini_image"):set_image(string.format("encyclopedia_enemies_thumb_0%03d", enc_icon))
+
+					function c.on_click()
+						S:queue("GUIButtonCommon")
+
+						if self.selected_button then
+							self.selected_button:ci("image_thumb_frame_highlight").hidden = true
+						end
+
+						self.selected_button = c
+
+						self:show_detail(template_name)
+
+						c:ci("image_thumb_frame_highlight").hidden = false
+					end
+				else
+					c.hidden = false
+
+					c:ci("image_thumb_mini_image"):set_image("room_encyclopedia_image_encyclopedia_thumb_0001")
+
+					c.on_click = nil
+				end
+			end
+		elseif math.floor(slots / self.LEVELS_PER_TOWER) == 0 then
+			c.hidden = true
+		else
+			local t_idx, level = tower_index_and_level_for_slot(slot)
+			local item = GS.tower_order[t_idx]
+
+			if not item then
+				c.hidden = true
+			else
+				local base_seen = tower_seen_cache and tower_seen_cache[item.name] or false
+				local template_name = string.format("%s_lvl%d", item.name, level)
+
+				if template_name == self.selected_template_name then
+					c:ci("image_thumb_frame_highlight").hidden = false
+					self.selected_button = c
+				end
+
+				if self.select_first_item and slot == 1 then
+					c:ci("image_thumb_frame_highlight").hidden = false
+					self.selected_button = c
+				end
+
+				if base_seen then
+					first_template_name = first_template_name or template_name
+
+					local t = E:get_template(template_name)
+					local enc_icon = t and t.info and t.info.enc_icon or 1
+
+					c.hidden = false
+
+					c:ci("image_thumb_mini_image"):set_image(string.format("encyclopedia_towers_thumb_0%03d", enc_icon))
+
+					function c.on_click()
+						S:queue("GUIButtonCommon")
+
+						if self.selected_button then
+							self.selected_button:ci("image_thumb_frame_highlight").hidden = true
+						end
+
+						self.selected_button = c
+						c:ci("image_thumb_frame_highlight").hidden = false
+
+						self:show_detail(template_name)
+					end
+				else
+					c.hidden = false
+
+					c:ci("image_thumb_mini_image"):set_image("room_encyclopedia_image_encyclopedia_thumb_0001")
+
+					c.on_click = nil
+				end
+			end
+		end
+	end
+
+	if self.select_first_item then
+		self.select_first_item = false
+
+		self:show_detail(first_template_name)
+	end
+end
+
+function EncyclopediaRoomView:show_detail(template_name)
+	self.selected_template_name = template_name
+
+	local e = E:create_entity(template_name)
+	local ei = e.info.fn(e)
+
+	if self.type == self.TAB.ENEMIES then
+		self.ui.group_stats_tower.hidden = true
+		self.ui.group_stats_barracks.hidden = true
+		self.ui.group_skills_tower.hidden = true
+		self.ui.group_skills_tower_triple.hidden = true
+		self.ui.group_stats_enemy.hidden = false
+
+		self.ui.polaroid_frame:set_image(GD.notifications[template_name].image)
+
+		self.ui.polaroid_label_name.text = _(string.upper(template_name) .. "_NAME")
+		self.ui.polaroid_label_description.text = _(string.upper(template_name) .. "_DESCRIPTION")
+		self.ui.group_stats_enemy:ci("label_stats_enemy_health").text = ei.hp_max
+		self.ui.group_stats_enemy:ci("label_stats_enemy_damage").text = GU.damage_value_desc(ei.damage_min, ei.damage_max)
+		self.ui.group_stats_enemy:ci("label_stats_enemy_armor").text = GU.armor_value_desc(ei.armor)
+		self.ui.group_stats_enemy:ci("label_stats_enemy_armor_magical").text = GU.armor_value_desc(ei.magic_armor)
+		self.ui.group_stats_enemy:ci("label_stats_enemy_lives").text = ei.lives
+		self.ui.group_stats_enemy:ci("label_stats_enemy_speed").text = e.motion and GU.speed_value_desc(e.motion.max_speed) or _("None")
+		self.ui.label_details_footer.text = _(string.upper(template_name) .. "_EXTRA", "")
+	else
+		self.ui.group_stats_enemy.hidden = true
+		self.ui.label_details_footer.text = ""
+
+		self.ui.polaroid_frame:set_image(string.format("polaroids_towers_0%03d", e.info.enc_icon))
+
+		self.ui.polaroid_label_name.text = _(string.upper(e.info.i18n_key or template_name) .. "_NAME")
+		self.ui.polaroid_label_description.text = _(string.upper(e.info.i18n_key or template_name) .. "_DESCRIPTION")
+
+		if ei.type == STATS_TYPE_TOWER_BARRACK then
+			self.ui.group_stats_barracks.hidden = false
+			self.ui.group_stats_tower.hidden = true
+			self.ui.group_stats_barracks:ci("label_stats_barracks_health").text = ei.hp_max
+			self.ui.group_stats_barracks:ci("label_stats_barracks_damage").text = GU.damage_value_desc(ei.damage_min, ei.damage_max)
+			self.ui.group_stats_barracks:ci("label_stats_barracks_armor").text = GU.armor_value_desc(ei.armor)
+			self.ui.group_stats_barracks:ci("label_stats_barracks_respawn").text = ei.respawn and string.format(_("%i sec."), ei.respawn) or "-"
+		else
+			self.ui.group_stats_tower.hidden = false
+			self.ui.group_stats_barracks.hidden = true
+			self.ui.group_stats_tower:ci("label_stats_tower_damage").text = GU.damage_value_desc(ei.damage_min, ei.damage_max)
+			self.ui.group_stats_tower:ci("label_stats_tower_cooldown").text = GU.cooldown_value_desc(ei.cooldown)
+			self.ui.group_stats_tower:ci("label_stats_tower_range").text = GU.range_value_desc(ei.range)
+		end
+
+		if e.tower.level == 4 then
+			local stats = TowerRoomView:get_tower_stats(e.tower.type)
+
+			if #stats.skill_names == 3 then
+				self.ui.group_skills_tower_triple.hidden = false
+				self.ui.group_skills_tower.hidden = true
+			else
+				self.ui.group_skills_tower.hidden = false
+				self.ui.group_skills_tower_triple.hidden = true
+			end
+
+			for i = 1, #stats.skill_names do
+				local skill_name = stats.skill_names[i]
+				local skill_key = (stats.skills[i].key or string.upper(skill_name)) .. "_1"
+				local group
+
+				if #stats.skill_names == 3 then
+					group = self.ui.group_skills_tower_triple:ci("group_skill_tower_0" .. i)
+				else
+					group = self.ui.group_skills_tower:ci("group_skill_tower_0" .. i)
+				end
+
+				group:ci("label_skill_tower").text = _(string.upper(string.format("%s_%s_NAME", e.info.i18n_key, skill_key)))
+
+				group:ci("image_skill_tower_icon"):set_image(string.format("quickmenu_special_icons_%04i_%04i", stats.skills[i].enc_icon, 1))
+			end
+		else
+			self.ui.group_skills_tower.hidden = true
+			self.ui.group_skills_tower_triple.hidden = true
+		end
+	end
+end
+
 GG5PopUpLevelSelect = class("GG5PopUpLevelSelect", GG5PopUp)
 
 function GG5PopUpLevelSelect:initialize(size, image_name, base_scale)
@@ -4830,10 +5358,6 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 		end
 	end
 
-	if features.censored_cn and terrain == 3 then
-		terrain = 4
-	end
-
 	self:ci("label_title_1").hidden = true
 	self:ci("label_title_2").hidden = true
 	self:ci("label_title_3").hidden = true
@@ -4842,6 +5366,7 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 	self:ci("label_title_6").hidden = true
 	self:ci("label_title_7").hidden = true
 	self:ci("label_title_8").hidden = true
+	self:ci("label_title_9").hidden = true
 	self:ci("label_title_" .. terrain).hidden = false
 	self:ci("label_title_" .. terrain).text = string.format("%s", utf8_string.upper(_("LEVEL_" .. level_idx .. "_TITLE")))
 	self:ci("title_bg").size.x = self:ci("label_title_" .. terrain):get_wrap_lines() + 2 * self:ci("title_bg").slice_rect.pos.x
@@ -4897,7 +5422,7 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 		self:hide_mode_tooltip()
 	end
 
-	if features.censored_cn then
+	if features.no_red_text then
 		self:ci("group_mode_tooltip_2"):ci("label_mode_tooltip_title").colors.text = {
 			0,
 			0,
@@ -4912,7 +5437,7 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 		self:hide_mode_tooltip()
 	end
 
-	if features.censored_cn then
+	if features.no_red_text then
 		self:ci("group_mode_tooltip_3"):ci("label_mode_tooltip_title").colors.text = {
 			0,
 			0,
@@ -4985,7 +5510,7 @@ function GG5PopUpLevelSelect:show(level_idx, stars, diff_campaign, diff_heroic, 
 		self:ci("toggle_mode_3").hidden = false
 	end
 
-	if features.censored_cn then
+	if features.no_red_text then
 		self:ci("label_high_difficulty").colors.text = {
 			140,
 			201,
@@ -6141,7 +6666,7 @@ function AchievementItem:initialize(ach)
 	self.completed = user_data.achievements[ach.name]
 	self.claimed = user_data.achievements_claimed and table.contains(user_data.achievements_claimed, ach.name)
 
-	if not IS_MOBILE then
+	if features.no_gems then
 		self.claimed = true
 	end
 
@@ -6218,6 +6743,8 @@ function AchievementItem:initialize(ach)
 				}, "out-quad")
 				S:queue("GUIAchievementClaim")
 
+				user_data = storage:load_slot()
+
 				if user_data.achievements_claimed and not user_data.achievements_claimed[ach.name] then
 					table.insert(user_data.achievements_claimed, ach.name)
 
@@ -6241,7 +6768,7 @@ function AchievementItem:initialize(ach)
 
 		icon:set_image("achievements_icons_" .. string.format("%03i", ach.icon) .. "_disabled_0001")
 
-		if not IS_MOBILE then
+		if features.no_gems then
 			card:ci("label_achievement_room_gem_reward").hidden = true
 			card:ci("image_achievements_room_gems_bg").hidden = true
 		end
@@ -6404,6 +6931,25 @@ function AchievementItem:initialize(ach)
 				end
 
 				progress = exodia_parts
+				card:ci("label_achievement_room_achievement_progress").text = progress .. "/5"
+
+				local progress_value = progress * 222 / 5
+
+				if progress_value >= 1 then
+					card:ci("image_achievements_room_progress_bar").size.x = progress_value
+				else
+					card:ci("image_achievements_room_progress_bar").hidden = true
+				end
+			elseif ach.name == "DLC2_SAITAM" then
+				local saitam_taps = 0
+
+				for i = 0, 4 do
+					if bit.band(progress, 2^i) ~= 0 then
+						saitam_taps = saitam_taps + 1
+					end
+				end
+
+				progress = saitam_taps
 				card:ci("label_achievement_room_achievement_progress").text = progress .. "/5"
 
 				local progress_value = progress * 222 / 5
@@ -6848,7 +7394,7 @@ function ShopRoomView:initialize(size, image_name, base_scale)
 			local page = self:ci("pager")
 			local dlc_count = #PS.services.iap:get_dlcs()
 
-			self:ci("pager"):setup(1, self, self.show_page)
+			self:ci("pager"):setup(dlc_count, self, self.show_page)
 			self:ci("pager"):show_page(1)
 		end
 
@@ -6885,13 +7431,11 @@ function ShopRoomView:show_page(page_idx)
 
 	local ctx = SU.new_screen_ctx(screen_map)
 
+	ctx.show_video = false
+
 	for i, v in pairs(exceptions) do
 		if v == "dlcs" then
 			local dlcs = PS.services.iap:get_dlcs()
-
-			log.info("mmmasdf asdf")
-			log.info(getfulldump(dlcs))
-
 			local dlc = dlcs[page_idx]
 			local tt = kui_db:get_table("group_shop_offers_" .. dlc, ctx)
 			local hs = ShopDesktopItemView:new_from_table(tt)
@@ -6914,85 +7458,89 @@ function ShopRoomView:refresh_offers(force)
 	local offset_x = IS_TABLET and 0 or 200
 
 	if PS.services.iap and not PS.services.iap:is_premium() then
-		if not features.censored_cn then
-			local offer, exp_time = marketing:get_active_offer()
+		local video_views = self:flatten(function(v)
+			return v:isInstanceOf(KVideoView)
+		end)
 
-			if offer then
-				if self.active_offer_id and offer.id == self.active_offer_id and not force then
-					return
-				else
-					self.active_offer_id = offer.id
+		if #video_views > 0 then
+			for _, v in pairs(video_views) do
+				if v and v.video then
+					log.debug("--- pausing video %s before removing child", v.video_name)
+					v.video:pause()
+
+					v.state = "paused"
+					v.hidden = true
 				end
 			end
+		end
 
-			hsl:remove_children()
+		hsl:remove_children()
 
-			local peristent_offers = marketing:get_candidate_offers(true) or {}
+		local peristent_offers = marketing:get_candidate_offers(true) or {}
 
-			for k, v in pairs(peristent_offers) do
-				local hs, cw = self:create_offer(v.id)
+		for k, v in pairs(peristent_offers) do
+			local hs, cw = self:create_offer(v.id)
 
-				if hs then
-					hsl:add_child(hs)
+			if hs then
+				hsl:add_child(hs)
 
-					hs.pos.x = width + cw / 2
+				hs.pos.x = width + cw / 2
 
-					if v.season_offer then
-						self.pos_offer_season = -(width + cw / 2 - screen_map.sw / 2)
-					end
-
-					if v.dlc_offer then
-						self.pos_offer_dlc = -(width + cw / 2 - screen_map.sw / 2)
-					end
-
-					hs.pos.y = 260
-					width = width + cw + distance
+				if v.season_offer then
+					self.pos_offer_season = -(width + cw / 2 - screen_map.sw / 2)
 				end
+
+				if v.dlc_offer then
+					self.pos_offer_dlc = -(width + cw / 2 - screen_map.sw / 2)
+				end
+
+				hs.pos.y = 260
+				width = width + cw + distance
 			end
+		end
 
-			if RC and RC.v.one_time_gifts then
-				local slot = storage:load_slot()
+		if RC and RC.v.one_time_gifts then
+			local slot = storage:load_slot()
 
-				if slot then
-					if not slot.claimed_gifts then
-						slot.claimed_gifts = {}
-					end
+			if slot then
+				if not slot.claimed_gifts then
+					slot.claimed_gifts = {}
+				end
 
-					for k, v in pairs(RC.v.one_time_gifts) do
-						if not table.contains(slot.claimed_gifts, v.id) then
-							local hs, cw = self:create_gift(v)
+				for k, v in pairs(RC.v.one_time_gifts) do
+					if not table.contains(slot.claimed_gifts, v.id) then
+						local hs, cw = self:create_gift(v)
 
-							if hs then
-								hsl:add_child(hs)
+						if hs then
+							hsl:add_child(hs)
 
-								hs.pos.x = width + cw / 2
-								hs.pos.y = 260
-								width = width + cw + distance
-							end
+							hs.pos.x = width + cw / 2
+							hs.pos.y = 260
+							width = width + cw + distance
 						end
 					end
 				end
 			end
-
-			local offer, exp_time = marketing:get_active_offer()
-
-			if offer then
-				local hs, cw = self:create_offer(offer.id, exp_time)
-
-				if hs then
-					hsl:add_child(hs)
-
-					hs.pos.x = width + cw / 2
-					self.pos_offer_active = -(width + cw / 2 - screen_map.sw / 2)
-					hs.pos.y = 260
-					width = width + cw + distance
-
-					signal.emit(SGN_MARKETING_OFFER_SHOWN, offer.id)
-				end
-			end
-
-			self.pos_offer_gems = -(width - offset_x)
 		end
+
+		local offer, exp_time = marketing:get_active_offer()
+
+		if offer then
+			local hs, cw = self:create_offer(offer.id, exp_time)
+
+			if hs then
+				hsl:add_child(hs)
+
+				hs.pos.x = width + cw / 2
+				self.pos_offer_active = -(width + cw / 2 - screen_map.sw / 2)
+				hs.pos.y = 260
+				width = width + cw + distance
+
+				signal.emit(SGN_MARKETING_OFFER_SHOWN, offer.id)
+			end
+		end
+
+		self.pos_offer_gems = -(width - offset_x)
 
 		for i, v in ipairs(iap_data.gems_order) do
 			local gems_item_data = iap_data.gems_data[v]
@@ -7001,25 +7549,34 @@ function ShopRoomView:refresh_offers(force)
 
 			hs:set_portrait("store_portraits_000" .. i)
 
-			if gems_item_data.is_most_popular then
-				hs:show_most_popular()
-			end
+			local sale_prod = marketing:get_sale_offer(items_name[i])
 
-			if gems_item_data.is_best_value then
-				hs:show_best_value()
+			if sale_prod then
+				hs:show_sale(sale_prod)
+			else
+				if gems_item_data.is_most_popular then
+					hs:show_most_popular()
+				end
+
+				if gems_item_data.is_best_value then
+					hs:show_best_value()
+				end
 			end
 
 			local product = PS.services.iap and PS.services.iap:get_product(items_name[i]) or {}
 
 			hs:ci("label_shop_portrait_gems_quantity").text = product.reward or ""
 
-			local price = "?"
+			if not sale_prod then
+				local price = "?"
 
-			if product.price then
-				price = string.gsub(product.price, " ", "")
+				if product.price then
+					price = string.gsub(product.price, " ", "")
+				end
+
+				hs:ci("label_shop_portrait_gems_cost").text = price
 			end
 
-			hs:ci("label_shop_portrait_gems_cost").text = price
 			hs.item_name = items_name[i]
 
 			hs:set_name(i)
@@ -7073,6 +7630,8 @@ function ShopRoomView:create_offer(offer_name, exp_time)
 		description = _("OFFER_PACK_DESCRIPTION_ALL_TOWERS")
 	end
 
+	ctx.show_video = IS_MOBILE and prod.custom_video ~= nil or false
+
 	if not prod.price or not prod.price_micros then
 		return nil, nil
 	end
@@ -7103,7 +7662,7 @@ function ShopRoomView:create_offer(offer_name, exp_time)
 	end
 
 	if prod.season_offer == "crocs" or prod.season_offer == "spider" or dlc then
-		width = 950
+		width = 980
 	end
 
 	local tt = kui_db:get_table(tn, ctx)
@@ -7123,6 +7682,7 @@ function ShopRoomView:create_gift(gift)
 	ctx.all_heroes = false
 	ctx.all_towers = false
 	ctx.custom_offer = false
+	ctx.show_video = false
 
 	local title = _("OFFER_ICON_BANNER")
 	local description = _("OFFER_PACK_DESCRIPTION_TEXT_02")
@@ -7193,9 +7753,37 @@ function ShopRoomView:show(go_to_section)
 
 		self.shop_slider:kmdi_reset_inertia()
 	end
+
+	local video_views = self:flatten(function(v)
+		return v:isInstanceOf(KVideoView)
+	end)
+
+	if #video_views > 0 then
+		for _, v in pairs(video_views) do
+			v.hidden = false
+		end
+	end
 end
 
 function ShopRoomView:hide()
+	local video_views = self:flatten(function(v)
+		return v:isInstanceOf(KVideoView)
+	end)
+
+	if #video_views > 0 then
+		for _, v in pairs(video_views) do
+			if v and v.video then
+				log.debug("---- pausing and removing video %s", v.video_name)
+				v.video:pause()
+
+				v.state = "paused"
+				v.hidden = true
+			end
+		end
+
+		S:fade_in_group("MUSIC", 1)
+	end
+
 	if IS_MOBILE then
 		self:get_window():ci("map_view").hidden = false
 	end
@@ -7204,12 +7792,104 @@ function ShopRoomView:hide()
 
 	self:get_window():ci(self.background_id).on_click = nil
 
-	screen_map:process_new_dlc()
+	if IS_DESKTOP then
+		screen_map:process_new_dlc()
+	end
 end
 
 function ShopRoomView:update_gems(amount)
 	if IS_MOBILE then
 		self:ci("label_shop_room_total_gems").text = string.format("%s", amount)
+	end
+end
+
+function ShopRoomView:update(dt)
+	ShopRoomView.super.update(self, dt)
+
+	if not self.hidden then
+		local window = self:get_window()
+		local video_views = self:flatten(function(v)
+			return v:isInstanceOf(KVideoView)
+		end)
+
+		if #video_views > 0 then
+			local music_should_play = true
+			local music_gain = S:get_group_gain("MUSIC")
+
+			for _, v in pairs(video_views) do
+				if v and v.video and not v.hidden then
+					local parent_offer_item = v:get_parent_of_class(ShopOfferItemView)
+					local should_play = false
+
+					if parent_offer_item and window then
+						local vx, vy = parent_offer_item:view_to_screen(0, 0)
+						local ww = window.size.x
+
+						should_play = vx > ww / 4 and vx < 3 * ww / 4
+					end
+
+					local current_volume = v.video:getSource():getVolume()
+
+					if v.state == "in" then
+						if not should_play then
+							v.state = "out"
+						else
+							if not v.video:isPlaying() then
+								log.debug("++++ playing video %s", v.video_name)
+								v.video:rewind()
+								v.video:play()
+							end
+
+							if music_gain <= current_volume or music_gain == 0 then
+								v.state = "playing"
+							end
+						end
+					elseif v.state == "out" then
+						if should_play then
+							v.state = "in"
+						elseif current_volume <= 0 or music_gain == 0 then
+							v.state = "paused"
+
+							v.video:pause()
+						end
+					elseif v.state == "playing" then
+						if not should_play then
+							v.state = "out"
+						elseif not v.video:isPlaying() and v.loop then
+							log.debug("++++ playing video %s", v.video_name)
+							v.video:rewind()
+							v.video:play()
+						end
+					elseif should_play then
+						v.state = "in"
+					elseif v.video:isPlaying() then
+						v.video:pause()
+					end
+
+					if current_volume ~= 0 and music_gain == 0 then
+						v.video:getSource():setVolume(0)
+					elseif v.state == "in" and current_volume < music_gain then
+						local volume = km.clamp(0, 1, current_volume + dt / 1)
+
+						v.video:getSource():setVolume(volume)
+					elseif v.state == "out" and current_volume > 0 then
+						local volume = km.clamp(0, 1, current_volume - dt / 1)
+
+						v.video:getSource():setVolume(volume)
+					end
+
+					if v.state == "in" or v.state == "playing" then
+						music_should_play = false
+					end
+				end
+			end
+
+			if music_should_play then
+				S:fade_in_group("MUSIC", 2)
+			else
+				S:fade_out_group("MUSIC", 2)
+			end
+		end
 	end
 end
 
@@ -7279,6 +7959,9 @@ function ShopSliderItemView:initialize(default_image_name, focus_image_name)
 	self:ci("image_shop_gems_tag").hidden = true
 	self:ci("label_shop_best_value").hidden = true
 	self:ci("label_shop_most_popular").hidden = true
+	self:ci("image_shop_discount_tag").hidden = true
+	self:ci("label_shop_discount").hidden = true
+	self:ci("label_shop_discount_percent").hidden = true
 	self.drag_threshold = self.size.y / 4 / 768 * 320
 end
 
@@ -7311,12 +7994,30 @@ function ShopSliderItemView:show_most_popular()
 	self:ci("label_shop_most_popular").hidden = false
 end
 
+function ShopSliderItemView:show_sale(sale_prod)
+	self:ci("image_shop_discount_tag").hidden = false
+	self:ci("label_shop_discount").hidden = false
+	self:ci("label_shop_discount_percent").hidden = false
+	self:ci("label_shop_discount_percent").text = sale_prod.discount_str
+	self:ci("label_shop_portrait_gems_cost").text = sale_prod.price
+end
+
 function ShopSliderItemView:on_click()
 	S:queue("GUIButtonCommon")
 
-	if not PS.services.iap or not PS.services.iap:purchase_product(self.item_name) then
+	local gs = self.item_name
+
+	if PS.services.iap then
+		local ps = marketing:get_sale_offer(gs)
+
+		if ps then
+			gs = ps.id
+		end
+	end
+
+	if not PS.services.iap or not PS.services.iap:purchase_product(gs) then
 		signal.emit(SGN_SHOP_SHOW_MESSAGE, "iap_error")
-		log.error("Error trying to purchase product %s", self.item_name)
+		log.error("Error trying to purchase product %s", gs)
 
 		return
 	end
@@ -7409,6 +8110,10 @@ function ShopOfferItemView:set_offer(prod, title, sub_title, expiration)
 		self:ci("label_shop_offer_ends_time").hidden = true
 	end
 
+	if self:ci("label_shop_offer_title") then
+		self:ci("label_shop_offer_title").hidden = true
+	end
+
 	self:ci("label_shop_special_offer_title").text = title
 	self:ci("label_shop_offer_desc").text = sub_title
 
@@ -7486,8 +8191,6 @@ function ShopOfferItemView:set_offer(prod, title, sub_title, expiration)
 		local tooltip = self:ci("group_mode_tooltip_2")
 
 		tooltip.hidden = true
-		tooltip:ci("label_info_tooltip_title").text = _("SHOP_ROOM_DLC_1_TOOLTIP_TITLE")
-		tooltip:ci("label_info_tooltip_desc").text = _("SHOP_ROOM_DLC_1_TOOLTIP_DESCRIPTION")
 
 		local info_button = self:ci("button_offer_info")
 		local info_button_hotspot = info_button:ci("image_button_hotspot")
@@ -7549,6 +8252,62 @@ function ShopOfferItemView:set_offer(prod, title, sub_title, expiration)
 			card:ci("label_shop_offer_card_title").text = _(string.upper(v) .. "_NAME")
 			card_pos = card_pos + 1
 		end
+	end
+
+	if IS_MOBILE and prod.custom_video then
+		self.custom_video = prod.custom_video
+
+		local feature_view = self:flatten(function(v)
+			return v.feature_video_container
+		end)
+		local fv = feature_view[1]
+
+		if not fv then
+			log.error("could not find placeholder for feature videos")
+		else
+			local kv = fv:ci("feature_video")
+
+			if kv then
+				kv.video:pause()
+				fv:remove_child(kv)
+			end
+
+			local video_file_parts = {
+				KR_PATH_ASSETS_ROOT,
+				"_resources",
+				version.bundle_id,
+				"feature_videos",
+				prod.custom_video
+			}
+			local video_file = table.concat(video_file_parts, "/")
+
+			if not love.filesystem.isFile(video_file) then
+				log.error("could not find feature video %s", video_file)
+			else
+				log.debug("initializing new video %s", video_file)
+
+				kv = KVideoView:new(video_file)
+
+				fv:add_child(kv)
+
+				local scale = fv.size.x / kv.size.x
+
+				kv.scale.x, kv.scale.y = scale, scale
+				kv.id = "feature_video"
+				kv.loop = false
+				kv.open_ts = love.timer.getTime()
+				kv.propagate_on_up = true
+				kv.propagate_on_down = true
+				kv.propagate_on_click = true
+				kv.loop = true
+				kv.state = "paused"
+
+				kv.video:pause()
+				kv.video:getSource():setVolume(0)
+			end
+		end
+	else
+		self.custom_video = nil
 	end
 end
 
@@ -8090,6 +8849,14 @@ function MapView:show_decos()
 		overseer.exo_animation = "loop_active"
 		overseer.ts = 0
 	end
+
+	if features.only_dlc_1 then
+		for _, c in pairs(self.children) do
+			if c.exo_name and string.starts(c.exo_name, "DLCWukong") then
+				c.hidden = true
+			end
+		end
+	end
 end
 
 function MapView:show_dlc_unlock(dlc_id)
@@ -8167,7 +8934,7 @@ function MapView:show_dlcs_flags()
 	end
 
 	local user_data = storage:load_slot()
-	local reached_min_level = user_data.levels[GS.dlcs_unlock_level + 1]
+	local reached_min_level = user_data.levels[U.get_dlcs_unlock_level(GS) + 1]
 	local flags_group = self:ci("map_dlc_special_flag")
 
 	flags_group.propagate_on_down = true
@@ -8180,11 +8947,14 @@ function MapView:show_dlcs_flags()
 		local global = storage:load_global() or {}
 		local unlocked_dlcs = global.unlocked_dlcs or {}
 		local is_premium, premium_excludes = PS.services.iap:is_premium()
+		local hidden_dlcs = table.filter(GS.dlc_names, function(k, v)
+			return v.hidden
+		end)
 
 		for _, v in pairs(all_dlcs) do
 			local dlc_flag = self:ci("map_dlc_special_flag"):ci("group_flag_" .. v)
 
-			if is_premium and premium_excludes == nil or table.contains(owned_dlcs, v) and table.contains(unlocked_dlcs, v) then
+			if is_premium and premium_excludes == nil or table.contains(owned_dlcs, v) and table.contains(unlocked_dlcs, v) or table.contains(hidden_dlcs, v) then
 				hide_dlc_flag(dlc_flag)
 			else
 				local dlc_first_level = U.get_dlc_level_range(v)[1]
@@ -8218,13 +8988,18 @@ function MapView:show_dlcs_flags()
 
 			hide_dlc_flag(dlc_flag)
 
-			if not reached_min_level then
+			if not reached_min_level or GS.dlc_names[i].hidden then
 				local dlc_first_level = U.get_dlc_level_range(GS.dlc_names[i].id)[1]
 				local flags = self:ci("group_map_flags")
 
 				flags:ci("flag_" .. dlc_first_level).hidden = true
 			end
 		end
+	end
+
+	if features.only_dlc_1 then
+		self:ci("group_flag_dlc_2").hidden = true
+		self:ci("flag_unlock_anim_dlc_2").hidden = true
 	end
 end
 
@@ -8585,7 +9360,7 @@ MapTouchView = class("MapTouchView", KView)
 function MapTouchView:initialize(size)
 	KView.initialize(self, size)
 
-	self.forced_min_zoom = OVT(0.2, OV_PHONE, 1, OV_TABLET, 0.8)
+	self.forced_min_zoom = OVT(0.2, OV_PHONE, 0.6, OV_TABLET, 0.8)
 	self.zoom_range = OVT(0.2, OV_PHONE, 0.4)
 	self.zoom = 1
 	self.min_zoom = 1
@@ -8689,7 +9464,7 @@ function MapTouchView:on_touch_down(id, x, y, dx, dy, pressure)
 
 	for i, v in pairs(self.touch_fingers) do
 		if v[1] == id then
-			goto label_408_0
+			goto label_436_0
 		end
 	end
 
@@ -8701,7 +9476,7 @@ function MapTouchView:on_touch_down(id, x, y, dx, dy, pressure)
 		y
 	})
 
-	::label_408_0::
+	::label_436_0::
 
 	if #self.touch_fingers > 1 then
 		self.drag_enable = false
@@ -8949,17 +9724,26 @@ function CardRewardsView:show(level_idx, cards)
 			})
 		end
 
-		local counter = 2
-
 		for i = 2, #GS.level_ranges do
-			if U.is_dlc_level(GS.level_ranges[i][1]) then
-				-- block empty
-			else
-				local name = GS.level_range_names[i]
-				local u_idx = GS.expansions_unlock_level[name] or GS.expansions_unlock_level.default
+			local name = GS.level_range_names[i]
+			local expansions_unlock_level = U.get_expansions_unlock_level(GS)
+			local u_idx = expansions_unlock_level[name] or expansions_unlock_level.default
 
-				if level_idx == u_idx then
-					local update_id = string.format("%02d", counter - 1)
+			if level_idx == u_idx then
+				if U.is_dlc_level(GS.level_ranges[i][1]) then
+					if premium and not exceptions then
+						local dlc_id = U.get_dlc_id(name)
+						local bot_label = _("CARD_REWARDS_" .. string.upper(dlc_id))
+
+						table.insert(cards, {
+							new_page = true,
+							card = "Card_" .. dlc_id .. "_Def",
+							top_label = _("CARD_REWARDS_CAMPAIGN"),
+							bot_label = bot_label
+						})
+					end
+				else
+					local update_id = string.format("%02d", U.get_expansion_index(name))
 					local bot_label = _("CARD_REWARDS_UPDATE_" .. update_id)
 
 					table.insert(cards, {
@@ -8969,8 +9753,6 @@ function CardRewardsView:show(level_idx, cards)
 						bot_label = bot_label
 					})
 				end
-
-				counter = counter + 1
 			end
 		end
 
@@ -9199,6 +9981,8 @@ function CardRewardsView:show(level_idx, cards)
 
 		if card_to_show.bot_number then
 			card_label_group:ci("label_card_amount_1_1").font_name = "fla_numbers_2"
+		else
+			card_label_group:ci("label_card_amount_1_1").font_name = "fla_h"
 		end
 
 		card_label_group:ci("label_card_amount_1_1").vertical_align = "top"
@@ -9374,249 +10158,4 @@ function CardRewardsCardsFxFront:on_exo_finished(runs)
 	if self.exo_animation == "card_in" and runs == 1 then
 		self.hidden = true
 	end
-end
-
-EncycTowerThumbView = class("EncycTowerThumbView", KImageView)
-EncycTowerThumbView.static.instance_keys = {
-	"id",
-	"pos",
-	"entity",
-	"always_shown"
-}
-
-function EncycTowerThumbView:initialize()
-	local IS_PHONE = KR_TARGET == "phone"
-
-	self.image_name = "encyclopedia_tower_thumbs_" .. "0121"
-
-	KImageView.initialize(self, self.image_name)
-
-	if screen_map:is_seen(self.entity) or self.always_shown then
-		local t = E:get_template(self.entity)
-
-		self.image_name = string.format("encyclopedia_tower_thumbs_00%02d", t.info.enc_icon)
-
-		self:set_image(self.image_name)
-	else
-		self:disable(false)
-	end
-
-	if IS_PHONE then
-		self.border = KImageView:new("encyclopedia_creep_thumbs_frame_0001")
-		self.highlight = KImageView:new("encyclopedia_creep_thumbs_frame_0002")
-	else
-		self.border = KImageView:new("encyclopedia_tower_thumbs_frames_0001")
-		self.highlight = KImageView:new("encyclopedia_tower_thumbs_frames_0002")
-	end
-
-	self.border.propagate_on_down = true
-	self.border.propagate_on_click = true
-	self.highlight.hidden = true
-	self.highlight.propagate_on_down = true
-	self.highlight.propagate_on_click = true
-
-	self:add_child(self.border)
-	self:add_child(self.highlight)
-end
-
-function EncycTowerThumbView:select()
-	if self.parent then
-		for _, c in pairs(self.parent.children) do
-			if c:isInstanceOf(EncycTowerThumbView) then
-				c.highlight.hidden = true
-			end
-		end
-	end
-
-	self.highlight.hidden = false
-
-	local dt = E:create_entity(self.entity)
-	local di = dt.info.fn(dt)
-	local d = self.entity_data
-	local key = dt.info.i18n_key or string.upper(self.entity)
-	local tower_fmts = {
-		kr2 = "encyclopedia_tower_01%02d",
-		kr3 = "encyclopedia_towers_00%02d",
-		kr1 = "encyclopedia_tower_00%02d",
-		kr5 = "encyclopedia_towers_00%02d"
-	}
-
-	local function wid(name)
-		return self:get_window():ci(name)
-	end
-
-	wid("encyclopedia_towers_portrait"):set_image(string.format(tower_fmts[KR_GAME], dt.info.enc_icon))
-
-	wid("encyclopedia_towers_name_label").text = _(key .. "_NAME")
-	wid("encyclopedia_towers_desc_label").text = _(key .. "_DESCRIPTION")
-	wid("encyclopedia_towers_info").hidden = true
-	wid("encyclopedia_towers_info_magical").hidden = true
-	wid("encyclopedia_towers_info_barracks").hidden = true
-
-	if di.type == STATS_TYPE_TOWER_BARRACK then
-		wid("encyclopedia_towers_info_barracks").hidden = false
-		wid("encyclopedia_towers_info_barracks_health").text = di.hp_max
-		wid("encyclopedia_towers_info_barracks_attack").text = di.damage_min .. "-" .. di.damage_max
-		wid("encyclopedia_towers_info_barracks_armor").text = GU.armor_value_desc(di.armor)
-		wid("encyclopedia_towers_info_barracks_respawn").text = string.format(_("%i sec."), di.respawn)
-	elseif di.type == STATS_TYPE_TOWER_MAGE then
-		wid("encyclopedia_towers_info_magical").hidden = false
-		wid("encyclopedia_towers_info_magical_attack").text = di.damage_min .. "-" .. di.damage_max
-		wid("encyclopedia_towers_info_magical_reload").text = GU.cooldown_value_desc(di.cooldown)
-		wid("encyclopedia_towers_info_magical_range").text = GU.range_value_desc(di.range)
-	else
-		wid("encyclopedia_towers_info").hidden = false
-		wid("encyclopedia_towers_info_attack").text = di.damage_min .. "-" .. di.damage_max
-		wid("encyclopedia_towers_info_reload").text = GU.cooldown_value_desc(di.cooldown)
-		wid("encyclopedia_towers_info_range").text = GU.range_value_desc(di.range)
-	end
-
-	if dt.powers then
-		local out = {}
-
-		for k, v in pairs(dt.powers) do
-			table.insert(out, _(string.upper(string.format("%s_%s_NAME", key, v.name or k))))
-		end
-
-		wid("encyclopedia_towers_specials_label").text = table.concat(out, ", ")
-	else
-		wid("encyclopedia_towers_specials_label").text = _("None")
-	end
-end
-
-function EncycTowerThumbView:on_click()
-	S:queue("GUINotificationPaperOver")
-	self:select()
-end
-
-EncycEnemyThumbView = class("EncycEnemyThumbView", KImageView)
-EncycEnemyThumbView.static.instance_keys = {
-	"id",
-	"pos"
-}
-
-function EncycEnemyThumbView.static:load_page(thumbs, pi)
-	local bi = (pi - 1) * #thumbs
-
-	for i, c in pairs(thumbs) do
-		if c:isInstanceOf(EncycEnemyThumbView) then
-			local cd = GS.encyclopedia_enemies[bi + i]
-
-			if not cd then
-				c.hidden = true
-			elseif screen_map:is_seen(cd.name) or cd.always_shown then
-				local t = E:get_template(cd.name)
-
-				c:set_entity(cd.name, t.info.enc_icon)
-			else
-				c:set_locked()
-			end
-		end
-	end
-
-	local function wid(name)
-		return self:get_window():ci(name)
-	end
-
-	local pager = wid("encyclopedia_enemies_pager")
-
-	if pager then
-		for _, v in pairs(pager.children) do
-			if pi == v.page_idx then
-				v:select()
-			else
-				v:deselect()
-			end
-		end
-	end
-end
-
-function EncycEnemyThumbView:initialize()
-	if IS_TABLET then
-		self.lock_image = "encyclopedia_creep_thumbs_lock"
-	else
-		self.lock_image = "encyclopedia_tower_thumbs_" .. "0121"
-	end
-
-	KImageView.initialize(self, self.lock_image)
-
-	self.border = KImageView:new("encyclopedia_creep_thumbs_frame_0001")
-	self.highlight = KImageView:new("encyclopedia_creep_thumbs_frame_0002")
-	self.border.propagate_on_down = true
-	self.border.propagate_on_click = true
-	self.highlight.hidden = true
-	self.highlight.propagate_on_down = true
-	self.highlight.propagate_on_click = true
-
-	self:add_child(self.border)
-	self:add_child(self.highlight)
-	self:disable(false)
-end
-
-function EncycEnemyThumbView:set_locked()
-	self.hidden = false
-
-	self:disable(false)
-	self:set_image(self.lock_image)
-
-	self.highlight.hidden = true
-end
-
-function EncycEnemyThumbView:set_entity(name, icon)
-	self.hidden = false
-
-	self:enable()
-	self:set_image(string.format("encyclopedia_creep_thumbs_00%02i", icon))
-
-	self.entity_name = name
-	self.entity_icon = icon
-end
-
-function EncycEnemyThumbView:select()
-	if self.parent then
-		for _, c in pairs(self.parent.children) do
-			if c:isInstanceOf(EncycEnemyThumbView) then
-				c.highlight.hidden = true
-			end
-		end
-	end
-
-	self.highlight.hidden = false
-
-	local ce = E:create_entity(self.entity_name)
-	local ci = ce.info.fn(ce)
-	local key = ce.info.i18n_key or string.upper(self.entity_name)
-
-	local function wid(name)
-		return self:get_window():ci(name)
-	end
-
-	wid("encyclopedia_enemies_name_label").text = _(key .. "_NAME")
-	wid("encyclopedia_enemies_desc_label").text = _(key .. "_DESCRIPTION")
-	wid("encyclopedia_enemies_specials_label").text = _(key .. "_SPECIAL", "")
-
-	if IS_TABLET then
-		wid("encyclopedia_enemies_specials_title").hidden = wid("encyclopedia_enemies_specials_label").text == ""
-	end
-
-	wid("encyclopedia_enemies_info_health").text = ci.hp_max
-	wid("encyclopedia_enemies_info_armor").text = GU.armor_value_desc(ci.armor)
-	wid("encyclopedia_enemies_info_speed").text = GU.speed_value_desc(ce.motion.max_speed)
-	wid("encyclopedia_enemies_info_damage").text = GU.damage_value_desc(ci.damage_min, ci.damage_max)
-	wid("encyclopedia_enemies_info_magic_armor").text = GU.armor_value_desc(ci.magic_armor)
-	wid("encyclopedia_enemies_info_cost").text = GU.lives_desc(ci.lives)
-
-	local creep_fmts = {
-		kr2 = "encyclopedia_creep_02%02d",
-		kr3 = "encyclopedia_creeps_00%02d",
-		kr1 = "encyclopedia_creep_00%02d",
-		kr5 = "encyclopedia_creeps_00%02d"
-	}
-
-	wid("encyclopedia_enemies_portrait"):set_image(string.format(creep_fmts[KR_GAME], self.entity_icon))
-end
-
-function EncycEnemyThumbView:on_click()
-	S:queue("GUINotificationPaperOver")
-	self:select()
 end

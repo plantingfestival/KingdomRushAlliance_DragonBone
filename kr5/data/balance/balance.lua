@@ -5913,6 +5913,349 @@ local heroes = {
 				12
 			}
 		}
+	},
+	hero_wukong = {
+		distance_to_flywalk = 150,
+		speed = 80,
+		tp_duration = 1,
+		regen_cooldown = 1,
+		flywalk_speed_mult = 2.2,
+		tp_delay = 0.4,
+		dead_lifetime = 20,
+		teleport_min_distance = 250,
+		shared_cooldown = 3,
+		stats = {
+			cooldown = 5,
+			armor = 0,
+			hp = 5,
+			damage = 8
+		},
+		armor = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		hp_max = {
+			200,
+			220,
+			240,
+			260,
+			280,
+			300,
+			320,
+			340,
+			360,
+			380
+		},
+		regen_health = {
+			13,
+			14,
+			14,
+			15,
+			16,
+			17,
+			18,
+			18,
+			19,
+			20
+		},
+		melee_attacks = {
+			can_repeat_attack = false,
+			cooldown = 1,
+			spin = {
+				xp_gain_factor = 1.55,
+				damage_type = DAMAGE_TRUE,
+				damage_max = {
+					8,
+					10,
+					12,
+					13,
+					15,
+					17,
+					19,
+					21,
+					23,
+					25
+				},
+				damage_min = {
+					6,
+					7,
+					8,
+					9,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				}
+			},
+			jump = {
+				xp_gain_factor = 1.55,
+				damage_type = DAMAGE_TRUE,
+				damage_max = {
+					8,
+					10,
+					12,
+					13,
+					15,
+					17,
+					19,
+					21,
+					23,
+					25
+				},
+				damage_min = {
+					6,
+					7,
+					8,
+					9,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				}
+			},
+			simple = {
+				xp_gain_factor = 1.55,
+				damage_type = DAMAGE_TRUE,
+				damage_max = {
+					8,
+					10,
+					12,
+					13,
+					15,
+					17,
+					19,
+					21,
+					23,
+					25
+				},
+				damage_min = {
+					6,
+					7,
+					8,
+					9,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				}
+			},
+			fast_hits = {
+				xp_gain_factor = 1.55,
+				damage_type = DAMAGE_TRUE,
+				damage_max = {
+					8,
+					10,
+					12,
+					13,
+					15,
+					17,
+					19,
+					21,
+					23,
+					25
+				},
+				damage_min = {
+					6,
+					7,
+					8,
+					9,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				}
+			}
+		},
+		pole_ranged = {
+			max_range = 200,
+			min_range = 0,
+			min_targets = 3,
+			damage_radius = 50,
+			stun_duration = 3,
+			cooldown = {
+				18,
+				18,
+				18
+			},
+			damage_type = DAMAGE_PHYSICAL,
+			damage_max = {
+				15,
+				25,
+				30
+			},
+			damage_min = {
+				10,
+				14,
+				18
+			},
+			pole_amounts = {
+				3,
+				5,
+				7
+			},
+			xp_gain = {
+				20,
+				40,
+				60
+			}
+		},
+		hair_clones = {
+			max_range = 160,
+			min_targets = 2,
+			cooldown = {
+				25,
+				23,
+				21
+			},
+			xp_gain = {
+				20,
+				40,
+				60
+			},
+			soldier = {
+				max_speed = 60,
+				armor = 0,
+				hp_max = {
+					80,
+					100,
+					120
+				},
+				duration = {
+					9,
+					9,
+					9
+				},
+				melee_attack = {
+					cooldown = 1,
+					range = 72,
+					damage_min = {
+						4,
+						8,
+						12
+					},
+					damage_max = {
+						5,
+						10,
+						14
+					}
+				}
+			}
+		},
+		zhu_apprentice = {
+			dead_lifetime = 9,
+			max_speed = 100,
+			armor = 0,
+			hp_max = {
+				60,
+				90,
+				140
+			},
+			melee_attack = {
+				range = 150,
+				cooldown = 1,
+				damage_min = {
+					2,
+					4,
+					8
+				},
+				damage_max = {
+					3,
+					6,
+					12
+				},
+				damage_type = DAMAGE_PHYSICAL
+			},
+			smash_attack = {
+				cooldown = 5,
+				damage_radius = 72,
+				damage_min = {
+					30,
+					55,
+					75
+				},
+				damage_max = {
+					35,
+					70,
+					90
+				},
+				damage_type = DAMAGE_PHYSICAL,
+				chance = {
+					0.3,
+					0.4,
+					0.5
+				}
+			}
+		},
+		giant_staff = {
+			cooldown = {
+				53,
+				50,
+				46
+			},
+			xp_gain = {
+				20,
+				40,
+				60
+			},
+			area_damage = {
+				max_targets = 10,
+				damage_radius = 70,
+				damage_type = DAMAGE_PHYSICAL,
+				damage_max = {
+					50,
+					75,
+					100
+				},
+				damage_min = {
+					45,
+					60,
+					85
+				}
+			}
+		},
+		ultimate = {
+			cooldown = {
+				53,
+				53,
+				53,
+				53
+			},
+			damage_total = {
+				200,
+				300,
+				400,
+				500
+			},
+			damage_type = DAMAGE_TRUE,
+			slow_duration = {
+				3,
+				3.5,
+				4,
+				4.5
+			},
+			slow_factor = {
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			}
+		}
 	}
 }
 local relics = {
@@ -8576,6 +8919,1389 @@ local enemies = {
 				nodes_limit = 30
 			}
 		}
+	},
+	wukong = {
+		fire_phoenix = {
+			speed = 54,
+			armor = 0,
+			hp = 180,
+			explode_nodes_limit = 30,
+			gold = 25,
+			magic_armor = 0,
+			flaming_ground = {
+				duration = 11
+			}
+		},
+		fire_fox = {
+			gold = 15,
+			transform_hp_threshold = 0.0001,
+			magic_armor = 0.3,
+			armor = 0,
+			hp = 290,
+			transform_duration = 10,
+			speed = {
+				60,
+				60,
+				60,
+				63
+			},
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 38,
+				damage_max = 56,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			flaming_ground = {
+				duration = 11,
+				explotion = {
+					damage_min = 38,
+					damage_max = 56,
+					damage_type = DAMAGE_MAGICAL
+				}
+			}
+		},
+		nine_tailed_fox = {
+			gold = 60,
+			magic_armor = 0.6,
+			speed = 28,
+			armor = 0,
+			hp = 1950,
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 52,
+				damage_max = 84,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			double_attack = {
+				cooldown = 4,
+				damage_min = 64,
+				damage_max = 96,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			stun_attack = {
+				has_stun = false,
+				damage_min = 60,
+				cooldown = 20,
+				stun_duration = 1,
+				damage_max = 80,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			teleport = {
+				cooldown = 5,
+				first_cooldown = 5,
+				damage_min = 3,
+				lava_paths_first_cooldown = 5,
+				nodes_max = 30,
+				damage_max = 6,
+				nodes_min = 25,
+				nodes_limit = 75,
+				damage_radius = 30,
+				stun_duration = 3,
+				tp_speed = 350,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		blaze_raider = {
+			speed = 32,
+			armor = 0.3,
+			hp = 800,
+			gold = 30,
+			magic_armor = 0,
+			heavy_attack = {
+				cooldown = 6,
+				damage_min = 65,
+				damage_max = 110,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			punzada_attack = {
+				cooldown = 2,
+				damage_min = 28,
+				damage_max = 42,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			double_attack = {
+				cooldown = 4,
+				damage_min = 28,
+				damage_max = 42,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		flame_guard = {
+			speed = 36,
+			armor = 0,
+			hp = 270,
+			gold = 6,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 3,
+				damage_min = 19,
+				damage_max = 28,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			special_attack = {
+				cooldown = 4.5,
+				damage_min = 39,
+				damage_max = 55,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		wuxian = {
+			speed = 28,
+			armor = 0.7,
+			hp = 1700,
+			gold = 60,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 58,
+				damage_max = 74,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			kamehame_attack = {
+				cooldown = 6,
+				damage_min = 180,
+				damage_max = 280,
+				damage_type = DAMAGE_MAGICAL
+			},
+			ranged_attack = {
+				max_range = 350,
+				min_range = 200,
+				damage_min = 90,
+				damage_radius = 70,
+				cooldown = 10,
+				damage_max = 110,
+				damage_type = DAMAGE_MAGICAL,
+				flaming_ground = {
+					duration = 11
+				}
+			}
+		},
+		burning_treant = {
+			speed = 32,
+			armor = 0,
+			hp = 1350,
+			gold = 30,
+			magic_armor = 0,
+			lives_cost = 1,
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 40,
+				damage_max = 50,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			area_attack = {
+				radius = 55,
+				damage_min = 45,
+				cooldown = 6,
+				damage_max = 60,
+				damage_type = DAMAGE_PHYSICAL,
+				flaming_ground = {
+					duration = 11
+				}
+			}
+		},
+		ash_spirit = {
+			speed = 20,
+			armor = 0.75,
+			hp = 3000,
+			gold = 65,
+			magic_armor = 0,
+			lives_cost = 2,
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 60,
+				damage_radius = 40,
+				damage_max = 100,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		storm_spirit = {
+			armor = 0,
+			hp = 220,
+			gold = 20,
+			magic_armor = 0.3,
+			lives_cost = 1,
+			speed = {
+				42,
+				42,
+				42,
+				44
+			},
+			jump_ahead = {
+				speed_mult = 9,
+				nodes_limit = 70,
+				hp_threshold = 0.85,
+				max_nodes = 30,
+				min_nodes = 25
+			}
+		},
+		water_spirit = {
+			speed = 46,
+			armor = 0,
+			hp = 230,
+			gold = 5,
+			water_spawn_speed = 100,
+			magic_armor = 0.3,
+			lives_cost = 1,
+			melee_attack = {
+				cooldown = 1,
+				damage_min = 12,
+				damage_max = 18,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		gale_warrior = {
+			speed = 42,
+			armor = 0.35,
+			hp = 750,
+			gold = 30,
+			magic_armor = 0,
+			lives_cost = 1,
+			basic_attack = {
+				cooldown = 1.5,
+				damage_min = 45,
+				damage_max = 70,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			puncturing_thrust = {
+				every_x_attacks = 3,
+				damage_min = 50,
+				damage_max = 80,
+				damage_type = DAMAGE_PHYSICAL,
+				dot = {
+					damage_every = 0.25,
+					damage_min = 4,
+					duration = 2,
+					damage_max = 4,
+					damage_type = DAMAGE_PHYSICAL
+				}
+			}
+		},
+		qiongqi = {
+			speed = 24,
+			armor = 0,
+			gold = 65,
+			magic_armor = 0.6,
+			lives_cost = 1,
+			hp = {
+				1190,
+				1360,
+				1700,
+				1800
+			},
+			ranged_attack = {
+				max_range = 200,
+				hold_advance = false,
+				damage_min = 225,
+				cooldown = 3.5,
+				damage_max = 335,
+				min_range = 50,
+				damage_type = DAMAGE_MAGICAL
+			}
+		},
+		storm_elemental = {
+			gold = 100,
+			magic_armor = 0,
+			speed = 20,
+			armor = 0.75,
+			hp = 3500,
+			lives_cost = 2,
+			basic_attack = {
+				cooldown = 2,
+				damage_min = 66,
+				damage_radius = 100,
+				damage_max = 100,
+				damage_type = DAMAGE_MAGICAL
+			},
+			ranged_attack = {
+				max_range = 165,
+				hold_advance = true,
+				damage_min = 66,
+				cooldown = 2,
+				damage_max = 100,
+				min_range = 130,
+				damage_type = DAMAGE_MAGICAL
+			},
+			tower_block = {
+				duration = 15,
+				range = 200
+			}
+		},
+		water_sorceress = {
+			gold = 35,
+			magic_armor = 0.5,
+			speed = 32,
+			armor = 0,
+			hp = 650,
+			lives_cost = 1,
+			ranged_attack = {
+				range = 180,
+				damage_min = 35,
+				cooldown = 1.5,
+				damage_max = 50,
+				damage_type = DAMAGE_MAGICAL
+			},
+			melee_attack = {
+				cooldown = 1.5,
+				damage_min = 19,
+				damage_max = 28,
+				damage_type = DAMAGE_MAGICAL
+			},
+			melee_attack_escupida = {
+				cooldown = 3,
+				damage_min = 20,
+				damage_max = 29,
+				damage_type = DAMAGE_MAGICAL
+			},
+			heal_wave = {
+				nodes_range = 30,
+				first_cooldown = 5,
+				heal_min = 40,
+				cooldown = 25,
+				damage_max = 20,
+				damage_min = 10,
+				safe_nodes = 50,
+				heal_max = 75,
+				damage_type = DAMAGE_MAGICAL
+			}
+		},
+		fan_guard = {
+			blocking_magic_armor = 0,
+			blocking_armor = 0,
+			hp = 1500,
+			gold = 45,
+			walking_armor = 0.5,
+			speed = 28,
+			walking_magic_armor = 0.5,
+			lives_cost = 1,
+			basic_attack = {
+				damage_min = 35,
+				cooldown = 2,
+				damage_max = 55,
+				damage_type = DAMAGE_PHYSICAL,
+				hit_damage_factor = {
+					0.1,
+					0.9
+				}
+			},
+			heavy_attack = {
+				damage_min = 78,
+				cooldown = 5,
+				damage_max = 110,
+				damage_type = DAMAGE_PHYSICAL,
+				hit_damage_factor = {
+					0.1,
+					0.9
+				}
+			}
+		},
+		hellfire_warlock = {
+			gold = 50,
+			magic_armor = 0.9,
+			speed = 20,
+			armor = 0,
+			hp = 600,
+			lives_cost = 1,
+			melee_vertical = {
+				cooldown = 1.5,
+				damage_min = 30,
+				damage_max = 48,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			melee_horizontal = {
+				cooldown = 1.5,
+				damage_min = 30,
+				damage_max = 48,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			ranged = {
+				range = 150,
+				radius = 30,
+				damage_min = 30,
+				cooldown = 2,
+				damage_max = 48,
+				damage_type = DAMAGE_MAGICAL,
+				flaming_ground = {
+					duration = 8
+				}
+			},
+			summon_fox = {
+				cancelled_cooldown = 10,
+				first_cooldown = 13,
+				nodes_limit = 60,
+				cooldown = 40,
+				loop_duration = 5
+			}
+		},
+		citizen = {
+			speed = 36,
+			armor = 0,
+			hp = 175,
+			gold = 5,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 1,
+				damage_min = 7,
+				damage_max = 11,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			special_attack = {
+				cooldown = 8,
+				damage_min = 15,
+				damage_max = 25,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		terracota = {
+			speed = 20,
+			armor = 0,
+			hp = 220,
+			gold = 0,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 3,
+				damage_min = 14,
+				damage_max = 23,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		big_terracota = {
+			speed = 20,
+			armor = 0,
+			hp = 900,
+			gold = 0,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 3,
+				damage_min = 32,
+				damage_max = 45,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		palace_guard = {
+			speed = 42,
+			armor = 0.25,
+			hp = 185,
+			gold = 6,
+			magic_armor = 0,
+			basic_attack = {
+				cooldown = 3,
+				damage_min = 19,
+				damage_max = 28,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			special_attack = {
+				cooldown = 3,
+				damage_min = 19,
+				damage_max = 28,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		},
+		golden_eyed = {
+			speed = 25,
+			armor = 0,
+			hp = 4500,
+			gold = 0,
+			magic_armor = 0,
+			lives_cost = 5,
+			basic_attack = {
+				damage_radius = 50,
+				damage_min = 100,
+				cooldown = 3,
+				damage_max = 150,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			aura = {
+				min_targets = 2,
+				duration = 3,
+				nodes_limit_end = 30,
+				trigger_range = 80,
+				nodes_limit_start = 30,
+				aura_radius = 150,
+				cycle_time = 0.25,
+				target_self = false,
+				cooldown = {
+					11,
+					10,
+					9,
+					7.5
+				},
+				mod = {
+					duration = 3,
+					speed_factor = {
+						1.8,
+						1.8,
+						1.8,
+						1.65
+					}
+				}
+			}
+		},
+		doom_bringer = {
+			speed = 28,
+			armor = 0.5,
+			gold = 45,
+			magic_armor = 0,
+			hp = {
+				1120,
+				1280,
+				1600,
+				1700
+			},
+			basic_attack = {
+				cooldown = 2.5,
+				damage_min = 65,
+				damage_max = 105,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			tower_curse = {
+				range = 200,
+				first_cooldown = 5,
+				nodes_limit = 35,
+				cooldown = 10,
+				duration = 8
+			}
+		},
+		demon_minotaur = {
+			speed = 20,
+			armor = 0.8,
+			hp = 3000,
+			gold = 70,
+			magic_armor = 0,
+			lives_cost = 2,
+			basic_attack = {
+				cooldown = 3,
+				damage_min = 70,
+				damage_max = 100
+			},
+			charge = {
+				range_jump = 70,
+				damage_min = 150,
+				range_damage = 100,
+				max_duration = 1e+99,
+				damage_max = 190,
+				damage_type = DAMAGE_PHYSICAL,
+				speed = {
+					100,
+					110,
+					120,
+					120
+				}
+			}
+		},
+		boss_dragon = {
+			death_duration = 12,
+			death_taps_per_mouth_phase = 5,
+			campaign = {
+				node_fissure_fixed = {
+					26,
+					7,
+					10,
+					14,
+					7,
+					10,
+					14
+				},
+				path_fissure_fixed = {
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				},
+				pre_fight_block_power = {
+					waves = {},
+					first_cooldown = {},
+					cooldown = {},
+					max_casts = {},
+					duration = {}
+				},
+				pre_fight_fissure = {
+					waves = {
+						3,
+						6,
+						7,
+						8,
+						10,
+						13,
+						15
+					},
+					first_cooldown = {
+						13,
+						7,
+						14,
+						1,
+						24,
+						1,
+						14
+					},
+					cooldown = {
+						0,
+						0,
+						0,
+						0,
+						26,
+						0,
+						35
+					},
+					max_casts = {
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						2
+					},
+					duration = {
+						18,
+						14,
+						33,
+						58,
+						45,
+						72,
+						30,
+						boss_jump = 1e+99
+					},
+					path = {
+						1,
+						1,
+						2,
+						3
+					},
+					node = {
+						50,
+						41,
+						40,
+						36
+					}
+				},
+				pre_fight_block_towers = {
+					repair_cost = 100,
+					duration = 30,
+					waves = {
+						5,
+						9,
+						11,
+						12,
+						14,
+						15
+					},
+					first_cooldown = {
+						20,
+						13,
+						12,
+						20,
+						7,
+						35
+					},
+					cooldown = {
+						0,
+						33,
+						0,
+						19,
+						40,
+						0
+					},
+					max_casts = {
+						1,
+						2,
+						1,
+						2,
+						2,
+						1
+					},
+					quantity = {
+						1,
+						2,
+						2,
+						2,
+						2,
+						3,
+						boss_jump = 3,
+						TEEN_REDBOY_1 = 3
+					},
+					side = {
+						{
+							{
+								7,
+								8,
+								9
+							}
+						},
+						{
+							{
+								7,
+								8,
+								9
+							}
+						},
+						{
+							{
+								4,
+								3,
+								6
+							}
+						},
+						{
+							{
+								7,
+								8,
+								9
+							}
+						},
+						{
+							{
+								7,
+								8,
+								9
+							}
+						},
+						{
+							{
+								4,
+								3,
+								6
+							}
+						},
+						boss_jump = {
+							{
+								7,
+								8,
+								9
+							},
+							{
+								7,
+								8,
+								9
+							}
+						},
+						TEEN_REDBOY_1 = {
+							{
+								7,
+								8,
+								9
+							},
+							{
+								7,
+								8,
+								9
+							}
+						}
+					}
+				},
+				pre_fight_meteorite = {
+					fire_duration = 15,
+					waves = {
+						4,
+						7,
+						10,
+						14
+					},
+					first_cooldown = {
+						0,
+						0,
+						0,
+						0
+					},
+					cooldown = {
+						0,
+						0,
+						0,
+						0
+					},
+					max_casts = {
+						1,
+						1,
+						1,
+						1
+					},
+					side = {
+						"right",
+						"left",
+						"left",
+						"right",
+						boss_jump = "right",
+						bossfight_start = "left"
+					}
+				}
+			},
+			heroic = {
+				no_boss = true,
+				node_fissure_fixed = {
+					26,
+					7,
+					10,
+					14,
+					7,
+					10,
+					14
+				},
+				path_fissure_fixed = {
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				}
+			},
+			iron = {
+				node_fissure_fixed = {
+					26,
+					7,
+					10,
+					14,
+					7,
+					10,
+					14
+				},
+				path_fissure_fixed = {
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				},
+				pre_fight_block_power = {
+					waves = {},
+					first_cooldown = {},
+					cooldown = {},
+					max_casts = {},
+					duration = {}
+				},
+				pre_fight_fissure = {
+					waves = {
+						1
+					},
+					first_cooldown = {
+						0
+					},
+					cooldown = {
+						42
+					},
+					max_casts = {
+						9
+					},
+					duration = {
+						33
+					},
+					path = {
+						1,
+						1,
+						2,
+						3
+					},
+					node = {
+						50,
+						41,
+						40,
+						36
+					}
+				},
+				pre_fight_block_towers = {
+					repair_cost = 100,
+					duration = 30,
+					waves = {
+						1
+					},
+					first_cooldown = {
+						35
+					},
+					cooldown = {
+						45
+					},
+					max_casts = {
+						8
+					},
+					quantity = {
+						1
+					},
+					side = {
+						{
+							{
+								47,
+								48,
+								49
+							},
+							{
+								43,
+								44,
+								45,
+								46
+							},
+							{
+								47,
+								48,
+								49
+							},
+							{
+								43,
+								44,
+								45,
+								46
+							},
+							{
+								47,
+								48,
+								49
+							},
+							{
+								47,
+								48,
+								49
+							},
+							{
+								43,
+								44,
+								45,
+								46
+							},
+							{
+								43,
+								44,
+								45,
+								46
+							}
+						}
+					}
+				},
+				pre_fight_meteorite = {
+					waves = {},
+					first_cooldown = {},
+					cooldown = {},
+					max_casts = {},
+					side = {}
+				}
+			}
+		},
+		boss_redboy_teen = {
+			magic_armor = 0.15,
+			speed = 11,
+			armor = 0.15,
+			hp = 19000,
+			spawn_pos = {
+				path = 2,
+				node_pos = v(137, 413)
+			},
+			basic_attack = {
+				cooldown = 1.5,
+				damage_min = 300,
+				damage_max = 400,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			groundfire = {
+				cooldown = 14,
+				first_cooldown = 5000,
+				nodes_limit = 50
+			},
+			heartfire = {
+				cooldown = 20,
+				first_cooldown = 5000,
+				duration = 5,
+				nodes_limit = 40
+			},
+			skyfire = {
+				bossfight_start_meteorite_side = "left",
+				activate_on_positions = {}
+			},
+			stun_towers = {
+				cooldown = 20,
+				first_cooldown = 5,
+				side = "TEEN_REDBOY_1",
+				nodes_limit = 40
+			},
+			change_path = {
+				meteorite_side = "right",
+				node_start_pos = v(155, 225),
+				target = {
+					path = 3,
+					node_pos = v(906, 341)
+				}
+			},
+			area_attack = {
+				damage_radius = 50,
+				damage_min = 400,
+				cooldown = 5,
+				damage_max = 500,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			fireabsorb = {
+				absorb_radius = 100,
+				first_cooldown = 10,
+				nodes_limit = 20,
+				cooldown = 14,
+				minimum_fires = 1,
+				damage_max = 700,
+				damage_min = 600,
+				damage_radius = 75,
+				damage_type = DAMAGE_MAGICAL
+			}
+		},
+		boss_princess = {
+			waves = {
+				shield = {
+					armor = 0,
+					duration = 40,
+					magic_resistance = 0,
+					health = 1500
+				},
+				illusory_summon = {
+					[7] = {
+						cd = 13,
+						first_cd = {
+							3
+						},
+						wave = {
+							"mud_spawner_w7_1",
+							"mud_spawner_w7_2",
+							"mud_spawner_w7_3"
+						}
+					},
+					[10] = {
+						cd = 26,
+						first_cd = {
+							23
+						},
+						wave = {
+							"mud_spawner_w10_1",
+							"mud_spawner_w10_2"
+						}
+					},
+					[12] = {
+						cd = 90,
+						first_cd = {
+							20
+						},
+						wave = {
+							"mud_spawner_w12_1"
+						}
+					},
+					[15] = {
+						cd = 25,
+						first_cd = {
+							1
+						},
+						wave = {
+							"mud_spawner_w15_1",
+							"mud_spawner_w15_2"
+						}
+					}
+				},
+				stun_hero = {
+					WARNING_DURATION = 4,
+					DURATION = 13,
+					[5] = {
+						cd = 15,
+						first_cd = {
+							5
+						}
+					},
+					[9] = {
+						cd = 12.5,
+						first_cd = {
+							8
+						}
+					},
+					[14] = {
+						cd = 8,
+						first_cd = {
+							13
+						}
+					},
+					[15] = {
+						cd = 7.5,
+						first_cd = {
+							10
+						}
+					}
+				},
+				tower_curse = {
+					spawn_every = 5,
+					quantity_formations_spawns = 1,
+					spawn_formations = {
+						{
+							{
+								enemy = "enemy_big_terracota",
+								subpath = 1
+							},
+							{
+								delay = 2,
+								enemy = "enemy_terracota",
+								subpath = 3
+							},
+							{
+								enemy = "enemy_terracota",
+								subpath = 2
+							},
+							{
+								delay = 2,
+								enemy = "enemy_terracota",
+								subpath = 3
+							},
+							{
+								enemy = "enemy_terracota",
+								subpath = 2
+							}
+						}
+					},
+					holders_not_to_block = {
+						"3",
+						"4",
+						"5"
+					},
+					[12] = {
+						cd = 18,
+						first_cd = {
+							10
+						},
+						towers = {
+							1,
+							2,
+							6,
+							7,
+							8
+						}
+					},
+					[14] = {
+						cd = 18,
+						first_cd = {
+							8
+						},
+						towers = {
+							1,
+							2,
+							6,
+							7,
+							8
+						}
+					},
+					[15] = {
+						cd = 11,
+						first_cd = {
+							6
+						},
+						towers = {
+							1,
+							2,
+							6,
+							7,
+							8
+						}
+					}
+				}
+			},
+			bossfight = {
+				magic_armor = 0,
+				speed = 18,
+				armor = 0,
+				hp = 7500,
+				spawn_pos = {
+					path = 13,
+					node_pos = v(605, 355)
+				},
+				basic_attack = {
+					cooldown = 1e+99,
+					damage_min = 100,
+					damage_max = 200,
+					damage_type = DAMAGE_PHYSICAL
+				},
+				area_attack = {
+					radius = 100,
+					damage_min = 200,
+					cooldown = 2.5,
+					damage_max = 330,
+					damage_type = DAMAGE_PHYSICAL
+				},
+				ranged_area_attack = {
+					max_range = 250,
+					radius = 70,
+					damage_min = 133,
+					cooldown = 6,
+					min_range = 100,
+					damage_max = 200,
+					damage_type = DAMAGE_PHYSICAL
+				},
+				tower_curse = {
+					first_cooldown = 58,
+					range = 350,
+					quantity_formations_spawns = 1,
+					cooldown = 14.5,
+					spawn_every = 5,
+					nodes_limit = 20,
+					spawn_formations = {
+						{
+							{
+								enemy = "enemy_big_terracota",
+								subpath = 1
+							},
+							{
+								delay = 2,
+								enemy = "enemy_terracota",
+								subpath = 3
+							},
+							{
+								enemy = "enemy_terracota",
+								subpath = 2
+							},
+							{
+								delay = 4,
+								enemy = "enemy_big_terracota",
+								subpath = 1
+							}
+						}
+					},
+					holders_not_to_block = {
+						"3",
+						"4",
+						"5",
+						"9",
+						"10",
+						"11",
+						"12"
+					}
+				},
+				stun_hero = {
+					first_cooldown = 11,
+					range = 1e+99,
+					duration = 10,
+					nodes_limit = 20,
+					cooldown = 21,
+					warning_duration = 4
+				},
+				illusory_summon = {
+					shield_armor = 0,
+					first_cooldown = 1e+99,
+					cooldown = 1e+99,
+					shield_duration = 10,
+					shield_hp = 2000,
+					shield_magic_resistance = 0,
+					nodes_limit = 20,
+					manual_wave_name = "ILLUSORY_SUMMON_1"
+				},
+				change_paths = {
+					cooldown = 70,
+					config = {
+						path = 11,
+						node_pos = v(490, 389)
+					}
+				},
+				illusory_self = {
+					cooldown = 24,
+					first_cooldown = 2,
+					nodes_limit = 20,
+					clon_config = {
+						magic_armor = 0,
+						speed = 15,
+						armor = 0,
+						hp = 9000,
+						spawn_pos = {
+							{
+								path = 9,
+								node_pos = v(529, 267)
+							},
+							{
+								path = 10,
+								node_pos = v(480, 389)
+							},
+							{
+								path = 12,
+								node_pos = v(610, 450)
+							}
+						},
+						basic_attack = {
+							cooldown = 2,
+							damage_min = 55,
+							damage_max = 88,
+							damage_type = DAMAGE_PHYSICAL
+						},
+						ranged_area_attack = {
+							max_range = 250,
+							radius = 70,
+							damage_min = 105,
+							cooldown = 6,
+							min_range = 100,
+							damage_max = 170,
+							damage_type = DAMAGE_PHYSICAL
+						},
+						tower_curse = {
+							range = 400,
+							first_cooldown = 1e+99,
+							nodes_limit = 20,
+							cooldown = 20,
+							duration = 20
+						},
+						change_paths = {
+							{
+								to_path = 4,
+								from_path = 2,
+								from_pos = v(200, 200),
+								to_pos = v(200, 200)
+							}
+						}
+					}
+				}
+			}
+		},
+		boss_bull_king = {
+			hp = 14000,
+			magic_armor = 0.75,
+			speed = 15,
+			armor = 0.75,
+			spawn_pos = {
+				path = 12,
+				node_pos = v(80, 275)
+			},
+			second_manual_wave_pos = v(455, 290),
+			basic_attack = {
+				cooldown = 2.75,
+				damage_min = 350,
+				damage_max = 450,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			area_attack = {
+				first_cooldown = 10,
+				min_targets = 2,
+				max_towers_block = 5,
+				damage_max = 80,
+				min_range_towers_block = 0,
+				max_range_towers_block = 450,
+				damage_min = 50,
+				nodes_limit = 20,
+				damage_radius = 450,
+				cooldown = {
+					25,
+					23.5,
+					22,
+					20
+				},
+				damage_type = DAMAGE_PHYSICAL,
+				stun_duration = {
+					7,
+					8.5,
+					10,
+					11
+				},
+				stun_tower_duration = {
+					4,
+					4.5,
+					5,
+					5.5
+				}
+			},
+			melee_area_attack = {
+				cooldown = 6,
+				damage_min = 200,
+				damage_radius = 120,
+				damage_max = 300,
+				damage_type = DAMAGE_PHYSICAL
+			}
+		}
 	}
 }
 local towers = {
@@ -9721,6 +11447,7 @@ local towers = {
 			damage = 4
 		},
 		basic_attack = {
+			always_new_bullet = false,
 			cooldown = 1.5,
 			damage_min = {
 				4,
@@ -10719,8 +12446,8 @@ local towers = {
 			max_fps = 60,
 			max_armor_reduction = 15,
 			price = {
-				200,
-				200
+				250,
+				250
 			},
 			extra_damage_min = {
 				2,
@@ -11017,9 +12744,9 @@ local towers = {
 				12
 			},
 			range = {
-				160,
-				160,
-				160,
+				130,
+				140,
+				150,
 				160
 			},
 			ray_timing_min = {
@@ -11034,6 +12761,12 @@ local towers = {
 				0.7,
 				0.55
 			},
+			ray_timing_max = {
+				1.15,
+				1.05,
+				0.85,
+				0.65
+			},
 			damage_type = DAMAGE_TRUE,
 			bounces_min = {
 				1,
@@ -11042,10 +12775,10 @@ local towers = {
 				4
 			},
 			bounces_max = {
+				1,
 				2,
 				3,
-				4,
-				5
+				4
 			},
 			bounce_damage_factor = {
 				1.05,
@@ -11057,8 +12790,8 @@ local towers = {
 		crystalize = {
 			price = {
 				150,
-				100,
-				100
+				150,
+				150
 			},
 			cooldown = {
 				30,
@@ -11119,6 +12852,178 @@ local towers = {
 				0.7,
 				0.6,
 				0.5
+			}
+		}
+	},
+	pandas = {
+		rally_range = 180,
+		stats = {
+			damage = 6,
+			armor = 0,
+			hp = 8
+		},
+		price = {
+			110,
+			150,
+			210,
+			270
+		},
+		ranged_attack = {
+			cooldown = 0.5,
+			damage_min = {
+				4,
+				7,
+				10,
+				15
+			},
+			damage_max = {
+				6,
+				10,
+				15,
+				20
+			},
+			range = {
+				180,
+				180,
+				180,
+				180
+			},
+			damage_type = DAMAGE_TRUE
+		},
+		soldier = {
+			cooldown = 5,
+			retreat_duration = 10,
+			speed = 75,
+			armor = {
+				0,
+				0,
+				0,
+				0
+			},
+			hp = {
+				60,
+				90,
+				120,
+				170
+			},
+			regen_hp = {
+				6,
+				8,
+				10,
+				15
+			},
+			melee_attack = {
+				cooldown = 1,
+				range = 90,
+				damage_max = {
+					10,
+					15,
+					22,
+					30
+				},
+				damage_min = {
+					7,
+					12,
+					19,
+					25
+				}
+			},
+			thunder = {
+				damage_area = 100,
+				stun_duration = 1.5,
+				min_targets = 2,
+				cooldown = {
+					15,
+					10
+				},
+				range = {
+					180,
+					180
+				},
+				damage_min = {
+					12,
+					22
+				},
+				damage_max = {
+					24,
+					34
+				},
+				damage_type = DAMAGE_TRUE
+			},
+			hat = {
+				bounce_damage_mult = 1,
+				bounce_speed_mult = 1.25,
+				bounce_range = 200,
+				cooldown = {
+					8,
+					8
+				},
+				range = {
+					180,
+					200
+				},
+				damage_levels = {
+					{
+						max = 25,
+						min = 20
+					},
+					{
+						max = 50,
+						min = 40
+					}
+				},
+				damage_type = DAMAGE_TRUE,
+				max_bounces = {
+					2,
+					4
+				}
+			},
+			teleport = {
+				max_times_applied = 3,
+				max_targets = 5,
+				cooldown = {
+					20,
+					15
+				},
+				range = {
+					200,
+					200
+				},
+				damage_min = {
+					3,
+					6
+				},
+				damage_max = {
+					6,
+					9
+				},
+				damage_type = DAMAGE_TRUE,
+				nodes_offset_max = {
+					-20,
+					-20
+				},
+				nodes_offset_min = {
+					-24,
+					-24
+				}
+			}
+		},
+		thunder = {
+			price = {
+				150,
+				200
+			}
+		},
+		hat = {
+			price = {
+				150,
+				200
+			}
+		},
+		teleport = {
+			price = {
+				150,
+				200
 			}
 		}
 	},
@@ -11399,6 +13304,144 @@ local specials = {
 		spider_floor_webs = {
 			sprint_factor = 1.7,
 			slow_factor = 0.3
+		}
+	},
+	terrain_8 = {
+		flaming_ground = {
+			dps = {
+				duration = 0.25,
+				damage_min = 2,
+				damage_every = 0.25,
+				damage_max = 2,
+				damage_type = DAMAGE_PHYSICAL
+			},
+			sprint = {
+				sprint_factor = 1.7,
+				duration = 1
+			},
+			healing = {
+				heal_every = 0.25,
+				heal_duration = 1,
+				heal_max = 30,
+				heal_min = 10
+			}
+		},
+		elemental_holders = {
+			wooden_holder = {
+				range_factor = 1.25,
+				first_cooldown = 2,
+				duration = 8,
+				slow_factor = 0.5,
+				cooldown = 50,
+				default_max_range = 200,
+				damage_max = 5,
+				skill_detection_range_factor = 0.8,
+				rally_range_factor = 1.25,
+				damage_min = 3,
+				damage_every = 0.25,
+				price = 150,
+				damage_type = DAMAGE_TRUE
+			},
+			fire_holder = {
+				price = 150,
+				first_cooldown = 2,
+				cooldown = 52,
+				default_max_range = 200,
+				damage_factor = 1.25
+			},
+			water_holder = {
+				default_max_range = 200,
+				price = 150,
+				healing = {
+					min_health_factor = 0.8,
+					heal_min = 5,
+					heal_every = 1,
+					duration = 1,
+					heal_max = 6
+				},
+				teleport = {
+					tp_distance_nodes_max = 55,
+					first_cooldown = 2,
+					tp_distance_nodes_min = 20,
+					tp_radius = 50,
+					cooldown = 20,
+					delay_between_tps = 2,
+					chase_speed = 40,
+					tp_max_targets = 5,
+					duration = 9,
+					wander_interval = 1.5
+				}
+			},
+			earth_holder = {
+				max_spawns = 3,
+				first_cooldown = 2,
+				extra_health_multiplier = 1.25,
+				cooldown = 30,
+				price = 150,
+				spawn_amount = 1,
+				soldier = {
+					armor = 0.3,
+					max_speed = 24,
+					hp_max = 68,
+					melee_attack = {
+						cooldown = 3,
+						range = 50,
+						damage_min = 18,
+						damage_max = 30
+					}
+				},
+				holder_spawn_pos = {
+					["22"] = {
+						{
+							x = 282,
+							y = 361
+						}
+					},
+					["23"] = {
+						{
+							x = 85,
+							y = 361
+						}
+					},
+					["25"] = {
+						{
+							x = 109,
+							y = 433
+						}
+					},
+					["26"] = {
+						{
+							x = 367,
+							y = 515
+						}
+					},
+					["29"] = {
+						{
+							x = 770,
+							y = 515
+						}
+					}
+				}
+			},
+			metal_holder = {
+				first_cooldown = 0,
+				cooldown = 15,
+				default_max_range = 200,
+				price = 150,
+				upgrade_price_multiplier = 0.75,
+				steal_gold = {
+					delay_between_steals = 2,
+					first_cooldown = 2,
+					gold_steal_group_max_size = 3,
+					cooldown = 18,
+					steal_radius = 50,
+					chase_speed = 40,
+					gold_steal_amount_boss = 50,
+					gold_steal_amount = 1,
+					duration = 9,
+					wander_interval = 1.5
+				}
+			}
 		}
 	},
 	stage07_temple = {
@@ -13714,195 +15757,195 @@ local specials = {
 					},
 					{
 						action = "open",
-						time_start = 79,
+						time_start = 80,
 						spawner = "fist",
 						count = 6
 					},
 					{
 						action = "close",
-						time_start = 105,
+						time_start = 106,
 						spawner = "fist"
 					},
 					{
 						action = "open",
-						time_start = 108,
+						time_start = 109,
 						spawner = "fist",
 						count = 4
 					},
 					{
 						action = "close",
-						time_start = 124,
+						time_start = 125,
 						spawner = "fist"
 					},
 					{
 						action = "open",
-						time_start = 138,
+						time_start = 142,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 141,
+						time_start = 145,
 						spawner = "fist",
 						count = 3
 					},
 					{
 						action = "close",
-						time_start = 147,
+						time_start = 151,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 150,
+						time_start = 154,
 						spawner = "clone_right"
 					},
 					{
 						action = "close",
-						time_start = 154,
+						time_start = 158,
 						spawner = "fist"
 					},
 					{
 						action = "open",
-						time_start = 155,
+						time_start = 159,
 						spawner = "fist",
 						count = 7
 					},
 					{
 						action = "close",
-						time_start = 159,
+						time_start = 163,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 169,
+						time_start = 173,
 						spawner = "clone_right"
 					},
 					{
 						action = "close",
-						time_start = 184,
+						time_start = 188,
 						spawner = "fist"
 					},
 					{
 						action = "close",
-						time_start = 191,
+						time_start = 195,
 						spawner = "clone_right"
 					},
 					{
 						action = "activate",
-						time_start = 256,
+						time_start = 260,
 						spawner = "hulk"
 					},
 					{
 						action = "open",
-						time_start = 260,
+						time_start = 264,
 						spawner = "fist",
 						count = 4
 					},
 					{
 						action = "close",
-						time_start = 275,
+						time_start = 279,
 						spawner = "fist"
 					},
 					{
 						action = "open",
-						time_start = 290,
+						time_start = 294,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 291,
+						time_start = 295,
 						spawner = "fist",
 						count = 4
-					},
-					{
-						action = "close",
-						time_start = 301,
-						spawner = "clone_right"
 					},
 					{
 						action = "close",
 						time_start = 305,
+						spawner = "clone_right"
+					},
+					{
+						action = "close",
+						time_start = 309,
 						spawner = "fist"
 					},
 					{
 						action = "open",
-						time_start = 321,
+						time_start = 325,
 						spawner = "clone_right"
 					},
 					{
 						action = "close",
-						time_start = 331,
+						time_start = 335,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 338,
+						time_start = 342,
 						spawner = "clone_left"
 					},
 					{
 						action = "close",
-						time_start = 348,
+						time_start = 352,
 						spawner = "clone_left"
 					},
 					{
 						action = "open",
-						time_start = 366,
+						time_start = 370,
 						spawner = "clone_left"
 					},
 					{
 						action = "close",
-						time_start = 376,
+						time_start = 380,
 						spawner = "clone_left"
 					},
 					{
 						action = "open",
-						time_start = 393,
+						time_start = 397,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 396,
+						time_start = 400,
 						spawner = "clone_left"
 					},
 					{
 						action = "activate",
-						time_start = 415,
+						time_start = 419,
 						spawner = "hulk"
 					},
 					{
 						action = "close",
-						time_start = 426,
+						time_start = 430,
 						spawner = "clone_right"
 					},
 					{
 						action = "open",
-						time_start = 427,
+						time_start = 431,
 						spawner = "fist",
 						count = 4
 					},
 					{
 						action = "close",
-						time_start = 428,
+						time_start = 432,
 						spawner = "clone_left"
 					},
 					{
 						action = "close",
-						time_start = 441,
+						time_start = 445,
 						spawner = "fist"
 					},
 					{
 						action = "activate",
-						time_start = 460,
+						time_start = 464,
 						spawner = "hulk"
 					},
 					{
 						action = "open",
-						time_start = 465,
+						time_start = 469,
 						spawner = "fist",
 						count = 8
 					},
 					{
 						action = "close",
-						time_start = 502,
+						time_start = 506,
 						spawner = "fist"
 					}
 				}
@@ -14184,6 +16227,440 @@ local specials = {
 			}
 		}
 	},
+	stage31_water_mechanic = {
+		unlock_wave = 4,
+		warn_duration = 5,
+		first_warn_minimum_targets = 3,
+		cooldown = 50,
+		damage_max = 320,
+		damage_min = 280,
+		duration = 4,
+		path = {
+			1,
+			4
+		},
+		nodes = {
+			{
+				46,
+				138
+			},
+			{
+				50,
+				130
+			}
+		},
+		damage_type = DAMAGE_PHYSICAL
+	},
+	stage32_lightning_strike = {
+		chain_strikes_chance = 0,
+		force_target_soldier_chance = 0.2,
+		warning_duration = 0.75,
+		max_chains = 2,
+		areas_configs = {
+			CAMPAIGN = {
+				["1"] = {
+					[5] = {
+						{
+							max_casts = 10,
+							first_cd = 1,
+							max_cd = 6,
+							min_cd = 4.5
+						}
+					},
+					[6] = {
+						{
+							max_casts = 15,
+							first_cd = 3,
+							max_cd = 5.5,
+							min_cd = 4
+						}
+					},
+					[8] = {
+						{
+							max_casts = 4,
+							first_cd = 3,
+							max_cd = 5,
+							min_cd = 4
+						}
+					},
+					[10] = {
+						{
+							max_casts = 15,
+							first_cd = 5,
+							max_cd = 5,
+							min_cd = 4
+						}
+					},
+					[11] = {
+						{
+							max_casts = 10,
+							first_cd = 15,
+							max_cd = 7,
+							min_cd = 5
+						}
+					},
+					[13] = {
+						{
+							max_casts = 40,
+							first_cd = 5,
+							max_cd = 3.5,
+							min_cd = 3
+						}
+					},
+					[15] = {
+						{
+							max_casts = 75,
+							first_cd = 1,
+							max_cd = 4,
+							min_cd = 3.75
+						}
+					}
+				},
+				["10"] = {},
+				["2"] = {
+					[6] = {
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 10,
+							max_casts = 6,
+							max_cd = 3,
+							min_cd = 2
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 42,
+							max_casts = 6,
+							max_cd = 3,
+							min_cd = 2
+						}
+					},
+					[8] = {
+						{
+							max_casts = 8,
+							first_cd = 1,
+							max_cd = 4,
+							min_cd = 2
+						}
+					},
+					[9] = {
+						{
+							max_casts = 11,
+							first_cd = 2,
+							max_cd = 6,
+							min_cd = 5
+						}
+					},
+					[11] = {
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 48.5,
+							max_casts = 6,
+							max_cd = 3,
+							min_cd = 2.5
+						}
+					},
+					[13] = {
+						{
+							max_casts = 10,
+							first_cd = 2,
+							max_cd = 1.5,
+							min_cd = 1
+						},
+						{
+							max_casts = 20,
+							first_cd = 70,
+							max_cd = 1.25,
+							min_cd = 0.75
+						}
+					},
+					[15] = {
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 6.5,
+							max_casts = 1,
+							max_cd = 1,
+							min_cd = 1
+						},
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 52,
+							max_casts = 1,
+							max_cd = 12,
+							min_cd = 10
+						}
+					}
+				},
+				["3"] = {
+					[9] = {
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 6,
+							max_casts = 7,
+							max_cd = 1.5,
+							min_cd = 1
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 70,
+							max_casts = 7,
+							max_cd = 1.5,
+							min_cd = 1
+						}
+					},
+					[11] = {
+						{
+							max_casts = 6,
+							first_cd = 3,
+							max_cd = 8,
+							min_cd = 6
+						}
+					},
+					[13] = {
+						{
+							max_casts = 10,
+							first_cd = 10,
+							max_cd = 1.25,
+							min_cd = 0.75
+						},
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 25,
+							max_casts = 2,
+							max_cd = 23,
+							min_cd = 23
+						}
+					},
+					[15] = {
+						{
+							max_casts = 1e+99,
+							first_cd = 1,
+							max_cd = 4,
+							min_cd = 3
+						}
+					}
+				},
+				["4"] = {
+					[9] = {
+						{
+							max_casts = 11,
+							first_cd = 5,
+							max_cd = 6,
+							min_cd = 5
+						}
+					},
+					[11] = {
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 4,
+							max_casts = 8,
+							max_cd = 3,
+							min_cd = 2
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 50,
+							max_casts = 6,
+							max_cd = 3,
+							min_cd = 2.5
+						}
+					},
+					[15] = {
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 8,
+							max_casts = 1,
+							max_cd = 12,
+							min_cd = 10
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 22,
+							max_casts = 6,
+							max_cd = 1.25,
+							min_cd = 1
+						},
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 50,
+							max_casts = 1,
+							max_cd = 12,
+							min_cd = 10
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 63,
+							max_casts = 8,
+							max_cd = 0.75,
+							min_cd = 0.5
+						}
+					}
+				},
+				["5"] = {
+					[13] = {
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 5,
+							max_casts = 8,
+							max_cd = 1.5,
+							min_cd = 1
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 34,
+							max_casts = 8,
+							max_cd = 1.5,
+							min_cd = 1
+						}
+					}
+				},
+				["6"] = {
+					[10] = {
+						{
+							max_casts = 3,
+							first_cd = 3,
+							max_cd = 1,
+							min_cd = 0.75
+						},
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 39,
+							max_casts = 1,
+							max_cd = 1,
+							min_cd = 0.75
+						}
+					},
+					[13] = {
+						{
+							max_casts = 10,
+							first_cd = 13,
+							max_cd = 1.25,
+							min_cd = 0.75
+						}
+					},
+					[15] = {
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 5,
+							max_casts = 1,
+							max_cd = 12,
+							min_cd = 10
+						},
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 54,
+							max_casts = 1,
+							max_cd = 12,
+							min_cd = 10
+						},
+						{
+							max_casts = 11,
+							first_cd = 60,
+							max_cd = 6,
+							min_cd = 5
+						}
+					}
+				},
+				["7"] = {
+					[15] = {
+						{
+							max_casts = 10,
+							first_cd = 6,
+							max_cd = 5,
+							min_cd = 4
+						}
+					}
+				},
+				["8"] = {}
+			},
+			HEROIC = {},
+			IRON = {
+				["1"] = {
+					{
+						{
+							max_casts = 1e+99,
+							first_cd = 169,
+							max_cd = 7,
+							min_cd = 4
+						}
+					}
+				},
+				["2"] = {
+					{
+						{
+							max_casts = 10,
+							first_cd = 171,
+							max_cd = 5,
+							min_cd = 4
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 225,
+							max_casts = 10,
+							max_cd = 2,
+							min_cd = 1.5
+						}
+					}
+				},
+				["3"] = {
+					{
+						{
+							spawn_unit = "enemy_storm_elemental",
+							first_cd = 174,
+							max_casts = 1,
+							max_cd = 1,
+							min_cd = 1
+						},
+						{
+							max_casts = 1e+99,
+							first_cd = 176,
+							max_cd = 8,
+							min_cd = 5
+						}
+					}
+				},
+				["4"] = {
+					{
+						{
+							max_casts = 6,
+							first_cd = 172.5,
+							max_cd = 7,
+							min_cd = 4
+						},
+						{
+							spawn_unit = "enemy_water_spirit_spawnless",
+							first_cd = 212,
+							max_casts = 7,
+							max_cd = 2.5,
+							min_cd = 2
+						}
+					}
+				}
+			}
+		},
+		damage_config = {
+			radius = 100,
+			damage_type = DAMAGE_TRUE,
+			damage_max = {
+				50,
+				50,
+				85
+			},
+			damage_min = {
+				50,
+				50,
+				60
+			}
+		}
+	},
+	stage33_envelops = {
+		cooldown_min = 20,
+		max_speed = 20,
+		decoy_chance = 0.5,
+		gold = 5,
+		min_speed = 10,
+		cooldown_max = 40,
+		gold_balatro = 1000
+	},
 	towers = {
 		arborean_sentinels = {
 			spearmen = {
@@ -14446,6 +16923,17 @@ local specials = {
 					damage_type = DAMAGE_PHYSICAL
 				}
 			}
+		}
+	},
+	stage35_cannonball_soldier = {
+		speed = 75,
+		armor = 0,
+		hp = 90,
+		basic_attack = {
+			cooldown = 1,
+			range = 100,
+			damage_max = 13,
+			damage_min = 8
 		}
 	}
 }

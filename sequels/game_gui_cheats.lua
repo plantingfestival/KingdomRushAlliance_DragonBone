@@ -49,7 +49,7 @@ local cheat_view = {}
 cheat_view.views = {}
 
 function cheat_view:init()
-	require("game_editor_classes")
+	require("kviews_game_editor")
 
 	local tt = kui_db:get_table("game_gui_cheats")
 	local view = KView:new_from_table(tt.main_ui)
@@ -124,17 +124,15 @@ function cheat_view:init()
 	end
 	view:ci("cheat_change_fps_ui_button"):ci("label").text = game.limit_fps .. "fps"
 	view:ci("cheat_change_fps_ui_button").on_click = function(this)
-		if game.limit_fps == 30 then
-			game.force_change_fps = 60
-			this:ci("label").text = "60fps"
-
-			log.info("new 60fps")
+		if game.forced_fps_value == 30 then
+			game:force_fps(DRAW_FPS)
 		else
-			game.force_change_fps = 30
-			this:ci("label").text = "30fps"
-
-			log.info("new 30fps")
+			game:force_fps(30)
 		end
+
+		this:ci("label").text = tostring(game.forced_fps_value or DRAW_FPS) .. "fps"
+
+		log.info("FPS set to %s", game.forced_fps_value or DRAW_FPS)
 	end
 	view:ci("cheat_stop_auto_play").on_click = function(this)
 		for k, v in pairs(game.store.entities) do
@@ -264,15 +262,69 @@ function cheat_view:init()
 		end
 	end
 
+	do
+	end
+
 	local function update_enemies_bar(page_number)
 		if page_number == 1 then
-			for i = 1, 5 do
-				local enemies_bar = view:ci("cheat_view_enemies_" .. i)
+			local terrain = 1
+			if game.store.level_idx <= 6 then
+				terrain = 1
+			elseif game.store.level_idx <= 11 then
+				terrain = 2
+			elseif game.store.level_idx <= 16 then
+				terrain = 3
+			elseif game.store.level_idx <= 19 then
+				terrain = 4
+			elseif game.store.level_idx <= 22 then
+				terrain = 5
+			elseif game.store.level_idx <= 27 then
+				terrain = 6
+			elseif game.store.level_idx <= 30 then
+				terrain = 7
+			elseif game.store.level_idx <= 35 then
+				terrain = 8
+			end
+			if terrain < 8 then
+				for i = 1, 5 do
+					local enemies_bar = view:ci("cheat_view_enemies_" .. i)
+					local enemy_button_template = table.deepclone(tt.enemy_button)
+					local enemy_names = require("data.game_debug_data").enemy_pages[i]
+					enemies_bar:remove_children()
+			
+					for index, template_name in ipairs(enemy_names) do
+						local enemy = E:get_template(template_name)
+						local button = KView:new_from_table(enemy_button_template)
+			
+						button:ci("enemy_image"):set_image(enemy.info.portrait)
+			
+						function button.on_click(this)
+							log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
+			
+							local e = E:create_entity(template_name)
+			
+							if e and e.enemy then
+								e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
+								e.nav_path.pi = game.dbg_active_pi
+								e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
+								e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
+			
+								game.simulation:queue_insert_entity(e)
+							end
+						end
+			
+						enemies_bar:add_child(button)
+					end
+			
+					enemies_bar:update_layout()
+				end
+	
 				local enemy_button_template = table.deepclone(tt.enemy_button)
-				local enemy_names = require("data.game_debug_data").enemy_pages[i]
-				enemies_bar:remove_children()
+				local enemies_bar = view:ci("cheat_view_enemies_4")
+				local enemy_names = require("data.game_debug_data").enemy_pages[6]
 		
-				for index, template_name in ipairs(enemy_names) do
+				for i = 1, #enemy_names do
+					local template_name = enemy_names[i]
 					local enemy = E:get_template(template_name)
 					local button = KView:new_from_table(enemy_button_template)
 		
@@ -297,98 +349,99 @@ function cheat_view:init()
 				end
 		
 				enemies_bar:update_layout()
-			end
+		
+				enemies_bar = view:ci("cheat_view_enemies_2")
+				enemy_names = require("data.game_debug_data").enemy_pages[7]
+		
+				for i = 1, #enemy_names do
+					local template_name = enemy_names[i]
+					local enemy = E:get_template(template_name)
+					local button = KView:new_from_table(enemy_button_template)
+		
+					button:ci("enemy_image"):set_image(enemy.info.portrait)
+		
+					function button.on_click(this)
+						log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
+		
+						local e = E:create_entity(template_name)
+		
+						if e and e.enemy then
+							e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
+							e.nav_path.pi = game.dbg_active_pi
+							e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
+							e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
+		
+							game.simulation:queue_insert_entity(e)
+						end
+					end
+		
+					enemies_bar:add_child(button)
+				end
+		
+				enemies_bar:update_layout()
+		
+				enemies_bar = view:ci("cheat_view_enemies_6")
+				enemy_names = require("data.game_debug_data").enemy_pages[8]
+		
+				for i = 1, #enemy_names do
+					local template_name = enemy_names[i]
+					local enemy = E:get_template(template_name)
+					local button = KView:new_from_table(enemy_button_template)
+		
+					button:ci("enemy_image"):set_image(enemy.info.portrait)
+		
+					function button.on_click(this)
+						log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
+		
+						local e = E:create_entity(template_name)
+		
+						if e and e.enemy then
+							e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
+							e.nav_path.pi = game.dbg_active_pi
+							e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
+							e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
+		
+							game.simulation:queue_insert_entity(e)
+						end
+					end
+		
+					enemies_bar:add_child(button)
+				end
+		
+				enemies_bar:update_layout()
+			else
+				for i = 1, 4 do
+					local enemies_bar = view:ci("cheat_view_enemies_" .. i)
+					local enemy_button_template = table.deepclone(tt.enemy_button)
+					local enemy_names = require("data.game_debug_data").enemy_pages[7 + i]
 
-			local enemy_button_template = table.deepclone(tt.enemy_button)
-			local enemies_bar = view:ci("cheat_view_enemies_4")
-			local enemy_names = require("data.game_debug_data").enemy_pages[6]
-	
-			for i = 1, #enemy_names do
-				local template_name = enemy_names[i]
-				local enemy = E:get_template(template_name)
-				local button = KView:new_from_table(enemy_button_template)
-	
-				button:ci("enemy_image"):set_image(enemy.info.portrait)
-	
-				function button.on_click(this)
-					log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
-	
-					local e = E:create_entity(template_name)
-	
-					if e and e.enemy then
-						e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
-						e.nav_path.pi = game.dbg_active_pi
-						e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
-						e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
-	
-						game.simulation:queue_insert_entity(e)
+					for index, template_name in ipairs(enemy_names) do
+						local enemy = E:get_template(template_name)
+						local button = KView:new_from_table(enemy_button_template)
+
+						button:ci("enemy_image"):set_image(enemy.info.portrait)
+
+						function button.on_click(this)
+							log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
+
+							local e = E:create_entity(template_name)
+
+							if e and e.enemy then
+								e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
+								e.nav_path.pi = game.dbg_active_pi
+								e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
+								e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
+
+								game.simulation:queue_insert_entity(e)
+							end
+						end
+
+						enemies_bar:add_child(button)
 					end
+
+					enemies_bar:update_layout()
 				end
-	
-				enemies_bar:add_child(button)
 			end
-	
-			enemies_bar:update_layout()
-	
-			enemies_bar = view:ci("cheat_view_enemies_2")
-			enemy_names = require("data.game_debug_data").enemy_pages[7]
-	
-			for i = 1, #enemy_names do
-				local template_name = enemy_names[i]
-				local enemy = E:get_template(template_name)
-				local button = KView:new_from_table(enemy_button_template)
-	
-				button:ci("enemy_image"):set_image(enemy.info.portrait)
-	
-				function button.on_click(this)
-					log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
-	
-					local e = E:create_entity(template_name)
-	
-					if e and e.enemy then
-						e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
-						e.nav_path.pi = game.dbg_active_pi
-						e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
-						e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
-	
-						game.simulation:queue_insert_entity(e)
-					end
-				end
-	
-				enemies_bar:add_child(button)
-			end
-	
-			enemies_bar:update_layout()
-	
-			enemies_bar = view:ci("cheat_view_enemies_6")
-			enemy_names = require("data.game_debug_data").enemy_pages[8]
-	
-			for i = 1, #enemy_names do
-				local template_name = enemy_names[i]
-				local enemy = E:get_template(template_name)
-				local button = KView:new_from_table(enemy_button_template)
-	
-				button:ci("enemy_image"):set_image(enemy.info.portrait)
-	
-				function button.on_click(this)
-					log.info("Spawning bichito %s on path %i", template_name, game.dbg_active_pi)
-	
-					local e = E:create_entity(template_name)
-	
-					if e and e.enemy then
-						e.enemy.wave_group_idx = km.clamp(1, 99999, game.store.wave_group_number)
-						e.nav_path.pi = game.dbg_active_pi
-						e.nav_path.spi = game.dbg_use_random_subpath and math.random(1, 3) or 1
-						e.nav_path.ni = P:get_start_node(game.dbg_active_pi)
-	
-						game.simulation:queue_insert_entity(e)
-					end
-				end
-	
-				enemies_bar:add_child(button)
-			end
-	
-			enemies_bar:update_layout()
 		elseif page_number == 2 then
 			local data = require("data.game_debug_data")
 			for i = 1, 6 do
@@ -396,7 +449,7 @@ function cheat_view:init()
 				local enemy_button_template = table.deepclone(tt.enemy_button)
 				enemies_bar:remove_children()
 				if i <= 3 then
-					local enemy_names = data.enemy_pages[i + 8]
+					local enemy_names = data.enemy_pages[i + 12]
 					for index, template_name in ipairs(enemy_names) do
 						local enemy = E:get_template(template_name)
 						local button = KView:new_from_table(enemy_button_template)

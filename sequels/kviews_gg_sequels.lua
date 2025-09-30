@@ -1,4 +1,4 @@
-local log = require("klua.log"):new("gg_views_game")
+local log = require("klua.log"):new("kviews_gg_sequels")
 
 require("klove.kui")
 
@@ -24,8 +24,9 @@ local iap_data = require("data.iap_data")
 local SU = require("screen_utils")
 local WU = require("window_utils")
 local features = require("features")
+local marketing = require("marketing")
 
-require("gg_views")
+require("kviews_gg")
 
 GG5Button = class("GG5Button", GGImageButton)
 GG5Button.static.init_arg_names = {
@@ -834,6 +835,14 @@ function GG5PopUpOptions:configure_buttons(context)
 		wid("label_version").text = version.string_short
 	end
 
+	if features.e2w then
+		set_on_click("label_icp_message", function(this)
+			S:queue("GUIButtonCommon")
+			log.info("press ICP link")
+			love.system.openURL(RC.v.url_icp[version.bundle_id] or RC.v.url_icp.default)
+		end)
+	end
+
 	if KR_PLATFORM == "android" then
 		set_hidden("toggle_cloud_save", true)
 		set_hidden("label_cloud_save", true)
@@ -843,6 +852,15 @@ function GG5PopUpOptions:configure_buttons(context)
 	end
 
 	if context == "slots" then
+		if features.hide_external_links then
+			set_hidden("button_more_games", true)
+			set_hidden("button_twitter", true)
+			set_hidden("button_facebook", true)
+			set_hidden("button_instagram", true)
+			set_hidden("button_discord", true)
+			set_hidden("button_tiktok", true)
+		end
+
 		set_on_click("button_language", function(this)
 			S:queue("GUIButtonCommon")
 
@@ -877,7 +895,46 @@ function GG5PopUpOptions:configure_buttons(context)
 			S:queue("GUIButtonOut")
 			self:hide("slots")
 		end)
+
+		if features.e2w then
+			set_hidden("toggle_google_play", true)
+			set_hidden("label_google_play", true)
+		else
+			set_hidden("label_icp_message", true)
+		end
+
+		if features.e2w and PS.services and PS.services.channel and PS.services.channel:get_channel_name() == "hw" then
+			set_on_click("button_delete_account", function(this)
+				local cv = this:get_window():ci("popup_message")
+
+				if not cv then
+					log.error("popup_message could not be found")
+
+					return
+				end
+
+				cv:set_msg(_("POPUP_DELETE_ACCOUNT") .. "\n" .. _("POPUP_DELETE_ACCOUNT_MESSAGE"))
+				cv:set_ok_fn(function()
+					for i = 1, 3 do
+						storage:delete_slot(i)
+					end
+				end)
+				cv:show()
+			end)
+		else
+			set_hidden("button_delete_account", true)
+			set_hidden("label_delete_account", true)
+		end
 	elseif context == "map" then
+		if features.hide_external_links then
+			set_hidden("button_more_games", true)
+			set_hidden("button_twitter", true)
+			set_hidden("button_facebook", true)
+			set_hidden("button_instagram", true)
+			set_hidden("button_discord", true)
+			set_hidden("button_tiktok", true)
+		end
+
 		set_on_click("button_language", function(this)
 			S:queue("GUIButtonCommon")
 
@@ -917,12 +974,26 @@ function GG5PopUpOptions:configure_buttons(context)
 			wid("label_restore_purchases").text = _("RESTORE_PURCHASES")
 		end
 
+		if not PS.services or not PS.services.iap or not PS.services.iap.restore_purchases then
+			set_hidden("button_restore_purchases", true)
+			set_hidden("label_restore_purchases", true)
+		end
+
 		set_on_click("button_restore_purchases", function(this)
 			if PS.services and PS.services.iap then
 				signal.emit(SGN_SHOP_SHOW_IAP_PROGRESS)
 				PS.services.iap:restore_purchases()
 			end
 		end)
+
+		if PS.services and PS.services.iap and PS.services.iap.show_redeem_dialog then
+			set_on_click("button_redeem_code", function(this)
+				PS.services.iap:show_redeem_dialog()
+			end)
+		else
+			set_hidden("button_redeem_code", true)
+			set_hidden("label_redeem_code", true)
+		end
 	end
 
 	set_on_click("toggle_sfx", function(this)
@@ -1114,6 +1185,9 @@ function GG5PopUpLocaleList:initialize(size, image_name)
 						director.active_item.done_callback({
 							next_item_name = "slots"
 						})
+					end)
+					p:set_no_fn(function()
+						this:set_value(false)
 					end)
 					p:show()
 				end
@@ -1320,9 +1394,10 @@ function GG5PopUpError:initialize(size, image_name)
 	end
 end
 
-function GG5PopUpError:show(msg)
+function GG5PopUpError:show(msg, hide_title)
 	GG5PopUpError.super.show(self)
 
+	self:ci("label_error_msg").hidden = hide_title
 	self:ci("label_error_msg2").text = msg
 end
 
@@ -1569,10 +1644,14 @@ function GG5PopUpNews:open_link()
 	end
 end
 
-GG5PopUpMessageChina = class("GG5PopUpMessageChina", GG5PopUp)
+GG5PopUpMessageLong = class("GG5PopUpMessageLong", GG5PopUp)
 
-function GG5PopUpMessageChina:show(kind, arg)
-	GG5PopUpMessageChina.super.show(self)
+function GG5PopUpMessageLong:show(kind, arg)
+	if arg and arg.text and self:ci("label_message_long") then
+		self:ci("label_message_long").text = arg.text
+	end
+
+	GG5PopUpMessageLong.super.show(self)
 
 	self.callback = nil
 end
@@ -1985,27 +2064,48 @@ function GG5BalloonView:initialize(max_size, prefix, flags, text, title, text_pa
 		local bw, bh = self.size.x, self.size.y
 		local background = KView:new(V.v(bw, bh))
 
-		if mf("left") then
-			background.scale.x = -1
-			tip_offset.x = bw - bw / 4
-			self.anchor.x = bw / 4
-		elseif mf("right") then
-			tip_offset.x = bw - bw / 4
-			self.anchor.x = 3 * bw / 4
-		else
-			tip_offset.x = bw / 2
-			self.anchor.x = bw / 2
-		end
+		if mf("side") then
+			if mf("left") then
+				background.scale.x = -1
+				tip_offset.x = bw
+				self.anchor.x = 0 - tip_size
+			elseif mf("right") then
+				tip_offset.x = bw
+				self.anchor.x = bw + tip_size
+			end
 
-		if mf("top") then
-			background.scale.y = -1
-			self.anchor.y = 0 - tip_size
-		elseif mf("bottom") then
-			self.anchor.y = bh + tip_size
+			if mf("top") then
+				background.scale.y = -1
+				tip_offset.y = bh - bh / 4
+				self.anchor.y = bh / 4
+			elseif mf("bottom") then
+				tip_offset.y = bh - bh / 4
+				self.anchor.y = 3 * bh / 4
+			else
+				tip_offset.y = bh / 2
+				self.anchor.y = bh / 2
+			end
 		else
-			log.todo("TODO: implement side callouts")
+			if mf("left") then
+				background.scale.x = -1
+				tip_offset.x = bw - bw / 4
+				self.anchor.x = bw / 4
+			elseif mf("right") then
+				tip_offset.x = bw - bw / 4
+				self.anchor.x = 3 * bw / 4
+			else
+				tip_offset.x = bw / 2
+				self.anchor.x = bw / 2
+			end
 
-			self.anchor.y = bh / 2
+			if mf("top") then
+				background.scale.y = -1
+				self.anchor.y = 0 - tip_size
+			elseif mf("bottom") then
+				self.anchor.y = bh + tip_size
+			else
+				self.anchor.y = bh / 2
+			end
 		end
 
 		local vertices = GU.rounded_rectangle(0, 0, bw, bh, 5, tip_offset, 1.6)
@@ -2140,9 +2240,25 @@ function GG5Pager:setup(page_count, page_view, page_change_fn)
 
 	btpl.hidden = true
 
+	if not btpl.template_name then
+		log.error("pager button template not found")
+
+		return
+	end
+
 	local bg = self:ci("pager_bg")
 
-	bg.size.x = bg.size.x + btpl.size.x * 1.1 * (page_count - 1)
+	if bg then
+		bg.size.x = bg.size.x + btpl.size.x * 1.1 * (page_count - 1)
+	end
+
+	local old_buttons = self:flatten(function(this)
+		return string.starts(this.id, "pager_page_")
+	end)
+
+	for _, b in pairs(old_buttons) do
+		b:remove_from_parent()
+	end
 
 	for i = 1, page_count do
 		local b = btpl.class:new_from_table(kui_db:get_table(btpl.template_name))
@@ -2163,6 +2279,25 @@ function GG5Pager:setup(page_count, page_view, page_change_fn)
 		function b.on_focus(this)
 			this.class.super.on_focus(this)
 			this:on_click()
+		end
+
+		if b:ci("label_page_selected") then
+			b:ci("label_page_selected").text = i
+
+			if b:isInstanceOf(GG5ToggleButton) then
+				function b.on_change(this, value)
+					b:ci("label_page_selected").hidden = not value
+					b:ci("label_page").hidden = value
+				end
+			end
+		end
+	end
+
+	if self.align then
+		if self.align == "right" then
+			self.anchor.x = self:get_bounds_rect().size.x - btpl.size.x / 2
+		elseif self.align == "center" then
+			self.anchor.x = self:get_bounds_rect().size.x / 2 - btpl.size.x / 2
 		end
 	end
 end
@@ -2484,6 +2619,21 @@ function GG5PopUpOptionsDesktop:initialize(size, image_name, base_scale)
 		self:ci("video_settings_apply_button").on_click = function(this)
 			self:apply_video_settings()
 		end
+
+		if features.hide_achievements_button or not PS.services or not PS.services.achievements or not PS.services.achievements.show_achievements then
+			self:ci("button_achievements").hidden = true
+			self:ci("label_achievements").hidden = true
+		else
+			self:ci("button_achievements").on_click = function(this)
+				S:queue("GUIButtonCommon")
+
+				local ps_ach = PS.services.achievements
+
+				if ps_ach and ps_ach:get_status() then
+					ps_ach:show_achievements()
+				end
+			end
+		end
 	elseif self.context == "map" then
 		self:ci("options_main_menu_button").on_click = function(this)
 			S:queue("GUIButtonCommon")
@@ -2500,6 +2650,21 @@ function GG5PopUpOptionsDesktop:initialize(size, image_name, base_scale)
 
 				self:ci("label_button_difficulty").text = GU.difficulty_desc(slot.difficulty)
 			end)
+		end
+
+		if features.hide_achievements_button or not PS.services or not PS.services.achievements or not PS.services.achievements.show_achievements then
+			self:ci("button_achievements").hidden = true
+			self:ci("label_achievements").hidden = true
+		else
+			self:ci("button_achievements").on_click = function(this)
+				S:queue("GUIButtonCommon")
+
+				local ps_ach = PS.services.achievements
+
+				if ps_ach and ps_ach:get_status() then
+					ps_ach:show_achievements()
+				end
+			end
 		end
 	elseif self.context == "ingame" then
 		self:ci("button_close_popup").on_click = function(this)
@@ -2533,42 +2698,52 @@ function GG5PopUpOptionsDesktop:initialize(size, image_name, base_scale)
 	local url_buttons = {
 		{
 			"button_privacy_policy",
-			RC.v.url_privacy_policy[version.bundle_id] or RC.v.url_privacy_policy.default
+			RC.v.url_privacy_policy[version.bundle_id] or RC.v.url_privacy_policy.default,
+			false
 		},
 		{
 			"button_more_games",
-			RC.v.url_ih[version.bundle_id] or RC.v.url_ih.default
+			RC.v.url_ih[version.bundle_id] or RC.v.url_ih.default,
+			features.hide_external_links,
+			"label_more_games"
 		},
 		{
 			"button_twitter",
-			RC.v.url_twitter[version.bundle_id] or RC.v.url_twitter.default
+			RC.v.url_twitter[version.bundle_id] or RC.v.url_twitter.default,
+			features.hide_external_links
 		},
 		{
 			"button_facebook",
-			RC.v.url_facebook[version.bundle_id] or RC.v.url_facebook.default
+			RC.v.url_facebook[version.bundle_id] or RC.v.url_facebook.default,
+			features.hide_external_links
 		},
 		{
 			"button_instagram",
-			RC.v.url_instagram[version.bundle_id] or RC.v.url_instagram.default
+			RC.v.url_instagram[version.bundle_id] or RC.v.url_instagram.default,
+			features.hide_external_links
 		},
 		{
 			"button_discord",
-			RC.v.url_discord[version.bundle_id] or RC.v.url_discord.default
+			RC.v.url_discord[version.bundle_id] or RC.v.url_discord.default,
+			features.hide_external_links
 		},
 		{
 			"button_tiktok",
-			RC.v.url_tiktok[version.bundle_id] or RC.v.url_tiktok.default
-		},
-		{
-			"button_more_games",
-			RC.v.url_ih[version.bundle_id] or RC.v.url_ih.default
+			RC.v.url_tiktok[version.bundle_id] or RC.v.url_tiktok.default,
+			features.hide_external_links
 		}
 	}
 
 	for _, row in pairs(url_buttons) do
-		local id, url = unpack(row)
+		local id, url, hide, hide_id = unpack(row)
 
 		for _, c in pairs(get_all_with_id("page_01", id)) do
+			c.hidden = hide
+
+			if hide_id and hide then
+				self:ci(hide_id).hidden = true
+			end
+
 			function c.on_click(this)
 				S:queue("GUIButtonCommon")
 				love.system.openURL(url)
@@ -3183,21 +3358,50 @@ function GG5ViewIngameShopGemsContainer:initialize(size, image_name, base_scale)
 
 		gem_button:ci("image_gem_pack_portrait"):set_image(string.format(thumb_gem, gem_data.icon))
 
-		if gem_data.is_most_popular then
+		local sale_prod = marketing:get_sale_offer(v)
+
+		if sale_prod then
+			gem_button:ci("image_shop_gems_tag").hidden = true
+			gem_button:ci("label_shop_gems_tag").hidden = true
+			gem_button:ci("image_shop_discount_tag").hidden = false
+			gem_button:ci("label_shop_discount").hidden = false
+			gem_button:ci("label_shop_discount_percent").hidden = false
+			gem_button:ci("label_shop_discount_percent").text = sale_prod.discount_str
+			gem_button:ci("label_shop_portrait_gems_cost").text = sale_prod.price
+		elseif gem_data.is_most_popular then
 			gem_button:ci("label_shop_gems_tag").text = _("SHOP_ROOM_MOST_POPULAR_TITLE")
+			gem_button:ci("image_shop_discount_tag").hidden = true
+			gem_button:ci("label_shop_discount").hidden = true
+			gem_button:ci("label_shop_discount_percent").hidden = true
 		elseif gem_data.is_best_value then
 			gem_button:ci("label_shop_gems_tag").text = _("SHOP_ROOM_BEST_VALUE_TITLE")
+			gem_button:ci("image_shop_discount_tag").hidden = true
+			gem_button:ci("label_shop_discount").hidden = true
+			gem_button:ci("label_shop_discount_percent").hidden = true
 		else
 			gem_button:ci("image_shop_gems_tag").hidden = true
 			gem_button:ci("label_shop_gems_tag").hidden = true
+			gem_button:ci("image_shop_discount_tag").hidden = true
+			gem_button:ci("label_shop_discount").hidden = true
+			gem_button:ci("label_shop_discount_percent").hidden = true
 		end
 
 		function gem_button.on_click(this)
 			S:queue("GUIButtonCommon")
 
-			if not PS.services.iap or not PS.services.iap:purchase_product(this.item_name) then
+			local gs = this.item_name
+
+			if PS.services.iap then
+				local ps = marketing:get_sale_offer(gs)
+
+				if ps then
+					gs = ps.id
+				end
+			end
+
+			if not PS.services.iap or not PS.services.iap:purchase_product(gs) then
 				signal.emit(SGN_SHOP_SHOW_MESSAGE, "iap_error")
-				log.error("Error trying to purchase product %s", this.item_name)
+				log.error("Error trying to purchase product %s", gs)
 
 				return
 			end

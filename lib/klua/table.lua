@@ -62,6 +62,26 @@ function table.deepclone(t)
 	end
 end
 
+function table.equals(t1, t2)
+	if type(t1) == "table" and type(t2) == "table" then
+		for k1, v1 in pairs(t1) do
+			if not table.equals(v1, t2[k1]) then
+				return false
+			end
+		end
+
+		for k2, v2 in pairs(t2) do
+			if not t1[k2] then
+				return false
+			end
+		end
+
+		return true
+	else
+		return t1 == t2
+	end
+end
+
 function table.merge(t1, t2, new)
 	local m = new and table.clone(t1) or t1
 
@@ -236,6 +256,16 @@ function table.slice(t, i1, i2)
 	end
 
 	return out
+end
+
+function table.insert_mt(t, o)
+	local mt = getmetatable(t)
+
+	if mt then
+		t[#mt + 1] = o
+	else
+		table.insert(t, o)
+	end
 end
 
 function table.removeobject(t, o)
