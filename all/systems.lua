@@ -32,7 +32,7 @@ local bit = require("bit")
 local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 
 require("constants")
 

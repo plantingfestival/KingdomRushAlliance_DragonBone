@@ -12931,7 +12931,7 @@ function TowerMenuTooltip:show(entity, item)
 	self.wide = true
 
 	balance = nil
-	balance = require("balance/balance")
+	balance = require("data.balance.balance")
 	for _, v in pairs(self:ci("bottom_views").children) do
 		v.hidden = true
 	end

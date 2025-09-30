@@ -236,25 +236,37 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 						local ref_scale = ss.ref_scale or 1
 						local flipf = (f.flip_x and -1 or 1) * (f.flip_y and -1 or 1)
 
-						sy = sy * (f.flip_y and -1 or 1) * ref_scale
-						sx = sx * (f.flip_x and -1 or 1) * ref_scale
-
+						r = -f.r * flipf + r
 						local f_sx = f.flip_x and -1 or 1
 						local f_sy = f.flip_y and -1 or 1
-
-						if f.scale then
-							sy = sy * f.scale.y
-							sx = sx * f.scale.x
-							f_sx = f_sx * f.scale.x
-							f_sy = f_sy * f.scale.y
+						local ox, oy
+						if ss.textureRotated then
+							r = r - math.pi / 2
+							sy = xf.sx * f_sx * ref_scale
+							sx = xf.sy * f_sy * ref_scale
+							if f.scale then
+								sy = sy * f.scale.x
+								sx = sx * f.scale.y
+								f_sx = f_sx * f.scale.x
+								f_sy = f_sy * f.scale.y
+							end
+							ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
+							oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
+						else
+							sy = sy * (f.flip_y and -1 or 1) * ref_scale
+							sx = sx * (f.flip_x and -1 or 1) * ref_scale
+							if f.scale then
+								sy = sy * f.scale.y
+								sx = sx * f.scale.x
+								f_sx = f_sx * f.scale.x
+								f_sy = f_sy * f.scale.y
+							end
+							ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
+							oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
 						end
 
-						local ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-						local oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
 						local p_x_s = x * f_sx
 						local p_y_s = y * f_sy
-
-						r = -f.r * flipf + r
 
 						if f.r ~= 0 then
 							local cr = math.cos(-f.r)
@@ -273,63 +285,6 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 
 						batch_count = batch_count + 1
 					end
-
-					if f.color then
-						r, g, b = f.color[1], f.color[2], f.color[3]
-					else
-						r, g, b = 255, 255, 255
-					end
-
-					a = f.alpha * (part.alpha or 1)
-
-					if a ~= la or r ~= lr or g ~= lg or b ~= lb then
-						batch:setColor(r, g, b, a)
-
-						lr, lg, lb, la = r, g, b, a
-					end
-
-					local exo_part = f.exo.parts[part.name]
-					local pox, poy = exo_part.offsetX, exo_part.offsetY
-					local quad = ss.quad
-					local ref_scale = ss.ref_scale or 1
-					local xf = part.xform
-					local x, y, r, sx, sy, kx, ky = xf.x, xf.y, xf.r, xf.sx, xf.sy, xf.kx, xf.ky
-
-					r = -f.r + r
-					local f_sx = f.flip_x and -1 or 1
-					local f_sy = f.flip_y and -1 or 1
-					local ox, oy
-					if ss.textureRotated then
-						r = r - math.pi / 2
-						ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
-						oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-						sy = xf.sx * f_sx * ref_scale
-						sx = xf.sy * f_sy * ref_scale
-						if f.scale then
-							sy = sy * f.scale.x
-							sx = sx * f.scale.y
-						end
-					else
-						sy = sy * (f.flip_y and -1 or 1) * ref_scale
-						sx = sx * (f.flip_x and -1 or 1) * ref_scale
-
-						if f.scale then
-							sy = sy * f.scale.y
-							sx = sx * f.scale.x
-							f_sx = f_sx * f.scale.x
-							f_sy = f_sy * f.scale.y
-						end
-
-						ox = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
-						oy = 0.5 * ss.size[2] - ss.trim[2] - poy / ref_scale
-					end
-
-					x = x * f_sx + f.pos.x + f.offset.x
-					y = REF_H - (-y * f_sy + f.pos.y + f.offset.y)
-
-					batch:add(quad, x, y, r * (f.flip_x and -1 or 1), sx, sy, ox, oy, kx, ky)
-
-					batch_count = batch_count + 1
 				end
 
 				::label_6_0::

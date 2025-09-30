@@ -17359,9 +17359,9 @@ tt.attacks.list[2].soldiers_spawn_bullets = {
 }
 tt.attacks.list[2].cooldown = b.soldier.cooldown
 tt.attacks.list[2].retreat_duration = b.soldier.retreat_duration
-tt.sound_events.insert = i18n:cjk("TowerPandasTaunt", "TowerPandasTauntZH", nil, nil)
-tt.sound_events.change_rally_point = i18n:cjk("TowerPandasTaunt", "TowerPandasTauntZH", nil, nil)
-tt.sound_events.tower_room_select = i18n:cjk("TowerPandasTauntSelect", "TowerPandasTauntZHSelect", nil, nil)
+tt.sound_events.insert = "TowerPandasTaunt"
+tt.sound_events.change_rally_point = "TowerPandasTaunt"
+tt.sound_events.tower_room_select = "TowerPandasTauntSelect"
 tt.ui.click_rect = r(-35, 0, 70, 65)
 tt.ui.click_rect_heights_by_soldier = {
 	53,
@@ -27180,10 +27180,10 @@ tt.render.sprites[1].angles.walk = {
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "hero_wukong_wukong"
 tt.render.sprites[1].draw_order = DO_HEROES
-tt.sound_events.change_rally_point = i18n:cjk("HeroWukongTaunt", "HeroWukongTauntZH", nil, nil)
-tt.sound_events.death = i18n:cjk("HeroWukongDeath", "HeroWukongDeathZH", nil, nil)
-tt.sound_events.respawn = i18n:cjk("HeroWukongTauntIntro", "HeroWukongTauntZHIntro", nil, nil)
-tt.sound_events.hero_room_select = i18n:cjk("HeroWukongTauntSelect", "HeroWukongTauntZHSelect", nil, nil)
+tt.sound_events.change_rally_point = "HeroWukongTaunt"
+tt.sound_events.death = "HeroWukongDeath"
+tt.sound_events.respawn = "HeroWukongTauntIntro"
+tt.sound_events.hero_room_select = "HeroWukongTauntSelect"
 tt.sound_death_sfx = "HeroWukongDeathSFX"
 tt.soldier.melee_slot_offset = v(20, 0)
 tt.unit.hit_offset = v(0, 23)
@@ -39317,7 +39317,8 @@ tt = RT("aura_wukong_fire_ground_dps", "aura_wukong_fire_ground_apply_mod")
 tt.aura.mod = "mod_wukong_flaming_ground_dps"
 tt.aura.vis_bans = bor(tt.aura.vis_bans, F_ENEMY)
 tt.aura.excluded_templates = {
-	"hero_lava"
+	"hero_lava",
+	"hero_ignus"
 }
 tt = RT("aura_wukong_fire_ground_sprint", "aura_wukong_fire_ground_apply_mod")
 tt.aura.mod = "mod_wukong_flaming_ground_sprint"

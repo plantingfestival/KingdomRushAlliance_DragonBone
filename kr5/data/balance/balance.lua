@@ -5684,236 +5684,6 @@ local heroes = {
 			}
 		}
 	},
-	hero_10yr = {
-		ultimate = {
-			cooldown = {
-				60,
-				60,
-				60,
-				60
-			}
-		}
-	},
-	hero_dracolich = {
-		basic_attack = {
-			attack_filter = false,
-			damage_type = DAMAGE_MAGICAL
-		},
-		bonegolem = {
-			nav_grid = true
-		},
-		plaguecarrier = {
-			range_nodes_max = 30,
-			range_nodes_min = 10
-		},
-		ultimate = {
-			cooldown = {
-				70,
-				70,
-				70,
-				70
-			}
-		}
-	},
-	hero_dragon = {
-		attack_filter = false,
-		basic_attack = {
-			max_range = 140,
-			damage_radius = 40,
-			damage_min = {
-				15,
-				20,
-				26,
-				31,
-				37,
-				42,
-				48,
-				53,
-				59,
-				64
-			},
-			damage_max = {
-				20,
-				28,
-				37,
-				45,
-				54,
-				62,
-				71,
-				79,
-				88,
-				96
-			}
-		},
-		blazingbreath = {
-			cooldown = 8,
-			min_range = 0,
-			damage = {
-				150,
-				250,
-				350
-			}
-		},
-		fierymist = {
-			min_range = 0,
-			cooldown = 10,
-			slow_factor = {
-				0.6,
-				0.5,
-				0.4
-			}
-		},
-		wildfirebarrage = {
-			min_range = 90,
-			damage = 30
-		},
-		feast = {
-			damage_type = DAMAGE_TRUE,
-			damage = {
-				100,
-				200,
-				300
-			}
-		}
-	},
-	hero_wilbur = {
-		speed = 86,
-		basic_attack = {
-			damage_type = DAMAGE_TRUE
-		},
-		box = {
-			damage_type = DAMAGE_TRUE,
-			range_nodes_max = 60,
-			range_nodes_min = 20
-		},
-		smoke = {
-			duration = {
-				3,
-				5,
-				8
-			}
-		},
-		ultimate = {
-			cooldown = {
-				50,
-				50,
-				50,
-				50
-			}
-		}
-	},
-	hero_dianyun = {
-		basic_attack = {
-			min_range = 0,
-			max_range = 200
-		},
-		ricochet = {
-			min_range = 0,
-			max_range = 200,
-			damage_min = {
-				45,
-				60,
-				75
-			},
-			damage_max = {
-				45,
-				60,
-				75
-			},
-			bounce = {
-				3,
-				5,
-				7
-			}
-		},
-		divine_rain = {
-			min_range = 0,
-			max_range = 110,
-			radius = 60,
-			healing_points_tick = {
-				8,
-				16,
-				24
-			}
-		},
-		supreme_wave = {
-			min_range = 0,
-			max_range = 100,
-			damage_type = DAMAGE_MAGICAL,
-			damage = 15
-		},
-		passive = {
-			gold_reward = 2
-		},
-		ultimate = {
-			min_range = 0,
-			max_range = 160,
-			duration = 240,
-			stun = fts(20),
-			damage_type = DAMAGE_TRUE,
-			cooldown = {
-				70,
-				70,
-				70,
-				70
-			}
-		}
-	},
-	hero_eiskalt = {
-		basic_attack = {
-			damage_type = DAMAGE_MAGICAL,
-			min_range = 0,
-			max_range = 175
-		},
-		fierce_breath = {
-			damage_area = {
-				30,
-				50,
-				70
-			}
-		},
-		cold_fury = {
-			min_range = 190,
-			max_range = 300,
-			damage_min = 90,
-			damage_max = 120,
-		},
-		ice_ball = {
-			min_range = 25,
-			max_range = 160,
-			damage_min = 60,
-			damage_max = 90,
-			damage_over_time = {
-				8,
-				16,
-				24
-			}
-		},
-		ice_peaks = {
-			min_range = 20,
-			max_range = 150,
-			cooldown = 30,
-			damage_boss = {
-				100,
-				200,
-				300
-			}
-		},
-		ultimate = {
-			cooldown = {
-				70,
-				70,
-				70,
-				70
-			},
-			duration = {
-				3,
-				6,
-				9,
-				12
-			}
-		}
-	},
 	hero_wukong = {
 		distance_to_flywalk = 150,
 		speed = 80,
@@ -6254,6 +6024,236 @@ local heroes = {
 				0.5,
 				0.5,
 				0.5
+			}
+		}
+	},
+	hero_10yr = {
+		ultimate = {
+			cooldown = {
+				60,
+				60,
+				60,
+				60
+			}
+		}
+	},
+	hero_dracolich = {
+		basic_attack = {
+			attack_filter = false,
+			damage_type = DAMAGE_MAGICAL
+		},
+		bonegolem = {
+			nav_grid = true
+		},
+		plaguecarrier = {
+			range_nodes_max = 30,
+			range_nodes_min = 10
+		},
+		ultimate = {
+			cooldown = {
+				70,
+				70,
+				70,
+				70
+			}
+		}
+	},
+	hero_dragon = {
+		attack_filter = false,
+		basic_attack = {
+			max_range = 140,
+			damage_radius = 40,
+			damage_min = {
+				15,
+				20,
+				26,
+				31,
+				37,
+				42,
+				48,
+				53,
+				59,
+				64
+			},
+			damage_max = {
+				20,
+				28,
+				37,
+				45,
+				54,
+				62,
+				71,
+				79,
+				88,
+				96
+			}
+		},
+		blazingbreath = {
+			cooldown = 8,
+			min_range = 0,
+			damage = {
+				150,
+				250,
+				350
+			}
+		},
+		fierymist = {
+			min_range = 0,
+			cooldown = 10,
+			slow_factor = {
+				0.6,
+				0.5,
+				0.4
+			}
+		},
+		wildfirebarrage = {
+			min_range = 90,
+			damage = 30
+		},
+		feast = {
+			damage_type = DAMAGE_TRUE,
+			damage = {
+				100,
+				200,
+				300
+			}
+		}
+	},
+	hero_wilbur = {
+		speed = 86,
+		basic_attack = {
+			damage_type = DAMAGE_TRUE
+		},
+		box = {
+			damage_type = DAMAGE_TRUE,
+			range_nodes_max = 60,
+			range_nodes_min = 20
+		},
+		smoke = {
+			duration = {
+				3,
+				5,
+				8
+			}
+		},
+		ultimate = {
+			cooldown = {
+				50,
+				50,
+				50,
+				50
+			}
+		}
+	},
+	hero_dianyun = {
+		basic_attack = {
+			min_range = 0,
+			max_range = 200
+		},
+		ricochet = {
+			min_range = 0,
+			max_range = 200,
+			damage_min = {
+				45,
+				60,
+				75
+			},
+			damage_max = {
+				45,
+				60,
+				75
+			},
+			bounce = {
+				3,
+				5,
+				7
+			}
+		},
+		divine_rain = {
+			min_range = 0,
+			max_range = 110,
+			radius = 60,
+			healing_points_tick = {
+				8,
+				16,
+				24
+			}
+		},
+		supreme_wave = {
+			min_range = 0,
+			max_range = 100,
+			damage_type = DAMAGE_MAGICAL,
+			damage = 15
+		},
+		passive = {
+			gold_reward = 2
+		},
+		ultimate = {
+			min_range = 0,
+			max_range = 160,
+			duration = 240,
+			stun = fts(20),
+			damage_type = DAMAGE_TRUE,
+			cooldown = {
+				70,
+				70,
+				70,
+				70
+			}
+		}
+	},
+	hero_eiskalt = {
+		basic_attack = {
+			damage_type = DAMAGE_MAGICAL,
+			min_range = 0,
+			max_range = 175
+		},
+		fierce_breath = {
+			damage_area = {
+				30,
+				50,
+				70
+			}
+		},
+		cold_fury = {
+			min_range = 190,
+			max_range = 300,
+			damage_min = 90,
+			damage_max = 120,
+		},
+		ice_ball = {
+			min_range = 25,
+			max_range = 160,
+			damage_min = 60,
+			damage_max = 90,
+			damage_over_time = {
+				8,
+				16,
+				24
+			}
+		},
+		ice_peaks = {
+			min_range = 20,
+			max_range = 150,
+			cooldown = 30,
+			damage_boss = {
+				100,
+				200,
+				300
+			}
+		},
+		ultimate = {
+			cooldown = {
+				70,
+				70,
+				70,
+				70
+			},
+			duration = {
+				3,
+				6,
+				9,
+				12
 			}
 		}
 	}

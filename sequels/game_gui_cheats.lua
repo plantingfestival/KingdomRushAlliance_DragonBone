@@ -414,6 +414,7 @@ function cheat_view:init()
 					local enemies_bar = view:ci("cheat_view_enemies_" .. i)
 					local enemy_button_template = table.deepclone(tt.enemy_button)
 					local enemy_names = require("data.game_debug_data").enemy_pages[7 + i]
+					enemies_bar:remove_children()
 
 					for index, template_name in ipairs(enemy_names) do
 						local enemy = E:get_template(template_name)

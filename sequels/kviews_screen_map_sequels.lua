@@ -2871,7 +2871,9 @@ function TowerRoomView:show_tower(tower_name, flash)
 	self.count_powers = 0
 
 	for k, v in pairs(tt.powers) do
-		self.count_powers = self.count_powers + 1
+		if v.enc_icon then
+			self.count_powers = self.count_powers + 1
+		end
 	end
 
 	if self.count_powers == 3 then

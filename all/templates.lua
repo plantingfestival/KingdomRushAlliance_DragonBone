@@ -1367,7 +1367,7 @@ hero.render.sprites[1].angles.walk = {
 	"running"
 }
 hero.render.sprites[1].name = "idle"
-hero.ui.click_rect = IS_PHONE_OR_TABLET and r(-35, -15, 70, 70) or r(-20, -5, 40, 40)
+hero.ui.click_rect = r(-20, -5, 40, 40)
 hero.ui.z = 2
 hero.unit.hit_offset = v(0, 12)
 

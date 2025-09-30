@@ -565,7 +565,7 @@ end
 
 function upgrades:patch_templates(max_level)
 	balance = nil
-	balance = require("balance/balance")
+	balance = require("data.balance.balance")
 	if max_level then
 		self.max_level = max_level
 	end
