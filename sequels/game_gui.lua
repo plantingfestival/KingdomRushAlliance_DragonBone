@@ -2855,7 +2855,7 @@ function game_gui.q_can_drag_entity(ctx)
 	end
 
 	local e = game_gui:entity_at_pos(wx, wy, DRAG_ENTITY_LOOKUP_MARGIN, function(e)
-		return e.nav_grid and e.health and not e.health.dead
+		return e.nav_grid and (not e.health or not e.health.dead)
 	end)
 
 	log.debug("DRAG_ENTITY:%s AT:%s,%s", e and e.id, wx, wy)
