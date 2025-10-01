@@ -57,6 +57,7 @@ return {
 			"kr4_bolt_release.ogg",
 			"kr4_arrow_release_1.ogg",
 			"kr4_warmonger_mage_attack.ogg",
+			"assassin_gold.ogg",
 			-- customization
 			"kr_voice_spydyr_taunt-select_b.ogg",
 			"kr_voice_sunwukong_4_a.ogg",
@@ -309,7 +310,6 @@ return {
 			"wasp_2.ogg",
 			"wasp_3.ogg",
 			"wilhelm_scream.ogg",
-			"assassin_gold.ogg",
 		}
 	},
 	-- customization
@@ -1691,7 +1691,6 @@ return {
 			"kro_sfx_veznan_teleport_v1.ogg",
 			"kro_sfx_poisonplant_discharge[conacido]_B.ogg",
 			"kro_sfx_poisonplant_ready_v2B.ogg",
-			"assassin_gold.ogg",
 			"Awok_01b.ogg",
         	"Awok_02c.ogg",
 			"kre_sfx_plant_magicmissile.ogg",
@@ -2153,7 +2152,6 @@ return {
 			"kra_sfx_tower_duneSentinels_bountyHunt_cast_v1.ogg",
 			"kra_sfx_tower_duneSentinels_whirlingDoom_cast_v1.ogg",
 			-- customization
-			"assassin_gold.ogg",
 			"assassin_sneakattack.ogg",
 			"assassin_taunt_sneak.ogg",
 			"assassin_taunt_gold.ogg",
@@ -2604,7 +2602,12 @@ return {
 			"kra_sfx_wukong_enemy_wuxian_death_v1.ogg",
 			"kra_sfx_wukong_enemy_wuxian_ranged_v1.ogg",
 			"kra_sfx_wukong_enemy_wuxian_special_woVoice_v1.ogg",
-			"kra_sfx_wukong_enemy_wuxian_special_wVoice_v1.ogg"
+			"kra_sfx_wukong_enemy_wuxian_special_wVoice_v1.ogg",
+			-- customization
+			"kra_sfx_enemy_tuskedBrawler_death_op1_var3.ogg",
+			"kra_sfx_crocs_gator_melee_var1_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var2_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var3_v1.ogg",
 		}
 	},
 	enemies_terrain_wukong_2 = {

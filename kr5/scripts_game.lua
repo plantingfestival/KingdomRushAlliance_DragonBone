@@ -81562,7 +81562,7 @@ end
 scripts.decal_stage_32_easter_egg_sheepy = {}
 
 function scripts.decal_stage_32_easter_egg_sheepy.update(this, store, script)
-	U.animation_start(this, "idle_1", nil, store.tick_ts, true)
+	U.animation_start(this, "idle_1", nil, store.tick_ts, true, 1)
 
 	local clicks = 0
 	local ts_idle_anim = store.tick_ts

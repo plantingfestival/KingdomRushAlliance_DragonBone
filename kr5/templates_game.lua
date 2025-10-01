@@ -3672,7 +3672,7 @@ tt.render.sprites[1].prefix = "boss_gator_lvl3_explosionDef"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].exo = true
 tt = E:register_t("fx_hero_wukong_clones_spawn", "fx")
-tt.render.sprites[1].name = "hero_wukong_clone_smoke_in"
+tt.render.sprites[1].name = "hero_wukong_smoke_in"
 tt.render.sprites[1].sort_y_offset = -5
 tt.render.sprites[1].z = Z_OBJECTS
 tt = E:register_t("fx_hero_wukong_giant_staff", "decal_scripted")
@@ -17567,8 +17567,8 @@ tt.attacks.list[1].bullet_start_offset = {
 	v(27, 6 + tt.render.sprites[4].offset.y),
 	v(-27, 3 + tt.render.sprites[5].offset.y)
 }
-tt.sound_events.insert = i18n:cjk("TowerPandasTaunt", "TowerPandasTauntZH", nil, nil)
-tt.sound_events.change_rally_point = i18n:cjk("TowerPandasTaunt", "TowerPandasTauntZH", nil, nil)
+tt.sound_events.insert = "TowerPandasTaunt"
+tt.sound_events.change_rally_point = "TowerPandasTaunt"
 tt.attacks.list[2].soldiers = {
 	"soldier_tower_pandas_blue_lvl4",
 	"soldier_tower_pandas_red_lvl4",
@@ -34851,6 +34851,7 @@ b = balance.towers.arborean_emissary
 E:add_comps(tt, "force_motion")
 
 tt.render.sprites[1].prefix = "arborean_emissary_projectile"
+tt.render.sprites[1].name = "flying"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_BULLETS
 tt.bullet.damage_type = b.basic_attack.damage_type

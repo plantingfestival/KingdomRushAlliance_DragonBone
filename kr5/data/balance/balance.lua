@@ -5952,17 +5952,17 @@ local heroes = {
 				damage_type = DAMAGE_PHYSICAL
 			},
 			smash_attack = {
-				cooldown = 5,
+				cooldown = 2,
 				damage_radius = 72,
 				damage_min = {
 					30,
 					55,
-					75
+					80
 				},
 				damage_max = {
 					35,
 					70,
-					90
+					105
 				},
 				damage_type = DAMAGE_PHYSICAL,
 				chance = {
