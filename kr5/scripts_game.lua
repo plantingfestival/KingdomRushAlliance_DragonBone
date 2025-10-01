@@ -48191,7 +48191,7 @@ function scripts.tower_necromancer.update(this, store)
 			local power = this.powers.skill_debuff
 			local attack = this.attacks.list[2]
 
-			if power and power.level and power.level > 0 and attack and attack.cooldown and attack.ts and store.tick_ts - attack.ts > attack.cooldown and
+			if power and power.level and power.level > 0 and attack and attack.cooldown and attack.ts and store.tick_ts - attack.ts > attack.cooldown and 
 			(not attack.min_cooldown or store.tick_ts - last_ts_shared > attack.min_cooldown) and this.tower.can_do_magic then
 				local enemy, enemies = U.find_foremost_enemy(store.entities, tpos(this), 0, attack.max_range, attack.node_prediction + attack.cast_time, attack.vis_flags, attack.vis_bans, function(e, o)
 					local node_offset = P:predict_enemy_node_advance(e, attack.node_prediction + attack.cast_time)
@@ -48241,8 +48241,8 @@ function scripts.tower_necromancer.update(this, store)
 		local power = this.powers.skill_rider
 		local attack = this.attacks.list[3]
 
-		if not power or power.level <= 0 or not attack or not attack.cooldown or store.tick_ts - attack.ts < attack.cooldown or
-		(attack.min_cooldown and store.tick_ts - last_ts_shared < attack.min_cooldown) or not this.tower.can_do_magic then
+		if not power or power.level <= 0 or not attack or not attack.cooldown or store.tick_ts - attack.ts < attack.cooldown or 
+		attack.min_cooldown and store.tick_ts - last_ts_shared < attack.min_cooldown or not this.tower.can_do_magic then
 			return
 		end
 
@@ -48290,6 +48290,8 @@ function scripts.tower_necromancer.update(this, store)
 	if this.tower.level == 4 then
 		U.animation_start(this, "smoke", nil, store.tick_ts, true, 6)
 	end
+
+	::label_1055_0::
 
 	while true do
 		if U.animation_finished(this, this.render.sid_mage) then
@@ -48355,29 +48357,6 @@ function scripts.tower_necromancer.update(this, store)
 					end
 
 					U.y_wait(store, attack.shoot_time)
-
-					target, pred_pos = find_target(this.attacks.list[1])
-
-					if target and this.tower_upgrade_persistent_data.current_skulls > 0 then
-						this.tower_upgrade_persistent_data.fire_skulls = true
-						attack.ts = start_ts
-						last_ts = start_ts
-
-						goto label_1055_0
-					end
-
-					local start_offset
-					local fire_directly = this.tower_upgrade_persistent_data.current_skulls == 0 and target
-
-					if fire_directly then
-						start_offset = V.vclone(attack.bullet_start_offset)
-
-						if this.render.sprites[this.render.sid_mage].name == "attack_back" then
-							start_offset.x = -start_offset.x
-						end
-					else
-						start_offset = table.safe_index(attack.bullet_spawn_offset, this.tower_upgrade_persistent_data.current_skulls + 1)
-					end
 
 					attack.ts = start_ts
 					last_ts = start_ts
@@ -48458,7 +48437,6 @@ function scripts.tower_necromancer.update(this, store)
 
 			this.tower_upgrade_persistent_data.last_ts = last_ts
 
-			::label_1055_0::
 			coroutine.yield()
 		end
 	end

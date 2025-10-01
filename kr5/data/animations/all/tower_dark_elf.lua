@@ -51,7 +51,7 @@ local a = {
 	},
 	souldrain_run = {
 		prefix = "souldrain",
-		to = 9,
+		to = 13,
 		from = 1
 	},
 	shotexplosion_run = {
@@ -69,10 +69,20 @@ local a = {
 		to = 1,
 		from = 1
 	},
-	Archer_lvl4_shootstart = {
+	Archer_lvl4_shootstart_begin = {
+		prefix = "Archer_lvl4",
+		to = 46,
+		from = 2
+	},
+	Archer_lvl4_shootstart_loop = {
+		prefix = "Archer_lvl4",
+		to = 59,
+		from = 47
+	},
+	Archer_lvl4_shootstart_end = {
 		prefix = "Archer_lvl4",
 		to = 62,
-		from = 2
+		from = 60
 	},
 	Archer_lvl4_shoothigher = {
 		prefix = "Archer_lvl4",
@@ -89,10 +99,20 @@ local a = {
 		to = 121,
 		from = 121
 	},
-	Archer_lvl4_shootbackstart = {
+	Archer_lvl4_shootbackstart_begin = {
+		prefix = "Archer_lvl4",
+		to = 167,
+		from = 122
+	},
+	Archer_lvl4_shootbackstart_loop = {
+		prefix = "Archer_lvl4",
+		to = 179,
+		from = 168
+	},
+	Archer_lvl4_shootbackstart_end = {
 		prefix = "Archer_lvl4",
 		to = 182,
-		from = 122
+		from = 180
 	},
 	Archer_lvl4_shootbackhigher = {
 		prefix = "Archer_lvl4",
@@ -119,10 +139,20 @@ local a = {
 		to = 1,
 		from = 1
 	},
-	Archer_lvl3_shootstart = {
+	Archer_lvl3_shootstart_begin = {
+		prefix = "Archer_lvl3",
+		to = 46,
+		from = 2
+	},
+	Archer_lvl3_shootstart_loop = {
+		prefix = "Archer_lvl3",
+		to = 59,
+		from = 47
+	},
+	Archer_lvl3_shootstart_end = {
 		prefix = "Archer_lvl3",
 		to = 62,
-		from = 2
+		from = 60
 	},
 	Archer_lvl3_shoothigher = {
 		prefix = "Archer_lvl3",
@@ -139,10 +169,20 @@ local a = {
 		to = 121,
 		from = 121
 	},
-	Archer_lvl3_shootbackstart = {
+	Archer_lvl3_shootbackstart_begin = {
+		prefix = "Archer_lvl3",
+		to = 167,
+		from = 122
+	},
+	Archer_lvl3_shootbackstart_loop = {
+		prefix = "Archer_lvl3",
+		to = 179,
+		from = 168
+	},
+	Archer_lvl3_shootbackstart_end = {
 		prefix = "Archer_lvl3",
 		to = 182,
-		from = 122
+		from = 180
 	},
 	Archer_lvl3_shootbackhigher = {
 		prefix = "Archer_lvl3",
@@ -169,10 +209,20 @@ local a = {
 		to = 1,
 		from = 1
 	},
-	Archer_lvl2_shootstart = {
+	Archer_lvl2_shootstart_begin = {
+		prefix = "Archer_lvl2",
+		to = 46,
+		from = 2
+	},
+	Archer_lvl2_shootstart_loop = {
+		prefix = "Archer_lvl2",
+		to = 59,
+		from = 47
+	},
+	Archer_lvl2_shootstart_end = {
 		prefix = "Archer_lvl2",
 		to = 62,
-		from = 2
+		from = 60
 	},
 	Archer_lvl2_shoothigher = {
 		prefix = "Archer_lvl2",
@@ -189,10 +239,20 @@ local a = {
 		to = 121,
 		from = 121
 	},
-	Archer_lvl2_shootbackstart = {
+	Archer_lvl2_shootbackstart_begin = {
+		prefix = "Archer_lvl2",
+		to = 167,
+		from = 122
+	},
+	Archer_lvl2_shootbackstart_loop = {
+		prefix = "Archer_lvl2",
+		to = 179,
+		from = 168
+	},
+	Archer_lvl2_shootbackstart_end = {
 		prefix = "Archer_lvl2",
 		to = 182,
-		from = 122
+		from = 180
 	},
 	Archer_lvl2_shootbackhigher = {
 		prefix = "Archer_lvl2",
@@ -219,10 +279,20 @@ local a = {
 		to = 1,
 		from = 1
 	},
-	Archer_lvl1_shootstart = {
+	Archer_lvl1_shootstart_begin = {
+		prefix = "Archer_lvl1",
+		to = 46,
+		from = 2
+	},
+	Archer_lvl1_shootstart_loop = {
+		prefix = "Archer_lvl1",
+		to = 59,
+		from = 47
+	},
+	Archer_lvl1_shootstart_end = {
 		prefix = "Archer_lvl1",
 		to = 62,
-		from = 2
+		from = 60
 	},
 	Archer_lvl1_shoothigher = {
 		prefix = "Archer_lvl1",
@@ -239,10 +309,20 @@ local a = {
 		to = 121,
 		from = 121
 	},
-	Archer_lvl1_shootbackstart = {
+	Archer_lvl1_shootbackstart_begin = {
+		prefix = "Archer_lvl1",
+		to = 167,
+		from = 122
+	},
+	Archer_lvl1_shootbackstart_loop = {
+		prefix = "Archer_lvl1",
+		to = 179,
+		from = 168
+	},
+	Archer_lvl1_shootbackstart_end = {
 		prefix = "Archer_lvl1",
 		to = 182,
-		from = 122
+		from = 180
 	},
 	Archer_lvl1_shootbackhigher = {
 		prefix = "Archer_lvl1",
