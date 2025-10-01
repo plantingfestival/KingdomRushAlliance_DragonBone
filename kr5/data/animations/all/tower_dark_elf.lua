@@ -51,7 +51,7 @@ local a = {
 	},
 	souldrain_run = {
 		prefix = "souldrain",
-		to = 13,
+		to = 9,
 		from = 1
 	},
 	shotexplosion_run = {
