@@ -381,8 +381,8 @@ function cheat_view:init()
 				enemies_bar:update_layout()
 		
 				enemies_bar = view:ci("cheat_view_enemies_6")
-				enemy_names = require("data.game_debug_data").enemy_pages[8]
-		
+				enemy_names = require("data.game_debug_data").enemy_pages[12]
+
 				for i = 1, #enemy_names do
 					local template_name = enemy_names[i]
 					local enemy = E:get_template(template_name)

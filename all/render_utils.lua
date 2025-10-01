@@ -253,8 +253,8 @@ function RU.draw_frames_range(frames, start_idx, max_z)
 							ox = 0.5 * ss.size[2] - ss.trim[4] + poy / ref_scale
 							oy = 0.5 * ss.size[1] - ss.trim[1] - pox / ref_scale
 						else
-							sy = sy * (f.flip_y and -1 or 1) * ref_scale
-							sx = sx * (f.flip_x and -1 or 1) * ref_scale
+							sy = sy * f_sy * ref_scale
+							sx = sx * f_sx * ref_scale
 							if f.scale then
 								sy = sy * f.scale.y
 								sx = sx * f.scale.x

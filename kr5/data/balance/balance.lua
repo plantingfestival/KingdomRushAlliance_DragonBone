@@ -5048,7 +5048,7 @@ local heroes = {
 			cooldown = 5,
 			armor = 0,
 			hp = 7,
-			damage = 7
+			damage = 8
 		},
 		armor = {
 			0,
@@ -5695,10 +5695,10 @@ local heroes = {
 		teleport_min_distance = 250,
 		shared_cooldown = 3,
 		stats = {
-			cooldown = 5,
-			armor = 0,
-			hp = 5,
-			damage = 8
+			cooldown = 8,
+			armor = 3,
+			hp = 6,
+			damage = 5
 		},
 		armor = {
 			0,
@@ -12858,9 +12858,9 @@ local towers = {
 	pandas = {
 		rally_range = 180,
 		stats = {
-			damage = 6,
+			damage = 2,
 			armor = 0,
-			hp = 8
+			hp = 6
 		},
 		price = {
 			110,
@@ -12873,14 +12873,14 @@ local towers = {
 			damage_min = {
 				4,
 				7,
-				10,
-				15
+				11,
+				16
 			},
 			damage_max = {
 				6,
 				10,
 				15,
-				20
+				21
 			},
 			range = {
 				180,
@@ -12903,13 +12903,13 @@ local towers = {
 			hp = {
 				60,
 				90,
-				120,
-				170
+				130,
+				180
 			},
 			regen_hp = {
 				6,
 				8,
-				10,
+				11,
 				15
 			},
 			melee_attack = {
@@ -12919,13 +12919,13 @@ local towers = {
 					10,
 					15,
 					22,
-					30
+					31
 				},
 				damage_min = {
 					7,
 					12,
 					19,
-					25
+					28
 				}
 			},
 			thunder = {
@@ -12990,12 +12990,12 @@ local towers = {
 					200
 				},
 				damage_min = {
-					3,
-					6
+					6,
+					60
 				},
 				damage_max = {
-					6,
-					9
+					9,
+					90
 				},
 				damage_type = DAMAGE_TRUE,
 				nodes_offset_max = {

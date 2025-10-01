@@ -26249,7 +26249,7 @@ tt.ranged.attacks[1].shoot_times = {
 }
 tt.ranged.attacks[1].sync_animation = true
 tt.ranged.attacks[1].animation = "attack"
-tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE, F_FLYING)
 tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].xp_gain_factor = b.basic_breath_attack.xp_gain_factor
 tt.ranged.attacks[1].sound = "HeroDragonArbAttackSplints"
@@ -37313,7 +37313,7 @@ tt.bullet.mod = {
 }
 tt.bullet.damage_radius = 50
 tt.bullet.damage_flags = F_AREA
-tt.bullet.damage_bans = 0
+tt.bullet.damage_bans = bor(F_FLYING)
 tt.bullet.use_unit_damage_factor = true
 tt.bullet.hit_fx = nil
 tt.bullet.pop = nil
@@ -38718,6 +38718,7 @@ tt.aura.vis_bans = bor(F_FRIEND)
 tt.aura.vis_flags = F_RANGED
 tt.aura.cycle_time = b.trigger_every
 tt.aura.duration = nil
+tt.aura.use_mod_offset = nil
 tt.render.sprites[1].prefix = "hero_evil_dragon_conduit"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].loop = true
