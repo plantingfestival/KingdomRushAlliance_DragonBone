@@ -259,9 +259,9 @@ function ah:h_entity_killed(entity, damage)
 				-- 	self.A:inc_check("KILLTACULAR")
 				-- end
 
-				if U.flag_has(entity.vis.flags, F_FLYING) and (s.template_name == "arrow_arcane_burst" or s.template_name == "aura_arcane_burst") then
-					self.A:inc_check("ARCANE_BURST")
-				end
+				-- if U.flag_has(entity.vis.flags, F_FLYING) and (s.template_name == "arrow_arcane_burst" or s.template_name == "aura_arcane_burst") then
+				-- 	self.A:inc_check("ARCANE_BURST")
+				-- end
 
 				if table.contains({
 					"soldier_drow",

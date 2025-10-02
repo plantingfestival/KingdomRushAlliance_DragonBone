@@ -14295,7 +14295,8 @@ function AlertsView:update(dt)
 			local dp_pos = P:node_pos(pi, 1, dp_ni - ALERT_NODES_TO_DEFEND, true)
 
 			SSO:filter(enemies, "targets", dp_pos.x, dp_pos.y, 60, function(k, e)
-				return e.ui and not e.ui.alert_view and e.enemy and e.enemy.lives_cost ~= 0 and P:nodes_to_defend_point(e.nav_path) < ALERT_NODES_TO_DEFEND and e.nav_path.ni < P:get_visible_end_node(e.nav_path.pi)
+				return e.ui and not e.ui.alert_view and e.enemy and e.enemy.lives_cost ~= 0 and e.health and not e.health.dead and 
+				P:nodes_to_defend_point(e.nav_path) < ALERT_NODES_TO_DEFEND and e.nav_path.ni < P:get_visible_end_node(e.nav_path.pi)
 			end)
 		end
 

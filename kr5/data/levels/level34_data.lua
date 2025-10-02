@@ -1,5 +1,3 @@
--- chunkname: @./kr5/data/levels/level34_data.lua
-
 return {
 	locked_hero = false,
 	level_terrain_type = 5,
@@ -1254,7 +1252,7 @@ return {
 		"terrain_wukong_common"
 	},
 	required_textures = {
-		"go_stage20",
+		"go_stage30",
 		"go_stage34_bg",
 		"go_stage34",
 		"go_enemies_terrain_8_2_a",

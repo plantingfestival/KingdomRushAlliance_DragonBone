@@ -86943,7 +86943,12 @@ function scripts.bullet_boss_princess_iron_fan.update(this, store)
 	if b.decal_fx then
 		local decal = E:create_entity(b.decal_fx)
 
-		decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		if target then
+			decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		else
+			decal.pos.x, decal.pos.y = dest.x, dest.y
+		end
+
 		decal.render.sprites[1].ts = store.tick_ts
 
 		queue_insert(store, decal)
