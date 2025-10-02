@@ -11285,11 +11285,19 @@ tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
 tt = E:register_t("decal_stage_35_mask_boss_bull_right", "decal_stage_35_mask_boss_bull_left")
 tt.render.sprites[1].flip_x = true
+
 tt = E:register_t("decal_stage_35_mask_path_open", "decal")
 tt.render.sprites[1].name = "stage35_mask_path_open"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_BACKGROUND_COVERS
 tt.render.sprites[1].hidden = true
+
+tt = E:register_t("decal_stage_35_mask_path_closed", "decal")
+tt.render.sprites[1].name = "stage35_mask_path_close"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].z = Z_BACKGROUND_COVERS
+tt.render.sprites[1].hidden = true
+
 tt = E:register_t("stage_35_bloqueo_path", "decal")
 tt.render.sprites[1].prefix = "stage_5_bloqueo_pathDef"
 tt.render.sprites[1].name = "in"
@@ -32727,7 +32735,7 @@ tt.timed_attacks.list[1].cooldown = b.ranged_attack.cooldown
 tt.timed_attacks.list[1].max_range = b.ranged_attack.max_range
 tt.timed_attacks.list[1].min_range = b.ranged_attack.min_range
 tt.timed_attacks.list[1].shoot_time = fts(27)
-tt.timed_attacks.list[1].vis_bans = bor(F_FLYING)
+tt.timed_attacks.list[1].vis_bans = bor(0)
 tt.timed_attacks.list[1].sound = "EnemyWuxianRanged"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "wuxian_creep"
@@ -41502,6 +41510,7 @@ tt.main_script.update = scripts.mod_tower_dark_elf_big_target.update
 tt.modifier.use_mod_offset = true
 tt.modifier.duration = fts(60) + fts(13) + fts(2)
 tt.render.sprites[1].prefix = "twilight_longbows_tower_mira"
+tt.render.sprites[1].name = "run"
 tt.render.sprites[1].draw_order = DO_MOD_FX
 
 tt = E:register_t("mod_chicken_leg_polymorph", "modifier")
