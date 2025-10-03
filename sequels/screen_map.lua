@@ -995,7 +995,7 @@ function screen_map:init(w, h, done_callback)
 		-- block empty
 	end
 
-	if DEBUG then
+	if true then
 		local cheat_button = wid("cheat_button")
 
 		function cheat_button.on_click(this)
