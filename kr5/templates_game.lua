@@ -33231,6 +33231,7 @@ tt.melee.attacks[1].hit_time = fts(20)
 tt.melee.attacks[1].animation = "area_attack"
 tt.melee.attacks[1].hit_decal = "decal_storm_elemental_area_melee"
 tt.melee.attacks[1].sound = "EnemyElementalMelee"
+tt.melee.attacks[1].vis_bans = 0
 tt.ranged.attacks[1].bullet = "bullet_storm_elemental"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(-20, 120)

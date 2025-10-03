@@ -9065,10 +9065,10 @@ local enemies = {
 			},
 			ranged_attack = {
 				max_range = 350,
-				min_range = 50,
+				min_range = 60,
 				damage_min = 90,
 				damage_radius = 70,
-				cooldown = 10,
+				cooldown = 5,
 				damage_max = 110,
 				damage_type = DAMAGE_MAGICAL,
 				flaming_ground = {
@@ -9219,7 +9219,7 @@ local enemies = {
 				damage_min = 66,
 				cooldown = 2,
 				damage_max = 100,
-				min_range = 130,
+				min_range = 60,
 				damage_type = DAMAGE_MAGICAL
 			},
 			tower_block = {
@@ -9256,12 +9256,12 @@ local enemies = {
 			heal_wave = {
 				nodes_range = 30,
 				first_cooldown = 5,
-				heal_min = 40,
-				cooldown = 25,
-				damage_max = 20,
-				damage_min = 10,
-				safe_nodes = 50,
-				heal_max = 75,
+				heal_min = 160,
+				cooldown = 12,
+				damage_max = 100,
+				damage_min = 50,
+				safe_nodes = 30,
+				heal_max = 300,
 				damage_type = DAMAGE_MAGICAL
 			}
 		},
