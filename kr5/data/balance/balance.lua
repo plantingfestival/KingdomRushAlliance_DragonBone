@@ -9065,7 +9065,7 @@ local enemies = {
 			},
 			ranged_attack = {
 				max_range = 350,
-				min_range = 200,
+				min_range = 50,
 				damage_min = 90,
 				damage_radius = 70,
 				cooldown = 10,
@@ -9328,8 +9328,8 @@ local enemies = {
 			summon_fox = {
 				cancelled_cooldown = 10,
 				first_cooldown = 13,
-				nodes_limit = 60,
-				cooldown = 40,
+				nodes_limit = 30,
+				cooldown = 25,
 				loop_duration = 5
 			}
 		},
@@ -10097,10 +10097,10 @@ local enemies = {
 				}
 			},
 			bossfight = {
-				magic_armor = 0,
+				magic_armor = 0.67,
 				speed = 18,
-				armor = 0,
-				hp = 7500,
+				armor = 0.33,
+				hp = 10800,
 				spawn_pos = {
 					path = 13,
 					node_pos = v(605, 355)
@@ -10198,8 +10198,8 @@ local enemies = {
 					clon_config = {
 						magic_armor = 0,
 						speed = 15,
-						armor = 0,
-						hp = 9000,
+						armor = 0.67,
+						hp = 10800,
 						spawn_pos = {
 							{
 								path = 9,
@@ -10268,10 +10268,10 @@ local enemies = {
 				first_cooldown = 10,
 				min_targets = 2,
 				max_towers_block = 5,
-				damage_max = 80,
+				damage_max = 320,
 				min_range_towers_block = 0,
 				max_range_towers_block = 450,
-				damage_min = 50,
+				damage_min = 200,
 				nodes_limit = 20,
 				damage_radius = 450,
 				cooldown = {
@@ -12412,15 +12412,15 @@ local towers = {
 			cooldown = 2,
 			damage_min = {
 				14,
-				35,
-				77,
-				140
+				40,
+				76,
+				134
 			},
 			damage_max = {
-				18,
-				48,
-				108,
-				198
+				22,
+				54,
+				96,
+				150
 			},
 			range = {
 				200,
@@ -12446,8 +12446,8 @@ local towers = {
 			max_fps = 60,
 			max_armor_reduction = 15,
 			price = {
-				250,
-				250
+				300,
+				400
 			},
 			extra_damage_min = {
 				2,

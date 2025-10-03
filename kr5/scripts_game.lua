@@ -13141,8 +13141,13 @@ function scripts.enemy_demon_minotaur.update(this, store, script)
 	local speed_dif = SU5.get_difficulty_field_value(store, a.speed)
 	local charge_speed_mult = speed_dif / this.motion.max_speed
 
-	this.motion.max_speed = this.motion.max_speed * charge_speed_mult
-	this._pushed_bans = U.push_bans(this.vis, bor(F_BLOCK, F_STUN))
+	if not this.motion._original_max_speed then
+		this.motion._original_max_speed = this.motion.max_speed
+	end
+	this.motion.max_speed = this.motion._original_max_speed * charge_speed_mult
+	if not this._pushed_bans then
+		this._pushed_bans = U.push_bans(this.vis, bor(F_BLOCK, F_STUN))
+	end
 
 	local ps_a = E:create_entity(a.particles_name_a)
 
