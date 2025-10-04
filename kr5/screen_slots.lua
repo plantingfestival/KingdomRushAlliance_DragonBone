@@ -35,7 +35,7 @@ local var_0_22 = {
 	},
 	required_textures = {
 		"screen_slots",
-		"screens_common_LOCALE",
+		-- "screens_common_LOCALE",
 		"gui_popups",
 		"gui_slices"
 	}

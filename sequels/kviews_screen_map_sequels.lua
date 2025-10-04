@@ -8467,7 +8467,7 @@ function StageFlag5:initialize(default_image_name, focus_image_name)
 	self.vstars[3].hidden = true
 	self.vwings.hidden = true
 
-	self:set_flag_ani("hidden")
+	-- self:set_flag_ani("hidden")
 	self:set_focus_below_child(self.vflag)
 
 	if DEBUG then
