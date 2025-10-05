@@ -772,7 +772,6 @@ return {
 		"go_enemies_terrain_6",
 		"go_stage25_bg",
 		"go_stage25",
-		"go_stages_terrain6",
 		"go_towers_rocket_gunners"
 	}
 }

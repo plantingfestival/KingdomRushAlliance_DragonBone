@@ -1156,6 +1156,5 @@
 		"go_stage24_bg",
 		"go_stage24",
 		"go_stage23",
-		"go_stages_terrain6"
 	}
 }
