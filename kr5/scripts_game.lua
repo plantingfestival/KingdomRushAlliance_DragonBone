@@ -36236,7 +36236,10 @@ function scripts.hero_dragon_arb.level_up(this, store, initial)
 	this.health.magic_armor = ls.magic_armor[hl]
 
 	local b = E:get_template(this.ranged.attacks[1].bullet)
+	b.bullet.damage_max = ls.ranged_damage_max[hl]
+	b.bullet.damage_min = ls.ranged_damage_min[hl]
 
+	b = E:get_template(this.ranged.attacks[2].bullet)
 	b.bullet.damage_max = ls.ranged_damage_max[hl]
 	b.bullet.damage_min = ls.ranged_damage_min[hl]
 
@@ -36382,6 +36385,10 @@ function scripts.hero_dragon_arb.update(this, store)
 	local passive_controller = E:create_entity(this.controller_passive)
 
 	queue_insert(store, passive_controller)
+
+	for i, a in ipairs(this.ranged.attacks) do
+		a.ts = store.tick_ts
+	end
 
 	local function attack_is_tower_valid(v, a)
 		local is_tower = v.tower and not v.pending_removal and not v.tower.blocked and (not a.excluded_templates or not table.contains(a.excluded_templates, v.template_name)) and v.vis and band(v.vis.flags, a.vis_bans) == 0 and band(v.vis.bans, a.vis_flags) == 0 and not table.contains(a.exclude_tower_kind, v.tower.kind) and v.tower.can_be_mod and U.is_inside_ellipse(v.pos, this.pos, a.max_range) and (a.min_range == 0 or not U.is_inside_ellipse(v.pos, this.pos, a.min_range))
@@ -36598,6 +36605,38 @@ function scripts.hero_dragon_arb.update(this, store)
 				-- block empty
 			elseif store.tick_ts - a.ts < a.cooldown then
 				-- block empty
+			elseif i == 2 then
+				local triggered_lethal_focus
+				if upg_lf then
+					if not this._lethal_focus_deck then
+						this._lethal_focus_deck = SU.deck_new(upg_lf.trigger_cards, upg_lf.total_cards)
+					end
+					triggered_lethal_focus = SU.deck_draw(this._lethal_focus_deck)
+				end
+				local bullet_t = E:get_template(a.bullet)
+				local bullet_pop = bullet_t.bullet.pop
+				local bullet_pop_chance = bullet_t.bullet.pop_chance
+				if triggered_lethal_focus then
+					this.unit.damage_factor = this.unit.damage_factor * upg_lf.damage_factor
+					bullet_t.bullet.pop = {
+						"pop_crit"
+					}
+					bullet_t.bullet.pop_chance = 1
+				end
+				local status
+				interrupted, status = SU.entity_attacks(store, this, a)
+				if triggered_lethal_focus then
+					this.unit.damage_factor = this.unit.damage_factor / upg_lf.damage_factor
+					bullet_t.bullet.pop = bullet_pop
+					bullet_t.bullet.pop_chance = bullet_pop_chance
+				end
+				if status == A_DONE then
+					this.ranged.attacks[1].ts = a.ts
+					break
+				end
+				if interrupted then
+					break
+				end
 			elseif i == 1 then
 				local bullet_t = E:get_template(a.bullet)
 				local flight_time = bullet_t.bullet.flight_time
@@ -36800,6 +36839,7 @@ function scripts.hero_dragon_arb.update(this, store)
 					end
 
 					a.ts = start_ts
+					this.ranged.attacks[2].ts = start_ts
 
 					SU.y_hero_animation_wait(this)
 					U.animation_start_group(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, this.render.sprites[1].group)

@@ -410,8 +410,9 @@ function scripts.custom_bolt.update(this, store, script)
 
 	local pred_pos, is_flying
 	if target then
-		pred_pos = P:predict_enemy_pos(target, fts(5))
-		if target.vis then
+		local offset = U.get_prediction_offset(target, fts(5))
+		pred_pos = V.v(target.pos.x + offset.x, target.pos.y + offset.y)
+		if target.vis and target.vis.flags then
 			is_flying = U.flag_has(target.vis.flags, F_FLYING)
 			if is_flying and b.hit_fx_air then
 				b.hit_fx = b.hit_fx_air
@@ -422,6 +423,7 @@ function scripts.custom_bolt.update(this, store, script)
 		pred_pos = b.to
 	end
 
+	local toRight = b.from.x <= pred_pos.x
 	local iix, iiy = V.normalize(pred_pos.x - this.pos.x, pred_pos.y - this.pos.y)
 	local last_pos = V.vclone(this.pos)
 
@@ -452,6 +454,8 @@ function scripts.custom_bolt.update(this, store, script)
 
 			if this.initial_impulse_angle_abs then
 				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_abs, 1, 0))
+			elseif this.initial_impulse_angle_relative then
+				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_relative * (toRight and -1 or 1), iix, iiy))
 			else
 				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle * (b.shot_index % 2 == 0 and 1 or -1), iix, iiy))
 			end

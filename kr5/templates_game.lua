@@ -26261,6 +26261,23 @@ tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE, F_FLYING)
 tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].xp_gain_factor = b.basic_breath_attack.xp_gain_factor
 tt.ranged.attacks[1].sound = "HeroDragonArbAttackSplints"
+tt.ranged.attacks[2] = E:clone_c("bullet_attack")
+tt.ranged.attacks[2].skill = "range_unit"
+tt.ranged.attacks[2].bullet = "bullet_hero_dragon_arb_flying"
+tt.ranged.attacks[2].animation = "attack"
+tt.ranged.attacks[2].sync_animation = true
+tt.ranged.attacks[2].cast_time = fts(14)
+tt.ranged.attacks[2].bullet_start_offset = {
+	v(19, tt.flight_height + 13)
+}
+tt.ranged.attacks[2].cooldown = b.basic_breath_attack.cooldown + 1e-09
+tt.ranged.attacks[2].min_range = 0
+tt.ranged.attacks[2].max_range = b.basic_breath_attack.max_range
+tt.ranged.attacks[2].basic_attack = true
+tt.ranged.attacks[2].vis_bans = bor(F_NIGHTMARE, F_FRIEND)
+tt.ranged.attacks[2].filter_fn = function(v, origin)
+	return v.vis and v.vis.flags and band(v.vis.flags, F_FLYING) ~= 0
+end
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].animation = "power_1"
@@ -37383,19 +37400,18 @@ tt.tween.props[1].keys = {
 }
 tt.tween.remove = false
 tt.sound_events.insert = nil
+
 tt = E:register_t("bullet_hero_dragon_arb_arborean_spawn", "bolt")
 
 E:add_comps(tt, "force_motion")
 
-b = balance.heroes.hero_dragon_arb
 tt.bullet.damage_type = DAMAGE_NONE
 tt.bullet.hit_fx = "fx_bullet_hero_dragon_arb_arboreans_hit"
-tt.bullet.ignore_hit_offset = true
 tt.bullet.particles_name = "ps_bullet_hero_dragon_arb_arborean_spawn"
 tt.bullet.max_speed = 150
 tt.bullet.min_speed = 30
 tt.bullet.align_with_trajectory = true
-tt.bullet.xp_gain_factor = b.xp_gain_factor
+tt.bullet.xp_gain_factor = nil
 tt.bullet.use_unit_damage_factor = true
 tt.bullet.ignore_hit_offset = true
 tt.bullet.payload = nil
@@ -37411,6 +37427,17 @@ tt.render.sprites[1].name = "hero_dragon_arborean_leaf_projectile"
 tt.render.sprites[1].animated = false
 tt.main_script.update = scripts.bullet_hero_dragon_arb_arborean_spawn.update
 tt.sound_events.insert = nil
+
+tt = E:register_t("bullet_hero_dragon_arb_flying", "bullet_hero_dragon_arb_arborean_spawn")
+b = balance.heroes.hero_dragon_arb
+tt.bullet.damage_type = DAMAGE_MAGICAL
+tt.bullet.xp_gain_factor = b.basic_breath_attack.xp_gain_factor
+tt.bullet.ignore_hit_offset = nil
+tt.initial_impulse_angle_abs = nil
+tt.initial_impulse_angle_relative = math.pi / 6
+tt.force_motion.max_v = 400
+tt.main_script.update = customScripts1.custom_bolt.update
+
 tt = E:register_t("bullet_hero_dragon_arb_tower_buff", "bolt")
 
 E:add_comps(tt, "force_motion", "tween")
