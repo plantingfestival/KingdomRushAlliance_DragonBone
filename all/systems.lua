@@ -1841,17 +1841,21 @@ function sys.main_script:on_update(dt, ts, store)
 		local count = 0
 		for _, e in E:filter_iter(store.entities, "main_script") do
 			local s = e.main_script
-	
+
 			if not s.update then
 				-- block empty
 			else
 				if not s.co and s.runs ~= 0 then
 					s.runs = s.runs - 1
 					s.co = coroutine.create(s.update)
+					s.first_run = true
 				end
-	
-				local resume = false
-				if s.co then
+
+				local resume
+				if s.first_run then
+					s.first_run = nil
+					resume = true
+				elseif s.co then
 					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) 
 					or count < 512 then
 						resume = true
