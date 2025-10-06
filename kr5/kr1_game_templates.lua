@@ -3744,7 +3744,7 @@ tt.info.portrait = "portraits_towers_0108"
 tt.barrack.max_soldiers = 0
 tt.barrack.rally_range = 145
 tt.barrack.respawn_offset = v(0, 0)
-tt.barrack.soldier_type = "kr4_elven_warrior"
+tt.barrack.soldier_type = {}
 tt.editor.props = table.append(tt.editor.props, {
 	{
 		"barrack.rally_pos",

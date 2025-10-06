@@ -6254,61 +6254,27 @@ return {
 				action = "tw_buy_soldier",
 				halo = "glow_ico_main",
 				image = "soldier_icons_0003",
-				place = 12,
+				place = 1,
 				tt_title = _("SPECIAL_PIRATE_CORSAIR_NAME"),
 				tt_desc = _("SPECIAL_PIRATE_CORSAIR_DESCRIPTION")
 			},
-			{
-				halo = "ingame_ui_sub_icons_0001_hover",
-				image = "ingame_ui_sub_icons_0001",
-				action = "tw_rally",
-				place = 8
-			},
-			{
-				check = "ingame_ui_ico_sell_0002",
-				action = "tw_sell",
-				halo = "ingame_ui_ico_sell_0001_hover",
-				image = "ingame_ui_ico_sell_0001",
-				place = 9
-			}
-		}
-	},
-	mercenaries_pirates_w_flamer = {
-		{
 			{
 				check = "main_icons_0019",
 				action_arg = "soldier_pirate_flamer",
 				action = "tw_buy_soldier",
 				halo = "glow_ico_main",
 				image = "soldier_icons_0004",
-				place = 12,
+				place = 2,
 				tt_title = _("SPECIAL_PIRATE_FLAMER_NAME"),
 				tt_desc = _("SPECIAL_PIRATE_FLAMER_DESCRIPTION")
 			},
-			{
-				halo = "ingame_ui_sub_icons_0001_hover",
-				image = "ingame_ui_sub_icons_0001",
-				action = "tw_rally",
-				place = 8
-			},
-			{
-				check = "ingame_ui_ico_sell_0002",
-				action = "tw_sell",
-				halo = "ingame_ui_ico_sell_0001_hover",
-				image = "ingame_ui_ico_sell_0001",
-				place = 9
-			}
-		}
-	},
-	mercenaries_pirates_w_anchor = {
-		{
 			{
 				check = "main_icons_0019",
 				action_arg = "soldier_pirate_anchor",
 				action = "tw_buy_soldier",
 				halo = "glow_ico_main",
 				image = "soldier_icons_0005",
-				place = 12,
+				place = 3,
 				tt_title = _("SPECIAL_PIRATE_ANCHOR_NAME"),
 				tt_desc = _("SPECIAL_PIRATE_ANCHOR_DESCRIPTION")
 			},
@@ -6327,6 +6293,60 @@ return {
 			}
 		}
 	},
+	-- mercenaries_pirates_w_flamer = {
+	-- 	{
+	-- 		{
+	-- 			check = "main_icons_0019",
+	-- 			action_arg = "soldier_pirate_flamer",
+	-- 			action = "tw_buy_soldier",
+	-- 			halo = "glow_ico_main",
+	-- 			image = "soldier_icons_0004",
+	-- 			place = 12,
+	-- 			tt_title = _("SPECIAL_PIRATE_FLAMER_NAME"),
+	-- 			tt_desc = _("SPECIAL_PIRATE_FLAMER_DESCRIPTION")
+	-- 		},
+	-- 		{
+	-- 			halo = "ingame_ui_sub_icons_0001_hover",
+	-- 			image = "ingame_ui_sub_icons_0001",
+	-- 			action = "tw_rally",
+	-- 			place = 8
+	-- 		},
+	-- 		{
+	-- 			check = "ingame_ui_ico_sell_0002",
+	-- 			action = "tw_sell",
+	-- 			halo = "ingame_ui_ico_sell_0001_hover",
+	-- 			image = "ingame_ui_ico_sell_0001",
+	-- 			place = 9
+	-- 		}
+	-- 	}
+	-- },
+	-- mercenaries_pirates_w_anchor = {
+	-- 	{
+	-- 		{
+	-- 			check = "main_icons_0019",
+	-- 			action_arg = "soldier_pirate_anchor",
+	-- 			action = "tw_buy_soldier",
+	-- 			halo = "glow_ico_main",
+	-- 			image = "soldier_icons_0005",
+	-- 			place = 12,
+	-- 			tt_title = _("SPECIAL_PIRATE_ANCHOR_NAME"),
+	-- 			tt_desc = _("SPECIAL_PIRATE_ANCHOR_DESCRIPTION")
+	-- 		},
+	-- 		{
+	-- 			halo = "ingame_ui_sub_icons_0001_hover",
+	-- 			image = "ingame_ui_sub_icons_0001",
+	-- 			action = "tw_rally",
+	-- 			place = 8
+	-- 		},
+	-- 		{
+	-- 			check = "ingame_ui_ico_sell_0002",
+	-- 			action = "tw_sell",
+	-- 			halo = "ingame_ui_ico_sell_0001_hover",
+	-- 			image = "ingame_ui_ico_sell_0001",
+	-- 			place = 9
+	-- 		}
+	-- 	}
+	-- },
 	mercenaries_desert = {
 		{
 			{

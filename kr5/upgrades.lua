@@ -678,7 +678,7 @@ function upgrades:patch_templates(max_level)
 		end
 		st = T(T("tower_blade").barrack.soldier_type)
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_special_elf").barrack.soldier_type)
+		st = T("kr4_elven_warrior")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 		st = T(T("tower_drow").barrack.soldier_type)
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
@@ -703,15 +703,15 @@ function upgrades:patch_templates(max_level)
 		end
 		st = T(T("tower_barrack_amazonas").barrack.soldier_type)
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_barrack_pirates").barrack.soldier_type)
+		st = T("soldier_pirate_captain")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_barrack_pirates_w_flamer").barrack.soldier_type)
+		st = T("soldier_pirate_flamer")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_barrack_pirates_w_anchor").barrack.soldier_type)
+		st = T("soldier_pirate_anchor")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_stage_28_priests_barrack").barrack.soldier_type)
+		st = T("soldier_priests_barrack")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
-		st = T(T("tower_barrack_mercenaries").barrack.soldier_type)
+		st = T("soldier_djinn")
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 		st = T(T("tower_ewok").barrack.soldier_type)
 		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
@@ -943,10 +943,6 @@ function upgrades:patch_templates(max_level)
 		barrack = T("tower_barrack_amazonas").barrack
 		barrack.rally_range = barrack.rally_range * rally_range_factor
 		barrack = T("tower_barrack_pirates").barrack
-		barrack.rally_range = barrack.rally_range * rally_range_factor
-		barrack = T("tower_barrack_pirates_w_flamer").barrack
-		barrack.rally_range = barrack.rally_range * rally_range_factor
-		barrack = T("tower_barrack_pirates_w_anchor").barrack
 		barrack.rally_range = barrack.rally_range * rally_range_factor
 		barrack = T("tower_stage_28_priests_barrack").barrack
 		barrack.rally_range = barrack.rally_range * rally_range_factor
@@ -1447,7 +1443,7 @@ function upgrades:patch_templates(max_level)
 		end
 		st = T(T("tower_blade").barrack.soldier_type)
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_special_elf").barrack.soldier_type)
+		st = T("kr4_elven_warrior")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
 		st = T(T("tower_drow").barrack.soldier_type)
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
@@ -1466,15 +1462,15 @@ function upgrades:patch_templates(max_level)
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
 		st = T(T("tower_barrack_amazonas").barrack.soldier_type)
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_barrack_pirates").barrack.soldier_type)
+		st = T("soldier_pirate_captain")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_barrack_pirates_w_flamer").barrack.soldier_type)
+		st = T("soldier_pirate_flamer")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_barrack_pirates_w_anchor").barrack.soldier_type)
+		st = T("soldier_pirate_anchor")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_stage_28_priests_barrack").barrack.soldier_type)
+		st = T("soldier_priests_barrack")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
-		st = T(T("tower_barrack_mercenaries").barrack.soldier_type)
+		st = T("soldier_djinn")
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
 		st = T(T("tower_ewok").barrack.soldier_type)
 		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
@@ -1829,7 +1825,7 @@ function upgrades:patch_templates(max_level)
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 
-			soldier_t = T(T("tower_special_elf").barrack.soldier_type)
+			soldier_t = T("kr4_elven_warrior")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 			bullet_t = T(soldier_t.timed_attacks.list[1].bullet)
@@ -1957,26 +1953,22 @@ function upgrades:patch_templates(max_level)
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 
-			tower_t = T("tower_barrack_pirates")
-			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t = T("soldier_pirate_captain")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 
-			tower_t = T("tower_barrack_pirates_w_flamer")
-			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t = T("soldier_pirate_flamer")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
 			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
 			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
 
-			tower_t = T("tower_barrack_pirates_w_anchor")
-			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t = T("soldier_pirate_anchor")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 
-			tower_t = T("tower_stage_28_priests_barrack")
-			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t = T("soldier_priests_barrack")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
@@ -1986,8 +1978,7 @@ function upgrades:patch_templates(max_level)
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 
-			tower_t = T("tower_barrack_mercenaries")
-			soldier_t = T(tower_t.barrack.soldier_type)
+			soldier_t = T("soldier_djinn")
 			soldier_t.melee.attacks[1].damage_min = math.ceil(soldier_t.melee.attacks[1].damage_min * d_mult)
 			soldier_t.melee.attacks[1].damage_max = math.ceil(soldier_t.melee.attacks[1].damage_max * d_mult)
 

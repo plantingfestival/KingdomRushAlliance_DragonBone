@@ -3133,18 +3133,18 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].prefix = "tower_merc_camp_pirates"
 tt.render.sprites[2].name = "idle"
 tt.render.sprites[2].offset = v(0, 35)
-tt.barrack.soldier_type = "soldier_pirate_captain"
+tt.barrack.soldier_type = {}
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
 tt.barrack.max_soldiers = 0
 
-tt = E:register_t("tower_barrack_pirates_w_flamer", "tower_barrack_pirates")
-tt.tower.type = "mercenaries_pirates_w_flamer"
-tt.barrack.soldier_type = "soldier_pirate_flamer"
+-- tt = E:register_t("tower_barrack_pirates_w_flamer", "tower_barrack_pirates")
+-- tt.tower.type = "mercenaries_pirates_w_flamer"
+-- tt.barrack.soldier_type = "soldier_pirate_flamer"
 
-tt = E:register_t("tower_barrack_pirates_w_anchor", "tower_barrack_pirates")
-tt.tower.type = "mercenaries_pirates_w_anchor"
-tt.barrack.soldier_type = "soldier_pirate_anchor"
+-- tt = E:register_t("tower_barrack_pirates_w_anchor", "tower_barrack_pirates")
+-- tt.tower.type = "mercenaries_pirates_w_anchor"
+-- tt.barrack.soldier_type = "soldier_pirate_anchor"
 
 tt = E:register_t("soldier_pirate_captain", "soldier_militia")
 E:add_comps(tt, "pickpocket", "timed_actions", "nav_grid")
@@ -3476,7 +3476,7 @@ tt.render.sprites[4] = E:clone_c("sprite")
 tt.render.sprites[4].name = "tower_merc_camp_desert_fire"
 tt.render.sprites[4].offset = v(23, 15)
 tt.render.sprites[4].ts = 0.08
-tt.barrack.soldier_type = "soldier_djinn"
+-- tt.barrack.soldier_type = "soldier_djinn"
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
 

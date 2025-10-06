@@ -529,8 +529,11 @@ scripts.tower_special_mercenaries = {}
 function scripts.tower_special_mercenaries.update(this, store, script)
 	local b = this.barrack
 	local door_sid = this.render.door_sid or 2
-	if this.tower_upgrade_persistent_data.max_soldiers then
-		b.max_soldiers = this.tower_upgrade_persistent_data.max_soldiers
+	if this.tower_upgrade_persistent_data.soldier_type then
+		b.soldier_type = this.tower_upgrade_persistent_data.soldier_type
+		b.max_soldiers = #b.soldier_type
+	else
+		this.tower_upgrade_persistent_data.soldier_type = b.soldier_type
 	end
 
 	while true do
@@ -547,18 +550,16 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 		end
 
 		if b.unit_bought then
+			table.insert(b.soldier_type, b.unit_bought)
 			b.max_soldiers = b.max_soldiers + 1
-			this.tower_upgrade_persistent_data.max_soldiers = b.max_soldiers
 
 			for i, ss in ipairs(b.soldiers) do
 				ss.nav_rally.pos, ss.nav_rally.center = U.rally_formation_position(i, b, b.max_soldiers, b.rally_angle_offset)
 			end
 
-			b.unit_bought = nil
-
-			local price = E:get_template(b.soldier_type).unit.price[this.barrack.max_soldiers]
-
+			local price = E:get_template(b.unit_bought).unit.price[this.barrack.max_soldiers]
 			store.player_gold = store.player_gold - price
+			b.unit_bought = nil
 		end
 
 		if b.rally_new then
@@ -590,7 +591,7 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 		end
 
 		if not this.tower.blocked then
-			for i = 1, this.barrack.max_soldiers do
+			for i = 1, b.max_soldiers do
 				local s = b.soldiers[i]
 
 				if not s or s.health.dead and not store.entities[s.id] then
@@ -604,7 +605,7 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 
 					S:queue(this.spawn_sound)
 
-					s = E:create_entity(b.soldier_type)
+					s = E:create_entity(b.soldier_type[i])
 					s.soldier.tower_id = this.id
 					s.soldier.tower_soldier_idx = i
 					s.pos = V.v(V.add(this.pos.x, this.pos.y, b.respawn_offset.x, b.respawn_offset.y))
