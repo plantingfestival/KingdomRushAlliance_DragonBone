@@ -1576,7 +1576,12 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 			end
 
 			b.bullet.from = V.vclone(b.pos)
-			b.bullet.to = V.v(final_target.pos.x + final_target.unit.hit_offset.x, final_target.pos.y + final_target.unit.hit_offset.y)
+			b.bullet.to = V.v(final_target.pos.x, final_target.pos.y)
+			if not attack.ignore_hit_offset and final_target.unit.hit_offset and final_target.render then
+				local flip_sign = final_target.render.sprites[1].flip_x and -1 or 1
+				b.bullet.to.x = b.bullet.to.x + final_target.unit.hit_offset.x * flip_sign
+				b.bullet.to.y = b.bullet.to.y + final_target.unit.hit_offset.y
+			end
 			b.bullet.target_id = final_target.id
 			b.bullet.shot_index = si
 			b.bullet.loop_index = i
@@ -1585,6 +1590,16 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 
 			if IS_KR5 and attack.level then
 				b.bullet.level = attack.level
+			end
+
+			if b.bullet.use_unit_damage_factor then
+				b.bullet.damage_factor = this.unit.damage_factor
+			end
+			if b.bullet.vis_bans and U.flag_has(b.bullet.vis_bans, F_ENEMY) then
+				b.bullet.vis_bans = bor(U.flag_clear(b.bullet.vis_bans, F_ENEMY), F_FRIEND)
+			end
+			if b.bullet.damage_bans and U.flag_has(b.bullet.damage_bans, F_ENEMY) then
+				b.bullet.damage_bans = bor(U.flag_clear(b.bullet.damage_bans, F_ENEMY), F_FRIEND)
 			end
 
 			queue_insert(store, b)
@@ -1672,8 +1687,9 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 		bullet.bullet.from = V.vclone(bullet.pos)
 		bullet.bullet.to = V.vclone(bullet_to)
 
-		if not attack.ignore_hit_offset then
-			bullet.bullet.to.x = bullet.bullet.to.x + target.unit.hit_offset.x
+		if not attack.ignore_hit_offset and target.unit.hit_offset and target.render then
+			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+			bullet.bullet.to.x = bullet.bullet.to.x + target.unit.hit_offset.x * flip_sign
 			bullet.bullet.to.y = bullet.bullet.to.y + target.unit.hit_offset.y
 		end
 
@@ -1684,6 +1700,12 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 
 		if bullet.bullet.use_unit_damage_factor then
 			bullet.bullet.damage_factor = this.unit.damage_factor
+		end
+		if bullet.bullet.vis_bans and U.flag_has(bullet.bullet.vis_bans, F_ENEMY) then
+			bullet.bullet.vis_bans = bor(U.flag_clear(bullet.bullet.vis_bans, F_ENEMY), F_FRIEND)
+		end
+		if bullet.bullet.damage_bans and U.flag_has(bullet.bullet.damage_bans, F_ENEMY) then
+			bullet.bullet.damage_bans = bor(U.flag_clear(bullet.bullet.damage_bans, F_ENEMY), F_FRIEND)
 		end
 
 		queue_insert(store, bullet)

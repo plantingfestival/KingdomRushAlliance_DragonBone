@@ -37434,7 +37434,7 @@ tt.bullet.damage_type = DAMAGE_MAGICAL
 tt.bullet.xp_gain_factor = b.basic_breath_attack.xp_gain_factor
 tt.bullet.ignore_hit_offset = nil
 tt.initial_impulse_angle_abs = nil
-tt.initial_impulse_angle_relative = math.pi / 6
+tt.initial_impulse_angle_relative = math.pi / 12
 tt.force_motion.max_v = 400
 tt.main_script.update = customScripts1.custom_bolt.update
 
