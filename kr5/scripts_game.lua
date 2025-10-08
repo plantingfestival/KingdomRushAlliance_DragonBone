@@ -37846,7 +37846,7 @@ function scripts.mod_hero_dragon_arb_bleed.update(this, store, script)
 
 			do_damage(target, damage, dps.damage_type)
 
-			if dps.fx and (not dps.fx_every or store.tick_ts - fx_ts >= dps.fx_every) then
+			if target.unit.blood_color and dps.fx and (not dps.fx_every or store.tick_ts - fx_ts >= dps.fx_every) then
 				fx_ts = store.tick_ts
 
 				local fx = E:create_entity(dps.fx)
@@ -37873,7 +37873,7 @@ function scripts.mod_hero_dragon_arb_bleed.update(this, store, script)
 					fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
 				end
 
-				if fx.render.sprites[1].use_blood_color and target.unit.blood_color then
+				if fx.render.sprites[1].use_blood_color then
 					fx.render.sprites[1].name = fx.render.sprites[1].name .. "_" .. target.unit.blood_color
 				end
 

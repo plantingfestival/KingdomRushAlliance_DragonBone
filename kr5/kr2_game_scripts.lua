@@ -7742,7 +7742,8 @@ end
 scripts.enemy_elvira = {}
 
 function scripts.enemy_elvira.can_lifesteal(this, store, attack, target)
-	return target.template_name ~= "soldier_death_rider" and target.template_name ~= "soldier_skeleton" and target.template_name ~= "soldier_skeleton_knight" and this.enemy.can_do_magic and this.health.hp / this.health.hp_max < attack.health_trigger_factor
+	return target.template_name ~= "soldier_death_rider" and target.template_name ~= "soldier_skeleton" and target.template_name ~= "soldier_skeleton_knight" and 
+	this.enemy and this.enemy.can_do_magic and this.health.hp / this.health.hp_max < attack.health_trigger_factor
 end
 
 scripts.mod_elvira_lifesteal = {}
