@@ -591,6 +591,8 @@ local d = {
 		"hero_priest",
 		"hero_voodoo_witch",
 		"hero_wizard",
+		"hero_monk",
+		"hero_monkey_god",
 		"hero_dwarf",
 		"hero_vampiress",
 		"hero_elves_archer",

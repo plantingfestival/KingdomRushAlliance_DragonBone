@@ -1190,6 +1190,8 @@ function upgrades:patch_templates(max_level)
 		"hero_priest",
 		"hero_wizard",
 		"hero_dragon",
+		"hero_monk",
+		"hero_monkey_god",
 		"hero_dwarf",
 		"hero_vampiress",
 		"hero_elves_archer",

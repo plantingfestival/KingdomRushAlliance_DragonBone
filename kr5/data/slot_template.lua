@@ -326,6 +326,8 @@ return {
 			kr4_hero_alleria = 1,
 			hero_dragon = 1,
 			hero_wizard = 1,
+			hero_monk = 1,
+			hero_monkey_god = 1,
 			hero_dwarf = 1,
 			hero_vampiress = 1,
 			hero_elves_archer = 1,

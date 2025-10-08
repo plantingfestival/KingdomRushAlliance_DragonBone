@@ -7716,10 +7716,12 @@ tt.main_script.update = kr2_scripts.mod_dps.update
 tt = E:register_t("mod_slow_kraken", "mod_slow")
 tt.modifier.duration = fts(10)
 tt.slow.factor = 0.5
-tt = E:register_t("hero_monk", "hero")
 
+tt = E:register_t("controller_item_hero_monk", "controller_item_hero")
+tt.entity = "hero_monk"
+
+tt = E:register_t("hero_monk", "hero5")
 E:add_comps(tt, "dodge", "melee", "timed_attacks")
-
 anchor_y = 0.18446601941747573
 image_y = 206
 tt.hero.level_stats.hp_max = {
@@ -7760,33 +7762,33 @@ tt.hero.level_stats.armor = {
 }
 tt.hero.level_stats.melee_damage_min = {
 	10,
-	11,
-	13,
+	12,
 	14,
 	16,
 	18,
-	19,
-	21,
+	20,
 	22,
-	24
+	24,
+	26,
+	28
 }
 tt.hero.level_stats.melee_damage_max = {
 	14,
 	17,
-	19,
-	22,
-	24,
+	20,
+	23,
 	26,
 	29,
-	31,
-	34,
-	36
+	32,
+	35,
+	38,
+	41
 }
 tt.hero.skills.snakestyle = E:clone_c("hero_skill")
 tt.hero.skills.snakestyle.damage = {
 	40,
-	60,
-	80
+	80,
+	120
 }
 tt.hero.skills.snakestyle.damage_reduction_factor = {
 	0.2,
@@ -7797,20 +7799,20 @@ tt.hero.skills.snakestyle.xp_gain_factor = 35
 tt.hero.skills.dragonstyle = E:clone_c("hero_skill")
 tt.hero.skills.dragonstyle.damage_max = {
 	75,
-	120,
-	160
+	150,
+	225
 }
 tt.hero.skills.dragonstyle.damage_min = {
 	25,
-	40,
-	80
+	50,
+	100
 }
 tt.hero.skills.dragonstyle.xp_gain_factor = 90
 tt.hero.skills.tigerstyle = E:clone_c("hero_skill")
 tt.hero.skills.tigerstyle.damage = {
 	30,
-	50,
-	70
+	60,
+	90
 }
 tt.hero.skills.tigerstyle.xp_gain_factor = 20
 tt.hero.skills.leopardstyle = E:clone_c("hero_skill")
@@ -7821,25 +7823,25 @@ tt.hero.skills.leopardstyle.loops = {
 }
 tt.hero.skills.leopardstyle.damage_max = {
 	30,
-	36,
-	42
+	45,
+	60
 }
 tt.hero.skills.leopardstyle.damage_min = {
 	10,
-	12,
-	14
+	20,
+	30
 }
 tt.hero.skills.leopardstyle.xp_gain_factor = 30
 tt.hero.skills.cranestyle = E:clone_c("hero_skill")
 tt.hero.skills.cranestyle.damage = {
-	20,
-	40,
-	60
+	25,
+	50,
+	75
 }
 tt.hero.skills.cranestyle.chance = {
-	0.2,
-	0.4,
-	0.6
+	0.25,
+	0.5,
+	0.75
 }
 tt.hero.skills.cranestyle.xp_gain_factor = 15
 tt.hero.skills.snakestyle.hr_cost = {
@@ -7886,8 +7888,8 @@ tt.hero.fn_level_up = kr2_scripts.hero_monk.level_up
 tt.hero.tombstone_show_time = fts(66)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_monk.get_info
-tt.info.hero_portrait = "hero_portraits_0013"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0016" or "info_portraits_heroes_0015"
+-- tt.info.hero_portrait = "hero_portraits_0013"
+tt.info.portrait = "portraits_hero_0134"
 tt.main_script.insert = kr2_scripts.hero_monk.insert
 tt.main_script.update = kr2_scripts.hero_monk.update
 tt.motion.max_speed = 90
@@ -7940,6 +7942,7 @@ tt.melee.attacks[4].chance = 1
 tt.melee.attacks[4].cooldown = 14
 tt.melee.attacks[4].damage_max = nil
 tt.melee.attacks[4].damage_min = nil
+tt.melee.attacks[4].damage_type = DAMAGE_TRUE
 tt.melee.attacks[4].hit_time = fts(18)
 tt.melee.attacks[4].mod = "mod_monk_damage_reduction"
 tt.melee.attacks[4].sound = "HeroMonkSnakeAttack"
@@ -7962,8 +7965,10 @@ tt.timed_attacks.list[1].animation = "dragon"
 tt.timed_attacks.list[1].cooldown = 16
 tt.timed_attacks.list[1].damage_max = nil
 tt.timed_attacks.list[1].damage_min = nil
+tt.timed_attacks.list[1].vis_bans = 0
 tt.timed_attacks.list[1].damage_flags = bor(F_AREA)
-tt.timed_attacks.list[1].damage_radius = 50
+tt.timed_attacks.list[1].damage_bans = 0
+tt.timed_attacks.list[1].damage_radius = 60
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].hit_time = fts(26)
@@ -7991,7 +7996,7 @@ tt.timed_attacks.list[2].particle_pos = {
 	v(18, 14),
 	v(21, 18)
 }
-tt.timed_attacks.list[2].vis_bans = bor(F_FLYING, F_BOSS, F_WATER, F_CLIFF)
+tt.timed_attacks.list[2].vis_bans = bor(F_FLYING, F_BOSS, F_WATER, F_CLIFF, F_NIGHTMARE)
 tt.timed_attacks.list[2].vis_flags = bor(F_STUN, F_RANGED)
 tt.timed_attacks.list[2].loops = nil
 tt.timed_attacks.list[2].range = 100
@@ -9656,10 +9661,12 @@ tt.tween.props[1].keys = {
 }
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "minotaur_axeDecal"
-tt = E:register_t("hero_monkey_god", "hero")
 
+tt = E:register_t("controller_item_hero_monkey_god", "controller_item_hero")
+tt.entity = "hero_monkey_god"
+
+tt = E:register_t("hero_monkey_god", "hero5")
 E:add_comps(tt, "melee", "timed_attacks")
-
 image_y = 148
 anchor_y = 28 / image_y
 tt.hero.level_stats.hp_max = {
@@ -9701,44 +9708,44 @@ tt.hero.level_stats.armor = {
 tt.hero.level_stats.damage_min = {
 	8,
 	10,
-	11,
-	13,
+	12,
 	14,
-	15,
-	17,
+	16,
 	18,
 	20,
-	21
+	22,
+	24,
+	26
 }
 tt.hero.level_stats.damage_max = {
 	16,
-	18,
-	21,
-	23,
-	26,
-	29,
+	19,
+	22,
+	25,
+	28,
 	31,
 	34,
-	36,
-	39
+	37,
+	40,
+	43
 }
 tt.hero.skills.spinningpole = E:clone_c("hero_skill")
 tt.hero.skills.spinningpole.xp_gain_factor = 7
 tt.hero.skills.spinningpole.loops = {
 	2,
-	3,
-	4
+	4,
+	6
 }
 tt.hero.skills.spinningpole.damage = {
 	16,
-	23,
-	27
+	24,
+	32
 }
 tt.hero.skills.tetsubostorm = E:clone_c("hero_skill")
 tt.hero.skills.tetsubostorm.damage = {
-	36.666666666666664,
-	60,
-	86.66666666666667
+	40,
+	80,
+	120
 }
 tt.hero.skills.tetsubostorm.xp_gain_factor = 15
 tt.hero.skills.monkeypalm = E:clone_c("hero_skill")
@@ -9755,21 +9762,21 @@ tt.hero.skills.monkeypalm.silence_duration = {
 tt.hero.skills.monkeypalm.xp_gain_factor = 120
 tt.hero.skills.angrygod = E:clone_c("hero_skill")
 tt.hero.skills.angrygod.received_damage_factor = {
-	1.25,
-	1.45,
-	1.65
+	1.2,
+	1.4,
+	1.6
 }
 tt.hero.skills.angrygod.xp_gain_factor = 15
 tt.hero.skills.divinenature = E:clone_c("hero_skill")
 tt.hero.skills.divinenature.hp = {
 	1,
-	1,
+	2,
 	3
 }
 tt.hero.skills.divinenature.cooldown = {
-	fts(10),
-	fts(5),
-	fts(10)
+	fts(6),
+	fts(6),
+	fts(6)
 }
 tt.hero.skills.spinningpole.hr_cost = {
 	3,
@@ -9812,11 +9819,12 @@ tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_monkey_god.level_up
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(30)
 tt.idle_flip.cooldown = 2
 tt.info.fn = kr2_scripts.hero_monkey_god.get_info
-tt.info.hero_portrait = "hero_portraits_0020"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0024" or "info_portraits_heroes_0024"
+-- tt.info.hero_portrait = "hero_portraits_0020"
+tt.info.portrait = "portraits_hero_0133"
 tt.main_script.insert = kr2_scripts.hero_monkey_god.insert
 tt.main_script.update = kr2_scripts.hero_monkey_god.update
 tt.motion.max_speed = 90
@@ -9861,6 +9869,7 @@ tt.cloudwalk.hit_offset = v(0, 60)
 tt.cloudwalk.mod_offset = v(0, 64)
 tt.melee.attacks[1] = E:clone_c("melee_attack")
 tt.melee.attacks[1].hit_time = fts(8)
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].shared_cooldown = true
 tt.melee.attacks[1].sound = "HeroMonkeyGodAttack1"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF)
@@ -9880,14 +9889,14 @@ tt.melee.attacks[3].cooldown = 20
 tt.melee.attacks[3].damage_max = nil
 tt.melee.attacks[3].damage_min = nil
 tt.melee.attacks[3].damage_radius = 90
-tt.melee.attacks[3].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[3].damage_type = DAMAGE_TRUE
 tt.melee.attacks[3].disabled = true
 tt.melee.attacks[3].fn_can = kr2_scripts.hero_monkey_god.can_spinningpole
 tt.melee.attacks[3].hit_time = fts(8)
 tt.melee.attacks[3].loopable = true
 tt.melee.attacks[3].loops = nil
 tt.melee.attacks[3].min_count = 2
-tt.melee.attacks[3].vis_bans = bor(F_FLYING, F_CLIFF)
+tt.melee.attacks[3].vis_bans = bor(F_FRIEND)
 tt.melee.attacks[3].vis_flags = F_BLOCK
 tt.melee.attacks[3].xp_gain_factor = 3
 tt.melee.attacks[3].xp_from_skill = "spinningpole"
@@ -9902,6 +9911,7 @@ tt.melee.attacks[4].animations = {
 tt.melee.attacks[4].cooldown = 20
 tt.melee.attacks[4].damage_max = nil
 tt.melee.attacks[4].damage_min = nil
+tt.melee.attacks[4].damage_type = DAMAGE_TRUE
 tt.melee.attacks[4].disabled = true
 tt.melee.attacks[4].hit_times = {
 	fts(1),
@@ -9910,7 +9920,7 @@ tt.melee.attacks[4].hit_times = {
 }
 tt.melee.attacks[4].loopable = true
 tt.melee.attacks[4].loops = 1
-tt.melee.attacks[4].vis_bans = bor(F_FLYING, F_CLIFF, F_BOSS)
+tt.melee.attacks[4].vis_bans = bor(F_FLYING, F_CLIFF, F_WATER)
 tt.melee.attacks[4].vis_flags = F_BLOCK
 tt.melee.attacks[4].xp_gain_factor = 5
 tt.melee.attacks[4].xp_from_skill = "tetsubostorm"
@@ -9918,10 +9928,12 @@ tt.melee.attacks[4].sound = "HeroMonkeyGodTetsuboStorm"
 tt.melee.attacks[5] = E:clone_c("melee_attack")
 tt.melee.attacks[5].animation = "palm"
 tt.melee.attacks[5].disabled = true
-tt.melee.attacks[5].damage_type = DAMAGE_NONE
+tt.melee.attacks[5].damage_type = DAMAGE_TRUE
+tt.melee.attacks[5].damage_min = 120
+tt.melee.attacks[5].damage_max = 120
 tt.melee.attacks[5].mod = "mod_monkey_god_palm"
-tt.melee.attacks[5].vis_bans = bor(F_BOSS, F_STUN)
-tt.melee.attacks[5].vis_flags = F_BLOCK
+tt.melee.attacks[5].vis_bans = bor(F_BOSS, F_MINIBOSS)
+tt.melee.attacks[5].vis_flags = bor(F_BLOCK, F_STUN)
 tt.melee.attacks[5].xp_from_skill = "monkeypalm"
 tt.melee.attacks[5].sound = "HeroMonkeyGodMonkeyPalm"
 tt.melee.attacks[5].hit_time = fts(12)
@@ -9934,7 +9946,7 @@ tt.timed_attacks.list[1].animations = {
 	"angry_loop",
 	"angry_end"
 }
-tt.timed_attacks.list[1].cooldown = 45
+tt.timed_attacks.list[1].cooldown = 32
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].loops = 8
 tt.timed_attacks.list[1].min_count = 5
@@ -9942,14 +9954,17 @@ tt.timed_attacks.list[1].vis_flags = F_RANGED
 tt.timed_attacks.list[1].vis_bans = bor(F_BOSS)
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 9999
-tt.timed_attacks.list[1].mod = "mod_monkey_god_angry"
+tt.timed_attacks.list[1].mods = {
+	"mod_monkey_god_angry",
+	"mod_monkey_god_angry_damage"
+}
 tt.timed_attacks.list[1].sound_start = "HeroMonkeyGodAngryGodScream"
 tt.timed_attacks.list[1].sound_loop = "HeroMonkeyGodAngryGodLoop"
+
 tt = E:register_t("aura_monkey_god_divinenature", "aura_beastmaster_regeneration")
+
 tt = E:register_t("mod_monkey_god_angry", "modifier")
-
 E:add_comps(tt, "render")
-
 tt.received_damage_factor = nil
 tt.inflicted_damage_factor = 1
 tt.modifier.duration = 2
@@ -9966,10 +9981,14 @@ tt.render.sprites[1].size_scales = {
 }
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].anchor.y = 0.46551724137931033
+
+tt = E:register_t("mod_monkey_god_angry_damage", "mod_damage")
+tt.damage_min = 20
+tt.damage_max = 25
+tt.damage_type = DAMAGE_TRUE
+
 tt = E:register_t("mod_monkey_god_palm", "modifier")
-
 E:add_comps(tt, "render")
-
 tt.main_script.insert = kr2_scripts.mod_monkey_god_palm.insert
 tt.main_script.remove = kr2_scripts.mod_monkey_god_palm.remove
 tt.main_script.update = kr2_scripts.mod_track_target.update

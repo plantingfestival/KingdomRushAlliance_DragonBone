@@ -14995,16 +14995,14 @@ function scripts.hero_dragon.update(this, store)
 
 	while true do
 		if h.dead then
-			-- this.render.sprites[1].z = Z_OBJECTS
-			-- this.render.sprites[1].sort_y_offset = 0
 			SU.y_hero_death_and_respawn(store, this)
-			-- this.render.sprites[1].z = Z_FLYING_HEROES
-			-- this.render.sprites[1].sort_y_offset = -200
 			force_idle_ts = true
 		end
 
-		SU.alliance_merciless_upgrade(store, this)
-		SU.alliance_corageous_upgrade(store, this)
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this, force_idle_ts)
+			goto label_362_1
+		end
 
 		while this.nav_rally.new do
 			SU.y_hero_new_rally(store, this)
@@ -15013,6 +15011,9 @@ function scripts.hero_dragon.update(this, store)
 		if SU.hero_level_up(store, this) then
 			U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 		end
+
+		SU.alliance_merciless_upgrade(store, this)
+		SU.alliance_corageous_upgrade(store, this)
 
 		a = this.timed_attacks.list[1]
 		skill = this.hero.skills.feast
@@ -15892,6 +15893,9 @@ function scripts.hero_monk.update(this, store, script)
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 			end
 
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
 			a = this.timed_attacks.list[1]
 			skill = this.hero.skills.dragonstyle
 
@@ -16075,7 +16079,7 @@ function scripts.hero_monk.update(this, store, script)
 
 			::label_372_1::
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty
@@ -18922,8 +18926,8 @@ function scripts.hero_monkey_god.get_info(this)
 		type = STATS_TYPE_SOLDIER,
 		hp = this.health.hp,
 		hp_max = this.health.hp_max,
-		damage_min = min,
-		damage_max = max,
+		damage_min = math.ceil(this.unit.damage_factor * min),
+		damage_max = math.ceil(this.unit.damage_factor * max),
 		armor = this.health.armor,
 		respawn = this.health.dead_lifetime
 	}
@@ -18987,7 +18991,7 @@ function scripts.hero_monkey_god.level_up(this, store, initial)
 		a = this.timed_attacks.list[1]
 		a.disabled = nil
 
-		local m = E:get_template(a.mod)
+		local m = E:get_template(a.mods[1])
 
 		m.received_damage_factor = s.received_damage_factor[s.level]
 	end
@@ -19152,6 +19156,9 @@ function scripts.hero_monkey_god.update(this, store)
 				U.y_animation_play(this, "levelup", nil, store.tick_ts, 1)
 			end
 
+			SU.alliance_merciless_upgrade(store, this)
+			SU.alliance_corageous_upgrade(store, this)
+
 			a = this.timed_attacks.list[1]
 			skill = this.hero.skills.angrygod
 
@@ -19181,14 +19188,18 @@ function scripts.hero_monkey_god.update(this, store)
 
 							if targets then
 								for _, target in pairs(targets) do
-									local m = E:create_entity(a.mod)
-
-									m.modifier.target_id = target.id
-									m.modifier.source_id = this.id
-									m.modifier.duration = m.modifier.duration + U.frandom(-0.15, 0.15)
-									m.render.sprites[1].ts = store.tick_ts
-
-									queue_insert(store, m)
+									for _, mod_name in ipairs(a.mods) do
+										local m = E:create_entity(mod_name)
+										m.modifier.target_id = target.id
+										m.modifier.source_id = this.id
+										if m.modifier.duration then
+											m.modifier.duration = m.modifier.duration + U.frandom(-0.15, 0.15)
+										end
+										if m.render then
+											m.render.sprites[1].ts = store.tick_ts
+										end
+										queue_insert(store, m)
+									end
 								end
 							end
 
@@ -19211,7 +19222,7 @@ function scripts.hero_monkey_god.update(this, store)
 				end
 			end
 
-			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
+			brk, sta = y_hero_melee_block_and_attacks(store, this)
 
 			if brk or sta ~= A_NO_TARGET then
 				-- block empty

@@ -2947,6 +2947,24 @@ function scripts.soldier_drow.update(this, store)
 		this.vis._bans = nil
 	end
 
+	local function check_tower_damage_factor()
+		local tower = store.entities[this.soldier.tower_id]
+		if tower then
+			for _, a in ipairs(this.melee.attacks) do
+				if not a._original_damage_min then
+					a._original_damage_min = a.damage_min
+				end
+
+				if not a._original_damage_max then
+					a._original_damage_max = a.damage_max
+				end
+
+				a.damage_min = a._original_damage_min * tower.tower.damage_factor
+				a.damage_max = a._original_damage_max * tower.tower.damage_factor
+			end
+		end
+	end
+
 	while true do
 		if this.powers then
 			for pn, p in pairs(this.powers) do
@@ -2989,6 +3007,8 @@ function scripts.soldier_drow.update(this, store)
 					goto label_61_1
 				end
 			end
+
+			check_tower_damage_factor()
 
 			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
 

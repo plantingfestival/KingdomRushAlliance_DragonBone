@@ -1504,6 +1504,42 @@ return {
 			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
+	item_hero_monkey_god = {
+		files = {
+			"Saitam-confirm_01b[2].ogg",
+			"Saitam-confirm_02c[2].ogg",
+			"Saitam_confirm-03c.ogg",
+			"Saitam_confirm-04c.ogg",
+			"Saitam_confirm-05c.ogg",
+			"krf_toee_saitam_angrygod[flames-loop].ogg",
+			"krf_toee_saitam_monkeypalm[op1].ogg",
+			"krf_toee_saitam_attack[op1].ogg",
+			"krf_toee_saitam_polespin[loop-end].ogg",
+			"krf_toee_saitam_clouddrop.ogg",
+			"krf_toee_saitam_polespin[loop].ogg",
+			"krf_toee_saitam_cloudtransport.ogg",
+			"krf_toee_saitam_angrygod[scream].ogg",
+			"krf_toee_saitam_tetsubostorm[op1].ogg",
+			"krf_toee_saitam_cloudclimb_v2[op2].ogg",
+			"krf_toee_saitam_attack[op2].ogg",
+		}
+	},
+	item_hero_monk = {
+		files = {
+			"Hero_Monk_Hadoken.ogg",
+			"Hero_Monk_Counter.ogg",
+			"Hero_Monk_Multihit_scream_1.ogg",
+			"Hero_Monk_Multihit_scream_2.ogg",
+			"Hero_Monk_Multihit_punch.ogg",
+			"Hero_Monk_Snake_attack.ogg",
+			"Monk_01c.ogg",
+			"Monk_02b.ogg",
+			"Monk_03c.ogg",
+			"Monk_04b.ogg",
+			"Hero_Monk_Firedragon.ogg",
+			"Monk_Death.ogg",
+		}
+	},
 	item_hero_vampiress = {
 		files = {
 			"Vampiress-01c.ogg",
