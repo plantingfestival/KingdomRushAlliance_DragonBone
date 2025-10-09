@@ -1522,6 +1522,7 @@ return {
 			"krf_toee_saitam_tetsubostorm[op1].ogg",
 			"krf_toee_saitam_cloudclimb_v2[op2].ogg",
 			"krf_toee_saitam_attack[op2].ogg",
+			"Saitam-death_01b[2].ogg",
 		}
 	},
 	item_hero_monk = {

@@ -755,7 +755,8 @@ function sys.wave_spawn_tsv.cmd_fns.spawn(store, cmd, wave_name)
 
 		if store.extra_enemies and store.extra_enemies > 0 then
 			for i = 1, store.extra_enemies do
-				e = E:create_entity(o.enemy)
+				U.y_wait(store, fts(3))
+				local e = E:create_entity(o.enemy)
 				if e then
 					local path = P.paths[o.pi]
 					e.nav_path.pi = o.pi
@@ -767,7 +768,6 @@ function sys.wave_spawn_tsv.cmd_fns.spawn(store, cmd, wave_name)
 					if e.enemy then
 						e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 					end
-					U.y_wait(store, fts(2))
 					queue_insert(store, e)
 				end
 			end
@@ -1067,12 +1067,13 @@ local function spawner(store, wave)
 
 				current_count = current_count + 1
 			else
-				log.error("Entity template not found for %s.", s.crep)
+				log.error("Entity template not found for %s.", s.creep)
 			end
 
 			if store.extra_enemies and store.extra_enemies > 0 then
 				for i = 1, store.extra_enemies do
-					e = E:create_entity(current_creep)
+					U.y_wait(store, fts(3))
+					local e = E:create_entity(current_creep)
 					if e then
 						e.nav_path.pi = pi
 						e.nav_path.spi = s.fixed_sub_path == 1 and km.zmod(s.path + i, 3) or math.random(#path)
@@ -1084,7 +1085,6 @@ local function spawner(store, wave)
 						if e.enemy then
 							e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 						end
-						U.y_wait(store, fts(2))
 						queue_insert(store, e)
 					end
 				end

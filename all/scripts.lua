@@ -6989,7 +6989,8 @@ function scripts.mega_spawner.update(this, store)
 
 						if store.extra_enemies and store.extra_enemies > 0 then
 							for i = 1, store.extra_enemies do
-								e = E:create_entity(template)
+								U.y_wait(store, fts(3))
+								local e = E:create_entity(template)
 								e.nav_path.pi = node.pi
 								e.nav_path.spi = km.zmod(node.spi + i, 3)
 								e.nav_path.ni = node.ni
@@ -7005,7 +7006,6 @@ function scripts.mega_spawner.update(this, store)
 								if e.enemy then
 									e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 								end
-								U.y_wait(store, fts(2))
 								queue_insert(store, e)
 							end
 						end

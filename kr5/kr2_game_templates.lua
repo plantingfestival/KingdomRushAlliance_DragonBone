@@ -7885,6 +7885,7 @@ tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 38)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_monk.level_up
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(66)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_monk.get_info
