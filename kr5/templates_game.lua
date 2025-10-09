@@ -21393,16 +21393,25 @@ tt.health.armor = b.armor
 tt.motion.max_speed = b.max_speed
 tt.soldier.melee_slot_offset = v(12, 0)
 tt.ignore_linirea_true_might_revive = true
+
 tt = E:register_t("fx_hero_wukong_ultimate", "decal_scripted")
-
 E:add_comps(tt, "sound_events")
-
 tt.main_script.update = scripts.multi_sprite_fx.update
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon"
 tt.render.sprites[1].scale = vv(1)
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].sort_y_offset = -10
 tt.sound_events.insert = "HeroWukongUltimate"
+
+tt = E:register_t("fx_hero_wukong_ultimate_blue", "fx_hero_wukong_ultimate")
+tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_blue"
+
+tt = E:register_t("fx_hero_wukong_ultimate_red", "fx_hero_wukong_ultimate")
+tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_red"
+
+tt = E:register_t("fx_hero_wukong_ultimate_yellow", "fx_hero_wukong_ultimate")
+tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_yellow"
+
 tt = E:register_t("fx_hero_wukong_ultimate_cracks", "decal_tween")
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_cracks_floor"
 tt.render.sprites[1].animated = true
@@ -46792,7 +46801,16 @@ tt.damage = nil
 tt.damage_type = b.damage_type
 tt.damage_flags = bor(F_AREA)
 tt.damage_bans = 0
-tt.dragon_fx = "fx_hero_wukong_ultimate"
+tt.dragon_index = 1
+tt.dragon_count = 1
+tt.dragon_spacing = 8
+tt.dragon_interval = 0.1
+tt.dragon_fx = {
+	"fx_hero_wukong_ultimate",
+	"fx_hero_wukong_ultimate_blue",
+	"fx_hero_wukong_ultimate_red",
+	"fx_hero_wukong_ultimate_yellow",
+}
 tt.dragon_fx_cracks = "fx_hero_wukong_ultimate_cracks"
 tt.explosion_fx = "fx_hero_wukong_ultimate_explosion"
 tt.sound_events.insert = "HeroSpiderGlobalCocoons"

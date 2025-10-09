@@ -6008,9 +6008,9 @@ local heroes = {
 			},
 			damage_total = {
 				200,
+				300,
 				400,
-				600,
-				800
+				500
 			},
 			damage_type = DAMAGE_TRUE,
 			slow_duration = {

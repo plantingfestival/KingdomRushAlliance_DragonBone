@@ -39578,6 +39578,7 @@ function scripts.hero_wukong.level_up(this, store, initial)
 
 		uc.cooldown = s.cooldown[sl]
 		uc.damage = s.damage_total[sl] / #uc.damage_times
+		uc.dragon_count = sl
 
 		local u_aura = E:get_template(uc.aura_slow)
 
@@ -40510,70 +40511,79 @@ function scripts.controller_hero_wukong_ultimate.can_fire_fn(this, x, y)
 end
 
 function scripts.controller_hero_wukong_ultimate.update(this, store)
-	local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true, NF_POWER_3)
-
-	if #nodes < 1 then
-		log.error("controller_hero_wukong_ultimate: could not find valid node")
-		queue_remove(store, this)
-
-		return
+	if this.dragon_index == 1 then
+		local nodes = P:nearest_nodes(this.pos.x, this.pos.y, nil, nil, true, NF_POWER_3)
+		if #nodes < 1 then
+			log.error("controller_hero_wukong_ultimate: could not find valid node")
+			queue_remove(store, this)
+			return
+		end
+		local pi, spi, ni = unpack(nodes[1])
+		this.pos = P:node_pos(pi, 1, ni)
+		if this.dragon_count > 1 then
+			local controller = E:create_entity("entities_delay_controller")
+			controller.start_ts = store.tick_ts
+			controller.delays = {}
+			controller.entities = {}
+			for i = 2, this.dragon_count do
+				local q = i - 1
+				local entity = E:create_entity(this.template_name)
+				local tni = km.clamp(1, #P:path(pi), ni + this.dragon_spacing * q)
+				entity.pos = P:node_pos(pi, 1, tni)
+				entity.dragon_index = i
+				table.insert(controller.delays, this.dragon_interval * q)
+				table.insert(controller.entities, entity)
+			end
+			queue_insert(store, controller)
+		end
 	end
 
-	local pi, spi, ni = unpack(nodes[1])
+	local function create_dragon()
+		local fx = E:create_entity(this.dragon_fx[this.dragon_index])
+		fx.pos = V.vclone(this.pos)
+		queue_insert(store, fx)
 
-	this.pos = P:node_pos(pi, 1, ni)
+		local fx_cracks = E:create_entity(this.dragon_fx_cracks)
+		fx_cracks.pos = V.vclone(this.pos)
+		fx_cracks.tween.ts = store.tick_ts
+		queue_insert(store, fx_cracks)
 
-	local fx = E:create_entity(this.dragon_fx)
+		local aura_slow = E:create_entity(this.aura_slow)
+		aura_slow.aura.source_id = this.id
+		aura_slow.pos = V.vclone(this.pos)
+		queue_insert(store, aura_slow)
 
-	fx.pos = V.vclone(this.pos)
-
-	queue_insert(store, fx)
-
-	local fx_cracks = E:create_entity(this.dragon_fx_cracks)
-
-	fx_cracks.pos = V.vclone(this.pos)
-	fx_cracks.tween.ts = store.tick_ts
-
-	queue_insert(store, fx_cracks)
-
-	local aura_slow = E:create_entity(this.aura_slow)
-
-	aura_slow.aura.source_id = this.id
-	aura_slow.pos = V.vclone(this.pos)
-
-	queue_insert(store, aura_slow)
-
-	for i = 1, 30 do
-		local explosion = E:create_entity(this.explosion_fx)
-
-		explosion.render.sprites[1].delay_start = fts(31 + math.random(0, 25))
-		explosion.pos = v(this.pos.x + math.random(-40, 40), this.pos.y + math.random(-40, 40))
-
-		queue_insert(store, explosion)
-	end
-
-	local start_ts = store.tick_ts
-
-	for _, t in pairs(this.damage_times) do
-		while store.tick_ts < start_ts + t do
-			coroutine.yield()
+		for i = 1, 30 do
+			local explosion = E:create_entity(this.explosion_fx)
+			explosion.render.sprites[1].delay_start = fts(31 + math.random(0, 25))
+			explosion.pos = v(this.pos.x + math.random(-40, 40), this.pos.y + math.random(-40, 40))
+			queue_insert(store, explosion)
 		end
 
-		local targets = U.find_enemies_in_range(store.entities, this.pos, 0, this.damage_radius, this.damage_flags, this.damage_bans)
-
-		if targets then
-			for _, e in pairs(targets) do
-				local d = E:create_entity("damage")
-
-				d.value = this.damage
-				d.damage_type = this.damage_type
-				d.source_id = this.id
-				d.target_id = e.id
-
-				queue_damage(store, d)
+		local start_ts = store.tick_ts
+		for _, t in pairs(this.damage_times) do
+			while store.tick_ts < start_ts + t do
+				coroutine.yield()
+			end
+	
+			local targets = U.find_enemies_in_range(store.entities, this.pos, 0, this.damage_radius, this.damage_flags, this.damage_bans)
+	
+			if targets then
+				for _, e in pairs(targets) do
+					local d = E:create_entity("damage")
+	
+					d.value = this.damage
+					d.damage_type = this.damage_type
+					d.source_id = this.id
+					d.target_id = e.id
+	
+					queue_damage(store, d)
+				end
 			end
 		end
 	end
+
+	create_dragon()
 
 	queue_remove(store, this)
 end
