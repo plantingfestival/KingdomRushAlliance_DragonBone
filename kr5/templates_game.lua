@@ -42780,6 +42780,7 @@ tt.main_script.update = scripts.controller_elemental_water.update
 tt.main_script.remove = scripts.controller_elemental_generic.remove
 tt.first_cooldown = b.teleport.first_cooldown
 tt.cooldown = b.teleport.cooldown
+tt.default_max_range = b.default_max_range
 tt.vis_bans = bor(F_FLYING, F_BOSS)
 tt.vis_flags = bor(F_MOD)
 tt.mod_teleport = "mod_eleemntal_water_holder_teleport"
