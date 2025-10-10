@@ -3468,20 +3468,27 @@ tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[2].name = "random_tower_constructing"
 tt.render.sprites[2].offset = v(0, 39)
 
-tt = E:register_t("tower_random_lvl4", "tower_KR5")
+tt = E:register_t("tower_random_lvl1", "tower_KR5")
 b = balance.towers.random
-E:add_comps(tt, "powers", "vis")
+E:add_comps(tt, "vis")
 tt.info.i18n_key = "TOWER_RANDOM"
 tt.info.fn = scripts.tower_random.get_info
 tt.tower.type = "random"
 tt.tower.kind = TOWER_KIND_ARCHER
 tt.tower.team = TEAM_LINIREA
+tt.tower.price = 400
+tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
+tt.sound_events.insert = nil
+tt.main_script.insert = scripts.tower_random.insert
+tt.allowed_templates = b.allowed_templates
+
+tt = E:register_t("tower_random_lvl4", "tower_random_lvl1")
+E:add_comps(tt, "powers")
 tt.info.tower_portrait = "tower_room_portraits_big_tower_random_0001"
 tt.info.room_portrait = "quickmenu_tower_icons_0108_0001"
 tt.info.stat_damage = 0
 tt.info.stat_cooldown = 0
 tt.info.stat_range = 0
-tt.tower.price = 400
 tt.powers.unknown1 = E:clone_c("power")
 tt.powers.unknown1.price = { 0 }
 tt.powers.unknown1.enc_icon = 105
@@ -3490,11 +3497,7 @@ tt.powers.unknown2 = E:clone_c("power")
 tt.powers.unknown2.price = { 0 }
 tt.powers.unknown2.enc_icon = 105
 tt.powers.unknown2.max_level = 1
-tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
-tt.main_script.insert = scripts.tower_random.insert
-tt.sound_events.insert = nil
 tt.sound_events.tower_room_select = nil
-tt.allowed_templates = b.allowed_templates
 
 tt = E:register_t("tower_hammerhold_archer", "tower_royal_archers_lvl1")
 E:add_comps(tt, "barrack", "powers")

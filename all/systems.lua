@@ -108,14 +108,15 @@ function sys.level:init(store)
 			return
 		end
 		files = table.filter(files, function(k, v)
-			return string.match(v, "^" .. prefix .. "[^.]-%.lua$")
+			return string.match(v, "^" .. prefix .. "[^.]-%.lua$") or string.match(v, "^" .. prefix .. "[^.]-%.exo$") or 
+			string.match(v, "^" .. prefix .. "[^.]-%.exo3$") or string.match(v, "^" .. prefix .. "[^.]-%.exo3mp$")
 		end)
 		if not files or #files == 0 then
 			return
 		end
 		for i = 1, #files do
 			local name = files[i]
-			local startPos, endPos = string.find(name, "%.lua$")
+			local startPos, endPos = string.find(name, "%.lua$") or string.find(name, "%.exo$") or string.find(name, "%.exo3$") or string.find(name, "%.exo3mp$")
 			files[i] = string.sub(name, 1, startPos - 1)
 		end
 	

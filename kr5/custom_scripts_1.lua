@@ -3780,7 +3780,8 @@ function scripts.tower_random.insert(this, store, script)
 			t.pos = this.pos
 			t.tower.flip_x = this.tower.flip_x
 			if t.nav_rally then
-				local th = E:create_entity("tower_holder")
+				local holder_name = this.tower.holder_template or "tower_holder"
+				local th = E:create_entity(holder_name)
 				th.pos = V.vclone(this.pos)
 				th.tower.holder_id = this.tower.holder_id
 				th.tower.flip_x = this.tower.flip_x
@@ -3795,8 +3796,17 @@ function scripts.tower_random.insert(this, store, script)
 				if th.ui and this.ui then
 					th.ui.nav_mesh_id = this.ui.nav_mesh_id
 				end
+				if th.controller_name then
+					for _, e in pairs(store.entities) do
+						if e.template_name == th.controller_name and e.target_holder_id == this.tower.holder_id and e.pos == this.pos then
+							queue_remove(store, e)
+							break
+						end
+					end
+				end
 				queue_insert(store, th)
 			else
+				t.tower.holder_template = this.tower.holder_template
 				t.tower.holder_id = this.tower.holder_id
 				if this.tower.default_rally_pos then
 					t.tower.default_rally_pos = this.tower.default_rally_pos
@@ -3808,6 +3818,9 @@ function scripts.tower_random.insert(this, store, script)
 				end
 				if t.ui and this.ui then
 					t.ui.nav_mesh_id = this.ui.nav_mesh_id
+				end
+				if t.tower_holder and t.tower_holder.unblock_price then
+					t.tower_holder.unblock_price = 0
 				end
 			end
 			queue_insert(store, t)

@@ -1744,7 +1744,14 @@ return {
 			"GalhadriansBastion-01c.ogg",
 			"GalhadriansBastion-02c.ogg",
 			"kro_sfx_bastion_shot[op1]_modif.ogg",
-			"kra_sfx_stage16_bossFight_overseerTowerTeleport_TowerTeleport_v1.ogg"
+			"kra_sfx_stage16_bossFight_overseerTowerTeleport_TowerTeleport_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_evolve_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_unlock.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_active_vines_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_in.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_kill.ogg",
+			"kra_sfx_wukong_mechanic_stage34_holder_active_summon_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg"
 		}
 	},
 	tower_ignis_altar = {

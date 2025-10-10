@@ -13204,6 +13204,11 @@ local towers = {
 	},
 	random = {
 		allowed_templates = {
+			"tower_holder_blocked_elemental_wood",-- 木龙魂
+			"tower_holder_blocked_elemental_fire",-- 火龙魂
+			"tower_holder_blocked_elemental_water",-- 水龙魂
+			"tower_holder_blocked_elemental_earth",-- 土龙魂
+			"tower_holder_blocked_elemental_metal",-- 金龙魂
 			"tower_mage_1",-- 秘法师高台
 			"tower_pirate_watchtower",-- 海盗瞭望塔
 			"tower_pixie",-- 侏儒花园
@@ -13330,10 +13335,10 @@ local specials = {
 				first_cooldown = 2,
 				duration = 8,
 				slow_factor = 0.5,
-				cooldown = 50,
+				cooldown = 30,
 				default_max_range = 200,
 				damage_max = 5,
-				skill_detection_range_factor = 0.8,
+				skill_detection_range_factor = 1,
 				rally_range_factor = 1.25,
 				damage_min = 3,
 				damage_every = 0.25,
@@ -13343,7 +13348,7 @@ local specials = {
 			fire_holder = {
 				price = 150,
 				first_cooldown = 2,
-				cooldown = 52,
+				cooldown = 48,
 				default_max_range = 200,
 				damage_factor = 1.25
 			},
@@ -13361,7 +13366,7 @@ local specials = {
 					tp_distance_nodes_max = 55,
 					first_cooldown = 2,
 					tp_distance_nodes_min = 20,
-					tp_radius = 50,
+					tp_radius = 60,
 					cooldown = 20,
 					delay_between_tps = 2,
 					chase_speed = 40,
@@ -13371,16 +13376,17 @@ local specials = {
 				}
 			},
 			earth_holder = {
+				default_max_range = 200,
 				max_spawns = 3,
 				first_cooldown = 2,
 				extra_health_multiplier = 1.25,
-				cooldown = 30,
+				cooldown = 15,
 				price = 150,
 				spawn_amount = 1,
 				soldier = {
 					armor = 0.3,
 					max_speed = 24,
-					hp_max = 68,
+					hp_max = 136,
 					melee_attack = {
 						cooldown = 3,
 						range = 50,
@@ -13430,12 +13436,12 @@ local specials = {
 				steal_gold = {
 					delay_between_steals = 2,
 					first_cooldown = 2,
-					gold_steal_group_max_size = 3,
+					gold_steal_group_max_size = 6,
 					cooldown = 18,
-					steal_radius = 50,
+					steal_radius = 80,
 					chase_speed = 40,
 					gold_steal_amount_boss = 50,
-					gold_steal_amount = 1,
+					gold_steal_amount = 2,
 					duration = 9,
 					wander_interval = 1.5
 				}

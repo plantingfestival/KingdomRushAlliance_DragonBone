@@ -89768,16 +89768,13 @@ scripts.tower_holder_elemental = {}
 
 function scripts.tower_holder_elemental.remove(this, store)
 	local controller = E:create_entity(this.controller_name)
-
 	controller.pos = this.pos
 	controller.target_holder_id = this.tower.holder_id
 	controller.target_id = this.id
-
-	queue_insert(store, controller)
-
 	if this.render.sprites[this.render.sid_dragon].name == "buy" then
 		controller.buy_anim_dragon_ts = this.render.sprites[this.render.sid_dragon].ts
 	end
+	queue_insert(store, controller)
 
 	return true
 end
