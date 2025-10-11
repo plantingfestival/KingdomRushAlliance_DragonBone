@@ -3326,7 +3326,12 @@ tt.timed_attacks.list[1].allowed_templates = {
 	"warmongers_soldier_orc_lvl2",
 	"warmongers_soldier_orc_lvl3",
 	"warmongers_soldier_orc_lvl4",
-	"warmongers_soldier_orc_captain"
+	"warmongers_soldier_orc_captain",
+	"pirates_soldier_ogre_cook_lvl1",
+	"pirates_soldier_ogre_cook_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+	"pirates_soldier_goblin_launched",
+	"pirates_soldier_goblin_launched_better_crew"
 }
 tt.soldier.melee_slot_offset = v(25, 0)
 
