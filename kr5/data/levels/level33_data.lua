@@ -1051,8 +1051,8 @@ return {
 		{}
 	},
 	required_exoskeletons = {
-		"stage31_wood_holder_rayoDef",
-		"stage31_wood_holder_rayo_explosionDef",
+		"random_stage31_wood_holder_rayoDef",
+		"random_stage31_wood_holder_rayo_explosionDef",
 		"stage_33_anim_propsDef",
 		"stage_33_olas_chicasDef",
 		"stage_33_olas_grandesDef",

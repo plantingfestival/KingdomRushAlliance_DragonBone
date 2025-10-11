@@ -1142,8 +1142,7 @@ return {
 		"random_fireholder_jarrahojasDef",
 		"random_fireholder_rayoDef",
 		"random_fireholder_rayo_explosionDef",
-		"random_fireholder_dragon_executionDef",
-		"stage31_wood_holder_animations_parcheDef",
+		"random_stage31_wood_holder_animations_parcheDef",
 		"stage_32_lava_splash_bigDef",
 		"ash_spiritDef"
 	},
