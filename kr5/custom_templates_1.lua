@@ -4302,7 +4302,7 @@ tt.powers.shrapnel = CC("power")
 tt.render.sprites[1].prefix = "tower_musketeer_shooter"
 tt.render.sprites[1].name = "idleDown"
 tt.render.sprites[1].scale = v(1.12, 1.12)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].sort_y_offset = -1
 tt.render.sprites[1].angles = {}
 tt.render.sprites[1].angles.idle = {
 	"idleUp",
