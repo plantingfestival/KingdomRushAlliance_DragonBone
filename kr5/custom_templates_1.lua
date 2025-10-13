@@ -6,18 +6,16 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
 
 local anchor_y = 0
 local image_y = 0
 local tt, b
 local scripts = require("custom_scripts_1")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "custom_templates_1")
 
 local U = require("utils")
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
@@ -79,12 +77,6 @@ end
 local function CC(comp_name)
     return E:clone_c(comp_name)
 end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 8
-DO_TOWER_MODS = 10
 
 tt = E:register_t("controller_item_kr4_hero_malik", "controller_item_hero")
 tt.entity = "kr4_hero_malik"
@@ -888,6 +880,7 @@ tt.bullet.hit_payload = {
 }
 tt.bullet.flight_time = fts(15)
 tt.bullet.ignore_hit_offset = true
+tt.bullet.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.delay_betweeen_flames = fts(2)
 tt.flame_bullet = "flame_bullet_cold_fury"
 tt.flames_count = 12
@@ -2264,7 +2257,7 @@ end
 tt.main_script.update = scripts.custom_bolt.update
 tt.sound_events.insert = "BoltReleaseSound"
 
-tt = E:register_t("mod_stun_electric_son", "mod_common_stun")
+tt = E:register_t("mod_stun_electric_son", "mod_kr4_stun")
 tt.modifier.duration = b.ultimate.stun
 
 tt = E:register_t("decal_kr1_hero_tombstone", "decal_hero_tombstone")
@@ -2384,6 +2377,7 @@ tt.ranged.attacks[1].cooldown = 0.9
 tt.ranged.attacks[1].max_range = 180
 tt.ranged.attacks[1].min_range = 50
 tt.ranged.attacks[1].shoot_time = 0.3
+tt.ranged.attacks[1].node_prediction = 0.82915
 tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.motion.max_speed = 85
 tt.regen.cooldown = 2
@@ -2553,7 +2547,8 @@ tt.bullet.damage_min = 10
 tt.bullet.fixed_height = 35
 tt.bullet.g = -1000
 tt.bullet.hide_radius = 1
-tt.bullet.reset_to_target_pos = true
+tt.bullet.prediction_error = nil
+tt.bullet.predict_target_pos = nil
 tt.bullet.use_unit_damage_factor = true
 
 tt = E:register_t("elves_soldier_harasser_arrow_lvl3", "elves_soldier_harasser_arrow_lvl2")
@@ -2575,6 +2570,7 @@ tt.bullet.damage_min_inc = 16
 tt.sound_events.insert = "elves_arrow_release_sound"
 tt.bullet.flight_time = fts(10)
 tt.bullet.g = -0.7 / (fts(1) * fts(1))
+tt.bullet.prediction_error = nil
 tt.bullet.reset_to_target_pos = true
 
 tt = E:register_t("dark_army_soldier_knight_lvl1", "soldier_militia")
@@ -3330,7 +3326,12 @@ tt.timed_attacks.list[1].allowed_templates = {
 	"warmongers_soldier_orc_lvl2",
 	"warmongers_soldier_orc_lvl3",
 	"warmongers_soldier_orc_lvl4",
-	"warmongers_soldier_orc_captain"
+	"warmongers_soldier_orc_captain",
+	"pirates_soldier_ogre_cook_lvl1",
+	"pirates_soldier_ogre_cook_lvl2",
+	"pirates_soldier_goblin_deckhand_lvl2",
+	"pirates_soldier_goblin_launched",
+	"pirates_soldier_goblin_launched_better_crew"
 }
 tt.soldier.melee_slot_offset = v(25, 0)
 
@@ -3472,20 +3473,27 @@ tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[2].name = "random_tower_constructing"
 tt.render.sprites[2].offset = v(0, 39)
 
-tt = E:register_t("tower_random_lvl4", "tower_KR5")
+tt = E:register_t("tower_random_lvl1", "tower_KR5")
 b = balance.towers.random
-E:add_comps(tt, "powers", "vis")
+E:add_comps(tt, "vis")
 tt.info.i18n_key = "TOWER_RANDOM"
 tt.info.fn = scripts.tower_random.get_info
 tt.tower.type = "random"
 tt.tower.kind = TOWER_KIND_ARCHER
 tt.tower.team = TEAM_LINIREA
+tt.tower.price = 400
+tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
+tt.sound_events.insert = nil
+tt.main_script.insert = scripts.tower_random.insert
+tt.allowed_templates = b.allowed_templates
+
+tt = E:register_t("tower_random_lvl4", "tower_random_lvl1")
+E:add_comps(tt, "powers")
 tt.info.tower_portrait = "tower_room_portraits_big_tower_random_0001"
 tt.info.room_portrait = "quickmenu_tower_icons_0108_0001"
 tt.info.stat_damage = 0
 tt.info.stat_cooldown = 0
 tt.info.stat_range = 0
-tt.tower.price = 400
 tt.powers.unknown1 = E:clone_c("power")
 tt.powers.unknown1.price = { 0 }
 tt.powers.unknown1.enc_icon = 105
@@ -3494,11 +3502,7 @@ tt.powers.unknown2 = E:clone_c("power")
 tt.powers.unknown2.price = { 0 }
 tt.powers.unknown2.enc_icon = 105
 tt.powers.unknown2.max_level = 1
-tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
-tt.main_script.insert = scripts.tower_random.insert
-tt.sound_events.insert = nil
 tt.sound_events.tower_room_select = nil
-tt.allowed_templates = b.allowed_templates
 
 tt = E:register_t("tower_hammerhold_archer", "tower_royal_archers_lvl1")
 E:add_comps(tt, "barrack", "powers")
@@ -3566,6 +3570,7 @@ tt.bullet.damage_min = 14
 tt.bullet.damage_max = 18
 tt.bullet.miss_decal = "hammerhold_archer_arrow_0005"
 tt.bullet.hide_radius = 1
+tt.bullet.prediction_error = nil
 tt.bullet.reset_to_target_pos = true
 tt.bullet.use_unit_damage_factor = true
 tt.render.sprites[1].name = "hammerhold_archer_arrow"
@@ -4297,7 +4302,7 @@ tt.powers.shrapnel = CC("power")
 tt.render.sprites[1].prefix = "tower_musketeer_shooter"
 tt.render.sprites[1].name = "idleDown"
 tt.render.sprites[1].scale = v(1.12, 1.12)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].sort_y_offset = -1
 tt.render.sprites[1].angles = {}
 tt.render.sprites[1].angles.idle = {
 	"idleUp",
@@ -4845,7 +4850,7 @@ tt.timed_attacks.list[1].search_type = U.search_type.max_health
 tt.timed_attacks.list[1].bullet_start_offset = {
 	v(18, 35)
 }
-tt.timed_attacks.list[1].vis_flags = bor(F_RANGED)
+tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_NET, F_STUN)
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE, F_FLYING, F_CLIFF, F_WATER, F_BOSS, F_MINIBOSS)
 tt.ui.click_rect = r(-25, -3, 50, 38)
 
@@ -5642,15 +5647,15 @@ tt.render.sprites[1].sort_y_offset = -30
 
 tt = E:register_t("bullet_musket_rage", "bullet_without_trajectory")
 tt.bullet.hit_time = 0.1
-tt.bullet.damage_min = 15
-tt.bullet.damage_max = 15
+tt.bullet.damage_min = 14
+tt.bullet.damage_max = 14
 tt.bullet.damages_min = {
-	15,
-	30
+	14,
+	28
 }
 tt.bullet.damages_max = {
-	15,
-	30
+	14,
+	28
 }
 tt.bullet.level = 1
 tt.bullet.hit_fx = "fx_musket_rage_hit"

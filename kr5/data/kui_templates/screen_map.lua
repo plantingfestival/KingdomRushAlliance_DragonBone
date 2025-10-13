@@ -250,6 +250,83 @@ return {
 					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
 				},
 				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_eye_turtleDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_gold_respladorDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_gold_sparksDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_legs_turtleDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_rayDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_smokeDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_sparksDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_steamDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_waterDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong_wavesDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
+					loop = true,
+					class = "GGExo",
+					exo_animation = "loop",
+					exo_name = "DLCWukong__rock_ripples_turtleDef",
+					pos = v(MAP_DECOS_PIVOT_W, MAP_DECOS_PIVOT_H)
+				},
+				{
 					id = "group_map_paths",
 					class = "KView",
 					template_name = "group_map_paths",
@@ -304,7 +381,7 @@ return {
 					id = "map_dlc_special_flag",
 					class = "KView",
 					template_name = "map_dlc_special_flag",
-					pos = v(865, 817.65)
+					pos = v(0, 169.5)
 				},
 				{
 					loop = true,
@@ -527,6 +604,25 @@ return {
 					hidden = false,
 					propagate_on_click = true,
 					propagate_on_up = true,
+					pos = v(0, 0)
+				}
+			}
+		},
+		{
+			id = "encyclopedia_room_view",
+			background_id = "modal_bg_rooms",
+			class = "EncyclopediaRoomView",
+			hidden = true,
+			content_id = "group_encyclopedia_room",
+			WHEN = ctx.show_encyclopedia,
+			pos = v(ctx.sw / 2, ctx.sh / 2),
+			anchor = v(0, 0),
+			children = {
+				{
+					id = "group_encyclopedia_room",
+					class = "KView",
+					template_name = "group_encyclopedia_room",
+					hidden = false,
 					pos = v(0, 0)
 				}
 			}

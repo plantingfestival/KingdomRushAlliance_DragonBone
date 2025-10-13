@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("game_scripts")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -21,9 +19,10 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
-
+package.loaded.scripts = nil
 local scripts = require("scripts")
+
+table.insert(__CHAINED_SCRIPTS, "kr3_game_scripts")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -2120,57 +2119,57 @@ function scripts.tower_bastion.update(this, store)
 			this.ui.can_select = true
 		end
 	end
+	
+	local function tower_walk_waypoints(store, this, animation)
+		local animation = animation or "walk"
+		local r = this.nav_rally
+		local n = this.nav_grid
+		local dest = r.pos
+	
+		while not V.veq(this.pos, dest) do
+			local w = table.remove(n.waypoints, 1) or dest
+			local unsnap = #n.waypoints > 0
+	
+			U.set_destination(this, w)
+			-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
+
+			while not this.motion.arrived do
+				if r.new then
+					return false
+				end
+	
+				U.walk(this, store.tick_length, nil, unsnap)
+
+				coroutine.yield()
+	
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+			end
+		end
+	end
+
+	local function tower_new_rally(store, this)
+		local r = this.nav_rally
+
+		if r.new then
+			r.new = false
+
+			if this.sound_events and this.sound_events.change_rally_point then
+				S:queue(this.sound_events.change_rally_point)
+			end
+
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+
+			local out = tower_walk_waypoints(store, this, "idle")
+
+			this.vis.bans = vis_bans
+
+			return out
+		end
+	end
 
 	while true do
 		local skip
-		local function tower_walk_waypoints(store, this, animation)
-			local animation = animation or "walk"
-			local r = this.nav_rally
-			local n = this.nav_grid
-			local dest = r.pos
-		
-			while not V.veq(this.pos, dest) do
-				local w = table.remove(n.waypoints, 1) or dest
-				local unsnap = #n.waypoints > 0
-		
-				U.set_destination(this, w)
-				-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
-
-				while not this.motion.arrived do
-					if r.new then
-						return false
-					end
-		
-					U.walk(this, store.tick_length, nil, unsnap)
-
-					coroutine.yield()
-		
-					this.motion.speed.x, this.motion.speed.y = 0, 0
-				end
-			end
-		end
-
-		local function tower_new_rally(store, this)
-			local r = this.nav_rally
-
-			if r.new then
-				r.new = false
-
-				if this.sound_events and this.sound_events.change_rally_point then
-					S:queue(this.sound_events.change_rally_point)
-				end
-
-				local vis_bans = this.vis.bans
-				this.vis.bans = F_ALL
-
-				local out = tower_walk_waypoints(store, this, "idle")
-
-				this.vis.bans = vis_bans
-
-				return out
-			end
-		end
-
 		check_change_mode()
 
 		if this.tower.blocked then
@@ -2180,21 +2179,21 @@ function scripts.tower_bastion.update(this, store)
                 if tower_new_rally(store, this) then
                     skip = true
 				end
-				local available_paths = {}
-				for k, v in pairs(P.paths) do
-					table.insert(available_paths, k)
-				end
-				if store.level.ignore_walk_backwards_paths then
-					available_paths = table.filter(available_paths, function(k, v)
-						return not table.contains(store.level.ignore_walk_backwards_paths, v)
-					end)
-				end
-				local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
-				if #nodes > 0 then
-					local pi, spi, ni = unpack(nodes[1])
-					this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
-				end
             end
+			local available_paths = {}
+			for k, v in pairs(P.paths) do
+				table.insert(available_paths, k)
+			end
+			if store.level.ignore_walk_backwards_paths then
+				available_paths = table.filter(available_paths, function(k, v)
+					return not table.contains(store.level.ignore_walk_backwards_paths, v)
+				end)
+			end
+			local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
+			if #nodes > 0 then
+				local pi, spi, ni = unpack(nodes[1])
+				this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
+			end
 		end
 
 		if not skip then
@@ -2948,6 +2947,24 @@ function scripts.soldier_drow.update(this, store)
 		this.vis._bans = nil
 	end
 
+	local function check_tower_damage_factor()
+		local tower = store.entities[this.soldier.tower_id]
+		if tower then
+			for _, a in ipairs(this.melee.attacks) do
+				if not a._original_damage_min then
+					a._original_damage_min = a.damage_min
+				end
+
+				if not a._original_damage_max then
+					a._original_damage_max = a.damage_max
+				end
+
+				a.damage_min = a._original_damage_min * tower.tower.damage_factor
+				a.damage_max = a._original_damage_max * tower.tower.damage_factor
+			end
+		end
+	end
+
 	while true do
 		if this.powers then
 			for pn, p in pairs(this.powers) do
@@ -2990,6 +3007,8 @@ function scripts.soldier_drow.update(this, store)
 					goto label_61_1
 				end
 			end
+
+			check_tower_damage_factor()
 
 			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
 
@@ -3415,8 +3434,9 @@ function scripts.hero_elves_denas_ultimate.update(this, store)
 			local e = E:create_entity(this.guards_template)
 
 			e.pos = p
-			e.nav_rally.center = V.vclone(e.pos)
+			e.nav_rally.center = pos
 			e.nav_rally.pos = V.vclone(e.pos)
+			e.reinforcement.squad_id = this.id
 			-- e.melee.attacks[1].xp_dest_id = this.owner.id
 			-- e.melee.attacks[2].xp_dest_id = this.owner.id
 

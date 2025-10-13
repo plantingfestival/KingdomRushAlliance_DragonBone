@@ -49,6 +49,9 @@ end
 
 local scripts = {}
 
+__CHAINED_SCRIPTS = {
+	"scripts"
+}
 scripts.sequence = {}
 
 function scripts.sequence.update(this, store, script)
@@ -4621,7 +4624,7 @@ function scripts.aura_screen_shake.update(this, store)
 
 	while store.tick_ts - start_ts < a.duration do
 		local t = store.tick_ts - start_ts
-		local fade = km.clamp(0, 1, 1 - t / a.duration) * a.amplitude
+		local fade = km.clamp(0, 1, a.reverse_fade and t / a.duration or 1 - t / a.duration) * a.amplitude
 		local wox = math.sin(t * fx + phase) * sx * fade
 		local woy = math.sin(t * fy + phase) * sy * fade + math.cos(t * fy2) * sy2 * fade
 
@@ -5244,7 +5247,7 @@ function scripts.mod_dps.update(this, store, script)
 
 			do_damage(target, damage_value)
 
-			if dps.fx and (not dps.fx_every or store.tick_ts - fx_ts >= dps.fx_every) then
+			if target.unit.blood_color and dps.fx and (not dps.fx_every or store.tick_ts - fx_ts >= dps.fx_every) then
 				fx_ts = store.tick_ts
 
 				local fx = E:create_entity(dps.fx)
@@ -5271,7 +5274,7 @@ function scripts.mod_dps.update(this, store, script)
 					fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
 				end
 
-				if fx.render.sprites[1].use_blood_color and target.unit.blood_color then
+				if fx.render.sprites[1].use_blood_color then
 					fx.render.sprites[1].name = fx.render.sprites[1].name .. "_" .. target.unit.blood_color
 				end
 
@@ -6162,8 +6165,10 @@ end
 function scripts.mod_teleport.insert(this, store)
 	local target = store.entities[this.modifier.target_id]
 
-	if target and target.enemy and target.health and not target.health.dead and this._pushed_bans ~= nil and (not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and (not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
-		-- target.health.ignore_damage = true
+	if target and target.health and not target.health.dead and this._pushed_bans ~= nil and 
+	(not target.enemy or not this.max_times_applied or not target.enemy.counts.mod_teleport or target.enemy.counts.mod_teleport < this.max_times_applied) and 
+	(not this.jump_connection or P:get_next_pi(target.nav_path.pi)) then
+		target.health.ignore_damage = true
 
 		SU.stun_inc(target)
 
@@ -6187,9 +6192,19 @@ end
 
 function scripts.mod_teleport.update(this, store)
 	local m = this.modifier
+
+	if this.begin_wait then
+		U.y_wait(store, this.begin_wait)
+	end
+
 	local target = store.entities[m.target_id]
 
-	if not target or not target.health or target.health.dead or target.health.hp <= 0 then
+	if not target or not target.health then
+		queue_remove(store, this)
+		return
+	end
+	if target.health.dead or target.health.hp <= 0 then
+		target.health.hp = 0
 		queue_remove(store, this)
 		return
 	end
@@ -6221,6 +6236,23 @@ function scripts.mod_teleport.update(this, store)
 	fx.render.sprites[1].ts = store.tick_ts
 
 	queue_insert(store, fx)
+
+	if this.decal_start then
+		local decal = E:create_entity(this.decal_start)
+
+		if fx.render.sprites[1].size_names and target.unit then
+			fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
+		end
+
+		if fx.render.sprites[1].size_scales then
+			fx.render.sprites[1].scale = fx.render.sprites[1].size_scales[target.unit.size]
+		end
+
+		decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		decal.render.sprites[1].ts = store.tick_ts
+
+		queue_insert(store, decal)
+	end
 
 	if this.delay_start then
 		U.y_wait(store, this.delay_start)
@@ -6312,6 +6344,23 @@ function scripts.mod_teleport.update(this, store)
 	fx.render.sprites[1].ts = store.tick_ts
 
 	queue_insert(store, fx)
+
+	if this.decal_end then
+		local decal = E:create_entity(this.decal_end)
+
+		if fx.render.sprites[1].size_names and target.unit then
+			fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
+		end
+
+		if fx.render.sprites[1].size_scales then
+			fx.render.sprites[1].scale = fx.render.sprites[1].size_scales[target.unit.size]
+		end
+
+		decal.pos.x, decal.pos.y = target.pos.x, target.pos.y
+		decal.render.sprites[1].ts = store.tick_ts
+
+		queue_insert(store, decal)
+	end
 
 	if this.delay_end then
 		U.y_wait(store, this.delay_end)
@@ -6940,7 +6989,8 @@ function scripts.mega_spawner.update(this, store)
 
 						if store.extra_enemies and store.extra_enemies > 0 then
 							for i = 1, store.extra_enemies do
-								e = E:create_entity(template)
+								U.y_wait(store, fts(3))
+								local e = E:create_entity(template)
 								e.nav_path.pi = node.pi
 								e.nav_path.spi = km.zmod(node.spi + i, 3)
 								e.nav_path.ni = node.ni
@@ -6956,7 +7006,6 @@ function scripts.mega_spawner.update(this, store)
 								if e.enemy then
 									e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 								end
-								U.y_wait(store, fts(2))
 								queue_insert(store, e)
 							end
 						end

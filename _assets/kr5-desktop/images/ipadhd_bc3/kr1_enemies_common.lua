@@ -12,17 +12,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			422,
-			1797,
+			1549,
+			437,
 			42,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37,17 +37,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			422,
-			1797,
+			1549,
+			437,
 			42,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -62,12 +62,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			231,
-			2417,
+			1198,
+			912,
 			47,
 			58
 		},
@@ -87,12 +87,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			231,
-			2417,
+			1198,
+			912,
 			47,
 			58
 		},
@@ -112,17 +112,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			811,
-			1711,
+			856,
+			1523,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -137,17 +137,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			811,
-			1711,
+			856,
+			1523,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -162,17 +162,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1827,
+			1664,
+			1090,
 			50,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -187,17 +187,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1892,
+			1274,
+			1163,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -212,17 +212,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1892,
+			1274,
+			1163,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -237,17 +237,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1458,
-			1432,
+			1730,
+			811,
 			47,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0011"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -262,17 +262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1458,
-			1432,
+			1730,
+			811,
 			47,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -287,12 +287,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1247,
-			2004,
+			1748,
+			1802,
 			45,
 			55
 		},
@@ -312,12 +312,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1247,
-			2004,
+			1748,
+			1802,
 			45,
 			55
 		},
@@ -337,12 +337,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			886,
-			1834,
+			1735,
+			637,
 			46,
 			58
 		},
@@ -362,12 +362,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			886,
-			1834,
+			1735,
+			637,
 			46,
 			58
 		},
@@ -387,17 +387,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1058,
-			1754,
+			1292,
+			1283,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -412,17 +412,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1058,
-			1754,
+			1292,
+			1283,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -437,17 +437,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1053,
-			1941,
+			1352,
+			1290,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -462,17 +462,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1566,
-			2250,
+			1434,
+			1916,
 			42,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -487,17 +487,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1566,
-			2250,
+			1434,
+			1916,
 			42,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -512,12 +512,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			2179,
+			1218,
+			1517,
 			44,
 			51
 		},
@@ -537,12 +537,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			2179,
+			1218,
+			1517,
 			44,
 			51
 		},
@@ -562,12 +562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1924,
-			1155,
+			1735,
+			697,
 			46,
 			54
 		},
@@ -587,12 +587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1924,
-			1155,
+			1735,
+			697,
 			46,
 			54
 		},
@@ -612,17 +612,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1794,
+			1735,
+			753,
 			46,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -637,17 +637,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1794,
+			1735,
+			753,
 			46,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -662,17 +662,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			2008,
+			1730,
+			1150,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -687,17 +687,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			2008,
+			1730,
+			1150,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0029"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -712,17 +712,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1053,
-			2037,
+			1374,
+			1449,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -737,12 +737,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			1960,
+			1728,
+			1210,
 			45,
 			56
 		},
@@ -762,12 +762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			1960,
+			1728,
+			1210,
 			45,
 			56
 		},
@@ -787,17 +787,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2325,
+			1527,
+			1349,
 			44,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -812,17 +812,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2325,
+			1527,
+			1349,
 			44,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -837,17 +837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			740,
-			2111,
+			1264,
+			1517,
 			45,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -862,17 +862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			740,
-			2111,
+			1264,
+			1517,
 			45,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -887,17 +887,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			2051,
+			1478,
+			1569,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -912,17 +912,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			2051,
+			1478,
+			1569,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -937,17 +937,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			2055,
+			1742,
+			1569,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -962,17 +962,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			2055,
+			1742,
+			1569,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -987,17 +987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			2102,
+			1264,
+			1636,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1012,12 +1012,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2209,
+			1790,
+			1257,
 			47,
 			56
 		},
@@ -1037,12 +1037,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2209,
+			1790,
+			1257,
 			47,
 			56
 		},
@@ -1062,12 +1062,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1371,
-			1645,
+			1575,
+			1402,
 			46,
 			51
 		},
@@ -1087,12 +1087,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1371,
-			1645,
+			1575,
+			1402,
 			46,
 			51
 		},
@@ -1112,17 +1112,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1594,
-			1710,
+			1135,
+			1953,
 			46,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1137,17 +1137,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1594,
-			1710,
+			1135,
+			1953,
 			46,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0047"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1162,12 +1162,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2267,
+			1692,
+			1628,
 			47,
 			56
 		},
@@ -1187,12 +1187,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1336,
-			2267,
+			1692,
+			1628,
 			47,
 			56
 		},
@@ -1212,17 +1212,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2182,
+			1620,
+			494,
 			44,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1237,17 +1237,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2182,
+			1620,
+			494,
 			44,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1262,12 +1262,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1334,
-			2149,
+			1478,
+			1687,
 			45,
 			58
 		},
@@ -1287,12 +1287,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1642,
-			1710,
+			1478,
+			1629,
 			45,
 			56
 		},
@@ -1312,12 +1312,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1642,
-			1710,
+			1478,
+			1629,
 			45,
 			56
 		},
@@ -1337,12 +1337,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1389,
-			2320,
+			1685,
+			1453,
 			44,
 			51
 		},
@@ -1362,12 +1362,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1389,
-			2320,
+			1685,
+			1453,
 			44,
 			51
 		},
@@ -1387,12 +1387,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1731,
+			986,
+			1563,
 			45,
 			54
 		},
@@ -1412,12 +1412,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1731,
+			986,
+			1563,
 			45,
 			54
 		},
@@ -1437,12 +1437,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1795,
-			1580,
+			1749,
+			1686,
 			45,
 			58
 		},
@@ -1462,12 +1462,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1795,
-			1580,
+			1749,
+			1686,
 			45,
 			58
 		},
@@ -1487,12 +1487,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1435,
-			2316,
+			1478,
+			1747,
 			45,
 			58
 		},
@@ -1512,12 +1512,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1435,
-			2316,
+			1478,
+			1747,
 			45,
 			58
 		},
@@ -1537,17 +1537,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1780,
+			1845,
+			1790,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0063"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1562,12 +1562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1745,
+			984,
+			1813,
 			47,
 			56
 		},
@@ -1587,12 +1587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1745,
+			984,
+			1813,
 			47,
 			56
 		},
@@ -1612,17 +1612,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1818,
+			1165,
+			1568,
 			46,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1637,17 +1637,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1818,
+			1165,
+			1568,
 			46,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1662,17 +1662,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1768,
+			1749,
+			1746,
 			45,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1687,17 +1687,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			291,
-			2413,
+			1786,
+			1203,
 			51,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1712,17 +1712,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			291,
-			2413,
+			1786,
+			1203,
 			51,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0070"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1737,17 +1737,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			291,
-			2413,
+			1786,
+			1203,
 			51,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -1762,12 +1762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			864,
-			961,
+			663,
+			809,
 			62,
 			49
 		},
@@ -1787,12 +1787,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			864,
-			961,
+			663,
+			809,
 			62,
 			49
 		},
@@ -1812,12 +1812,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			864,
-			961,
+			663,
+			809,
 			62,
 			49
 		},
@@ -1837,592 +1837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			864,
-			961,
+			663,
+			809,
 			62,
 			49
 		},
 		alias = {},
 		textureRotated = true
-	},
-	["bandit_0075"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            4,
-            22,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			169,
-			1886,
-			53,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0076"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            4,
-            22,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1588,
-			780,
-			53,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0077"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			20,
-            2,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1099,
-			947,
-			60,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bandit_0078"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			20,
-            2,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1099,
-			947,
-			60,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bandit_0079"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			16,
-            0,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			915,
-			956,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0080"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			16,
-            0,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			915,
-			956,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			16,
-            6,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			840,
-			1112,
-			64,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			14,
-            6,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			165,
-			700,
-			70,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			14,
-            2,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			282,
-			1644,
-			70,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			23,
-            2,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			479,
-			1743,
-			55,
-			66
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bandit_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			168,
-			2195,
-			56,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            0,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1126,
-			1117,
-			56,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			22,
-            0,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1126,
-			1117,
-			56,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			26,
-            4,
-            23,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1159,
-			1310,
-			48,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bandit_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			97,
-			68
-		},
-		trim = {
-			26,
-            4,
-            26,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			163,
-			1366,
-			45,
-			61
-		},
-		alias = {},
-		textureRotated = false
 	},
 	["bandit_0098"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2437,12 +1862,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1955,
+			1989,
+			1364,
 			45,
 			55
 		},
@@ -2462,17 +1887,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1285,
+			733,
+			1519,
 			60,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0100"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2487,17 +1912,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2200,
+			609,
+			1286,
 			64,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0101"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2512,17 +1937,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1099,
-			1066,
+			807,
+			1573,
 			66,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0102"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2537,12 +1962,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1649,
+			1464,
+			614,
 			66,
 			44
 		},
@@ -2562,12 +1987,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			1353,
+			1263,
+			744,
 			66,
 			34
 		},
@@ -2587,17 +2012,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			1389,
+			1271,
+			1028,
 			66,
 			34
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0105"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2612,17 +2037,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			1260,
+			1605,
+			1147,
 			57,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bandit_0106"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2637,12 +2062,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			1319,
+			1805,
+			1793,
 			55,
 			38
 		},
@@ -2662,12 +2087,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			1319,
+			1805,
+			1793,
 			55,
 			38
 		},
@@ -2687,17 +2112,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1871,
+			1868,
+			1850,
 			55,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bandit_0109"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2712,12 +2137,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1634,
-			1908,
+			1868,
+			1907,
 			55,
 			38
 		},
@@ -2737,12 +2162,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1634,
-			1908,
+			1868,
+			1907,
 			55,
 			38
 		},
@@ -2762,17 +2187,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			345,
-			2332,
+			1661,
+			1338,
 			51,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2787,17 +2212,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			345,
-			2332,
+			1661,
+			1338,
 			51,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2812,17 +2237,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1502,
-			1203,
+			1115,
+			1097,
 			46,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2837,17 +2262,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1502,
-			1203,
+			1115,
+			1097,
 			46,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2862,17 +2287,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			319,
-			1209,
+			1783,
+			556,
 			46,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2887,17 +2312,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			319,
-			1209,
+			1783,
+			556,
 			46,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2912,12 +2337,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			97,
-			2415,
+			1783,
+			604,
 			49,
 			68
 		},
@@ -2937,17 +2362,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1393,
+			1999,
+			698,
 			45,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2962,17 +2387,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1393,
+			1999,
+			698,
 			45,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -2987,17 +2412,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			2098,
+			1693,
+			1568,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0011"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3012,17 +2437,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			2098,
+			1693,
+			1568,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3037,12 +2462,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1059,
-			1691,
+			1225,
+			1097,
 			47,
 			61
 		},
@@ -3062,12 +2487,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1059,
-			1691,
+			1225,
+			1097,
 			47,
 			61
 		},
@@ -3087,12 +2512,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1695,
+			1783,
+			876,
 			46,
 			66
 		},
@@ -3112,12 +2537,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1695,
+			1783,
+			876,
 			46,
 			66
 		},
@@ -3137,17 +2562,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1657,
-			909,
+			916,
+			1523,
 			48,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3162,17 +2587,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1657,
-			909,
+			916,
+			1523,
 			48,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3187,12 +2612,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			810,
-			1641,
+			1997,
+			79,
 			47,
 			68
 		},
@@ -3212,12 +2637,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1345,
+			1324,
+			621,
 			46,
 			65
 		},
@@ -3237,12 +2662,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1345,
+			1324,
+			621,
 			46,
 			65
 		},
@@ -3262,12 +2687,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1057,
-			1814,
+			1788,
+			1315,
 			49,
 			58
 		},
@@ -3287,12 +2712,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1057,
-			1814,
+			1788,
+			1315,
 			49,
 			58
 		},
@@ -3312,17 +2737,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1903,
-			1931,
+			1478,
+			1807,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3337,17 +2762,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1903,
-			1931,
+			1478,
+			1807,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3362,17 +2787,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1112,
-			1313,
+			1136,
+			981,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3387,17 +2812,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1112,
-			1313,
+			1136,
+			981,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3412,17 +2837,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			732,
-			2158,
+			1258,
+			964,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3437,17 +2862,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			732,
-			2158,
+			1258,
+			964,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0029"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3462,17 +2887,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1440,
+			1274,
+			1096,
 			45,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3487,12 +2912,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1645,
-			1363,
+			1263,
+			626,
 			44,
 			59
 		},
@@ -3512,12 +2937,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1645,
-			1363,
+			1263,
+			626,
 			44,
 			59
 		},
@@ -3537,12 +2962,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1796,
-			2199,
+			1327,
+			1750,
 			42,
 			53
 		},
@@ -3562,12 +2987,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1796,
-			2199,
+			1327,
+			1750,
 			42,
 			53
 		},
@@ -3587,17 +3012,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1513,
-			1932,
+			1478,
+			1867,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3612,17 +3037,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1513,
-			1932,
+			1478,
+			1867,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3637,17 +3062,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			1993,
+			1258,
+			899,
 			45,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3662,17 +3087,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			1993,
+			1258,
+			899,
 			45,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3687,17 +3112,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1424,
+			1321,
+			1094,
 			45,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3712,17 +3137,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1424,
+			1321,
+			1094,
 			45,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3737,12 +3162,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1487,
+			1697,
+			923,
 			45,
 			65
 		},
@@ -3762,12 +3187,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			917,
-			2116,
+			1649,
+			960,
 			46,
 			61
 		},
@@ -3787,12 +3212,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			917,
-			2116,
+			1649,
+			960,
 			46,
 			61
 		},
@@ -3812,12 +3237,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			1640,
+			1741,
+			1629,
 			46,
 			55
 		},
@@ -3837,12 +3262,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			1640,
+			1741,
+			1629,
 			46,
 			55
 		},
@@ -3862,12 +3287,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1744,
-			2019,
+			1889,
+			1658,
 			45,
 			58
 		},
@@ -3887,12 +3312,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1744,
-			2019,
+			1889,
+			1658,
 			45,
 			58
 		},
@@ -3912,17 +3337,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			833,
-			2408,
+			1323,
+			1161,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3937,17 +3362,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			833,
-			2408,
+			1323,
+			1161,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3962,17 +3387,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			856,
-			2229,
+			1159,
+			1327,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -3987,17 +3412,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			856,
-			2229,
+			1159,
+			1327,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4012,12 +3437,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			408,
-			1982,
+			1764,
+			924,
 			45,
 			65
 		},
@@ -4037,12 +3462,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			548,
-			1944,
+			1136,
+			934,
 			45,
 			60
 		},
@@ -4062,12 +3487,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			548,
-			1944,
+			1136,
+			934,
 			45,
 			60
 		},
@@ -4087,17 +3512,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1911,
+			1327,
+			1805,
 			42,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0055"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4112,17 +3537,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1911,
+			1327,
+			1805,
 			42,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0056"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4137,12 +3562,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1524,
-			2294,
+			1942,
+			1705,
 			45,
 			58
 		},
@@ -4162,12 +3587,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1524,
-			2294,
+			1942,
+			1705,
 			45,
 			58
 		},
@@ -4187,12 +3612,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			917,
-			2294,
+			1598,
+			1231,
 			45,
 			62
 		},
@@ -4212,12 +3637,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			917,
-			2294,
+			1598,
+			1231,
 			45,
 			62
 		},
@@ -4237,17 +3662,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			2040,
+			1492,
+			963,
 			45,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4262,17 +3687,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			2040,
+			1492,
+			963,
 			45,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4287,12 +3712,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			743,
-			2003,
+			1898,
+			1000,
 			45,
 			65
 		},
@@ -4312,17 +3737,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2256,
+			1429,
+			1156,
 			46,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0064"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4337,17 +3762,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2256,
+			1429,
+			1156,
 			46,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0065"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4362,17 +3787,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1761,
+			1748,
+			1849,
 			46,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4387,17 +3812,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1691,
-			1761,
+			1748,
+			1849,
 			46,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4412,17 +3837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1081,
-			2261,
+			1069,
+			1196,
 			44,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4437,17 +3862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1081,
-			2261,
+			1069,
+			1196,
 			44,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4462,12 +3887,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1312,
+			390,
+			1818,
 			58,
 			70
 		},
@@ -4487,12 +3912,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1312,
+			390,
+			1818,
 			58,
 			70
 		},
@@ -4512,12 +3937,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1110,
+			87,
+			706,
 			60,
 			70
 		},
@@ -4537,12 +3962,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1110,
+			87,
+			706,
 			60,
 			70
 		},
@@ -4562,17 +3987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			282,
-			1527,
+			399,
+			1878,
 			61,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0074"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4587,17 +4012,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			282,
-			1527,
+			399,
+			1878,
 			61,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0075"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4612,17 +4037,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1571,
-			1050,
+			177,
+			1878,
 			70,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4637,17 +4062,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1571,
-			1050,
+			177,
+			1878,
 			70,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0077"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -4662,12 +4087,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			911,
+			249,
+			1878,
 			70,
 			67
 		},
@@ -4687,12 +4112,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			911,
+			249,
+			1878,
 			70,
 			67
 		},
@@ -4712,12 +4137,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1712,
-			532,
+			1078,
+			431,
 			59,
 			60
 		},
@@ -4737,589 +4162,14 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1712,
-			532,
+			1078,
+			431,
 			59,
 			60
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            7,
-            24,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1167,
-			942,
-			52,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            7,
-            24,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1167,
-			996,
-			52,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			23,
-            7,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			676,
-			1502,
-			59,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			23,
-            7,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			676,
-			1502,
-			59,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			20,
-            3,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1709,
-			594,
-			63,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			20,
-            3,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1709,
-			594,
-			63,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			20,
-            10,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			394,
-			1360,
-			63,
-			70
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			17,
-            10,
-            16,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1702,
-			373,
-			69,
-			70
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			17,
-            7,
-            16,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			264,
-			764,
-			69,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            7,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			981,
-			953,
-			56,
-			73
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0098"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0099"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            10,
-            20,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			210,
-			1447,
-			56,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0100"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            6,
-            21,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			153,
-			1429,
-			55,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0101"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			26,
-            6,
-            21,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			153,
-			1429,
-			55,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["brigand_0102"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			29,
-            7,
-            24,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			984,
-			1874,
-			49,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["brigand_0103"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			80
-		},
-		trim = {
-			30,
-            7,
-            28,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			659,
-			1278,
-			44,
-			70
 		},
 		alias = {},
 		textureRotated = false
@@ -5337,17 +4187,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			793,
-			2228,
+			1228,
+			1160,
 			44,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0105"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5362,12 +4212,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			685,
-			1711,
+			1839,
+			1263,
 			55,
 			52
 		},
@@ -5387,17 +4237,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1478,
-			1589,
+			1731,
+			1452,
 			55,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["brigand_0107"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5412,12 +4262,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			685,
-			1838,
+			1628,
+			1399,
 			55,
 			49
 		},
@@ -5437,12 +4287,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			2323,
+			1155,
+			1715,
 			61,
 			42
 		},
@@ -5462,12 +4312,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1352,
-			1469,
+			1740,
+			441,
 			59,
 			32
 		},
@@ -5487,12 +4337,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1352,
-			1469,
+			1740,
+			441,
 			59,
 			32
 		},
@@ -5512,17 +4362,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0112"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5537,17 +4387,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0113"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5562,17 +4412,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0114"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5587,17 +4437,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0115"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5612,17 +4462,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0116"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5637,17 +4487,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0117"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5662,17 +4512,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["brigand_0118"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5687,17 +4537,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1803,
+			1573,
+			1341,
 			59,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5712,17 +4562,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1711,
+			986,
+			1421,
 			54,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5737,17 +4587,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1711,
+			986,
+			1421,
 			54,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5762,12 +4612,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1570,
-			1197,
+			103,
+			1889,
 			52,
 			72
 		},
@@ -5787,12 +4637,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1570,
-			1197,
+			103,
+			1889,
 			52,
 			72
 		},
@@ -5812,17 +4662,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			264,
-			1371,
+			247,
+			1337,
 			54,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5837,17 +4687,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			264,
-			1371,
+			247,
+			1337,
 			54,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5862,17 +4712,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1781,
-			1039,
+			663,
+			1280,
 			54,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -5887,12 +4737,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			162,
-			1293,
+			640,
+			873,
 			55,
 			71
 		},
@@ -5912,12 +4762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			162,
-			1293,
+			640,
+			873,
 			55,
 			71
 		},
@@ -5937,12 +4787,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			854,
+			1456,
+			844,
 			55,
 			65
 		},
@@ -5962,12 +4812,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			854,
+			1456,
+			844,
 			55,
 			65
 		},
@@ -5987,17 +4837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			283,
-			1787,
+			1139,
+			423,
 			57,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6012,17 +4862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			283,
-			1787,
+			1139,
+			423,
 			57,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6037,12 +4887,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1908,
-			1211,
+			875,
+			572,
 			55,
 			72
 		},
@@ -6062,12 +4912,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1908,
-			1211,
+			875,
+			572,
 			55,
 			72
 		},
@@ -6087,17 +4937,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1848,
-			1155,
+			870,
+			1641,
 			54,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6112,17 +4962,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1848,
-			1155,
+			870,
+			1641,
 			54,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6137,17 +4987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			1350,
+			1544,
+			494,
 			52,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6162,12 +5012,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1404,
+			1853,
+			553,
 			52,
 			71
 		},
@@ -6187,12 +5037,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1404,
+			1853,
+			553,
 			52,
 			71
 		},
@@ -6212,12 +5062,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1057,
-			1874,
+			1040,
+			286,
 			53,
 			65
 		},
@@ -6237,12 +5087,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1057,
-			1874,
+			1040,
+			286,
 			53,
 			65
 		},
@@ -6262,12 +5112,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1890,
+			1391,
+			725,
 			53,
 			65
 		},
@@ -6287,12 +5137,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1890,
+			1391,
+			725,
 			53,
 			65
 		},
@@ -6312,12 +5162,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			282,
-			1590,
+			914,
+			1422,
 			52,
 			70
 		},
@@ -6337,12 +5187,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			282,
-			1590,
+			914,
+			1422,
 			52,
 			70
 		},
@@ -6362,12 +5212,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1966,
-			1348,
+			1853,
+			607,
 			54,
 			71
 		},
@@ -6387,12 +5237,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1966,
-			1348,
+			1853,
+			607,
 			54,
 			71
 		},
@@ -6412,17 +5262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1036,
-			1375,
+			932,
+			572,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6437,17 +5287,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			906,
-			1179,
+			1042,
+			1420,
 			57,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6462,17 +5312,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			906,
-			1179,
+			1042,
+			1420,
 			57,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6487,12 +5337,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1238,
-			1882,
+			1333,
+			780,
 			57,
 			61
 		},
@@ -6512,12 +5362,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1238,
-			1882,
+			1333,
+			780,
 			57,
 			61
 		},
@@ -6537,17 +5387,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1182,
-			1376,
+			1199,
+			961,
 			57,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6562,17 +5412,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1182,
-			1376,
+			1199,
+			961,
 			57,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6587,17 +5437,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			287,
-			2340,
+			1926,
+			617,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6612,17 +5462,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			287,
-			2340,
+			1926,
+			617,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6637,17 +5487,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			731,
-			1425,
+			1095,
+			286,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6662,17 +5512,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			731,
-			1425,
+			1095,
+			286,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6687,12 +5537,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			737,
-			1499,
+			1194,
+			336,
 			55,
 			72
 		},
@@ -6712,12 +5562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1834,
+			1522,
+			670,
 			54,
 			70
 		},
@@ -6737,12 +5587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1834,
+			1522,
+			670,
 			54,
 			70
 		},
@@ -6762,17 +5612,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1299,
-			1760,
+			1493,
+			1095,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6787,17 +5637,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1299,
-			1760,
+			1493,
+			1095,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6812,12 +5662,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			809,
-			1890,
+			1831,
+			938,
 			53,
 			65
 		},
@@ -6837,12 +5687,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			809,
-			1890,
+			1831,
+			938,
 			53,
 			65
 		},
@@ -6862,17 +5712,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			345,
-			2196,
+			1594,
+			687,
 			52,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6887,17 +5737,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			345,
-			2196,
+			1594,
+			687,
 			52,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6912,12 +5762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			296,
-			2466,
+			986,
+			1490,
 			54,
 			71
 		},
@@ -6937,12 +5787,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			296,
-			2466,
+			986,
+			1490,
 			54,
 			71
 		},
@@ -6962,17 +5812,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			740,
-			1573,
+			1401,
+			427,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -6987,12 +5837,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			906,
-			1238,
+			1925,
+			726,
 			57,
 			69
 		},
@@ -7012,12 +5862,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			906,
-			1238,
+			1925,
+			726,
 			57,
 			69
 		},
@@ -7037,17 +5887,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			1945,
+			1257,
+			840,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0055"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7062,17 +5912,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1304,
-			1945,
+			1257,
+			840,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0056"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7087,17 +5937,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			349,
-			1943,
+			1588,
+			842,
 			57,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0057"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7112,17 +5962,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			349,
-			1943,
+			1588,
+			842,
 			57,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0058"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7137,17 +5987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			547,
-			1762,
+			926,
+			1641,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7162,17 +6012,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			547,
-			1762,
+			926,
+			1641,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0060"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7187,17 +6037,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			790,
-			1419,
+			1475,
+			429,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7212,17 +6062,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			790,
-			1419,
+			1475,
+			429,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7237,17 +6087,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			794,
-			1493,
+			1666,
+			441,
 			55,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0063"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7262,12 +6112,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			814,
-			1834,
+			1853,
+			725,
 			54,
 			70
 		},
@@ -7287,12 +6137,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			814,
-			1834,
+			1853,
+			725,
 			54,
 			70
 		},
@@ -7312,17 +6162,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1889,
+			1549,
+			1095,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7337,17 +6187,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1889,
+			1549,
+			1095,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7362,12 +6212,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			608,
-			1651,
+			1783,
+			655,
 			58,
 			68
 		},
@@ -7387,17 +6237,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			244,
-			516,
+			599,
+			204,
 			84,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7412,17 +6262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			244,
-			516,
+			599,
+			204,
 			84,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0070"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7437,17 +6287,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1282,
-			490,
+			598,
+			397,
 			85,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7462,17 +6312,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1282,
-			490,
+			598,
+			397,
 			85,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkKnight_0072"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -7487,12 +6337,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			501,
+			499,
+			644,
 			86,
 			77
 		},
@@ -7512,8 +6362,8 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1544,
@@ -7537,8 +6387,8 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1544,
@@ -7562,8 +6412,8 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1659,
@@ -7587,12 +6437,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			431,
-			695,
+			1276,
+			202,
 			79,
 			84
 		},
@@ -7612,12 +6462,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			431,
-			695,
+			1276,
+			202,
 			79,
 			84
 		},
@@ -7637,589 +6487,14 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1104,
-			1564,
+			1783,
+			715,
 			57,
 			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0079"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            33,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1419,
-			987,
-			61,
-			75
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0080"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            33,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			87,
-			704,
-			61,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			34,
-            16,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			696,
-			779,
-			60,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			34,
-            16,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			696,
-			779,
-			60,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			31,
-            14,
-            36,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			701,
-			860,
-			64,
-			81
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			31,
-            14,
-            36,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			701,
-			860,
-			64,
-			81
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			31,
-            20,
-            36,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			701,
-			943,
-			64,
-			75
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			29,
-            20,
-            33,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			173,
-			932,
-			69,
-			75
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			29,
-            19,
-            33,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1418,
-			1050,
-			69,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			86,
-			1234,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			37,
-            19,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			85,
-			1370,
-			57,
-			76
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkKnight_0098"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			36,
-            16,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			758,
-			779,
-			58,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0099"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			36,
-            16,
-            37,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			758,
-			779,
-			58,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0100"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			40,
-            19,
-            33,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1039,
-			954,
-			58,
-			76
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkKnight_0101"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			131,
-			97
-		},
-		trim = {
-			40,
-            19,
-            33,
-            4
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1855,
-			1095,
-			58,
-			74
 		},
 		alias = {},
 		textureRotated = true
@@ -8237,12 +6512,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			827,
-			1346,
+			1391,
+			654,
 			58,
 			69
 		},
@@ -8262,12 +6537,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1062,
-			1182,
+			714,
+			807,
 			62,
 			70
 		},
@@ -8287,17 +6562,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			518,
-			1207,
+			857,
+			880,
 			64,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0105"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8312,12 +6587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			1510,
+			1324,
+			669,
 			65,
 			65
 		},
@@ -8337,17 +6612,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1911,
-			1458,
+			2000,
+			557,
 			70,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkKnight_0107"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8362,12 +6637,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			705,
-			1277,
+			1040,
+			1097,
 			71,
 			32
 		},
@@ -8387,12 +6662,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			705,
-			1277,
+			1040,
+			1097,
 			71,
 			32
 		},
@@ -8412,17 +6687,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			1187,
+			1391,
+			614,
 			71,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8437,17 +6712,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			105,
+			409,
+			204,
 			81,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8462,17 +6737,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			105,
+			409,
+			204,
 			81,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8487,17 +6762,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			101,
+			300,
+			260,
 			82,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8512,17 +6787,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			101,
+			300,
+			260,
 			82,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8537,12 +6812,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			953,
+			842,
 			83,
 			108
 		},
@@ -8562,12 +6837,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			953,
+			842,
 			83,
 			108
 		},
@@ -8587,12 +6862,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1063,
+			952,
 			83,
 			108
 		},
@@ -8612,12 +6887,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			773,
-			197,
+			407,
+			287,
 			82,
 			104
 		},
@@ -8637,12 +6912,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			773,
-			197,
+			407,
+			287,
 			82,
 			104
 		},
@@ -8662,12 +6937,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1183,
-			107,
+			203,
+			496,
 			80,
 			97
 		},
@@ -8687,12 +6962,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1183,
-			107,
+			203,
+			496,
 			80,
 			97
 		},
@@ -8712,17 +6987,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1182,
-			490,
+			1233,
+			102,
 			80,
 			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8737,17 +7012,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1182,
-			490,
+			1233,
+			102,
 			80,
 			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8762,17 +7037,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			219,
-			220,
+			300,
+			344,
 			82,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8787,17 +7062,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			219,
-			220,
+			300,
+			344,
 			82,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8812,12 +7087,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1173,
+			1062,
 			83,
 			107
 		},
@@ -8837,12 +7112,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1173,
+			1062,
 			83,
 			107
 		},
@@ -8862,12 +7137,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1282,
+			1171,
 			82,
 			108
 		},
@@ -8887,17 +7162,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			205,
+			407,
+			371,
 			81,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8912,17 +7187,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			205,
+			407,
+			371,
 			81,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8937,17 +7212,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			313,
+			1072,
+			202,
 			82,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8962,17 +7237,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			313,
+			1072,
+			202,
 			82,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -8987,17 +7262,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1273,
-			205,
+			778,
+			572,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9012,17 +7287,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1273,
-			205,
+			778,
+			572,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9037,17 +7312,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1078,
-			389,
+			345,
+			595,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9062,17 +7337,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1078,
-			389,
+			345,
+			595,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9087,12 +7362,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			253,
+			170,
+			416,
 			78,
 			105
 		},
@@ -9112,12 +7387,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			253,
+			170,
+			416,
 			78,
 			105
 		},
@@ -9137,17 +7412,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			878,
-			291,
+			598,
+			290,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9162,17 +7437,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			967,
-			611,
+			598,
+			101,
 			75,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9187,17 +7462,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			967,
-			611,
+			598,
+			101,
 			75,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9212,17 +7487,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			335,
-			696,
+			102,
+			1943,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9237,17 +7512,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			335,
-			696,
+			102,
+			1943,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9262,12 +7537,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			368,
+			1873,
+			418,
 			72,
 			95
 		},
@@ -9287,12 +7562,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			368,
+			1873,
+			418,
 			72,
 			95
 		},
@@ -9312,17 +7587,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1078,
-			466,
+			422,
+			595,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9337,17 +7612,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1078,
-			466,
+			422,
+			595,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9362,17 +7637,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			241,
-			327,
+			1169,
+			202,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9387,17 +7662,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			241,
-			327,
+			1169,
+			202,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9412,17 +7687,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			321,
-			309,
+			479,
+			463,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9437,12 +7712,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1265,
-			102,
+			1357,
+			190,
 			75,
 			101
 		},
@@ -9462,12 +7737,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1265,
-			102,
+			1357,
+			190,
 			75,
 			101
 		},
@@ -9487,17 +7762,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			168,
-			764,
+			114,
+			2039,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9512,17 +7787,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			168,
-			764,
+			114,
+			2039,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9537,17 +7812,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			442,
+			97,
+			1695,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9562,17 +7837,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			442,
+			97,
+			1695,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0047"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9587,17 +7862,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			534,
+			1434,
+			190,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9612,17 +7887,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			534,
+			1434,
+			190,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9637,17 +7912,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			333,
+			1511,
+			190,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9662,17 +7937,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			333,
+			1511,
+			190,
 			78,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9687,12 +7962,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			337,
+			149,
+			696,
 			78,
 			105
 		},
@@ -9712,12 +7987,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1279,
-			302,
+			86,
+			989,
 			75,
 			101
 		},
@@ -9737,12 +8012,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1279,
-			302,
+			86,
+			989,
 			75,
 			101
 		},
@@ -9762,17 +8037,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			335,
-			770,
+			188,
+			2039,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0055"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9787,17 +8062,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			335,
-			770,
+			188,
+			2039,
 			72,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0056"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9812,17 +8087,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			516,
+			103,
+			1792,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0057"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9837,17 +8112,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			516,
+			103,
+			1792,
 			72,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0058"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9862,17 +8137,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1072,
-			543,
+			86,
+			885,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9887,17 +8162,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1072,
-			543,
+			86,
+			885,
 			75,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["darkSlayer_0060"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -9912,12 +8187,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			371,
+			345,
+			699,
 			78,
 			105
 		},
@@ -9937,12 +8212,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			371,
+			345,
+			699,
 			78,
 			105
 		},
@@ -9962,12 +8237,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			486,
+			86,
+			778,
 			78,
 			105
 		},
@@ -9987,12 +8262,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1356,
-			297,
+			86,
+			1092,
 			75,
 			101
 		},
@@ -10012,12 +8287,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1356,
-			297,
+			86,
+			1092,
 			75,
 			101
 		},
@@ -10037,12 +8312,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			423,
-			868,
+			255,
+			1122,
 			72,
 			94
 		},
@@ -10062,12 +8337,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			423,
-			868,
+			255,
+			1122,
 			72,
 			94
 		},
@@ -10087,12 +8362,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			487,
+			85,
+			1195,
 			79,
 			95
 		},
@@ -10112,17 +8387,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			584,
+			1873,
+			337,
 			79,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -10137,17 +8412,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			584,
+			1873,
+			337,
 			79,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0070"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -10162,8 +8437,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			647,
@@ -10187,8 +8462,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			647,
@@ -10212,8 +8487,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			531,
@@ -10237,8 +8512,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			531,
@@ -10262,8 +8537,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -10287,8 +8562,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -10312,8 +8587,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -10337,8 +8612,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -10362,8 +8637,8 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			415,
@@ -10387,12 +8662,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			2252,
+			1616,
 			94,
 			105
 		},
@@ -10412,12 +8687,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			2359,
+			1723,
 			94,
 			105
 		},
@@ -10437,12 +8712,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			985,
-			291,
+			685,
+			388,
 			91,
 			94
 		},
@@ -10462,12 +8737,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			303,
+			772,
+			195,
 			91,
 			92
 		},
@@ -10487,12 +8762,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			303,
+			772,
+			195,
 			91,
 			92
 		},
@@ -10512,17 +8787,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1182,
-			206,
+			676,
+			199,
 			89,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0085"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -10537,12 +8812,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			681,
+			133,
+			1393,
 			79,
 			95
 		},
@@ -10562,592 +8837,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			681,
+			133,
+			1393,
 			79,
 			95
 		},
 		alias = {},
 		textureRotated = false
-	},
-	["darkSlayer_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            19,
-            29,
-            14
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			763,
-			609,
-			79,
-			101
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            19,
-            29,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			422,
-			591,
-			79,
-			102
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			40,
-            14,
-            30,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			1505,
-			81,
-			107
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			40,
-            14,
-            30,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			1505,
-			81,
-			107
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			36,
-            13,
-            30,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			842,
-			85,
-			109
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			36,
-            13,
-            30,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			842,
-			85,
-			109
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			36,
-            20,
-            30,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			335,
-			593,
-			85,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			33,
-            20,
-            30,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1078,
-			202,
-			88,
-			102
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			33,
-            16,
-            30,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			1614,
-			88,
-			106
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			44,
-            16,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			865,
-			451,
-			75,
-			105
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0098"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0099"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0100"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0101"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0102"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0103"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0104"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0105"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            17,
-            32,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			972,
-			456,
-			76,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0106"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            13,
-            32,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			87,
-			593,
-			76,
-			109
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0107"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            13,
-            32,
-            12
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			87,
-			593,
-			76,
-			109
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["darkSlayer_0108"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            19,
-            29,
-            13
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			864,
-			528,
-			79,
-			102
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["darkSlayer_0109"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			151,
-			134
-		},
-		trim = {
-			43,
-            19,
-            29,
-            16
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			866,
-			609,
-			79,
-			99
-		},
-		alias = {},
-		textureRotated = true
 	},
 	["darkSlayer_0110"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11162,17 +8862,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			410,
+			685,
+			484,
 			82,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0111"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11187,17 +8887,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			410,
+			685,
+			484,
 			82,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0112"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11212,12 +8912,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			661,
-			692,
+			778,
+			485,
 			87,
 			85
 		},
@@ -11237,12 +8937,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			661,
-			692,
+			778,
+			485,
 			87,
 			85
 		},
@@ -11262,12 +8962,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			330,
-			503,
+			688,
+			639,
 			88,
 			88
 		},
@@ -11287,12 +8987,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			330,
-			503,
+			688,
+			639,
 			88,
 			88
 		},
@@ -11312,17 +9012,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1181,
-			302,
+			778,
+			387,
 			96,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0117"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11337,17 +9037,17 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1181,
-			302,
+			778,
+			387,
 			96,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0118"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11362,11 +9062,11 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			393,
+			300,
 			105,
 			100,
 			97
@@ -11387,11 +9087,11 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			393,
+			300,
 			105,
 			100,
 			97
@@ -11412,8 +9112,8 @@ return {
             1
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -11437,12 +9137,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1176,
-			572,
+			558,
+			809,
 			103,
 			62
 		},
@@ -11462,12 +9162,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1176,
-			572,
+			558,
+			809,
 			103,
 			62
 		},
@@ -11487,17 +9187,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1174,
-			636,
+			75,
+			1394,
 			103,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["darkSlayer_0124"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11512,17 +9212,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1174,
-			636,
+			75,
+			1394,
 			103,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["gargoyle_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11537,12 +9237,12 @@ return {
             61
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			86,
-			1155,
+			351,
+			1118,
 			75,
 			77
 		},
@@ -11562,12 +9262,12 @@ return {
             61
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			86,
-			1155,
+			351,
+			1118,
 			75,
 			77
 		},
@@ -11587,17 +9287,17 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1279,
-			636,
+			428,
+			1204,
 			68,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11612,17 +9312,17 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1279,
-			636,
+			428,
+			1204,
 			68,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11637,12 +9337,12 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1326,
-			853,
+			513,
+			392,
 			83,
 			69
 		},
@@ -11662,12 +9362,12 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1326,
-			853,
+			513,
+			392,
 			83,
 			69
 		},
@@ -11687,17 +9387,17 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			396,
+			166,
+			776,
 			88,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11712,17 +9412,17 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			396,
+			166,
+			776,
 			88,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11737,12 +9437,12 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1392,
+			1281,
 			78,
 			111
 		},
@@ -11762,12 +9462,12 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
-			1392,
+			1281,
 			78,
 			111
 		},
@@ -11787,12 +9487,12 @@ return {
             67
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			105,
-			361,
+			1,
+			1394,
 			72,
 			112
 		},
@@ -11812,12 +9512,12 @@ return {
             67
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			105,
-			361,
+			1,
+			1394,
 			72,
 			112
 		},
@@ -11837,12 +9537,12 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			519,
-			865,
+			688,
+			729,
 			76,
 			88
 		},
@@ -11862,12 +9562,12 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			519,
-			865,
+			688,
+			729,
 			76,
 			88
 		},
@@ -11887,17 +9587,17 @@ return {
             58
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			321,
-			416,
+			341,
+			1197,
 			85,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11912,17 +9612,17 @@ return {
             58
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			321,
-			416,
+			341,
+			1197,
 			85,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -11937,12 +9637,12 @@ return {
             57
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			241,
-			434,
+			310,
+			1732,
 			78,
 			80
 		},
@@ -11962,12 +9662,12 @@ return {
             57
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			241,
-			434,
+			310,
+			1732,
 			78,
 			80
 		},
@@ -11987,12 +9687,12 @@ return {
             75
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1,
-			2466,
+			105,
+			361,
 			111,
 			63
 		},
@@ -12012,12 +9712,12 @@ return {
             75
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1,
-			2466,
+			105,
+			361,
 			111,
 			63
 		},
@@ -12037,8 +9737,8 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1425,
@@ -12062,8 +9762,8 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1425,
@@ -12087,8 +9787,8 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			985,
@@ -12112,8 +9812,8 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			985,
@@ -12137,8 +9837,8 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1774,
@@ -12162,8 +9862,8 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1774,
@@ -12187,12 +9887,12 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			420,
-			486,
+			513,
+			287,
 			103,
 			83
 		},
@@ -12212,12 +9912,12 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			420,
-			486,
+			513,
+			287,
 			103,
 			83
 		},
@@ -12237,17 +9937,17 @@ return {
             57
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			431,
-			781,
+			398,
+			1027,
 			85,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12262,17 +9962,17 @@ return {
             57
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			431,
-			781,
+			398,
+			1027,
 			85,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12287,17 +9987,17 @@ return {
             56
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			401,
+			308,
+			1649,
 			78,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12312,17 +10012,17 @@ return {
             56
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			401,
+			308,
+			1649,
 			78,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12337,12 +10037,12 @@ return {
             76
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			66,
-			2466,
+			87,
+			593,
 			111,
 			60
 		},
@@ -12362,12 +10062,12 @@ return {
             76
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			66,
-			2466,
+			87,
+			593,
 			111,
 			60
 		},
@@ -12387,8 +10087,8 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -12412,8 +10112,8 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -12437,8 +10137,8 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1094,
@@ -12462,8 +10162,8 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1094,
@@ -12487,8 +10187,8 @@ return {
             69
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1887,
@@ -12512,8 +10212,8 @@ return {
             69
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1887,
@@ -12537,17 +10237,17 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			208,
+			967,
+			202,
 			103,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0042"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12562,17 +10262,17 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			208,
+			967,
+			202,
 			103,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12587,17 +10287,17 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			853,
+			498,
+			1200,
 			84,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["gargoyle_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12612,17 +10312,17 @@ return {
             73
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			853,
+			498,
+			1200,
 			84,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["gargoyle_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12637,12 +10337,12 @@ return {
             78
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			518,
-			943,
+			256,
+			872,
 			92,
 			67
 		},
@@ -12662,12 +10362,12 @@ return {
             78
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			518,
-			943,
+			256,
+			872,
 			92,
 			67
 		},
@@ -12687,12 +10387,12 @@ return {
             77
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			673,
+			331,
+			1022,
 			94,
 			65
 		},
@@ -12712,12 +10412,12 @@ return {
             77
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1707,
-			673,
+			331,
+			1022,
 			94,
 			65
 		},
@@ -12737,17 +10437,17 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			983,
-			387,
+			1164,
+			107,
 			93,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["gargoyle_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12762,17 +10462,17 @@ return {
             71
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			983,
-			387,
+			1164,
+			107,
 			93,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["gargoyle_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12787,17 +10487,17 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1976,
-			140,
+			277,
+			428,
 			95,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12812,17 +10512,17 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1976,
-			140,
+			277,
+			428,
 			95,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["gargoyle_0053"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -12837,12 +10537,12 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1526,
-			89,
+			1975,
+			149,
 			98,
 			69
 		},
@@ -12862,12 +10562,12 @@ return {
             68
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1526,
-			89,
+			1975,
+			149,
 			98,
 			69
 		},
@@ -12887,12 +10587,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			879,
-			196,
+			1412,
+			95,
 			93,
 			93
 		},
@@ -12912,12 +10612,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			879,
-			196,
+			1412,
+			95,
 			93,
 			93
 		},
@@ -12937,12 +10637,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			764,
-			417,
+			199,
+			223,
 			93,
 			99
 		},
@@ -12962,12 +10662,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			764,
-			417,
+			199,
+			223,
 			93,
 			99
 		},
@@ -12987,17 +10687,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			237,
-			593,
+			199,
+			318,
 			96,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13012,17 +10712,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			237,
-			593,
+			199,
+			318,
 			96,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13037,12 +10737,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			98,
+			402,
+			105,
 			97,
 			99
 		},
@@ -13062,12 +10762,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1429,
-			89,
+			285,
+			496,
 			95,
 			97
 		},
@@ -13087,12 +10787,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1429,
-			89,
+			285,
+			496,
 			95,
 			97
 		},
@@ -13112,17 +10812,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			688,
+			163,
+			933,
 			93,
 			90
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0011"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13137,17 +10837,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			688,
+			163,
+			933,
 			93,
 			90
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13162,17 +10862,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1617,
-			476,
+			1589,
+			87,
 			94,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13187,17 +10887,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1617,
-			476,
+			1589,
+			87,
 			94,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13212,12 +10912,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			508,
+			102,
+			496,
 			95,
 			99
 		},
@@ -13237,12 +10937,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			508,
+			102,
+			496,
 			95,
 			99
 		},
@@ -13262,17 +10962,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			394,
-			204,
+			149,
+			595,
 			97,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13287,17 +10987,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			394,
-			204,
+			149,
+			595,
 			97,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13312,17 +11012,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			763,
-			512,
+			248,
+			595,
 			95,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13337,12 +11037,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1429,
-			188,
+			503,
+			105,
 			93,
 			97
 		},
@@ -13362,12 +11062,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1429,
-			188,
+			503,
+			105,
 			93,
 			97
 		},
@@ -13387,12 +11087,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			590,
+			256,
+			780,
 			92,
 			90
 		},
@@ -13412,12 +11112,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			590,
+			256,
+			780,
 			92,
 			90
 		},
@@ -13437,12 +11137,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1874,
-			682,
+			255,
+			941,
 			79,
 			92
 		},
@@ -13462,12 +11162,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1874,
-			682,
+			255,
+			941,
 			79,
 			92
 		},
@@ -13487,12 +11187,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1347,
-			196,
+			1507,
+			89,
 			80,
 			99
 		},
@@ -13512,12 +11212,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1347,
-			196,
+			1507,
+			89,
 			80,
 			99
 		},
@@ -13537,12 +11237,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			605,
+			866,
+			200,
 			85,
 			99
 		},
@@ -13562,12 +11262,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			605,
+			866,
+			200,
 			85,
 			99
 		},
@@ -13587,12 +11287,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1342,
-			95,
+			499,
+			543,
 			85,
 			99
 		},
@@ -13612,12 +11312,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			277,
+			586,
+			476,
 			80,
 			97
 		},
@@ -13637,12 +11337,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			277,
+			586,
+			476,
 			80,
 			97
 		},
@@ -13662,12 +11362,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			331,
-			844,
+			1682,
+			279,
 			79,
 			90
 		},
@@ -13687,12 +11387,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			331,
-			844,
+			1682,
+			279,
 			79,
 			90
 		},
@@ -13712,12 +11412,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			88,
-			842,
+			166,
+			1193,
 			79,
 			92
 		},
@@ -13737,12 +11437,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			88,
-			842,
+			166,
+			1193,
 			79,
 			92
 		},
@@ -13762,12 +11462,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			400,
+			81,
+			1292,
 			80,
 			99
 		},
@@ -13787,12 +11487,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			400,
+			81,
+			1292,
 			80,
 			99
 		},
@@ -13812,17 +11512,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1443,
-			386,
+			587,
+			640,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13837,17 +11537,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1443,
-			386,
+			587,
+			640,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -13862,12 +11562,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			95,
+			778,
+			646,
 			85,
 			99
 		},
@@ -13887,12 +11587,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			359,
+			586,
+			558,
 			80,
 			97
 		},
@@ -13912,12 +11612,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			359,
+			586,
+			558,
 			80,
 			97
 		},
@@ -13937,12 +11637,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			512,
-			784,
+			1682,
+			360,
 			79,
 			90
 		},
@@ -13962,12 +11662,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			512,
-			784,
+			1682,
+			360,
 			79,
 			90
 		},
@@ -13987,12 +11687,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			169,
-			838,
+			250,
+			1028,
 			79,
 			92
 		},
@@ -14012,12 +11712,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			169,
-			838,
+			250,
+			1028,
 			79,
 			92
 		},
@@ -14037,17 +11737,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1619,
-			182,
+			587,
+			727,
 			80,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14062,17 +11762,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1619,
-			182,
+			587,
+			727,
 			80,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14087,11 +11787,11 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1875,
+			1773,
 			95,
 			85,
 			99
@@ -14112,11 +11812,11 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1875,
+			1773,
 			95,
 			85,
 			99
@@ -14137,17 +11837,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			385,
+			1874,
+			95,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14162,12 +11862,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			441,
+			1875,
+			255,
 			80,
 			97
 		},
@@ -14187,12 +11887,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			441,
+			1875,
+			255,
 			80,
 			97
 		},
@@ -14212,17 +11912,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			604,
-			779,
+			176,
+			1947,
 			79,
 			90
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0055"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14237,17 +11937,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			604,
-			779,
+			176,
+			1947,
 			79,
 			90
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0056"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14262,17 +11962,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			250,
-			839,
+			247,
+			1196,
 			79,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0057"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14287,17 +11987,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			250,
-			839,
+			247,
+			1196,
 			79,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0058"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14312,17 +12012,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1620,
-			283,
+			778,
+			733,
 			80,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14337,17 +12037,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1620,
-			283,
+			778,
+			733,
 			80,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0060"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14362,17 +12062,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			486,
+			1774,
+			182,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14387,17 +12087,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			486,
+			1774,
+			182,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14412,17 +12112,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1530,
-			587,
+			350,
+			779,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0063"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14437,17 +12137,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1625,
-			667,
+			1774,
+			335,
 			80,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0064"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14462,17 +12162,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1625,
-			667,
+			1774,
+			335,
 			80,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["marauder_0065"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14487,12 +12187,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			860,
+			429,
+			946,
 			79,
 			90
 		},
@@ -14512,12 +12212,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			860,
+			429,
+			946,
 			79,
 			90
 		},
@@ -14537,12 +12237,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1872,
-			182,
+			1315,
+			95,
 			95,
 			93
 		},
@@ -14562,12 +12262,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			273,
+			382,
+			454,
 			95,
 			93
 		},
@@ -14587,12 +12287,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1597,
-			87,
+			968,
+			107,
 			96,
 			93
 		},
@@ -14612,12 +12312,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1597,
-			87,
+			968,
+			107,
 			96,
 			93
 		},
@@ -14637,17 +12337,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1524,
-			189,
+			1066,
+			107,
 			96,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0072"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14662,17 +12362,17 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1524,
-			189,
+			1066,
+			107,
 			96,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["marauder_0073"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -14687,12 +12387,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1525,
-			287,
+			678,
+			290,
 			96,
 			93
 		},
@@ -14712,12 +12412,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1525,
-			287,
+			678,
+			290,
 			96,
 			93
 		},
@@ -14737,12 +12437,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1617,
-			572,
+			1682,
+			184,
 			90,
 			93
 		},
@@ -14762,12 +12462,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			413,
+			866,
+			105,
 			100,
 			93
 		},
@@ -14787,12 +12487,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			413,
+			866,
+			105,
 			100,
 			93
 		},
@@ -14812,12 +12512,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1080,
-			107,
+			763,
+			100,
 			101,
 			93
 		},
@@ -14837,12 +12537,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1080,
-			107,
+			763,
+			100,
 			101,
 			93
 		},
@@ -14862,589 +12562,14 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			273,
+			382,
+			454,
 			95,
 			93
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			31,
-            6,
-            30,
-            7
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			194,
-			117,
-			95,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			31,
-            6,
-            30,
-            7
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			763,
-			100,
-			95,
-			101
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			36,
-            4,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			974,
-			107,
-			91,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			36,
-            4,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			974,
-			107,
-			91,
-			104
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			30,
-            2,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			1722,
-			97,
-			106
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			30,
-            2,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			1722,
-			97,
-			106
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			30,
-            9,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			503,
-			592,
-			97,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			27,
-            9,
-            29,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			291,
-			105,
-			100,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			27,
-            6,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1,
-			2148,
-			99,
-			102
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            6,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			974,
-			200,
-			89,
-			102
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0098"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0099"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            7,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			303,
-			206,
-			89,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["marauder_0100"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            2,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			866,
-			105,
-			89,
-			106
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0101"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			37,
-            2,
-            30,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			866,
-			105,
-			89,
-			106
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0102"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			31,
-            6,
-            30,
-            7
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1078,
-			292,
-			95,
-			101
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["marauder_0103"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			156,
-			114
-		},
-		trim = {
-			31,
-            6,
-            30,
-            9
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1182,
-			389,
-			95,
-			99
 		},
 		alias = {},
 		textureRotated = false
@@ -15462,12 +12587,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			512,
-			693,
+			1591,
+			280,
 			89,
 			89
 		},
@@ -15487,12 +12612,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			512,
-			693,
+			1591,
+			280,
 			89,
 			89
 		},
@@ -15512,12 +12637,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			580,
+			1685,
+			87,
 			95,
 			86
 		},
@@ -15537,12 +12662,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			580,
+			1685,
+			87,
 			95,
 			86
 		},
@@ -15562,12 +12687,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			677,
+			675,
+			98,
 			99,
 			86
 		},
@@ -15587,12 +12712,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1361,
-			677,
+			675,
+			98,
 			99,
 			86
 		},
@@ -15612,12 +12737,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			134,
-			253,
+			1,
+			1508,
 			106,
 			83
 		},
@@ -15637,12 +12762,12 @@ return {
             15
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			134,
-			253,
+			1,
+			1508,
 			106,
 			83
 		},
@@ -15662,8 +12787,8 @@ return {
             1
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			763,
@@ -15687,8 +12812,8 @@ return {
             1
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			763,
@@ -15712,8 +12837,8 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1311,
@@ -15737,12 +12862,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			179,
-			361,
+			137,
+			122,
 			107,
 			60
 		},
@@ -15762,12 +12887,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			179,
-			361,
+			137,
+			122,
 			107,
 			60
 		},
@@ -15787,12 +12912,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			281,
+			300,
+			204,
 			107,
 			54
 		},
@@ -15812,12 +12937,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			281,
+			300,
+			204,
 			107,
 			54
 		},
@@ -15837,12 +12962,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			137,
-			122,
+			1,
+			2042,
 			109,
 			55
 		},
@@ -15862,12 +12987,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			137,
-			122,
+			1,
+			2042,
 			109,
 			55
 		},
@@ -15887,17 +13012,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			662,
-			197,
+			58,
+			2042,
 			109,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -15912,17 +13037,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			811,
-			1771,
+			1661,
+			1288,
 			48,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -15937,17 +13062,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			811,
-			1771,
+			1661,
+			1288,
 			48,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -15962,12 +13087,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1773,
+			1115,
+			1165,
 			48,
 			63
 		},
@@ -15987,12 +13112,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1773,
+			1115,
+			1165,
 			48,
 			63
 		},
@@ -16012,17 +13137,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			407,
-			2079,
+			1539,
+			962,
 			46,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16037,17 +13162,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			407,
-			2079,
+			1539,
+			962,
 			46,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16062,17 +13187,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			403,
-			2189,
+			1926,
+			492,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16087,17 +13212,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			403,
-			2189,
+			1926,
+			492,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16112,12 +13237,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1663,
-			846,
+			1478,
+			1506,
 			42,
 			61
 		},
@@ -16137,12 +13262,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1663,
-			846,
+			1478,
+			1506,
 			42,
 			61
 		},
@@ -16162,17 +13287,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1308,
-			1471,
+			1074,
+			943,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16187,17 +13312,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1308,
-			1471,
+			1074,
+			943,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16212,12 +13337,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			834,
-			2364,
+			1371,
+			1824,
 			42,
 			61
 		},
@@ -16237,12 +13362,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			834,
-			2364,
+			1371,
+			1824,
 			42,
 			61
 		},
@@ -16262,17 +13387,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			468,
-			2189,
+			1399,
+			1219,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16287,17 +13412,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			468,
-			2189,
+			1399,
+			1219,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16312,12 +13437,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			473,
-			2079,
+			1827,
+			1039,
 			46,
 			64
 		},
@@ -16337,12 +13462,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			473,
-			2079,
+			1827,
+			1039,
 			46,
 			64
 		},
@@ -16362,12 +13487,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1838,
+			1178,
+			1261,
 			48,
 			63
 		},
@@ -16387,12 +13512,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1838,
+			1178,
+			1261,
 			48,
 			63
 		},
@@ -16412,17 +13537,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1903,
+			1393,
+			1399,
 			48,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16437,17 +13562,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1903,
+			1393,
+			1399,
 			48,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16462,12 +13587,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			631,
-			2512,
+			1994,
+			834,
 			50,
 			60
 		},
@@ -16487,12 +13612,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			631,
-			2512,
+			1994,
+			834,
 			50,
 			60
 		},
@@ -16512,17 +13637,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			897,
-			2378,
+			1742,
+			1506,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16537,17 +13662,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			897,
-			2378,
+			1742,
+			1506,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16562,17 +13687,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			533,
-			2194,
+			1401,
+			1284,
 			47,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16587,17 +13712,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			533,
-			2194,
+			1401,
+			1284,
 			47,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0029"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16612,12 +13737,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			2163,
+			1716,
+			1084,
 			48,
 			64
 		},
@@ -16637,12 +13762,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			2163,
+			1716,
+			1084,
 			48,
 			64
 		},
@@ -16662,12 +13787,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1966,
+			1157,
+			1391,
 			48,
 			63
 		},
@@ -16687,12 +13812,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			934,
-			1966,
+			1157,
+			1391,
 			48,
 			63
 		},
@@ -16712,17 +13837,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			896,
-			2425,
+			1264,
+			1573,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16737,17 +13862,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			896,
-			2425,
+			1264,
+			1573,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -16762,12 +13887,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1411,
-			2067,
+			1218,
+			1634,
 			44,
 			60
 		},
@@ -16787,12 +13912,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1411,
-			2067,
+			1218,
+			1634,
 			44,
 			60
 		},
@@ -16812,12 +13937,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			520,
-			2451,
+			1843,
+			1727,
 			45,
 			61
 		},
@@ -16837,12 +13962,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			520,
-			2451,
+			1843,
+			1727,
 			45,
 			61
 		},
@@ -16862,12 +13987,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			2229,
+			1157,
+			1456,
 			48,
 			63
 		},
@@ -16887,12 +14012,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			968,
-			2229,
+			1157,
+			1456,
 			48,
 			63
 		},
@@ -16912,12 +14037,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			598,
-			2194,
+			1892,
+			1152,
 			48,
 			63
 		},
@@ -16937,12 +14062,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			598,
-			2194,
+			1892,
+			1152,
 			48,
 			63
 		},
@@ -16962,12 +14087,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			2200,
+			1957,
+			1154,
 			47,
 			63
 		},
@@ -16987,12 +14112,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			2200,
+			1957,
+			1154,
 			47,
 			63
 		},
@@ -17012,17 +14137,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			528,
-			2514,
+			1525,
+			1798,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17037,17 +14162,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			528,
-			2514,
+			1525,
+			1798,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0047"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17062,17 +14187,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1428,
-			2192,
+			1156,
+			1668,
 			45,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17087,17 +14212,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1428,
-			2192,
+			1156,
+			1668,
 			45,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17112,12 +14237,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			890,
-			2472,
+			1588,
+			1798,
 			45,
 			61
 		},
@@ -17137,12 +14262,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			890,
-			2472,
+			1588,
+			1798,
 			45,
 			61
 		},
@@ -17162,12 +14287,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			728,
-			2205,
+			1330,
+			1350,
 			47,
 			63
 		},
@@ -17187,12 +14312,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			728,
-			2205,
+			1330,
+			1350,
 			47,
 			63
 		},
@@ -17212,12 +14337,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2262,
+			1893,
+			1047,
 			48,
 			64
 		},
@@ -17237,12 +14362,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2262,
+			1893,
+			1047,
 			48,
 			64
 		},
@@ -17262,12 +14387,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			399,
-			2233,
+			1328,
+			1399,
 			48,
 			63
 		},
@@ -17287,12 +14412,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			399,
-			2233,
+			1328,
+			1399,
 			48,
 			63
 		},
@@ -17312,17 +14437,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1307,
-			1533,
+			1651,
+			1798,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0058"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17337,17 +14462,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1307,
-			1533,
+			1651,
+			1798,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17362,12 +14487,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1507,
-			1486,
+			1525,
+			1845,
 			45,
 			61
 		},
@@ -17387,12 +14512,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1507,
-			1486,
+			1525,
+			1845,
 			45,
 			61
 		},
@@ -17412,12 +14537,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1570,
-			1493,
+			1588,
+			1845,
 			45,
 			61
 		},
@@ -17437,12 +14562,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1570,
-			1493,
+			1588,
+			1845,
 			45,
 			61
 		},
@@ -17462,17 +14587,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			464,
-			2233,
+			1443,
+			1219,
 			48,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0064"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17487,17 +14612,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			464,
-			2233,
+			1443,
+			1219,
 			48,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0065"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17512,17 +14637,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			529,
-			2243,
+			1450,
+			1284,
 			48,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17537,17 +14662,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			529,
-			2243,
+			1450,
+			1284,
 			48,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17562,17 +14687,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			594,
-			2244,
+			1493,
+			1219,
 			47,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17587,17 +14712,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			594,
-			2244,
+			1493,
+			1219,
 			47,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17612,12 +14737,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1633,
-			1505,
+			1651,
+			1845,
 			45,
 			61
 		},
@@ -17637,12 +14762,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1633,
-			1505,
+			1651,
+			1845,
 			45,
 			61
 		},
@@ -17662,17 +14787,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1594,
-			1647,
+			1805,
+			1850,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0072"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17687,17 +14812,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0073"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17712,17 +14837,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0074"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17737,17 +14862,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2147,
+			1370,
+			1156,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0075"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17762,17 +14887,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2147,
+			1370,
+			1156,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -17787,12 +14912,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			547,
-			1648,
+			1605,
+			554,
 			59,
 			61
 		},
@@ -17812,12 +14937,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			547,
-			1648,
+			1605,
+			554,
 			59,
 			61
 		},
@@ -17837,12 +14962,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1179,
-			1503,
+			1430,
+			1028,
 			61,
 			61
 		},
@@ -17862,12 +14987,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1179,
-			1503,
+			1430,
+			1028,
 			61,
 			61
 		},
@@ -17887,12 +15012,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1179,
-			1503,
+			1430,
+			1028,
 			61,
 			61
 		},
@@ -17912,12 +15037,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2304,
+			1464,
+			1349,
 			49,
 			61
 		},
@@ -17937,12 +15062,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2304,
+			1464,
+			1349,
 			49,
 			61
 		},
@@ -17962,12 +15087,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			343,
-			2269,
+			1542,
+			1215,
 			54,
 			61
 		},
@@ -17987,12 +15112,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			343,
-			2269,
+			1542,
+			1215,
 			54,
 			61
 		},
@@ -18012,17 +15137,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			2208,
+			1710,
+			1021,
 			52,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0086"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18037,17 +15162,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			2208,
+			1710,
+			1021,
 			52,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0087"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18062,12 +15187,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			399,
-			2283,
+			1401,
+			1349,
 			48,
 			61
 		},
@@ -18087,12 +15212,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			399,
-			2283,
+			1401,
+			1349,
 			48,
 			61
 		},
@@ -18112,17 +15237,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1641,
-			1647,
+			1218,
+			1786,
 			42,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0090"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18137,17 +15262,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1641,
-			1647,
+			1218,
+			1786,
 			42,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0091"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18162,17 +15287,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0092"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18187,17 +15312,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0093"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18212,17 +15337,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0094"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18237,12 +15362,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			920,
-			2232,
+			1892,
+			1765,
 			46,
 			60
 		},
@@ -18262,12 +15387,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			920,
-			2232,
+			1892,
+			1765,
 			46,
 			60
 		},
@@ -18287,17 +15412,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1412,
-			1697,
+			1634,
+			1506,
 			50,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0097"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18312,17 +15437,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			522,
-			2337,
+			1367,
+			1509,
 			53,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0098"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18337,17 +15462,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			522,
-			2337,
+			1367,
+			1509,
 			53,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0099"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18362,17 +15487,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			812,
-			1945,
+			1207,
+			1453,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0100"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18387,17 +15512,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			812,
-			1945,
+			1207,
+			1453,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0101"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18412,17 +15537,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			226,
-			2269,
+			1262,
+			780,
 			57,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0102"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18437,17 +15562,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			226,
-			2269,
+			1262,
+			780,
 			57,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0103"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18462,12 +15587,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1572,
-			1251,
+			595,
+			1975,
 			59,
 			70
 		},
@@ -18487,12 +15612,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1572,
-			1251,
+			595,
+			1975,
 			59,
 			70
 		},
@@ -18512,17 +15637,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1841,
-			1285,
+			667,
+			1965,
 			59,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0106"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18537,17 +15662,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1841,
-			1285,
+			667,
+			1965,
 			59,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0107"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18562,12 +15687,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			1560,
+			1605,
+			617,
 			59,
 			68
 		},
@@ -18587,12 +15712,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			1560,
+			1605,
+			617,
 			59,
 			68
 		},
@@ -18612,17 +15737,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1058,
-			1254,
+			858,
+			1573,
 			57,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0110"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18637,17 +15762,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1058,
-			1254,
+			858,
+			1573,
 			57,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0111"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18662,17 +15787,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1081,
-			2205,
+			1101,
+			1391,
 			54,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0112"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18687,17 +15812,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1081,
-			2205,
+			1101,
+			1391,
 			54,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0113"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18712,12 +15837,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			462,
-			2283,
+			1456,
+			1400,
 			48,
 			61
 		},
@@ -18737,12 +15862,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			462,
-			2283,
+			1456,
+			1400,
 			48,
 			61
 		},
@@ -18762,17 +15887,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0116"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18787,17 +15912,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0117"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18812,17 +15937,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0118"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18837,12 +15962,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1363,
-			1752,
+			1789,
+			1602,
 			46,
 			61
 		},
@@ -18862,12 +15987,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1363,
-			1752,
+			1789,
+			1602,
 			46,
 			61
 		},
@@ -18887,12 +16012,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1689,
-			1699,
+			1611,
+			1337,
 			48,
 			60
 		},
@@ -18912,12 +16037,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1689,
-			1699,
+			1611,
+			1337,
 			48,
 			60
 		},
@@ -18937,12 +16062,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1689,
-			1699,
+			1611,
+			1337,
 			48,
 			60
 		},
@@ -18962,17 +16087,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1640,
-			1133,
+			1458,
+			720,
 			62,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0124"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -18987,17 +16112,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1640,
-			1133,
+			1458,
+			720,
 			62,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0125"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19012,17 +16137,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1331,
-			924,
+			391,
+			1567,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0126"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19037,17 +16162,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1331,
-			924,
+			391,
+			1567,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0127"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19062,17 +16187,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			88,
-			936,
+			361,
+			1482,
 			83,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0128"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19087,17 +16212,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			88,
-			936,
+			361,
+			1482,
 			83,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0129"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19112,12 +16237,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1089,
+			342,
+			1277,
 			84,
 			63
 		},
@@ -19137,12 +16262,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1089,
+			342,
+			1277,
 			84,
 			63
 		},
@@ -19162,17 +16287,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			670,
-			1089,
+			390,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0132"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19187,17 +16312,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			670,
-			1089,
+			390,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0133"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19212,12 +16337,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			750,
-			692,
+			569,
+			1199,
 			85,
 			63
 		},
@@ -19237,12 +16362,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			750,
-			692,
+			569,
+			1199,
 			85,
 			63
 		},
@@ -19262,12 +16387,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1184,
-			1101,
+			397,
+			1950,
 			84,
 			63
 		},
@@ -19287,12 +16412,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1184,
-			1101,
+			397,
+			1950,
 			84,
 			63
 		},
@@ -19312,17 +16437,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1416,
-			1121,
+			455,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0138"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19337,17 +16462,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1416,
-			1121,
+			455,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0139"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19362,12 +16487,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			840,
-			1025,
+			243,
+			1662,
 			85,
 			63
 		},
@@ -19387,12 +16512,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			840,
-			1025,
+			243,
+			1662,
 			85,
 			63
 		},
@@ -19412,17 +16537,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1416,
-			1186,
+			462,
+			1905,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0142"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19437,17 +16562,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1416,
-			1186,
+			462,
+			1905,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0143"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19462,12 +16587,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			84,
-			1505,
+			619,
+			1108,
 			84,
 			63
 		},
@@ -19487,12 +16612,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			84,
-			1505,
+			619,
+			1108,
 			84,
 			63
 		},
@@ -19512,17 +16637,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1039,
-			1117,
+			245,
+			1749,
 			85,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0146"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19537,17 +16662,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1039,
-			1117,
+			245,
+			1749,
 			85,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0147"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19562,12 +16687,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			103,
-			1809,
+			634,
+			1194,
 			84,
 			63
 		},
@@ -19587,12 +16712,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			103,
-			1809,
+			634,
+			1194,
 			84,
 			63
 		},
@@ -19612,12 +16737,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			1945,
+			477,
+			1389,
 			84,
 			63
 		},
@@ -19637,12 +16762,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			1945,
+			477,
+			1389,
 			84,
 			63
 		},
@@ -19662,17 +16787,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1115,
+			257,
+			1947,
 			85,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0152"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19687,17 +16812,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1115,
+			257,
+			1947,
 			85,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0153"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19712,12 +16837,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1089,
+			342,
+			1277,
 			84,
 			63
 		},
@@ -19737,12 +16862,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1089,
+			342,
+			1277,
 			84,
 			63
 		},
@@ -19762,17 +16887,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			670,
-			1089,
+			390,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0156"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19787,17 +16912,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			670,
-			1089,
+			390,
+			1732,
 			84,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0157"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19812,12 +16937,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			750,
-			692,
+			569,
+			1199,
 			85,
 			63
 		},
@@ -19837,12 +16962,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			750,
-			692,
+			569,
+			1199,
 			85,
 			63
 		},
@@ -19862,12 +16987,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			250,
-			1144,
+			778,
+			815,
 			82,
 			63
 		},
@@ -19887,12 +17012,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			250,
-			1144,
+			778,
+			815,
 			82,
 			63
 		},
@@ -19912,17 +17037,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			166,
-			1145,
+			611,
+			1389,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0162"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19937,17 +17062,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			166,
-			1145,
+			611,
+			1389,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["necromancer_0163"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -19962,589 +17087,14 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1358,
-			1816,
+			1155,
+			1759,
 			45,
 			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0164"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1841,
-			1447,
-			54,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0165"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1388,
-			1419,
-			54,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0166"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			16,
-            6,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			861,
-			1700,
-			59,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0167"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			16,
-            6,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			861,
-			1700,
-			59,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0168"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			12,
-            3,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			544,
-			1497,
-			63,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0169"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			12,
-            3,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			544,
-			1497,
-			63,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0170"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			12,
-            10,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			620,
-			1820,
-			63,
-			67
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0171"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			10,
-            10,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			516,
-			1279,
-			69,
-			67
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0172"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			10,
-            6,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			906,
-			1106,
-			69,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0173"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			19,
-            6,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			685,
-			1765,
-			55,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0174"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0175"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0176"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0177"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0178"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0179"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0180"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0181"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0182"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            9,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1566,
-			57,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0183"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            3,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			672,
-			1426,
-			57,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0184"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			17,
-            3,
-            14,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			672,
-			1426,
-			57,
-			74
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["necromancer_0185"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			20,
-            9,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1108,
-			1823,
-			49,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["necromancer_0186"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			88,
-			77
-		},
-		trim = {
-			20,
-            9,
-            23,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			479,
-			1800,
-			45,
-			66
 		},
 		alias = {},
 		textureRotated = true
@@ -20562,12 +17112,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			861,
-			1773,
+			1005,
+			431,
 			59,
 			71
 		},
@@ -20587,12 +17137,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			861,
-			1773,
+			1005,
+			431,
 			59,
 			71
 		},
@@ -20612,17 +17162,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			741,
-			1647,
+			1198,
+			771,
 			62,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0190"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20637,17 +17187,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			741,
-			1647,
+			1198,
+			771,
 			62,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0191"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20662,12 +17212,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1966,
-			1283,
+			862,
+			815,
 			63,
 			71
 		},
@@ -20687,12 +17237,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1966,
-			1283,
+			862,
+			815,
 			63,
 			71
 		},
@@ -20712,17 +17262,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			534,
-			1350,
+			800,
+			1641,
 			68,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0194"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20737,17 +17287,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			534,
-			1350,
+			800,
+			1641,
 			68,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0195"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20762,12 +17312,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			546,
-			1573,
+			850,
+			946,
 			60,
 			73
 		},
@@ -20787,12 +17337,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			546,
-			1573,
+			850,
+			946,
 			60,
 			73
 		},
@@ -20812,12 +17362,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			475,
-			1987,
+			1898,
+			952,
 			46,
 			65
 		},
@@ -20837,12 +17387,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			475,
-			1987,
+			1898,
+			952,
 			46,
 			65
 		},
@@ -20862,17 +17412,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1957,
-			1559,
+			134,
+			335,
 			45,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_0200"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20887,17 +17437,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1957,
-			1559,
+			134,
+			335,
 			45,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20912,17 +17462,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1809,
-			1930,
+			452,
+			769,
 			44,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20937,17 +17487,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			736,
-			2452,
+			642,
+			1356,
 			55,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -20962,12 +17512,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1424,
-			1645,
+			1042,
+			1671,
 			50,
 			52
 		},
@@ -20987,12 +17537,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1424,
-			1645,
+			1042,
+			1671,
 			50,
 			52
 		},
@@ -21012,12 +17562,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1424,
-			1645,
+			1042,
+			1671,
 			50,
 			52
 		},
@@ -21037,17 +17587,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1778,
+			887,
+			1943,
 			45,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21062,17 +17612,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1778,
+			887,
+			1943,
 			45,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21087,17 +17637,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1478,
-			1646,
+			1788,
+			1375,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21112,17 +17662,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1478,
-			1646,
+			1788,
+			1375,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["necromancer_bolt_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21137,12 +17687,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2333,
+			699,
+			1356,
 			31,
 			31
 		},
@@ -21162,17 +17712,17 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1703,
-			1121,
+			990,
+			880,
 			74,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21187,17 +17737,17 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			367,
-			1207,
+			987,
+			1021,
 			74,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21212,17 +17762,17 @@ return {
             84
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1496,
-			1050,
+			912,
+			946,
 			73,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21237,12 +17787,12 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			443,
-			1207,
+			983,
+			950,
 			73,
 			69
 		},
@@ -21262,17 +17812,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			81,
-			1429,
+			1970,
+			414,
 			74,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21287,12 +17837,12 @@ return {
             78
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1968,
-			765,
+			1970,
+			341,
 			74,
 			71
 		},
@@ -21312,12 +17862,12 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1702,
-			1050,
+			1970,
+			486,
 			74,
 			69
 		},
@@ -21337,17 +17887,17 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			211,
-			1505,
+			1401,
+			356,
 			72,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21362,17 +17912,17 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			237,
-			694,
+			86,
+			1499,
 			96,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21387,12 +17937,12 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			763,
+			350,
+			866,
 			99,
 			68
 		},
@@ -21412,17 +17962,17 @@ return {
             84
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			331,
-			925,
+			1975,
+			249,
 			90,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21437,12 +17987,12 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1875,
-			763,
+			685,
+			568,
 			91,
 			69
 		},
@@ -21462,17 +18012,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			815,
-			690,
+			97,
+			1597,
 			96,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21487,17 +18037,17 @@ return {
             78
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			505,
-			481,
+			1875,
+			182,
 			98,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21512,17 +18062,17 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			957,
-			767,
+			163,
+			1122,
 			90,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21537,12 +18087,12 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1028,
-			767,
+			488,
+			1108,
 			90,
 			69
 		},
@@ -21562,12 +18112,12 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1985,
-			1404,
+			1042,
+			1491,
 			57,
 			71
 		},
@@ -21587,17 +18137,17 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1495,
-			1312,
+			1076,
+			353,
 			57,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21612,12 +18162,12 @@ return {
             79
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			354,
-			1512,
+			855,
+			1276,
 			57,
 			77
 		},
@@ -21637,12 +18187,12 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			228,
-			2340,
+			796,
+			1278,
 			57,
 			75
 		},
@@ -21662,17 +18212,17 @@ return {
             78
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1778,
-			1095,
+			1201,
+			479,
 			57,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21687,17 +18237,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1110,
-			1376,
+			1198,
+			840,
 			57,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21712,17 +18262,17 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			799,
-			1567,
+			1470,
+			488,
 			57,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21737,17 +18287,17 @@ return {
             77
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1281,
-			577,
+			549,
+			2036,
 			57,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21762,12 +18312,12 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			739,
-			1279,
+			967,
+			286,
 			65,
 			71
 		},
@@ -21787,17 +18337,17 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1972,
-			1031,
+			1137,
+			493,
 			62,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21812,12 +18362,12 @@ return {
             84
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			676,
-			1577,
+			1134,
+			711,
 			62,
 			72
 		},
@@ -21837,17 +18387,17 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1033,
-			1434,
+			1202,
+			556,
 			59,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0029"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21862,17 +18412,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			887,
-			1297,
+			1260,
+			477,
 			59,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21887,17 +18437,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1972,
-			964,
+			1135,
+			565,
 			65,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21912,17 +18462,17 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1575,
+			1475,
+			362,
 			65,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21937,17 +18487,17 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			959,
-			1421,
+			1134,
+			785,
 			62,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -21962,12 +18512,12 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1813,
+			1532,
+			609,
 			59,
 			71
 		},
@@ -21987,17 +18537,17 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1972,
-			1155,
+			1202,
+			630,
 			59,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22012,12 +18562,12 @@ return {
             84
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			859,
-			1626,
+			1263,
+			552,
 			59,
 			72
 		},
@@ -22037,17 +18587,17 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			1486,
+			1531,
+			548,
 			59,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22062,12 +18612,12 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			962,
-			1299,
+			1395,
+			486,
 			59,
 			73
 		},
@@ -22087,17 +18637,17 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1316,
-			1357,
+			1263,
+			672,
 			59,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22112,12 +18662,12 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1033,
-			1495,
+			1666,
+			498,
 			59,
 			72
 		},
@@ -22137,12 +18687,12 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			985,
-			1691,
+			1666,
+			559,
 			59,
 			72
 		},
@@ -22162,17 +18712,17 @@ return {
             85
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1567,
-			1122,
+			988,
+			492,
 			73,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["rocketeer_0042"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22187,12 +18737,12 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			442,
-			1278,
+			1063,
+			493,
 			72,
 			70
 		},
@@ -22212,12 +18762,12 @@ return {
             84
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1197,
+			1130,
+			637,
 			65,
 			72
 		},
@@ -22237,17 +18787,17 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			608,
-			1577,
+			935,
+			812,
 			66,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22262,12 +18812,12 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			164,
-			1208,
+			930,
+			353,
 			73,
 			73
 		},
@@ -22287,12 +18837,12 @@ return {
             80
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			585,
-			1278,
+			1061,
+			565,
 			72,
 			70
 		},
@@ -22312,17 +18862,17 @@ return {
             81
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			1271,
+			1321,
+			480,
 			65,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22337,12 +18887,12 @@ return {
             83
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1841,
-			1211,
+			1324,
+			547,
 			65,
 			72
 		},
@@ -22362,12 +18912,12 @@ return {
             93
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1752,
+			1852,
+			492,
 			59,
 			72
 		},
@@ -22387,12 +18937,12 @@ return {
             93
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1752,
+			1852,
+			492,
 			59,
 			72
 		},
@@ -22412,17 +18962,17 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1868,
-			595,
+			163,
+			1028,
 			92,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22437,17 +18987,17 @@ return {
             87
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1868,
-			595,
+			163,
+			1028,
 			92,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0053"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22462,8 +19012,8 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			291,
@@ -22487,8 +19037,8 @@ return {
             70
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			291,
@@ -22512,8 +19062,8 @@ return {
             63
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			151,
@@ -22537,8 +19087,8 @@ return {
             63
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			151,
@@ -22562,8 +19112,8 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22587,8 +19137,8 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22612,8 +19162,8 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22637,8 +19187,8 @@ return {
             60
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22662,8 +19212,8 @@ return {
             63
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22687,8 +19237,8 @@ return {
             63
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22712,8 +19262,8 @@ return {
             95
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22737,8 +19287,8 @@ return {
             95
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -22762,17 +19312,17 @@ return {
             100
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1411,
-			849,
+			323,
+			2031,
 			82,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["rocketeer_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22787,17 +19337,17 @@ return {
             100
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1411,
-			849,
+			323,
+			2031,
 			82,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22812,12 +19362,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1651,
+			1764,
+			1022,
 			61,
 			58
 		},
@@ -22837,12 +19387,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1651,
+			1764,
+			1022,
 			61,
 			58
 		},
@@ -22862,12 +19412,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1577,
-			1429,
+			1101,
+			1327,
 			56,
 			62
 		},
@@ -22887,12 +19437,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1577,
-			1429,
+			1101,
+			1327,
 			56,
 			62
 		},
@@ -22912,12 +19462,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1983,
-			1477,
+			929,
+			880,
 			59,
 			64
 		},
@@ -22937,12 +19487,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1983,
-			1477,
+			929,
+			880,
 			59,
 			64
 		},
@@ -22962,17 +19512,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1171,
-			1689,
+			1522,
+			777,
 			61,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -22987,12 +19537,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1297,
-			1882,
+			1368,
+			1093,
 			61,
 			61
 		},
@@ -23012,12 +19562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1297,
-			1882,
+			1368,
+			1093,
 			61,
 			61
 		},
@@ -23037,12 +19587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2206,
+			1892,
+			1202,
 			61,
 			54
 		},
@@ -23062,12 +19612,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1146,
-			2206,
+			1892,
+			1202,
 			61,
 			54
 		},
@@ -23087,17 +19637,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1941,
+			1165,
+			1160,
 			61,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23112,17 +19662,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1941,
+			1165,
+			1160,
 			61,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23137,12 +19687,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1980,
-			1543,
+			1458,
+			783,
 			59,
 			62
 		},
@@ -23162,12 +19712,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1980,
-			1543,
+			1458,
+			783,
 			59,
 			62
 		},
@@ -23187,17 +19737,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2116,
+			1598,
+			1023,
 			57,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23212,17 +19762,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2116,
+			1598,
+			1023,
 			57,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23237,12 +19787,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1297,
-			1816,
+			1307,
+			1028,
 			59,
 			64
 		},
@@ -23262,17 +19812,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			2147,
+			1722,
+			860,
 			59,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23287,17 +19837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1209,
-			2147,
+			1722,
+			860,
 			59,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23312,17 +19862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			408,
-			2455,
+			1955,
+			1203,
 			61,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23337,17 +19887,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			408,
-			2455,
+			1955,
+			1203,
 			61,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23362,12 +19912,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1815,
+			1104,
+			1824,
 			45,
 			54
 		},
@@ -23387,12 +19937,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1815,
+			1104,
+			1824,
 			45,
 			54
 		},
@@ -23412,17 +19962,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1588,
-			1588,
+			1042,
+			1564,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23437,17 +19987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1588,
-			1588,
+			1042,
+			1564,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23462,17 +20012,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1567,
-			2203,
+			887,
+			1823,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23487,17 +20037,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1567,
-			2203,
+			887,
+			1823,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0029"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23512,17 +20062,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1696,
-			1534,
+			1281,
+			1823,
 			44,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23537,12 +20087,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1634,
-			1948,
+			1811,
+			1897,
 			46,
 			55
 		},
@@ -23562,12 +20112,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1634,
-			1948,
+			1811,
+			1897,
 			46,
 			55
 		},
@@ -23587,12 +20137,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1906,
-			2253,
+			1327,
+			1862,
 			42,
 			51
 		},
@@ -23612,12 +20162,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1906,
-			2253,
+			1327,
+			1862,
 			42,
 			51
 		},
@@ -23637,17 +20187,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			2405,
+			1431,
+			1976,
 			44,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23662,17 +20212,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			2405,
+			1431,
+			1976,
 			44,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23687,17 +20237,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1627,
-			2203,
+			887,
+			1883,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23712,17 +20262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1627,
-			2203,
+			887,
+			1883,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23737,12 +20287,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1759,
-			1534,
+			1525,
+			1892,
 			44,
 			61
 		},
@@ -23762,12 +20312,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1759,
-			1534,
+			1525,
+			1892,
 			44,
 			61
 		},
@@ -23787,17 +20337,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1363,
-			1942,
+			1371,
+			1868,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23812,17 +20362,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1588,
+			1096,
+			1725,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0042"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23837,17 +20387,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1588,
+			1096,
+			1725,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23862,17 +20412,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1687,
-			2203,
+			951,
+			2044,
 			45,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23887,17 +20437,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1687,
-			2203,
+			951,
+			2044,
 			45,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23912,17 +20462,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1894,
-			2142,
+			1989,
+			1411,
 			45,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23937,17 +20487,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1894,
-			2142,
+			1989,
+			1411,
 			45,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0047"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23962,17 +20512,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1683,
-			2306,
+			947,
+			1984,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -23987,17 +20537,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1683,
-			2306,
+			947,
+			1984,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24012,12 +20562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1428,
-			2254,
+			1940,
+			1765,
 			45,
 			60
 		},
@@ -24037,12 +20587,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1428,
-			2254,
+			1940,
+			1765,
 			45,
 			60
 		},
@@ -24062,12 +20612,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			789,
-			2274,
+			1664,
+			1196,
 			44,
 			62
 		},
@@ -24087,12 +20637,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1453,
-			1845,
+			1987,
+			1765,
 			46,
 			57
 		},
@@ -24112,12 +20662,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1453,
-			1845,
+			1987,
+			1765,
 			46,
 			57
 		},
@@ -24137,12 +20687,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1911,
-			2306,
+			1434,
+			1863,
 			42,
 			51
 		},
@@ -24162,12 +20712,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1911,
-			2306,
+			1434,
+			1863,
 			42,
 			51
 		},
@@ -24187,12 +20737,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2306,
+			1989,
+			1458,
 			44,
 			55
 		},
@@ -24212,12 +20762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2306,
+			1989,
+			1458,
 			44,
 			55
 		},
@@ -24237,17 +20787,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1766,
+			1949,
+			1605,
 			44,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24262,17 +20812,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1766,
+			1949,
+			1605,
 			44,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0060"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24287,17 +20837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1360,
-			1879,
+			1588,
+			1892,
 			44,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24312,17 +20862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1360,
-			1879,
+			1588,
+			1892,
 			44,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24337,12 +20887,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			853,
-			2276,
+			1662,
+			1242,
 			44,
 			62
 		},
@@ -24362,17 +20912,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			1604,
+			1478,
+			1927,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0064"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24387,17 +20937,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			1604,
+			1478,
+			1927,
 			45,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0065"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24412,17 +20962,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1735,
-			2099,
+			1105,
+			2106,
 			45,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0066"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24437,17 +20987,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1735,
-			2099,
+			1105,
+			2106,
 			45,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24462,17 +21012,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			2394,
+			1267,
+			1389,
 			59,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24487,12 +21037,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1347,
+			1838,
+			1144,
 			52,
 			55
 		},
@@ -24512,12 +21062,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1347,
+			1838,
+			1144,
 			52,
 			55
 		},
@@ -24537,12 +21087,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1912,
-			1347,
+			1838,
+			1144,
 			52,
 			55
 		},
@@ -24562,12 +21112,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1945,
+			1965,
+			964,
 			65,
 			52
 		},
@@ -24587,12 +21137,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1945,
+			1965,
+			964,
 			65,
 			52
 		},
@@ -24612,12 +21162,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1945,
+			1965,
+			964,
 			65,
 			52
 		},
@@ -24637,12 +21187,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			678,
-			1945,
+			1965,
+			964,
 			65,
 			52
 		},
@@ -24662,12 +21212,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1518,
-			2234,
+			839,
+			1882,
 			46,
 			58
 		},
@@ -24687,12 +21237,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1518,
-			2234,
+			839,
+			1882,
 			46,
 			58
 		},
@@ -24712,17 +21262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			521,
-			2392,
+			1896,
+			1318,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["shadowArcher_0078"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24737,17 +21287,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			1894,
+			1631,
+			902,
 			56,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0079"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24762,17 +21312,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			876,
-			1894,
+			1631,
+			902,
 			56,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0080"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -24787,12 +21337,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1172,
-			1755,
+			1163,
+			1028,
 			60,
 			64
 		},
@@ -24812,12 +21362,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1212,
-			2262,
+			1206,
+			1330,
 			59,
 			58
 		},
@@ -24837,12 +21387,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			829,
-			2455,
+			795,
+			1520,
 			59,
 			51
 		},
@@ -24862,12 +21412,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			829,
-			2455,
+			795,
+			1520,
 			59,
 			51
 		},
@@ -24887,12 +21437,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			1580,
+			1839,
+			1377,
 			55,
 			55
 		},
@@ -24912,12 +21462,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			1580,
+			1839,
+			1377,
 			55,
 			55
 		},
@@ -24937,12 +21487,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			1580,
+			1839,
+			1377,
 			55,
 			55
 		},
@@ -24962,12 +21512,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			1580,
+			1839,
+			1377,
 			55,
 			55
 		},
@@ -24987,589 +21537,14 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			401,
-			2394,
+			1267,
+			1389,
 			59,
 			57
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			19,
-            7,
-            30,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1108,
-			1756,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			19,
-            7,
-            30,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1103,
-			1623,
-			62,
-			67
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            6,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			920,
-			1630,
-			63,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            6,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			920,
-			1630,
-			63,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0093"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            2,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1965,
-			1216,
-			65,
-			72
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0094"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            2,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1965,
-			1216,
-			65,
-			72
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0095"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1249,
-			1357,
-			65,
-			65
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0096"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            9,
-            22,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			851,
-			1486,
-			69,
-			65
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0097"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            6,
-            22,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1636,
-			979,
-			69,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0098"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            6,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			283,
-			1917,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0099"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0100"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0101"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0102"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0103"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0104"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0105"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0106"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0107"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			22,
-            9,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1172,
-			1625,
-			62,
-			65
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["shadowArcher_0108"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            3,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			761,
-			1346,
-			64,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0109"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			20,
-            3,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			761,
-			1346,
-			64,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0110"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			19,
-            7,
-            31,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1108,
-			1687,
-			61,
-			67
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["shadowArcher_0111"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			111,
-			74
-		},
-		trim = {
-			19,
-            7,
-            33,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			349,
-			1877,
-			59,
-			64
 		},
 		alias = {},
 		textureRotated = false
@@ -25587,12 +21562,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			460,
-			2392,
+			1777,
+			1144,
 			59,
 			57
 		},
@@ -25612,12 +21587,12 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1681,
-			2099,
+			1042,
+			1770,
 			52,
 			52
 		},
@@ -25637,17 +21612,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1366,
-			1590,
+			1576,
+			1450,
 			54,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0115"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25662,17 +21637,17 @@ return {
             12
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1825,
+			1788,
+			1429,
 			54,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["shadowArcher_0116"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25687,12 +21662,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1454,
-			1804,
+			926,
+			1714,
 			56,
 			39
 		},
@@ -25712,12 +21687,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			188,
-			2547,
+			1115,
+			1230,
 			57,
 			29
 		},
@@ -25737,12 +21712,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			188,
-			2547,
+			1115,
+			1230,
 			57,
 			29
 		},
@@ -25762,17 +21737,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			981,
-			2294,
+			657,
+			2116,
 			58,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25787,17 +21762,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1446,
-			1485,
+			784,
+			1986,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25812,17 +21787,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1446,
-			1485,
+			784,
+			1986,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25837,17 +21812,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1570,
-			1540,
+			1840,
+			1664,
 			46,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25862,12 +21837,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1145,
-			2312,
+			1726,
+			1257,
 			45,
 			62
 		},
@@ -25887,17 +21862,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			2406,
+			1796,
+			1729,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25912,17 +21887,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			2406,
+			1796,
+			1729,
 			45,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25937,17 +21912,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1841,
+			839,
+			1760,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25962,17 +21937,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1902,
-			1978,
+			934,
+			1924,
 			46,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -25987,12 +21962,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1466,
-			2112,
+			854,
+			2090,
 			45,
 			59
 		},
@@ -26012,12 +21987,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1466,
-			2112,
+			854,
+			2090,
 			45,
 			59
 		},
@@ -26037,17 +22012,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1364,
-			2068,
+			1651,
+			1892,
 			45,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26062,12 +22037,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1081,
-			2307,
+			1724,
+			1304,
 			46,
 			62
 		},
@@ -26087,17 +22062,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2321,
+			1263,
+			1453,
 			46,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26112,17 +22087,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2321,
+			1263,
+			1453,
 			46,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26137,12 +22112,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1793,
-			1697,
+			784,
+			1925,
 			47,
 			59
 		},
@@ -26162,12 +22137,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1793,
-			1758,
+			934,
+			1864,
 			47,
 			58
 		},
@@ -26187,12 +22162,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1838,
-			2084,
+			1740,
+			577,
 			41,
 			58
 		},
@@ -26212,12 +22187,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1838,
-			2084,
+			1740,
+			577,
 			41,
 			58
 		},
@@ -26237,17 +22212,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1381,
-			2131,
+			1748,
+			1897,
 			42,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26262,12 +22237,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			525,
-			2293,
+			1724,
+			1352,
 			42,
 			62
 		},
@@ -26287,17 +22262,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			659,
-			2249,
+			1500,
+			1284,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26312,17 +22287,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			659,
-			2249,
+			1500,
+			1284,
 			42,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26337,17 +22312,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1385,
-			2194,
+			867,
+			446,
 			41,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26362,12 +22337,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1881,
-			2082,
+			1435,
+			1741,
 			41,
 			58
 		},
@@ -26387,17 +22362,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1855,
+			1435,
+			1801,
 			41,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26412,17 +22387,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1855,
+			1435,
+			1801,
 			41,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26437,12 +22412,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1364,
-			2005,
+			1908,
+			1827,
 			44,
 			61
 		},
@@ -26462,12 +22437,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2421,
+			1101,
+			1568,
 			43,
 			62
 		},
@@ -26487,17 +22462,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			434,
-			1670,
+			1218,
+			1696,
 			43,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26512,17 +22487,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			434,
-			1670,
+			1218,
+			1696,
 			43,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26537,12 +22512,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1385,
-			2257,
+			1952,
+			1538,
 			41,
 			61
 		},
@@ -26562,17 +22537,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1924,
-			2081,
+			784,
+			2047,
 			41,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26587,17 +22562,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1405,
-			1815,
+			728,
+			1716,
 			41,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26612,17 +22587,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1406,
-			1878,
+			791,
+			1716,
 			41,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26637,12 +22612,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			434,
-			1734,
+			1282,
+			1760,
 			43,
 			61
 		},
@@ -26662,12 +22637,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			589,
-			2293,
+			1218,
+			1741,
 			43,
 			62
 		},
@@ -26687,17 +22662,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			653,
-			2293,
+			1282,
+			1696,
 			43,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26712,17 +22687,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			717,
-			2298,
+			1218,
+			1570,
 			44,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26737,12 +22712,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1411,
-			1752,
+			768,
+			2090,
 			41,
 			61
 		},
@@ -26762,17 +22737,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1475,
-			2235,
+			1077,
+			1871,
 			41,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26787,12 +22762,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1410,
-			1941,
+			811,
+			2090,
 			41,
 			61
 		},
@@ -26812,17 +22787,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1410,
-			2004,
+			854,
+			1717,
 			41,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26837,12 +22812,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			724,
-			2254,
+			1599,
+			1187,
 			42,
 			63
 		},
@@ -26862,12 +22837,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			472,
-			2035,
+			1965,
+			1018,
 			42,
 			64
 		},
@@ -26887,12 +22862,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			484,
-			2514,
+			1327,
+			1686,
 			42,
 			62
 		},
@@ -26912,17 +22887,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			781,
-			2320,
+			1796,
+			1665,
 			42,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0047"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26937,12 +22912,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1889,
+			1585,
+			1938,
 			41,
 			59
 		},
@@ -26962,17 +22937,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			1893,
+			839,
+			1821,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -26987,17 +22962,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			1893,
+			839,
+			1821,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27012,17 +22987,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			1893,
+			839,
+			1821,
 			46,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27037,12 +23012,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1239,
-			1645,
+			462,
+			1991,
 			43,
 			68
 		},
@@ -27062,12 +23037,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1239,
-			1645,
+			462,
+			1991,
 			43,
 			68
 		},
@@ -27087,12 +23062,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1033,
-			1556,
+			1391,
+			547,
 			69,
 			65
 		},
@@ -27112,12 +23087,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1033,
-			1556,
+			1391,
+			547,
 			69,
 			65
 		},
@@ -27137,12 +23112,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			962,
-			1360,
+			1590,
+			371,
 			72,
 			59
 		},
@@ -27162,12 +23137,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			962,
-			1360,
+			1590,
+			371,
 			72,
 			59
 		},
@@ -27187,12 +23162,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			962,
-			1360,
+			1590,
+			371,
 			72,
 			59
 		},
@@ -27212,12 +23187,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			962,
-			1360,
+			1590,
+			371,
 			72,
 			59
 		},
@@ -27237,17 +23212,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			980,
+			1066,
+			868,
 			73,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0060"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27262,17 +23237,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			980,
+			1066,
+			868,
 			73,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27287,12 +23262,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			459,
-			1350,
+			1251,
+			345,
 			73,
 			68
 		},
@@ -27312,17 +23287,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			283,
-			2127,
+			1462,
+			547,
 			67,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0063"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27337,12 +23312,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			353,
-			1773,
+			1783,
+			489,
 			67,
 			65
 		},
@@ -27362,12 +23337,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			745,
-			1945,
+			1655,
+			844,
 			65,
 			56
 		},
@@ -27387,12 +23362,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			745,
-			1945,
+			1655,
+			844,
 			65,
 			56
 		},
@@ -27412,12 +23387,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			745,
-			1945,
+			1655,
+			844,
 			65,
 			56
 		},
@@ -27437,17 +23412,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1474,
-			1697,
+			1837,
+			1603,
 			50,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27462,17 +23437,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1474,
-			1697,
+			1837,
+			1603,
 			50,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -27487,589 +23462,14 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1449,
-			1893,
+			839,
+			1821,
 			46,
 			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0070"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1299,
-			1690,
-			55,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0071"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1507,
-			1429,
-			55,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0072"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			23,
-            6,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			858,
-			1553,
-			62,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0073"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			23,
-            6,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			858,
-			1553,
-			62,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0074"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			19,
-            2,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			474,
-			1420,
-			66,
-			75
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0075"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			19,
-            2,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			474,
-			1420,
-			66,
-			75
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0076"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			19,
-            7,
-            17,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			913,
-			690,
-			66,
-			70
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0077"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			17,
-            7,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			320,
-			1360,
-			72,
-			70
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0078"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			17,
-            6,
-            13,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1781,
-			966,
-			72,
-			71
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_0079"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			26,
-            6,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			547,
-			1820,
-			57,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0080"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            7,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1107,
-			1503,
-			59,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            2,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1857,
-			1034,
-			59,
-			75
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			24,
-            2,
-            19,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1857,
-			1034,
-			59,
-			75
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			29,
-            9,
-            23,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1635,
-			1453,
-			50,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			102,
-			77
-		},
-		trim = {
-			30,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			985,
-			1621,
-			46,
-			68
 		},
 		alias = {},
 		textureRotated = false
@@ -28087,12 +23487,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			350,
-			2127,
+			1198,
+			410,
 			51,
 			67
 		},
@@ -28112,12 +23512,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1841,
-			1503,
+			1783,
+			774,
 			52,
 			68
 		},
@@ -28137,17 +23537,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			542,
-			1991,
+			1493,
+			1028,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0096"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28162,17 +23562,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			542,
-			1991,
+			1493,
+			1028,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0097"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28187,12 +23587,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			996,
-			2022,
+			1896,
+			1258,
 			55,
 			58
 		},
@@ -28212,12 +23612,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			620,
-			1763,
+			1827,
+			1087,
 			55,
 			63
 		},
@@ -28237,12 +23637,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			610,
-			1889,
+			1388,
+			843,
 			55,
 			66
 		},
@@ -28262,17 +23662,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			1425,
+			1990,
+			896,
 			54,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0101"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28287,17 +23687,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			1425,
+			1990,
+			896,
 			54,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0102"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28312,17 +23712,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1821,
+			1594,
+			741,
 			55,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0103"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28337,17 +23737,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			1821,
+			1594,
+			741,
 			55,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0104"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28362,17 +23762,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1941,
-			2141,
+			984,
+			1721,
 			56,
 			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0105"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28387,17 +23787,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1941,
-			2141,
+			984,
+			1721,
 			56,
 			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0106"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28412,17 +23812,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			964,
-			2519,
+			1987,
+			1813,
 			57,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0107"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28437,17 +23837,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			964,
-			2519,
+			1987,
+			1813,
 			57,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0108"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28462,12 +23862,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28487,12 +23887,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28512,12 +23912,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28537,12 +23937,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28562,12 +23962,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28587,12 +23987,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			875,
-			2007,
+			1987,
+			1857,
 			57,
 			41
 		},
@@ -28612,12 +24012,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1804,
-			2024,
+			982,
+			1924,
 			58,
 			36
 		},
@@ -28637,12 +24037,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1804,
-			2024,
+			982,
+			1924,
 			58,
 			36
 		},
@@ -28662,12 +24062,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			303,
-			2539,
+			1042,
+			1824,
 			60,
 			38
 		},
@@ -28687,17 +24087,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			182,
-			554,
+			1685,
+			1391,
 			60,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0118"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28712,17 +24112,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1459,
-			1366,
+			1959,
+			1062,
 			64,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0119"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28737,12 +24137,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2050,
+			1095,
+			1261,
 			64,
 			34
 		},
@@ -28762,17 +24162,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			849,
-			1417,
+			388,
+			2116,
 			67,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0121"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28787,12 +24187,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			353,
-			1840,
+			457,
+			2116,
 			67,
 			35
 		},
@@ -28812,12 +24212,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			539,
-			2111,
+			526,
+			2116,
 			65,
 			35
 		},
@@ -28837,12 +24237,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			606,
-			2111,
+			519,
+			1352,
 			65,
 			35
 		},
@@ -28862,17 +24262,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			247,
-			2544,
+			1421,
+			1449,
 			54,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0125"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28887,17 +24287,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1057,
-			2519,
+			586,
+			1352,
 			54,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0126"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28912,17 +24312,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			2014,
+			983,
+			1864,
 			58,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0127"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28937,17 +24337,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
+			994,
 			1984,
-			1974,
 			58,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0128"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28962,17 +24362,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1475,
-			2173,
+			1218,
+			1830,
 			60,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0129"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -28987,12 +24387,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1812,
+			1925,
+			1924,
 			60,
 			41
 		},
@@ -29012,17 +24412,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2157,
+			924,
+			287,
 			64,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0131"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29037,12 +24437,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			600,
-			2148,
+			1664,
+			1150,
 			64,
 			44
 		},
@@ -29062,12 +24462,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1898,
+			1783,
+			828,
 			67,
 			46
 		},
@@ -29087,12 +24487,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1925,
+			1852,
+			839,
 			67,
 			46
 		},
@@ -29112,12 +24512,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			1999,
+			1697,
+			970,
 			65,
 			49
 		},
@@ -29137,12 +24537,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			676,
-			1999,
+			1764,
+			971,
 			65,
 			49
 		},
@@ -29162,17 +24562,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1726,
+			1631,
+			1450,
 			54,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0137"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29187,12 +24587,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1422,
-			1590,
+			1896,
+			1380,
 			54,
 			53
 		},
@@ -29212,12 +24612,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			679,
-			2452,
+			1839,
+			1317,
 			58,
 			55
 		},
@@ -29237,17 +24637,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			365,
-			2521,
+			1477,
+			1159,
 			58,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0140"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29262,17 +24662,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1053,
-			2084,
+			1228,
+			1223,
 			60,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_0141"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29287,17 +24687,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2149,
+			1207,
+			1391,
 			60,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0142"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29312,17 +24712,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1242,
-			1471,
+			1163,
+			1094,
 			64,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0143"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29337,12 +24737,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1112,
-			1874,
+			1392,
+			780,
 			64,
 			61
 		},
@@ -29362,17 +24762,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			365,
-			1708,
+			1198,
+			702,
 			67,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_0145"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29387,12 +24787,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			742,
-			1767,
+			1666,
+			620,
 			67,
 			65
 		},
@@ -29412,12 +24812,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1107,
-			1435,
+			917,
+			1573,
 			65,
 			66
 		},
@@ -29437,17 +24837,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1576,
-			907,
+			485,
+			1027,
 			64,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29462,17 +24862,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1576,
-			907,
+			485,
+			1027,
 			64,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29487,12 +24887,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2116,
+			590,
+			1561,
 			63,
 			82
 		},
@@ -29512,12 +24912,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1712,
-			445,
+			262,
+			2034,
 			59,
 			85
 		},
@@ -29537,12 +24937,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1039,
-			1032,
+			684,
+			1108,
 			58,
 			83
 		},
@@ -29562,12 +24962,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1039,
-			1032,
+			684,
+			1108,
 			58,
 			83
 		},
@@ -29587,17 +24987,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1126,
-			1253,
+			867,
+			489,
 			55,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29612,12 +25012,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			226,
-			2111,
+			985,
+			1342,
 			55,
 			77
 		},
@@ -29637,12 +25037,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2114,
+			521,
+			946,
 			57,
 			79
 		},
@@ -29662,12 +25062,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2114,
+			521,
+			946,
 			57,
 			79
 		},
@@ -29687,17 +25087,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			499,
-			1147,
+			699,
+			1193,
 			58,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29712,17 +25112,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1180,
+			416,
+			1393,
 			59,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29737,17 +25137,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			334,
-			1144,
+			744,
+			1108,
 			61,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29762,17 +25162,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			334,
-			1144,
+			744,
+			1108,
 			61,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29787,12 +25187,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1502,
-			1121,
+			662,
+			1717,
 			63,
 			80
 		},
@@ -29812,12 +25212,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			478,
-			1497,
+			454,
+			1654,
 			64,
 			76
 		},
@@ -29837,12 +25237,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			151,
-			1587,
+			797,
+			1355,
 			57,
 			80
 		},
@@ -29862,12 +25262,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			151,
-			1587,
+			797,
+			1355,
 			57,
 			80
 		},
@@ -29887,17 +25287,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1154,
+			759,
+			1193,
 			56,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29912,12 +25312,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			91,
-			1591,
+			426,
+			1480,
 			58,
 			85
 		},
@@ -29937,17 +25337,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			669,
-			1154,
+			791,
+			1021,
 			58,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29962,17 +25362,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			669,
-			1154,
+			791,
+			1021,
 			58,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -29987,12 +25387,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			182,
-			470,
+			674,
+			1389,
 			57,
 			82
 		},
@@ -30012,17 +25412,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1412,
-			1309,
+			879,
+			646,
 			55,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30037,12 +25437,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			161,
-			1722,
+			936,
+			646,
 			57,
 			80
 		},
@@ -30062,12 +25462,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			161,
-			1722,
+			936,
+			646,
 			57,
 			80
 		},
@@ -30087,17 +25487,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			754,
-			1157,
+			807,
+			1106,
 			58,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30112,12 +25512,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			100,
-			1722,
+			454,
+			1567,
 			59,
 			85
 		},
@@ -30137,12 +25537,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			128,
-			2466,
+			486,
+			1475,
 			58,
 			84
 		},
@@ -30162,12 +25562,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			128,
-			2466,
+			486,
+			1475,
 			58,
 			84
 		},
@@ -30187,17 +25587,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1298,
+			674,
+			1473,
 			57,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30212,17 +25612,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1497,
-			845,
+			879,
+			729,
 			55,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30237,12 +25637,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2259,
+			551,
+			1027,
 			57,
 			79
 		},
@@ -30262,12 +25662,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			224,
-			1875,
+			1042,
+			1341,
 			57,
 			77
 		},
@@ -30287,17 +25687,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2340,
+			166,
+			1287,
 			59,
 			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30312,17 +25712,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1580,
-			846,
+			666,
+			1799,
 			59,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30337,12 +25737,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1028,
+			733,
+			1437,
 			60,
 			80
 		},
@@ -30362,12 +25762,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			149,
-			1505,
+			936,
+			728,
 			60,
 			80
 		},
@@ -30387,12 +25787,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			188,
-			2466,
+			610,
+			1027,
 			57,
 			79
 		},
@@ -30412,12 +25812,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			224,
-			2033,
+			1135,
+			345,
 			57,
 			76
 		},
@@ -30437,12 +25837,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			219,
-			1283,
+			641,
+			946,
 			57,
 			79
 		},
@@ -30462,12 +25862,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			224,
-			1954,
+			865,
+			288,
 			57,
 			77
 		},
@@ -30487,12 +25887,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			278,
-			1279,
+			580,
+			946,
 			59,
 			79
 		},
@@ -30512,12 +25912,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1644,
-			1197,
+			667,
+			1882,
 			59,
 			81
 		},
@@ -30537,12 +25937,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1640,
-			1050,
+			612,
+			1473,
 			60,
 			81
 		},
@@ -30562,12 +25962,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1645,
-			1280,
+			795,
+			1437,
 			59,
 			81
 		},
@@ -30587,17 +25987,17 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			825,
-			1223,
+			669,
+			1027,
 			57,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0048"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30612,17 +26012,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			1214,
+			728,
+			1027,
 			61,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0049"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30637,17 +26037,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			1214,
+			728,
+			1027,
 			61,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0050"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30662,17 +26062,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			1214,
+			728,
+			1027,
 			61,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0051"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30687,17 +26087,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1241,
+			856,
+			1439,
 			55,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30712,17 +26112,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1241,
+			856,
+			1439,
 			55,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0053"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30737,17 +26137,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			503,
+			256,
+			696,
 			87,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0054"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30762,17 +26162,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			578,
-			503,
+			256,
+			696,
 			87,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0055"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30787,17 +26187,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			311,
+			509,
+			204,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0056"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30812,17 +26212,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			311,
+			509,
+			204,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0057"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30837,17 +26237,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			311,
+			509,
+			204,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0058"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30862,17 +26262,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			495,
-			311,
+			509,
+			204,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30887,12 +26287,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			597,
+			279,
+			1482,
 			83,
 			80
 		},
@@ -30912,12 +26312,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			597,
+			279,
+			1482,
 			83,
 			80
 		},
@@ -30937,17 +26337,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1164,
-			766,
+			306,
+			1567,
 			83,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30962,17 +26362,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			86,
-			1001,
+			395,
+			2036,
 			78,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0063"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -30987,17 +26387,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			86,
-			1078,
+			472,
+			2036,
 			78,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0064"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31012,12 +26412,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			85,
-			1293,
+			719,
+			1278,
 			75,
 			75
 		},
@@ -31037,12 +26437,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			85,
-			1293,
+			719,
+			1278,
 			75,
 			75
 		},
@@ -31062,12 +26462,12 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			85,
-			1293,
+			719,
+			1278,
 			75,
 			75
 		},
@@ -31087,17 +26487,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1169,
+			608,
+			2036,
 			59,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0068"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31112,17 +26512,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1169,
+			608,
+			2036,
 			59,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31137,592 +26537,17 @@ return {
             10
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			663,
-			1214,
+			728,
+			1027,
 			61,
 			79
 		},
 		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0070"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            13,
-            24,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1099,
-			856,
-			66,
-			89
-		},
-		alias = {},
 		textureRotated = false
-	},
-	["skeleton_warrior_0071"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            13,
-            24,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1261,
-			706,
-			66,
-			89
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0072"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			26,
-            6,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			818,
-			762,
-			65,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0073"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			26,
-            6,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			818,
-			762,
-			65,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0074"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			22,
-            3,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1702,
-			272,
-			69,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0075"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			22,
-            3,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1702,
-			272,
-			69,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0076"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			22,
-            10,
-            24,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			966,
-			859,
-			71,
-			92
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0077"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			20,
-            10,
-            24,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1969,
-			337,
-			73,
-			92
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0078"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			20,
-            7,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1701,
-			175,
-			71,
-			95
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0079"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			29,
-            7,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			767,
-			961,
-			62,
-			95
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0080"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0081"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0082"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0083"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0084"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0085"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0086"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0087"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0088"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            9,
-            26,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			423,
-			942,
-			64,
-			93
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0089"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            3,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			767,
-			860,
-			63,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0090"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			27,
-            3,
-            27,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			767,
-			860,
-			63,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["skeleton_warrior_0091"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			30,
-            13,
-            24,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1497,
-			780,
-			63,
-			89
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["skeleton_warrior_0092"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			117,
-			102
-		},
-		trim = {
-			32,
-            13,
-            24,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1330,
-			987,
-			61,
-			87
-		},
-		alias = {},
-		textureRotated = true
 	},
 	["skeleton_warrior_0093"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31737,17 +26562,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			924,
+			559,
+			1108,
 			58,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0094"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31762,17 +26587,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1039,
-			859,
+			247,
+			1277,
 			58,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0095"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -31787,12 +26612,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			833,
+			166,
+			870,
 			61,
 			88
 		},
@@ -31812,12 +26637,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
-			833,
+			166,
+			870,
 			61,
 			88
 		},
@@ -31837,12 +26662,12 @@ return {
             9
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			744,
-			1217,
+			1415,
+			294,
 			60,
 			79
 		},
@@ -31862,12 +26687,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			347,
-			1432,
+			669,
+			2036,
 			61,
 			78
 		},
@@ -31887,12 +26712,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			1430,
+			936,
+			1182,
 			61,
 			78
 		},
@@ -31912,12 +26737,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			812,
-			1282,
+			930,
+			428,
 			62,
 			73
 		},
@@ -31937,12 +26762,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			812,
-			1282,
+			930,
+			428,
 			62,
 			73
 		},
@@ -31962,12 +26787,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			413,
-			1512,
+			865,
+			367,
 			63,
 			77
 		},
@@ -31987,12 +26812,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			413,
-			1512,
+			865,
+			367,
 			63,
 			77
 		},
@@ -32012,12 +26837,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			601,
-			2050,
+			1523,
+			840,
 			63,
 			59
 		},
@@ -32037,12 +26862,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			601,
-			2050,
+			1523,
+			840,
 			63,
 			59
 		},
@@ -32062,17 +26887,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			1533,
+			1305,
+			900,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0107"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32087,17 +26912,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			1533,
+			1305,
+			900,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0108"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32112,12 +26937,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32137,12 +26962,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32162,12 +26987,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32187,12 +27012,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32212,12 +27037,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32237,12 +27062,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			666,
-			2050,
+			1500,
+			901,
 			63,
 			59
 		},
@@ -32262,12 +27087,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			410,
-			1941,
+			1058,
+			987,
 			67,
 			39
 		},
@@ -32287,17 +27112,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1946,
+			1074,
+			1097,
 			67,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0116"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32312,12 +27137,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1841,
-			1403,
+			1588,
+			798,
 			69,
 			42
 		},
@@ -32337,12 +27162,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1409,
+			1659,
+			800,
 			69,
 			42
 		},
@@ -32362,12 +27187,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			720,
-			1350,
+			1549,
+			362,
 			73,
 			39
 		},
@@ -32387,17 +27212,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1773,
-			1154,
+			1740,
+			502,
 			73,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0120"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32412,17 +27237,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			434,
-			1591,
+			163,
+			1348,
 			77,
 			43
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0121"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32437,17 +27262,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			396,
-			1277,
+			382,
+			549,
 			77,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0122"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32462,12 +27287,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			247,
-			2466,
+			1997,
+			1,
 			76,
 			47
 		},
@@ -32487,12 +27312,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			547,
-			1711,
+			323,
+			1342,
 			76,
 			49
 		},
@@ -32512,12 +27337,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			708,
-			2344,
+			1156,
+			1616,
 			60,
 			50
 		},
@@ -32537,12 +27362,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			683,
-			2512,
+			1839,
+			1201,
 			60,
 			51
 		},
@@ -32562,12 +27387,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1911,
-			1504,
+			1666,
+			687,
 			67,
 			53
 		},
@@ -32587,17 +27412,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			349,
-			2010,
+			1921,
+			842,
 			67,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0128"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32612,17 +27437,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			285,
-			2269,
+			1853,
+			781,
 			69,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0129"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32637,12 +27462,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			211,
-			1579,
+			1451,
+			660,
 			69,
 			58
 		},
@@ -32662,12 +27487,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1497,
-			1251,
+			1326,
+			419,
 			73,
 			59
 		},
@@ -32687,12 +27512,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1037,
-			1313,
+			1251,
+			415,
 			73,
 			60
 		},
@@ -32712,17 +27537,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			1212,
+			995,
+			643,
 			77,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0133"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32737,17 +27562,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1855,
-			966,
+			998,
+			722,
 			77,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0134"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32762,17 +27587,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1705,
-			1197,
+			321,
+			1878,
 			76,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0135"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32787,17 +27612,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1779,
-			896,
+			991,
+			565,
 			76,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0136"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32812,17 +27637,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			922,
-			1700,
+			1853,
+			663,
 			60,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0137"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32837,17 +27662,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			887,
-			1358,
+			1136,
+			859,
 			60,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0138"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32862,17 +27687,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			283,
-			1712,
+			1326,
+			350,
 			67,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0139"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32887,12 +27712,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1567,
-			973,
+			1061,
+			637,
 			67,
 			75
 		},
@@ -32912,12 +27737,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1496,
-			972,
+			1005,
+			353,
 			69,
 			76
 		},
@@ -32937,17 +27762,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			252,
-			1003,
+			914,
+			1343,
 			69,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0142"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -32962,12 +27787,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1969,
 			515,
+			1561,
 			73,
 			80
 		},
@@ -32987,12 +27812,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1969,
-			431,
+			322,
+			1947,
 			73,
 			82
 		},
@@ -33012,17 +27837,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			981,
-			688,
+			350,
+			936,
 			77,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["skeleton_warrior_0145"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33037,17 +27862,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1695,
-			87,
+			499,
+			723,
 			77,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["skeleton_warrior_0146"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33062,17 +27887,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			612,
-			941,
+			276,
+			1393,
 			76,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33087,12 +27912,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1546,
-			2531,
+			1427,
+			2032,
 			42,
 			44
 		},
@@ -33112,17 +27937,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1147,
-			2460,
+			1697,
+			2001,
 			49,
 			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33137,12 +27962,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1435,
-			2376,
+			900,
+			2044,
 			49,
 			44
 		},
@@ -33162,17 +27987,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1793,
-			1818,
+			1160,
+			1854,
 			54,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33187,17 +28012,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1681,
-			2153,
+			1789,
+			1546,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33212,17 +28037,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1569,
-			2091,
+			1096,
+			1772,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33237,12 +28062,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1793,
-			1874,
+			1278,
+			1886,
 			54,
 			47
 		},
@@ -33262,12 +28087,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1740,
-			2203,
+			1519,
+			1402,
 			54,
 			46
 		},
@@ -33287,12 +28112,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1743,
-			2306,
+			1981,
+			1991,
 			54,
 			47
 		},
@@ -33312,17 +28137,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1737,
-			2153,
+			934,
+			1808,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0011"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33337,12 +28162,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1799,
-			2306,
+			1748,
+			1993,
 			54,
 			47
 		},
@@ -33362,12 +28187,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1855,
-			2306,
+			1804,
+			1993,
 			54,
 			47
 		},
@@ -33387,17 +28212,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1145,
-			2511,
+			1916,
+			2008,
 			54,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33412,17 +28237,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1194,
-			2511,
+			1860,
+			2039,
 			54,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33437,12 +28262,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2369,
+			1916,
+			2057,
 			54,
 			47
 		},
@@ -33462,12 +28287,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1328,
-			2371,
+			1972,
+			2090,
 			54,
 			47
 		},
@@ -33487,17 +28312,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1486,
-			2359,
+			1585,
+			1981,
 			54,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33512,17 +28337,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2411,
+			1860,
+			1989,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33537,12 +28362,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1124,
-			2410,
+			1972,
+			2040,
 			54,
 			48
 		},
@@ -33562,17 +28387,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1535,
-			2354,
+			1641,
+			1981,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33587,17 +28412,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2352,
+			1125,
+			2042,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33612,17 +28437,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1682,
-			2353,
+			1175,
+			2001,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33637,17 +28462,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			2355,
+			1225,
+			1952,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33662,17 +28487,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1677,
-			2047,
+			949,
+			2097,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33687,17 +28512,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			2254,
+			1001,
+			2097,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33712,12 +28537,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1906,
-			2359,
+			1175,
+			2057,
 			54,
 			47
 		},
@@ -33737,12 +28562,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1635,
-			1862,
+			844,
+			2044,
 			54,
 			44
 		},
@@ -33762,12 +28587,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1850,
-			2254,
+			1021,
+			1864,
 			54,
 			50
 		},
@@ -33787,12 +28612,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1453,
-			1941,
+			1896,
+			1494,
 			54,
 			54
 		},
@@ -33812,12 +28637,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1876,
+			1896,
+			1550,
 			54,
 			53
 		},
@@ -33837,12 +28662,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1628,
-			2147,
+			1993,
+			1672,
 			54,
 			51
 		},
@@ -33862,12 +28687,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1794,
-			2355,
+			1231,
+			2054,
 			54,
 			48
 		},
@@ -33887,17 +28712,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1542,
-			2410,
+			1804,
+			1945,
 			54,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33912,12 +28737,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1950,
-			2253,
+			728,
+			1979,
 			54,
 			51
 		},
@@ -33937,17 +28762,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			1637,
+			1518,
+			1450,
 			54,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -33962,12 +28787,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1510,
-			2035,
+			1367,
+			1571,
 			54,
 			53
 		},
@@ -33987,17 +28812,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1850,
-			2355,
+			1275,
+			1942,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34012,12 +28837,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1955,
-			2306,
+			928,
+			1755,
 			54,
 			51
 		},
@@ -34037,12 +28862,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1565,
-			2036,
+			727,
+			1759,
 			54,
 			53
 		},
@@ -34062,17 +28887,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1571,
-			2294,
+			727,
+			1814,
 			54,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34087,12 +28912,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			2026,
+			783,
+			1759,
 			54,
 			53
 		},
@@ -34112,12 +28937,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			2251,
+			783,
+			1814,
 			54,
 			53
 		},
@@ -34137,12 +28962,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1782,
-			2084,
+			728,
+			1869,
 			54,
 			53
 		},
@@ -34162,12 +28987,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1453,
-			1997,
+			1371,
+			1685,
 			54,
 			54
 		},
@@ -34187,12 +29012,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1509,
-			1979,
+			1525,
+			1686,
 			54,
 			54
 		},
@@ -34212,12 +29037,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1513,
-			2091,
+			1581,
+			1686,
 			54,
 			54
 		},
@@ -34237,12 +29062,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1621,
-			2043,
+			1637,
+			1686,
 			54,
 			54
 		},
@@ -34262,12 +29087,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1516,
-			2147,
+			1693,
+			1686,
 			54,
 			54
 		},
@@ -34287,12 +29112,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1572,
-			2147,
+			1525,
+			1742,
 			54,
 			54
 		},
@@ -34312,12 +29137,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2250,
+			1581,
+			1742,
 			54,
 			54
 		},
@@ -34337,17 +29162,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1068,
-			2355,
+			832,
+			1988,
 			54,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0052"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34362,17 +29187,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1124,
-			2359,
+			1427,
+			1685,
 			54,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0053"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34387,12 +29212,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1682,
-			2250,
+			1637,
+			1742,
 			54,
 			54
 		},
@@ -34412,12 +29237,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			345,
-			2395,
+			1544,
+			1278,
 			54,
 			61
 		},
@@ -34437,12 +29262,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1356,
-			1693,
+			1896,
+			1435,
 			54,
 			57
 		},
@@ -34462,12 +29287,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1557,
+			1367,
+			1627,
 			54,
 			56
 		},
@@ -34487,12 +29312,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1838,
-			2144,
+			728,
+			1924,
 			54,
 			53
 		},
@@ -34512,17 +29337,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1068,
-			2408,
+			1053,
+			2097,
 			54,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0059"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34537,12 +29362,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1615,
+			1525,
+			1628,
 			54,
 			56
 		},
@@ -34562,17 +29387,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			352,
-			2458,
+			1311,
+			1449,
 			54,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0061"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34587,17 +29412,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1470,
-			1533,
+			1422,
+			1568,
 			54,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0062"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34612,12 +29437,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			2026,
+			1693,
+			1742,
 			54,
 			54
 		},
@@ -34637,12 +29462,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1673,
+			1581,
+			1628,
 			54,
 			56
 		},
@@ -34662,12 +29487,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1532,
-			1588,
+			1637,
+			1568,
 			54,
 			57
 		},
@@ -34687,12 +29512,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1535,
-			1697,
+			1096,
+			1669,
 			54,
 			57
 		},
@@ -34712,17 +29537,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			769,
-			2453,
+			1040,
+			1611,
 			54,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0067"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34737,12 +29562,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1682,
-			1580,
+			1311,
+			1627,
 			54,
 			57
 		},
@@ -34762,17 +29587,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			796,
-			2519,
+			1096,
+			1613,
 			54,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0069"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34787,12 +29612,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			852,
-			2519,
+			1311,
+			1567,
 			54,
 			58
 		},
@@ -34812,17 +29637,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			584,
-			2338,
+			1311,
+			1505,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34837,12 +29662,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			583,
-			2394,
+			1456,
+			1450,
 			54,
 			60
 		},
@@ -34862,17 +29687,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			646,
-			2338,
+			1422,
+			1506,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0073"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34887,17 +29712,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			645,
-			2394,
+			1522,
+			1506,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0074"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34912,17 +29737,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			707,
-			2396,
+			1578,
+			1506,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0075"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34937,17 +29762,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			567,
-			2450,
+			1724,
+			1396,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34962,17 +29787,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			567,
-			2450,
+			1724,
+			1396,
 			54,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0077"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -34987,17 +29812,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1412,
-			1533,
+			1839,
+			1434,
 			55,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0078"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35012,17 +29837,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1614,
+			1423,
+			1627,
 			56,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0079"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35037,12 +29862,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			151,
-			1669,
+			532,
+			1983,
 			61,
 			51
 		},
@@ -35062,12 +29887,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			548,
-			1879,
+			1368,
+			963,
 			60,
 			63
 		},
@@ -35087,12 +29912,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			403,
-			2127,
+			1435,
+			901,
 			63,
 			60
 		},
@@ -35112,17 +29937,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1234,
-			1690,
+			1305,
+			963,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0083"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35137,12 +29962,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1234,
-			1753,
+			1370,
+			900,
 			63,
 			61
 		},
@@ -35162,17 +29987,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			468,
-			2127,
+			1368,
+			1028,
 			60,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_egg_0085"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35187,12 +30012,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			539,
-			2046,
+			1430,
+			963,
 			60,
 			63
 		},
@@ -35212,12 +30037,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			855,
-			2116,
+			1431,
+			1091,
 			60,
 			61
 		},
@@ -35237,12 +30062,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1018,
-			2146,
+			1587,
+			960,
 			60,
 			61
 		},
@@ -35262,17 +30087,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			398,
-			2333,
+			1766,
+			1082,
 			60,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_egg_0089"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35287,17 +30112,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1685,
-			1639,
+			1889,
+			1605,
 			58,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35312,12 +30137,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1099,
-			764,
+			134,
+			243,
 			90,
 			63
 		},
@@ -35337,17 +30162,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			166,
-			1003,
+			542,
+			1389,
 			84,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35362,12 +30187,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			166,
-			1072,
+			558,
+			873,
 			80,
 			71
 		},
@@ -35387,17 +30212,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			669,
-			1020,
+			520,
+			1728,
 			82,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35412,17 +30237,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			413,
-			1078,
+			546,
+			1475,
 			84,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35437,17 +30262,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			756,
-			1088,
+			589,
+			1645,
 			82,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35462,17 +30287,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			331,
-			996,
+			589,
+			1729,
 			80,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0008"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35487,17 +30312,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			499,
-			1078,
+			520,
+			1643,
 			83,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35512,12 +30337,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1864,
-			834,
+			519,
+			1286,
 			88,
 			64
 		},
@@ -35537,17 +30362,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1643,
-			766,
+			310,
+			1814,
 			78,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0011"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35562,17 +30387,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1293,
+			924,
+			492,
 			78,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35587,17 +30412,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1415,
-			921,
+			388,
+			1651,
 			79,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0013"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35612,17 +30437,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			282,
-			1447,
+			1496,
+			297,
 			78,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35637,17 +30462,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1857,
-			900,
+			851,
+			1021,
 			78,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35662,17 +30487,17 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1937,
-			900,
+			733,
+			1355,
 			80,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35687,12 +30512,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1126,
-			1187,
+			774,
+			880,
 			81,
 			64
 		},
@@ -35712,12 +30537,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			419,
-			1144,
+			727,
+			1573,
 			78,
 			61
 		},
@@ -35737,12 +30562,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			410,
-			1432,
+			976,
+			1101,
 			78,
 			62
 		},
@@ -35762,12 +30587,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			97,
-			2335,
+			917,
+			1021,
 			78,
 			68
 		},
@@ -35787,12 +30612,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			905,
-			1026,
+			655,
+			1556,
 			78,
 			70
 		},
@@ -35812,17 +30637,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			86,
-			767,
+			591,
+			1811,
 			80,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35837,17 +30662,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			250,
-			933,
+			700,
+			946,
 			79,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35862,17 +30687,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			239,
-			1209,
+			999,
+			1181,
 			78,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35887,17 +30712,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1249,
-			1097,
+			728,
+			1636,
 			78,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35912,17 +30737,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			778,
+			592,
+			1893,
 			80,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35937,12 +30762,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			97,
-			2254,
+			658,
+			1636,
 			79,
 			68
 		},
@@ -35962,17 +30787,17 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1496,
-			902,
+			914,
+			1263,
 			78,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -35987,12 +30812,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2031,
+			527,
+			1898,
 			83,
 			63
 		},
@@ -36012,12 +30837,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2031,
+			527,
+			1898,
 			83,
 			63
 		},
@@ -36037,12 +30862,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2031,
+			527,
+			1898,
 			83,
 			63
 		},
@@ -36062,17 +30887,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			753,
-			1025,
+			462,
+			1818,
 			85,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36087,17 +30912,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			753,
-			1025,
+			462,
+			1818,
 			85,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36112,17 +30937,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			1035,
+			354,
+			1393,
 			87,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36137,17 +30962,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			1035,
+			354,
+			1393,
 			87,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36162,17 +30987,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1954,
-			838,
+			214,
+			1393,
 			88,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36187,17 +31012,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1954,
-			838,
+			214,
+			1393,
 			88,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36212,17 +31037,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1954,
-			838,
+			214,
+			1393,
 			88,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36237,17 +31062,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			498,
-			1012,
+			525,
+			1812,
 			84,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36262,17 +31087,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1329,
-			1050,
+			241,
+			1573,
 			87,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36287,12 +31112,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			602,
-			592,
+			428,
+			1108,
 			94,
 			58
 		},
@@ -36312,12 +31137,12 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			602,
-			592,
+			428,
+			1108,
 			94,
 			58
 		},
@@ -36337,17 +31162,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			603,
-			688,
+			428,
+			1286,
 			89,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36362,17 +31187,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			603,
-			688,
+			428,
+			1286,
 			89,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36387,17 +31212,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1182,
+			817,
+			1191,
 			83,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36412,17 +31237,17 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1182,
+			817,
+			1191,
 			83,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -36437,589 +31262,14 @@ return {
             8
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			102,
-			2031,
+			527,
+			1898,
 			83,
 			63
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0047"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            17,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			248,
-			1074,
-			83,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0048"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            17,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			413,
-			1008,
-			83,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0049"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1411,
-			778,
-			84,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0050"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1411,
-			778,
-			84,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0051"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			9,
-            0,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1617,
-			385,
-			89,
-			83
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0052"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			9,
-            0,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1617,
-			385,
-			89,
-			83
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0053"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			9,
-            12,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1167,
-			851,
-			89,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0054"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			6,
-            12,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1969,
-			237,
-			98,
-			73
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0055"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			6,
-            6,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1774,
-			682,
-			98,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0056"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            6,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1246,
-			774,
-			81,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0057"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0058"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0059"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0060"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0061"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0062"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0063"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0064"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0065"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            9,
-            16,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1968,
-			682,
-			81,
-			74
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_medium_0066"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            0,
-            17,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1279,
-			405,
-			80,
-			83
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0067"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			17,
-            0,
-            17,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1279,
-			405,
-			80,
-			83
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0068"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            17,
-            3
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			584,
-			1019,
-			83,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_medium_0069"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			114,
-			85
-		},
-		trim = {
-			14,
-            14,
-            17,
-            6
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1707,
-			769,
-			83,
-			65
 		},
 		alias = {},
 		textureRotated = true
@@ -37037,17 +31287,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			832,
-			860,
+			1774,
+			269,
 			99,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37062,12 +31312,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1070,
-			620,
+			451,
+			874,
 			102,
 			70
 		},
@@ -37087,17 +31337,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			165,
-			593,
+			451,
+			802,
 			105,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_medium_0073"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37112,12 +31362,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1870,
-			523,
+			1774,
+			417,
 			97,
 			70
 		},
@@ -37137,12 +31387,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			885,
-			762,
+			156,
+			1490,
 			95,
 			70
 		},
@@ -37162,17 +31412,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1067,
-			692,
+			169,
+			1587,
 			95,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37187,17 +31437,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1164,
-			694,
+			171,
+			1684,
 			95,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0077"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37212,12 +31462,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			898,
-			859,
+			177,
+			1781,
 			95,
 			66
 		},
@@ -37237,12 +31487,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			898,
-			859,
+			177,
+			1781,
 			95,
 			66
 		},
@@ -37262,17 +31512,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0080"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37287,17 +31537,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0081"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37312,17 +31562,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0082"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37337,17 +31587,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0083"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37362,17 +31612,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_medium_0084"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37387,17 +31637,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1240,
-			984,
+			228,
+			1483,
 			88,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37412,12 +31662,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			845,
-			2322,
+			245,
+			1836,
 			62,
 			40
 		},
@@ -37437,12 +31687,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1309,
-			1645,
+			885,
+			1999,
 			60,
 			43
 		},
@@ -37462,17 +31712,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1621,
-			2099,
+			901,
+			2090,
 			58,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37487,12 +31737,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1748,
-			1870,
+			1020,
+			1924,
 			58,
 			43
 		},
@@ -37512,12 +31762,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
-			1898,
+			1646,
+			1939,
 			59,
 			40
 		},
@@ -37537,12 +31787,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1793,
-			2139,
+			1034,
+			1984,
 			58,
 			43
 		},
@@ -37562,12 +31812,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1842,
-			1978,
+			1525,
+			1938,
 			58,
 			46
 		},
@@ -37587,17 +31837,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			1651,
+			1389,
+			1915,
 			58,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0009"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37612,12 +31862,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			770,
-			2364,
+			1371,
+			1741,
 			62,
 			40
 		},
@@ -37637,12 +31887,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1486,
-			2415,
+			1225,
+			2008,
 			54,
 			44
 		},
@@ -37662,12 +31912,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1682,
-			2403,
+			1477,
+			1987,
 			54,
 			43
 		},
@@ -37687,12 +31937,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			422,
-			1841,
+			1101,
+			1521,
 			55,
 			45
 		},
@@ -37712,12 +31962,12 @@ return {
             4
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2402,
+			1325,
+			1953,
 			54,
 			44
 		},
@@ -37737,12 +31987,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1842,
+			1987,
+			1900,
 			56,
 			44
 		},
@@ -37762,12 +32012,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1888,
+			1987,
+			1946,
 			56,
 			43
 		},
@@ -37787,12 +32037,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1053,
-			1990,
+			1158,
+			1521,
 			58,
 			45
 		},
@@ -37812,12 +32062,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			2438,
+			1325,
+			2049,
 			54,
 			43
 		},
@@ -37837,17 +32087,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1738,
-			2405,
+			1381,
+			2031,
 			54,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37862,12 +32112,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1850,
-			2405,
+			1325,
+			1999,
 			54,
 			48
 		},
@@ -37887,17 +32137,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1091,
-			2460,
+			1995,
+			1504,
 			54,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37912,17 +32162,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1879,
+			732,
+			2032,
 			56,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37937,12 +32187,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1308,
-			1596,
+			984,
+			1672,
 			56,
 			47
 		},
@@ -37962,17 +32212,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1008,
-			2519,
+			1989,
+			1315,
 			55,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -37987,17 +32237,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1906,
-			2408,
+			1381,
+			1975,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38012,12 +32262,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1035,
-			2467,
+			1748,
+			1941,
 			54,
 			50
 		},
@@ -38037,12 +32287,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2448,
+			1079,
+			1953,
 			54,
 			46
 		},
@@ -38062,17 +32312,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1682,
-			2448,
+			1533,
+			1986,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38087,12 +32337,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1748,
-			1930,
+			1860,
+			1947,
 			59,
 			40
 		},
@@ -38112,12 +32362,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1748,
-			1930,
+			1860,
+			1947,
 			59,
 			40
 		},
@@ -38137,12 +32387,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1748,
-			1930,
+			1860,
+			1947,
 			59,
 			40
 		},
@@ -38162,17 +32412,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
+			1707,
 			1940,
 			59,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38187,17 +32437,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1573,
+			1707,
 			1940,
 			59,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38212,12 +32462,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1425,
-			2129,
+			887,
+			1760,
 			61,
 			39
 		},
@@ -38237,12 +32487,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1425,
-			2129,
+			887,
+			1760,
 			61,
 			39
 		},
@@ -38262,17 +32512,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1012,
-			2082,
+			1371,
+			1783,
 			62,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38287,17 +32537,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1012,
-			2082,
+			1371,
+			1783,
 			62,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38312,17 +32562,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1012,
-			2082,
+			1371,
+			1783,
 			62,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38337,12 +32587,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			91,
-			1678,
+			1331,
+			736,
 			58,
 			42
 		},
@@ -38362,17 +32612,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1482,
-			2297,
+			1216,
+			1871,
 			60,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38387,17 +32637,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1934,
-			966,
+			323,
+			2115,
 			63,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0041"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38412,17 +32662,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1934,
-			966,
+			323,
+			2115,
 			63,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0042"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38437,17 +32687,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1934,
-			1031,
+			1327,
+			1915,
 			60,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38462,17 +32712,17 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1934,
-			1031,
+			1327,
+			1915,
 			60,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_small_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -38487,12 +32737,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			1933,
+			1921,
+			1967,
 			58,
 			39
 		},
@@ -38512,12 +32762,12 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1984,
-			1933,
+			1921,
+			1967,
 			58,
 			39
 		},
@@ -38537,589 +32787,14 @@ return {
             5
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1748,
-			1930,
+			1860,
+			1947,
 			59,
 			40
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0047"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			6,
-            12,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1842,
-			1931,
-			59,
-			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0048"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			6,
-            12,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1748,
-			1972,
-			59,
-			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0049"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			7,
-            9,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1532,
-			1647,
-			60,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0050"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			7,
-            9,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1532,
-			1647,
-			60,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0051"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			3,
-            0,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1238,
-			1945,
-			64,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0052"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			3,
-            0,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1238,
-			1945,
-			64,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0053"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			3,
-            6,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			832,
-			2050,
-			64,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0054"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			2,
-            6,
-            3,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1388,
-			1366,
-			69,
-			51
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0055"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			2,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1841,
-			1346,
-			69,
-			55
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0056"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            2,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			736,
-			2509,
-			58,
-			55
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0057"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0058"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0059"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0060"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0061"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0062"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0063"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0064"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0065"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            5,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1695,
-			58,
-			52
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_small_0066"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1354,
-			1531,
-			56,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0067"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			9,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1354,
-			1531,
-			56,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0068"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			6,
-            12,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1622,
-			1996,
-			59,
-			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_small_0069"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			74,
-			57
-		},
-		trim = {
-			6,
-            12,
-            9,
-            2
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1683,
-			2002,
-			59,
-			43
 		},
 		alias = {},
 		textureRotated = false
@@ -39137,12 +32812,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1997,
-			1,
+			452,
+			699,
 			68,
 			45
 		},
@@ -39162,12 +32837,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1316,
-			1418,
+			1522,
+			726,
 			70,
 			49
 		},
@@ -39187,12 +32862,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1167,
-			1050,
+			1926,
+			675,
 			71,
 			49
 		},
@@ -39212,12 +32887,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			479,
-			1847,
+			1851,
+			887,
 			66,
 			49
 		},
@@ -39237,12 +32912,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			610,
-			1946,
+			1919,
+			899,
 			66,
 			51
 		},
@@ -39262,17 +32937,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1705,
-			1481,
+			1057,
+			1028,
 			67,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39287,17 +32962,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			410,
-			1888,
+			1110,
+			1028,
 			67,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_small_0077"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39312,12 +32987,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			983,
-			1554,
+			1548,
+			1028,
 			65,
 			48
 		},
@@ -39337,12 +33012,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			983,
-			1554,
+			1548,
+			1028,
 			65,
 			48
 		},
@@ -39362,12 +33037,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39387,12 +33062,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39412,12 +33087,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39437,12 +33112,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39462,12 +33137,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39487,12 +33162,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			909,
-			2341,
+			593,
+			2116,
 			62,
 			35
 		},
@@ -39512,17 +33187,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			2404,
+			1714,
+			1798,
 			47,
 			32
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39537,12 +33212,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1633,
-			1552,
+			1631,
+			2031,
 			44,
 			34
 		},
@@ -39562,12 +33237,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1284,
-			2534,
+			1952,
+			1318,
 			43,
 			35
 		},
@@ -39587,12 +33262,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1590,
-			2401,
+			1564,
+			2061,
 			43,
 			34
 		},
@@ -39612,17 +33287,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1714,
-			2544,
+			1847,
 			44,
 			32
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39637,12 +33312,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1590,
-			2446,
+			1644,
+			2067,
 			43,
 			34
 		},
@@ -39662,12 +33337,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1321,
-			2534,
+			1952,
+			1363,
 			43,
 			35
 		},
@@ -39687,12 +33362,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1236,
-			2367,
+			1593,
+			2106,
 			44,
 			34
 		},
@@ -39712,12 +33387,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			953,
-			2472,
+			1714,
+			1893,
 			45,
 			32
 		},
@@ -39737,12 +33412,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1366,
-			2422,
+			1680,
+			2076,
 			41,
 			34
 		},
@@ -39762,17 +33437,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1856,
-			2506,
+			1952,
+			1452,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0012"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39787,12 +33462,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1967,
-			2103,
+			1949,
+			1667,
 			42,
 			36
 		},
@@ -39812,17 +33487,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1899,
-			2505,
+			1952,
+			1495,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39837,12 +33512,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2006,
-			2253,
+			1287,
+			2046,
 			42,
 			36
 		},
@@ -39862,12 +33537,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1677,
-			2535,
+			1952,
+			1408,
 			42,
 			35
 		},
@@ -39887,12 +33562,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2006,
-			2052,
+			461,
+			549,
 			43,
 			36
 		},
@@ -39912,12 +33587,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1899,
-			2542,
+			1989,
+			1728,
 			41,
 			35
 		},
@@ -39937,17 +33612,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1590,
-			2491,
+			1758,
+			2114,
 			41,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -39962,12 +33637,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1322,
-			2420,
+			1723,
+			2076,
 			42,
 			36
 		},
@@ -39987,12 +33662,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1503,
-			2539,
+			1629,
+			2112,
 			41,
 			38
 		},
@@ -40012,12 +33687,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1234,
-			2418,
+			1471,
+			2032,
 			42,
 			39
 		},
@@ -40037,12 +33712,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1278,
-			2418,
+			1179,
+			1913,
 			42,
 			38
 		},
@@ -40062,12 +33737,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1813,
-			2506,
+			1715,
+			2114,
 			41,
 			36
 		},
@@ -40087,12 +33762,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1590,
-			2539,
+			1672,
+			2112,
 			41,
 			38
 		},
@@ -40112,17 +33787,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1243,
-			2534,
+			1130,
+			2001,
 			43,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40137,12 +33812,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1633,
-			2539,
+			1600,
+			2067,
 			42,
 			37
 		},
@@ -40162,17 +33837,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1504,
-			2461,
+			1767,
+			2076,
 			42,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0028"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40187,12 +33862,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1942,
-			2530,
+			1748,
+			2042,
 			44,
 			32
 		},
@@ -40212,12 +33887,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1942,
-			2530,
+			1748,
+			2042,
 			44,
 			32
 		},
@@ -40237,12 +33912,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1942,
-			2530,
+			1748,
+			2042,
 			44,
 			32
 		},
@@ -40262,12 +33937,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1809,
-			1976,
+			1954,
+			1876,
 			46,
 			31
 		},
@@ -40287,12 +33962,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1809,
-			1976,
+			1954,
+			1876,
 			46,
 			31
 		},
@@ -40312,17 +33987,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1733,
-			2066,
+			1954,
+			1827,
 			47,
 			31
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40337,17 +34012,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1733,
-			2066,
+			1954,
+			1827,
 			47,
 			31
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40362,17 +34037,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2366,
+			1515,
+			2042,
 			47,
 			29
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40387,17 +34062,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2366,
+			1515,
+			2042,
 			47,
 			29
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40412,17 +34087,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2366,
+			1515,
+			2042,
 			47,
 			29
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40437,17 +34112,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1469,
-			2534,
+			1794,
+			2042,
 			43,
 			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40462,17 +34137,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1542,
-			2466,
+			1191,
+			1953,
 			46,
 			32
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["spider_tiny_0040"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40487,12 +34162,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1516,
-			2203,
+			262,
+			2121,
 			49,
 			29
 		},
@@ -40512,12 +34187,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1516,
-			2203,
+			262,
+			2121,
 			49,
 			29
 		},
@@ -40537,12 +34212,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1542,
-			2500,
+			1583,
+			2030,
 			46,
 			29
 		},
@@ -40562,12 +34237,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1542,
-			2500,
+			1583,
+			2030,
 			46,
 			29
 		},
@@ -40587,17 +34262,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2097,
+			1471,
+			2073,
 			44,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0045"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40612,17 +34287,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2097,
+			1471,
+			2073,
 			44,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0046"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -40637,589 +34312,14 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1942,
-			2530,
+			1748,
+			2042,
 			44,
 			32
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_tiny_0047"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            16,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1358,
-			2530,
-			47,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0048"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            16,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1395,
-			2530,
-			47,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0049"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			6,
-            9,
-            5,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1942,
-			2199,
-			52,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0050"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			6,
-            9,
-            5,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1942,
-			2199,
-			52,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0051"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			3,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1457,
-			2053,
-			57,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0052"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			3,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1457,
-			2053,
-			57,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0053"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			3,
-            6,
-            3,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			959,
-			2425,
-			57,
-			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_tiny_0054"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1018,
-			2209,
-			61,
-			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_tiny_0055"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			2,
-            4,
-            0,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			812,
-			2001,
-			61,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_tiny_0056"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            5,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1384,
-			2373,
-			49,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["spider_tiny_0057"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0058"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0059"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0060"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0061"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0062"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0063"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0064"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0065"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            4,
-            4,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1190,
-			2459,
-			50,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0066"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            0,
-            5,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1846,
-			2455,
-			49,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0067"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            0,
-            5,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1846,
-			2455,
-			49,
-			51
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0068"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            16,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1432,
-			2530,
-			47,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["spider_tiny_0069"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			63,
-			51
-		},
-		trim = {
-			9,
-            16,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1673,
-			2498,
-			44,
-			35
 		},
 		alias = {},
 		textureRotated = false
@@ -41237,12 +34337,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2005,
-			1095,
+			998,
+			2044,
 			51,
 			37
 		},
@@ -41262,12 +34362,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1180,
-			2418,
+			1174,
+			1220,
 			52,
 			39
 		},
@@ -41287,12 +34387,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1529,
-			1533,
+			1084,
+			2042,
 			53,
 			39
 		},
@@ -41312,17 +34412,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1585,
-			2350,
+			1079,
+			2001,
 			49,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0074"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41337,17 +34437,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1967,
-			2052,
+			1077,
+			1914,
 			49,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0075"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41362,17 +34462,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2005,
-			2483,
+			1128,
+			1914,
 			49,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0076"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41387,17 +34487,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1333,
-			2458,
+			1223,
+			1913,
 			49,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0077"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41412,17 +34512,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1372,
-			2458,
+			717,
+			2116,
 			49,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0078"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41437,17 +34537,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1372,
-			2458,
+			717,
+			2116,
 			49,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["spider_tiny_0079"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41462,12 +34562,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41487,12 +34587,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41512,12 +34612,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41537,12 +34637,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41562,12 +34662,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41587,12 +34687,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1956,
-			1614,
+			2018,
+			1203,
 			47,
 			26
 		},
@@ -41612,12 +34712,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1931,
-			1095,
+			1926,
+			557,
 			72,
 			58
 		},
@@ -41637,12 +34737,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1931,
-			1095,
+			1926,
+			557,
 			72,
 			58
 		},
@@ -41662,17 +34762,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			542,
-			1420,
+			697,
+			879,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41687,12 +34787,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			214,
-			1639,
+			1066,
+			792,
 			74,
 			66
 		},
@@ -41712,12 +34812,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1706,
-			1275,
+			1066,
+			714,
 			76,
 			66
 		},
@@ -41737,17 +34837,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			283,
-			2196,
+			1593,
+			432,
 			71,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41762,12 +34862,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1495,
-			1371,
+			1665,
+			742,
 			68,
 			56
 		},
@@ -41787,12 +34887,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1565,
-			1372,
+			1924,
+			785,
 			68,
 			55
 		},
@@ -41812,17 +34912,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			885,
-			2050,
+			1892,
+			1097,
 			64,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -41837,12 +34937,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1099,
-			1009,
+			1320,
+			843,
 			66,
 			55
 		},
@@ -41862,12 +34962,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			908,
-			2519,
+			1525,
+			1568,
 			54,
 			58
 		},
@@ -41887,12 +34987,12 @@ return {
             20
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			908,
-			2519,
+			1525,
+			1568,
 			54,
 			58
 		},
@@ -41912,12 +35012,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2209,
+			1266,
+			1333,
 			54,
 			62
 		},
@@ -41937,12 +35037,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2209,
+			1266,
+			1333,
 			54,
 			62
 		},
@@ -41962,12 +35062,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			623,
-			2450,
+			1686,
+			1506,
 			54,
 			60
 		},
@@ -41987,12 +35087,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			623,
-			2450,
+			1686,
+			1506,
 			54,
 			60
 		},
@@ -42012,17 +35112,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1386,
-			1475,
+			1581,
+			1568,
 			54,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42037,17 +35137,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1386,
-			1475,
+			1581,
+			1568,
 			54,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42062,12 +35162,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1094,
-			2511,
+			1995,
+			1560,
 			54,
 			49
 		},
@@ -42087,12 +35187,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1094,
-			2511,
+			1995,
+			1560,
 			54,
 			49
 		},
@@ -42112,17 +35212,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1180,
-			2367,
+			1995,
+			1616,
 			54,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42137,17 +35237,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1180,
-			2367,
+			1995,
+			1616,
 			54,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42162,17 +35262,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1840,
-			2199,
+			784,
+			1869,
 			54,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42187,17 +35287,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1840,
-			2199,
+			784,
+			1869,
 			54,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42212,12 +35312,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			575,
-			2512,
+			984,
+			1610,
 			54,
 			60
 		},
@@ -42237,12 +35337,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			575,
-			2512,
+			984,
+			1610,
 			54,
 			60
 		},
@@ -42262,12 +35362,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2265,
+			1535,
+			1159,
 			54,
 			62
 		},
@@ -42287,12 +35387,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1272,
-			2265,
+			1535,
+			1159,
 			54,
 			62
 		},
@@ -42312,17 +35412,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1669,
+			1839,
+			1492,
 			54,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0030"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42337,17 +35437,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1669,
+			1839,
+			1492,
 			54,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0031"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42362,12 +35462,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			609,
-			1350,
+			984,
+			1262,
 			78,
 			55
 		},
@@ -42387,17 +35487,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			977,
-			1244,
+			867,
+			1101,
 			79,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0033"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42412,17 +35512,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			354,
-			1591,
+			1041,
+			1261,
 			78,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0034"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42437,17 +35537,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			168,
-			1804,
+			1169,
+			282,
 			80,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42462,17 +35562,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			168,
-			1804,
+			1169,
+			282,
 			80,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42487,17 +35587,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			1950,
+			1251,
+			288,
 			80,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0037"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42512,17 +35612,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			1950,
+			1251,
+			288,
 			80,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0038"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42537,17 +35637,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1413,
-			1251,
+			856,
+			1355,
 			82,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["worg_0039"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42562,12 +35662,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			339,
-			1279,
+			879,
+			1182,
 			79,
 			55
 		},
@@ -42587,12 +35687,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			339,
-			1279,
+			879,
+			1182,
 			79,
 			55
 		},
@@ -42612,12 +35712,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			210,
-			1366,
+			922,
+			1101,
 			79,
 			52
 		},
@@ -42637,12 +35737,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			210,
-			1366,
+			922,
+			1101,
 			79,
 			52
 		},
@@ -42662,17 +35762,17 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			167,
-			2032,
+			1333,
+			293,
 			80,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0044"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -42687,12 +35787,12 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			226,
-			2190,
+			1009,
+			801,
 			77,
 			55
 		},
@@ -42712,589 +35812,14 @@ return {
             23
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			226,
-			2190,
+			1009,
+			801,
 			77,
 			55
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["worg_0046"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			20,
-            24,
-            24,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1249,
-			1230,
-			78,
-			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0047"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			20,
-            24,
-            24,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			354,
-			1645,
-			78,
-			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0048"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			33,
-            19,
-            21,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1033,
-			1623,
-			68,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0049"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			33,
-            19,
-            21,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1033,
-			1623,
-			68,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0050"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            17,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			283,
-			1987,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0051"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            17,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			283,
-			1987,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0052"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            26,
-            24,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			731,
-			2050,
-			63,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0053"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            26,
-            23,
-            16
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1235,
-			1816,
-			64,
-			60
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["worg_0054"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            17,
-            23,
-            16
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			283,
-			1846,
-			64,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0055"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            17,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			283,
-			2057,
-			64,
-			68
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0056"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0057"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0058"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0059"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0060"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0061"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0062"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0063"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0064"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            19,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1174,
-			1435,
-			64,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["worg_0065"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            14,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			886,
-			1420,
-			64,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["worg_0066"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			35,
-            14,
-            23,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			886,
-			1420,
-			64,
-			71
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["worg_0067"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			20,
-            24,
-            24,
-            17
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			220,
-			1715,
-			78,
-			61
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["worg_0068"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			122,
-			102
-		},
-		trim = {
-			20,
-            24,
-            24,
-            20
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			222,
-			1795,
-			78,
-			58
 		},
 		alias = {},
 		textureRotated = true
@@ -43312,17 +35837,17 @@ return {
             27
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1409,
-			2472,
+			1281,
+			1998,
 			42,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0070"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43337,17 +35862,17 @@ return {
             27
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1409,
-			2472,
+			1281,
+			1998,
 			42,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43362,12 +35887,12 @@ return {
             16
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			333,
-			1069,
+			770,
+			946,
 			78,
 			73
 		},
@@ -43387,12 +35912,12 @@ return {
             16
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			333,
-			1069,
+			770,
+			946,
 			78,
 			73
 		},
@@ -43412,12 +35937,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1433,
-			287,
+			773,
+			288,
 			97,
 			90
 		},
@@ -43437,12 +35962,12 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1433,
-			287,
+			773,
+			288,
 			97,
 			90
 		},
@@ -43462,8 +35987,8 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -43487,8 +36012,8 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1,
@@ -43512,8 +36037,8 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			875,
@@ -43537,8 +36062,8 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			875,
@@ -43562,8 +36087,8 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1201,
@@ -43587,8 +36112,8 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
 			1201,
@@ -43612,12 +36137,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1,
-			2042,
+			199,
+			117,
 			104,
 			99
 		},
@@ -43637,12 +36162,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1,
-			2042,
+			199,
+			117,
 			104,
 			99
 		},
@@ -43662,17 +36187,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
+			1591,
 			182,
 			89,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["worg_0084"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43687,17 +36212,17 @@ return {
             6
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1774,
+			1591,
 			182,
 			89,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0001"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43712,17 +36237,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1753,
+			1789,
+			1485,
 			59,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0002"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43737,17 +36262,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1512,
-			1753,
+			1789,
+			1485,
 			59,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0003"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43762,17 +36287,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			940,
-			2031,
+			1958,
+			1098,
 			64,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0004"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43787,17 +36312,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			464,
-			2451,
+			1953,
+			1259,
 			61,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0005"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43812,17 +36337,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			1937,
+			1101,
+			1456,
 			63,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0006"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43837,17 +36362,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			625,
-			1711,
+			1890,
+			1705,
 			58,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0007"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43862,12 +36387,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1986,
-			1696,
+			984,
+			1764,
 			56,
 			47
 		},
@@ -43887,12 +36412,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			349,
-			2079,
+			1160,
+			1806,
 			56,
 			46
 		},
@@ -43912,17 +36437,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1896,
-			2199,
+			833,
+			1942,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0010"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -43937,12 +36462,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			960,
-			2378,
+			1042,
+			1723,
 			52,
 			45
 		},
@@ -43962,12 +36487,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			987,
-			2472,
+			1366,
+			2106,
 			45,
 			46
 		},
@@ -43987,12 +36512,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			987,
-			2472,
+			1366,
+			2106,
 			45,
 			46
 		},
@@ -44012,17 +36537,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1899,
-			2458,
+			1037,
+			2044,
 			45,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0014"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44037,17 +36562,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1899,
-			2458,
+			1037,
+			2044,
 			45,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0015"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44062,17 +36587,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1239,
-			2459,
+			1212,
+			2106,
 			45,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0016"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44087,17 +36612,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1239,
-			2459,
+			1212,
+			2106,
 			45,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0017"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44112,17 +36637,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1409,
-			2422,
+			1316,
+			2106,
 			45,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0018"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44137,17 +36662,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1409,
-			2422,
+			1316,
+			2106,
 			45,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0019"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44162,17 +36687,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2496,
+			1507,
+			2106,
 			45,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0020"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44187,17 +36712,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1626,
-			2496,
+			1507,
+			2106,
 			45,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0021"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44212,17 +36737,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1719,
-			2501,
+			1550,
+			2106,
 			45,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0022"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44237,17 +36762,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1719,
-			2501,
+			1550,
+			2106,
 			45,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0023"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44262,17 +36787,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1766,
-			2501,
+			1461,
+			2106,
 			45,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0024"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44287,17 +36812,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1766,
-			2501,
+			1461,
+			2106,
 			45,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0025"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44312,17 +36837,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1286,
-			2458,
+			1264,
+			2106,
 			45,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0026"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44337,17 +36862,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1286,
-			2458,
+			1264,
+			2106,
 			45,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0027"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44362,12 +36887,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1952,
-			2483,
+			1159,
+			2106,
 			45,
 			51
 		},
@@ -44387,12 +36912,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1952,
-			2483,
+			1159,
+			2106,
 			45,
 			51
 		},
@@ -44412,12 +36937,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1457,
-			2461,
+			1414,
+			2106,
 			45,
 			45
 		},
@@ -44437,12 +36962,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1457,
-			2461,
+			1414,
+			2106,
 			45,
 			45
 		},
@@ -44462,17 +36987,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			2050,
+			1131,
+			1261,
 			64,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0032"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44487,12 +37012,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			965,
-			2097,
+			1352,
+			1224,
 			64,
 			45
 		},
@@ -44512,12 +37037,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			673,
-			2111,
+			1831,
+			993,
 			65,
 			44
 		},
@@ -44537,17 +37062,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			2004,
+			1225,
+			1028,
 			67,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0035"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44562,17 +37087,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1178,
-			2004,
+			1225,
+			1028,
 			67,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0036"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44587,12 +37112,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1973,
+			401,
+			1344,
 			67,
 			47
 		},
@@ -44612,12 +37137,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			984,
-			1973,
+			401,
+			1344,
 			67,
 			47
 		},
@@ -44637,12 +37162,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			983,
-			1485,
+			1996,
+			765,
 			67,
 			48
 		},
@@ -44662,12 +37187,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			839,
-			1176,
+			913,
+			1476,
 			65,
 			45
 		},
@@ -44687,12 +37212,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			839,
-			1176,
+			913,
+			1476,
 			65,
 			45
 		},
@@ -44712,17 +37237,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			533,
-			2148,
+			1664,
+			1023,
 			65,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0042"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44737,17 +37262,17 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			533,
-			2148,
+			1664,
+			1023,
 			65,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0043"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -44762,12 +37287,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1997,
-			71,
+			1999,
+			629,
 			67,
 			45
 		},
@@ -44787,12 +37312,12 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			1598,
+			1228,
+			1283,
 			62,
 			45
 		},
@@ -44812,589 +37337,14 @@ return {
             3
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1244,
-			1598,
+			1228,
+			1283,
 			62,
 			45
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0046"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			6,
-            9,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			103,
-			1895,
-			64,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0047"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			6,
-            9,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			406,
-			2029,
-			64,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0048"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			17,
-            4,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1454,
-			1749,
-			56,
-			53
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0049"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			17,
-            4,
-            7,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1454,
-			1749,
-			56,
-			53
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0050"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1814,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0051"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1814,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0052"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            9,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1738,
-			2451,
-			52,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0053"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            9,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1792,
-			2451,
-			52,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0054"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1984,
-			2143,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0055"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1986,
-			2199,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["wulf_0056"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0057"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0058"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0059"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0060"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0061"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0062"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0063"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0064"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            3,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1014,
-			2355,
-			52,
-			54
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0065"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1755,
-			52,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0066"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			19,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1739,
-			1755,
-			52,
-			57
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0067"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			6,
-            9,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			856,
-			2179,
-			64,
-			48
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["wulf_0068"] = {
-		a_name = "kr1_enemies_common.dds",
-		size = {
-			80,
-			57
-		},
-		trim = {
-			6,
-            9,
-            10,
-            0
-		},
-		a_size = {
-			2043,
-			2578
-		},
-		f_quad = {
-			1178,
-			2097,
-			64,
-			48
 		},
 		alias = {},
 		textureRotated = false
@@ -45412,17 +37362,17 @@ return {
             13
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			128,
-			2552,
+			1074,
+			1166,
 			25,
 			28
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0070"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45437,17 +37387,17 @@ return {
             13
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			128,
-			2552,
+			1074,
+			1166,
 			25,
 			28
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0071"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45462,12 +37412,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			2359,
+			470,
+			1344,
 			47,
 			43
 		},
@@ -45487,12 +37437,12 @@ return {
             7
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1962,
-			2359,
+			470,
+			1344,
 			47,
 			43
 		},
@@ -45512,17 +37462,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1559,
+			1637,
+			1627,
 			57,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0074"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45537,17 +37487,17 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1898,
-			1559,
+			1637,
+			1627,
 			57,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0075"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45562,12 +37512,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			460,
-			2333,
+			1290,
+			1224,
 			60,
 			57
 		},
@@ -45587,12 +37537,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			460,
-			2333,
+			1290,
+			1224,
 			60,
 			57
 		},
@@ -45612,12 +37562,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1080,
-			2146,
+			1565,
+			901,
 			64,
 			57
 		},
@@ -45637,12 +37587,12 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1080,
-			2146,
+			1565,
+			901,
 			64,
 			57
 		},
@@ -45662,17 +37612,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			2087,
+			1605,
+			1082,
 			63,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0080"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45687,17 +37637,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1113,
-			2087,
+			1605,
+			1082,
 			63,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["wulf_0081"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45712,17 +37662,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			425,
-			2518,
+			1600,
+			1278,
 			59,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0082"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45737,17 +37687,17 @@ return {
             0
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			425,
-			2518,
+			1600,
+			1278,
 			59,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["wulf_0083"] = {
 		a_name = "kr1_enemies_common.dds",
@@ -45762,12 +37712,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1565,
-			1981,
+			1839,
+			1548,
 			53,
 			55
 		},
@@ -45787,12 +37737,12 @@ return {
             2
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			1565,
-			1981,
+			1839,
+			1548,
 			53,
 			55
 		},
@@ -45812,16 +37762,16 @@ return {
             17
 		},
 		a_size = {
-			2043,
-			2578
+			2045,
+			2152
 		},
 		f_quad = {
-			2011,
-			2297,
+			1517,
+			2073,
 			34,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	}
 }

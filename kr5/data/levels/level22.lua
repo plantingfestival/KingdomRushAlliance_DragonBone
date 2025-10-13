@@ -572,6 +572,9 @@ function level:update(store)
 
 		cinematic_tower.tower.upgrade_to = cinematic_tower_template
 
+		signal.emit("show-curtains")
+		signal.emit("hide-gui")
+		signal.emit("start-cinematic")
 		coroutine.yield()
 
 		cinematic_tower_template.sound_events = table.deepclone(tower_template_sounds)
@@ -586,9 +589,6 @@ function level:update(store)
 			end
 		end
 
-		signal.emit("show-curtains")
-		signal.emit("hide-gui")
-		signal.emit("start-cinematic")
 		coroutine.yield()
 		signal.emit("pan-zoom-camera", 25, {
 			x = 450,
@@ -617,7 +617,7 @@ function level:update(store)
 			y = 430
 		}, OVm(1, 1.2))
 		signal.emit("show-gui")
-		signal.emit("end-cinematic")
+		signal.emit("end-cinematic", true)
 
 		while not store.waves_finished or LU.has_alive_enemies(store) do
 			coroutine.yield()

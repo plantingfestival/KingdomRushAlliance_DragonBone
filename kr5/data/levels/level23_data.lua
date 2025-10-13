@@ -573,7 +573,6 @@ return {
 		"go_enemies_terrain_6",
 		"go_stage23_bg",
 		"go_stage23",
-		"go_stages_terrain6",
 		"go_towers_paladin_covenant"
 	}
 }

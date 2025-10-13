@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("custom_scripts_0")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -24,9 +22,9 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
+local scripts = require("scripts_game")
 
-local scripts = require("game_scripts")
+table.insert(__CHAINED_SCRIPTS, "custom_scripts_0")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -412,8 +410,9 @@ function scripts.custom_bolt.update(this, store, script)
 
 	local pred_pos, is_flying
 	if target then
-		pred_pos = P:predict_enemy_pos(target, fts(5))
-		if target.vis then
+		local offset = U.get_prediction_offset(target, fts(5))
+		pred_pos = V.v(target.pos.x + offset.x, target.pos.y + offset.y)
+		if target.vis and target.vis.flags then
 			is_flying = U.flag_has(target.vis.flags, F_FLYING)
 			if is_flying and b.hit_fx_air then
 				b.hit_fx = b.hit_fx_air
@@ -424,6 +423,7 @@ function scripts.custom_bolt.update(this, store, script)
 		pred_pos = b.to
 	end
 
+	local toRight = b.from.x <= pred_pos.x
 	local iix, iiy = V.normalize(pred_pos.x - this.pos.x, pred_pos.y - this.pos.y)
 	local last_pos = V.vclone(this.pos)
 
@@ -454,6 +454,8 @@ function scripts.custom_bolt.update(this, store, script)
 
 			if this.initial_impulse_angle_abs then
 				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_abs, 1, 0))
+			elseif this.initial_impulse_angle_relative then
+				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_relative * (toRight and -1 or 1), iix, iiy))
 			else
 				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle * (b.shot_index % 2 == 0 and 1 or -1), iix, iiy))
 			end
@@ -724,66 +726,66 @@ function scripts.mobile_tower_mage.update(this, store, script)
 
 	aa.ts = store.tick_ts
 
+	local function tower_walk_waypoints(store, this, animation)
+		local animation = animation or "walk"
+		local r = this.nav_rally
+		local n = this.nav_grid
+		local dest = r.pos
+	
+		while not V.veq(this.pos, dest) do
+			local w = table.remove(n.waypoints, 1) or dest
+			local unsnap = #n.waypoints > 0
+	
+			U.set_destination(this, w)
+	
+			local an = U.animation_name_facing_point(this, animation, this.motion.dest, tower_sid)
+			U.animation_start(this, an, nil, store.tick_ts, true, tower_sid)
+			an = U.animation_name_facing_point(this, animation, this.motion.dest, shooter_sid)
+			U.animation_start(this, an, nil, store.tick_ts, true, shooter_sid)
+
+			while not this.motion.arrived do
+				if r.new then
+					return false
+				end
+	
+				U.walk(this, store.tick_length, nil, unsnap)
+
+				coroutine.yield()
+	
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+			end
+		end
+	end
+
+	local function tower_new_rally(store, this)
+		local r = this.nav_rally
+
+		if r.new then
+			r.new = false
+
+			if this.sound_events and this.sound_events.change_rally_point then
+				S:queue(this.sound_events.change_rally_point)
+			end
+
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+
+			local an = U.animation_name_facing_point(this, "idle", r.pos, shooter_sid)
+
+			local out = tower_walk_waypoints(store, this, "walk")
+
+			U.animation_start(this, "idle", nil, store.tick_ts, -1, tower_sid)
+			U.animation_start(this, an, nil, store.tick_ts, -1, shooter_sid)
+
+			this.vis.bans = vis_bans
+
+			return out
+		end
+	end
+
 	while true do
 		local skip
 		local enemy, enemies
-
-		local function tower_walk_waypoints(store, this, animation)
-			local animation = animation or "walk"
-			local r = this.nav_rally
-			local n = this.nav_grid
-			local dest = r.pos
-		
-			while not V.veq(this.pos, dest) do
-				local w = table.remove(n.waypoints, 1) or dest
-				local unsnap = #n.waypoints > 0
-		
-				U.set_destination(this, w)
-		
-				local an = U.animation_name_facing_point(this, animation, this.motion.dest, tower_sid)
-				U.animation_start(this, an, nil, store.tick_ts, true, tower_sid)
-				an = U.animation_name_facing_point(this, animation, this.motion.dest, shooter_sid)
-				U.animation_start(this, an, nil, store.tick_ts, true, shooter_sid)
-
-				while not this.motion.arrived do
-					if r.new then
-						return false
-					end
-		
-					U.walk(this, store.tick_length, nil, unsnap)
-
-					coroutine.yield()
-		
-					this.motion.speed.x, this.motion.speed.y = 0, 0
-				end
-			end
-		end
-
-		local function tower_new_rally(store, this)
-			local r = this.nav_rally
-
-			if r.new then
-				r.new = false
-
-				if this.sound_events and this.sound_events.change_rally_point then
-					S:queue(this.sound_events.change_rally_point)
-				end
-
-				local vis_bans = this.vis.bans
-				this.vis.bans = F_ALL
-
-				local an = U.animation_name_facing_point(this, "idle", r.pos, shooter_sid)
-
-				local out = tower_walk_waypoints(store, this, "walk")
-
-				U.animation_start(this, "idle", nil, store.tick_ts, -1, tower_sid)
-				U.animation_start(this, an, nil, store.tick_ts, -1, shooter_sid)
-
-				this.vis.bans = vis_bans
-
-				return out
-			end
-		end
 
 		if this.tower.blocked then
 			skip = true
@@ -792,20 +794,20 @@ function scripts.mobile_tower_mage.update(this, store, script)
 				if tower_new_rally(store, this) then
 					skip = true
 				end
-				local available_paths = {}
-				for k, v in pairs(P.paths) do
-					table.insert(available_paths, k)
-				end
-				if store.level.ignore_walk_backwards_paths then
-					available_paths = table.filter(available_paths, function(k, v)
-						return not table.contains(store.level.ignore_walk_backwards_paths, v)
-					end)
-				end
-				local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
-				if #nodes > 0 then
-					local pi, spi, ni = unpack(nodes[1])
-					this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
-				end
+			end
+			local available_paths = {}
+			for k, v in pairs(P.paths) do
+				table.insert(available_paths, k)
+			end
+			if store.level.ignore_walk_backwards_paths then
+				available_paths = table.filter(available_paths, function(k, v)
+					return not table.contains(store.level.ignore_walk_backwards_paths, v)
+				end)
+			end
+			local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
+			if #nodes > 0 then
+				local pi, spi, ni = unpack(nodes[1])
+				this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
 			end
 		end
 
