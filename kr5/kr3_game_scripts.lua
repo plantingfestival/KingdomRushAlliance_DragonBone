@@ -23388,7 +23388,7 @@ function scripts.kr5_decal_black_baby_dragon.update(this, store)
 				local delay_controller = E:create_entity("entities_delay_controller")
 				delay_controller.start_ts = store.tick_ts
 				delay_controller.entities = { controller1, controller2 }
-				delay_controller.delays = { 0.1, 0.2 }
+				delay_controller.delays = { fts(2), 0.1 }
 				queue_insert(store, delay_controller)
 				local d = E:create_entity("damage")
 				d.source_id = this.id
