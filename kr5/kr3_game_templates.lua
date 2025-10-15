@@ -21623,6 +21623,8 @@ tt.ui.hover_sprite_anchor = v(0.5, 0.25268817204301075)
 
 tt = E:register_t("kr5_tower_black_baby_dragon", "tower_black_baby_dragon")
 E:add_comps(tt, "render")
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_DARK_ARMY
 tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].offset = v(0, 13)
@@ -21868,6 +21870,8 @@ tt.tower.level = 1
 tt.tower.type = "holder_baby_ashbite"
 tt.tower.can_be_mod = false
 tt.tower.menu_offset = v(0, 20)
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_LINIREA
 tt.info.fn = kr3_scripts.tower_baby_ashbite.get_info
 tt.info.portrait = "portraits_towers_0148"
 tt.info.i18n_key = "ELVES_BABY_ASHBITE_TOWER"
@@ -21916,6 +21920,8 @@ tt.tower.type = "baby_ashbite"
 tt.tower.level = 1
 tt.tower.price = 250
 tt.tower.menu_offset = v(0, 20)
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_LINIREA
 tt.info.fn = kr3_scripts.tower_baby_ashbite.get_info
 tt.info.portrait = "portraits_towers_0148"
 tt.info.i18n_key = "ELVES_BABY_ASHBITE_TOWER"
