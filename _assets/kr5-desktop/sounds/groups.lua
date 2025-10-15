@@ -1751,7 +1751,17 @@ return {
 			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_in.ogg",
 			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_kill.ogg",
 			"kra_sfx_wukong_mechanic_stage34_holder_active_summon_v1.ogg",
-			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg"
+			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg",
+			"kro_sfx_barezad_firebreath_v2[loop].ogg",
+			"kro_sfx_barezad_firebreath_v2[starter].ogg",
+			"kro_sfx_barezad_firebreath_v2[end].ogg",
+			"kro_sfx_ashbite_confirm_v1[op1].ogg",
+			"kro_sfx_ashbite_confirm_v1[op2].ogg",
+			"hero_dragon_death.ogg",
+			"hero_dragon_fireball_explode.ogg",
+			"hero_dragon_flamethrower.ogg",
+			"hero_dragon_smoke.ogg",
+			"hero_dragon_spit.ogg",
 		}
 	},
 	tower_ignis_altar = {

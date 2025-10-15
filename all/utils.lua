@@ -1833,9 +1833,7 @@ function U.find_strongest_enemy_in_range(entities, origin, min_range, max_range,
 	end
 
 	--[[returns the first strongest enemy, which makes it so that among equal hp strong enemies, it chooses the one closest to the goal]]
-	if(valid_enemies and #valid_enemies > 0) then
-		valid_enemies = U.sort_by_strongest_enemy(valid_enemies, origin)
-	end
+	valid_enemies = U.sort_by_strongest_enemy(valid_enemies, origin)
 
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
@@ -1850,16 +1848,14 @@ function U.find_weakest_enemy_in_range(entities, origin, min_range, max_range, p
 		return nil, nil, nil
 	end
 
-	if(valid_enemies and #valid_enemies > 0) then
-		table.sort(valid_enemies, function(enemy1, enemy2)
-			local hp1 = enemy1.health.hp
-			local hp2 = enemy2.health.hp
-			if hp1 == hp2 then
-				return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
-			end
-			return hp1 < hp2
-		end)
-	end
+	table.sort(valid_enemies, function(enemy1, enemy2)
+		local hp1 = enemy1.health.hp
+		local hp2 = enemy2.health.hp
+		if hp1 == hp2 then
+			return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
+		end
+		return hp1 < hp2
+	end)
  
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
@@ -1874,16 +1870,14 @@ function U.find_initial_strongest_enemy(entities, origin, min_range, max_range, 
 		return nil, nil, nil
 	end
 
-	if(valid_enemies and #valid_enemies > 0) then
-		table.sort(valid_enemies, function(enemy1, enemy2)
-			local hp1 = enemy1.health.hp_max
-			local hp2 = enemy2.health.hp_max
-			if hp1 == hp2 then
-				return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
-			end
-			return hp1 > hp2
-		end)
-	end
+	table.sort(valid_enemies, function(enemy1, enemy2)
+		local hp1 = enemy1.health.hp_max
+		local hp2 = enemy2.health.hp_max
+		if hp1 == hp2 then
+			return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
+		end
+		return hp1 > hp2
+	end)
  
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
@@ -1898,16 +1892,14 @@ function U.find_initial_weakest_enemy(entities, origin, min_range, max_range, pr
 		return nil, nil, nil
 	end
 
-	if(valid_enemies and #valid_enemies > 0) then
-		table.sort(valid_enemies, function(enemy1, enemy2)
-			local hp1 = enemy1.health.hp_max
-			local hp2 = enemy2.health.hp_max
-			if hp1 == hp2 then
-				return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
-			end
-			return hp1 < hp2
-		end)
-	end
+	table.sort(valid_enemies, function(enemy1, enemy2)
+		local hp1 = enemy1.health.hp_max
+		local hp2 = enemy2.health.hp_max
+		if hp1 == hp2 then
+			return V.dist(enemy1.pos.x, enemy1.pos.y, origin.x, origin.y) < V.dist(enemy2.pos.x, enemy2.pos.y, origin.x, origin.y)
+		end
+		return hp1 < hp2
+	end)
  
 	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
 end
@@ -1916,17 +1908,46 @@ function U.find_custom_enemy(entities, origin, min_range, max_range, prediction_
 	flags = flags or 0
 	bans = bans or 0
 	min_override_flags = min_override_flags or 0
- 
-	local _, valid_enemies = U.find_foremost_enemy(entities, origin, min_range, max_range, prediction_time, flags, bans, filter_func, min_override_flags)
-	if not valid_enemies or #valid_enemies == 0 then
+
+	local enemies = {}
+	for _, e in pairs(entities) do
+		if e.pending_removal or not e.enemy or not e.nav_path or not e.vis or e.health and e.health.dead or band(e.vis.flags, bans) ~= 0 or band(e.vis.bans, flags) ~= 0 or filter_func and not filter_func(e, origin) then
+			-- block empty
+		else
+			local e_pos, e_ni
+
+			if prediction_time and e.motion and e.motion.speed and (e.motion.speed.x ~= 0 or e.motion.speed.y ~= 0) then
+				if e.motion.forced_waypoint then
+					local dt = prediction_time == true and 1 or prediction_time
+
+					e_pos = V.v(e.pos.x + dt * e.motion.speed.x, e.pos.y + dt * e.motion.speed.y)
+					e_ni = e.nav_path.ni
+				else
+					local node_offset = P:predict_enemy_node_advance(e, prediction_time)
+
+					e_ni = e.nav_path.ni + node_offset
+					e_pos = P:node_pos(e.nav_path.pi, e.nav_path.spi, e_ni)
+				end
+			else
+				e_pos = e.pos
+				e_ni = e.nav_path.ni
+			end
+
+			if U.is_inside_ellipse(e_pos, origin, max_range) and P:is_node_valid(e.nav_path.pi, e_ni) and (min_range == 0 or band(e.vis.flags, min_override_flags) ~= 0 or not U.is_inside_ellipse(e_pos, origin, min_range)) then
+				e.__ffe_pos = V.vclone(e_pos)
+
+				table.insert(enemies, e)
+			end
+		end
+	end
+
+	if not enemies or #enemies == 0 then
 		return nil, nil, nil
 	end
 
-	if(valid_enemies and #valid_enemies > 0) then
-		table.sort(valid_enemies, sort_func)
-	end
+	table.sort(enemies, sort_func)
  
-	return valid_enemies[1], valid_enemies, valid_enemies[1].__ffe_pos
+	return enemies[1], enemies, enemies[1].__ffe_pos
 end
 
 function U.find_farthest_enemy(entities, origin, min_range, max_range, flags, bans, filter_func)

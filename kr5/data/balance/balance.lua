@@ -13209,6 +13209,8 @@ local towers = {
 			"tower_holder_blocked_elemental_water",-- 水龙魂
 			"tower_holder_blocked_elemental_earth",-- 土龙魂
 			"tower_holder_blocked_elemental_metal",-- 金龙魂
+			"tower_holder_baby_ashbite",-- 龙巢
+			"kr5_tower_black_baby_dragon",-- 幼黑龙
 			"tower_mage_1",-- 秘法师高台
 			"tower_pirate_watchtower",-- 海盗瞭望塔
 			"tower_pixie",-- 侏儒花园
@@ -16712,9 +16714,9 @@ local specials = {
 			attacks_before_special_min = 8,
 			repair_cost = {
 				200,
-				150,
-				100,
-				50
+				160,
+				120,
+				80
 			},
 			repair_cost_iron = {
 				200,

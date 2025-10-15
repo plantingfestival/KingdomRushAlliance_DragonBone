@@ -40516,6 +40516,9281 @@ return {
 		textureRotated = false
 	},
 	-- go_towers_random-0
+	["babyAshbite_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			39,
+            15,
+            43,
+            155
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2389,
+			658,
+			138,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			39,
+            15,
+            43,
+            155
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2389,
+			658,
+			138,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			46,
+            14,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2858,
+			504,
+			131,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			46,
+            14,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2858,
+			504,
+			131,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            5,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1333,
+			844,
+			130,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            5,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1333,
+			844,
+			130,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            20,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1341,
+			712,
+			130,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            20,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1341,
+			712,
+			130,
+			122
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            66,
+            43,
+            104
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2529,
+			658,
+			129,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            66,
+            43,
+            104
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2529,
+			658,
+			129,
+			119
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1242,
+			2668,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1242,
+			2668,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1660,
+			1936,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1660,
+			1936,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2376,
+			530,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0016"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2376,
+			530,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0017"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			993,
+			2578,
+			128,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0018"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			993,
+			2578,
+			128,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0019"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            66,
+            22,
+            113
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			302,
+			2878,
+			138,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0020"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            66,
+            22,
+            113
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			302,
+			2878,
+			138,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0021"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			78,
+            64,
+            40,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			835,
+			2992,
+			102,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0022"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			78,
+            64,
+            40,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			835,
+			2992,
+			102,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0023"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			88,
+            56,
+            47,
+            119
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1757,
+			2474,
+			85,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0024"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			88,
+            56,
+            47,
+            119
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1757,
+			2474,
+			85,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0025"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			70,
+            39,
+            51,
+            116
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			391,
+			2742,
+			99,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0026"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			70,
+            39,
+            51,
+            116
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			391,
+			2742,
+			99,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0027"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            46,
+            23,
+            137
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			204,
+			3341,
+			148,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0028"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            46,
+            23,
+            137
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			204,
+			3341,
+			148,
+			106
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0029"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			39,
+            20,
+            20,
+            127
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			462,
+			1448,
+			161,
+			142
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0030"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			39,
+            20,
+            20,
+            127
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			462,
+			1448,
+			161,
+			142
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0031"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            0,
+            16,
+            127
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			298,
+			1432,
+			157,
+			162
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0032"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            0,
+            16,
+            127
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			298,
+			1432,
+			157,
+			162
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0033"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            9,
+            7,
+            124
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			885,
+			1443,
+			163,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0034"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            9,
+            7,
+            124
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			885,
+			1443,
+			163,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0035"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            16,
+            4,
+            125
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1139,
+			1433,
+			166,
+			148
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0036"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            16,
+            4,
+            125
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1139,
+			1433,
+			166,
+			148
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0037"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            66,
+            3,
+            104
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1344,
+			367,
+			169,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0038"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            66,
+            3,
+            104
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1344,
+			367,
+			169,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0039"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2455,
+			1122,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0040"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2455,
+			1122,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0041"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			880,
+			2889,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0042"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			880,
+			2889,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0043"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3194,
+			932,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0044"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3194,
+			932,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0045"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			893,
+			2588,
+			128,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0046"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			893,
+			2588,
+			128,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0047"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			36,
+            46,
+            50,
+            131
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1513,
+			2224,
+			134,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0048"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			36,
+            46,
+            50,
+            131
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1513,
+			2224,
+			134,
+			112
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0049"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            44,
+            43,
+            117
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			594,
+			1592,
+			140,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0050"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            44,
+            43,
+            117
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			594,
+			1592,
+			140,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0051"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            45,
+            37,
+            94
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2386,
+			779,
+			146,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0052"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            45,
+            37,
+            94
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2386,
+			779,
+			146,
+			150
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0053"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            64,
+            44,
+            88
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1031,
+			1114,
+			139,
+			137
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0054"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            64,
+            44,
+            88
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1031,
+			1114,
+			139,
+			137
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0055"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            94,
+            50,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1433,
+			1141,
+			133,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0056"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			37,
+            94,
+            50,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1433,
+			1141,
+			133,
+			183
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0057"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			40,
+            107,
+            57,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			628,
+			1084,
+			123,
+			170
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0058"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			40,
+            107,
+            57,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			628,
+			1084,
+			123,
+			170
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0059"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			40,
+            124,
+            54,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1241,
+			1276,
+			126,
+			155
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0060"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			40,
+            124,
+            54,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1241,
+			1276,
+			126,
+			155
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0061"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			42,
+            129,
+            52,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2548,
+			931,
+			126,
+			151
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0062"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			42,
+            129,
+            52,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2548,
+			931,
+			126,
+			151
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0063"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			88,
+            252,
+            87,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2722,
+			3081,
+			45,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0064"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0065"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			84,
+            251,
+            83,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2404,
+			2902,
+			53,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0066"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			84,
+            251,
+            83,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2404,
+			2902,
+			53,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0067"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			71,
+            184,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1761,
+			2590,
+			79,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0068"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			71,
+            184,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1761,
+			2590,
+			79,
+			99
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0069"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			57,
+            138,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1868,
+			890,
+			93,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0070"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			57,
+            138,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1868,
+			890,
+			93,
+			145
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0071"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            126,
+            60,
+            8
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1078,
+			2250,
+			113,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0072"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            126,
+            60,
+            8
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1078,
+			2250,
+			113,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0073"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            82,
+            58,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2186,
+			658,
+			111,
+			201
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0074"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            82,
+            58,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2186,
+			658,
+			111,
+			201
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0075"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			58,
+            97,
+            44,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1808,
+			152,
+			118,
+			175
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0076"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            87,
+            39,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			882,
+			1601,
+			131,
+			185
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0077"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            74,
+            39,
+            25
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			860,
+			131,
+			190
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0078"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            25
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			733,
+			125,
+			201
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0079"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            15
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			684,
+			194,
+			117,
+			215
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0080"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            15
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			684,
+			194,
+			117,
+			215
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0081"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            43,
+            43,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			929,
+			521,
+			126,
+			207
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0082"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            43,
+            43,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			929,
+			521,
+			126,
+			207
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0083"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			793,
+			2611,
+			129,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0084"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			793,
+			2611,
+			129,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0085"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			64,
+            177,
+            50,
+            15
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1840,
+			1052,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0086"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			64,
+            177,
+            50,
+            15
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1840,
+			1052,
+			106,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0087"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            119,
+            54,
+            13
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1707,
+			1426,
+			106,
+			157
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0088"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            119,
+            54,
+            13
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1707,
+			1426,
+			106,
+			157
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0089"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			56,
+            117,
+            47,
+            8
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1696,
+			1585,
+			117,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0090"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			56,
+            117,
+            47,
+            8
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1696,
+			1585,
+			117,
+			164
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0091"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            91,
+            41,
+            1
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1668,
+			731,
+			130,
+			197
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0092"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            91,
+            41,
+            1
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1668,
+			731,
+			130,
+			197
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0093"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1836,
+			329,
+			125,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0094"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			61,
+            59,
+            43,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			226,
+			553,
+			116,
+			225
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0095"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			61,
+            59,
+            43,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			325,
+			199,
+			116,
+			227
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0096"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2759,
+			1,
+			126,
+			244
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0097"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2510,
+			1,
+			126,
+			247
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0098"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			48,
+            39,
+            43,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2258,
+			1,
+			129,
+			250
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0099"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			89,
+            263,
+            89,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			483,
+			3584,
+			42,
+			17
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0100"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			56,
+            66,
+            26,
+            112
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1369,
+			2665,
+			138,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0101"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			56,
+            66,
+            26,
+            112
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1369,
+			2665,
+			138,
+			111
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0102"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			74,
+            66,
+            43,
+            116
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1226,
+			3564,
+			103,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0103"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			74,
+            66,
+            43,
+            116
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1226,
+			3564,
+			103,
+			107
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0104"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			87,
+            57,
+            48,
+            119
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1621,
+			3276,
+			85,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0105"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			87,
+            57,
+            48,
+            119
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1621,
+			3276,
+			85,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0106"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			68,
+            39,
+            51,
+            117
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3581,
+			573,
+			101,
+			133
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0107"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			68,
+            39,
+            51,
+            117
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3581,
+			573,
+			101,
+			133
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0108"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            46,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2501,
+			130,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0109"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			47,
+            46,
+            43,
+            147
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2501,
+			130,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0110"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			36,
+            17,
+            47,
+            141
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2660,
+			640,
+			137,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0111"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			36,
+            17,
+            47,
+            141
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2660,
+			640,
+			137,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0112"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0113"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0114"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1240,
+			1608,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0115"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1240,
+			1608,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0116"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0117"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0118"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0119"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0120"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0121"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0122"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0123"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0124"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0125"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0126"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0127"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0128"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0129"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0130"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0131"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0132"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0133"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            135
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			519,
+			124,
+			154
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0134"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            0,
+            46,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2991,
+			505,
+			124,
+			155
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0135"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            9,
+            43,
+            151
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			810,
+			127,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0136"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            9,
+            43,
+            151
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			810,
+			127,
+			129
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0137"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            16,
+            43,
+            151
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			941,
+			127,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0138"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			50,
+            16,
+            43,
+            151
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			941,
+			127,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0139"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2455,
+			1122,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0140"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			52,
+            63,
+            43,
+            118
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2455,
+			1122,
+			125,
+			108
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0141"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			880,
+			2889,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0142"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			60,
+            59,
+            43,
+            134
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			880,
+			2889,
+			117,
+			96
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0143"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3194,
+			932,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0144"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			51,
+            42,
+            43,
+            143
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3194,
+			932,
+			126,
+			104
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0145"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			49,
+            39,
+            43,
+            152
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			893,
+			2588,
+			128,
+			98
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0146"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0147"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0148"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0149"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0150"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0151"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0152"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0153"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0154"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0155"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0156"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0157"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0158"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0159"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0160"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0161"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0162"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0163"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0164"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0165"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0166"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0167"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0168"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0169"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0170"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0171"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0172"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0173"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0174"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0175"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0176"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0177"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0178"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0179"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0180"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			135,
+            115,
+            51,
+            140
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3109,
+			3491,
+			34,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_0181"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0182"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0183"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0184"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0185"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0186"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0187"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0188"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0189"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0190"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_0191"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			220,
+			289
+		},
+		trim = {
+			115,
+            269,
+            98,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			921,
+			524,
+			7,
+			6
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			17,
+            26,
+            22,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1264,
+			3119,
+			93,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            26,
+            12,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1055,
+			2992,
+			116,
+			54
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            20,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			701,
+			2835,
+			117,
+			61
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            20,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1502,
+			3276,
+			117,
+			61
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            24,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1548,
+			2165,
+			117,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            24,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1667,
+			2165,
+			117,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            3,
+            3,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2195,
+			1507,
+			125,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            3,
+            3,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3557,
+			1169,
+			125,
+			76
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            2,
+            9,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			763,
+			977,
+			119,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            2,
+            9,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2934,
+			1572,
+			119,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            0,
+            10,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3694,
+			910,
+			118,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            0,
+            10,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3688,
+			992,
+			118,
+			80
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            2,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1758,
+			1936,
+			117,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            2,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1638,
+			2657,
+			117,
+			79
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            9,
+            10,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1618,
+			3044,
+			118,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0016"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            9,
+            10,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1692,
+			3044,
+			118,
+			72
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0017"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            19,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1766,
+			3044,
+			117,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0018"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            19,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3410,
+			1350,
+			117,
+			60
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0019"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            26,
+            11,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			207,
+			3617,
+			117,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0020"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            26,
+            11,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			326,
+			3617,
+			117,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0021"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            28,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1905,
+			1567,
+			117,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0022"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            28,
+            11,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2195,
+			1585,
+			117,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0023"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            25,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2314,
+			1587,
+			117,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0024"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            26,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2433,
+			1589,
+			117,
+			53
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0025"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            28,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2552,
+			1592,
+			117,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0026"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            28,
+            11,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2671,
+			1595,
+			117,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0027"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            27,
+            12,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1455,
+			2912,
+			116,
+			52
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0028"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            28,
+            12,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2295,
+			2049,
+			116,
+			51
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0029"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			4,
+            31,
+            12,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2347,
+			1980,
+			116,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0030"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			5,
+            31,
+            12,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2465,
+			1981,
+			115,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_fireDecal_0031"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			5,
+            32,
+            13,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1609,
+			993,
+			114,
+			46
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_fireDecal_0032"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			132,
+			84
+		},
+		trim = {
+			32,
+            34,
+            28,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2601,
+			2787,
+			72,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			14,
+            6,
+            70,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3488,
+			1899,
+			84,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			14,
+            6,
+            70,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3488,
+			1899,
+			84,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			5,
+            9,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3456,
+			2283,
+			93,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			5,
+            9,
+            70,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3456,
+			2283,
+			93,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			11,
+            7,
+            67,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2150,
+			3290,
+			90,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			11,
+            7,
+            67,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2150,
+			3290,
+			90,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			0,
+            6,
+            69,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			200,
+			1012,
+			99,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proy_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			0,
+            6,
+            69,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			200,
+			1012,
+			99,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proy_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			2,
+            6,
+            67,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3638,
+			314,
+			99,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proy_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			44
+		},
+		trim = {
+			2,
+            6,
+            67,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3638,
+			314,
+			99,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			17,
+            23,
+            19,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3098,
+			2819,
+			52,
+			47
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			14,
+            12,
+            16,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3646,
+			1729,
+			58,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			14,
+            12,
+            16,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3646,
+			1729,
+			58,
+			63
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			13,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3016,
+			2376,
+			62,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			13,
+            3,
+            13,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3016,
+			2376,
+			62,
+			77
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			10,
+            2,
+            10,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2270,
+			3211,
+			68,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			10,
+            2,
+            10,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2270,
+			3211,
+			68,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			6,
+            2,
+            6,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2267,
+			3291,
+			76,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			6,
+            2,
+            6,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2267,
+			3291,
+			76,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHit_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			5,
+            1,
+            5,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3799,
+			1458,
+			78,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			5,
+            1,
+            5,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3799,
+			1458,
+			78,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			3,
+            0,
+            4,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3415,
+			1899,
+			81,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			3,
+            0,
+            4,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3415,
+			1899,
+			81,
+			71
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			15,
+            2,
+            14,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1960,
+			2677,
+			59,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHit_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			15,
+            2,
+            14,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1960,
+			2677,
+			59,
+			68
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			30,
+            29,
+            26,
+            23
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1484,
+			3339,
+			32,
+			28
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHitAir_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			16,
+            19,
+            14,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2780,
+			3173,
+			58,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			7,
+            10,
+            7,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2270,
+			3135,
+			74,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			7,
+            10,
+            7,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2270,
+			3135,
+			74,
+			65
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			2,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1751,
+			1867,
+			83,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHitAir_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			2,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1751,
+			1867,
+			83,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHitAir_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			2,
+            4,
+            0,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2183,
+			2161,
+			86,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			2,
+            4,
+            0,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2183,
+			2161,
+			86,
+			70
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			0,
+            1,
+            0,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2945,
+			414,
+			88,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			0,
+            1,
+            0,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2945,
+			414,
+			88,
+			63
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			0,
+            1,
+            0,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1410,
+			3474,
+			88,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			0,
+            1,
+            0,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1410,
+			3474,
+			88,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_proyHitAir_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			13,
+            1,
+            15,
+            28
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3429,
+			2378,
+			60,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_proyHitAir_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			88,
+			80
+		},
+		trim = {
+			13,
+            1,
+            15,
+            28
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3429,
+			2378,
+			60,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1474,
+			3474,
+			93,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1474,
+			3474,
+			93,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			2,
+            0,
+            2,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1474,
+			3474,
+			93,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3549,
+			1248,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3549,
+			1248,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3549,
+			1248,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1981,
+			2362,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1981,
+			2362,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1981,
+			2362,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1862,
+			2578,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1862,
+			2578,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1862,
+			2578,
+			97,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2184,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2184,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2184,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0016"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            5,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3084,
+			1558,
+			92,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0017"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            5,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3084,
+			1558,
+			92,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0018"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            5,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3084,
+			1558,
+			92,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0019"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2280,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0020"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2280,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0021"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3191,
+			2280,
+			94,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0022"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			3,
+            0,
+            6,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2180,
+			3204,
+			88,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0023"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			3,
+            0,
+            6,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2180,
+			3204,
+			88,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0024"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			3,
+            0,
+            6,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2180,
+			3204,
+			88,
+			73
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeDecal_0025"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			5,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2105,
+			3136,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0026"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			5,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2105,
+			3136,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeDecal_0027"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			5,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2105,
+			3136,
+			89,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeParticle_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			33,
+            22,
+            35,
+            24
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3826,
+			3157,
+			29,
+			27
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeParticle_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			30,
+            19,
+            33,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3145,
+			3491,
+			34,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeParticle_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			29,
+            17,
+            29,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3130,
+			2507,
+			39,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			29,
+            17,
+            29,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3130,
+			2507,
+			39,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			27,
+            16,
+            23,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3483,
+			2236,
+			47,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			27,
+            16,
+            23,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3483,
+			2236,
+			47,
+			45
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			16,
+            9,
+            17,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2839,
+			2739,
+			64,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			16,
+            9,
+            17,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2839,
+			2739,
+			64,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_smokeParticle_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			7,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2292,
+			2709,
+			90,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_smokeParticle_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			97,
+			73
+		},
+		trim = {
+			7,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2292,
+			2709,
+			90,
+			73
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_decal"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			108
+		},
+		trim = {
+			6,
+            7,
+            8,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1867,
+			734,
+			154,
+			94
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			23,
+            9,
+            19,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			459,
+			3251,
+			126,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			23,
+            9,
+            19,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			459,
+			3251,
+			126,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            9,
+            12,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2741,
+			137,
+			94
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            9,
+            12,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2741,
+			137,
+			94
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            6,
+            7,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3050,
+			631,
+			142,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            6,
+            7,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3050,
+			631,
+			142,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            2,
+            12,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2837,
+			137,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			19,
+            2,
+            12,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1509,
+			2837,
+			137,
+			108
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			17,
+            0,
+            16,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2016,
+			1426,
+			135,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			17,
+            0,
+            16,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2016,
+			1426,
+			135,
+			110
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			23,
+            19,
+            22,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1532,
+			1276,
+			123,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			23,
+            19,
+            22,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1532,
+			1276,
+			123,
+			84
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			24,
+            19,
+            23,
+            13
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			659,
+			3449,
+			121,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			24,
+            19,
+            23,
+            13
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			659,
+			3449,
+			121,
+			80
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_fire_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			27,
+            16,
+            26,
+            26
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			1190,
+			115,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0016"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			27,
+            16,
+            26,
+            26
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			1190,
+			115,
+			70
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0017"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			38,
+            15,
+            31,
+            29
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			459,
+			3379,
+			99,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_fire_0018"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			168,
+			112
+		},
+		trim = {
+			38,
+            15,
+            31,
+            29
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			459,
+			3379,
+			99,
+			68
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_particle_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			17,
+            19,
+            19,
+            20
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3555,
+			774,
+			24,
+			21
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_particle_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			16,
+            17,
+            16,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1523,
+			3444,
+			28,
+			24
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_specialFire_particle_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			13,
+            13,
+            13,
+            15
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3402,
+			2791,
+			34,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_particle_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			13,
+            12,
+            7,
+            10
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3360,
+			2785,
+			40,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_particle_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			9,
+            3,
+            5,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3606,
+			2411,
+			46,
+			51
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_specialFire_particle_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			60,
+			60
+		},
+		trim = {
+			3,
+            0,
+            0,
+            2
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3120,
+			2661,
+			57,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_tower_layer1_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			14,
+            80,
+            20,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3429,
+			927,
+			147,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyAshbite_tower_layer2_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			66,
+            66,
+            72,
+            107
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3561,
+			2430,
+			43,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_tower_layer2_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			64,
+            66,
+            70,
+            107
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3207,
+			2993,
+			47,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_tower_layer2_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			64,
+            65,
+            70,
+            107
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3463,
+			1849,
+			47,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_tower_layer2_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			64,
+            65,
+            70,
+            107
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3463,
+			1849,
+			47,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyAshbite_tower_layer2_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			181,
+			220
+		},
+		trim = {
+			66,
+            84,
+            71,
+            107
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2743,
+			3556,
+			44,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            16,
+            13,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3147,
+			2819,
+			51,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            16,
+            13,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3147,
+			2819,
+			51,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            14,
+            13,
+            20
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3179,
+			2661,
+			52,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            14,
+            13,
+            20
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3179,
+			2661,
+			52,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            13,
+            15,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3589,
+			2231,
+			50,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_creepFire_big_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            13,
+            15,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3589,
+			2231,
+			50,
+			62
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_creepFire_big_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            15,
+            16,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2965,
+			2302,
+			49,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			15,
+            15,
+            16,
+            17
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2965,
+			2302,
+			49,
+			60
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            19,
+            16,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3490,
+			2769,
+			48,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_creepFire_big_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			80,
+			92
+		},
+		trim = {
+			16,
+            19,
+            16,
+            19
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3490,
+			2769,
+			48,
+			54
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fire_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			67,
+            47,
+            57,
+            27
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2924,
+			3141,
+			40,
+			45
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fire_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			56,
+            31,
+            57,
+            31
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3200,
+			2819,
+			51,
+			57
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fire_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			62,
+            36,
+            47,
+            27
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3653,
+			2718,
+			55,
+			56
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fire_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			56,
+            29,
+            47,
+            21
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2592,
+			3610,
+			61,
+			69
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fire_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			56,
+            31,
+            22,
+            13
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3016,
+			2218,
+			86,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fire_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			164,
+			119
+		},
+		trim = {
+			49,
+            24,
+            13,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2024,
+			1563,
+			102,
+			88
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireBurn_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            9,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			406,
+			1592,
+			186,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireBurn_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            9,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			406,
+			1592,
+			186,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireBurn_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            23,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1010,
+			1255,
+			186,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            23,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1010,
+			1255,
+			186,
+			126
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            20,
+            12,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			741,
+			1256,
+			189,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            20,
+            12,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			741,
+			1256,
+			189,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            13,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			872,
+			1255,
+			186,
+			136
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            13,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			872,
+			1255,
+			186,
+			136
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireBurn_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            10,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			843,
+			1114,
+			186,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireBurn_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			216,
+			156
+		},
+		trim = {
+			15,
+            10,
+            15,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			843,
+			1114,
+			186,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireDecal_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			117,
+            89,
+            107,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			1255,
+			176,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			117,
+            89,
+            107,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			1255,
+			176,
+			101
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			117,
+            84,
+            110,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1289,
+			1433,
+			173,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			117,
+            84,
+            110,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1289,
+			1433,
+			173,
+			106
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            77,
+            114,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2609,
+			468,
+			170,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            77,
+            114,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2609,
+			468,
+			170,
+			113
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            68,
+            112,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1618,
+			1302,
+			172,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireDecal_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            68,
+            112,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1618,
+			1302,
+			172,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_fireDecal_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            71,
+            112,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1344,
+			538,
+			172,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            71,
+            112,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1344,
+			538,
+			172,
+			119
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            83,
+            110,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			204,
+			2990,
+			174,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			116,
+            83,
+            110,
+            90
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			204,
+			2990,
+			174,
+			107
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_fireDecal_base"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			400,
+			280
+		},
+		trim = {
+			17,
+            14,
+            61,
+            1
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			1,
+			322,
+			265
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["babyBeresad_sign"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			117,
+			97
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			737,
+			3219,
+			117,
+			97
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["babyBeresad_tower_layer1_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			180,
+			92
+		},
+		trim = {
+			0,
+            0,
+            0,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1869,
+			552,
+			180,
+			92
+		},
+		alias = {},
+		textureRotated = true
+	},
 	["boatswain_0001"] = {
 		a_name = "go_towers_random-0.dds",
 		size = {
@@ -40529,12 +49804,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3517,
-			171,
+			1627,
+			2224,
 			123,
 			87
 		},
@@ -40554,17 +49829,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2345,
+			1792,
+			1302,
 			122,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40579,17 +49854,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2345,
+			1792,
+			1302,
 			122,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40604,17 +49879,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2765,
-			795,
+			1637,
+			2349,
 			123,
 			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40629,17 +49904,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2765,
-			795,
+			1637,
+			2349,
 			123,
 			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40654,12 +49929,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2890,
-			793,
+			2445,
+			1497,
 			122,
 			90
 		},
@@ -40679,12 +49954,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2890,
-			793,
+			2445,
+			1497,
 			122,
 			90
 		},
@@ -40704,17 +49979,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2171,
-			337,
+			2322,
+			1492,
 			121,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40729,17 +50004,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2171,
-			337,
+			2322,
+			1492,
 			121,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40754,17 +50029,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			840,
-			1866,
+			3178,
+			1246,
 			120,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40779,17 +50054,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			840,
-			1866,
+			3178,
+			1246,
 			120,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40804,12 +50079,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			517,
-			1741,
+			1211,
+			2906,
 			120,
 			95
 		},
@@ -40829,12 +50104,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			517,
-			1741,
+			1211,
+			2906,
 			120,
 			95
 		},
@@ -40854,12 +50129,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			932,
-			1649,
+			764,
+			2742,
 			121,
 			93
 		},
@@ -40879,12 +50154,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			932,
-			1649,
+			764,
+			2742,
 			121,
 			93
 		},
@@ -40904,12 +50179,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3401,
-			796,
+			567,
+			3449,
 			122,
 			90
 		},
@@ -40929,12 +50204,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3401,
-			796,
+			567,
+			3449,
 			122,
 			90
 		},
@@ -40954,17 +50229,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1383,
-			1053,
+			3336,
+			404,
 			123,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -40979,17 +50254,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1383,
-			1053,
+			3336,
+			404,
 			123,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41004,12 +50279,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			930,
-			1525,
+			609,
+			2854,
 			122,
 			90
 		},
@@ -41029,12 +50304,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			930,
-			1525,
+			609,
+			2854,
 			122,
 			90
 		},
@@ -41054,17 +50329,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1141,
-			1187,
+			638,
+			3102,
 			121,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41079,17 +50354,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1141,
-			1187,
+			638,
+			3102,
 			121,
 			93
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41104,17 +50379,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1074,
-			1313,
+			1333,
+			2912,
 			120,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41129,17 +50404,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1074,
-			1313,
+			1333,
+			2912,
 			120,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41154,12 +50429,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			639,
-			1741,
+			1509,
+			2947,
 			120,
 			95
 		},
@@ -41179,12 +50454,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			639,
-			1741,
+			1509,
+			2947,
 			120,
 			95
 		},
@@ -41204,12 +50479,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1175,
-			1525,
+			645,
+			3225,
 			121,
 			90
 		},
@@ -41229,12 +50504,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1175,
-			1525,
+			645,
+			3225,
 			121,
 			90
 		},
@@ -41254,12 +50529,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2452,
-			893,
+			2179,
+			3034,
 			89,
 			89
 		},
@@ -41279,12 +50554,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2452,
-			893,
+			2179,
+			3034,
 			89,
 			89
 		},
@@ -41304,12 +50579,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2046,
-			1194,
+			1756,
+			2854,
 			91,
 			84
 		},
@@ -41329,12 +50604,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2046,
-			1194,
+			1756,
+			2854,
 			91,
 			84
 		},
@@ -41354,12 +50629,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1852,
-			1606,
+			2272,
+			2525,
 			90,
 			90
 		},
@@ -41379,12 +50654,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1852,
-			1606,
+			2272,
+			2525,
 			90,
 			90
 		},
@@ -41404,17 +50679,17 @@ return {
             70
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2364,
+			2461,
+			2308,
 			87,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41429,17 +50704,17 @@ return {
             70
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2364,
+			2461,
+			2308,
 			87,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41454,12 +50729,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1386,
-			1750,
+			1631,
+			2947,
 			86,
 			95
 		},
@@ -41479,12 +50754,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1386,
-			1750,
+			1631,
+			2947,
 			86,
 			95
 		},
@@ -41504,12 +50779,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			975,
-			1424,
+			653,
+			3348,
 			87,
 			99
 		},
@@ -41529,12 +50804,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			975,
-			1424,
+			653,
+			3348,
 			87,
 			99
 		},
@@ -41554,17 +50829,17 @@ return {
             65
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			2056,
+			2080,
+			2353,
 			89,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41579,17 +50854,17 @@ return {
             65
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			2056,
+			2080,
+			2353,
 			89,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41604,17 +50879,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2469,
-			1697,
+			3145,
+			1892,
 			88,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41629,17 +50904,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2469,
-			1697,
+			3145,
+			1892,
 			88,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41654,17 +50929,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1915,
-			1786,
+			2038,
+			3481,
 			87,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41679,17 +50954,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1915,
-			1786,
+			2038,
+			3481,
 			87,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41704,17 +50979,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2293,
-			2094,
+			2278,
+			2617,
 			85,
 			90
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41729,17 +51004,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2293,
-			2094,
+			2278,
+			2617,
 			85,
 			90
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41754,12 +51029,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1848,
-			1097,
+			2366,
+			2291,
 			85,
 			93
 		},
@@ -41779,12 +51054,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1848,
-			1097,
+			2366,
+			2291,
 			85,
 			93
 		},
@@ -41804,17 +51079,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2103,
-			1993,
+			1719,
+			2947,
 			92,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41829,17 +51104,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2103,
-			1993,
+			1719,
+			2947,
 			92,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41854,17 +51129,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1944,
-			1600,
+			1979,
+			2168,
 			94,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41879,17 +51154,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1944,
-			1600,
+			1979,
+			2168,
 			94,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41904,17 +51179,17 @@ return {
             65
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1537,
-			2363,
+			1979,
+			2946,
 			93,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41929,17 +51204,17 @@ return {
             65
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1537,
-			2363,
+			1979,
+			2946,
 			93,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -41954,12 +51229,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			1923,
+			2267,
+			3371,
 			77,
 			75
 		},
@@ -41979,12 +51254,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			1923,
+			2267,
+			3371,
 			77,
 			75
 		},
@@ -42004,17 +51279,17 @@ return {
             62
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2559,
-			2175,
+			2340,
+			3211,
 			78,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42029,17 +51304,17 @@ return {
             62
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2559,
-			2175,
+			2340,
+			3211,
 			78,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42054,17 +51329,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2536,
-			1922,
+			2177,
+			2251,
 			81,
 			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42079,17 +51354,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2536,
-			1922,
+			2177,
+			2251,
 			81,
 			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42104,12 +51379,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1198,
+			3326,
+			1899,
 			87,
 			81
 		},
@@ -42129,12 +51404,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1198,
+			3326,
+			1899,
 			87,
 			81
 		},
@@ -42154,17 +51429,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			819,
-			2435,
+			2127,
+			3481,
 			94,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42179,17 +51454,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			819,
-			2435,
+			2127,
+			3481,
 			94,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42204,17 +51479,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1508,
-			1046,
+			1331,
+			1194,
 			98,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42229,17 +51504,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1508,
-			1046,
+			1331,
+			1194,
 			98,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0070"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42254,17 +51529,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1474,
-			1774,
+			2932,
+			230,
 			93,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0071"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42279,17 +51554,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1474,
-			1774,
+			2932,
+			230,
 			93,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0072"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42304,12 +51579,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1430,
-			1951,
+			1937,
+			2578,
 			97,
 			75
 		},
@@ -42329,12 +51604,12 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1430,
-			1951,
+			1937,
+			2578,
 			97,
 			75
 		},
@@ -42354,12 +51629,12 @@ return {
             62
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1684,
-			1874,
+			1939,
+			1084,
 			91,
 			74
 		},
@@ -42379,12 +51654,12 @@ return {
             62
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1684,
-			1874,
+			1939,
+			1084,
 			91,
 			74
 		},
@@ -42404,17 +51679,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2540,
-			2000,
+			2180,
+			3125,
 			88,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0077"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42429,17 +51704,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2540,
-			2000,
+			2180,
+			3125,
 			88,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0078"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42454,12 +51729,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2558,
-			2251,
+			2367,
+			2700,
 			81,
 			81
 		},
@@ -42479,12 +51754,12 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2558,
-			2251,
+			2367,
+			2700,
 			81,
 			81
 		},
@@ -42504,17 +51779,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1722,
-			2453,
+			2223,
+			3481,
 			78,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0081"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42529,17 +51804,17 @@ return {
             69
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1722,
-			2453,
+			2223,
+			3481,
 			78,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0082"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42554,12 +51829,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1273,
+			2345,
+			3291,
 			78,
 			80
 		},
@@ -42579,12 +51854,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1273,
+			2345,
+			3291,
 			78,
 			80
 		},
@@ -42604,17 +51879,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1016,
-			1186,
+			1716,
+			2224,
 			123,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0085"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42629,17 +51904,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1016,
-			1186,
+			1716,
+			2224,
 			123,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0086"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42654,12 +51929,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1172,
-			1406,
+			742,
+			3338,
 			117,
 			96
 		},
@@ -42679,12 +51954,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1172,
-			1406,
+			742,
+			3338,
 			117,
 			96
 		},
@@ -42704,17 +51979,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			882,
-			986,
+			1242,
+			2530,
 			136,
 			120
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0089"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42729,17 +52004,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			882,
-			986,
+			1242,
+			2530,
 			136,
 			120
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0090"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42754,17 +52029,17 @@ return {
             63
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			159,
-			2549,
+			1235,
+			2214,
 			149,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0091"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42779,17 +52054,17 @@ return {
             63
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			159,
-			2549,
+			1235,
+			2214,
 			149,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0092"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42804,17 +52079,17 @@ return {
             53
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1612,
-			540,
+			724,
+			1592,
 			156,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0093"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42829,17 +52104,17 @@ return {
             53
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1612,
-			540,
+			724,
+			1592,
 			156,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0094"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42854,12 +52129,12 @@ return {
             53
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			376,
-			2423,
+			1657,
+			1052,
 			181,
 			106
 		},
@@ -42879,12 +52154,12 @@ return {
             53
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			376,
-			2423,
+			1657,
+			1052,
 			181,
 			106
 		},
@@ -42904,17 +52179,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			482,
+			1044,
+			749,
 			186,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0097"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42929,17 +52204,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			482,
+			1044,
+			749,
 			186,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0098"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42954,17 +52229,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1741,
+			2161,
+			312,
 			211,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0099"] = {
 		a_name = "go_towers_random-0.dds",
@@ -42979,17 +52254,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1741,
+			2161,
+			312,
 			211,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0100"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43004,17 +52279,17 @@ return {
             61
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			460,
-			1838,
+			845,
+			916,
 			197,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0101"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43029,17 +52304,17 @@ return {
             61
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			460,
-			1838,
+			845,
+			916,
 			197,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0102"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43054,17 +52329,17 @@ return {
             63
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			679,
+			1339,
+			169,
 			196,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0103"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43079,17 +52354,17 @@ return {
             63
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			679,
+			1339,
+			169,
 			196,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0104"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43104,12 +52379,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2767,
-			663,
+			2691,
+			1222,
 			109,
 			130
 		},
@@ -43129,12 +52404,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2767,
-			663,
+			2691,
+			1222,
 			109,
 			130
 		},
@@ -43154,12 +52429,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2183,
-			212,
+			1613,
+			1742,
 			123,
 			81
 		},
@@ -43179,12 +52454,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2183,
-			212,
+			1613,
+			1742,
 			123,
 			81
 		},
@@ -43204,12 +52479,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3404,
-			671,
+			1726,
+			2349,
 			123,
 			86
 		},
@@ -43229,12 +52504,12 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3404,
-			671,
+			1726,
+			2349,
 			123,
 			86
 		},
@@ -43254,17 +52529,17 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1016,
-			1186,
+			1716,
+			2224,
 			123,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0111"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43279,12 +52554,12 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			609,
-			705,
+			645,
+			977,
 			105,
 			116
 		},
@@ -43304,12 +52579,12 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			609,
-			705,
+			645,
+			977,
 			105,
 			116
 		},
@@ -43329,17 +52604,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3733,
-			678,
+			2445,
+			1377,
 			120,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0114"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43354,17 +52629,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3733,
-			678,
+			2445,
+			1377,
 			120,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0115"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43379,17 +52654,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			679,
+			1905,
+			1426,
 			109,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0116"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43404,17 +52679,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			679,
+			1905,
+			1426,
 			109,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0117"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43429,17 +52704,17 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2925,
-			327,
+			791,
+			1447,
 			92,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0118"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43454,17 +52729,17 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2925,
-			327,
+			791,
+			1447,
 			92,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0119"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43479,17 +52754,17 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1744,
-			1606,
+			1331,
+			3564,
 			106,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0120"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43504,17 +52779,17 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1744,
-			1606,
+			1331,
+			3564,
 			106,
 			89
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["boatswain_0121"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43529,12 +52804,12 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2523,
-			770,
+			3190,
+			1147,
 			97,
 			108
 		},
@@ -43554,12 +52829,12 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2523,
-			770,
+			3190,
+			1147,
 			97,
 			108
 		},
@@ -43579,17 +52854,17 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1598,
-			1950,
+			3581,
+			708,
 			101,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0124"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43604,17 +52879,17 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1598,
-			1950,
+			3581,
+			708,
 			101,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0125"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43629,12 +52904,12 @@ return {
             38
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2219,
-			1182,
+			1654,
+			2055,
 			108,
 			92
 		},
@@ -43654,12 +52929,12 @@ return {
             38
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2219,
-			1182,
+			1654,
+			2055,
 			108,
 			92
 		},
@@ -43679,17 +52954,17 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1851,
-			1494,
+			190,
+			2897,
 			110,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0128"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43704,17 +52979,17 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1851,
-			1494,
+			190,
+			2897,
 			110,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0129"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43729,12 +53004,12 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1052,
-			2323,
+			999,
+			2883,
 			107,
 			92
 		},
@@ -43754,12 +53029,12 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1052,
-			2323,
+			999,
+			2883,
 			107,
 			92
 		},
@@ -43779,17 +53054,17 @@ return {
             48
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1103,
-			2097,
+			2908,
+			2216,
 			106,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0132"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43804,17 +53079,17 @@ return {
             48
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1103,
-			2097,
+			2908,
+			2216,
 			106,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_0133"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43829,17 +53104,17 @@ return {
             48
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2332,
-			1821,
+			3056,
+			1830,
 			100,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["boatswain_shadow"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43854,12 +53129,12 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1603,
+			1532,
+			1401,
 			76,
 			23
 		},
@@ -43879,17 +53154,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1784,
-			1946,
+			1880,
+			2168,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43904,17 +53179,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1784,
-			2045,
+			1981,
+			2264,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43929,12 +53204,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1794,
-			2144,
+			2113,
+			2541,
 			97,
 			96
 		},
@@ -43954,17 +53229,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1797,
-			2243,
+			2125,
+			2640,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bottom_info_image_soldiers_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -43979,17 +53254,42 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1808,
-			2342,
+			3067,
+			1732,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
+	},
+	["bottom_info_image_soldiers_0052"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2014,
+			2541,
+			97,
+			97
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["bucaneer_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44004,17 +53304,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2318,
+			3792,
+			2292,
 			50,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44029,12 +53329,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3739,
-			1352,
+			2965,
+			2364,
 			66,
 			49
 		},
@@ -44054,12 +53354,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3739,
-			1352,
+			2965,
+			2364,
 			66,
 			49
 		},
@@ -44079,12 +53379,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2591,
-			1471,
+			3233,
+			2661,
 			59,
 			51
 		},
@@ -44104,12 +53404,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2591,
-			1471,
+			3233,
+			2661,
 			59,
 			51
 		},
@@ -44129,17 +53429,17 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2488,
-			2374,
+			3792,
+			2412,
 			60,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44154,17 +53454,17 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2488,
-			2374,
+			3792,
+			2412,
 			60,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44179,12 +53479,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1753,
+			3579,
+			1733,
 			65,
 			53
 		},
@@ -44204,12 +53504,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1753,
+			3579,
+			1733,
 			65,
 			53
 		},
@@ -44229,12 +53529,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1374,
-			2634,
+			3056,
+			2661,
 			62,
 			46
 		},
@@ -44254,12 +53554,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1374,
-			2634,
+			3056,
+			2661,
 			62,
 			46
 		},
@@ -44279,12 +53579,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			740,
-			1992,
+			3793,
+			2178,
 			54,
 			49
 		},
@@ -44304,12 +53604,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			740,
-			1992,
+			3793,
+			2178,
 			54,
 			49
 		},
@@ -44329,12 +53629,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3103,
-			1674,
+			3358,
+			2825,
 			56,
 			51
 		},
@@ -44354,12 +53654,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3103,
-			1674,
+			3358,
+			2825,
 			56,
 			51
 		},
@@ -44379,12 +53679,12 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3355,
-			1846,
+			3792,
+			2474,
 			50,
 			50
 		},
@@ -44404,12 +53704,12 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3355,
-			1846,
+			3792,
+			2474,
 			50,
 			50
 		},
@@ -44429,12 +53729,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			1214,
+			2858,
+			2590,
 			64,
 			53
 		},
@@ -44454,12 +53754,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			1214,
+			2858,
+			2590,
 			64,
 			53
 		},
@@ -44479,12 +53779,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			834,
-			2635,
+			3636,
+			1851,
 			68,
 			45
 		},
@@ -44504,12 +53804,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			834,
-			2635,
+			3636,
+			1851,
 			68,
 			45
 		},
@@ -44529,17 +53829,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1501,
-			2634,
+			3253,
+			2879,
 			58,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44554,17 +53854,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1501,
-			2634,
+			3253,
+			2879,
 			58,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44579,12 +53879,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2994,
-			2054,
+			3711,
+			2614,
 			57,
 			47
 		},
@@ -44604,12 +53904,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2994,
-			2054,
+			3711,
+			2614,
 			57,
 			47
 		},
@@ -44629,12 +53929,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2620,
-			2381,
+			3532,
+			2232,
 			55,
 			49
 		},
@@ -44654,12 +53954,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2620,
-			2381,
+			3532,
+			2232,
 			55,
 			49
 		},
@@ -44679,12 +53979,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2864,
-			2167,
+			3792,
+			2526,
 			54,
 			50
 		},
@@ -44704,12 +54004,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2864,
-			2167,
+			3792,
+			2526,
 			54,
 			50
 		},
@@ -44729,12 +54029,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3055,
-			1981,
+			3784,
+			2934,
 			54,
 			47
 		},
@@ -44754,12 +54054,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3055,
-			1981,
+			3784,
+			2934,
 			54,
 			47
 		},
@@ -44779,12 +54079,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3111,
-			1978,
+			3606,
+			2464,
 			54,
 			46
 		},
@@ -44804,12 +54104,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3111,
-			1978,
+			3606,
+			2464,
 			54,
 			46
 		},
@@ -44829,12 +54129,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1621,
-			2634,
+			3510,
+			2998,
 			56,
 			46
 		},
@@ -44854,12 +54154,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1621,
-			2634,
+			3510,
+			2998,
 			56,
 			46
 		},
@@ -44879,12 +54179,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3105,
-			1795,
+			3793,
+			2234,
 			56,
 			49
 		},
@@ -44904,12 +54204,12 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3105,
-			1795,
+			3793,
+			2234,
 			56,
 			49
 		},
@@ -44929,17 +54229,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			1952,
+			2727,
+			3174,
 			58,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44954,17 +54254,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			1952,
+			2727,
+			3174,
 			58,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -44979,17 +54279,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2933,
-			2005,
+			2778,
+			3113,
 			58,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45004,17 +54304,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2933,
-			2005,
+			2778,
+			3113,
 			58,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45029,17 +54329,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1801,
+			3616,
+			2652,
 			56,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45054,17 +54354,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1801,
+			3616,
+			2652,
 			56,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45079,17 +54379,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2989,
-			1818,
+			3770,
+			2641,
 			56,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45104,17 +54404,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2989,
-			1818,
+			3770,
+			2641,
 			56,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45129,12 +54429,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2995,
-			2491,
+			3538,
+			2829,
 			55,
 			58
 		},
@@ -45154,12 +54454,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2995,
-			2491,
+			3538,
+			2829,
 			55,
 			58
 		},
@@ -45179,12 +54479,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3360,
-			2022,
+			2543,
+			2860,
 			56,
 			55
 		},
@@ -45204,12 +54504,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3360,
-			2022,
+			2543,
+			2860,
 			56,
 			55
 		},
@@ -45229,12 +54529,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2412,
+			3118,
+			2611,
 			55,
 			48
 		},
@@ -45254,12 +54554,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2412,
+			3118,
+			2611,
 			55,
 			48
 		},
@@ -45279,17 +54579,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2936,
-			2491,
+			3540,
+			2770,
 			57,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45304,17 +54604,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2936,
-			2491,
+			3540,
+			2770,
 			57,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45329,17 +54629,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3150,
-			2098,
+			3595,
+			2826,
 			55,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45354,17 +54654,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3150,
-			2098,
+			3595,
+			2826,
 			55,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45379,17 +54679,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1675,
+			3711,
+			2719,
 			54,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45404,17 +54704,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1675,
+			3711,
+			2719,
 			54,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45429,12 +54729,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3210,
-			2099,
+			3711,
+			2663,
 			57,
 			54
 		},
@@ -45454,12 +54754,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3210,
-			2099,
+			3711,
+			2663,
 			57,
 			54
 		},
@@ -45479,12 +54779,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3042,
-			2103,
+			2965,
+			2432,
 			55,
 			49
 		},
@@ -45504,12 +54804,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3042,
-			2103,
+			2965,
+			2432,
 			55,
 			49
 		},
@@ -45529,12 +54829,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1766,
+			3716,
+			2775,
 			50,
 			52
 		},
@@ -45554,12 +54854,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1766,
+			3716,
+			2775,
 			50,
 			52
 		},
@@ -45579,12 +54879,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2936,
-			2437,
+			3420,
+			2883,
 			37,
 			52
 		},
@@ -45604,12 +54904,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2936,
-			2437,
+			3420,
+			2883,
 			37,
 			52
 		},
@@ -45629,17 +54929,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3242,
-			2217,
+			3595,
+			2886,
 			51,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45654,17 +54954,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3242,
-			2217,
+			3595,
+			2886,
 			51,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45679,12 +54979,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			2041,
+			3455,
+			2469,
 			58,
 			55
 		},
@@ -45704,12 +55004,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			2041,
+			3455,
+			2469,
 			58,
 			55
 		},
@@ -45729,12 +55029,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3354,
-			2217,
+			2867,
+			3025,
 			55,
 			55
 		},
@@ -45754,12 +55054,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3354,
-			2217,
+			2867,
+			3025,
 			55,
 			55
 		},
@@ -45779,12 +55079,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3354,
-			2217,
+			2867,
+			3025,
 			55,
 			55
 		},
@@ -45804,12 +55104,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2425,
-			2093,
+			2432,
+			3034,
 			87,
 			39
 		},
@@ -45829,12 +55129,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2425,
-			2093,
+			2432,
+			3034,
 			87,
 			39
 		},
@@ -45854,17 +55154,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1307,
+			1814,
+			2434,
 			87,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0076"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45879,17 +55179,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1307,
+			1814,
+			2434,
 			87,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0077"] = {
 		a_name = "go_towers_random-0.dds",
@@ -45904,12 +55204,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2367,
-			1734,
+			2447,
+			3123,
 			85,
 			39
 		},
@@ -45929,12 +55229,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2367,
-			1734,
+			2447,
+			3123,
 			85,
 			39
 		},
@@ -45954,12 +55254,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2385,
-			2094,
+			2601,
+			2615,
 			84,
 			38
 		},
@@ -45979,12 +55279,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2385,
-			2094,
+			2601,
+			2615,
 			84,
 			38
 		},
@@ -46004,17 +55304,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2818,
-			1263,
+			2544,
+			2574,
 			84,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0082"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46029,17 +55329,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2818,
-			1263,
+			2544,
+			2574,
 			84,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0083"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46054,12 +55354,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2745,
-			1366,
+			2365,
+			3624,
 			77,
 			47
 		},
@@ -46079,12 +55379,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2745,
-			1366,
+			2365,
+			3624,
 			77,
 			47
 		},
@@ -46104,17 +55404,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2672,
-			2133,
+			2922,
+			3245,
 			40,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0086"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46129,17 +55429,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2672,
-			2133,
+			2922,
+			3245,
 			40,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0087"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46154,17 +55454,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3032,
-			2408,
+			3312,
+			2939,
 			52,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0088"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46179,17 +55479,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3032,
-			2408,
+			3312,
+			2939,
 			52,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0089"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46204,12 +55504,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1766,
+			3716,
+			2775,
 			50,
 			52
 		},
@@ -46229,12 +55529,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1766,
+			3716,
+			2775,
 			50,
 			52
 		},
@@ -46254,17 +55554,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2370,
+			3714,
+			2827,
 			53,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0092"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46279,17 +55579,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2370,
+			3714,
+			2827,
 			53,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0093"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46304,17 +55604,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1651,
-			1784,
+			3035,
+			2810,
 			61,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0094"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46329,17 +55629,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1651,
-			1784,
+			3035,
+			2810,
 			61,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0095"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46354,17 +55654,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3023,
-			1356,
+			3519,
+			2049,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0096"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46379,17 +55679,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3023,
-			1356,
+			3519,
+			2049,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0097"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46404,12 +55704,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1885,
+			3654,
+			2280,
 			66,
 			63
 		},
@@ -46429,12 +55729,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1885,
+			3654,
+			2280,
 			66,
 			63
 		},
@@ -46454,17 +55754,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			647,
-			1992,
+			1842,
+			2854,
 			91,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0100"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46479,17 +55779,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			647,
-			1992,
+			1842,
+			2854,
 			91,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0101"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46504,17 +55804,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1508,
-			2458,
+			2105,
+			3227,
 			73,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0102"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46529,17 +55829,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1508,
-			2458,
+			2105,
+			3227,
 			73,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0103"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46554,17 +55854,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2872,
-			2480,
+			2657,
+			2335,
 			60,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0104"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46579,17 +55879,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2872,
-			2480,
+			2657,
+			2335,
 			60,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0105"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46604,17 +55904,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2426,
+			2859,
+			2480,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0106"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46629,17 +55929,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2426,
+			2859,
+			2480,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0107"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46654,12 +55954,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3129,
-			2371,
+			3438,
+			2788,
 			35,
 			50
 		},
@@ -46679,12 +55979,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3129,
-			2371,
+			3438,
+			2788,
 			35,
 			50
 		},
@@ -46704,12 +56004,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			226,
-			677,
+			2924,
+			3022,
 			35,
 			55
 		},
@@ -46729,12 +56029,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			226,
-			677,
+			2924,
+			3022,
 			35,
 			55
 		},
@@ -46754,17 +56054,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2916,
-			2159,
+			2644,
+			2736,
 			62,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0112"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46779,17 +56079,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2916,
-			2159,
+			2644,
+			2736,
 			62,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0113"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46804,12 +56104,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1961,
-			2632,
+			2993,
+			2494,
 			48,
 			65
 		},
@@ -46829,12 +56129,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1961,
-			2632,
+			2993,
+			2494,
 			48,
 			65
 		},
@@ -46854,17 +56154,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			176,
-			2497,
+			3638,
+			215,
 			50,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0116"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46879,17 +56179,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			176,
-			2497,
+			3638,
+			215,
 			50,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0117"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46904,17 +56204,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3213,
-			912,
+			2790,
+			1599,
 			53,
 			117
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0118"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46929,17 +56229,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3213,
-			912,
+			2790,
+			1599,
 			53,
 			117
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0119"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46954,17 +56254,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1387,
-			1487,
+			1170,
+			1114,
 			61,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0120"] = {
 		a_name = "go_towers_random-0.dds",
@@ -46979,17 +56279,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1387,
-			1487,
+			1170,
+			1114,
 			61,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0121"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47004,17 +56304,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1271,
-			1369,
+			545,
+			2874,
 			62,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0122"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47029,17 +56329,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1271,
-			1369,
+			545,
+			2874,
 			62,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0123"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47054,17 +56354,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2106,
-			412,
+			2255,
+			2268,
 			63,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0124"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47079,17 +56379,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2106,
-			412,
+			2255,
+			2268,
 			63,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0125"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47104,17 +56404,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1569,
-			1784,
+			2427,
+			3291,
 			61,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0126"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47129,17 +56429,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1569,
-			1784,
+			2427,
+			3291,
 			61,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_0127"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47154,12 +56454,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1826,
-			2632,
+			3568,
+			1849,
 			66,
 			48
 		},
@@ -47179,12 +56479,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1826,
-			2632,
+			3568,
+			1849,
 			66,
 			48
 		},
@@ -47204,12 +56504,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2985,
-			1433,
+			3639,
+			1571,
 			70,
 			42
 		},
@@ -47229,12 +56529,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2985,
-			1433,
+			3639,
+			1571,
 			70,
 			42
 		},
@@ -47254,17 +56554,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1228,
-			2634,
+			3487,
+			2283,
 			71,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0132"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47279,17 +56579,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1228,
-			2634,
+			3487,
+			2283,
 			71,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_0133"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47304,12 +56604,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1301,
-			2634,
+			3653,
+			2232,
 			71,
 			46
 		},
@@ -47329,12 +56629,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1301,
-			2634,
+			3653,
+			2232,
 			71,
 			46
 		},
@@ -47354,12 +56654,12 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2030,
-			1287,
+			3194,
+			1060,
 			104,
 			85
 		},
@@ -47379,12 +56679,12 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2030,
-			1287,
+			3194,
+			1060,
 			104,
 			85
 		},
@@ -47404,17 +56704,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			730,
-			1423,
+			1111,
+			2991,
 			113,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_hit_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47429,17 +56729,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			730,
-			1423,
+			1111,
+			2991,
 			113,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_hit_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47454,17 +56754,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			981,
-			1313,
+			1736,
+			3276,
 			109,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47479,17 +56779,17 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			981,
-			1313,
+			1736,
+			3276,
 			109,
 			91
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47504,12 +56804,12 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			919,
-			2100,
+			3392,
+			1469,
 			103,
 			90
 		},
@@ -47529,12 +56829,12 @@ return {
             57
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1011,
-			2100,
+			1431,
+			3369,
 			103,
 			90
 		},
@@ -47554,17 +56854,17 @@ return {
             58
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1816,
-			2533,
+			3364,
+			1756,
 			97,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47579,17 +56879,17 @@ return {
             61
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1882,
-			1946,
+			2020,
+			1653,
 			97,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47604,17 +56904,17 @@ return {
             78
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1329,
-			2533,
+			1836,
+			1867,
 			99,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47629,17 +56929,17 @@ return {
             78
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1329,
-			2533,
+			1836,
+			1867,
 			99,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47654,12 +56954,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			794,
+			1436,
+			3154,
 			97,
 			64
 		},
@@ -47679,12 +56979,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			794,
+			1436,
+			3154,
 			97,
 			64
 		},
@@ -47704,17 +57004,17 @@ return {
             88
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2064,
-			2440,
+			2367,
+			2504,
 			91,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47729,17 +57029,17 @@ return {
             88
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2064,
-			2440,
+			2367,
+			2504,
 			91,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_hit_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47754,17 +57054,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			790,
+			2945,
+			325,
 			87,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_hit_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47779,17 +57079,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			790,
+			2945,
+			325,
 			87,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_hit_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47804,12 +57104,12 @@ return {
             98
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1396,
+			2380,
+			3034,
 			87,
 			50
 		},
@@ -47829,12 +57129,12 @@ return {
             98
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1396,
+			2380,
+			3034,
 			87,
 			50
 		},
@@ -47854,12 +57154,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			71,
+			2365,
+			3448,
 			85,
 			48
 		},
@@ -47879,12 +57179,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			71,
+			2365,
+			3448,
 			85,
 			48
 		},
@@ -47904,12 +57204,12 @@ return {
             189
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1412,
+			3481,
+			3137,
 			3,
 			3
 		},
@@ -47929,17 +57229,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3052,
-			2550,
+			3232,
+			2611,
 			45,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_modifier_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47954,17 +57254,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3052,
-			2550,
+			3232,
+			2611,
 			45,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bucaneer_modifier_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -47979,17 +57279,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3375,
-			2333,
+			2747,
+			3322,
 			37,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48004,17 +57304,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3375,
-			2333,
+			2747,
+			3322,
 			37,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48029,17 +57329,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2641,
-			2326,
+			2657,
+			2921,
 			34,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48054,17 +57354,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2641,
-			2326,
+			2657,
+			2921,
 			34,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48079,12 +57379,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2994,
-			2551,
+			2546,
+			468,
 			40,
 			56
 		},
@@ -48104,12 +57404,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2994,
-			2551,
+			2546,
+			468,
 			40,
 			56
 		},
@@ -48129,12 +57429,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3675,
-			1515,
+			3205,
+			3193,
 			42,
 			47
 		},
@@ -48154,12 +57454,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3675,
-			1515,
+			3205,
+			3193,
 			42,
 			47
 		},
@@ -48179,17 +57479,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			2021,
+			3128,
+			3384,
 			41,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48204,17 +57504,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			2021,
+			3128,
+			3384,
 			41,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48229,17 +57529,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3084,
-			2354,
+			3256,
+			3043,
 			43,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48254,17 +57554,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3084,
-			2354,
+			3256,
+			3043,
 			43,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bucaneer_modifier_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48279,12 +57579,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3065,
-			2632,
+			3332,
+			2672,
 			42,
 			48
 		},
@@ -48304,12 +57604,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3065,
-			2632,
+			3332,
+			2672,
 			42,
 			48
 		},
@@ -48329,12 +57629,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3089,
-			2408,
+			2864,
+			2853,
 			40,
 			52
 		},
@@ -48354,12 +57654,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3089,
-			2408,
+			2864,
+			2853,
 			40,
 			52
 		},
@@ -48379,12 +57679,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2574,
-			2569,
+			3487,
+			3049,
 			40,
 			46
 		},
@@ -48404,12 +57704,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2574,
-			2569,
+			3487,
+			3049,
 			40,
 			46
 		},
@@ -48429,12 +57729,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2564,
+			2769,
+			3075,
 			36,
 			44
 		},
@@ -48454,12 +57754,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3471,
-			1729,
+			2815,
+			3075,
 			36,
 			47
 		},
@@ -48479,12 +57779,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3471,
-			1729,
+			2815,
+			3075,
 			36,
 			47
 		},
@@ -48504,12 +57804,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2564,
+			2769,
+			3075,
 			36,
 			44
 		},
@@ -48529,12 +57829,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2564,
+			2769,
+			3075,
 			36,
 			44
 		},
@@ -48554,12 +57854,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3363,
-			82,
+			1976,
+			2437,
 			35,
 			11
 		},
@@ -48579,17 +57879,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3131,
-			2408,
+			3561,
+			2538,
 			48,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48604,17 +57904,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1485,
+			3608,
+			2353,
 			44,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48629,17 +57929,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			1485,
+			3608,
+			2353,
 			44,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48654,17 +57954,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3181,
-			2436,
+			2865,
+			2966,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48679,17 +57979,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3181,
-			2436,
+			2865,
+			2966,
 			45,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48704,17 +58004,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1561,
-			2634,
+			3253,
+			2819,
 			46,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48729,17 +58029,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1561,
-			2634,
+			3253,
+			2819,
 			46,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48754,17 +58054,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3319,
-			2095,
+			3376,
+			2672,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48779,17 +58079,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3319,
-			2095,
+			3376,
+			2672,
 			48,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48804,12 +58104,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3369,
-			2079,
+			3829,
+			2695,
 			49,
 			58
 		},
@@ -48829,12 +58129,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3369,
-			2079,
+			3829,
+			2695,
 			49,
 			58
 		},
@@ -48854,12 +58154,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3110,
-			2034,
+			3459,
+			2885,
 			47,
 			57
 		},
@@ -48879,12 +58179,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3110,
-			2034,
+			3459,
+			2885,
 			47,
 			57
 		},
@@ -48904,17 +58204,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3351,
-			1784,
+			2657,
+			2399,
 			49,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48929,17 +58229,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3351,
-			1784,
+			2657,
+			2399,
 			49,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -48954,12 +58254,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3054,
-			1855,
+			3115,
+			2548,
 			51,
 			61
 		},
@@ -48979,12 +58279,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3054,
-			1855,
+			3115,
+			2548,
 			51,
 			61
 		},
@@ -49004,12 +58304,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1668,
+			3770,
+			2832,
 			48,
 			62
 		},
@@ -49029,12 +58329,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1668,
+			3770,
+			2832,
 			48,
 			62
 		},
@@ -49054,17 +58354,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3109,
-			1916,
+			3034,
+			2870,
 			48,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49079,17 +58379,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3109,
-			1916,
+			3034,
+			2870,
 			48,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49104,17 +58404,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2993,
-			2005,
+			3459,
+			2825,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49129,17 +58429,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2993,
-			2005,
+			3459,
+			2825,
 			47,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49154,12 +58454,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1451,
-			1666,
+			3411,
+			2825,
 			46,
 			56
 		},
@@ -49179,12 +58479,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1451,
-			1666,
+			3411,
+			2825,
 			46,
 			56
 		},
@@ -49204,17 +58504,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3358,
-			2445,
+			3209,
+			2878,
 			42,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49229,17 +58529,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3358,
-			2445,
+			3209,
+			2878,
 			42,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49254,17 +58554,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2934,
-			2545,
+			2974,
+			3527,
 			41,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49279,17 +58579,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2934,
-			2545,
+			2974,
+			3527,
 			41,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49304,17 +58604,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3374,
-			2139,
+			3023,
+			2920,
 			44,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49329,17 +58629,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3374,
-			2139,
+			3023,
+			2920,
 			44,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49354,17 +58654,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1888,
+			3286,
+			2661,
 			44,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49379,17 +58679,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1888,
+			3286,
+			2661,
 			44,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49404,12 +58704,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3420,
-			2141,
+			2875,
+			3168,
 			45,
 			57
 		},
@@ -49429,12 +58729,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3420,
-			2141,
+			2875,
+			3168,
 			45,
 			57
 		},
@@ -49454,12 +58754,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2430,
-			2625,
+			3207,
+			2936,
 			44,
 			55
 		},
@@ -49479,12 +58779,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2430,
-			2625,
+			3207,
+			2936,
 			44,
 			55
 		},
@@ -49504,17 +58804,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3418,
-			2021,
+			3367,
+			3046,
 			44,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49529,17 +58829,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3418,
-			2021,
+			3367,
+			3046,
 			44,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49554,12 +58854,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3407,
-			1961,
+			2601,
+			2861,
 			45,
 			58
 		},
@@ -49579,12 +58879,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3407,
-			1961,
+			2601,
+			2861,
 			45,
 			58
 		},
@@ -49604,17 +58904,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3360,
-			1960,
+			2657,
+			2500,
 			45,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49629,17 +58929,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3360,
-			1960,
+			2657,
+			2500,
 			45,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49654,12 +58954,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3416,
-			2423,
+			2876,
+			3227,
 			44,
 			58
 		},
@@ -49679,12 +58979,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3416,
-			2423,
+			2876,
+			3227,
 			44,
 			58
 		},
@@ -49704,17 +59004,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2417,
-			2523,
+			3561,
+			2479,
 			43,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49729,17 +59029,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2417,
-			2523,
+			3561,
+			2479,
 			43,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49754,12 +59054,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2471,
-			2568,
+			2857,
+			3295,
 			43,
 			55
 		},
@@ -49779,12 +59079,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2471,
-			2568,
+			2857,
+			3295,
 			43,
 			55
 		},
@@ -49804,12 +59104,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1630,
+			2841,
+			2799,
 			52,
 			63
 		},
@@ -49829,12 +59129,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1630,
+			2841,
+			2799,
 			52,
 			63
 		},
@@ -49854,12 +59154,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1739,
+			2709,
+			2799,
 			52,
 			64
 		},
@@ -49879,12 +59179,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1739,
+			2709,
+			2799,
 			52,
 			64
 		},
@@ -49904,12 +59204,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2377,
+			3016,
+			2440,
 			52,
 			65
 		},
@@ -49929,12 +59229,12 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2377,
+			3016,
+			2440,
 			52,
 			65
 		},
@@ -49954,17 +59254,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2332,
-			1923,
+			3637,
+			1794,
 			55,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -49979,17 +59279,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2332,
-			1923,
+			3637,
+			1794,
 			55,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50004,17 +59304,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2912,
-			1682,
+			2857,
+			2535,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50029,17 +59329,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2912,
-			1682,
+			2857,
+			2535,
 			53,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50054,17 +59354,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1718,
+			3279,
+			2597,
 			51,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50079,17 +59379,17 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1718,
+			3279,
+			2597,
 			51,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50104,12 +59404,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1684,
+			2924,
+			2606,
 			52,
 			63
 		},
@@ -50129,12 +59429,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1684,
+			2924,
+			2606,
 			52,
 			63
 		},
@@ -50154,17 +59454,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2935,
-			1819,
+			2775,
+			2799,
 			52,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50179,17 +59479,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2935,
-			1819,
+			2775,
+			2799,
 			52,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50204,17 +59504,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2991,
-			1539,
+			3654,
+			2345,
 			51,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50229,17 +59529,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2991,
-			1539,
+			3654,
+			2345,
 			51,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50254,17 +59554,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3103,
-			1607,
+			2926,
+			2489,
 			51,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50279,17 +59579,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3103,
-			1607,
+			2926,
+			2489,
 			51,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0070"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50304,12 +59604,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1738,
+			2989,
+			2607,
 			52,
 			63
 		},
@@ -50329,12 +59629,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1738,
+			2989,
+			2607,
 			52,
 			63
 		},
@@ -50354,12 +59654,12 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2493,
+			3168,
+			2548,
 			53,
 			61
 		},
@@ -50379,12 +59679,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2616,
-			2564,
+			3017,
+			3527,
 			41,
 			58
 		},
@@ -50404,12 +59704,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2616,
-			2564,
+			3017,
+			3527,
 			41,
 			58
 		},
@@ -50429,12 +59729,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2739,
-			2556,
+			3337,
+			3181,
 			41,
 			58
 		},
@@ -50454,12 +59754,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2739,
-			2556,
+			3337,
+			3181,
 			41,
 			58
 		},
@@ -50479,12 +59779,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2284,
-			2366,
+			2644,
+			2671,
 			63,
 			63
 		},
@@ -50504,12 +59804,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2284,
-			2366,
+			2644,
+			2671,
 			63,
 			63
 		},
@@ -50529,17 +59829,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1333,
+			2416,
+			3211,
 			78,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0080"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50554,17 +59854,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1333,
+			2416,
+			3211,
 			78,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0081"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50579,17 +59879,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3023,
-			1273,
+			3095,
+			2375,
 			81,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0082"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50604,17 +59904,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3023,
-			1273,
+			3095,
+			2375,
 			81,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0083"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50629,12 +59929,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1189,
-			2097,
+			3020,
+			2107,
 			109,
 			70
 		},
@@ -50654,12 +59954,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1189,
-			2097,
+			3020,
+			2107,
 			109,
 			70
 		},
@@ -50679,17 +59979,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2103,
-			2087,
+			1813,
+			2947,
 			95,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0086"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50704,17 +60004,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2103,
-			2087,
+			1813,
+			2947,
 			95,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0087"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50729,12 +60029,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2098,
-			2328,
+			1896,
+			2947,
 			95,
 			81
 		},
@@ -50754,12 +60054,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2098,
-			2328,
+			1896,
+			2947,
 			95,
 			81
 		},
@@ -50779,17 +60079,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3578,
-			1337,
+			2416,
+			3373,
 			73,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0090"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50804,17 +60104,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3578,
-			1337,
+			2416,
+			3373,
 			73,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0091"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50829,17 +60129,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1504,
+			2906,
+			2799,
 			61,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0092"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50854,17 +60154,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1504,
+			2906,
+			2799,
 			61,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0093"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50879,12 +60179,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3189,
-			2273,
+			3541,
+			2710,
 			51,
 			58
 		},
@@ -50904,12 +60204,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3189,
-			2273,
+			3541,
+			2710,
 			51,
 			58
 		},
@@ -50929,17 +60229,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3415,
-			2366,
+			2810,
+			3025,
 			48,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0096"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50954,17 +60254,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3415,
-			2366,
+			2810,
+			3025,
 			48,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0097"] = {
 		a_name = "go_towers_random-0.dds",
@@ -50979,17 +60279,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3415,
-			2366,
+			2810,
+			3025,
 			48,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0098"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51004,12 +60304,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2417,
-			2470,
+			3456,
+			2944,
 			53,
 			51
 		},
@@ -51029,12 +60329,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2417,
-			2470,
+			3456,
+			2944,
 			53,
 			51
 		},
@@ -51054,17 +60354,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2874,
-			1823,
+			2657,
+			2547,
 			60,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0101"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51079,17 +60379,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2874,
-			1823,
+			2657,
+			2547,
 			60,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0102"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51104,12 +60404,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2421,
-			2304,
+			3654,
+			2398,
 			66,
 			60
 		},
@@ -51129,12 +60429,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2421,
-			2304,
+			3654,
+			2398,
 			66,
 			60
 		},
@@ -51154,12 +60454,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2431,
+			2709,
+			2671,
 			65,
 			61
 		},
@@ -51179,17 +60479,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2302,
-			2606,
+			2776,
+			2672,
 			64,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0106"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51204,17 +60504,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2875,
-			1885,
+			2989,
+			2544,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0107"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51229,12 +60529,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1504,
+			2970,
+			2741,
 			63,
 			61
 		},
@@ -51254,12 +60554,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3155,
-			1539,
+			2774,
+			2735,
 			63,
 			62
 		},
@@ -51279,12 +60579,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2295,
+			3706,
+			1793,
 			70,
 			62
 		},
@@ -51304,12 +60604,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			1144,
+			3814,
+			928,
 			68,
 			64
 		},
@@ -51329,17 +60629,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2389,
-			1923,
+			3779,
+			1856,
 			67,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0112"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51354,17 +60654,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2654,
-			1764,
+			1806,
+			2170,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0113"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51379,12 +60679,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2654,
-			1838,
+			3655,
+			1972,
 			67,
 			71
 		},
@@ -51404,12 +60704,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1652,
-			2458,
+			2491,
+			3458,
 			68,
 			73
 		},
@@ -51429,17 +60729,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2568,
-			1532,
+			2346,
+			3371,
 			68,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0116"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51454,12 +60754,12 @@ return {
             21
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2743,
-			1281,
+			2119,
+			1653,
 			73,
 			83
 		},
@@ -51479,17 +60779,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3413,
-			1264,
+			2454,
+			2778,
 			73,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0118"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51504,12 +60804,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2387,
-			2182,
+			2450,
+			2697,
 			77,
 			79
 		},
@@ -51529,17 +60829,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3417,
-			1339,
+			2529,
+			2781,
 			77,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0120"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51554,12 +60854,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3324,
-			1395,
+			3777,
+			1642,
 			76,
 			71
 		},
@@ -51579,12 +60879,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2804,
-			1466,
+			2719,
+			2246,
 			76,
 			71
 		},
@@ -51604,12 +60904,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3790,
-			1416,
+			2646,
+			2787,
 			61,
 			65
 		},
@@ -51629,12 +60929,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2349,
-			2366,
+			3586,
+			2047,
 			60,
 			67
 		},
@@ -51654,17 +60954,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2671,
-			2178,
+			3653,
+			2174,
 			56,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0125"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51679,17 +60979,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2365,
-			2568,
+			2789,
+			2479,
 			54,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0126"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51704,17 +61004,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3290,
-			1894,
+			3223,
+			2548,
 			51,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0127"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51729,17 +61029,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2603,
-			1818,
+			1547,
+			1885,
 			49,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0128"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51754,17 +61054,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1958,
-			1875,
+			2789,
+			2591,
 			41,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0129"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51779,17 +61079,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1958,
-			1875,
+			2789,
+			2591,
 			41,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0130"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51804,17 +61104,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2644,
-			1471,
+			2596,
+			3125,
 			57,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0131"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51829,17 +61129,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2644,
-			1471,
+			2596,
+			3125,
 			57,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["corsair_0132"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51854,17 +61154,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3793,
-			1104,
+			2444,
+			3613,
 			58,
 			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0133"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51879,17 +61179,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3793,
-			1104,
+			2444,
+			3613,
 			58,
 			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0134"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51904,12 +61204,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2654,
-			1682,
+			2490,
+			3291,
 			67,
 			80
 		},
@@ -51929,12 +61229,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2654,
-			1682,
+			2490,
+			3291,
 			67,
 			80
 		},
@@ -51954,17 +61254,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3245,
-			1392,
+			2415,
+			3454,
 			77,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0137"] = {
 		a_name = "go_towers_random-0.dds",
@@ -51979,17 +61279,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3245,
-			1392,
+			2415,
+			3454,
 			77,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0138"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52004,17 +61304,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2790,
-			2089,
+			2636,
+			3513,
 			72,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0139"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52029,17 +61329,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2790,
-			2089,
+			2636,
+			3513,
 			72,
 			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0140"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52054,17 +61354,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2638,
+			3836,
+			535,
 			74,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0141"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52079,17 +61379,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2638,
+			3836,
+			535,
 			74,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0142"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52104,17 +61404,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			1791,
+			2613,
+			3285,
 			74,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0143"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52129,17 +61429,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			1791,
+			2613,
+			3285,
 			74,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["corsair_0144"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52154,12 +61454,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			2638,
+			1044,
+			937,
 			74,
 			42
 		},
@@ -52179,12 +61479,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			2638,
+			1044,
+			937,
 			74,
 			42
 		},
@@ -52204,12 +61504,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			293,
-			2036,
+			2663,
+			3660,
 			39,
 			11
 		},
@@ -52229,12 +61529,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			871,
-			1244,
+			1613,
+			1867,
 			136,
 			67
 		},
@@ -52254,12 +61554,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			871,
-			1244,
+			1613,
+			1867,
 			136,
 			67
 		},
@@ -52279,17 +61579,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			558,
-			1838,
+			1657,
+			863,
 			208,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_one_boatswain_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52304,17 +61604,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			558,
-			1838,
+			1657,
+			863,
 			208,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_one_boatswain_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52329,17 +61629,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			263,
-			641,
+			179,
+			2225,
 			222,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_one_boatswain_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52354,17 +61654,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			263,
-			641,
+			179,
+			2225,
 			222,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_one_boatswain_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52379,17 +61679,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			532,
-			1092,
+			2174,
+			771,
 			210,
 			106
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_one_boatswain_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52404,17 +61704,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			532,
-			1092,
+			2174,
+			771,
 			210,
 			106
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_one_boatswain_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52429,12 +61729,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1518,
+			281,
+			2433,
 			221,
 			110
 		},
@@ -52454,12 +61754,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1518,
+			281,
+			2433,
 			221,
 			110
 		},
@@ -52479,12 +61779,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			534,
-			870,
+			290,
+			2656,
 			220,
 			99
 		},
@@ -52504,12 +61804,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			534,
-			870,
+			290,
+			2656,
 			220,
 			99
 		},
@@ -52529,17 +61829,17 @@ return {
             21
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1371,
-			780,
+			3066,
+			1056,
 			126,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_two_boatswain_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52554,17 +61854,17 @@ return {
             21
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1371,
-			780,
+			3066,
+			1056,
 			126,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["decal_two_boatswain_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -52579,12 +61879,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3376,
-			1,
+			1659,
+			82,
 			270,
 			68
 		},
@@ -52604,12 +61904,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3376,
-			1,
+			1659,
+			82,
 			270,
 			68
 		},
@@ -52629,11 +61929,11 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
+			1659,
 			1,
 			304,
 			79
@@ -52654,11 +61954,11 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
+			1659,
 			1,
 			304,
 			79
@@ -52679,12 +61979,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			82,
+			1965,
+			1,
 			291,
 			83
 		},
@@ -52704,12 +62004,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			82,
+			1965,
+			1,
 			291,
 			83
 		},
@@ -52729,12 +62029,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52754,12 +62054,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52779,12 +62079,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52804,12 +62104,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52829,12 +62129,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52854,12 +62154,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52879,12 +62179,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52904,12 +62204,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52929,12 +62229,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52954,12 +62254,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -52979,12 +62279,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53004,12 +62304,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53029,12 +62329,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53054,12 +62354,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53079,12 +62379,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53104,12 +62404,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			1838,
+			1799,
+			1160,
 			140,
 			66
 		},
@@ -53129,12 +62429,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			811,
+			2032,
+			1084,
 			140,
 			66
 		},
@@ -53154,12 +62454,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			811,
+			2032,
+			1084,
 			140,
 			66
 		},
@@ -53179,17 +62479,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			833,
+			1996,
+			1160,
 			138,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_two_boatswain_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53204,17 +62504,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			833,
+			1996,
+			1160,
 			138,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_two_boatswain_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53229,17 +62529,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			901,
+			2128,
+			1406,
 			138,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_two_boatswain_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53254,17 +62554,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			901,
+			2128,
+			1406,
 			138,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["decal_two_boatswain_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53279,12 +62579,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			654,
+			1547,
+			1745,
 			138,
 			64
 		},
@@ -53304,12 +62604,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2457,
-			654,
+			1547,
+			1745,
 			138,
 			64
 		},
@@ -53329,17 +62629,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1629,
+			3231,
+			2722,
 			61,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53354,12 +62654,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1792,
+			2905,
+			2740,
 			63,
 			57
 		},
@@ -53379,12 +62679,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1792,
+			2905,
+			2740,
 			63,
 			57
 		},
@@ -53404,17 +62704,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1603,
+			2924,
+			2542,
 			63,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53429,17 +62729,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1603,
+			2924,
+			2542,
 			63,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53454,12 +62754,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2998,
-			1942,
+			3288,
+			2722,
 			61,
 			55
 		},
@@ -53479,12 +62779,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2998,
-			1942,
+			3288,
+			2722,
 			61,
 			55
 		},
@@ -53504,12 +62804,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3028,
-			2160,
+			3618,
+			2590,
 			60,
 			50
 		},
@@ -53529,12 +62829,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3028,
-			2160,
+			3618,
+			2590,
 			60,
 			50
 		},
@@ -53554,12 +62854,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3093,
-			2093,
+			3654,
+			2516,
 			60,
 			55
 		},
@@ -53579,12 +62879,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3093,
-			2093,
+			3654,
+			2516,
 			60,
 			55
 		},
@@ -53604,12 +62904,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			2160,
+			3054,
+			2548,
 			59,
 			61
 		},
@@ -53629,12 +62929,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			2160,
+			3054,
+			2548,
 			59,
 			61
 		},
@@ -53654,17 +62954,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3219,
-			2043,
+			3459,
+			2526,
 			60,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53679,17 +62979,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3219,
-			2043,
+			3459,
+			2526,
 			60,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53704,17 +63004,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1771,
+			3404,
+			2526,
 			62,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53729,17 +63029,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3156,
-			1771,
+			3404,
+			2526,
 			62,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53754,12 +63054,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3246,
-			1336,
+			3262,
+			2376,
 			81,
 			54
 		},
@@ -53779,12 +63079,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2483,
-			1531,
+			3683,
+			1581,
 			83,
 			56
 		},
@@ -53804,12 +63104,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3793,
-			1019,
+			3820,
+			843,
 			83,
 			58
 		},
@@ -53829,17 +63129,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3662,
-			1278,
+			2303,
+			3481,
 			84,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53854,17 +63154,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3662,
-			1278,
+			2303,
+			3481,
 			84,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -53879,12 +63179,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1362,
-			2256,
+			2458,
+			2436,
 			84,
 			61
 		},
@@ -53904,12 +63204,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1362,
-			2256,
+			2458,
+			2436,
 			84,
 			61
 		},
@@ -53929,12 +63229,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1894,
-			2632,
+			3726,
+			2232,
 			65,
 			48
 		},
@@ -53954,12 +63254,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1894,
-			2632,
+			3726,
+			2232,
 			65,
 			48
 		},
@@ -53979,12 +63279,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2322,
+			3519,
+			2108,
 			65,
 			53
 		},
@@ -54004,12 +63304,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2322,
+			3519,
+			2108,
 			65,
 			53
 		},
@@ -54029,17 +63329,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2979,
-			2103,
+			3345,
+			2722,
 			61,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54054,17 +63354,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2979,
-			2103,
+			3345,
+			2722,
 			61,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54079,12 +63379,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1567,
+			2970,
+			2804,
 			63,
 			61
 		},
@@ -54104,12 +63404,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1567,
+			2970,
+			2804,
 			63,
 			61
 		},
@@ -54129,12 +63429,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2868,
-			1989,
+			2709,
+			2734,
 			63,
 			63
 		},
@@ -54154,12 +63454,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2868,
-			1989,
+			2709,
+			2734,
 			63,
 			63
 		},
@@ -54179,12 +63479,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2245,
+			3724,
+			1970,
 			71,
 			53
 		},
@@ -54204,12 +63504,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2744,
-			2245,
+			3724,
+			1970,
 			71,
 			53
 		},
@@ -54229,12 +63529,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2998,
-			1877,
+			3276,
+			2532,
 			54,
 			63
 		},
@@ -54254,12 +63554,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2998,
-			1877,
+			3276,
+			2532,
 			54,
 			63
 		},
@@ -54279,17 +63579,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54304,17 +63604,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54329,17 +63629,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54354,17 +63654,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54379,17 +63679,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2359,
+			3787,
+			2037,
 			70,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54404,17 +63704,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2359,
+			3787,
+			2037,
 			70,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54429,17 +63729,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2641,
-			1409,
+			2371,
+			2957,
 			75,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54454,17 +63754,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2641,
-			1409,
+			2371,
+			2957,
 			75,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54479,17 +63779,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2550,
-			2090,
+			2262,
+			1979,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54504,17 +63804,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2550,
-			2090,
+			2262,
+			1979,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54529,17 +63829,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54554,17 +63854,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54579,17 +63879,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54604,17 +63904,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1734,
+			2842,
+			2681,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54629,17 +63929,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			571,
-			812,
+			3173,
+			2721,
 			62,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54654,17 +63954,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			571,
-			812,
+			3173,
+			2721,
 			62,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54679,17 +63979,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2979,
-			2103,
+			3345,
+			2722,
 			61,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54704,12 +64004,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1423,
-			2458,
+			2460,
+			2499,
 			83,
 			73
 		},
@@ -54729,12 +64029,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3659,
-			1340,
+			2291,
+			2957,
 			78,
 			75
 		},
@@ -54754,17 +64054,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1876,
-			1875,
+			2196,
+			3364,
 			80,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54779,17 +64079,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			2078,
+			2615,
+			3361,
 			74,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54804,17 +64104,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2284,
-			2301,
+			2545,
+			2499,
 			63,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54829,12 +64129,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2416,
+			3655,
+			2045,
 			70,
 			62
 		},
@@ -54854,17 +64154,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3329,
-			1339,
+			2391,
+			3123,
 			86,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54879,17 +64179,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2466,
-			2175,
+			2324,
+			3034,
 			91,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54904,12 +64204,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3790,
-			1252,
+			1814,
+			2338,
 			94,
 			61
 		},
@@ -54929,12 +64229,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2198,
-			1919,
+			301,
+			1005,
 			92,
 			72
 		},
@@ -54954,17 +64254,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3793,
-			1182,
+			2522,
+			3613,
 			68,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -54979,17 +64279,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3793,
-			1182,
+			2522,
+			3613,
 			68,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55004,17 +64304,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1934,
+			3338,
+			2471,
 			59,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55029,17 +64329,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1934,
+			3338,
+			2471,
 			59,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0070"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55054,17 +64354,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3186,
-			2214,
+			3770,
+			2699,
 			57,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0071"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55079,17 +64379,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3186,
-			2214,
+			3770,
+			2699,
 			57,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0072"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55104,17 +64404,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2979,
-			2103,
+			3345,
+			2722,
 			61,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0073"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55129,12 +64429,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2972,
-			2223,
+			3404,
+			2590,
 			61,
 			55
 		},
@@ -55154,17 +64454,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			2229,
+			3519,
+			2163,
 			67,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0075"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55179,17 +64479,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2905,
-			1354,
+			2496,
+			3533,
 			78,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0076"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55204,17 +64504,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1173,
-			1650,
+			1757,
+			2671,
 			101,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_0077"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55229,17 +64529,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2263,
-			1529,
+			1748,
+			2055,
 			108,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0078"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55254,12 +64554,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			763,
-			282,
+			3837,
+			728,
 			113,
 			41
 		},
@@ -55279,17 +64579,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			1159,
+			3030,
+			1992,
 			113,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_0080"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55304,17 +64604,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			1084,
+			3837,
+			611,
 			115,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_hut_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55329,12 +64629,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			532,
-			2048,
+			298,
+			1249,
 			181,
 			162
 		},
@@ -55354,12 +64654,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3064,
-			2597,
+			3837,
+			3484,
 			35,
 			33
 		},
@@ -55379,12 +64679,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2067,
+			3513,
+			3352,
 			31,
 			33
 		},
@@ -55404,17 +64704,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3829,
-			1583,
+			2817,
+			3649,
 			22,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_hut_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55429,17 +64729,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55454,17 +64754,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55479,17 +64779,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55504,17 +64804,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55529,17 +64829,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55554,17 +64854,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55579,17 +64879,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55604,17 +64904,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55629,17 +64929,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55654,17 +64954,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55679,17 +64979,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55704,17 +65004,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55729,17 +65029,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55754,17 +65054,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55779,17 +65079,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55804,17 +65104,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55829,17 +65129,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55854,17 +65154,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55879,17 +65179,17 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2037,
+			1044,
+			981,
 			10,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55904,17 +65204,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2199,
-			1894,
+			3768,
+			1581,
 			21,
 			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_hut_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -55929,12 +65229,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2648,
+			3513,
+			3387,
 			31,
 			32
 		},
@@ -55954,12 +65254,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3064,
-			2597,
+			3837,
+			3484,
 			35,
 			33
 		},
@@ -55979,17 +65279,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2283,
-			2503,
+			2791,
+			2400,
 			69,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_proy_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56004,12 +65304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			1278,
+			2701,
+			3513,
 			72,
 			40
 		},
@@ -56029,17 +65329,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2673,
-			1988,
+			3777,
+			1924,
 			69,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_proy_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56054,12 +65354,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			1950,
+			2987,
+			2661,
 			67,
 			37
 		},
@@ -56079,12 +65379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2802,
-			1424,
+			2719,
+			2319,
 			76,
 			40
 		},
@@ -56104,12 +65404,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2880,
-			1427,
+			3533,
+			2391,
 			71,
 			37
 		},
@@ -56129,17 +65429,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2872,
-			1682,
+			2719,
+			2437,
 			69,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ewok_proy_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56154,12 +65454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2672,
-			2059,
+			3491,
+			2356,
 			72,
 			40
 		},
@@ -56179,12 +65479,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3150,
-			1499,
+			3722,
+			2459,
 			68,
 			38
 		},
@@ -56204,17 +65504,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3151,
-			1458,
+			2660,
+			3285,
 			74,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ewok_proy_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56229,12 +65529,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2673,
-			1911,
+			2433,
+			2957,
 			75,
 			39
 		},
@@ -56254,17 +65554,17 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			2049,
+			3266,
+			2279,
 			93,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56279,12 +65579,12 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2086,
-			2231,
+			3361,
+			2279,
 			93,
 			95
 		},
@@ -56304,17 +65604,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2456,
-			2000,
+			1241,
+			1192,
 			88,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56329,17 +65629,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2456,
-			2000,
+			1241,
+			1192,
 			88,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56354,17 +65654,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1264,
+			2491,
+			3373,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56379,17 +65679,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1264,
+			2491,
+			3373,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56404,17 +65704,17 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3515,
-			296,
+			2075,
+			3290,
 			87,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56429,17 +65729,17 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3515,
-			296,
+			2075,
+			3290,
 			87,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56454,12 +65754,12 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			2090,
+			560,
+			3365,
 			91,
 			82
 		},
@@ -56479,12 +65779,12 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			2090,
+			560,
+			3365,
 			91,
 			82
 		},
@@ -56504,12 +65804,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2100,
-			1897,
+			3093,
+			2279,
 			94,
 			96
 		},
@@ -56529,12 +65829,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2100,
-			1897,
+			3093,
+			2279,
 			94,
 			96
 		},
@@ -56554,17 +65854,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2473,
-			1589,
+			1648,
+			2854,
 			91,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56579,17 +65879,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2473,
-			1589,
+			1648,
+			2854,
 			91,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56604,12 +65904,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			2432,
+			2255,
+			2167,
 			91,
 			99
 		},
@@ -56629,12 +65929,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			2432,
+			2255,
+			2167,
 			91,
 			99
 		},
@@ -56654,12 +65954,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2002,
-			2533,
+			2272,
+			2333,
 			92,
 			94
 		},
@@ -56679,12 +65979,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2002,
-			2533,
+			2272,
+			2333,
 			92,
 			94
 		},
@@ -56704,17 +66004,17 @@ return {
             53
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1882,
-			2045,
+			393,
+			2652,
 			88,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56729,12 +66029,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			1197,
+			3236,
+			1898,
 			88,
 			82
 		},
@@ -56754,12 +66054,12 @@ return {
             66
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			1197,
+			3236,
+			1898,
 			88,
 			82
 		},
@@ -56779,17 +66079,17 @@ return {
             87
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3577,
-			1269,
+			1434,
+			3253,
 			83,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56804,17 +66104,17 @@ return {
             87
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3577,
-			1269,
+			1434,
+			3253,
 			83,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56829,17 +66129,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2824,
-			1353,
+			2475,
+			3210,
 			79,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56854,17 +66154,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2824,
-			1353,
+			2475,
+			3210,
 			79,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -56879,12 +66179,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2004,
-			2342,
+			2178,
+			2334,
 			96,
 			92
 		},
@@ -56904,12 +66204,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2004,
-			2342,
+			2178,
+			2334,
 			96,
 			92
 		},
@@ -56929,12 +66229,12 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			990,
+			2050,
+			3379,
 			87,
 			100
 		},
@@ -56954,12 +66254,12 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			990,
+			2050,
+			3379,
 			87,
 			100
 		},
@@ -56979,17 +66279,17 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1877,
-			984,
+			1847,
+			3276,
 			93,
 			111
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57004,17 +66304,17 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1877,
-			984,
+			1847,
+			3276,
 			93,
 			111
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57029,12 +66329,12 @@ return {
             76
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1944,
-			1487,
+			3588,
+			1353,
 			93,
 			111
 		},
@@ -57054,12 +66354,12 @@ return {
             76
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1944,
-			1487,
+			3588,
+			1353,
 			93,
 			111
 		},
@@ -57079,12 +66379,12 @@ return {
             75
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1345,
-			1666,
+			887,
+			2805,
 			82,
 			104
 		},
@@ -57104,12 +66404,12 @@ return {
             75
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1345,
-			1666,
+			887,
+			2805,
 			82,
 			104
 		},
@@ -57129,12 +66429,12 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3532,
-			1152,
+			3801,
+			1074,
 			77,
 			111
 		},
@@ -57154,12 +66454,12 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3532,
-			1152,
+			3801,
+			1074,
 			77,
 			111
 		},
@@ -57179,17 +66479,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			371,
+			993,
+			2708,
 			82,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57204,17 +66504,17 @@ return {
             59
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			371,
+			993,
+			2708,
 			82,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57229,12 +66529,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			1292,
+			2050,
+			1854,
 			90,
 			80
 		},
@@ -57254,12 +66554,12 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			1292,
+			2050,
+			1854,
 			90,
 			80
 		},
@@ -57279,12 +66579,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			2050,
+			1931,
+			2474,
 			102,
 			56
 		},
@@ -57304,12 +66604,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			2050,
+			1931,
+			2474,
 			102,
 			56
 		},
@@ -57329,12 +66629,12 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			761,
-			1736,
+			3801,
+			1187,
 			100,
 			77
 		},
@@ -57354,12 +66654,12 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			761,
-			1736,
+			3801,
+			1187,
 			100,
 			77
 		},
@@ -57379,17 +66679,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1411,
-			1847,
+			1877,
+			2266,
 			102,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57404,17 +66704,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1411,
-			1847,
+			1877,
+			2266,
 			102,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57429,12 +66729,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1224,
-			2533,
+			1620,
+			3453,
 			99,
 			103
 		},
@@ -57454,12 +66754,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1224,
-			2533,
+			1620,
+			3453,
 			99,
 			103
 		},
@@ -57479,12 +66779,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1146,
-			1090,
+			493,
+			2620,
 			98,
 			95
 		},
@@ -57504,12 +66804,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1146,
-			1090,
+			493,
+			2620,
 			98,
 			95
 		},
@@ -57529,17 +66829,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1711,
-			2252,
+			1937,
+			3481,
 			99,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57554,17 +66854,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1711,
-			2252,
+			1937,
+			3481,
 			99,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57579,17 +66879,17 @@ return {
             20
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1246,
-			1137,
+			2609,
+			640,
 			44,
 			16
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57604,17 +66904,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			1610,
+			3808,
+			998,
 			70,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57629,17 +66929,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			1610,
+			3808,
+			998,
 			70,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57654,12 +66954,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			1951,
+			593,
+			2616,
 			98,
 			97
 		},
@@ -57679,12 +66979,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			1951,
+			593,
+			2616,
 			98,
 			97
 		},
@@ -57704,17 +67004,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2432,
+			1054,
+			3110,
 			104,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57729,17 +67029,17 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2432,
+			1054,
+			3110,
 			104,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57754,12 +67054,12 @@ return {
             43
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			1993,
+			2179,
+			2432,
 			91,
 			95
 		},
@@ -57779,12 +67079,12 @@ return {
             43
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			1993,
+			2179,
+			2432,
 			91,
 			95
 		},
@@ -57804,17 +67104,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2456,
-			2000,
+			1241,
+			1192,
 			88,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57829,17 +67129,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2456,
-			2000,
+			1241,
+			1192,
 			88,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57854,17 +67154,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1264,
+			2491,
+			3373,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57879,17 +67179,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1264,
+			2491,
+			3373,
 			83,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57904,17 +67204,17 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3515,
-			296,
+			2075,
+			3290,
 			87,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57929,17 +67229,17 @@ return {
             90
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3515,
-			296,
+			2075,
+			3290,
 			87,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -57954,12 +67254,12 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			2090,
+			560,
+			3365,
 			91,
 			82
 		},
@@ -57979,12 +67279,12 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2200,
-			2090,
+			560,
+			3365,
 			91,
 			82
 		},
@@ -58004,12 +67304,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2100,
-			1897,
+			3093,
+			2279,
 			94,
 			96
 		},
@@ -58029,12 +67329,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2100,
-			1897,
+			3093,
+			2279,
 			94,
 			96
 		},
@@ -58054,17 +67354,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2473,
-			1589,
+			1648,
+			2854,
 			91,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0074"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58079,17 +67379,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2473,
-			1589,
+			1648,
+			2854,
 			91,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0075"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58104,12 +67404,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			2432,
+			2255,
+			2167,
 			91,
 			99
 		},
@@ -58129,12 +67429,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1330,
-			2432,
+			2255,
+			2167,
 			91,
 			99
 		},
@@ -58154,12 +67454,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2002,
-			2533,
+			2272,
+			2333,
 			92,
 			94
 		},
@@ -58179,12 +67479,12 @@ return {
             89
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2002,
-			2533,
+			2272,
+			2333,
 			92,
 			94
 		},
@@ -58204,12 +67504,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58229,12 +67529,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58254,12 +67554,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58279,12 +67579,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58304,12 +67604,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58329,12 +67629,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58354,12 +67654,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58379,12 +67679,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58404,12 +67704,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58429,12 +67729,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58454,12 +67754,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58479,17 +67779,17 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2530,
-			2305,
+			3117,
+			2721,
 			26,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0091"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58504,17 +67804,17 @@ return {
             64
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2530,
-			2305,
+			3117,
+			2721,
 			26,
 			39
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_0092"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58529,12 +67829,12 @@ return {
             40
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2729,
-			2215,
+			2864,
+			3082,
 			28,
 			56
 		},
@@ -58554,12 +67854,12 @@ return {
             40
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2729,
-			2215,
+			2864,
+			3082,
 			28,
 			56
 		},
@@ -58579,17 +67879,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2480,
+			3846,
+			1965,
 			32,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0095"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58604,17 +67904,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2480,
+			3846,
+			1965,
 			32,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0096"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58629,17 +67929,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2511,
-			1788,
+			2932,
+			2408,
 			31,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0097"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58654,17 +67954,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2511,
-			1788,
+			2932,
+			2408,
 			31,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0098"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58679,12 +67979,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2297,
-			2574,
+			3171,
+			2516,
 			30,
 			66
 		},
@@ -58704,12 +68004,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2297,
-			2574,
+			3171,
+			2516,
 			30,
 			66
 		},
@@ -58729,17 +68029,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1261,
-			2178,
+			3508,
+			2825,
 			28,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0101"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58754,17 +68054,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1261,
-			2178,
+			3508,
+			2825,
 			28,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_0102"] = {
 		a_name = "go_towers_random-0.dds",
@@ -58779,12 +68079,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2357,
-			2236,
+			2482,
+			245,
 			26,
 			64
 		},
@@ -58804,12 +68104,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2357,
-			2236,
+			2482,
+			245,
 			26,
 			64
 		},
@@ -58829,12 +68129,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58854,12 +68154,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58879,12 +68179,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58904,12 +68204,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58929,12 +68229,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58954,12 +68254,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -58979,12 +68279,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -59004,12 +68304,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -59029,12 +68329,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -59054,12 +68354,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			200,
+			2170,
+			3034,
 			8,
 			7
 		},
@@ -59079,17 +68379,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3507,
-			2021,
+			3179,
+			3386,
 			48,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_egg_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59104,12 +68404,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			2071,
+			3237,
+			3242,
 			48,
 			40
 		},
@@ -59129,12 +68429,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			2071,
+			3237,
+			3242,
 			48,
 			40
 		},
@@ -59154,17 +68454,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			2523,
+			2971,
+			3136,
 			48,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_egg_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59179,17 +68479,17 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2533,
-			2523,
+			2971,
+			3136,
 			48,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_egg_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59204,12 +68504,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1980,
+			2441,
+			2895,
 			75,
 			60
 		},
@@ -59229,12 +68529,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1980,
+			2441,
+			2895,
 			75,
 			60
 		},
@@ -59254,17 +68554,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1988,
-			2441,
+			2142,
+			1860,
 			90,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_egg_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59279,17 +68579,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1988,
-			2441,
+			2142,
+			1860,
 			90,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_egg_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59304,17 +68604,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			2154,
+			1877,
+			2356,
 			102,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_egg_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59329,17 +68629,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			2154,
+			1877,
+			2356,
 			102,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_egg_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59354,12 +68654,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			834,
-			2531,
+			1549,
+			3444,
 			102,
 			69
 		},
@@ -59379,12 +68679,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			834,
-			2531,
+			1549,
+			3444,
 			102,
 			69
 		},
@@ -59404,17 +68704,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1777,
-			1875,
+			1806,
+			2239,
 			97,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_egg_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59429,17 +68729,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1777,
-			1875,
+			1806,
+			2239,
 			97,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_egg_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59454,12 +68754,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2985,
-			1505,
+			3242,
+			2785,
 			48,
 			32
 		},
@@ -59479,17 +68779,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			991,
-			769,
+			2724,
+			616,
 			66,
 			22
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59504,17 +68804,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			991,
-			769,
+			2724,
+			616,
 			66,
 			22
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59529,12 +68829,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2960,
-			1240,
+			2266,
+			3448,
 			95,
 			31
 		},
@@ -59554,12 +68854,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1009,
-			1276,
+			2348,
+			2254,
 			111,
 			35
 		},
@@ -59579,17 +68879,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1823,
-			1374,
+			764,
+			2953,
 			114,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59604,17 +68904,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1099,
-			2205,
+			2566,
+			2208,
 			116,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59629,12 +68929,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1028,
-			169,
+			1275,
+			3332,
 			118,
 			38
 		},
@@ -59654,17 +68954,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1963,
-			190,
+			3671,
+			314,
 			49,
 			17
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59679,12 +68979,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			226,
-			870,
+			1815,
+			1732,
 			67,
 			17
 		},
@@ -59704,12 +69004,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2985,
-			1354,
+			2525,
+			3041,
 			77,
 			36
 		},
@@ -59729,17 +69029,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1392,
+			2652,
+			3041,
 			81,
 			30
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59754,12 +69054,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2639,
-			2165,
+			2655,
+			3124,
 			81,
 			30
 		},
@@ -59779,12 +69079,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1943,
-			1097,
+			3469,
+			1661,
 			93,
 			27
 		},
@@ -59804,17 +69104,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2199,
-			1799,
+			2366,
+			2378,
 			93,
 			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59829,17 +69129,17 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2408,
-			1795,
+			3457,
+			2180,
 			101,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59854,12 +69154,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2233,
-			1710,
+			2074,
+			3155,
 			101,
 			29
 		},
@@ -59879,12 +69179,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1168,
-			1753,
+			1422,
+			3564,
 			107,
 			33
 		},
@@ -59904,12 +69204,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1890,
-			848,
+			2060,
+			3044,
 			109,
 			28
 		},
@@ -59929,12 +69229,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2264,
-			1703,
+			2014,
+			2640,
 			109,
 			29
 		},
@@ -59954,17 +69254,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3677,
-			1251,
+			2483,
+			132,
 			111,
 			25
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -59979,12 +69279,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			1127,
+			2684,
+			2214,
 			115,
 			30
 		},
@@ -60004,12 +69304,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			783,
-			2048,
+			3055,
+			1458,
 			117,
 			27
 		},
@@ -60029,12 +69329,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2667,
+			1868,
+			1037,
 			69,
 			13
 		},
@@ -60054,12 +69354,12 @@ return {
             60
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			280,
-			1791,
+			1939,
+			1037,
 			34,
 			22
 		},
@@ -60079,12 +69379,12 @@ return {
             60
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			280,
-			1791,
+			1939,
+			1037,
 			34,
 			22
 		},
@@ -60104,12 +69404,12 @@ return {
             51
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3188,
-			2564,
+			3429,
+			3314,
 			41,
 			35
 		},
@@ -60129,12 +69429,12 @@ return {
             51
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3188,
-			2564,
+			3429,
+			3314,
 			41,
 			35
 		},
@@ -60154,12 +69454,12 @@ return {
             42
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3465,
-			2377,
+			2967,
+			3240,
 			50,
 			45
 		},
@@ -60179,12 +69479,12 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3618,
-			1515,
+			3310,
+			2996,
 			55,
 			47
 		},
@@ -60204,17 +69504,17 @@ return {
             40
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3269,
-			2099,
+			3512,
+			1849,
 			54,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_flying_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60229,17 +69529,17 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3360,
-			2274,
+			3781,
+			2882,
 			57,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_flying_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60254,17 +69554,17 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3129,
-			2317,
+			2810,
+			2906,
 			58,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_flying_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60279,17 +69579,17 @@ return {
             63
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1194,
-			754,
+			3556,
+			3194,
 			39,
 			31
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_flying_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60304,17 +69604,17 @@ return {
             67
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3035,
-			1499,
+			3840,
+			2944,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_flying_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60329,17 +69629,17 @@ return {
             77
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2868,
-			2054,
+			3402,
+			2722,
 			67,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_flying_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60354,12 +69654,12 @@ return {
             80
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2228,
-			2574,
+			2544,
+			2465,
 			67,
 			32
 		},
@@ -60379,17 +69679,17 @@ return {
             80
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2069,
-			2049,
+			3498,
+			1743,
 			79,
 			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_flying_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60404,12 +69704,12 @@ return {
             75
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2804,
-			624,
+			2461,
+			2397,
 			89,
 			37
 		},
@@ -60429,12 +69729,12 @@ return {
             65
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1484,
-			2533,
+			2956,
+			129,
 			99,
 			47
 		},
@@ -60454,12 +69754,12 @@ return {
             50
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1255,
-			1860,
+			3624,
+			1247,
 			104,
 			57
 		},
@@ -60479,17 +69779,17 @@ return {
             30
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1260,
-			1966,
+			445,
+			3603,
 			104,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_freeze_flying_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60504,17 +69804,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			1701,
+			1992,
+			3567,
 			103,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_freeze_flying_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60529,12 +69829,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			762,
-			397,
+			2337,
+			3127,
 			82,
 			52
 		},
@@ -60554,17 +69854,17 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1314,
-			1951,
+			878,
+			2376,
 			14,
 			13
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_proy_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60579,12 +69879,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2602,
+			3081,
+			3497,
 			28,
 			26
 		},
@@ -60604,17 +69904,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3723,
-			1940,
+			3747,
+			2978,
 			39,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_proy_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60629,17 +69929,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3723,
-			1940,
+			3747,
+			2978,
 			39,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_proy_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60654,12 +69954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3668,
-			1802,
+			3426,
+			3357,
 			40,
 			40
 		},
@@ -60679,12 +69979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3668,
-			1802,
+			3426,
+			3357,
 			40,
 			40
 		},
@@ -60704,12 +70004,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			1892,
+			3508,
+			3531,
 			40,
 			40
 		},
@@ -60729,12 +70029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			1892,
+			3508,
+			3531,
 			40,
 			40
 		},
@@ -60754,12 +70054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3710,
-			1802,
+			3533,
+			3621,
 			40,
 			40
 		},
@@ -60779,12 +70079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3710,
-			1802,
+			3533,
+			3621,
 			40,
 			40
 		},
@@ -60804,12 +70104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3374,
-			2199,
+			1211,
+			2888,
 			24,
 			16
 		},
@@ -60829,12 +70129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3374,
-			2199,
+			1211,
+			2888,
 			24,
 			16
 		},
@@ -60854,17 +70154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3712,
-			1497,
+			3820,
+			758,
 			24,
 			15
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_proy_particle_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60879,17 +70179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3712,
-			1497,
+			3820,
+			758,
 			24,
 			15
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["fairy_dragon_proy_particle_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60904,17 +70204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1721,
-			1064,
+			193,
+			1761,
 			23,
 			12
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_proy_particle_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60929,17 +70229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1721,
-			1064,
+			193,
+			1761,
 			23,
 			12
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["fairy_dragon_tower"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60954,17 +70254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			376,
-			2233,
+			3690,
+			204,
 			188,
 			162
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -60979,17 +70279,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61004,17 +70304,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61029,17 +70329,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61054,17 +70354,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61079,17 +70379,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61104,17 +70404,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61129,17 +70429,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61154,17 +70454,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61179,17 +70479,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61204,17 +70504,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61229,17 +70529,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61254,17 +70554,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61279,17 +70579,17 @@ return {
             99
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2256,
-			1374,
+			2881,
+			2302,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61304,17 +70604,17 @@ return {
             99
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2256,
-			1374,
+			2881,
+			2302,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61329,12 +70629,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2718,
-			1415,
+			2797,
+			2346,
 			82,
 			52
 		},
@@ -61354,12 +70654,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2718,
-			1415,
+			2797,
+			2346,
 			82,
 			52
 		},
@@ -61379,12 +70679,12 @@ return {
             101
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2028,
-			2629,
+			2881,
+			2355,
 			82,
 			51
 		},
@@ -61404,12 +70704,12 @@ return {
             101
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2028,
-			2629,
+			2881,
+			2355,
 			82,
 			51
 		},
@@ -61429,12 +70729,12 @@ return {
             102
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2720,
-			1469,
+			3345,
+			2376,
 			82,
 			52
 		},
@@ -61454,12 +70754,12 @@ return {
             102
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2720,
-			1469,
+			3345,
+			2376,
 			82,
 			52
 		},
@@ -61479,17 +70779,17 @@ return {
             103
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2112,
-			2629,
+			2474,
+			2957,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61504,17 +70804,17 @@ return {
             103
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2112,
-			2629,
+			2474,
+			2957,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61529,17 +70829,17 @@ return {
             104
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3402,
-			1411,
+			2488,
+			3120,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61554,17 +70854,17 @@ return {
             104
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3402,
-			1411,
+			2488,
+			3120,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61579,17 +70879,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1411,
+			2542,
+			3120,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61604,17 +70904,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1411,
+			2542,
+			3120,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61629,17 +70929,17 @@ return {
             106
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3570,
-			1412,
+			2546,
+			3204,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61654,17 +70954,17 @@ return {
             106
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3570,
-			1412,
+			2546,
+			3204,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61679,17 +70979,17 @@ return {
             106
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1417,
+			2559,
+			3288,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61704,17 +71004,17 @@ return {
             106
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1417,
+			2559,
+			3288,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61729,17 +71029,17 @@ return {
             107
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2718,
-			1628,
+			2561,
+			3372,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61754,17 +71054,17 @@ return {
             107
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2718,
-			1628,
+			2561,
+			3372,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61779,17 +71079,17 @@ return {
             107
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1753,
+			2527,
+			2957,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61804,17 +71104,17 @@ return {
             107
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1753,
+			2527,
+			2957,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61829,17 +71129,17 @@ return {
             108
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1807,
+			2581,
+			2957,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61854,17 +71154,17 @@ return {
             108
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1807,
+			2581,
+			2957,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61879,17 +71179,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61904,17 +71204,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61929,17 +71229,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61954,17 +71254,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -61979,17 +71279,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62004,17 +71304,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62029,17 +71329,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62054,17 +71354,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62079,17 +71379,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62104,17 +71404,17 @@ return {
             109
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1860,
+			2599,
+			3041,
 			82,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer1_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62129,12 +71429,12 @@ return {
             95
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1022,
-			1525,
+			1436,
+			3030,
 			122,
 			64
 		},
@@ -62154,12 +71454,12 @@ return {
             95
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1022,
-			1525,
+			1436,
+			3030,
 			122,
 			64
 		},
@@ -62179,17 +71479,17 @@ return {
             96
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1862,
-			1374,
+			1641,
+			2590,
 			118,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62204,17 +71504,17 @@ return {
             96
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1862,
-			1374,
+			1641,
+			2590,
 			118,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer1_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62229,12 +71529,12 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2619,
-			1918,
+			2599,
+			3201,
 			82,
 			52
 		},
@@ -62254,12 +71554,12 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2619,
-			1918,
+			2599,
+			3201,
 			82,
 			52
 		},
@@ -62279,17 +71579,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2600,
-			1682,
+			2797,
+			2292,
 			82,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer2_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62304,63 +71604,16 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			537,
+			2385,
+			931,
 			161,
 			146
 		},
-		alias = {
-			"galahadriansBastion_layer2_0002",
-			"galahadriansBastion_layer2_0003",
-			"galahadriansBastion_layer2_0004",
-			"galahadriansBastion_layer2_0005",
-			"galahadriansBastion_layer2_0006",
-			"galahadriansBastion_layer2_0007",
-			"galahadriansBastion_layer2_0008",
-			"galahadriansBastion_layer2_0009",
-			"galahadriansBastion_layer2_0010",
-			"galahadriansBastion_layer2_0011",
-			"galahadriansBastion_layer2_0012",
-			"galahadriansBastion_layer2_0013",
-			"galahadriansBastion_layer2_0014",
-			"galahadriansBastion_layer2_0015",
-			"galahadriansBastion_layer2_0016",
-			"galahadriansBastion_layer2_0017",
-			"galahadriansBastion_layer2_0018",
-			"galahadriansBastion_layer2_0019",
-			"galahadriansBastion_layer2_0020",
-			"galahadriansBastion_layer2_0021",
-			"galahadriansBastion_layer2_0022",
-			"galahadriansBastion_layer2_0023",
-			"galahadriansBastion_layer2_0024",
-			"galahadriansBastion_layer2_0025",
-			"galahadriansBastion_layer2_0026",
-			"galahadriansBastion_layer2_0027",
-			"galahadriansBastion_layer2_0028",
-			"galahadriansBastion_layer2_0029",
-			"galahadriansBastion_layer2_0030",
-			"galahadriansBastion_layer2_0031",
-			"galahadriansBastion_layer2_0032",
-			"galahadriansBastion_layer2_0033",
-			"galahadriansBastion_layer2_0034",
-			"galahadriansBastion_layer2_0035",
-			"galahadriansBastion_layer2_0036",
-			"galahadriansBastion_layer2_0037",
-			"galahadriansBastion_layer2_0038",
-			"galahadriansBastion_layer2_0039",
-			"galahadriansBastion_layer2_0040",
-			"galahadriansBastion_layer2_0041",
-			"galahadriansBastion_layer2_0042",
-			"galahadriansBastion_layer2_0043",
-			"galahadriansBastion_layer2_0044",
-			"galahadriansBastion_layer2_0045",
-			"galahadriansBastion_layer2_0046",
-			"galahadriansBastion_layer2_0053"
-		},
+		alias = {},
 		textureRotated = false
 	},
 	["galahadriansBastion_layer2_0047"] = {
@@ -62376,18 +71629,16 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1754,
-			539,
+			1397,
+			1432,
 			163,
 			145
 		},
-		alias = {
-			"galahadriansBastion_layer2_0048"
-		},
+		alias = {},
 		textureRotated = true
 	},
 	["galahadriansBastion_layer2_0049"] = {
@@ -62403,18 +71654,16 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1754,
-			704,
+			625,
+			1448,
 			164,
 			142
 		},
-		alias = {
-			"galahadriansBastion_layer2_0050"
-		},
+		alias = {},
 		textureRotated = false
 	},
 	["galahadriansBastion_layer2_0051"] = {
@@ -62430,19 +71679,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1920,
-			668,
+			1397,
+			1597,
 			163,
 			146
 		},
-		alias = {
-			"galahadriansBastion_layer2_0052"
-		},
-		textureRotated = true
+		alias = {},
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62457,12 +71704,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62482,12 +71729,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62507,12 +71754,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62532,12 +71779,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62557,12 +71804,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62582,12 +71829,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62607,12 +71854,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62632,12 +71879,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62657,12 +71904,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62682,12 +71929,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62707,12 +71954,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62732,12 +71979,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -62757,17 +72004,17 @@ return {
             74
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1533,
-			2533,
+			3362,
+			1844,
 			99,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62782,17 +72029,17 @@ return {
             74
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1533,
-			2533,
+			3362,
+			1844,
 			99,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62807,17 +72054,17 @@ return {
             76
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2184,
-			2174,
+			3191,
+			2082,
 			100,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62832,17 +72079,17 @@ return {
             76
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2184,
-			2174,
+			3191,
+			2082,
 			100,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62857,12 +72104,12 @@ return {
             77
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1675,
-			2533,
+			2303,
+			2801,
 			99,
 			53
 		},
@@ -62882,12 +72129,12 @@ return {
             77
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1675,
-			2533,
+			2303,
+			2801,
 			99,
 			53
 		},
@@ -62907,17 +72154,17 @@ return {
             79
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2293,
-			1992,
+			3260,
+			1844,
 			100,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62932,17 +72179,17 @@ return {
             79
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2293,
-			1992,
+			3260,
+			1844,
 			100,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62957,17 +72204,17 @@ return {
             80
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2181,
+			2115,
+			2943,
 			99,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -62982,17 +72229,17 @@ return {
             80
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2181,
+			2115,
+			2943,
 			99,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63007,12 +72254,12 @@ return {
             81
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2347,
-			1992,
+			2224,
+			2629,
 			100,
 			52
 		},
@@ -63032,12 +72279,12 @@ return {
             81
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2347,
-			1992,
+			2224,
+			2629,
 			100,
 			52
 		},
@@ -63057,12 +72304,12 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2386,
-			1821,
+			2238,
+			2731,
 			100,
 			52
 		},
@@ -63082,12 +72329,12 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2386,
-			1821,
+			2238,
+			2731,
 			100,
 			52
 		},
@@ -63107,12 +72354,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2494,
-			1821,
+			2270,
+			3034,
 			99,
 			52
 		},
@@ -63132,12 +72379,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2494,
-			1821,
+			2270,
+			3034,
 			99,
 			52
 		},
@@ -63157,12 +72404,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2401,
-			1992,
+			2255,
+			3567,
 			99,
 			53
 		},
@@ -63182,12 +72429,12 @@ return {
             83
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2401,
-			1992,
+			2255,
+			3567,
 			99,
 			53
 		},
@@ -63207,17 +72454,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2126,
-			2425,
+			2555,
+			2335,
 			100,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63232,17 +72479,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2126,
-			2425,
+			2555,
+			2335,
 			100,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63257,12 +72504,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2548,
-			1821,
+			2310,
+			3567,
 			99,
 			53
 		},
@@ -63282,12 +72529,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2548,
-			1821,
+			2310,
+			3567,
 			99,
 			53
 		},
@@ -63307,12 +72554,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2537,
-			1195,
+			2358,
+			2801,
 			99,
 			52
 		},
@@ -63332,12 +72579,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2537,
-			1195,
+			2358,
+			2801,
 			99,
 			52
 		},
@@ -63357,12 +72604,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63382,12 +72629,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63407,12 +72654,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63432,12 +72679,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63457,12 +72704,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63482,12 +72729,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63507,12 +72754,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63532,12 +72779,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63557,12 +72804,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63582,12 +72829,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1218,
+			2303,
+			2902,
 			99,
 			53
 		},
@@ -63607,17 +72854,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1246,
-			1071,
+			582,
+			2717,
 			135,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63632,17 +72879,17 @@ return {
             68
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1246,
-			1071,
+			582,
+			2717,
 			135,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer3_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63657,12 +72904,12 @@ return {
             70
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			741,
-			1241,
+			1379,
+			2498,
 			128,
 			64
 		},
@@ -63682,12 +72929,12 @@ return {
             70
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			741,
-			1241,
+			1379,
+			2498,
 			128,
 			64
 		},
@@ -63707,12 +72954,12 @@ return {
             74
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2440,
-			1821,
+			2249,
+			2833,
 			100,
 			52
 		},
@@ -63732,12 +72979,12 @@ return {
             74
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2440,
-			1821,
+			2249,
+			2833,
 			100,
 			52
 		},
@@ -63757,12 +73004,12 @@ return {
             73
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1994,
+			3158,
+			1837,
 			100,
 			53
 		},
@@ -63782,12 +73029,12 @@ return {
             104
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3430,
-			1679,
+			3457,
+			3281,
 			31,
 			38
 		},
@@ -63807,12 +73054,12 @@ return {
             104
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3430,
-			1679,
+			3457,
+			3281,
 			31,
 			38
 		},
@@ -63832,12 +73079,12 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			1678,
+			2701,
+			3326,
 			33,
 			44
 		},
@@ -63857,12 +73104,12 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			1678,
+			2701,
+			3326,
 			33,
 			44
 		},
@@ -63882,17 +73129,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2603,
-			1883,
+			3421,
+			2994,
 			33,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63907,17 +73154,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2603,
-			1883,
+			3421,
+			2994,
 			33,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63932,17 +73179,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3421,
 			2937,
-			2054,
 			33,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63957,17 +73204,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3421,
 			2937,
-			2054,
 			33,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -63982,17 +73229,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2516,
-			2569,
+			2827,
+			3175,
 			46,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64007,17 +73254,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2516,
-			2569,
+			2827,
+			3175,
 			46,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64032,17 +73279,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1438,
-			2634,
+			3516,
+			2588,
 			61,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer4_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64057,17 +73304,17 @@ return {
             105
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1438,
-			2634,
+			3516,
+			2588,
 			61,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer4_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64082,12 +73329,12 @@ return {
             102
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3105,
-			1732,
+			3829,
+			2632,
 			61,
 			49
 		},
@@ -64107,12 +73354,12 @@ return {
             102
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3105,
-			1732,
+			3829,
+			2632,
 			61,
 			49
 		},
@@ -64132,12 +73379,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1568,
+			3035,
+			2749,
 			61,
 			59
 		},
@@ -64157,12 +73404,12 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1568,
+			3035,
+			2749,
 			61,
 			59
 		},
@@ -64182,17 +73429,17 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1826,
+			3276,
+			2471,
 			60,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64207,17 +73454,17 @@ return {
             100
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1826,
+			3276,
+			2471,
 			60,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64232,17 +73479,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3052,
-			2488,
+			2657,
+			2450,
 			60,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64257,17 +73504,17 @@ return {
             97
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3052,
-			2488,
+			2657,
+			2450,
 			60,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64282,17 +73529,17 @@ return {
             94
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3738,
-			1420,
+			3653,
+			2775,
 			61,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64307,17 +73554,17 @@ return {
             94
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3738,
-			1420,
+			3653,
+			2775,
 			61,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64332,17 +73579,17 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3107,
-			1853,
+			3718,
+			2882,
 			61,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64357,17 +73604,17 @@ return {
             92
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3107,
-			1853,
+			3718,
+			2882,
 			61,
 			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64382,12 +73629,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1686,
+			2801,
+			2853,
 			61,
 			51
 		},
@@ -64407,12 +73654,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1686,
+			2801,
+			2853,
 			61,
 			51
 		},
@@ -64432,17 +73679,17 @@ return {
             88
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3353,
-			1898,
+			3147,
+			2878,
 			60,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64457,17 +73704,17 @@ return {
             88
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3353,
-			1898,
+			3147,
+			2878,
 			60,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64482,12 +73729,12 @@ return {
             87
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2974,
-			2286,
+			3461,
+			2588,
 			61,
 			53
 		},
@@ -64507,12 +73754,12 @@ return {
             87
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2974,
-			2286,
+			3461,
+			2588,
 			61,
 			53
 		},
@@ -64532,17 +73779,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			2222,
+			3508,
+			2889,
 			60,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64557,17 +73804,17 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			2222,
+			3508,
+			2889,
 			60,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64582,17 +73829,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			2284,
+			3652,
+			2827,
 			60,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64607,17 +73854,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			2284,
+			3652,
+			2827,
 			60,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64632,12 +73879,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2349,
+			3564,
+			2588,
 			61,
 			52
 		},
@@ -64657,12 +73904,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2349,
+			3564,
+			2588,
 			61,
 			52
 		},
@@ -64682,17 +73929,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3055,
-			1918,
+			2738,
+			2853,
 			61,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64707,17 +73954,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3055,
-			1918,
+			2738,
+			2853,
 			61,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64732,12 +73979,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2360,
-			2428,
+			3535,
+			2283,
 			68,
 			55
 		},
@@ -64757,17 +74004,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2362,
-			2498,
+			3722,
+			2344,
 			68,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64782,12 +74029,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2550,
-			2371,
+			3723,
+			2176,
 			68,
 			54
 		},
@@ -64807,17 +74054,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3044,
-			1539,
+			3654,
+			2460,
 			66,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64832,17 +74079,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			1608,
+			2719,
+			2477,
 			68,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64857,17 +74104,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2228,
-			2503,
+			3586,
+			2109,
 			69,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64882,17 +74129,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2874,
-			1753,
+			3722,
+			2499,
 			68,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64907,17 +74154,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3047,
-			1607,
+			2789,
+			2535,
 			66,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_layer4_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64932,17 +74179,17 @@ return {
             72
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3165,
-			1391,
+			2128,
+			1546,
 			78,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer4_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64957,17 +74204,17 @@ return {
             72
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3165,
-			1391,
+			2128,
+			1546,
 			78,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_layer4_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -64982,12 +74229,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2174,
+			3791,
+			3282,
 			5,
 			5
 		},
@@ -65007,12 +74254,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2174,
+			3791,
+			3282,
 			5,
 			5
 		},
@@ -65032,12 +74279,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2174,
+			3791,
+			3282,
 			5,
 			5
 		},
@@ -65057,12 +74304,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2174,
+			3791,
+			3282,
 			5,
 			5
 		},
@@ -65082,12 +74329,12 @@ return {
             31
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2174,
+			3791,
+			3282,
 			5,
 			5
 		},
@@ -65107,12 +74354,12 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2812,
-			1198,
+			2610,
+			2499,
 			63,
 			45
 		},
@@ -65132,12 +74379,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2263,
-			1458,
+			3515,
+			2469,
 			64,
 			44
 		},
@@ -65157,17 +74404,17 @@ return {
             25
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2171,
-			460,
+			3437,
+			2722,
 			64,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65182,17 +74429,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2365,
-			2638,
+			2718,
+			3361,
 			63,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65207,17 +74454,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			705,
-			1259,
+			3182,
+			3491,
 			34,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65232,17 +74479,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			705,
-			1259,
+			3182,
+			3491,
 			34,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65257,12 +74504,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3752,
-			1802,
+			3613,
+			2939,
 			40,
 			37
 		},
@@ -65282,12 +74529,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3752,
-			1802,
+			3613,
+			2939,
 			40,
 			37
 		},
@@ -65307,17 +74554,17 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3376,
-			2489,
+			3486,
+			3097,
 			43,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65332,17 +74579,17 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3376,
-			2489,
+			3486,
+			3097,
 			43,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65357,12 +74604,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3501,
-			1976,
+			3529,
+			3098,
 			46,
 			43
 		},
@@ -65382,12 +74629,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3501,
-			1976,
+			3529,
+			3098,
 			46,
 			43
 		},
@@ -65407,17 +74654,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3441,
-			1628,
+			3096,
+			2873,
 			49,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_proy_particle_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65432,17 +74679,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3441,
-			1628,
+			3096,
+			2873,
 			49,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["galahadriansBastion_proy_particle_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65457,17 +74704,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3411,
-			2200,
+			2806,
+			3352,
 			54,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65482,17 +74729,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3411,
-			2200,
+			2806,
+			3352,
 			54,
 			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["galahadriansBastion_proy_particle_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65507,12 +74754,12 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3412,
-			2253,
+			2871,
+			3112,
 			54,
 			51
 		},
@@ -65532,12 +74779,12 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3412,
-			2253,
+			2871,
+			3112,
 			54,
 			51
 		},
@@ -65557,12 +74804,12 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3800,
-			1483,
+			2859,
+			3352,
 			54,
 			51
 		},
@@ -65582,12 +74829,12 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3800,
-			1483,
+			2859,
+			3352,
 			54,
 			51
 		},
@@ -65607,12 +74854,12 @@ return {
             144
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			226,
-			740,
+			901,
+			182,
 			220,
 			128
 		},
@@ -65632,12 +74879,12 @@ return {
             144
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			226,
-			740,
+			901,
+			182,
 			220,
 			128
 		},
@@ -65657,17 +74904,17 @@ return {
             146
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1091,
+			2160,
+			530,
 			214,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ghost_tower_teleport_fx_in_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65682,17 +74929,17 @@ return {
             146
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1091,
+			2160,
+			530,
 			214,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ghost_tower_teleport_fx_in_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65707,12 +74954,12 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3648,
-			1,
+			1137,
+			695,
 			202,
 			124
 		},
@@ -65732,12 +74979,12 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3648,
-			1,
+			1137,
+			695,
 			202,
 			124
 		},
@@ -65757,17 +75004,17 @@ return {
             124
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			290,
 			1,
+			787,
 			256,
 			197
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_in_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65782,17 +75029,17 @@ return {
             124
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			290,
 			1,
+			787,
 			256,
 			197
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_in_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65807,12 +75054,12 @@ return {
             126
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			614,
 			1,
-			484,
 			260,
 			191
 		},
@@ -65832,12 +75079,12 @@ return {
             126
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			614,
 			1,
-			484,
 			260,
 			191
 		},
@@ -65857,12 +75104,12 @@ return {
             130
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			2049,
+			1775,
 			250,
 			169
 		},
@@ -65882,12 +75129,12 @@ return {
             130
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			2049,
+			1775,
 			250,
 			169
 		},
@@ -65907,17 +75154,17 @@ return {
             136
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1331,
 			1,
+			2275,
 			241,
 			176
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_in_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65932,17 +75179,17 @@ return {
             136
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1331,
 			1,
+			2275,
 			241,
 			176
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_in_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -65957,12 +75204,12 @@ return {
             139
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			1811,
+			1537,
 			236,
 			190
 		},
@@ -65982,12 +75229,12 @@ return {
             139
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			1811,
+			1537,
 			236,
 			190
 		},
@@ -66007,12 +75254,12 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3465,
 			1,
-			677,
 			223,
 			212
 		},
@@ -66032,12 +75279,12 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3465,
 			1,
-			677,
 			223,
 			212
 		},
@@ -66057,12 +75304,12 @@ return {
             158
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			293,
-			1838,
+			1641,
+			154,
 			165,
 			196
 		},
@@ -66082,12 +75329,12 @@ return {
             158
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			293,
-			1838,
+			1641,
+			154,
 			165,
 			196
 		},
@@ -66107,17 +75354,17 @@ return {
             160
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			372,
-			2037,
+			1137,
+			821,
 			158,
 			194
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66132,17 +75379,17 @@ return {
             160
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			372,
-			2037,
+			1137,
+			821,
 			158,
 			194
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66157,12 +75404,12 @@ return {
             150
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2046,
-			1,
+			709,
+			313,
 			218,
 			209
 		},
@@ -66182,12 +75429,12 @@ return {
             150
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2046,
-			1,
+			709,
+			313,
 			218,
 			209
 		},
@@ -66207,17 +75454,17 @@ return {
             142
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1813,
 			1,
+			2757,
 			231,
 			187
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66232,17 +75479,17 @@ return {
             142
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1813,
 			1,
+			2757,
 			231,
 			187
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66257,17 +75504,17 @@ return {
             138
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1574,
 			1,
+			2518,
 			237,
 			178
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66282,17 +75529,17 @@ return {
             138
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1574,
 			1,
+			2518,
 			237,
 			178
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66307,12 +75554,12 @@ return {
             133
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			2301,
+			2027,
 			246,
 			173
 		},
@@ -66332,12 +75579,12 @@ return {
             133
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			2301,
+			2027,
 			246,
 			173
 		},
@@ -66357,11 +75604,11 @@ return {
             129
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			548,
+			876,
 			1,
 			256,
 			179
@@ -66382,11 +75629,11 @@ return {
             129
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			548,
+			876,
 			1,
 			256,
 			179
@@ -66407,17 +75654,17 @@ return {
             126
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			290,
-			200,
+			1,
+			1045,
 			247,
 			194
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66432,17 +75679,17 @@ return {
             126
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			290,
-			200,
+			1,
+			1045,
 			247,
 			194
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["ghost_tower_teleport_fx_out_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66457,11 +75704,11 @@ return {
             120
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1068,
+			1396,
 			1,
 			261,
 			151
@@ -66482,11 +75729,11 @@ return {
             120
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1068,
+			1396,
 			1,
 			261,
 			151
@@ -66507,17 +75754,17 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1307,
+			1963,
+			758,
 			209,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ghost_tower_teleport_fx_out_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66532,17 +75779,17 @@ return {
             147
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			1307,
+			1963,
+			758,
 			209,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ghost_tower_teleport_fx_out_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66557,17 +75804,17 @@ return {
             145
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			870,
+			1928,
+			186,
 			219,
 			128
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["ghost_tower_teleport_fx_out_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66582,17 +75829,5142 @@ return {
             145
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			304,
-			870,
+			1928,
+			186,
 			219,
 			128
 		},
 		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0001"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            224,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			504,
+			150,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0002"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            224,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			504,
+			150,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0003"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            52,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			628,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0004"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            52,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			628,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0005"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2534,
+			779,
+			150,
+			131
+		},
+		alias = {},
 		textureRotated = true
+	},
+	["kr5_babyBeresad_0006"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2534,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0007"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			368,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			368,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0009"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2667,
+			779,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0010"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2667,
+			779,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0011"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2803,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0012"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2803,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0013"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			415,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0014"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			415,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0015"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            209,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2546,
+			329,
+			152,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0016"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            209,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2546,
+			329,
+			152,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0017"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			659,
+			149,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0018"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			659,
+			149,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0019"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2536,
+			147,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0020"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2536,
+			147,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0021"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2676,
+			931,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0022"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2676,
+			931,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0023"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2936,
+			933,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0024"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2936,
+			933,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0025"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			545,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0026"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			545,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0027"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0028"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0029"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0030"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0031"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0032"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0033"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0034"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0035"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0036"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0037"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0038"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0039"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0040"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0041"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0042"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0043"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			645,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0044"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3148,
+			645,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0045"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			51,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			356,
+			3449,
+			152,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0046"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			51,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			356,
+			3449,
+			152,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0047"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            222,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3694,
+			758,
+			150,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0048"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            222,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3694,
+			758,
+			150,
+			124
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0049"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            224,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			504,
+			150,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0050"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            52,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			628,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0051"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            52,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			628,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0052"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2534,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0053"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2534,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0054"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			368,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0055"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			368,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0056"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2667,
+			779,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0057"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            212,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2667,
+			779,
+			150,
+			134
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0058"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2803,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0059"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            215,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2803,
+			779,
+			150,
+			131
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0060"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			415,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0061"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			415,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0062"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            209,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2546,
+			329,
+			152,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0063"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            209,
+            50,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2546,
+			329,
+			152,
+			137
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0064"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			659,
+			149,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0065"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3300,
+			659,
+			149,
+			125
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0066"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2536,
+			147,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0067"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			56,
+            221,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2536,
+			147,
+			125
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0068"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2676,
+			931,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0069"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			54,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2676,
+			931,
+			151,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0070"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2936,
+			933,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0071"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2936,
+			933,
+			150,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0072"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			545,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0073"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3427,
+			545,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0074"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0075"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0076"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0077"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            218,
+            51,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			313,
+			2990,
+			152,
+			128
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0078"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            198,
+            47,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			480,
+			1079,
+			175,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0079"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            198,
+            47,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			480,
+			1079,
+			175,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0080"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			37,
+            195,
+            50,
+            11
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1078,
+			2079,
+			169,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0081"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			37,
+            195,
+            50,
+            11
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1078,
+			2079,
+			169,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0082"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            144,
+            46,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			352,
+			195,
+			197
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0083"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            144,
+            46,
+            12
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			352,
+			195,
+			197
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0084"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			21,
+            96,
+            40,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			1294,
+			195,
+			241
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0085"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			21,
+            96,
+            40,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			1294,
+			195,
+			241
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0086"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			12,
+            116,
+            40,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			3450,
+			204,
+			221
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0087"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			13,
+            114,
+            39,
+            16
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			344,
+			532,
+			204,
+			223
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0088"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            185,
+            37,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			367,
+			204,
+			168
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0089"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            185,
+            37,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			367,
+			204,
+			168
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0090"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            178,
+            41,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			297,
+			1079,
+			181,
+			168
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0091"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            178,
+            41,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			297,
+			1079,
+			181,
+			168
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0092"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			36,
+            174,
+            41,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1618,
+			1160,
+			179,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0093"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			36,
+            174,
+            41,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1618,
+			1160,
+			179,
+			140
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0094"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			41,
+            148,
+            40,
+            74
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1056,
+			981,
+			175,
+			131
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0095"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			41,
+            148,
+            40,
+            74
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1056,
+			981,
+			175,
+			131
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0096"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			27,
+            150,
+            39,
+            74
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			610,
+			1256,
+			190,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0097"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			27,
+            150,
+            39,
+            74
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			610,
+			1256,
+			190,
+			129
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0098"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			19,
+            111,
+            39,
+            70
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1662,
+			352,
+			198,
+			172
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0099"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			19,
+            111,
+            39,
+            70
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1662,
+			352,
+			198,
+			172
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0100"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			16,
+            100,
+            39,
+            65
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3690,
+			1,
+			201,
+			188
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0101"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			16,
+            100,
+            39,
+            65
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3690,
+			1,
+			201,
+			188
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0102"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			10,
+            81,
+            39,
+            65
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			929,
+			312,
+			207,
+			207
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0103"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			10,
+            81,
+            39,
+            65
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			929,
+			312,
+			207,
+			207
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0104"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			12,
+            113,
+            39,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1662,
+			552,
+			205,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0105"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			12,
+            113,
+            39,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1662,
+			552,
+			205,
+			177
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0106"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            185,
+            23,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			751,
+			524,
+			218,
+			168
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0107"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			15,
+            185,
+            23,
+            0
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			751,
+			524,
+			218,
+			168
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0108"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            181,
+            25,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			845,
+			749,
+			197,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0109"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			34,
+            181,
+            25,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			845,
+			749,
+			197,
+			165
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0110"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			36,
+            175,
+            25,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1963,
+			517,
+			195,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0111"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			36,
+            175,
+            25,
+            39
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1963,
+			517,
+			195,
+			139
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0112"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			41,
+            148,
+            25,
+            59
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			462,
+			1256,
+			190,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0113"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			41,
+            148,
+            25,
+            59
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			462,
+			1256,
+			190,
+			146
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0114"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			27,
+            150,
+            25,
+            47
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			537,
+			204,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0115"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			27,
+            150,
+            25,
+            47
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1138,
+			537,
+			204,
+			156
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0116"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			19,
+            111,
+            25,
+            46
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			511,
+			317,
+			212,
+			196
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0117"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			19,
+            111,
+            25,
+            46
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			511,
+			317,
+			212,
+			196
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0118"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			16,
+            100,
+            21,
+            40
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			290,
+			317,
+			219,
+			213
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0119"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			16,
+            100,
+            21,
+            40
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			290,
+			317,
+			219,
+			213
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0120"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			10,
+            81,
+            23,
+            40
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			553,
+			223,
+			232
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0121"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			10,
+            81,
+            23,
+            40
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1,
+			553,
+			223,
+			232
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0122"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			12,
+            113,
+            23,
+            41
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			550,
+			531,
+			221,
+			199
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0123"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			12,
+            113,
+            23,
+            41
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			550,
+			531,
+			221,
+			199
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0124"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			25,
+            139,
+            36,
+            34
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			551,
+			195,
+			180
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0125"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			25,
+            139,
+            36,
+            34
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1465,
+			551,
+			195,
+			180
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0126"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			44,
+            192,
+            40,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1076,
+			1905,
+			172,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0127"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			44,
+            192,
+            40,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1076,
+			1905,
+			172,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0128"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			44,
+            192,
+            43,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2365,
+			169,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0129"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			44,
+            192,
+            43,
+            14
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1093,
+			2365,
+			169,
+			147
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0130"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			33,
+            198,
+            49,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1433,
+			993,
+			174,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0131"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			33,
+            198,
+            49,
+            9
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1433,
+			993,
+			174,
+			146
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0132"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			51,
+            215,
+            53,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2724,
+			462,
+			152,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0133"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			51,
+            215,
+            53,
+            6
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2724,
+			462,
+			152,
+			132
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0134"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			53,
+            224,
+            53,
+            7
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3684,
+			504,
+			150,
+			122
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0135"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			154,
+            303,
+            88,
+            32
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1192,
+			1239,
+			14,
+			18
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0136"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			156,
+            297,
+            86,
+            38
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1212,
+			1239,
+			14,
+			18
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0137"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			159,
+            293,
+            83,
+            42
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2094,
+			1406,
+			14,
+			18
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0138"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			160,
+            288,
+            82,
+            46
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2555,
+			2308,
+			14,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0139"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			161,
+            285,
+            79,
+            49
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2107,
+			2717,
+			16,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0140"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            281,
+            78,
+            52
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1170,
+			1239,
+			14,
+			20
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0141"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            280,
+            76,
+            53
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2348,
+			2291,
+			16,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0142"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			167,
+            278,
+            73,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2389,
+			2783,
+			16,
+			19
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0143"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			168,
+            275,
+            73,
+            59
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2548,
+			1084,
+			15,
+			19
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0144"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			170,
+            273,
+            70,
+            60
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2367,
+			2783,
+			16,
+			20
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0145"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			171,
+            273,
+            69,
+            62
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2348,
+			2313,
+			16,
+			18
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0146"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			174,
+            270,
+            67,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1120,
+			937,
+			15,
+			20
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0147"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			149,
+            268,
+            65,
+            38
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3373,
+			3265,
+			42,
+			47
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0148"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			150,
+            266,
+            63,
+            43
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3504,
+			3235,
+			43,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0149"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			152,
+            265,
+            61,
+            47
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3466,
+			3314,
+			43,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0150"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			154,
+            264,
+            59,
+            50
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3281,
+			3385,
+			43,
+			39
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0151"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			156,
+            263,
+            56,
+            53
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3422,
+			3399,
+			44,
+			37
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0152"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			158,
+            264,
+            52,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			290,
+			268,
+			46,
+			33
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0153"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			158,
+            264,
+            51,
+            59
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3497,
+			3281,
+			47,
+			30
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0154"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			160,
+            264,
+            48,
+            60
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1434,
+			3338,
+			48,
+			29
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0155"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			161,
+            264,
+            45,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2234,
+			1860,
+			50,
+			26
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0156"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            265,
+            42,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			406,
+			1734,
+			50,
+			25
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0157"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			154,
+            266,
+            40,
+            32
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3391,
+			2469,
+			62,
+			55
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0158"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			156,
+            265,
+            37,
+            38
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3792,
+			2347,
+			63,
+			50
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0159"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			159,
+            263,
+            35,
+            42
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3054,
+			2611,
+			62,
+			48
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0160"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			160,
+            261,
+            32,
+            46
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3652,
+			2882,
+			64,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0161"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			161,
+            261,
+            31,
+            49
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3652,
+			2930,
+			64,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0162"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            259,
+            28,
+            52
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3718,
+			2934,
+			64,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0163"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            258,
+            26,
+            53
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2909,
+			2696,
+			66,
+			42
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0164"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			167,
+            258,
+            25,
+            54
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2701,
+			3260,
+			64,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0165"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			168,
+            258,
+            22,
+            52
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3171,
+			2471,
+			66,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0166"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			170,
+            258,
+            19,
+            51
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3798,
+			2109,
+			67,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0167"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			171,
+            259,
+            17,
+            50
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			198,
+			1491,
+			68,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0168"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			174,
+            259,
+            14,
+            50
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2719,
+			2534,
+			68,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0169"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			149,
+            260,
+            12,
+            38
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2139,
+			3382,
+			95,
+			55
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0170"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			150,
+            261,
+            9,
+            43
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3433,
+			1982,
+			97,
+			49
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0171"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			152,
+            263,
+            7,
+            47
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3438,
+			2081,
+			97,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0172"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			154,
+            264,
+            5,
+            50
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2074,
+			2945,
+			97,
+			39
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0173"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			156,
+            265,
+            36,
+            53
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3239,
+			2468,
+			64,
+			35
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0174"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			158,
+            263,
+            34,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2591,
+			2921,
+			64,
+			34
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0175"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			158,
+            263,
+            32,
+            59
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3292,
+			2785,
+			66,
+			31
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0176"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			160,
+            264,
+            29,
+            60
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2626,
+			2427,
+			67,
+			29
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0177"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			161,
+            264,
+            28,
+            57
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3173,
+			2785,
+			67,
+			32
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0178"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            266,
+            25,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3436,
+			2653,
+			67,
+			31
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0179"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			164,
+            267,
+            22,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3848,
+			1866,
+			70,
+			30
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0180"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			167,
+            265,
+            21,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2196,
+			3446,
+			68,
+			33
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0181"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			169,
+            263,
+            18,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3844,
+			2491,
+			69,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0182"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			171,
+            261,
+            14,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3535,
+			2353,
+			71,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0183"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			173,
+            260,
+            12,
+            57
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2689,
+			3187,
+			71,
+			36
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0184"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			176,
+            260,
+            10,
+            57
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3345,
+			2430,
+			70,
+			36
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0185"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			179,
+            258,
+            26,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3034,
+			3287,
+			51,
+			40
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0186"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			181,
+            258,
+            24,
+            54
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3044,
+			3340,
+			51,
+			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0187"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			184,
+            258,
+            22,
+            53
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3044,
+			3393,
+			50,
+			42
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0188"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			186,
+            258,
+            19,
+            51
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3515,
+			2535,
+			51,
+			44
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0189"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			189,
+            258,
+            17,
+            51
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3128,
+			3338,
+			50,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0190"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			192,
+            260,
+            15,
+            49
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3205,
+			3085,
+			49,
+			44
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0191"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			194,
+            260,
+            12,
+            50
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3529,
+			3046,
+			50,
+			43
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0192"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			197,
+            261,
+            10,
+            51
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3205,
+			3042,
+			49,
+			41
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0193"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			199,
+            263,
+            7,
+            52
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2789,
+			3547,
+			50,
+			38
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0194"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			201,
+            264,
+            5,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3060,
+			3527,
+			50,
+			34
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0195"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			203,
+            266,
+            36,
+            65
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			527,
+			3584,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0196"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			205,
+            268,
+            34,
+            63
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			673,
+			2835,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0197"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			207,
+            270,
+            32,
+            61
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1549,
+			3548,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0198"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			209,
+            270,
+            30,
+            60
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3194,
+			905,
+			17,
+			23
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0199"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			211,
+            273,
+            28,
+            58
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1573,
+			3548,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0200"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			214,
+            273,
+            25,
+            57
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			648,
+			2835,
+			17,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0201"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			216,
+            276,
+            22,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			701,
+			2954,
+			18,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0202"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			219,
+            276,
+            20,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2904,
+			3649,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0203"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			221,
+            276,
+            18,
+            55
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2923,
+			3649,
+			17,
+			22
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["kr5_babyBeresad_0204"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			224,
+            274,
+            15,
+            56
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3404,
+			2653,
+			17,
+			23
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["kr5_babyBeresad_0205"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			256,
+			353
+		},
+		trim = {
+			227,
+            273,
+            13,
+            58
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2107,
+			2671,
+			16,
+			22
+		},
+		alias = {},
+		textureRotated = false
 	},
 	["merc_camp_desert_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66607,12 +80979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			891,
+			2990,
 			228,
 			201
 		},
@@ -66632,12 +81004,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			1121,
+			3220,
 			228,
 			201
 		},
@@ -66657,17 +81029,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3005,
 			1,
-			1351,
 			228,
 			201
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["merc_camp_desert_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66682,17 +81054,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			3235,
 			1,
-			1581,
 			228,
 			201
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["merc_camp_desert_fire_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66707,12 +81079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3712,
-			1471,
+			2412,
+			2875,
 			24,
 			24
 		},
@@ -66732,12 +81104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3712,
-			1471,
+			2412,
+			2875,
 			24,
 			24
 		},
@@ -66757,17 +81129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3575,
-			2327,
+			2852,
+			3649,
 			22,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["merc_camp_desert_fire_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66782,17 +81154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3575,
-			2327,
+			2852,
+			3649,
 			22,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["merc_camp_desert_fire_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66807,17 +81179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2399,
+			2878,
+			3649,
 			22,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["merc_camp_desert_fire_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66832,17 +81204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2399,
+			2878,
+			3649,
 			22,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["merc_camp_desert_fire_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66857,12 +81229,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3093,
-			2462,
+			3848,
+			1938,
 			24,
 			24
 		},
@@ -66882,12 +81254,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3093,
-			2462,
+			3848,
+			1938,
 			24,
 			24
 		},
@@ -66907,17 +81279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3057,
-			1240,
+			2234,
+			1912,
 			24,
 			22
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["merc_camp_desert_fire_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66932,17 +81304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3057,
-			1240,
+			2234,
+			1912,
 			24,
 			22
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["merc_camp_desert_fire_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -66957,12 +81329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			2327,
+			2630,
+			2390,
 			24,
 			24
 		},
@@ -66982,12 +81354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			2327,
+			2630,
+			2390,
 			24,
 			24
 		},
@@ -67007,12 +81379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2266,
-			1,
+			1138,
+			169,
 			199,
 			196
 		},
@@ -67032,12 +81404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2467,
-			1,
+			1440,
+			154,
 			199,
 			196
 		},
@@ -67057,17 +81429,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2668,
-			1,
+			1963,
+			316,
 			199,
 			196
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["merc_camp_pirates_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67082,12 +81454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			1,
+			2258,
+			332,
 			199,
 			196
 		},
@@ -67107,17 +81479,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			263,
-			496,
+			400,
+			757,
 			143,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_bird_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67132,17 +81504,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2472,
+			3746,
+			3019,
 			37,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_bird_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67157,17 +81529,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2472,
+			3746,
+			3019,
 			37,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_bird_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67182,12 +81554,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3644,
-			2641,
+			3798,
+			3517,
 			35,
 			35
 		},
@@ -67207,12 +81579,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3644,
-			2641,
+			3798,
+			3517,
 			35,
 			35
 		},
@@ -67232,17 +81604,17 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3655,
-			2557,
+			3721,
+			3295,
 			35,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_bird_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67257,17 +81629,17 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3655,
-			2557,
+			3721,
+			3295,
 			35,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_bird_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67282,12 +81654,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2643,
-			2476,
+			3512,
+			3491,
 			38,
 			32
 		},
@@ -67307,12 +81679,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2643,
-			2476,
+			3512,
+			3491,
 			38,
 			32
 		},
@@ -67332,12 +81704,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3791,
-			1802,
+			3830,
+			3235,
 			40,
 			37
 		},
@@ -67357,12 +81729,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3791,
-			1802,
+			3830,
+			3235,
 			40,
 			37
 		},
@@ -67382,12 +81754,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3764,
-			1988,
+			3468,
+			3402,
 			35,
 			43
 		},
@@ -67407,12 +81779,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3764,
-			1988,
+			3468,
+			3402,
 			35,
 			43
 		},
@@ -67432,12 +81804,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3006,
-			1677,
+			2864,
+			2907,
 			39,
 			57
 		},
@@ -67457,12 +81829,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3006,
-			1677,
+			2864,
+			2907,
 			39,
 			57
 		},
@@ -67482,12 +81854,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3489,
-			1626,
+			2912,
+			3411,
 			39,
 			57
 		},
@@ -67507,12 +81879,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1822,
+			3002,
+			3411,
 			40,
 			52
 		},
@@ -67532,12 +81904,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1822,
+			3002,
+			3411,
 			40,
 			52
 		},
@@ -67557,12 +81929,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			1670,
+			3397,
+			3181,
 			41,
 			58
 		},
@@ -67582,12 +81954,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			1670,
+			3397,
+			3181,
 			41,
 			58
 		},
@@ -67607,12 +81979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			2653,
+			2630,
+			2564,
 			24,
 			24
 		},
@@ -67632,17 +82004,17 @@ return {
             177
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3240,
-			2434,
+			2810,
+			2966,
 			57,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67657,17 +82029,17 @@ return {
             177
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3240,
-			2434,
+			2810,
+			2966,
 			57,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67682,17 +82054,17 @@ return {
             177
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3240,
-			2434,
+			2810,
+			2966,
 			57,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67707,17 +82079,17 @@ return {
             179
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1679,
-			2634,
+			2968,
+			3078,
 			56,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67732,17 +82104,17 @@ return {
             179
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1679,
-			2634,
+			2968,
+			3078,
 			56,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67757,17 +82129,17 @@ return {
             179
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1679,
-			2634,
+			2968,
+			3078,
 			56,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67782,17 +82154,17 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2606,
-			2624,
+			3256,
+			2992,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67807,17 +82179,17 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2606,
-			2624,
+			3256,
+			2992,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67832,17 +82204,17 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2606,
-			2624,
+			3256,
+			2992,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_flag_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67857,17 +82229,17 @@ return {
             175
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			2632,
+			3529,
+			3143,
 			48,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_flag_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67882,17 +82254,17 @@ return {
             175
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			2632,
+			3529,
+			3143,
 			48,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_flag_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67907,17 +82279,17 @@ return {
             175
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			2632,
+			3529,
+			3143,
 			48,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_flag_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -67932,12 +82304,12 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3414,
-			2309,
+			2912,
+			2965,
 			55,
 			49
 		},
@@ -67957,12 +82329,12 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3414,
-			2309,
+			2912,
+			2965,
 			55,
 			49
 		},
@@ -67982,12 +82354,12 @@ return {
             176
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3414,
-			2309,
+			2912,
+			2965,
 			55,
 			49
 		},
@@ -68007,12 +82379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2068,
-			668,
+			293,
+			1591,
 			168,
 			111
 		},
@@ -68032,12 +82404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1626,
+			3256,
+			3088,
 			52,
 			44
 		},
@@ -68057,12 +82429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1626,
+			3256,
+			3088,
 			52,
 			44
 		},
@@ -68082,17 +82454,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2478,
+			3034,
+			3021,
 			45,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68107,17 +82479,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2478,
+			3034,
+			3021,
 			45,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68132,12 +82504,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3623,
-			1799,
+			3468,
+			3357,
 			43,
 			43
 		},
@@ -68157,12 +82529,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3623,
-			1799,
+			3468,
+			3357,
 			43,
 			43
 		},
@@ -68182,12 +82554,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68207,12 +82579,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68232,12 +82604,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68257,12 +82629,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68282,12 +82654,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68307,12 +82679,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68332,12 +82704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1685,
+			3468,
+			3484,
 			42,
 			42
 		},
@@ -68357,12 +82729,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3726,
-			2277,
+			3383,
+			3476,
 			37,
 			45
 		},
@@ -68382,12 +82754,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3726,
-			2277,
+			3383,
+			3476,
 			37,
 			45
 		},
@@ -68407,12 +82779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3724,
-			2025,
+			3837,
+			3277,
 			39,
 			40
 		},
@@ -68432,12 +82804,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3724,
-			2025,
+			3837,
+			3277,
 			39,
 			40
 		},
@@ -68457,12 +82829,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3683,
-			1977,
+			3217,
+			3482,
 			39,
 			43
 		},
@@ -68482,12 +82854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3683,
-			1977,
+			3217,
+			3482,
 			39,
 			43
 		},
@@ -68507,12 +82879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			1934,
+			3341,
+			3484,
 			40,
 			41
 		},
@@ -68532,12 +82904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			1934,
+			3341,
+			3484,
 			40,
 			41
 		},
@@ -68557,12 +82929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3682,
-			2022,
+			3258,
+			3482,
 			40,
 			43
 		},
@@ -68582,12 +82954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3682,
-			2022,
+			3258,
+			3482,
 			40,
 			43
 		},
@@ -68607,17 +82979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2111,
+			3612,
+			2981,
 			39,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68632,17 +83004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2111,
+			3612,
+			2981,
 			39,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68657,12 +83029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3553,
-			2160,
+			3328,
+			3265,
 			47,
 			43
 		},
@@ -68682,12 +83054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3553,
-			2160,
+			3328,
+			3265,
 			47,
 			43
 		},
@@ -68707,17 +83079,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68732,17 +83104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68757,17 +83129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68782,17 +83154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0032"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68807,17 +83179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68832,17 +83204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68857,17 +83229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68882,17 +83254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3451,
-			1876,
+			3311,
+			3132,
 			52,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68907,17 +83279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68932,17 +83304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -68957,12 +83329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			1967,
+			3034,
+			3106,
 			47,
 			45
 		},
@@ -68982,12 +83354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			1967,
+			3034,
+			3106,
 			47,
 			45
 		},
@@ -69007,12 +83379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			2016,
+			3481,
+			3142,
 			46,
 			46
 		},
@@ -69032,12 +83404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			2016,
+			3481,
+			3142,
 			46,
 			46
 		},
@@ -69057,12 +83429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69082,12 +83454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69107,12 +83479,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69132,12 +83504,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69157,12 +83529,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69182,12 +83554,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69207,12 +83579,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1919,
+			3279,
+			3240,
 			47,
 			46
 		},
@@ -69232,17 +83604,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3421,
-			2483,
+			3034,
+			3155,
 			44,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_shooter_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69257,17 +83629,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3421,
-			2483,
+			3034,
+			3155,
 			44,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_shooter_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69282,17 +83654,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3622,
-			1754,
+			3549,
+			3235,
 			44,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_shooter_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69307,17 +83679,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3622,
-			1754,
+			3549,
+			3235,
 			44,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateTower_shooter_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69332,12 +83704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1844,
+			3422,
+			3438,
 			44,
 			42
 		},
@@ -69357,12 +83729,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1844,
+			3422,
+			3438,
 			44,
 			42
 		},
@@ -69382,12 +83754,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3550,
-			2064,
+			3232,
+			3292,
 			46,
 			46
 		},
@@ -69407,12 +83779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3550,
-			2064,
+			3232,
+			3292,
 			46,
 			46
 		},
@@ -69432,17 +83804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			2072,
+			3229,
+			3387,
 			48,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69457,17 +83829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			2072,
+			3229,
+			3387,
 			48,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69482,12 +83854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3552,
-			2112,
+			3280,
+			3288,
 			46,
 			46
 		},
@@ -69507,17 +83879,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69532,17 +83904,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69557,17 +83929,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69582,17 +83954,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69607,17 +83979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69632,17 +84004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69657,17 +84029,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69682,17 +84054,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69707,17 +84079,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69732,17 +84104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateTower_shooter_0070"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69757,17 +84129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			1925,
+			3180,
+			3340,
 			49,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69782,17 +84154,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1888,
+			3081,
+			3627,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69807,17 +84179,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1888,
+			3081,
+			3627,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69832,12 +84204,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3637,
-			1977,
+			3422,
+			3482,
 			44,
 			42
 		},
@@ -69857,17 +84229,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3638,
-			2021,
+			3416,
+			3526,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69882,17 +84254,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69907,17 +84279,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -69932,12 +84304,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -69957,12 +84329,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -69982,17 +84354,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70007,17 +84379,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70032,12 +84404,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -70057,12 +84429,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -70082,17 +84454,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70107,17 +84479,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			1988,
+			3462,
+			3528,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70132,12 +84504,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -70157,12 +84529,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2025,
+			3550,
+			3523,
 			44,
 			42
 		},
@@ -70182,17 +84554,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2034,
+			3441,
+			3572,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70207,12 +84579,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3640,
-			2067,
+			3487,
+			3573,
 			44,
 			42
 		},
@@ -70232,12 +84604,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3686,
-			2067,
+			3487,
+			3617,
 			44,
 			42
 		},
@@ -70257,12 +84629,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3686,
-			2067,
+			3487,
+			3617,
 			44,
 			42
 		},
@@ -70282,12 +84654,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2122,
+			3087,
+			3319,
 			48,
 			39
 		},
@@ -70307,12 +84679,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2697,
-			2626,
+			2841,
+			3532,
 			53,
 			38
 		},
@@ -70332,12 +84704,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2697,
-			2626,
+			2841,
+			3532,
 			53,
 			38
 		},
@@ -70357,12 +84729,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3431,
-			1712,
+			2881,
+			3532,
 			53,
 			38
 		},
@@ -70382,12 +84754,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3431,
-			1712,
+			2881,
+			3532,
 			53,
 			38
 		},
@@ -70407,12 +84779,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3431,
-			1712,
+			2881,
+			3532,
 			53,
 			38
 		},
@@ -70432,17 +84804,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3446,
-			1767,
+			3397,
+			3224,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70457,17 +84829,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3446,
-			1767,
+			3397,
+			3224,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70482,17 +84854,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3446,
-			1767,
+			3397,
+			3224,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70507,12 +84879,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70532,12 +84904,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70557,12 +84929,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70582,17 +84954,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3446,
-			1767,
+			3397,
+			3224,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70607,17 +84979,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3446,
-			1767,
+			3397,
+			3224,
 			53,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70632,12 +85004,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70657,12 +85029,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70682,12 +85054,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2657,
-			2626,
+			3840,
+			2888,
 			54,
 			38
 		},
@@ -70707,17 +85079,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3229,
-			2489,
+			3417,
+			3264,
 			48,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70732,17 +85104,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2172,
+			3379,
+			3314,
 			48,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70757,12 +85129,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3686,
-			2067,
+			3487,
+			3617,
 			44,
 			42
 		},
@@ -70782,12 +85154,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2071,
+			3575,
+			3617,
 			44,
 			42
 		},
@@ -70807,12 +85179,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -70832,17 +85204,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3109,
-			2632,
+			3326,
+			3354,
 			48,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70857,12 +85229,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2488,
+			3088,
+			3369,
 			49,
 			38
 		},
@@ -70882,12 +85254,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2488,
+			3088,
+			3369,
 			49,
 			38
 		},
@@ -70907,12 +85279,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2488,
+			3088,
+			3369,
 			49,
 			38
 		},
@@ -70932,17 +85304,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2729,
-			2145,
+			3567,
+			1788,
 			59,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -70957,12 +85329,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1334,
+			3178,
+			2376,
 			55,
 			82
 		},
@@ -70982,12 +85354,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3162,
-			1334,
+			3178,
+			2376,
 			55,
 			82
 		},
@@ -71007,17 +85379,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2367,
+			3778,
+			1788,
 			68,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71032,17 +85404,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2367,
+			3778,
+			1788,
 			68,
 			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71057,17 +85429,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3100,
-			1539,
+			2709,
+			2616,
 			53,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71082,17 +85454,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3100,
-			1539,
+			2709,
+			2616,
 			53,
 			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71107,12 +85479,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3454,
-			1982,
+			3034,
+			3067,
 			45,
 			37
 		},
@@ -71132,17 +85504,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3698,
-			1714,
+			3620,
+			3025,
 			44,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71157,12 +85529,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -71182,12 +85554,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -71207,12 +85579,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -71232,12 +85604,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -71257,12 +85629,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2080,
+			3568,
+			2979,
 			44,
 			42
 		},
@@ -71282,17 +85654,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1888,
+			3081,
+			3627,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71307,12 +85679,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3637,
-			1977,
+			3422,
+			3482,
 			44,
 			42
 		},
@@ -71332,17 +85704,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3150,
-			2632,
+			3376,
+			3355,
 			48,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71357,17 +85729,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2593,
+			1618,
+			1109,
 			48,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71382,12 +85754,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3090,
-			1498,
+			3337,
+			3224,
 			39,
 			58
 		},
@@ -71407,17 +85779,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			640,
-			1259,
+			2735,
+			3426,
 			43,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71432,17 +85804,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1851,
+			2743,
+			3491,
 			43,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71457,17 +85829,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2437,
+			2774,
+			3587,
 			41,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71482,12 +85854,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1164,
-			2636,
+			2906,
+			2862,
 			44,
 			62
 		},
@@ -71507,17 +85879,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1026,
-			289,
+			2970,
+			2867,
 			40,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0071"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71532,17 +85904,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3290,
-			1947,
+			3840,
+			2825,
 			38,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0072"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71557,12 +85929,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3762,
-			1671,
+			3178,
+			2433,
 			36,
 			58
 		},
@@ -71582,12 +85954,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3730,
-			2242,
+			3835,
+			3519,
 			33,
 			33
 		},
@@ -71607,12 +85979,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3654,
-			1412,
+			3481,
+			3137,
 			3,
 			3
 		},
@@ -71632,17 +86004,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3600,
-			2146,
+			3747,
+			3058,
 			35,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0076"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71657,12 +86029,12 @@ return {
             21
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1901,
-			668,
+			2792,
+			616,
 			16,
 			17
 		},
@@ -71682,17 +86054,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2531,
-			2266,
+			2128,
+			1626,
 			25,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0078"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71707,17 +86079,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3493,
-			1821,
+			3081,
+			3229,
 			39,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0079"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71732,17 +86104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2472,
-			2470,
+			2921,
+			3532,
 			51,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0080"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71757,17 +86129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			2346,
+			3358,
+			2883,
 			60,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0081"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71782,17 +86154,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3497,
-			1873,
+			3076,
+			3270,
 			50,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0082"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71807,12 +86179,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3530,
-			1714,
+			3133,
+			3240,
 			50,
 			47
 		},
@@ -71832,17 +86204,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3533,
-			1763,
+			3185,
+			3242,
 			50,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0084"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71857,17 +86229,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3534,
-			1815,
+			3128,
+			3289,
 			50,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0085"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71882,17 +86254,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3546,
-			1867,
+			3180,
+			3291,
 			50,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0086"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71907,17 +86279,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2117,
+			3653,
+			2975,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0087"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71932,17 +86304,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3635,
-			1888,
+			3081,
+			3627,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0088"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71957,17 +86329,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2126,
+			3574,
+			3025,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0089"] = {
 		a_name = "go_towers_random-0.dds",
@@ -71982,12 +86354,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2122,
+			3087,
+			3319,
 			48,
 			39
 		},
@@ -72007,12 +86379,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2539,
+			3096,
+			3527,
 			49,
 			38
 		},
@@ -72032,12 +86404,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2539,
+			3096,
+			3527,
 			49,
 			38
 		},
@@ -72057,12 +86429,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2539,
+			3096,
+			3527,
 			49,
 			38
 		},
@@ -72082,17 +86454,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2513,
+			3328,
+			3314,
 			49,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0094"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72107,17 +86479,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2476,
-			2625,
+			3310,
+			3090,
 			55,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0095"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72132,17 +86504,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2476,
-			2625,
+			3310,
+			3090,
 			55,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0096"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72157,12 +86529,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3652,
-			1672,
+			3367,
+			3092,
 			55,
 			40
 		},
@@ -72182,12 +86554,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3652,
-			1672,
+			3367,
+			3092,
 			55,
 			40
 		},
@@ -72207,12 +86579,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3279,
-			2489,
+			3507,
+			3194,
 			47,
 			39
 		},
@@ -72232,12 +86604,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3279,
-			2489,
+			3507,
+			3194,
 			47,
 			39
 		},
@@ -72257,17 +86629,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2126,
+			3574,
+			3025,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0101"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72282,17 +86654,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2163,
+			3700,
+			3018,
 			44,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0102"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72307,12 +86679,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			2171,
+			3281,
+			3336,
 			43,
 			47
 		},
@@ -72332,12 +86704,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3454,
-			1930,
+			3052,
+			3445,
 			44,
 			50
 		},
@@ -72357,17 +86729,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3018,
-			2632,
+			3231,
+			3340,
 			45,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_0105"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72382,12 +86754,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3182,
-			2483,
+			3457,
+			3234,
 			45,
 			45
 		},
@@ -72407,17 +86779,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2465,
+			3546,
+			3281,
 			46,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_0107"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72432,17 +86804,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3142,
-			2465,
+			3546,
+			3281,
 			46,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottle"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72457,17 +86829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			275,
-			2531,
+			2107,
+			2695,
 			16,
 			20
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottleHit_big_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72482,17 +86854,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3462,
-			2424,
+			3367,
+			2995,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72507,17 +86879,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3462,
-			2424,
+			3367,
+			2995,
 			49,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72532,12 +86904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2236,
+			3657,
+			2109,
 			69,
 			63
 		},
@@ -72557,12 +86929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2286,
-			2236,
+			3657,
+			2109,
 			69,
 			63
 		},
@@ -72582,17 +86954,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3495,
-			1265,
+			2528,
+			2615,
 			80,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72607,17 +86979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3495,
-			1265,
+			2528,
+			2615,
 			80,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72632,17 +87004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3331,
-			1264,
+			3498,
+			1661,
 			80,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72657,17 +87029,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3331,
-			1264,
+			3498,
+			1661,
 			80,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72682,17 +87054,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3496,
-			1338,
+			3573,
+			1651,
 			80,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72707,17 +87079,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3496,
-			1338,
+			3573,
+			1651,
 			80,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72732,17 +87104,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1571,
-			2458,
+			3702,
+			1639,
 			79,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72757,17 +87129,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1571,
-			2458,
+			3702,
+			1639,
 			79,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_big_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72782,12 +87154,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2801,
-			1539,
+			3016,
+			2306,
 			68,
 			75
 		},
@@ -72807,12 +87179,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2801,
-			1539,
+			3016,
+			2306,
 			68,
 			75
 		},
@@ -72832,12 +87204,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2248,
+			3519,
+			1975,
 			65,
 			72
 		},
@@ -72857,12 +87229,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2248,
+			3519,
+			1975,
 			65,
 			72
 		},
@@ -72882,12 +87254,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3636,
-			1932,
+			3468,
+			3439,
 			43,
 			43
 		},
@@ -72907,12 +87279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3636,
-			1932,
+			3468,
+			3439,
 			43,
 			43
 		},
@@ -72932,17 +87304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1987,
+			2724,
+			3113,
 			59,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_small_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72957,17 +87329,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3159,
-			1987,
+			2724,
+			3113,
 			59,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_bottleHit_small_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -72982,12 +87354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2418,
-			2366,
+			3722,
+			2399,
 			68,
 			58
 		},
@@ -73007,12 +87379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2418,
-			2366,
+			3722,
+			2399,
 			68,
 			58
 		},
@@ -73032,12 +87404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2218,
-			2433,
+			3592,
+			2283,
 			68,
 			60
 		},
@@ -73057,12 +87429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2218,
-			2433,
+			3592,
+			2283,
 			68,
 			60
 		},
@@ -73082,12 +87454,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2351,
-			2304,
+			3722,
+			2282,
 			68,
 			60
 		},
@@ -73107,12 +87479,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2351,
-			2304,
+			3722,
+			2282,
 			68,
 			60
 		},
@@ -73132,17 +87504,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3790,
-			1348,
+			2641,
+			2608,
 			66,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottleHit_small_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73157,17 +87529,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3790,
-			1348,
+			2641,
+			2608,
 			66,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottleHit_small_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73182,17 +87554,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1793,
+			3727,
+			2043,
 			58,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottleHit_small_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73207,17 +87579,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1793,
+			3727,
+			2043,
 			58,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_bottleHit_small_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73232,12 +87604,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3053,
-			2030,
+			3301,
+			2818,
 			55,
 			60
 		},
@@ -73257,12 +87629,12 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3053,
-			2030,
+			3301,
+			2818,
 			55,
 			60
 		},
@@ -73282,17 +87654,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1684,
-			1847,
+			2167,
+			1626,
 			25,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_hitFx_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73307,17 +87679,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1684,
-			1847,
+			2167,
+			1626,
 			25,
 			24
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_hitFx_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73332,12 +87704,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3557,
-			2209,
+			3837,
+			3445,
 			39,
 			37
 		},
@@ -73357,12 +87729,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3557,
-			2209,
+			3837,
+			3445,
 			39,
 			37
 		},
@@ -73382,12 +87754,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2183,
+			3837,
+			3319,
 			40,
 			40
 		},
@@ -73407,12 +87779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2183,
+			3837,
+			3319,
 			40,
 			40
 		},
@@ -73432,12 +87804,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2225,
+			3837,
+			3361,
 			40,
 			40
 		},
@@ -73457,12 +87829,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2225,
+			3837,
+			3361,
 			40,
 			40
 		},
@@ -73482,17 +87854,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3191,
-			2655,
+			2636,
+			3587,
 			25,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_hitFx_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73507,17 +87879,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3191,
-			2655,
+			2636,
+			3587,
 			25,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroom"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73532,12 +87904,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3824,
-			1627,
+			3052,
+			3497,
 			28,
 			27
 		},
@@ -73557,12 +87929,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			772,
-			182,
+			2257,
+			2935,
 			97,
 			32
 		},
@@ -73582,12 +87954,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2746,
-			1116,
+			1937,
+			1854,
 			111,
 			80
 		},
@@ -73607,12 +87979,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2746,
-			1116,
+			1937,
+			1854,
 			111,
 			80
 		},
@@ -73632,17 +88004,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3493,
-			787,
+			3300,
+			1152,
 			123,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73657,17 +88029,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3493,
-			787,
+			3300,
+			1152,
 			123,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73682,17 +88054,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1745,
-			848,
+			2929,
+			634,
 			143,
 			119
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_mushroomHit_big_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73707,17 +88079,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1745,
-			848,
+			2929,
+			634,
 			143,
 			119
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_mushroomHit_big_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73732,17 +88104,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			828,
+			2802,
+			1085,
 			131,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73757,17 +88129,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			828,
+			2802,
+			1085,
 			131,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73782,17 +88154,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			291,
+			2565,
+			1084,
 			130,
 			135
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73807,17 +88179,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			291,
+			2565,
+			1084,
 			130,
 			135
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73832,12 +88204,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			448,
-			740,
+			3304,
+			529,
 			121,
 			128
 		},
@@ -73857,12 +88229,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			448,
-			740,
+			3304,
+			529,
 			121,
 			128
 		},
@@ -73882,17 +88254,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			609,
-			575,
+			554,
+			199,
 			116,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_mushroomHit_big_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73907,17 +88279,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			609,
-			575,
+			554,
+			199,
 			116,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_mushroomHit_big_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73932,17 +88304,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3014,
-			791,
+			2696,
+			1354,
 			112,
 			128
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_mushroomHit_big_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73957,17 +88329,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			354,
+			2909,
+			1599,
 			42,
 			23
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -73982,12 +88354,12 @@ return {
             29
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			1885,
+			2648,
+			2854,
 			65,
 			58
 		},
@@ -74007,12 +88379,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2136,
-			1287,
+			3799,
+			1289,
 			79,
 			85
 		},
@@ -74032,12 +88404,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2136,
-			1287,
+			3799,
+			1289,
 			79,
 			85
 		},
@@ -74057,17 +88429,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2204,
-			961,
+			721,
+			2992,
 			107,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74082,17 +88454,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2204,
-			961,
+			721,
+			2992,
 			107,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74107,12 +88479,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2060,
-			838,
+			2445,
+			1249,
 			126,
 			119
 		},
@@ -74132,12 +88504,12 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2060,
-			838,
+			2445,
+			1249,
 			126,
 			119
 		},
@@ -74157,17 +88529,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			559,
-			2406,
+			2566,
+			1221,
 			131,
 			123
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74182,17 +88554,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			559,
-			2406,
+			2566,
+			1221,
 			131,
 			123
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74207,17 +88579,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2935,
-			199,
+			2184,
+			1240,
 			133,
 			126
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_polymorph_smoke_big_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74232,17 +88604,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2935,
-			199,
+			2184,
+			1240,
 			133,
 			126
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_teleport_big_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74257,12 +88629,12 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2223,
+			3497,
+			1777,
 			68,
 			70
 		},
@@ -74282,12 +88654,12 @@ return {
             33
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2223,
+			3497,
+			1777,
 			68,
 			70
 		},
@@ -74307,12 +88679,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1808,
-			2441,
+			2367,
+			2412,
 			89,
 			90
 		},
@@ -74332,12 +88704,12 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1808,
-			2441,
+			2367,
+			2412,
 			89,
 			90
 		},
@@ -74357,12 +88729,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1500,
-			1256,
+			741,
+			3457,
 			97,
 			113
 		},
@@ -74382,12 +88754,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1500,
-			1256,
+			741,
+			3457,
 			97,
 			113
 		},
@@ -74407,12 +88779,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1512,
-			1487,
+			1012,
+			3564,
 			105,
 			107
 		},
@@ -74432,12 +88804,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1512,
-			1487,
+			1012,
+			3564,
 			105,
 			107
 		},
@@ -74457,17 +88829,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1281,
-			1750,
+			3586,
+			1466,
 			103,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_teleport_big_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74482,17 +88854,17 @@ return {
             27
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1281,
-			1750,
+			3586,
+			1466,
 			103,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_teleport_small_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74507,12 +88879,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2527,
-			2471,
+			3456,
+			2997,
 			50,
 			52
 		},
@@ -74532,12 +88904,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2527,
-			2471,
+			3456,
+			2997,
 			50,
 			52
 		},
@@ -74557,12 +88929,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			2366,
+			3586,
+			2164,
 			65,
 			65
 		},
@@ -74582,12 +88954,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			2366,
+			3586,
+			2164,
 			65,
 			65
 		},
@@ -74607,17 +88979,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3247,
-			1264,
+			2529,
+			2697,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_teleport_small_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74632,17 +89004,17 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3247,
-			1264,
+			2529,
+			2697,
 			70,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pixie_teleport_small_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74657,12 +89029,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			1530,
+			3483,
+			1581,
 			76,
 			78
 		},
@@ -74682,12 +89054,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			1530,
+			3483,
+			1581,
 			76,
 			78
 		},
@@ -74707,17 +89079,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1682,
+			2628,
+			3437,
 			74,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_teleport_small_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74732,17 +89104,17 @@ return {
             13
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1682,
+			2628,
+			3437,
 			74,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pixie_tower"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74757,12 +89129,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			540,
-			2231,
+			1072,
+			1730,
 			173,
 			147
 		},
@@ -74782,17 +89154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74807,17 +89179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74832,17 +89204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74857,17 +89229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1398,
-			2533,
+			3166,
+			1653,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74882,17 +89254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1398,
-			2533,
+			3166,
+			1653,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74907,17 +89279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1398,
-			2533,
+			3166,
+			1653,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74932,17 +89304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1635,
-			2358,
+			893,
+			2718,
 			85,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74957,17 +89329,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1635,
-			2358,
+			893,
+			2718,
 			85,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -74982,17 +89354,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1635,
-			2358,
+			893,
+			2718,
 			85,
 			98
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75007,12 +89379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1722,
-			2353,
+			3065,
+			1982,
 			84,
 			98
 		},
@@ -75032,12 +89404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1722,
-			2353,
+			3065,
+			1982,
 			84,
 			98
 		},
@@ -75057,12 +89429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1722,
-			2353,
+			3065,
+			1982,
 			84,
 			98
 		},
@@ -75082,12 +89454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1730,
-			2533,
+			3151,
+			1982,
 			84,
 			98
 		},
@@ -75107,12 +89479,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1730,
-			2533,
+			3151,
+			1982,
 			84,
 			98
 		},
@@ -75132,12 +89504,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1730,
-			2533,
+			3151,
+			1982,
 			84,
 			98
 		},
@@ -75157,17 +89529,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1708,
-			2151,
+			3267,
+			1660,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75182,17 +89554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1708,
-			2151,
+			3267,
+			1660,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75207,17 +89579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1708,
-			2151,
+			3267,
+			1660,
 			84,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75232,17 +89604,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75257,17 +89629,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75282,17 +89654,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75307,17 +89679,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75332,17 +89704,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1588,
-			2533,
+			3382,
+			1574,
 			85,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75357,17 +89729,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1168,
-			1862,
+			3683,
+			1494,
 			85,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75382,17 +89754,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1168,
-			1862,
+			3683,
+			1494,
 			85,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75407,17 +89779,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			1649,
+			1184,
+			3216,
 			85,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75432,17 +89804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			1649,
+			1184,
+			3216,
 			85,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75457,17 +89829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1596,
+			1188,
+			3332,
 			85,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75482,17 +89854,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1596,
+			1188,
+			3332,
 			85,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75507,12 +89879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1721,
-			1097,
+			3300,
+			1065,
 			85,
 			125
 		},
@@ -75532,12 +89904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1721,
-			1097,
+			3300,
+			1065,
 			85,
 			125
 		},
@@ -75557,17 +89929,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1184,
+			546,
+			2990,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75582,17 +89954,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1184,
+			546,
+			2990,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75607,17 +89979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1184,
+			546,
+			2990,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75632,17 +90004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1184,
+			546,
+			2990,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75657,12 +90029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			1525,
+			551,
+			3115,
 			85,
 			123
 		},
@@ -75682,12 +90054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			1525,
+			551,
+			3115,
 			85,
 			123
 		},
@@ -75707,12 +90079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			1525,
+			551,
+			3115,
 			85,
 			123
 		},
@@ -75732,12 +90104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1088,
-			1525,
+			551,
+			3115,
 			85,
 			123
 		},
@@ -75757,12 +90129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1366,
+			633,
+			2978,
 			86,
 			122
 		},
@@ -75782,12 +90154,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1366,
+			633,
+			2978,
 			86,
 			122
 		},
@@ -75807,12 +90179,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1366,
+			633,
+			2978,
 			86,
 			122
 		},
@@ -75832,17 +90204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1606,
+			558,
+			3240,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75857,17 +90229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1606,
+			558,
+			3240,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75882,17 +90254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1606,
+			558,
+			3240,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75907,17 +90279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1184,
+			546,
+			2990,
 			85,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75932,17 +90304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1500,
-			1146,
+			1300,
+			3474,
 			88,
 			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75957,17 +90329,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1500,
-			1146,
+			1300,
+			3474,
 			88,
 			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -75982,17 +90354,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1261,
-			2072,
+			1831,
+			3476,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76007,17 +90379,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1261,
-			2072,
+			1831,
+			3476,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76032,12 +90404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			640,
+			1815,
+			1582,
 			87,
 			148
 		},
@@ -76057,12 +90429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			640,
+			1815,
+			1582,
 			87,
 			148
 		},
@@ -76082,12 +90454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			696,
-			2048,
+			3213,
+			775,
 			85,
 			155
 		},
@@ -76107,12 +90479,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			696,
-			2048,
+			3213,
+			775,
 			85,
 			155
 		},
@@ -76132,12 +90504,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			482,
+			1050,
+			1443,
 			87,
 			156
 		},
@@ -76157,12 +90529,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			727,
-			482,
+			1050,
+			1443,
 			87,
 			156
 		},
@@ -76182,17 +90554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1433,
-			821,
+			492,
+			2717,
 			88,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76207,17 +90579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1433,
-			821,
+			492,
+			2717,
 			88,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76232,12 +90604,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2064,
-			512,
+			1815,
+			1426,
 			88,
 			154
 		},
@@ -76257,12 +90629,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2064,
-			512,
+			1815,
+			1426,
 			88,
 			154
 		},
@@ -76282,12 +90654,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2264,
-			1734,
+			2080,
+			2164,
 			85,
 			101
 		},
@@ -76307,12 +90679,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2264,
-			1734,
+			2080,
+			2164,
 			85,
 			101
 		},
@@ -76332,12 +90704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1362,
-			2152,
+			1844,
+			2474,
 			85,
 			102
 		},
@@ -76357,12 +90729,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1362,
-			2152,
+			1844,
+			2474,
 			85,
 			102
 		},
@@ -76382,12 +90754,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2132,
-			1185,
+			2075,
+			2841,
 			85,
 			100
 		},
@@ -76407,17 +90779,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3830,
-			1657,
+			344,
+			757,
 			35,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_bolt_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76432,17 +90804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2233,
+			3837,
+			3403,
 			39,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_bolt_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76457,17 +90829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2233,
+			3837,
+			3403,
 			39,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_bolt_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76482,17 +90854,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2233,
+			3837,
+			3403,
 			39,
 			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_bolt_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76507,12 +90879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2249,
+			721,
+			2954,
 			36,
 			40
 		},
@@ -76532,12 +90904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2249,
+			721,
+			2954,
 			36,
 			40
 		},
@@ -76557,12 +90929,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3807,
-			2253,
+			3660,
+			3067,
 			38,
 			38
 		},
@@ -76582,12 +90954,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3807,
-			2253,
+			3660,
+			3067,
 			38,
 			38
 		},
@@ -76607,12 +90979,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2102,
+			3513,
+			3421,
 			31,
 			33
 		},
@@ -76632,12 +91004,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			2294,
+			3844,
+			2562,
 			34,
 			68
 		},
@@ -76657,17 +91029,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2939,
-			2364,
+			2719,
+			2580,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76682,12 +91054,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2970,
-			1608,
+			2686,
+			2957,
 			34,
 			68
 		},
@@ -76707,17 +91079,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1504,
+			2862,
+			2408,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76732,17 +91104,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1574,
+			2861,
+			2444,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76757,17 +91129,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1644,
+			2847,
+			2645,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76782,17 +91154,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2970,
-			1748,
+			3083,
+			2471,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76807,12 +91179,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1935,
+			2917,
+			2660,
 			34,
 			68
 		},
@@ -76832,17 +91204,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2900,
-			2089,
+			2777,
+			2634,
 			36,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76857,17 +91229,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2322,
-			2503,
+			2790,
+			2439,
 			38,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76882,17 +91254,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2292,
-			1919,
+			1903,
+			2434,
 			38,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76907,12 +91279,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2385,
-			2263,
+			3706,
+			1857,
 			39,
 			71
 		},
@@ -76932,17 +91304,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2489,
-			2304,
+			2977,
+			2700,
 			39,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76957,17 +91329,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3006,
-			1607,
+			3060,
+			2507,
 			39,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -76982,17 +91354,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2280,
-			2433,
+			3047,
+			2709,
 			38,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77007,12 +91379,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			1678,
+			3098,
+			2749,
 			37,
 			68
 		},
@@ -77032,17 +91404,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			571,
-			740,
+			3417,
+			2431,
 			36,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77057,17 +91429,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2558,
-			2334,
+			2687,
+			3114,
 			35,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77082,12 +91454,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2234,
-			2608,
+			3844,
+			2346,
 			34,
 			72
 		},
@@ -77107,12 +91479,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			2383,
+			3844,
+			2271,
 			34,
 			73
 		},
@@ -77132,12 +91504,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			2231,
+			2682,
+			3361,
 			34,
 			74
 		},
@@ -77157,17 +91529,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			2042,
+			3483,
+			2159,
 			34,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77182,12 +91554,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			276,
-			2495,
+			2719,
+			2361,
 			34,
 			76
 		},
@@ -77207,12 +91579,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2641,
-			2248,
+			2563,
+			3041,
 			34,
 			76
 		},
@@ -77232,17 +91604,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			1950,
+			2653,
+			3207,
 			34,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77257,17 +91629,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1971,
+			3137,
+			2749,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77282,17 +91654,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3290,
-			1987,
+			3332,
+			2532,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77307,17 +91679,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			2007,
+			3332,
+			2602,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77332,17 +91704,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3290,
-			2023,
+			3368,
+			2532,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77357,17 +91729,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3281,
-			2059,
+			3368,
+			2602,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77382,12 +91754,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3351,
-			1714,
+			3618,
+			2520,
 			34,
 			68
 		},
@@ -77407,17 +91779,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3084,
-			2284,
+			3770,
+			2755,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77432,12 +91804,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2936,
-			2223,
+			3844,
+			2420,
 			34,
 			69
 		},
@@ -77457,17 +91829,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2458,
-			2266,
+			2684,
+			3041,
 			36,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77482,12 +91854,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2514,
+			2518,
+			2917,
 			38,
 			71
 		},
@@ -77507,12 +91879,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2930,
-			1749,
+			3840,
+			2755,
 			38,
 			68
 		},
@@ -77532,12 +91904,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3006,
-			1736,
+			3670,
+			2578,
 			39,
 			68
 		},
@@ -77557,12 +91929,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			2089,
+			3670,
+			2648,
 			39,
 			68
 		},
@@ -77582,12 +91954,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3285,
-			1853,
+			3770,
+			2791,
 			39,
 			68
 		},
@@ -77607,17 +91979,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2320,
-			2431,
+			2719,
+			2397,
 			38,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77632,12 +92004,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2874,
-			1609,
+			2735,
+			3587,
 			37,
 			71
 		},
@@ -77657,17 +92029,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2196,
-			2608,
+			2552,
+			2427,
 			36,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77682,17 +92054,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			2458,
+			3095,
+			2434,
 			35,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77707,12 +92079,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			2307,
+			2699,
+			3437,
 			34,
 			74
 		},
@@ -77732,17 +92104,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			2053,
+			3844,
+			2194,
 			34,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77757,17 +92129,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3227,
-			1468,
+			3844,
+			2038,
 			34,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77782,17 +92154,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3305,
-			1468,
+			3483,
+			2081,
 			34,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded2_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77807,12 +92179,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2864,
-			2089,
+			3844,
+			2116,
 			34,
 			76
 		},
@@ -77832,12 +92204,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2938,
-			2294,
+			3844,
+			2562,
 			34,
 			68
 		},
@@ -77857,17 +92229,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2939,
-			2364,
+			2719,
+			2580,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77882,12 +92254,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2970,
-			1608,
+			2686,
+			2957,
 			34,
 			68
 		},
@@ -77907,17 +92279,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1504,
+			2862,
+			2408,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77932,17 +92304,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1574,
+			2861,
+			2444,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77957,17 +92329,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3348,
-			1644,
+			2847,
+			2645,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -77982,17 +92354,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2970,
-			1748,
+			3083,
+			2471,
 			34,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78007,12 +92379,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1935,
+			2917,
+			2660,
 			34,
 			68
 		},
@@ -78032,17 +92404,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2900,
-			2089,
+			2777,
+			2634,
 			36,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78057,17 +92429,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2322,
-			2503,
+			2790,
+			2439,
 			38,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78082,17 +92454,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2292,
-			1919,
+			1903,
+			2434,
 			38,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78107,12 +92479,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2385,
-			2263,
+			3706,
+			1857,
 			39,
 			71
 		},
@@ -78132,17 +92504,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2489,
-			2304,
+			2977,
+			2700,
 			39,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78157,17 +92529,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3006,
-			1607,
+			3060,
+			2507,
 			39,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78182,17 +92554,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2280,
-			2433,
+			3047,
+			2709,
 			38,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded2_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78207,12 +92579,12 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2967,
-			1678,
+			3098,
+			2749,
 			37,
 			68
 		},
@@ -78232,17 +92604,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			571,
-			740,
+			3417,
+			2431,
 			36,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78257,12 +92629,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2619,
-			2002,
+			2634,
+			2957,
 			82,
 			50
 		},
@@ -78282,12 +92654,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2619,
-			2002,
+			2634,
+			2957,
 			82,
 			50
 		},
@@ -78307,12 +92679,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2619,
-			2002,
+			2634,
+			2957,
 			82,
 			50
 		},
@@ -78332,12 +92704,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			1423,
+			3519,
+			1899,
 			74,
 			51
 		},
@@ -78357,12 +92729,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			1423,
+			3519,
+			1899,
 			74,
 			51
 		},
@@ -78382,12 +92754,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3029,
-			1423,
+			3519,
+			1899,
 			74,
 			51
 		},
@@ -78407,12 +92779,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2620,
-			2086,
+			2473,
+			3041,
 			77,
 			50
 		},
@@ -78432,12 +92804,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2620,
-			2086,
+			2473,
+			3041,
 			77,
 			50
 		},
@@ -78457,12 +92829,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2620,
-			2086,
+			2473,
+			3041,
 			77,
 			50
 		},
@@ -78482,17 +92854,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2191,
-			2533,
+			2555,
+			2390,
 			73,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78507,17 +92879,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2191,
-			2533,
+			2555,
+			2390,
 			73,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78532,17 +92904,17 @@ return {
             15
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2191,
-			2533,
+			2555,
+			2390,
 			73,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78557,12 +92929,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2270,
-			2608,
+			3848,
+			1792,
 			72,
 			30
 		},
@@ -78582,12 +92954,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2270,
-			2608,
+			3848,
+			1792,
 			72,
 			30
 		},
@@ -78607,12 +92979,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2953,
-			1427,
+			3848,
+			1715,
 			75,
 			30
 		},
@@ -78632,17 +93004,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2573,
-			1296,
+			2454,
+			2860,
 			87,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78657,17 +93029,17 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2573,
-			1296,
+			2454,
+			2860,
 			87,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78682,12 +93054,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1967,
-			1944,
+			3463,
+			1756,
 			91,
 			32
 		},
@@ -78707,17 +93079,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2466,
-			2231,
+			3484,
+			1985,
 			90,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78732,17 +93104,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2466,
-			2231,
+			3484,
+			1985,
 			90,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loaded_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78757,12 +93129,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2591,
-			1193,
+			2412,
+			2783,
 			90,
 			40
 		},
@@ -78782,17 +93154,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2559,
-			1697,
+			2453,
+			2574,
 			89,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78807,17 +93179,17 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2559,
-			1697,
+			2453,
+			2574,
 			89,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loaded_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78832,12 +93204,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1737,
-			2633,
+			2364,
+			2566,
 			87,
 			47
 		},
@@ -78857,12 +93229,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2608,
-			1285,
+			2365,
+			3535,
 			87,
 			50
 		},
@@ -78882,12 +93254,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2608,
-			1285,
+			2365,
+			3535,
 			87,
 			50
 		},
@@ -78907,12 +93279,12 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3784,
-			1709,
+			3300,
+			3482,
 			43,
 			39
 		},
@@ -78932,17 +93304,17 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2172,
+			3577,
+			3098,
 			39,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loading_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78957,17 +93329,17 @@ return {
             82
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2152,
+			3589,
+			3190,
 			39,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loading_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -78982,17 +93354,17 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3102,
-			2590,
+			3716,
+			3529,
 			38,
 			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_magicBlosom_loading_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79007,12 +93379,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3467,
-			2222,
+			3848,
+			3589,
 			26,
 			29
 		},
@@ -79032,17 +93404,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			2121,
+			3457,
+			3190,
 			48,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loading_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79057,17 +93429,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3508,
-			2121,
+			3457,
+			3190,
 			48,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loading_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79082,12 +93454,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3328,
-			2489,
+			3546,
+			3320,
 			46,
 			41
 		},
@@ -79107,12 +93479,12 @@ return {
             86
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3328,
-			2489,
+			3546,
+			3320,
 			46,
 			41
 		},
@@ -79132,12 +93504,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2376,
-			1695,
+			3810,
+			3554,
 			30,
 			34
 		},
@@ -79157,12 +93529,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2376,
-			1695,
+			3810,
+			3554,
 			30,
 			34
 		},
@@ -79182,12 +93554,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2376,
-			1695,
+			3810,
+			3554,
 			30,
 			34
 		},
@@ -79207,12 +93579,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3622,
-			1713,
+			3842,
+			3554,
 			26,
 			33
 		},
@@ -79232,12 +93604,12 @@ return {
             84
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3622,
-			1713,
+			3842,
+			3554,
 			26,
 			33
 		},
@@ -79257,17 +93629,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1451,
-			1724,
+			2712,
+			2919,
 			24,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_loading_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79282,17 +93654,17 @@ return {
             85
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1451,
-			1724,
+			2712,
+			2919,
 			24,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_magicBlosom_particle"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79307,17 +93679,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1292,
-			154,
+			1989,
+			2541,
 			33,
 			23
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79332,12 +93704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -79357,17 +93729,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			840,
-			1736,
+			551,
+			3584,
 			128,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79382,17 +93754,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			840,
-			1736,
+			551,
+			3584,
 			128,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79407,12 +93779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			1064,
+			3427,
+			1076,
 			129,
 			85
 		},
@@ -79432,12 +93804,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			1064,
+			3427,
+			1076,
 			129,
 			85
 		},
@@ -79457,12 +93829,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			792,
+			3425,
+			1163,
 			130,
 			83
 		},
@@ -79482,12 +93854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			792,
+			3425,
+			1163,
 			130,
 			83
 		},
@@ -79507,17 +93879,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2804,
-			499,
+			3065,
+			1118,
 			123,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79532,17 +93904,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2804,
-			499,
+			3065,
+			1118,
 			123,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79557,12 +93929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			856,
-			1313,
+			2695,
+			1484,
 			123,
 			109
 		},
@@ -79582,12 +93954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			856,
-			1313,
+			2695,
+			1484,
 			123,
 			109
 		},
@@ -79607,17 +93979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3733,
-			551,
+			2318,
+			1372,
 			125,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79632,17 +94004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3733,
-			551,
+			2318,
+			1372,
 			125,
 			118
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79657,12 +94029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3273,
-			792,
+			2802,
+			1219,
 			126,
 			126
 		},
@@ -79682,12 +94054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3273,
-			792,
+			2802,
+			1219,
 			126,
 			126
 		},
@@ -79707,17 +94079,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			663,
+			1380,
+			2778,
 			127,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79732,17 +94104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			663,
+			1380,
+			2778,
 			127,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79757,12 +94129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			876,
-			856,
+			3555,
+			797,
 			128,
 			137
 		},
@@ -79782,12 +94154,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			876,
-			856,
+			3555,
+			797,
 			128,
 			137
 		},
@@ -79807,17 +94179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1611,
-			698,
+			1379,
+			2355,
 			128,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79832,17 +94204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1611,
-			698,
+			1379,
+			2355,
 			128,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79857,17 +94229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1246,
-			926,
+			1368,
+			2224,
 			129,
 			143
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79882,17 +94254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1246,
-			926,
+			1368,
+			2224,
 			129,
 			143
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -79907,12 +94279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1240,
-			780,
+			3557,
+			927,
 			129,
 			144
 		},
@@ -79932,12 +94304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1240,
-			780,
+			3557,
+			927,
 			129,
 			144
 		},
@@ -79957,12 +94329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			310,
-			2531,
+			3066,
+			905,
 			126,
 			149
 		},
@@ -79982,12 +94354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			310,
-			2531,
+			3066,
+			905,
 			126,
 			149
 		},
@@ -80007,12 +94379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1015,
-			787,
+			3429,
+			774,
 			124,
 			151
 		},
@@ -80032,12 +94404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1015,
-			787,
+			3429,
+			774,
 			124,
 			151
 		},
@@ -80057,12 +94429,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			647,
-			1838,
+			2936,
+			779,
 			123,
 			152
 		},
@@ -80082,12 +94454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			647,
-			1838,
+			2936,
+			779,
 			123,
 			152
 		},
@@ -80107,17 +94479,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			423,
+			1509,
+			2360,
 			126,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80132,17 +94504,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3611,
-			423,
+			1509,
+			2360,
 			126,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80157,17 +94529,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2908,
-			577,
+			753,
+			1098,
 			156,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80182,17 +94554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2908,
-			577,
+			753,
+			1098,
 			156,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80207,12 +94579,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80232,12 +94604,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80257,17 +94629,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80282,17 +94654,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80307,12 +94679,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80332,12 +94704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80357,17 +94729,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80382,17 +94754,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80407,12 +94779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80432,12 +94804,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			635,
-			812,
+			2459,
+			332,
 			176,
 			85
 		},
@@ -80457,17 +94829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80482,17 +94854,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			769,
+			2858,
+			329,
 			173,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80507,17 +94879,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			879,
+			2094,
+			1269,
 			135,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80532,17 +94904,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			879,
+			2094,
+			1269,
 			135,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80557,12 +94929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -80582,12 +94954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -80607,17 +94979,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1172,
-			1282,
+			3425,
+			1248,
 			122,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80632,17 +95004,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1172,
-			1282,
+			3425,
+			1248,
 			122,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80657,12 +95029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -80682,12 +95054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -80707,12 +95079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -80732,17 +95104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			1088,
+			1996,
+			1300,
 			124,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80757,17 +95129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			1088,
+			1996,
+			1300,
 			124,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80782,17 +95154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1147,
-			936,
+			3427,
+			675,
 			152,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80807,17 +95179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1147,
-			936,
+			3427,
+			675,
 			152,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80832,17 +95204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			640,
-			1092,
+			3010,
+			404,
 			165,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80857,17 +95229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			640,
-			1092,
+			3010,
+			404,
 			165,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80882,17 +95254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			724,
-			986,
+			3581,
+			415,
 			156,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80907,17 +95279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			724,
-			986,
+			3581,
+			415,
 			156,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -80932,12 +95304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			599,
-			2531,
+			354,
+			3299,
 			148,
 			103
 		},
@@ -80957,12 +95329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			599,
-			2531,
+			354,
+			3299,
 			148,
 			103
 		},
@@ -80982,12 +95354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			162,
+			2697,
+			1084,
 			136,
 			103
 		},
@@ -81007,12 +95379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			162,
+			2697,
+			1084,
 			136,
 			103
 		},
@@ -81032,17 +95404,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3722,
-			800,
+			443,
+			2990,
 			129,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0070"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81057,17 +95429,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3722,
-			800,
+			443,
+			2990,
 			129,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0071"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81082,17 +95454,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			845,
-			1424,
+			450,
+			3121,
 			128,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0072"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81107,17 +95479,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			845,
-			1424,
+			450,
+			3121,
 			128,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0073"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81132,12 +95504,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			1151,
+			3300,
+			1251,
 			123,
 			97
 		},
@@ -81157,12 +95529,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			1151,
+			3300,
+			1251,
 			123,
 			97
 		},
@@ -81182,17 +95554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			1088,
+			1996,
+			1300,
 			124,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0076"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81207,17 +95579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			1088,
+			1996,
+			1300,
 			124,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_0077"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81232,12 +95604,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -81257,12 +95629,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			692,
-			2435,
+			3558,
+			1073,
 			125,
 			94
 		},
@@ -81282,12 +95654,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			551,
+			2174,
+			1112,
 			126,
 			139
 		},
@@ -81307,12 +95679,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			551,
+			2174,
+			1112,
 			126,
 			139
 		},
@@ -81332,12 +95704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1735,
-			969,
+			1238,
+			2778,
 			126,
 			140
 		},
@@ -81357,12 +95729,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1735,
-			969,
+			1238,
+			2778,
 			126,
 			140
 		},
@@ -81382,12 +95754,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1377,
-			911,
+			1509,
+			2599,
 			127,
 			140
 		},
@@ -81407,12 +95779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1377,
-			911,
+			1509,
+			2599,
 			127,
 			140
 		},
@@ -81432,17 +95804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3606,
-			162,
+			1867,
+			1160,
 			127,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0086"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81457,17 +95829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3606,
-			162,
+			1867,
+			1160,
 			127,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_0087"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81482,12 +95854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1377,
-			911,
+			1509,
+			2599,
 			127,
 			140
 		},
@@ -81507,12 +95879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1377,
-			911,
+			1509,
+			2599,
 			127,
 			140
 		},
@@ -81532,12 +95904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1735,
-			969,
+			1238,
+			2778,
 			126,
 			140
 		},
@@ -81557,12 +95929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1735,
-			969,
+			1238,
+			2778,
 			126,
 			140
 		},
@@ -81582,12 +95954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			551,
+			2174,
+			1112,
 			126,
 			139
 		},
@@ -81607,12 +95979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			551,
+			2174,
+			1112,
 			126,
 			139
 		},
@@ -81632,17 +96004,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			2516,
+			2075,
+			3258,
 			30,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_particles_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81657,17 +96029,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2645,
-			2516,
+			2075,
+			3258,
 			30,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_particles_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81682,12 +96054,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2137,
+			3513,
+			3456,
 			33,
 			31
 		},
@@ -81707,12 +96079,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2137,
+			3513,
+			3456,
 			33,
 			31
 		},
@@ -81732,12 +96104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2237,
-			460,
+			3055,
+			1577,
 			27,
 			33
 		},
@@ -81757,12 +96129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2237,
-			460,
+			3055,
+			1577,
 			27,
 			33
 		},
@@ -81782,17 +96154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1325,
-			2178,
+			268,
+			1491,
 			28,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_particles_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81807,17 +96179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1325,
-			2178,
+			268,
+			1491,
 			28,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_particles_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -81832,12 +96204,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1122,
-			1282,
+			2064,
+			1269,
 			28,
 			29
 		},
@@ -81857,12 +96229,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1122,
-			1282,
+			2064,
+			1269,
 			28,
 			29
 		},
@@ -81882,12 +96254,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2953,
-			1504,
+			3816,
+			3590,
 			33,
 			30
 		},
@@ -81907,12 +96279,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2953,
-			1504,
+			3816,
+			3590,
 			33,
 			30
 		},
@@ -81932,12 +96304,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2172,
+			3816,
+			3625,
 			33,
 			31
 		},
@@ -81957,12 +96329,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2172,
+			3816,
+			3625,
 			33,
 			31
 		},
@@ -81982,12 +96354,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2207,
+			3098,
+			3431,
 			33,
 			31
 		},
@@ -82007,12 +96379,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			2207,
+			3098,
+			3431,
 			33,
 			31
 		},
@@ -82032,12 +96404,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3182,
-			2530,
+			3131,
+			3427,
 			31,
 			32
 		},
@@ -82057,12 +96429,12 @@ return {
             6
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3182,
-			2530,
+			3131,
+			3427,
 			31,
 			32
 		},
@@ -82082,12 +96454,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3815,
-			127,
+			3238,
+			2433,
 			33,
 			36
 		},
@@ -82107,12 +96479,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3815,
-			127,
+			3238,
+			2433,
 			33,
 			36
 		},
@@ -82132,17 +96504,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3025,
-			2597,
+			3511,
+			3313,
 			33,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_particles_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82157,17 +96529,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3025,
-			2597,
+			3511,
+			3313,
 			33,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_particles_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82182,17 +96554,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			783,
-			2167,
+			3574,
+			3069,
 			33,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_particles_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82207,17 +96579,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			783,
-			2167,
+			3574,
+			3069,
 			33,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82232,17 +96604,17 @@ return {
             72
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2952,
-			1539,
+			3276,
+			2432,
 			37,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82257,12 +96629,12 @@ return {
             72
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3220,
-			1896,
+			3491,
+			2430,
 			37,
 			68
 		},
@@ -82282,17 +96654,17 @@ return {
             56
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			904,
-			2639,
+			2601,
+			2701,
 			41,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82307,17 +96679,17 @@ return {
             56
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2660,
-			1366,
+			2676,
+			2247,
 			41,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82332,12 +96704,12 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2084,
-			2170,
+			1860,
+			2677,
 			59,
 			98
 		},
@@ -82357,12 +96729,12 @@ return {
             41
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2408,
-			1695,
+			2211,
+			2529,
 			59,
 			98
 		},
@@ -82382,12 +96754,12 @@ return {
             35
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1370,
-			2319,
+			1914,
+			3567,
 			76,
 			104
 		},
@@ -82407,17 +96779,17 @@ return {
             35
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1203,
-			1753,
+			2801,
+			2214,
 			76,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82432,17 +96804,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1932,
-			1194,
+			2979,
+			1654,
 			86,
 			112
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82457,17 +96829,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			1109,
+			2174,
+			1936,
 			86,
 			111
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82482,12 +96854,12 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1715,
-			1271,
+			1093,
+			2888,
 			101,
 			116
 		},
@@ -82507,17 +96879,17 @@ return {
             23
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1055,
-			1650,
+			733,
+			3101,
 			101,
 			116
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82532,17 +96904,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			929,
-			1744,
+			2820,
+			1476,
 			112,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82557,12 +96929,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			1525,
+			1882,
+			1302,
 			112,
 			122
 		},
@@ -82582,17 +96954,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1380,
-			1144,
+			2149,
+			192,
 			118,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82607,17 +96979,17 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1380,
-			1144,
+			2149,
+			192,
 			118,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82632,12 +97004,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			730,
-			1307,
+			2569,
+			1476,
 			124,
 			114
 		},
@@ -82657,12 +97029,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			730,
-			1307,
+			2569,
+			1476,
 			124,
 			114
 		},
@@ -82682,12 +97054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3011,
-			667,
+			2930,
+			1221,
 			130,
 			122
 		},
@@ -82707,12 +97079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3011,
-			667,
+			2930,
+			1221,
 			130,
 			122
 		},
@@ -82732,17 +97104,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2205,
+			2315,
+			1122,
 			138,
 			122
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82757,17 +97129,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2205,
+			2315,
+			1122,
 			138,
 			122
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82782,12 +97154,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			938,
+			1093,
+			2762,
 			143,
 			124
 		},
@@ -82807,12 +97179,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			938,
+			1093,
+			2762,
 			143,
 			124
 		},
@@ -82832,12 +97204,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			940,
+			2482,
+			510,
 			146,
 			125
 		},
@@ -82857,12 +97229,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1020,
-			940,
+			2482,
+			510,
 			146,
 			125
 		},
@@ -82882,17 +97254,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			741,
-			1089,
+			3061,
+			775,
 			150,
 			128
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82907,17 +97279,17 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			741,
-			1089,
+			3061,
+			775,
 			150,
 			128
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82932,17 +97304,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			722,
-			856,
+			2806,
+			931,
 			152,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82957,17 +97329,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			722,
-			856,
+			2806,
+			931,
 			152,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_down_0031"] = {
 		a_name = "go_towers_random-0.dds",
@@ -82982,12 +97354,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1,
-			2549,
+			2700,
+			329,
 			156,
 			131
 		},
@@ -83007,12 +97379,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1,
-			2549,
+			2700,
+			329,
 			156,
 			131
 		},
@@ -83032,12 +97404,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			668,
+			1562,
+			1582,
 			158,
 			132
 		},
@@ -83057,12 +97429,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2181,
-			668,
+			1562,
+			1582,
 			158,
 			132
 		},
@@ -83082,12 +97454,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			790,
+			2931,
+			1345,
 			128,
 			111
 		},
@@ -83107,12 +97479,12 @@ return {
             24
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			790,
+			2931,
+			1345,
 			128,
 			111
 		},
@@ -83132,12 +97504,12 @@ return {
             48
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2566,
-			1602,
+			2417,
+			3533,
 			77,
 			78
 		},
@@ -83157,12 +97529,12 @@ return {
             48
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2566,
-			1602,
+			2417,
+			3533,
 			77,
 			78
 		},
@@ -83182,17 +97554,17 @@ return {
             47
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2941,
-			1273,
+			3799,
+			1376,
 			79,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83207,17 +97579,17 @@ return {
             47
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2941,
-			1273,
+			3799,
+			1376,
 			79,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_down_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83232,12 +97604,12 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2466,
-			2090,
+			2183,
+			3279,
 			82,
 			83
 		},
@@ -83257,12 +97629,12 @@ return {
             46
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2466,
-			2090,
+			2183,
+			3279,
 			82,
 			83
 		},
@@ -83282,17 +97654,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3752,
-			407,
+			1364,
+			2564,
 			139,
 			99
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83307,12 +97679,12 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			485,
-			496,
+			2708,
+			2854,
 			63,
 			28
 		},
@@ -83332,12 +97704,12 @@ return {
             55
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			485,
-			496,
+			2708,
+			2854,
 			63,
 			28
 		},
@@ -83357,12 +97729,12 @@ return {
             43
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2373,
-			1531,
+			2461,
+			2250,
 			108,
 			56
 		},
@@ -83382,12 +97754,12 @@ return {
             43
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2373,
-			1531,
+			2461,
+			2250,
 			108,
 			56
 		},
@@ -83407,12 +97779,12 @@ return {
             32
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1506,
-			911,
+			483,
+			3449,
 			133,
 			82
 		},
@@ -83432,12 +97804,12 @@ return {
             32
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1506,
-			911,
+			483,
+			3449,
 			133,
 			82
 		},
@@ -83457,17 +97829,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1141,
-			787,
+			1093,
+			2663,
 			147,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83482,17 +97854,17 @@ return {
             26
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1141,
-			787,
+			1093,
+			2663,
 			147,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83507,17 +97879,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			828,
+			340,
+			3144,
 			153,
 			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83532,17 +97904,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1590,
-			828,
+			340,
+			3144,
 			153,
 			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83557,17 +97929,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1612,
-			381,
+			3177,
+			404,
 			157,
 			113
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83582,17 +97954,17 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1612,
-			381,
+			3177,
+			404,
 			157,
 			113
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83607,12 +97979,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			487,
-			575,
+			1242,
+			2365,
 			163,
 			120
 		},
@@ -83632,12 +98004,12 @@ return {
             14
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			487,
-			575,
+			1242,
+			2365,
 			163,
 			120
 		},
@@ -83657,12 +98029,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			499,
+			1069,
+			1601,
 			169,
 			127
 		},
@@ -83682,12 +98054,12 @@ return {
             11
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			499,
+			1069,
+			1601,
 			169,
 			127
 		},
@@ -83707,17 +98079,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1436,
-			685,
+			204,
+			3166,
 			173,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83732,17 +98104,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1436,
-			685,
+			204,
+			3166,
 			173,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83757,17 +98129,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			654,
+			1381,
+			2047,
 			155,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83782,17 +98154,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2315,
-			654,
+			1381,
+			2047,
 			155,
 			140
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83807,12 +98179,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			438,
-			2531,
+			1381,
+			1898,
 			159,
 			147
 		},
@@ -83832,12 +98204,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			438,
-			2531,
+			1381,
+			1898,
 			159,
 			147
 		},
@@ -83857,17 +98229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2154,
-			505,
+			1384,
+			1745,
 			161,
 			151
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83882,17 +98254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2154,
-			505,
+			1384,
+			1745,
 			161,
 			151
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83907,17 +98279,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2470,
-			499,
+			1227,
+			2051,
 			161,
 			152
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83932,17 +98304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2470,
-			499,
+			1227,
+			2051,
 			161,
 			152
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -83957,12 +98329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			381,
+			1369,
+			1276,
 			161,
 			154
 		},
@@ -83982,12 +98354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1449,
-			381,
+			1369,
+			1276,
 			161,
 			154
 		},
@@ -84007,12 +98379,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2307,
-			499,
+			1221,
+			1734,
 			161,
 			153
 		},
@@ -84032,12 +98404,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2307,
-			499,
+			1221,
+			1734,
 			161,
 			153
 		},
@@ -84057,12 +98429,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1901,
-			512,
+			1544,
+			1426,
 			161,
 			154
 		},
@@ -84082,12 +98454,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1901,
-			512,
+			1544,
+			1426,
 			161,
 			154
 		},
@@ -84107,17 +98479,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2908,
-			421,
+			1225,
+			1889,
 			160,
 			154
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84132,17 +98504,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2908,
-			421,
+			1225,
+			1889,
 			160,
 			154
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84157,17 +98529,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			871,
-			1108,
+			2793,
+			634,
 			134,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84182,17 +98554,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			871,
-			1108,
+			2793,
+			634,
 			134,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["plant_venom_smoke_left_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84207,12 +98579,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2531,
+			2935,
+			1085,
 			134,
 			128
 		},
@@ -84232,12 +98604,12 @@ return {
             22
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			704,
-			2531,
+			2935,
+			1085,
 			134,
 			128
 		},
@@ -84257,12 +98629,12 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1899,
-			2441,
+			2090,
+			3044,
 			90,
 			87
 		},
@@ -84282,12 +98654,12 @@ return {
             39
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1899,
-			2441,
+			2090,
+			3044,
 			90,
 			87
 		},
@@ -84307,17 +98679,17 @@ return {
             42
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1840,
-			1184,
+			2170,
+			2942,
 			90,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["plant_venom_smoke_left_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84332,17 +98704,17 @@ return {
             42
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1840,
-			1184,
+			2170,
+			2942,
 			90,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["portraits_towers_0121"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84357,17 +98729,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1892,
-			2144,
+			3166,
+			1739,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["portraits_towers_0129"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84382,17 +98754,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1895,
-			2243,
+			3265,
+			1746,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["portraits_towers_0130"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84407,17 +98779,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1906,
-			2342,
+			3046,
+			1884,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["portraits_towers_0131"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84432,17 +98804,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1904,
-			2533,
+			3092,
+			2082,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["portraits_towers_0132"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84457,17 +98829,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1798,
+			3093,
+			2180,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["portraits_towers_0133"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84482,17 +98854,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2100,
-			1799,
+			3237,
+			1982,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["portraits_towers_0144"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84507,17 +98879,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2233,
-			1821,
+			3246,
+			2081,
 			97,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["portraits_towers_0145"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84532,14 +98904,64 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2001,
-			1896,
+			3266,
+			2180,
 			97,
 			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0148"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            4
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3335,
+			1982,
+			97,
+			96
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["portraits_towers_0149"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			104,
+			104
+		},
+		trim = {
+			4,
+            4,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3067,
+			1633,
+			97,
+			97
 		},
 		alias = {},
 		textureRotated = false
@@ -84557,12 +98979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2258,
+			1826,
+			3567,
 			86,
 			104
 		},
@@ -84582,12 +99004,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2258,
+			1826,
+			3567,
 			86,
 			104
 		},
@@ -84607,12 +99029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1064,
-			1435,
+			1621,
+			3363,
 			88,
 			106
 		},
@@ -84632,12 +99054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1064,
-			1435,
+			1621,
+			3363,
 			88,
 			106
 		},
@@ -84657,12 +99079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1922,
-			1282,
+			1729,
+			3369,
 			90,
 			106
 		},
@@ -84682,12 +99104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1922,
-			1282,
+			1729,
+			3369,
 			90,
 			106
 		},
@@ -84707,12 +99129,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2543,
-			869,
+			1736,
+			3567,
 			88,
 			104
 		},
@@ -84732,12 +99154,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2543,
-			869,
+			1736,
+			3567,
 			88,
 			104
 		},
@@ -84757,12 +99179,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			1951,
+			2076,
+			3567,
 			89,
 			103
 		},
@@ -84782,12 +99204,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			1951,
+			2076,
+			3567,
 			89,
 			103
 		},
@@ -84807,17 +99229,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1683,
+			1554,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84832,17 +99254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1683,
+			1554,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -84857,12 +99279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2258,
+			1826,
+			3567,
 			86,
 			104
 		},
@@ -84882,12 +99304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1448,
-			2258,
+			1826,
+			3567,
 			86,
 			104
 		},
@@ -84907,12 +99329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1064,
-			1435,
+			1621,
+			3363,
 			88,
 			106
 		},
@@ -84932,12 +99354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1064,
-			1435,
+			1621,
+			3363,
 			88,
 			106
 		},
@@ -84957,12 +99379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1922,
-			1282,
+			1729,
+			3369,
 			90,
 			106
 		},
@@ -84982,12 +99404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1922,
-			1282,
+			1729,
+			3369,
 			90,
 			106
 		},
@@ -85007,12 +99429,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2543,
-			869,
+			1736,
+			3567,
 			88,
 			104
 		},
@@ -85032,12 +99454,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2543,
-			869,
+			1736,
+			3567,
 			88,
 			104
 		},
@@ -85057,12 +99479,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			1951,
+			2076,
+			3567,
 			89,
 			103
 		},
@@ -85082,12 +99504,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1507,
-			1951,
+			2076,
+			3567,
 			89,
 			103
 		},
@@ -85107,17 +99529,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1683,
+			1554,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85132,17 +99554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1499,
-			1683,
+			1554,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85157,17 +99579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1605,
-			1693,
+			1645,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85182,17 +99604,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1605,
-			1693,
+			1645,
+			3567,
 			89,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85207,17 +99629,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2541,
-			1087,
+			1725,
+			3461,
 			90,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85232,17 +99654,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2541,
-			1087,
+			1725,
+			3461,
 			90,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85257,12 +99679,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1501,
-			1847,
+			3084,
+			1454,
 			92,
 			102
 		},
@@ -85282,12 +99704,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1501,
-			1847,
+			3084,
+			1454,
 			92,
 			102
 		},
@@ -85307,12 +99729,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1527,
-			2154,
+			1880,
+			2738,
 			92,
 			102
 		},
@@ -85332,12 +99754,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1352,
-			2050,
+			2080,
+			2251,
 			95,
 			100
 		},
@@ -85357,12 +99779,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1314,
-			1847,
+			1457,
+			3569,
 			95,
 			102
 		},
@@ -85382,17 +99804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2204,
-			1075,
+			1119,
+			3564,
 			107,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0035"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85407,17 +99829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			905,
-			2429,
+			2460,
+			2143,
 			104,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85432,17 +99854,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2972,
-			1137,
+			442,
+			2878,
 			110,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85457,12 +99879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1929,
-			1374,
+			2080,
+			2051,
 			111,
 			101
 		},
@@ -85482,12 +99904,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2429,
-			984,
+			1960,
+			3276,
 			113,
 			101
 		},
@@ -85507,17 +99929,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1270,
-			1433,
+			836,
+			3101,
 			115,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85532,17 +99954,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2089,
-			1082,
+			2071,
+			1936,
 			113,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85557,12 +99979,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2859,
-			1117,
+			681,
+			3572,
 			111,
 			99
 		},
@@ -85582,17 +100004,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1598,
-			2053,
+			3368,
+			1661,
 			93,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85607,17 +100029,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1687,
-			1950,
+			2078,
+			2444,
 			95,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85632,17 +100054,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2376,
-			1589,
+			1158,
+			3119,
 			95,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85657,17 +100079,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2376,
-			1589,
+			1158,
+			3119,
 			95,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85682,12 +100104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			905,
-			2535,
+			3178,
+			1460,
 			102,
 			105
 		},
@@ -85707,12 +100129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			905,
-			2535,
+			3178,
+			1460,
 			102,
 			105
 		},
@@ -85732,17 +100154,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			300,
+			3285,
+			1466,
 			105,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85757,17 +100179,17 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			300,
+			3285,
+			1466,
 			105,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85782,12 +100204,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			812,
-			2100,
+			1837,
+			3371,
 			105,
 			103
 		},
@@ -85807,12 +100229,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			812,
-			2100,
+			1837,
+			3371,
 			105,
 			103
 		},
@@ -85832,12 +100254,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1536,
-			2258,
+			2167,
+			3567,
 			86,
 			103
 		},
@@ -85857,12 +100279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1711,
-			1697,
+			2571,
+			2247,
 			86,
 			103
 		},
@@ -85882,12 +100304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1833,
-			1271,
+			1986,
+			2842,
 			87,
 			101
 		},
@@ -85907,12 +100329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1595,
-			1847,
+			2062,
+			2738,
 			87,
 			101
 		},
@@ -85932,17 +100354,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1816,
-			1698,
+			1898,
+			2842,
 			86,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85957,17 +100379,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2025,
-			1710,
+			1974,
+			2738,
 			86,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -85982,12 +100404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2544,
-			975,
+			3791,
+			1538,
 			87,
 			102
 		},
@@ -86007,17 +100429,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2129,
-			1710,
+			1989,
+			2437,
 			87,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86032,12 +100454,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1621,
-			2154,
+			2151,
+			2738,
 			85,
 			100
 		},
@@ -86057,12 +100479,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1624,
-			2256,
+			2162,
+			2840,
 			85,
 			100
 		},
@@ -86082,12 +100504,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1711,
-			1785,
+			3178,
+			1564,
 			87,
 			100
 		},
@@ -86107,12 +100529,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1813,
-			1786,
+			3280,
+			1571,
 			87,
 			100
 		},
@@ -86132,12 +100554,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2660,
-			1281,
+			2365,
+			2615,
 			81,
 			83
 		},
@@ -86157,12 +100579,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2660,
-			1281,
+			2365,
+			2615,
 			81,
 			83
 		},
@@ -86182,12 +100604,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1224,
-			2432,
+			794,
+			3572,
 			104,
 			99
 		},
@@ -86207,12 +100629,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1224,
-			2432,
+			794,
+			3572,
 			104,
 			99
 		},
@@ -86232,12 +100654,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3084,
-			1144,
+			900,
+			3566,
 			110,
 			105
 		},
@@ -86257,12 +100679,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3084,
-			1144,
+			900,
+			3566,
 			110,
 			105
 		},
@@ -86282,12 +100704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2523,
-			653,
+			2064,
+			1152,
 			115,
 			108
 		},
@@ -86307,12 +100729,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2523,
-			653,
+			2064,
+			1152,
 			115,
 			108
 		},
@@ -86332,12 +100754,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2313,
-			1085,
+			939,
+			3108,
 			113,
 			106
 		},
@@ -86357,12 +100779,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2313,
-			1085,
+			939,
+			3108,
 			113,
 			106
 		},
@@ -86382,12 +100804,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2428,
-			1087,
+			2194,
+			1640,
 			111,
 			106
 		},
@@ -86407,12 +100829,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2428,
-			1087,
+			2194,
+			1640,
 			111,
 			106
 		},
@@ -86432,17 +100854,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1240,
-			1652,
+			1523,
+			3339,
 			96,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_0077"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86457,17 +100879,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1240,
-			1652,
+			1523,
+			3339,
 			96,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86482,12 +100904,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2585,
-			1385,
+			3646,
+			1643,
 			84,
 			54
 		},
@@ -86507,12 +100929,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1251,
+			2448,
+			2615,
 			78,
 			80
 		},
@@ -86532,12 +100954,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2476,
-			2523,
+			3310,
+			3045,
 			55,
 			43
 		},
@@ -86557,12 +100979,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2802,
-			1609,
+			2663,
+			3587,
 			70,
 			71
 		},
@@ -86582,12 +101004,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2802,
-			1609,
+			2663,
+			3587,
 			70,
 			71
 		},
@@ -86607,12 +101029,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2802,
-			1609,
+			2663,
+			3587,
 			70,
 			71
 		},
@@ -86632,17 +101054,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1808,
+			2030,
+			2671,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86657,17 +101079,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1808,
+			2030,
+			2671,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86682,17 +101104,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1808,
+			2030,
+			2671,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86707,17 +101129,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2807,
-			1808,
+			2030,
+			2671,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86732,17 +101154,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2878,
-			1539,
+			3572,
+			1899,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86757,17 +101179,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2878,
-			1539,
+			3572,
+			1899,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86782,17 +101204,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2878,
-			1539,
+			3572,
+			1899,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86807,12 +101229,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2223,
+			3710,
+			1898,
 			70,
 			65
 		},
@@ -86832,12 +101254,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2223,
+			3710,
+			1898,
 			70,
 			65
 		},
@@ -86857,12 +101279,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2223,
+			3710,
+			1898,
 			70,
 			65
 		},
@@ -86882,12 +101304,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2223,
+			3710,
+			1898,
 			70,
 			65
 		},
@@ -86907,17 +101329,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			1682,
+			3706,
+			1720,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86932,17 +101354,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			1682,
+			3706,
+			1720,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86957,17 +101379,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			1682,
+			3706,
+			1720,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -86982,17 +101404,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1913,
+			2561,
+			3456,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87007,17 +101429,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1913,
+			2561,
+			3456,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87032,17 +101454,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1913,
+			2561,
+			3456,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87057,17 +101479,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2714,
-			1913,
+			2561,
+			3456,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87082,12 +101504,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1424,
+			3586,
+			1973,
 			67,
 			72
 		},
@@ -87107,12 +101529,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1424,
+			3586,
+			1973,
 			67,
 			72
 		},
@@ -87132,12 +101554,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3082,
-			1424,
+			3586,
+			1973,
 			67,
 			72
 		},
@@ -87157,12 +101579,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2295,
+			3779,
+			1965,
 			70,
 			65
 		},
@@ -87182,12 +101604,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2295,
+			3779,
+			1965,
 			70,
 			65
 		},
@@ -87207,12 +101629,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2295,
+			3779,
+			1965,
 			70,
 			65
 		},
@@ -87232,12 +101654,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2871,
-			2295,
+			3779,
+			1965,
 			70,
 			65
 		},
@@ -87257,12 +101679,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2882,
-			1466,
+			3777,
+			1715,
 			69,
 			71
 		},
@@ -87282,12 +101704,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2882,
-			1466,
+			3777,
+			1715,
 			69,
 			71
 		},
@@ -87307,12 +101729,12 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2882,
-			1466,
+			3777,
+			1715,
 			69,
 			71
 		},
@@ -87332,17 +101754,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			1986,
+			2569,
+			3533,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87357,17 +101779,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			1986,
+			2569,
+			3533,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87382,17 +101804,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			1986,
+			2569,
+			3533,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87407,17 +101829,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2791,
-			1986,
+			2569,
+			3533,
 			75,
 			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87432,17 +101854,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2790,
-			2154,
+			3641,
+			1898,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87457,17 +101879,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2790,
-			2154,
+			3641,
+			1898,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87482,17 +101904,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2790,
-			2154,
+			3641,
+			1898,
 			67,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87507,17 +101929,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2217,
-			2296,
+			3728,
+			2109,
 			68,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polyshapes_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87532,12 +101954,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1523,
+			3561,
+			1571,
 			76,
 			78
 		},
@@ -87557,12 +101979,12 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2723,
-			1523,
+			3561,
+			1571,
 			76,
 			78
 		},
@@ -87582,12 +102004,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1990,
-			2144,
+			3344,
+			2081,
 			97,
 			92
 		},
@@ -87607,12 +102029,12 @@ return {
             1
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1990,
-			2144,
+			3344,
+			2081,
 			97,
 			92
 		},
@@ -87632,12 +102054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3492,
-			682,
+			693,
+			2614,
 			103,
 			98
 		},
@@ -87657,12 +102079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3492,
-			682,
+			693,
+			2614,
 			103,
 			98
 		},
@@ -87682,17 +102104,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2536,
+			2156,
+			86,
 			104,
 			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87707,17 +102129,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1012,
-			2536,
+			2156,
+			86,
 			104,
 			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87732,17 +102154,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1118,
-			2432,
+			3484,
+			1463,
 			104,
 			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87757,17 +102179,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1118,
-			2432,
+			3484,
+			1463,
 			104,
 			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polyshapes_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87782,12 +102204,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1118,
-			2534,
+			1944,
+			3379,
 			104,
 			100
 		},
@@ -87807,12 +102229,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1118,
-			2534,
+			1944,
+			3379,
 			104,
 			100
 		},
@@ -87832,12 +102254,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1993,
-			2243,
+			3364,
+			2180,
 			91,
 			97
 		},
@@ -87857,12 +102279,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1993,
-			2243,
+			3364,
+			2180,
 			91,
 			97
 		},
@@ -87882,12 +102304,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2096,
-			2533,
+			2272,
+			2429,
 			93,
 			94
 		},
@@ -87907,12 +102329,12 @@ return {
             12
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2096,
-			2533,
+			2272,
+			2429,
 			93,
 			94
 		},
@@ -87932,17 +102354,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			938,
-			1858,
+			2934,
+			1458,
 			119,
 			112
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polysmoke_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87957,17 +102379,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			938,
-			1858,
+			2934,
+			1458,
 			119,
 			112
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["soldier_djinn_polysmoke_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -87982,17 +102404,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3275,
-			671,
+			2810,
+			1347,
 			127,
 			119
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polysmoke_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88007,17 +102429,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3275,
-			671,
+			2810,
+			1347,
 			127,
 			119
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polysmoke_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88032,12 +102454,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2878,
-			667,
+			2312,
+			1246,
 			131,
 			124
 		},
@@ -88057,12 +102479,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2878,
-			667,
+			2312,
+			1246,
 			131,
 			124
 		},
@@ -88082,17 +102504,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3143,
-			667,
+			2195,
+			1375,
 			130,
 			121
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polysmoke_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88107,17 +102529,17 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3143,
-			667,
+			2195,
+			1375,
 			130,
 			121
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polysmoke_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88132,12 +102554,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3144,
-			790,
+			2567,
+			1354,
 			127,
 			120
 		},
@@ -88157,12 +102579,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3144,
-			790,
+			2567,
+			1354,
 			127,
 			120
 		},
@@ -88182,17 +102604,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1387,
-			1253,
+			1542,
+			1936,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_djinn_polysmoke_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88207,17 +102629,17 @@ return {
             8
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1387,
-			1253,
+			1542,
+			1936,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["soldier_icons_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88232,12 +102654,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3196,
-			1152,
+			1188,
+			3452,
 			110,
 			110
 		},
@@ -88257,12 +102679,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3308,
-			1152,
+			1618,
+			3164,
 			110,
 			110
 		},
@@ -88282,12 +102704,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3420,
-			1152,
+			1730,
+			3164,
 			110,
 			110
 		},
@@ -88307,12 +102729,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2032,
-			1374,
+			2307,
+			1643,
 			110,
 			110
 		},
@@ -88332,12 +102754,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2039,
-			1486,
+			2419,
+			1644,
 			110,
 			110
 		},
@@ -88357,12 +102779,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2040,
-			1598,
+			2531,
+			1645,
 			110,
 			110
 		},
@@ -88382,12 +102804,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2313,
-			1193,
+			2643,
+			1648,
 			110,
 			110
 		},
@@ -88407,12 +102829,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2425,
-			1195,
+			2160,
+			1748,
 			110,
 			110
 		},
@@ -88432,12 +102854,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2144,
-			1374,
+			2755,
+			1654,
 			110,
 			110
 		},
@@ -88457,12 +102879,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2151,
-			1486,
+			2867,
+			1654,
 			110,
 			110
 		},
@@ -88482,12 +102904,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2152,
-			1598,
+			2272,
+			1755,
 			110,
 			110
 		},
@@ -88507,12 +102929,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2309,
-			1305,
+			2384,
+			1756,
 			110,
 			110
 		},
@@ -88532,12 +102954,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2421,
-			1307,
+			2496,
+			1757,
 			110,
 			110
 		},
@@ -88557,12 +102979,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2309,
-			1417,
+			2608,
+			1760,
 			110,
 			110
 		},
@@ -88582,12 +103004,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2421,
-			1419,
+			2720,
+			1766,
 			110,
 			110
 		},
@@ -88607,12 +103029,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			812,
-			1988,
+			2832,
+			1766,
 			110,
 			110
 		},
@@ -88632,12 +103054,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			828,
-			2205,
+			2944,
+			1768,
 			110,
 			110
 		},
@@ -88657,12 +103079,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			828,
-			2317,
+			2183,
+			2049,
 			110,
 			110
 		},
@@ -88682,12 +103104,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			924,
-			1988,
+			2262,
+			1867,
 			110,
 			110
 		},
@@ -88707,12 +103129,112 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1036,
-			1985,
+			2374,
+			1868,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_icons_0008"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2486,
+			1869,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_icons_0008_disabled"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2598,
+			1872,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_icons_0008_disabled_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2710,
+			1878,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["soldier_icons_0008_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2822,
+			1878,
 			110,
 			110
 		},
@@ -88732,17 +103254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2267,
+			3279,
+			3426,
 			38,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88757,12 +103279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3744,
-			1711,
+			2508,
+			1079,
 			38,
 			41
 		},
@@ -88782,17 +103304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2267,
+			3279,
+			3426,
 			38,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88807,17 +103329,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2267,
+			3279,
+			3426,
 			38,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88832,12 +103354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2220,
+			3125,
+			3626,
 			40,
 			45
 		},
@@ -88857,12 +103379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2220,
+			3125,
+			3626,
 			40,
 			45
 		},
@@ -88882,17 +103404,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3708,
-			1615,
+			2953,
+			3411,
 			52,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88907,17 +103429,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3708,
-			1615,
+			2953,
+			3411,
 			52,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88932,17 +103454,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88957,17 +103479,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -88982,17 +103504,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89007,17 +103529,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89032,17 +103554,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89057,17 +103579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89082,17 +103604,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89107,17 +103629,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89132,17 +103654,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89157,17 +103679,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89182,17 +103704,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89207,17 +103729,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89232,17 +103754,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89257,17 +103779,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2632,
+			2966,
+			3186,
 			52,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89282,17 +103804,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3708,
-			1615,
+			2953,
+			3411,
 			52,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89307,17 +103829,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3708,
-			1615,
+			2953,
+			3411,
 			52,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89332,12 +103854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2220,
+			3125,
+			3626,
 			40,
 			45
 		},
@@ -89357,12 +103879,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2220,
+			3125,
+			3626,
 			40,
 			45
 		},
@@ -89382,17 +103904,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2267,
+			3279,
+			3426,
 			38,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sorcerer_shooter_0069"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89407,12 +103929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3744,
-			1711,
+			2508,
+			1079,
 			38,
 			41
 		},
@@ -89432,12 +103954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3744,
-			1711,
+			2508,
+			1079,
 			38,
 			41
 		},
@@ -89457,12 +103979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2193,
+			3672,
+			3529,
 			38,
 			42
 		},
@@ -89482,12 +104004,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3688,
-			2193,
+			3672,
+			3529,
 			38,
 			42
 		},
@@ -89507,17 +104029,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1767,
+			3365,
+			3134,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0074"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89532,17 +104054,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1767,
+			3365,
+			3134,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0075"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89557,12 +104079,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89582,12 +104104,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89607,12 +104129,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89632,12 +104154,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89657,12 +104179,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89682,12 +104204,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89707,12 +104229,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89732,12 +104254,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89757,12 +104279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89782,12 +104304,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89807,12 +104329,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89832,12 +104354,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89857,12 +104379,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89882,12 +104404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3709,
-			1664,
+			3019,
+			3240,
 			51,
 			45
 		},
@@ -89907,17 +104429,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1767,
+			3365,
+			3134,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0090"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89932,17 +104454,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3486,
-			1767,
+			3365,
+			3134,
 			52,
 			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0091"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89957,17 +104479,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2209,
+			3758,
+			3289,
 			38,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0092"] = {
 		a_name = "go_towers_random-0.dds",
@@ -89982,17 +104504,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2209,
+			3758,
+			3289,
 			38,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sorcerer_shooter_0093"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90007,14 +104529,39 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3809,
-			2213,
+			3570,
+			2939,
 			38,
 			41
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["Stage12_Dragon_Shadow"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			272,
+			55
+		},
+		trim = {
+			80,
+            8,
+            79,
+            11
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1810,
+			2055,
+			113,
+			36
 		},
 		alias = {},
 		textureRotated = true
@@ -90032,17 +104579,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3648,
-			127,
+			3836,
+			368,
 			165,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunray_Ray_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90057,17 +104604,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3648,
-			127,
+			3836,
+			368,
 			165,
 			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunray_Ray_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90082,12 +104629,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			628,
+			1381,
+			2189,
 			165,
 			33
 		},
@@ -90107,12 +104654,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			628,
+			1381,
+			2189,
 			165,
 			33
 		},
@@ -90132,12 +104679,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			754,
+			2174,
+			1079,
 			165,
 			31
 		},
@@ -90157,12 +104704,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			754,
+			2174,
+			1079,
 			165,
 			31
 		},
@@ -90182,17 +104729,17 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			515,
-			396,
+			2341,
+			1079,
 			165,
 			22
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunray_Ray_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90207,17 +104754,17 @@ return {
             7
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			371,
+			2341,
+			1103,
 			165,
 			17
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunray_Ray_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90232,12 +104779,12 @@ return {
             10
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			689,
-			2231,
+			1364,
+			2365,
 			165,
 			13
 		},
@@ -90257,17 +104804,17 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			1623,
+			3366,
+			2938,
 			55,
 			53
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunray_RayHit_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90282,12 +104829,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3295,
-			2217,
+			3594,
+			2769,
 			57,
 			55
 		},
@@ -90307,12 +104854,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3124,
-			2155,
+			3711,
+			2555,
 			57,
 			57
 		},
@@ -90332,12 +104879,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3299,
-			2434,
+			3022,
+			2966,
 			57,
 			53
 		},
@@ -90357,17 +104904,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3240,
-			2377,
+			3301,
+			2880,
 			57,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunray_RayHit_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90382,12 +104929,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3299,
-			2377,
+			2905,
+			2908,
 			57,
 			55
 		},
@@ -90407,12 +104954,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3502,
-			1509,
+			3253,
+			2939,
 			57,
 			51
 		},
@@ -90432,12 +104979,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3183,
-			2155,
+			3770,
+			2582,
 			57,
 			57
 		},
@@ -90457,12 +105004,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3127,
-			2214,
+			3469,
+			2651,
 			57,
 			57
 		},
@@ -90482,12 +105029,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3242,
-			2274,
+			3528,
+			2651,
 			57,
 			57
 		},
@@ -90507,12 +105054,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3301,
-			2274,
+			3482,
+			2710,
 			57,
 			57
 		},
@@ -90532,17 +105079,17 @@ return {
             9
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2421,
-			2568,
+			3175,
+			2611,
 			55,
 			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunray_RayHit_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90557,12 +105104,12 @@ return {
             4
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			1509,
+			3511,
+			2943,
 			55,
 			53
 		},
@@ -90582,12 +105129,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			1566,
+			2800,
+			3295,
 			55,
 			55
 		},
@@ -90607,12 +105154,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3181,
-			2377,
+			3594,
+			2710,
 			57,
 			57
 		},
@@ -90632,12 +105179,12 @@ return {
             2
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3443,
-			1509,
+			2961,
+			3023,
 			57,
 			53
 		},
@@ -90657,17 +105204,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3358,
-			2386,
+			2964,
+			2909,
 			57,
 			55
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunray_RayHit_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90682,12 +105229,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			1509,
+			2963,
+			2966,
 			57,
 			55
 		},
@@ -90707,17 +105254,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2975,
-			2462,
+			3587,
+			2651,
 			57,
 			27
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunray_RayHit_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90732,12 +105279,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3034,
-			2462,
+			2727,
+			3234,
 			57,
 			24
 		},
@@ -90757,17 +105304,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1895,
-			390,
+			623,
+			979,
 			20,
 			21
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunray_RayHit_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90782,17 +105329,17 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2523,
-			869,
+			2459,
+			510,
 			18,
 			20
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer1_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90807,12 +105354,12 @@ return {
             17
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
 			1,
-			1,
+			268,
 			287,
 			283
 		},
@@ -90832,11 +105379,11 @@ return {
             16
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			806,
+			1134,
 			1,
 			260,
 			166
@@ -90857,12 +105404,12 @@ return {
             0
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
+			325,
 			1,
-			286,
 			287,
 			196
 		},
@@ -90882,17 +105429,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			430,
-			1307,
+			1657,
+			952,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90907,17 +105454,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			193,
-			1838,
+			2510,
+			229,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90932,17 +105479,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			530,
-			1307,
+			2721,
+			229,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -90957,12 +105504,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			467,
+			3005,
+			204,
 			98,
 			209
 		},
@@ -90982,12 +105529,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3281,
-			471,
+			3216,
+			204,
 			98,
 			209
 		},
@@ -91007,12 +105554,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			630,
-			1304,
+			876,
+			1952,
 			98,
 			210
 		},
@@ -91032,17 +105579,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2484,
-			399,
+			878,
+			2164,
 			98,
 			210
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91057,12 +105604,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			567,
+			3427,
+			215,
 			98,
 			209
 		},
@@ -91082,12 +105629,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3281,
-			571,
+			3005,
+			304,
 			98,
 			209
 		},
@@ -91107,17 +105654,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3492,
-			471,
+			3216,
+			304,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91132,12 +105679,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			369,
+			3427,
+			315,
 			98,
 			209
 		},
@@ -91157,12 +105704,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			354,
+			1963,
+			884,
 			98,
 			209
 		},
@@ -91182,12 +105729,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			379,
+			2174,
+			879,
 			98,
 			209
 		},
@@ -91207,12 +105754,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			454,
+			1963,
+			984,
 			98,
 			209
 		},
@@ -91232,12 +105779,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			469,
+			2174,
+			979,
 			98,
 			209
 		},
@@ -91257,12 +105804,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			479,
+			845,
+			1014,
 			98,
 			209
 		},
@@ -91282,17 +105829,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1895,
-			412,
+			972,
+			1734,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91307,17 +105854,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			554,
+			976,
+			1945,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91332,17 +105879,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			569,
+			978,
+			2156,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91357,17 +105904,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1238,
-			579,
+			993,
+			2367,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91382,17 +105929,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1027,
-			654,
+			1233,
+			981,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91407,17 +105954,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2706,
-			299,
+			776,
+			1954,
 			98,
 			217
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91432,17 +105979,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			367,
+			778,
+			2173,
 			98,
 			217
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91457,17 +106004,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3289,
-			371,
+			793,
+			2392,
 			98,
 			217
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91482,17 +106029,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1731,
-			290,
+			578,
+			2176,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91507,17 +106054,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			806,
-			269,
+			593,
+			2396,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91532,12 +106079,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			716,
-			1516,
+			672,
+			1734,
 			98,
 			218
 		},
@@ -91557,12 +106104,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			434,
-			870,
+			478,
+			2178,
 			98,
 			219
 		},
@@ -91582,17 +106129,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			806,
-			169,
+			545,
+			757,
 			98,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91607,12 +106154,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1740,
-			190,
+			1963,
+			658,
 			98,
 			221
 		},
@@ -91632,12 +106179,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			172,
-			2049,
+			181,
+			2449,
 			98,
 			222
 		},
@@ -91657,12 +106204,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			416,
-			1518,
+			645,
+			754,
 			98,
 			221
 		},
@@ -91682,17 +106229,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			272,
-			2049,
+			400,
+			979,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0034"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91707,12 +106254,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			276,
-			2272,
+			745,
+			754,
 			98,
 			221
 		},
@@ -91732,17 +106279,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			516,
-			1518,
+			2510,
+			129,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91757,17 +106304,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			616,
-			1518,
+			2733,
+			129,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91782,17 +106329,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			382,
+			197,
+			1045,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91807,17 +106354,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			176,
-			2273,
+			2258,
+			232,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91832,17 +106379,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			548,
-			182,
+			190,
+			2673,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91857,17 +106404,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			539,
-			282,
+			193,
+			1537,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91882,12 +106429,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			290,
-			396,
+			1931,
+			86,
 			98,
 			223
 		},
@@ -91907,17 +106454,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2266,
-			199,
+			198,
+			1268,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91932,17 +106479,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1068,
-			154,
+			272,
+			1761,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91957,17 +106504,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2489,
-			199,
+			372,
+			1761,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -91982,17 +106529,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3376,
-			71,
+			393,
+			2430,
 			98,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92007,17 +106554,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3295,
-			171,
+			472,
+			1734,
 			98,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92032,17 +106579,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1068,
-			254,
+			493,
+			2399,
 			98,
 			219
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92057,17 +106604,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1289,
-			279,
+			572,
+			1734,
 			98,
 			219
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0049"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92082,17 +106629,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1963,
-			212,
+			676,
+			1954,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0050"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92107,17 +106654,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1951,
-			312,
+			678,
+			2174,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92132,17 +106679,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2266,
-			299,
+			693,
+			2394,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92157,17 +106704,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			167,
+			200,
+			787,
 			98,
 			223
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92182,12 +106729,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			891,
+			300,
+			780,
 			98,
 			223
 		},
@@ -92207,17 +106754,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			1116,
+			2258,
+			132,
 			98,
 			223
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92232,12 +106779,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			1341,
+			172,
+			1775,
 			98,
 			223
 		},
@@ -92257,12 +106804,12 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			204,
-			1566,
+			176,
+			2000,
 			98,
 			223
 		},
@@ -92282,17 +106829,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1292,
-			179,
+			276,
+			1985,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92307,17 +106854,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1516,
-			181,
+			278,
+			2209,
 			98,
 			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92332,17 +106879,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2712,
-			199,
+			376,
+			1984,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92357,17 +106904,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3070,
-			267,
+			378,
+			2207,
 			98,
 			221
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92382,17 +106929,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3293,
-			271,
+			476,
+			1956,
 			98,
 			220
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92407,17 +106954,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1510,
-			281,
+			576,
+			1955,
 			98,
 			219
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92432,17 +106979,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2486,
-			299,
+			772,
+			1734,
 			98,
 			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92457,17 +107004,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2266,
-			399,
+			872,
+			1734,
 			98,
 			216
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92482,17 +107029,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			432,
-			1091,
+			921,
+			649,
 			98,
 			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer2_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92507,17 +107054,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2696,
-			399,
+			893,
+			2376,
 			98,
 			210
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92532,17 +107079,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			816,
-			669,
+			1333,
+			983,
 			98,
 			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer2_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92557,17 +107104,17 @@ return {
             91
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1693,
-			2051,
+			993,
+			2792,
 			98,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92582,17 +107129,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3582,
-			1714,
+			3546,
+			3363,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92607,17 +107154,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3582,
-			1762,
+			3546,
+			3403,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0003"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92632,17 +107179,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3583,
-			1810,
+			3326,
+			3395,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0004"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92657,17 +107204,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3595,
-			1858,
+			3374,
+			3396,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92682,17 +107229,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3595,
-			1906,
+			3546,
+			3443,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92707,17 +107254,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3596,
-			1954,
+			3326,
+			3435,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92732,17 +107279,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3597,
-			2002,
+			3374,
+			3436,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92757,12 +107304,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2050,
+			3136,
+			3527,
 			46,
 			38
 		},
@@ -92782,17 +107329,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3600,
-			2098,
+			3546,
+			3483,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92807,17 +107354,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3650,
-			1714,
+			3081,
+			3579,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92832,17 +107379,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3650,
-			1714,
+			3081,
+			3579,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92857,17 +107404,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3600,
-			2098,
+			3546,
+			3483,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92882,12 +107429,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3598,
-			2050,
+			3136,
+			3527,
 			46,
 			38
 		},
@@ -92907,17 +107454,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3597,
-			2002,
+			3374,
+			3436,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92932,17 +107479,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3596,
-			1954,
+			3326,
+			3435,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92957,17 +107504,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3595,
-			1906,
+			3546,
+			3443,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -92982,17 +107529,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3595,
-			1858,
+			3374,
+			3396,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93007,17 +107554,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3583,
-			1810,
+			3326,
+			3395,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0019"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93032,17 +107579,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3582,
-			1762,
+			3546,
+			3403,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0020"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93057,12 +107604,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3668,
-			1754,
+			3121,
+			3578,
 			46,
 			38
 		},
@@ -93082,12 +107629,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3668,
-			1754,
+			3121,
+			3578,
 			46,
 			38
 		},
@@ -93107,12 +107654,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3681,
-			1844,
+			3161,
+			3575,
 			46,
 			38
 		},
@@ -93132,12 +107679,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3708,
-			1754,
+			3176,
+			3527,
 			46,
 			38
 		},
@@ -93157,12 +107704,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3721,
-			1844,
+			3167,
+			3623,
 			46,
 			38
 		},
@@ -93182,12 +107729,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3723,
-			1892,
+			3201,
+			3575,
 			46,
 			38
 		},
@@ -93207,12 +107754,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3724,
-			1977,
+			3207,
+			3623,
 			46,
 			38
 		},
@@ -93232,12 +107779,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3748,
-			1754,
+			3216,
+			3527,
 			46,
 			38
 		},
@@ -93257,12 +107804,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3788,
-			1754,
+			3241,
+			3575,
 			46,
 			38
 		},
@@ -93282,12 +107829,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3761,
-			1844,
+			3247,
+			3623,
 			46,
 			38
 		},
@@ -93307,12 +107854,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3763,
-			1892,
+			3256,
+			3527,
 			46,
 			38
 		},
@@ -93332,12 +107879,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3764,
-			1940,
+			3281,
+			3575,
 			46,
 			38
 		},
@@ -93357,12 +107904,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3801,
-			1844,
+			3287,
+			3623,
 			46,
 			38
 		},
@@ -93382,12 +107929,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3803,
-			1892,
+			3296,
+			3527,
 			46,
 			38
 		},
@@ -93407,12 +107954,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3804,
-			1940,
+			3321,
+			3575,
 			46,
 			38
 		},
@@ -93432,17 +107979,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3640,
-			2111,
+			3327,
+			3623,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93457,17 +108004,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3640,
-			2151,
+			3336,
+			3527,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93482,17 +108029,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3640,
-			2191,
+			3361,
+			3575,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93507,12 +108054,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3191,
-			2607,
+			3367,
+			3623,
 			46,
 			38
 		},
@@ -93532,12 +108079,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2267,
+			3376,
+			3527,
 			46,
 			38
 		},
@@ -93557,12 +108104,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3509,
-			2315,
+			3401,
+			3575,
 			46,
 			38
 		},
@@ -93582,12 +108129,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3517,
-			2363,
+			3407,
+			3623,
 			46,
 			38
 		},
@@ -93607,17 +108154,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3640,
-			2231,
+			3447,
+			3616,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93632,17 +108179,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3549,
-			2287,
+			3533,
+			3573,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93657,17 +108204,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3638,
-			2271,
+			3573,
+			3569,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93682,12 +108229,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3686,
-			2274,
+			3660,
+			3019,
 			46,
 			38
 		},
@@ -93707,17 +108254,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2287,
+			3699,
+			2978,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93732,12 +108279,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3805,
-			2293,
+			3784,
+			2983,
 			46,
 			38
 		},
@@ -93757,12 +108304,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3805,
-			2333,
+			3832,
+			2999,
 			46,
 			38
 		},
@@ -93782,12 +108329,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3638,
-			2311,
+			3784,
+			3023,
 			46,
 			38
 		},
@@ -93807,17 +108354,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3686,
-			2322,
+			3832,
+			3039,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer3_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93832,12 +108379,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3801,
-			1844,
+			3287,
+			3623,
 			46,
 			38
 		},
@@ -93857,12 +108404,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2335,
+			3579,
+			3142,
 			46,
 			38
 		},
@@ -93882,17 +108429,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3805,
-			2373,
+			3594,
+			3234,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93907,17 +108454,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3517,
-			2411,
+			3594,
+			3282,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93932,17 +108479,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3513,
-			2451,
+			3594,
+			3330,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93957,17 +108504,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3513,
-			2491,
+			3594,
+			3378,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -93982,12 +108529,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3557,
-			2353,
+			3594,
+			3426,
 			46,
 			38
 		},
@@ -94007,17 +108554,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3597,
-			2361,
+			3594,
+			3474,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94032,17 +108579,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3565,
-			2401,
+			3613,
+			3569,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94057,17 +108604,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3565,
-			2401,
+			3613,
+			3569,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94082,12 +108629,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3645,
-			2351,
+			3619,
+			3617,
 			46,
 			38
 		},
@@ -94107,17 +108654,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3613,
-			2401,
+			3653,
+			3569,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0063"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94132,12 +108679,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3685,
-			2370,
+			3659,
+			3617,
 			46,
 			38
 		},
@@ -94157,12 +108704,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3725,
-			2371,
+			3618,
+			3071,
 			46,
 			38
 		},
@@ -94182,12 +108729,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3765,
-			2383,
+			3619,
+			3119,
 			46,
 			38
 		},
@@ -94207,17 +108754,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3805,
-			2413,
+			3630,
+			3167,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94232,17 +108779,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3565,
-			2441,
+			3634,
+			3215,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer3_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94257,17 +108804,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3613,
-			2441,
+			3634,
+			3263,
 			46,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0001"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94282,12 +108829,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3551,
-			2248,
+			3034,
+			3201,
 			45,
 			37
 		},
@@ -94307,12 +108854,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3726,
-			2324,
+			3594,
+			3522,
 			45,
 			37
 		},
@@ -94332,12 +108879,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3599,
-			2314,
+			3633,
+			3522,
 			45,
 			37
 		},
@@ -94357,17 +108904,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			2481,
+			3634,
+			3311,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0005"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94382,17 +108929,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3608,
-			2481,
+			3634,
+			3358,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0006"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94407,12 +108954,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2425,
+			3634,
+			3405,
 			45,
 			37
 		},
@@ -94432,17 +108979,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			2520,
+			3634,
+			3452,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94457,12 +109004,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3608,
-			2520,
+			3700,
+			3062,
 			45,
 			37
 		},
@@ -94482,12 +109029,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3700,
-			2419,
+			3784,
+			3063,
 			45,
 			37
 		},
@@ -94507,17 +109054,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3700,
-			2458,
+			3659,
+			3107,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94532,17 +109079,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3700,
-			2458,
+			3659,
+			3107,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94557,12 +109104,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3700,
-			2419,
+			3784,
+			3063,
 			45,
 			37
 		},
@@ -94582,12 +109129,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3608,
-			2520,
+			3700,
+			3062,
 			45,
 			37
 		},
@@ -94607,17 +109154,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			2520,
+			3634,
+			3452,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94632,12 +109179,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			2425,
+			3634,
+			3405,
 			45,
 			37
 		},
@@ -94657,17 +109204,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3608,
-			2481,
+			3634,
+			3358,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0017"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94682,17 +109229,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			2481,
+			3634,
+			3311,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0018"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94707,12 +109254,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3599,
-			2314,
+			3633,
+			3522,
 			45,
 			37
 		},
@@ -94732,12 +109279,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3726,
-			2324,
+			3594,
+			3522,
 			45,
 			37
 		},
@@ -94757,12 +109304,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3551,
-			2248,
+			3034,
+			3201,
 			45,
 			37
 		},
@@ -94782,12 +109329,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3551,
-			2248,
+			3034,
+			3201,
 			45,
 			37
 		},
@@ -94807,17 +109354,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3655,
-			2510,
+			3831,
+			3079,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer4_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94832,17 +109379,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3747,
-			2431,
+			3670,
+			3154,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94857,17 +109404,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3747,
-			2470,
+			3674,
+			3201,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94882,17 +109429,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3794,
-			2453,
+			3674,
+			3248,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0026"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94907,17 +109454,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3700,
-			2497,
+			3698,
+			3107,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0027"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94932,17 +109479,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3747,
-			2509,
+			3709,
+			3154,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0028"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94957,17 +109504,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3794,
-			2492,
+			3713,
+			3201,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0029"] = {
 		a_name = "go_towers_random-0.dds",
@@ -94982,17 +109529,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3794,
-			2531,
+			3713,
+			3248,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0030"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95007,12 +109554,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3694,
-			2536,
+			3674,
+			3295,
 			45,
 			37
 		},
@@ -95032,12 +109579,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3741,
-			2548,
+			3673,
+			3334,
 			45,
 			37
 		},
@@ -95057,12 +109604,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3694,
-			2575,
+			3673,
+			3373,
 			45,
 			37
 		},
@@ -95082,12 +109629,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3741,
-			2587,
+			3673,
+			3412,
 			45,
 			37
 		},
@@ -95107,12 +109654,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3788,
-			2570,
+			3673,
+			3451,
 			45,
 			37
 		},
@@ -95132,17 +109679,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3788,
-			2609,
+			3720,
+			3334,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95157,17 +109704,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3229,
-			2529,
+			3720,
+			3381,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95182,17 +109729,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3225,
-			2568,
+			3720,
+			3428,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95207,17 +109754,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3231,
-			2607,
+			3673,
+			3490,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer4_0039"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95232,17 +109779,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3276,
-			2530,
+			3720,
+			3475,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0040"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95257,17 +109804,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3272,
-			2569,
+			3693,
+			3569,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0041"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95282,17 +109829,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3270,
-			2608,
+			3699,
+			3616,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0042"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95307,17 +109854,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3323,
-			2532,
+			3732,
+			3569,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95332,17 +109879,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3370,
-			2532,
+			3738,
+			3616,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0044"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95357,17 +109904,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3319,
-			2571,
+			3758,
+			3522,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95382,17 +109929,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3366,
-			2571,
+			3771,
+			3569,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95407,17 +109954,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3317,
-			2610,
+			3777,
+			3616,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95432,17 +109979,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3364,
-			2610,
+			3737,
+			3101,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0048"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95457,12 +110004,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3421,
-			2530,
+			3776,
+			3102,
 			45,
 			37
 		},
@@ -95482,12 +110029,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3468,
-			2525,
+			3748,
+			3148,
 			45,
 			37
 		},
@@ -95507,17 +110054,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3507,
-			2531,
+			3752,
+			3195,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0051"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95532,12 +110079,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3694,
-			2575,
+			3673,
+			3373,
 			45,
 			37
 		},
@@ -95557,17 +110104,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3554,
-			2559,
+			3752,
+			3242,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95582,17 +110129,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3601,
-			2559,
+			3787,
+			3141,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95607,17 +110154,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3507,
-			2570,
+			3791,
+			3188,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95632,17 +110179,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3554,
-			2598,
+			3791,
+			3235,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95657,17 +110204,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3601,
-			2598,
+			3759,
+			3333,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95682,12 +110229,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3648,
-			2594,
+			3759,
+			3380,
 			45,
 			37
 		},
@@ -95707,17 +110254,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3687,
-			2614,
+			3759,
+			3427,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95732,17 +110279,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3734,
-			2626,
+			3759,
+			3474,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0060"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95757,17 +110304,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3734,
-			2626,
+			3759,
+			3474,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0061"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95782,17 +110329,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3417,
-			2569,
+			3798,
+			3282,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0062"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95807,12 +110354,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			2572,
+			3798,
+			3329,
 			45,
 			37
 		},
@@ -95832,17 +110379,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3503,
-			2609,
+			3798,
+			3376,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95857,17 +110404,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3550,
-			2637,
+			3798,
+			3423,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0065"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95882,17 +110429,17 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3597,
-			2637,
+			3798,
+			3470,
 			45,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer4_0066"] = {
 		a_name = "go_towers_random-0.dds",
@@ -95907,12 +110454,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3413,
-			2608,
+			3826,
+			3118,
 			45,
 			37
 		},
@@ -95932,12 +110479,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3551,
-			2248,
+			3034,
+			3201,
 			45,
 			37
 		},
@@ -95957,12 +110504,12 @@ return {
             112
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3460,
-			2619,
+			3830,
+			3188,
 			45,
 			37
 		},
@@ -95982,17 +110529,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3080,
-			2160,
+			2738,
+			2907,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0002"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96007,12 +110554,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3083,
-			2222,
+			2722,
+			2957,
 			42,
 			60
 		},
@@ -96032,12 +110579,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3242,
-			2155,
+			2722,
+			3019,
 			42,
 			60
 		},
@@ -96057,12 +110604,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3286,
-			2155,
+			2766,
+			2951,
 			42,
 			60
 		},
@@ -96082,12 +110629,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3330,
-			2155,
+			2766,
+			3013,
 			42,
 			60
 		},
@@ -96107,17 +110654,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2872,
-			2542,
+			2744,
+			3260,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0007"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96132,17 +110679,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3127,
-			2273,
+			2762,
+			3361,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0008"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96157,17 +110704,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3189,
-			2333,
+			2780,
+			3423,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0009"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96182,17 +110729,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3251,
-			2333,
+			2788,
+			3485,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0010"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96207,17 +110754,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3313,
-			2333,
+			2817,
+			3587,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0011"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96232,17 +110779,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3313,
-			2333,
+			2817,
+			3587,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0012"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96257,17 +110804,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3251,
-			2333,
+			2788,
+			3485,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0013"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96282,17 +110829,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3189,
-			2333,
+			2780,
+			3423,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0014"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96307,17 +110854,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3127,
-			2273,
+			2762,
+			3361,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0015"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96332,17 +110879,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2872,
-			2542,
+			2744,
+			3260,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0016"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96357,12 +110904,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3330,
-			2155,
+			2766,
+			3013,
 			42,
 			60
 		},
@@ -96382,12 +110929,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3286,
-			2155,
+			2766,
+			2951,
 			42,
 			60
 		},
@@ -96407,12 +110954,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3242,
-			2155,
+			2722,
+			3019,
 			42,
 			60
 		},
@@ -96432,12 +110979,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3083,
-			2222,
+			2722,
+			2957,
 			42,
 			60
 		},
@@ -96457,17 +111004,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3080,
-			2160,
+			2738,
+			2907,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0021"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96482,17 +111029,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3080,
-			2160,
+			2738,
+			2907,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0022"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96507,17 +111054,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3402,
-			1465,
+			2788,
+			3233,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0023"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96532,17 +111079,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3464,
-			1465,
+			2827,
+			3113,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0024"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96557,17 +111104,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3526,
-			1465,
+			2832,
+			3233,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0025"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96582,12 +111129,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3588,
-			1465,
+			3083,
+			2921,
 			42,
 			60
 		},
@@ -96607,12 +111154,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3650,
-			1471,
+			3145,
+			2932,
 			42,
 			60
 		},
@@ -96632,12 +111179,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3387,
-			1713,
+			2824,
+			3408,
 			42,
 			60
 		},
@@ -96657,12 +111204,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3402,
-			1775,
+			2832,
+			3470,
 			42,
 			60
 		},
@@ -96682,12 +111229,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3407,
-			1837,
+			2861,
+			3587,
 			42,
 			60
 		},
@@ -96707,12 +111254,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3407,
-			1899,
+			2868,
+			3408,
 			42,
 			60
 		},
@@ -96732,12 +111279,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3420,
-			2079,
+			2876,
+			3470,
 			42,
 			60
 		},
@@ -96757,17 +111304,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3738,
-			1483,
+			2905,
+			3587,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0033"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96782,12 +111329,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3719,
-			1527,
+			3083,
+			2965,
 			42,
 			60
 		},
@@ -96807,12 +111354,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3781,
-			1539,
+			3145,
+			2976,
 			42,
 			60
 		},
@@ -96832,17 +111379,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2418,
-			2426,
+			2902,
+			3287,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0036"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96857,17 +111404,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2480,
-			2426,
+			2912,
+			3349,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0037"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96882,17 +111429,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2542,
-			2427,
+			2920,
+			3470,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0038"] = {
 		a_name = "go_towers_random-0.dds",
@@ -96907,12 +111454,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2518,
-			2617,
+			2949,
+			3587,
 			42,
 			60
 		},
@@ -96932,12 +111479,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2604,
-			2432,
+			3081,
+			3009,
 			42,
 			60
 		},
@@ -96957,12 +111504,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2581,
-			2476,
+			3143,
+			3020,
 			42,
 			60
 		},
@@ -96982,12 +111529,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2583,
-			2520,
+			3425,
+			3049,
 			42,
 			60
 		},
@@ -97007,17 +111554,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2494,
+			2924,
+			3079,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0043"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97032,12 +111579,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2562,
-			2617,
+			2922,
+			3183,
 			42,
 			60
 		},
@@ -97057,17 +111604,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2677,
-			2538,
+			2946,
+			3287,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0045"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97082,17 +111629,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2659,
-			2582,
+			2956,
+			3349,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0046"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97107,17 +111654,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2799,
-			2554,
+			2964,
+			3465,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0047"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97132,12 +111679,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2737,
-			2599,
+			2990,
+			3287,
 			42,
 			60
 		},
@@ -97157,12 +111704,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2781,
-			2599,
+			3000,
+			3349,
 			42,
 			60
 		},
@@ -97182,12 +111729,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2825,
-			2598,
+			3008,
+			3465,
 			42,
 			60
 		},
@@ -97207,12 +111754,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2869,
-			2586,
+			2993,
+			3587,
 			42,
 			60
 		},
@@ -97232,17 +111779,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3738,
-			1483,
+			2905,
+			3587,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0052"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97257,17 +111804,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2913,
-			2588,
+			3037,
+			3587,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0053"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97282,17 +111829,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3465,
-			2253,
+			3081,
+			3053,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0054"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97307,17 +111854,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3465,
-			2315,
+			3143,
+			3064,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0055"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97332,17 +111879,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3441,
-			1566,
+			3424,
+			3093,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0056"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97357,17 +111904,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3485,
-			1564,
+			3081,
+			3097,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0057"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97382,17 +111929,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3529,
-			1564,
+			3143,
+			3108,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0058"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97407,17 +111954,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3573,
-			1564,
+			3081,
+			3141,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0059"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97432,12 +111979,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3530,
-			1626,
+			3143,
+			3152,
 			42,
 			60
 		},
@@ -97457,12 +112004,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3530,
-			1626,
+			3143,
+			3152,
 			42,
 			60
 		},
@@ -97482,12 +112029,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3617,
-			1564,
+			3205,
+			3131,
 			42,
 			60
 		},
@@ -97507,12 +112054,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3592,
-			1626,
+			3249,
+			3134,
 			42,
 			60
 		},
@@ -97532,17 +112079,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3661,
-			1564,
+			3419,
+			3137,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0064"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97557,12 +112104,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3705,
-			1571,
+			3081,
+			3185,
 			42,
 			60
 		},
@@ -97582,12 +112129,12 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3767,
-			1583,
+			3143,
+			3196,
 			42,
 			60
 		},
@@ -97607,17 +112154,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3762,
-			1627,
+			3249,
+			3178,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["sunrayTower_layer5_0067"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97632,17 +112179,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3080,
-			2160,
+			2738,
+			2907,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["sunrayTower_layer5_0068"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97657,17 +112204,17 @@ return {
             19
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3530,
-			1670,
+			3293,
+			3178,
 			42,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["tower_bastion_base"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97682,17 +112229,17 @@ return {
             28
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1727,
-			390,
+			207,
+			3449,
 			166,
 			147
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["tower_bastion_shadow"] = {
 		a_name = "go_towers_random-0.dds",
@@ -97707,12 +112254,12 @@ return {
             18
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1052,
-			2205,
+			1271,
+			3214,
 			116,
 			45
 		},
@@ -97732,12 +112279,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			940,
-			2205,
+			2934,
+			1880,
 			110,
 			110
 		},
@@ -97757,12 +112304,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			940,
-			2317,
+			2348,
+			2030,
 			110,
 			110
 		},
@@ -97782,12 +112329,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1148,
-			1985,
+			2460,
+			2031,
 			110,
 			110
 		},
@@ -97807,12 +112354,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1138,
-			2208,
+			2582,
+			1984,
 			110,
 			110
 		},
@@ -97832,12 +112379,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1264,
-			1137,
+			3062,
+			1222,
 			114,
 			114
 		},
@@ -97857,12 +112404,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1271,
-			1253,
+			1696,
+			1751,
 			114,
 			114
 		},
@@ -97882,12 +112429,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1599,
-			1250,
+			1538,
+			2049,
 			114,
 			114
 		},
@@ -97907,12 +112454,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1052,
-			1753,
+			1641,
+			2474,
 			114,
 			114
 		},
@@ -97932,12 +112479,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1052,
-			1869,
+			648,
+			2719,
 			114,
 			114
 		},
@@ -97957,12 +112504,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1387,
-			1371,
+			764,
+			2837,
 			114,
 			114
 		},
@@ -97982,12 +112529,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1267,
-			1536,
+			836,
+			3218,
 			114,
 			114
 		},
@@ -98007,12 +112554,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1503,
-			1371,
+			840,
+			3334,
 			114,
 			114
 		},
@@ -98032,12 +112579,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1707,
-			1374,
+			840,
+			3450,
 			114,
 			114
 		},
@@ -98057,12 +112604,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1383,
-			1550,
+			939,
+			2992,
 			114,
 			114
 		},
@@ -98082,12 +112629,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1619,
-			1490,
+			952,
+			3216,
 			114,
 			114
 		},
@@ -98107,12 +112654,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1735,
-			1490,
+			956,
+			3332,
 			114,
 			114
 		},
@@ -98132,12 +112679,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			877,
+			956,
+			3448,
 			114,
 			114
 		},
@@ -98157,12 +112704,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2749,
-			884,
+			1204,
+			3003,
 			114,
 			114
 		},
@@ -98182,12 +112729,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2865,
-			885,
+			1320,
+			3010,
 			114,
 			114
 		},
@@ -98207,12 +112754,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2981,
-			905,
+			1068,
+			3216,
 			114,
 			114
 		},
@@ -98232,12 +112779,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3097,
-			912,
+			1072,
+			3332,
 			114,
 			114
 		},
@@ -98257,12 +112804,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3268,
-			920,
+			1072,
+			3448,
 			114,
 			114
 		},
@@ -98282,12 +112829,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3384,
-			920,
+			1320,
+			3126,
 			114,
 			114
 		},
@@ -98307,12 +112854,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3500,
-			912,
+			1502,
+			3044,
 			114,
 			114
 		},
@@ -98332,12 +112879,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3616,
-			903,
+			1318,
+			3242,
 			114,
 			114
 		},
@@ -98357,12 +112904,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3732,
-			903,
+			1315,
+			3358,
 			114,
 			114
 		},
@@ -98382,12 +112929,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1972,
-			968,
+			1502,
+			3160,
 			114,
 			114
 		},
@@ -98407,12 +112954,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2088,
-			966,
+			3685,
+			1074,
 			114,
 			114
 		},
@@ -98432,12 +112979,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2313,
-			969,
+			1812,
+			1751,
 			114,
 			114
 		},
@@ -98457,12 +113004,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2633,
-			993,
+			1839,
+			1936,
 			114,
 			114
 		},
@@ -98482,12 +113029,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2749,
-			1000,
+			1848,
+			2052,
 			114,
 			114
 		},
@@ -98507,12 +113054,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2865,
-			1001,
+			1648,
+			2738,
 			114,
 			114
 		},
@@ -98532,12 +113079,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2981,
-			1021,
+			1764,
+			2738,
 			114,
 			114
 		},
@@ -98557,12 +113104,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3097,
-			1028,
+			1828,
+			3044,
 			114,
 			114
 		},
@@ -98582,12 +113129,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3213,
-			1036,
+			1842,
+			3160,
 			114,
 			114
 		},
@@ -98607,12 +113154,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3329,
-			1036,
+			1944,
+			3044,
 			114,
 			114
 		},
@@ -98632,12 +113179,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1146,
-			2320,
+			2694,
+			1990,
 			110,
 			110
 		},
@@ -98657,12 +113204,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1250,
-			2208,
+			2806,
+			1990,
 			110,
 			110
 		},
@@ -98682,12 +113229,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			1258,
-			2320,
+			2918,
+			1992,
 			110,
 			110
 		},
@@ -98707,12 +113254,12 @@ return {
             5
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			2264,
-			1591,
+			2572,
+			2096,
 			110,
 			110
 		},
@@ -98732,12 +113279,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3445,
-			1036,
+			1958,
+			3160,
 			114,
 			114
 		},
@@ -98757,12 +113304,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3561,
-			1028,
+			3062,
+			1338,
 			114,
 			114
 		},
@@ -98782,12 +113329,12 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3677,
-			1019,
+			3178,
+			1344,
 			114,
 			114
 		},
@@ -98807,14 +113354,314 @@ return {
             3
 		},
 		a_size = {
-			3852,
-			2681
+			3879,
+			3672
 		},
 		f_quad = {
-			3677,
-			1135,
+			3294,
+			1350,
 			114,
 			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0090"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3472,
+			1347,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0090_disabled"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3683,
+			1262,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0090_disabled_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			3683,
+			1378,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0090_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1904,
+			1622,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0091"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1928,
+			1738,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0091_disabled"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1955,
+			1936,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0091_disabled_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			1964,
+			2052,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0091_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			3,
+            3,
+            3,
+            3
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2044,
+			1738,
+			114,
+			114
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0092"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2684,
+			2102,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0092_disabled"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2796,
+			2102,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0092_disabled_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2908,
+			2104,
+			110,
+			110
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["tower_upgrade_icons_0092_turn_off"] = {
+		a_name = "go_towers_random-0.dds",
+		size = {
+			120,
+			120
+		},
+		trim = {
+			5,
+            5,
+            5,
+            5
+		},
+		a_size = {
+			3879,
+			3672
+		},
+		f_quad = {
+			2348,
+			2142,
+			110,
+			110
 		},
 		alias = {},
 		textureRotated = false

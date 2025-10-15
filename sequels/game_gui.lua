@@ -13021,6 +13021,12 @@ function TowerMenuTooltip:show(entity, item)
 		self.wide = false
 		self:ci("title").text = item.tt_title
 		self:ci("desc").text = GU.balance_format(item.tt_desc, balance) or ""
+		if item.tt_phrase then
+			local b = self:ci("bottom_type_phrase")
+			b.hidden = false
+			has_bottom_view = true
+			b:ci("phrase").text = item.tt_phrase
+		end
 	elseif item.action == "tw_sell" then
 		if entity.powers then
 			self.wide = true

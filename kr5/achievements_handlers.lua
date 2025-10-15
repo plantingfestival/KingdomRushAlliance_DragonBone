@@ -231,17 +231,17 @@ function ah:h_entity_killed(entity, damage)
 					self.A:inc_check("CALL_ME_PIG")
 				end
 
-				if s.template_name == "fireball_baby_ashbite" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "fireball_baby_ashbite" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
-				if s.template_name == "aura_breath_baby_ashbite" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "aura_breath_baby_ashbite" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
-				if s.template_name == "mod_black_baby_dragon" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "mod_black_baby_dragon" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
 				if s.template_name == "power_thunder_control" then
 					self.A:inc_check("LIGHTNING_KILL")

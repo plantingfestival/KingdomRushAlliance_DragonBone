@@ -7958,4 +7958,108 @@ return {
 			}
 		}
 	},
+	baby_black_dragon = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = 1,
+				action = "tw_buy_attack",
+				halo = "glow_ico_main",
+				image = "tower_upgrade_icons_0092",
+				place = 12,
+				tt_phrase = _("ELVES_BABY_BERESAD_SPECIAL_NOTE"),
+				tt_title = _("ELVES_BABY_BERESAD_SPECIAL_NAME_1"),
+				tt_desc = _("ELVES_BABY_BERESAD_SPECIAL_SMALL_DESCRIPTION_1")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		}
+	},
+	holder_baby_ashbite = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "tower_baby_ashbite",
+				action = "tw_upgrade",
+				halo = "glow_ico_main",
+				image = "soldier_icons_0008",
+				place = 12,
+				tt_title = _("ELVES_BABY_ASHBITE_TOWER_BROKEN_NAME"),
+				tt_desc = _("ELVES_BABY_ASHBITE_TOWER_BROKEN_DESCRIPTION")
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		}
+	},
+	baby_ashbite = {
+		{
+			{
+				check = "special_icons_0020",
+				action_arg = "blazing_breath",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0090",
+				place = 6,
+				halo = "glow_ico_special",
+				sounds = {
+					"ElvesAshbiteConfirm"
+				},
+				tt_phrase = _("ELVES_BABY_ASHBITE_FIREBREATH_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("ELVES_BABY_ASHBITE_FIREBREATH_NAME_1"),
+						tt_desc = _("ELVES_BABY_ASHBITE_FIREBREATH_SMALL_DESCRIPTION_1")
+					},
+					{
+						tt_title = _("ELVES_BABY_ASHBITE_FIREBREATH_NAME_2"),
+						tt_desc = _("ELVES_BABY_ASHBITE_FIREBREATH_SMALL_DESCRIPTION_2")
+					},
+					{
+						tt_title = _("ELVES_BABY_ASHBITE_FIREBREATH_NAME_3"),
+						tt_desc = _("ELVES_BABY_ASHBITE_FIREBREATH_SMALL_DESCRIPTION_3")
+					}
+				}
+			},
+			{
+				check = "special_icons_0020",
+				action_arg = "fiery_mist",
+				action = "upgrade_power",
+				image = "tower_upgrade_icons_0091",
+				place = 7,
+				halo = "glow_ico_special",
+				sounds = {
+					"ElvesAshbiteConfirm"
+				},
+				tt_phrase = _("ELVES_BABY_ASHBITE_SMOKEBREATH_NOTE"),
+				tt_list = {
+					{
+						tt_title = _("ELVES_BABY_ASHBITE_SMOKEBREATH_NAME_1"),
+						tt_desc = _("ELVES_BABY_ASHBITE_SMOKEBREATH_SMALL_DESCRIPTION_1")
+					}
+				}
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			},
+			{
+				check = "ingame_ui_ico_sell_0002",
+				action = "tw_sell",
+				halo = "ingame_ui_ico_sell_0001_hover",
+				image = "ingame_ui_ico_sell_0001",
+				place = 9
+			}
+		}
+	}
 }

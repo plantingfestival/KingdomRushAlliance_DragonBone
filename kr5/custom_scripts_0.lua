@@ -344,6 +344,8 @@ function scripts.controller_spawn_on_path.update(this, store, script)
 			ni = ni + diff * this.direction
 		end
 		entity.pos = P:node_pos(pi, spi, ni)
+		entity.pos.x = entity.pos.x + U.frandom(this.random_offset.x.min, this.random_offset.x.max)
+		entity.pos.y = entity.pos.y + U.frandom(this.random_offset.y.min, this.random_offset.y.max)
 		table.insert(this.entities, entity)
 		table.insert(this.delays, delay)
 	end
