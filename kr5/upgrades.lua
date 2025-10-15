@@ -725,6 +725,8 @@ function upgrades:patch_templates(max_level)
 		st = T("pirates_soldier_goblin_deckhand_lvl2")
 		st.health.hp_max = st.health._hp_max
 		st.health._hp_max = nil
+		st = T(T("tower_baby_ashbite").barrack.soldier_type)
+		st.health.hp_max = km.round(st.health.hp_max * b.towers_war_rations.hp_factor)
 	end
 
 	u = self:get_upgrade("towers_wise_investment")
@@ -792,6 +794,7 @@ function upgrades:patch_templates(max_level)
 		T("tower_archmage").tower.refund_factor = b.towers_wise_investment.refund_factor
 		T("tower_sunray").tower.refund_factor = b.towers_wise_investment.refund_factor
 		T("tower_bastion").tower.refund_factor = b.towers_wise_investment.refund_factor
+		T("tower_baby_ashbite").tower.refund_factor = b.towers_wise_investment.refund_factor
 	end
 
 	u = self:get_upgrade("towers_scoping_mechanism")
@@ -953,6 +956,8 @@ function upgrades:patch_templates(max_level)
 		barrack = T("tower_mech").barrack
 		barrack.rally_range = barrack.rally_range * rally_range_factor
 		barrack = T("tower_sorcerer").barrack
+		barrack.rally_range = barrack.rally_range * rally_range_factor
+		barrack = T("tower_baby_ashbite").barrack
 		barrack.rally_range = barrack.rally_range * rally_range_factor
 	end
 
@@ -1484,6 +1489,8 @@ function upgrades:patch_templates(max_level)
 		st = T("pirates_soldier_goblin_deckhand_lvl2")
 		st.health.dead_lifetime = st.health._dead_lifetime
 		st.health._dead_lifetime = nil
+		st = T(T("tower_baby_ashbite").barrack.soldier_type)
+		st.health.dead_lifetime = st.health.dead_lifetime - b.towers_royal_training.reduce_cooldown
 	end
 
 	u = self:get_upgrade("reinforcements_thorny_armor")
@@ -2123,6 +2130,12 @@ function upgrades:patch_templates(max_level)
 			bullet_t = T(tower_t.attacks.list[2].bullet)
 			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
 			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
+
+			tower_t = T("tower_baby_ashbite")
+			soldier_t = T(tower_t.barrack.soldier_type)
+			bullet_t = T(soldier_t.ranged.attacks[1].bullet)
+			bullet_t.bullet.damage_min = math.ceil(bullet_t.bullet.damage_min * d_mult)
+			bullet_t.bullet.damage_max = math.ceil(bullet_t.bullet.damage_max * d_mult)
 		end
 	end
 
@@ -2195,6 +2208,7 @@ function upgrades:patch_templates(max_level)
 			T("tower_mech").tower.price = T("tower_mech").tower.price - cost_red
 			T("tower_sorcerer").tower.price = T("tower_sorcerer").tower.price - cost_red
 			T("tower_archmage").tower.price = T("tower_archmage").tower.price - cost_red
+			T("tower_baby_ashbite").tower.price = T("tower_baby_ashbite").tower.price - cost_red
 		end
 	end
 
