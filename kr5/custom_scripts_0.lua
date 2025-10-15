@@ -339,7 +339,11 @@ function scripts.controller_spawn_on_path.update(this, store, script)
 				spi = km.zmod(spi + 1, 3)
 			end
 			ni = ni + diff * this.direction
-			delay = this.delay_between_objects
+			if this.delay_var > 0 then
+				delay = this.delay_between_objects + U.frandom(0, this.delay_var)
+			else
+				delay = this.delay_between_objects
+			end
 		elseif this.exclude_first_position then
 			ni = ni + diff * this.direction
 		end
@@ -358,7 +362,11 @@ function scripts.rain_controller.update(this, store, script)
 	for i = 1, this.max_entities do
 		local entity = E:create_entity(this.entity_name)
 		if i > 1 then
-			delay = this.delay_between_objects
+			if this.delay_var > 0 then
+				delay = this.delay_between_objects + U.frandom(0, this.delay_var)
+			else
+				delay = this.delay_between_objects
+			end
 		end
 		entity.pos = U.random_point_in_ellipse(this.pos, this.radius)
 		table.insert(this.entities, entity)

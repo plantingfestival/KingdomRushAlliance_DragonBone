@@ -21752,6 +21752,7 @@ tt.exclude_first_position = nil
 tt.direction = 1
 tt.nodes_between_objects = 4
 tt.delay_between_objects = 0.1
+tt.delay_var = 0.2
 tt.max_entities = 5
 tt.spawn_type = 1
 tt.random_offset.x.min = -12

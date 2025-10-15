@@ -23379,14 +23379,17 @@ function scripts.kr5_decal_black_baby_dragon.update(this, store)
 				local controller1 = E:create_entity(attack.hit_payload)
 				controller1.pos.x, controller1.pos.y = hit_pos.x, hit_pos.y
 				controller1.path_index = enemy.nav_path.pi
-				queue_insert(store, controller1)
 				local controller2 = E:create_entity(attack.hit_payload)
 				controller2.pos.x, controller2.pos.y = hit_pos.x, hit_pos.y
 				controller2.exclude_first_position = true
 				controller2.direction = -1
 				controller2.max_entities = controller2.max_entities - 1
 				controller2.path_index = enemy.nav_path.pi
-				queue_insert(store, controller2)
+				local delay_controller = E:create_entity("entities_delay_controller")
+				delay_controller.start_ts = store.tick_ts
+				delay_controller.entities = { controller1, controller2 }
+				delay_controller.delays = { 0.1, 0.2 }
+				queue_insert(store, delay_controller)
 				local d = E:create_entity("damage")
 				d.source_id = this.id
 				d.target_id = enemy.id
