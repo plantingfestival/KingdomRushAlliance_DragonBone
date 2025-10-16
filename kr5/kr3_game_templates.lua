@@ -21959,6 +21959,7 @@ tt.powers.fiery_mist.max_level = 1
 
 tt = E:register_t("soldier_baby_ashbite", "soldier")
 E:add_comps(tt, "ranged", "powers", "nav_grid")
+tt.ignore_linirea_true_might_revive = true
 tt.health.armor = 0.5
 tt.health.dead_lifetime = 10
 tt.health.hp_max = 450
