@@ -90800,7 +90800,9 @@ function scripts.controller_elemental_water.update(this, store)
 	end
 
 	local function add_mist()
-		this.fx_points = table.random_order(this.fx_points)
+		if #this.fx_points > 0 then
+			this.fx_points = table.random_order(this.fx_points)
+		end
 
 		for i = 1, #this.fx_points do
 			local p = this.fx_points[i]
