@@ -21802,6 +21802,10 @@ tt = E:register_t("kr5_aura_black_baby_dragon", "aura_black_baby_dragon")
 tt.aura.mods = {
 	"kr5_mod_black_baby_dragon"
 }
+function tt.main_script.insert(this, store)
+	this.aura.duration = U.frandom(0.8, 1.2) * this.aura.duration
+	return kr3_scripts.aura_apply_mod.insert(this, store)
+end
 
 tt = E:register_t("mod_black_baby_dragon", "mod_lava")
 tt.render.sprites[1].size_names = nil
