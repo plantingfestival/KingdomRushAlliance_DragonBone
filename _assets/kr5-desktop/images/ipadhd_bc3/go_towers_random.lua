@@ -71613,7 +71613,54 @@ return {
 			161,
 			146
 		},
-		alias = {},
+		alias = {
+			"galahadriansBastion_layer2_0002",
+			"galahadriansBastion_layer2_0003",
+			"galahadriansBastion_layer2_0004",
+			"galahadriansBastion_layer2_0005",
+			"galahadriansBastion_layer2_0006",
+			"galahadriansBastion_layer2_0007",
+			"galahadriansBastion_layer2_0008",
+			"galahadriansBastion_layer2_0009",
+			"galahadriansBastion_layer2_0010",
+			"galahadriansBastion_layer2_0011",
+			"galahadriansBastion_layer2_0012",
+			"galahadriansBastion_layer2_0013",
+			"galahadriansBastion_layer2_0014",
+			"galahadriansBastion_layer2_0015",
+			"galahadriansBastion_layer2_0016",
+			"galahadriansBastion_layer2_0017",
+			"galahadriansBastion_layer2_0018",
+			"galahadriansBastion_layer2_0019",
+			"galahadriansBastion_layer2_0020",
+			"galahadriansBastion_layer2_0021",
+			"galahadriansBastion_layer2_0022",
+			"galahadriansBastion_layer2_0023",
+			"galahadriansBastion_layer2_0024",
+			"galahadriansBastion_layer2_0025",
+			"galahadriansBastion_layer2_0026",
+			"galahadriansBastion_layer2_0027",
+			"galahadriansBastion_layer2_0028",
+			"galahadriansBastion_layer2_0029",
+			"galahadriansBastion_layer2_0030",
+			"galahadriansBastion_layer2_0031",
+			"galahadriansBastion_layer2_0032",
+			"galahadriansBastion_layer2_0033",
+			"galahadriansBastion_layer2_0034",
+			"galahadriansBastion_layer2_0035",
+			"galahadriansBastion_layer2_0036",
+			"galahadriansBastion_layer2_0037",
+			"galahadriansBastion_layer2_0038",
+			"galahadriansBastion_layer2_0039",
+			"galahadriansBastion_layer2_0040",
+			"galahadriansBastion_layer2_0041",
+			"galahadriansBastion_layer2_0042",
+			"galahadriansBastion_layer2_0043",
+			"galahadriansBastion_layer2_0044",
+			"galahadriansBastion_layer2_0045",
+			"galahadriansBastion_layer2_0046",
+			"galahadriansBastion_layer2_0053"
+		},
 		textureRotated = false
 	},
 	["galahadriansBastion_layer2_0047"] = {
@@ -71638,7 +71685,9 @@ return {
 			163,
 			145
 		},
-		alias = {},
+		alias = {
+			"galahadriansBastion_layer2_0048"
+		},
 		textureRotated = true
 	},
 	["galahadriansBastion_layer2_0049"] = {
@@ -71663,7 +71712,9 @@ return {
 			164,
 			142
 		},
-		alias = {},
+		alias = {
+			"galahadriansBastion_layer2_0050"
+		},
 		textureRotated = false
 	},
 	["galahadriansBastion_layer2_0051"] = {
@@ -71688,7 +71739,9 @@ return {
 			163,
 			146
 		},
-		alias = {},
+		alias = {
+			"galahadriansBastion_layer2_0052"
+		},
 		textureRotated = false
 	},
 	["galahadriansBastion_layer3_0001"] = {
