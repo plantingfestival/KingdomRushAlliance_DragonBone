@@ -2,6 +2,7 @@ local GS = {}
 
 -- customization
 GS.extra_levels = {
+	[114] = {},
 	[115] = {},
 	[122] = {},
 	[123] = {},
