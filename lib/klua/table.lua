@@ -67,70 +67,87 @@ function table.deepclone(t)
 		return t
 	end
 
-	local visited = {}  -- 记录已访问的表，处理循环引用
-	local stack = {}    -- 使用栈代替递归，避免栈溢出
-	
-	-- 创建根副本并初始化栈
+	local visited = {}
+	local stack = {}
 	local root = {}
 	visited[t] = root
 	table.insert(stack, {original = t, copy = root})
 	
-	-- 复制元表
-	local mt = getmetatable(t)
-	if mt then
-		-- 递归复制元表（这里使用递归，因为元表通常不会很深）
-		local function cloneMetatable(mt, visitedMt)
-			visitedMt = visitedMt or {}
-			if visitedMt[mt] then
-				return visitedMt[mt]
-			end
-			
-			if type(mt) ~= "table" then
-				return mt
-			end
-			
-			local mtCopy = {}
-			visitedMt[mt] = mtCopy
-			
-			for k, v in pairs(mt) do
-				if type(v) == "table" then
-					mtCopy[k] = cloneMetatable(v, visitedMt)
-				else
-					mtCopy[k] = v
-				end
-			end
-			
-			return mtCopy
+	-- 克隆元表（包含弱表属性）
+	local function cloneMetatable(mt)
+		if visited[mt] then
+			return visited[mt]
+		end
+		if type(mt) ~= "table" then
+			return mt
 		end
 		
-		setmetatable(root, cloneMetatable(mt))
+		local mtCopy = {}
+		visited[mt] = mtCopy
+		
+		for k, v in pairs(mt) do
+			if type(v) == "table" then
+				mtCopy[k] = cloneMetatable(v)
+			else
+				mtCopy[k] = v
+			end
+		end
+
+		-- 若包含弱表模式（__mode），直接保留
+		if rawget(mt, "__mode") ~= nil then
+			mtCopy.__mode = mt.__mode
+		end
+
+		return mtCopy
 	end
 
-	-- 使用迭代处理所有表
+	-- 根表元表
+	local rootMt = getmetatable(t)
+	if rootMt then
+		local mtCopy = cloneMetatable(rootMt)
+		setmetatable(root, mtCopy)
+	end
+
 	while #stack > 0 do
 		local current = table.remove(stack)
 		local original, copy = current.original, current.copy
 
 		for k, v in pairs(original) do
-			if type(v) == "table" then
-				-- 处理循环引用
-				if visited[v] then
-					copy[k] = visited[v]
+			-- 深拷贝键
+			local newKey = k
+			if type(k) == "table" then
+				if visited[k] then
+					newKey = visited[k]
 				else
-					-- 创建新表并加入栈中继续处理
+					newKey = {}
+					visited[k] = newKey
+					table.insert(stack, {original = k, copy = newKey})
+					local keyMt = getmetatable(k)
+					if keyMt then
+						local keyMtCopy = cloneMetatable(keyMt)
+						setmetatable(newKey, keyMtCopy)
+					end
+				end
+			end
+
+			-- 深拷贝值
+			if type(v) == "table" then
+				if visited[v] then
+					copy[newKey] = visited[v]
+				else
 					local newTable = {}
-					copy[k] = newTable
+					copy[newKey] = newTable
 					visited[v] = newTable
 					table.insert(stack, {original = v, copy = newTable})
 					
-					-- 复制子表的元表
 					local subMt = getmetatable(v)
 					if subMt then
-						setmetatable(newTable, table.deepclone(subMt))
+						local subMtCopy = cloneMetatable(subMt)
+						setmetatable(newTable, subMtCopy)
 					end
 				end
 			else
-				copy[k] = v
+				copy[newKey] = v
 			end
 		end
 	end
