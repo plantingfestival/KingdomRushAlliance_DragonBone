@@ -3082,28 +3082,28 @@ return {
 	},
 	level_select_thumbs_thumb_stage_114_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-114.dds",
+		defer = true,
 		size = {
-			1702,
-			1225
+			2016,
+			1064
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			1704,
-			1227
+			2016,
+			1064
 		},
 		f_quad = {
-			1,
-			1,
-			1702,
-			1225
+			0,
+			0,
+			2016,
+			1064
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
 	level_select_thumbs_thumb_stage_115_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-115.dds",

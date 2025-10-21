@@ -48,18 +48,94 @@ function table.clone(t)
 	return t2
 end
 
+-- function table.deepclone(t)
+-- 	if type(t) == "table" then
+-- 		local out = {}
+
+-- 		for k, v in pairs(t) do
+-- 			out[k] = table.deepclone(v)
+-- 		end
+
+-- 		return out
+-- 	else
+-- 		return t
+-- 	end
+-- end
+
 function table.deepclone(t)
-	if type(t) == "table" then
-		local out = {}
-
-		for k, v in pairs(t) do
-			out[k] = table.deepclone(v)
-		end
-
-		return out
-	else
+	if type(t) ~= "table" then
 		return t
 	end
+
+	local visited = {}  -- 记录已访问的表，处理循环引用
+	local stack = {}    -- 使用栈代替递归，避免栈溢出
+	
+	-- 创建根副本并初始化栈
+	local root = {}
+	visited[t] = root
+	table.insert(stack, {original = t, copy = root})
+	
+	-- 复制元表
+	local mt = getmetatable(t)
+	if mt then
+		-- 递归复制元表（这里使用递归，因为元表通常不会很深）
+		local function cloneMetatable(mt, visitedMt)
+			visitedMt = visitedMt or {}
+			if visitedMt[mt] then
+				return visitedMt[mt]
+			end
+			
+			if type(mt) ~= "table" then
+				return mt
+			end
+			
+			local mtCopy = {}
+			visitedMt[mt] = mtCopy
+			
+			for k, v in pairs(mt) do
+				if type(v) == "table" then
+					mtCopy[k] = cloneMetatable(v, visitedMt)
+				else
+					mtCopy[k] = v
+				end
+			end
+			
+			return mtCopy
+		end
+		
+		setmetatable(root, cloneMetatable(mt))
+	end
+
+	-- 使用迭代处理所有表
+	while #stack > 0 do
+		local current = table.remove(stack)
+		local original, copy = current.original, current.copy
+
+		for k, v in pairs(original) do
+			if type(v) == "table" then
+				-- 处理循环引用
+				if visited[v] then
+					copy[k] = visited[v]
+				else
+					-- 创建新表并加入栈中继续处理
+					local newTable = {}
+					copy[k] = newTable
+					visited[v] = newTable
+					table.insert(stack, {original = v, copy = newTable})
+					
+					-- 复制子表的元表
+					local subMt = getmetatable(v)
+					if subMt then
+						setmetatable(newTable, table.deepclone(subMt))
+					end
+				end
+			else
+				copy[k] = v
+			end
+		end
+	end
+
+	return root
 end
 
 function table.equals(t1, t2)

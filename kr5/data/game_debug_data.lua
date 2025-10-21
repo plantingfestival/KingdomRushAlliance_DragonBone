@@ -240,6 +240,15 @@ return {
 			"enemy_corrosive_soul",
 			"enemy_bone_carrier",
 			"enemy_lich",
+			"enemy_goblin",
+			"enemy_goblin_zapper",
+			"enemy_fat_orc",
+			"enemy_ogre",
+			"enemy_forest_troll",
+			"enemy_orc_armored",
+			"enemy_orc_rider",
+			"enemy_shaman",
+			"eb_gulthak"
 		},
 		{
 			"mod_natures_vigor",

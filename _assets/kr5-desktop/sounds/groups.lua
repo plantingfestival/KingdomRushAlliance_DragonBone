@@ -1497,8 +1497,6 @@ return {
 		"wizzard_taunt_death.ogg"
 		}
 	},
-<<<<<<< HEAD
-=======
 	item_hero_voodoo_witch = {
 		files = {
 			"Vodoo_01c.ogg",
@@ -1560,7 +1558,6 @@ return {
 			"halloween_vampiress_areaattack_confilo.ogg",
 		}
 	},
->>>>>>> 68010c7b1df6242f78b9f86ec6d055a79f21ddd1
 	item_hero_elves_archer = {
 		files = {
 			"Eridan_Death-01a.ogg",
@@ -1651,8 +1648,6 @@ return {
 			"kro_sfx_phoenix_fireegg_v3.ogg",
 		}
 	},
-<<<<<<< HEAD
-=======
 	item_hero_bolverk = {
 		files = {
 			"VarlBerserker_confirm-01a.ogg",
@@ -1676,7 +1671,6 @@ return {
 			"kr4_hero_jacko_teleport_var2.ogg",
 		}
 	},
->>>>>>> 68010c7b1df6242f78b9f86ec6d055a79f21ddd1
 	tower_rock_thrower = {
 		files = {
 			"kr3_sfx_druidhenge_bearattack_v4-op1.ogg",

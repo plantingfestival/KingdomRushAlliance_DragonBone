@@ -78,12 +78,6 @@ local function CC(comp_name)
     return E:clone_c(comp_name)
 end
 
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 4
-DO_TOWER_MODS = 10
-
 -- heroes
 tt = RT("projectile_denas", "arrow")
 AC(tt, "sound_events")
@@ -125,10 +119,14 @@ tt = RT("projectile_denas_melee_bottle", "projectile_denas_bottle")
 tt.bullet.flight_time = fts(13)
 
 tt = E:register_t("controller_item_hero_denas", "controller_item_hero")
-tt.entity = "hero_denas"
+tt.main_script.insert = customScripts1.controller_item_heroes.insert
+tt.entities = {
+	"hero_elves_denas",
+	"hero_denas",
+}
 
 tt = RT("hero_denas", "hero5")
-AC(tt, "melee", "ranged", "timed_attacks")
+AC(tt, "melee", "ranged", "timed_attacks", "reinforcement")
 anchor_x, anchor_y = 0.5, 0.26
 image_x, image_y = 152, 108
 tt.hero.fixed_stat_attack = 6
@@ -1259,14 +1257,14 @@ tt.hero.skills.waterball.hr_cost = {
 tt.hero.skills.waterball.hr_order = 2
 tt.hero.skills.waterball.hr_available = true
 tt.hero.skills.waterball.damage_min = {
-	32,
-	64,
-	96
+	40,
+	80,
+	120
 }
 tt.hero.skills.waterball.damage_max = {
-	49,
-	98,
-	147
+	60,
+	120,
+	180
 }
 tt.hero.skills.waterball.key = "WATERBALL"
 
@@ -3784,9 +3782,7 @@ tt.tower.menu_offset = v(0, 22)
 tt.ui.click_rect = r(-40, -10, 80, 90)
 
 tt = RT("kr4_elven_warrior", "soldier_militia")
-
-E:add_comps(tt, "powers", "dodge", "ranged", "revive", "nav_grid")
-
+E:add_comps(tt, "powers", "dodge", "timed_attacks", "revive", "nav_grid")
 anchor_y = 0.267
 tt.health.hp_max = 100
 tt.health.armor = 0.3
@@ -3821,27 +3817,28 @@ tt.melee.attacks[1].track_damage = true
 tt.melee.attacks[1].animation = "hit1"
 tt.melee.range = 50
 tt.soldier.melee_slot_offset = v(8, 0)
-tt.ranged.go_back_during_cooldown = true
-tt.ranged.attacks[1].bullet = "kr4_elven_warrior_arrow"
-tt.ranged.attacks[1].bullet_start_offset = {
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].skill = "range_unit"
+tt.timed_attacks.list[1].bullet = "kr4_elven_warrior_arrow"
+tt.timed_attacks.list[1].bullet_start_offset = {
 	v(4, 21)
 }
-tt.ranged.attacks[1].cooldown = 2
-tt.ranged.attacks[1].max_range = 205
-tt.ranged.attacks[1].min_range = 50
-tt.ranged.attacks[1].sprite_group = "shoot"
-tt.ranged.attacks[1].loops = 1
-tt.ranged.attacks[1].shoot_times = {
-	fts(4),
-	fts(9),
-	fts(16)
+tt.timed_attacks.list[1].cooldown = 1.5
+tt.timed_attacks.list[1].max_range = 205
+tt.timed_attacks.list[1].min_range = 50
+tt.timed_attacks.list[1].loops = 1
+tt.timed_attacks.list[1].cast_time = fts(24)
+tt.timed_attacks.list[1].node_prediction = fts(10)
+tt.timed_attacks.list[1].animation_prepare = "shootIn"
+tt.timed_attacks.list[1].animation_start = "shootPrep"
+tt.timed_attacks.list[1].animation_loop = "multiShoot"
+tt.timed_attacks.list[1].animation_end = "shootEnd"
+tt.timed_attacks.list[1].shoot_times = {
+	fts(3),
+	fts(5),
+	fts(5)
 }
-tt.ranged.attacks[1].animations = {
-	"shootPrep",
-	"multiShoot",
-	"shootEnd"
-}
-tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
+tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.regen.cooldown = 1
 tt.regen.health = 20
 tt.render.sprites[1].prefix = "kr4_elven_warrior"
@@ -3876,8 +3873,8 @@ tt = RT("kr4_elven_warrior_arrow", "arrow5_45degrees")
 tt.render.sprites[1].name = "kr4_elven_warrior_arrow"
 tt.bullet.miss_decal = "kr4_elven_warrior_arrow_decal_0009"
 tt.bullet.miss_decal_anchor = v(1, 0.5)
-tt.bullet.damage_min = 12
-tt.bullet.damage_max = 22
+tt.bullet.damage_min = 8
+tt.bullet.damage_max = 17
 tt.bullet.flight_time = fts(10)
 tt.bullet.g = -0.7 / (fts(1) * fts(1))
 tt.bullet.reset_to_target_pos = true
@@ -5405,14 +5402,12 @@ tt.editor.overrides = {
 }
 
 tt = RT("soldier_alleria_wildcat", "soldier")
-
 E:add_comps(tt, "melee", "nav_grid")
-
 anchor_y = 0.28
 image_y = 42
 tt.fn_level_up = kr1_scripts.soldier_alleria_wildcat.level_up
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0007" or "info_portraits_hero_0007"
-tt.health.armor = 0
+tt.info.portrait = "bottom_info_image_soldiers_0052"
+tt.health.armor = 0.2
 tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 35)
 tt.info.fn = kr1_scripts.soldier_alleria_wildcat.get_info
@@ -5445,10 +5440,8 @@ tt.unit.hide_after_death = true
 tt.unit.explode_fx = nil
 tt.vis.bans = bor(F_SKELETON, F_CANNIBALIZE)
 
-tt = RT("kr1_hero_alleria", "hero")
-
-AC(tt, "melee", "ranged", "timed_attacks")
-
+tt = RT("kr1_hero_alleria", "hero5")
+AC(tt, "melee", "ranged", "timed_attacks", "reinforcement", "tween")
 anchor_x, anchor_y = 0.5, 0.14
 image_x, image_y = 60, 76
 tt.hero.fixed_stat_attack = 3
@@ -5481,51 +5474,51 @@ tt.hero.level_stats.hp_max = {
 }
 tt.hero.level_stats.melee_damage_max = {
 	4,
-	6,
-	8,
-	11,
+	7,
+	10,
 	13,
 	16,
-	18,
-	20,
-	23,
-	25
+	19,
+	22,
+	25,
+	28,
+	31
 }
 tt.hero.level_stats.melee_damage_min = {
 	2,
 	4,
 	6,
-	7,
-	9,
+	8,
 	10,
 	12,
 	14,
-	15,
-	17
+	16,
+	18,
+	20
 }
 tt.hero.level_stats.ranged_damage_max = {
 	12,
-	14,
 	15,
-	17,
 	18,
-	20,
 	21,
-	23,
 	24,
-	26
+	27,
+	30,
+	33,
+	36,
+	39
 }
 tt.hero.level_stats.ranged_damage_min = {
 	7,
-	8,
 	9,
-	10,
 	11,
-	12,
 	13,
-	14,
-	14,
-	15
+	15,
+	17,
+	19,
+	21,
+	23,
+	25
 }
 tt.hero.level_stats.regen_health = {
 	63,
@@ -5541,16 +5534,11 @@ tt.hero.level_stats.regen_health = {
 }
 tt.hero.skills.multishot = CC("hero_skill")
 tt.hero.skills.multishot.count_base = 1
-tt.hero.skills.multishot.count_inc = 1
+tt.hero.skills.multishot.count_inc = 2
 tt.hero.skills.multishot.xp_level_steps = {
-	nil,
-	1,
-	nil,
-	nil,
-	2,
-	nil,
-	nil,
-	3
+	[4] = 1,
+	[7] = 2,
+	[10] = 3,
 }
 tt.hero.skills.multishot.xp_gain = {
 	25,
@@ -5558,9 +5546,9 @@ tt.hero.skills.multishot.xp_gain = {
 	75
 }
 tt.hero.skills.callofwild = CC("hero_skill")
-tt.hero.skills.callofwild.damage_max_base = 4
-tt.hero.skills.callofwild.damage_min_base = 2
-tt.hero.skills.callofwild.damage_inc = 4
+tt.hero.skills.callofwild.damage_max_base = 8
+tt.hero.skills.callofwild.damage_min_base = 4
+tt.hero.skills.callofwild.damage_inc = 6
 tt.hero.skills.callofwild.hp_base = 0
 tt.hero.skills.callofwild.hp_inc = 200
 tt.hero.skills.callofwild.xp_gain = {
@@ -5569,25 +5557,29 @@ tt.hero.skills.callofwild.xp_gain = {
 	150
 }
 tt.hero.skills.callofwild.xp_level_steps = {
-	[10] = 3,
 	[4] = 1,
-	[7] = 2
+	[7] = 2,
+	[10] = 3,
 }
-tt.health.dead_lifetime = 15
+tt.reinforcement.duration = 60
+tt.reinforcement.fade = nil
+tt.reinforcement.fade_out = true
+tt.health.dead_lifetime = 5
 tt.health_bar.offset = v(0, 33)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr1_scripts.hero_alleria.level_up
 tt.hero.tombstone_show_time = fts(90)
+tt.hero.level = 10
 tt.info.damage_icon = "arrow"
-tt.info.hero_portrait = IS_PHONE_OR_TABLET and "hero_portraits_0004" or "heroPortrait_portraits_0004"
+-- tt.info.hero_portrait = IS_PHONE_OR_TABLET and "hero_portraits_0004" or "heroPortrait_portraits_0004"
 tt.info.fn = kr1_scripts.hero_basic.get_info_ranged
-tt.info.i18n_key = "HERO_ARCHER"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0004" or "info_portraits_hero_0001"
+tt.info.i18n_key = "HERO_ARCHER_PHANTOM"
+tt.info.portrait = "portraits_hero_0130"
 tt.main_script.update = kr1_scripts.hero_alleria.update
 tt.motion.max_speed = 3 * FPS
 tt.regen.cooldown = 1
 tt.render.sprites[1].anchor = v(0.5, 0.14)
-tt.render.sprites[1].prefix = "hero_alleria"
+tt.render.sprites[1].prefix = "hero_archer"
 tt.soldier.melee_slot_offset = v(4, 0)
 tt.sound_events.change_rally_point = "HeroArcherTaunt"
 tt.sound_events.death = "HeroArcherDeath"
@@ -5596,12 +5588,15 @@ tt.sound_events.insert = "HeroArcherTauntIntro"
 tt.sound_events.respawn = "HeroArcherTauntIntro"
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 15)
+tt.unit.fade_time_after_death = tt.health.dead_lifetime - 1
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].hit_time = fts(8)
 tt.melee.attacks[1].sound = "MeleeSword"
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].xp_gain_factor = 2.5
 tt.melee.range = 45
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
+tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].bullet = "kr1_arrow_hero_alleria"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(0, 12)
@@ -5610,6 +5605,7 @@ tt.ranged.attacks[1].max_range = 150
 tt.ranged.attacks[1].min_range = 45
 tt.ranged.attacks[1].shoot_time = fts(6)
 tt.ranged.attacks[1].cooldown = 0.6
+tt.ranged.attacks[1].node_prediction = fts(6)
 tt.ranged.attacks[2] = E:clone_c("bullet_attack")
 tt.ranged.attacks[2].animation = "multishot"
 tt.ranged.attacks[2].bullet = "kr1_arrow_multishot_hero_alleria"
@@ -5634,6 +5630,19 @@ tt.timed_attacks.list[1].sound = "HeroArcherSummon"
 tt.timed_attacks.list[1].spawn_time = fts(17)
 tt.timed_attacks.list[1].min_range = 30
 tt.timed_attacks.list[1].max_range = 50
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(10),
+		255
+	}
+}
+tt.tween.props[1].name = "alpha"
+tt.tween.reverse = false
+tt.tween.disabled = true
 
 tt = RT("hero_malik", "hero")
 
@@ -5968,7 +5977,7 @@ tt.health.magic_armor = 0.85
 tt.health_bar.offset = v(0, 33)
 tt.info.i18n_key = "ENEMY_SHAMAN"
 tt.info.enc_icon = 3
-tt.info.portrait = "bottom_info_image_enemies_0092"
+tt.info.portrait = "bottom_info_image_enemies_0091"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_shaman.update
 tt.melee.attacks[1].cooldown = 1 + fts(18)
@@ -6492,7 +6501,7 @@ tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, 48)
 tt.info.i18n_key = "ENEMY_ORC_RIDER"
 tt.info.enc_icon = 37
-tt.info.portrait = "bottom_info_image_enemies_0090"
+tt.info.portrait = "bottom_info_image_enemies_0089"
 tt.melee.attacks[1].cooldown = 1 + fts(14)
 tt.melee.attacks[1].damage_max = 40
 tt.melee.attacks[1].damage_min = 20
@@ -8308,7 +8317,7 @@ tt.health_bar.offset = v(0, 95)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.i18n_key = "ENEMY_BOSS_GOBLIN_CHIEFTAIN"
 tt.info.enc_icon = 40
-tt.info.portrait = "bottom_info_image_enemies_0091"
+tt.info.portrait = "bottom_info_image_enemies_0090"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_shaman.update
 tt.melee.attacks[1].cooldown = 1 + fts(20)
@@ -8964,19 +8973,39 @@ tt.bullet.flight_time = fts(15)
 tt = RT("arrow_shadow_archer", "arrow")
 tt.bullet.damage_min = 20
 tt.bullet.damage_max = 30
+
 tt = RT("kr1_arrow_hero_alleria", "arrow")
 tt.bullet.xp_gain_factor = 2.875
 tt.bullet.prediction_error = false
+tt.bullet.use_unit_damage_factor = true
+
 tt = E:register_t("kr1_arrow_multishot_hero_alleria", "arrow")
-tt.bullet.particles_name = "ps_arrow_multishot_hero_alleria"
-tt.bullet.damage_min = 10
-tt.bullet.damage_max = 15
+tt.bullet.particles_name = "kr1_ps_arrow_multishot_hero_alleria"
+tt.bullet.damage_min = 30
+tt.bullet.damage_max = 45
 tt.bullet.damage_true = DAMAGE_TRUE
 tt.bullet.prediction_error = false
 tt.extra_arrows_range = 100
 tt.extra_arrows = 2
 tt.main_script.insert = kr1_scripts.arrow_multishot_hero_alleria.insert
 tt.render.sprites[1].name = "hero_archer_arrow"
+
+tt = E:register_t("kr1_ps_arrow_multishot_hero_alleria")
+E:add_comps(tt, "pos", "particle_system")
+tt.particle_system.name = "hero_archer_arrow_particle"
+tt.particle_system.animated = false
+tt.particle_system.alphas = {
+	255,
+	0
+}
+tt.particle_system.particle_lifetime = {
+	0.1,
+	0.1
+}
+tt.particle_system.emission_rate = 30
+tt.particle_system.track_rotation = true
+tt.particle_system.z = Z_BULLETS
+
 tt = RT("axe_troll_axe_thrower", "arrow")
 tt.bullet.damage_min = 40
 tt.bullet.damage_max = 80
@@ -9908,8 +9937,8 @@ AC(tt, "render", "tween")
 
 tt.range_factor = 1.2
 tt.cooldown_factor = 0.8
-tt.main_script.insert = kr1_scripts.mod_denas_tower.insert
-tt.main_script.remove = kr1_scripts.mod_denas_tower.remove
+tt.main_script.insert = kr1_scripts.mod_tower_factors.insert
+tt.main_script.remove = kr1_scripts.mod_tower_factors.remove
 tt.main_script.update = kr1_scripts.mod_denas_tower.update
 tt.modifier.duration = nil
 tt.modifier.use_mod_offset = false

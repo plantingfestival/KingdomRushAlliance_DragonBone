@@ -2574,6 +2574,16 @@ function sys.particle_system:on_remove(entity, store)
 	return true
 end
 
+local function removeObjectsFromSequence(sequence, lookup)
+	local result = {}
+	for _, value in ipairs(sequence) do
+		if not lookup[value] then
+			table.insert(result, value)
+		end
+	end
+	return result
+end
+
 function sys.particle_system:on_update(dt, ts, store)
 	local function new_frame(draw_order, z, sort_y_offset, sort_y)
 		local f = {}
@@ -2669,7 +2679,8 @@ function sys.particle_system:on_update(dt, ts, store)
 	for _, e in E:filter_iter(store.entities, "particle_system") do
 		local s = e.particle_system
 		local tl = store.tick_length
-		local to_remove = {}
+		local particles_to_remove = {}
+		local frames_to_remove = {}
 		local target, target_rot, ov_x, ov_y, ov_offset_x, ov_offset_y
 		local target_flip_sign = 1
 
@@ -2857,7 +2868,9 @@ function sys.particle_system:on_update(dt, ts, store)
 				local phase = (ts - p.ts) / p.lifetime
 
 				if phase >= 1 then
-					table.insert(to_remove, p)
+					-- table.insert(to_remove, p)
+					particles_to_remove[p] = true
+					frames_to_remove[p.f] = true
 
 					goto label_84_0
 				elseif phase < 0 then
@@ -2925,10 +2938,13 @@ function sys.particle_system:on_update(dt, ts, store)
 			::label_84_0::
 		end
 
-		for _, p in pairs(to_remove) do
-			table.removeobject(s.particles, p)
-			table.removeobject(store.render_frames, p.f)
-		end
+		-- for _, p in pairs(to_remove) do
+		-- 	table.removeobject(s.particles, p)
+		-- 	table.removeobject(store.render_frames, p.f)
+		-- end
+
+		s.particles = removeObjectsFromSequence(s.particles, particles_to_remove)
+		store.render_frames = removeObjectsFromSequence(store.render_frames, frames_to_remove)
 
 		if s.source_lifetime and ts - s.ts > s.source_lifetime then
 			s.emit = false
@@ -2942,6 +2958,95 @@ end
 
 sys.render = {}
 sys.render.name = "render"
+
+local ffi = require("ffi")
+ffi.cdef[[
+typedef struct {
+	int32_t z;
+	float sort_y;
+	int32_t draw_order;
+	float pos_x;
+	uint32_t lua_index;
+} RenderFrameFFI;
+
+void sort_ffi(RenderFrameFFI* frames, uint32_t len);
+]]
+local PSU = require("platform_services_utils")
+local rendersort = PSU:load_library("rendersort", ffi)
+
+local RenderSorter = {}
+RenderSorter.__index = RenderSorter
+
+function RenderSorter.new(initial_size)
+	local self = setmetatable({}, RenderSorter)
+	
+	self.ffi_array = ffi.new("RenderFrameFFI[?]", initial_size or 16384)
+	self.current_size = initial_size or 16384
+	self.max_observed_size = 0
+	
+	return self
+end
+
+function RenderSorter:ensure_capacity(required_size)
+	if required_size <= self.current_size then return end
+	
+	local new_size = math.max(self.current_size * 2, required_size)
+	self.ffi_array = ffi.new("RenderFrameFFI[?]", new_size)
+	self.current_size = new_size
+end
+
+function RenderSorter:sort(render_frames)
+	local len = #render_frames
+	if len <= 1 then
+		return render_frames
+	end
+	
+	self.max_observed_size = math.max(self.max_observed_size, len)
+	self:ensure_capacity(len)
+	
+	-- 填充FFI数组
+	for i = 1, len do
+		local frame = render_frames[i]
+		local pos = frame.pos
+		local sort_y = frame.sort_y
+		if not sort_y then
+			local sort_y_offset = frame.sort_y_offset or 0
+			sort_y = sort_y_offset + pos.y
+		end
+
+		self.ffi_array[i-1].z = frame.z
+		self.ffi_array[i-1].sort_y = sort_y
+		self.ffi_array[i-1].draw_order = frame.draw_order
+		self.ffi_array[i-1].pos_x = pos.x
+		self.ffi_array[i-1].lua_index = i
+	end
+	
+	-- 调用C排序函数（所有策略判断都在C端完成）
+	rendersort.sort_ffi(self.ffi_array, len)
+
+	-- 构建排序结果
+	local sorted_frames = {}
+	for i = 0, len-1 do
+		local orig_index = self.ffi_array[i].lua_index
+		sorted_frames[i+1] = render_frames[orig_index]
+	end
+	
+	return sorted_frames
+end
+
+-- 获取统计信息
+function RenderSorter:get_stats()
+	return {
+		current_capacity = self.current_size,
+		max_observed_size = self.max_observed_size,
+		memory_usage_bytes = self.current_size * ffi.sizeof("RenderFrameFFI")
+	}
+end
+
+-- 重置排序器
+function RenderSorter:reset()
+	self.max_observed_size = 0
+end
 
 function sys.render:init(store)
 	store.render_frames = {}
@@ -2965,6 +3070,9 @@ function sys.render:init(store)
 	}
 	self._hb_sizes = HEALTH_BAR_SIZES[store.texture_size] or HEALTH_BAR_SIZES.default
 	self._hb_colors = GS.health_bar_colors or HEALTH_BAR_COLORS
+
+	-- 创建排序器
+	self.render_sorter = RenderSorter.new(4096)
 end
 
 function sys.render:on_insert(entity, store)
@@ -3416,50 +3524,52 @@ function sys.render:on_update(dt, ts, store)
 		end
 	end
 
-	local function insertsort(a)
-		local len = #a
+	-- local function insertsort(a)
+	-- 	local len = #a
 
-		for i = 2, len do
-			local f1_lte_f2
-			local f1 = a[i]
-			local y1 = f1.sort_y or (f1.sort_y_offset and f1.sort_y_offset or 0) + f1.pos.y
+	-- 	for i = 2, len do
+	-- 		local f1_lte_f2
+	-- 		local f1 = a[i]
+	-- 		local y1 = f1.sort_y or (f1.sort_y_offset and f1.sort_y_offset or 0) + f1.pos.y
 
-			for j = i - 1, 0, -1 do
-				if j == 0 then
-					a[j + 1] = f1
+	-- 		for j = i - 1, 0, -1 do
+	-- 			if j == 0 then
+	-- 				a[j + 1] = f1
 
-					break
-				end
+	-- 				break
+	-- 			end
 
-				local f2 = a[j]
-				local y2 = f2.sort_y or (f2.sort_y_offset and f2.sort_y_offset or 0) + f2.pos.y
+	-- 			local f2 = a[j]
+	-- 			local y2 = f2.sort_y or (f2.sort_y_offset and f2.sort_y_offset or 0) + f2.pos.y
 
-				if f1.z == f2.z then
-					if y1 == y2 then
-						if f1.draw_order == f2.draw_order then
-							f1_lte_f2 = f1.pos.x < f2.pos.x
-						else
-							f1_lte_f2 = f1.draw_order < f2.draw_order
-						end
-					else
-						f1_lte_f2 = y2 < y1
-					end
-				else
-					f1_lte_f2 = f1.z < f2.z
-				end
+	-- 			if f1.z == f2.z then
+	-- 				if y1 == y2 then
+	-- 					if f1.draw_order == f2.draw_order then
+	-- 						f1_lte_f2 = f1.pos.x < f2.pos.x
+	-- 					else
+	-- 						f1_lte_f2 = f1.draw_order < f2.draw_order
+	-- 					end
+	-- 				else
+	-- 					f1_lte_f2 = y2 < y1
+	-- 				end
+	-- 			else
+	-- 				f1_lte_f2 = f1.z < f2.z
+	-- 			end
 
-				if f1_lte_f2 then
-					a[j + 1] = a[j]
-				else
-					a[j + 1] = f1
+	-- 			if f1_lte_f2 then
+	-- 				a[j + 1] = a[j]
+	-- 			else
+	-- 				a[j + 1] = f1
 
-					break
-				end
-			end
-		end
-	end
+	-- 				break
+	-- 			end
+	-- 		end
+	-- 	end
+	-- end
 
-	insertsort(store.render_frames)
+	-- insertsort(store.render_frames)
+
+	store.render_frames = self.render_sorter:sort(store.render_frames)
 end
 
 sys.sound_events = {}
