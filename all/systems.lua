@@ -2676,11 +2676,11 @@ function sys.particle_system:on_update(dt, ts, store)
 		end
 	end
 
+	local frames_to_remove = {}
 	for _, e in E:filter_iter(store.entities, "particle_system") do
 		local s = e.particle_system
 		local tl = store.tick_length
 		local particles_to_remove = {}
-		local frames_to_remove = {}
 		local target, target_rot, ov_x, ov_y, ov_offset_x, ov_offset_y
 		local target_flip_sign = 1
 
@@ -2944,16 +2944,16 @@ function sys.particle_system:on_update(dt, ts, store)
 		-- end
 
 		s.particles = removeObjectsFromSequence(s.particles, particles_to_remove)
-		store.render_frames = removeObjectsFromSequence(store.render_frames, frames_to_remove)
-
+		
 		if s.source_lifetime and ts - s.ts > s.source_lifetime then
 			s.emit = false
-
+			
 			if #s.particles == 0 then
 				queue_remove(store, e)
 			end
 		end
 	end
+	store.render_frames = removeObjectsFromSequence(store.render_frames, frames_to_remove)
 end
 
 sys.render = {}
