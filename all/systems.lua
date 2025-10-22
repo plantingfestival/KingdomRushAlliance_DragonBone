@@ -1857,7 +1857,7 @@ function sys.main_script:on_update(dt, ts, store)
 					s.first_run = nil
 					resume = true
 				elseif s.co then
-					if count < 512 or not e.aura and not e.vis or e.health and (e.health.dead or e.health.hp <= 0) or 
+					if count < 1024 or not e.aura and not e.vis or e.health and (e.health.dead or e.health.hp <= 0) or 
 					e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) then
 						resume = true
 					else

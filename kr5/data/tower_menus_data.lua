@@ -656,7 +656,7 @@ return {
 				action = "tw_upgrade",
 				halo = "glow_ico_main",
 				image = "main_icons_0004",
-				place = 1,
+				place = 6,
 				tt_title = _("TOWER_TRICANNON_4_NAME"),
 				tt_desc = _("TOWER_TRICANNON_4_DESCRIPTION")
 			},
@@ -666,7 +666,7 @@ return {
 				action = "tw_upgrade",
 				halo = "glow_ico_main",
 				image = "tower_icons_0104",
-				place = 2,
+				place = 7,
 				tt_title = _("TOWER_FRANKENSTEIN_NAME"),
 				tt_desc = _("TOWER_FRANKENSTEIN_DESCRIPTION")
 			},

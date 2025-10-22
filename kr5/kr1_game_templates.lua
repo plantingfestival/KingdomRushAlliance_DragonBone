@@ -5828,9 +5828,9 @@ AC(tt, "melee")
 
 image_x, image_y = 46, 32
 anchor_x, anchor_y = 0.5, 0.2
-tt.enemy.gold = 3
+tt.enemy.gold = 1
 tt.enemy.melee_slot = v(18, 0)
-tt.health.hp_max = 20
+tt.health.hp_max = 60
 tt.health_bar.offset = v(0, 25)
 tt.info.i18n_key = "ENEMY_GOBLIN"
 tt.info.enc_icon = 1
@@ -5851,10 +5851,10 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 58, 42
-tt.enemy.gold = 9
+tt.enemy.gold = 5
 tt.enemy.melee_slot = v(18, 0)
 tt.health.armor = 0.3
-tt.health.hp_max = 80
+tt.health.hp_max = 180
 tt.health_bar.offset = v(0, 30)
 tt.info.i18n_key = "ENEMY_FAT_ORC"
 tt.info.enc_icon = 2
@@ -5972,7 +5972,7 @@ anchor_x, anchor_y = 0.5, 0.2
 image_x, image_y = 60, 60
 tt.enemy.gold = 10
 tt.enemy.melee_slot = v(18, 0)
-tt.health.hp_max = 100
+tt.health.hp_max = 200
 tt.health.magic_armor = 0.85
 tt.health_bar.offset = v(0, 33)
 tt.info.i18n_key = "ENEMY_SHAMAN"
@@ -6035,7 +6035,7 @@ tt = RT("enemy_ogre", "enemy_KR5")
 AC(tt, "melee")
 anchor_x, anchor_y = 0.5, 0.2
 image_x, image_y = 86, 80
-tt.enemy.gold = 50
+tt.enemy.gold = 30
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(24, 0)
 tt.health.hp_max = 800
@@ -6769,7 +6769,7 @@ image_x, image_y = 52, 58
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.name = "aura_goblin_zapper_death"
 tt.death_spawns.delay = 0.11
-tt.enemy.gold = 10
+tt.enemy.gold = 7
 tt.enemy.melee_slot = v(18, 0)
 tt.health.hp_max = 140
 tt.health_bar.offset = v(0, 34)
