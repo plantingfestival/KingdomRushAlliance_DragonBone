@@ -11,8 +11,8 @@
 		},
 		{
 			pos = {
-				x = 82,
-				y = 350
+				x = 320,
+				y = 334
 			}
 		}
 	},
@@ -466,7 +466,7 @@
 			max_upgrade_level = 5,
 			available_towers = {
 				"tower_build_arcane_wizard",
-				"tower_build_paladin_covenant"
+				"tower_build_barrel"
 			}
 		}
 	},
