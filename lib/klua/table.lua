@@ -67,89 +67,81 @@ function table.deepclone(t)
 		return t
 	end
 
+	-- 将全局函数局部化，减少哈希查找成本
+	local type = type
+	local getmetatable = getmetatable
+	local setmetatable = setmetatable
+	-- local rawget = rawget
+	local next = next  -- 比 pairs 快 5~10%，且不产生闭包
+
 	local visited = {}
-	local stack = {}
+	local stack_o = {}  -- original 栈
+	local stack_c = {}  -- copy 栈
+	local top = 1
+
 	local root = {}
 	visited[t] = root
-	table.insert(stack, {original = t, copy = root})
-	
-	-- 克隆元表（包含弱表属性）
-	local function cloneMetatable(mt)
-		if visited[mt] then
-			return visited[mt]
-		end
-		if type(mt) ~= "table" then
-			return mt
-		end
-		
-		local mtCopy = {}
-		visited[mt] = mtCopy
-		
-		for k, v in pairs(mt) do
-			if type(v) == "table" then
-				mtCopy[k] = cloneMetatable(v)
-			else
-				mtCopy[k] = v
-			end
-		end
+	stack_o[1] = t
+	stack_c[1] = root
 
-		-- 若包含弱表模式（__mode），直接保留
-		if rawget(mt, "__mode") ~= nil then
-			mtCopy.__mode = mt.__mode
-		end
+	while top > 0 do
+		local original = stack_o[top]
+		local copy = stack_c[top]
+		top = top - 1
 
-		return mtCopy
-	end
+		local k = next(original)
+		while k ~= nil do
+			local v = original[k]
 
-	-- 根表元表
-	local rootMt = getmetatable(t)
-	if rootMt then
-		local mtCopy = cloneMetatable(rootMt)
-		setmetatable(root, mtCopy)
-	end
-
-	while #stack > 0 do
-		local current = table.remove(stack)
-		local original, copy = current.original, current.copy
-
-		for k, v in pairs(original) do
-			-- 深拷贝键
+			-- === 深拷贝键 ===
 			local newKey = k
 			if type(k) == "table" then
-				if visited[k] then
-					newKey = visited[k]
+				local cached = visited[k]
+				if cached then
+					newKey = cached
 				else
 					newKey = {}
 					visited[k] = newKey
-					table.insert(stack, {original = k, copy = newKey})
+					top = top + 1
+					stack_o[top] = k
+					stack_c[top] = newKey
+
 					local keyMt = getmetatable(k)
 					if keyMt then
-						local keyMtCopy = cloneMetatable(keyMt)
-						setmetatable(newKey, keyMtCopy)
+						setmetatable(newKey, keyMt)
 					end
 				end
 			end
 
-			-- 深拷贝值
+			-- === 深拷贝值 ===
 			if type(v) == "table" then
-				if visited[v] then
-					copy[newKey] = visited[v]
+				local cached = visited[v]
+				if cached then
+					copy[newKey] = cached
 				else
 					local newTable = {}
 					copy[newKey] = newTable
 					visited[v] = newTable
-					table.insert(stack, {original = v, copy = newTable})
-					
+					top = top + 1
+					stack_o[top] = v
+					stack_c[top] = newTable
+
 					local subMt = getmetatable(v)
 					if subMt then
-						local subMtCopy = cloneMetatable(subMt)
-						setmetatable(newTable, subMtCopy)
+						setmetatable(newTable, subMt)
 					end
 				end
 			else
 				copy[newKey] = v
 			end
+
+			k = next(original, k)
 		end
+	end
+
+	local rootMt = getmetatable(t)
+	if rootMt then
+		setmetatable(root, rootMt)
 	end
 
 	return root
