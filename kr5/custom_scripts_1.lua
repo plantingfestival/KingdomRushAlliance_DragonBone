@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("custom_scripts_1")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -25,9 +23,9 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
-
 local scripts = require("custom_scripts_0")
+
+table.insert(__CHAINED_SCRIPTS, "custom_scripts_1")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -531,8 +529,11 @@ scripts.tower_special_mercenaries = {}
 function scripts.tower_special_mercenaries.update(this, store, script)
 	local b = this.barrack
 	local door_sid = this.render.door_sid or 2
-	if this.tower_upgrade_persistent_data.max_soldiers then
-		b.max_soldiers = this.tower_upgrade_persistent_data.max_soldiers
+	if this.tower_upgrade_persistent_data.soldier_type then
+		b.soldier_type = this.tower_upgrade_persistent_data.soldier_type
+		b.max_soldiers = #b.soldier_type
+	else
+		this.tower_upgrade_persistent_data.soldier_type = b.soldier_type
 	end
 
 	while true do
@@ -549,18 +550,16 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 		end
 
 		if b.unit_bought then
+			table.insert(b.soldier_type, b.unit_bought)
 			b.max_soldiers = b.max_soldiers + 1
-			this.tower_upgrade_persistent_data.max_soldiers = b.max_soldiers
 
 			for i, ss in ipairs(b.soldiers) do
 				ss.nav_rally.pos, ss.nav_rally.center = U.rally_formation_position(i, b, b.max_soldiers, b.rally_angle_offset)
 			end
 
-			b.unit_bought = nil
-
-			local price = E:get_template(b.soldier_type).unit.price[this.barrack.max_soldiers]
-
+			local price = E:get_template(b.unit_bought).unit.price[this.barrack.max_soldiers]
 			store.player_gold = store.player_gold - price
+			b.unit_bought = nil
 		end
 
 		if b.rally_new then
@@ -592,7 +591,7 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 		end
 
 		if not this.tower.blocked then
-			for i = 1, this.barrack.max_soldiers do
+			for i = 1, b.max_soldiers do
 				local s = b.soldiers[i]
 
 				if not s or s.health.dead and not store.entities[s.id] then
@@ -606,7 +605,7 @@ function scripts.tower_special_mercenaries.update(this, store, script)
 
 					S:queue(this.spawn_sound)
 
-					s = E:create_entity(b.soldier_type)
+					s = E:create_entity(b.soldier_type[i])
 					s.soldier.tower_id = this.id
 					s.soldier.tower_soldier_idx = i
 					s.pos = V.v(V.add(this.pos.x, this.pos.y, b.respawn_offset.x, b.respawn_offset.y))
@@ -3768,20 +3767,21 @@ end
 
 function scripts.tower_random.insert(this, store, script)
 	local random = math.random()
-	local mobile_towers = {
-		"tower_mage_1",
-		"tower_mage_2",
-		"tower_mage_3",
-		"tower_wild_magus",
-		"tower_bastion"
-	}
+	-- local mobile_towers = {
+	-- 	"tower_mage_1",
+	-- 	"tower_mage_2",
+	-- 	"tower_mage_3",
+	-- 	"tower_wild_magus",
+	-- 	"tower_bastion"
+	-- }
 	for i, name in ipairs(this.allowed_templates) do
 		if random <= i / #this.allowed_templates then
 			local t = E:create_entity(name)
-			t.pos = V.vclone(this.pos)
+			t.pos = this.pos
 			t.tower.flip_x = this.tower.flip_x
-			if table.contains(mobile_towers, name) then
-				local th = E:create_entity("tower_holder")
+			if t.nav_rally then
+				local holder_name = this.tower.holder_template or "tower_holder"
+				local th = E:create_entity(holder_name)
 				th.pos = V.vclone(this.pos)
 				th.tower.holder_id = this.tower.holder_id
 				th.tower.flip_x = this.tower.flip_x
@@ -3796,8 +3796,17 @@ function scripts.tower_random.insert(this, store, script)
 				if th.ui and this.ui then
 					th.ui.nav_mesh_id = this.ui.nav_mesh_id
 				end
+				if th.controller_name then
+					for _, e in pairs(store.entities) do
+						if e.template_name == th.controller_name and e.target_holder_id == this.tower.holder_id and e.pos == this.pos then
+							queue_remove(store, e)
+							break
+						end
+					end
+				end
 				queue_insert(store, th)
 			else
+				t.tower.holder_template = this.tower.holder_template
 				t.tower.holder_id = this.tower.holder_id
 				if this.tower.default_rally_pos then
 					t.tower.default_rally_pos = this.tower.default_rally_pos
@@ -3809,6 +3818,9 @@ function scripts.tower_random.insert(this, store, script)
 				end
 				if t.ui and this.ui then
 					t.ui.nav_mesh_id = this.ui.nav_mesh_id
+				end
+				if t.tower_holder and t.tower_holder.unblock_price then
+					t.tower_holder.unblock_price = 0
 				end
 			end
 			queue_insert(store, t)

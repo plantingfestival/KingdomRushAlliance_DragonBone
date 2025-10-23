@@ -1,4 +1,41 @@
 local a = {
+	-- customization
+	kr5_babyBeresad_idle = {
+		prefix = "kr5_babyBeresad",
+		to = 1,
+		from = 1
+	},
+	kr5_babyBeresad_sneeze = {
+		prefix = "kr5_babyBeresad",
+		to = 49,
+		from = 2
+	},
+	kr5_babyBeresad_wakeUp = {
+		prefix = "kr5_babyBeresad",
+		to = 87,
+		from = 50
+	},
+	kr5_babyBeresad_fly = {
+		prefix = "kr5_babyBeresad",
+		to = 105,
+		from = 88
+	},
+	kr5_babyBeresad_attack = {
+		prefix = "kr5_babyBeresad",
+		to = 123,
+		from = 106
+	},
+	kr5_babyBeresad_land = {
+		prefix = "kr5_babyBeresad",
+		to = 134,
+		from = 124
+	},
+	kr5_babyBeresad_zzz = {
+		prefix = "kr5_babyBeresad",
+		to = 205,
+		from = 135
+	},
+	-- customization
 	tower_build_dust = {
 		prefix = "effect_buildSmoke",
 		to = 12,

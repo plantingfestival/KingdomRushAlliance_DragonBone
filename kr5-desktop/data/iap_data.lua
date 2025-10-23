@@ -263,6 +263,24 @@ return {
 				255
 			}
 		},
+		hero_monkey_god = {
+			cost = 500,
+			color_bg = {
+				202,
+				251,
+				203,
+				255
+			}
+		},
+		hero_monk = {
+			cost = 500,
+			color_bg = {
+				255,
+				153,
+				31,
+				255
+			}
+		},
 		hero_faustus = {
 			cost = 500,
 			color_bg = {

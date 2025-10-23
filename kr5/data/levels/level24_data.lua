@@ -1138,7 +1138,9 @@
 		"dlcdwarfbossstage02_particleDef",
 		"dlcdwarfbossstage02_smokeDef",
 		"dlcdwarfbossstage02_floorsmokeDef",
-		"stage2DLC_ascensor_modosDef"
+		"stage2DLC_ascensor_modosDef",
+		"ray_sunraytowerDef",
+		"ray_sunraytower_hitDef",
 	},
 	required_sounds = {
 		"music_stage24",
@@ -1154,6 +1156,5 @@
 		"go_stage24_bg",
 		"go_stage24",
 		"go_stage23",
-		"go_stages_terrain6"
 	}
 }

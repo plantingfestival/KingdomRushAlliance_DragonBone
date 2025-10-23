@@ -6,20 +6,16 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
-local scripts = require("game_scripts")
 local kr3_scripts = require("kr3_game_scripts")
 local customScripts1 = require("custom_scripts_1")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "kr3_game_templates")
 
 local U = require("utils")
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
@@ -81,12 +77,6 @@ end
 local function CC(comp_name)
     return E:clone_c(comp_name)
 end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 4
-DO_TOWER_MODS = 10
 
 -- heroes
 tt = RT("ps_missile_wilbur")
@@ -272,7 +262,7 @@ tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 30)
 tt.info.i18n_key = "SOLDIER_CHOMP_BOT"
 tt.info.portrait = "bottom_info_image_soldiers_0007"
-tt.info.fn = scripts.soldier_reinforcement.get_info
+tt.info.fn = kr3_scripts.soldier_reinforcement.get_info
 tt.reinforcement.duration = nil
 tt.main_script.insert = kr3_scripts.soldier_chomp_bot.insert
 tt.main_script.update = kr3_scripts.soldier_chomp_bot.update
@@ -358,15 +348,15 @@ tt.aura.allowed_templates = {
 	"enemy_darksteel_guardian"
 }
 tt.aura.vis_flags = F_MOD
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
+tt.main_script.update = kr3_scripts.aura_apply_mod.update
 
 tt = E:register_t("mod_chomp_bot_transformation", "modifier")
 tt.modifier.duration = fts(4)
 tt.modifier.use_mod_offset = false
 tt.main_script.insert = kr3_scripts.mod_chomp_bot_transformation.insert
 tt.main_script.remove = kr3_scripts.mod_chomp_bot_transformation.remove
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.update = kr3_scripts.mod_track_target.update
 tt.modifier.vis_flags = F_MOD
 tt.entity = "soldier_chomp_bot"
 
@@ -791,7 +781,7 @@ tt.aura.damage_type = DAMAGE_TRUE
 tt.aura.radius = 37.5
 tt.aura.vis_bans = bor(F_FRIEND)
 tt.aura.vis_flags = bor(F_RANGED)
-tt.main_script.update = scripts.aura_apply_damage.update
+tt.main_script.update = kr3_scripts.aura_apply_damage.update
 
 tt = RT("aura_bomb_wilbur", "aura_rabbit_kamihare")
 b = balance.heroes.hero_wilbur.box
@@ -827,8 +817,8 @@ tt.aura.duration = nil
 tt.aura.mod = "mod_slow_wilbur"
 tt.aura.radius = 60
 tt.aura.vis_bans = bor(F_FRIEND)
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
+tt.main_script.update = kr3_scripts.aura_apply_mod.update
 
 for i, offset in ipairs({
 	v(25, -20),
@@ -1070,7 +1060,7 @@ tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(60)
 tt.idle_flip.chance = 0.4
 tt.idle_flip.cooldown = 1
-tt.info.fn = scripts.hero_basic.get_info_ranged
+tt.info.fn = kr3_scripts.hero_basic.get_info_ranged
 -- tt.info.hero_portrait = "hero_portraits_0001"
 tt.info.portrait = "portraits_hero_0112"
 tt.info.ultimate_icon = "0001"
@@ -1166,7 +1156,7 @@ tt.ranged.attacks[2].xp_from_skill = "multishot"
 
 tt = E:register_t("aura_elves_archer_regen", "aura")
 tt.aura.duration = -1
-tt.main_script.update = scripts.aura_hero_regen.update
+tt.main_script.update = kr3_scripts.aura_hero_regen.update
 
 tt = E:register_t("arrow_hero_elves_archer", "arrow")
 tt.render.sprites[1].name = "archer_hero_proy_0001-f"
@@ -1465,7 +1455,7 @@ tt.hero.team = TEAM_LINIREA
 tt.hero.tombstone_decal = "decal_kr3_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.info.damage_icon = "magic"
-tt.info.fn = scripts.hero_basic.get_info_ranged
+tt.info.fn = kr3_scripts.hero_basic.get_info_ranged
 tt.info.i18n_key = "HERO_ELVES_ELEMENTALIST"
 tt.info.portrait = "portraits_hero_0113"
 tt.info.ultimate_icon = "0002"
@@ -1573,7 +1563,7 @@ tt.bullet.hit_time = fts(5)
 tt.bullet.xp_gain_factor = 0.64
 tt.image_width = 60
 tt.track_target = true
-tt.main_script.update = scripts.ray_simple.update
+tt.main_script.update = kr3_scripts.ray_simple.update
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].name = "arivan_ray_simple"
@@ -1590,7 +1580,7 @@ tt.bullet.hit_fx = "fx_lighting_arivan_hit"
 tt.bullet.hit_time = fts(5)
 tt.image_width = 90
 tt.track_target = true
-tt.main_script.update = scripts.ray_simple.update
+tt.main_script.update = kr3_scripts.ray_simple.update
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].name = "arivan_lightning"
@@ -1795,7 +1785,7 @@ tt.bullet.mod = "fx_lighting_arivan_ultimate_hit"
 tt.bullet.hit_time = fts(4)
 tt.image_width = 40
 tt.track_target = true
-tt.main_script.update = scripts.ray_simple.update
+tt.main_script.update = kr3_scripts.ray_simple.update
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].name = "arivan_twister_ray"
@@ -1804,9 +1794,9 @@ tt.sound_events.insert = "ElvesHeroArivanRegularRay"
 tt = E:register_t("fx_lighting_arivan_ultimate_hit", "modifier")
 E:add_comps(tt, "render")
 tt.render.sprites[1].name = "arivan_twister_ray_hit"
-tt.main_script.insert = scripts.mod_track_target.insert
-tt.main_script.remove = scripts.mod_track_target.remove
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.insert = kr3_scripts.mod_track_target.insert
+tt.main_script.remove = kr3_scripts.mod_track_target.remove
+tt.main_script.update = kr3_scripts.mod_track_target.update
 tt.modifier.duration = fts(12)
 
 tt = E:register_t("mod_arivan_ultimate_freeze", "mod_arivan_freeze")
@@ -1839,7 +1829,7 @@ tt.tower.level = 1
 tt.tower.price = 0
 tt.tower.menu_offset = v(0, 38)
 tt.tower.range_offset = v(0, 45)
-tt.tower.can_be_sold = false
+tt.tower.can_be_sold = true
 tt.tower.kind = TOWER_KIND_ENGINEER
 tt.tower.team = TEAM_LINIREA
 tt.powers.razor_edge = CC("power")
@@ -2026,7 +2016,7 @@ tt.tower.menu_offset = v(0, 25)
 tt.info.portrait = "portraits_towers_0103"
 tt.main_script.insert = kr3_scripts.tower_entwood.insert
 tt.main_script.update = kr3_scripts.tower_entwood.update
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.main_script.remove = kr3_scripts.tower_barrack.remove
 tt.attacks.range = 210
 tt.attacks.load_time = fts(54)
 tt.attacks.list[1] = E:clone_c("bullet_attack")
@@ -2148,9 +2138,9 @@ tt = E:register_t("mod_clobber", "mod_common_stun")
 
 E:add_comps(tt, "render")
 
-tt.main_script.insert = scripts.mod_stun.insert
-tt.main_script.update = scripts.mod_stun.update
-tt.main_script.remove = scripts.mod_stun.remove
+tt.main_script.insert = kr3_scripts.mod_stun.insert
+tt.main_script.update = kr3_scripts.mod_stun.update
+tt.main_script.remove = kr3_scripts.mod_stun.remove
 tt.render.sprites[1].prefix = "stun"
 tt.render.sprites[1].size_names = {
 	"small",
@@ -2170,8 +2160,8 @@ tt.aura.mod = "mod_fiery_nut"
 tt.aura.radius = 65
 tt.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.aura.vis_flags = bor(F_MOD)
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
+tt.main_script.update = kr3_scripts.aura_apply_mod.update
 tt.render.sprites[1].name = "decal_fiery_nut_scorched"
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].z = Z_DECALS
@@ -2201,8 +2191,8 @@ tt.dps.damage_inc = 1
 tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.damage_every = fts(3)
 tt.dps.kill = true
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr3_scripts.mod_dps.insert
+tt.main_script.update = kr3_scripts.mod_dps.update
 tt.modifier.duration = 6
 tt.render.sprites[1].prefix = "fire"
 tt.render.sprites[1].name = "small"
@@ -2479,8 +2469,8 @@ tt.hps.heal_min = 0
 tt.hps.heal_max = 0
 tt.hps.heal_inc = 4
 tt.hps.heal_every = 0.2
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr3_scripts.mod_hps.insert
+tt.main_script.update = kr3_scripts.mod_hps.update
 
 tt = E:register_t("mod_forest_eerie_slow", "mod_slow")
 tt.modifier.duration = 0.5
@@ -2495,8 +2485,8 @@ tt.dps.damage_min = 2
 tt.dps.damage_inc = 1
 tt.dps.damage_every = fts(5)
 tt.modifier.duration = 0.5
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr3_scripts.mod_dps.insert
+tt.main_script.update = kr3_scripts.mod_dps.update
 
 tt = E:register_t("aura_forest_eerie", "aura")
 tt.aura.mods = {
@@ -2510,7 +2500,7 @@ tt.aura.cycle_time = fts(5)
 tt.aura.vis_flags = bor(F_MOD)
 tt.aura.vis_bans = bor(F_FLYING, F_FRIEND)
 tt.main_script.insert = kr3_scripts.aura_forest_eerie.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.update = kr3_scripts.aura_apply_mod.update
 tt.roots_count = 9
 tt.roots_count_inc = 3
 tt.sound_events.insert = "TowerForestKeeperEerieGarden"
@@ -2582,7 +2572,7 @@ tt.tween.props[1].loop = true
 
 tt = E:register_t("ray_druid_sylvan", "bullet")
 tt.image_width = 44
-tt.main_script.update = scripts.ray_simple.update
+tt.main_script.update = kr3_scripts.ray_simple.update
 tt.render.sprites[1].name = "ray_druid_sylvan"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -2664,8 +2654,8 @@ tt.render.sprites[1].size_names = {
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = false
-tt.main_script.insert = scripts.mod_track_target.insert
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.insert = kr3_scripts.mod_track_target.insert
+tt.main_script.update = kr3_scripts.mod_track_target.update
 
 tt = E:register_t("tower_build_rock_thrower", "tower_build")
 tt.build_name = "tower_rock_thrower_lvl1"
@@ -2787,7 +2777,7 @@ tt.info.room_portrait = "quickmenu_tower_icons_0106_0001"
 tt.info.stat_damage = 3
 tt.info.stat_cooldown = 4
 tt.info.stat_range = 6
-tt.main_script.insert = scripts.tower_barrack.insert
+tt.main_script.insert = kr3_scripts.tower_barrack.insert
 tt.main_script.update = kr3_scripts.tower_druid.update
 tt.main_script.remove = kr3_scripts.tower_druid.remove
 tt.attacks.range = 190
@@ -2902,11 +2892,11 @@ tt.health_bar.offsets = {
 tt.health_bar.offset = tt.health_bar.offsets.idle
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health.dead_lifetime = 15
-tt.info.fn = scripts.soldier_barrack.get_info
+tt.info.fn = kr3_scripts.soldier_barrack.get_info
 tt.info.portrait = "bottom_info_image_soldiers_0009"
 tt.info.random_name_format = "ELVES_SOLDIER_BEAR_%i_NAME"
 tt.info.random_name_count = 2
-tt.main_script.insert = scripts.soldier_barrack.insert
+tt.main_script.insert = kr3_scripts.soldier_barrack.insert
 tt.main_script.update = kr3_scripts.soldier_druid_bear.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 40
@@ -3173,11 +3163,11 @@ tt.editor.props = table.append(tt.editor.props, {
 		PT_COORDS
 	}
 }, true)
-tt.info.fn = scripts.tower_barrack.get_info
+tt.info.fn = kr3_scripts.tower_barrack.get_info
 tt.info.portrait = "portraits_towers_0107"
-tt.main_script.insert = scripts.tower_barrack.insert
-tt.main_script.remove = scripts.tower_barrack.remove
-tt.main_script.update = scripts.tower_barrack.update
+tt.main_script.insert = kr3_scripts.tower_barrack.insert
+tt.main_script.remove = kr3_scripts.tower_barrack.remove
+tt.main_script.update = kr3_scripts.tower_barrack.update
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[1].offset = v(0, 10)
@@ -3250,13 +3240,13 @@ tt.health_bar.offset = v(0, 27)
 tt.health_bar.type = HEALTH_BAR_SIZE_SMALL
 tt.idle_flip.chance = 0.4
 tt.idle_flip.cooldown = 5
-tt.info.fn = scripts.soldier_barrack.get_info
+tt.info.fn = kr3_scripts.soldier_barrack.get_info
 tt.info.portrait = "bottom_info_image_soldiers_0010"
 tt.info.random_name_count = 25
 tt.info.random_name_format = "ELVES_SOLDIER_BARRACKS_%i_NAME"
-tt.main_script.insert = scripts.soldier_barrack.insert
-tt.main_script.remove = scripts.soldier_barrack.remove
-tt.main_script.update = scripts.soldier_barrack.update
+tt.main_script.insert = kr3_scripts.soldier_barrack.insert
+tt.main_script.remove = kr3_scripts.soldier_barrack.remove
+tt.main_script.update = kr3_scripts.soldier_barrack.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 4
 tt.melee.attacks[1].damage_min = 1
@@ -3544,7 +3534,7 @@ tt.flight_time_range = {
 	fts(16)
 }
 tt.main_script.insert = kr3_scripts.dagger_drow.insert
-tt.main_script.update = scripts.arrow.update
+tt.main_script.update = kr3_scripts.arrow.update
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "mercenaryDraw_proy"
 
@@ -3575,8 +3565,8 @@ tt.heal_remove_modifiers = {
 	"mod_dreadeye_viper_basic_attack",
 	"mod_enemy_noxious_horror_poison"
 }
-tt.main_script.insert = scripts.mod_heal_on_damage.insert
-tt.main_script.update = scripts.mod_heal_on_damage.update
+tt.main_script.insert = kr3_scripts.mod_heal_on_damage.insert
+tt.main_script.update = kr3_scripts.mod_heal_on_damage.update
 tt.modifier.use_mod_offset = false
 tt.render.sprites[1].name = "soldier_drow_heal"
 tt.render.sprites[1].anchor.y = 0.2037037037037037
@@ -3653,9 +3643,9 @@ tt.sound_events.loop = "TowerWildMagusDoomLoop"
 tt = E:register_t("mod_ward", "modifier")
 E:add_comps(tt, "render", "tween")
 
-tt.main_script.insert = scripts.mod_silence.insert
-tt.main_script.remove = scripts.mod_silence.remove
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.insert = kr3_scripts.mod_silence.insert
+tt.main_script.remove = kr3_scripts.mod_silence.remove
+tt.main_script.update = kr3_scripts.mod_track_target.update
 tt.modifier.duration = 10
 tt.modifier.use_mod_offset = false
 tt.render.sprites[1].name = "mage_wild_silence_fx"
@@ -3735,8 +3725,8 @@ tt.dps.damage_min = 10
 tt.dps.damage_max = 10
 tt.dps.damage_every = 0.5
 tt.dps.damage_type = DAMAGE_MAGICAL
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr3_scripts.mod_dps.insert
+tt.main_script.update = kr3_scripts.mod_dps.update
 
 tt = E:register_t("eldritch_enemy_decal", "decal_tween")
 tt.render.sprites[1] = nil
@@ -3910,7 +3900,7 @@ tt.tween.props[1].keys = {
 
 tt = E:register_t("ray_wild_magus", "bullet")
 tt.image_width = 144
-tt.main_script.update = scripts.ray_simple.update
+tt.main_script.update = kr3_scripts.ray_simple.update
 tt.render.sprites[1].name = "ray_wild_magus"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -3928,10 +3918,10 @@ tt.tower.kind = TOWER_KIND_MAGE
 tt.tower.team = TEAM_LINIREA
 tt.tower.level = 1
 tt.tower.price = 0
-tt.tower.can_be_sold = false
+tt.tower.can_be_sold = true
 tt.tower.menu_offset = v(0, 25)
 tt.info.portrait = "portraits_towers_0112"
-tt.info.fn = scripts.tower_mage.get_info
+tt.info.fn = kr3_scripts.tower_mage.get_info
 tt.main_script.insert = customScripts1.mobile_tower_mage.insert
 tt.main_script.update = customScripts1.mobile_tower_mage.update
 tt.motion.max_speed = 50
@@ -4118,7 +4108,7 @@ b = balance.towers.wild_magus
 E:add_comps(tt, "attacks", "powers", "tween", "nav_grid", "vis", "motion", "nav_rally")
 tt.info.i18n_key = "TOWER_MAGE_WILD_MAGUS"
 tt.info.portrait = "portraits_towers_0113"
-tt.info.fn = scripts.tower_mage.get_info
+tt.info.fn = kr3_scripts.tower_mage.get_info
 tt.main_script.insert = customScripts1.mobile_tower_mage.insert
 tt.main_script.update = kr3_scripts.tower_wild_magus.update
 tt.motion.max_speed = 50
@@ -4135,7 +4125,7 @@ tt.tower.level = 1
 tt.tower.price = 300
 tt.tower.size = TOWER_SIZE_LARGE
 tt.tower.menu_offset = v(0, 25)
-tt.tower.can_be_sold = false
+tt.tower.can_be_sold = true
 tt.attacks.range = 180
 tt.attacks.list[1] = E:clone_c("bullet_attack")
 tt.attacks.list[1].animations = {
@@ -5293,6 +5283,7 @@ tt.bullet.ignore_hit_offset = true
 tt.bullet.hit_blood_fx = nil
 tt.bullet.hit_fx = "fx_bullet_pixie_instakill_hit_"
 tt.bullet.pop = nil
+tt.bullet.miss_decal = nil
 tt.render.sprites[1].name = "pixie_mushroom"
 tt.render.sprites[1].animated = false
 tt.sound_events.insert = "ElvesGnomeDesintegrate"
@@ -5747,8 +5738,8 @@ tt = E:register_t("bolt_plant_magic_blossom", "bolt_elves")
 tt.render.sprites[1].prefix = "bolt_plant_magic_blossom"
 tt.bullet.max_speed = 390
 tt.bullet.damage_type = DAMAGE_MAGICAL
-tt.bullet.damage_min = 30
-tt.bullet.damage_max = 60
+tt.bullet.damage_min = 50
+tt.bullet.damage_max = 100
 tt.bullet.hit_fx = "fx_bolt_plant_magic_blossom_hit"
 tt.bullet.particles_name = "ps_bolt_plant_magic_blossom"
 tt.bullet.align_with_trajectory = true
@@ -5759,7 +5750,7 @@ tt.upgrades_disabled = true
 tt = E:register_t("plant_magic_blossom", "decal_scripted")
 E:add_comps(tt, "custom_attack", "ui", "plant", "editor")
 tt.is_removed = nil
-tt.custom_attack.cooldown = 15
+tt.custom_attack.cooldown = 25
 tt.custom_attack.range = 200
 tt.custom_attack.bullet = "bolt_plant_magic_blossom"
 tt.custom_attack.bullet_count = 8
@@ -5806,8 +5797,8 @@ tt.editor.props = table.append(tt.editor.props, {
 		PT_COORDS
 	}
 }, true)
-tt.info.fn = scripts.tower_barrack_mercenaries.get_info
-tt.main_script.insert = scripts.tower_barrack.insert
+tt.info.fn = kr3_scripts.tower_barrack_mercenaries.get_info
+tt.main_script.insert = kr3_scripts.tower_barrack.insert
 tt.main_script.remove = customScripts1.tower_ewok.remove
 tt.main_script.update = customScripts1.tower_ewok.update
 tt.render.sprites[1].animated = false
@@ -5862,8 +5853,8 @@ tt.idle_flip.cooldown = 5
 tt.info.portrait = "bottom_info_image_soldiers_0043"
 tt.info.random_name_count = 6
 tt.info.random_name_format = "ELVES_SOLDIER_EWOK_%i_NAME"
-tt.main_script.insert = scripts.soldier_barrack.insert
-tt.main_script.remove = scripts.soldier_barrack.remove
+tt.main_script.insert = kr3_scripts.soldier_barrack.insert
+tt.main_script.remove = kr3_scripts.soldier_barrack.remove
 tt.main_script.update = kr3_scripts.soldier_ewok.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 7
@@ -8070,7 +8061,7 @@ tt.info.portrait = "bottom_info_image_soldiers_0047"
 tt.info.random_name_count = 8
 tt.info.random_name_format = "ELVES_SOLDIER_VEZNAN_DEMON_%i_NAME"
 tt.main_script.insert = kr3_scripts.soldier_reinforcement.insert
-tt.main_script.update = scripts.soldier_reinforcement_kr5.update
+tt.main_script.update = customScripts1.soldier_reinforcement_kr5.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = nil
 tt.melee.attacks[1].damage_min = nil
@@ -8585,20 +8576,18 @@ tt.sound_events.insert = "ElvesHeroDenasKingsguardTaunt"
 tt.can_fire_fn = kr3_scripts.hero_elves_denas_ultimate.can_fire_fn
 
 tt = E:register_t("soldier_elves_denas_guard", "soldier_militia")
-
-E:add_comps(tt, "reinforcement", "tween")
-
+E:add_comps(tt, "reinforcement", "tween", "nav_grid")
 image_y = 80
 anchor_y = 12 / image_y
-tt.health.armor = 0.4
-tt.health.hp_max = 200
+tt.health.armor = 0.5
+tt.health.hp_max = 250
 tt.health_bar.offset = v(0, 40)
 tt.info.fn = kr3_scripts.soldier_reinforcement.get_info
 tt.info.portrait = "bottom_info_image_soldiers_0053"
 tt.info.random_name_count = 17
 tt.info.random_name_format = "ELVES_SOLDIER_IMPERIAL_%i_NAME"
 tt.main_script.insert = kr3_scripts.soldier_reinforcement.insert
-tt.main_script.update = kr3_scripts.soldier_reinforcement.update
+tt.main_script.update = customScripts1.soldier_reinforcement_kr5.update
 tt.melee.attacks[1].damage_max = 24
 tt.melee.attacks[1].damage_min = 12
 tt.melee.attacks[1].hit_time = fts(13)
@@ -21610,17 +21599,19 @@ tt.ui.can_select = false
 tt.ui.can_hover = false
 tt.ui.has_nav_mesh = true
 tt.render.sprites[1].name = "stage13_ironHeroicDecals_0001"
-tt = E:register_t("tower_black_baby_dragon", "tower")
 
+tt = E:register_t("tower_black_baby_dragon", "KR5Tower")
 E:add_comps(tt, "attacks", "user_selection")
-
 tt.tower.type = "baby_black_dragon"
 tt.tower.can_be_mod = false
 tt.tower.can_hover = IS_CONSOLE
 tt.tower.terrain_style = nil
+tt.tower.menu_offset = v(0, 20)
+tt.tower.can_be_sold = nil
+tt.cannot_be_swapped = true
 tt.info.i18n_key = "ELVES_BABY_BERESAD"
 tt.info.fn = kr3_scripts.tower_black_baby_dragon.get_info
-tt.info.portrait = (IS_PHONE and "portraits_towers_" or "info_portraits_towers_") .. "0015"
+tt.info.portrait = "portraits_towers_0149"
 tt.main_script.update = kr3_scripts.tower_black_baby_dragon.update
 tt.attacks.list[1] = E:clone_c("custom_attack")
 tt.attacks.list[1].price = 100
@@ -21629,10 +21620,30 @@ tt.user_selection.ignore_point = true
 tt.ui.has_nav_mesh = true
 tt.ui.hover_sprite_name = "babyBeresad_0001_over_console"
 tt.ui.hover_sprite_anchor = v(0.5, 0.25268817204301075)
+
+tt = E:register_t("kr5_tower_black_baby_dragon", "tower_black_baby_dragon")
+E:add_comps(tt, "render")
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_DARK_ARMY
+tt.render.sprites[1].name = "terrains_%04i"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].offset = v(0, 13)
+tt.render.sprites[1].z = Z_DECALS
+tt.render.sprites[2] = E:clone_c("sprite")
+tt.render.sprites[2].name = "babyBeresad_tower_layer1_0001"
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].offset = v(0, 13)
+tt.render.sprites[2].z = Z_DECALS
+tt.user_selection.allowed = true
+tt.tower.can_be_sold = true
+tt.ui.hover_sprite_name = nil
+tt.ui.hover_sprite_anchor = nil
+tt.dragon = "kr5_decal_black_baby_dragon"
+tt.main_script.update = kr3_scripts.kr5_tower_black_baby_dragon.update
+tt.main_script.remove = kr3_scripts.kr5_tower_black_baby_dragon.remove
+
 tt = E:register_t("decal_black_baby_dragon", "decal_scripted")
-
 E:add_comps(tt, "motion", "attacks", "tween", "sound_events", "nav_path")
-
 tt.main_script.update = kr3_scripts.decal_black_baby_dragon.update
 tt.motion.max_speed = 10 * FPS
 tt.attacks.list[1] = E:clone_c("aura_attack")
@@ -21646,14 +21657,14 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].prefix = "babyBeresad"
 tt.render.sprites[2].name = "zzz"
 tt.render.sprites[2].hidden = true
-tt.render.sprites[2].loope = false
+tt.render.sprites[2].loop = false
 tt.render.sprites[2].anchor.y = 0.10227272727272728
 tt.render.sprites[2].z = Z_OBJECTS + 1
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].name = "Stage12_Dragon_Shadow"
 tt.render.sprites[3].animated = false
 tt.render.sprites[3].hidden = true
-tt.render.sprites[3].z = Z_OBJECTS
+tt.render.sprites[3].z = Z_DECALS + 1
 tt.render.sprites[3].draw_order = -1
 tt.render.sprites[4] = E:clone_c("sprite")
 tt.render.sprites[4].name = "baby_beresad_flame_hit"
@@ -21711,10 +21722,47 @@ tt.dragon_passes = {
 tt.sound_events.fire_loop = "ElvesBlackBabyFirebreathLoop"
 tt.sound_events.fire_start = "ElvesBlackBabyFirebreathLoopStart"
 tt.sound_events.fire_stop = "ElvesBlackBabyFirebreathLoopEnd"
+
+tt = E:register_t("kr5_decal_black_baby_dragon", "decal_black_baby_dragon")
+tt.main_script.update = kr3_scripts.kr5_decal_black_baby_dragon.update
+tt.dragon_passes = nil
+tt.render.sprites[1].offset = v(0, 0)
+tt.render.sprites[1].sort_y_offset = -13
+tt.render.sprites[2].offset = v(0, 0)
+tt.render.sprites[2].sort_y_offset = -13
+tt.attacks.list[1].cooldown = 2
+tt.attacks.list[1].duration = fts(34)
+tt.attacks.list[1].cast_time = fts(5)
+tt.attacks.list[1].range = 1600
+tt.attacks.list[1].vis_flags = F_AREA
+tt.attacks.list[1].vis_bans = bor(F_FLYING, F_NIGHTMARE)
+tt.attacks.list[1].aura = "kr5_aura_black_baby_dragon"
+tt.attacks.list[1].hit_fx = "fx_baby_black_dragon_flame_hit"
+tt.attacks.list[1].hit_payload = "controller_aura_black_baby_dragon"
+tt.attacks.list[1].damage_min = 150
+tt.attacks.list[1].damage_max = 150
+tt.attacks.list[1].damage_type = DAMAGE_TRUE
+tt.attack_duration = 34
+tt.render.sprites[1].prefix = "kr5_babyBeresad"
+tt.render.sprites[2].prefix = "kr5_babyBeresad"
+table.remove(tt.render.sprites, 4)
+
+tt = E:register_t("controller_aura_black_baby_dragon", "controller_spawn_on_path")
+tt.exclude_first_position = nil
+tt.direction = 1
+tt.nodes_between_objects = 4
+tt.delay_between_objects = 0.1
+tt.delay_var = 0.1
+tt.max_entities = 5
+tt.spawn_type = 1
+tt.random_offset.x.min = -12
+tt.random_offset.x.max = 12
+tt.random_offset.y.min = -8
+tt.random_offset.y.max = 8
+tt.entity_name = "kr5_aura_black_baby_dragon"
+
 tt = E:register_t("aura_black_baby_dragon", "aura")
-
 E:add_comps(tt, "render", "tween")
-
 tt.aura.duration = 5
 tt.aura.mod = "mod_black_baby_dragon"
 tt.aura.radius = 50
@@ -21749,6 +21797,16 @@ tt.tween.props[2] = table.deepclone(tt.tween.props[1])
 tt.tween.props[2].sprite_id = 2
 tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
 tt.main_script.update = kr3_scripts.aura_apply_mod.update
+
+tt = E:register_t("kr5_aura_black_baby_dragon", "aura_black_baby_dragon")
+tt.aura.mods = {
+	"kr5_mod_black_baby_dragon"
+}
+function tt.main_script.insert(this, store)
+	this.aura.duration = U.frandom(0.8, 1.2) * this.aura.duration
+	return kr3_scripts.aura_apply_mod.insert(this, store)
+end
+
 tt = E:register_t("mod_black_baby_dragon", "mod_lava")
 tt.render.sprites[1].size_names = nil
 tt.render.sprites[1].size_scales = {
@@ -21766,6 +21824,12 @@ tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.damage_every = 0.2
 tt.insert_damage = 150
 tt.main_script.insert = kr3_scripts.mod_black_baby_dragon.insert
+
+tt = E:register_t("kr5_mod_black_baby_dragon", "mod_black_baby_dragon")
+tt.dps.damage_min = 10
+tt.dps.damage_max = 10
+tt.insert_damage = 0
+
 tt = E:register_t("ps_baby_black_dragon_flame")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -21791,7 +21855,7 @@ tt.particle_system.scales_x = {
 	1,
 	1
 }
-tt.particle_system.z = Z_OBJECTS
+tt.particle_system.z = Z_FLYING_HEROES
 tt = E:register_t("fx_baby_black_dragon_flame_hit", "decal_tween")
 tt.render.sprites[1].name = "baby_beresad_flame_hit"
 tt.tween.props[1].keys = {
@@ -21804,34 +21868,31 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-tt = E:register_t("tower_holder_baby_ashbite", "tower")
 
-E:add_comps(tt, "tower", "tower_holder", "pos", "render", "ui", "info", "tween")
-
+tt = E:register_t("tower_holder_baby_ashbite", "KR5Tower")
+E:add_comps(tt, "tween")
 tt.tower.level = 1
 tt.tower.type = "holder_baby_ashbite"
 tt.tower.can_be_mod = false
+tt.tower.menu_offset = v(0, 20)
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_LINIREA
 tt.info.fn = kr3_scripts.tower_baby_ashbite.get_info
-tt.info.portrait = (IS_PHONE and "portraits_towers_" or "info_portraits_towers_") .. "0019"
+tt.info.portrait = "portraits_towers_0148"
 tt.info.i18n_key = "ELVES_BABY_ASHBITE_TOWER"
 tt.info.damage_icon = "fireball"
-tt.render.sprites[1].name = "babyAshbite_tower_layer1_0001"
-tt.render.sprites[1].animated = false
-tt.render.sprites[1].offset = v(0, 26)
-tt.render.sprites[1].hidden = true
-tt.render.sprites[1].hover_off_hidden = true
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].name = "babyAshbite_tower_layer1_0001"
 tt.render.sprites[2].animated = false
-tt.render.sprites[2].offset = v(0, 26)
+tt.render.sprites[2].offset = v(0, 39)
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].name = "babyAshbite_tower_layer2_0001"
 tt.render.sprites[3].animated = false
-tt.render.sprites[3].offset = v(0, 26)
+tt.render.sprites[3].offset = v(0, 39)
 tt.render.sprites[4] = E:clone_c("sprite")
 tt.render.sprites[4].name = "babyAshbite_tower_layer2_0004"
 tt.render.sprites[4].animated = false
-tt.render.sprites[4].offset = v(0, 26)
+tt.render.sprites[4].offset = v(0, 39)
 tt.ui.click_rect = r(-40, -10, 80, 90)
 tt.ui.has_nav_mesh = true
 tt.tween.remove = false
@@ -21855,36 +21916,33 @@ tt.tween.props[1].keys = {
 }
 tt.tween.props[1].sprite_id = 4
 tt.tween.props[1].loop = true
-tt = E:register_t("tower_baby_ashbite", "tower")
 
+tt = E:register_t("tower_baby_ashbite", "KR5Tower")
 E:add_comps(tt, "barrack", "powers")
-
-tt.tower.can_be_mod = false
+tt.tower.can_be_mod = true
 tt.tower.hide_dust = true
 tt.tower.type = "baby_ashbite"
 tt.tower.level = 1
 tt.tower.price = 250
+tt.tower.menu_offset = v(0, 20)
+tt.tower.kind = TOWER_KIND_BARRACK
+tt.tower.team = TEAM_LINIREA
 tt.info.fn = kr3_scripts.tower_baby_ashbite.get_info
-tt.info.portrait = (IS_PHONE and "portraits_towers_" or "info_portraits_towers_") .. "0019"
+tt.info.portrait = "portraits_towers_0148"
 tt.info.i18n_key = "ELVES_BABY_ASHBITE_TOWER"
 tt.info.damage_icon = "fireball"
-tt.render.sprites[1].name = "babyAshbite_tower_layer1_0001"
-tt.render.sprites[1].animated = false
-tt.render.sprites[1].offset = v(0, 26)
-tt.render.sprites[1].hidden = true
-tt.render.sprites[1].hover_off_hidden = true
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].name = "babyAshbite_tower_layer1_0001"
 tt.render.sprites[2].animated = false
-tt.render.sprites[2].offset = v(0, 26)
+tt.render.sprites[2].offset = v(0, 39)
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].name = "babyAshbite_tower_layer2_0005"
 tt.render.sprites[3].animated = false
-tt.render.sprites[3].offset = v(0, 26)
+tt.render.sprites[3].offset = v(0, 39)
 tt.barrack.soldier_type = "soldier_baby_ashbite"
 tt.barrack.rally_range = 350
 tt.barrack.rally_anywhere = true
-tt.barrack.respawn_offset = v(-4, 26)
+tt.barrack.respawn_offset = v(-4, 39)
 tt.barrack.max_soldiers = 1
 tt.main_script.insert = kr3_scripts.tower_barrack.insert
 tt.main_script.update = kr3_scripts.tower_baby_ashbite.update
@@ -21892,17 +21950,16 @@ tt.main_script.remove = kr3_scripts.tower_barrack.remove
 tt.sound_events.insert = "ElvesAshbiteDeath"
 tt.sound_events.change_rally_point = "ElvesAshbiteConfirm"
 tt.powers.blazing_breath = E:clone_c("power")
-tt.powers.blazing_breath.price_base = 250
+tt.powers.blazing_breath.price = { 250, 200, 200 }
 tt.powers.blazing_breath.price_inc = 200
 tt.powers.blazing_breath.max_level = 3
 tt.powers.fiery_mist = E:clone_c("power")
-tt.powers.fiery_mist.price_base = 250
-tt.powers.fiery_mist.price_inc = 0
+tt.powers.fiery_mist.price = { 250 }
 tt.powers.fiery_mist.max_level = 1
+
 tt = E:register_t("soldier_baby_ashbite", "soldier")
-
-E:add_comps(tt, "ranged", "powers")
-
+E:add_comps(tt, "ranged", "powers", "nav_grid")
+tt.ignore_linirea_true_might_revive = true
 tt.health.armor = 0.5
 tt.health.dead_lifetime = 10
 tt.health.hp_max = 450
@@ -21912,7 +21969,7 @@ tt.health_bar.type = HEALTH_BAR_SIZE_SMALL
 tt.idle_flip.chance = 0.4
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr3_scripts.soldier_baby_ashbite.get_info
-tt.info.portrait = (IS_PHONE and "portraits_towers" or "info_portraits_towers") .. "_0014"
+tt.info.portrait = "bottom_info_image_soldiers_0052"
 tt.info.i18n_key = "ELVES_BABY_ASHBITE"
 tt.info.damage_icon = "fireball"
 tt.main_script.insert = kr3_scripts.soldier_baby_ashbite.insert
@@ -21933,13 +21990,14 @@ tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "babyAshbite_0099"
 tt.render.sprites[2].anchor.y = 0.0625
 tt.soldier.melee_slot_offset = v(0, 0)
+tt.drag_line_origin_offset = v(0, 80)
 tt.ui.click_rect = r(-40, 70, 80, 30)
 tt.unit.hit_offset = v(0, 84)
 tt.unit.hide_after_death = false
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, ady(25))
 tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET, F_POISON)
-tt.vis.flags = bor(tt.vis.flags, F_HERO, F_FLYING)
+tt.vis.flags = bor(tt.vis.flags, F_FLYING)
 tt.powers.blazing_breath = E:clone_c("power")
 tt.powers.fiery_mist = E:clone_c("power")
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
@@ -21948,7 +22006,7 @@ tt.ranged.attacks[1].bullet_start_offset = {
 	v(28, 70)
 }
 tt.ranged.attacks[1].cooldown = 1.3 + fts(28)
-tt.ranged.attacks[1].min_range = 30
+tt.ranged.attacks[1].min_range = 0
 tt.ranged.attacks[1].max_range = 100
 tt.ranged.attacks[1].filter_fn = kr3_scripts.soldier_baby_ashbite.ranged_filter_fn
 tt.ranged.attacks[1].shoot_time = fts(12)
@@ -21957,6 +22015,7 @@ tt.ranged.attacks[1].ignore_hit_offset = true
 tt.ranged.attacks[1].animation = "shoot"
 tt.ranged.attacks[1].sound_shoot = "ElvesAshbiteSpit"
 tt.ranged.attacks[1].node_prediction = nil
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[2] = E:clone_c("bullet_attack")
 tt.ranged.attacks[2].level = 0
 tt.ranged.attacks[2].power_name = "blazing_breath"
@@ -21966,14 +22025,14 @@ tt.ranged.attacks[2].bullet_start_offset = {
 	v(24, 66)
 }
 tt.ranged.attacks[2].cooldown = 8
-tt.ranged.attacks[2].min_range = 30
+tt.ranged.attacks[2].min_range = 0
 tt.ranged.attacks[2].max_range = 150
 tt.ranged.attacks[2].filter_fn = kr3_scripts.soldier_baby_ashbite.blazing_breath_filter_fn
 tt.ranged.attacks[2].shoot_time = fts(9)
 tt.ranged.attacks[2].sync_animation = true
 tt.ranged.attacks[2].animation = "special"
 tt.ranged.attacks[2].sound = "ElvesAshbiteFlameThrower"
-tt.ranged.attacks[2].vis_bans = F_FLYING
+tt.ranged.attacks[2].vis_bans = bor(F_NIGHTMARE, F_FLYING)
 tt.ranged.attacks[3] = E:clone_c("bullet_attack")
 tt.ranged.attacks[3].level = 0
 tt.ranged.attacks[3].power_name = "fiery_mist"
@@ -21983,13 +22042,14 @@ tt.ranged.attacks[3].bullet_start_offset = {
 	v(24, 66)
 }
 tt.ranged.attacks[3].cooldown = 10
-tt.ranged.attacks[3].min_range = 40
+tt.ranged.attacks[3].min_range = 0
 tt.ranged.attacks[3].max_range = 150
 tt.ranged.attacks[3].shoot_time = fts(9)
 tt.ranged.attacks[3].sync_animation = true
 tt.ranged.attacks[3].animation = "special"
-tt.ranged.attacks[3].vis_bans = F_FLYING
+tt.ranged.attacks[3].vis_bans = bor(F_NIGHTMARE, F_FLYING)
 tt.ranged.attacks[3].sound = "ElvesAshbiteSmoke"
+
 tt = E:register_t("fireball_baby_ashbite", "bullet")
 tt.render.sprites[1].name = "fireball_baby_ashbite"
 tt.render.sprites[1].z = Z_BULLETS
@@ -22004,8 +22064,10 @@ tt.bullet.g = nil
 tt.bullet.hit_fx = "fx_fireball_baby_ashbite_hit"
 tt.bullet.hit_fx_air = "fx_fireball_baby_ashbite_hit_air"
 tt.bullet.vis_flags = F_RANGED
+tt.bullet.use_unit_damage_factor = true
 tt.main_script.update = kr3_scripts.fireball.update
 tt.sound_events.hit = "ElvesAshbiteFireball"
+
 tt = E:register_t("fx_fireball_baby_ashbite_hit", "fx")
 tt.render.sprites[1].name = "fx_fireball_baby_ashbite_hit"
 tt.render.sprites[1].anchor.y = 0.24
@@ -22042,9 +22104,9 @@ E:add_comps(tt, "tween", "render")
 
 tt.main_script.update = kr3_scripts.aura_apply_damage.update
 tt.aura.duration = fts(30)
-tt.aura.damage_inc = 16.666666666666668
-tt.aura.damage_min = 8.333333333333334
-tt.aura.damage_max = 8.333333333333334
+tt.aura.damage_inc = 20
+tt.aura.damage_min = 5
+tt.aura.damage_max = 5
 tt.aura.damage_type = DAMAGE_TRUE
 tt.aura.radius = 60
 tt.aura.cycle_time = fts(5)

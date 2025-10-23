@@ -2272,4 +2272,85 @@ return {
 		gain = 1,
 		loop = false,
 	},
+	KR2_MusicBossFight = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Finalboss_fight.ogg"
+		}
+	},
+	MusicBattlePrep_219 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_220 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_221 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_222 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"Underground_Prep.ogg"
+		}
+	},
+	MusicBattle_219 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_Battle.ogg"
+		}
+	},
+	MusicBattle_220 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_Battle.ogg"
+		}
+	},
+	MusicBattle_221 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"Halloween_Battle.ogg"
+		}
+	},
+	MusicBattle_222 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"Underground_Battle.ogg"
+		}
+	},
 }

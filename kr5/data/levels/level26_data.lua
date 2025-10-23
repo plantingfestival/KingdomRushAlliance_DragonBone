@@ -744,6 +744,5 @@ return {
 		"go_enemies_terrain_6",
 		"go_stage26_bg",
 		"go_stage26",
-		"go_stages_terrain6"
 	}
 }

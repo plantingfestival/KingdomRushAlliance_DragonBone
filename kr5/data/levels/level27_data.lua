@@ -1079,7 +1079,6 @@ return {
 		"go_enemies_terrain_6",
 		"go_stage27_bg",
 		"go_stage27",
-		"go_stages_terrain6",
 		"go_towers_necromancer"
 	}
 }

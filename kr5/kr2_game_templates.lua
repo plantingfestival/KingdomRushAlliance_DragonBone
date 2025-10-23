@@ -6,22 +6,16 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
-local scripts = require("game_scripts")
-local kr1_scripts = require("kr1_game_scripts")
 local kr2_scripts = require("kr2_game_scripts")
-local kr3_scripts = require("kr3_game_scripts")
 local customScripts1 = require("custom_scripts_1")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "kr2_game_templates")
 
 local U = require("utils")
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
@@ -84,12 +78,6 @@ local function CC(comp_name)
     return E:clone_c(comp_name)
 end
 
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 8
-DO_TOWER_MODS = 10
-
 -- heroes
 local ps_bolt_necromancer_trail = E:register_t("ps_bolt_necromancer_trail")
 
@@ -134,7 +122,7 @@ mod_death_rider.render.sprites[1].animated = false
 mod_death_rider.render.sprites[1].z = Z_DECALS
 mod_death_rider.main_script.insert = kr2_scripts.mod_death_rider.insert
 mod_death_rider.main_script.remove = kr2_scripts.mod_death_rider.remove
-mod_death_rider.main_script.update = scripts.mod_track_target.update
+mod_death_rider.main_script.update = kr2_scripts.mod_track_target.update
 
 local death_rider_aura = E:register_t("death_rider_aura", "aura")
 
@@ -167,8 +155,8 @@ death_rider_aura.aura.allowed_templates = {
 }
 death_rider_aura.aura.vis_bans = F_ENEMY
 death_rider_aura.aura.vis_flags = F_MOD
-death_rider_aura.main_script.insert = scripts.aura_apply_mod.insert
-death_rider_aura.main_script.update = scripts.aura_apply_mod.update
+death_rider_aura.main_script.insert = kr2_scripts.aura_apply_mod.insert
+death_rider_aura.main_script.update = kr2_scripts.aura_apply_mod.update
 death_rider_aura.render.sprites[1].name = "soldier_death_rider_aura"
 death_rider_aura.render.sprites[1].loop = true
 death_rider_aura.render.sprites[1].z = Z_DECALS
@@ -805,7 +793,7 @@ tt.health_bar.offset = v(0, 36)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "SOLDIER_DRACOLICH_GOLEM"
 tt.info.portrait = "bottom_info_image_soldiers_0001"
-tt.info.fn = scripts.soldier_reinforcement.get_info
+tt.info.fn = kr2_scripts.soldier_reinforcement.get_info
 tt.reinforcement.duration = nil
 tt.reinforcement.fade = false
 tt.main_script.insert = kr2_scripts.kr2_soldier_reinforcement.insert
@@ -1221,8 +1209,8 @@ tt.dps.damage_min = nil
 tt.dps.damage_max = nil
 tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.damage_every = fts(15)
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 tt.render.sprites[1].size_names = {
 	"small",
 	"medium",
@@ -1323,8 +1311,8 @@ tt.aura.duration = nil
 tt.aura.radius = 70
 tt.aura.vis_flags = F_MOD
 tt.aura.vis_bans = F_FRIEND
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
+tt.main_script.update = kr2_scripts.aura_apply_mod.update
 
 tt = E:register_t("mod_slow_fierymist", "mod_slow")
 tt.modifier.duration = fts(5)
@@ -1440,7 +1428,7 @@ tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(60)
 tt.hero.team = TEAM_LINIREA
 tt.idle_flip.cooldown = 1
-tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.fn = kr2_scripts.hero_basic.get_info_melee
 tt.info.portrait = "portraits_hero_0110"
 tt.main_script.insert = kr2_scripts.hero_dwarf.insert
 tt.main_script.update = kr2_scripts.hero_dwarf.update
@@ -2209,7 +2197,7 @@ tt.powers.frankie = E:clone_c("power")
 tt.powers.frankie.price = { 175, 175, 175 }
 tt.main_script.insert = kr2_scripts.tower_frankenstein.insert
 tt.main_script.update = kr2_scripts.tower_frankenstein.update
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.main_script.remove = kr2_scripts.tower_barrack.remove
 tt.barrack.soldier_type = "soldier_frankenstein"
 tt.barrack.rally_range = 179.20000000000002
 tt.attacks.range = 200
@@ -2310,8 +2298,8 @@ tt.dps.pop_conds = DR_KILL
 tt.render.sprites[1].name = "ray_frankenstein_fx"
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].loop = true
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 
 tt = E:register_t("soldier_frankenstein", "soldier")
 
@@ -2329,9 +2317,9 @@ tt.health.dead_lifetime = 12
 tt.health.hp_max = 500
 tt.health_bar.offset = v(0, 48)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.fn = scripts.soldier_barrack.get_info
+tt.info.fn = kr2_scripts.soldier_barrack.get_info
 tt.info.portrait = "bottom_info_image_soldiers_0008"
-tt.main_script.insert = scripts.soldier_barrack.insert
+tt.main_script.insert = kr2_scripts.soldier_barrack.insert
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
 tt.melee.attacks[1].cooldown_lvls = {
 	1,
@@ -2461,9 +2449,9 @@ mod_silence_totem.modifier.bans = {
 	"mod_xerxes_invisibility"
 }
 mod_silence_totem.modifier.remove_banned = true
-mod_silence_totem.main_script.insert = scripts.mod_silence.insert
-mod_silence_totem.main_script.remove = scripts.mod_silence.remove
-mod_silence_totem.main_script.update = scripts.mod_track_target.update
+mod_silence_totem.main_script.insert = kr2_scripts.mod_silence.insert
+mod_silence_totem.main_script.remove = kr2_scripts.mod_silence.remove
+mod_silence_totem.main_script.update = kr2_scripts.mod_track_target.update
 mod_silence_totem.render.sprites[1].prefix = "silence"
 mod_silence_totem.render.sprites[1].size_names = {
 	"small",
@@ -2544,9 +2532,9 @@ mod_weakness_totem.received_damage_factor = 1.4
 mod_weakness_totem.modifier.duration = 1.5
 mod_weakness_totem.modifier.resets_same = false
 mod_weakness_totem.modifier.use_mod_offset = false
-mod_weakness_totem.main_script.insert = scripts.mod_damage_factors.insert
-mod_weakness_totem.main_script.remove = scripts.mod_damage_factors.remove
-mod_weakness_totem.main_script.update = scripts.mod_track_target.update
+mod_weakness_totem.main_script.insert = kr2_scripts.mod_damage_factors.insert
+mod_weakness_totem.main_script.remove = kr2_scripts.mod_damage_factors.remove
+mod_weakness_totem.main_script.update = kr2_scripts.mod_track_target.update
 mod_weakness_totem.render.sprites[1].prefix = "weakness"
 mod_weakness_totem.render.sprites[1].size_names = {
 	"small",
@@ -2955,7 +2943,7 @@ tt.info.portrait = "portraits_towers_0116"
 tt.info.i18n_key = "TOWER_ARCHER_DWARF"
 tt.info.fn = kr2_scripts.tower_archer_dwarf.get_info
 tt.main_script.update = kr2_scripts.tower_archer_dwarf.update
-tt.main_script.remove = scripts.tower_archer.remove
+tt.main_script.remove = kr2_scripts.tower_archer.remove
 tt.attacks.range = 217.6
 tt.attacks.list[1] = E:clone_c("bullet_attack")
 tt.attacks.list[1].vis_bans = bor(F_NIGHTMARE)
@@ -3122,8 +3110,8 @@ tt.render.sprites[2].name = "dwarf_beer_bubbles"
 tt.render.sprites[2].loop = true
 tt.render.sprites[2].offset.y = 10
 tt.render.sprites[2].z = Z_EFFECTS
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr2_scripts.mod_hps.insert
+tt.main_script.update = kr2_scripts.mod_hps.update
 
 tt = E:register_t("tower_barrack_pirates", "tower_KR5")
 E:add_comps(tt, "barrack", "vis")
@@ -3134,9 +3122,9 @@ tt.tower.level = 1
 tt.tower.can_be_mod = true
 tt.tower.menu_offset = v(0, 20)
 tt.info.portrait = "portraits_towers_0129"
-tt.info.fn = scripts.tower_barrack_mercenaries.get_info
-tt.main_script.insert = scripts.tower_barrack.insert
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.info.fn = kr2_scripts.tower_barrack_mercenaries.get_info
+tt.main_script.insert = kr2_scripts.tower_barrack.insert
+tt.main_script.remove = kr2_scripts.tower_barrack.remove
 tt.main_script.update = customScripts1.tower_special_mercenaries.update
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
@@ -3145,18 +3133,18 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].prefix = "tower_merc_camp_pirates"
 tt.render.sprites[2].name = "idle"
 tt.render.sprites[2].offset = v(0, 35)
-tt.barrack.soldier_type = "soldier_pirate_captain"
+tt.barrack.soldier_type = {}
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
 tt.barrack.max_soldiers = 0
 
-tt = E:register_t("tower_barrack_pirates_w_flamer", "tower_barrack_pirates")
-tt.tower.type = "mercenaries_pirates_w_flamer"
-tt.barrack.soldier_type = "soldier_pirate_flamer"
+-- tt = E:register_t("tower_barrack_pirates_w_flamer", "tower_barrack_pirates")
+-- tt.tower.type = "mercenaries_pirates_w_flamer"
+-- tt.barrack.soldier_type = "soldier_pirate_flamer"
 
-tt = E:register_t("tower_barrack_pirates_w_anchor", "tower_barrack_pirates")
-tt.tower.type = "mercenaries_pirates_w_anchor"
-tt.barrack.soldier_type = "soldier_pirate_anchor"
+-- tt = E:register_t("tower_barrack_pirates_w_anchor", "tower_barrack_pirates")
+-- tt.tower.type = "mercenaries_pirates_w_anchor"
+-- tt.barrack.soldier_type = "soldier_pirate_anchor"
 
 tt = E:register_t("soldier_pirate_captain", "soldier_militia")
 E:add_comps(tt, "pickpocket", "timed_actions", "nav_grid")
@@ -3224,8 +3212,8 @@ E:add_comps(tt, "hps")
 tt.hps.heal_every = 1e+99
 tt.hps.heal_min = 100
 tt.hps.heal_max = 100
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr2_scripts.mod_hps.insert
+tt.main_script.update = kr2_scripts.mod_hps.update
 tt.modifier.duration = fts(1)
 
 tt = E:register_t("soldier_pirate_flamer", "soldier_militia")
@@ -3316,8 +3304,8 @@ tt.dps.damage_min = 7
 tt.dps.damage_max = 7
 tt.dps.damage_every = 0.2
 tt.dps.damage_type = DAMAGE_TRUE
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr2_scripts.mod_dps.insert
+tt.main_script.update = kr2_scripts.mod_dps.update
 
 tt = E:register_t("soldier_pirate_anchor", "soldier_militia")
 E:add_comps(tt, "nav_grid")
@@ -3452,8 +3440,8 @@ tt.unit.price = {
 
 tt = E:register_t("amazona_heal_mod", "modifier")
 E:add_comps(tt, "render", "heal_on_kill")
-tt.main_script.insert = scripts.mod_heal_on_kill.insert
-tt.main_script.update = scripts.mod_heal_on_kill.update
+tt.main_script.insert = kr2_scripts.mod_heal_on_kill.insert
+tt.main_script.update = kr2_scripts.mod_heal_on_kill.update
 tt.heal_on_kill.hp = 50
 
 tt = E:register_t("amazon_carnivorous_plant", "decal_scripted")
@@ -3488,7 +3476,7 @@ tt.render.sprites[4] = E:clone_c("sprite")
 tt.render.sprites[4].name = "tower_merc_camp_desert_fire"
 tt.render.sprites[4].offset = v(23, 15)
 tt.render.sprites[4].ts = 0.08
-tt.barrack.soldier_type = "soldier_djinn"
+-- tt.barrack.soldier_type = "soldier_djinn"
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
 
@@ -6323,6 +6311,7 @@ tt = E:register_t("beastmaster_boar", "soldier")
 E:add_comps(tt, "melee")
 anchor_y = 0.29
 image_y = 60
+tt.not_draggable = true
 tt.info.portrait = "bottom_info_image_soldiers_0047"
 tt.health.armor = 0
 tt.health.hp_max = nil
@@ -7373,7 +7362,7 @@ tt = E:register_t("mod_priest_consecrate", "modifier")
 E:add_comps(tt, "render", "tween")
 
 tt.render.sprites[1].name = "decal_priest_consecrate"
-tt.render.sprites[1].draw_order = 2
+tt.render.sprites[1].draw_order = DO_TOWER_MODS
 tt.render.sprites[1].anchor.y = 0.32
 tt.render.sprites[1].offset.y = 7
 tt.main_script.update = kr2_scripts.mod_priest_consecrate.update
@@ -7727,10 +7716,12 @@ tt.main_script.update = kr2_scripts.mod_dps.update
 tt = E:register_t("mod_slow_kraken", "mod_slow")
 tt.modifier.duration = fts(10)
 tt.slow.factor = 0.5
-tt = E:register_t("hero_monk", "hero")
 
+tt = E:register_t("controller_item_hero_monk", "controller_item_hero")
+tt.entity = "hero_monk"
+
+tt = E:register_t("hero_monk", "hero5")
 E:add_comps(tt, "dodge", "melee", "timed_attacks")
-
 anchor_y = 0.18446601941747573
 image_y = 206
 tt.hero.level_stats.hp_max = {
@@ -7771,33 +7762,33 @@ tt.hero.level_stats.armor = {
 }
 tt.hero.level_stats.melee_damage_min = {
 	10,
-	11,
-	13,
+	12,
 	14,
 	16,
 	18,
-	19,
-	21,
+	20,
 	22,
-	24
+	24,
+	26,
+	28
 }
 tt.hero.level_stats.melee_damage_max = {
 	14,
 	17,
-	19,
-	22,
-	24,
+	20,
+	23,
 	26,
 	29,
-	31,
-	34,
-	36
+	32,
+	35,
+	38,
+	41
 }
 tt.hero.skills.snakestyle = E:clone_c("hero_skill")
 tt.hero.skills.snakestyle.damage = {
 	40,
-	60,
-	80
+	80,
+	120
 }
 tt.hero.skills.snakestyle.damage_reduction_factor = {
 	0.2,
@@ -7808,20 +7799,20 @@ tt.hero.skills.snakestyle.xp_gain_factor = 35
 tt.hero.skills.dragonstyle = E:clone_c("hero_skill")
 tt.hero.skills.dragonstyle.damage_max = {
 	75,
-	120,
-	160
+	150,
+	225
 }
 tt.hero.skills.dragonstyle.damage_min = {
 	25,
-	40,
-	80
+	50,
+	100
 }
 tt.hero.skills.dragonstyle.xp_gain_factor = 90
 tt.hero.skills.tigerstyle = E:clone_c("hero_skill")
 tt.hero.skills.tigerstyle.damage = {
 	30,
-	50,
-	70
+	60,
+	90
 }
 tt.hero.skills.tigerstyle.xp_gain_factor = 20
 tt.hero.skills.leopardstyle = E:clone_c("hero_skill")
@@ -7832,25 +7823,25 @@ tt.hero.skills.leopardstyle.loops = {
 }
 tt.hero.skills.leopardstyle.damage_max = {
 	30,
-	36,
-	42
+	45,
+	60
 }
 tt.hero.skills.leopardstyle.damage_min = {
 	10,
-	12,
-	14
+	20,
+	30
 }
 tt.hero.skills.leopardstyle.xp_gain_factor = 30
 tt.hero.skills.cranestyle = E:clone_c("hero_skill")
 tt.hero.skills.cranestyle.damage = {
-	20,
-	40,
-	60
+	25,
+	50,
+	75
 }
 tt.hero.skills.cranestyle.chance = {
-	0.2,
-	0.4,
-	0.6
+	0.25,
+	0.5,
+	0.75
 }
 tt.hero.skills.cranestyle.xp_gain_factor = 15
 tt.hero.skills.snakestyle.hr_cost = {
@@ -7894,11 +7885,12 @@ tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 38)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_monk.level_up
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(66)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_monk.get_info
-tt.info.hero_portrait = "hero_portraits_0013"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0016" or "info_portraits_heroes_0015"
+-- tt.info.hero_portrait = "hero_portraits_0013"
+tt.info.portrait = "portraits_hero_0134"
 tt.main_script.insert = kr2_scripts.hero_monk.insert
 tt.main_script.update = kr2_scripts.hero_monk.update
 tt.motion.max_speed = 90
@@ -7951,6 +7943,7 @@ tt.melee.attacks[4].chance = 1
 tt.melee.attacks[4].cooldown = 14
 tt.melee.attacks[4].damage_max = nil
 tt.melee.attacks[4].damage_min = nil
+tt.melee.attacks[4].damage_type = DAMAGE_TRUE
 tt.melee.attacks[4].hit_time = fts(18)
 tt.melee.attacks[4].mod = "mod_monk_damage_reduction"
 tt.melee.attacks[4].sound = "HeroMonkSnakeAttack"
@@ -7973,8 +7966,10 @@ tt.timed_attacks.list[1].animation = "dragon"
 tt.timed_attacks.list[1].cooldown = 16
 tt.timed_attacks.list[1].damage_max = nil
 tt.timed_attacks.list[1].damage_min = nil
+tt.timed_attacks.list[1].vis_bans = 0
 tt.timed_attacks.list[1].damage_flags = bor(F_AREA)
-tt.timed_attacks.list[1].damage_radius = 50
+tt.timed_attacks.list[1].damage_bans = 0
+tt.timed_attacks.list[1].damage_radius = 60
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].hit_time = fts(26)
@@ -8002,7 +7997,7 @@ tt.timed_attacks.list[2].particle_pos = {
 	v(18, 14),
 	v(21, 18)
 }
-tt.timed_attacks.list[2].vis_bans = bor(F_FLYING, F_BOSS, F_WATER, F_CLIFF)
+tt.timed_attacks.list[2].vis_bans = bor(F_FLYING, F_BOSS, F_WATER, F_CLIFF, F_NIGHTMARE)
 tt.timed_attacks.list[2].vis_flags = bor(F_STUN, F_RANGED)
 tt.timed_attacks.list[2].loops = nil
 tt.timed_attacks.list[2].range = 100
@@ -9667,10 +9662,12 @@ tt.tween.props[1].keys = {
 }
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "minotaur_axeDecal"
-tt = E:register_t("hero_monkey_god", "hero")
 
+tt = E:register_t("controller_item_hero_monkey_god", "controller_item_hero")
+tt.entity = "hero_monkey_god"
+
+tt = E:register_t("hero_monkey_god", "hero5")
 E:add_comps(tt, "melee", "timed_attacks")
-
 image_y = 148
 anchor_y = 28 / image_y
 tt.hero.level_stats.hp_max = {
@@ -9712,44 +9709,44 @@ tt.hero.level_stats.armor = {
 tt.hero.level_stats.damage_min = {
 	8,
 	10,
-	11,
-	13,
+	12,
 	14,
-	15,
-	17,
+	16,
 	18,
 	20,
-	21
+	22,
+	24,
+	26
 }
 tt.hero.level_stats.damage_max = {
 	16,
-	18,
-	21,
-	23,
-	26,
-	29,
+	19,
+	22,
+	25,
+	28,
 	31,
 	34,
-	36,
-	39
+	37,
+	40,
+	43
 }
 tt.hero.skills.spinningpole = E:clone_c("hero_skill")
 tt.hero.skills.spinningpole.xp_gain_factor = 7
 tt.hero.skills.spinningpole.loops = {
 	2,
-	3,
-	4
+	4,
+	6
 }
 tt.hero.skills.spinningpole.damage = {
 	16,
-	23,
-	27
+	24,
+	32
 }
 tt.hero.skills.tetsubostorm = E:clone_c("hero_skill")
 tt.hero.skills.tetsubostorm.damage = {
-	36.666666666666664,
-	60,
-	86.66666666666667
+	40,
+	80,
+	120
 }
 tt.hero.skills.tetsubostorm.xp_gain_factor = 15
 tt.hero.skills.monkeypalm = E:clone_c("hero_skill")
@@ -9766,21 +9763,21 @@ tt.hero.skills.monkeypalm.silence_duration = {
 tt.hero.skills.monkeypalm.xp_gain_factor = 120
 tt.hero.skills.angrygod = E:clone_c("hero_skill")
 tt.hero.skills.angrygod.received_damage_factor = {
-	1.25,
-	1.45,
-	1.65
+	1.2,
+	1.4,
+	1.6
 }
 tt.hero.skills.angrygod.xp_gain_factor = 15
 tt.hero.skills.divinenature = E:clone_c("hero_skill")
 tt.hero.skills.divinenature.hp = {
 	1,
-	1,
+	2,
 	3
 }
 tt.hero.skills.divinenature.cooldown = {
-	fts(10),
-	fts(5),
-	fts(10)
+	fts(6),
+	fts(6),
+	fts(6)
 }
 tt.hero.skills.spinningpole.hr_cost = {
 	3,
@@ -9823,11 +9820,12 @@ tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.fn_level_up = kr2_scripts.hero_monkey_god.level_up
+tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(30)
 tt.idle_flip.cooldown = 2
 tt.info.fn = kr2_scripts.hero_monkey_god.get_info
-tt.info.hero_portrait = "hero_portraits_0020"
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_hero_0024" or "info_portraits_heroes_0024"
+-- tt.info.hero_portrait = "hero_portraits_0020"
+tt.info.portrait = "portraits_hero_0133"
 tt.main_script.insert = kr2_scripts.hero_monkey_god.insert
 tt.main_script.update = kr2_scripts.hero_monkey_god.update
 tt.motion.max_speed = 90
@@ -9872,6 +9870,7 @@ tt.cloudwalk.hit_offset = v(0, 60)
 tt.cloudwalk.mod_offset = v(0, 64)
 tt.melee.attacks[1] = E:clone_c("melee_attack")
 tt.melee.attacks[1].hit_time = fts(8)
+tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].shared_cooldown = true
 tt.melee.attacks[1].sound = "HeroMonkeyGodAttack1"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF)
@@ -9891,14 +9890,14 @@ tt.melee.attacks[3].cooldown = 20
 tt.melee.attacks[3].damage_max = nil
 tt.melee.attacks[3].damage_min = nil
 tt.melee.attacks[3].damage_radius = 90
-tt.melee.attacks[3].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[3].damage_type = DAMAGE_TRUE
 tt.melee.attacks[3].disabled = true
 tt.melee.attacks[3].fn_can = kr2_scripts.hero_monkey_god.can_spinningpole
 tt.melee.attacks[3].hit_time = fts(8)
 tt.melee.attacks[3].loopable = true
 tt.melee.attacks[3].loops = nil
 tt.melee.attacks[3].min_count = 2
-tt.melee.attacks[3].vis_bans = bor(F_FLYING, F_CLIFF)
+tt.melee.attacks[3].vis_bans = bor(F_FRIEND)
 tt.melee.attacks[3].vis_flags = F_BLOCK
 tt.melee.attacks[3].xp_gain_factor = 3
 tt.melee.attacks[3].xp_from_skill = "spinningpole"
@@ -9913,6 +9912,7 @@ tt.melee.attacks[4].animations = {
 tt.melee.attacks[4].cooldown = 20
 tt.melee.attacks[4].damage_max = nil
 tt.melee.attacks[4].damage_min = nil
+tt.melee.attacks[4].damage_type = DAMAGE_TRUE
 tt.melee.attacks[4].disabled = true
 tt.melee.attacks[4].hit_times = {
 	fts(1),
@@ -9921,7 +9921,7 @@ tt.melee.attacks[4].hit_times = {
 }
 tt.melee.attacks[4].loopable = true
 tt.melee.attacks[4].loops = 1
-tt.melee.attacks[4].vis_bans = bor(F_FLYING, F_CLIFF, F_BOSS)
+tt.melee.attacks[4].vis_bans = bor(F_FLYING, F_CLIFF, F_WATER)
 tt.melee.attacks[4].vis_flags = F_BLOCK
 tt.melee.attacks[4].xp_gain_factor = 5
 tt.melee.attacks[4].xp_from_skill = "tetsubostorm"
@@ -9929,10 +9929,12 @@ tt.melee.attacks[4].sound = "HeroMonkeyGodTetsuboStorm"
 tt.melee.attacks[5] = E:clone_c("melee_attack")
 tt.melee.attacks[5].animation = "palm"
 tt.melee.attacks[5].disabled = true
-tt.melee.attacks[5].damage_type = DAMAGE_NONE
+tt.melee.attacks[5].damage_type = DAMAGE_TRUE
+tt.melee.attacks[5].damage_min = 120
+tt.melee.attacks[5].damage_max = 120
 tt.melee.attacks[5].mod = "mod_monkey_god_palm"
-tt.melee.attacks[5].vis_bans = bor(F_BOSS, F_STUN)
-tt.melee.attacks[5].vis_flags = F_BLOCK
+tt.melee.attacks[5].vis_bans = bor(F_BOSS, F_MINIBOSS)
+tt.melee.attacks[5].vis_flags = bor(F_BLOCK, F_STUN)
 tt.melee.attacks[5].xp_from_skill = "monkeypalm"
 tt.melee.attacks[5].sound = "HeroMonkeyGodMonkeyPalm"
 tt.melee.attacks[5].hit_time = fts(12)
@@ -9945,7 +9947,7 @@ tt.timed_attacks.list[1].animations = {
 	"angry_loop",
 	"angry_end"
 }
-tt.timed_attacks.list[1].cooldown = 45
+tt.timed_attacks.list[1].cooldown = 32
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].loops = 8
 tt.timed_attacks.list[1].min_count = 5
@@ -9953,14 +9955,17 @@ tt.timed_attacks.list[1].vis_flags = F_RANGED
 tt.timed_attacks.list[1].vis_bans = bor(F_BOSS)
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 9999
-tt.timed_attacks.list[1].mod = "mod_monkey_god_angry"
+tt.timed_attacks.list[1].mods = {
+	"mod_monkey_god_angry",
+	"mod_monkey_god_angry_damage"
+}
 tt.timed_attacks.list[1].sound_start = "HeroMonkeyGodAngryGodScream"
 tt.timed_attacks.list[1].sound_loop = "HeroMonkeyGodAngryGodLoop"
+
 tt = E:register_t("aura_monkey_god_divinenature", "aura_beastmaster_regeneration")
+
 tt = E:register_t("mod_monkey_god_angry", "modifier")
-
 E:add_comps(tt, "render")
-
 tt.received_damage_factor = nil
 tt.inflicted_damage_factor = 1
 tt.modifier.duration = 2
@@ -9977,10 +9982,14 @@ tt.render.sprites[1].size_scales = {
 }
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].anchor.y = 0.46551724137931033
+
+tt = E:register_t("mod_monkey_god_angry_damage", "mod_damage")
+tt.damage_min = 20
+tt.damage_max = 25
+tt.damage_type = DAMAGE_TRUE
+
 tt = E:register_t("mod_monkey_god_palm", "modifier")
-
 E:add_comps(tt, "render")
-
 tt.main_script.insert = kr2_scripts.mod_monkey_god_palm.insert
 tt.main_script.remove = kr2_scripts.mod_monkey_god_palm.remove
 tt.main_script.update = kr2_scripts.mod_track_target.update
@@ -10355,7 +10364,7 @@ tt.enemy.gold = 8
 tt.enemy.melee_slot = v(18, 0)
 tt.health.hp_max = 80
 tt.health_bar.offset = v(0, ady(67))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0037" or "info_portraits_enemies_0012"
+tt.info.portrait = "bottom_info_image_enemies_0081"
 tt.info.enc_icon = 12
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_passive.update
@@ -10398,7 +10407,7 @@ tt.enemy.melee_slot = v(18, 0)
 tt.health.hp_max = 400
 tt.health_bar.offset = v(0, ady(85))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0038" or "info_portraits_enemies_0013"
+tt.info.portrait = "bottom_info_image_enemies_0082"
 tt.info.enc_icon = 13
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_passive.update
@@ -11431,11 +11440,11 @@ tt.unit.show_blood_pool = false
 tt.unit.can_explode = false
 tt.unit.hide_after_death = true
 tt.unit.hit_offset = v(0, 19)
-tt.unit.marker_offset = v(0, ady(0))
+tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 19)
 tt.sound_events.death = nil
 tt.sound_events.insert = "HWGhosts"
-tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH, F_NET)
 
 tt = E:register_t("ghost_sound_aura", "aura")
 tt.loop_delay = fts(70)
@@ -11518,7 +11527,7 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 21)
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
-tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_THORN, F_POLYMORPH, F_STUN)
+tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_THORN, F_POLYMORPH, F_STUN, F_NET)
 
 tt = E:register_t("phantom_warrior_aura", "aura")
 tt.aura.banned_templates = {
@@ -11633,6 +11642,7 @@ tt.ranged.attacks[1].bullet = "headless_horseman_pumpkin"
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(20, 65)
 }
+tt.ranged.attacks[1].ignore_hit_offset = true
 tt.ranged.attacks[1].cooldown = 4
 tt.ranged.attacks[1].min_range = 40
 tt.ranged.attacks[1].max_range = 190
@@ -11661,6 +11671,7 @@ tt.bullet.damage_radius = 40
 tt.bullet.damage_bans = F_ENEMY
 tt.bullet.damage_flags = F_AREA
 tt.bullet.flight_time = fts(20)
+tt.bullet.ignore_hit_offset = true
 tt.render.sprites[1].name = "HalloweenRider_bomb"
 tt.main_script.insert = kr2_scripts.enemy_bomb.insert
 tt.main_script.update = kr2_scripts.enemy_bomb.update
@@ -11802,7 +11813,7 @@ tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = F_ALL
 tt.vis.bans_in_battlefield = bor(F_SKELETON)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
-tt.sound_events.insert = "MusicBossFight"
+tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.laugh = "BossEfreetiLaugh"
 tt.sound_events.death = "BossEfreetiDeath"
 tt.sound_events.desintegrate = "BossEfreetiSnap"
@@ -11917,7 +11928,7 @@ tt.render.sprites[1].angles.walk = {
 }
 tt.render.sprites[1].prefix = "eb_gorilla"
 tt.sound_events.death = "BossMonkeyDeath"
-tt.sound_events.insert = "MusicBossFight"
+tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.jump_to_tower = "BossMonkeyJumpToTotem"
 tt.sound_events.drop_from_sky = "BossMonkeyFallSpawn"
 tt.unit.hit_offset = v(0, 45)
@@ -14695,14 +14706,16 @@ E:add_comps(tt, "melee")
 image_y = 80
 anchor_y = 0.1375
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(15, 0)
 tt.health.dead_lifetime = fts(10000)
 tt.health.hp_max = 8475
+tt.health.armor = 0
+tt.health.magic_armor = 1
 tt.health_bar.offset = v(0, 60)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.fn = kr2_scripts.eb_dracula.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0090" or "info_portraits_enemies_0067"
+tt.info.portrait = "bottom_info_image_enemies_0083"
 tt.info.enc_icon = 57
 tt.main_script.insert = kr2_scripts.eb_dracula.insert
 tt.main_script.update = kr2_scripts.eb_dracula.update
@@ -14737,7 +14750,7 @@ tt.unit.show_blood_pool = false
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.bans = bor(F_SKELETON)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
-tt.sound_events.insert = "MusicBossFight"
+tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.death = "HWBossVampireDeath"
 tt = E:register_t("mod_dracula_lifesteal", "modifier")
 tt.modifier.duration = fts(50)

@@ -6,22 +6,16 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
-local scripts = require("game_scripts")
 local kr1_scripts = require("kr1_game_scripts")
-local kr2_scripts = require("kr2_game_scripts")
-local kr3_scripts = require("kr3_game_scripts")
 local customScripts1 = require("custom_scripts_1")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "kr1_game_templates")
 
 local U = require("utils")
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
@@ -83,12 +77,6 @@ end
 local function CC(comp_name)
     return E:clone_c(comp_name)
 end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 8
-DO_TOWER_MODS = 10
 
 -- heroes
 tt = RT("projectile_denas", "arrow")
@@ -358,25 +346,17 @@ tt.timed_attacks.list[3].vis_flags = F_RANGED
 tt.timed_attacks.list[3].xp_from_skill = "catapult"
 tt.timed_attacks.list[3].search_type = U.search_type.find_max_crowd
 tt.timed_attacks.list[4] = CC("spawn_attack")
-tt.timed_attacks.list[4].skill = "spawner"
+tt.timed_attacks.list[4].skill = "object_on_target"
 tt.timed_attacks.list[4].cooldown = 30
-tt.timed_attacks.list[4].range = 200
-tt.timed_attacks.list[4].min_targets = 1
+tt.timed_attacks.list[4].max_range = 200
+tt.timed_attacks.list[4].min_range = 0
 tt.timed_attacks.list[4].vis_bans = bor(F_FRIEND, F_FLYING)
 tt.timed_attacks.list[4].animation = "levelUp"
 tt.timed_attacks.list[4].cast_time = fts(13)
+tt.timed_attacks.list[4].node_prediction = fts(0)
 tt.timed_attacks.list[4].sound = "HeroLevelUp"
-tt.timed_attacks.list[4].spawn_delay = 0
-tt.timed_attacks.list[4].min_nodes = -9
-tt.timed_attacks.list[4].max_nodes = -9
 tt.timed_attacks.list[4].use_center = true
-tt.timed_attacks.list[4].max_count = 1
-tt.timed_attacks.list[4].entity_chances = {
-	1,
-}
-tt.timed_attacks.list[4].entity_names = {
-	"soldier_reinforcement_stage_15_denas"
-}
+tt.timed_attacks.list[4].entity = "soldier_reinforcement_stage_15_denas"
 
 tt = E:register_t("denas_catapult_rock", "bombKR5")
 tt.bullet.flight_time = fts(45)
@@ -889,8 +869,8 @@ tt.render.sprites[1].size_names = {
 }
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].loop = true
-tt.main_script.insert = scripts.mod_dps.insert
-tt.main_script.update = scripts.mod_dps.update
+tt.main_script.insert = kr1_scripts.mod_dps.insert
+tt.main_script.update = kr1_scripts.mod_dps.update
 
 tt = E:register_t("controller_item_hero_thor", "controller_item_hero")
 tt.entity = "hero_thor"
@@ -1583,7 +1563,7 @@ tt.bullet.damage_min = 30
 tt.bullet.damage_max = 60
 tt.bullet.damage_flags = F_AREA
 tt.render.sprites[1].name = "fireball_proyectile"
-tt.main_script.update = scripts.power_fireball.update
+tt.main_script.update = kr1_scripts.power_fireball.update
 tt.scorch_earth = false
 tt.sound_events.insert = "FireballRelease"
 tt.sound_events.hit = "FireballHit"
@@ -1671,6 +1651,7 @@ tt.bullet.max_speed = 300
 tt.bullet.min_speed = 30
 tt.bullet.pop_chance = 0
 tt.bullet.shot_index = 1
+tt.bullet.vis_bans = bor(F_FRIEND)
 tt.initial_impulse = 15000
 tt.initial_impulse_duration = 0.15
 tt.initial_impulse_angle = math.pi / 6
@@ -1710,7 +1691,7 @@ tt = E:register_t("hero_10yr_ultimate")
 E:add_comps(tt, "pos", "main_script", "user_power")
 tt.entity = "power_fireball"
 tt.can_fire_fn = kr1_scripts.hero_10yr_ultimate.can_fire_fn
-tt.main_script.update = scripts.power_fireball_control.update
+tt.main_script.update = kr1_scripts.power_fireball_control.update
 tt.cooldown = 80
 tt.max_spread = 20
 tt.fireball_count = 5
@@ -1941,8 +1922,8 @@ tt.bullet.flight_time_base = fts(34)
 tt.bullet.flight_time_factor = fts(0.016666666666666666)
 tt.bullet.pop = nil
 tt.bullet.hit_payload = "aura_bolin_tar"
-tt.main_script.insert = scripts.bomb.insert
-tt.main_script.update = scripts.bomb.update
+tt.main_script.insert = kr1_scripts.bomb.insert
+tt.main_script.update = kr1_scripts.bomb.update
 tt.bullet.hit_fx = nil
 tt.bullet.hit_decal = nil
 tt.bullet.hide_radius = nil
@@ -1961,7 +1942,7 @@ tt.aura.mod = "mod_bolin_slow"
 tt.aura.radius = 80
 tt.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.aura.vis_flags = bor(F_ENEMY)
-tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.insert = kr1_scripts.aura_apply_mod.insert
 tt.main_script.update = kr1_scripts.aura_slow_bolin.update
 tt.render.sprites[1].prefix = "decal_bolin_tar"
 tt.render.sprites[1].name = "start"
@@ -1993,8 +1974,8 @@ tt.bullet.damage_radius = 1
 tt.bullet.flight_time = fts(24)
 tt.bullet.pop = nil
 tt.bullet.hit_payload = "decal_bolin_mine"
-tt.main_script.insert = scripts.bomb.insert
-tt.main_script.update = scripts.bomb.update
+tt.main_script.insert = kr1_scripts.bomb.insert
+tt.main_script.update = kr1_scripts.bomb.update
 tt.bullet.hit_fx = nil
 tt.bullet.hit_decal = nil
 tt.bullet.hide_radius = nil
@@ -2107,7 +2088,7 @@ tt.hero.team = TEAM_LINIREA
 tt.hero.fn_level_up = kr1_scripts.hero_gerald.level_up
 tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
-tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.fn = kr1_scripts.hero_basic.get_info_melee
 tt.info.i18n_key = "HERO_PALADIN"
 tt.info.portrait = "portraits_hero_0107"
 tt.main_script.update = kr1_scripts.hero_gerald.update
@@ -2175,7 +2156,7 @@ tt.modifier.duration = 6
 tt.modifier.use_mod_offset = false
 tt.main_script.insert = kr1_scripts.mod_gerald_courage.insert
 tt.main_script.remove = kr1_scripts.mod_gerald_courage.remove
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.update = kr1_scripts.mod_track_target.update
 tt.render.sprites[1].name = "mod_gerald_courage"
 tt.render.sprites[1].anchor = v(0.51, 0.17307692307692307)
 tt.render.sprites[1].draw_order = 2
@@ -2299,13 +2280,13 @@ tt.hero.skills.ice_storm.count = {
 }
 tt.hero.skills.ice_storm.damage_max = {
 	40,
-	50,
-	60
+	60,
+	80
 }
 tt.hero.skills.ice_storm.damage_min = {
 	20,
-	30,
-	40
+	40,
+	60
 }
 tt.hero.skills.ice_storm.max_range = {
 	153.6,
@@ -2325,7 +2306,7 @@ tt.hero.fn_level_up = kr1_scripts.hero_elora.level_up
 tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(60)
 tt.info.i18n_key = "HERO_FROST_SORCERER"
-tt.info.fn = scripts.hero_basic.get_info_ranged
+tt.info.fn = kr1_scripts.hero_basic.get_info_ranged
 tt.info.portrait = "portraits_hero_0109"
 tt.main_script.update = kr1_scripts.hero_elora.update
 tt.motion.max_speed = 3 * FPS
@@ -2383,7 +2364,7 @@ tt.timed_attacks.list[1].cooldown = 10 + fts(39)
 tt.timed_attacks.list[1].disabled = true
 tt.timed_attacks.list[1].max_range = nil
 tt.timed_attacks.list[1].min_range = 38.4
-tt.timed_attacks.list[1].node_prediction = fts(27)
+tt.timed_attacks.list[1].node_prediction = fts(12)
 tt.timed_attacks.list[1].sound = "HeroFrostIceRainSummon"
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND)
 tt.timed_attacks.list[1].vis_flags = F_RANGED
@@ -2443,7 +2424,7 @@ tt.aura.mod = "mod_elora_chill"
 tt.aura.radius = 44.800000000000004
 tt.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.aura.vis_flags = bor(F_ENEMY)
-tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.insert = kr1_scripts.aura_apply_mod.insert
 tt.main_script.update = kr1_scripts.aura_chill_elora.update
 tt.render.sprites[1].prefix = "decal_elora_chill_"
 tt.render.sprites[1].name = "start"
@@ -2672,7 +2653,7 @@ tt.hero.team = TEAM_LINIREA
 tt.hero.fn_level_up = kr1_scripts.hero_ignus.level_up
 tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(60)
-tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.fn = kr1_scripts.hero_basic.get_info_melee
 tt.info.i18n_key = "HERO_FIRE"
 tt.info.portrait = "portraits_hero_0108"
 tt.main_script.update = kr1_scripts.hero_ignus.update
@@ -2702,7 +2683,7 @@ tt.melee.attacks[1].sound_hit = "HeroReinforcementHit"
 tt.timed_attacks.list[1] = CC("custom_attack")
 tt.timed_attacks.list[1].animation = "flamingFrenzy"
 tt.timed_attacks.list[1].cast_time = fts(8)
-tt.timed_attacks.list[1].chance = 0.5
+tt.timed_attacks.list[1].chance = 1
 tt.timed_attacks.list[1].cooldown = 4 + fts(24)
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].decal = "decal_ignus_flaming"
@@ -2888,7 +2869,7 @@ tt.hero.fn_level_up = kr1_scripts.hero_oni.level_up
 tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(150)
 tt.hero.team = TEAM_LINIREA
-tt.info.fn = scripts.hero_basic.get_info_melee
+tt.info.fn = kr1_scripts.hero_basic.get_info_melee
 tt.info.i18n_key = "HERO_SAMURAI"
 tt.info.portrait = "portraits_hero_0111"
 tt.melee.range = 65
@@ -3721,7 +3702,7 @@ tt.tower.level = 1
 tt.tower.can_be_mod = false
 tt.tower.can_be_sold = false
 tt.info.i18n_key = "TOWER_ELF_HOLDER"
-tt.info.fn = scripts.tower_barrack_mercenaries.get_info
+tt.info.fn = kr1_scripts.tower_barrack_mercenaries.get_info
 tt.info.portrait = "portraits_towers_0108"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
@@ -3763,7 +3744,7 @@ tt.info.portrait = "portraits_towers_0108"
 tt.barrack.max_soldiers = 0
 tt.barrack.rally_range = 145
 tt.barrack.respawn_offset = v(0, 0)
-tt.barrack.soldier_type = "kr4_elven_warrior"
+tt.barrack.soldier_type = {}
 tt.editor.props = table.append(tt.editor.props, {
 	{
 		"barrack.rally_pos",
@@ -3771,9 +3752,9 @@ tt.editor.props = table.append(tt.editor.props, {
 	}
 }, true)
 tt.info.i18n_key = "SPECIAL_ELF"
-tt.info.fn = scripts.tower_barrack_mercenaries.get_info
-tt.main_script.insert = scripts.tower_barrack.insert
-tt.main_script.remove = scripts.tower_barrack.remove
+tt.info.fn = kr1_scripts.tower_barrack_mercenaries.get_info
+tt.main_script.insert = kr1_scripts.tower_barrack.insert
+tt.main_script.remove = kr1_scripts.tower_barrack.remove
 tt.main_script.update = customScripts1.tower_special_mercenaries.update
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
@@ -3999,8 +3980,8 @@ tt.render.sprites[1].size_names = {
 }
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].loop = true
-tt.main_script.insert = scripts.mod_track_target.insert
-tt.main_script.update = scripts.mod_track_target.update
+tt.main_script.insert = kr1_scripts.mod_track_target.insert
+tt.main_script.update = kr1_scripts.mod_track_target.update
 
 tt = RT("ps_tesla_overcharge", "particle_system")
 tt.particle_system.name = "decal_tesla_overcharge"
@@ -4170,9 +4151,9 @@ function tt.main_script.insert(this, store, script)
     decal.pos = target.pos
     decal.render.sprites[1].ts = store.tick_ts
 	simulation:queue_insert_entity(decal)
-	return scripts.mod_hps.insert(this, store, script)
+	return kr1_scripts.mod_hps.insert(this, store, script)
 end
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.update = kr1_scripts.mod_hps.update
 tt.modifier.duration = fts(20)
 tt.render.sprites[1].name = "paladin_modifier_effect"
 tt.render.sprites[1].anchor = v(0.5, 0.5)
@@ -5847,13 +5828,13 @@ AC(tt, "melee")
 
 image_x, image_y = 46, 32
 anchor_x, anchor_y = 0.5, 0.2
-tt.enemy.gold = 3
+tt.enemy.gold = 1
 tt.enemy.melee_slot = v(18, 0)
-tt.health.hp_max = 20
+tt.health.hp_max = 60
 tt.health_bar.offset = v(0, 25)
 tt.info.i18n_key = "ENEMY_GOBLIN"
 tt.info.enc_icon = 1
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0006" or "info_portraits_sc_0006"
+tt.info.portrait = "bottom_info_image_enemies_0085"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 4
 tt.melee.attacks[1].damage_min = 1
@@ -5870,14 +5851,14 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 58, 42
-tt.enemy.gold = 9
+tt.enemy.gold = 5
 tt.enemy.melee_slot = v(18, 0)
 tt.health.armor = 0.3
-tt.health.hp_max = 80
+tt.health.hp_max = 180
 tt.health_bar.offset = v(0, 30)
 tt.info.i18n_key = "ENEMY_FAT_ORC"
 tt.info.enc_icon = 2
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0007" or "info_portraits_sc_0007"
+tt.info.portrait = "bottom_info_image_enemies_0088"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 8
 tt.melee.attacks[1].damage_min = 4
@@ -5991,12 +5972,12 @@ anchor_x, anchor_y = 0.5, 0.2
 image_x, image_y = 60, 60
 tt.enemy.gold = 10
 tt.enemy.melee_slot = v(18, 0)
-tt.health.hp_max = 100
+tt.health.hp_max = 200
 tt.health.magic_armor = 0.85
 tt.health_bar.offset = v(0, 33)
 tt.info.i18n_key = "ENEMY_SHAMAN"
 tt.info.enc_icon = 3
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0009" or "info_portraits_sc_0009"
+tt.info.portrait = "bottom_info_image_enemies_0091"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_shaman.update
 tt.melee.attacks[1].cooldown = 1 + fts(18)
@@ -6054,7 +6035,7 @@ tt = RT("enemy_ogre", "enemy_KR5")
 AC(tt, "melee")
 anchor_x, anchor_y = 0.5, 0.2
 image_x, image_y = 86, 80
-tt.enemy.gold = 50
+tt.enemy.gold = 30
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(24, 0)
 tt.health.hp_max = 800
@@ -6062,7 +6043,7 @@ tt.health_bar.offset = v(0, 53)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_OGRE"
 tt.info.enc_icon = 4
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0011" or "info_portraits_sc_0011"
+tt.info.portrait = "bottom_info_image_enemies_0087"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 60
 tt.melee.attacks[1].damage_min = 40
@@ -6450,7 +6431,7 @@ tt.health_bar.offset = v(0, 76)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_FOREST_TROLL"
 tt.info.enc_icon = 39
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0062" or "info_portraits_sc_0060"
+tt.info.portrait = "bottom_info_image_enemies_0084"
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2.5
 tt.melee.attacks[1].count = 10
@@ -6490,7 +6471,7 @@ tt.health.hp_max = 400
 tt.health_bar.offset = v(0, 36)
 tt.info.i18n_key = "ENEMY_ORC_ARMORED"
 tt.info.enc_icon = 36
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0060" or "info_portraits_sc_0059"
+tt.info.portrait = "bottom_info_image_enemies_0089"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 40
 tt.melee.attacks[1].damage_min = 20
@@ -6520,7 +6501,7 @@ tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, 48)
 tt.info.i18n_key = "ENEMY_ORC_RIDER"
 tt.info.enc_icon = 37
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0060" or "info_portraits_sc_0059"
+tt.info.portrait = "bottom_info_image_enemies_0089"
 tt.melee.attacks[1].cooldown = 1 + fts(14)
 tt.melee.attacks[1].damage_max = 40
 tt.melee.attacks[1].damage_min = 20
@@ -6788,13 +6769,13 @@ image_x, image_y = 52, 58
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.name = "aura_goblin_zapper_death"
 tt.death_spawns.delay = 0.11
-tt.enemy.gold = 10
+tt.enemy.gold = 7
 tt.enemy.melee_slot = v(18, 0)
 tt.health.hp_max = 140
 tt.health_bar.offset = v(0, 34)
 tt.info.i18n_key = "ENEMY_GOBLIN_ZAPPER"
 tt.info.enc_icon = 38
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0061" or "info_portraits_sc_0061"
+tt.info.portrait = "bottom_info_image_enemies_0086"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 20
 tt.melee.attacks[1].damage_min = 10
@@ -8336,7 +8317,7 @@ tt.health_bar.offset = v(0, 95)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.i18n_key = "ENEMY_BOSS_GOBLIN_CHIEFTAIN"
 tt.info.enc_icon = 40
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0063" or "info_portraits_sc_0063"
+tt.info.portrait = "bottom_info_image_enemies_0090"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_shaman.update
 tt.melee.attacks[1].cooldown = 1 + fts(20)
@@ -10153,8 +10134,8 @@ tt.modifier.duration = 6
 tt.hps.heal_min = 5
 tt.hps.heal_max = 5
 tt.hps.heal_every = 0.5
-tt.main_script.insert = scripts.mod_hps.insert
-tt.main_script.update = scripts.mod_hps.update
+tt.main_script.insert = kr1_scripts.mod_hps.insert
+tt.main_script.update = kr1_scripts.mod_hps.update
 
 tt = E:register_t("mod_jt_tower", "modifier")
 

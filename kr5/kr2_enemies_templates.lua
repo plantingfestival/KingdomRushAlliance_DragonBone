@@ -6,98 +6,74 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-require("constants")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
-local scripts = require("game_scripts")
 local kr2_scripts = require("kr2_game_scripts")
 
-require("templates")
+table.insert(__CHAINED_TEMPLATES, "kr2_enemies_templates")
 
-local H = require("helpers")
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
 
 local function v(v1, v2)
-    return {
-        x = v1,
-        y = v2
-    }
+	return {
+		x = v1,
+		y = v2
+	}
 end
 
 local function vv(v1)
-    return {
-        x = v1,
-        y = v1
-    }
+	return {
+		x = v1,
+		y = v1
+	}
 end
 
 local function r(x, y, w, h)
-    return {
-        pos = v(x, y),
-        size = v(w, h)
-    }
+	return {
+		pos = v(x, y),
+		size = v(w, h)
+	}
 end
 
 local function fts(v)
-    return v / FPS
+	return v / FPS
 end
 
 local function ady(v)
-    return v - anchor_y * image_y
+	return v - anchor_y * image_y
 end
 
 local function adx(v)
-    return v - anchor_x * image_x
+	return v - anchor_x * image_x
 end
 
 local function np(pi, spi, ni)
-    return {
-        dir = 1,
-        pi = pi,
-        spi = spi,
-        ni = ni
-    }
+	return {
+		dir = 1,
+		pi = pi,
+		spi = spi,
+		ni = ni
+	}
 end
 
 local function d2r(d)
-    return d * math.pi / 180
+	return d * math.pi / 180
 end
 
 local function RT(name, ref)
-    return E:register_t(name, ref)
+	return E:register_t(name, ref)
 end
 
 local function AC(tpl, ...)
-    return E:add_comps(tpl, ...)
+	return E:add_comps(tpl, ...)
 end
 
 local function CC(comp_name)
-    return E:clone_c(comp_name)
-end
-
-DO_ENEMY_BIG = 2
-DO_SOLDIER_BIG = 3
-DO_HEROES = 3
-DO_MOD_FX = 8
-DO_TOWER_MODS = 10
-
-if H.command_line_has_arg("balance_override") then
-    local balance_override_path = H.command_line_argv("balance_override")
-
-    require(balance_override_path)
-end
-
-if game and game.store and game.store.level and game.store.level.test_case and game.store.level.test_case.patch_balance then
-    local new_balance = game.store.level.test_case:patch_balance()
-
-    if new_balance then
-        balance = new_balance
-    end
+	return E:clone_c(comp_name)
 end
 
 tt = E:register_t("enemy_blacksurge", "enemy_KR5")
@@ -122,7 +98,7 @@ tt.hidden.vis_bans = bor(F_BLOCK, F_STUN, F_BLOOD, F_TWISTER, F_LETHAL)
 tt.hidden.sprite_suffix = "_hidden"
 tt.hidden.ts = 0
 tt.info.portrait = "bottom_info_image_enemies_0001"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_blacksurge.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 50
@@ -163,7 +139,7 @@ local mod_blacksurge = E:register_t("mod_blacksurge", "modifier")
 E:add_comps(mod_blacksurge, "render")
 
 mod_blacksurge.modifier.duration = 7
-mod_blacksurge.main_script.update = scripts.mod_tower_block.update
+mod_blacksurge.main_script.update = kr2_scripts.mod_tower_block.update
 mod_blacksurge.render.sprites[1].prefix = "blacksurge_curse"
 mod_blacksurge.render.sprites[1].name = "start"
 mod_blacksurge.render.sprites[1].anchor.y = 0.24
@@ -185,8 +161,8 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 57)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0002"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed_water.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed_water.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 120
 tt.melee.attacks[1].damage_min = 100
@@ -218,8 +194,8 @@ mod_bluegale_damage.dps.damage_min = 15
 mod_bluegale_damage.dps.damage_max = 15
 mod_bluegale_damage.dps.damage_type = DAMAGE_ELECTRICAL
 mod_bluegale_damage.dps.damage_every = 1
-mod_bluegale_damage.main_script.insert = scripts.mod_dps.insert
-mod_bluegale_damage.main_script.update = scripts.mod_dps.update
+mod_bluegale_damage.main_script.insert = kr2_scripts.mod_dps.insert
+mod_bluegale_damage.main_script.update = kr2_scripts.mod_dps.update
 
 local mod_bluegale_heal = E:register_t("mod_bluegale_heal", "modifier")
 
@@ -229,12 +205,12 @@ mod_bluegale_heal.modifier.duration = 0.9
 mod_bluegale_heal.hps.heal_min = 15
 mod_bluegale_heal.hps.heal_max = 15
 mod_bluegale_heal.hps.heal_every = 1
-mod_bluegale_heal.main_script.insert = scripts.mod_hps.insert
-mod_bluegale_heal.main_script.update = scripts.mod_hps.update
+mod_bluegale_heal.main_script.insert = kr2_scripts.mod_hps.insert
+mod_bluegale_heal.main_script.update = kr2_scripts.mod_hps.update
 
 tt = E:register_t("ray_bluegale", "bullet")
 tt.image_width = 120
-tt.main_script.update = scripts.ray_enemy.update
+tt.main_script.update = kr2_scripts.ray_enemy.update
 tt.render.sprites[1].name = "ray_bluegale"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -321,8 +297,8 @@ tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_SKY
 
 tt = E:register_t("bluegale_heal_aura", "aura")
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
+tt.main_script.update = kr2_scripts.aura_apply_mod.update
 tt.aura.mod = "mod_bluegale_heal"
 tt.aura.vis_bans = F_FRIEND
 tt.aura.vis_flags = F_MOD
@@ -331,8 +307,8 @@ tt.aura.duration = 10
 tt.aura.radius = 50
 
 tt = E:register_t("bluegale_damage_aura", "aura")
-tt.main_script.insert = scripts.aura_apply_mod.insert
-tt.main_script.update = scripts.aura_apply_mod.update
+tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
+tt.main_script.update = kr2_scripts.aura_apply_mod.update
 tt.aura.mod = "mod_bluegale_damage"
 tt.aura.vis_bans = F_ENEMY
 tt.aura.vis_flags = F_MOD
@@ -357,7 +333,7 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 57)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0023"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_bluegale.update
 tt.motion.max_speed = 30.72
 tt.render.sprites[1].anchor.y = anchor_y
@@ -415,8 +391,8 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 49)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0022"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed_water.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed_water.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 35
 tt.melee.attacks[1].damage_min = 25
@@ -459,9 +435,9 @@ tt = E:register_t("mod_greenfin_net", "modifier")
 
 E:add_comps(tt, "render")
 
-tt.main_script.insert = scripts.mod_stun.insert
-tt.main_script.update = scripts.mod_stun.update
-tt.main_script.remove = scripts.mod_stun.remove
+tt.main_script.insert = kr2_scripts.mod_stun.insert
+tt.main_script.update = kr2_scripts.mod_stun.update
+tt.main_script.remove = kr2_scripts.mod_stun.remove
 tt.modifier.duration = 6
 tt.modifier.duration_heroes = 1
 tt.modifier.animation_phases = true
@@ -497,8 +473,8 @@ tt.health.hp_max = 450
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 37)
 tt.info.portrait = "bottom_info_image_enemies_0020"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed_water.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed_water.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 14
 tt.melee.attacks[1].damage_min = 6
@@ -547,7 +523,7 @@ tt.health_bar.offset = v(0, 39)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.fn = kr2_scripts.enemy_deviltide_shark.get_info
 tt.info.portrait = "bottom_info_image_enemies_0021"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_deviltide_shark.update
 tt.motion.max_speed = 84.48
 tt.payload = "enemy_deviltide"
@@ -660,8 +636,8 @@ tt.enemy.melee_slot = v(18, 0)
 tt.health.hp_max = 100
 tt.health_bar.offset = v(0, 79)
 tt.info.portrait = "bottom_info_image_enemies_0013"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_passive.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_passive.update
 tt.motion.max_speed = 1.6640000000000001 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].prefix = "enemy_razorwing"
@@ -695,7 +671,7 @@ tt.health.hp_max = 500
 tt.health_bar.offset = v(0, 97)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0014"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_quetzal.update
 tt.motion.max_speed = 2.56 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
@@ -724,7 +700,7 @@ tt = E:register_t("quetzal_egg", "decal_scripted")
 
 E:add_comps(tt, "render", "spawner", "tween")
 
-tt.main_script.update = scripts.enemies_spawner.update
+tt.main_script.update = kr2_scripts.enemies_spawner.update
 tt.render.sprites[1].anchor.y = 0.18
 tt.render.sprites[1].prefix = "quetzal_egg"
 tt.render.sprites[1].loop = false
@@ -763,8 +739,8 @@ tt.health.hp_max = 300
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 36)
 tt.info.portrait = "bottom_info_image_enemies_0008"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed_cliff.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed_cliff.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 22
 tt.melee.attacks[1].damage_min = 8
@@ -792,8 +768,8 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 50)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0011"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 34
 tt.melee.attacks[1].damage_min = 16
@@ -818,7 +794,7 @@ tt.unit.mod_offset = v(0, 17)
 
 tt = E:register_t("mod_myrmidon_lifesteal", "modifier")
 tt.heal_hp = 125
-tt.main_script.insert = scripts.mod_simple_lifesteal.insert
+tt.main_script.insert = kr2_scripts.mod_simple_lifesteal.insert
 
 tt = E:register_t("enemy_blazefang", "enemy_KR5")
 
@@ -837,8 +813,8 @@ tt.health.magic_armor = 0.7
 tt.health_bar.offset = v(0, 48.4)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0017"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 22
 tt.melee.attacks[1].damage_min = 18
@@ -926,7 +902,7 @@ tt.health.hp_max = 350
 tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, 35.52)
 tt.info.portrait = "bottom_info_image_enemies_0012"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_nightscale.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 42
@@ -960,7 +936,7 @@ tt.health.hp_max = 250
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 32)
 tt.info.portrait = "bottom_info_image_enemies_0009"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_darter.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 22
@@ -1003,8 +979,8 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 61)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0010"
-tt.main_script.insert = scripts.enemy_basic.insert
-tt.main_script.update = scripts.enemy_mixed.update
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
+tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 120
 tt.melee.attacks[1].damage_min = 60
@@ -1050,7 +1026,7 @@ tt.health.hp_max = 1000
 tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, 34)
 tt.info.portrait = "bottom_info_image_enemies_0015"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_savant.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 66
@@ -1137,7 +1113,7 @@ tt.sound_events.loop = "SaurianSavantPortalLoop"
 
 tt = E:register_t("savant_ray", "bullet")
 tt.image_width = 121
-tt.main_script.update = scripts.ray_enemy.update
+tt.main_script.update = kr2_scripts.ray_enemy.update
 tt.render.sprites[1].name = "savant_ray"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
@@ -1162,7 +1138,7 @@ tt.health_bar.offset = v(0, 82)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
 tt.info.portrait = "bottom_info_image_enemies_0019"
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_saurian_king.update
 tt.motion.max_speed = 1.7919999999999998 * FPS
 tt.render.sprites[1] = E:clone_c("sprite")
@@ -1263,7 +1239,7 @@ tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
 tt.info.portrait = "bottom_info_image_enemies_0019"
 -- tt.info.enc_icon = 60
-tt.main_script.insert = scripts.enemy_basic.insert
+tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.eb_saurian_king.update
 tt.motion.max_speed = 1.7919999999999998 * FPS
 tt.render.sprites[1] = E:clone_c("sprite")
