@@ -137,7 +137,6 @@ animations：类型table或string。表示按顺序播放的动画表，格式�
 	},
 	...-- 可播放多个动画。
 }-- 注：不能在中途出现 nil。
-animations_times：类型table。表示索引所对应的动画播放次数表，格式：
 facing_point：类型vector。表示目标点。用于根据朝目标点的角度确定播放的动画。
 ignore_flip_x：类型boolean。表示是否禁止镜像。
 sounds：类型table。表示播放索引所对应的动画播放的声音，格式：

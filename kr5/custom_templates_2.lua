@@ -1111,7 +1111,7 @@ tt.tween.props[1].keys = {
 local tt = RT("chaser_jump_effect", "decal_tween")
 
 tt.render.sprites[1].name = "chaser_jump_effect"
-		tt.render.sprites[1].animated = false
+tt.render.sprites[1].animated = false
 tt.tween.props[1].name = "scale"
 tt.tween.props[1].keys = {
 	{

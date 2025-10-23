@@ -26,32 +26,6 @@ local function fts(v)
 	return v / FPS
 end
 
-local fx_and_decal = E:register_c("fx_and_decal")
-fx_and_decal.hit_fx = nil
-fx_and_decal.hit_fx_offset = v(0, 0)
-fx_and_decal.hit_fx_flip = false
-fx_and_decal.hit_fx_water = nil
-fx_and_decal.hit_fx_water_offset = v(0, 0)
-fx_and_decal.hit_fx_water_flip = false
-fx_and_decal.hit_decal = nil
-fx_and_decal.hit_decal_offset = v(0, 0)
-fx_and_decal.hit_decal_flip = false
-fx_and_decal.hit_decal_water = nil
-fx_and_decal.hit_decal_water_offset = v(0, 0)
-fx_and_decal.hit_decal_water_flip = false
-fx_and_decal.miss_fx = nil
-fx_and_decal.miss_fx_offset = v(0, 0)
-fx_and_decal.miss_fx_flip = false
-fx_and_decal.miss_fx_water = nil
-fx_and_decal.miss_fx_water_offset = v(0, 0)
-fx_and_decal.miss_fx_water_flip = false
-fx_and_decal.miss_decal = false
-fx_and_decal.miss_decal_offset = v(0, 0)
-fx_and_decal.miss_decal_flip = false
-fx_and_decal.miss_decal_water = nil
-fx_and_decal.miss_decal_water_offset = v(0, 0)
-fx_and_decal.miss_decal_water_flip = false
-
 local basic_skill_c = E:register_c("basic_skill_c")
 basic_skill_c.skill = nil
 basic_skill_c.level = 1
@@ -881,7 +855,7 @@ local timed_attacks = E:register_c("timed_attacks")
 
 timed_attacks.list = {}
 
-local jump_attack = E:register_c("jump_attack", "basic_skill_c", "fx_and_decal")
+local jump_attack = E:register_c("jump_attack", "basic_skill_c")
 jump_attack.skill = "jump_target"
 jump_attack.type = "jump"
 jump_attack.animations = {

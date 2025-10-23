@@ -1,7 +1,6 @@
-local lldebugger = nil
 if arg[2] == "debug" then
-	lldebugger = require("lldebugger")
-	lldebugger.start()
+	LLDEBUGGER = require("lldebugger")
+	LLDEBUGGER.start()
 end
 
 local dok, deval = pcall(require, "debug_eval")
@@ -937,6 +936,10 @@ function love.errhand(msg)
 			love.graphics.printf(p, pos, pos, love.graphics.getWidth() - pos)
 			love.graphics.present()
 		end
+	end
+
+	if LLDEBUGGER then
+		LLDEBUGGER.start()
 	end
 
 	while true do

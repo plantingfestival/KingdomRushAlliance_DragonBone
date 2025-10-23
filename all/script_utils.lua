@@ -5044,8 +5044,12 @@ end
 ---@param filter_fn? function 过滤函数
 ---@return table 范围内所有目标
 local function mixed_find_targets_in_range(store, this, a, min_range, max_range, origin, filter_fn)
-	filter_fn = filter_fn or get_attack_filter_function(a, this)
-	origin = origin or get_entity_range_origin(this)
+	if not filter_fn then
+		filter_fn = get_attack_filter_function(a, this)
+	end
+	if not origin then
+		origin = get_entity_range_origin(this)
+	end
 
 	local targets
 
@@ -5904,6 +5908,15 @@ local function entity_casts_jump_target(store, this, a)
 						end
 					elseif this.nav_rally then
 						this.nav_rally = V.vclone(to)
+						e.nav_rally.new = true
+						e.nav_rally.pos = v(to.x, to.y - 1)
+						e.nav_rally.center = v(to.x, to.y - 1)
+					end
+
+					if this.enemy then
+						U.unblock_all(store, e)
+					elseif this.soldier then
+						U.unblock_target(store, e)
 					end
 
 					y_entity_animation_wait(this)
