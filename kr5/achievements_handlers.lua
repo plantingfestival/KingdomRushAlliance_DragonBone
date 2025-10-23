@@ -815,15 +815,10 @@ function ah:h_head_stage27(entity)
 	self.A:got("SHUT_YOUR_MOUTH")
 end
 
-<<<<<<< HEAD
-function ah:h_kermit_stage417(entity)
-	self.A:got("KERMIT")
-=======
 function ah:h_saitam_dlc2(level)
 	local current_saitam = self.A:get_count("DLC2_SAITAM")
 
 	self.A:flag_check("DLC2_SAITAM", bit.bor(current_saitam, 2^level))
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 end
 
 return ah

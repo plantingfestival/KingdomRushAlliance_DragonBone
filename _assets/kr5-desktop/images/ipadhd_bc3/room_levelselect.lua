@@ -3230,20 +3230,12 @@ return {
 		},
 		alias = {}
 	},
-<<<<<<< HEAD
-	level_select_thumbs_thumb_stage_417_0001 = {
-		a_name = "room_levelselect_level_select_thumbs-417.dds",
-		size = {
-			2731,
-			1538
-=======
 	level_select_thumbs_thumb_stage_219_0001 = {
 		a_name = "room_levelselect_level_select_thumbs-219.dds",
 		defer = true,
 		size = {
 			2016,
 			1064
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 		},
 		trim = {
 			0,
@@ -3252,14 +3244,6 @@ return {
 			0
 		},
 		a_size = {
-<<<<<<< HEAD
-			2733,
-			1540
-		},
-		f_quad = {
-			1,
-			1,
-=======
 			2016,
 			1064
 		},
@@ -3341,7 +3325,6 @@ return {
 		f_quad = {
 			0,
 			0,
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 			2016,
 			1064
 		},

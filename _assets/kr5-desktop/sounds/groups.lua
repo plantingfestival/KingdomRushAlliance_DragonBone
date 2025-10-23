@@ -619,12 +619,6 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
-<<<<<<< HEAD
-	sounds_stage417 = {
-		sounds = {
-			"MusicBattlePrep_417",
-			"MusicBattle_417",
-=======
 	music_stage219 = {
 		sounds = {
 			"MusicBattlePrep_219",
@@ -652,7 +646,6 @@ return {
 			"MusicBattlePrep_222",
 			"MusicBattle_222",
 			"KR2_MusicBossFight"
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 		}
 	},
 	sounds_stage426 = {

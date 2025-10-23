@@ -4500,13 +4500,10 @@ return {
 	LEVEL_322_TITLE = "322. 污染矿坑",
 	LEVEL_417_HISTORY = "我们近日以来的胜利，似乎让所有人都自以为有能力来分一杯羹。古时生长在这片大陆上的阿努瑞人曾溃逃而去，之后又卷土重来。他们所控制的强力水晶，对我未来的计划有着至高无上的重要意义。去夺下这片土地，让他们知道自己永远不配活在光天化日之下！",
 	LEVEL_417_TITLE = "417. 玛吉尼西亚海岸",
-<<<<<<< HEAD
-=======
 	LEVEL_418_HISTORY = "看啊，将军！我方大军所向披靡，敌人就只有四散奔逃的份。只需击败本地的驻军，这片地盘就归我们所有了。不过请您务必当心，我感觉……这里散发出来的魔力有点不对劲。莫非这就是我所感知到的那股黑暗力量？如果我没猜错的话，那必须立即阻止他们，一刻都不能耽搁。",
 	LEVEL_418_TITLE = "418. 阿努瑞人广场",
 	LEVEL_419_HISTORY = "我担忧的事情终于发生了……贤者Polyx因沉迷于钻研禁忌奥秘，现已被腐朽侵蚀。难道他真以为自己能掌控黑暗力量，毫发无损地抽身而去？趁他未能影响这片土地，快去击败他和他的手下。绝不容许失败！",
 	LEVEL_419_TITLE = "419. 贤者池塘",
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 	LEVEL_426_HISTORY = "我就知道，这一刻终将到来。瓦拉杜勒的幽魂想让我付清之前欠他们的账。但它们开的价码太高了！我才不会把自己领土上一半的生灵交给它们呢！现在它们带着手下最强的生物来了，不过好在我事先也做了一些准备。",
 	LEVEL_426_TITLE = "426. 重返腐朽森林",
 	LEVEL_427_HISTORY = "将军，现在我们就要进入腐朽森林的深沼泽了。这里是瓦拉杜勒全境最危险的地方，但我们不得不走这条路。因为一旦绕过这里，聚集起来的敌人就有可能趁我军向北进军之际，从后方袭击我军。请务必当心沼泽地里那些实力强劲的不死生物。",
@@ -4789,35 +4786,6 @@ return {
 	ENEMY_HAUNTED_SKELETON_NAME = "鬼缠骷髅",
 	ENEMY_LICH_NAME = "巫妖",
 	ENEMY_ANURIAN_CHASER_NAME = "阿努瑞追猎者",
-<<<<<<< HEAD
-	ENEMY_ANURIAN_CHASER_NOTIFICATION_BOTTOM = "- 能跳进一片单位中\n- 速度快",
-	ENEMY_ANURIAN_CHASER_NOTIFICATION_DESCRIPTION = "这些猎人身手敏捷，腿脚强健，能跃过敌人头顶，制造毁灭性伤害。",
-	ENEMY_ANURIAN_CHASER_NOTIFICATION_TITLE = "阿努瑞追猎者",
-	ENEMY_ANURIAN_INFUSER_NAME = "阿努瑞注魔师",
-	ENEMY_ANURIAN_INFUSER_NOTIFICATION_BOTTOM = "- 给盟友注魔\n- 中等魔法抗性",
-	ENEMY_ANURIAN_INFUSER_NOTIFICATION_DESCRIPTION = "阿努瑞奇术学徒。能给盟友注魔，造成强力影响。",
-	ENEMY_ANURIAN_INFUSER_NOTIFICATION_TITLE = "阿努瑞注魔师",
-	ENEMY_ANURIAN_WARDEN_NAME = "阿努瑞看守者",
-	ENEMY_ANURIAN_WARDEN_NOTIFICATION_BOTTOM = "- 注魔后可形成护盾\n- 中等护甲",
-	ENEMY_ANURIAN_WARDEN_NOTIFICATION_DESCRIPTION = "为保护教团法师而苦练终生的勇士。凶狠残暴，适应力强，会不计一切代价地阻止外敌入侵。",
-	ENEMY_ANURIAN_WARDEN_NOTIFICATION_TITLE = "阿努瑞看守者",
-	ENEMY_CRYSTAL_AMPHIPTERE_NAME = "水晶翼蛇龙",
-	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_BOTTOM = "- 注魔后速度暴增\n- 飞行单位",
-	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_DESCRIPTION = "经过进化的魔龙，可与水晶相融合。易受魔力影响，飞行时能运用魔法能量达到巅峰速度。",
-	ENEMY_CRYSTAL_AMPHIPTERE_NOTIFICATION_TITLE = "水晶翼蛇龙",
-	ENEMY_ANURIAN_CHANNELER_NAME = "阿努瑞通灵师",
-	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_BOTTOM = "- 能增强周围盟友的实力\n- 中等魔法抗性",
-	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_DESCRIPTION = "阿努瑞奇术学徒。能制造出一层强力魔法光晕，照耀附近的盟友，增强他们的实力。",
-	ENEMY_ANURIAN_CHANNELER_NOTIFICATION_TITLE = "阿努瑞通灵师",
-	ENEMY_ANURIAN_ERUDITE_NAME = "阿努瑞博学者",
-	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_BOTTOM = "- 靠近通灵者时可增加伤害\n- 能囤积魔法箭\n- 魔法抗性高",
-	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_DESCRIPTION = "这些阿努瑞人知识浩瀚，睿智绝伦，需要大量魔力储备，并吸取其他学徒的能力，以便施放强力咒术。",
-	ENEMY_ANURIAN_ERUDITE_NOTIFICATION_TITLE = "阿努瑞博学者",
-	ENEMY_CRYSTAL_DEMOLISHER_NAME = "水晶毁灭者",
-	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_BOTTOM = "- 靠近通灵者时可增加护甲\n- 死亡时会造成范围伤害\n- 速度很慢",
-	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_DESCRIPTION = "通体以魔法水晶制成的傀儡，一旦汇聚起足够的魔力，便有毁天灭地之能，所到之处威不可当。",
-	ENEMY_CRYSTAL_DEMOLISHER_NOTIFICATION_TITLE = "水晶毁灭者",
-=======
 	ENEMY_ANURIAN_INFUSER_NAME = "阿努瑞注魔师",
 	ENEMY_ANURIAN_WARDEN_NAME = "阿努瑞看守者",
 	ENEMY_CRYSTAL_AMPHIPTERE_NAME = "水晶翼蛇龙",
@@ -4825,5 +4793,4 @@ return {
 	ENEMY_ANURIAN_ERUDITE_NAME = "阿努瑞博学者",
 	ENEMY_CRYSTAL_DEMOLISHER_NAME = "水晶毁灭者",
 
->>>>>>> 1bae987e9f96d24fc57d87449fd1e312ca6d1d6d
 }
