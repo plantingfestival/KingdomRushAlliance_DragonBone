@@ -888,6 +888,15 @@ return {
 			"MusicBossFight.ogg"
 		}
 	},
+	MusicBattlePrep_113 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsMountain.ogg"
+		}
+	},
 	MusicBattlePrep_114 = {
 		stream = true,
 		gain = 0.8,
@@ -1003,6 +1012,15 @@ return {
 		source_group = "MUSIC",
 		files = {
 			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattle_113 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackMountain.ogg"
 		}
 	},
 	MusicBattle_114 = {

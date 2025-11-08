@@ -8104,37 +8104,37 @@ local a = {
 	},
 	decal_s13_relic_book_idle = {
 		to = 1,
-		prefix = "stage13_book",
+		prefix = "stage113_book",
 		from = 1
 	},
 	decal_s13_relic_book_play = {
 		to = 18,
-		prefix = "stage13_book",
+		prefix = "stage113_book",
 		from = 1
 	},
 	decal_s13_relic_book_clicked = {
 		to = 38,
-		prefix = "stage13_book",
+		prefix = "stage113_book",
 		from = 19
 	},
 	decal_s13_relic_broom_idle = {
 		to = 1,
-		prefix = "stage13_broom",
+		prefix = "stage113_broom",
 		from = 1
 	},
 	decal_s13_relic_broom_clicked = {
 		to = 80,
-		prefix = "stage13_broom",
+		prefix = "stage113_broom",
 		from = 2
 	},
 	decal_s13_relic_hat_idle = {
 		to = 1,
-		prefix = "stage13_hat",
+		prefix = "stage113_hat",
 		from = 1
 	},
 	decal_s13_relic_hat_clicked = {
 		to = 32,
-		prefix = "stage13_hat",
+		prefix = "stage113_hat",
 		from = 2
 	},
 	babyBeresad_idle = {

@@ -7396,37 +7396,37 @@ return {
 			"kra_sfx_easterEgg_weirderThings_enterChars_tap2_v1.ogg"
 		}
 	},
-	Stage13DarkRayTowerRepair = {
+	stage113DarkRayTowerRepair = {
 		loop = false,
 		gain = 1,
 		source_group = "SFX",
 		files = {
-			"kra_sfx_stage13_darkRayTower_repair_v1.ogg"
+			"kra_sfx_stage113_darkRayTower_repair_v1.ogg"
 		}
 	},
-	Stage13DarkRayAttack = {
+	stage113DarkRayAttack = {
 		loop = false,
 		gain = 1,
 		source_group = "SFX",
 		files = {
-			"kra_sfx_stage13_darkRayTower_attack_op2_v1.ogg"
+			"kra_sfx_stage113_darkRayTower_attack_op2_v1.ogg"
 		}
 	},
-	Stage13DarkRaySpecialAttack = {
+	stage113DarkRaySpecialAttack = {
 		loop = false,
 		gain = 1,
 		source_group = "SFX",
 		files = {
-			"kra_sfx_stage13_darkRayTower_specialAttack_v1.ogg"
+			"kra_sfx_stage113_darkRayTower_specialAttack_v1.ogg"
 		}
 	},
-	Stage13DarkRayDestroy = {
+	stage113DarkRayDestroy = {
 		loop = false,
 		gain = 0.8,
 		source_group = "SFX",
 		delay = 0.3,
 		files = {
-			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg"
+			"kra_sfx_stage113_darkRayTower_destroy_v1.ogg"
 		}
 	},
 	Stage14NewPath = {

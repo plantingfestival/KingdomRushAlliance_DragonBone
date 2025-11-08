@@ -6399,10 +6399,10 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 100, 80
-tt.enemy.gold = 120
-tt.enemy.lives_cost = 5
+tt.enemy.gold = 100
+tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = 3000
+tt.health.hp_max = 2800
 tt.health_bar.offset = v(0, 56)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_YETI"
@@ -6411,8 +6411,8 @@ tt.info.portrait = "bottom_info_image_enemies_0107"
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2.5
 tt.melee.attacks[1].count = 10
-tt.melee.attacks[1].damage_max = 160
-tt.melee.attacks[1].damage_min = 80
+tt.melee.attacks[1].damage_max = 140
+tt.melee.attacks[1].damage_min = 70
 tt.melee.attacks[1].damage_radius = 50
 tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
 tt.melee.attacks[1].hit_decal = "decal_ground_hit"
@@ -6994,17 +6994,17 @@ image_x, image_y = 108, 84
 tt.enemy.gold = 100
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = 2500
+tt.health.hp_max = 10000
 tt.health_bar.offset = v(0, 62)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0037"
 tt.info.i18n_key = "ENEMY_LAVA_ELEMENTAL"
 tt.info.enc_icon = 30
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 2.5
+tt.melee.attacks[1].cooldown = 2
 tt.melee.attacks[1].count = 10
-tt.melee.attacks[1].damage_max = 150
-tt.melee.attacks[1].damage_min = 50
+tt.melee.attacks[1].damage_max = 350
+tt.melee.attacks[1].damage_min = 150
 tt.melee.attacks[1].damage_radius = 50
 tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
 tt.melee.attacks[1].hit_decal = "decal_ground_hit"
@@ -7030,14 +7030,15 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 96, 68
-tt.enemy.gold = 80
+tt.enemy.gold = 100
+tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(35, 0)
 tt.health.armor = 0.7
-tt.health.hp_max = 1250
+tt.health.hp_max = 1800
 tt.health.magic_armor = 0.7
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, 51)
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0058" or "info_portraits_sc_0058"
+tt.info.portrait = "bottom_info_image_enemies_0108"
 tt.info.i18n_key = "ENEMY_SARELGAZ_SMALL"
 tt.info.enc_icon = 31
 tt.melee.attacks[1].cooldown = 1
@@ -7048,6 +7049,7 @@ tt.melee.attacks[1].sound = "SpiderAttack"
 tt.motion.max_speed = 0.8 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.19)
 tt.render.sprites[1].prefix = "enemy_sarelgaz_small"
+tt.render.sprites[1].scale = vv(1.5)
 tt.sound_events.death = "DeathEplosion"
 tt.ui.click_rect.size = v(54, 50)
 tt.ui.click_rect.pos.x = -27
@@ -7962,7 +7964,7 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 20
 tt.enemy.melee_slot = v(55, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = 11000
+tt.health.hp_max = 110000
 tt.health.on_damage = kr1_scripts.eb_jt.on_damage
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.offset = v(0, ady(172))
@@ -8000,8 +8002,8 @@ tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2
 tt.melee.attacks[1].count = 5
-tt.melee.attacks[1].damage_max = 200
-tt.melee.attacks[1].damage_min = 150
+tt.melee.attacks[1].damage_max = 9999
+tt.melee.attacks[1].damage_min = 9999
 tt.melee.attacks[1].damage_radius = 45
 tt.melee.attacks[1].damage_type = DAMAGE_EAT
 tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
@@ -8038,9 +8040,9 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 20
 tt.enemy.melee_slot = v(20, 0)
 tt.health.hp_max = {
-	5333,
-	6666,
-	7999
+	533333,
+	666666,
+	799999
 }
 tt.health.on_damage = kr1_scripts.eb_veznan.on_damage
 tt.health.ignore_damage = true
@@ -8104,7 +8106,7 @@ tt.taunts.sets.pre_battle.format = "VEZNAN_TAUNT_%04d"
 tt.taunts.sets.pre_battle.start_idx = 30
 tt.taunts.sets.pre_battle.end_idx = 30
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].count = 8
 tt.melee.attacks[1].damage_min = 666
 tt.melee.attacks[1].damage_max = 999
@@ -8115,7 +8117,7 @@ tt.melee.attacks[1].hit_time = fts(17)
 tt.melee.attacks[1].hit_decal = "decal_veznan_strike"
 tt.melee.attacks[1].sound_hit = "VeznanAttack"
 tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
-tt.melee.attacks[2].cooldown = 2.5
+tt.melee.attacks[2].cooldown = 1
 tt.melee.attacks[2].damage_type = DAMAGE_PHYSICAL
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].hit_decal = nil
@@ -8124,14 +8126,15 @@ tt.melee.attacks[2].hit_fx_offset = v(20, 9)
 tt.melee.attacks[2].hit_fx_once = true
 tt.melee.attacks[2].hit_fx_flip = true
 tt.melee.attacks[2].hit_times = {
+	fts(10),
+	fts(14),
+	fts(18),
 	fts(20),
+	fts(22),
 	fts(24),
+	fts(26),
 	fts(28),
-	fts(32),
-	fts(36),
-	fts(38),
-	fts(42),
-	fts(44)
+	fts(30)
 }
 tt.melee.attacks[2].hit_offset = v(40, 0)
 tt.melee.attacks[2].sound_hit = nil
@@ -8283,6 +8286,7 @@ tt.demon.health_bar_scale = 1.8
 tt.demon.melee_slot = v(50, 0)
 tt.demon.speed = 0.6 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
+tt.demon.sprites_scale = vv(5)
 tt.demon.transform_sound = "VeznanToDemon"
 tt.demon.ui_click_rect = r(-25, -5, 50, 110)
 tt.demon.unit_hit_offset = v(0, 55)
@@ -8296,28 +8300,31 @@ AC(tt, "melee")
 anchor_x, anchor_y = 0.5, 0.1484375
 image_x, image_y = 220, 128
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(80, 0)
 tt.health.dead_lifetime = 8
-tt.health.hp_max = 48000
+tt.health.magic_armor = 0.9
+tt.health.hp_max = 540000
+tt.health.armor = 0.9
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.offset = v(0, 108)
 tt.info.i18n_key = "ENEMY_SARELGAZ"
 tt.info.enc_icon = 35
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0057" or "info_portraits_sc_0057"
+tt.info.portrait = "bottom_info_image_enemies_0109"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_mixed.update
+tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 999
-tt.melee.attacks[1].damage_min = 999
+tt.melee.attacks[1].damage_max = 9999
+tt.melee.attacks[1].damage_min = 9999
 tt.melee.attacks[1].hit_time = fts(15)
 tt.melee.attacks[1].damage_type = DAMAGE_EAT
-tt.melee.attacks[1].damage_radius = 80
+tt.melee.attacks[1].damage_radius = 200
 tt.melee.attacks[1].sound = "SpiderAttack"
-tt.motion.max_speed = 0.4 * FPS
+tt.motion.max_speed = 0.1 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "eb_sarelgaz"
-tt.render.sprites[1].scale = vv(3)
+tt.render.sprites[1].scale = vv(5)
 tt.render.sprites[1].angles_stickiness = {
 	walk = 10
 }

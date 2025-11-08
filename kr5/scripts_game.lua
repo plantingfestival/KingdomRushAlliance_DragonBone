@@ -72278,7 +72278,7 @@ function scripts.mod_tower_stage_13_sunray_special.remove(this, store)
 			tower.total_enemies_killed = tower.total_enemies_killed + 1
 
 			if tower.total_enemies_killed >= 10 then
-				signal.emit("sunray_kills-stage13", this)
+				signal.emit("sunray_kills-stage113", this)
 			end
 		end
 	end

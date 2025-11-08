@@ -436,7 +436,7 @@ return {
 			"MusicBattle_12"
 		}
 	},
-	music_stage13 = {
+	music_stage113 = {
 		sounds = {
 			"MusicBattlePrep_13",
 			"MusicBattle_13"
@@ -592,6 +592,13 @@ return {
 		sounds = {
 			"MusicBattlePrep_82",
 			"MusicBattle_82"
+		}
+	},
+	music_stage113 = {
+		sounds = {
+			"MusicBattlePrep_113",
+			"MusicBattle_113",
+			"KR1_MusicBossFight"
 		}
 	},
 	music_stage114 = {
@@ -2359,10 +2366,10 @@ return {
 			"kra_sfx_enemy_sheep_death_var1_v1.ogg",
 			"kra_sfx_enemy_sheep_death_var2_v1.ogg",
 			"kra_sfx_enemy_sheep_death_var3_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_repair_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_attack_op2_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_specialAttack_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_repair_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_attack_op2_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_specialAttack_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_destroy_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"
@@ -3111,10 +3118,10 @@ return {
 	},
 	stage_13 = {
 		files = {
-			"kra_sfx_stage13_darkRayTower_repair_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_attack_op2_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_specialAttack_v1.ogg",
-			"kra_sfx_stage13_darkRayTower_destroy_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_repair_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_attack_op2_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_specialAttack_v1.ogg",
+			"kra_sfx_stage113_darkRayTower_destroy_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var1_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var2_v1.ogg",
 			"kra_sfx_tower_arcaneWizard_basicAttack_var3_v1.ogg"

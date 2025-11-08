@@ -784,7 +784,7 @@ return {
 	},
 	fx_stage14_cave_clouds = {
 		to = 20,
-		prefix = "Stage13_TunnelOpen",
+		prefix = "stage113_TunnelOpen",
 		from = 1
 	},
 	bluegale_lightning_idle = {
@@ -6925,7 +6925,7 @@ return {
 	},
 	fx_stage14_cave_rocks = {
 		to = 33,
-		prefix = "Stage13_TunnelOpen_Stones",
+		prefix = "stage113_TunnelOpen_Stones",
 		from = 2
 	},
 	eb_saurian_king_idle = {
