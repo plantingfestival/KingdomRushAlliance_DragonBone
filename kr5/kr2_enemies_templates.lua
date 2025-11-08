@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\kr2_enemies_templates.lua
+
 local bit = require("bit")
 local bor = bit.bor
 local band = bit.band
@@ -5,7 +7,6 @@ local bnot = bit.bnot
 local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
@@ -144,7 +145,6 @@ mod_blacksurge.render.sprites[1].prefix = "blacksurge_curse"
 mod_blacksurge.render.sprites[1].name = "start"
 mod_blacksurge.render.sprites[1].anchor.y = 0.24
 mod_blacksurge.render.sprites[1].draw_order = 10
-
 tt = E:register_t("enemy_bloodshell", "enemy_KR5")
 
 E:add_comps(tt, "melee", "water")
@@ -207,7 +207,6 @@ mod_bluegale_heal.hps.heal_max = 15
 mod_bluegale_heal.hps.heal_every = 1
 mod_bluegale_heal.main_script.insert = kr2_scripts.mod_hps.insert
 mod_bluegale_heal.main_script.update = kr2_scripts.mod_hps.update
-
 tt = E:register_t("ray_bluegale", "bullet")
 tt.image_width = 120
 tt.main_script.update = kr2_scripts.ray_enemy.update
@@ -220,7 +219,6 @@ tt.bullet.damage_max = 45
 tt.bullet.max_track_distance = 50
 tt.bullet.hit_time = fts(5)
 tt.sound_events.insert = "SaurianSavantAttack"
-
 tt = E:register_t("bluegale_clouds_aura", "aura")
 
 E:add_comps(tt, "sound_events")
@@ -232,7 +230,6 @@ tt.clouds_min_radius = 35
 tt.clouds_max_radius = 55
 tt.clouds_count = 6
 tt.sound_events.insert = "RTBluegaleStormSummon"
-
 tt = E:register_t("decal_bluegale_cloud_dark", "decal_tween")
 
 E:add_comps(tt, "ui")
@@ -261,7 +258,6 @@ tt.tween.props[2].loop = true
 tt.render.sprites[1].name = "Bluegale_stormCloud_0002"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_SKY
-
 tt = E:register_t("decal_bluegale_cloud_bright", "decal_tween")
 tt.tween.remove = true
 tt.tween.props[1].name = "alpha"
@@ -288,14 +284,12 @@ tt.tween.props[3].name = "hidden"
 tt.render.sprites[1].name = "Bluegale_stormCloud_0001"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_SKY
-
 tt = E:register_t("decal_bluegale_cloud_shadow", "decal_tween")
 tt.tween.remove = true
 tt.tween.props[1].name = "alpha"
 tt.render.sprites[1].name = "atomicBomb_shadow"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_SKY
-
 tt = E:register_t("bluegale_heal_aura", "aura")
 tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
 tt.main_script.update = kr2_scripts.aura_apply_mod.update
@@ -305,7 +299,6 @@ tt.aura.vis_flags = F_MOD
 tt.aura.cycle_time = 1
 tt.aura.duration = 10
 tt.aura.radius = 50
-
 tt = E:register_t("bluegale_damage_aura", "aura")
 tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
 tt.main_script.update = kr2_scripts.aura_apply_mod.update
@@ -315,7 +308,6 @@ tt.aura.vis_flags = F_MOD
 tt.aura.cycle_time = 1
 tt.aura.duration = 10
 tt.aura.radius = 50
-
 tt = E:register_t("enemy_bluegale", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged", "timed_attacks", "water")
@@ -375,7 +367,6 @@ tt.timed_attacks.list[1].node_random_max = 30
 tt.timed_attacks.list[1].node_random_min = 15
 tt.timed_attacks.list[1].nodes_limit = 40
 tt.timed_attacks.list[1].shoot_time = fts(14)
-
 tt = E:register_t("enemy_redspine", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged", "water")
@@ -421,7 +412,6 @@ tt.water.hit_offset = v(0, 5)
 tt.water.mod_offset = v(0, 12)
 tt.water.speed_factor = 1.5
 tt.water.splash_fx = "fx_enemy_splash_crocs"
-
 tt = E:register_t("harpoon_redspine", "arrow")
 tt.render.sprites[1].name = "Redspine_spear"
 tt.render.sprites[1].animated = false
@@ -430,7 +420,6 @@ tt.bullet.damage_max = 130
 tt.bullet.flight_time = fts(10)
 tt.bullet.miss_decal = "Redspine_spear_decal"
 tt.bullet.pop = nil
-
 tt = E:register_t("mod_greenfin_net", "modifier")
 
 E:add_comps(tt, "render")
@@ -459,7 +448,6 @@ tt.modifier.custom_offsets = {}
 tt.modifier.custom_offsets.default = v(0, 28)
 tt.modifier.custom_offsets.soldier_death_rider = v(5, 31)
 tt.modifier.custom_offsets.soldier_frankenstein = v(0, 31)
-
 tt = E:register_t("enemy_greenfin", "enemy_KR5")
 
 E:add_comps(tt, "melee", "water")
@@ -498,7 +486,6 @@ tt.water.hit_offset = v(0, 5)
 tt.water.mod_offset = v(2, 10)
 tt.water.speed_factor = 1.2
 tt.water.splash_fx = "fx_enemy_splash_crocs"
-
 tt = E:register_t("enemy_deviltide", "enemy_greenfin")
 tt.enemy.gold = 20
 tt.health.armor = 0.5
@@ -511,7 +498,6 @@ tt.motion.max_speed = 49.92
 tt.render.sprites[1].prefix = "enemy_deviltide"
 tt.sound_events.water_splash = "SpecialMermaid"
 tt.water.speed_factor = 1.15
-
 tt = E:register_t("enemy_deviltide_shark", "enemy_KR5")
 anchor_y = 0.19230769230769232
 image_y = 104
@@ -539,7 +525,6 @@ tt.unit.mod_offset = v(0, 15)
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.bans = bor(F_BLOCK, F_SKELETON)
 tt.vis.flags = bor(tt.vis.flags, F_WATER)
-
 tt = E:register_t("enemy_sniper", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged")
@@ -612,7 +597,6 @@ tt.ranged.attacks[1].bullet_start_offset = {
 	v(10, 27),
 	v(8, 3)
 }
-
 tt = E:register_t("bolt_sniper", "bolt_enemy")
 tt.render.sprites[1].prefix = "bolt_sniper"
 tt.bullet.align_with_trajectory = true
@@ -622,7 +606,6 @@ tt.bullet.max_speed = 30 * FPS
 tt.bullet.damage_type = DAMAGE_PHYSICAL
 tt.bullet.max_track_distance = 50
 tt.sound_events.insert = "SaurianSniperBullet"
-
 tt = E:register_t("enemy_razorwing", "enemy_KR5")
 
 E:add_comps(tt, "cliff")
@@ -658,7 +641,6 @@ tt.unit.mod_offset = v(0, 56)
 tt.unit.show_blood_pool = false
 tt.vis.bans = bor(F_BLOCK, F_SKELETON, F_EAT)
 tt.vis.flags = bor(tt.vis.flags, F_FLYING)
-
 tt = E:register_t("enemy_quetzal", "enemy_KR5")
 
 E:add_comps(tt, "timed_attacks")
@@ -695,7 +677,6 @@ tt.unit.mod_offset = v(0, 70)
 tt.unit.show_blood_pool = false
 tt.vis.bans = bor(F_BLOCK, F_SKELETON, F_EAT)
 tt.vis.flags = bor(tt.vis.flags, F_FLYING)
-
 tt = E:register_t("quetzal_egg", "decal_scripted")
 
 E:add_comps(tt, "render", "spawner", "tween")
@@ -723,7 +704,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("enemy_broodguard", "enemy_KR5")
 
 E:add_comps(tt, "melee", "cliff", "auras")
@@ -753,7 +733,6 @@ tt.unit.hit_offset = v(0, 16)
 tt.unit.marker_offset = v(0, 1)
 tt.unit.mod_offset = v(0, 12)
 tt.damage_sprint_factor = 0.78125
-
 tt = E:register_t("enemy_myrmidon", "enemy_KR5")
 
 E:add_comps(tt, "melee")
@@ -791,11 +770,9 @@ tt.unit.blood_color = BLOOD_VIOLET
 tt.unit.hit_offset = v(0, 18)
 tt.unit.marker_offset = v(0, -1)
 tt.unit.mod_offset = v(0, 17)
-
 tt = E:register_t("mod_myrmidon_lifesteal", "modifier")
 tt.heal_hp = 125
 tt.main_script.insert = kr2_scripts.mod_simple_lifesteal.insert
-
 tt = E:register_t("enemy_blazefang", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged", "death_spawns")
@@ -862,7 +839,6 @@ tt.unit.can_explode = false
 tt.unit.hit_offset = v(0, 18)
 tt.unit.marker_offset = v(0, -1.6)
 tt.unit.mod_offset = v(0, 18.4)
-
 tt = E:register_t("blazefang_explosion", "bullet")
 tt.render = nil
 tt.sound_events = nil
@@ -870,7 +846,6 @@ tt.main_script.update = kr2_scripts.blazefang_explosion.update
 tt.bullet.damage_min = 100
 tt.bullet.damage_max = 100
 tt.bullet.damage_radius = 76.8
-
 tt = E:register_t("bolt_blazefang", "bolt_enemy")
 tt.render.sprites[1].prefix = "bolt_blazefang"
 tt.render.sprites[1].anchor = v(0.53, 0.58)
@@ -883,13 +858,10 @@ tt.bullet.damage_type = DAMAGE_PHYSICAL
 tt.bullet.hit_fx = "fx_bolt_blazefang_hit"
 tt.bullet.max_track_distance = 50
 tt.sound_events.insert = "SaurianBlazefangAttack"
-
 tt = E:register_t("bolt_blazefang_instakill", "bolt_blazefang")
 tt.bullet.damage_type = bor(DAMAGE_DISINTEGRATE, DAMAGE_INSTAKILL)
-
 tt = E:register_t("fx_bolt_blazefang_hit", "fx")
 tt.render.sprites[1].name = "bolt_blazefang_hit"
-
 tt = E:register_t("enemy_nightscale", "enemy_KR5")
 
 E:add_comps(tt, "melee", "cliff")
@@ -923,7 +895,6 @@ tt.hidden.duration = 8
 tt.hidden.max_times = 1
 tt.hidden.nodeslimit = 25
 tt.hidden.ts = 0
-
 tt = E:register_t("enemy_darter", "enemy_KR5")
 
 E:add_comps(tt, "melee", "cliff")
@@ -960,20 +931,18 @@ tt.blink.nodes_offset_max = 25
 tt.blink.travel_time = fts(11)
 tt.blink.fx = "fx_darter_blink"
 tt.blink.ts = 0
-
 tt = E:register_t("fx_darter_blink", "fx")
 tt.render.sprites[1].name = "darter_blink"
 tt.render.sprites[1].anchor.y = 0.22
-
 tt = E:register_t("enemy_brute", "enemy_KR5")
 
 E:add_comps(tt, "melee")
 
 anchor_y = 0.16
-tt.enemy.gold = 200
+tt.enemy.gold = 250
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(29, 0)
-tt.health.armor = 0
+tt.health.armor = 0.5
 tt.health.hp_max = 4400
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 61)
@@ -984,7 +953,7 @@ tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 120
 tt.melee.attacks[1].damage_min = 60
-tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.attacks[1].dodge_time = fts(6)
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].sound_hit = "SaurianBruteAttack"
@@ -994,7 +963,7 @@ tt.melee.attacks[2].cooldown = 13.333333333333334
 tt.melee.attacks[2].damage_max = 120
 tt.melee.attacks[2].damage_min = 80
 tt.melee.attacks[2].damage_radius = 38.4
-tt.melee.attacks[2].damage_type = DAMAGE_ELECTRICAL
+tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].hit_offset = v(30, 0)
 tt.melee.attacks[2].hit_times = {
 	fts(10),
@@ -1005,6 +974,7 @@ tt.melee.attacks[2].sound_hit = "SaurianBruteAttack"
 tt.motion.max_speed = 0.768 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].prefix = "enemy_brute"
+tt.render.sprites[1].scale = vv(1.1)
 tt.sound_events.death = "DeathBig"
 tt.ui.click_rect = r(-25, -10, 50, 65)
 tt.unit.blood_color = BLOOD_VIOLET
@@ -1013,7 +983,7 @@ tt.unit.hit_offset = v(0, 18)
 tt.unit.marker_offset = v(0, 1)
 tt.unit.mod_offset = v(0, 16)
 tt.unit.size = UNIT_SIZE_MEDIUM
-
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = E:register_t("enemy_savant", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
@@ -1062,7 +1032,6 @@ tt.unit.hit_offset = v(0, 14)
 tt.unit.marker_offset = v(0, -2)
 tt.unit.mod_offset = v(0, 11)
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
-
 tt = E:register_t("savant_portal", "decal_scripted")
 
 E:add_comps(tt, "render", "spawner", "sound_events")
@@ -1110,7 +1079,6 @@ tt.portal.finished = false
 tt.sound_events.insert = "SaurianSavantOpenPortal"
 tt.sound_events.spawn = "SaurianSavantTeleporth"
 tt.sound_events.loop = "SaurianSavantPortalLoop"
-
 tt = E:register_t("savant_ray", "bullet")
 tt.image_width = 121
 tt.main_script.update = kr2_scripts.ray_enemy.update
@@ -1123,9 +1091,10 @@ tt.bullet.damage_max = 160
 tt.bullet.hit_time = fts(3)
 tt.bullet.max_track_distance = 50
 tt.sound_events.insert = "SaurianSavantAttack"
-
 tt = E:register_t("enemy_saurian_king", "enemy_KR5")
+
 E:add_comps(tt, "melee", "timed_attacks")
+
 image_y = 120
 anchor_y = 0.16666666666666666
 tt.enemy.gold = 250
@@ -1133,7 +1102,7 @@ tt.enemy.lives_cost = 20
 tt.enemy.melee_slot = v(25, 0)
 tt.health.armor = 0.5
 tt.health.dead_lifetime = fts(200)
-tt.health.hp_max = 5500
+tt.health.hp_max = 6500
 tt.health_bar.offset = v(0, 82)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
@@ -1211,11 +1180,9 @@ tt.timed_attacks.list[1].fx_offsets = {
 	v(38, -9),
 	v(50, 1)
 }
-
 tt = E:register_t("decal_enemy_saurian_king_hammer", "fx")
 tt.render.sprites[1].name = "decal_enemy_saurian_king_hammer"
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("mod_saurian_king_tongue", "modifier")
 tt.main_script.insert = kr2_scripts.mod_saurian_king_tongue.insert
 tt.modifier.damage_radius = 25
@@ -1223,22 +1190,22 @@ tt.modifier.damage_max = 150
 tt.modifier.damage_min = 100
 tt.modifier.vis_flags = F_MOD
 tt.modifier.vis_bans = bor(F_ENEMY, F_FLYING)
-
 tt = E:register_t("eb_saurian_king", "boss")
+
 E:add_comps(tt, "melee", "timed_attacks")
+
 image_y = 150
 anchor_y = 0.16666666666666666
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
-tt.health.armor = 0.5
+tt.health.armor = 0.95
 tt.health.dead_lifetime = fts(200)
-tt.health.hp_max = 11000
+tt.health.hp_max = 180000
 tt.health_bar.offset = v(0, 103)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
 tt.info.portrait = "bottom_info_image_enemies_0019"
--- tt.info.enc_icon = 60
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.eb_saurian_king.update
 tt.motion.max_speed = 1.7919999999999998 * FPS
@@ -1254,6 +1221,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_saurian_king"
+tt.render.sprites[1].scale = vv(5)
 tt.ui.click_rect = r(-35, 0, 70, 80)
 tt.unit.blood_color = BLOOD_VIOLET
 tt.unit.can_explode = false
@@ -1263,13 +1231,13 @@ tt.unit.show_blood_pool = false
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_SKELETON)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
-tt.sound_events.insert = "MusicBossFight"
+tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.death = "SaurianKingBossDeath"
 tt.melee.attacks[1] = E:clone_c("area_attack")
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].damage_max = 0
-tt.melee.attacks[1].damage_min = 0
-tt.melee.attacks[1].damage_radius = 25
+tt.melee.attacks[1].damage_max = 250
+tt.melee.attacks[1].damage_min = 500
+tt.melee.attacks[1].damage_radius = 60
 tt.melee.attacks[1].hit_time = fts(6)
 tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
 tt.melee.attacks[1].mod = "mod_saurian_king_tongue"
@@ -1280,7 +1248,7 @@ tt.timed_attacks.list[1].animations = {
 	"hammer_loop"
 }
 tt.timed_attacks.list[1].cooldown = 5
-tt.timed_attacks.list[1].damage_radius = 500
+tt.timed_attacks.list[1].damage_radius = 600
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].hit_times = {
 	fts(11),
@@ -1288,24 +1256,24 @@ tt.timed_attacks.list[1].hit_times = {
 }
 tt.timed_attacks.list[1].max_damage_radius = 50
 tt.timed_attacks.list[1].max_damages = {
-	10,
-	15,
-	25,
-	40,
-	65,
-	100,
-	145,
-	200
+	30,
+	45,
+	75,
+	120,
+	170,
+	200,
+	280,
+	500
 }
 tt.timed_attacks.list[1].min_damages = {
-	5,
-	7,
-	12,
-	20,
 	30,
-	50,
-	70,
-	100
+	45,
+	75,
+	120,
+	170,
+	200,
+	280,
+	500
 }
 tt.timed_attacks.list[1].sound = "SaurianKingBossHammer"
 tt.timed_attacks.list[1].vis_flags = F_RANGED
@@ -1313,7 +1281,6 @@ tt.timed_attacks.list[1].fx_offsets = {
 	v(48, -11),
 	v(62, 1)
 }
-
 tt = E:register_t("decal_saurian_king_hammer", "fx")
 tt.render.sprites[1].name = "decal_saurian_king_hammer"
 tt.render.sprites[1].z = Z_DECALS

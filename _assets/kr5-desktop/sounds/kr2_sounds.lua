@@ -1,2356 +1,2410 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\_assets\\kr5-desktop\\sounds\\kr2_sounds.lua
+
 return {
 	HeroVanHelsingRelic = {
-		files = {
-			"halloween_helsing_relic.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_helsing_relic.ogg"
+		}
 	},
 	HeroMinotaurTauntSelect = {
-		files = {
-			"Minotaur_04b.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Minotaur_04b.ogg"
+		}
+	},
+	DwarfSounds = {
+		files = {
+			"dwarfArcher_taunt_1.ogg",
+			"dwarfArcher_taunt_2.ogg",
+			"dwarfBarracks_taunt_1.ogg",
+			"dwarf_taunt_1.ogg",
+			"dwarf_taunt_2.ogg"
+		}
+	},
+	SaurianKingBoss = {
+		files = {
+			"KRF_sfx_saurianboss_martillo_1t.ogg",
+			"KRF_sfx_saurianboss_muerte.ogg",
+			"KRF_sfx_saurianboss_op1.ogg",
+			"KRF_sfx_saurianboss_temblor.ogg"
+		}
+	},
+	SaurianSniperSounds = {
+		files = {
+			"KRF_sfx_suarian_sniper.ogg"
+		}
+	},
+	FrontiersUndergroundAmbienceSounds = {
+		files = {
+			"ambience_underground_1.ogg",
+			"ambience_underground_2.ogg"
+		}
 	},
 	HeroBeastMasterTauntSelect = {
-		files = {
-			"beastmaster_taunt_confirm_3.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"beastmaster_taunt_confirm_3.ogg"
+		}
 	},
 	MechTaunt = {
+		loop = false,
+		gain = 0.8,
+		mode = "sequence",
+		source_group = "TAUNTS",
 		files = {
 			"mecha_taunt_ready.ogg",
 			"mecha_taunt_misc.ogg",
 			"mecha_taunt_missile.ogg",
-			"mecha_taunt_slow.ogg",
-		},
-		loop = false,
-		mode = "sequence",
-		gain = 0.8,
-		source_group = "TAUNTS",
+			"mecha_taunt_slow.ogg"
+		}
 	},
 	FrontiersFinalBossSpawnExplode = {
-		files = {
-			"boss_umbra_release_2.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_release_2.ogg"
+		}
 	},
 	SpecialIndianaSelect = {
-		files = {
-			"indiana_select.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"indiana_select.ogg"
+		}
 	},
 	HeroMonkHadoken = {
-		files = {
-			"Hero_Monk_Hadoken.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Hadoken.ogg"
+		}
 	},
 	HWHeadlessHorsemanEntry = {
-		files = {
-			"halloween_headless_sinrisa_conacorde.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"halloween_headless_sinrisa_conacorde.ogg"
+		}
 	},
 	ArchmageTauntTwister = {
-		files = {
-			"archmage_taunt_twister.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"archmage_taunt_twister.ogg"
+		}
 	},
 	HeroCrabCannon = {
-		files = {
-			"Hero_Karkinos_Cannon.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Cannon.ogg"
+		}
 	},
 	EarthquakeTauntReady = {
-		files = {
-			"earthquake_taunt_ready.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"earthquake_taunt_ready.ogg"
+		}
 	},
 	HeroPirateExplosiveBarrel = {
-		files = {
-			"hero_blackthorne_barrel.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_blackthorne_barrel.ogg"
+		}
 	},
 	HeroVanHelsingTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Dante-01a.ogg",
 			"Dante-02a.ogg",
 			"Dante-03a.ogg",
-			"Dante-04d.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Dante-04d.ogg"
+		}
 	},
 	EarthquakeTaunt = {
+		loop = false,
+		gain = 0.8,
+		mode = "sequence",
+		source_group = "TAUNTS",
 		files = {
 			"earthquake_taunt_ready.ogg",
 			"earthquake_taunt_drill.ogg",
-			"earthquake_taunt_scorched.ogg",
-		},
-		loop = false,
-		mode = "sequence",
-		gain = 0.8,
-		source_group = "TAUNTS",
+			"earthquake_taunt_scorched.ogg"
+		}
 	},
 	HeroWizardTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	HWBossVampireLifesteal = {
-		files = {
-			"halloween_vampireboss_drainlife.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_vampireboss_drainlife.ogg"
+		}
 	},
 	HeroGiantTauntSelect = {
-		files = {
-			"giant_taunt_confirm_4.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"giant_taunt_confirm_4.ogg"
+		}
 	},
 	HeroMonkTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	Level1SpecialEndingHoldCast = {
-		files = {
-			"Sound_SpellTowerHold_Cast.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"Sound_SpellTowerHold_Cast.ogg"
+		}
 	},
 	MechTauntSlow = {
-		files = {
-			"mecha_taunt_slow.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_taunt_slow.ogg"
+		}
 	},
 	HeroBeastMasterAttack = {
-		files = {
-			"hero_cronan_whiplash.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_cronan_whiplash.ogg"
+		}
 	},
 	HeroBeastMasterFalconAttack = {
-		files = {
-			"hero_beastmaster_bird_attack.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"hero_beastmaster_bird_attack.ogg"
+		}
 	},
 	HeroAlienDiscoBounce = {
-		files = {
-			"hero_alien_disc_bounce.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_alien_disc_bounce.ogg"
+		}
 	},
 	HeroAlienTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"alien_taunt_confirm_1.ogg",
 			"alien_taunt_confirm_2.ogg",
 			"alien_taunt_confirm_3.ogg",
-			"alien_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"alien_taunt_confirm_4.ogg"
+		}
 	},
 	EndlessDesertPowerTeleport = {
-		files = {
-			"krf_sfx_endless_sandhole.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_sfx_endless_sandhole.ogg"
+		}
 	},
 	FrontiersFinalBossRayTower = {
-		files = {
-			"boss_umbra_tower.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_tower.ogg"
+		}
 	},
 	HeroGiantBoulder = {
-		files = {
-			"hero_grawl_boulder_throw.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_grawl_boulder_throw.ogg"
+		}
 	},
 	HeroGiantTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"giant_taunt_confirm_1.ogg",
 			"giant_taunt_confirm_2.ogg",
 			"giant_taunt_confirm_3.ogg",
-			"giant_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"giant_taunt_confirm_4.ogg"
+		}
 	},
 	CanibalZombie = {
+		loop = false,
+		gain = 0.8,
+		source_group = "SFX",
+		mode = "random",
+		ignore = 1,
 		files = {
 			"canibal_zombie_one.ogg",
 			"canibal_zombie_two.ogg",
-			"canibal_zombie_three.ogg",
-		},
-		source_group = "SFX",
-		loop = false,
-		gain = 0.8,
-		mode = "random",
-		ignore = 1,
+			"canibal_zombie_three.ogg"
+		}
 	},
 	HeroAlienDrone = {
-		files = {
-			"hero_alien_drone_call.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"hero_alien_drone_call.ogg"
+		}
 	},
 	ArchmageTauntReady = {
-		files = {
-			"archmage_taunt_ready.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"archmage_taunt_ready.ogg"
+		}
 	},
 	HeroVoodooWitchSacrificeHit = {
-		files = {
-			"KRF_sfx_vodoo_kamikazegolpev3.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_vodoo_kamikazegolpev3.ogg"
+		}
 	},
 	PirateBoatTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"PirateBoat_01c.ogg",
 			"PirateBoat_02c.ogg",
-			"PirateBoat_03a.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"PirateBoat_03a.ogg"
+		}
 	},
 	Level1SpecialEndingCinematic = {
-		files = {
-			"boss_cinematic.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_cinematic.ogg"
+		}
 	},
 	HeroAlricTauntSelect = {
-		files = {
-			"alric_taunt_confirm_2.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"alric_taunt_confirm_2.ogg"
+		}
 	},
 	HeroPriestTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	SpecialMountainDoor = {
-		files = {
-			"mountain_door.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"mountain_door.ogg"
+		}
 	},
 	BossEfreetiSpawnBoss = {
-		files = {
-			"boss_efreeti_summon.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_efreeti_summon.ogg"
+		}
 	},
 	HeroWizardTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"wizzard_taunt_confirm_1.ogg",
 			"wizzard_taunt_confirm_2.ogg",
 			"wizzard_taunt_confirm_3.ogg",
-			"wizzard_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"wizzard_taunt_confirm_4.ogg"
+		}
 	},
 	UndergroundAmbienceSound = {
+		loop = false,
+		gain = 0.3,
+		mode = "random",
+		source_group = "SFX",
 		files = {
 			"ambience_underground_1.ogg",
-			"ambience_underground_2.ogg",
-		},
-		loop = false,
-		mode = "random",
-		gain = 0.3,
-		source_group = "SFX",
+			"ambience_underground_2.ogg"
+		}
 	},
 	HeroCrabTauntSelect = {
-		files = {
-			"Karkinos_03d.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Karkinos_03d.ogg"
+		}
 	},
 	HeroMonkCounter = {
-		files = {
-			"Hero_Monk_Counter.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Counter.ogg"
+		}
 	},
 	HeroAlienTauntSelect = {
-		files = {
-			"alien_taunt_confirm_4.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"alien_taunt_confirm_4.ogg"
+		}
 	},
 	MusicBossPreFightEnd = {
-		files = {
-			"Finalboss_prefight.ogg",
-		},
 		stream = true,
 		gain = 0.7,
 		source_group = "MUSIC",
+		files = {
+			"Finalboss_prefight.ogg"
+		}
 	},
 	HeroVoodooWitchDeath = {
-		files = {
-			"Vodoo_05d.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Vodoo_05d.ogg"
+		}
 	},
 	FrontiersFinalBossRay = {
-		files = {
-			"boss_umbra_shootray.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_shootray.ogg"
+		}
 	},
 	FrontiersEndlessToeeMiniBossAttack = {
-		files = {
-			"krf_toee_reaperlord_attack[op2].ogg",
-		},
 		source_group = "SFX",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_toee_reaperlord_attack[op2].ogg"
+		}
 	},
 	HWVampiressTaunt = {
+		source_group = "TAUNTS",
+		gain = 1,
+		mode = "random",
+		loop = false,
 		files = {
 			"Vampiress-01c.ogg",
 			"Vampiress-02c.ogg",
-			"Vampiress-03c.ogg",
-		},
-		source_group = "TAUNTS",
-		mode = "random",
-		gain = 1,
-		loop = false,
+			"Vampiress-03c.ogg"
+		}
 	},
 	HeroMonkMultihitScream = {
+		source_group = "SPECIALS",
+		gain = 1,
+		mode = "random",
+		loop = false,
 		files = {
 			"Hero_Monk_Multihit_scream_1.ogg",
-			"Hero_Monk_Multihit_scream_2.ogg",
-		},
-		source_group = "SPECIALS",
-		mode = "random",
-		gain = 1,
-		loop = false,
+			"Hero_Monk_Multihit_scream_2.ogg"
+		}
 	},
 	BossEfreetiDeath = {
-		files = {
-			"boss_efreeti_death.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_efreeti_death.ogg"
+		}
 	},
 	EarthquakeAttack = {
-		files = {
-			"dwaarp_attack.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"dwaarp_attack.ogg"
+		}
 	},
 	ArchmageTauntExplosion = {
-		files = {
-			"archmage_taunt_explosion.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"archmage_taunt_explosion.ogg"
+		}
 	},
 	HeroCrabDeath = {
-		files = {
-			"Karkinos_Death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Karkinos_Death.ogg"
+		}
 	},
 	HeroMinotaurDoomSpin = {
-		files = {
-			"KRF_sfx_minotauro_remolino_2tiempo.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_minotauro_remolino_2tiempo.ogg"
+		}
 	},
 	BossMonkeyMonkeysScreams = {
+		source_group = "SFX",
+		gain = 1,
+		every = 4,
+		mode = "random",
+		loop = false,
 		files = {
 			"boss_mono_chimps_1.ogg",
 			"boss_mono_chimps_2.ogg",
-			"boss_mono_chimps_3.ogg",
-		},
-		gain = 1,
-		every = 4,
-		source_group = "SFX",
-		mode = "random",
-		loop = false,
+			"boss_mono_chimps_3.ogg"
+		}
 	},
 	FrontiersFinalBossPortal = {
-		files = {
-			"boss_umbra_openportal.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_openportal.ogg"
+		}
 	},
 	InAppAtomicFreezeEnd = {
-		files = {
-			"inapp_atfreezeend.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_atfreezeend.ogg"
+		}
 	},
 	BossEfreetiTowerReleased = {
-		files = {
-			"efreeti_towers_released.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"efreeti_towers_released.ogg"
+		}
 	},
 	RTGunboatDeath = {
-		files = {
-			"Gunboat_death.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"Gunboat_death.ogg"
+		}
 	},
 	HeroVoodooWitchSacrificeStart = {
-		files = {
-			"KRF_sfx_vodoo_kamikazelanza.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_vodoo_kamikazelanza.ogg"
+		}
 	},
 	HeroAlienExplosion = {
-		files = {
-			"hero_alien_death_explosion.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_alien_death_explosion.ogg"
+		}
 	},
 	HWWerewolfTransformation = {
-		files = {
-			"halloween_werewolf_transformation.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_werewolf_transformation.ogg"
+		}
 	},
 	BossEfreetiClap = {
-		files = {
-			"boss_efreeti_clapping.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_efreeti_clapping.ogg"
+		}
 	},
 	HeroMonkeyGodAngryGodLoop = {
-		files = {
-			"krf_toee_saitam_angrygod[flames-loop].ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = true,
+		files = {
+			"krf_toee_saitam_angrygod[flames-loop].ogg"
+		}
 	},
 	InAppAtomicFreezeStart = {
-		files = {
-			"inapp_atfreezestart.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_atfreezestart.ogg"
+		}
 	},
 	HeroMonkeyGodMonkeyPalm = {
-		files = {
-			"krf_toee_saitam_monkeypalm[op1].ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_saitam_monkeypalm[op1].ogg"
+		}
 	},
 	HeroBeastMasterTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"beastmaster_taunt_confirm_1.ogg",
 			"beastmaster_taunt_confirm_2.ogg",
 			"beastmaster_taunt_confirm_3.ogg",
-			"beastmaster_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"beastmaster_taunt_confirm_4.ogg"
+		}
 	},
 	HWVampiressTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	MusicBossPreFight = {
-		files = {
-			"boss_prefight.ogg",
-		},
-		source_group = "MUSIC",
 		loop = true,
 		gain = 0.7,
+		source_group = "MUSIC",
 		stream = true,
+		files = {
+			"boss_prefight.ogg"
+		}
 	},
 	EngineerTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1.5,
 		files = {
 			"Artillery_Ready.ogg",
 			"Artillery_Taunt1.ogg",
-			"Artillery_Taunt2.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 0.6,
-		mode = "sequence",
-		ignore = 1.5,
+			"Artillery_Taunt2.ogg"
+		}
 	},
 	FrontiersEndlessToeeMiniBossDeath = {
-		files = {
-			"krf_toee_reaperlord_death.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"krf_toee_reaperlord_death.ogg"
+		}
 	},
 	HeroGiantDeath = {
-		files = {
-			"giant_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"giant_taunt_death.ogg"
+		}
 	},
 	FrontiersFinalBossDeath = {
-		files = {
-			"boss_umbra_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_death.ogg"
+		}
 	},
 	MechTauntMissile = {
-		files = {
-			"mecha_taunt_missile.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_taunt_missile.ogg"
+		}
 	},
 	HeroMirageTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	DeathJuggernaut = {
-		files = {
-			"Sound_JuggernautDeath.ogg",
-		},
 		source_group = "DEATH",
 		gain = 0.9,
 		loop = false,
+		files = {
+			"Sound_JuggernautDeath.ogg"
+		}
 	},
 	SpecialBanthaFart = {
-		files = {
-			"bantha_fart.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"bantha_fart.ogg"
+		}
 	},
 	HeroBeastMasterDeath = {
-		files = {
-			"beastmaster_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"beastmaster_taunt_death.ogg"
+		}
 	},
 	HeroWizardShoot = {
-		files = {
-			"hero_nivus_attack.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"hero_nivus_attack.ogg"
+		}
 	},
 	NecromancerTauntPestilence = {
-		files = {
-			"necromancer_taunt_pesti.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.9,
 		loop = false,
+		files = {
+			"necromancer_taunt_pesti.ogg"
+		}
 	},
 	HeroMonkeyGodTauntSelect = {
-		files = {
-			"Saitam-confirm_02c[2].ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Saitam-confirm_02c[2].ogg"
+		}
 	},
 	HeroMonkMultihitPunch = {
-		files = {
-			"Hero_Monk_Multihit_punch.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Multihit_punch.ogg"
+		}
 	},
 	EarthquakeDrillIn = {
-		files = {
-			"dwaarp_drillIn.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"dwaarp_drillIn.ogg"
+		}
 	},
 	HeroMinotaurDaedalusMaze = {
-		files = {
-			"KRF_sfx_minotauro_portal.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_minotauro_portal.ogg"
+		}
 	},
 	HeroGiantTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	RTBossDeath = {
-		files = {
-			"boss_death.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_death.ogg"
+		}
 	},
 	PirateBoatTauntIntro = {
-		files = {
-			"PirateBoat_01c.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"PirateBoat_01c.ogg"
+		}
 	},
 	HWAbominationExplosion = {
-		files = {
-			"halloween_abominationexplosion.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_abominationexplosion.ogg"
+		}
 	},
 	HeroMirageShadowDanceCast = {
-		files = {
-			"hero_mirage_shadowdance_cast.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_mirage_shadowdance_cast.ogg"
+		}
 	},
 	HeroAlricTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"alric_taunt_confirm_1.ogg",
 			"alric_taunt_confirm_2.ogg",
 			"alric_taunt_confirm_3.ogg",
-			"alric_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"alric_taunt_confirm_4.ogg"
+		}
 	},
 	HeroMonkTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Monk_01c.ogg",
 			"Monk_02b.ogg",
 			"Monk_03c.ogg",
-			"Monk_04b.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Monk_04b.ogg"
+		}
 	},
 	NecromancerTauntReady = {
-		files = {
-			"necromancer_taunt_ready.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.9,
 		loop = false,
+		files = {
+			"necromancer_taunt_ready.ogg"
+		}
 	},
 	VeznanHoldCast = {
-		files = {
-			"Sound_SpellTowerHold_Cast.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Sound_SpellTowerHold_Cast.ogg"
+		}
 	},
 	WilhemScream = {
-		files = {
-			"wilhelm_scream.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"wilhelm_scream.ogg"
+		}
 	},
 	HeroAlienDroneLeave = {
-		files = {
-			"hero_alien_drone_leave.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"hero_alien_drone_leave.ogg"
+		}
 	},
 	HeroWizardDesintegrate = {
-		files = {
-			"hero_nivus_desintegrate.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_nivus_desintegrate.ogg"
+		}
 	},
 	HeroCrabShield = {
-		files = {
-			"Hero_Karkinos_Shield.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Shield.ogg"
+		}
 	},
 	WaspTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "SFX",
+		mode = "random",
+		ignore = 3,
 		files = {
 			"wasp_1.ogg",
 			"wasp_2.ogg",
-			"wasp_3.ogg",
-		},
-		source_group = "SFX",
-		loop = false,
-		gain = 0.6,
-		mode = "random",
-		ignore = 3,
+			"wasp_3.ogg"
+		}
 	},
 	HeroMonkeyGodDeath = {
-		files = {
-			"Saitam-death_01b[2].ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Saitam-death_01b[2].ogg"
+		}
 	},
 	MechTauntReady = {
-		files = {
-			"mecha_taunt_ready.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_taunt_ready.ogg"
+		}
 	},
 	HeroAlienDroneLoop = {
-		files = {
-			"hero_alien_drone_ray_loop.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = true,
+		files = {
+			"hero_alien_drone_ray_loop.ogg"
+		}
 	},
 	HeroMonkTauntSelect = {
-		files = {
-			"Monk_02b.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Monk_02b.ogg"
+		}
 	},
 	HWGhosts = {
-		files = {
-			"halloween_werewolf_minormoans.ogg",
-		},
-		loop = false,
 		ignore = 10,
 		gain = 0.8,
+		loop = false,
 		source_group = "SFX",
+		files = {
+			"halloween_werewolf_minormoans.ogg"
+		}
 	},
 	MechTauntMisc = {
-		files = {
-			"mecha_taunt_misc.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_taunt_misc.ogg"
+		}
 	},
 	RTBoatBreak = {
-		files = {
-			"ship_path_break.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"ship_path_break.ogg"
+		}
 	},
 	HeroMonkFiredragon = {
-		files = {
-			"Hero_Monk_Firedragon.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Firedragon.ogg"
+		}
 	},
 	FrontiersFinalBossTeleport = {
-		files = {
-			"boss_umbra_teleport.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_teleport.ogg"
+		}
 	},
 	PolymorphSound = {
-		files = {
-			"Sound_Polimorph.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.9,
 		loop = false,
+		files = {
+			"Sound_Polimorph.ogg"
+		}
 	},
 	HeroMonkeyGodAttack1 = {
-		files = {
-			"krf_toee_saitam_attack[op1].ogg",
-		},
 		source_group = "SFX",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_toee_saitam_attack[op1].ogg"
+		}
 	},
 	HeroMirageLethalStrikeCastVanish = {
-		files = {
-			"hero_mirage_lethalstrike_vanish.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"hero_mirage_lethalstrike_vanish.ogg"
+		}
 	},
 	MechOil = {
-		files = {
-			"mecha_dropoil.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_dropoil.ogg"
+		}
 	},
 	HeroPriestWings = {
-		files = {
-			"hero_priest_teleport.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_priest_teleport.ogg"
+		}
 	},
 	HeroMinotaurTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Minotaur_01b.ogg",
 			"Minotaur_02c.ogg",
 			"Minotaur_03c.ogg",
-			"Minotaur_04b.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Minotaur_04b.ogg"
+		}
 	},
 	HeroAlienTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	HeroGiantExplosionRock = {
-		files = {
-			"hero_grawl_boulder_hit.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_grawl_boulder_hit.ogg"
+		}
 	},
 	SpecialWormDirtSound = {
-		files = {
-			"worm_dirtLoop.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = true,
+		files = {
+			"worm_dirtLoop.ogg"
+		}
 	},
 	HeroVanHelsingTauntSelect = {
-		files = {
-			"Dante-01a.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Dante-01a.ogg"
+		}
 	},
 	SpecialVolcanoVirginScream = {
-		files = {
-			"volcano_virginScream.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"volcano_virginScream.ogg"
+		}
 	},
 	SpecialVolcanoThrowSplash = {
-		files = {
-			"volcano_splash.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"volcano_splash.ogg"
+		}
 	},
 	HeroMirageShadowDanceHit = {
-		files = {
-			"hero_mirage_shadowdance_hit.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_mirage_shadowdance_hit.ogg"
+		}
 	},
 	NecromancerBolt = {
-		files = {
-			"necromancer_attack.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"necromancer_attack.ogg"
+		}
 	},
 	BossEfreetiLaugh = {
-		files = {
-			"boss_efreeti_evillaugh.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"boss_efreeti_evillaugh.ogg"
+		}
 	},
 	HeroMinotaurBloodAxe = {
-		files = {
-			"KRF_sfx_minotauro_ataquefuerte.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_minotauro_ataquefuerte.ogg"
+		}
 	},
 	HeroBeastMasterStampede = {
-		files = {
-			"hero_beastmaster_rhino_stampede.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = true,
+		files = {
+			"hero_beastmaster_rhino_stampede.ogg"
+		}
 	},
 	HeroMirageTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"assassinHero_taunt_confirm_1.ogg",
 			"assassinHero_taunt_confirm_2.ogg",
 			"assassinHero_taunt_confirm_3.ogg",
-			"assassinHero_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"assassinHero_taunt_confirm_4.ogg"
+		}
 	},
 	SpecialTusken = {
-		files = {
-			"tusken.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"tusken.ogg"
+		}
 	},
 	SpecialStargate = {
-		files = {
-			"stargate.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"stargate.ogg"
+		}
 	},
 	HeroMonkMultihitScreamOne = {
-		files = {
-			"Hero_Monk_Multihit_scream_1.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Multihit_scream_1.ogg"
+		}
 	},
 	SpecialIndianaRuns = {
-		files = {
-			"indiana_runs.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"indiana_runs.ogg"
+		}
 	},
 	BossMonkeyJumpToTotem = {
-		files = {
-			"boss_mono_saltototem.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_saltototem.ogg"
+		}
 	},
 	HWCastleDoorsOpen = {
-		files = {
-			"halloween_vampireboss_gates.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_vampireboss_gates.ogg"
+		}
 	},
 	HeroMinotaurTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	RTBossTentacle = {
-		files = {
-			"boss_tentacle_spawn.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.1,
 		loop = false,
+		files = {
+			"boss_tentacle_spawn.ogg"
+		}
 	},
 	HeroMonkeyGodTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	HeroMinotaurRoarOfFury = {
-		files = {
-			"KRF_sfx_minotauro_grito.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_minotauro_grito.ogg"
+		}
 	},
 	HeroAlienDiscoThrow = {
-		files = {
-			"hero_alien_disc_throw.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_alien_disc_throw.ogg"
+		}
 	},
 	HeroAlricSandwarrior = {
-		files = {
-			"hero_alric_sandwarrior.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"hero_alric_sandwarrior.ogg"
+		}
 	},
 	LegionnaireTaunt = {
+		loop = false,
+		gain = 1,
+		mode = "sequence",
+		source_group = "TAUNTS",
 		files = {
 			"legionnaire_taunt_2.ogg",
-			"legionnaire_taunt_1.ogg",
-		},
-		loop = false,
-		mode = "sequence",
-		gain = 1,
-		source_group = "TAUNTS",
+			"legionnaire_taunt_1.ogg"
+		}
 	},
 	InAppAtomicBombFalling = {
-		files = {
-			"inapp_nuke_falling.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_nuke_falling.ogg"
+		}
 	},
 	SpecialBanthaRoar = {
-		files = {
-			"bantha_roar.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"bantha_roar.ogg"
+		}
 	},
 	HeroBeastMasterSummonRhinos = {
-		files = {
-			"hero_beastmaster_summon_rhino.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_beastmaster_summon_rhino.ogg"
+		}
 	},
 	HeroPriestHolyLight = {
-		files = {
-			"hero_priest_healing.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"hero_priest_healing.ogg"
+		}
 	},
 	Level1SpecialEndingHoldDissipate = {
-		files = {
-			"Sound_SpellTowerHold_Dissipate.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"Sound_SpellTowerHold_Dissipate.ogg"
+		}
 	},
 	HeroAlricFlurry = {
-		files = {
-			"hero_alric_flurry.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_alric_flurry.ogg"
+		}
 	},
 	SpecialFrog = {
-		files = {
-			"frog_dance.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"frog_dance.ogg"
+		}
 	},
 	SpecialCutTrees = {
-		files = {
-			"cut_trees.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"cut_trees.ogg"
+		}
 	},
 	EarthquakeLavaSmash = {
-		files = {
-			"dwaarp_lavaSmash.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"dwaarp_lavaSmash.ogg"
+		}
 	},
 	HeroPriestTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"priest_taunt_confirm_1.ogg",
 			"priest_taunt_confirm_2.ogg",
 			"priest_taunt_confirm_3.ogg",
 			"priest_taunt_confirm_4.ogg",
-			"priest_taunt_confirm_5.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"priest_taunt_confirm_5.ogg"
+		}
 	},
 	HWVampiressLifesteal = {
-		files = {
-			"halloween_vampiress_drainlifeOP2.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_vampiress_drainlifeOP2.ogg"
+		}
 	},
 	SandwraithCoffin = {
-		files = {
-			"sandwraith_coffin.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"sandwraith_coffin.ogg"
+		}
 	},
 	FrontiersEndlessToeeBossAcidSpit = {
-		files = {
-			"krf_toee_aliengoddess_spit.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_aliengoddess_spit.ogg"
+		}
 	},
 	HWAlphaWolf = {
-		files = {
-			"halloween_werewolf_alfawolf.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_werewolf_alfawolf.ogg"
+		}
 	},
 	RTGunboatShooting = {
-		files = {
-			"Gunboat_shooting.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"Gunboat_shooting.ogg"
+		}
 	},
 	HeroBeastMasterBoarAttack = {
-		files = {
-			"hero_beastmaster_jabali_attack2.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_beastmaster_jabali_attack2.ogg"
+		}
 	},
 	SpecialWormBite = {
-		files = {
-			"worm_bite.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"worm_bite.ogg"
+		}
 	},
 	MechSteam = {
-		files = {
-			"mecha_steamrelease.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.2,
 		loop = false,
+		files = {
+			"mecha_steamrelease.ogg"
+		}
 	},
 	HeroMirageShadowDodgePuff = {
-		files = {
-			"hero_mirage_shadowdodge_puff.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_mirage_shadowdodge_puff.ogg"
+		}
 	},
 	HeroVoodooWitchTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Vodoo_01c.ogg",
 			"Vodoo_02b.ogg",
 			"Vodoo_03b.ogg",
-			"Vodoo_04b.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Vodoo_04b.ogg"
+		}
 	},
 	CanibalNecromancer = {
-		files = {
-			"canibal_necromancer.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"canibal_necromancer.ogg"
+		}
 	},
 	BossMonkeyDeath = {
-		files = {
-			"boss_mono_death.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_death.ogg"
+		}
 	},
 	PirateTowerTaunt = {
-		files = {
-			"Pirate_Tower_01a.ogg",
-			"Pirate_Tower_02b.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Pirate_Tower_01a.ogg",
+			"Pirate_Tower_02b.ogg"
+		}
 	},
 	HWHeadlessHorsemanLaugh = {
-		files = {
-			"HeadlessHorseman-03a_WET.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"HeadlessHorseman-03a_WET.ogg"
+		}
 	},
 	BossEfreetiDoors = {
-		files = {
-			"efreeti_doors.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"efreeti_doors.ogg"
+		}
 	},
 	HeroPirateDeath = {
-		files = {
-			"blackthorne_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"blackthorne_taunt_death.ogg"
+		}
 	},
 	InAppExtraHearts = {
-		files = {
-			"inapp_hearts.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_hearts.ogg"
+		}
 	},
 	FrontiersFinalBossSpawnCrack = {
-		files = {
-			"boss_umbra_release_1.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_release_1.ogg"
+		}
 	},
 	BarrackTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1.5,
 		files = {
 			"Barrack_Ready.ogg",
 			"Barrack_Taunt1.ogg",
 			"Barrack_Taunt2.ogg",
-			"Barrack_Move.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 0.6,
-		mode = "sequence",
-		ignore = 1.5,
+			"Barrack_Move.ogg"
+		}
 	},
 	EarthquakeTauntDrill = {
-		files = {
-			"earthquake_taunt_drill.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"earthquake_taunt_drill.ogg"
+		}
 	},
 	NecromancerTaunt = {
+		loop = false,
+		gain = 0.9,
+		mode = "sequence",
+		source_group = "TAUNTS",
 		files = {
 			"necromancer_taunt_ready.ogg",
 			"necromancer_taunt_dknight.ogg",
-			"necromancer_taunt_pesti.ogg",
-		},
-		loop = false,
-		mode = "sequence",
-		gain = 0.9,
-		source_group = "TAUNTS",
+			"necromancer_taunt_pesti.ogg"
+		}
 	},
 	NecromancerPestilence = {
-		files = {
-			"necromancer_pestilence.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"necromancer_pestilence.ogg"
+		}
 	},
 	MechWalk = {
-		files = {
-			"mecha_walk.ogg",
-		},
 		loop = true,
 		gain = 0.2,
 		source_group = "SPECIALS",
+		files = {
+			"mecha_walk.ogg"
+		}
 	},
 	SpecialBlackDragonFire = {
-		files = {
-			"hero_dragon_flamethrower.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_dragon_flamethrower.ogg"
+		}
 	},
 	HeroMonkeyGodSpinningPoleLoopEnd = {
-		files = {
-			"krf_toee_saitam_polespin[loop-end].ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_saitam_polespin[loop-end].ogg"
+		}
 	},
 	HeroVanHelsingShotgun = {
-		files = {
-			"Sound_Sniper.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Sound_Sniper.ogg"
+		}
 	},
 	MechSpawn = {
-		files = {
-			"mecha_spawn.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"mecha_spawn.ogg"
+		}
 	},
 	MageTaunt = {
+		loop = false,
+		gain = 0.6,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1.5,
 		files = {
 			"Mage_Ready.ogg",
 			"Mage_Taunt1.ogg",
-			"Mage_Taunt2.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 0.6,
-		mode = "sequence",
-		ignore = 1.5,
+			"Mage_Taunt2.ogg"
+		}
 	},
 	HeroPriestTauntSelect = {
-		files = {
-			"priest_taunt_confirm_5.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"priest_taunt_confirm_5.ogg"
+		}
 	},
 	HeroCrabBurrowOut = {
-		files = {
-			"Hero_Karkinos_Burrow_out.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Burrow_out.ogg"
+		}
 	},
 	HeroVoodooWitchTauntSelect = {
-		files = {
-			"Vodoo_01c.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Vodoo_01c.ogg"
+		}
 	},
 	FrontiersFinalBossRespawn = {
-		files = {
-			"boss_umbra_respawn.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_respawn.ogg"
+		}
 	},
 	HeroPriestDeath = {
-		files = {
-			"priest_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"priest_taunt_death.ogg"
+		}
 	},
 	InAppFreeze = {
-		files = {
-			"inapp_freeze.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_freeze.ogg"
+		}
 	},
 	HeroMirageLethalStrikeCastHit = {
-		files = {
-			"hero_mirage_lethalstrike_hit.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_mirage_lethalstrike_hit.ogg"
+		}
 	},
 	BossMonkeyFallSpawn = {
-		files = {
-			"boss_mono_enterscene.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_enterscene.ogg"
+		}
 	},
 	MusicHalloweenMoon = {
-		files = {
-			"Halloween_Moon.ogg",
-		},
-		source_group = "MUSIC",
 		loop = true,
 		gain = 0.7,
+		source_group = "MUSIC",
 		stream = true,
+		files = {
+			"Halloween_Moon.ogg"
+		}
 	},
 	HeroMinotaurBullRush = {
-		files = {
-			"KRF_sfx_minotauro_carga.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_minotauro_carga.ogg"
+		}
 	},
 	ArchmageBoltTravel = {
-		files = {
-			"archmage_attack.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"archmage_attack.ogg"
+		}
 	},
 	HeroMonkeyGodCloudDrop = {
-		files = {
-			"krf_toee_saitam_clouddrop.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.1,
 		loop = false,
+		files = {
+			"krf_toee_saitam_clouddrop.ogg"
+		}
 	},
 	HeroWizardTeleport = {
-		files = {
-			"hero_nivus_teleport.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_nivus_teleport.ogg"
+		}
 	},
 	FrontiersEndlessToeeBossScreech = {
-		files = {
-			"krf_toee_aliengoddess_screech[op3].ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_aliengoddess_screech[op3].ogg"
+		}
 	},
 	HeroWizardTauntSelect = {
-		files = {
-			"wizzard_taunt_confirm_1.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"wizzard_taunt_confirm_1.ogg"
+		}
 	},
 	HeroWizardMissileSummon = {
-		files = {
-			"hero_nivus_magicmissile_summon.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_nivus_magicmissile_summon.ogg"
+		}
 	},
 	HeroWizardMissileHit = {
-		files = {
-			"hero_nivus_magicmissile_hit.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"hero_nivus_magicmissile_hit.ogg"
+		}
 	},
 	HeroWizardDeath = {
-		files = {
-			"wizzard_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"wizzard_taunt_death.ogg"
+		}
 	},
 	HeroVoodooWitchVoodooMagic = {
-		files = {
-			"KRF_sfx_vodoo_munieco.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_vodoo_munieco.ogg"
+		}
 	},
 	HeroMirageTauntSelect = {
-		files = {
-			"assassinHero_taunt_confirm_2.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"assassinHero_taunt_confirm_2.ogg"
+		}
 	},
 	HeroPirateTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"blackthorne_taunt_confirm_1.ogg",
 			"blackthorne_taunt_confirm_2.ogg",
 			"blackthorne_taunt_confirm_3.ogg",
-			"blackthorne_taunt_confirm_4.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"blackthorne_taunt_confirm_4.ogg"
+		}
 	},
 	RTBossSpawn = {
-		files = {
-			"boss_spawn.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_spawn.ogg"
+		}
 	},
 	HeroMonkeyGodSpinningPoleLoop = {
-		files = {
-			"krf_toee_saitam_polespin[loop].ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = true,
+		files = {
+			"krf_toee_saitam_polespin[loop].ogg"
+		}
 	},
 	HeroVoodooWitchSkullAttack = {
-		files = {
-			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.3,
 		loop = false,
+		files = {
+			"KRF_sfx_vodoo_calaveraV3_op2.ogg"
+		}
 	},
 	HeroMirageDeath = {
-		files = {
-			"assassinHero_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"assassinHero_taunt_death.ogg"
+		}
 	},
 	HeroVoodooWitchAttack = {
-		files = {
-			"KRF_sfx_vodoo_ataqueV3.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"KRF_sfx_vodoo_ataqueV3.ogg"
+		}
 	},
 	ArchmageCriticalExplosion = {
-		files = {
-			"archmage_explosion.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 1,
 		loop = false,
+		files = {
+			"archmage_explosion.ogg"
+		}
 	},
 	HWVampiressDeath = {
-		files = {
-			"Vampiress-Death02c.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Vampiress-Death02c.ogg"
+		}
 	},
 	HeroCrabTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Karkinos_01b.ogg",
 			"Karkinos_02b.ogg",
 			"Karkinos_03d.ogg",
-			"Karkinos_04b.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Karkinos_04b.ogg"
+		}
 	},
 	HeroVanHelsingTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	HeroVanHelsingHolyWater = {
-		files = {
-			"halloween_helsing_holywater_conquemadura.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_helsing_holywater_conquemadura.ogg"
+		}
 	},
 	DwarfArcherTaunt = {
+		source_group = "TAUNTS",
+		gain = 1,
+		loop = false,
 		files = {
 			"dwarfArcher_taunt_1.ogg",
-			"dwarfArcher_taunt_2.ogg",
-		},
-		source_group = "TAUNTS",
-		gain = 1,
-		loop = false,
+			"dwarfArcher_taunt_2.ogg"
+		}
 	},
 	HeroVanHelsingDeath = {
-		files = {
-			"Dante-Death01c.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Dante-Death01c.ogg"
+		}
 	},
 	HWZombieAmbient = {
+		loop = false,
+		gain = 0.6,
+		source_group = "SFX",
+		mode = "random",
+		ignore = 3,
 		files = {
 			"canibal_zombie_one.ogg",
 			"canibal_zombie_two.ogg",
-			"canibal_zombie_three.ogg",
-		},
-		source_group = "SFX",
-		loop = false,
-		gain = 0.6,
-		mode = "random",
-		ignore = 3,
+			"canibal_zombie_three.ogg"
+		}
 	},
 	HeroMonkeyGodCloudWalkLoop = {
-		files = {
-			"krf_toee_saitam_cloudtransport.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.1,
 		loop = true,
+		files = {
+			"krf_toee_saitam_cloudtransport.ogg"
+		}
 	},
 	HeroCrabTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	EndlessDesertPowerInvisibility = {
-		files = {
-			"krf_sfx_endless_invisibility_consitar.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_sfx_endless_invisibility_consitar.ogg"
+		}
 	},
 	HeroPirateKraken = {
-		files = {
-			"hero_blackthorne_kraken.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_blackthorne_kraken.ogg"
+		}
 	},
 	HeroGiantStomp = {
-		files = {
-			"hero_grawl_stomp.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_grawl_stomp.ogg"
+		}
 	},
 	HeroCrabCannonExplosion = {
-		files = {
-			"Hero_Karkinos_Cannon_explosion.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Cannon_explosion.ogg"
+		}
 	},
 	HeroVoodooWitchTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	HeroPirateTauntSelect = {
-		files = {
-			"blackthorne_taunt_confirm_3.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"blackthorne_taunt_confirm_3.ogg"
+		}
 	},
 	FrontiersFinalBossExplode = {
-		files = {
-			"boss_umbra_explode.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_explode.ogg"
+		}
 	},
 	HeroMonkDeath = {
-		files = {
-			"Monk_Death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Monk_Death.ogg"
+		}
 	},
 	HeroAlricDeath = {
-		files = {
-			"alric_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"alric_taunt_death.ogg"
+		}
 	},
 	ArchmageBoltSummon = {
-		files = {
-			"archmage_precharge.ogg",
-		},
 		source_group = "BULLETS",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"archmage_precharge.ogg"
+		}
 	},
 	RTWhaleSpawn = {
-		files = {
-			"Whale_spawn.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"Whale_spawn.ogg"
+		}
 	},
 	HeroPirateTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	FrontiersEndlessToeeBossSpawnEgg = {
-		files = {
-			"krf_toee_alienqueen_spawn.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_alienqueen_spawn.ogg"
+		}
 	},
 	HeroMonkeyGodTaunt = {
+		loop = false,
+		gain = 1,
+		source_group = "TAUNTS",
+		mode = "sequence",
+		ignore = 1,
 		files = {
 			"Saitam-confirm_01b[2].ogg",
 			"Saitam-confirm_02c[2].ogg",
 			"Saitam_confirm-03c.ogg",
 			"Saitam_confirm-04c.ogg",
-			"Saitam_confirm-05c.ogg",
-		},
-		source_group = "TAUNTS",
-		loop = false,
-		gain = 1,
-		mode = "sequence",
-		ignore = 1,
+			"Saitam_confirm-05c.ogg"
+		}
 	},
 	ArchmageTaunt = {
+		loop = false,
+		gain = 0.8,
+		mode = "sequence",
+		source_group = "TAUNTS",
 		files = {
 			"archmage_taunt_ready.ogg",
 			"archmage_taunt_explosion.ogg",
-			"archmage_taunt_twister.ogg",
-		},
-		loop = false,
-		mode = "sequence",
-		gain = 0.8,
-		source_group = "TAUNTS",
+			"archmage_taunt_twister.ogg"
+		}
 	},
 	HWBossVampireDeath = {
-		files = {
-			"halloween_vampireboss_death.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_vampireboss_death.ogg"
+		}
 	},
 	EndlessDesertPowerObelysk = {
-		files = {
-			"krf_sfx_endless_obelisk_v3.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"krf_sfx_endless_obelisk_v3.ogg"
+		}
 	},
 	ArchmageTwisterTravel = {
-		files = {
-			"archmage_twister.ogg",
-		},
-		ref_counted = true,
 		loop = true,
 		gain = 0.3,
+		ref_counted = true,
 		source_group = "REFCOUNTED",
+		files = {
+			"archmage_twister.ogg"
+		}
 	},
 	BossEfreetiSnap = {
-		files = {
-			"boss_efreeti_snapping.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_efreeti_snapping.ogg"
+		}
 	},
 	BossMonkeySmashGround = {
-		files = {
-			"boss_mono_attack.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_attack.ogg"
+		}
 	},
 	HeroAlienAbduction = {
-		files = {
-			"hero_alien_abduction.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_alien_abduction.ogg"
+		}
 	},
 	HeroAlricTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	CanibalEating = {
-		files = {
-			"canibal_eating.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"canibal_eating.ogg"
+		}
 	},
 	BossMonkeyTotemSpawn = {
-		files = {
-			"boss_mono_totem.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_totem.ogg"
+		}
 	},
 	HeroMonkeyGodAngryGodScream = {
-		files = {
-			"krf_toee_saitam_angrygod[scream].ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_saitam_angrygod[scream].ogg"
+		}
+	},
+	FrontiersUndergroundAmbienceSounds = {
+		files = {
+			"ambience_underground_1.ogg",
+			"ambience_underground_2.ogg"
+		}
 	},
 	FrontiersFinalBossPiecesRespawn = {
-		files = {
-			"boss_umbra_sphere_rise.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_sphere_rise.ogg"
+		}
 	},
 	EarthquakeTauntScorched = {
-		files = {
-			"earthquake_taunt_scorched.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.8,
 		loop = false,
+		files = {
+			"earthquake_taunt_scorched.ogg"
+		}
 	},
 	FrontiersEndlessToeeBossAcidGround = {
-		files = {
-			"krf_toee_alienqueen_acid[impact].ogg",
-		},
 		source_group = "SFX",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_toee_alienqueen_acid[impact].ogg"
+		}
 	},
 	HeroAlienDeath = {
-		files = {
-			"alien_taunt_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 0.6,
 		loop = false,
+		files = {
+			"alien_taunt_death.ogg"
+		}
 	},
 	RTBossTentacleAttack = {
-		files = {
-			"boss_leviathan_tentacle_grab.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_leviathan_tentacle_grab.ogg"
+		}
 	},
 	HeroBeastMasterSummonBoar = {
-		files = {
-			"hero_beastmaster_summon_boar.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_beastmaster_summon_boar.ogg"
+		}
 	},
 	HeroMonkMultihitScreamTwo = {
-		files = {
-			"Hero_Monk_Multihit_scream_2.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Multihit_scream_2.ogg"
+		}
 	},
 	SpecialVolcanoLavaShootHit = {
-		files = {
-			"volcano_lavaShotHit.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"volcano_lavaShotHit.ogg"
+		}
 	},
 	HeroCrabBurrowIn = {
-		files = {
-			"Hero_Karkinos_Burrow_in.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Burrow_in.ogg"
+		}
 	},
 	SpecialAlienEggOpen = {
-		files = {
-			"alien_egg_open.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"alien_egg_open.ogg"
+		}
 	},
 	HWVampiressAreaAttack = {
-		files = {
-			"halloween_vampiress_areaattack_confilo.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"halloween_vampiress_areaattack_confilo.ogg"
+		}
 	},
 	InAppAtomicBomb = {
-		files = {
-			"inapp_nuke.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"inapp_nuke.ogg"
+		}
 	},
 	HeroCrabPrincer = {
-		files = {
-			"Hero_Karkinos_Pincer.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Karkinos_Pincer.ogg"
+		}
 	},
 	EarthquakeDrillOut = {
-		files = {
-			"dwaarp_drillOut.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"dwaarp_drillOut.ogg"
+		}
 	},
 	HeroGiantMassiveDamage = {
-		files = {
-			"hero_grawl_bigpunch.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_grawl_bigpunch.ogg"
+		}
 	},
 	HeroMirageShadowDodge = {
-		files = {
-			"hero_mirage_shadowdodge.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_mirage_shadowdodge.ogg"
+		}
 	},
 	JungleAmbienceSound = {
-		files = {
-			"jungle_1.ogg",
-		},
 		source_group = "SFX",
 		gain = 0.1,
 		loop = false,
+		files = {
+			"jungle_1.ogg"
+		}
 	},
 	HeroMonkeyGodTetsuboStorm = {
-		files = {
-			"krf_toee_saitam_tetsubostorm[op1].ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"krf_toee_saitam_tetsubostorm[op1].ogg"
+		}
 	},
 	SpecialIndiana = {
-		files = {
-			"indiana.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"indiana.ogg"
+		}
 	},
 	HeroMonkeyGodCloudJump = {
-		files = {
-			"krf_toee_saitam_cloudclimb_v2[op2].ogg",
-		},
 		source_group = "SFX",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_toee_saitam_cloudclimb_v2[op2].ogg"
+		}
 	},
 	HeroPriestConsecrate = {
-		files = {
-			"hero_priest_consecrate.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"hero_priest_consecrate.ogg"
+		}
 	},
 	SpecialVolcanoLavaShoot = {
-		files = {
-			"volcano_lavaShot.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"volcano_lavaShot.ogg"
+		}
 	},
 	HeroBeastMasterTauntIntro = {
-		files = {
-			"Level_up.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Level_up.ogg"
+		}
 	},
 	FrontiersFinalBossPiecesRegroup = {
-		files = {
-			"boss_umbra_sphere_join.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_umbra_sphere_join.ogg"
+		}
 	},
 	SpecialBlackDragonTaunt = {
+		loop = false,
+		gain = 0.3,
+		mode = "random",
+		source_group = "TAUNTS",
 		files = {
 			"dragonHero_confirm1.ogg",
 			"dragonHero_confirm2.ogg",
 			"dragonHero_confirm3.ogg",
-			"dragonHero_confirm4.ogg",
-		},
-		loop = false,
-		mode = "random",
-		gain = 0.3,
-		source_group = "TAUNTS",
+			"dragonHero_confirm4.ogg"
+		}
 	},
 	HeroMonkSnakeAttack = {
-		files = {
-			"Hero_Monk_Snake_attack.ogg",
-		},
 		source_group = "SPECIALS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Hero_Monk_Snake_attack.ogg"
+		}
 	},
 	NecromancerTauntDeath_Knight = {
-		files = {
-			"necromancer_taunt_dknight.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"necromancer_taunt_dknight.ogg"
+		}
 	},
 	HeroMinotaurDeath = {
-		files = {
-			"Minotaur_05e_death.ogg",
-		},
 		source_group = "TAUNTS",
 		gain = 1,
 		loop = false,
+		files = {
+			"Minotaur_05e_death.ogg"
+		}
 	},
 	HeroMonkeyGodAttack2 = {
-		files = {
-			"krf_toee_saitam_attack[op2].ogg",
-		},
 		source_group = "SFX",
 		gain = 0.5,
 		loop = false,
+		files = {
+			"krf_toee_saitam_attack[op2].ogg"
+		}
 	},
 	BossMonkeyChestPounding = {
-		files = {
-			"boss_mono_chestdrum.ogg",
-		},
 		source_group = "SFX",
 		gain = 1,
 		loop = false,
+		files = {
+			"boss_mono_chestdrum.ogg"
+		}
 	},
 	KR2_MusicBossFight = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.7,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Finalboss_fight.ogg"
 		}
 	},
-	MusicBattlePrep_219 = {
+	MusicBattlePrep_215 = {
+		gain = 0.6,
+		loop = true,
 		source_group = "MUSIC",
+		stream = true,
+		files = {
+			"Underground_Prep.ogg",
+		},
+	},
+	MusicBattlePrep_219 = {
+		stream = true,
 		gain = 0.7,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_PreBattle.ogg"
 		}
 	},
 	MusicBattlePrep_220 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.7,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_PreBattle.ogg"
 		}
 	},
 	MusicBattlePrep_221 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.7,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_PreBattle.ogg"
 		}
 	},
 	MusicBattlePrep_222 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.6,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Underground_Prep.ogg"
 		}
 	},
-	MusicBattle_219 = {
+	MusicBattle_215 = {
+		gain = 0.3,
+		loop = true,
 		source_group = "MUSIC",
+		stream = true,
+		files = {
+			"Underground_Battle.ogg",
+		},
+	},
+	MusicBattle_219 = {
+		stream = true,
 		gain = 0.5,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_Battle.ogg"
 		}
 	},
 	MusicBattle_220 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.5,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_Battle.ogg"
 		}
 	},
 	MusicBattle_221 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.5,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Halloween_Battle.ogg"
 		}
 	},
 	MusicBattle_222 = {
-		source_group = "MUSIC",
+		stream = true,
 		gain = 0.3,
 		loop = true,
-		stream = true,
+		source_group = "MUSIC",
 		files = {
 			"Underground_Battle.ogg"
 		}
-	},
+	}
 }

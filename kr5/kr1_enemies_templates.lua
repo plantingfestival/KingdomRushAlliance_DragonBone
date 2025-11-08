@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\kr1_enemies_templates.lua
+
 local bit = require("bit")
 local bor = bit.bor
 local band = bit.band
@@ -5,7 +7,6 @@ local bnot = bit.bnot
 local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
@@ -100,7 +101,6 @@ tt.unit.mod_offset = v(0, ady(15))
 tt.vis.bans = bor(F_BLOCK, F_SKELETON, F_EAT, F_POLYMORPH)
 tt.vis.flags = bor(F_ENEMY)
 tt.clicks_to_destroy = 6
-
 tt = RT("enemy_sheep_fly", "enemy_sheep_ground")
 anchor_y = 0.038461538461538464
 image_y = 78
@@ -122,25 +122,26 @@ tt.unit.hit_offset = v(0, ady(56))
 tt.unit.mod_offset = v(0, ady(48))
 tt.unit.show_blood_pool = false
 tt.vis.flags = bor(F_ENEMY, F_FLYING)
-
 tt = RT("enemy_greenmuck", "enemy_KR5")
+
 AC(tt, "melee", "timed_attacks")
-tt.enemy.gold = 80
+
+tt.enemy.gold = 300
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(28, 0)
 tt.health.dead_lifetime = 8
-tt.health.hp_max = 1800
+tt.health.hp_max = 4800
 tt.health_bar.offset = v(0, 96)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.info.fn = kr1_scripts.eb_greenmuck.get_info
 tt.info.i18n_key = "ENEMY_GREENMUCK"
--- tt.info.enc_icon = 45
 tt.info.portrait = "bottom_info_image_enemies_0050"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.enemy_greenmuck.update
 tt.motion.max_speed = 0.3 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.1402439024390244)
 tt.render.sprites[1].prefix = "enemy_greenmuck"
+tt.render.sprites[1].scale = vv(1.1)
 tt.render.sprites[1].angles_stickiness = {
 	walk = 10
 }
@@ -164,8 +165,8 @@ tt.vis.bans = bor(F_TELEPORT, F_POLYMORPH, F_EAT, F_DISINTEGRATED, F_INSTAKILL, 
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].damage_max = 250
-tt.melee.attacks[1].damage_min = 150
+tt.melee.attacks[1].damage_max = 200
+tt.melee.attacks[1].damage_min = 100
 tt.melee.attacks[1].damage_radius = 60
 tt.melee.attacks[1].count = 10
 tt.melee.attacks[1].hit_time = fts(10)
@@ -179,13 +180,12 @@ tt.timed_attacks.list[1].cooldown = 6
 tt.timed_attacks.list[1].shoot_time = fts(13)
 tt.timed_attacks.list[1].vis_flags = F_RANGED
 tt.timed_attacks.list[1].vis_bans = F_ENEMY
-
 tt = RT("bomb_greenmuck_small", "bomb")
 tt.bullet.damage_bans = F_ENEMY
 tt.bullet.damage_flags = F_AREA
 tt.bullet.damage_type = DAMAGE_PHYSICAL
-tt.bullet.damage_max = 80
-tt.bullet.damage_min = 40
+tt.bullet.damage_max = 60
+tt.bullet.damage_min = 30
 tt.bullet.damage_radius = 47.25
 tt.bullet.flight_time_base = fts(17)
 tt.bullet.flight_time_factor = fts(0.07142857142857142)

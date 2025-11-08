@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\data\\game_debug_data.lua
+
 return {
 	default_page_for_terrain = {
 		[TERRAIN_STYLE_SEA_OF_TREES] = 1
@@ -193,9 +195,13 @@ return {
 			"enemy_spider_big",
 			"enemy_wolf_small",
 			"enemy_wolf",
+			"enemy_whitewolf",
 			"enemy_bandit",
 			"enemy_brigand",
 			"enemy_marauder",
+			"enemy_raider",
+			"enemy_pillager",
+			"eb_kingpin",
 			"enemy_dark_knight",
 			"enemy_slayer",
 			"enemy_rocketeer",
@@ -203,11 +209,8 @@ return {
 			"enemy_skeleton",
 			"enemy_skeleton_big",
 			"enemy_necromancer",
-			"enemy_demon",
-			"enemy_demon_imp",
-			"enemy_demon_wolf",
-			"enemy_demon_mage",
-			"enemy_lava_elemental",
+			"enemy_yeti",
+			"enemy_lava_elemental"
 		},
 		{
 			"enemy_zombie",
@@ -228,7 +231,7 @@ return {
 			"enemy_fallen_knight",
 			"enemy_spectral_knight",
 			"enemy_witch",
-			"eb_blackburn",
+			"eb_blackburn"
 		},
 		{
 			"enemy_ghost",
@@ -248,7 +251,22 @@ return {
 			"enemy_orc_armored",
 			"enemy_orc_rider",
 			"enemy_shaman",
-			"eb_gulthak"
+			"eb_gulthak",
+			"enemy_hobgoblin",
+			"enemy_demon",
+			"enemy_demon_imp",
+			"enemy_demon_wolf",
+			"enemy_demon_mage",
+			"enemy_demon_legion",
+			"enemy_demon_flareon",
+			"enemy_demon_gulaemon",
+			"enemy_demon_cerberus",
+			"enemy_troll",
+			"enemy_troll_axe_thrower",
+			"enemy_troll_skater",
+			"enemy_troll_chieftain",
+			"enemy_troll_brute",
+			"eb_ulgukhai"
 		},
 		{
 			"mod_natures_vigor",

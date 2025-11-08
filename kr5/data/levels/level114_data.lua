@@ -1,4 +1,6 @@
-﻿return {
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\data\\levels\\level114_data.lua
+
+return {
 	locked_hero = false,
 	level_terrain_type = 1,
 	max_upgrade_level = 5,
@@ -38,31 +40,31 @@
 			}
 		},
 		{
+			["render.sprites[1].name"] = "stage_114",
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
-			["render.sprites[1].name"] = "stage_114",
 			pos = {
 				x = 512,
 				y = 384
 			}
 		},
 		{
-			["render.sprites[1].name"] = "orc_ruins_0002",
+			["render.sprites[1].anchor.x"] = 0.5,
 			["render.sprites[1].anchor.y"] = 0.25,
 			template = "decal_background",
 			["render.sprites[1].z"] = 1400,
-			["render.sprites[1].anchor.x"] = 0.5,
+			["render.sprites[1].name"] = "orc_ruins_0002",
 			pos = {
 				x = 623,
 				y = 438
 			}
 		},
 		{
-			["render.sprites[1].name"] = "orc_ruins_0001",
+			["render.sprites[1].anchor.x"] = 0.5,
 			["render.sprites[1].anchor.y"] = 0.25,
 			template = "decal_background",
 			["render.sprites[1].z"] = 3000,
-			["render.sprites[1].anchor.x"] = 0.5,
+			["render.sprites[1].name"] = "orc_ruins_0001",
 			pos = {
 				x = 478,
 				y = 488
@@ -77,9 +79,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_burner",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_burner",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_burner_idle",
 			pos = {
 				x = 923,
@@ -91,9 +93,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_burner",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_burner",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_burner_idle",
 			pos = {
 				x = 923,
@@ -105,9 +107,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_burner",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_burner",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_burner_idle",
 			pos = {
 				x = 608,
@@ -119,9 +121,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_burner",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_burner",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_burner_idle",
 			pos = {
 				x = 767,
@@ -133,9 +135,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_flag",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_flag",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_flag_idle",
 			pos = {
 				x = 936,
@@ -147,9 +149,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_flag",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_flag",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_flag_idle",
 			pos = {
 				x = 936,
@@ -161,9 +163,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_flag",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_flag",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_flag_idle",
 			pos = {
 				x = 573,
@@ -175,9 +177,9 @@
 			}
 		},
 		{
-			["render.sprites[1].z"] = 3000,
-			template = "decal_orc_flag",
 			["render.sprites[1].r"] = 0,
+			template = "decal_orc_flag",
+			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "decal_orc_flag_idle",
 			pos = {
 				x = 795,
@@ -190,9 +192,9 @@
 		},
 		{
 			["editor.r"] = 0,
-			["editor.path_id"] = 3,
-			template = "editor_wave_flag",
 			["editor.len"] = 240,
+			template = "editor_wave_flag",
+			["editor.path_id"] = 3,
 			pos = {
 				x = 981,
 				y = 453
@@ -200,9 +202,9 @@
 		},
 		{
 			["editor.r"] = 1.5707963267949,
-			["editor.path_id"] = 1,
-			template = "editor_wave_flag",
 			["editor.len"] = 80,
+			template = "editor_wave_flag",
+			["editor.path_id"] = 1,
 			pos = {
 				x = 670,
 				y = 715
@@ -210,9 +212,9 @@
 		},
 		{
 			["editor.r"] = 1.5707963267949,
-			["editor.path_id"] = 2,
-			template = "editor_wave_flag",
 			["editor.len"] = 80,
+			template = "editor_wave_flag",
+			["editor.path_id"] = 2,
 			pos = {
 				x = 712,
 				y = 715
@@ -573,6 +575,7 @@
 		"kr1_enemies_common",
 		"go_enemies_acaroth",
 		"go_enemies_grass",
+		"enemies_hobgoblin",
 		"go_stage114",
 		"go_stage114_bg"
 	}

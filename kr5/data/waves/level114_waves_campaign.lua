@@ -1,4 +1,4 @@
-﻿-- chunkname: @./kr1/data/waves/level14_waves_campaign.lua
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\data\\waves\\level114_waves_campaign.lua
 
 return {
 	lives = 20,
@@ -16,36 +16,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 5,
 							interval_next = 30,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 6,
 							interval_next = 30,
-							max = 6
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 7,
 							interval_next = 30,
-							max = 7
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 10,
 							interval_next = 30,
-							max = 10
+							path = 1
 						}
 					}
 				},
@@ -58,36 +58,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 7,
 							interval_next = 30,
-							max = 7
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 8,
 							interval_next = 30,
-							max = 8
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 9,
 							interval_next = 30,
-							max = 9
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 14,
 							interval_next = 30,
-							max = 14
+							path = 1
 						}
 					}
 				}
@@ -105,9 +105,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 16,
 							interval_next = 30,
-							max = 16
+							path = 1
 						}
 					}
 				},
@@ -120,18 +120,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 0,
 							interval_next = 180,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 6,
 							interval_next = 30,
-							max = 6
+							path = 1
 						}
 					}
 				},
@@ -144,18 +144,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 20,
 							interval_next = 30,
-							max = 20
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 10,
 							interval_next = 30,
-							max = 10
+							path = 1
 						}
 					}
 				}
@@ -173,9 +173,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin",
-							path = 1,
+							max = 30,
 							interval_next = 120,
-							max = 30
+							path = 1
 						}
 					}
 				},
@@ -188,9 +188,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 10,
 							interval_next = 50,
-							max = 10
+							path = 1
 						}
 					}
 				},
@@ -203,27 +203,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 4,
 							interval_next = 50,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 150,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 4,
 							interval_next = 50,
-							max = 4
+							path = 1
 						}
 					}
 				}
@@ -242,9 +242,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 8,
 							interval_next = 50,
-							max = 8
+							path = 1
 						}
 					}
 				},
@@ -258,9 +258,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 8,
 							interval_next = 50,
-							max = 8
+							path = 1
 						}
 					}
 				}
@@ -278,27 +278,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 2,
 							interval_next = 140,
-							max = 2
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 8,
 							interval_next = 100,
-							max = 8
+							path = 1
 						}
 					}
 				},
@@ -311,36 +311,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 0,
 							interval_next = 25,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 77,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 2,
 							interval_next = 140,
-							max = 2
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 8,
 							interval_next = 100,
-							max = 8
+							path = 1
 						}
 					}
 				}
@@ -358,27 +358,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf_small",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf_small",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf_small",
-							path = 1,
+							max = 10,
 							interval_next = 0,
-							max = 10
+							path = 1
 						}
 					}
 				},
@@ -391,9 +391,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 12,
 							interval_next = 50,
-							max = 12
+							path = 1
 						}
 					}
 				},
@@ -406,27 +406,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 3,
 							interval_next = 100,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_fat_orc",
-							path = 1,
+							max = 10,
 							interval_next = 50,
-							max = 10
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						}
 					}
 				}
@@ -444,27 +444,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 200,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 4,
 							interval_next = 150,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						}
 					}
 				},
@@ -477,27 +477,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 200,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 6,
 							interval_next = 150,
-							max = 6
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 6,
 							interval_next = 50,
-							max = 6
+							path = 1
 						}
 					}
 				}
@@ -515,54 +515,54 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf_small",
-							path = 1,
+							max = 25,
 							interval_next = 0,
-							max = 25
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 3,
 							interval_next = 150,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 4,
 							interval_next = 150,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 6,
 							interval_next = 150,
-							max = 6
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 4,
 							interval_next = 50,
-							max = 4
+							path = 1
 						}
 					}
 				}
@@ -580,36 +580,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 0,
 							interval_next = 100,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 3,
 							interval_next = 150,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 150,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 7,
 							interval_next = 150,
-							max = 7
+							path = 1
 						}
 					}
 				},
@@ -622,18 +622,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 4,
 							interval_next = 150,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 64,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 6,
 							interval_next = 150,
-							max = 6
+							path = 1
 						}
 					}
 				},
@@ -646,36 +646,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 0,
 							interval_next = 100,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 3,
 							interval_next = 150,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 150,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 7,
 							interval_next = 150,
-							max = 7
+							path = 1
 						}
 					}
 				}
@@ -693,18 +693,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 4,
 							interval_next = 50,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 6,
 							interval_next = 50,
-							max = 6
+							path = 1
 						}
 					}
 				},
@@ -717,27 +717,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 0,
 							interval_next = 10,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 4,
 							interval_next = 150,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 64,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 8,
 							interval_next = 150,
-							max = 8
+							path = 1
 						}
 					}
 				},
@@ -750,27 +750,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 8,
 							interval_next = 50,
-							max = 8
+							path = 1
 						},
 						{
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 3,
 							interval_next = 40,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 64,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 8,
 							interval_next = 150,
-							max = 8
+							path = 1
 						},
 						{
 							interval = 51,
@@ -778,9 +778,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
 							max_same = 3,
-							path = 1,
+							max = 12,
 							interval_next = 150,
-							max = 12
+							path = 1
 						}
 					}
 				}
@@ -799,27 +799,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						}
 					}
 				},
@@ -833,27 +833,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						}
 					}
 				},
@@ -867,27 +867,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 5,
 							interval_next = 0,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_gargoyle",
-							path = 1,
+							max = 10,
 							interval_next = 0,
-							max = 10
+							path = 1
 						}
 					}
 				}
@@ -905,144 +905,144 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 100,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 100,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 100,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 1,
+							max = 1,
 							interval_next = 50,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 10,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 100,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 8,
 							interval_next = 100,
-							max = 8
+							path = 1
 						}
 					}
 				}
@@ -1060,18 +1060,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 10,
 							interval_next = 300,
-							max = 10
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 10,
 							interval_next = 0,
-							max = 10
+							path = 1
 						}
 					}
 				},
@@ -1084,27 +1084,27 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 300,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 4,
 							interval_next = 0,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 12,
 							interval_next = 0,
-							max = 12
+							path = 1
 						}
 					}
 				},
@@ -1117,54 +1117,54 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 20,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 100,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 6,
 							interval_next = 0,
-							max = 6
+							path = 1
 						}
 					}
 				}
@@ -1182,36 +1182,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 8,
 							interval_next = 150,
-							max = 8
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 10,
 							interval_next = 150,
-							max = 10
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 12,
 							interval_next = 150,
-							max = 12
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 14,
 							interval_next = 150,
-							max = 14
+							path = 1
 						}
 					}
 				},
@@ -1224,36 +1224,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 12,
 							interval_next = 150,
-							max = 12
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 14,
 							interval_next = 150,
-							max = 14
+							path = 1
 						},
 						{
 							interval = 19,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 16,
 							interval_next = 150,
-							max = 16
+							path = 1
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 18,
 							interval_next = 150,
-							max = 18
+							path = 1
 						}
 					}
 				}
@@ -1271,9 +1271,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 30,
 							interval_next = 100,
-							max = 30
+							path = 1
 						}
 					}
 				},
@@ -1286,54 +1286,54 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 3,
 							interval_next = 100,
-							max = 3
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 5,
 							interval_next = 200,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 6,
 							interval_next = 100,
-							max = 6
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 5,
 							interval_next = 200,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 9,
 							interval_next = 100,
-							max = 9
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_shaman",
-							path = 1,
+							max = 5,
 							interval_next = 200,
-							max = 5
+							path = 1
 						}
 					}
 				}
@@ -1351,36 +1351,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 250,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 300,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 250,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 300,
-							max = 5
+							path = 1
 						}
 					}
 				},
@@ -1393,45 +1393,45 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 0,
 							interval_next = 60,
-							max = 0
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 6,
 							interval_next = 100,
-							max = 6
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 8,
 							interval_next = 100,
-							max = 8
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 17,
 							interval_next = 100,
-							max = 17
+							path = 1
 						}
 					}
 				}
@@ -1449,54 +1449,54 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 7,
 							interval_next = 100,
-							max = 7
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_goblin_zapper",
-							path = 1,
+							max = 5,
 							interval_next = 200,
-							max = 5
+							path = 1
 						},
 						{
 							interval = 38,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 7,
 							interval_next = 100,
-							max = 7
+							path = 1
 						}
 					}
 				},
@@ -1510,9 +1510,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 8,
-							path = 1,
+							max = 10,
 							interval_next = 100,
-							max = 10
+							path = 1
 						},
 						{
 							interval = 38,
@@ -1520,9 +1520,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 8,
-							path = 1,
+							max = 10,
 							interval_next = 100,
-							max = 10
+							path = 1
 						},
 						{
 							interval = 38,
@@ -1530,9 +1530,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 8,
-							path = 1,
+							max = 10,
 							interval_next = 100,
-							max = 10
+							path = 1
 						}
 					}
 				}
@@ -1551,9 +1551,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 12,
-							path = 1,
+							max = 18,
 							interval_next = 100,
-							max = 18
+							path = 1
 						},
 						{
 							interval = 38,
@@ -1561,9 +1561,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 12,
-							path = 1,
+							max = 18,
 							interval_next = 100,
-							max = 18
+							path = 1
 						}
 					}
 				},
@@ -1576,9 +1576,9 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						}
 					}
 				},
@@ -1592,9 +1592,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 12,
-							path = 1,
+							max = 18,
 							interval_next = 100,
-							max = 18
+							path = 1
 						},
 						{
 							interval = 38,
@@ -1602,9 +1602,9 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_orc_armored",
 							max_same = 12,
-							path = 1,
+							max = 18,
 							interval_next = 100,
-							max = 18
+							path = 1
 						}
 					}
 				}
@@ -1622,18 +1622,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 512,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						}
 					}
 				},
@@ -1646,18 +1646,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 512,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 4,
 							interval_next = 100,
-							max = 4
+							path = 1
 						}
 					}
 				},
@@ -1670,18 +1670,18 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 384,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 5,
 							interval_next = 100,
-							max = 5
+							path = 1
 						}
 					}
 				}
@@ -1699,306 +1699,306 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "eb_gulthak",
-							path = 1,
+							max = 1,
 							interval_next = 300,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 400,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 1,
+							max = 1,
 							interval_next = 400,
-							max = 1
+							path = 1
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_orc_armored",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_forest_troll",
-							path = 1,
+							creep = "enemy_hobgoblin",
+							max = 1,
 							interval_next = 400,
-							max = 1
+							path = 1
 						}
 					}
 				},
@@ -2011,171 +2011,234 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 2,
+							max = 0,
 							interval_next = 300,
-							max = 0
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 2,
+							max = 1,
 							interval_next = 150,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 2,
+							max = 1,
 							interval_next = 150,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 2,
+							max = 1,
 							interval_next = 150,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_forest_troll",
-							path = 2,
+							max = 1,
 							interval_next = 150,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 2,
+							max = 1,
 							interval_next = 0,
-							max = 1
+							path = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_forest_troll",
+							max = 1,
+							interval_next = 150,
+							path = 2
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre",
-							path = 3,
+							max = 1,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_ogre",
+							max = 1,
 							interval_next = 30,
-							max = 1
+							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_ogre",
+							max = 1,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_forest_troll",
+							max = 1,
+							interval_next = 150,
+							path = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_ogre",
+							max = 1,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_ogre",
+							max = 1,
+							interval_next = 30,
+							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_ogre",
+							max = 1,
+							interval_next = 0,
+							path = 2
 						}
 					}
 				},
@@ -2188,36 +2251,36 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_wolf_small",
-							path = 2,
+							max = 0,
 							interval_next = 300,
-							max = 0
+							path = 2
 						},
 						{
 							interval = 13,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf_small",
-							path = 1,
+							max = 80,
 							interval_next = 100,
-							max = 80
+							path = 1
 						},
 						{
 							interval = 26,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_wolf",
-							path = 1,
+							max = 50,
 							interval_next = 100,
-							max = 50
+							path = 1
 						},
 						{
 							interval = 64,
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_orc_rider",
-							path = 1,
+							max = 10,
 							interval_next = 100,
-							max = 10
+							path = 1
 						}
 					}
 				}

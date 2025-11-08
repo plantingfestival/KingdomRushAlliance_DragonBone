@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\templates_game.lua
+
 local bit = require("bit")
 local bor = bit.bor
 local band = bit.band
@@ -19,6 +21,7 @@ require("templates")
 table.insert(__CHAINED_TEMPLATES, "templates_game")
 
 package.loaded["data.balance.balance"] = nil
+
 local balance = require("data.balance.balance")
 local IS_PHONE = KR_TARGET == "phone"
 local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
@@ -338,7 +341,6 @@ tt.particle_system.scale_var = {
 tt.particle_system.scale_same_aspect = false
 tt.particle_system.emit_spread = math.pi
 tt.particle_system.emission_rate = 30
-
 tt = E:register_t("ps_hero_witch_ranged_basic_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -352,7 +354,6 @@ tt.particle_system.particle_lifetime = {
 	fts(8)
 }
 tt.particle_system.emit_rotation_spread = math.pi / 2
-
 tt = E:register_t("tower_tricannon_bomb_4_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -506,7 +507,6 @@ tt.particle_system.loop = false
 tt.particle_system.animation_fps = 15
 tt.particle_system.emission_rate = 100
 tt.particle_system.track_rotation = true
-
 tt = E:register_t("ps_hero_lava_double_trouble")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -529,7 +529,6 @@ tt.particle_system.animation_fps = 15
 tt.particle_system.emission_rate = 25
 tt.particle_system.emit_rotation_spread = math.pi * 2
 tt.particle_system.emit_area_spread = v(2, 2)
-
 tt = E:register_t("ps_hero_vesper_arrow_to_the_knee_bullet_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -667,7 +666,6 @@ tt.particle_system.particle_lifetime = {
 	fts(6),
 	fts(6)
 }
-
 tt = E:register_t("ps_bullet_enemy_spider_priest")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -683,7 +681,6 @@ tt.particle_system.particle_lifetime = {
 	fts(6),
 	fts(6)
 }
-
 tt = E:register_t("ps_hero_space_elf_basic_attack_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -696,7 +693,6 @@ tt.particle_system.emit_rotation_spread = math.pi * 2
 tt.particle_system.z = Z_BULLET_PARTICLES
 tt.particle_system.anchor = v(0.5, 0.5)
 tt.particle_system.emit_area_spread = v(5, 5)
-
 tt = E:register_t("ps_hero_spider_basic_attack_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -710,7 +706,6 @@ tt.particle_system.particle_lifetime = {
 	fts(18),
 	fts(18)
 }
-
 tt = E:register_t("ps_tower_rocket_gunners_sting_missiles_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -876,7 +871,6 @@ tt.particle_system.particle_lifetime = {
 	fts(9)
 }
 tt.emit_offset_relative = v(-15, 0)
-
 tt = E:register_t("ps_hero_witch_spark_1")
 
 E:add_comps(tt, "pos", "particle_system", "main_script")
@@ -906,7 +900,6 @@ tt.emit_direction_sides = {
 	2 * math.pi / 3,
 	math.pi / 3
 }
-
 tt = E:register_t("ps_bullet_stage_11_cult_leader")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1233,7 +1226,6 @@ tt.particle_system.particle_lifetime = {
 tt.particle_system.emission_rate = 20
 tt.particle_system.emit_rotation_spread = math.pi / 2
 tt.particle_system.z = Z_FLYING_HEROES
-
 tt = E:register_t("ps_bullet_hero_dragon_arb_arborean_spawn")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1310,7 +1302,6 @@ tt.particle_system.scales_y = {
 tt.particle_system.emission_rate = 70
 tt.particle_system.track_rotation = true
 tt.particle_system.z = Z_BULLET_PARTICLES
-
 tt = E:register_t("ps_hero_hunter_walk_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1336,7 +1327,6 @@ tt.particle_system.particle_lifetime = {
 	fts(14)
 }
 tt.emit_direction = d2r(90)
-
 tt = E:register_t("ps_bullet_incendiary_soldier_dwarf_tower")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1351,7 +1341,6 @@ tt.particle_system.particle_lifetime = {
 tt.particle_system.emission_rate = 20
 tt.particle_system.emit_rotation_spread = math.pi / 2
 tt.particle_system.z = Z_BULLET_PARTICLES
-
 tt = E:register_t("ps_bullet_hero_bird_cluster_bomb")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1420,7 +1409,6 @@ tt.particle_system.particle_lifetime = {
 	fts(8)
 }
 tt.emit_offset_relative = v(-15, 0)
-
 tt = E:register_t("ps_bullet_enemy_corrupted_elf")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1555,7 +1543,6 @@ tt.particle_system.scales_x = {
 	0.9,
 	1.1
 }
-
 tt = E:register_t("ps_bullet_crocs_hydra_tower_debuff")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1634,7 +1621,6 @@ tt.particle_system.scale_var = {
 	0.5,
 	1.4
 }
-
 tt = E:register_t("ps_tower_sparking_geode_sparks_1")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1667,7 +1653,6 @@ tt.particle_system.particle_lifetime = {
 	fts(34),
 	fts(34)
 }
-
 tt = E:register_t("ps_bullet_tower_stage_22_mages_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1781,7 +1766,6 @@ tt.particle_system.track_offset = v(0, 0)
 tt.particle_system.z = Z_DECALS
 tt.particle_system.emit_area_spread = v(4, 4)
 tt.particle_system.rotation_spread = 20
-
 tt = E:register_t("ps_bullet_enemy_brute_welder_death_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -2002,7 +1986,6 @@ tt.particle_system.scales_x = {
 tt.emit_offset_relative = v(0, 0)
 tt = E:register_t("ps_bullet_boss_grymbeard_death_boss_trail", "ps_bullet_boss_grymbeard_trail")
 tt.particle_system.name = "grymbeardbossLAYERS_flytrail_run"
-
 tt = E:register_t("ps_bullet_hero_dragon_arb_breath_spikes")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -2048,7 +2031,6 @@ tt.particle_system.loop = false
 tt.particle_system.emission_rate = 30
 tt.particle_system.track_rotation = true
 tt.particle_system.z = Z_BULLET_PARTICLES
-
 tt = E:register_t("ps_spider_sister_bolt_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -2545,16 +2527,13 @@ tt.render.sprites[1].prefix = "UpdateHalloween_terrain_anim"
 tt.render.sprites[1].name = "out"
 tt.render.sprites[1].offset = v(0, 13.5)
 tt.render.sprites[1].z = Z_OBJECTS
-
 tt = E:register_t("fx_bolt_lumenir_hit", "fx")
 tt.render.sprites[1].name = "hero_lumenir_attack_hit_fx_air"
 tt = E:register_t("fx_bolt_lumenir_hit_mini", "fx")
 tt.render.sprites[1].name = "hero_lumenir_light_companion_attack_fx_idle"
-
 tt = E:register_t("fx_ultimate_hero_lava", "fx")
 tt.render.sprites[1].name = "hero_lava_ultimate_hit"
 tt.render.sprites[1].z = Z_OBJECTS
-
 tt = E:register_t("fx_arborean_sentinels_spearmen_spear_hit", "fx")
 tt.render.sprites[1].name = "tower_arborean_sentinels_spearmen_hitFx"
 tt.render.sprites[1].loop = false
@@ -2685,7 +2664,6 @@ tt = E:register_t("fx_tower_stargazers_death_star_hit", "fx")
 tt.render.sprites[1].prefix = "elven_stargazers_tower_rising_star_hit_fx"
 tt = E:register_t("fx_hero_space_elf_ranged_hit", "fx")
 tt.render.sprites[1].name = "hero_therien_ranged_hit_idle"
-
 tt = E:register_t("fx_hero_spider_ranged_hit", "fx")
 tt.render.sprites[1].name = "hero_spider_05_hitfx_run"
 tt = E:register_t("fx_hero_spider_area_attack", "fx")
@@ -2729,7 +2707,6 @@ tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].sort_y_offset = -5
 tt.render.sprites[1].animated = true
-
 tt = E:register_t("fx_soul_soldier_tower_ghost", "fx")
 tt.render.sprites[1].name = "ghost_tower_soul_skill_hit_fx_idle"
 tt = E:register_t("fx_hero_space_elf_melee_hit", "fx")
@@ -2934,7 +2911,6 @@ tt = E:register_t("fx_item_second_breath_respawn", "fx")
 tt.render.sprites[1].name = "item_second_breath_respawn_fx_idle"
 tt = E:register_t("fx_item_second_breath_tap", "fx")
 tt.render.sprites[1].name = "item_second_breath_tap_fx"
-
 tt = E:register_t("fx_bullet_tower_dark_elf_hit", "fx")
 tt.render.sprites[1].name = "shotexplosion_run"
 tt = E:register_t("fx_bullet_tower_stage_17_weirdwood", "fx")
@@ -2972,7 +2948,6 @@ tt.render.sprites[1].name = "ItemSliderItemView"
 tt = E:register_t("fx_tower_dark_elf_skill_buff", "fx")
 tt.render.sprites[1].name = "souldrain_run"
 tt.render.sprites[1].offset.y = 25
-
 tt = E:register_t("fx_tower_hermit_toad_splash", "fx")
 tt.render.sprites[1].name = "hermit_toad_tower_splash_run"
 tt.render.sprites[1].anchor = v(0.712, 0.15)
@@ -3011,7 +2986,6 @@ tt.render.sprites[1].name = "run"
 tt.render.sprites[1].z = Z_OBJECTS
 tt = E:register_t("fx_bullet_tower_arborean_mage_hit", "fx")
 tt.render.sprites[1].name = "Stage_22_shaman_shaman_hitfx_run"
-
 tt = E:register_t("fx_bullet_enemy_brute_welder_death_hit", "fx")
 tt.render.sprites[1].prefix = "brute_welder_tower_hit_fx"
 tt.render.sprites[1].name = "idle"
@@ -3195,11 +3169,9 @@ tt.tween.props[1].loop = false
 tt.tween.props[1].sprite_id = 1
 tt = E:register_t("fx_enemy_evolving_scourge_eat", "fx")
 tt.render.sprites[1].name = "evolving_scourge_eat_FX"
-
 tt = E:register_t("fx_bullet_enemy_corrupted_elf_hit", "fx")
 tt.render.sprites[1].name = "fx_knife_satyr_hit"
 tt.render.sprites[1].offset.y = 5
-
 tt = E:register_t("fx_quickfeet_chicken_hit", "fx")
 tt.render.sprites[1].name = "quickfeet_gator_hit_projectile_run"
 tt = E:register_t("fx_quickfeet_bone_hit", "fx")
@@ -3319,7 +3291,6 @@ tt.render.sprites[1].prefix = "boss_gator_groundcrack_lvl3Def"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].hide_after_runs = 1
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("fx_bullet_enemy_spider_priest_hit", "fx")
 tt.render.sprites[1].name = "cultist_spider_spell_hit"
 tt = E:register_t("spider_sister_bolt_hit_fx", "fx")
@@ -3602,12 +3573,10 @@ tt = E:register_t("fx_bullet_hero_bird_cluster_bomb_air", "fx")
 tt.render.sprites[1].name = "gryph_skillproy_explosion_run"
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
 tt.render.sprites[1].anchor = v(0.43, 0.5)
-
 tt = E:register_t("fx_explosion_tower_dwarf", "fx")
 tt.render.sprites[1].name = "tower_dwarf_skill_main_explosion_idle"
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
 tt.render.sprites[1].anchor = v(0.43, 0.5)
-
 tt = E:register_t("fx_bullet_hero_bird_cluster_bomb", "fx")
 tt.render.sprites[1].name = "gryph_skillproy_part_explosion_run"
 tt.render.sprites[1].z = Z_OBJECTS
@@ -3621,7 +3590,6 @@ tt.render.sprites[1].scale = vv(1)
 tt = E:register_t("fx_hero_bird_ultimate", "fx")
 tt.render.sprites[1].name = "gryph_child_hit_run"
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
-
 tt = E:register_t("fx_hero_witch_basic_ranged_hit", "fx")
 tt.render.sprites[1].name = "hero_witch_ranged_attack_hit"
 tt = E:register_t("fx_hero_witch_ultimate", "fx")
@@ -3662,7 +3630,6 @@ tt.render.sprites[2].z = Z_EFFECTS
 tt = E:register_t("fx_hero_witch_skill_polymorph", "fx")
 tt.render.sprites[1].name = "hero_witch_skill_1_hit_run"
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
-
 tt = E:register_t("boss_gator_vfx_acid_explosion", "fx")
 tt.render.sprites[1].prefix = "boss_gator_lvl2_bubbleDef"
 tt.render.sprites[1].name = "idle"
@@ -4072,15 +4039,12 @@ tt.render.sprites[1].prefix = "overseer_fx_overseer_proyectile_explosion"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].animated = true
-
 tt = E:register_t("fx_enemy_specter_hit", "fx")
 tt.render.sprites[1].name = "spectre_fx_idle"
 tt = E:register_t("fx_enemy_revenant_harvester_hit", "fx")
 tt.render.sprites[1].name = "harvester_hit_fx"
-
 tt = E:register_t("fx_enemy_mad_tinkerer_hit", "fx")
 tt.render.sprites[1].name = "mad_tinkerer_hit"
-
 tt = E:register_t("fx_stage_19_statue_hands_dust_1", "fx")
 tt.render.sprites[1].prefix = "navira_hands_dust_01"
 tt.render.sprites[1].name = "idle"
@@ -4093,7 +4057,6 @@ tt.render.sprites[1].name = "idle"
 tt = E:register_t("fx_stage_19_statue_hands_stones_2", "fx")
 tt.render.sprites[1].prefix = "navira_hands_stones_02"
 tt.render.sprites[1].name = "idle"
-
 tt = E:register_t("fx_stage_20_arborean_house_hit_1", "fx")
 tt.render.sprites[1].prefix = "arborean_house_hit_1"
 tt.render.sprites[1].name = "run"
@@ -4119,7 +4082,6 @@ tt = E:register_t("fx_stage_22_rocks_paths_fall3", "fx_stage_22_rocks_paths_fall
 tt.render.sprites[1].prefix = "Rocks_Paths3Def"
 tt = E:register_t("fx_stage_22_rocks_paths_fall4", "fx_stage_22_rocks_paths_fall1")
 tt.render.sprites[1].prefix = "Rocks_Paths4Def"
-
 tt = E:register_t("fx_enemy_common_clone_hit", "fx")
 tt.render.sprites[1].name = "common_clone_hit_fx_idle"
 tt = E:register_t("fx_enemy_darksteel_fist_hit", "fx")
@@ -4214,7 +4176,6 @@ tt.render.sprites[1].name = "item_summon_blackburn_attack_1_hit_idle"
 tt = E:register_t("fx_soldier_reinforcement_item_summon_blackburn_area_attack_hit", "fx")
 tt.render.sprites[1].name = "item_summon_blackburn_attack_2_hit_idle"
 tt = E:register_t("fx_soldier_reinforcement_item_summon_blackburn_area_attack", "fx")
-
 tt = E:register_t("fx_bullet_enemy_rolling_sentry", "fx")
 tt.render.sprites[1].name = "rolling_sentry_hit_fx_idle"
 tt = E:register_t("fx_boss_machinist_death_smoke", "fx")
@@ -4225,7 +4186,6 @@ tt = E:register_t("fx_boss_machinist_death_particle", "fx")
 tt.render.sprites[1].prefix = "dlcdwarfbossstage02_particleDef"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].exo = true
-
 tt = E:register_t("fx_tower_arborean_oldtree_hit", "fx")
 tt.render.sprites[1].prefix = "arborean_hitDef"
 tt.render.sprites[1].name = "run"
@@ -4682,13 +4642,11 @@ tt.render.sprites[1].prefix = "dwarven_flamespitter_tower_scorching_torches_part
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].animated = true
 tt.timed.duration = fts(10)
-
 tt = E:register_t("decal_tower_dwarf_jump_explosion", "decal_timed")
 tt.render.sprites[1].prefix = "tower_dwarf_jump_explosion_lvl4_jump_in"
 tt.render.sprites[1].name = "fx"
 tt.render.sprites[1].animated = true
 tt.timed.duration = fts(20)
-
 tt = E:register_t("decal_tower_stage_13_sunray", "decal_tween")
 tt.render.sprites[1].name = "sunraytower_decal1_Asst_SunrayTower_Decal1"
 tt.render.sprites[1].animated = false
@@ -4773,7 +4731,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.remove = true
 tt.tween.disabled = true
-
 tt = E:register_t("decal_bullet_tower_stage_17_weirdwood", "decal_tween")
 tt.render.sprites[1].name = "tower_tree_explosion_decal_asst_explosion_decal"
 tt.render.sprites[1].animated = false
@@ -4793,7 +4750,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("decal_enemy_darksteel_guardian_legs", "decal_tween")
 tt.render.sprites[1].name = "darksteel_guardian_creep_grave_loop"
 tt.render.sprites[1].animated = true
@@ -4836,12 +4792,10 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("hermit_toad_tower_shadow", "decal")
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "hermit_toad_tower_shadow"
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("decal_tower_sparking_geode_burst_crystal", "decal_scripted")
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].prefix = "sparking_geode_crystal_small"
@@ -5196,7 +5150,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("decal_hero_dragon_gem_crystal_tomb", "decal_scripted")
 b = balance.heroes.hero_dragon_gem
 tt.render.sprites[1].prefix = "hero_evil_dragon_hero"
@@ -5204,7 +5157,6 @@ tt.render.sprites[1].name = "death_crystals"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].loop = false
 tt.main_script.update = scripts.decal_hero_dragon_gem_crystal_tomb.update
-
 tt = E:register_t("decal_hero_dragon_gem_floor_impact_shard", "decal_scripted")
 
 E:add_comps(tt, "sound_events")
@@ -5223,7 +5175,6 @@ tt.damage_type = b.damage_type
 tt.mod = "mod_hero_dragon_gem_skill_stun"
 tt.stun_duration = b.stun_duration
 tt.sound_events.insert = "HeroDragonGemPrismaticShardRipple"
-
 tt = E:register_t("decal_hero_dragon_gem_ultimate_shard", "decal_scripted")
 
 E:add_comps(tt, "tween", "sound_events")
@@ -5398,7 +5349,6 @@ tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].scale = vv(0.7)
 tt.timed.duration = fts(27)
-
 tt = E:register_t("decal_dragon_bone_cloud", "decal_tween")
 tt.render.sprites[1].name = "hero_dragon_bone_cloud_b"
 tt.render.sprites[1].animated = false
@@ -5443,7 +5393,6 @@ tt.timed.duration = fts(27)
 tt = E:register_t("decal_hero_witch_ultimate", "decal_timed")
 tt.render.sprites[1].name = "hero_witch_ultimate_teleport_decal"
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("decal_dragon_arb_breath_splint_a", "decal_timed")
 tt.render.sprites[1].prefix = "hero_dragon_arborean_splinter_ground_a"
 tt.render.sprites[1].name = "idle"
@@ -5646,7 +5595,6 @@ tt.tween.props[1].loop = false
 tt.tween.remove = true
 tt = E:register_t("decal_soldier_tower_ghost_hit", "fx")
 tt.render.sprites[1].name = "ghost_tower_hit_fx_idle"
-
 tt = E:register_t("decal_enemy_specter_chase_trail", "decal_tween")
 
 E:add_comps(tt, "main_script")
@@ -5692,7 +5640,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.props[1].loop = false
 tt.tween.remove = false
-
 tt = E:register_t("decal_scrap", "decal_scripted")
 
 E:add_comps(tt, "tween")
@@ -5751,7 +5698,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.disabled = false
 tt.tween.remove = true
-
 tt = E:register_t("decal_boss_spider_queen_spiderweb", "decal_tween")
 b = balance.enemies.arachnids.boss_spider_queen.spiderweb
 
@@ -6062,7 +6008,6 @@ tt.editor.props = {
 		PT_NUMBER
 	}
 }
-
 tt = E:register_t("decal_defense_flag5", "decal_defense_flag")
 
 E:add_comps(tt, "main_script", "editor", "editor_script")
@@ -9341,7 +9286,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("decal_terrain_4_cheshire_cat_easter_egg", "decal_scripted")
 
 E:add_comps(tt, "ui")
@@ -9422,7 +9366,7 @@ tt.render.sprites[1].prefix = "stage_17_tree_4Def"
 tt.render.sprites[1].z = Z_DECALS
 tt.ui.click_rect = r(-227, 270, 90, 80)
 tt = E:register_t("decal_stage_18_mask_1", "decal")
-tt.render.sprites[1].name = "stage18_mask1"
+tt.render.sprites[1].name = "Stage18_mask1"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
 tt = E:register_t("decal_stage_18_tree_1", "decal_scripted")
@@ -9521,8 +9465,8 @@ tt.render.sprites[1].name = "idle_campaign"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].z = Z_OBJECTS
-tt.sound_12 = "Stage19Statue12"
-tt.sound_3 = "Stage19Statue3"
+tt.sound_12 = "stage19Statue12"
+tt.sound_3 = "stage19Statue3"
 tt = E:register_t("decal_stage_19_statue_hands", "decal")
 
 E:add_comps(tt, "editor")
@@ -9585,7 +9529,6 @@ tt.tween.props[2].keys = {
 		v(100, 25)
 	}
 }
-
 tt = E:register_t("stage20_arborean_house", "unit")
 b = balance.specials.stage20_arborean_house
 
@@ -9728,7 +9671,6 @@ tt.render.sprites[1].animated = true
 tt.render.sprites[1].hidden = true
 tt.render.sprites[1].z = Z_DECALS + 1
 tt.waves = b
-
 tt = E:register_t("decal_terrain_6_exodia_arm", "decal_scripted")
 
 E:add_comps(tt, "ui")
@@ -10089,7 +10031,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("decal_mod_stage_29_holder_block_hand", "decal_tween")
 tt.render.sprites[1].prefix = "spiderholder_block_tap"
 tt.render.sprites[1].name = "tap"
@@ -10116,7 +10057,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
-
 tt = E:register_t("decal_stage_25_solid_snake", "decal_scripted")
 
 E:add_comps(tt, "ui")
@@ -10365,6 +10305,33 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.tween.remove = true
+tt = E:register_t("aura_hydra_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = scripts.aura_unit_regen.update
+tt.regen.cooldown = 0.1
+tt.regen.health = 15
+tt.regen.ignore_stun = true
+tt.regen.ignore_freeze = false
+tt = E:register_t("aura_gator_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = scripts.aura_unit_regen.update
+tt.regen.cooldown = 0.1
+tt.regen.health = 120
+tt.regen.ignore_stun = true
+tt.regen.ignore_freeze = true
+tt = E:register_t("aura_gator5_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = scripts.aura_unit_regen.update
+tt.regen.cooldown = 0.1
+tt.regen.health = 25000
+tt.regen.ignore_stun = true
+tt.regen.ignore_freeze = true
 tt = E:register_t("decal_stage_27_clone_alive", "decal_timed")
 tt.render.sprites[1].prefix = "cannonLAYERS_cloneland"
 tt.render.sprites[1].name = "idle"
@@ -10517,7 +10484,6 @@ tt.render.sprites[1].exo = true
 tt.render.sprites[1].z = Z_OBJECTS
 tt = E:register_t("decal_bullet_boss_grymbeard_death_scrap_2", "decal_bullet_boss_grymbeard_death_scrap_1")
 tt.render.sprites[1].prefix = "dclenanos_stage05_grymdebree2Def"
-
 tt = E:register_t("decal_stage_22_puerta1", "decal")
 tt.render.sprites[1].name = "stage_22_puerta1"
 tt.render.sprites[1].animated = false
@@ -10657,7 +10623,6 @@ tt.delayed_play.idle_animation = nil
 tt.delayed_play.play_animation = "loop"
 tt.delayed_play.min_delay = 15
 tt.delayed_play.max_delay = 35
-
 tt = E:register_t("decal_stage_28_mask_1", "decal")
 tt.render.sprites[1].name = "stage_28_mask_01"
 tt.render.sprites[1].animated = false
@@ -10942,8 +10907,8 @@ tt.editor.components = {
 	"render"
 }
 tt.editor.overrides = {
-	["render.sprites[1].animated"] = false,
-	["render.sprites[1].name"] = "editor_red_circle_filled"
+	["render.sprites[1].name"] = "editor_red_circle_filled",
+	["render.sprites[1].animated"] = false
 }
 tt.editor.props = {
 	{
@@ -10972,8 +10937,8 @@ tt.editor.components = {
 	"render"
 }
 tt.editor.overrides = {
-	["render.sprites[1].animated"] = false,
-	["render.sprites[1].name"] = "editor_red_square_filled"
+	["render.sprites[1].name"] = "editor_red_square_filled",
+	["render.sprites[1].animated"] = false
 }
 tt.editor.props = {
 	{
@@ -11285,19 +11250,16 @@ tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS_COVERS
 tt = E:register_t("decal_stage_35_mask_boss_bull_right", "decal_stage_35_mask_boss_bull_left")
 tt.render.sprites[1].flip_x = true
-
 tt = E:register_t("decal_stage_35_mask_path_open", "decal")
 tt.render.sprites[1].name = "stage35_mask_path_open"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_BACKGROUND_COVERS
 tt.render.sprites[1].hidden = true
-
 tt = E:register_t("decal_stage_35_mask_path_closed", "decal")
 tt.render.sprites[1].name = "stage35_mask_path_close"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_BACKGROUND_COVERS
 tt.render.sprites[1].hidden = true
-
 tt = E:register_t("stage_35_bloqueo_path", "decal")
 tt.render.sprites[1].prefix = "stage_5_bloqueo_pathDef"
 tt.render.sprites[1].name = "in"
@@ -11655,7 +11617,6 @@ tt = E:register_t("decal_entity_marker_hero_med", "decal_entity_marker_hero_smal
 tt.render.sprites[1].scale = vv(1.7)
 tt = E:register_t("decal_entity_marker_hero_big", "decal_entity_marker_hero_small")
 tt.render.sprites[1].scale = vv(2)
-
 tt = E:register_t("decal_mod_stage_22_tower_stun_hand", "decal_tween")
 tt.render.sprites[1].prefix = "crocs_tower_block_tap"
 tt.render.sprites[1].name = "tap"
@@ -11703,31 +11664,34 @@ tt.tower.level = 1
 tt.tower.type = "holder"
 tt.tower.can_be_mod = false
 tt.tower_holder.preview_ids = {
-	paladin_covenant = 7,
+	arcane_wizard = 4,
 	royal_archers = 8,
-	ballista = 5,
+	pandas = 23,
 	rocket_gunners = 13,
-	dwarf = 21,
+	arborean_emissary = 9,
 	barrel = 15,
 	flamespitter = 3,
 	hermit_toad = 20,
-	pandas = 23,
+	ghost = 17,
 	sand = 16,
 	elven_stargazers = 12,
 	sparking_geode = 22,
-	arcane_wizard = 4,
+	paladin_covenant = 7,
 	necromancer = 14,
 	ray = 18,
 	demon_pit = 11,
-	arborean_emissary = 9,
-	ghost = 17,
+	dwarf = 21,
+	ballista = 5,
 	dark_elf = 19,
 	tricannon = 6
 }
+
 local id = tt.tower_holder.preview_ids.flamespitter + 1
+
 for k, v in pairs(tt.tower_holder.preview_ids) do
-    id = id + 1
+	id = id + 1
 end
+
 tt.tower_holder.preview_ids.rock_thrower = id
 id = id + 1
 tt.tower_holder.preview_ids.warmongers_barrack = id
@@ -11814,6 +11778,7 @@ tt.render.sprites[23].name = "tower_pandas_tower_preview"
 tt.render.sprites[23].offset = v(0, 10)
 
 local sid = #tt.render.sprites + 1
+
 tt.render.sprites[sid] = table.deepclone(tt.render.sprites[3])
 tt.render.sprites[sid].name = "tower_preview_artillery"
 tt.render.sprites[sid].offset = v(0, 26)
@@ -11837,7 +11802,6 @@ tt.render.sprites[sid] = table.deepclone(tt.render.sprites[3])
 tt.render.sprites[sid].name = "deep_devils_reef_towers_lvl1_ghost"
 tt.render.sprites[sid].anchor.y = 0.11
 tt.render.sprites[sid].offset = v(0, 0)
-
 tt.editor.props = {
 	{
 		"tower.terrain_style",
@@ -11925,17 +11889,14 @@ tt = E:register_t("tower_holder_sea_of_trees_5", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_SEA_OF_TREES_5
 tt.render.sprites[1].name = "terrains_holders_0005"
 tt.render.sprites[2].name = "terrains_holders_0005_flag"
-
 tt = E:register_t("tower_holder_sea_of_trees_6", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_SEA_OF_TREES_6
 tt.render.sprites[1].name = "terrains_holders_0006"
 tt.render.sprites[2].name = "terrains_holders_0006_flag"
-
 tt = E:register_t("tower_holder_sea_of_trees_7", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_SEA_OF_TREES_7
 tt.render.sprites[1].name = "terrains_holders_0007"
 tt.render.sprites[2].name = "terrains_holders_0007_flag"
-
 tt = E:register_t("tower_holder_sea_of_trees_8", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_SEA_OF_TREES_8
 tt.render.sprites[1].name = "terrains_holders_0008"
@@ -12129,7 +12090,6 @@ tt.tower.type = "holder_blocked_sea_of_trees"
 tt.tower_holder.unblock_price = b.price
 tt.render.sprites[1].name = "terrains_holders_0005_blocked"
 tt.render.sprites[2].name = "terrains_holders_0005_flag_blocked"
-
 tt = E:register_t("tower_holder_blocked_terrain_4", "tower_holder_blocked")
 b = balance.specials.trees.blocked_holders
 
@@ -12141,21 +12101,18 @@ tt.tower_holder.unblock_price = b.price
 tt.tower_holder.unblock_fx = "fx_tower_holder_unblock_terrain_4"
 tt.render.sprites[1].name = "terrains_holders_0006_blocked"
 tt.render.sprites[2].name = "UpdateHalloween_terrain_anim_0001"
-
 tt = E:register_t("tower_holder_blocked_terrain_6", "tower_holder_blocked")
 b = balance.specials.terrain_6.blocked_holders
 tt.tower.type = "holder_blocked_sea_of_trees"
 tt.tower_holder.unblock_price = b.price
 tt.render.sprites[1].name = "terrains_holders_0008_blocked"
 tt.render.sprites[2].name = "terrains_holders_0008_flag_blocked"
-
 tt = E:register_t("tower_holder_blocked_terrain_6_2", "tower_holder_blocked")
 b = balance.specials.terrain_6.blocked_holders
 tt.tower.type = "holder_blocked_sea_of_trees"
 tt.tower_holder.unblock_price = b.price
 tt.render.sprites[1].name = "terrains_holders_0009_blocked"
 tt.render.sprites[2].name = "terrains_holders_0009_flag_blocked"
-
 tt = E:register_t("tower_holder_blocked_spiders", "tower_holder_blocked")
 
 E:add_comps(tt, "main_script")
@@ -12494,13 +12451,13 @@ tt.unit_spawns = {
 }
 tt.pre_destroy_cannonballs_list = {
 	{
-		delay = 5.6,
 		spawn_escombro = "camino",
+		delay = 5.6,
 		pos = v(150, 240)
 	},
 	{
-		delay = 6,
 		spawn_escombro = "camino",
+		delay = 6,
 		pos = v(80, 350)
 	}
 }
@@ -12522,8 +12479,8 @@ tt.unit_spawns = nil
 tt.spawn_escombro = nil
 tt.pre_destroy_cannonballs_list = {
 	{
-		delay = 5.5,
 		spawn_escombro = "camino",
+		delay = 5.5,
 		pos = v(300, 460)
 	}
 }
@@ -12534,8 +12491,8 @@ tt.render.sprites[1].anchor = v(0.7767857142857143, 0.3190104166666667)
 tt.spawn_escombro = "holder"
 tt.pre_destroy_cannonballs_list = {
 	{
-		delay = 5.8,
 		spawn_escombro = "camino",
+		delay = 5.8,
 		pos = v(883, 397)
 	}
 }
@@ -12548,8 +12505,8 @@ tt.cinematic_camera_duration_offset = -0.4
 tt.spawn_escombro = nil
 tt.pre_destroy_cannonballs_list = {
 	{
-		delay = 1.1,
 		spawn_escombro = "camino",
+		delay = 1.1,
 		pos = v(872, 527)
 	}
 }
@@ -12700,7 +12657,6 @@ tt.render.sprites[2].name = "channeler_tower_build"
 tt.render.sprites[2].offset = v(0, 15)
 tt.render.sprites[3].offset.y = 60
 tt.render.sprites[4].offset.y = 60
-
 tt = E:register_t("tower_build_dark_elf", "tower_build")
 tt.build_name = "tower_dark_elf_lvl1"
 tt.render.sprites[1].name = "terrains_%04i"
@@ -12709,7 +12665,6 @@ tt.render.sprites[2].name = "Tower_construction"
 tt.render.sprites[2].offset = v(0, 10)
 tt.render.sprites[3].offset.y = 75
 tt.render.sprites[4].offset.y = 75
-
 tt = E:register_t("tower_build_hermit_toad", "tower_build")
 tt.build_name = "tower_hermit_toad_lvl1"
 tt.render.sprites[1].name = "terrains_%04i"
@@ -12719,7 +12674,6 @@ tt.render.sprites[2].name = "hermit_toad_tower_construction"
 tt.render.sprites[2].offset = v(0, 5)
 tt.render.sprites[3].offset.y = 75
 tt.render.sprites[4].offset.y = 75
-
 tt = E:register_t("tower_build_dwarf", "tower_build")
 tt.build_name = "tower_dwarf_lvl1"
 tt.render.sprites[1].name = "terrains_%04i"
@@ -12728,7 +12682,6 @@ tt.render.sprites[2].name = "tower_dwarf_build"
 tt.render.sprites[2].offset = v(0, 10)
 tt.render.sprites[3].offset.y = 62
 tt.render.sprites[4].offset.y = 62
-
 tt = E:register_t("tower_build_sparking_geode", "tower_build")
 tt.build_name = "tower_sparking_geode_lvl1"
 tt.render.sprites[1].name = "terrains_%04i"
@@ -12851,9 +12804,10 @@ tt.attacks.list[1].bullet_start_offset = {
 }
 tt.attacks.range = b.basic_attack.range[3]
 tt.ui.click_rect = r(-32, 3, 67, 72)
-
 tt = E:register_t("tower_royal_archers_lvl4", "tower_royal_archers_lvl1")
+
 E:add_comps(tt, "powers")
+
 b = balance.towers.royal_archers
 image_y = 90
 tt.decal_preview_controller = "royal_archers_decal_preview_controller"
@@ -13641,8 +13595,7 @@ tt.powers.extra_damage.damages = b.extra_damage.damage_factor
 tt.powers.extra_damage.cooldowns = b.extra_damage.cooldown_start
 tt.soul = "soul_soldier_tower_ghost_lvl4"
 tt.mod_extra_damage = "mod_tower_ghost_increase_damage_factor"
-tt.extra_damage_cooldown = b.extra_damage.cooldown_start[1]
-
+tt.extra_damage_cooldown = b.extra_damage.cooldown_start
 tt = E:register_t("soul_soldier_tower_ghost_lvl4", "decal_scripted")
 tt.main_script.update = scripts.tower_ghost.soul_update
 b = balance.towers.ghost.soul_attack
@@ -13785,13 +13738,11 @@ tt.timed_attacks.list[2].vis_bans = bor(F_FLYING)
 tt.timed_attacks.list[2].aura_name = "tower_paladin_covenant_soldier_lvl4_lead_aura"
 tt.timed_attacks.list[2].fx = "tower_paladin_covenant_soldier_lvl4_lead_aura_fx"
 tt.soldier.melee_slot_offset = v(8, 0)
-
 tt = E:register_t("tower_paladin_covenant_soldier_lvl4_invincibility", "modifier")
 tt.invincibility_duration = b.healing_prayer.invincibility_duration
 tt.main_script.insert = scripts.tower_paladin_covenant_soldier_lvl4_invincibility.insert
 tt.main_script.update = scripts.tower_paladin_covenant_soldier_lvl4_invincibility.update
 tt.main_script.remove = scripts.tower_paladin_covenant_soldier_lvl4_invincibility.remove
-
 tt = E:register_t("tower_paladin_covenant_soldier_lvl4_healing_mod", "modifier")
 
 E:add_comps(tt, "hps", "render")
@@ -13803,6 +13754,7 @@ tt.modifier.resets_same = false
 tt.hps.heal_min = b.healing_prayer.heal
 tt.hps.heal_max = b.healing_prayer.heal
 tt.hps.heal_every = b.healing_prayer.heal_every
+
 function tt.main_script.insert(this, store, script)
 	this.modifier.duration = this.healing_duration[this.modifier.level]
 	this.hps.heal_min = this.hps.heal_min[this.modifier.level]
@@ -13810,8 +13762,8 @@ function tt.main_script.insert(this, store, script)
 
 	return scripts.mod_hps.insert(this, store, script)
 end
-tt.main_script.update = scripts.mod_hps.update
 
+tt.main_script.update = scripts.mod_hps.update
 tt = E:register_t("tower_paladin_covenant_soldier_lvl4_healing_mod_fx", "modifier")
 
 E:add_comps(tt, "render", "tween")
@@ -13872,6 +13824,7 @@ tt.tween.props[3].keys = {
 }
 tt.tween.props[3].sprite_id = 3
 tt.tween.remove = false
+
 function tt.main_script.insert(this, store, script)
 	this.modifier.duration = this.healing_duration[this.modifier.level]
 
@@ -13885,8 +13838,8 @@ function tt.main_script.insert(this, store, script)
 
 	return true
 end
-tt.main_script.update = scripts.mod_track_fx.update
 
+tt.main_script.update = scripts.mod_track_fx.update
 tt = E:register_t("tower_paladin_covenant_soldier_lvl4_lead_aura", "aura")
 
 E:add_comps(tt)
@@ -14337,7 +14290,6 @@ for i = 2, 11 do
 end
 
 tt.ui.click_rect = r(-45, -3, 90, 78)
-
 tt = E:register_t("tower_tricannon_overheat_scorch_aura", "aura")
 
 E:add_comps(tt, "render", "tween")
@@ -14395,10 +14347,8 @@ tt.tween.props[2].keys = {
 		0
 	}
 }
-
 tt = E:register_t("tower_tricannon_overheat_scorch_aura_bombardment", "tower_tricannon_overheat_scorch_aura")
 tt.aura.duration = b.overheat.decal.duration
-
 tt = E:register_t("tower_tricannon_overheat_scorch_aura_mod", "modifier")
 
 E:add_comps(tt, "dps", "render")
@@ -14418,7 +14368,6 @@ tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 tt.main_script.insert = scripts.mod_tricannon_overheat_dps.insert
 tt.main_script.update = scripts.mod_dps.update
-
 tt = E:register_t("mod_aura_bullet_soldier_tower_dwarf", "modifier")
 b = balance.towers.dwarf.incendiary_ammo.burn
 
@@ -14439,7 +14388,6 @@ tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 tt.main_script.insert = scripts.mod_tricannon_overheat_dps.insert
 tt.main_script.update = scripts.mod_dps.update
-
 tt = E:register_t("tower_arborean_emissary_lvl1", "tower_KR5")
 b = balance.towers.arborean_emissary
 
@@ -14500,7 +14448,6 @@ tt.animation_idles = {
 tt.tower.long_idle_cooldown_min = 4
 tt.tower.long_idle_cooldown_max = 8
 tt.ui.click_rect = r(-35, 0, 70, 60)
-
 tt = E:register_t("tower_arborean_emissary_lvl2", "tower_arborean_emissary_lvl1")
 tt.info.enc_icon = 22
 tt.info.i18n_key = "TOWER_ARBOREAN_EMISSARY_2"
@@ -14520,7 +14467,6 @@ end
 tt.barrack.max_soldiers = 2
 tt.barrack.rally_range = 160
 tt.ui.click_rect = r(-37, 0, 74, 62)
-
 tt = E:register_t("tower_arborean_emissary_lvl3", "tower_arborean_emissary_lvl1")
 tt.info.enc_icon = 23
 tt.info.i18n_key = "TOWER_ARBOREAN_EMISSARY_3"
@@ -14542,7 +14488,6 @@ end
 tt.barrack.max_soldiers = 3
 tt.barrack.rally_range = 174
 tt.ui.click_rect = r(-39, 0, 78, 64)
-
 tt = E:register_t("tower_arborean_emissary_lvl4", "tower_KR5")
 
 E:add_comps(tt, "attacks", "powers", "barrack", "vis")
@@ -14603,7 +14548,6 @@ tt.barrack.respawn_offset = v(0, 1)
 tt.barrack.change_interval = b.change_interval
 tt.sound_events.change_rally_point = "TowerArboreanEmissaryTaunt"
 tt.sound_events.standby_soldiers_change_rally_point = "Stage04ArboreanThornspears"
-
 tt.sound_events.insert = "TowerArboreanEmissaryTaunt"
 tt.sound_events.tower_room_select = "TowerArboreanEmissaryTauntSelect"
 tt.attacks.min_cooldown = b.shared_min_cooldown
@@ -14659,7 +14603,6 @@ tt.animation_idles = {
 }
 tt.tower.long_idle_cooldown_min = 4
 tt.tower.long_idle_cooldown_max = 8
-
 tt = E:register_t("tower_arborean_emissary_root_stun_mod", "mod_stun")
 tt.modifier.duration = nil
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
@@ -14687,7 +14630,6 @@ tt.out_before = fts(18)
 tt.animation_start = "run"
 tt.animation_idle = "idle"
 tt.animation_end = "out"
-
 tt = E:register_t("tower_demon_pit_lvl1", "tower_KR5")
 
 E:add_comps(tt, "attacks", "vis")
@@ -14742,7 +14684,6 @@ tt.attacks.list[1].vis_bans = bor(F_FLYING, F_CLIFF)
 tt.demons_sid = 4
 tt.decal_reload = "decal_tower_demon_pit_reload"
 tt.animation_reload = "demon_pit_tower_lvl1_tower_demon_reload_reload_1"
-
 tt = E:register_t("tower_demon_pit_lvl2", "tower_demon_pit_lvl1")
 b = balance.towers.demon_pit
 tt.tower.level = 2
@@ -14764,7 +14705,6 @@ tt.attacks.list[1].cooldown = b.basic_attack.cooldown[2]
 tt.attacks.list[1].max_range = b.basic_attack.range[2]
 tt.attacks.list[1].shoot_time = fts(33) * FPS / b.basic_attack.fps[2]
 tt.animation_reload = "demon_pit_tower_lvl2_tower_reload_reload_1"
-
 tt = E:register_t("tower_demon_pit_lvl3", "tower_demon_pit_lvl1")
 b = balance.towers.demon_pit
 tt.tower.level = 3
@@ -14786,7 +14726,6 @@ tt.attacks.list[1].cooldown = b.basic_attack.cooldown[3]
 tt.attacks.list[1].max_range = b.basic_attack.range[3]
 tt.attacks.list[1].shoot_time = fts(33) * FPS / b.basic_attack.fps[3]
 tt.animation_reload = "demon_pit_tower_lvl3_tower_reload_reload_1"
-
 tt = E:register_t("tower_demon_pit_lvl4", "tower_demon_pit_lvl1")
 
 E:add_comps(tt, "powers")
@@ -14841,7 +14780,6 @@ tt.attacks.list[2].animation = "big_guy_spawn"
 tt.attacks.list[2].animation_reload = "big_guy_reload_big_guy"
 tt.attacks.list[2].vis_flags = bor(F_RANGED)
 tt.attacks.list[2].vis_bans = bor(F_FLYING)
-
 tt = E:register_t("tower_rocket_gunners_lvl1", "tower_KR5")
 b = balance.towers.rocket_gunners
 
@@ -15863,10 +15801,10 @@ tt = E:register_t("soldier_tower_barrel_skill_warrior", "soldier_militia")
 E:add_comps(tt, "tween", "nav_grid")
 
 b = balance.towers.barrel.skill_warrior.entity
-tt.regen.health = b.regen_hp
 tt.health_bar.offset = v(0, 50)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.motion.max_speed = b.speed
+tt.regen.health = 300
 tt.info.i18n_key = "TOWER_BARREL_WARRIOR"
 tt.info.enc_icon = 12
 tt.info.portrait = "gui_bottom_info_image_soldiers_0037"
@@ -15874,6 +15812,7 @@ tt.info.fn = scripts.soldier_reinforcement.get_info
 tt.info.random_name_format = nil
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].prefix = "barrel_tower_berserker_unit"
+tt.render.sprites[1].scale = vv(1.8)
 tt.render.sprites[1].name = "spawn"
 tt.render.sprites[1].draw_order = DO_SOLDIER_BIG
 tt.render.sprites[1].angles = {}
@@ -16324,9 +16263,10 @@ for i = 1, #tt.stones_ids do
 end
 
 tt.ui.click_rect = r(-35, 0, 70, 70)
-
 tt = E:register_t("tower_ray_lvl4", "tower_ray_lvl3")
+
 E:add_comps(tt, "powers", "nav_grid", "motion", "nav_rally")
+
 tt.main_script.insert = customScripts1.mobile_tower_mage.insert
 tt.motion.max_speed = 50
 tt.nav_rally.delay_max = nil
@@ -16481,7 +16421,6 @@ tt.shocks_ids = {
 }
 tt.shock_fx = "fx_tower_ray_lvl4_shock"
 tt.ui.click_rect = r(-35, 10, 70, 70)
-
 tt = E:register_t("tower_dark_elf_lvl1", "tower_KR5")
 b = balance.towers.dark_elf
 
@@ -16647,7 +16586,6 @@ tt.attacks.list[2].disabled = true
 tt.attacks.list[2].spawn_delay = 1
 tt.controller_soldiers_template = "controller_tower_dark_elf_soldiers"
 tt.sound_events.change_rally_point = "TowerDarkElfUnitTaunt"
-
 tt = E:register_t("tower_hermit_toad_lvl1", "tower_KR5")
 b = balance.towers.hermit_toad
 
@@ -16948,7 +16886,6 @@ tt.powers.jump.cooldown = b.power_jump.cooldown
 tt.powers.jump.damage_min = b.power_jump.damage_min
 tt.powers.jump.damage_max = b.power_jump.damage_max
 tt.powers.jump.attack_idx = 4
-
 tt = E:register_t("tower_dwarf_lvl1", "tower_KR5")
 b = balance.towers.dwarf
 
@@ -17042,7 +16979,6 @@ tt.render.sprites[3].offset = v(0, 10)
 tt.sound_events.insert = "TowerDwarfTaunt"
 tt.sound_events.change_rally_point = "TowerDwarfTaunt"
 tt.ui.click_rect = r(-42, 0, 84, 90)
-
 tt = E:register_t("tower_sparking_geode_lvl1", "tower_KR5")
 b = balance.towers.sparking_geode
 
@@ -17196,7 +17132,6 @@ tt.info.i18n_key = "TOWER_SPARKING_GEODE_4"
 tt.info.stat_damage = b.stats.damage
 tt.info.stat_range = b.stats.range
 tt.info.stat_cooldown = b.stats.cooldown
--- tt.info.damage_icon = "magic"
 tt.info.enc_icon = 76
 tt.tower.level = 4
 tt.tower.price = b.price[4]
@@ -17374,7 +17309,7 @@ tt.ui.click_rect = r(-35, 0, 70, 65)
 tt.ui.click_rect_heights_by_soldier = {
 	53,
 	53,
-	[3] = 53,
+	53,
 	none = 53
 }
 tt.user_selection.allowed = true
@@ -17431,15 +17366,15 @@ tt.attacks.list[2].soldiers_spawn_bullets = {
 }
 tt.barrack.soldier_type = "soldier_tower_pandas_blue_lvl2"
 tt.barrack.solder_upgrade_map = {
-	soldier_tower_pandas_green_lvl1 = "soldier_tower_pandas_green_lvl2",
+	soldier_tower_pandas_blue_lvl1 = "soldier_tower_pandas_blue_lvl2",
 	soldier_tower_pandas_red_lvl1 = "soldier_tower_pandas_red_lvl2",
-	soldier_tower_pandas_blue_lvl1 = "soldier_tower_pandas_blue_lvl2"
+	soldier_tower_pandas_green_lvl1 = "soldier_tower_pandas_green_lvl2"
 }
 tt.ui.click_rect = r(-35, 0, 70, 70)
 tt.ui.click_rect_heights_by_soldier = {
 	55,
 	53,
-	[3] = 53,
+	53,
 	none = 53
 }
 tt = E:register_t("tower_pandas_lvl3", "tower_pandas_lvl1")
@@ -17498,7 +17433,7 @@ tt.ui.click_rect = r(-40, 0, 80, 75)
 tt.ui.click_rect_heights_by_soldier = {
 	62,
 	53,
-	[3] = 53,
+	53,
 	none = 53
 }
 tt = E:register_t("tower_pandas_lvl4", "tower_pandas_lvl1")
@@ -17589,20 +17524,22 @@ tt.attacks.list[2].soldiers_spawn_bullets = {
 }
 tt.barrack.soldier_type = "soldier_tower_pandas_blue_lvl4"
 tt.barrack.solder_upgrade_map = {
-	soldier_tower_pandas_green_lvl3 = "soldier_tower_pandas_green_lvl4",
+	soldier_tower_pandas_blue_lvl3 = "soldier_tower_pandas_blue_lvl4",
 	soldier_tower_pandas_red_lvl3 = "soldier_tower_pandas_red_lvl4",
-	soldier_tower_pandas_blue_lvl3 = "soldier_tower_pandas_blue_lvl4"
+	soldier_tower_pandas_green_lvl3 = "soldier_tower_pandas_green_lvl4"
 }
 tt.ui.click_rect = r(-42, 0, 84, 70)
 tt.ui.click_rect_heights_by_soldier = {
 	70,
 	65,
-	[3] = 58,
+	58,
 	none = 53
 }
 tt = E:register_t("tower_stage_13_sunray", "tower_KR5")
 b = balance.specials.towers.stage_13_sunray
+
 E:add_comps(tt, "user_selection", "attacks", "editor", "vis")
+
 tt.tower.type = "tower_stage_13_sunray"
 tt.tower.team = TEAM_DARK_ARMY
 tt.tower.kind = TOWER_KIND_MAGE
@@ -17666,7 +17603,6 @@ tt.editor.props = {
 		PT_NUMBER
 	}
 }
-
 tt = E:register_t("tower_stage_17_weirdwood", "tower_KR5")
 b = balance.specials.towers.stage_17_weirdwood
 
@@ -17844,7 +17780,6 @@ tt.corruption_kr5.on_corrupt = scripts.spawner_stage_18_elven_barrack.on_corrupt
 tt.corruption_kr5.spawn = "enemy_animated_armor"
 tt.corruption_kr5.enabled = false
 tt.spawn_cd = b.spawn_cooldown
-
 tt = E:register_t("tower_stage_20_arborean_oldtree", "tower_KR5")
 b = balance.specials.towers.stage_20_arborean_oldtree
 
@@ -18210,14 +18145,14 @@ tt.shooter_sids = {
 tt.ui.click_rect = r(-45, -10, 95, 90)
 tt.tunnel_spawns = {}
 tt.tunnel_spawns[1] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 1,
 	place_pi = 10,
-	pick_pi = 1
+	template = "tunnel_KR5_watchtower"
 }
 tt.tunnel_spawns[2] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 2,
 	place_pi = 11,
-	pick_pi = 2
+	template = "tunnel_KR5_watchtower"
 }
 tt.picked_enemies_to_destroy = b.picked_enemies_to_destroy
 tt.tunnel_check_cooldown = b.tunnel_check_cooldown
@@ -18225,26 +18160,26 @@ tt.vis.bans = bor(F_MOD)
 tt = E:register_t("tower_stage_20_arborean_watchtower_2", "tower_stage_20_arborean_watchtower")
 tt.tunnel_spawns = {}
 tt.tunnel_spawns[1] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 3,
 	place_pi = 13,
-	pick_pi = 3
+	template = "tunnel_KR5_watchtower"
 }
 tt = E:register_t("tower_stage_20_arborean_watchtower_3", "tower_stage_20_arborean_watchtower")
 tt.tunnel_spawns = {}
 tt.tunnel_spawns[1] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 7,
 	place_pi = 12,
-	pick_pi = 7
+	template = "tunnel_KR5_watchtower"
 }
 tt.tunnel_spawns[2] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 5,
 	place_pi = 12,
-	pick_pi = 5
+	template = "tunnel_KR5_watchtower"
 }
 tt.tunnel_spawns[3] = {
-	template = "tunnel_KR5_watchtower",
+	pick_pi = 13,
 	place_pi = 12,
-	pick_pi = 13
+	template = "tunnel_KR5_watchtower"
 }
 tt = E:register_t("tower_stage_22_arborean_mages", "tower_KR5")
 b = balance.specials.towers.stage_22_arborean_mages_tower
@@ -18290,7 +18225,6 @@ tt.leave_anim = "out"
 tt.appear = false
 tt.appear_anim = "spawn"
 tt.ui.click_rect = r(-35, -15, 70, 70)
-
 tt = E:register_t("tower_stage_28_priests_barrack", "tower_KR5")
 b = balance.specials.towers.tower_stage_28_priests_barrack
 
@@ -18805,6 +18739,7 @@ tt.regen.cooldown = 1
 tt.regen.health = b.regen_health
 tt.reinforcement.duration = b.duration
 tt.render.sprites[1].prefix = "reinforcement_linirea_lvl_5_unit"
+tt.render.sprites[1].scale = vv(2)
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].angles = {}
 tt.render.sprites[1].angles.walk = {
@@ -19001,7 +18936,6 @@ tt.spawn_decal = "decal_soldier_reinforcement_stage_15_denas_spawn"
 tt.floor_decal = "decal_soldier_reinforcement_stage_15_denas_floor"
 tt.melee.attacks[1].vis_bans = bor(F_FLYING, F_CLIFF, F_WATER)
 tt.melee.attacks[1].vis_flags = F_BLOCK
--- tt.melee.attacks[1].sound = "CommonNoSwordAttack"
 tt.melee.attacks[1].sound_args = {
 	delay = fts(8)
 }
@@ -19303,7 +19237,6 @@ tt.unit.hit_offset = v(0, 5)
 tt.unit.mod_offset = v(0, 14)
 tt.unit.level = 0
 tt.vis.bans = bor(F_SKELETON, F_CANNIBALIZE, F_LYCAN)
-
 tt = E:register_t("soldier_hero_witch_cat", "soldier_militia")
 b = balance.heroes.hero_witch
 
@@ -19397,7 +19330,6 @@ tt.death_spawns.quantity = 1
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.delay = fts(19)
 tt.sound_death = "HeroWitchDazzlingDecoyExplosion"
-
 tt = E:register_t("soldier_tower_rocket_gunners_lvl1", "soldier_militia")
 
 E:add_comps(tt, "nav_grid")
@@ -19439,8 +19371,8 @@ tt.render.sprites[1].angles.idle_floor = {
 	"idle_floor"
 }
 tt.render.sprites[1].angles_flip_vertical = {
-	attack_air = true,
 	idle_air = true,
+	attack_air = true,
 	attack_floor = true,
 	idle_floor = true
 }
@@ -19581,9 +19513,9 @@ tt.render.sprites[1].angles.idle_floor = {
 tt.render.sprites[1].angles_flip_vertical = {
 	idle_air = true,
 	phosphoric_coating_air = true,
-	attack_air = true,
-	phosphoric_coating_floor = true,
 	idle_floor = true,
+	phosphoric_coating_floor = true,
+	attack_air = true,
 	attack_floor = true
 }
 tt.render.sprites[1].scale = v(1.1, 1.1)
@@ -19756,7 +19688,6 @@ tt.melee.attacks[1].cooldown = b.melee_attack.cooldown[4]
 tt.melee.attacks[1].damage_max = b.melee_attack.damage_max[4]
 tt.melee.attacks[1].damage_min = b.melee_attack.damage_min[4]
 tt.unit.level = 4
-
 tt = E:register_t("soldier_tower_dark_elf", "soldier_militia")
 
 E:add_comps(tt, "nav_grid", "dodge")
@@ -19799,7 +19730,6 @@ tt.dodge.animation = "evade"
 tt.dodge.time_before_hit = fts(5)
 tt.dodge.sound = "HeroVesperDisengageCast"
 tt.ui.click_rect = r(-10, -2, 20, 25)
-
 tt = E:register_t("soldier_tower_dwarf_lvl1", "soldier_militia")
 
 E:add_comps(tt, "nav_grid")
@@ -20375,7 +20305,6 @@ tt.spawn_fx_top = "fx_stage_11_veznan_soldiers_spawn_top"
 tt.spawn_delay = fts(2)
 tt.idle_time = fts(8)
 tt.nodes_from_start = b.nodes_from_start
-
 tt = E:register_t("soldier_hero_hunter_beast", "decal_scripted")
 
 E:add_comps(tt, "pos", "main_script", "attacks", "force_motion", "tween", "sound_events", "force_motion")
@@ -20516,7 +20445,6 @@ tt.reinforcement.fade = nil
 tt.reinforcement.fade_out = nil
 tt.ui.click_rect = r(-20, -5, 40, 50)
 tt.distance_to_revive = b.ultimate.distance_to_revive
-
 tt = E:register_t("soldier_hero_lava_double_trouble", "soldier_militia")
 b = balance.heroes.hero_lava.double_trouble.soldier
 
@@ -20561,7 +20489,6 @@ tt.unit.mod_offset = v(0, 14)
 tt.unit.fade_time_after_death = 1
 tt.unit.level = 0
 tt.vis.bans = bor(F_SKELETON, F_CANNIBALIZE, F_LYCAN)
-
 tt = E:register_t("soldier_tower_stage_18_elven_barrack", "soldier_militia")
 
 E:add_comps(tt, "nav_grid")
@@ -20597,7 +20524,6 @@ tt.soldier.melee_slot_spread = v(-8, -8)
 tt.sound_events.insert = "TowerElvenBarrackUnitTaunt"
 tt.sound_events.death = "TowerPaladinCovenantUnitDeath"
 tt.ui.click_rect = r(-13, -2, 26, 28)
-
 tt = E:register_t("boss_pig", "boss")
 
 local b = balance.enemies.werebeasts.boss
@@ -20914,7 +20840,6 @@ tt.close_magic_armor = b.close_magic_armor
 tt.time_death = 3
 tt.glare_kr5.regen_hp = b.glare.regen_hp
 tt.denas_ray_resistance = b.denas_ray_resistance
-
 tt = E:register_t("boss_navira", "boss")
 
 E:add_comps(tt, "melee", "corruption_kr5", "tween")
@@ -20991,10 +20916,9 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.mod_heal = "mod_bullet_stage_19_navira_heal"
-tt.sound_transform_in = "Stage19NaviraTornadoIn"
-tt.sound_transform_out = "Stage19NaviraTornadoOut"
-tt.sound_death = "Stage19NaviraDeath"
-
+tt.sound_transform_in = "stage19NaviraTornadoIn"
+tt.sound_transform_out = "stage19NaviraTornadoOut"
+tt.sound_death = "stage19NaviraDeath"
 tt = E:register_t("boss_machinist", "boss")
 
 E:add_comps(tt, "ranged", "tween")
@@ -21121,7 +21045,7 @@ tt.ui.can_click = false
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.vis.bans = bor(F_ALL)
 tt.sound_damage = "Stage26BFGrymbeardDamaged"
-tt.sound_death = "Stage19NaviraDeath"
+tt.sound_death = "stage19NaviraDeath"
 tt.boss_decal_t = "decal_stage_26_boss"
 tt = E:register_t("boss_grymbeard", "boss")
 
@@ -21197,7 +21121,6 @@ tt.death_bullet_clone = "bullet_boss_grymbeard_death_clone"
 tt.death_bullet_boss = "bullet_boss_grymbeard_death_boss"
 tt.death_bullet_scrap = "bullet_boss_grymbeard_death_scrap_"
 tt.sound_death = "Stage27BFGrymbeardDeath"
-
 tt = E:register_t("soldier_hero_space_elf_astral_reflection", "soldier_militia")
 
 E:add_comps(tt, "melee", "ranged", "reinforcement", "tween", "transfer", "timed_attacks")
@@ -21393,25 +21316,22 @@ tt.health.armor = b.armor
 tt.motion.max_speed = b.max_speed
 tt.soldier.melee_slot_offset = v(12, 0)
 tt.ignore_linirea_true_might_revive = true
-
 tt = E:register_t("fx_hero_wukong_ultimate", "decal_scripted")
+
 E:add_comps(tt, "sound_events")
+
 tt.main_script.update = scripts.multi_sprite_fx.update
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon"
 tt.render.sprites[1].scale = vv(1)
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].sort_y_offset = -10
 tt.sound_events.insert = "HeroWukongUltimate"
-
 tt = E:register_t("fx_hero_wukong_ultimate_blue", "fx_hero_wukong_ultimate")
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_blue"
-
 tt = E:register_t("fx_hero_wukong_ultimate_red", "fx_hero_wukong_ultimate")
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_red"
-
 tt = E:register_t("fx_hero_wukong_ultimate_yellow", "fx_hero_wukong_ultimate")
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon_yellow"
-
 tt = E:register_t("fx_hero_wukong_ultimate_cracks", "decal_tween")
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_cracks_floor"
 tt.render.sprites[1].animated = true
@@ -23132,7 +23052,6 @@ tt.render.sprites[1].z = Z_DECALS
 tt.render.sprites[1].hide_after_runs = 1
 tt.modifier.use_mod_offset = false
 tt.modifier.duration = fts(28)
-
 tt = E:register_t("hero_raelyn_inspire_fear_damage_mod", "modifier")
 
 E:add_comps(tt, "render")
@@ -23146,21 +23065,17 @@ tt.render.sprites[1] = E:clone_c("sprite")
 tt.render.sprites[1].name = "hero_raelyn_inspire_fear_decal"
 tt.render.sprites[1].draw_order = 20
 tt.modifier.use_mod_offset = false
-
 tt = E:register_t("hero_raelyn_inspire_fear_slow_mod", "modifier")
 tt.main_script.insert = scripts.mod_fury.insert
 tt.main_script.remove = scripts.mod_fury.remove
 tt.main_script.update = scripts.mod_track_target.update
-
 tt = E:register_t("hero_raelyn_inspire_fear_stun_mod", "mod_stun")
 tt.modifier.duration = nil
 tt.render.sprites[1].hidden = true
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("hero_raelyn_inspire_fear_fx_mod", "modifier")
 tt.main_script.update = scripts.mod_track_target.update
 tt.modifier.duration = nil
-
 tt = E:register_t("hero_raelyn_onslaught_aura", "aura")
 
 E:add_comps(tt, "render")
@@ -23182,9 +23097,7 @@ function tt.main_script.insert(this, store, script)
 			s.ts = store.tick_ts
 		end
 	end
-	-- this.aura.excluded_entities = {
-	-- 	this.aura.target_id
-	-- }
+
 	return true
 end
 
@@ -24121,7 +24034,6 @@ tt.timed_attacks.list[3].spike_template = {
 }
 tt.ui.click_rect = r(-27, -5, 54, 50)
 tt.death_decal = "decal_hero_venom_death"
-
 tt = E:register_t("hero_lava", "hero5")
 b = balance.heroes.hero_lava
 
@@ -24261,7 +24173,6 @@ tt.melee.attacks[1] = E:clone_c("melee_attack")
 tt.melee.attacks[1].animation = "melee_attack"
 tt.melee.attacks[1].cooldown = b.basic_melee.cooldown
 tt.melee.attacks[1].hit_time = fts(14)
--- tt.melee.attacks[1].hit_fx = "hero_raelyn_melee_attack_hit"
 tt.melee.attacks[1].hit_offset = v(35, 15)
 tt.melee.attacks[1].sound = "HeroKratoaBasicAttack"
 tt.melee.attacks[1].xp_gain_factor = b.basic_melee.xp_gain_factor
@@ -24355,7 +24266,6 @@ tt.fireball_count = nil
 tt.max_spread = b.max_spread
 tt.bullet = "bullet_ultimate_hero_lava"
 tt.main_script.update = scripts.hero_lava_ultimate.update
-
 tt = E:register_t("hero_robot", "hero5")
 b = balance.heroes.hero_robot
 
@@ -25080,7 +24990,6 @@ tt.tween.props[1].keys = {
 	}
 }
 tt.unit.hide_after_death = true
-
 tt = E:register_t("hero_dragon_gem_ultimate")
 b = balance.heroes.hero_dragon_gem.ultimate
 
@@ -25409,7 +25318,6 @@ tt.tween.props[2].name = "scale"
 tt.tween.props[2].sprite_id = 2
 tt.tween.props[2].loop = true
 tt.unit.hide_after_death = true
-
 tt = E:register_t("hero_bird_ultimate")
 b = balance.heroes.hero_bird.ultimate
 
@@ -25498,7 +25406,6 @@ tt.target_range = b.target_range
 tt.chase_range = b.chase_range
 tt.sid_bird = 1
 tt.sid_shadow = 2
-
 tt = E:register_t("hero_witch", "hero5")
 b = balance.heroes.hero_witch
 
@@ -26055,7 +25962,6 @@ tt.unit.hit_offset = v(0, 5)
 tt.unit.mod_offset = v(0, 14)
 tt.unit.level = 0
 tt.vis.bans = bor(F_SKELETON, F_CANNIBALIZE, F_LYCAN)
-
 tt = E:register_t("hero_dragon_arb", "hero5")
 
 E:add_comps(tt, "ranged", "timed_attacks", "tween")
@@ -26207,6 +26113,7 @@ tt.regen.cooldown = 1
 tt.render.sprites[1].offset.y = tt.flight_height
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].prefix = "hero_dragon_arborean_hero"
+tt.render.sprites[1].scale = vv(1.8)
 tt.render.sprites[1].name = "respawn"
 tt.render.sprites[1].angles.walk = {
 	"walk"
@@ -26222,7 +26129,7 @@ tt.render.sprites[2].scale = vv(0.93)
 tt.render.sprites[3] = table.deepclone(tt.render.sprites[1])
 tt.render.sprites[3].prefix = "hero_dragon_arborean_transformation_overlay"
 tt.render.sprites[3].hidden = true
-tt.render.sprites[3].scale = vv(1.1625)
+tt.render.sprites[3].scale = vv(2.1)
 tt.unit.size = UNIT_SIZE_LARGE
 tt.soldier.melee_slot_offset = v(0, 0)
 tt.sound_events.change_rally_point = "HeroDragonArbTaunt"
@@ -26266,7 +26173,7 @@ tt.ranged.attacks[1].shoot_times = {
 }
 tt.ranged.attacks[1].sync_animation = true
 tt.ranged.attacks[1].animation = "attack"
-tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE, F_FLYING)
+tt.ranged.attacks[1].vis_bans = bor(F_NIGHTMARE)
 tt.ranged.attacks[1].basic_attack = true
 tt.ranged.attacks[1].xp_gain_factor = b.basic_breath_attack.xp_gain_factor
 tt.ranged.attacks[1].sound = "HeroDragonArbAttackSplints"
@@ -26279,9 +26186,9 @@ tt.ranged.attacks[2].cast_time = fts(14)
 tt.ranged.attacks[2].bullet_start_offset = {
 	v(19, tt.flight_height + 13)
 }
-tt.ranged.attacks[2].cooldown = b.basic_breath_attack.cooldown + 1e-09
+tt.ranged.attacks[2].cooldown = 999999999999999
 tt.ranged.attacks[2].min_range = 0
-tt.ranged.attacks[2].max_range = b.basic_breath_attack.max_range
+tt.ranged.attacks[2].max_range = 200
 tt.ranged.attacks[2].basic_attack = true
 tt.ranged.attacks[2].vis_bans = bor(F_NIGHTMARE, F_FRIEND)
 tt.ranged.attacks[2].filter_fn = function(v, origin)
@@ -26657,7 +26564,6 @@ tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
 tt.render.sprites[2].prefix = "hero_dragon_arborean_tower_fx_b"
 tt.out_anim_duration = fts(29)
 tt.render.sprites[1].name = "idle"
-
 tt = E:register_t("decal_hero_dragon_arb_tower_plant_linirea", "decal_scripted")
 b = balance.heroes.hero_dragon_arb.tower_plants.linirea
 
@@ -26791,6 +26697,7 @@ tt.main_script.insert = scripts.mod_hero_dragon_arb_passive_mark.insert
 tt.main_script.remove = scripts.mod_hero_dragon_arb_passive_mark.remove
 tt.main_script.update = scripts.mod_track_target.update
 tt.modifier.duration = 0.2
+
 
 tt = E:register_t("hero_spider", "hero5")
 b = balance.heroes.hero_spider
@@ -27204,7 +27111,6 @@ tt.info.stat_hp = b.stats.hp
 tt.info.stat_armor = b.stats.armor
 tt.info.stat_damage = b.stats.damage
 tt.info.stat_cooldown = b.stats.cooldown
--- tt.info.damage_icon = "magic"
 tt.info.fn = scripts.hero_basic.get_info_melee
 tt.hero.fn_level_up = scripts.hero_wukong.level_up
 tt.main_script.insert = scripts.hero_wukong.insert
@@ -27422,6 +27328,7 @@ tt.melee.attacks[1].damage_min = b.basic_attack.damage_min
 tt.melee.attacks[1].hit_time = fts(8)
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "hog_invader"
+tt.render.sprites[1].scale = vv(0.7)
 tt.sound_events.death = "EnemyTuskedBrawlerDeath"
 tt.ui.click_rect = r(-17, 0, 34, 30)
 b = balance.enemies.werebeasts.tusked_brawler
@@ -27948,11 +27855,9 @@ tt.death_spawns.delay = fts(19)
 tt = E:register_t("enemy_skunk_bombardier_hit_fx", "fx")
 tt.render.sprites[1].name = "skunk_bombardier_bomb_hit_fx"
 tt.render.sprites[1].anchor.y = 0.25
-
 tt = E:register_t("fx_explosion_hero_lava_double_trouble", "fx")
 tt.render.sprites[1].name = "hero_lava_ultimate_hit"
 tt.render.sprites[1].z = Z_OBJECT
-
 tt = E:register_t("enemy_skunk_bombardier_bomb_trail")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -28480,7 +28385,6 @@ tt.sleep_cooldown = 20
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt.vis.bans = bor(F_TELEPORT)
 tt.sound_events.death = "EnemyAbominationDeath"
-
 tt = E:register_t("enemy_unblinded_abomination_stage_8_lifebar")
 
 E:add_comps(tt, "health_bar", "pos", "render", "health")
@@ -29369,6 +29273,7 @@ tt.melee.attacks[1].hit_decal = "decal_enemy_amalgam_hit"
 tt.melee.attacks[1].hit_offset = v(40, 0)
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "Amalgam_dude"
+tt.render.sprites[1].scale = vv(2.5)
 tt.render.sprites[1].angles.walk = {
 	"walk",
 	"walk_up",
@@ -29412,7 +29317,6 @@ tt.vis.flags = bor(F_ENEMY, F_FLYING, F_BOSS)
 tt.vis.bans = bor(F_MOD, F_BLOCK)
 tt.move_bounds = v(25, 25)
 tt.move_speed = v(0.2, 0.2)
-
 tt = E:register_t("enemy_corrupted_elf", "enemy_KR5")
 b = balance.enemies.undying_hatred.corrupted_elf
 
@@ -29661,6 +29565,7 @@ tt.ranged.attacks[1].vis_bans = bor(F_FLYING)
 tt.ranged.attacks[1].animation = "throw_attack"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "deathwood_creep"
+tt.render.sprites[1].scale = vv(1.5)
 tt.render.sprites[1].draw_order = DO_ENEMY_BIG
 tt.render.sprites[1].angles.walk = {
 	"walk",
@@ -29851,7 +29756,6 @@ tt.timed_attacks.list[1].count_group_type = COUNT_GROUP_CONCURRENT
 tt.timed_attacks.list[1].count_group_max = b.clone.max_total
 tt.timed_attacks.list[1].mark_mod = "mod_enemy_revenant_harvester_mark"
 tt.nodes_limit = b.clone.nodes_limit
-
 tt = E:register_t("enemy_crocs_basic_egg", "enemy_KR5")
 b = balance.enemies.crocs.crocs_basic_egg
 
@@ -30293,6 +30197,7 @@ tt.enemy.gold = b.gold
 tt.enemy.melee_slot = v(42, 0)
 tt.enemy.lives_cost = b.lives_cost
 tt.health.hp_max = b.hp
+tt.health.immune_to = bor(DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL)
 tt.health.armor = b.armor
 tt.health.magic_armor = b.magic_armor
 tt.health_bar.offset = v(0, 60)
@@ -30311,6 +30216,12 @@ tt.melee.attacks[1].hit_time = fts(11)
 tt.melee.attacks[1].animation = "attack_2"
 tt.melee.attacks[1].hit_fx = "fx_crocs_tank_melee_hit"
 tt.melee.attacks[1].hit_offset = v(44, 15)
+tt.melee.attacks[1].type = "area"
+tt.melee.attacks[1].vis_bans = 0
+tt.melee.attacks[1].vis_flags = F_RANGED
+tt.melee.attacks[1].damage_bans = 0
+tt.melee.attacks[1].damage_flags = F_AREA
+tt.melee.attacks[1].damage_radius = b.basic_attack.damage_radius
 tt.timed_attacks.list[1] = E:clone_c("custom_attack")
 tt.timed_attacks.list[1].cast_time = fts(15)
 tt.timed_attacks.list[1].animation_start = "in_attack_1"
@@ -30332,6 +30243,7 @@ tt.timed_attacks.list[1].range = b.charge.range
 tt.timed_attacks.list[1].sound = "EnemyCrocTankSpin"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "Tank_crocs_animationsDef"
+tt.render.sprites[1].scale = vv(1.4)
 tt.render.sprites[1].angles.walk = {
 	"walk_side",
 	"walk_up",
@@ -30358,7 +30270,7 @@ tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.unit.size = UNIT_SIZE_LARGE
 tt.unit.can_explode = false
 tt.unit.can_explode = false
-tt.vis.flags = bor(F_ENEMY)
+tt.vis.flags = bor(F_ENEMY,F_MINIBOSS)
 tt.sound_events.death = "EnemyRazingRhinoDeath"
 tt.base_speed = b.speed
 tt = E:register_t("enemy_crocs_egg_spawner", "enemy_KR5")
@@ -30433,7 +30345,7 @@ tt.water_fixed_speed = b.water_fixed_speed
 tt = E:register_t("enemy_crocs_hydra", "enemy_KR5")
 b = balance.enemies.crocs.crocs_hydra
 
-E:add_comps(tt, "melee", "timed_attacks", "water")
+E:add_comps(tt, "melee", "auras","timed_attacks", "water")
 
 tt.info.enc_icon = 64
 tt.info.portrait = "gui_bottom_info_image_enemies_0064"
@@ -30451,7 +30363,11 @@ tt.health.dead_lifetime = 4.5
 tt.motion.max_speed = b.speed
 tt.main_script.insert = scripts.enemy_crocs_basic.insert
 tt.main_script.update = scripts.enemy_crocs_hydra.update
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "aura_hydra_regen"
+tt.auras.list[1].cooldown = 0
 tt.render.sprites[1].prefix = "hydra_unitDef"
+tt.render.sprites[1].scale = vv(2.5)
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].angles.walk = {
 	"walk"
@@ -30524,7 +30440,7 @@ tt.death_fx = "fx_crocs_hydra_heads_death"
 tt = E:register_t("boss_crocs_lvl1", "boss")
 b = balance.enemies.crocs.boss_crocs
 
-E:add_comps(tt, "melee", "timed_attacks")
+E:add_comps(tt, "melee", "auras","timed_attacks")
 
 tt.next_level_template = "boss_crocs_lvl2"
 tt.boss_crocs_level = 1
@@ -30538,7 +30454,7 @@ tt.unit.head_offset = v(20, 20)
 tt.unit.size = UNIT_SIZE_LARGE
 tt.unit.marker_offset = v(-1, -1)
 tt.ui.click_rect = r(-50, -2, 100, 80)
-tt.enemy.lives_cost = 999
+tt.enemy.lives_cost = 9999
 tt.enemy.melee_slot = v(63, 0)
 tt.health.hp_max = b.hp[1]
 tt.health.armor = b.armor[1]
@@ -30547,6 +30463,7 @@ tt.health_bar.offset = v(0, 145)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health.dead_lifetime = 5
 tt.main_script.update = scripts.boss_crocs.update
+tt.main_script.insert =scripts.boss_crocs.insert
 tt.melee.attacks[1].cooldown = b.basic_attack.cooldown
 tt.melee.attacks[1].damage_max = b.basic_attack.damage_max[1]
 tt.melee.attacks[1].damage_min = b.basic_attack.damage_min[1]
@@ -30562,8 +30479,11 @@ tt.motion.max_speed = b.speed[1]
 tt.render.sprites[1].prefix = "boss_gator1Def"
 tt.render.sprites[1].draw_order = DO_ENEMY_BIG
 tt.render.sprites[1].anchor = v(0.5, 0.375)
-tt.render.sprites[1].scale = vv(1)
+tt.render.sprites[1].scale = vv(2)
 tt.render.sprites[1].exo = true
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "aura_gator_regen"
+tt.auras.list[1].cooldown = 0
 tt.vis.bans = bor(tt.vis.bans, F_STUN, F_INSTAKILL)
 tt.timed_attacks.list[1] = E:clone_c("custom_attack")
 tt.timed_attacks.list[1].animation_start = "spawnIn"
@@ -30593,6 +30513,8 @@ tt.timed_attacks.list[2].hp_threshold = b.basic_attack.instakill_threshold[1]
 tt.timed_attacks.list[2].damage_type = bor(DAMAGE_EAT, DAMAGE_NO_DODGE)
 tt.timed_attacks.list[2].hit_fx = "fx_crocs_egg_spawner_melee_hit"
 tt.timed_attacks.list[2].hit_offset = v(63, 60)
+tt.timed_attacks.list[2].damage_flags = F_AREA
+tt.timed_attacks.list[2].damage_radius = 200
 tt.timed_attacks.list[3] = E:clone_c("custom_attack")
 tt.timed_attacks.list[3].vis_flags = bor(F_MOD)
 tt.timed_attacks.list[3].excluded_templates = {
@@ -30774,6 +30696,7 @@ tt.melee.attacks[1].hit_fx = "fx_crocs_boss_melee_hit_2"
 tt.melee.attacks[1].damage_radius = b.basic_attack.damage_radius
 tt.motion.max_speed = b.speed[2]
 tt.render.sprites[1].prefix = "boss_gator2Def"
+tt.render.sprites[1].scale = vv(2.4)
 tt.timed_attacks.list[1].loop_times = b.eggs_spawn.loop_times[2]
 tt.timed_attacks.list[1].entities_amount = b.eggs_spawn.entities_amount[2]
 tt.timed_attacks.list[1].cooldown = b.eggs_spawn.cooldown[2]
@@ -30808,9 +30731,7 @@ tt.health.armor = b.armor[3]
 tt.health.magic_armor = b.magic_armor[3]
 tt.health_bar.offset = v(0, 200)
 tt.melee.attacks[1].type = "area"
-tt.melee.attacks[1].vis_bans = F_FLYING
 tt.melee.attacks[1].vis_flags = F_RANGED
-tt.melee.attacks[1].damage_bans = F_FLYING
 tt.melee.attacks[1].damage_flags = F_AREA
 tt.melee.attacks[1].damage_max = b.basic_attack.damage_max[3]
 tt.melee.attacks[1].damage_min = b.basic_attack.damage_min[3]
@@ -30820,6 +30741,7 @@ tt.melee.attacks[1].hit_fx = "fx_crocs_boss_melee_hit"
 tt.melee.attacks[1].hit_decal = "decal_crocs_boss_melee_hit_2"
 tt.motion.max_speed = b.speed[3]
 tt.render.sprites[1].prefix = "boss_gator3Def"
+tt.render.sprites[1].scale = vv(3)
 tt.timed_attacks.list[1].loop_times = b.eggs_spawn.loop_times[3]
 tt.timed_attacks.list[1].entities_amount = b.eggs_spawn.entities_amount[3]
 tt.timed_attacks.list[1].cooldown = b.eggs_spawn.cooldown[3]
@@ -30864,9 +30786,7 @@ tt.health.armor = b.armor[4]
 tt.health.magic_armor = b.magic_armor[4]
 tt.health_bar.offset = v(0, 210)
 tt.melee.attacks[1].type = "area"
-tt.melee.attacks[1].vis_bans = F_FLYING
 tt.melee.attacks[1].vis_flags = F_RANGED
-tt.melee.attacks[1].damage_bans = F_FLYING
 tt.melee.attacks[1].damage_flags = F_AREA
 tt.melee.attacks[1].damage_max = b.basic_attack.damage_max[4]
 tt.melee.attacks[1].damage_min = b.basic_attack.damage_min[4]
@@ -30875,6 +30795,7 @@ tt.melee.attacks[1].damage_radius = b.basic_attack.damage_radius
 tt.melee.attacks[1].hit_decal = "decal_crocs_boss_melee_hit_2"
 tt.motion.max_speed = b.speed[4]
 tt.render.sprites[1].prefix = "boss_gator4Def"
+tt.render.sprites[1].scale = vv(4)
 tt.timed_attacks.list[1].loop_times = b.eggs_spawn.loop_times[4]
 tt.timed_attacks.list[1].entities_amount = b.eggs_spawn.entities_amount[4]
 tt.timed_attacks.list[1].cooldown = b.eggs_spawn.cooldown[4]
@@ -30886,6 +30807,8 @@ tt.timed_attacks.list[1].bullet_start_offset = {
 }
 tt.timed_attacks.list[2].hp_threshold = b.basic_attack.instakill_threshold[4]
 tt.timed_attacks.list[2].hit_offset = v(126, 40)
+tt.timed_attacks.list[2].damage_flags = F_AREA
+tt.timed_attacks.list[2].damage_radius = 300
 tt.timed_attacks.list[3].cooldown = b.tower_destruction.cooldown[4]
 tt.timed_attacks.list[3].max_range = b.tower_destruction.max_range[4]
 tt.timed_attacks.list[4] = E:clone_c("custom_attack")
@@ -30918,6 +30841,7 @@ tt.ui.click_rect = r(-50, -2, 100, 80)
 tt.enemy.melee_slot = v(120, 0)
 tt.info.i18n_key = "ENEMY_BOSS_CROCS_3"
 tt.health.hp_max = b.hp[5]
+tt.health.immune_to = bor(DAMAGE_EXPLOSION, DAMAGE_MAGICAL, DAMAGE_PHYSICAL, DAMAGE_ELECTRICAL)
 tt.health.armor = b.armor[5]
 tt.health.magic_armor = b.magic_armor[5]
 tt.health_bar.offset = v(0, 240)
@@ -30927,6 +30851,10 @@ tt.melee.attacks[1].damage_min = b.basic_attack.damage_min[5]
 tt.melee.attacks[1].hit_offset = v(100, 0)
 tt.motion.max_speed = b.speed[5]
 tt.render.sprites[1].prefix = "boss_gator5Def"
+tt.render.sprites[1].scale = vv(10)
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "aura_gator5_regen"
+tt.auras.list[1].cooldown = 0
 tt.timed_attacks.list[1].loop_times = b.eggs_spawn.loop_times[5]
 tt.timed_attacks.list[1].entities_amount = b.eggs_spawn.entities_amount[5]
 tt.timed_attacks.list[1].cooldown = b.eggs_spawn.cooldown[5]
@@ -30953,7 +30881,7 @@ tt.timed_attacks.list[4].shots_amount = b.poison_rain.shots_amount[2]
 tt.stomp_passive = {}
 tt.stomp_passive.range = b.stomper.range
 tt.stomp_passive.vis_flags_soldiers = F_RANGED
-tt.stomp_passive.vis_bans_soldiers = bor(F_BOSS, F_FLYING)
+tt.stomp_passive.vis_bans_soldiers = bor(F_BOSS)
 tt.stomp_passive.step_fx = "decal_crocs_boss_melee_hit_3"
 tt.stomp_passive.damage_min = b.stomper.damage_soldiers_min
 tt.stomp_passive.damage_max = b.stomper.damage_soldiers_max
@@ -30990,7 +30918,6 @@ tt.render.sprites[1].name = "boss_gator_vfx_hit_melee_run"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].hide_after_runs = 1
 tt.render.sprites[1].z = Z_BULLETS
-
 tt = E:register_t("enemy_darksteel_hammerer", "enemy_KR5")
 
 local b = balance.enemies.hammer_and_anvil.darksteel_hammerer
@@ -31888,7 +31815,6 @@ tt.vis.flags = bor(F_ENEMY, F_FLYING)
 tt.shield_hp_threshold = b.shield_hp_threshold
 tt.no_shield_speed_factor = b.speed_factor
 tt.shield_t = "fx_enemy_deformed_grymbeard_clone_shield"
-
 tt = E:register_t("enemy_spider_priest", "enemy_KR5")
 
 local b = balance.enemies.arachnids.spider_priest
@@ -33542,32 +33468,32 @@ tt.exo_anim_map = {
 	Stun_in = "teen_redboy_ADef",
 	jump_fly_down = "teen_redboy_BDef",
 	idle = "teen_redboy_ADef",
-	attack_basic_c = "teen_redboy_ADef",
+	death_hit = "teen_redboy_BDef",
 	jump_in = "teen_redboy_BDef",
 	attack_basic_b = "teen_redboy_ADef",
-	attack_basic_a = "teen_redboy_ADef",
-	screen_block = "teen_redboy_ADef",
+	jump_end = "teen_redboy_BDef",
+	talk_02 = "teen_redboy_BDef",
 	Stun_loop = "teen_redboy_ADef",
 	death_in = "teen_redboy_BDef",
 	samadhi_loop = "teen_redboy_BDef",
-	samadhi_out = "teen_redboy_BDef",
-	jump_end = "teen_redboy_BDef",
+	screen_block = "teen_redboy_ADef",
+	attack_basic_c = "teen_redboy_ADef",
 	baculo = "teen_redboy_BDef",
-	death_hit = "teen_redboy_BDef",
-	talk_02 = "teen_redboy_BDef",
-	jump_in_02 = "teen_redboy_BDef",
-	Stun_end = "teen_redboy_ADef",
-	jump_fly_up_02 = "teen_redboy_BDef",
-	jump_fly_up = "teen_redboy_BDef",
+	attack_basic_a = "teen_redboy_ADef",
 	jump_fly_down_02 = "teen_redboy_BDef",
-	summon = "teen_redboy_ADef",
 	samadhi = "teen_redboy_BDef",
+	Stun_end = "teen_redboy_ADef",
+	talk = "teen_redboy_BDef",
+	jump_fly_up = "teen_redboy_BDef",
+	fireabsorb = "teen_redboy_BDef",
+	summon = "teen_redboy_ADef",
+	jump_end_2 = "teen_redboy_BDef",
 	walk = "teen_redboy_ADef",
 	walk_down = "teen_redboy_ADef",
-	talk = "teen_redboy_BDef",
+	jump_fly_up_02 = "teen_redboy_BDef",
 	jump_out = "teen_redboy_BDef",
-	fireabsorb = "teen_redboy_BDef",
-	jump_end_2 = "teen_redboy_BDef"
+	jump_in_02 = "teen_redboy_BDef",
+	samadhi_out = "teen_redboy_BDef"
 }
 tt.render.sprites[1].anchor = v(0.5, 0.5)
 tt.render.sprites[1].exo = true
@@ -33935,6 +33861,7 @@ tt.timed_attacks.list[1].vis_bans = 0
 tt.timed_attacks.list[1].sound = "EnemyGoldenEyedAura"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "goldeneye_beast_creep"
+tt.render.sprites[1].scale = vv(1.8)
 tt.render.sprites[1].angles.walk = {
 	"walk",
 	"walk_up",
@@ -34123,6 +34050,7 @@ tt.timed_attacks.list[1].hit_fx = "fx_demon_minotaur_hit"
 tt.timed_attacks.list[1].rebote_fx = "fx_demon_minotaur_rebote"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "demon_minotaur_unit"
+tt.render.sprites[1].scale = vv(1.25)
 tt.render.sprites[1].angles.walk = {
 	"walk",
 	"walk_up",
@@ -34153,7 +34081,7 @@ tt.render.sprites[1].angles_custom = {
 }
 tt.ui.click_rect = r(-30, -3, 60, 65)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.unit.can_explode = false
 tt.vis.flags = bor(F_ENEMY)
 tt.vis.bans = bor(F_INSTAKILL, F_POLYMORPH, F_DISINTEGRATED, F_CANNIBALIZE, F_EAT, F_NET)
@@ -34215,7 +34143,6 @@ tt.unit.show_blood_pool = false
 tt.sound_events.death = "EnemySheepDeath"
 tt.ui.click_rect = r(-18, tt.flight_height - 2, 36, 23)
 tt.vis.flags = bor(F_ENEMY, F_FLYING, F_POLYMORPH)
-
 tt = E:register_t("enemy_pumpkin_witch", "enemy_KR5")
 
 local b = balance.heroes.hero_witch.skill_polymorph.pumpkin
@@ -34270,7 +34197,6 @@ tt.unit.show_blood_pool = false
 tt.sound_events.death = "EnemySheepDeath"
 tt.ui.click_rect = r(-18, tt.flight_height - 2, 36, 23)
 tt.vis.flags = bor(F_ENEMY, F_FLYING, F_POLYMORPH)
-
 tt = E:register_t("bombKR5", "bomb")
 tt.bullet.ignore_hit_offset = true
 tt.bullet.damage_decay_random = false
@@ -34279,7 +34205,6 @@ tt.bullet.hit_decal = "decal_bomb_crater_KR5"
 tt.main_script.insert = scripts.bomb_KR5.insert
 tt.main_script.update = scripts.bomb_KR5.update
 tt.sound_events.insert = nil
-
 tt = E:register_t("explosion_big_KR5", "fx")
 tt.render.sprites[1].prefix = "explosion_KR5"
 tt.render.sprites[1].name = "big"
@@ -34302,7 +34227,6 @@ tt.tween.props[1].keys = {
 tt.render.sprites[1].name = "decal_bomb_crater"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].scale = v(1.2, 1.2)
-
 tt = E:register_t("decal_ultimate_hero_lava", "decal_tween")
 tt.tween.props[1].keys = {
 	{
@@ -34331,7 +34255,6 @@ tt.tween.props[1].keys = {
 tt.render.sprites[1].name = "tower_dwarf_skill_explosion_decal"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].scale = v(1.2, 1.2)
-
 tt = E:register_t("tower_tricannon_bomb", "bombKR5")
 
 local b = balance.towers.tricannon
@@ -34563,7 +34486,6 @@ tt.bullet.hit_fx = "fx_bolt_lumenir_hit_mini"
 tt.bullet.particles_name = "ps_bolt_lumenir_mini"
 tt.render.sprites[1].name = "hero_lumenir_light_companion_attack_projectile_idle"
 tt.sound_events.insert = "HeroLumenirLightCompanionBasicAttack"
-
 tt = E:register_t("bullet_ultimate_hero_lava", "bullet")
 b = balance.heroes.hero_lava.ultimate.bullet
 tt.bullet.min_speed = 0
@@ -34611,7 +34533,6 @@ tt.aura.damage_type = b.damage_type
 tt.aura.vis_flags = bor(F_MOD)
 tt.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.aura.mod = "mod_hero_lava_burn"
-
 tt = E:register_t("bolt_lumenir_mini_death", "bolt_lumenir_mini")
 tt = E:register_t("bolt_lumenir_wave", "bolt_lumenir")
 b = balance.heroes.hero_lumenir.fire_balls
@@ -34636,7 +34557,6 @@ tt.bullet.particles_name = "ps_hero_vesper_arrow_trail"
 tt.bullet.xp_gain_factor = b.basic_ranged_short.xp_gain_factor
 tt.bullet.extend_particles_cutoff = true
 tt.bullet.use_unit_damage_factor = true
-
 tt = E:register_t("bomb_hero_lava_double_touble", "bombKR5")
 b = balance.heroes.hero_lava.double_trouble
 tt.bullet.flight_time = fts(15)
@@ -34661,7 +34581,6 @@ tt.bullet.extend_particles_cutoff = true
 tt.bullet.use_unit_damage_factor = true
 tt.sound_events.insert = "HeroKratoaDoubleTroubleCast"
 tt.sound_events.hit = "HeroKratoaDoubleTroubleImpact"
-
 tt = E:register_t("arrow_hero_vesper_long_arrow", "arrow_hero_vesper_short_arrow")
 b = balance.heroes.hero_vesper
 tt.bullet.xp_gain_factor = b.basic_ranged_long.xp_gain_factor
@@ -34713,7 +34632,6 @@ tt.bullet.g = -1.8 / (fts(1) * fts(1))
 tt.bounces = nil
 tt.bounce_range = b.ricochet.bounce_range
 tt.sound = "HeroVesperRicochetImpact"
-
 tt = E:register_t("bullet_hero_witch_basic_1", "bolt")
 b = balance.heroes.hero_witch
 
@@ -34743,7 +34661,6 @@ tt.force_motion.max_v = 450
 tt.sound_events.insert = nil
 tt = E:register_t("bullet_hero_witch_basic_2", "bullet_hero_witch_basic_1")
 tt.initial_impulse_angle = 3.5 * math.pi / 2
-
 tt = E:register_t("tower_elven_stargazers_ray", "bullet")
 
 local b = balance.towers.elven_stargazers
@@ -34766,7 +34683,6 @@ tt.render.sprites[1].loop = false
 tt.track_target = true
 tt.ray_duration = fts(5)
 tt.sound_events.insert = "TowerElvenStargazersBasicAttack"
-
 tt = E:register_t("tower_sparking_geode_ray_lvl1", "bullet")
 b = balance.towers.sparking_geode
 tt.bullet.level = 1
@@ -34820,7 +34736,6 @@ tt.bounces_max = b.basic_attack.bounces_max[tt.bullet.level]
 tt.bounce_damage_factor = b.basic_attack.bounce_damage_factor[4]
 tt.bullet.damage_min = b.basic_attack.damage_min[tt.bullet.level]
 tt.bullet.damage_max = b.basic_attack.damage_max[tt.bullet.level]
-
 tt = E:register_t("tower_arcane_wizard_ray", "bullet")
 
 local b = balance.towers.arcane_wizard
@@ -34987,7 +34902,6 @@ tt.bullet.max_speed = 300
 tt.bullet.align_with_trajectory = true
 tt.bullet.hit_fx = "fx_bullet_enemy_unblinded_priest_hit"
 tt.bullet.particles_name = "ps_bullet_enemy_unblinded_priest"
-
 tt = E:register_t("bullet_enemy_spider_priest", "bolt_enemy")
 b = balance.enemies.arachnids.spider_priest
 tt.render.sprites[1].prefix = "cultist_spider_projectile"
@@ -35203,7 +35117,6 @@ tt.bullet.g = -2 / (fts(1) * fts(1))
 tt.bullet.align_with_trajectory = false
 tt.bullet.rotation_speed = 15
 tt.sound_events.hit = "TowerElvenStargazersRisingStarImpact"
-
 tt = E:register_t("bolt_hero_spider_basic_attack", "bolt")
 b = balance.heroes.hero_spider
 tt.render.sprites[1].prefix = "hero_spider_05_projectile"
@@ -35220,7 +35133,6 @@ tt.bullet.xp_gain_factor = b.basic_ranged.xp_gain_factor
 tt.sound_events.insert = "HeroSpiderAttackRanged"
 tt.bullet.damage_type = b.basic_ranged.damage_type
 tt.bullet.particles_name = "ps_hero_spider_basic_attack_trail"
-
 tt = E:register_t("bolt_hero_space_elf_basic_attack", "bolt")
 b = balance.heroes.hero_space_elf
 tt.render.sprites[1].prefix = "hero_therien_ranged_proyectile"
@@ -35237,7 +35149,6 @@ tt.bullet.xp_gain_factor = b.basic_ranged.xp_gain_factor
 tt.sound_events.insert = "EnemyTurtleShamanBasicAttack"
 tt.bullet.damage_type = b.basic_ranged.damage_type
 tt.bullet.particles_name = "ps_hero_space_elf_basic_attack_trail"
-
 tt = E:register_t("bolt_soul_soldier_tower_ghost", "bolt")
 b = balance.towers.ghost.soul_attack
 tt.render.sprites[1].name = "ghost_tower_soul_skill_projectile"
@@ -35259,7 +35170,6 @@ tt.sound_events.hit = "TowerGhostSoulAttackImpact"
 tt.bullet.damage_type = b.damage_type
 tt.bullet.particles_name = "ps_soul_soldier_tower_ghost"
 tt.main_script.update = scripts.tower_ghost.soul_bolt_update
-
 tt = E:register_t("arrow_soldier_re_shadow_archer", "arrow5")
 b = balance.upgrades.reinforcements_shadow_archer
 tt.render.sprites[1].name = "reinforcements_lvl3_03_arrow"
@@ -35844,7 +35754,6 @@ tt.hit_sound = nil
 tt.sheep_t = "enemy_tower_ray_sheep"
 tt.sheep_flying_t = "enemy_tower_ray_sheep_flying"
 tt.sheep_hp_mult = b.sheep.hp_mult
-
 tt = E:register_t("bullet_tower_dark_elf", "bullet")
 b = balance.towers.dark_elf.basic_attack
 tt.bullet.hit_fx = "fx_bullet_tower_dark_elf_hit"
@@ -35936,7 +35845,6 @@ tt.bullet.miss_decal = "corrupted_ranger_arrow_miss"
 tt.bullet.pop = nil
 tt.bullet.predict_target_pos = false
 tt.bullet.particles_name = "ps_bullet_enemy_corrupted_elf"
-
 tt = E:register_t("bullet_enemy_rolling_sentry", "bullet")
 b = balance.enemies.hammer_and_anvil.rolling_sentry
 tt.render = nil
@@ -35947,7 +35855,6 @@ tt.bullet.damage_min = b.ranged_attack.damage_min
 tt.bullet.damage_max = b.ranged_attack.damage_max
 tt.bullet.damage_type = b.ranged_attack.damage_type
 tt.bullet.hit_fx = "fx_bullet_enemy_rolling_sentry"
-
 tt = E:register_t("bullet_enemy_deathwood", "bombKR5")
 b = balance.enemies.undying_hatred.deathwood.ranged_attack
 tt.main_script.update = scripts.enemy_bomb.update
@@ -36000,7 +35907,7 @@ tt.bullet.hit_fx = "fx_bullet_enemy_revenant_soulcaller_tower_stun"
 tt.bullet.hit_mod = "mod_enemy_revenant_soulcaller_branches"
 tt.main_script.update = scripts.bullet_enemy_revenant_soulcaller_tower_stun.update
 tt = E:register_t("bullet_stage_18_eridan_arrow", "arrow5_45degrees")
-b = balance.specials.stage18_eridan.ranged_attack
+b = balance.specials.Stage18_eridan.ranged_attack
 tt.render.sprites[1].name = "eridan_s18_arrow"
 tt.bullet.damage_min = b.damage_min
 tt.bullet.damage_max = b.damage_max
@@ -36018,7 +35925,6 @@ tt.main_script.update = scripts.bullet_stage_19_navira_fire_ball_ray.update
 tt.render.sprites[1].anchor = v(0.45, 0.5)
 tt.render.sprites[1].prefix = "navira_soulray"
 tt.render.sprites[1].loop = false
-
 tt = E:register_t("bullet_enemy_brute_welder_death", "bullet")
 b = balance.enemies.hammer_and_anvil.brute_welder
 
@@ -36260,7 +36166,6 @@ tt.bullet.damage_max = b.damage_max
 tt.bullet.damage_min = b.damage_min
 tt.bullet.damage_radius = b.damage_radius
 tt.from_tower = true
-
 tt = E:register_t("bullet_decal_item_portable_coil", "bullet")
 b = balance.items.portable_coil
 tt.bullet.damage_min = b.damage_min
@@ -36797,7 +36702,6 @@ tt.render.sprites[1].loop = false
 tt.sound_events.insert = "TowerArcaneWizardBasicAttack"
 tt.track_target = true
 tt.ray_duration = fts(26)
-
 tt = E:register_t("bolt_dragon_bone_basic_attack", "bolt")
 
 E:add_comps(tt, "force_motion")
@@ -36843,7 +36747,6 @@ tt.render.sprites[1].loop = false
 tt.sound_events.insert = "TowerArcaneWizardBasicAttack"
 tt.track_target = false
 tt.ray_duration = fts(42)
-
 tt = E:register_t("bullet_dragon_bone_rain", "bullet")
 b = balance.heroes.hero_dragon_bone.rain
 
@@ -36948,10 +36851,6 @@ tt.render.sprites[1].prefix = "hero_dragon_bone_burst_projectile"
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_BULLETS
--- tt.render.sprites[2] = E:clone_c("sprite")
--- tt.render.sprites[2].name = "stage_3_HeartProy_glow"
--- tt.render.sprites[2].animated = false
--- tt.render.sprites[2].z = Z_BULLETS - 1
 tt.height_attack = 70
 tt.initial_vel_y = 50
 tt.transition_time = 1
@@ -37309,7 +37208,6 @@ tt.render.sprites[1].animated = true
 tt.bullet.hide_radius = 0
 tt.bullet.hit_distance = 20
 tt.bullet.extend_particles_cutoff = true
-
 tt = E:register_t("bullet_hero_dragon_arb_breath", "bullet")
 b = balance.heroes.hero_dragon_arb.basic_breath_attack
 tt.render.sprites[1].z = Z_BULLETS
@@ -37348,7 +37246,7 @@ tt.bullet.mod = {
 }
 tt.bullet.damage_radius = 50
 tt.bullet.damage_flags = F_AREA
-tt.bullet.damage_bans = bor(F_FLYING)
+tt.bullet.damage_bans = 0
 tt.bullet.use_unit_damage_factor = true
 tt.bullet.hit_fx = nil
 tt.bullet.pop = nil
@@ -37409,7 +37307,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.remove = false
 tt.sound_events.insert = nil
-
 tt = E:register_t("bullet_hero_dragon_arb_arborean_spawn", "bolt")
 
 E:add_comps(tt, "force_motion")
@@ -37420,7 +37317,7 @@ tt.bullet.particles_name = "ps_bullet_hero_dragon_arb_arborean_spawn"
 tt.bullet.max_speed = 150
 tt.bullet.min_speed = 30
 tt.bullet.align_with_trajectory = true
-tt.bullet.xp_gain_factor = nil
+tt.bullet.xp_gain_factor = b.xp_gain_factor
 tt.bullet.use_unit_damage_factor = true
 tt.bullet.ignore_hit_offset = true
 tt.bullet.payload = nil
@@ -37436,7 +37333,6 @@ tt.render.sprites[1].name = "hero_dragon_arborean_leaf_projectile"
 tt.render.sprites[1].animated = false
 tt.main_script.update = scripts.bullet_hero_dragon_arb_arborean_spawn.update
 tt.sound_events.insert = nil
-
 tt = E:register_t("bullet_hero_dragon_arb_flying", "bullet_hero_dragon_arb_arborean_spawn")
 b = balance.heroes.hero_dragon_arb
 tt.bullet.damage_type = DAMAGE_MAGICAL
@@ -37446,7 +37342,6 @@ tt.initial_impulse_angle_abs = nil
 tt.initial_impulse_angle_relative = math.pi / 12
 tt.force_motion.max_v = 400
 tt.main_script.update = customScripts1.custom_bolt.update
-
 tt = E:register_t("bullet_hero_dragon_arb_tower_buff", "bolt")
 
 E:add_comps(tt, "force_motion", "tween")
@@ -37535,7 +37430,6 @@ tt.force_motion.a_step = 5
 tt.force_motion.max_a = 3000
 tt.force_motion.max_v = 300
 tt.main_script.update = scripts.bullet_hero_dragon_arb_linirea_plant_heal.update
-
 tt = E:register_t("bullet_soldier_priests_barrack", "bolt")
 b = balance.specials.towers.tower_stage_28_priests_barrack.priest.ranged
 tt.render.sprites[1].name = "priest_projectile"
@@ -37808,7 +37702,6 @@ tt.flags_to_tag = {
 	F_RANGED,
 	F_BLOCK
 }
-
 tt = E:register_t("tunnel_KR5_destructible", "tunnel_KR5")
 tt.main_script.update = scripts.tunnel_KR5_destructible.update
 tt.destroyed = false
@@ -37995,7 +37888,6 @@ tt.include_templates = {
 	"enemy_lesser_sister_nightmare"
 }
 tt.main_script.update = scripts.aura_stage_09_spawn_nightmare_convert_spawn_fx.update
-
 tt = E:register_t("aura_tower_necromancer_skill_debuff", "aura")
 b = balance.towers.necromancer
 
@@ -38332,7 +38224,6 @@ tt.main_script.update = scripts.aura_bullet_hero_mecha_mine.update
 tt.explosion_fx = "fx_hero_mecha_mine_explosion"
 tt.sound_explode = "HeroMechaMineDropExplosion"
 tt.damage_type = b.damage_type
-
 tt = E:register_t("aura_hero_witch_path_aoe", "aura")
 b = balance.heroes.hero_witch.skill_path_aoe
 
@@ -38399,7 +38290,6 @@ tt.render.sprites[2].anchor = v(0.5, 0.5)
 tt.render.sprites[2].scale = v(1.25, 1.25)
 tt.main_script.insert = scripts.aura_apply_mod.insert
 tt.main_script.update = scripts.aura_apply_mod.update
-
 tt = E:register_t("aura_stage_10_obelisk_teleport", "aura")
 b = balance.specials.stage10_obelisk.teleport
 
@@ -38704,7 +38594,6 @@ tt.nodes_to_floor_decal = 5
 tt.nodes_to_smoke = 3
 tt.sound = "HeroRobotMotorheadCast"
 tt.offset_back = 5
-
 tt = E:register_t("aura_hero_hunter_shoot_around", "aura")
 b = balance.heroes.hero_hunter.shoot_around
 tt.aura.duration = nil
@@ -38796,7 +38685,6 @@ tt.aura.allowed_templates = {
 	"enemy_glareling"
 }
 tt.main_script.update = scripts.aura_controller_stage_14_amalgam.update
-
 tt = E:register_t("aura_stage_14_prevent_polymorph", "aura")
 tt.aura.duration = 1e+99
 tt.aura.cycle_time = 0.25
@@ -38805,7 +38693,6 @@ tt.aura.allowed_templates = {
 	"enemy_glareling"
 }
 tt.main_script.update = scripts.aura_stage_14_prevent_polymorph.update
-
 tt = E:register_t("aura_stage_15_cult_leader_tower_stun", "aura")
 b = balance.specials.stage15_cult_leader_tower
 
@@ -38964,7 +38851,6 @@ tt.aura.radius = b.radius
 tt.aura.vis_bans = bor(F_FRIEND)
 tt.aura.vis_flags = F_RANGED
 tt.main_script.update = scripts.aura_apply_damage.update
-
 tt = E:register_t("aura_enemy_dust_cryptid", "aura")
 b = balance.enemies.undying_hatred.dust_cryptid
 tt.aura.mod = "mod_enemy_dust_cryptid"
@@ -39067,7 +38953,6 @@ tt.tween.props[3].keys = {
 tt.tween.props[3].sprite_id = 2
 tt.tween.remove = false
 tt.decal_cloud_t = "decal_dragon_bone_cloud"
-
 tt.decal_cloud_t = "decal_dragon_bone_cloud"
 tt = E:register_t("aura_bullet_tower_hermit_toad_engineer_basic", "aura")
 b = balance.towers.hermit_toad.engineer_basic_attack
@@ -39120,7 +39005,6 @@ tt.render.sprites[1].z = Z_DECALS
 tt.render.sprites[1].loop = false
 tt.main_script.insert = scripts.aura_apply_mod.insert
 tt.main_script.update = scripts.aura_bullet_enemy_crocs_hydra_dot.update
-
 tt = E:register_t("aura_bullet_soldier_tower_dwarf", "aura")
 b = balance.towers.dwarf.incendiary_ammo.burn.aura
 tt.aura.mod = "mod_aura_bullet_soldier_tower_dwarf"
@@ -39131,7 +39015,6 @@ tt.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 tt.aura.vis_flags = bor(F_MOD)
 tt.main_script.insert = scripts.aura_apply_mod.insert
 tt.main_script.update = scripts.aura_apply_mod.update
-
 tt = E:register_t("aura_bullet_boss_crocs_poison_rain_lvl1", "aura")
 b = balance.enemies.crocs.boss_crocs.poison_rain
 
@@ -39171,7 +39054,6 @@ tt = E:register_t("aura_bullet_boss_crocs_poison_rain_lvl2", "aura_bullet_boss_c
 tt.aura.duration = b.poison_decal_duration[2]
 tt.render.sprites[1].prefix = "boss_gator_lvl3_puddleDef"
 tt.aura.mod = "mod_croc_boss_poison_rain_lvl2"
-
 tt = E:register_t("aura_enemy_brute_welder", "aura")
 b = balance.enemies.hammer_and_anvil.brute_welder.basic_attack.flame
 tt.aura.duration = b.duration
@@ -39230,7 +39112,6 @@ tt.tween.props[1].keys = {
 		255
 	}
 }
-
 tt = E:register_t("aura_bullet_tower_arborean_honey", "aura")
 b = balance.specials.towers.stage_20_arborean_honey
 
@@ -39264,7 +39145,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("aura_boss_spider_queen_spiderweb", "aura")
 b = balance.enemies.arachnids.boss_spider_queen.spiderweb
 tt.aura.track_source = true
@@ -39463,10 +39343,8 @@ tt.stun_vis_flags = F_RANGED
 tt.stun_bans = bor(F_BOSS)
 tt.main_script.update = scripts.mod_hero_lumenir_sword_hit.update
 tt.sound = "HeroLumenirCelestialJudgementImpact"
-
 tt = E:register_t("mod_hero_lumenir_stun", "mod_stun")
 tt.modifier.duration = fts(23)
-
 tt = E:register_t("mod_hero_dragon_shield", "modifier")
 
 E:add_comps(tt, "render", "tween")
@@ -39615,7 +39493,6 @@ tt.render.sprites[1].name = "arcane_wizard_tower_ray_end_idle"
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.damage_from_bullet = true
-
 tt = E:register_t("mod_hero_lava_hotheaded", "modifier")
 tt.main_script.insert = scripts.mod_tower_factors.insert
 tt.main_script.remove = scripts.mod_tower_factors.remove
@@ -39638,9 +39515,10 @@ tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].offset.y = 5
 tt.render.sprites[1].sort_y_offset = -5
 tt.sound_events.insert = "TowerArcaneWizardEmpowerment"
-
 tt = E:register_t("mod_hero_lava_burn", "mod_slow")
+
 E:add_comps(tt, "render")
+
 b = balance.heroes.hero_lava.death_aura
 tt.slow.factor = b.slow_factor
 tt.modifier.duration = 1
@@ -39648,7 +39526,6 @@ tt.render.sprites[1].prefix = "brute_welder_attack_mod"
 tt.render.sprites[1].name = "loop"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
-
 tt = E:register_t("mod_hero_muyrn_faery_dust", "modifier")
 
 E:add_comps(tt, "render")
@@ -39829,7 +39706,6 @@ tt.main_script.update = scripts.mod_enemy_unblinded_abomination_eat.update
 tt.main_script.remove = scripts.mod_enemy_unblinded_abomination_eat.remove
 tt.explode_fx = "fx_enemy_unblinded_abomination_eat"
 tt.required_hp = b.abomination.eat.hp_required
-
 tt = E:register_t("mod_priests_abomination_eat", "modifier")
 b = balance.specials.towers.tower_stage_28_priests_barrack.abomination
 tt.main_script.queue = scripts.mod_enemy_unblinded_abomination_eat.queue
@@ -39837,7 +39713,6 @@ tt.main_script.update = scripts.mod_enemy_unblinded_abomination_eat.update
 tt.main_script.remove = scripts.mod_enemy_unblinded_abomination_eat.remove
 tt.explode_fx = "fx_soldier_priests_barrack_abomination_eat"
 tt.required_hp = b.eat.hp_required
-
 tt = E:register_t("mod_hero_space_elf_black_aegis", "modifier")
 
 E:add_comps(tt, "render", "health_bar", "health")
@@ -40058,7 +39933,6 @@ tt.render.sprites[1].prefix = "fire"
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
-
 tt = E:register_t("mod_hero_lava_wild_eruption_burning", "modifier")
 b = balance.heroes.hero_lava.wild_eruption
 
@@ -40080,7 +39954,6 @@ tt.render.sprites[1].prefix = "fire"
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
-
 tt = E:register_t("mod_enemy_unblinded_shackler_shackles", "modifier")
 b = balance.enemies.cult_of_the_overseer.unblinded_shackler
 
@@ -40190,12 +40063,10 @@ tt = E:register_t("mod_hero_mecha_power_slam_stun", "mod_stun")
 b = balance.heroes.hero_mecha.power_slam
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_hero_spider_area_attack_stun", "mod_stun")
 b = balance.heroes.hero_spider.area_attack
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS, F_FLYING)
-
 tt = E:register_t("mod_hero_witch_path_aoe", "mod_slow")
 b = balance.heroes.hero_witch.skill_path_aoe
 tt.slow.factor = b.slow_factor
@@ -40203,7 +40074,6 @@ tt.modifier.duration = 0.5
 tt = E:register_t("mod_hero_witch_decoy_stun", "mod_stun")
 b = balance.heroes.hero_witch.disengage.decoy.explotion
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
-
 tt = E:register_t("mod_stage_10_obelisk_stun", "mod_stun")
 tt.render.sprites[1].prefix = "stage10_obelisk_stunfx"
 tt.render.sprites[1].size_names = {
@@ -40763,7 +40633,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.remove = true
 tt.tween.disabled = true
-
 tt = E:register_t("mod_tower_ray_slow", "mod_slow")
 b = balance.towers.ray.basic_attack
 tt.slowConfig = b.slow
@@ -40771,7 +40640,6 @@ tt.slow.factor = b.slow[1]
 tt.modifier.duration = b.duration
 tt.main_script.insert = scripts.mod_tower_ray_slow.insert
 tt.main_script.remove = scripts.mod_tower_ray_slow.remove
-
 tt = E:register_t("mod_arrow_soldier_elf_stage_08", "mod_stun")
 b = balance.specials.stage08_elf_rescue.elf
 tt.modifier.duration = fts(b.stun_duration)
@@ -40935,7 +40803,6 @@ tt.mark_flags.vis_bans = F_CUSTOM
 tt.main_script.queue = scripts.mod_mark_flags.queue
 tt.main_script.dequeue = scripts.mod_mark_flags.dequeue
 tt.main_script.update = scripts.mod_mark_flags.update
-
 tt = E:register_t("mod_hero_hunter_ultimate_slow", "mod_slow")
 b = balance.heroes.hero_hunter.ultimate
 tt.slow.factor = b.slow_factor
@@ -41034,12 +40901,10 @@ tt.render.sprites[1].loop = true
 tt.main_script.insert = scripts.mod_dps.insert
 tt.main_script.update = scripts.mod_dps.update
 tt.damage = b.damage
-
 tt = E:register_t("mod_hero_bird_shout_stun", "mod_stun")
 b = balance.heroes.hero_bird.shout_stun
 tt.modifier.duration = nil
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_hero_bird_shout_slow", "mod_slow")
 
 E:add_comps(tt, "render")
@@ -41055,7 +40920,6 @@ tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].anchor = v(0.5, 0.75)
 tt.render.sprites[1].fps = 20
-
 tt = E:register_t("mod_hero_spider_skill_instakill_melee", "modifier")
 
 E:add_comps(tt, "dps", "render")
@@ -41068,7 +40932,6 @@ tt.render.sprites[1].prefix = "hero_spider_05_instakill"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].draw_order = DO_MOD_FX
-
 tt = E:register_t("mod_stage_16_overseer_tower_disable", "modifier")
 
 E:add_comps(tt, "render")
@@ -41101,7 +40964,6 @@ b = balance.items.summon_blackburn.spawn
 tt.modifier.duration = b.stun_duration
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_enemy_revenant_soulcaller_branches", "modifier")
 b = balance.enemies.undying_hatred.revenant_soulcaller.tower_stun
 
@@ -41152,7 +41014,7 @@ tt.render.sprites[1].name = "in"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].sort_y_offset = -10
-tt.sound_events.insert = "Stage19NaviraFireballHit"
+tt.sound_events.insert = "stage19NaviraFireballHit"
 tt = E:register_t("mod_bullet_stage_19_navira_heal", "modifier")
 
 E:add_comps(tt, "render")
@@ -41191,13 +41053,11 @@ tt = E:register_t("mod_dragon_bone_cloud_slow", "mod_slow")
 b = balance.heroes.hero_dragon_bone.cloud
 tt.slow.factor = b.slow_factor
 tt.modifier.duration = 0.5
-
 tt = E:register_t("mod_dragon_bone_rain_stun", "mod_stun")
 b = balance.heroes.hero_dragon_bone.rain
 tt.modifier.duration = b.stun_time[1]
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_bullet_enemy_brute_welder_death_mark", "modifier")
 
 E:add_comps(tt, "mark_flags")
@@ -41395,7 +41255,6 @@ local b = balance.heroes.hero_lava.temper_tantrum
 tt.modifier.duration = b.stun_duration
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_decal_item_portable_coil_stun", "mod_stun")
 b = balance.items.portable_coil
 tt.modifier.duration = b.stun_duration
@@ -41455,7 +41314,6 @@ b = balance.specials.stage15_denas
 tt.modifier.duration = b.spawn_stun_duration
 tt.modifier.vis_flags = bor(F_MOD, F_STUN)
 tt.modifier.vis_bans = bor(F_BOSS)
-
 tt = E:register_t("mod_enemy_dust_cryptid", "modifier")
 
 E:add_comps(tt, "render")
@@ -41548,7 +41406,6 @@ tt.modifier.duration = fts(60) + fts(13) + fts(2)
 tt.render.sprites[1].prefix = "twilight_longbows_tower_mira"
 tt.render.sprites[1].name = "run"
 tt.render.sprites[1].draw_order = DO_MOD_FX
-
 tt = E:register_t("mod_chicken_leg_polymorph", "modifier")
 tt.modifier.duration = fts(2)
 tt.main_script.insert = scripts.mod_chicken_leg_polymorph.insert
@@ -41738,7 +41595,6 @@ tt.render.sprites[2].draw_order = DO_TOWER_MODS
 tt.render.sprites[2].sort_y_offset = -10
 tt.sound_eat = "Stage22AbominorEatTower"
 tt.sound_fist_remove = "Stage22AbominorEatTowerFistRemove"
--- tt.broken_tower_mod = "mod_stage_22_tower_destroyed"
 tt.fade_duration = 0.4
 tt.offset_y_per_tower = {
 	necromancer = 16,
@@ -41856,7 +41712,6 @@ tt.modifier.duration = fts(7)
 tt.modifier.use_mod_offset = true
 tt.main_script.insert = scripts.mod_dps.insert
 tt.main_script.update = scripts.mod_dps.update
-
 tt = E:register_t("mod_burning_enemy_brute_welder", "modifier")
 b = balance.enemies.hammer_and_anvil.brute_welder.basic_attack.burn
 
@@ -41910,7 +41765,6 @@ tt = E:register_t("mod_enemy_darksteel_hulk_charge_soldier", "mod_enemy_darkstee
 b = balance.enemies.hammer_and_anvil.darksteel_hulk
 tt.dps.damage_min = b.charge.damage_soldier_min
 tt.dps.damage_max = b.charge.damage_soldier_max
-
 tt = E:register_t("mod_hero_dragon_arb_ultimate_paragons_polymorph", "modifier")
 tt.modifier.duration = fts(2)
 tt.main_script.insert = scripts.mod_hero_dragon_arb_ultimate_paragons_polymorph.insert
@@ -41928,7 +41782,6 @@ tt.entity_t = {
 		"soldier_hero_dragon_arb_spawn_paragon_lvl3"
 	}
 }
-
 tt = E:register_t("mod_hero_spider_melee_dot", "modifier")
 b = balance.heroes.hero_spider.basic_melee.dot
 
@@ -41965,7 +41818,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("mod_tower_arborean_honey_basic_slow", "mod_slow")
 b = balance.specials.towers.stage_20_arborean_honey
 
@@ -41997,7 +41849,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("mod_hide_tower", "modifier")
 tt.main_script.insert = scripts.mod_hide_tower.insert
 tt.main_script.remove = scripts.mod_hide_tower.remove
@@ -42094,7 +41945,6 @@ tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
 tt.main_script.insert = scripts.mod_dps.insert
 tt.main_script.update = scripts.mod_dps.update
-
 tt = RT("mod_enemy_glarenwarden_melee_lifesteal", "modifier")
 b = balance.enemies.arachnids.glarenwarden.basic_attack
 tt.main_script.insert = scripts.mod_lifesteal_kr5.insert
@@ -43363,12 +43213,12 @@ tt.main_script.update = scripts.mod_stage_35_lava_splash.update
 tt.main_script.remove = scripts.mod_stage_35_lava_splash.remove
 tt.apply_if_enemy_is_to_right = true
 tt.paths_x = {
-	[15] = 0,
-	[7] = 0
+	[7] = 0,
+	[15] = 0
 }
 tt.paths_x_big = {
-	[15] = 0,
-	[7] = 0
+	[7] = 0,
+	[15] = 0
 }
 tt.fx = "fx_stage_35_lava_splash"
 tt.fx_big = "fx_stage_35_lava_splash_big"
@@ -43520,7 +43370,6 @@ tt.fx_spawn_delay = 0
 tt.fx_in_delay = 0
 tt.fx_delay_between = fts(14)
 tt.swap_sound = "Stage16OverseerTeleport"
-
 tt = E:register_t("controller_tower_dark_elf_soldiers")
 
 E:add_comps(tt, "render", "main_script", "pos")
@@ -43535,7 +43384,6 @@ tt.main_script.remove = scripts.controller_tower_dark_elf_soldiers.remove
 tt.spawn_delay = 1
 tt.check_soldiers_cooldown = fts(10)
 tt.sound_open = "TowerDarkElfSupportBladesSpawn"
-
 tt = E:register_t("tower_ghost_hover", "decal")
 tt.render.sprites[1].name = "ghost_tower_swap_indicator_back"
 tt.render.sprites[1].animated = false
@@ -43661,7 +43509,6 @@ tt.entity = "soldier_hero_hunter_ultimate"
 tt.aura = "aura_hero_hunter_ultimate"
 tt.main_script.update = scripts.hero_hunter_ultimate.update
 tt.sound = "HeroHunterUltimateCast"
-
 tt = E:register_t("controller_hero_witch_ultimate")
 b = balance.heroes.hero_witch.ultimate
 
@@ -43677,7 +43524,6 @@ tt.radius = b.radius
 tt.max_targets = nil
 tt.mod_mark = "mod_hero_witch_ultimate_mark"
 tt.mod_teleport = "mod_hero_witch_ultimate_teleport"
-
 tt = E:register_t("controller_stage_04_easteregg_sheepy")
 
 E:add_comps(tt, "ui", "pos", "main_script")
@@ -44044,19 +43890,14 @@ local b = balance.specials.stage16_overseer
 tt.main_script.update = scripts.controller_terrain_3_stage_16_glare.update
 tt.phase_config = b.glare2
 tt.decal_ground = "decal_stage_16_glare_2"
-
--- customization
 tt = E:register_t("controller_terrain_3_stage_16_glare1_heroic", "controller_terrain_3_stage_16_glare1")
 tt.main_script.insert = scripts.controller_terrain_3_local_glare.insert
 tt.main_script.update = scripts.controller_terrain_3_local_glare.update
 tt.phase_config = nil
-
 tt = E:register_t("controller_terrain_3_stage_16_glare2_heroic", "controller_terrain_3_stage_16_glare2")
 tt.main_script.insert = scripts.controller_terrain_3_local_glare.insert
 tt.main_script.update = scripts.controller_terrain_3_local_glare.update
 tt.phase_config = nil
--- customization
-
 tt = E:register_t("controller_stage_14_amalgam")
 
 local b = balance.specials.stage14_amalgam
@@ -44515,9 +44356,8 @@ tt.render.sprites[1].prefix = "overseer_undertent2Def"
 tt.render.sprites[2].prefix = "overseer_underbacktents2Def"
 tt.render.sprites[2].offset = v(350, 20)
 tt.phase_to_free = 5
-
 tt = E:register_t("controller_stage_18_eridan", "decal_scripted")
-b = balance.specials.stage18_eridan
+b = balance.specials.Stage18_eridan
 
 E:add_comps(tt, "bullet_attack", "custom_attack", "editor", "taunts")
 
@@ -44622,11 +44462,11 @@ tt.hands_dust_2_t = "fx_stage_19_statue_hands_dust_2"
 tt.hands_stones_1_t = "fx_stage_19_statue_hands_stones_1"
 tt.hands_stones_2_t = "fx_stage_19_statue_hands_stones_2"
 tt.cape_t = "decal_stage_19_navira_cape"
-tt.sound_enter = "Stage19NaviraEnter"
-tt.sound_fireball_spawn = "Stage19NaviraFireballSpawn"
-tt.sound_fireball_cast = "Stage19NaviraFireballCast"
-tt.sound_hands_down = "Stage19NaviraHandsDown"
-tt.sound_hands_up = "Stage19NaviraHandsUp"
+tt.sound_enter = "stage19NaviraEnter"
+tt.sound_fireball_spawn = "stage19NaviraFireballSpawn"
+tt.sound_fireball_cast = "stage19NaviraFireballCast"
+tt.sound_hands_down = "stage19NaviraHandsDown"
+tt.sound_hands_up = "stage19NaviraHandsUp"
 tt = E:register_t("controller_stage_19_navira_ball_rotation")
 
 E:add_comps(tt, "main_script")
@@ -44808,11 +44648,11 @@ tt.taunts.delay_min = 10
 tt.taunts.delay_max = 20
 tt.taunts.sets = {}
 tt.taunts.sets.stage_19_boss_navira_start = CC("taunt_set")
-tt.taunts.sets.stage_19_boss_navira_start.format = "TAUNT_STAGE19_BOSS_NAVIRA_START_%04i"
+tt.taunts.sets.stage_19_boss_navira_start.format = "TAUNT_stage19_BOSS_NAVIRA_START_%04i"
 tt.taunts.sets.stage_19_boss_navira_start.decal_name = "decal_stage19_boss_navira_shoutbox"
 tt.taunts.sets.stage_19_boss_navira_start.pos = v(460, 550)
 tt.taunts.sets.stage_19_boss_navira_before_bossfight = CC("taunt_set")
-tt.taunts.sets.stage_19_boss_navira_before_bossfight.format = "TAUNT_STAGE19_BOSS_NAVIRA_BEFORE_BOSSFIGHT_%04i"
+tt.taunts.sets.stage_19_boss_navira_before_bossfight.format = "TAUNT_stage19_BOSS_NAVIRA_BEFORE_BOSSFIGHT_%04i"
 tt.taunts.sets.stage_19_boss_navira_before_bossfight.decal_name = "decal_stage19_boss_navira_shoutbox"
 tt.taunts.sets.stage_19_boss_navira_before_bossfight.pos = v(460, 550)
 tt = E:register_t("decal_stage19_boss_navira_shoutbox", "decal_tween")
@@ -44888,7 +44728,6 @@ tt.tween.props[5].sprite_id = 2
 tt.tween.props[6] = table.deepclone(tt.tween.props[4])
 tt.tween.props[6].sprite_id = 3
 tt.tween.remove = true
-
 tt = E:register_t("controller_stage_22_boss_crocs", "decal_scripted")
 
 E:add_comps(tt, "editor")
@@ -44943,28 +44782,28 @@ tt.hide_possessed = scripts.controller_stage_32_boss.hide_possessed
 tt.render.sid_dragon = 1
 tt.exo_anim_map = {
 	under_in = "dragon_redboy_BDef",
-	under_samadhi_r_end = "dragon_redboy_BDef",
+	under_screen_block = "dragon_redboy_BDef",
 	idle = "dragon_redboy_CDef",
+	death_end_02 = "dragon_redboy_ADef",
 	under_samadhi_r_in = "dragon_redboy_BDef",
-	under_samadhi_r_loop = "dragon_redboy_BDef",
 	death_end_01 = "dragon_redboy_ADef",
 	lava_crack = "dragon_redboy_CDef",
+	under_samadhi_r_end = "dragon_redboy_BDef",
 	under_samadhi_l_end = "dragon_redboy_BDef",
-	under_screen_block = "dragon_redboy_BDef",
 	death_in = "dragon_redboy_ADef",
 	under_transform = "dragon_redboy_BDef",
-	death_end_02 = "dragon_redboy_ADef",
 	attack_basic_c = "dragon_redboy_ADef",
+	under_samadhi_r_loop = "dragon_redboy_BDef",
 	under_talk = "dragon_redboy_BDef",
-	stun_r = "dragon_redboy_CDef",
-	under_idle = "dragon_redboy_BDef",
 	under_samadhi_l_loop = "dragon_redboy_BDef",
+	under_idle = "dragon_redboy_BDef",
+	talk = "dragon_redboy_CDef",
 	under_out = "dragon_redboy_CDef",
 	death_eat_loop_b = "dragon_redboy_ADef",
 	stun_l = "dragon_redboy_CDef",
 	apear_in = "dragon_redboy_ADef",
 	death_eat_loop_d = "dragon_redboy_ADef",
-	talk = "dragon_redboy_CDef",
+	stun_r = "dragon_redboy_CDef",
 	death_eat_loop_a = "dragon_redboy_ADef",
 	under_samadhi_l = "dragon_redboy_BDef",
 	death_eat_loop_c = "dragon_redboy_ADef"
@@ -45105,7 +44944,6 @@ tt.render.sprites[tt.render.sid_land].prefix = "spiderqueen_spider_jumpDef"
 tt.render.sid_smoke = 4
 tt.render.sprites[tt.render.sid_smoke] = table.deepclone(tt.render.sprites[2])
 tt.render.sprites[tt.render.sid_smoke].prefix = "spiderqueen_smokeDef"
-
 tt = E:register_t("controller_hero_dragon_arb_passive")
 b = balance.heroes.hero_dragon_arb.passive_plant_zones
 
@@ -45117,7 +44955,6 @@ tt.aura_slow = "aura_hero_dragon_arb_passive_slow"
 tt.zones_duration = b.zone_duration
 tt.zones_radius = b.radius
 tt.zone_expansion_cooldown = b.expansion_cooldown
-
 tt = E:register_t("controller_stage_23_roboboots", "decal_scripted")
 b = balance.specials.stage23_roboboots
 
@@ -45425,7 +45262,6 @@ tt.sound_shoot = "Stage27HeadFireblastRelease"
 tt.sound_cancel_tap = "Stage27HeadFireblastCancelTap"
 tt.sound_interrupt = "Stage27HeadFireblastInterrupt"
 tt.sound_return = "Stage27HeadReturn"
-
 tt = RT("glarenwarden_thread_spawner", "decal_scripted")
 
 AC(tt, "nav_path", "motion", "spawner", "sound_events")
@@ -45783,8 +45619,8 @@ tt.editor.components = {
 	"texts"
 }
 tt.editor.overrides = {
-	["render.sprites[1].animated"] = false,
-	["render.sprites[1].name"] = "editor_cyan_circle"
+	["render.sprites[1].name"] = "editor_cyan_circle",
+	["render.sprites[1].animated"] = false
 }
 tt.editor.props = {
 	{
@@ -46810,7 +46646,7 @@ tt.dragon_fx = {
 	"fx_hero_wukong_ultimate",
 	"fx_hero_wukong_ultimate_blue",
 	"fx_hero_wukong_ultimate_red",
-	"fx_hero_wukong_ultimate_yellow",
+	"fx_hero_wukong_ultimate_yellow"
 }
 tt.dragon_fx_cracks = "fx_hero_wukong_ultimate_cracks"
 tt.explosion_fx = "fx_hero_wukong_ultimate_explosion"
@@ -46891,8 +46727,8 @@ tt.main_script.update = scripts.controller_stage_35_lava_splash.update
 tt.apply_if_enemy_is_to_right = false
 tt.mod = "mod_stage_35_lava_splash"
 tt.paths_x = {
-	[15] = 0,
-	[7] = 0
+	[7] = 0,
+	[15] = 0
 }
 tt = E:register_t("controller_stage_35_water_splash", "controller_stage_35_lava_splash")
 tt.apply_if_enemy_is_to_right = true
@@ -46935,6 +46771,7 @@ E:add_comps(tt, "events", "editor")
 
 tt.main_script.update = scripts.controller_stage_35_bull_king.update
 tt.render.sprites[1].prefix = "stage_35_boss_bull_1Def"
+tt.render.sprites[1].scale = vv(1.5)
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].animated = true
@@ -47008,6 +46845,7 @@ tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.portrait_boss = "boss_health_bar_icon_0013"
 tt.render.sid_unit = 1
 tt.render.sprites[tt.render.sid_unit].prefix = "stage_35_boss_bull_2Def"
+tt.render.sprites[1].scale = vv(5)
 tt.render.sprites[tt.render.sid_unit].name = "idle"
 tt.render.sprites[tt.render.sid_unit].exo = true
 tt.render.sprites[tt.render.sid_unit].animated = true
@@ -47363,6 +47201,7 @@ tt.allowed_templates = nil
 tt.excluded_templates = nil
 tt.damage_min = b.damage_min
 tt.damage_max = b.damage_max
+tt.damage_type = DAMAGE_TRUE
 tt.controller_overlay = "controller_item_veznan_wrath_overlay"
 tt.controller_explosions = "controller_item_veznan_wrath_explosions"
 tt.fx_instakill_ground = "fx_item_veznan_wrath_instakill_ground"
@@ -47763,7 +47602,6 @@ tt.barrack.soldier_type = "soldier_arborean_sentinels_spearmen"
 tt.barrack.rally_range = 209.28
 tt.barrack.respawn_offset = v(0, 5)
 tt.sound_events.change_rally_point = "Stage04ArboreanThornspears"
-
 tt = E:register_t("soldier_arborean_sentinels_spearmen", "soldier_militia")
 
 E:add_comps(tt, "powers", "timed_attacks", "ranged", "nav_grid")
@@ -47800,7 +47638,6 @@ tt.soldier.melee_slot_offset = v(5, 0)
 tt.unit.price = b.spearmen.price
 tt.unit.fade_time_after_death = 1
 tt.sound_events.insert = "Stage04ArboreanThornspears"
-
 tt = E:register_t("arborean_sentinels_spearmen_spear", "arrow")
 tt.bullet.damage_max = b.spearmen.ranged_attack.damage_max
 tt.bullet.damage_min = b.spearmen.ranged_attack.damage_min
@@ -47810,7 +47647,6 @@ tt.bullet.flight_time = fts(14)
 tt.bullet.hide_radius = 10
 tt.bullet.hit_fx = "fx_arborean_sentinels_spearmen_spear_hit"
 tt.render.sprites[1].name = "stage_4_special_arborean_sentinels_spearer_spear"
-
 tt = E:register_t("soldier_arborean_sentinels_barkshield", "soldier_militia")
 
 E:add_comps(tt, "nav_grid")
@@ -47839,7 +47675,6 @@ tt.motion.max_speed = b.barkshield.max_speed
 tt.main_script.insert = scripts.soldier_barrack.insert
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
 tt.unit.price = b.barkshield.price
-
 tt = E:register_t("bush_ladder", "decal_scripted")
 
 E:add_comps(tt, "spawner", "tween")
@@ -48215,7 +48050,6 @@ tt.action_cooldown_min = fts(20)
 tt.action_cooldown_max = fts(20)
 tt.main_script.update = scripts.decal_stage_08_elf_rescue_elf_slave.update
 tt.sound_rescue = "Stage08RescuedElves"
-
 tt = E:register_t("stage_29_cocoon", "decal_scripted")
 
 E:add_comps(tt, "spawner")

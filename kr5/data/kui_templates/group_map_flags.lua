@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\data\\kui_templates\\group_map_flags.lua
+
 return {
 	class = "KView",
 	children = {
@@ -224,6 +226,42 @@ return {
 			pos = v(1900, -625)
 		},
 		{
+			id = "flag_116",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(418.75, -122.25)
+		},
+		{
+			id = "flag_117",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(418.75, -192.25)
+		},
+		{
+			id = "flag_118",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1790.75, 482.8)
+		},
+		{
+			id = "flag_119",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1880.75, 402.8)
+		},
+		{
+			id = "flag_120",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1900, -240)
+		},
+		{
+			id = "flag_121",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1960, -210)
+		},
+		{
 			id = "flag_122",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
@@ -254,22 +292,34 @@ return {
 			pos = v(1940, -750)
 		},
 		{
+			id = "flag_215",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(881.7, -546.85)
+		},
+		{
 			id = "flag_219",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1250, -600)
+			pos = v(1250, -500)
 		},
 		{
 			id = "flag_220",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1325, -650)
+			pos = v(1325, -450)
 		},
 		{
 			id = "flag_221",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1400, -700)
+			pos = v(1400, -600)
+		},
+		{
+			id = "flag_222",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(1089.35, -191.4)
 		},
 		{
 			id = "flag_426",
@@ -282,6 +332,6 @@ return {
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
 			pos = v(2000, 500)
-		},
+		}
 	}
 }

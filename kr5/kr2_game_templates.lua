@@ -1,3 +1,5 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\kr2_game_templates.lua
+
 local bit = require("bit")
 local bor = bit.bor
 local band = bit.band
@@ -5,7 +7,6 @@ local bnot = bit.bnot
 local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
@@ -21,64 +22,63 @@ local IS_PHONE_OR_TABLET = KR_TARGET == "phone" or KR_TARGET == "tablet"
 local IS_CONSOLE = KR_TARGET == "console"
 
 local function v(v1, v2)
-    return {
-        x = v1,
-        y = v2
-    }
+	return {
+		x = v1,
+		y = v2
+	}
 end
 
 local function vv(v1)
-    return {
-        x = v1,
-        y = v1
-    }
+	return {
+		x = v1,
+		y = v1
+	}
 end
 
 local function r(x, y, w, h)
-    return {
-        pos = v(x, y),
-        size = v(w, h)
-    }
+	return {
+		pos = v(x, y),
+		size = v(w, h)
+	}
 end
 
 local function fts(v)
-    return v / FPS
+	return v / FPS
 end
 
 local function ady(v)
-    return v - anchor_y * image_y
+	return v - anchor_y * image_y
 end
 
 local function adx(v)
-    return v - anchor_x * image_x
+	return v - anchor_x * image_x
 end
 
 local function np(pi, spi, ni)
-    return {
-        dir = 1,
-        pi = pi,
-        spi = spi,
-        ni = ni
-    }
+	return {
+		dir = 1,
+		pi = pi,
+		spi = spi,
+		ni = ni
+	}
 end
 
 local function d2r(d)
-    return d * math.pi / 180
+	return d * math.pi / 180
 end
 
 local function RT(name, ref)
-    return E:register_t(name, ref)
+	return E:register_t(name, ref)
 end
 
 local function AC(tpl, ...)
-    return E:add_comps(tpl, ...)
+	return E:add_comps(tpl, ...)
 end
 
 local function CC(comp_name)
-    return E:clone_c(comp_name)
+	return E:clone_c(comp_name)
 end
 
--- heroes
 local ps_bolt_necromancer_trail = E:register_t("ps_bolt_necromancer_trail")
 
 E:add_comps(ps_bolt_necromancer_trail, "pos", "particle_system")
@@ -160,9 +160,9 @@ death_rider_aura.main_script.update = kr2_scripts.aura_apply_mod.update
 death_rider_aura.render.sprites[1].name = "soldier_death_rider_aura"
 death_rider_aura.render.sprites[1].loop = true
 death_rider_aura.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("hero_dracolich", "hero5")
 b = balance.heroes.hero_dracolich
+
 E:add_comps(tt, "ranged", "timed_attacks")
 
 tt.hero.level_stats.hp_max = {
@@ -262,7 +262,6 @@ tt.hero.skills.spinerain.hr_cost = {
 }
 tt.hero.skills.spinerain.hr_order = 1
 tt.hero.skills.spinerain.hr_available = true
-
 tt.hero.skills.bonegolem = E:clone_c("hero_skill")
 tt.hero.skills.bonegolem.hp_max = {
 	80,
@@ -293,7 +292,6 @@ tt.hero.skills.bonegolem.hr_cost = {
 }
 tt.hero.skills.bonegolem.hr_order = 2
 tt.hero.skills.bonegolem.hr_available = true
-
 tt.hero.skills.plaguecarrier = E:clone_c("hero_skill")
 tt.hero.skills.plaguecarrier.xp_gain_factor = 120
 tt.hero.skills.plaguecarrier.count = {
@@ -314,7 +312,6 @@ tt.hero.skills.plaguecarrier.hr_cost = {
 }
 tt.hero.skills.plaguecarrier.hr_order = 3
 tt.hero.skills.plaguecarrier.hr_available = true
-
 tt.hero.skills.diseasenova = E:clone_c("hero_skill")
 tt.hero.skills.diseasenova.xp_gain_factor = 120
 tt.hero.skills.diseasenova.damage_min = {
@@ -335,7 +332,6 @@ tt.hero.skills.diseasenova.hr_cost = {
 }
 tt.hero.skills.diseasenova.hr_order = 4
 tt.hero.skills.diseasenova.hr_available = true
-
 tt.hero.skills.ultimate = E:clone_c("hero_skill")
 tt.hero.skills.ultimate.controller_name = "hero_dracolich_ultimate"
 tt.hero.skills.ultimate.hr_available = false
@@ -396,7 +392,6 @@ tt.hero.skills.ultimate.mod_extra_armor = {
 }
 tt.hero.skills.ultimate.cooldown = b.ultimate.cooldown
 tt.hero.skills.ultimate.key = "DEATH_RIDER"
-
 tt.hero.use_custom_spawn_point = true
 tt.hero.team = TEAM_DARK_ARMY
 tt.health.armor = nil
@@ -404,7 +399,6 @@ tt.health.dead_lifetime = 30
 tt.health.hp_max = nil
 tt.health_bar.offset = v(0, 157)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
--- tt.health_bar.z = Z_FLYING_HEROES
 tt.health_bar.draw_order = -1
 tt.health_bar.sort_y_offset = -200
 tt.hero.fn_level_up = kr2_scripts.hero_dracolich.level_up
@@ -436,7 +430,6 @@ tt.render.sprites[1].angles.walk = {
 	"idle"
 }
 tt.render.sprites[1].z = Z_FLYING_HEROES
--- tt.render.sprites[1].sort_y_offset = -200
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "Halloween_hero_bones_layer1_0160"
@@ -524,7 +517,6 @@ tt.timed_attacks.list[4].range_nodes_max = b.plaguecarrier.range_nodes_max
 tt.timed_attacks.list[4].range_nodes_min = b.plaguecarrier.range_nodes_min
 tt.timed_attacks.list[4].sound = "HeroDracolichSoulsPlague"
 tt.timed_attacks.list[4].count = nil
-
 tt = E:register_t("fx_fireball_dracolich_decal", "decal_tween")
 tt.render.sprites[1].name = "Halloween_hero_bones_proyExplosion_decal"
 tt.render.sprites[1].animated = false
@@ -538,17 +530,14 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("fx_fireball_dracolich_ground", "fx")
 tt.render.sprites[1].name = "fx_dracolich_fireball_explosion_ground"
 tt.render.sprites[1].anchor.y = 0.20512820512820512
 tt.render.sprites[1].sort_y_offset = -5
-
 tt = E:register_t("fx_fireball_dracolich_air", "fx")
 tt.render.sprites[1].name = "fx_dracolich_fireball_explosion_air"
 tt.render.sprites[1].anchor.y = 0.24
 tt.render.sprites[1].scale = v(0.7, 0.7)
-
 tt = E:register_t("ps_fireball_dracolich")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -578,7 +567,6 @@ tt.particle_system.alphas = {
 	255,
 	0
 }
-
 tt = E:register_t("fireball_dracolich", "bullet")
 b = balance.heroes.hero_dracolich
 tt.render.sprites[1].name = "Halloween_hero_bones_proy"
@@ -602,7 +590,6 @@ tt.bullet.vis_flags = F_RANGED
 tt.bullet.mod = nil
 tt.main_script.update = kr2_scripts.fireball_dragon.update
 tt.sound_events.hit = "HeroDragonAttackHit"
-
 tt = E:register_t("mod_dracolich_disease", "modifier")
 
 E:add_comps(tt, "render", "dps")
@@ -629,13 +616,10 @@ tt.spread_fx = "fx_dracolich_disease_explosion"
 tt.main_script.insert = kr2_scripts.mod_dracolich_disease.insert
 tt.main_script.update = kr2_scripts.mod_dracolich_disease.update
 tt.main_script.remove = kr2_scripts.mod_dracolich_disease.remove
-
 tt = E:register_t("fx_dracolich_disease_explosion", "fx")
 tt.render.sprites[1].name = "dracolich_disease_explosion"
-
 tt = E:register_t("fx_dracolich_skeleton_glow", "fx")
 tt.render.sprites[1].name = "fx_dracolich_skeleton_glow"
-
 tt = E:register_t("dracolich_spine", "bullet")
 
 E:add_comps(tt, "tween")
@@ -683,7 +667,6 @@ tt.tween.props[1].keys = {
 }
 tt.tween.props[1].sprite_id = 2
 tt.sound_events.delayed_insert = "HeroDracolichBoneRain"
-
 tt = E:register_t("fx_dracolich_nova_cloud", "decal_tween")
 tt.render.sprites[1].name = "Halloween_hero_bones_particle"
 tt.render.sprites[1].animated = false
@@ -701,12 +684,10 @@ tt.tween.props[1].keys = {
 tt.tween.props[2] = E:clone_c("tween_prop")
 tt.tween.props[2].name = "offset"
 tt.tween.props[2].keys = {}
-
 tt = E:register_t("fx_dracolich_nova_explosion", "fx")
 tt.render.sprites[1].name = "fx_dracolich_explosion"
 tt.render.sprites[1].anchor.y = 0.2
 tt.render.sprites[1].sort_y_offset = -1
-
 tt = E:register_t("fx_dracolich_nova_decal", "decal_tween")
 tt.render.sprites[1].name = "Halloween_hero_bones_explosion_decal"
 tt.render.sprites[1].animated = false
@@ -721,7 +702,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("dracolich_plague_carrier", "aura")
 
 E:add_comps(tt, "render", "nav_path", "motion", "tween")
@@ -755,7 +735,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("ps_dracolich_plague", "ps_bolt_necromancer_trail")
 tt.particle_system.particle_lifetime = {
 	fts(15),
@@ -776,7 +755,6 @@ tt.particle_system.scale_var = {
 tt.particle_system.emission_rate = 10
 tt.particle_system.sort_y_offset = -20
 tt.particle_system.z = Z_OBJECTS
-
 tt = E:register_t("soldier_dracolich_golem", "soldier")
 
 E:add_comps(tt, "melee", "reinforcement")
@@ -785,7 +763,6 @@ if balance.heroes.hero_dracolich.bonegolem.nav_grid then
 	E:add_comps(tt, "nav_grid")
 end
 
--- image_y = 48
 anchor_y = 0.16666666666666666
 tt.health.armor = 0
 tt.health.hp_max = nil
@@ -822,8 +799,8 @@ tt.unit.mod_offset = v(0, 18)
 tt.unit.marker_offset = v(0, 2)
 tt.unit.explode_fx = nil
 tt.vis.bans = bor(F_POISON, F_SKELETON, F_LYCAN, F_CANNIBALIZE)
-
 tt = E:register_t("hero_dracolich_ultimate")
+
 E:add_comps(tt, "pos", "main_script", "sound_events")
 
 tt.can_fire_fn = kr2_scripts.hero_dracolich_ultimate.can_fire_fn
@@ -831,9 +808,10 @@ tt.cooldown = 80
 tt.entity = "soldier_death_rider"
 tt.main_script.update = kr2_scripts.hero_dracolich_ultimate.update
 tt.sound_events.insert = "NecromancerSummon"
-
 tt = E:register_t("soldier_death_rider", "soldier")
+
 E:add_comps(tt, "melee", "auras", "nav_grid", "reinforcement", "tween")
+
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].cooldown = 0
 tt.auras.list[1].name = "death_rider_aura"
@@ -890,12 +868,12 @@ tt.tween.remove = false
 tt.tween.reverse = false
 tt.tween.disabled = true
 tt.sound_events.insert = "DeathKnightTaunt"
-
 tt = E:register_t("controller_item_hero_dragon", "controller_item_hero")
 tt.entity = "hero_dragon"
-
 tt = E:register_t("hero_dragon", "hero5")
+
 E:add_comps(tt, "ranged", "timed_attacks")
+
 b = balance.heroes.hero_dragon
 tt.attack_filter = b.attack_filter
 tt.hero.level_stats.hp_max = {
@@ -1136,7 +1114,6 @@ tt.timed_attacks.list[1].devour_chance = nil
 tt.timed_attacks.list[1].vis_flags = F_RANGED
 tt.timed_attacks.list[1].vis_bans = bor(F_FLYING, F_BOSS, F_MINIBOSS, F_NIGHTMARE, F_CLIFF)
 tt.timed_attacks.list[1].sound = "HeroDragonTauntSelect"
-
 tt = E:register_t("fireball_dragon", "bullet")
 b = balance.heroes.hero_dragon
 tt.render.sprites[1].name = "hero_dragon_attack_proy"
@@ -1157,20 +1134,16 @@ tt.bullet.mod = nil
 tt.bullet.use_unit_damage_factor = true
 tt.main_script.update = kr2_scripts.fireball_dragon.update
 tt.sound_events.hit = "HeroDragonAttackHit"
-
 tt = E:register_t("fx_fireball_dragon_hit", "fx")
 tt.render.sprites[1].name = "fx_fireball_dragon_hit"
 tt.render.sprites[1].anchor.y = 0.24
 tt.render.sprites[1].z = Z_EFFECTS
-
 tt = E:register_t("fx_fireball_explosion_air", "fx_explosion_air")
 tt.render.sprites[1].scale = v(0.7, 0.7)
 tt.render.sprites[1].z = Z_EFFECTS
-
 tt = E:register_t("fx_fireball_throw", "fx")
 tt.render.sprites[1].name = "fx_dragon_range_attack"
 tt.render.sprites[1].z = Z_BULLETS + 1
-
 tt = E:register_t("ps_fireball_dragon")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1199,7 +1172,6 @@ tt.particle_system.alphas = {
 	255,
 	0
 }
-
 tt = E:register_t("mod_dragon_reign", "modifier")
 
 E:add_comps(tt, "dps", "render")
@@ -1220,7 +1192,6 @@ tt.render.sprites[1].prefix = "fire"
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].loop = true
-
 tt = E:register_t("breath_dragon", "bullet")
 tt.render.sprites[1].name = "hero_dragon_flameBurnDecal"
 tt.render.sprites[1].animated = false
@@ -1235,22 +1206,18 @@ tt.bullet.damage_radius = 60
 tt.bullet.damage_flags = F_AREA
 tt.main_script.update = kr2_scripts.breath_dragon.update
 tt.duration = fts(20)
-
 tt = E:register_t("fx_breath_dragon_fire", "fx")
 tt.render.sprites[1].name = "dragon_breath_fire"
 tt.render.sprites[1].anchor.y = 0.3472222222222222
-
 tt = E:register_t("fx_breath_dragon_fire_decal", "fx")
 tt.render.sprites[1].name = "dragon_breath_fire_decal"
 tt.render.sprites[1].z = Z_DECALS
 tt.render.sprites[1].anchor.y = 0.3424657534246575
-
 tt = E:register_t("fx_breath_dragon_mouth_glow", "decal_timed")
 tt.render.sprites[1].name = "hero_dragon_flameBurnGlow_cut"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].z = Z_OBJECTS + 1
 tt.timed.duration = fts(20)
-
 tt = E:register_t("ps_breath_dragon")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1265,11 +1232,9 @@ tt.particle_system.particle_lifetime = {
 	fts(10)
 }
 tt.particle_system.source_lifetime = fts(20)
-
 tt = E:register_t("fx_dragon_feast", "fx")
 tt.render.sprites[1].name = "fx_dragon_feast"
 tt.render.sprites[1].anchor.y = 0.065
-
 tt = E:register_t("fx_dragon_feast_explode", "fx")
 tt.render.sprites[1].name = "fx_dragon_feast_explode"
 tt.render.sprites[1].anchor.y = 0.065
@@ -1278,7 +1243,6 @@ tt.render.sprites[1].size_scales = {
 	vv(1),
 	vv(1.2)
 }
-
 tt = E:register_t("fierymist_dragon", "bullet")
 tt.render = nil
 tt.bullet.flight_time = fts(10)
@@ -1288,7 +1252,6 @@ tt.bullet.damage_min = 0
 tt.bullet.vis_flags = F_RANGED
 tt.bullet.hit_payload = "aura_fierymist_dragon"
 tt.main_script.update = kr2_scripts.fierymist_dragon.update
-
 tt = E:register_t("ps_fierymist_dragon")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1303,7 +1266,6 @@ tt.particle_system.particle_lifetime = {
 	fts(10)
 }
 tt.particle_system.source_lifetime = fts(20)
-
 tt = E:register_t("aura_fierymist_dragon", "aura")
 tt.aura.mod = "mod_slow_fierymist"
 tt.aura.cycle_time = fts(5)
@@ -1313,11 +1275,9 @@ tt.aura.vis_flags = F_MOD
 tt.aura.vis_bans = F_FRIEND
 tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
 tt.main_script.update = kr2_scripts.aura_apply_mod.update
-
 tt = E:register_t("mod_slow_fierymist", "mod_slow")
 tt.modifier.duration = fts(5)
 tt.slow.factor = nil
-
 tt = E:register_t("fx_aura_fierymist_dragon", "decal_tween")
 tt.duration = nil
 tt.render.sprites[1].name = "fx_fierymist_dragon"
@@ -1341,7 +1301,6 @@ tt.tween.props[1].keys = {
 		0
 	}
 }
-
 tt = E:register_t("wildfirebarrage_dragon", "bullet")
 b = balance.heroes.hero_dragon
 tt.render.sprites[1].name = "dragon_wildfirebarrage_projectile"
@@ -1362,12 +1321,10 @@ tt.main_script.insert = kr2_scripts.wildfirebarrage_dragon.insert
 tt.main_script.update = kr2_scripts.wildfirebarrage_dragon.update
 tt.sound_events.hit = "HeroDragonAttackHit"
 tt.explosions = nil
-
 tt = E:register_t("fx_emit_wildfirebarrage", "fx")
 tt.render.sprites[1].name = "fx_dragon_wildfirebarrage"
 tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].offset = v(-28, -48)
-
 tt = E:register_t("ps_wildbarrage_dragon")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -1397,25 +1354,22 @@ tt.particle_system.alphas = {
 	255,
 	0
 }
-
 tt = E:register_t("fx_wildfirebarrage_explosion_1", "fx")
 tt.render.sprites[1].name = "dragon_wildfirebarrage_explosion_1"
 tt.render.sprites[1].anchor.y = 0.24
-
 tt = E:register_t("fx_wildfirebarrage_explosion_2", "fx")
 tt.render.sprites[1].name = "dragon_wildfirebarrage_explosion_2"
 tt.render.sprites[1].anchor.y = 0.16
-
 tt = E:register_t("decal_wildfirebarrage_explosion", "decal_timed")
 tt.render.sprites[1].name = "dragon_wildfirebarrage_decal"
 tt.render.sprites[1].anchor.y = 0.3
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("controller_item_hero_dwarf", "controller_item_hero")
 tt.entity = "hero_dwarf"
-
 tt = E:register_t("hero_dwarf", "hero5")
+
 AC(tt, "melee", "timed_attacks")
+
 tt.health.armor = 0.7
 tt.health.dead_lifetime = 35
 tt.health.hp_max = 420
@@ -1495,7 +1449,6 @@ tt.hit_offset_big = v(0, 17)
 tt.unit.mod_offset = v(0, 10)
 tt.unit.hit_offset = v(0, 12)
 tt.unit.marker_offset = v(0, -2)
-
 tt = E:register_t("decal_hero_dwarf", "decal_tween")
 tt.render.sprites[1] = nil
 tt.tween.disabled = true
@@ -1504,8 +1457,10 @@ tt.tween.props[1].name = "scale"
 tt.tween.props[1].sprite_id = 1
 tt.tween.props[1].disabled = nil
 tt.tween.props[1].keys = {}
+
 for i = 1, 21 do
-    local s = (i - 1) * 0.02 + 1
+	local s = (i - 1) * 0.02 + 1
+
 	tt.tween.props[1].keys[i] = {
 		(i - 1) * fts(1),
 		v(s, s)
@@ -1521,22 +1476,21 @@ tt.render.sprites[1].alpha = 166
 tt.render.sprites[1].z = Z_DECALS
 tt.render.sprites[2] = table.deepclone(tt.render.sprites[1])
 tt.render.sprites[2].offset.y = -22
-
 tt = E:register_t("fx_dwarf_area_ring", "decal_timed")
 tt.render.sprites[1].name = "fx_dwarf_area_ring"
 tt.render.sprites[1].z = Z_DECALS - 1
-
 tt = E:register_t("mod_slow_dwarf_area_quake", "mod_slow")
 tt.modifier.duration = 5
 tt.slow.factor = 0.5
-
 tt = E:register_t("mod_stun_hero_dwarf", "mod_kr4_stun")
 tt.modifier.duration = 3
 
--- towers
 local tower_archmage = E:register_t("tower_archmage", "KR5Tower")
+
 b = balance.towers.archmage
+
 E:add_comps(tower_archmage, "attacks", "powers")
+
 tower_archmage.tower.type = "archmage"
 tower_archmage.tower.level = 1
 tower_archmage.tower.price = 300
@@ -1547,9 +1501,17 @@ tower_archmage.info.fn = kr2_scripts.tower_mage.get_info
 tower_archmage.info.portrait = "portraits_towers_0143"
 tower_archmage.info.enc_icon = 16
 tower_archmage.powers.twister = E:clone_c("power")
-tower_archmage.powers.twister.price = { 350, 250, 250 }
+tower_archmage.powers.twister.price = {
+	350,
+	250,
+	250
+}
 tower_archmage.powers.blast = E:clone_c("power")
-tower_archmage.powers.blast.price = { 200, 200, 200 }
+tower_archmage.powers.blast.price = {
+	200,
+	200,
+	200
+}
 tower_archmage.powers.blast.name = "CRITICAL"
 tower_archmage.main_script.insert = kr2_scripts.tower_archmage.insert
 tower_archmage.main_script.remove = kr2_scripts.tower_archmage.remove
@@ -1612,7 +1574,6 @@ tower_archmage.attacks.list[2].chance = 0.1
 tower_archmage.attacks.list[2].chance_inc = 5
 tower_archmage.attacks.list[2].nodes_limit = 30
 tower_archmage.sound_events.insert = "ArchmageTauntReady"
-
 tt = E:register_t("bolt_archmage", "bolt")
 tt.render.sprites[1].prefix = "bolt_archmage"
 tt.bullet.mod = nil
@@ -1627,7 +1588,6 @@ tt.bullet.store_sort_y_offset = -65
 tt.bullet.particles_name = "ps_bolt_archmage_trail"
 tt.sound_events.travel = "ArchmageBoltTravel"
 tt.sound_events.summon = "ArchmageBoltSummon"
-
 tt = E:register_t("bolt_blast", "bullet")
 tt.main_script.insert = kr2_scripts.bolt_blast.insert
 tt.main_script.update = kr2_scripts.bolt_blast.update
@@ -1643,12 +1603,13 @@ tt.bullet.damage_flags = F_AREA
 tt.sound_events.insert = "ArchmageCriticalExplosion"
 
 local twister = E:register_t("twister", "aura")
+
 E:add_comps(twister, "nav_path", "motion", "render")
+
 twister.main_script.insert = kr2_scripts.twister.insert
 twister.main_script.update = kr2_scripts.twister.update
 twister.damage_type = DAMAGE_MAGICAL
 twister.pickup_range = 25.6
--- twister.max_times_applied = 3
 twister.motion.max_speed = 46.08
 twister.damage_min = 20
 twister.damage_max = 20
@@ -1666,7 +1627,9 @@ twister.aura.vis_flags = bor(F_RANGED, F_TWISTER)
 twister.aura.vis_bans = bor(F_MINIBOSS, F_BOSS, F_CLIFF)
 
 local tower_engineer_1 = E:register_t("tower_engineer_1", "tower_KR5")
+
 E:add_comps(tower_engineer_1, "attacks", "vis")
+
 tower_engineer_1.tower.type = "engineer"
 tower_engineer_1.tower.kind = TOWER_KIND_ENGINEER
 tower_engineer_1.tower.team = TEAM_LINIREA
@@ -1698,6 +1661,7 @@ end
 tower_engineer_1.sound_events.insert = "EngineerTaunt"
 
 local tower_engineer_2 = E:register_t("tower_engineer_2", "tower_engineer_1")
+
 tower_engineer_2.tower.level = 1
 tower_engineer_2.tower.price = 215
 tower_engineer_2.attacks.list[1].bullet = "bomb_dynamite"
@@ -1713,6 +1677,7 @@ for i = 2, 8 do
 end
 
 local tower_engineer_3 = E:register_t("tower_engineer_3", "tower_engineer_1")
+
 tower_engineer_3.tower.level = 2
 tower_engineer_3.tower.price = 320
 tower_engineer_3.attacks.range = 179.20000000000002
@@ -1729,8 +1694,11 @@ for i = 2, 8 do
 end
 
 local tower_dwaarp = E:register_t("tower_dwaarp", "tower_KR5")
+
 b = balance.towers.dwaarp
+
 E:add_comps(tower_dwaarp, "attacks", "powers", "vis")
+
 tower_dwaarp.info.portrait = "portraits_towers_0123"
 tower_dwaarp.tower.type = "dwaarp"
 tower_dwaarp.tower.kind = TOWER_KIND_ENGINEER
@@ -1738,13 +1706,23 @@ tower_dwaarp.tower.team = TEAM_LINIREA
 tower_dwaarp.tower.price = 375
 tower_dwaarp.tower.menu_offset = v(0, 25)
 tower_dwaarp.powers.drill = E:clone_c("power")
-tower_dwaarp.powers.drill.price = { 300, 50, 50 }
+tower_dwaarp.powers.drill.price = {
+	300,
+	50,
+	50
+}
 tower_dwaarp.powers.lava = E:clone_c("power")
-tower_dwaarp.powers.lava.price = { 200, 150, 150 }
+tower_dwaarp.powers.lava.price = {
+	200,
+	150,
+	150
+}
 tower_dwaarp.powers.lava.name = "BLAST"
 tower_dwaarp.powers.batteries = E:clone_c("power")
 tower_dwaarp.powers.batteries.max_level = 1
-tower_dwaarp.powers.batteries.price = { 250 }
+tower_dwaarp.powers.batteries.price = {
+	250
+}
 tower_dwaarp.main_script.insert = kr2_scripts.tower_dwaarp.insert
 tower_dwaarp.main_script.update = kr2_scripts.tower_dwaarp.update
 tower_dwaarp.render.sprites[1].animated = false
@@ -1806,9 +1784,10 @@ tower_dwaarp.attacks.list[4].loops = 10
 tower_dwaarp.attacks.list[4].ts = nil
 tower_dwaarp.attacks.list[4].can_be_silenced = true
 tower_dwaarp.sound_events.insert = "EarthquakeTauntReady"
-
 tt = E:register_t("tower_mech", "tower_KR5")
+
 E:add_comps(tt, "barrack", "powers", "vis")
+
 tt.tower.type = "mecha"
 tt.tower.kind = TOWER_KIND_ENGINEER
 tt.tower.team = TEAM_LINIREA
@@ -1818,10 +1797,17 @@ tt.tower.menu_offset = v(0, 15)
 tt.info.fn = kr2_scripts.tower_mech.get_info
 tt.info.portrait = "portraits_towers_0141"
 tt.powers.missile = E:clone_c("power")
-tt.powers.missile.price = { 300, 250 }
+tt.powers.missile.price = {
+	300,
+	250
+}
 tt.powers.missile.max_level = 2
 tt.powers.oil = E:clone_c("power")
-tt.powers.oil.price = { 250, 200, 200 }
+tt.powers.oil.price = {
+	250,
+	200,
+	200
+}
 tt.powers.oil.name = "WASTE"
 tt.main_script.insert = kr2_scripts.tower_mech.insert
 tt.main_script.update = kr2_scripts.tower_mech.update
@@ -1847,10 +1833,11 @@ tt.sound_events.insert = {
 }
 tt.sound_events.change_rally_point = "MechTaunt"
 tt.ui.click_rect = r(-40, -10, 80, 50)
-
 tt = E:register_t("soldier_mecha")
 b = balance.towers.mecha
+
 E:add_comps(tt, "pos", "render", "motion", "nav_rally", "main_script", "vis", "idle_flip", "attacks", "powers")
+
 tt.powers.missile = E:clone_c("power")
 tt.powers.oil = E:clone_c("power")
 tt.idle_flip.cooldown = 5
@@ -1925,6 +1912,7 @@ tt.attacks.list[3].sprite_ids = {
 tt.attacks.list[3].max_range = 57.6
 
 local bomb_mecha = E:register_t("bomb_mecha", "bomb")
+
 bomb_mecha.up_shock_and_awe_chance = 0.2
 bomb_mecha.up_alchemical_powder_chance = 1
 bomb_mecha.render.sprites[1].name = "mech_bomb"
@@ -1935,6 +1923,7 @@ bomb_mecha.bullet.damage_max = 55
 bomb_mecha.bullet.damage_radius = 57.599999999999994
 
 local missile_mecha = E:register_t("missile_mecha", "bullet")
+
 missile_mecha.render.sprites[1].prefix = "missile_mecha"
 missile_mecha.render.sprites[1].loop = true
 missile_mecha.bullet.damage_type = DAMAGE_EXPLOSION
@@ -1957,11 +1946,11 @@ missile_mecha.main_script.update = kr2_scripts.missile.update
 missile_mecha.sound_events.insert = "RocketLaunchSound"
 missile_mecha.sound_events.hit = "BombExplosionSound"
 missile_mecha.sound_events.hit_water = "RTWaterExplosion"
-
 tt = E:register_t("ps_missile_mecha", "ps_missile")
 tt.particle_system.name = "mech_missile_particle"
 
 local tower_templar = E:register_t("tower_templar", "tower_paladin_covenant_lvl1")
+
 E:add_comps(tower_templar, "powers")
 
 tower_templar.info.portrait = "portraits_towers_0114"
@@ -1969,13 +1958,25 @@ tower_templar.info.i18n_key = "TOWER_TEMPLAR"
 tower_templar.tower.type = "templar"
 tower_templar.tower.price = 230
 tower_templar.powers.holygrail = E:clone_c("power")
-tower_templar.powers.holygrail.price = { 250, 150, 150 }
+tower_templar.powers.holygrail.price = {
+	250,
+	150,
+	150
+}
 tower_templar.powers.holygrail.name = "HOLY"
 tower_templar.powers.extralife = E:clone_c("power")
-tower_templar.powers.extralife.price = { 150, 150, 150 }
+tower_templar.powers.extralife.price = {
+	150,
+	150,
+	150
+}
 tower_templar.powers.extralife.name = "TOUGHNESS"
 tower_templar.powers.blood = E:clone_c("power")
-tower_templar.powers.blood.price = { 250, 150, 150 }
+tower_templar.powers.blood.price = {
+	250,
+	150,
+	150
+}
 tower_templar.powers.blood.name = "ARTERIAL"
 tower_templar.barrack.soldier_type = "soldier_templar"
 tower_templar.barrack.rally_range = 147.20000000000002
@@ -1994,9 +1995,10 @@ tower_templar.render.sprites[5].offset = v(19, 27)
 tower_templar.render.sprites[5].ts = 0.08
 tower_templar.sound_events.insert = "TemplarTauntReady"
 tower_templar.sound_events.change_rally_point = "TemplarTaunt"
-
 tt = E:register_t("soldier_templar", "soldier_militia")
+
 E:add_comps(tt, "revive", "powers", "nav_grid")
+
 tt.health.armor = 0.5
 tt.health.dead_lifetime = 15
 tt.health.hp_inc = 50
@@ -2054,20 +2056,33 @@ tt.unit.hit_offset = v(0, 13)
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
 
 local tower_assassin = E:register_t("tower_assassin", "tower_paladin_covenant_lvl1")
+
 E:add_comps(tower_assassin, "powers")
+
 tower_assassin.info.i18n_key = "TOWER_ASSASSINS"
 tower_assassin.info.portrait = "portraits_towers_0102"
 tower_assassin.tower.type = "assassin"
 tower_assassin.tower.price = 200
 tower_assassin.tower.menu_offset = v(0, 25)
 tower_assassin.powers.sneak = E:clone_c("power")
-tower_assassin.powers.sneak.price = { 225, 125, 125 }
+tower_assassin.powers.sneak.price = {
+	225,
+	125,
+	125
+}
 tower_assassin.powers.pickpocket = E:clone_c("power")
-tower_assassin.powers.pickpocket.price = { 100, 50 }
+tower_assassin.powers.pickpocket.price = {
+	100,
+	50
+}
 tower_assassin.powers.pickpocket.max_level = 2
 tower_assassin.powers.pickpocket.name = "PICK"
 tower_assassin.powers.counter = E:clone_c("power")
-tower_assassin.powers.counter.price = { 150, 100, 100 }
+tower_assassin.powers.counter.price = {
+	150,
+	100,
+	100
+}
 tower_assassin.barrack.soldier_type = "soldier_assassin"
 tower_assassin.barrack.rally_range = 145
 tower_assassin.render.sprites[1].name = "terrains_%04i"
@@ -2078,7 +2093,6 @@ tower_assassin.render.sprites[3].prefix = "towerassassin_door"
 tower_assassin.render.sprites[3].offset = v(0, 37)
 tower_assassin.sound_events.insert = "AssassinTauntReady"
 tower_assassin.sound_events.change_rally_point = "AssassinTaunt"
-
 tt = E:register_t("soldier_assassin", "soldier_militia")
 
 E:add_comps(tt, "powers", "dodge", "cloak", "pickpocket", "nav_grid")
@@ -2178,7 +2192,6 @@ tt.unit.hit_offset = v(0, 15)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 12)
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
-
 tt = E:register_t("tower_frankenstein", "tower_KR5")
 
 E:add_comps(tt, "barrack", "attacks", "powers", "vis")
@@ -2192,9 +2205,17 @@ tt.tower.menu_offset = v(0, 25)
 tt.info.fn = kr2_scripts.tower_frankenstein.get_info
 tt.info.portrait = "portraits_towers_0104"
 tt.powers.lightning = E:clone_c("power")
-tt.powers.lightning.price = { 275, 275, 275 }
+tt.powers.lightning.price = {
+	275,
+	275,
+	275
+}
 tt.powers.frankie = E:clone_c("power")
-tt.powers.frankie.price = { 175, 175, 175 }
+tt.powers.frankie.price = {
+	175,
+	175,
+	175
+}
 tt.main_script.insert = kr2_scripts.tower_frankenstein.insert
 tt.main_script.update = kr2_scripts.tower_frankenstein.update
 tt.main_script.remove = kr2_scripts.tower_barrack.remove
@@ -2252,7 +2273,6 @@ for i = 1, 2 do
 end
 
 tt.sound_events.change_rally_point = "HWFrankensteinTaunt"
-
 tt = E:register_t("ray_frankenstein", "bullet")
 tt.bullet.hit_time = fts(1)
 tt.bullet.mod = "mod_ray_frankenstein"
@@ -2279,7 +2299,6 @@ tt.render.sprites[1].loop = false
 tt.render.sprites[1].z = Z_BULLETS
 tt.main_script.insert = kr2_scripts.ray_frankenstein.insert
 tt.main_script.update = kr2_scripts.ray_frankenstein.update
-
 tt = E:register_t("mod_ray_frankenstein", "modifier")
 
 E:add_comps(tt, "render", "dps")
@@ -2300,7 +2319,6 @@ tt.render.sprites[1].z = Z_BULLETS + 1
 tt.render.sprites[1].loop = true
 tt.main_script.insert = kr2_scripts.mod_dps.insert
 tt.main_script.update = kr2_scripts.mod_dps.update
-
 tt = E:register_t("soldier_frankenstein", "soldier")
 
 E:add_comps(tt, "melee", "nav_grid")
@@ -2375,7 +2393,6 @@ tt.unit.hit_offset = v(0, 17)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.bans = bor(F_POLYMORPH, F_POISON, F_LYCAN)
-
 tt = E:register_t("fx_frankenstein_pound", "decal_scripted")
 
 E:add_comps(tt, "tween")
@@ -2416,6 +2433,7 @@ end
 tt.tween.remove = true
 
 local axe_totem = E:register_t("axe_totem", "arrow")
+
 axe_totem.render.sprites[1].name = "TotemAxe_0001"
 axe_totem.render.sprites[1].animated = false
 axe_totem.bullet.rotation_speed = 30 * FPS * math.pi / 180
@@ -2428,7 +2446,6 @@ axe_totem.bullet.pop = {
 axe_totem.bullet.pop_chance = 1
 axe_totem.bullet.pop_conds = DR_KILL
 axe_totem.sound_events.insert = "AxeSound"
-
 tt = RT("mod_ranger_poison", "mod_poison")
 tt.modifier.duration = 3
 tt.modifier.duration_inc = 0
@@ -2440,7 +2457,9 @@ tt.dps.kill = true
 tt.dps.damage_type = bor(DAMAGE_POISON, DAMAGE_NO_SHIELD_HIT)
 
 local mod_silence_totem = E:register_t("mod_silence_totem", "modifier")
+
 E:add_comps(mod_silence_totem, "render")
+
 mod_silence_totem.modifier.duration = 2
 mod_silence_totem.modifier.bans = {
 	"mod_shaman_armor",
@@ -2463,7 +2482,9 @@ mod_silence_totem.render.sprites[1].loop = true
 mod_silence_totem.render.sprites[1].draw_order = 2
 
 local totem_silence = E:register_t("totem_silence", "aura")
+
 E:add_comps(totem_silence, "render", "tween")
+
 totem_silence.aura.mod = "mod_silence_totem"
 totem_silence.aura.cycle_time = 0.3
 totem_silence.aura.duration = 0
@@ -2526,7 +2547,9 @@ totem_silence.tween.props[2].keys = {
 totem_silence.tween.props[2].loop = true
 
 local mod_weakness_totem = E:register_t("mod_weakness_totem", "modifier")
+
 E:add_comps(mod_weakness_totem, "render")
+
 mod_weakness_totem.inflicted_damage_factor = 0.5
 mod_weakness_totem.received_damage_factor = 1.4
 mod_weakness_totem.modifier.duration = 1.5
@@ -2546,6 +2569,7 @@ mod_weakness_totem.render.sprites[1].loop = true
 mod_weakness_totem.render.sprites[1].z = Z_DECALS
 
 local totem_weakness = E:register_t("totem_weakness", "totem_silence")
+
 totem_weakness.aura.mod = "mod_weakness_totem"
 totem_weakness.aura.duration = 0
 totem_weakness.aura.duration_inc = 3
@@ -2557,19 +2581,34 @@ totem_weakness.render.sprites[3].anchor = v(0.45, 0.17)
 totem_weakness.sound_events.insert = "TotemWeakness"
 
 local tower_totem = E:register_t("tower_totem", "tower_archer_1")
+
 b = balance.towers.totem
+
 E:add_comps(tower_totem, "powers")
+
 tower_totem.info.portrait = "portraits_towers_0120"
 tower_totem.tower.type = "totem"
 tower_totem.tower.price = 70
 tower_totem.tower.team = TEAM_DARK_ARMY
 tower_totem.powers.poison = CC("power")
-tower_totem.powers.poison.price = { 125, 125, 125 }
+tower_totem.powers.poison.price = {
+	125,
+	125,
+	125
+}
 tower_totem.powers.poison.mod = "mod_ranger_poison"
 tower_totem.powers.weakness = E:clone_c("power")
-tower_totem.powers.weakness.price = { 225, 200, 200 }
+tower_totem.powers.weakness.price = {
+	225,
+	200,
+	200
+}
 tower_totem.powers.silence = E:clone_c("power")
-tower_totem.powers.silence.price = { 150, 150, 150 }
+tower_totem.powers.silence.price = {
+	150,
+	150,
+	150
+}
 tower_totem.powers.silence.name = "SPIRITS"
 tower_totem.main_script.insert = kr2_scripts.tower_totem.insert
 tower_totem.main_script.update = kr2_scripts.tower_totem.update
@@ -2616,6 +2655,7 @@ tower_totem.render.sprites[8].loop = false
 tower_totem.sound_events.insert = "TotemTauntReady"
 
 local arrow_crossbow = E:register_t("arrow_crossbow", "arrow")
+
 arrow_crossbow.bullet.flight_time = fts(16)
 arrow_crossbow.bullet.damage_min = 15
 arrow_crossbow.bullet.damage_max = 23
@@ -2624,6 +2664,7 @@ arrow_crossbow.bullet.pop = {
 }
 
 local multishot_crossbow = E:register_t("multishot_crossbow", "shotgun")
+
 multishot_crossbow.bullet.damage_type = DAMAGE_PHYSICAL
 multishot_crossbow.bullet.min_speed = 20 * FPS
 multishot_crossbow.bullet.max_speed = 20 * FPS
@@ -2638,7 +2679,9 @@ multishot_crossbow.render.sprites[1].animated = false
 multishot_crossbow.sound_events.insert = "ArrowSound"
 
 local mod_crossbow_eagle = E:register_t("mod_crossbow_eagle", "modifier")
+
 E:add_comps(mod_crossbow_eagle, "render", "tween")
+
 mod_crossbow_eagle.range_factor = 1.05
 mod_crossbow_eagle.range_factor_inc = 0.05
 mod_crossbow_eagle.main_script.insert = kr2_scripts.mod_crossbow_eagle.insert
@@ -2664,6 +2707,7 @@ mod_crossbow_eagle.render.sprites[1].name = "CossbowHunter_towerBuff"
 mod_crossbow_eagle.render.sprites[1].animated = false
 mod_crossbow_eagle.render.sprites[1].anchor.y = 0.21
 mod_crossbow_eagle.render.sprites[1].z = Z_TOWER_BASES + 1
+
 for i, p in ipairs({
 	v(22, 45),
 	v(40, 35),
@@ -2680,6 +2724,7 @@ for i, p in ipairs({
 end
 
 local decal_crossbow_eagle_preview = E:register_t("decal_crossbow_eagle_preview", "decal_tween")
+
 decal_crossbow_eagle_preview.render.sprites[1].name = "CrossbowHunterDecalDotted"
 decal_crossbow_eagle_preview.render.sprites[1].animated = false
 decal_crossbow_eagle_preview.render.sprites[1].anchor = v(0.5, 0.32)
@@ -2703,16 +2748,26 @@ decal_crossbow_eagle_preview.tween.props[1].keys = {
 }
 
 local tower_crossbow = E:register_t("tower_crossbow", "tower_archer_1")
+
 E:add_comps(tower_crossbow, "powers")
+
 b = balance.towers.crossbow
 tower_crossbow.info.portrait = "portraits_towers_0119"
 tower_crossbow.tower.type = "crossbow"
 tower_crossbow.tower.price = 230
 tower_crossbow.powers.multishot = E:clone_c("power")
-tower_crossbow.powers.multishot.price = { 250, 165, 165 }
+tower_crossbow.powers.multishot.price = {
+	250,
+	165,
+	165
+}
 tower_crossbow.powers.multishot.name = "BARRAGE"
 tower_crossbow.powers.eagle = E:clone_c("power")
-tower_crossbow.powers.eagle.price = { 200, 200, 200 }
+tower_crossbow.powers.eagle.price = {
+	200,
+	200,
+	200
+}
 tower_crossbow.powers.eagle.name = "FALCONER"
 tower_crossbow.main_script.insert = kr2_scripts.tower_crossbow.insert
 tower_crossbow.main_script.update = kr2_scripts.tower_crossbow.update
@@ -2827,9 +2882,10 @@ tower_crossbow.render.sprites[5].offset = v(2, 60)
 tower_crossbow.render.sprites[5].hidden = true
 tower_crossbow.render.sprites[5].draw_order = 6
 tower_crossbow.sound_events.insert = "CrossbowTauntReady"
-
 tt = E:register_t("tower_pirate_watchtower", "tower_archer_1")
+
 E:add_comps(tt, "powers")
+
 tt.attacks.list[1] = E:clone_c("bullet_attack")
 tt.attacks.list[1].animation = "shoot"
 tt.attacks.list[1].bullet = "pirate_watchtower_shotgun"
@@ -2843,19 +2899,25 @@ tt.info.fn = kr2_scripts.tower_pirate_watchtower.get_info
 tt.info.portrait = "portraits_towers_0121"
 tt.main_script.update = kr2_scripts.tower_pirate_watchtower.update
 tt.powers.reduce_cooldown = E:clone_c("power")
-tt.powers.reduce_cooldown.price = { 75, 75, 75 }
+tt.powers.reduce_cooldown.price = {
+	75,
+	75,
+	75
+}
 tt.powers.reduce_cooldown.values = {
 	2.4,
 	1.7,
 	1.2
 }
 tt.powers.parrot = E:clone_c("power")
-tt.powers.parrot.price = { 300, 300 }
+tt.powers.parrot.price = {
+	300,
+	300
+}
 tt.powers.parrot.max_level = 2
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[1].offset = v(0, 13)
--- tt.render.sprites[1].hidden = true
 tt.render.sprites[1].hover_off_hidden = true
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
@@ -2880,7 +2942,6 @@ tt.render.sprites[4].offset = v(0, 50)
 tt.sound_events.insert = nil
 tt.tower.price = 0
 tt.tower.type = "pirate_watchtower"
-
 tt = E:register_t("pirate_watchtower_shotgun", "shotgun")
 tt.bullet.level = 0
 tt.bullet.damage_min = 40
@@ -2893,9 +2954,10 @@ tt.bullet.miss_fx = "fx_smoke_bullet"
 tt.bullet.miss_fx_water = "fx_splash_small"
 tt.bullet.start_fx = "fx_rifle_smoke"
 tt.sound_events.insert = "ShotgunSound"
-
 tt = E:register_t("pirate_watchtower_parrot", "decal_scripted")
+
 E:add_comps(tt, "force_motion", "custom_attack")
+
 tt.flight_height = 60
 tt.flight_speed_idle = 100
 tt.ramp_dist_idle = 100
@@ -2922,7 +2984,6 @@ tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "decal_flying_shadow"
 tt.render.sprites[2].offset = v(0, 0)
 tt.owner = nil
-
 tt = E:register_t("pirate_watchtower_bomb", "bomb")
 tt.up_shock_and_awe_chance = 0.2
 tt.up_alchemical_powder_chance = 1
@@ -2933,10 +2994,11 @@ tt.bullet.damage_min = 20
 tt.bullet.hide_radius = nil
 tt.render.sprites[1].name = "pirateTower_bomb"
 tt.sound_events.insert = nil
-
 tt = E:register_t("tower_archer_dwarf", "tower_royal_archers_lvl1")
 b = balance.towers.archer_dwarf
+
 E:add_comps(tt, "powers")
+
 tt.tower.price = 240
 tt.tower.type = "archer_dwarf"
 tt.info.portrait = "portraits_towers_0116"
@@ -2969,9 +3031,17 @@ tt.attacks.list[2].shoot_time = fts(22)
 tt.attacks.list[2].vis_bans = bor(F_FRIEND, F_NIGHTMARE)
 tt.attacks.list[2].node_prediction = fts(22) + fts(26)
 tt.powers.barrel = E:clone_c("power")
-tt.powers.barrel.price = { 250, 150, 150 }
+tt.powers.barrel.price = {
+	250,
+	150,
+	150
+}
 tt.powers.extra_damage = E:clone_c("power")
-tt.powers.extra_damage.price = { 200, 200, 200 }
+tt.powers.extra_damage.price = {
+	200,
+	200,
+	200
+}
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[1].offset = v(0, 14)
@@ -3003,7 +3073,6 @@ tt.render.sprites[5].animated = false
 tt.render.sprites[5].name = "DwarfRiflemenTop"
 tt.render.sprites[5].offset = v(0, 36)
 tt.sound_events.insert = nil
-
 tt = E:register_t("dwarf_shotgun", "shotgun")
 tt.bullet.level = 0
 tt.bullet.damage_type = DAMAGE_EXPLOSION
@@ -3016,7 +3085,6 @@ tt.bullet.hit_blood_fx = "fx_blood_splat"
 tt.bullet.miss_fx = "fx_smoke_bullet"
 tt.bullet.start_fx = "fx_rifle_smoke"
 tt.sound_events.insert = "ShotgunSound"
-
 tt = E:register_t("dwarf_barrel", "bomb")
 tt.up_shock_and_awe_chance = 0.2
 tt.up_alchemical_powder_chance = 1
@@ -3031,8 +3099,8 @@ tt.bullet.g = -1 / (fts(1) * fts(1))
 tt.bullet.level = 0
 tt.render.sprites[1].name = "DwarfShooter_Barril"
 tt.sound_events.insert = "AxeSound"
-
 tt = E:register_t("tower_barrack_dwarf", "tower_paladin_covenant_lvl1")
+
 E:add_comps(tt, "powers")
 
 tt.barrack.rally_range = 179.20000000000002
@@ -3041,11 +3109,22 @@ tt.info.portrait = "portraits_towers_0115"
 tt.info.i18n_key = "TOWER_BARRACK_DWARF"
 tt.powers.armor = E:clone_c("power")
 tt.powers.armor.max_level = 2
-tt.powers.armor.price = { 250, 200 }
+tt.powers.armor.price = {
+	250,
+	200
+}
 tt.powers.beer = E:clone_c("power")
-tt.powers.beer.price = { 200, 175, 150 }
+tt.powers.beer.price = {
+	200,
+	175,
+	150
+}
 tt.powers.hammer = E:clone_c("power")
-tt.powers.hammer.price = { 150, 150, 150 }
+tt.powers.hammer.price = {
+	150,
+	150,
+	150
+}
 tt.render.sprites[1].name = "terrains_%04i"
 tt.render.sprites[1].offset = v(0, 15)
 tt.render.sprites[2].name = "DwarfHall_0001"
@@ -3057,8 +3136,8 @@ tt.sound_events.insert = "DwarfTaunt"
 tt.sound_events.change_rally_point = "DwarfTaunt"
 tt.tower.price = 200
 tt.tower.type = "barrack_dwarf"
-
 tt = E:register_t("soldier_dwarf", "soldier_militia")
+
 E:add_comps(tt, "powers", "nav_grid")
 
 tt.beer = {}
@@ -3092,8 +3171,8 @@ tt.regen.health = 22
 tt.render.sprites[1].anchor.y = 0.21428571428571427
 tt.render.sprites[1].prefix = "soldierdwarf"
 tt.unit.marker_offset = v(0, 0)
-
 tt = E:register_t("mod_dwarf_beer", "modifier")
+
 E:add_comps(tt, "hps", "render")
 
 tt.hps.heal_min = 25
@@ -3112,9 +3191,10 @@ tt.render.sprites[2].offset.y = 10
 tt.render.sprites[2].z = Z_EFFECTS
 tt.main_script.insert = kr2_scripts.mod_hps.insert
 tt.main_script.update = kr2_scripts.mod_hps.update
-
 tt = E:register_t("tower_barrack_pirates", "tower_KR5")
+
 E:add_comps(tt, "barrack", "vis")
+
 tt.tower.type = "mercenaries_pirates"
 tt.tower.kind = TOWER_KIND_BARRACK
 tt.tower.team = TEAM_LINIREA
@@ -3137,17 +3217,10 @@ tt.barrack.soldier_type = {}
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
 tt.barrack.max_soldiers = 0
-
--- tt = E:register_t("tower_barrack_pirates_w_flamer", "tower_barrack_pirates")
--- tt.tower.type = "mercenaries_pirates_w_flamer"
--- tt.barrack.soldier_type = "soldier_pirate_flamer"
-
--- tt = E:register_t("tower_barrack_pirates_w_anchor", "tower_barrack_pirates")
--- tt.tower.type = "mercenaries_pirates_w_anchor"
--- tt.barrack.soldier_type = "soldier_pirate_anchor"
-
 tt = E:register_t("soldier_pirate_captain", "soldier_militia")
+
 E:add_comps(tt, "pickpocket", "timed_actions", "nav_grid")
+
 tt.health.armor = 0.3
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 250
@@ -3206,18 +3279,20 @@ tt.unit.price = {
 	180
 }
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
-
 tt = RT("mod_corsair_grog_healing", "modifier")
+
 E:add_comps(tt, "hps")
+
 tt.hps.heal_every = 1e+99
 tt.hps.heal_min = 100
 tt.hps.heal_max = 100
 tt.main_script.insert = kr2_scripts.mod_hps.insert
 tt.main_script.update = kr2_scripts.mod_hps.update
 tt.modifier.duration = fts(1)
-
 tt = E:register_t("soldier_pirate_flamer", "soldier_militia")
+
 E:add_comps(tt, "ranged", "nav_grid")
+
 tt.health.armor = 0
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 125
@@ -3274,7 +3349,6 @@ tt.sound_events.insert = "PiratesTaunt"
 tt.sound_events.change_rally_point = "PiratesTaunt"
 tt.sound_events.death = "dwarves_sulfur_alchemist_death"
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
-
 tt = E:register_t("bomb_molotov", "bomb")
 tt.up_shock_and_awe_chance = 0.2
 tt.up_alchemical_powder_chance = 1
@@ -3289,13 +3363,13 @@ tt.bullet.hit_fx = "fx_explosion_molotov"
 tt.bullet.mod = "mod_bucaneer_dot"
 tt.sound_events.insert = "krv_sfx_bucaneer_attack"
 tt.sound_events.hit = "krv_sfx_bucaneer_explotion"
-
 tt = E:register_t("fx_explosion_molotov", "fx")
 tt.render.sprites[1].name = "bucaneer_hit"
 tt.render.sprites[1].anchor.y = 0.5
-
 tt = E:register_t("mod_bucaneer_dot", "modifier")
+
 E:add_comps(tt, "dps", "render")
+
 tt.render.sprites[1].name = "bucaneer_modifier"
 tt.render.sprites[1].loop = true
 tt.modifier.duration = 2.5
@@ -3306,9 +3380,10 @@ tt.dps.damage_every = 0.2
 tt.dps.damage_type = DAMAGE_TRUE
 tt.main_script.insert = kr2_scripts.mod_dps.insert
 tt.main_script.update = kr2_scripts.mod_dps.update
-
 tt = E:register_t("soldier_pirate_anchor", "soldier_militia")
+
 E:add_comps(tt, "nav_grid")
+
 tt.health.armor = 0
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 600
@@ -3363,22 +3438,24 @@ tt.unit.size = UNIT_SIZE_MEDIUM
 tt.sound_events.insert = "PirateBigTaunt"
 tt.sound_events.change_rally_point = "PirateBigTaunt"
 tt.main_script.update = customScripts1.kr4_soldier_barrack.update
-
 tt = E:register_t("decal_boatswain_hit", "decal_timed")
 tt.render.sprites[1].name = "decal_two_boatswain"
 tt.render.sprites[1].anchor.y = 0.37
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].z = Z_DECALS
-
 tt = RT("fx_boatswain_hit", "fx")
 tt.render.sprites[1].name = "decal_one_boatswain"
 tt.render.sprites[1].anchor.y = 0.37
-
 tt = E:register_t("tower_barrack_amazonas", "tower_barrack_pirates")
+
 E:add_comps(tt, "powers")
+
 tt.powers.carnivorous_plant = E:clone_c("power")
 tt.powers.carnivorous_plant.max_level = 2
-tt.powers.carnivorous_plant.price = { 250, 200 }
+tt.powers.carnivorous_plant.price = {
+	250,
+	200
+}
 tt.powers.carnivorous_plant.pos = {
 	v(-47, -18),
 	v(47, -18),
@@ -3394,9 +3471,10 @@ tt.render.sprites[2].prefix = "tower_merc_camp_amazonas"
 tt.barrack.soldier_type = "soldier_amazona"
 tt.sound_events.change_rally_point = "AmazonTaunt"
 tt.main_script.update = customScripts1.tower_barrack_amazonas.update
-
 tt = E:register_t("soldier_amazona", "soldier_militia")
+
 E:add_comps(tt, "track_kills", "auras", "nav_grid")
+
 tt.health.armor = 0
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 300
@@ -3437,15 +3515,17 @@ tt.unit.price = {
 	150,
 	150
 }
-
 tt = E:register_t("amazona_heal_mod", "modifier")
+
 E:add_comps(tt, "render", "heal_on_kill")
+
 tt.main_script.insert = kr2_scripts.mod_heal_on_kill.insert
 tt.main_script.update = kr2_scripts.mod_heal_on_kill.update
 tt.heal_on_kill.hp = 50
-
 tt = E:register_t("amazon_carnivorous_plant", "decal_scripted")
+
 E:add_comps(tt, "area_attack")
+
 tt.owner = nil
 tt.attack_pos = {
 	v(31, -48),
@@ -3464,7 +3544,6 @@ tt.area_attack.hit_time = fts(10)
 tt.area_attack.vis_flags = F_EAT
 tt.area_attack.vis_bans = bor(F_BOSS, F_MINIBOSS)
 tt.area_attack.damage_type = DAMAGE_EAT
-
 tt = E:register_t("tower_barrack_mercenaries", "tower_barrack_pirates")
 tt.tower.type = "mercenaries_desert"
 tt.info.portrait = "portraits_towers_0132"
@@ -3476,12 +3555,12 @@ tt.render.sprites[4] = E:clone_c("sprite")
 tt.render.sprites[4].name = "tower_merc_camp_desert_fire"
 tt.render.sprites[4].offset = v(23, 15)
 tt.render.sprites[4].ts = 0.08
--- tt.barrack.soldier_type = "soldier_djinn"
 tt.barrack.rally_range = 145.28
 tt.barrack.respawn_offset = v(0, 0)
-
 tt = E:register_t("soldier_djinn", "soldier_militia")
+
 E:add_comps(tt, "timed_attacks", "nav_grid")
+
 tt.health.armor = 0
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 350
@@ -3517,7 +3596,6 @@ tt.unit.price = {
 tt.vis.bans = bor(tt.vis.bans)
 tt.sound_events.insert = "GenieTaunt"
 tt.sound_events.change_rally_point = "GenieTaunt"
-
 tt = E:register_t("spell_djinn", "spell")
 tt.main_script.insert = kr2_scripts.spell_djinn.insert
 tt.fx_options = {
@@ -3525,29 +3603,24 @@ tt.fx_options = {
 	"fx_djinn_chest",
 	"fx_djinn_harp"
 }
-
 tt = E:register_t("fx_djinn_frog", "fx")
 tt.render.sprites[1].name = "fx_djinn_frog"
 tt.render.sprites[1].anchor.y = 0.16
 tt.render.sprites[1].z = Z_OBJECTS
-
 tt = E:register_t("fx_djinn_chest", "decal_timed")
 tt.render.sprites[1].name = "soldier_djinn_polyshapes_0001"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].anchor.y = 0.16
 tt.timed.duration = 4
-
 tt = E:register_t("fx_djinn_harp", "decal_timed")
 tt.render.sprites[1].name = "soldier_djinn_polyshapes_0002"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].anchor.y = 0.16
 tt.timed.duration = 4
-
--- kr2 enemies
 package.loaded.kr2_enemies_templates = nil
+
 require("kr2_enemies_templates")
 
--- unmodified
 tt = E:register_t("mod_munra_heal", "modifier")
 
 E:add_comps(tt, "hps", "render", "endless")
@@ -3711,7 +3784,6 @@ tt.endless.factor_map = {
 tt = E:register_t("arrow_hammerhold", "arrow")
 tt.bullet.damage_min = 5
 tt.bullet.damage_max = 10
-
 tt = E:register_t("pirate_exploding_barrel", "bomb")
 tt.bullet.flight_time = fts(20)
 tt.bullet.g = -1 / (fts(1) * fts(1))
@@ -3786,7 +3858,6 @@ tt.main_script.update = kr2_scripts.decal_kraken.update
 tt.render.sprites[1].prefix = "kraken_water"
 tt.render.sprites[1].z = Z_DECALS
 tt.duration = 3
-
 tt = E:register_t("bolt_1", "bolt")
 tt.bullet.damage_min = 9
 tt.bullet.damage_max = 17
@@ -3796,7 +3867,6 @@ tt.bullet.damage_max = 43
 tt = E:register_t("bolt_3", "bolt")
 tt.bullet.damage_min = 40
 tt.bullet.damage_max = 74
-
 tt = E:register_t("bolt_necromancer", "bolt")
 tt.render.sprites[1].prefix = "bolt_necromancer"
 tt.bullet.damage_min = 20
@@ -3807,7 +3877,6 @@ tt.bullet.pop = {
 	"pop_sishh"
 }
 tt.sound_events.insert = "NecromancerBolt"
-
 tt = E:register_t("drill", "bullet")
 tt.bullet.pop = {
 	"pop_splat"
@@ -3895,7 +3964,6 @@ tt.count_group_name = "skeletons"
 tt.count_group_type = COUNT_GROUP_CONCURRENT
 tt.count_group_max = 30
 tt.max_skeletons_tower = 8
-
 tt = E:register_t("kraken_aura", "aura")
 tt.main_script.insert = kr2_scripts.kraken_aura.insert
 tt.main_script.update = kr2_scripts.aura_apply_mod.update
@@ -3949,7 +4017,6 @@ ps_bolt_archmage_trail.particle_system.scales_y = {
 	0.05
 }
 ps_bolt_archmage_trail.particle_system.emission_rate = 30
-
 tt = E:register_t("ps_bomb_volcano")
 
 E:add_comps(tt, "pos", "particle_system")
@@ -4164,7 +4231,6 @@ tower_barrack_3.tower.price = 160
 tower_barrack_3.render.sprites[2].name = "tower_barracks_lvl3_layer1_0001"
 tower_barrack_3.render.sprites[3].prefix = "towerbarracklvl3_door"
 tower_barrack_3.barrack.soldier_type = "soldier_knight"
-
 tt = E:register_t("tower_archer_hammerhold", "tower")
 
 E:add_comps(tt, "attacks")
@@ -4342,7 +4408,6 @@ tt.melee.range = 38.4
 tt.render.sprites[1].anchor.y = 0.18
 tt.render.sprites[1].prefix = "soldier_skeleton_knight"
 tt.sound_events.insert = "NecromancerSummon"
-
 tt = E:register_t("re_farmer", "soldier_militia")
 
 E:add_comps(tt, "reinforcement", "tween")
@@ -4483,10 +4548,6 @@ for i = 1, 3 do
 		end
 	end
 end
-
--- for i = 1, 3 do
--- 	E:set_template("re_current_" .. i, E:get_template("re_farmer_" .. i))
--- end
 
 tt = E:register_t("soldier_legionnaire", "soldier_militia")
 tt.health.armor = 0
@@ -4676,12 +4737,12 @@ tt.render.sprites[2].name = "idle"
 tt.render.sprites[2].prefix = "steam_frigate_mine"
 tt.sound_events.insert = "AxeSound"
 tt.trigger_radius = 10
-
 tt = E:register_t("controller_item_hero_vampiress", "controller_item_hero")
 tt.entity = "hero_vampiress"
-
 tt = E:register_t("hero_vampiress", "hero5")
+
 E:add_comps(tt, "melee", "timed_attacks")
+
 image_y = 74
 anchor_y = 24 / image_y
 tt.health.armor = 0.7
@@ -4694,7 +4755,6 @@ tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(90)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_basic.get_info_melee
--- tt.info.hero_portrait = "hero_portraits_0017"
 tt.info.portrait = "portraits_hero_0128"
 tt.main_script.insert = kr2_scripts.hero_vampiress.insert
 tt.main_script.update = kr2_scripts.hero_vampiress.update
@@ -4754,15 +4814,12 @@ tt.timed_attacks.list[1].extra_damage_templates = {
 	"enemy_elvira"
 }
 tt.timed_attacks.list[1].extra_damage_factor = 10
-
 tt = E:register_t("fx_vampiress_transform", "fx")
 tt.render.sprites[1].name = "fx_vampiress_transform"
 tt.render.sprites[1].anchor.y = 0.32432432432432434
-
 tt = E:register_t("mod_vampiress_lifesteal", "modifier")
 tt.heal_hp = 450
 tt.main_script.insert = kr2_scripts.mod_simple_lifesteal.insert
-
 tt = E:register_t("hero_alric", "hero")
 
 E:add_comps(tt, "melee", "timed_attacks")
@@ -5688,12 +5745,12 @@ tt.main_script.insert = kr2_scripts.giant_boulder.insert
 tt = E:register_t("fx_giant_boulder_explosion", "fx")
 tt.render.sprites[1].name = "giant_boulder_explosion"
 tt.render.sprites[1].z = Z_OBJECTS
-
 tt = E:register_t("controller_item_hero_wizard", "controller_item_hero")
 tt.entity = "hero_wizard"
-
 tt = E:register_t("hero_wizard", "hero5")
+
 E:add_comps(tt, "teleport", "melee", "ranged", "timed_attacks")
+
 anchor_y = 0.22
 image_y = 78
 tt.hero.level_stats.hp_max = {
@@ -5868,7 +5925,7 @@ tt.hero.tombstone_show_time = fts(60)
 tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_wizard.get_info
-tt.info.portrait ="portraits_hero_0122"
+tt.info.portrait = "portraits_hero_0122"
 tt.info.damage_icon = "magic"
 tt.main_script.insert = kr2_scripts.hero_wizard.insert
 tt.main_script.update = kr2_scripts.hero_wizard.update
@@ -6037,12 +6094,12 @@ tt.particle_system.particle_lifetime = {
 	0.35
 }
 tt.particle_system.emission_rate = 20
-
 tt = E:register_t("controller_item_hero_beastmaster", "controller_item_hero")
 tt.entity = "hero_beastmaster"
-
 tt = E:register_t("hero_beastmaster", "hero5")
+
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
+
 anchor_y = 0.175
 image_y = 80
 tt.hero.level_stats.hp_max = {
@@ -6289,16 +6346,18 @@ tt.timed_attacks.list[2].disabled = true
 tt.timed_attacks.list[2].entity = "beastmaster_boar"
 tt.timed_attacks.list[2].sound = "HeroBeastMasterSummonBoar"
 tt.timed_attacks.list[2].spawn_time = fts(35)
-
 tt = E:register_t("aura_beastmaster_regeneration", "aura")
+
 E:add_comps(tt, "hps")
+
 tt.hps.heal_min = nil
 tt.hps.heal_max = nil
 tt.hps.heal_every = nil
 tt.main_script.update = kr2_scripts.aura_beastmaster_regeneration.update
-
 tt = E:register_t("mod_beastmaster_lash", "modifier")
+
 E:add_comps(tt, "dps")
+
 tt.modifier.duration = 6
 tt.dps.damage_type = DAMAGE_TRUE
 tt.dps.fx = "fx_bleeding"
@@ -6306,9 +6365,10 @@ tt.dps.fx_with_blood_color = true
 tt.dps.fx_tracks_target = true
 tt.main_script.insert = kr2_scripts.mod_dps.insert
 tt.main_script.update = kr2_scripts.mod_dps.update
-
 tt = E:register_t("beastmaster_boar", "soldier")
+
 E:add_comps(tt, "melee")
+
 anchor_y = 0.29
 image_y = 60
 tt.not_draggable = true
@@ -6424,9 +6484,10 @@ tt.render.sprites[1].size_names = {
 }
 tt.render.sprites[1].name = "small"
 tt.render.sprites[1].draw_order = 2
-
 tt = E:register_t("beastmaster_falcon", "decal_scripted")
+
 E:add_comps(tt, "force_motion", "info", "ui", "custom_attack")
+
 anchor_y = 0.5
 image_y = 54
 tt.fake_hp = nil
@@ -6456,9 +6517,10 @@ tt.render.sprites[2].name = "decal_flying_shadow"
 tt.render.sprites[2].offset = v(0, 0)
 tt.ui.click_rect = r(-15, 65, 30, 30)
 tt.owner = nil
-
 tt = E:register_t("hero_alien", "hero5")
+
 E:add_comps(tt, "melee", "ranged", "selfdestruct", "timed_attacks")
+
 anchor_y = 0.31
 image_y = 112
 tt.hero.level_stats.hp_max = {
@@ -7026,12 +7088,12 @@ tt.switch_targets_every = fts(31)
 tt.vis_bans = bor(F_BOSS)
 tt.vis_flags = bor(F_RANGED)
 tt.duration = nil
-
 tt = E:register_t("controller_item_hero_priest", "controller_item_hero")
 tt.entity = "hero_priest"
-
 tt = E:register_t("hero_priest", "hero5")
+
 E:add_comps(tt, "melee", "ranged", "teleport", "timed_attacks")
+
 anchor_y = 0.18
 image_y = 134
 tt.hero.level_stats.hp_max = {
@@ -7716,12 +7778,12 @@ tt.main_script.update = kr2_scripts.mod_dps.update
 tt = E:register_t("mod_slow_kraken", "mod_slow")
 tt.modifier.duration = fts(10)
 tt.slow.factor = 0.5
-
 tt = E:register_t("controller_item_hero_monk", "controller_item_hero")
 tt.entity = "hero_monk"
-
 tt = E:register_t("hero_monk", "hero5")
+
 E:add_comps(tt, "dodge", "melee", "timed_attacks")
+
 anchor_y = 0.18446601941747573
 image_y = 206
 tt.hero.level_stats.hp_max = {
@@ -7889,7 +7951,6 @@ tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(66)
 tt.idle_flip.cooldown = 1
 tt.info.fn = kr2_scripts.hero_monk.get_info
--- tt.info.hero_portrait = "hero_portraits_0013"
 tt.info.portrait = "portraits_hero_0134"
 tt.main_script.insert = kr2_scripts.hero_monk.insert
 tt.main_script.update = kr2_scripts.hero_monk.update
@@ -8814,12 +8875,12 @@ tt.modifier.use_mod_offset = false
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "Halloween_hero_vhelsing_buffeffect"
 tt.render.sprites[1].z = Z_DECALS
-
 tt = E:register_t("controller_item_hero_voodoo_witch", "controller_item_hero")
 tt.entity = "hero_voodoo_witch"
-
 tt = E:register_t("hero_voodoo_witch", "hero5")
+
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
+
 image_y = 66
 anchor_y = 14 / image_y
 tt.hero.level_stats.hp_max = {
@@ -9662,12 +9723,12 @@ tt.tween.props[1].keys = {
 }
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "minotaur_axeDecal"
-
 tt = E:register_t("controller_item_hero_monkey_god", "controller_item_hero")
 tt.entity = "hero_monkey_god"
-
 tt = E:register_t("hero_monkey_god", "hero5")
+
 E:add_comps(tt, "melee", "timed_attacks")
+
 image_y = 148
 anchor_y = 28 / image_y
 tt.hero.level_stats.hp_max = {
@@ -9824,7 +9885,6 @@ tt.hero.tombstone_decal = "decal_kr1_hero_tombstone"
 tt.hero.tombstone_show_time = fts(30)
 tt.idle_flip.cooldown = 2
 tt.info.fn = kr2_scripts.hero_monkey_god.get_info
--- tt.info.hero_portrait = "hero_portraits_0020"
 tt.info.portrait = "portraits_hero_0133"
 tt.main_script.insert = kr2_scripts.hero_monkey_god.insert
 tt.main_script.update = kr2_scripts.hero_monkey_god.update
@@ -9961,11 +10021,11 @@ tt.timed_attacks.list[1].mods = {
 }
 tt.timed_attacks.list[1].sound_start = "HeroMonkeyGodAngryGodScream"
 tt.timed_attacks.list[1].sound_loop = "HeroMonkeyGodAngryGodLoop"
-
 tt = E:register_t("aura_monkey_god_divinenature", "aura_beastmaster_regeneration")
-
 tt = E:register_t("mod_monkey_god_angry", "modifier")
+
 E:add_comps(tt, "render")
+
 tt.received_damage_factor = nil
 tt.inflicted_damage_factor = 1
 tt.modifier.duration = 2
@@ -9982,14 +10042,14 @@ tt.render.sprites[1].size_scales = {
 }
 tt.render.sprites[1].draw_order = 2
 tt.render.sprites[1].anchor.y = 0.46551724137931033
-
 tt = E:register_t("mod_monkey_god_angry_damage", "mod_damage")
 tt.damage_min = 20
 tt.damage_max = 25
 tt.damage_type = DAMAGE_TRUE
-
 tt = E:register_t("mod_monkey_god_palm", "modifier")
+
 E:add_comps(tt, "render")
+
 tt.main_script.insert = kr2_scripts.mod_monkey_god_palm.insert
 tt.main_script.remove = kr2_scripts.mod_monkey_god_palm.remove
 tt.main_script.update = kr2_scripts.mod_track_target.update
@@ -10620,9 +10680,10 @@ tt.unit.mod_offset = v(0, ady(24))
 tt.unit.show_blood_pool = false
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.sound_events.death = "DeathPuff"
-
 tt = E:register_t("enemy_cannibal", "enemy_KR5")
+
 E:add_comps(tt, "melee", "water")
+
 anchor_y = 0.21428571428571427
 image_y = 42
 tt.cannibalize = {}
@@ -10654,9 +10715,10 @@ tt.unit.mod_offset = v(0, ady(23))
 tt.water.hit_offset = v(0, 5)
 tt.water.mod_offset = v(0, 5)
 tt.water.health_bar_hidden = true
-
 tt = E:register_t("enemy_hunter", "enemy_KR5")
+
 E:add_comps(tt, "melee", "ranged", "water")
+
 anchor_y = 0.25
 image_y = 44
 tt.enemy.gold = 15
@@ -10966,9 +11028,10 @@ tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.hit_fx = "fx_bolt_shaman_necro_hit"
 tt = E:register_t("fx_bolt_shaman_necro_hit", "fx")
 tt.render.sprites[1].name = "bolt_shaman_necro_hit"
-
 tt = E:register_t("enemy_cannibal_zombie", "enemy_KR5")
+
 E:add_comps(tt, "melee")
+
 anchor_y = 0.2
 image_y = 48
 tt.enemy.gold = 0
@@ -10993,7 +11056,6 @@ tt.unit.hit_offset = v(0, 14)
 tt.unit.marker_offset = v(0, ady(10))
 tt.unit.mod_offset = v(0, ady(21))
 tt.sound_events.insert = "CanibalZombie"
-
 tt = E:register_t("enemy_jungle_spider_tiny", "enemy_KR5")
 
 E:add_comps(tt, "melee")
@@ -11376,9 +11438,10 @@ tt.bullet.predict_target_pos = false
 tt.bullet.prediction_error = false
 tt.render.sprites[1].name = "spear"
 tt.render.sprites[1].animated = false
-
 tt = E:register_t("enemy_bat", "enemy_KR5")
+
 E:add_comps(tt, "moon", "auras")
+
 anchor_y = 0
 image_y = 108
 tt.auras.list[1] = E:clone_c("aura_attack")
@@ -11389,7 +11452,6 @@ tt.enemy.melee_slot = v(0, 0)
 tt.health.hp_max = 75
 tt.health_bar.offset = v(0, ady(90))
 tt.info.portrait = "bottom_info_image_enemies_0018"
--- tt.info.enc_icon = 49
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_passive.update
 tt.moon.speed_factor = 1.5
@@ -11413,9 +11475,10 @@ tt.unit.mod_offset = v(0, ady(68))
 tt.unit.show_blood_pool = false
 tt.vis.bans = bor(F_BLOCK, F_SKELETON, F_EAT)
 tt.vis.flags = bor(F_ENEMY, F_FLYING)
-
 tt = E:register_t("enemy_ghost", "enemy_KR5")
+
 E:add_comps(tt, "auras")
+
 anchor_y = 0.08333333333333333
 image_y = 48
 tt.auras.list[1] = E:clone_c("aura_attack")
@@ -11429,7 +11492,6 @@ tt.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, 
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 37)
 tt.info.portrait = "bottom_info_image_enemies_0061"
--- tt.info.enc_icon = 52
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_passive.update
 tt.motion.max_speed = 1.1520000000000001 * FPS
@@ -11445,14 +11507,14 @@ tt.unit.mod_offset = v(0, 19)
 tt.sound_events.death = nil
 tt.sound_events.insert = "HWGhosts"
 tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_STUN, F_BLOCK, F_THORN, F_POLYMORPH, F_NET)
-
 tt = E:register_t("ghost_sound_aura", "aura")
 tt.loop_delay = fts(70)
 tt.sound_name = "HWGhosts"
 tt.main_script.update = kr2_scripts.loop_sound_aura.update
-
 tt = E:register_t("enemy_ghoul", "enemy_KR5")
+
 E:add_comps(tt, "melee", "moon", "auras")
+
 anchor_y = 0.07894736842105263
 image_y = 60
 tt.auras.list[1] = E:clone_c("aura_attack")
@@ -11469,7 +11531,6 @@ tt.health.hp_max = 400
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 33)
 tt.info.portrait = "bottom_info_image_enemies_0062"
--- tt.info.enc_icon = 56
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_cannibal.update
 tt.melee.attacks[1].cooldown = 1
@@ -11490,9 +11551,10 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 15)
 tt.sound_events.insert = "HWZombieAmbient"
 tt.sound_events.cannibalize = "CanibalEating"
-
 tt = E:register_t("enemy_phantom_warrior", "enemy_KR5")
+
 E:add_comps(tt, "melee", "auras")
+
 image_y = 88
 anchor_y = 10 / image_y
 tt.auras.list[1] = E:clone_c("aura_attack")
@@ -11507,7 +11569,6 @@ tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 56)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0065"
--- tt.info.enc_icon = 51
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 2
@@ -11528,7 +11589,6 @@ tt.unit.mod_offset = v(0, 21)
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
 tt.vis.bans = bor(F_SKELETON, F_BLOOD, F_DRILL, F_POISON, F_THORN, F_POLYMORPH, F_STUN, F_NET)
-
 tt = E:register_t("phantom_warrior_aura", "aura")
 tt.aura.banned_templates = {
 	"soldier_mecha",
@@ -11548,9 +11608,10 @@ tt.aura.damage_max = 3
 tt.aura.damage_type = DAMAGE_TRUE
 tt.aura.hero_damage_factor = 0.3333333333333333
 tt.main_script.update = kr2_scripts.phantom_warrior_aura.update
-
 tt = E:register_t("enemy_elvira", "enemy_KR5")
+
 E:add_comps(tt, "melee")
+
 anchor_y = 0.1
 image_y = 50
 tt.enemy.gold = 15
@@ -11560,7 +11621,6 @@ tt.health.hp_max = 1000
 tt.health.magic_armor = 0.9
 tt.health_bar.offset = v(0, 43)
 tt.info.portrait = "bottom_info_image_enemies_0059"
--- tt.info.enc_icon = 58
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -11586,9 +11646,10 @@ tt.unit.hit_offset = v(0, 16)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 16)
 tt.unit.hide_after_death = true
-
 tt = E:register_t("elvira_bat", "decal_scripted")
+
 E:add_comps(tt, "nav_path", "motion", "spawner")
+
 anchor_y = 0.1
 image_y = 50
 tt.main_script.update = kr2_scripts.elvira_bat.update
@@ -11609,9 +11670,10 @@ tt.damage = 150
 tt.main_script.insert = kr2_scripts.mod_elvira_lifesteal.insert
 tt.moon.heal_hp_factor = 2
 tt.moon.damage_factor = 1.5
-
 tt = E:register_t("enemy_headless_horseman", "enemy_KR5")
+
 E:add_comps(tt, "melee", "ranged", "lifespan", "idle_flip", "auras")
+
 image_y = 104
 anchor_y = 12 / image_y
 tt.auras.list[1] = E:clone_c("aura_attack")
@@ -11663,7 +11725,6 @@ tt.unit.mod_offset = v(0, 35)
 tt.unit.hide_after_death = true
 tt.vis.flags = bor(F_ENEMY, F_BOSS, F_MINIBOSS)
 tt.vis.bans = bor(F_SKELETON, F_BLOOD)
-
 tt = E:register_t("headless_horseman_pumpkin", "bomb")
 tt.bullet.damage_min = 50
 tt.bullet.damage_max = 70
@@ -12076,8 +12137,8 @@ tt.attacks.list[1].nodes_right = {
 		np(4, 1, 69)
 	}
 }
-tt.attacks.list[1].count_min = 3
-tt.attacks.list[1].add_per_missing_piece = 0.4
+tt.attacks.list[1].count_min = 5
+tt.attacks.list[1].add_per_missing_piece = 1
 tt.attacks.list[2] = E:clone_c("custom_attack")
 tt.attacks.list[2].cooldowns = {}
 tt.attacks.list[2].cooldowns.at_home = {
@@ -12121,7 +12182,7 @@ tt.attacks.list[3].bullet_start_offset = {
 tt.attacks.list[3].cooldown = 2.5
 tt.attacks.list[3].max_range = 192
 tt.attacks.list[3].shoot_time = fts(17)
-tt.attacks.list[3].vis_bans = bor(F_FLYING, F_ENEMY)
+tt.attacks.list[3].vis_bans = bor(F_ENEMY)
 tt.attacks.list[3].sound = "FrontiersFinalBossRay"
 tt.attacks.list[4] = table.deepclone(tt.attacks.list[3])
 tt.attacks.list[4].inner_towers = {
@@ -12189,17 +12250,18 @@ tt.attacks.list[5].cooldown = 30
 tt.attacks.list[5].callback_pieces = {
 	7,
 	4,
-	2
+	2,
+	1
 }
 tt.attacks.list[5].min_pieces_to_respawn = 3
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
 tt.health.dead_lifetime = fts(1000)
 tt.health.hp_max = {
-	7000,
-	9000,
-	9999
+	140000,
+	180000,
+	240000
 }
 tt.health_bar.offset = v(0, ady(166))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
@@ -12213,9 +12275,11 @@ tt.motion.max_speed = 0.64 * FPS
 tt.render.sprites[1] = E:clone_c("sprite")
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].prefix = "eb_umbra"
+tt.render.sprites[1].scale = vv(2)
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].prefix = "eb_umbra"
 tt.render.sprites[2].name = "eyes"
+tt.render.sprites[2].scale = vv(2)
 tt.render.sprites[2].hidden = true
 tt.render.sprites[2].anchor.y = anchor_y
 tt.taunt = {}
@@ -12290,13 +12354,13 @@ tt.image_width = 190
 tt.main_script.update = kr2_scripts.ray_enemy.update
 tt.render.sprites[1].name = "ray_umbra"
 tt.render.sprites[1].loop = false
-tt.render.sprites[1].anchor = v(0, 0.5)
+tt.render.sprites[1].anchor = v(0, 1)
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_min = 100
-tt.bullet.damage_max = 150
-tt.bullet.damage_radius = 64
+tt.bullet.damage_min = 1000
+tt.bullet.damage_max = 2000
+tt.bullet.damage_radius = 120
 tt.bullet.max_track_distance = 50
-tt.bullet.vis_bans = bor(F_ENEMY, F_FLYING)
+tt.bullet.vis_bans = bor(F_ENEMY)
 tt.bullet.hit_time = fts(7)
 tt.bullet.hit_fx = "fx_ray_umbra_explosion"
 tt = E:register_t("ray_umbra_tower", "ray_umbra")
@@ -12334,7 +12398,7 @@ tt.spawner.entity = "enemy_umbra_minion"
 tt.spawner.animation_start = "start"
 tt.spawner.animation_loop = "loop"
 tt.spawner.animation_end = "end"
-tt.spawner.ni_var = 3
+tt.spawner.ni_var = 4
 tt.spawner.spawn_fx = "fx_umbra_minion_spawn"
 tt = E:register_t("fx_umbra_minion_spawn", "fx")
 tt.render.sprites[1].name = "umbra_minion_spawn"
@@ -12357,7 +12421,7 @@ tt.info.enc_icon = 41
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].damage_max = 170
+tt.melee.attacks[1].damage_max = 180
 tt.melee.attacks[1].damage_min = 120
 tt.melee.attacks[1].hit_time = fts(12)
 tt.motion.max_speed = 1.024 * FPS
@@ -12382,23 +12446,24 @@ anchor_y = 0.21
 image_y = 70
 tt.enemy.gold = 90
 tt.enemy.melee_slot = v(30, 0)
-tt.health.armor = 0
-tt.health.hp_max = 1000
-tt.health.magic_armor = 0
+tt.health.armor = 0.5
+tt.health.hp_max = 15000
+tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, ady(59))
-tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0069" or "info_portraits_enemies_0056"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_umbra_piece.update
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].damage_max = 50
-tt.melee.attacks[1].damage_min = 30
+tt.melee.attacks[1].damage_max = 100
+tt.melee.attacks[1].damage_min = 100
 tt.melee.attacks[1].hit_time = fts(12)
 tt.motion.max_speed = 1.28 * FPS
 tt.motion.max_speed_called = 6.656000000000001 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "enemy_umbra_piece"
+tt.render.sprites[1].scale = vv(2)
 tt.sound_events.death = "DeathPuff"
 tt.sound_events.raise = "FrontiersFinalBossPiecesRespawn"
 tt.timed.disabled = true
@@ -12417,6 +12482,7 @@ tt.piece_respawn_delay = fts(35) + 3
 tt.piece_respawn_delay_repeating = fts(35)
 tt = E:register_t("enemy_umbra_piece_flying", "bomb")
 tt.render.sprites[1].name = "enemy_umbra_piece_flying"
+tt.render.sprites[1].scale = vv(2)
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].loop = false
 tt.bullet.flight_time = fts(20)
@@ -12449,6 +12515,7 @@ tt.tween.props[1].keys = {
 }
 tt = E:register_t("umbra_crystals", "decal_scripted")
 tt.render.sprites[1].prefix = "umbra_crystals"
+tt.render.sprites[1].scale = vv(1.2)
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].z = Z_OBJECTS - 1
@@ -12600,10 +12667,6 @@ tt.tween.props[1].loop = true
 tt.tween.props[2] = table.deepclone(tt.tween.props[1])
 tt.tween.props[2].sprite_id = 2
 tt.tween.remove = false
-
--- E:set_template("user_power_1", E:get_template("power_fireball_control"))
--- E:set_template("user_power_2", E:get_template("power_reinforcements_control"))
-
 tt = E:register_t("decal_stage01_boss", "decal")
 tt.render.sprites[1].name = "decal_stage01_boss"
 tt.render.sprites[1].anchor.y = 0
@@ -13444,9 +13507,10 @@ tt.area_attack.damage_radius = 55
 tt.area_attack.hit_time = fts(10)
 tt.area_attack.vis_flags = F_EAT
 tt.area_attack.damage_type = DAMAGE_EAT
-
 tt = E:register_t("enemy_cannibal_volcano", "enemy_KR5")
+
 E:add_comps(tt, "melee", "tween")
+
 anchor_y = 0.15
 image_y = 100
 tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0044" or "info_portraits_enemies_0027"
@@ -14058,7 +14122,7 @@ tt = E:register_t("decal_tunnel_light", "decal_scripted")
 E:add_comps(tt, "tween")
 
 tt.main_script.update = kr2_scripts.decal_tunnel_light.update
-tt.render.sprites[1].name = "Stage12_0006"
+tt.render.sprites[1].name = "stage212_0006"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].hidden = true
 tt.tween.remove = false
@@ -14709,7 +14773,7 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(15, 0)
 tt.health.dead_lifetime = fts(10000)
-tt.health.hp_max = 8475
+tt.health.hp_max = 12475
 tt.health.armor = 0
 tt.health.magic_armor = 1
 tt.health_bar.offset = v(0, 60)
@@ -14755,7 +14819,7 @@ tt.sound_events.death = "HWBossVampireDeath"
 tt = E:register_t("mod_dracula_lifesteal", "modifier")
 tt.modifier.duration = fts(50)
 tt.cycle_time = fts(2)
-tt.heal_hp = 25
+tt.heal_hp = 125
 tt.damage = 150
 tt.main_script.update = kr2_scripts.mod_dracula_lifesteal.update
 tt.sound_events.insert = "HWBossVampireLifesteal"
@@ -14810,7 +14874,7 @@ tt.tween.props[1].keys = {
 }
 tt.main_script.update = kr2_scripts.click_run_tween.update
 tt.ui.click_rect = r(-25, 0, 50, 80)
-tt = E:register_t("decal_stage22_reptile", "decal_scripted")
+tt = E:register_t("decal_stage222_reptile", "decal_scripted")
 
 E:add_comps(tt, "ui", "motion")
 

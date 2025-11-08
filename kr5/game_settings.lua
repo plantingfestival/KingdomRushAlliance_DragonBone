@@ -1,21 +1,29 @@
+﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\game_settings.lua
+
 local GS = {}
 
--- customization
 GS.extra_levels = {
 	[114] = {},
 	[115] = {},
+	[116] = {},
+	[117] = {},
+	[118] = {},
+	[119] = {},
+	[120] = {},
+	[121] = {},
 	[122] = {},
 	[123] = {},
 	[124] = {},
 	[125] = {},
 	[126] = {},
+	[215] = {},
 	[219] = {},
 	[220] = {},
 	[221] = {},
+	[222] = {},
 	[426] = {},
-	[427] = {},
+	[427] = {}
 }
--- customization
 GS.gameplay_tips_count = 2
 GS.early_wave_reward_per_second = 1
 GS.early_wave_reward_per_second_default = 1
@@ -45,7 +53,7 @@ GS.difficulty_enemy_hp_max_factor = {
 	0.7,
 	0.8,
 	1,
-	1.2
+	1.35
 }
 GS.difficulty_enemy_speed_factor = {
 	0.8,
@@ -60,8 +68,8 @@ GS.expansions_unlock_level = {
 		arachnophobia = 11
 	},
 	["com.ironhidegames.kingdomrush.alliance.universal.premium"] = {
-		default = 6,
 		colossal_dwarfare = 11,
+		default = 6,
 		arachnophobia = 11,
 		wukong = 11
 	}
@@ -325,452 +333,452 @@ GS.encyclopedia_enemy_fmt = "encyclopedia_creeps_00%02i"
 GS.encyclopedia_enemy_thumb_fmt = "encyclopedia_creep_thumbs_00%02i"
 GS.encyclopedia_enemies = {
 	{
-		always_shown = true,
-		name = "enemy_hog_invader"
+		name = "enemy_hog_invader",
+		always_shown = true
 	},
 	{
-		always_shown = false,
-		name = "enemy_tusked_brawler"
+		name = "enemy_tusked_brawler",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_cutthroat_rat"
+		name = "enemy_cutthroat_rat",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_bear_vanguard"
+		name = "enemy_bear_vanguard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_turtle_shaman"
+		name = "enemy_turtle_shaman",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_surveyor_harpy"
+		name = "enemy_surveyor_harpy",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_dreadeye_viper"
+		name = "enemy_dreadeye_viper",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_hyena5"
+		name = "enemy_hyena5",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_skunk_bombardier"
+		name = "enemy_skunk_bombardier",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_bear_woodcutter"
+		name = "enemy_bear_woodcutter",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_rhino"
+		name = "enemy_rhino",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_pig"
+		name = "boss_pig",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_acolyte"
+		name = "enemy_acolyte",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_acolyte_tentacle"
+		name = "enemy_acolyte_tentacle",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_small_stalker"
+		name = "enemy_small_stalker",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_lesser_sister"
+		name = "enemy_lesser_sister",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_lesser_sister_nightmare"
+		name = "enemy_lesser_sister_nightmare",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_spiderling"
+		name = "enemy_spiderling",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_unblinded_priest"
+		name = "enemy_unblinded_priest",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_unblinded_abomination"
+		name = "enemy_unblinded_abomination",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_unblinded_abomination_stage_8"
+		name = "enemy_unblinded_abomination_stage_8",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_armored_nightmare"
+		name = "enemy_armored_nightmare",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_unblinded_shackler"
+		name = "enemy_unblinded_shackler",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_corrupted_stalker"
+		name = "enemy_corrupted_stalker",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_stage_11_cult_leader_illusion"
+		name = "enemy_stage_11_cult_leader_illusion",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_blinker"
+		name = "enemy_blinker",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crystal_golem"
+		name = "enemy_crystal_golem",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_glareling"
+		name = "enemy_glareling",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_corrupted_denas"
+		name = "boss_corrupted_denas",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_mindless_husk"
+		name = "enemy_mindless_husk",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_vile_spawner"
+		name = "enemy_vile_spawner",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_lesser_eye"
+		name = "enemy_lesser_eye",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_noxious_horror"
+		name = "enemy_noxious_horror",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_hardened_horror"
+		name = "enemy_hardened_horror",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_amalgam"
+		name = "enemy_amalgam",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_evolving_scourge"
+		name = "enemy_evolving_scourge",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_cult_leader"
+		name = "boss_cult_leader",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "controller_stage_16_overseer"
+		name = "controller_stage_16_overseer",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_corrupted_elf"
+		name = "enemy_corrupted_elf",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_specter"
+		name = "enemy_specter",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_bane_wolf"
+		name = "enemy_bane_wolf",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_dust_cryptid"
+		name = "enemy_dust_cryptid",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_deathwood"
+		name = "enemy_deathwood",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_revenant_soulcaller"
+		name = "enemy_revenant_soulcaller",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_animated_armor"
+		name = "enemy_animated_armor",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_revenant_harvester"
+		name = "enemy_revenant_harvester",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_navira"
+		name = "boss_navira",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_basic"
+		name = "enemy_crocs_basic",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_basic_egg"
+		name = "enemy_crocs_basic_egg",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_ranged"
+		name = "enemy_crocs_ranged",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_flier"
+		name = "enemy_crocs_flier",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_killertile"
+		name = "enemy_killertile",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_quickfeet_gator"
+		name = "enemy_quickfeet_gator",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_egg_spawner"
+		name = "enemy_crocs_egg_spawner",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_shaman"
+		name = "enemy_crocs_shaman",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_hydra"
+		name = "enemy_crocs_hydra",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_crocs_tank"
+		name = "enemy_crocs_tank",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_crocs_lvl1"
+		name = "boss_crocs_lvl1",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_hammerer"
+		name = "enemy_darksteel_hammerer",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_scrap_speedster"
+		name = "enemy_scrap_speedster",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_shielder"
+		name = "enemy_darksteel_shielder",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_guardian"
+		name = "enemy_darksteel_guardian",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_surveillance_sentry"
+		name = "enemy_surveillance_sentry",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_rolling_sentry"
+		name = "enemy_rolling_sentry",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_brute_welder"
+		name = "enemy_brute_welder",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_fist"
+		name = "enemy_darksteel_fist",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_machinist"
+		name = "enemy_machinist",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_mad_tinkerer"
+		name = "enemy_mad_tinkerer",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_scrap_drone"
+		name = "enemy_scrap_drone",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_machinist"
+		name = "boss_machinist",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_anvil"
+		name = "enemy_darksteel_anvil",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_common_clone"
+		name = "enemy_common_clone",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_darksteel_hulk"
+		name = "enemy_darksteel_hulk",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_deformed_grymbeard_clone"
+		name = "enemy_deformed_grymbeard_clone",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_grymbeard"
+		name = "boss_grymbeard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_ballooning_spider"
+		name = "enemy_ballooning_spider",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_glarenwarden"
+		name = "enemy_glarenwarden",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_spider_sister"
+		name = "enemy_spider_sister",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_spider_priest"
+		name = "enemy_spider_priest",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_drainbrood"
+		name = "enemy_drainbrood",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_cultbrood"
+		name = "enemy_cultbrood",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_spidead"
+		name = "enemy_spidead",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_spider_queen"
+		name = "boss_spider_queen",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_flame_guard"
+		name = "enemy_flame_guard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_blaze_raider"
+		name = "enemy_blaze_raider",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_fire_fox"
+		name = "enemy_fire_fox",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_fire_phoenix"
+		name = "enemy_fire_phoenix",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_nine_tailed_fox"
+		name = "enemy_nine_tailed_fox",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_wuxian"
+		name = "enemy_wuxian",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_burning_treant"
+		name = "enemy_burning_treant",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_ash_spirit"
+		name = "enemy_ash_spirit",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_redboy_teen"
+		name = "boss_redboy_teen",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_citizen_1"
+		name = "enemy_citizen_1",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_citizen_2"
+		name = "enemy_citizen_2",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_citizen_3"
+		name = "enemy_citizen_3",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_citizen_4"
+		name = "enemy_citizen_4",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_gale_warrior"
+		name = "enemy_gale_warrior",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_water_spirit"
+		name = "enemy_water_spirit",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_storm_spirit"
+		name = "enemy_storm_spirit",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_storm_elemental"
+		name = "enemy_storm_elemental",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_qiongqi"
+		name = "enemy_qiongqi",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_water_sorceress"
+		name = "enemy_water_sorceress",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_palace_guard"
+		name = "enemy_palace_guard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_fan_guard"
+		name = "enemy_fan_guard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_princess_iron_fan"
+		name = "boss_princess_iron_fan",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_doom_bringer"
+		name = "enemy_doom_bringer",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_demon_minotaur"
+		name = "enemy_demon_minotaur",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_golden_eyed"
+		name = "enemy_golden_eyed",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_hellfire_warlock"
+		name = "enemy_hellfire_warlock",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "boss_bull_king"
+		name = "boss_bull_king",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_tower_ray_sheep"
+		name = "enemy_tower_ray_sheep",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "enemy_pumpkin_witch_flying"
+		name = "enemy_pumpkin_witch_flying",
+		always_shown = false
 	}
 }
 
@@ -790,84 +798,84 @@ GS.items_required_exoskeletons.veznan_wrath = {
 }
 GS.tower_order = {
 	{
-		always_shown = true,
-		name = "tower_royal_archers"
+		name = "tower_royal_archers",
+		always_shown = true
 	},
 	{
-		always_shown = false,
-		name = "tower_paladin_covenant"
+		name = "tower_paladin_covenant",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_arcane_wizard"
+		name = "tower_arcane_wizard",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_tricannon"
+		name = "tower_tricannon",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_ballista"
+		name = "tower_ballista",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_arborean_emissary"
+		name = "tower_arborean_emissary",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_demon_pit"
+		name = "tower_demon_pit",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_flamespitter"
+		name = "tower_flamespitter",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_rocket_gunners"
+		name = "tower_rocket_gunners",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_ray"
+		name = "tower_ray",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_barrel"
+		name = "tower_barrel",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_sand"
+		name = "tower_sand",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_dark_elf"
+		name = "tower_dark_elf",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_dwarf"
+		name = "tower_dwarf",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_elven_stargazers"
+		name = "tower_elven_stargazers",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_hermit_toad"
+		name = "tower_hermit_toad",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_sparking_geode"
+		name = "tower_sparking_geode",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_necromancer"
+		name = "tower_necromancer",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_ghost"
+		name = "tower_ghost",
+		always_shown = false
 	},
 	{
-		always_shown = false,
-		name = "tower_pandas"
+		name = "tower_pandas",
+		always_shown = false
 	}
 }
 
