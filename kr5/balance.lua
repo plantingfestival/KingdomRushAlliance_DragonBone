@@ -6204,15 +6204,15 @@ hero_wukong = {
 		},
 		cold_fury = {
 			max_range = 300,
-			damage_min = 90,
+			damage_min = 150,
 			min_range = 190,
-			damage_max = 120
+			damage_max = 200
 		},
 		ice_ball = {
 			max_range = 160,
 			min_range = 25,
-			damage_min = 60,
-			damage_max = 90,
+			damage_min = 90,
+			damage_max = 135,
 			damage_over_time = {
 				8,
 				16,
@@ -6224,17 +6224,17 @@ hero_wukong = {
 			cooldown = 30,
 			min_range = 20,
 			damage_boss = {
-				100,
-				200,
-				300
+				1000,
+				2000,
+				3000
 			}
 		},
 		ultimate = {
 			cooldown = {
-				70,
-				70,
-				70,
-				70
+				50,
+				50,
+				50,
+				50
 			},
 			duration = {
 				3,

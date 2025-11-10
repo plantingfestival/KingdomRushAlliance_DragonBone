@@ -463,40 +463,40 @@ b = balance.heroes.hero_eiskalt
 E:add_comps(tt, "ranged", "timed_attacks")
 
 tt.hero.level_stats.hp_max = {
-	300,
-	325,
-	350,
-	375,
-	400,
-	425,
-	450,
-	475,
 	500,
-	525
+	540,
+	580,
+	620,
+	660,
+	700,
+	750,
+	800,
+	850,
+	975
 }
 tt.hero.level_stats.regen_health = {
-	22,
-	25,
-	28,
-	31,
-	34,
-	37,
-	40,
-	43,
-	46,
-	49
+	82,
+	102,
+	122,
+	142,
+	162,
+	182,
+	202,
+	222,
+	242,
+	272
 }
 tt.hero.level_stats.armor = {
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0
+	0.1,
+	0.14,
+	0.18,
+	0.22,
+	0.26,
+	0.3,
+	0.34,
+	0.38,
+	0.42,
+	0.5
 }
 tt.hero.level_stats.ranged_damage_min = {
 	14,
@@ -507,8 +507,8 @@ tt.hero.level_stats.ranged_damage_min = {
 	39,
 	44,
 	49,
-	54,
-	59
+	56,
+	64
 }
 tt.hero.level_stats.ranged_damage_max = {
 	22,
@@ -519,8 +519,8 @@ tt.hero.level_stats.ranged_damage_max = {
 	57,
 	64,
 	71,
-	78,
-	85
+	82,
+	95
 }
 tt.hero.skills.fierce_breath = E:clone_c("hero_skill")
 tt.hero.skills.fierce_breath.hr_cost = {

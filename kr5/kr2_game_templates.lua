@@ -1926,7 +1926,7 @@ local missile_mecha = E:register_t("missile_mecha", "bullet")
 
 missile_mecha.render.sprites[1].prefix = "missile_mecha"
 missile_mecha.render.sprites[1].loop = true
-missile_mecha.bullet.damage_type = DAMAGE_EXPLOSION
+missile_mecha.bullet.damage_type = DAMAGE_TRUE
 missile_mecha.bullet.min_speed = 300
 missile_mecha.bullet.max_speed = 450
 missile_mecha.bullet.turn_speed = 10 * math.pi / 180 * 30
@@ -1934,9 +1934,9 @@ missile_mecha.bullet.acceleration_factor = 0.1
 missile_mecha.bullet.hit_fx = "fx_explosion_air"
 missile_mecha.bullet.hit_fx_air = "fx_explosion_air"
 missile_mecha.bullet.hit_fx_water = "fx_explosion_water"
-missile_mecha.bullet.damage_min = 20
-missile_mecha.bullet.damage_max = 80
-missile_mecha.bullet.damage_radius = 41.25
+missile_mecha.bullet.damage_min = 80
+missile_mecha.bullet.damage_max = 200
+missile_mecha.bullet.damage_radius = 80
 missile_mecha.bullet.vis_flags = F_RANGED
 missile_mecha.bullet.damage_flags = F_AREA
 missile_mecha.bullet.particles_name = "ps_missile_mecha"
@@ -3922,7 +3922,7 @@ oil_mecha.aura.mod = "mod_slow_oil"
 oil_mecha.aura.duration = 2
 oil_mecha.aura.duration_inc = 2
 oil_mecha.aura.cycle_time = 0.3
-oil_mecha.aura.radius = 51.2
+oil_mecha.aura.radius = 72
 oil_mecha.aura.vis_bans = bor(F_FRIEND, F_FLYING)
 oil_mecha.aura.vis_flags = F_MOD
 oil_mecha.main_script.insert = kr2_scripts.aura_apply_mod.insert
@@ -4075,9 +4075,13 @@ tt.tower.terrain_style = TERRAIN_STYLE_JUNGLE
 tt.render.sprites[1].name = "build_terrain_0005"
 tt = E:register_t("tower_holder_blocked_jungle", "tower_holder_blocked")
 tt.tower.type = "holder_blocked_jungle"
+tt.render.sprites[1].name = "terrains_holders_0205_flag_blocked"
+tt.render.sprites[2].name = "terrains_holders_0205_blocked"
 tt.tower_holder.unblock_price = 100
 tt = E:register_t("tower_holder_blocked_underground", "tower_holder_blocked")
 tt.tower.type = "holder_blocked_underground"
+tt.render.sprites[1].name = "terrains_holders_0206_flag_blocked"
+tt.render.sprites[2].name = "terrains_holders_0206_blocked"
 tt.tower_holder.unblock_price = 200
 tt = E:register_t("tower_build_engineer", "tower_build_archer")
 tt.build_name = "tower_engineer_1"
@@ -12101,7 +12105,7 @@ tt.attacks.list[1].cooldowns.at_home = {
 	0,
 	2,
 	2,
-	2
+	1
 }
 tt.attacks.list[1].cooldowns.on_battlefield = {
 	0,
@@ -12138,7 +12142,7 @@ tt.attacks.list[1].nodes_right = {
 	}
 }
 tt.attacks.list[1].count_min = 5
-tt.attacks.list[1].add_per_missing_piece = 1
+tt.attacks.list[1].add_per_missing_piece = 2
 tt.attacks.list[2] = E:clone_c("custom_attack")
 tt.attacks.list[2].cooldowns = {}
 tt.attacks.list[2].cooldowns.at_home = {
@@ -12258,11 +12262,13 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
 tt.health.dead_lifetime = fts(1000)
+tt.health.armor = 0.8
 tt.health.hp_max = {
-	140000,
-	180000,
-	240000
+	168000,
+	224000,
+	300000
 }
+tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, ady(166))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.hidden = true
@@ -12356,9 +12362,9 @@ tt.render.sprites[1].name = "ray_umbra"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 1)
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_min = 1000
-tt.bullet.damage_max = 2000
-tt.bullet.damage_radius = 120
+tt.bullet.damage_min = 1500
+tt.bullet.damage_max = 3000
+tt.bullet.damage_radius = 200
 tt.bullet.max_track_distance = 50
 tt.bullet.vis_bans = bor(F_ENEMY)
 tt.bullet.hit_time = fts(7)
@@ -12444,14 +12450,14 @@ E:add_comps(tt, "melee", "timed")
 
 anchor_y = 0.21
 image_y = 70
-tt.enemy.gold = 90
+tt.enemy.gold = 200
 tt.enemy.melee_slot = v(30, 0)
 tt.health.armor = 0.5
 tt.health.hp_max = 15000
 tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, ady(59))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0069" or "info_portraits_enemies_0056"
+tt.info.portrait = "bottom_info_image_enemies_0111"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_umbra_piece.update
 tt.melee.attacks[1].cooldown = 2

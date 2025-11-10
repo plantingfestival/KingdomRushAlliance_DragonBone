@@ -408,9 +408,6 @@ function level:update(store)
 			coroutine.yield()
 		end
 
-		store.custom_game_outcome = {
-			next_item_name = "kr2_end"
-		}
 	else
 		while store.wave_group_number < 1 do
 			coroutine.yield()

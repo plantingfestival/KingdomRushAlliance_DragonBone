@@ -9579,7 +9579,7 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = recovered_hp + hp_per_piece
+						recovered_hp = recovered_hp + this.health.hp_max / hp_per_piece * 12000
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")
@@ -9592,13 +9592,13 @@ function scripts.eb_umbra.update(this, store, script)
 							end
 
 							this.render.sprites[1].hidden = false
-							this.render.sprites[1].scale = V.v(1, 1)
+							this.render.sprites[1].scale = V.v(1.5, 1.5)
 
 							U.animation_start(this, "ball_idle", nil, store.tick_ts, true)
 						elseif #pieces_returned > 2 then
 							local scale = this.render.sprites[1].scale.x
 
-							scale = km.clamp(1, 2, scale + 0.2)
+							scale = km.clamp(1.5, 3, scale + 0.3)
 							this.render.sprites[1].scale.x = scale
 							this.render.sprites[1].scale.y = scale
 							p.recovered = true
@@ -9616,8 +9616,8 @@ function scripts.eb_umbra.update(this, store, script)
 			log.debug("transform")
 			S:queue("FrontiersFinalBossRespawn")
 
-			this.render.sprites[1].scale.x = 2
-			this.render.sprites[1].scale.y = 2
+			this.render.sprites[1].scale.x = 3
+			this.render.sprites[1].scale.y = 3
 
 			U.y_animation_play(this, "transform", nil, store.tick_ts, 1)
 
