@@ -65,8 +65,9 @@ function level:init(store)
 	self.locked_towers = {}
 
 	if store.level_mode == GAME_MODE_IRON then
-		self.locked_towers = {
-			"tower_build_mage"
+		self.available_towers = {
+			"tower_build_paladin_covenant",
+			"tower_build_dark_elf"
 		}
 	end
 end

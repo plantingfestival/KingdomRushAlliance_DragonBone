@@ -31686,6 +31686,7 @@ tt.timed_attacks.list[1].damage_soldiers = b.charge.damage_soldier_max > 0
 tt.timed_attacks.list[1].unstoppable_duration = b.charge.unstoppable_duration
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "darksteel_hulk_creep"
+tt.render.sprites[1].scale = vv(1.4)
 tt.render.sprites[1].angles.walk = {
 	"walk",
 	"walk_back",

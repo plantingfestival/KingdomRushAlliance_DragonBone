@@ -8068,25 +8068,31 @@ local enemies = {
 			},
 			armor = 0,
 			gold = 250,
-			magic_armor = 0.8,
+			magic_armor = {
+				0.8,
+				0.8,
+				0.8,
+				0.95
+			},
 			lives_cost = 5,
-			hp = 4050,
+			hp = 4680,
 			basic_attack = {
-				cooldown = 2,
+				cooldown = 1,
 				damage_min = 104,
 				damage_max = 176
 			},
 			charge = {
-				damage_enemy_max = 96,
-				health_threshold = 0.08,
-				range = 50,
-				damage_soldier_max = 96,
+				unstoppable_duration = 3,
+				damage_enemy_max = 60,
+				health_threshold = 0.2,
+				range = 80,
+				damage_soldier_max = 120,
 				cooldown = 20,
-				damage_enemy_min = 64,
+				damage_enemy_min = 40,
 				charge_while_blocked = true,
 				min_distance_from_end = 12,
 				speed_mult = 3.2,
-				damage_soldier_min = 64,
+				damage_soldier_min = 80,
 				damage_type = DAMAGE_PHYSICAL
 			}
 		},
