@@ -1999,10 +1999,10 @@ tt = E:register_t("soldier_templar", "soldier_militia")
 
 E:add_comps(tt, "revive", "powers", "nav_grid")
 
-tt.health.armor = 0.5
+tt.health.armor = 0.6
 tt.health.dead_lifetime = 15
-tt.health.hp_inc = 50
-tt.health.hp_max = 250
+tt.health.hp_inc = 75
+tt.health.hp_max = 300
 tt.health.power_name = "extralife"
 tt.health_bar.offset = v(0, 34)
 tt.idle_flip.animations = {
@@ -2012,15 +2012,15 @@ tt.idle_flip.animations = {
 tt.info.portrait = "bottom_info_image_soldiers_0025"
 tt.info.random_name_count = 20
 tt.info.random_name_format = "SOLDIER_TEMPLAR_RANDOM_%i_NAME"
-tt.melee.attacks[1].damage_max = 30
-tt.melee.attacks[1].damage_min = 20
+tt.melee.attacks[1].damage_max = 35
+tt.melee.attacks[1].damage_min = 25
 tt.melee.attacks[1].shared_cooldown = true
 tt.melee.attacks[2] = E:clone_c("melee_attack")
 tt.melee.attacks[2].animation = "blood"
 tt.melee.attacks[2].chance = 0.07
 tt.melee.attacks[2].chance_inc = 0.08
-tt.melee.attacks[2].damage_max = 30
-tt.melee.attacks[2].damage_min = 20
+tt.melee.attacks[2].damage_max = 60
+tt.melee.attacks[2].damage_min = 40
 tt.melee.attacks[2].damage_inc = 25
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].hit_time = fts(20)

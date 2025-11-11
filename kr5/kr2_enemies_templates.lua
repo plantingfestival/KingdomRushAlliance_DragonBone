@@ -150,12 +150,12 @@ tt = E:register_t("enemy_bloodshell", "enemy_KR5")
 E:add_comps(tt, "melee", "water")
 
 anchor_y = 0.26
-tt.enemy.gold = 75
+tt.enemy.gold = 150
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(34, 0)
 tt.enemy.valid_terrains = bor(TERRAIN_LAND, TERRAIN_WATER)
 tt.health.armor = 0.95
-tt.health.hp_max = 3200
+tt.health.hp_max = 4200
 tt.health.immune_to = bor(DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL)
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 57)
@@ -164,24 +164,26 @@ tt.info.portrait = "bottom_info_image_enemies_0002"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed_water.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 120
-tt.melee.attacks[1].damage_min = 100
+tt.melee.attacks[1].damage_max = 160
+tt.melee.attacks[1].damage_min = 120
 tt.melee.attacks[1].hit_time = fts(16)
 tt.motion.max_speed = 26.879999999999995
 tt.render.sprites[1].anchor.y = 0.26
 tt.render.sprites[1].prefix = "enemy_bloodshell"
+tt.render.sprites[1].scale = vv(1.2)
 tt.sound_events.death_water = "RTWaterDead"
 tt.sound_events.water_splash = "SpecialMermaid"
 tt.ui.click_rect = r(-30, -10, 60, 60)
 tt.unit.hit_offset = v(0, 30)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 28)
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = F_DRILL
 tt.water.health_bar_offset = v(0, tt.health_bar.offset.y - 28)
 tt.water.hit_offset = v(0, 7)
 tt.water.mod_offset = v(0, 14)
 tt.water.speed_factor = 1.43
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt.water.vis_bans = bor(F_BLOCK, F_SKELETON, F_DRILL)
 tt.water.splash_fx = "fx_enemy_splash_crocs"
 
@@ -943,7 +945,7 @@ tt.enemy.gold = 250
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(29, 0)
 tt.health.armor = 0.5
-tt.health.hp_max = 4400
+tt.health.hp_max = 4800
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 61)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -982,7 +984,7 @@ tt.unit.can_explode = false
 tt.unit.hit_offset = v(0, 18)
 tt.unit.marker_offset = v(0, 1)
 tt.unit.mod_offset = v(0, 16)
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = E:register_t("enemy_savant", "enemy_KR5")
 
@@ -1102,7 +1104,7 @@ tt.enemy.lives_cost = 20
 tt.enemy.melee_slot = v(25, 0)
 tt.health.armor = 0.5
 tt.health.dead_lifetime = fts(200)
-tt.health.hp_max = 6500
+tt.health.hp_max = 8800
 tt.health_bar.offset = v(0, 82)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
@@ -1122,6 +1124,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "enemy_saurian_king"
+tt.render.sprites[1].scale = vv(1.3)
 tt.ui.click_rect = r(-28, 0, 56, 64)
 tt.unit.blood_color = BLOOD_VIOLET
 tt.unit.can_explode = false
@@ -1201,14 +1204,14 @@ tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
 tt.health.armor = 0.95
 tt.health.dead_lifetime = fts(200)
-tt.health.hp_max = 180000
+tt.health.hp_max = 550000
 tt.health_bar.offset = v(0, 103)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_saurian_king.get_info
 tt.info.portrait = "bottom_info_image_enemies_0019"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.eb_saurian_king.update
-tt.motion.max_speed = 1.7919999999999998 * FPS
+tt.motion.max_speed = 0.9 * FPS
 tt.render.sprites[1] = E:clone_c("sprite")
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].angles_stickiness = {
@@ -1221,7 +1224,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_saurian_king"
-tt.render.sprites[1].scale = vv(5)
+tt.render.sprites[1].scale = vv(7.2)
 tt.ui.click_rect = r(-35, 0, 70, 80)
 tt.unit.blood_color = BLOOD_VIOLET
 tt.unit.can_explode = false
@@ -1234,10 +1237,10 @@ tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.death = "SaurianKingBossDeath"
 tt.melee.attacks[1] = E:clone_c("area_attack")
-tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 250
 tt.melee.attacks[1].damage_min = 500
-tt.melee.attacks[1].damage_radius = 60
+tt.melee.attacks[1].damage_radius = 160
 tt.melee.attacks[1].hit_time = fts(6)
 tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
 tt.melee.attacks[1].mod = "mod_saurian_king_tongue"
@@ -1256,24 +1259,24 @@ tt.timed_attacks.list[1].hit_times = {
 }
 tt.timed_attacks.list[1].max_damage_radius = 50
 tt.timed_attacks.list[1].max_damages = {
-	30,
-	45,
-	75,
-	120,
-	170,
-	200,
-	280,
-	500
+	80,
+	115,
+	145,
+	190,
+	240,
+	300,
+	400,
+	750
 }
 tt.timed_attacks.list[1].min_damages = {
-	30,
-	45,
-	75,
-	120,
-	170,
-	200,
-	280,
-	500
+	80,
+	115,
+	145,
+	190,
+	240,
+	300,
+	400,
+	750
 }
 tt.timed_attacks.list[1].sound = "SaurianKingBossHammer"
 tt.timed_attacks.list[1].vis_flags = F_RANGED

@@ -27,7 +27,6 @@ level.required_sounds = {
 level.required_textures = {
 	"go_enemies_underground",
 	"go_stages_underground",
-	"tower_barrack_dwarf",
 	"go_stage222",
 	"go_stage222_bg"
 }
@@ -72,8 +71,9 @@ function level:load(store)
 			"6",
 			"12"
 		}, h.id) or store.level_mode ~= GAME_MODE_IRON and h.id == "16" then
-			e = LU.insert_tower(store, "tower_barrack_dwarf", h.style, h.pos, h.rally_pos, nil, h.id)
-		else
+			LU.insert_tower(store, "tower_holder_blocked_underground", h.style, h.pos, h.rally_pos, nil, h.id, nil,
+				h.id)
+			else
 			LU.insert_tower(store, "tower_holder", h.style, h.pos, h.rally_pos, nil, h.id)
 		end
 	end

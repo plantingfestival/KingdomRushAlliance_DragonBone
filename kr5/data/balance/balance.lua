@@ -2166,6 +2166,8 @@ local heroes = {
 			damage = 6
 		},
 		armor = {
+			0.05,
+			0.1,
 			0.15,
 			0.2,
 			0.25,
@@ -2173,9 +2175,7 @@ local heroes = {
 			0.35,
 			0.4,
 			0.45,
-			0.5,
-			0.6,
-			0.75
+			0.5
 		},
 		hp_max = {
 			240,
@@ -2187,7 +2187,7 @@ local heroes = {
 			420,
 			450,
 			480,
-			530
+			510
 		},
 		melee_damage_max = {
 			24,
@@ -2223,7 +2223,7 @@ local heroes = {
 			27,
 			29,
 			30,
-			39
+			32
 		},
 		basic_melee = {
 			cooldown = 2,
@@ -2307,19 +2307,19 @@ local heroes = {
 				20
 			},
 			damage_max = {
-				180,
-				340,
-				720
+				160,
+				320,
+				640
 			},
 			damage_min = {
-				180,
-				340,
-				720
+				160,
+				320,
+				640
 			},
 			s_damage = {
-				180,
-				340,
-				720
+				160,
+				320,
+				640
 			},
 			damage_type = DAMAGE_TRUE,
 			xp_gain = {
@@ -2378,30 +2378,30 @@ local heroes = {
 					1.5
 				},
 				damage_min = {
-					22,
-					30,
-					42,
-					54
+					12,
+					20,
+					32,
+					50
 				},
 				damage_max = {
-					26,
-					38,
-					58,
-					80
+					16,
+					28,
+					46,
+					73
 				},
 				damage_type = DAMAGE_TRUE,
 				spiked_armor_damage_type = DAMAGE_TRUE,
 				hp_max = {
-					400,
-					600,
-					800,
-					1000
+					210,
+					290,
+					370,
+					450
 				},
 				regen_health = {
-					25,
-					33,
-					41,
-					58
+					5,
+					8,
+					12,
+					17
 				},
 				spiked_armor_damage = {
 					0,
@@ -2410,10 +2410,10 @@ local heroes = {
 					45
 				},
 				armor = {
+					0.2,
 					0.3,
-					0.4,
-					0.55,
-					0.8
+					0.45,
+					0.65
 				}
 			}
 		}
@@ -6204,15 +6204,15 @@ hero_wukong = {
 		},
 		cold_fury = {
 			max_range = 300,
-			damage_min = 90,
+			damage_min = 150,
 			min_range = 190,
-			damage_max = 120
+			damage_max = 200
 		},
 		ice_ball = {
 			max_range = 160,
 			min_range = 25,
-			damage_min = 60,
-			damage_max = 90,
+			damage_min = 90,
+			damage_max = 135,
 			damage_over_time = {
 				8,
 				16,
@@ -6224,17 +6224,17 @@ hero_wukong = {
 			cooldown = 30,
 			min_range = 20,
 			damage_boss = {
-				100,
-				200,
-				300
+				1000,
+				2000,
+				3000
 			}
 		},
 		ultimate = {
 			cooldown = {
-				70,
-				70,
-				70,
-				70
+				50,
+				50,
+				50,
+				50
 			},
 			duration = {
 				3,
@@ -7517,13 +7517,13 @@ local enemies = {
 				20,
 				20,
 				25,
-				35
+				40
 			},
 			armor = 0.98,
 			lives_cost = 10,
 			hp = {
 				20800,
-				27400
+				32000
 			},
 			water_fixed_speed = {
 				[9000] = 30,
@@ -7532,7 +7532,7 @@ local enemies = {
 			},
 			basic_attack = {
 				cooldown = 1.25,
-				damage_min = 180,
+				damage_min = 280,
 				damage_max = 420,
 				damage_type = DAMAGE_PHYSICAL
 			},
@@ -7674,17 +7674,17 @@ local enemies = {
 				damage_radius = 180,
 				damage_max = {
 					900,
-					1200,
-					1800,
-					3000,
-					9999
+					1600,
+					2400,
+					6000,
+					99999
 				},
 				damage_min = {
 					600,
-					800,
-					1000,
-					1600,
-					6666
+					900,
+					1200,
+					3000,
+					99999
 				},
 				instakill_threshold = {
 					0.95,
@@ -7699,8 +7699,8 @@ local enemies = {
 					16,
 					16,
 					14,
-					12,
-					9
+					10,
+					7
 				},
 				max_range = {
 					200,
@@ -7733,7 +7733,7 @@ local enemies = {
 					350,
 					370,
 					400,
-					550
+					570
 				},
 				loop_times = {
 					2,
@@ -7743,11 +7743,11 @@ local enemies = {
 					5
 				},
 				entities_amount = {
-					30,
-					35,
 					40,
-					45,
-					72
+					55,
+					70,
+					85,
+					120
 				},
 				min_distance_from_end = {
 					[19] = 430,
@@ -10155,9 +10155,9 @@ local enemies = {
 			},
 			bossfight = {
 				magic_armor = 0.5,
-				speed = 18,
+				speed = 21,
 				armor = 0.5,
-				hp = 10000,
+				hp = 12000,
 				spawn_pos = {
 					path = 13,
 					node_pos = v(605, 355)
@@ -10256,7 +10256,7 @@ local enemies = {
 						magic_armor = 0,
 						speed = 15,
 						armor = 0,
-						hp = 9000,
+						hp = 10000,
 						spawn_pos = {
 							{
 								path = 9,
@@ -10306,10 +10306,10 @@ local enemies = {
 			}
 		},
 		boss_bull_king = {
-			hp = 300000,
-			magic_armor = 0.9,
+			hp = 1000000,
+			magic_armor = 0.95,
 			speed = 10,
-			armor = 0.9,
+			armor = 0.95,
 			spawn_pos = {
 				path = 12,
 				node_pos = v(80, 275)
@@ -10317,20 +10317,20 @@ local enemies = {
 			second_manual_wave_pos = v(455, 290),
 			basic_attack = {
 				cooldown = 2.75,
-				damage_min = 350,
-				damage_max = 600,
+				damage_min = 450,
+				damage_max = 1000,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			area_attack = {
 				first_cooldown = 10,
 				min_targets = 2,
-				max_towers_block = 10,
+				max_towers_block = 12,
 				damage_max = 350,
 				min_range_towers_block = 0,
-				max_range_towers_block = 900,
+				max_range_towers_block = 1200,
 				damage_min = 350,
 				nodes_limit = 20,
-				damage_radius = 900,
+				damage_radius = 1200,
 				cooldown = {
 					25,
 					23.5,
@@ -10608,14 +10608,14 @@ local towers = {
 		},
 		overheat = {
 			price = {
-				250,
-				250,
-				250
+				200,
+				200,
+				200
 			},
 			cooldown = {
-				20,
-				20,
-				20
+				30,
+				30,
+				30
 			},
 			duration = {
 				3,
@@ -10629,14 +10629,14 @@ local towers = {
 					damage_every = 0.1,
 					duration = 3,
 					damage = {
-						28,
-						44,
-						56
+						24,
+						38,
+						46
 					},
 					s_damage = {
-						50,
-						70,
-						120
+						40,
+						60,
+						100
 					}
 				}
 			}
@@ -10699,19 +10699,19 @@ local towers = {
 				250
 			},
 			soldier_veteran = {
-				s_aura_damage_buff_factor = 0.2,
+				s_aura_damage_buff_factor = 0.3,
 				aura_duration = 8,
 				aura_range = 70,
 				armor = 0.95,
-				hp = 800,
-				aura_damage_buff_factor = 1.2,
-				regen_hp = 30,
+				hp = 900,
+				aura_damage_buff_factor = 1.3,
+				regen_hp = 50,
 				basic_attack = {
-					damage_max = 52,
+					damage_max = 56,
 					damage_min = 34
 				},
 				aura_cooldown = {
-					20
+					18
 				}
 			}
 		},
@@ -10719,9 +10719,9 @@ local towers = {
 			duration = 4,
 			heal_every = 0.25,
 			price = {
-				120,
-				120,
-				120
+				140,
+				140,
+				140
 			},
 			health_trigger_factor = {
 				0.25,
@@ -10730,18 +10730,28 @@ local towers = {
 			},
 			heal = {
 				6,
-				9,
+				10,
 				18
+			},
+			invincibility_duration = {
+				4,
+				5,
+				6
+			},
+			healing_duration = {
+				4,
+				6,
+				9
 			},
 			s_healing = {
 				24,
 				40,
-				64
+				72
 			},
 			cooldown = {
-				24,
-				21,
-				18
+				22,
+				18,
+				12
 			}
 		}
 	},
@@ -11993,14 +12003,14 @@ local towers = {
 					175,
 					272
 				},
-				damage_type = DAMAGE_ELECTRICAL,
+				damage_type = DAMAGE_PHYSICAL,
 				hp_max = {
 					2400,
 					3200,
 					4000
 				},
 				armor = {
-					0.85,
+					0.8,
 					0.85,
 					0.95
 				}
