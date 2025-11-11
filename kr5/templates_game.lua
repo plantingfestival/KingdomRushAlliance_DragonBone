@@ -30367,7 +30367,7 @@ tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_hydra_regen"
 tt.auras.list[1].cooldown = 0
 tt.render.sprites[1].prefix = "hydra_unitDef"
-tt.render.sprites[1].scale = vv(2.6)
+tt.render.sprites[1].scale = vv(2.7)
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].angles.walk = {
 	"walk"
@@ -34056,7 +34056,7 @@ tt.timed_attacks.list[1].hit_fx = "fx_demon_minotaur_hit"
 tt.timed_attacks.list[1].rebote_fx = "fx_demon_minotaur_rebote"
 tt.motion.max_speed = b.speed
 tt.render.sprites[1].prefix = "demon_minotaur_unit"
-tt.render.sprites[1].scale = vv(1.25)
+tt.render.sprites[1].scale = vv(1.35)
 tt.render.sprites[1].angles.walk = {
 	"walk",
 	"walk_up",
@@ -34089,7 +34089,7 @@ tt.ui.click_rect = r(-30, -3, 60, 65)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.unit.size = UNIT_SIZE_LARGE
 tt.unit.can_explode = false
-tt.vis.flags = bor(F_ENEMY)
+tt.vis.flags = bor(F_ENEMY,F_MINIBOSS)
 tt.vis.bans = bor(F_INSTAKILL, F_POLYMORPH, F_DISINTEGRATED, F_CANNIBALIZE, F_EAT, F_NET)
 tt.sound_events.insert = "EnemyDemonMinotaurChargeWarning"
 tt.sound_events.death = "EnemyDemonMinotaurDeath"

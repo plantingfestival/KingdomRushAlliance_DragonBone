@@ -7512,7 +7512,7 @@ local enemies = {
 		},
 		crocs_hydra = {
 			gold = 2500,
-			magic_armor = 0.98,
+			magic_armor = 1.2,
 			speed = {
 				20,
 				20,
@@ -7522,8 +7522,8 @@ local enemies = {
 			armor = 0.98,
 			lives_cost = 10,
 			hp = {
-				20800,
-				32000
+				22800,
+				33600
 			},
 			water_fixed_speed = {
 				[9000] = 30,
@@ -7544,7 +7544,7 @@ local enemies = {
 				damage_max = 60,
 				damage_min = 28,
 				nodes_limit = 60,
-				damage_every = 0.2,
+				damage_every = 0.1,
 				damage_type = DAMAGE_TRUE
 			}
 		},
@@ -9462,10 +9462,10 @@ local enemies = {
 		},
 		golden_eyed = {
 			speed = 20,
-			armor = 0,
-			hp = 20880,
+			armor = 0.5,
+			hp = 24000,
 			gold = 500,
-			magic_armor = 0,
+			magic_armor = 0.5,
 			lives_cost = 5,
 			basic_attack = {
 				damage_radius = 50,
@@ -9521,21 +9521,21 @@ local enemies = {
 			}
 		},
 		demon_minotaur = {
-			speed = 20,
+			speed = 25,
 			armor = {
 				0.8,
 				0.8,
 				0.9,
 				0.95
 			},
-			hp = 5600,
-			gold = 180,
+			hp = 6500,
+			gold = 200,
 			magic_armor = 0,
 			lives_cost = 5,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 90,
-				damage_max = 165
+				damage_min = 160,
+				damage_max = 245
 			},
 			charge = {
 				range_jump = 70,
