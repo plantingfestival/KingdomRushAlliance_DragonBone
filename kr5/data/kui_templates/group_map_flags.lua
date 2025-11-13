@@ -304,6 +304,24 @@ return {
 			pos = v(881.7, -546.85)
 		},
 		{
+			id = "flag_216",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(806.95, 240.8)
+		},
+		{
+			id = "flag_217",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(896.95, 280.8)
+		},
+		{
+			id = "flag_218",
+			class = "StageFlag5",
+			template_name = "button_map_stage_flag",
+			pos = v(986.95, 250.8)
+		},
+		{
 			id = "flag_219",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",

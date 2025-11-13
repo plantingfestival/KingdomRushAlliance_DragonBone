@@ -9,6 +9,30 @@ local levels_data = {
 			}
 		}
 	},
+	[216] = {
+		[GAME_MODE_IRON] = {
+			available_towers = {
+				"tower_build_paladin_covenant",
+				"tower_build_rock_thrower"
+			}
+		}
+	},
+	[217] = {
+		[GAME_MODE_IRON] = {
+			available_towers = {
+				"tower_build_paladin_covenant",
+				"tower_build_ballista"
+			}
+		}
+	},
+	[218] = {
+		[GAME_MODE_IRON] = {
+			available_towers = {
+				"tower_build_archer",
+				"tower_build_barrack"
+			}
+		}
+	},
 	[219] = {
 		[GAME_MODE_IRON] = {
 			available_towers = {

@@ -324,9 +324,9 @@ return {
 		[3] = {
 			locked_hero = false,
 			max_upgrade_level = 5,
-			locked_towers = {
-				"tower_build_mage",
-				"tower_build_engineer"
+			available_towers = {
+				"tower_build_arcane_wizard",
+				"tower_build_ray"
 			}
 		}
 	},

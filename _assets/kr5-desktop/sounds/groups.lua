@@ -695,6 +695,25 @@ return {
 			"MusicBossPreFightEnd"
 		}
 	},
+	music_stage216 = {
+		sounds = {
+			"MusicBattlePrep_216",
+			"MusicBattle_216"
+		}
+	},
+	music_stage217 = {
+		sounds = {
+			"MusicBattlePrep_217",
+			"MusicBattle_217"
+		}
+	},
+	music_stage218 = {
+		sounds = {
+			"MusicBattlePrep_218",
+			"MusicBattle_218",
+			"KR2_MusicBossFight"
+		}
+	},
 	music_stage219 = {
 		sounds = {
 			"MusicBattlePrep_219",

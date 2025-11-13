@@ -2326,6 +2326,33 @@ return {
 			"Underground_Prep.ogg",
 		},
 	},
+	MusicBattlePrep_216 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Prebattle_Rising_Tides.ogg"
+		}
+	},
+	MusicBattlePrep_217 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Prebattle_Rising_Tides.ogg"
+		}
+	},
+	MusicBattlePrep_218 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Prebattle_Rising_Tides.ogg"
+		}
+	},
 	MusicBattlePrep_219 = {
 		stream = true,
 		gain = 0.7,
@@ -2370,6 +2397,33 @@ return {
 		files = {
 			"Underground_Battle.ogg",
 		},
+	},
+	MusicBattle_216 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Battle_Rising_Tides.ogg"
+		}
+	},
+	MusicBattle_217 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Battle_Rising_Tides.ogg"
+		}
+	},
+	MusicBattle_218 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Battle_Rising_Tides.ogg"
+		}
 	},
 	MusicBattle_219 = {
 		stream = true,
