@@ -187,7 +187,7 @@ function level:load(store)
 	e.render.sprites[1].name = "Stage17_boat_top_0001"
 	e.render.sprites[1].anchor = V.v(0.5, 0.1)
 	e.render.sprites[1].z = Z_OBJECTS
-	e.pos.x, e.pos.y = 84, 129
+	e.pos.x, e.pos.y = 94, 129
 
 	LU.queue_insert(store, e)
 
@@ -197,7 +197,7 @@ function level:load(store)
 		e.render.sprites[1].name = "Stage17_boat_top_0002"
 		e.render.sprites[1].anchor = V.v(0.5, 0.1)
 		e.render.sprites[1].z = Z_OBJECTS
-		e.pos.x, e.pos.y = 84, 129
+		e.pos.x, e.pos.y = 94, 129
 
 		LU.queue_insert(store, e)
 
@@ -305,7 +305,7 @@ function level:load(store)
 	e.render.sprites[1].name = "Stage17_lighthouse"
 	e.render.sprites[1].anchor = V.v(0.5, 0)
 	e.render.sprites[1].z = Z_OBJECTS
-	e.pos.x, e.pos.y = 147, 381
+	e.pos.x, e.pos.y = 157, 381
 
 	LU.queue_insert(store, e)
 

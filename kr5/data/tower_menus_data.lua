@@ -318,6 +318,20 @@ return {
 			}
 		}
 	},
+	holder_neptune = {
+		{
+			{
+				check = "special_icons_0047",
+				action = "tw_upgrade",
+				action_arg = "tower_neptune_holder",
+				halo = "glow_ico_main",
+				image = "main_icons_0039",
+				place = 12,
+				tt_title = _("TOWER_BROKEN_NAME"),
+				tt_desc = _("TOWER_BROKEN_DESCRIPTION")
+			}
+		}
+	},
 	tower_timed_destroy = {
 		{
 			{

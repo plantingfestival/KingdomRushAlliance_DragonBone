@@ -10312,7 +10312,7 @@ local enemies = {
 			}
 		},
 		boss_bull_king = {
-			hp = 1000000,
+			hp = 1600000,
 			magic_armor = 0.95,
 			speed = 10,
 			armor = 0.95,

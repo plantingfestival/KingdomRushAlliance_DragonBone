@@ -2,74 +2,74 @@ return {
 	["Cachalote_layer1_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			67,
-            139,
-            222,
-            54
+			100,
+            207,
+            329,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1150,
-			122,
-			52
+			1643,
+			1269,
+			175,
+			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			67,
-            139,
-            222,
-            54
+			100,
+            207,
+            329,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1150,
-			122,
-			52
+			1643,
+			1269,
+			175,
+			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            78,
-            203,
-            54
+			97,
+            115,
+            300,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			80,
-			3317,
-			143,
-			113
+			690,
+			978,
+			207,
+			166
 		},
 		alias = {},
 		textureRotated = true
@@ -77,24 +77,24 @@ return {
 	["Cachalote_layer1_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            78,
-            203,
-            54
+			97,
+            115,
+            300,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			80,
-			3317,
-			143,
-			113
+			690,
+			978,
+			207,
+			166
 		},
 		alias = {},
 		textureRotated = true
@@ -102,24 +102,24 @@ return {
 	["Cachalote_layer1_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            34,
-            185,
-            54
+			85,
+            52,
+            275,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			458,
-			170,
-			157
+			948,
+			409,
+			244,
+			229
 		},
 		alias = {},
 		textureRotated = false
@@ -127,24 +127,24 @@ return {
 	["Cachalote_layer1_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            34,
-            185,
-            54
+			85,
+            52,
+            275,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			458,
-			170,
-			157
+			948,
+			409,
+			244,
+			229
 		},
 		alias = {},
 		textureRotated = false
@@ -152,124 +152,124 @@ return {
 	["Cachalote_layer1_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			63,
-            27,
-            177,
-            56
+			94,
+            43,
+            263,
+            83
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			73,
-			3704,
-			171,
-			162
+			699,
+			336,
+			247,
+			234
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			63,
-            27,
-            177,
-            56
+			94,
+            43,
+            263,
+            83
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			73,
-			3704,
-			171,
-			162
+			699,
+			336,
+			247,
+			234
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			66,
-            27,
-            173,
-            56
+			97,
+            41,
+            257,
+            83
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			3462,
-			172,
-			162
+			417,
+			749,
+			250,
+			236
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			66,
-            27,
-            173,
-            56
+			97,
+            41,
+            257,
+            83
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			3462,
-			172,
-			162
+			417,
+			749,
+			250,
+			236
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			67,
-            34,
-            139,
-            50
+			101,
+            53,
+            207,
+            76
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			872,
-			205,
-			161
+			1258,
+			296,
+			231
 		},
 		alias = {},
 		textureRotated = false
@@ -277,24 +277,24 @@ return {
 	["Cachalote_layer1_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			67,
-            34,
-            139,
-            50
+			101,
+            53,
+            207,
+            76
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			872,
-			205,
-			161
+			1258,
+			296,
+			231
 		},
 		alias = {},
 		textureRotated = false
@@ -302,1424 +302,1424 @@ return {
 	["Cachalote_layer1_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1612,
 			1,
-			1877,
-			207,
-			134
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1612,
 			1,
-			1877,
-			207,
-			134
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            65,
-            139,
-            49
+			99,
+            99,
+            207,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2504,
-			207,
-			131
+			1008,
+			221,
+			298,
+			186
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            65,
-            139,
-            49
+			99,
+            99,
+            207,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2504,
-			207,
-			131
+			1008,
+			221,
+			298,
+			186
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            57,
-            139,
-            52
+			99,
+            85,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1312,
 			1,
-			1668,
-			207,
-			136
+			298,
+			196
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            57,
-            139,
-            52
+			99,
+            85,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1312,
 			1,
-			1668,
-			207,
-			136
+			298,
+			196
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2086,
-			207,
-			134
+			342,
+			338,
+			298,
+			192
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            80,
-            152,
-            49
+			85,
+            120,
+            226,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			2713,
-			203,
-			116
+			1308,
+			290,
+			293,
+			166
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            80,
-            152,
-            49
+			85,
+            120,
+            226,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			2713,
-			203,
-			116
+			1308,
+			290,
+			293,
+			166
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			48,
-            76,
-            165,
-            52
+			72,
+            112,
+            244,
+            78
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			2918,
-			198,
-			117
+			1612,
+			195,
+			288,
+			170
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			48,
-            76,
-            165,
-            52
+			72,
+            112,
+            244,
+            78
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			2918,
-			198,
-			117
+			1612,
+			195,
+			288,
+			170
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			41,
-            83,
-            173,
-            49
+			62,
+            122,
+            257,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			80,
-			3118,
-			197,
-			113
+			1603,
+			367,
+			285,
+			163
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			41,
-            83,
-            173,
-            49
+			62,
+            122,
+            257,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			80,
-			3118,
-			197,
-			113
+			1603,
+			367,
+			285,
+			163
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer1_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			41,
-            103,
-            195,
-            52
+			61,
+            152,
+            290,
+            78
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			218,
-			617,
-			175,
-			90
+			696,
+			656,
+			253,
+			130
 		},
 		alias = {},
 		textureRotated = false
@@ -1727,24 +1727,24 @@ return {
 	["Cachalote_layer1_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			41,
-            103,
-            195,
-            52
+			61,
+            152,
+            290,
+            78
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			218,
-			617,
-			175,
-			90
+			696,
+			656,
+			253,
+			130
 		},
 		alias = {},
 		textureRotated = false
@@ -1752,499 +1752,499 @@ return {
 	["Cachalote_layer1_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            132,
-            210,
-            54
+			77,
+            194,
+            311,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1650,
-			149,
-			59
+			1138,
+			1038,
+			216,
+			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            132,
-            210,
-            54
+			77,
+            194,
+            311,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1650,
-			149,
-			59
+			1138,
+			1038,
+			216,
+			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			126,
-            172,
-            277,
-            66
+			186,
+            254,
+            407,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1240,
-			8,
-			7
+			1902,
+			195,
+			11,
+			8
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer1_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			65,
-            59,
-            139,
-            52
+			99,
+            89,
+            207,
+            78
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			2295,
-			207,
-			134
+			1702,
+			298,
+			193
 		},
 		alias = {},
 		textureRotated = true
@@ -2252,24 +2252,24 @@ return {
 	["Cachalote_layer2_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			64,
-            163,
-            210,
-            50
+			97,
+            241,
+            311,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			1,
-			137,
-			32
+			1829,
+			1264,
+			196,
+			44
 		},
 		alias = {},
 		textureRotated = true
@@ -2277,24 +2277,24 @@ return {
 	["Cachalote_layer2_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			64,
-            163,
-            210,
-            50
+			97,
+            241,
+            311,
+            75
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			1,
-			137,
-			32
+			1829,
+			1264,
+			196,
+			44
 		},
 		alias = {},
 		textureRotated = true
@@ -2302,24 +2302,24 @@ return {
 	["Cachalote_layer2_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            145,
-            196,
-            48
+			77,
+            214,
+            288,
+            73
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			1439,
-			163,
-			52
+			295,
+			1972,
+			239,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -2327,24 +2327,24 @@ return {
 	["Cachalote_layer2_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            145,
-            196,
-            48
+			77,
+            214,
+            288,
+            73
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			1439,
-			163,
-			52
+			295,
+			1972,
+			239,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -2352,74 +2352,74 @@ return {
 	["Cachalote_layer2_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			34,
-            139,
-            174,
-            44
+			50,
+            204,
+            259,
+            67
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1035,
-			203,
-			62
+			1312,
+			199,
+			295,
+			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			34,
-            139,
-            174,
-            44
+			50,
+            204,
+            259,
+            67
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			156,
-			1035,
-			203,
-			62
+			1312,
+			199,
+			295,
+			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			19,
-            133,
-            160,
-            42
+			29,
+            198,
+            236,
+            65
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3698,
-			232,
-			70
+			196,
+			1702,
+			339,
+			97
 		},
 		alias = {},
 		textureRotated = true
@@ -2427,24 +2427,24 @@ return {
 	["Cachalote_layer2_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			19,
-            133,
-            160,
-            42
+			29,
+            198,
+            236,
+            65
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3698,
-			232,
-			70
+			196,
+			1702,
+			339,
+			97
 		},
 		alias = {},
 		textureRotated = true
@@ -2452,174 +2452,174 @@ return {
 	["Cachalote_layer2_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			15,
-            131,
-            156,
-            41
+			25,
+            195,
+            230,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3456,
-			240,
-			73
+			346,
+			234,
+			349,
+			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			15,
-            131,
-            156,
-            41
+			25,
+            195,
+            230,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3456,
-			240,
-			73
+			346,
+			234,
+			349,
+			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            131,
-            151,
-            37
+			25,
+            194,
+            224,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3211,
-			243,
-			77
+			342,
+			532,
+			355,
+			109
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            131,
-            151,
-            37
+			25,
+            194,
+            224,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			3211,
-			243,
-			77
+			342,
+			532,
+			355,
+			109
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            135,
-            148,
-            37
+			25,
+            199,
+            220,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2963,
-			246,
-			73
+			335,
+			643,
+			359,
+			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            135,
-            148,
-            37
+			25,
+            199,
+            220,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2963,
-			246,
-			73
+			335,
+			643,
+			359,
+			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            136,
-            146,
-            36
+			25,
+            203,
+            217,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2713,
-			248,
-			73
+			312,
+			807,
+			362,
+			103
 		},
 		alias = {},
 		textureRotated = true
@@ -2627,24 +2627,24 @@ return {
 	["Cachalote_layer2_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			17,
-            136,
-            146,
-            36
+			25,
+            203,
+            217,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			1,
-			2713,
-			248,
-			73
+			312,
+			807,
+			362,
+			103
 		},
 		alias = {},
 		textureRotated = true
@@ -2652,24 +2652,24 @@ return {
 	["Cachalote_layer2_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			42,
-            143,
-            182,
-            36
+			65,
+            213,
+            271,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			137,
-			1877,
-			187,
-			66
+			295,
+			1702,
+			268,
+			93
 		},
 		alias = {},
 		textureRotated = true
@@ -2677,24 +2677,24 @@ return {
 	["Cachalote_layer2_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			42,
-            143,
-            182,
-            33
+			65,
+            213,
+            271,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			137,
-			2066,
-			187,
-			69
+			1890,
+			367,
+			268,
+			98
 		},
 		alias = {},
 		textureRotated = true
@@ -2702,24 +2702,24 @@ return {
 	["Cachalote_layer2_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            139,
-            174,
-            33
+			65,
+            207,
+            258,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			139,
-			1668,
-			193,
-			73
+			1194,
+			409,
+			281,
+			104
 		},
 		alias = {},
 		textureRotated = true
@@ -2727,24 +2727,24 @@ return {
 	["Cachalote_layer2_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            139,
-            174,
-            33
+			65,
+            207,
+            258,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			139,
-			1668,
-			193,
-			73
+			1194,
+			409,
+			281,
+			104
 		},
 		alias = {},
 		textureRotated = true
@@ -2752,49 +2752,49 @@ return {
 	["Cachalote_layer2_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            136,
-            173,
-            37
+			85,
+            203,
+            256,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			215,
-			767,
-			182,
-			72
+			1766,
+			532,
+			263,
+			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            136,
-            173,
-            37
+			85,
+            203,
+            256,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			215,
-			841,
-			182,
-			72
+			397,
+			1292,
+			263,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -2802,49 +2802,49 @@ return {
 	["Cachalote_layer2_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            136,
-            171,
-            37
+			85,
+            203,
+            254,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			137,
-			2255,
-			184,
-			72
+			397,
+			1190,
+			265,
+			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            136,
-            171,
-            37
+			79,
+            203,
+            254,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			237,
-			384,
-			188,
-			72
+			882,
+			838,
+			271,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -2852,149 +2852,149 @@ return {
 	["Cachalote_layer2_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            141,
-            169,
-            37
+			79,
+            207,
+            251,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			148,
-			1463,
-			190,
-			67
+			882,
+			940,
+			274,
+			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            141,
-            169,
-            37
+			79,
+            207,
+            251,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			148,
-			1463,
-			190,
-			67
+			882,
+			940,
+			274,
+			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            142,
-            169,
-            37
+			77,
+            211,
+            249,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			134,
-			2504,
-			190,
-			66
+			858,
+			1038,
+			278,
+			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            142,
-            169,
-            37
+			77,
+            211,
+            249,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			154,
-			1249,
-			190,
-			66
+			858,
+			1132,
+			278,
+			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            153,
-            188,
-            37
+			77,
+            226,
+            278,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			237,
-			3704,
-			171,
-			55
+			1295,
+			781,
+			249,
+			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            188,
-            32
+			74,
+            230,
+            278,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			205,
-			1863,
-			173,
-			58
+			564,
+			1679,
+			252,
+			82
 		},
 		alias = {},
 		textureRotated = true
@@ -3002,24 +3002,24 @@ return {
 	["Cachalote_layer2_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            188,
-            32
+			74,
+            227,
+            278,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			208,
-			2038,
-			173,
-			58
+			477,
+			1679,
+			252,
+			85
 		},
 		alias = {},
 		textureRotated = true
@@ -3027,24 +3027,24 @@ return {
 	["Cachalote_layer2_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            188,
-            32
+			74,
+            227,
+            278,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			208,
-			2038,
-			173,
-			58
+			477,
+			1679,
+			252,
+			85
 		},
 		alias = {},
 		textureRotated = true
@@ -3052,49 +3052,49 @@ return {
 	["Cachalote_layer2_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			47,
-            154,
-            201,
-            29
+			70,
+            228,
+            296,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			1375,
-			163,
-			62
+			1227,
+			1027,
+			238,
+			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			47,
-            154,
-            201,
-            29
+			70,
+            229,
+            296,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3207,
-			163,
-			62
+			1317,
+			1027,
+			238,
+			87
 		},
 		alias = {},
 		textureRotated = true
@@ -3102,24 +3102,24 @@ return {
 	["Cachalote_layer2_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			47,
-            154,
-            201,
-            29
+			70,
+            229,
+            296,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3207,
-			163,
-			62
+			1317,
+			1027,
+			238,
+			87
 		},
 		alias = {},
 		textureRotated = true
@@ -3127,24 +3127,24 @@ return {
 	["Cachalote_layer2_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			265,
-			1808,
-			164,
-			50
+			1406,
+			1027,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3152,24 +3152,24 @@ return {
 	["Cachalote_layer2_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			317,
-			1789,
-			164,
-			50
+			1478,
+			1027,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3177,24 +3177,24 @@ return {
 	["Cachalote_layer2_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			317,
-			1789,
-			164,
-			50
+			1478,
+			1027,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3202,24 +3202,24 @@ return {
 	["Cachalote_layer2_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            153,
-            195,
-            37
+			77,
+            226,
+            287,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			255,
-			3025,
-			164,
-			55
+			1794,
+			1022,
+			240,
+			77
 		},
 		alias = {},
 		textureRotated = true
@@ -3227,24 +3227,24 @@ return {
 	["Cachalote_layer2_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            153,
-            195,
-            37
+			77,
+            226,
+            287,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			259,
-			3191,
-			164,
-			55
+			1873,
+			972,
+			240,
+			77
 		},
 		alias = {},
 		textureRotated = true
@@ -3252,24 +3252,24 @@ return {
 	["Cachalote_layer2_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            153,
-            195,
-            37
+			77,
+            226,
+            287,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			259,
-			3191,
-			164,
-			55
+			1873,
+			972,
+			240,
+			77
 		},
 		alias = {},
 		textureRotated = true
@@ -3277,24 +3277,24 @@ return {
 	["Cachalote_layer2_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            195,
-            36
+			74,
+            227,
+            288,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			255,
-			2689,
-			166,
-			54
+			1634,
+			1025,
+			242,
+			79
 		},
 		alias = {},
 		textureRotated = true
@@ -3302,24 +3302,24 @@ return {
 	["Cachalote_layer2_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            195,
-            36
+			74,
+            229,
+            288,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			255,
-			2857,
-			166,
-			54
+			1715,
+			1023,
+			242,
+			77
 		},
 		alias = {},
 		textureRotated = true
@@ -3327,24 +3327,24 @@ return {
 	["Cachalote_layer2_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			50,
-            155,
-            195,
-            36
+			74,
+            229,
+            288,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			255,
-			2857,
-			166,
-			54
+			1715,
+			1023,
+			242,
+			77
 		},
 		alias = {},
 		textureRotated = true
@@ -3352,24 +3352,24 @@ return {
 	["Cachalote_layer2_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			48,
-            155,
-            202,
-            33
+			71,
+            229,
+            298,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			73,
-			3877,
-			161,
-			57
+			858,
+			1226,
+			235,
+			82
 		},
 		alias = {},
 		textureRotated = false
@@ -3377,24 +3377,24 @@ return {
 	["Cachalote_layer2_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			48,
-            155,
-            202,
-            33
+			71,
+            230,
+            298,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			236,
-			3877,
-			161,
-			57
+			858,
+			1310,
+			235,
+			81
 		},
 		alias = {},
 		textureRotated = false
@@ -3402,24 +3402,24 @@ return {
 	["Cachalote_layer2_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			48,
-            155,
-            202,
-            33
+			71,
+            230,
+            298,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			236,
-			3877,
-			161,
-			57
+			858,
+			1310,
+			235,
+			81
 		},
 		alias = {},
 		textureRotated = false
@@ -3427,24 +3427,24 @@ return {
 	["Cachalote_layer2_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            154,
-            201,
-            45
+			85,
+            229,
+            296,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			375,
-			1218,
-			154,
-			46
+			810,
+			1435,
+			223,
+			62
 		},
 		alias = {},
 		textureRotated = true
@@ -3452,24 +3452,24 @@ return {
 	["Cachalote_layer2_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            154,
-            201,
-            45
+			85,
+            228,
+            296,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			240,
-			3459,
-			154,
-			46
+			1789,
+			797,
+			223,
+			63
 		},
 		alias = {},
 		textureRotated = true
@@ -3477,24 +3477,24 @@ return {
 	["Cachalote_layer2_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			56,
-            154,
-            201,
-            45
+			85,
+            228,
+            296,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			240,
-			3459,
-			154,
-			46
+			1789,
+			797,
+			223,
+			63
 		},
 		alias = {},
 		textureRotated = true
@@ -3502,24 +3502,24 @@ return {
 	["Cachalote_layer2_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			369,
-			1789,
-			164,
-			50
+			730,
+			1676,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3527,24 +3527,24 @@ return {
 	["Cachalote_layer2_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			421,
-			1791,
-			164,
-			50
+			738,
+			1435,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3552,24 +3552,24 @@ return {
 	["Cachalote_layer2_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			421,
-			1791,
-			164,
-			50
+			738,
+			1435,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3577,199 +3577,199 @@ return {
 	["Cachalote_layer2_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            153,
-            195,
-            37
+			77,
+            226,
+            287,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			423,
-			1204,
-			164,
-			55
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0055"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			52,
-            153,
-            195,
-            37
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			259,
-			1642,
-			164,
-			55
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0056"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			52,
-            153,
-            195,
-            37
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			259,
-			1642,
-			164,
-			55
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0057"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			50,
-            155,
-            195,
-            32
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			195,
-			2871,
-			166,
-			58
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0058"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			50,
-            155,
-            195,
-            32
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			195,
-			3039,
-			166,
-			58
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0059"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			50,
-            155,
-            195,
-            32
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			195,
-			3039,
-			166,
-			58
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Cachalote_layer2_0060"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			47,
-            154,
-            201,
-            29
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			222,
-			1375,
-			163,
-			62
+			1220,
+			1267,
+			240,
+			77
 		},
 		alias = {},
 		textureRotated = false
 	},
+	["Cachalote_layer2_0055"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			77,
+            226,
+            287,
+            57
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1220,
+			1346,
+			240,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Cachalote_layer2_0056"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			77,
+            226,
+            287,
+            57
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1220,
+			1346,
+			240,
+			77
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Cachalote_layer2_0057"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			74,
+            230,
+            287,
+            48
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			699,
+			572,
+			243,
+			82
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Cachalote_layer2_0058"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			74,
+            227,
+            287,
+            48
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1295,
+			694,
+			243,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Cachalote_layer2_0059"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			74,
+            227,
+            287,
+            48
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1295,
+			694,
+			243,
+			85
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["Cachalote_layer2_0060"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			70,
+            228,
+            296,
+            44
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1227,
+			1027,
+			238,
+			88
+		},
+		alias = {},
+		textureRotated = true
+	},
 	["Cachalote_layer2_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			47,
-            154,
-            201,
-            29
+			70,
+            229,
+            296,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3207,
-			163,
-			62
+			1317,
+			1027,
+			238,
+			87
 		},
 		alias = {},
 		textureRotated = true
@@ -3777,24 +3777,24 @@ return {
 	["Cachalote_layer2_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			47,
-            154,
-            201,
-            29
+			70,
+            229,
+            296,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3207,
-			163,
-			62
+			1317,
+			1027,
+			238,
+			87
 		},
 		alias = {},
 		textureRotated = true
@@ -3802,24 +3802,24 @@ return {
 	["Cachalote_layer2_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			52,
-            154,
-            195,
-            41
+			79,
+            227,
+            287,
+            63
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			268,
-			1974,
-			164,
-			50
+			802,
+			1675,
+			238,
+			70
 		},
 		alias = {},
 		textureRotated = true
@@ -3827,24 +3827,24 @@ return {
 	["Cachalote_layer2_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			43,
-            155,
-            195,
-            32
+			64,
+            230,
+            288,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			211,
-			2213,
-			173,
-			58
+			1550,
+			1025,
+			252,
+			82
 		},
 		alias = {},
 		textureRotated = true
@@ -3852,49 +3852,49 @@ return {
 	["Cachalote_layer2_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			43,
-            154,
-            195,
-            32
+			64,
+            227,
+            288,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			194,
-			2696,
-			173,
-			59
+			1158,
+			940,
+			252,
+			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			32,
-            154,
-            196,
-            32
+			48,
+            227,
+            288,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			202,
-			2504,
-			183,
-			59
+			390,
+			1684,
+			268,
+			85
 		},
 		alias = {},
 		textureRotated = true
@@ -3902,24 +3902,24 @@ return {
 	["Cachalote_layer2_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			29,
-            146,
-            202,
-            29
+			44,
+            216,
+            298,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			208,
-			915,
-			180,
-			70
+			397,
+			1394,
+			262,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -3927,74 +3927,74 @@ return {
 	["Cachalote_layer2_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			41,
-            146,
-            195,
-            43
+			63,
+            216,
+            288,
+            64
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			709,
-			175,
-			56
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Cachalote_layer2_0069"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			411,
-			245
-		},
-		trim = {
-			39,
-            148,
-            195,
-            43
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			455,
-			164,
-			177,
-			54
+			648,
+			1678,
+			253,
+			80
 		},
 		alias = {},
 		textureRotated = true
 	},
+	["Cachalote_layer2_0069"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			604,
+			360
+		},
+		trim = {
+			60,
+            218,
+            288,
+            64
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1155,
+			860,
+			256,
+			78
+		},
+		alias = {},
+		textureRotated = false
+	},
 	["Cachalote_layer2_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			39,
-            148,
-            207,
-            54
+			60,
+            218,
+            305,
+            82
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			214,
-			1655,
-			165,
-			43
+			676,
+			1435,
+			239,
+			60
 		},
 		alias = {},
 		textureRotated = true
@@ -4002,49 +4002,49 @@ return {
 	["Cachalote_layer2_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			64,
-            151,
-            208,
-            52
+			97,
+            224,
+            305,
+            79
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			1650,
-			139,
-			42
+			1214,
+			1425,
+			202,
+			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			63,
-            151,
-            212,
-            52
+			95,
+            224,
+            312,
+            77
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			288,
-			3459,
-			136,
-			42
+			1096,
+			1802,
+			197,
+			59
 		},
 		alias = {},
 		textureRotated = true
@@ -4052,124 +4052,124 @@ return {
 	["Cachalote_layer2_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			71,
-            132,
-            218,
-            67
+			107,
+            194,
+            322,
+            101
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			268,
-			2152,
-			122,
-			46
+			986,
+			1625,
+			175,
+			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			71,
-            132,
-            218,
-            67
+			107,
+            194,
+            322,
+            101
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			268,
-			2152,
-			122,
-			46
+			986,
+			1625,
+			175,
+			65
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			87,
-            124,
-            238,
-            63
+			130,
+            184,
+            353,
+            95
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			211,
-			2388,
-			86,
-			58
+			1201,
+			1644,
+			121,
+			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			87,
-            124,
-            238,
-            63
+			130,
+            184,
+            353,
+            95
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			211,
-			2388,
-			86,
-			58
+			1201,
+			1644,
+			121,
+			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            120,
-            231,
-            60
+			115,
+            177,
+            343,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2327,
-			104,
-			65
+			1053,
+			1610,
+			146,
+			92
 		},
 		alias = {},
 		textureRotated = false
@@ -4177,24 +4177,24 @@ return {
 	["Cachalote_layer2_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            120,
-            231,
-            60
+			115,
+            177,
+            343,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2327,
-			104,
-			65
+			1053,
+			1610,
+			146,
+			92
 		},
 		alias = {},
 		textureRotated = false
@@ -4202,24 +4202,24 @@ return {
 	["Cachalote_layer2_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            117,
-            229,
-            59
+			111,
+            174,
+            339,
+            89
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2795,
-			106,
-			69
+			1544,
+			1279,
+			154,
+			97
 		},
 		alias = {},
 		textureRotated = true
@@ -4227,24 +4227,24 @@ return {
 	["Cachalote_layer2_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            117,
-            229,
-            59
+			111,
+            174,
+            339,
+            89
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2795,
-			106,
-			69
+			1544,
+			1279,
+			154,
+			97
 		},
 		alias = {},
 		textureRotated = true
@@ -4252,24 +4252,24 @@ return {
 	["Cachalote_layer2_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            117,
-            226,
-            59
+			112,
+            174,
+            335,
+            89
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2555,
-			109,
-			69
+			1048,
+			1511,
+			157,
+			97
 		},
 		alias = {},
 		textureRotated = false
@@ -4277,24 +4277,24 @@ return {
 	["Cachalote_layer2_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            117,
-            226,
-            59
+			112,
+            174,
+            335,
+            89
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2555,
-			109,
-			69
+			1048,
+			1511,
+			157,
+			97
 		},
 		alias = {},
 		textureRotated = false
@@ -4302,124 +4302,124 @@ return {
 	["Cachalote_layer2_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            120,
-            226,
-            59
+			112,
+            178,
+            332,
+            88
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2684,
-			109,
-			66
+			1052,
+			1415,
+			160,
+			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            120,
-            226,
-            59
+			112,
+            178,
+            332,
+            88
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2684,
-			109,
-			66
+			1052,
+			1415,
+			160,
+			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer2_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            123,
-            223,
-            64
+			112,
+            183,
+            331,
+            97
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			2084,
-			112,
-			58
+			1462,
+			1267,
+			161,
+			80
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			76,
-            123,
-            223,
-            64
+			112,
+            183,
+            331,
+            97
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			2084,
-			112,
-			58
+			1462,
+			1267,
+			161,
+			80
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer2_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			96,
-            157,
-            245,
-            64
+			141,
+            232,
+            362,
+            97
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			1578,
-			70,
-			24
+			1727,
+			752,
+			101,
+			31
 		},
 		alias = {},
 		textureRotated = true
@@ -4427,24 +4427,24 @@ return {
 	["Cachalote_layer2_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			96,
-            157,
-            245,
-            64
+			141,
+            232,
+            362,
+            97
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			1578,
-			70,
-			24
+			1727,
+			752,
+			101,
+			31
 		},
 		alias = {},
 		textureRotated = true
@@ -4452,24 +4452,24 @@ return {
 	["Cachalote_layer2_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			96,
-            157,
-            245,
-            64
+			142,
+            232,
+            362,
+            97
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			427,
-			243,
-			70,
-			24
+			1952,
+			972,
+			100,
+			31
 		},
 		alias = {},
 		textureRotated = true
@@ -4477,22 +4477,22 @@ return {
 	["Cachalote_layer2_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
 			0,
             0,
-            408,
-            242
+            601,
+            357
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2684,
+			404,
+			1679,
 			3,
 			3
 		},
@@ -4502,24 +4502,24 @@ return {
 	["Cachalote_layer3_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4527,24 +4527,24 @@ return {
 	["Cachalote_layer3_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4552,24 +4552,24 @@ return {
 	["Cachalote_layer3_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4577,24 +4577,24 @@ return {
 	["Cachalote_layer3_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4602,24 +4602,24 @@ return {
 	["Cachalote_layer3_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4627,24 +4627,24 @@ return {
 	["Cachalote_layer3_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4652,24 +4652,24 @@ return {
 	["Cachalote_layer3_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4677,24 +4677,24 @@ return {
 	["Cachalote_layer3_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4702,24 +4702,24 @@ return {
 	["Cachalote_layer3_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4727,24 +4727,24 @@ return {
 	["Cachalote_layer3_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4752,24 +4752,24 @@ return {
 	["Cachalote_layer3_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4777,24 +4777,24 @@ return {
 	["Cachalote_layer3_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4802,24 +4802,24 @@ return {
 	["Cachalote_layer3_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4827,24 +4827,24 @@ return {
 	["Cachalote_layer3_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -4852,24 +4852,24 @@ return {
 	["Cachalote_layer3_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			208,
-            149,
-            147,
-            48
+			306,
+            220,
+            218,
+            73
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			351,
-			2626,
-			56,
-			48
+			1742,
+			1964,
+			80,
+			67
 		},
 		alias = {},
 		textureRotated = true
@@ -4877,24 +4877,24 @@ return {
 	["Cachalote_layer3_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			208,
-            149,
-            147,
-            48
+			306,
+            220,
+            218,
+            73
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			351,
-			2626,
-			56,
-			48
+			1742,
+			1964,
+			80,
+			67
 		},
 		alias = {},
 		textureRotated = true
@@ -4902,24 +4902,24 @@ return {
 	["Cachalote_layer3_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			208,
-            151,
-            139,
-            38
+			309,
+            224,
+            208,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			445,
-			2516,
-			64,
-			56
+			1340,
+			1484,
+			87,
+			79
 		},
 		alias = {},
 		textureRotated = false
@@ -4927,24 +4927,24 @@ return {
 	["Cachalote_layer3_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			208,
-            151,
-            139,
-            38
+			309,
+            224,
+            208,
+            57
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			445,
-			2516,
-			64,
-			56
+			1340,
+			1484,
+			87,
+			79
 		},
 		alias = {},
 		textureRotated = false
@@ -4952,24 +4952,24 @@ return {
 	["Cachalote_layer3_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			211,
-            151,
-            132,
-            33
+			313,
+            225,
+            197,
+            50
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			137,
-			2441,
-			68,
-			61
+			1333,
+			1565,
+			94,
+			85
 		},
 		alias = {},
 		textureRotated = false
@@ -4977,24 +4977,24 @@ return {
 	["Cachalote_layer3_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			211,
-            151,
-            132,
-            33
+			313,
+            225,
+            197,
+            50
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			137,
-			2441,
-			68,
-			61
+			1333,
+			1565,
+			94,
+			85
 		},
 		alias = {},
 		textureRotated = false
@@ -5002,24 +5002,24 @@ return {
 	["Cachalote_layer3_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			214,
-            151,
-            127,
-            31
+			314,
+            225,
+            189,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			445,
-			2574,
-			70,
-			63
+			1902,
+			249,
+			101,
+			86
 		},
 		alias = {},
 		textureRotated = true
@@ -5027,24 +5027,24 @@ return {
 	["Cachalote_layer3_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			214,
-            151,
-            127,
-            31
+			314,
+            225,
+            189,
+            49
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			445,
-			2574,
-			70,
-			63
+			1902,
+			249,
+			101,
+			86
 		},
 		alias = {},
 		textureRotated = true
@@ -5052,74 +5052,74 @@ return {
 	["Cachalote_layer3_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			216,
-            149,
-            122,
-            31
+			318,
+            220,
+            180,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3273,
-			73,
-			65
+			1324,
+			1652,
+			106,
+			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer3_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			216,
-            149,
-            122,
-            31
+			318,
+            220,
+            180,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3273,
-			73,
-			65
+			1324,
+			1652,
+			106,
+			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer3_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			221,
-            144,
-            121,
-            32
+			325,
+            215,
+            181,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			374,
-			2555,
-			69,
-			69
+			1640,
+			1739,
+			98,
+			97
 		},
 		alias = {},
 		textureRotated = false
@@ -5127,24 +5127,24 @@ return {
 	["Cachalote_layer3_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			221,
-            144,
-            121,
-            32
+			325,
+            215,
+            181,
+            48
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			374,
-			2555,
-			69,
-			69
+			1640,
+			1739,
+			98,
+			97
 		},
 		alias = {},
 		textureRotated = false
@@ -5152,124 +5152,124 @@ return {
 	["Cachalote_layer3_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			224,
-            142,
-            120,
-            33
+			330,
+            210,
+            179,
+            50
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			382,
-			2840,
-			67,
-			70
+			1538,
+			1541,
+			95,
+			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer3_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			224,
-            142,
-            120,
-            33
+			330,
+            210,
+            179,
+            50
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			382,
-			2840,
-			67,
-			70
+			1538,
+			1541,
+			95,
+			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer3_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			225,
-            140,
-            127,
-            38
+			332,
+            209,
+            187,
+            56
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			382,
-			2771,
-			59,
-			67
+			730,
+			1348,
+			85,
+			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer3_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			225,
-            140,
-            127,
-            38
+			332,
+            209,
+            187,
+            56
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			382,
-			2771,
-			59,
-			67
+			730,
+			1348,
+			85,
+			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_layer3_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			228,
-            140,
-            131,
-            57
+			335,
+            209,
+            193,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			3303,
-			52,
-			48
+			1740,
+			1786,
+			76,
+			67
 		},
 		alias = {},
 		textureRotated = false
@@ -5277,24 +5277,24 @@ return {
 	["Cachalote_layer3_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			228,
-            140,
-            131,
-            57
+			335,
+            209,
+            193,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			3303,
-			52,
-			48
+			1740,
+			1786,
+			76,
+			67
 		},
 		alias = {},
 		textureRotated = false
@@ -5302,24 +5302,24 @@ return {
 	["Cachalote_layer3_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			229,
-            152,
-            172,
-            57
+			337,
+            223,
+            253,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			371,
-			3235,
-			10,
-			36
+			1868,
+			532,
+			14,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5327,24 +5327,24 @@ return {
 	["Cachalote_layer3_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			229,
-            152,
-            172,
-            57
+			337,
+            223,
+            253,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			371,
-			3235,
-			10,
-			36
+			1868,
+			532,
+			14,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5352,24 +5352,24 @@ return {
 	["Cachalote_layer3_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5377,24 +5377,24 @@ return {
 	["Cachalote_layer3_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5402,24 +5402,24 @@ return {
 	["Cachalote_layer3_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5427,24 +5427,24 @@ return {
 	["Cachalote_layer3_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5452,24 +5452,24 @@ return {
 	["Cachalote_layer3_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5477,24 +5477,24 @@ return {
 	["Cachalote_layer3_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5502,24 +5502,24 @@ return {
 	["Cachalote_layer3_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5527,24 +5527,24 @@ return {
 	["Cachalote_layer3_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5552,24 +5552,24 @@ return {
 	["Cachalote_layer3_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5577,24 +5577,24 @@ return {
 	["Cachalote_layer3_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5602,24 +5602,24 @@ return {
 	["Cachalote_layer3_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5627,24 +5627,24 @@ return {
 	["Cachalote_layer3_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5652,24 +5652,24 @@ return {
 	["Cachalote_layer3_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5677,24 +5677,24 @@ return {
 	["Cachalote_layer3_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5702,24 +5702,24 @@ return {
 	["Cachalote_layer3_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5727,24 +5727,24 @@ return {
 	["Cachalote_layer3_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5752,24 +5752,24 @@ return {
 	["Cachalote_layer3_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5777,24 +5777,24 @@ return {
 	["Cachalote_layer3_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5802,24 +5802,24 @@ return {
 	["Cachalote_layer3_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5827,24 +5827,24 @@ return {
 	["Cachalote_layer3_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5852,24 +5852,24 @@ return {
 	["Cachalote_layer3_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5877,24 +5877,24 @@ return {
 	["Cachalote_layer3_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5902,24 +5902,24 @@ return {
 	["Cachalote_layer3_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5927,24 +5927,24 @@ return {
 	["Cachalote_layer3_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5952,24 +5952,24 @@ return {
 	["Cachalote_layer3_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -5977,24 +5977,24 @@ return {
 	["Cachalote_layer3_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6002,24 +6002,24 @@ return {
 	["Cachalote_layer3_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6027,24 +6027,24 @@ return {
 	["Cachalote_layer3_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6052,24 +6052,24 @@ return {
 	["Cachalote_layer3_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6077,24 +6077,24 @@ return {
 	["Cachalote_layer3_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6102,24 +6102,24 @@ return {
 	["Cachalote_layer3_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6127,24 +6127,24 @@ return {
 	["Cachalote_layer3_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6152,24 +6152,24 @@ return {
 	["Cachalote_layer3_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6177,24 +6177,24 @@ return {
 	["Cachalote_layer3_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6202,24 +6202,24 @@ return {
 	["Cachalote_layer3_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6227,24 +6227,24 @@ return {
 	["Cachalote_layer3_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6252,24 +6252,24 @@ return {
 	["Cachalote_layer3_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6277,24 +6277,24 @@ return {
 	["Cachalote_layer3_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6302,24 +6302,24 @@ return {
 	["Cachalote_layer3_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6327,24 +6327,24 @@ return {
 	["Cachalote_layer3_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6352,24 +6352,24 @@ return {
 	["Cachalote_layer3_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6377,24 +6377,24 @@ return {
 	["Cachalote_layer3_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6402,24 +6402,24 @@ return {
 	["Cachalote_layer3_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6427,24 +6427,24 @@ return {
 	["Cachalote_layer3_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6452,24 +6452,24 @@ return {
 	["Cachalote_layer3_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6477,24 +6477,24 @@ return {
 	["Cachalote_layer3_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6502,24 +6502,24 @@ return {
 	["Cachalote_layer3_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6527,24 +6527,24 @@ return {
 	["Cachalote_layer3_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6552,24 +6552,24 @@ return {
 	["Cachalote_layer3_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6577,24 +6577,24 @@ return {
 	["Cachalote_layer3_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6602,24 +6602,24 @@ return {
 	["Cachalote_layer3_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6627,24 +6627,24 @@ return {
 	["Cachalote_layer3_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6652,24 +6652,24 @@ return {
 	["Cachalote_layer3_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6677,24 +6677,24 @@ return {
 	["Cachalote_layer3_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6702,24 +6702,24 @@ return {
 	["Cachalote_layer3_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6727,24 +6727,24 @@ return {
 	["Cachalote_layer3_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1642,
-			7,
-			6
+			686,
+			224,
+			8,
+			8
 		},
 		alias = {},
 		textureRotated = false
@@ -6752,674 +6752,674 @@ return {
 	["Cachalote_layer4_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1834,
-			32,
-			36
+			1829,
+			1462,
+			44,
+			48
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			128,
-            113,
-            248,
-            95
+			190,
+            168,
+            366,
+            143
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1493,
-			35,
-			37
+			882,
+			788,
+			48,
+			49
 		},
 		alias = {},
 		textureRotated = true
@@ -7427,24 +7427,24 @@ return {
 	["Cachalote_layer4_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			128,
-            113,
-            248,
-            95
+			190,
+            168,
+            366,
+            143
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1493,
-			35,
-			37
+			882,
+			788,
+			48,
+			49
 		},
 		alias = {},
 		textureRotated = true
@@ -7452,24 +7452,24 @@ return {
 	["Cachalote_layer4_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			128,
-            113,
-            248,
-            95
+			190,
+            168,
+            366,
+            143
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1493,
-			35,
-			37
+			882,
+			788,
+			48,
+			49
 		},
 		alias = {},
 		textureRotated = true
@@ -7477,24 +7477,24 @@ return {
 	["Cachalote_layer4_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			128,
-            113,
-            248,
-            95
+			190,
+            168,
+            366,
+            143
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1493,
-			35,
-			37
+			882,
+			788,
+			48,
+			49
 		},
 		alias = {},
 		textureRotated = true
@@ -7502,24 +7502,24 @@ return {
 	["Cachalote_layer4_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            98
+			194,
+            167,
+            366,
+            146
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3429,
-			32,
-			35
+			1129,
+			2001,
+			44,
+			47
 		},
 		alias = {},
 		textureRotated = true
@@ -7527,24 +7527,24 @@ return {
 	["Cachalote_layer4_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            98
+			194,
+            167,
+            366,
+            146
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3429,
-			32,
-			35
+			1129,
+			2001,
+			44,
+			47
 		},
 		alias = {},
 		textureRotated = true
@@ -7552,24 +7552,24 @@ return {
 	["Cachalote_layer4_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1868,
-			32,
-			36
+			1079,
+			2001,
+			44,
+			48
 		},
 		alias = {},
 		textureRotated = true
@@ -7577,24 +7577,24 @@ return {
 	["Cachalote_layer4_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			131,
-            112,
-            248,
-            97
+			194,
+            167,
+            366,
+            145
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1868,
-			32,
-			36
+			1079,
+			2001,
+			44,
+			48
 		},
 		alias = {},
 		textureRotated = true
@@ -7602,1424 +7602,1424 @@ return {
 	["Cachalote_layer4_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_layer4_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			232,
-            182,
-            172,
-            57
+			342,
+            268,
+            254,
+            84
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3578,
-			7,
-			6
+			1540,
+			522,
+			8,
+			8
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_Trace_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			65,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			3636,
-			165,
-			66
+			951,
+			640,
+			241,
+			96
 		},
 		alias = {},
 		textureRotated = false
@@ -9027,174 +9027,174 @@ return {
 	["Cachalote_Trace_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			43,
-            149,
-            202,
-            28
+			64,
+            220,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			402,
-			458,
-			166,
-			68
+			951,
+			738,
+			242,
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_Trace_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			43,
-            149,
-            202,
-            28
+			64,
+            220,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			402,
-			458,
-			166,
-			68
+			951,
+			738,
+			242,
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_Trace_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			43,
-            149,
-            202,
-            28
+			64,
+            220,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			402,
-			458,
-			166,
-			68
+			951,
+			738,
+			242,
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Cachalote_Trace_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			66,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			220,
-			1150,
-			165,
-			66
+			299,
+			1258,
+			240,
+			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_Trace_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			66,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			220,
-			1150,
-			165,
-			66
+			299,
+			1258,
+			240,
+			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_Trace_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			66,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			220,
-			1150,
-			165,
-			66
+			299,
+			1258,
+			240,
+			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Cachalote_Trace_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			65,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			3636,
-			165,
-			66
+			951,
+			640,
+			241,
+			96
 		},
 		alias = {},
 		textureRotated = false
@@ -9202,24 +9202,24 @@ return {
 	["Cachalote_Trace_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			411,
-			245
+			604,
+			360
 		},
 		trim = {
-			44,
-            151,
-            202,
-            28
+			65,
+            222,
+            298,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			76,
-			3636,
-			165,
-			66
+			951,
+			640,
+			241,
+			96
 		},
 		alias = {},
 		textureRotated = false
@@ -9227,24 +9227,24 @@ return {
 	["DefenseFlag_water_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            5,
             1,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2980,
-			41,
-			72
+			1746,
+			1517,
+			59,
+			99
 		},
 		alias = {},
 		textureRotated = true
@@ -9252,24 +9252,24 @@ return {
 	["DefenseFlag_water_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            5,
             1,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2980,
-			41,
-			72
+			1746,
+			1517,
+			59,
+			99
 		},
 		alias = {},
 		textureRotated = true
@@ -9277,24 +9277,24 @@ return {
 	["DefenseFlag_water_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            5,
             1,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2980,
-			41,
-			72
+			1746,
+			1517,
+			59,
+			99
 		},
 		alias = {},
 		textureRotated = true
@@ -9302,24 +9302,24 @@ return {
 	["DefenseFlag_water_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			401,
-			2626,
-			41,
-			72
+			1248,
+			1894,
+			60,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -9327,24 +9327,24 @@ return {
 	["DefenseFlag_water_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			401,
-			2626,
-			41,
-			72
+			1248,
+			1894,
+			60,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -9352,24 +9352,24 @@ return {
 	["DefenseFlag_water_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			401,
-			2626,
-			41,
-			72
+			1248,
+			1894,
+			60,
+			100
 		},
 		alias = {},
 		textureRotated = false
@@ -9377,99 +9377,99 @@ return {
 	["DefenseFlag_water_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			3049,
-			41,
-			71
+			786,
+			1985,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			3049,
-			41,
-			71
+			786,
+			1985,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			3049,
-			41,
-			71
+			786,
+			1985,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			3306,
-			41,
-			71
+			1432,
+			1733,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9477,24 +9477,24 @@ return {
 	["DefenseFlag_water_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			3306,
-			41,
-			71
+			1432,
+			1733,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9502,24 +9502,24 @@ return {
 	["DefenseFlag_water_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			3306,
-			41,
-			71
+			1432,
+			1733,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9527,99 +9527,99 @@ return {
 	["DefenseFlag_water_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			386,
-			2375,
-			41,
-			73
+			1428,
+			1794,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			386,
-			2375,
-			41,
-			73
+			1428,
+			1794,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			386,
-			2375,
-			41,
-			73
+			1428,
+			1794,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			368,
-			3121,
-			41,
-			73
+			1743,
+			1578,
+			60,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9627,24 +9627,24 @@ return {
 	["DefenseFlag_water_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			368,
-			3121,
-			41,
-			73
+			1743,
+			1578,
+			60,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9652,24 +9652,24 @@ return {
 	["DefenseFlag_water_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			368,
-			3121,
-			41,
-			73
+			1743,
+			1578,
+			60,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -9677,399 +9677,399 @@ return {
 	["DefenseFlag_water_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            2,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			301,
-			3597,
-			41,
-			73
+			1324,
+			1746,
+			59,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            2,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			301,
-			3597,
-			41,
-			73
+			1324,
+			1746,
+			59,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            2,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			301,
-			3597,
-			41,
-			73
+			1324,
+			1746,
+			59,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            1,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			453,
-			3228,
-			41,
-			73
+			1535,
+			1739,
+			59,
+			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            1,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			453,
-			3228,
-			41,
-			73
+			1535,
+			1739,
+			59,
+			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            1,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			453,
-			3228,
-			41,
-			73
+			1535,
+			1739,
+			59,
+			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            2,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			306,
-			3357,
-			41,
-			73
+			1156,
+			1727,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            2,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			306,
-			3357,
-			41,
-			73
+			1156,
+			1727,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            2,
             0,
-            0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			306,
-			3357,
-			41,
-			73
+			1156,
+			1727,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
+            3,
             0,
-            0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2974,
-			41,
-			73
+			975,
+			1973,
+			60,
+			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			3419,
-			41,
-			73
+			1531,
+			1800,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -10077,24 +10077,24 @@ return {
 	["DefenseFlag_water_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			3419,
-			41,
-			73
+			1531,
+			1800,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -10102,24 +10102,24 @@ return {
 	["DefenseFlag_water_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			3419,
-			41,
-			73
+			1531,
+			1800,
+			59,
+			101
 		},
 		alias = {},
 		textureRotated = true
@@ -10127,424 +10127,424 @@ return {
 	["DefenseFlag_water_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			375,
-			3462,
-			41,
-			71
+			1420,
+			1855,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			375,
-			3462,
-			41,
-			71
+			1420,
+			1855,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
-            0,
-            1
+            3,
+            1,
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			375,
-			3462,
-			41,
-			71
+			1420,
+			1855,
+			59,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3597,
-			41,
-			71
+			1523,
+			1861,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3597,
-			41,
-			71
+			1523,
+			1861,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            1
+            4
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3597,
-			41,
-			71
+			1523,
+			1861,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			332,
-			3462,
-			41,
-			72
+			1499,
+			1923,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			332,
-			3462,
-			41,
-			72
+			1499,
+			1923,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["DefenseFlag_water_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			41,
-			74
+			60,
+			108
 		},
 		trim = {
 			0,
-            1,
+            4,
             0,
-            1
+            3
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			332,
-			3462,
-			41,
-			72
+			1499,
+			1923,
+			60,
+			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            63,
-            72,
-            19
+			106,
+            94,
+            108,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2394,
-			113,
-			81
+			1672,
+			859,
+			162,
+			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            63,
-            71,
-            20
+			97,
+            94,
+            107,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			388,
-			987,
-			121,
-			80
+			1873,
+			798,
+			172,
+			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            63,
-            71,
-            20
+			97,
+            94,
+            107,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			388,
-			987,
-			121,
-			80
+			1873,
+			798,
+			172,
+			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            64,
-            71,
-            20
+			93,
+            95,
+            107,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1456,
-			122,
-			79
+			1875,
+			1214,
+			176,
+			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            64,
-            71,
-            20
+			93,
+            95,
+            107,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1456,
-			122,
-			79
+			1875,
+			1214,
+			176,
+			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            64,
-            71,
-            20
+			97,
+            97,
+            105,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			388,
-			1069,
-			121,
-			79
+			1875,
+			1392,
+			174,
+			111
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            64,
-            71,
-            20
+			97,
+            97,
+            105,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			388,
-			1069,
-			121,
-			79
+			1875,
+			1392,
+			174,
+			111
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            67,
-            68,
-            19
+			106,
+            99,
+            103,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2267,
-			117,
-			77
+			874,
+			1801,
+			167,
+			110
 		},
 		alias = {},
 		textureRotated = true
@@ -10552,24 +10552,24 @@ return {
 	["pirateHero_layer1_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            67,
-            68,
-            19
+			106,
+            99,
+            103,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2267,
-			117,
-			77
+			874,
+			1801,
+			167,
+			110
 		},
 		alias = {},
 		textureRotated = true
@@ -10577,74 +10577,74 @@ return {
 	["pirateHero_layer1_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            67,
-            67,
-            20
+			97,
+            101,
+            102,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1711,
-			125,
-			76
+			1719,
+			1267,
+			177,
+			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            67,
-            67,
-            20
+			97,
+            101,
+            102,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			1711,
-			125,
-			76
+			1719,
+			1267,
+			177,
+			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            68,
-            67,
-            20
+			93,
+            103,
+            101,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			320,
-			1955,
-			126,
-			75
+			297,
+			1500,
+			182,
+			105
 		},
 		alias = {},
 		textureRotated = true
@@ -10652,24 +10652,24 @@ return {
 	["pirateHero_layer1_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            68,
-            67,
-            20
+			93,
+            103,
+            101,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			320,
-			1955,
-			126,
-			75
+			297,
+			1500,
+			182,
+			105
 		},
 		alias = {},
 		textureRotated = true
@@ -10677,174 +10677,174 @@ return {
 	["pirateHero_layer1_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            68,
-            67,
-            20
+			97,
+            103,
+            100,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			1957,
-			125,
-			75
+			1546,
+			752,
+			179,
+			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            68,
-            67,
-            20
+			97,
+            103,
+            100,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			1957,
-			125,
-			75
+			1546,
+			752,
+			179,
+			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            68,
-            67,
-            19
+			106,
+            101,
+            101,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2477,
-			118,
-			76
+			986,
+			1802,
+			169,
+			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            68,
-            67,
-            19
+			106,
+            101,
+            101,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2477,
-			118,
-			76
+			986,
+			1802,
+			169,
+			108
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            67,
-            67,
-            20
+			97,
+            101,
+            101,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3704,
-			125,
-			76
+			536,
+			1933,
+			178,
+			108
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            67,
-            67,
-            20
+			97,
+            101,
+            101,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3704,
-			125,
-			76
+			536,
+			1933,
+			178,
+			108
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            67,
-            68,
-            20
+			93,
+            100,
+            103,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2200,
-			125,
-			76
+			566,
+			1496,
+			180,
+			108
 		},
 		alias = {},
 		textureRotated = true
@@ -10852,24 +10852,24 @@ return {
 	["pirateHero_layer1_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            67,
-            68,
-            20
+			93,
+            100,
+            103,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2200,
-			125,
-			76
+			566,
+			1496,
+			180,
+			108
 		},
 		alias = {},
 		textureRotated = true
@@ -10877,24 +10877,24 @@ return {
 	["pirateHero_layer1_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            65,
-            69,
-            20
+			97,
+            98,
+            105,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			2200,
-			123,
-			78
+			874,
+			1625,
+			174,
+			110
 		},
 		alias = {},
 		textureRotated = true
@@ -10902,24 +10902,24 @@ return {
 	["pirateHero_layer1_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            65,
-            69,
-            20
+			97,
+            98,
+            105,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			2200,
-			123,
-			78
+			874,
+			1625,
+			174,
+			110
 		},
 		alias = {},
 		textureRotated = true
@@ -10927,124 +10927,124 @@ return {
 	["pirateHero_layer1_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            64,
-            71,
-            19
+			106,
+            96,
+            105,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			395,
-			626,
-			114,
-			80
+			1413,
+			860,
+			165,
+			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            64,
-            71,
-            19
+			106,
+            96,
+            105,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			395,
-			626,
-			114,
-			80
+			1413,
+			860,
+			165,
+			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            64,
-            71,
-            20
+			97,
+            95,
+            107,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2144,
-			121,
-			79
+			874,
+			1509,
+			172,
+			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			64,
-            64,
-            71,
-            20
+			97,
+            95,
+            107,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2144,
-			121,
-			79
+			874,
+			1509,
+			172,
+			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            63,
-            71,
-            20
+			93,
+            94,
+            107,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1374,
-			122,
-			80
+			874,
+			1393,
+			176,
+			114
 		},
 		alias = {},
 		textureRotated = false
@@ -11052,24 +11052,24 @@ return {
 	["pirateHero_layer1_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			63,
-            63,
-            71,
-            20
+			93,
+            94,
+            107,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			1374,
-			122,
-			80
+			874,
+			1393,
+			176,
+			114
 		},
 		alias = {},
 		textureRotated = false
@@ -11077,174 +11077,174 @@ return {
 	["pirateHero_layer1_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			71,
-            63,
-            72,
-            19
+			106,
+            94,
+            108,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			271,
-			2394,
-			113,
-			81
+			1672,
+			859,
+			162,
+			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11252,24 +11252,24 @@ return {
 	["pirateHero_layer1_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11277,174 +11277,174 @@ return {
 	["pirateHero_layer1_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11452,24 +11452,24 @@ return {
 	["pirateHero_layer1_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11477,174 +11477,174 @@ return {
 	["pirateHero_layer1_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11652,24 +11652,24 @@ return {
 	["pirateHero_layer1_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11677,174 +11677,174 @@ return {
 	["pirateHero_layer1_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11852,24 +11852,24 @@ return {
 	["pirateHero_layer1_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -11877,174 +11877,174 @@ return {
 	["pirateHero_layer1_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12052,24 +12052,24 @@ return {
 	["pirateHero_layer1_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12077,174 +12077,174 @@ return {
 	["pirateHero_layer1_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12252,24 +12252,24 @@ return {
 	["pirateHero_layer1_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12277,174 +12277,174 @@ return {
 	["pirateHero_layer1_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12452,24 +12452,24 @@ return {
 	["pirateHero_layer1_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12477,224 +12477,224 @@ return {
 	["pirateHero_layer1_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            19
+			127,
+            133,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			263,
-			2626,
-			86,
-			56
+			1912,
+			1,
+			122,
+			76
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer1_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0091"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            20
+			125,
+            131,
+            127,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			243,
-			3615,
-			87,
-			56
+			1214,
+			1484,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0092"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0093"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			83,
-            87,
-            86,
-            22
+			125,
+            129,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3096,
-			87,
-			54
+			1207,
+			1564,
+			124,
+			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer1_0094"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12702,24 +12702,24 @@ return {
 	["pirateHero_layer1_0095"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			84,
-            88,
-            86,
-            22
+			127,
+            131,
+            127,
+            33
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			316,
-			3185,
-			86,
-			53
+			1912,
+			125,
+			122,
+			76
 		},
 		alias = {},
 		textureRotated = true
@@ -12727,24 +12727,24 @@ return {
 	["pirateHero_layer2_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12752,24 +12752,24 @@ return {
 	["pirateHero_layer2_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12777,24 +12777,24 @@ return {
 	["pirateHero_layer2_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12802,24 +12802,24 @@ return {
 	["pirateHero_layer2_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12827,24 +12827,24 @@ return {
 	["pirateHero_layer2_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12852,24 +12852,24 @@ return {
 	["pirateHero_layer2_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12877,24 +12877,24 @@ return {
 	["pirateHero_layer2_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12902,24 +12902,24 @@ return {
 	["pirateHero_layer2_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12927,24 +12927,24 @@ return {
 	["pirateHero_layer2_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12952,24 +12952,24 @@ return {
 	["pirateHero_layer2_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -12977,24 +12977,24 @@ return {
 	["pirateHero_layer2_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13002,24 +13002,24 @@ return {
 	["pirateHero_layer2_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13027,24 +13027,24 @@ return {
 	["pirateHero_layer2_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13052,24 +13052,24 @@ return {
 	["pirateHero_layer2_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13077,24 +13077,24 @@ return {
 	["pirateHero_layer2_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13102,24 +13102,24 @@ return {
 	["pirateHero_layer2_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13127,24 +13127,24 @@ return {
 	["pirateHero_layer2_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13152,24 +13152,24 @@ return {
 	["pirateHero_layer2_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13177,24 +13177,24 @@ return {
 	["pirateHero_layer2_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13202,24 +13202,24 @@ return {
 	["pirateHero_layer2_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13227,24 +13227,24 @@ return {
 	["pirateHero_layer2_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13252,24 +13252,24 @@ return {
 	["pirateHero_layer2_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13277,24 +13277,24 @@ return {
 	["pirateHero_layer2_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13302,24 +13302,24 @@ return {
 	["pirateHero_layer2_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13327,24 +13327,24 @@ return {
 	["pirateHero_layer2_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13352,24 +13352,24 @@ return {
 	["pirateHero_layer2_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13377,24 +13377,24 @@ return {
 	["pirateHero_layer2_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13402,24 +13402,24 @@ return {
 	["pirateHero_layer2_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13427,24 +13427,24 @@ return {
 	["pirateHero_layer2_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13452,24 +13452,24 @@ return {
 	["pirateHero_layer2_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            108,
-            115,
-            50
+			200,
+            160,
+            170,
+            74
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			230,
-			399,
-			5,
-			5
+			1300,
+			409,
+			6,
+			6
 		},
 		alias = {},
 		textureRotated = false
@@ -13477,24 +13477,24 @@ return {
 	["pirateHero_layer2_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -13502,24 +13502,24 @@ return {
 	["pirateHero_layer2_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -13527,24 +13527,24 @@ return {
 	["pirateHero_layer2_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -13552,24 +13552,24 @@ return {
 	["pirateHero_layer2_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            68,
-            89,
-            50
+			182,
+            103,
+            132,
+            77
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3831,
-			44,
-			45
+			1540,
+			458,
+			62,
+			60
 		},
 		alias = {},
 		textureRotated = true
@@ -13577,24 +13577,24 @@ return {
 	["pirateHero_layer2_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            68,
-            89,
-            50
+			182,
+            103,
+            132,
+            77
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3831,
-			44,
-			45
+			1540,
+			458,
+			62,
+			60
 		},
 		alias = {},
 		textureRotated = true
@@ -13602,124 +13602,124 @@ return {
 	["pirateHero_layer2_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			117,
-            79,
-            89,
-            49
+			175,
+            117,
+            131,
+            72
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			1935,
-			50,
-			35
+			730,
+			1916,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			117,
-            79,
-            89,
-            49
+			175,
+            117,
+            131,
+            72
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			1935,
-			50,
-			35
+			730,
+			1916,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			113,
-            80,
-            89,
-            38
+			168,
+            120,
+            131,
+            58
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			3122,
-			54,
-			45
+			1260,
+			1727,
+			77,
+			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			113,
-            80,
-            89,
-            38
+			168,
+            120,
+            131,
+            58
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			3122,
-			54,
-			45
+			1260,
+			1727,
+			77,
+			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			112,
-            72,
-            89,
-            46
+			166,
+            109,
+            133,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3752,
-			55,
-			45
+			1822,
+			1855,
+			77,
+			63
 		},
 		alias = {},
 		textureRotated = false
@@ -13727,24 +13727,24 @@ return {
 	["pirateHero_layer2_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			112,
-            72,
-            89,
-            46
+			166,
+            109,
+            133,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3752,
-			55,
-			45
+			1822,
+			1855,
+			77,
+			63
 		},
 		alias = {},
 		textureRotated = false
@@ -13752,74 +13752,74 @@ return {
 	["pirateHero_layer2_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			124,
-            58,
-            87,
-            46
+			185,
+            88,
+            131,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			332,
-			3536,
-			45,
-			59
+			1585,
+			1985,
+			60,
+			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			124,
-            58,
-            87,
-            46
+			185,
+            88,
+            131,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			332,
-			3536,
-			45,
-			59
+			1585,
+			1985,
+			60,
+			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            65,
-            68,
-            46
+			200,
+            96,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			2786,
-			52,
-			52
+			1740,
+			1708,
+			73,
+			76
 		},
 		alias = {},
 		textureRotated = false
@@ -13827,24 +13827,24 @@ return {
 	["pirateHero_layer2_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            65,
-            68,
-            46
+			200,
+            96,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			2786,
-			52,
-			52
+			1740,
+			1708,
+			73,
+			76
 		},
 		alias = {},
 		textureRotated = false
@@ -13852,224 +13852,224 @@ return {
 	["pirateHero_layer2_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            69,
-            69,
-            46
+			205,
+            102,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			3653,
-			47,
-			48
+			802,
+			1915,
+			68,
+			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            69,
-            69,
-            46
+			205,
+            102,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			3653,
-			47,
-			48
+			802,
+			1915,
+			68,
+			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            67,
-            68,
-            46
+			205,
+            100,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			377,
-			2325,
-			48,
-			50
+			716,
+			1973,
+			68,
+			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            67,
-            68,
-            46
+			205,
+            100,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			377,
-			2325,
-			48,
-			50
+			716,
+			1973,
+			68,
+			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            71,
-            71,
-            46
+			205,
+            107,
+            106,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			3877,
-			45,
-			46
+			662,
+			1354,
+			65,
+			65
 		},
 		alias = {},
 		textureRotated = false
@@ -14077,24 +14077,24 @@ return {
 	["pirateHero_layer2_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            71,
-            71,
-            46
+			205,
+            107,
+            106,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			3877,
-			45,
-			46
+			662,
+			1354,
+			65,
+			65
 		},
 		alias = {},
 		textureRotated = false
@@ -14102,74 +14102,74 @@ return {
 	["pirateHero_layer2_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            64,
-            86,
-            46
+			195,
+            97,
+            128,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2890,
-			39,
-			53
+			642,
+			387,
+			53,
+			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            64,
-            86,
-            46
+			195,
+            97,
+            128,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2890,
-			39,
-			53
+			642,
+			387,
+			53,
+			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14177,24 +14177,24 @@ return {
 	["pirateHero_layer2_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14202,24 +14202,24 @@ return {
 	["pirateHero_layer2_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14227,24 +14227,24 @@ return {
 	["pirateHero_layer2_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14252,24 +14252,24 @@ return {
 	["pirateHero_layer2_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14277,24 +14277,24 @@ return {
 	["pirateHero_layer2_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            68,
-            89,
-            50
+			182,
+            103,
+            132,
+            77
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3831,
-			44,
-			45
+			1540,
+			458,
+			62,
+			60
 		},
 		alias = {},
 		textureRotated = true
@@ -14302,24 +14302,24 @@ return {
 	["pirateHero_layer2_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            68,
-            89,
-            50
+			182,
+            103,
+            132,
+            77
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			294,
-			3831,
-			44,
-			45
+			1540,
+			458,
+			62,
+			60
 		},
 		alias = {},
 		textureRotated = true
@@ -14327,124 +14327,124 @@ return {
 	["pirateHero_layer2_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			117,
-            79,
-            89,
-            49
+			175,
+            117,
+            131,
+            72
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			1935,
-			50,
-			35
+			730,
+			1916,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			117,
-            79,
-            89,
-            49
+			175,
+            117,
+            131,
+            72
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			1935,
-			50,
-			35
+			730,
+			1916,
+			70,
+			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			110,
-            80,
-            89,
-            35
+			165,
+            120,
+            131,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			442,
-			3169,
-			57,
-			48
+			1743,
+			1640,
+			80,
+			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			110,
-            80,
-            89,
-            35
+			165,
+            120,
+            131,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			442,
-			3169,
-			57,
-			48
+			1743,
+			1640,
+			80,
+			66
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			109,
-            69,
-            89,
-            46
+			163,
+            104,
+            133,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			451,
-			2840,
-			58,
-			48
+			1818,
+			1785,
+			80,
+			68
 		},
 		alias = {},
 		textureRotated = false
@@ -14452,24 +14452,24 @@ return {
 	["pirateHero_layer2_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			109,
-            69,
-            89,
-            46
+			163,
+            104,
+            133,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			451,
-			2840,
-			58,
-			48
+			1818,
+			1785,
+			80,
+			68
 		},
 		alias = {},
 		textureRotated = false
@@ -14477,74 +14477,74 @@ return {
 	["pirateHero_layer2_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            57,
-            87,
-            46
+			182,
+            86,
+            131,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			2477,
-			46,
-			60
+			1258,
+			1806,
+			63,
+			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			123,
-            57,
-            87,
-            46
+			182,
+            86,
+            131,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			2477,
-			46,
-			60
+			1258,
+			1806,
+			63,
+			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            65,
-            68,
-            46
+			200,
+            96,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			2786,
-			52,
-			52
+			1740,
+			1708,
+			73,
+			76
 		},
 		alias = {},
 		textureRotated = false
@@ -14552,24 +14552,24 @@ return {
 	["pirateHero_layer2_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			136,
-            65,
-            68,
-            46
+			200,
+            96,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			2786,
-			52,
-			52
+			1740,
+			1708,
+			73,
+			76
 		},
 		alias = {},
 		textureRotated = false
@@ -14577,224 +14577,224 @@ return {
 	["pirateHero_layer2_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            69,
-            69,
-            46
+			205,
+            102,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			3653,
-			47,
-			48
+			802,
+			1915,
+			68,
+			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            69,
-            69,
-            46
+			205,
+            102,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			3653,
-			47,
-			48
+			802,
+			1915,
+			68,
+			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            67,
-            68,
-            46
+			205,
+            100,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			377,
-			2325,
-			48,
-			50
+			716,
+			1973,
+			68,
+			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            67,
-            68,
-            46
+			205,
+            100,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			377,
-			2325,
-			48,
-			50
+			716,
+			1973,
+			68,
+			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            72,
-            68,
-            46
+			205,
+            109,
+            103,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			389,
-			3830,
-			48,
-			45
+			1815,
+			1715,
+			68,
+			63
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_layer2_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            71,
-            71,
-            46
+			205,
+            107,
+            106,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			3877,
-			45,
-			46
+			662,
+			1354,
+			65,
+			65
 		},
 		alias = {},
 		textureRotated = false
@@ -14802,24 +14802,24 @@ return {
 	["pirateHero_layer2_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			140,
-            71,
-            71,
-            46
+			205,
+            107,
+            106,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			3877,
-			45,
-			46
+			662,
+			1354,
+			65,
+			65
 		},
 		alias = {},
 		textureRotated = false
@@ -14827,74 +14827,74 @@ return {
 	["pirateHero_layer2_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            64,
-            86,
-            46
+			195,
+            97,
+            128,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2890,
-			39,
-			53
+			642,
+			387,
+			53,
+			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            64,
-            86,
-            46
+			195,
+            97,
+            128,
+            68
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			456,
-			2890,
-			39,
-			53
+			642,
+			387,
+			53,
+			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_layer2_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14902,24 +14902,24 @@ return {
 	["pirateHero_layer2_0088"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14927,24 +14927,24 @@ return {
 	["pirateHero_layer2_0089"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14952,24 +14952,24 @@ return {
 	["pirateHero_layer2_0090"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -14977,24 +14977,24 @@ return {
 	["pirateHero_layer2_0091"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -15002,24 +15002,24 @@ return {
 	["pirateHero_layer2_0092"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -15027,24 +15027,24 @@ return {
 	["pirateHero_layer2_0093"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -15052,24 +15052,24 @@ return {
 	["pirateHero_layer2_0094"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -15077,24 +15077,24 @@ return {
 	["pirateHero_layer2_0095"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			131,
-            65,
-            86,
-            46
+			194,
+            98,
+            129,
+            69
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3463,
-			39,
-			52
+			1825,
+			1640,
+			53,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -15102,124 +15102,124 @@ return {
 	["pirateHero_mine_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			10,
-            12,
-            11,
-            11
+			16,
+            21,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1902,
-			36,
-			31
+			1320,
+			1994,
+			51,
+			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			10,
-            12,
-            11,
-            11
+			16,
+            20,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			3517,
-			36,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pirateHero_mine_0003"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			57,
-			54
-		},
-		trim = {
-			10,
-            12,
-            11,
-            11
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			478,
-			3555,
-			36,
-			31
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["pirateHero_mine_0004"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			57,
-			54
-		},
-		trim = {
-			4,
-            3,
-            7,
-            8
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			341,
-			3831,
-			46,
+			1,
+			2002,
+			51,
 			43
 		},
 		alias = {},
 		textureRotated = false
 	},
+	["pirateHero_mine_0003"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			84,
+			80
+		},
+		trim = {
+			17,
+            20,
+            18,
+            17
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			54,
+			2002,
+			49,
+			43
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pirateHero_mine_0004"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			84,
+			80
+		},
+		trim = {
+			8,
+            7,
+            13,
+            15
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			948,
+			336,
+			63,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
 	["pirateHero_mine_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			4,
-            3,
+			8,
             7,
-            8
+            13,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			3703,
-			46,
-			43
+			1811,
+			1963,
+			63,
+			58
 		},
 		alias = {},
 		textureRotated = true
@@ -15227,24 +15227,24 @@ return {
 	["pirateHero_mine_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            0,
-            2,
-            7
+            3,
+            4,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			418,
-			3462,
-			55,
-			47
+			664,
+			1190,
+			80,
+			64
 		},
 		alias = {},
 		textureRotated = true
@@ -15252,74 +15252,74 @@ return {
 	["pirateHero_mine_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            0,
-            2,
-            7
+            3,
+            4,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3703,
-			55,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["pirateHero_mine_0008"] = {
-		a_name = "go_stage217.dds",
-		size = {
-			57,
-			54
-		},
-		trim = {
-			0,
-            0,
-            0,
-            7
-		},
-		a_size = {
-			510,
-			3935
-		},
-		f_quad = {
-			379,
-			3535,
-			57,
-			47
+			664,
+			1272,
+			80,
+			64
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["pirateHero_mine_0009"] = {
+	["pirateHero_mine_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
             0,
-            0,
-            7
+            3,
+            11
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			387,
-			3594,
-			57,
-			47
+			1746,
+			1446,
+			81,
+			69
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["pirateHero_mine_0009"] = {
+		a_name = "go_stage217.dds",
+		size = {
+			84,
+			80
+		},
+		trim = {
+			0,
+            0,
+            3,
+            11
+		},
+		a_size = {
+			1989,
+			2046
+		},
+		f_quad = {
+			1671,
+			1964,
+			81,
+			69
 		},
 		alias = {},
 		textureRotated = true
@@ -15327,24 +15327,24 @@ return {
 	["pirateHero_mine_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
             0,
-            0,
-            6
+            1,
+            10
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			420,
-			3353,
-			57,
-			48
+			312,
+			1171,
+			83,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -15352,74 +15352,74 @@ return {
 	["pirateHero_mine_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
             0,
-            0,
-            6
+            1,
+            10
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			424,
-			3403,
-			57,
-			48
+			890,
+			1970,
+			83,
+			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            7
+            12
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			428,
-			3519,
-			57,
-			45
+			1634,
+			1838,
+			84,
+			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            2,
+            3,
             0,
-            11
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			450,
-			2931,
-			57,
-			41
+			1499,
+			1985,
+			84,
+			60
 		},
 		alias = {},
 		textureRotated = false
@@ -15427,74 +15427,74 @@ return {
 	["pirateHero_mine_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            3,
+            6,
             0,
-            11
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			436,
-			3578,
-			57,
-			40
+			1626,
+			1905,
+			84,
+			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
 			0,
-            3,
+            6,
             0,
-            11
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			436,
-			3637,
-			57,
-			40
+			1712,
+			1905,
+			84,
+			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			9,
-            13,
-            8,
-            11
+			14,
+            22,
+            14,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			301,
-			3672,
-			40,
-			30
+			1764,
+			1855,
+			56,
+			41
 		},
 		alias = {},
 		textureRotated = false
@@ -15502,99 +15502,99 @@ return {
 	["pirateHero_mine_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			9,
-            12,
-            8,
-            11
+			14,
+            21,
+            14,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			455,
-			40,
-			31
+			105,
+			2002,
+			56,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			9,
-            12,
-            8,
-            11
+			14,
+            21,
+            14,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			497,
-			40,
-			31
+			1178,
+			2003,
+			56,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			9,
+			14,
+            22,
             14,
-            8,
-            11
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			480,
-			1204,
-			40,
-			29
+			1798,
+			1920,
+			56,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			10,
-            14,
-            10,
-            11
+			16,
+            22,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			480,
-			1246,
-			37,
-			29
+			1364,
+			1994,
+			51,
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -15602,149 +15602,149 @@ return {
 	["pirateHero_mine_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			10,
-            14,
-            10,
-            11
+			16,
+            22,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			480,
-			1285,
-			37,
-			29
+			1856,
+			1920,
+			51,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			10,
-            14,
-            10,
-            11
+			16,
+            22,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			480,
-			1285,
-			37,
-			29
+			1856,
+			1920,
+			51,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			2525,
-			36,
-			28
+			1236,
+			1996,
+			49,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			2525,
-			36,
-			28
+			1236,
+			1996,
+			49,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			2525,
-			36,
-			28
+			1236,
+			1996,
+			49,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			584,
-			36,
-			28
+			1871,
+			1963,
+			51,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -15752,24 +15752,24 @@ return {
 	["pirateHero_mine_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			584,
-			36,
-			28
+			1871,
+			1963,
+			51,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -15777,24 +15777,24 @@ return {
 	["pirateHero_mine_0028"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			584,
-			36,
-			28
+			1871,
+			1963,
+			51,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -15802,24 +15802,24 @@ return {
 	["pirateHero_mine_0029"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			3751,
-			36,
-			28
+			1887,
+			1620,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15827,24 +15827,24 @@ return {
 	["pirateHero_mine_0030"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			3751,
-			36,
-			28
+			1887,
+			1620,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15852,24 +15852,24 @@ return {
 	["pirateHero_mine_0031"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			3751,
-			36,
-			28
+			1887,
+			1620,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15877,24 +15877,24 @@ return {
 	["pirateHero_mine_0032"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3763,
-			36,
-			28
+			1928,
+			1679,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15902,24 +15902,24 @@ return {
 	["pirateHero_mine_0033"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3763,
-			36,
-			28
+			1928,
+			1679,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15927,24 +15927,24 @@ return {
 	["pirateHero_mine_0034"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			467,
-			3763,
-			36,
-			28
+			1928,
+			1679,
+			50,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -15952,99 +15952,99 @@ return {
 	["pirateHero_mine_0035"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            25,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			439,
-			3830,
-			36,
-			28
+			1939,
+			1568,
+			49,
+			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0036"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            25,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			439,
-			3830,
-			36,
-			28
+			1939,
+			1568,
+			49,
+			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0037"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            25,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			439,
-			3830,
-			36,
-			28
+			1939,
+			1568,
+			49,
+			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0038"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3793,
-			36,
-			28
+			1846,
+			1578,
+			51,
+			39
 		},
 		alias = {},
 		textureRotated = true
@@ -16052,24 +16052,24 @@ return {
 	["pirateHero_mine_0039"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3793,
-			36,
-			28
+			1846,
+			1578,
+			51,
+			39
 		},
 		alias = {},
 		textureRotated = true
@@ -16077,24 +16077,24 @@ return {
 	["pirateHero_mine_0040"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            24,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3793,
-			36,
-			28
+			1846,
+			1578,
+			51,
+			39
 		},
 		alias = {},
 		textureRotated = true
@@ -16102,174 +16102,174 @@ return {
 	["pirateHero_mine_0041"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			469,
-			3831,
-			36,
-			28
+			1900,
+			1806,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0042"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			469,
-			3831,
-			36,
-			28
+			1900,
+			1806,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0043"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			18,
+            23,
+            16,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			469,
-			3831,
-			36,
-			28
+			1900,
+			1806,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0044"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3670,
-			36,
-			28
+			1901,
+			1848,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0045"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3670,
-			36,
-			28
+			1901,
+			1848,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0046"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            15,
-            10,
-            11
+			17,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			344,
-			3670,
-			36,
-			28
+			1901,
+			1848,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0047"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			54
+			84,
+			80
 		},
 		trim = {
-			11,
-            14,
-            10,
-            11
+			17,
+            23,
+            17,
+            17
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			480,
-			1324,
-			36,
-			29
+			1943,
+			1858,
+			50,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -16277,449 +16277,449 @@ return {
 	["pirateHero_mine_0048"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			2144,
-			36,
-			30
+			1909,
+			1910,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0049"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			397,
-			2144,
-			36,
-			30
+			1909,
+			1910,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0050"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3799,
-			36,
-			29
+			1913,
+			1952,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0051"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3799,
-			36,
-			29
+			1913,
+			1952,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0052"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			372,
-			3799,
-			36,
-			29
+			1913,
+			1952,
+			50,
+			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0053"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3593,
-			36,
-			31
+			1923,
+			1720,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0054"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3593,
-			36,
-			31
+			1923,
+			1720,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0055"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3593,
-			36,
-			31
+			1923,
+			1720,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0056"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            21,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3353,
-			36,
-			30
+			1407,
+			2003,
+			51,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0057"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            21,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3353,
-			36,
-			30
+			1407,
+			2003,
+			51,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0058"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            21,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3353,
-			36,
-			30
+			1407,
+			2003,
+			51,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0059"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            22,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3391,
-			36,
-			30
+			1900,
+			1763,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0060"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            22,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3391,
-			36,
-			30
+			1900,
+			1763,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0061"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            9
+			17,
+            22,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			479,
-			3391,
-			36,
-			30
+			1900,
+			1763,
+			50,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0062"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			410,
-			3799,
-			36,
-			29
+			1880,
+			1710,
+			51,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0063"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			410,
-			3799,
-			36,
-			29
+			1880,
+			1710,
+			51,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0064"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            10
+			17,
+            22,
+            16,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			410,
-			3799,
-			36,
-			29
+			1880,
+			1710,
+			51,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0065"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3631,
-			36,
-			31
+			1278,
+			1996,
+			49,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -16727,24 +16727,24 @@ return {
 	["pirateHero_mine_0066"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3631,
-			36,
-			31
+			1278,
+			1996,
+			49,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -16752,24 +16752,24 @@ return {
 	["pirateHero_mine_0067"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            14,
-            10,
-            8
+			18,
+            23,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3631,
-			36,
-			31
+			1278,
+			1996,
+			49,
+			40
 		},
 		alias = {},
 		textureRotated = true
@@ -16777,24 +16777,24 @@ return {
 	["pirateHero_mine_0068"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            15,
-            11,
-            10
+			17,
+            25,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3704,
-			35,
-			28
+			1913,
+			2004,
+			50,
+			38
 		},
 		alias = {},
 		textureRotated = false
@@ -16802,24 +16802,24 @@ return {
 	["pirateHero_mine_0069"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            15,
-            11,
-            10
+			17,
+            25,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3704,
-			35,
-			28
+			1913,
+			2004,
+			50,
+			38
 		},
 		alias = {},
 		textureRotated = false
@@ -16827,49 +16827,49 @@ return {
 	["pirateHero_mine_0070"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            18,
-            11,
-            10
+			17,
+            28,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			386,
-			2450,
-			35,
-			25
+			1952,
+			1763,
+			50,
+			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0071"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            18,
-            11,
-            8
+			18,
+            28,
+            17,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			3734,
-			35,
-			27
+			1939,
+			1608,
+			49,
+			35
 		},
 		alias = {},
 		textureRotated = false
@@ -16877,74 +16877,74 @@ return {
 	["pirateHero_mine_0072"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            19,
-            11,
-            10
+			17,
+            31,
+            18,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			448,
-			3793,
-			35,
-			24
+			1939,
+			1645,
+			49,
+			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0073"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			11,
-            19,
-            11,
-            10
+			17,
+            31,
+            18,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			448,
-			3793,
-			35,
-			24
+			1939,
+			1645,
+			49,
+			32
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_mine_0074"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			10,
-            23,
-            10,
-            8
+			17,
+            36,
+            16,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			1711,
-			37,
-			22
+			827,
+			1348,
+			51,
+			28
 		},
 		alias = {},
 		textureRotated = true
@@ -16952,24 +16952,24 @@ return {
 	["pirateHero_mine_0075"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			10,
-            23,
-            10,
-            8
+			17,
+            36,
+            16,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			443,
-			1711,
-			37,
-			22
+			827,
+			1348,
+			51,
+			28
 		},
 		alias = {},
 		textureRotated = true
@@ -16977,74 +16977,74 @@ return {
 	["pirateHero_mine_0076"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			8,
-            23,
-            7,
-            7
+			15,
+            36,
+            13,
+            12
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			207,
-			2476,
-			42,
-			23
+			1952,
+			1135,
+			56,
+			30
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0077"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			8,
-            23,
-            7,
-            7
+			15,
+            36,
+            13,
+            12
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			207,
-			2476,
-			42,
-			23
+			1952,
+			1135,
+			56,
+			30
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0078"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			7,
-            19,
-            7,
-            7
+			13,
+            30,
+            12,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			539,
-			43,
-			27
+			1952,
+			1074,
+			59,
+			35
 		},
 		alias = {},
 		textureRotated = true
@@ -17052,24 +17052,24 @@ return {
 	["pirateHero_mine_0079"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			7,
-            19,
-            7,
-            7
+			13,
+            30,
+            12,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			472,
-			539,
-			43,
-			27
+			1952,
+			1074,
+			59,
+			35
 		},
 		alias = {},
 		textureRotated = true
@@ -17077,74 +17077,74 @@ return {
 	["pirateHero_mine_0080"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			15,
-            18,
-            12,
-            10
+			23,
+            29,
+            20,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			306,
-			3432,
-			30,
-			25
+			1952,
+			1815,
+			41,
+			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0081"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			15,
-            18,
-            12,
-            10
+			23,
+            29,
+            20,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			306,
-			3432,
-			30,
-			25
+			1952,
+			1815,
+			41,
+			33
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0082"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			15,
-            18,
-            11,
-            8
+			23,
+            27,
+            19,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			3869,
-			31,
-			27
+			1460,
+			2003,
+			42,
+			37
 		},
 		alias = {},
 		textureRotated = true
@@ -17152,24 +17152,24 @@ return {
 	["pirateHero_mine_0083"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			15,
-            18,
-            11,
-            8
+			23,
+            27,
+            19,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			3869,
-			31,
-			27
+			1460,
+			2003,
+			42,
+			37
 		},
 		alias = {},
 		textureRotated = true
@@ -17177,24 +17177,24 @@ return {
 	["pirateHero_mine_0084"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			19,
-            16,
-            18,
-            17
+			30,
+            27,
+            28,
+            25
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			188,
-			1441,
-			20,
-			20
+			1847,
+			1512,
+			26,
+			26
 		},
 		alias = {},
 		textureRotated = false
@@ -17202,24 +17202,24 @@ return {
 	["pirateHero_mine_0085"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			19,
-            16,
-            18,
-            17
+			30,
+            27,
+            28,
+            25
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			188,
-			1441,
-			20,
-			20
+			1847,
+			1512,
+			26,
+			26
 		},
 		alias = {},
 		textureRotated = false
@@ -17227,74 +17227,74 @@ return {
 	["pirateHero_mine_0086"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			20,
-            16,
-            18,
-            23
+			30,
+            27,
+            27,
+            34
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			379,
-			2684,
-			19,
-			14
+			1854,
+			841,
+			27,
+			17
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_mine_0087"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			57,
-			53
+			84,
+			78
 		},
 		trim = {
-			20,
-            16,
-            18,
-            23
+			30,
+            27,
+            27,
+            34
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			379,
-			2684,
-			19,
-			14
+			1854,
+			841,
+			27,
+			17
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_proy_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			35,
-			35
+			52,
+			52
 		},
 		trim = {
-			0,
-            0,
-            0,
-            0
+			3,
+            3,
+            3,
+            2
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			1987,
-			35,
-			35
+			1880,
+			1661,
+			46,
+			47
 		},
 		alias = {},
 		textureRotated = false
@@ -17302,24 +17302,24 @@ return {
 	["pirateHero_proy_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			35,
-			35
+			52,
+			52
 		},
 		trim = {
-			0,
-            0,
-            0,
-            0
+			1,
+            1,
+            1,
+            1
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			474,
-			2024,
-			35,
-			35
+			1887,
+			1568,
+			50,
+			50
 		},
 		alias = {},
 		textureRotated = false
@@ -17327,74 +17327,74 @@ return {
 	["pirateHero_smoke_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			42,
-            34,
-            151,
-            60
+			62,
+            50,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			444,
-			2646,
-			63,
-			69
+			1636,
+			1648,
+			89,
+			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			42,
-            34,
-            151,
-            60
+			62,
+            50,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			444,
-			2646,
-			63,
-			69
+			1636,
+			1648,
+			89,
+			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			39,
-            31,
-            155,
-            64
+			58,
+            47,
+            227,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			380,
-			2912,
-			62,
-			68
+			1323,
+			1807,
+			91,
+			95
 		},
 		alias = {},
 		textureRotated = true
@@ -17402,24 +17402,24 @@ return {
 	["pirateHero_smoke_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			39,
-            31,
-            155,
-            64
+			58,
+            47,
+            227,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			380,
-			2912,
-			62,
-			68
+			1323,
+			1807,
+			91,
+			95
 		},
 		alias = {},
 		textureRotated = true
@@ -17427,74 +17427,74 @@ return {
 	["pirateHero_smoke_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			35,
-            33,
-            149,
-            61
+			52,
+            50,
+            220,
+            90
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2386,
-			72,
-			69
+			1538,
+			1435,
+			104,
+			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			35,
-            33,
-            149,
-            61
+			52,
+            50,
+            220,
+            90
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			429,
-			2386,
-			72,
-			69
+			1538,
+			1435,
+			104,
+			100
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			31,
-            31,
-            150,
-            65
+			47,
+            46,
+            222,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			320,
-			2083,
-			75,
-			67
+			1429,
+			1430,
+			107,
+			98
 		},
 		alias = {},
 		textureRotated = false
@@ -17502,24 +17502,24 @@ return {
 	["pirateHero_smoke_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			31,
-            31,
-            150,
-            65
+			47,
+            46,
+            222,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			320,
-			2083,
-			75,
-			67
+			1429,
+			1430,
+			107,
+			98
 		},
 		alias = {},
 		textureRotated = false
@@ -17527,24 +17527,24 @@ return {
 	["pirateHero_smoke_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			36,
-            34,
-            151,
-            60
+			53,
+            50,
+            224,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			385,
-			3050,
-			69,
-			69
+			1535,
+			1638,
+			99,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17552,24 +17552,24 @@ return {
 	["pirateHero_smoke_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			36,
-            34,
-            151,
-            60
+			53,
+            50,
+            224,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			385,
-			3050,
-			69,
-			69
+			1535,
+			1638,
+			99,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17577,74 +17577,74 @@ return {
 	["pirateHero_smoke_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			33,
-            31,
-            154,
-            64
+			49,
+            46,
+            226,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			3235,
-			69,
-			68
+			1053,
+			1704,
+			101,
+			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			33,
-            31,
-            154,
-            64
+			49,
+            46,
+            226,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			383,
-			3235,
-			69,
-			68
+			1053,
+			1704,
+			101,
+			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			42,
-            34,
-            151,
-            60
+			62,
+            50,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			379,
-			2700,
-			63,
-			69
+			1157,
+			1890,
+			89,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17652,24 +17652,24 @@ return {
 	["pirateHero_smoke_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			42,
-            34,
-            151,
-            60
+			62,
+            50,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			379,
-			2700,
-			63,
-			69
+			1157,
+			1890,
+			89,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17677,174 +17677,174 @@ return {
 	["pirateHero_smoke_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			38,
-            32,
-            155,
-            64
+			57,
+            47,
+            227,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			444,
-			2717,
-			63,
-			67
+			1310,
+			1900,
+			92,
+			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			38,
-            32,
-            155,
-            64
+			57,
+            47,
+            227,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			444,
-			2717,
-			63,
-			67
+			1310,
+			1900,
+			92,
+			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["pirateHero_smoke_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			35,
-            33,
-            149,
-            61
+			52,
+            50,
+            220,
+            90
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			385,
-			2976,
-			72,
-			69
+			1640,
+			1446,
+			104,
+			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			35,
-            33,
-            149,
-            61
+			52,
+            50,
+            220,
+            90
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			385,
-			2976,
-			72,
-			69
+			1640,
+			1446,
+			104,
+			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			31,
-            31,
-            150,
-            65
+			47,
+            46,
+            222,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2903,
-			75,
-			67
+			1429,
+			1530,
+			107,
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			31,
-            31,
-            150,
-            65
+			47,
+            46,
+            222,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			311,
-			2903,
-			75,
-			67
+			1429,
+			1530,
+			107,
+			98
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["pirateHero_smoke_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			36,
-            34,
-            151,
-            60
+			53,
+            50,
+            224,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			371,
-			3164,
-			69,
-			69
+			1157,
+			1789,
+			99,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17852,24 +17852,24 @@ return {
 	["pirateHero_smoke_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			36,
-            34,
-            151,
-            60
+			53,
+            50,
+            224,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			371,
-			3164,
-			69,
-			69
+			1157,
+			1789,
+			99,
+			99
 		},
 		alias = {},
 		textureRotated = false
@@ -17877,24 +17877,24 @@ return {
 	["pirateHero_smoke_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			33,
-            31,
-            154,
-            64
+			49,
+            46,
+            226,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			3349,
-			69,
-			68
+			1640,
+			1548,
+			101,
+			98
 		},
 		alias = {},
 		textureRotated = false
@@ -17902,24 +17902,24 @@ return {
 	["pirateHero_smoke_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			33,
-            31,
-            154,
-            64
+			49,
+            46,
+            226,
+            96
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			349,
-			3349,
-			69,
-			68
+			1640,
+			1548,
+			101,
+			98
 		},
 		alias = {},
 		textureRotated = false
@@ -17927,24 +17927,24 @@ return {
 	["pirateHero_smoke_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			34,
-            32,
-            151,
-            60
+			50,
+            48,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3023,
-			71,
-			71
+			1432,
+			1630,
+			101,
+			101
 		},
 		alias = {},
 		textureRotated = false
@@ -17952,24 +17952,24 @@ return {
 	["pirateHero_smoke_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			34,
-            32,
-            151,
-            60
+			50,
+            48,
+            225,
+            91
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			312,
-			3023,
-			71,
-			71
+			1432,
+			1630,
+			101,
+			101
 		},
 		alias = {},
 		textureRotated = false
@@ -17977,24 +17977,24 @@ return {
 	["pirateHero_smoke_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			256,
-			163
+			376,
+			240
 		},
 		trim = {
-			44,
-            35,
-            155,
-            64
+			64,
+            52,
+            227,
+            98
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			445,
-			2457,
-			57,
-			64
+			1407,
+			1916,
+			85,
+			90
 		},
 		alias = {},
 		textureRotated = true
@@ -18002,174 +18002,174 @@ return {
 	["Stage17_boat_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            29,
-            119,
-            42
+			43,
+            43,
+            177,
+            64
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1537,
-			111,
-			125
+			404,
+			1496,
+			160,
+			181
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            29,
-            119,
-            42
+			43,
+            43,
+            177,
+            64
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			348,
-			1537,
-			111,
-			125
+			404,
+			1496,
+			160,
+			181
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            14,
-            101,
-            35
+			43,
+            23,
+            149,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			217,
-			1493,
-			129,
-			147
+			669,
+			788,
+			188,
+			211
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_boat_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            14,
-            101,
-            35
+			43,
+            23,
+            149,
+            54
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			217,
-			1493,
-			129,
-			147
+			669,
+			788,
+			188,
+			211
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_boat_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			23,
-            14,
-            85,
-            27
+			36,
+            22,
+            126,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			1218,
-			151,
-			155
+			1540,
+			532,
+			218,
+			224
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_boat_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			23,
-            14,
-            85,
-            27
+			36,
+            22,
+            126,
+            42
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			222,
-			1218,
-			151,
-			155
+			1540,
+			532,
+			218,
+			224
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_boat_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			19,
-            12,
-            74,
-            23
+			31,
+            18,
+            111,
+            36
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			220,
-			987,
-			166,
-			161
+			1300,
+			458,
+			238,
+			234
 		},
 		alias = {},
 		textureRotated = false
@@ -18177,24 +18177,24 @@ return {
 	["Stage17_boat_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			19,
-            12,
-            74,
-            23
+			31,
+            18,
+            111,
+            36
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			220,
-			987,
-			166,
-			161
+			1300,
+			458,
+			238,
+			234
 		},
 		alias = {},
 		textureRotated = false
@@ -18202,24 +18202,24 @@ return {
 	["Stage17_boat_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			15,
-            37,
-            56,
-            20
+			25,
+            55,
+            84,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			237,
-			243,
-			188,
-			139
+			417,
+			987,
+			271,
+			201
 		},
 		alias = {},
 		textureRotated = false
@@ -18227,24 +18227,24 @@ return {
 	["Stage17_boat_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			15,
-            37,
-            56,
-            20
+			25,
+            55,
+            84,
+            32
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			237,
-			243,
-			188,
-			139
+			417,
+			987,
+			271,
+			201
 		},
 		alias = {},
 		textureRotated = false
@@ -18252,74 +18252,74 @@ return {
 	["Stage17_boat_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			12,
-            33,
-            44,
-            18
+			21,
+            52,
+            65,
+            27
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			1463,
-			203,
-			145
+			1491,
+			294,
+			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			12,
-            33,
-            44,
-            18
+			21,
+            52,
+            65,
+            27
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			1463,
-			203,
-			145
+			1491,
+			294,
+			209
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			11,
-            30,
-            33,
-            13
+			18,
+            47,
+            49,
+            20
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			686,
 			1,
-			559,
-			215,
-			153
+			313,
+			221
 		},
 		alias = {},
 		textureRotated = false
@@ -18327,24 +18327,24 @@ return {
 	["Stage17_boat_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			11,
-            30,
-            33,
-            13
+			18,
+            47,
+            49,
+            20
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			686,
 			1,
-			559,
-			215,
-			153
+			313,
+			221
 		},
 		alias = {},
 		textureRotated = false
@@ -18352,24 +18352,24 @@ return {
 	["Stage17_boat_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			10,
-            26,
-            22,
-            12
+			15,
+            41,
+            33,
+            20
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			399,
-			227,
-			158
+			578,
+			332,
+			227
 		},
 		alias = {},
 		textureRotated = false
@@ -18377,24 +18377,24 @@ return {
 	["Stage17_boat_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			10,
-            26,
-            22,
-            12
+			15,
+            41,
+            33,
+            20
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			399,
-			227,
-			158
+			578,
+			332,
+			227
 		},
 		alias = {},
 		textureRotated = false
@@ -18402,24 +18402,24 @@ return {
 	["Stage17_boat_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			8,
-            23,
-            18,
-            12
+			14,
+            36,
+            28,
+            21
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			241,
+			346,
 			1,
-			233,
-			161
+			338,
+			231
 		},
 		alias = {},
 		textureRotated = false
@@ -18427,24 +18427,24 @@ return {
 	["Stage17_boat_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			8,
-            23,
-            18,
-            12
+			14,
+            36,
+            28,
+            21
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			241,
+			346,
 			1,
-			233,
-			161
+			338,
+			231
 		},
 		alias = {},
 		textureRotated = false
@@ -18452,24 +18452,24 @@ return {
 	["Stage17_boat_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			7,
-            18,
-            18,
-            13
+			13,
+            29,
+            28,
+            19
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			232,
-			234,
-			165
+			336,
+			339,
+			240
 		},
 		alias = {},
 		textureRotated = false
@@ -18477,24 +18477,24 @@ return {
 	["Stage17_boat_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			7,
-            18,
-            18,
-            13
+			13,
+            29,
+            28,
+            19
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			232,
-			234,
-			165
+			336,
+			339,
+			240
 		},
 		alias = {},
 		textureRotated = false
@@ -18502,124 +18502,124 @@ return {
 	["Stage17_boat_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            16,
-            18,
-            29
+			43,
+            26,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1001,
 			1,
-			1249,
-			212,
-			151
+			309,
+			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            16,
-            18,
-            29
+			43,
+            26,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
+			1001,
 			1,
-			1249,
-			212,
-			151
+			309,
+			218
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            14,
-            18,
-            29
+			43,
+            22,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			1035,
-			212,
-			153
+			1034,
+			309,
+			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            14,
-            18,
-            29
+			43,
+            22,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			1035,
-			212,
-			153
+			1034,
+			309,
+			222
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_boat_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            11,
-            18,
-            29
+			43,
+            19,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
-			714,
-			212,
-			156
+			807,
+			309,
+			225
 		},
 		alias = {},
 		textureRotated = false
@@ -18627,24 +18627,24 @@ return {
 	["Stage17_boat_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			259,
-			196
+			380,
+			288
 		},
 		trim = {
-			29,
-            90,
-            18,
-            29
+			43,
+            134,
+            28,
+            44
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			241,
-			164,
-			212,
-			77
+			697,
+			224,
+			309,
+			110
 		},
 		alias = {},
 		textureRotated = false
@@ -18652,24 +18652,24 @@ return {
 	["Stage17_boat_top_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			262,
-			248
+			384,
+			364
 		},
 		trim = {
-			5,
+			11,
             0,
-            19,
-            19
+            30,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
 			1,
 			1,
-			238,
-			229
+			343,
+			333
 		},
 		alias = {},
 		textureRotated = false
@@ -18677,24 +18677,24 @@ return {
 	["Stage17_boat_top_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			262,
-			248
+			384,
+			364
 		},
 		trim = {
-			145,
-            116,
-            16,
-            19
+			215,
+            170,
+            27,
+            31
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			798,
-			101,
-			113
+			1528,
+			860,
+			142,
+			163
 		},
 		alias = {},
 		textureRotated = false
@@ -18702,199 +18702,199 @@ return {
 	["Stage17_lighthouse"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			74,
-			112
+			108,
+			164
 		},
 		trim = {
-			3,
+			5,
             0,
-            1,
+            5,
             0
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			390,
-			915,
-			70,
-			112
+			1195,
+			692,
+			98,
+			164
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			31,
-            0,
-            7,
-            11
+			46,
+            1,
+            11,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3372,
-			85,
-			109
+			1095,
+			1256,
+			123,
+			157
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			31,
-            0,
-            7,
-            11
+			46,
+            1,
+            11,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3372,
-			85,
-			109
+			1095,
+			1256,
+			123,
+			157
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			31,
-            0,
-            7,
-            11
+			46,
+            1,
+            11,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			195,
-			3372,
-			85,
-			109
+			1095,
+			1256,
+			123,
+			157
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			27,
-            0,
-            8,
-            10
+			42,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			708,
-			88,
-			110
+			730,
+			1187,
+			126,
+			159
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			27,
-            0,
-            8,
-            10
+			42,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			708,
-			88,
-			110
+			730,
+			1187,
+			126,
+			159
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			27,
-            0,
-            8,
-            10
+			42,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			399,
-			708,
-			88,
-			110
+			730,
+			1187,
+			126,
+			159
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			33,
-            0,
-            8,
-            10
+			50,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			427,
-			343,
-			82,
-			110
+			1868,
+			637,
+			118,
+			159
 		},
 		alias = {},
 		textureRotated = false
@@ -18902,24 +18902,24 @@ return {
 	["Stage17_waterFall_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			33,
-            0,
-            8,
-            10
+			50,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			427,
-			343,
-			82,
-			110
+			1868,
+			637,
+			118,
+			159
 		},
 		alias = {},
 		textureRotated = false
@@ -18927,24 +18927,24 @@ return {
 	["Stage17_waterFall_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			33,
-            0,
-            8,
-            10
+			50,
+            1,
+            12,
+            16
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			427,
-			343,
-			82,
-			110
+			1868,
+			637,
+			118,
+			159
 		},
 		alias = {},
 		textureRotated = false
@@ -18952,24 +18952,24 @@ return {
 	["Stage17_waterFall_waves_0001"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            72,
-            76,
-            7
+			19,
+            106,
+            112,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1791,
-			36,
-			41
+			642,
+			464,
+			49,
+			57
 		},
 		alias = {},
 		textureRotated = false
@@ -18977,24 +18977,24 @@ return {
 	["Stage17_waterFall_waves_0002"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            72,
-            76,
-            7
+			19,
+            106,
+            112,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1791,
-			36,
-			41
+			642,
+			464,
+			49,
+			57
 		},
 		alias = {},
 		textureRotated = false
@@ -19002,24 +19002,24 @@ return {
 	["Stage17_waterFall_waves_0003"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            72,
-            76,
-            7
+			19,
+            106,
+            112,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			473,
-			1791,
-			36,
-			41
+			642,
+			464,
+			49,
+			57
 		},
 		alias = {},
 		textureRotated = false
@@ -19027,24 +19027,24 @@ return {
 	["Stage17_waterFall_waves_0004"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            78,
-            82,
-            9
+			17,
+            114,
+            121,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3669,
-			31,
-			33
+			1720,
+			1855,
+			42,
+			48
 		},
 		alias = {},
 		textureRotated = false
@@ -19052,24 +19052,24 @@ return {
 	["Stage17_waterFall_waves_0005"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            78,
-            82,
-            9
+			17,
+            114,
+            121,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3669,
-			31,
-			33
+			1720,
+			1855,
+			42,
+			48
 		},
 		alias = {},
 		textureRotated = false
@@ -19077,24 +19077,24 @@ return {
 	["Stage17_waterFall_waves_0006"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            78,
-            82,
-            9
+			17,
+            114,
+            121,
+            14
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			478,
-			3669,
-			31,
-			33
+			1720,
+			1855,
+			42,
+			48
 		},
 		alias = {},
 		textureRotated = false
@@ -19102,249 +19102,249 @@ return {
 	["Stage17_waterFall_waves_0007"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			7,
-            79,
-            88,
-            10
+			13,
+            116,
+            130,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			446,
-			3869,
-			28,
-			31
+			477,
+			1933,
+			37,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_waterFall_waves_0008"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			7,
-            79,
-            88,
-            10
+			13,
+            116,
+            130,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			446,
-			3869,
-			28,
-			31
+			477,
+			1933,
+			37,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_waterFall_waves_0009"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			7,
-            79,
-            88,
-            10
+			13,
+            116,
+            130,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			446,
-			3869,
-			28,
-			31
+			477,
+			1933,
+			37,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_waterFall_waves_0010"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            80,
-            94,
-            7
+			19,
+            118,
+            139,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			140,
-			18,
-			33
+			858,
+			978,
+			22,
+			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0011"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            80,
-            94,
-            7
+			19,
+            118,
+            139,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			140,
-			18,
-			33
+			858,
+			978,
+			22,
+			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0012"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			11,
-            80,
-            94,
-            7
+			19,
+            118,
+            139,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			476,
-			140,
-			18,
-			33
+			858,
+			978,
+			22,
+			45
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0013"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            85,
-            100,
-            6
+			15,
+            125,
+            148,
+            10
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			259,
-			3357,
-			13,
-			29
+			1854,
+			798,
+			17,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0014"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            85,
-            100,
-            6
+			15,
+            125,
+            148,
+            10
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			259,
-			3357,
-			13,
-			29
+			1854,
+			798,
+			17,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0015"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			10,
-            85,
-            100,
-            6
+			15,
+            125,
+            148,
+            10
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			259,
-			3357,
-			13,
-			29
+			1854,
+			798,
+			17,
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0016"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			8,
-            74,
-            71,
-            7
+			14,
+            109,
+            106,
+            11
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			214,
-			1822,
-			44,
-			39
+			335,
+			749,
+			60,
+			56
 		},
 		alias = {},
 		textureRotated = false
@@ -19352,24 +19352,24 @@ return {
 	["Stage17_waterFall_waves_0017"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			8,
-            74,
-            71,
-            7
+			14,
+            109,
+            106,
+            11
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			214,
-			1822,
-			44,
-			39
+			335,
+			749,
+			60,
+			56
 		},
 		alias = {},
 		textureRotated = false
@@ -19377,24 +19377,24 @@ return {
 	["Stage17_waterFall_waves_0018"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			8,
-            74,
-            71,
-            7
+			14,
+            109,
+            106,
+            11
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			214,
-			1822,
-			44,
-			39
+			335,
+			749,
+			60,
+			56
 		},
 		alias = {},
 		textureRotated = false
@@ -19402,226 +19402,226 @@ return {
 	["Stage17_waterFall_waves_0019"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			6,
-            76,
-            78,
-            10
+			10,
+            114,
+            115,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			1537,
-			39,
-			34
+			642,
+			338,
+			55,
+			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0020"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			6,
-            76,
-            78,
-            10
+			10,
+            114,
+            115,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			1537,
-			39,
-			34
+			642,
+			338,
+			55,
+			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0021"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			6,
-            76,
-            78,
-            10
+			10,
+            114,
+            115,
+            15
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			475,
-			1537,
-			39,
-			34
+			642,
+			338,
+			55,
+			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0022"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			18,
-            77,
-            85,
-            11
+			29,
+            114,
+            127,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			154,
-			1441,
-			20,
-			32
+			1760,
+			797,
+			24,
+			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0023"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			18,
-            77,
-            85,
-            11
+			29,
+            114,
+            127,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			154,
-			1441,
-			20,
-			32
+			1760,
+			797,
+			24,
+			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0024"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			18,
-            77,
-            85,
-            11
+			29,
+            114,
+            127,
+            18
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			154,
-			1441,
-			20,
-			32
+			1760,
+			797,
+			24,
+			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage17_waterFall_waves_0025"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			14,
-            80,
-            92,
-            7
+			23,
+            118,
+            136,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			492,
-			3169,
-			17,
-			33
+			827,
+			1401,
+			21,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_waterFall_waves_0026"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			14,
-            80,
-            92,
-            7
+			23,
+            118,
+            136,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			492,
-			3169,
-			17,
-			33
+			827,
+			1401,
+			21,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage17_waterFall_waves_0027"] = {
 		a_name = "go_stage217.dds",
 		size = {
-			123,
-			120
+			180,
+			176
 		},
 		trim = {
-			14,
-            80,
-            92,
-            7
+			23,
+            118,
+            136,
+            13
 		},
 		a_size = {
-			510,
-			3935
+			1989,
+			2046
 		},
 		f_quad = {
-			492,
-			3169,
-			17,
-			33
+			827,
+			1401,
+			21,
+			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	}
 }
