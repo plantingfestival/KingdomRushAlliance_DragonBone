@@ -3896,14 +3896,14 @@ tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.damage_min_levels = {
-	250,
 	500,
-	1000
+	1000,
+	2000
 }
 tt.bullet.damage_max_levels = {
-	750,
-	1500,
-	2000
+	1250,
+	2500,
+	4500
 }
 tt.bullet.damage_radius = 38.4
 tt.bullet.damage_rect = r(-40, -2, 80, 50)
@@ -4306,10 +4306,13 @@ tt.tower.terrain_style = nil
 tt.info.portrait = "portraits_towers_0231"
 tt.info.fn = kr2_scripts.tower_neptune.get_info
 tt.ui.click_rect = r(-40, -10, 80, 90)
-tt.powers.ray = E:clone_c("power")
-tt.powers.ray.level = 1
-tt.powers.ray.max_level = 3
-tt.powers.ray.price_inc = 500
+tt.powers.ray_neptune = E:clone_c("power")
+tt.powers.ray_neptune.price = {
+	500,
+	500,
+	500
+}
+tt.powers.ray_neptune.max_level = 3
 tt.main_script.insert = kr2_scripts.tower_neptune.insert
 tt.main_script.update = kr2_scripts.tower_neptune.update
 tt.render.sprites[1].name = "neptuno_0002"
@@ -4364,7 +4367,7 @@ tt.sound_events.insert = "GUITowerBuilding"
 tt.sound_events.mute_on_level_insert = true
 tt.attacks.list[1] = E:clone_c("bullet_attack")
 tt.attacks.list[1].bullet = "ray_neptune"
-tt.attacks.list[1].cooldown = 30
+tt.attacks.list[1].cooldown = 15
 tt.attacks.list[1].bullet_start_offset = v(17, 105)
 tt = E:register_t("soldier_skeleton", "soldier_militia")
 

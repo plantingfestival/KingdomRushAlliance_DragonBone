@@ -4138,7 +4138,7 @@ end
 scripts.tower_neptune = {}
 
 function scripts.tower_neptune.get_info(this)
-	local level = this.powers.ray.level
+	local level = this.powers.ray_neptune.level
 	local b = E:get_template(this.attacks.list[1].bullet)
 	local min, max = b.bullet.damage_min_levels[level], b.bullet.damage_max_levels[level]
 	local range = 2000
@@ -4158,7 +4158,7 @@ function scripts.tower_neptune.insert(this, store, script)
 end
 
 function scripts.tower_neptune.update(this, store, script)
-	local pow = this.powers.ray
+	local pow = this.powers.ray_neptune
 	local a = this.attacks.list[1]
 
 	a.ts = store.tick_ts - a.cooldown + 0.03333333333333333

@@ -2034,7 +2034,7 @@ tt.powers.clobber.price = {
 	200,
 	200
 }
-tt.powers.clobber.attack_idx = 3
+tt.powers.clobber.attack_idx = 1
 tt.powers.clobber.stun_durations = {
 	2,
 	3,
@@ -2108,7 +2108,7 @@ tt.sound_events.insert = "TowerEntwoodCocoThrow"
 tt.sound_events.hit = "TowerEntwoodCocoExplosion"
 tt = E:register_t("rock_firey_nut", "rock_entwood")
 tt.bullet.damage_max = 0
-tt.bullet.damage_max_inc = 400
+tt.bullet.damage_max_inc = 500
 tt.bullet.damage_min = 0
 tt.bullet.damage_min_inc = tt.bullet.damage_max_inc
 tt.bullet.damage_radius = 180

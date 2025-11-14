@@ -321,14 +321,48 @@ return {
 	holder_neptune = {
 		{
 			{
-				check = "special_icons_0047",
+				check = "main_icons_0019",
 				action = "tw_upgrade",
-				action_arg = "tower_neptune_holder",
+				action_arg = "tower_neptune",
+				type = "neptune",
 				halo = "glow_ico_main",
-				image = "main_icons_0039",
+				image = "main_icons_0015",
 				place = 12,
-				tt_title = _("TOWER_BROKEN_NAME"),
-				tt_desc = _("TOWER_BROKEN_DESCRIPTION")
+				tt_title = _("SPECIAL_NEPTUNE_BROKEN_TOWER_FIX_NAME"),
+				tt_desc = _("SPECIAL_NEPTUNE_BROKEN_TOWER_FIX_DESCRIPTION")
+			}
+		}
+	},
+	neptune = {
+		{
+			{
+				check = "special_icons_0020",
+				action_arg = "ray_neptune",
+				action = "upgrade_power",
+				halo = "glow_ico_special",
+				image = "special_icons_0202",
+				place = 6,
+				tt_list = {
+					{
+						tt_title = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_NAME"),
+						tt_desc = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_DESCRIPTION_1")
+					},
+					{
+						tt_title = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_NAME"),
+						tt_desc = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_DESCRIPTION_1")
+					},
+					{
+						tt_title = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_NAME"),
+						tt_desc = _("SPECIAL_NEPTUNE_TOWER_UPGRADE_DESCRIPTION_1")
+					}
+				}
+			},
+			{
+				check = "sub_icons_0002",
+				action = "tw_point",
+				halo = "ingame_ui_special_icons_bg_hover",
+				image = "sub_icons_0002",
+				place = 8
 			}
 		}
 	},

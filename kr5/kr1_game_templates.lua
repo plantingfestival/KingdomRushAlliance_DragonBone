@@ -1154,16 +1154,16 @@ tt.hero.level_stats.armor = {
 	0.6
 }
 tt.hero.level_stats.hp_max = {
-	380,
 	400,
-	420,
-	440,
+	430,
 	460,
-	480,
-	510,
-	540,
-	570,
-	620
+	490,
+	520,
+	550,
+	580,
+	610,
+	640,
+	680
 }
 tt.hero.level_stats.regen_health_normal = {
 	95,
@@ -1245,9 +1245,9 @@ tt.hero.skills.rain.xp_gain = {
 tt.hero.skills.rain.key = "RAIN"
 tt.hero.skills.waterball = CC("hero_skill")
 tt.hero.skills.waterball.hr_cost = {
-	2,
-	2,
-	2
+	1,
+	1,
+	1
 }
 tt.hero.skills.waterball.hr_order = 2
 tt.hero.skills.waterball.hr_available = true
