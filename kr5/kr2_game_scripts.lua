@@ -10330,9 +10330,12 @@ end
 scripts.eb_leviathan = {}
 
 function scripts.eb_leviathan.get_info(this)
+	local b = E:get_template("ray_leviathan")
+	local min, max = b.bullet.damage_min, b.bullet.damage_max
+
 	return {
-		damage_min = 500,
-		damage_max = 800,
+		damage_min = min,
+		damage_max = max,
 		type = STATS_TYPE_ENEMY,
 		hp = this.health.hp,
 		hp_max = this.health.hp_max,
@@ -10363,10 +10366,11 @@ end
 function scripts.eb_leviathan.update(this, store, script)
 	local sid = 2
 	local a_t = this.attacks.list[1]
+	local attack = this.ranged.attacks[1]
 	local tentacles = {}
 	local tentacle_seq_idx = 1
 	local tentacle_seq = this.tentacle_seq
-	local tentacle_pos = this.tentacle_pos
+	local tentacle_pos = this.tentacle_pos	
 
 	local function do_death()
 		S:queue(this.sound_events.death)
@@ -10534,6 +10538,8 @@ function scripts.eb_leviathan.update(this, store, script)
 	this.vis.bans = this.vis.bans_in_battlefield
 	a_t.ts = store.tick_ts
 
+	local a = this.ranged.attacks[1]
+
 	::label_249_0::
 
 	while true do
@@ -10592,13 +10598,15 @@ function scripts.eb_leviathan.update(this, store, script)
 				a_t.ts = store.tick_ts
 			end
 
+			local ranged = U.find_nearest_soldier(store.entities, this.pos, a.min_range, a.max_range,a.vis_flags, a.vis_bans)
+				
+			if ranged and SU.can_range_soldier(store, this, ranged) then
+					SU.y_enemy_range_attacks(store, this, ranged)
+				end
+
 			if not SU.y_enemy_walk_step(store, this) then
 				return
 			end
-		end
-
-		if false then
-			coroutine.yield()
 		end
 	end
 end
@@ -10729,6 +10737,7 @@ function scripts.eb_dracula.update(this, store, script)
 
 				this.vis.bans = bor(this.vis.bans, F_ALL)
 				this.ui.can_click = nil
+				this.health.hp_max = hp_max*2
 				this.health.armor = 1
 				this.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
 				this.health.magic_armor = 0

@@ -4752,9 +4752,9 @@ E:add_comps(tt, "melee", "timed_attacks")
 
 image_y = 74
 anchor_y = 24 / image_y
-tt.health.armor = 0.7
+tt.health.armor = 0.8
 tt.health.dead_lifetime = 20
-tt.health.hp_max = 350
+tt.health.hp_max = 400
 tt.health_bar.offset = v(0, 34)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.hero.level = 10
@@ -4768,7 +4768,7 @@ tt.main_script.update = kr2_scripts.hero_vampiress.update
 tt.motion.max_speed = 1.7 * FPS
 tt.motion.max_speed_bat = 3.7 * FPS
 tt.regen.cooldown = 1
-tt.regen.health = 20
+tt.regen.health = 40
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "hero_vampiress"
@@ -4810,17 +4810,17 @@ tt.melee.range = 83.2
 tt.timed_attacks.list[1] = E:clone_c("area_attack")
 tt.timed_attacks.list[1].animation = "slayer"
 tt.timed_attacks.list[1].cooldown = 10
-tt.timed_attacks.list[1].damage_max = 240
-tt.timed_attacks.list[1].damage_min = 160
+tt.timed_attacks.list[1].damage_max = 480
+tt.timed_attacks.list[1].damage_min = 320
 tt.timed_attacks.list[1].trigger_radius = 50
-tt.timed_attacks.list[1].damage_radius = 65
+tt.timed_attacks.list[1].damage_radius = 100
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].hit_time = fts(10)
 tt.timed_attacks.list[1].sound = "HWVampiressAreaAttack"
 tt.timed_attacks.list[1].extra_damage_templates = {
 	"enemy_elvira"
 }
-tt.timed_attacks.list[1].extra_damage_factor = 10
+tt.timed_attacks.list[1].extra_damage_factor = 5
 tt = E:register_t("fx_vampiress_transform", "fx")
 tt.render.sprites[1].name = "fx_vampiress_transform"
 tt.render.sprites[1].anchor.y = 0.32432432432432434
@@ -12116,7 +12116,7 @@ tt.attacks.list[1].cooldowns.on_battlefield = {
 	3,
 	3,
 	3,
-	3
+	1
 }
 tt.attacks.list[1].cooldown = nil
 tt.attacks.list[1].entity = "umbra_portal"
@@ -14480,17 +14480,42 @@ tt.render.sprites[1].name = "fx_leviathan_bubbles"
 tt.render.sprites[1].z = Z_DECALS + 2
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].anchor.y = 0.15254237288135594
+tt = E:register_t("ray_leviathan", "bullet")
+tt.image_width = 300
+tt.main_script.update = kr2_scripts.ray_enemy.update
+tt.render.sprites[1].name = "ray_neptune"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].anchor = v(0, 0.5)
+tt.bullet.damage_type = DAMAGE_PHYSICAL
+tt.bullet.damage_min = 500
+tt.bullet.damage_max = 800
+tt.bullet.max_track_distance = 500
+tt.bullet.hit_time = fts(5)
+tt.bullet.damage_radius = 38.4
+tt.bullet.damage_rect = r(-40, -2, 80, 50)
+tt.bullet.hit_fx = "fx_ray_neptune_explosion"
+tt.sound_events.insert = "PolymorphSound"
 tt = E:register_t("eb_leviathan", "boss")
 
-E:add_comps(tt, "attacks")
+E:add_comps(tt, "melee", "attacks", "ranged", "auras")
 
 anchor_y = 0.15254237288135594
 image_y = 118
 tt.attacks.list[1] = E:clone_c("custom_attack")
-tt.attacks.list[1].cooldown = 12
+tt.attacks.list[1].cooldown = 30
+tt.ranged.attacks[1].animation = "idle"
+tt.ranged.attacks[1].bullet = "ray_leviathan"
+tt.ranged.attacks[1].bullet_start_offset = {
+	v(27, 70)
+}
+tt.ranged.attacks[1].cooldown = 1
+tt.ranged.attacks[1].hold_advance = true
+tt.ranged.attacks[1].max_range = 375
+tt.ranged.attacks[1].min_range = 40
+tt.ranged.attacks[1].shoot_time = fts(18)
+tt.ranged.attacks[1].shared_cooldown = true
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
-tt.enemy.melee_slot = v(50, 0)
 tt.health.dead_lifetime = fts(200)
 tt.health.hp_max = 120000
 tt.health_bar.offset = v(0, ady(120))
@@ -14500,17 +14525,18 @@ tt.info.portrait = "bottom_info_image_enemies_0122"
 tt.info.enc_icon = 48
 tt.main_script.insert = kr2_scripts.eb_leviathan.insert
 tt.main_script.update = kr2_scripts.eb_leviathan.update
-tt.motion.max_speed = 0.384 * FPS
+tt.motion.max_speed = 0.284 * FPS
 tt.render.sprites[1] = E:clone_c("sprite")
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].prefix = "eb_leviathan_water"
+tt.render.sprites[1].scale = vv(1.3)
 tt.render.sprites[1].name = "spawn"
 tt.render.sprites[1].loop_forced = true
 tt.render.sprites[1].hidden = true
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].anchor.y = anchor_y
 tt.render.sprites[2].prefix = "eb_leviathan"
-tt.render.sprites[2].scale = vv(1.5)
+tt.render.sprites[2].scale = vv(1.3)
 tt.render.sprites[2].name = "spawn"
 tt.ui.click_rect = r(-50, 0, 100, 80)
 tt.unit.blood_color = BLOOD_GREEN
@@ -14524,6 +14550,7 @@ tt.unit.hit_rect = r(-58, 0, 116, 78)
 tt.vis.bans = F_ALL
 tt.vis.bans_in_battlefield = bor(F_STUN, F_BLOOD, F_DRILL, F_LETHAL, F_SKELETON, F_POLYMORPH, F_TELEPORT, F_BLOCK)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
+tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.spawn = "RTBossSpawn"
 tt.sound_events.death = "RTBossDeath"
 tt = E:register_t("points_spawner")

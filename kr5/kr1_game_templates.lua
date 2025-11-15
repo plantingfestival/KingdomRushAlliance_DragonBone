@@ -6082,19 +6082,20 @@ anchor_x, anchor_y = 0.5, 0.25
 image_x, image_y = 30, 24
 tt.enemy.gold = 1
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = 10
-tt.health.magic_armor = 0.5
+tt.health.hp_max = 4
+tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 16)
 tt.info.i18n_key = "ENEMY_SPIDERTINY"
 tt.info.portrait = "bottom_info_image_enemies_0047"
-tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 5
+tt.melee.attacks[1].cooldown = 4
+tt.melee.attacks[1].damage_max = 1
 tt.melee.attacks[1].damage_min = 1
 tt.melee.attacks[1].hit_time = fts(12)
 tt.melee.attacks[1].sound_hit = "SpiderAttack"
 tt.motion.max_speed = 2 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_spider_tiny"
+tt.render.sprites[1].scale = vv(0.9)
 tt.sound_events.death = "DeathEplosionShortA"
 tt.unit.blood_color = BLOOD_GREEN
 tt.unit.explode_fx = "fx_spider_explode"
@@ -6159,7 +6160,7 @@ tt.sound_events.death = "DeathEplosion"
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[1].bullet = "enemy_spider_egg"
 tt.timed_attacks.list[1].max_cooldown = 10
-tt.timed_attacks.list[1].max_count = 3
+tt.timed_attacks.list[1].max_count = 8
 tt.timed_attacks.list[1].min_cooldown = 5
 tt.ui.click_rect = r(-20, -5, 40, 30)
 tt.unit.blood_color = BLOOD_GREEN
@@ -8295,7 +8296,7 @@ tt.demon.unit_size = UNIT_SIZE_LARGE
 tt.demon.info_portrait = IS_PHONE_OR_TABLET and "portraits_sc_0056" or "info_portraits_sc_0093"
 tt = RT("eb_sarelgaz", "boss")
 
-AC(tt, "melee")
+AC(tt, "melee", "timed_attacks")
 
 anchor_x, anchor_y = 0.5, 0.1484375
 image_x, image_y = 220, 128
@@ -8312,7 +8313,7 @@ tt.info.i18n_key = "ENEMY_SARELGAZ"
 tt.info.enc_icon = 35
 tt.info.portrait = "bottom_info_image_enemies_0109"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
-tt.main_script.update = kr1_scripts.enemy_mixed.update
+tt.main_script.update = kr1_scripts.eb_sarelgaz.update
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 9999
@@ -8321,10 +8322,10 @@ tt.melee.attacks[1].hit_time = fts(15)
 tt.melee.attacks[1].damage_type = DAMAGE_EAT
 tt.melee.attacks[1].damage_radius = 200
 tt.melee.attacks[1].sound = "SpiderAttack"
-tt.motion.max_speed = 0.1 * FPS
+tt.motion.max_speed = 0.15 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "eb_sarelgaz"
-tt.render.sprites[1].scale = vv(5)
+tt.render.sprites[1].scale = vv(4.8)
 tt.render.sprites[1].angles_stickiness = {
 	walk = 10
 }
@@ -8336,6 +8337,11 @@ tt.render.sprites[1].angles.walk = {
 }
 tt.sound_events.death = "DeathEplosion"
 tt.sound_events.insert = "KR1_MusicBossFight"
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].bullet = "enemy_spider_egg_sarelgaz"
+tt.timed_attacks.list[1].max_cooldown = 10
+tt.timed_attacks.list[1].max_count = 12
+tt.timed_attacks.list[1].min_cooldown = 5
 tt.ui.click_rect = r(-45, 0, 90, 80)
 tt.unit.blood_color = BLOOD_GREEN
 tt.unit.can_explode = false
@@ -9287,6 +9293,39 @@ tt.render.sprites[1].loop = false
 tt.spawner.count = 3
 tt.spawner.cycle_time = fts(6)
 tt.spawner.entity = "enemy_spider_rotten_tiny"
+tt.spawner.node_offset = 5
+tt.spawner.pos_offset = v(0, 1)
+tt.spawner.allowed_subpaths = {
+	1,
+	2,
+	3
+}
+tt.spawner.random_subpath = false
+tt.spawner.animation_start = "start"
+tt.tween.disabled = true
+tt.tween.props[1].keys = {
+	{
+		0,
+		255
+	},
+	{
+		4,
+		0
+	}
+}
+tt.tween.remove = true
+tt = E:register_t("enemy_spider_egg_sarelgaz", "decal_scripted")
+
+E:add_comps(tt, "render", "spawner", "tween")
+
+tt.main_script.update = kr1_scripts.enemies_spawner.update
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].prefix = "enemy_spider_egg"
+tt.render.sprites[1].scale = vv(5)
+tt.render.sprites[1].loop = false
+tt.spawner.count = 3
+tt.spawner.cycle_time = fts(6)
+tt.spawner.entity = "enemy_sarelgaz_small"
 tt.spawner.node_offset = 5
 tt.spawner.pos_offset = v(0, 1)
 tt.spawner.allowed_subpaths = {
