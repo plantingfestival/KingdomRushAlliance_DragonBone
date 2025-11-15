@@ -7638,13 +7638,15 @@ tt = RT("enemy_zombie_blackburn", "enemy_halloween_zombie")
 tt = RT("enemy_skeleton_warrior", "enemy_skeleton_big")
 tt = RT("enemy_demon_cerberus", "enemy_KR5")
 
-AC(tt, "melee", "death_spawns")
+AC(tt, "melee", "death_spawns", "dodge")
 
 anchor_x, anchor_y = 0.5, 0.14285714285714285
 image_x, image_y = 128, 70
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.name = "aura_demon_cerberus_death"
 tt.death_spawns.delay = 0.11
+tt.dodge.chance = 0.7
+tt.dodge.silent = true
 tt.enemy.gold = 1600
 tt.enemy.lives_cost = 10
 tt.enemy.melee_slot = v(41, 0)
