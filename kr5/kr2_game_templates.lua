@@ -14490,9 +14490,7 @@ tt.bullet.damage_type = DAMAGE_PHYSICAL
 tt.bullet.damage_min = 500
 tt.bullet.damage_max = 800
 tt.bullet.max_track_distance = 500
-tt.bullet.hit_time = fts(5)
-tt.bullet.damage_radius = 38.4
-tt.bullet.damage_rect = r(-40, -2, 80, 50)
+tt.bullet.hit_time = fts(3)
 tt.bullet.hit_fx = "fx_ray_neptune_explosion"
 tt.sound_events.insert = "PolymorphSound"
 tt = E:register_t("eb_leviathan", "boss")
@@ -14506,9 +14504,9 @@ tt.attacks.list[1].cooldown = 30
 tt.ranged.attacks[1].animation = "idle"
 tt.ranged.attacks[1].bullet = "ray_leviathan"
 tt.ranged.attacks[1].bullet_start_offset = {
-	v(27, 70)
+	v(26, 70)
 }
-tt.ranged.attacks[1].cooldown = 1
+tt.ranged.attacks[1].cooldown = 0
 tt.ranged.attacks[1].hold_advance = true
 tt.ranged.attacks[1].max_range = 375
 tt.ranged.attacks[1].min_range = 40
