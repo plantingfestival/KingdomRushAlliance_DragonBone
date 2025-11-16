@@ -10600,9 +10600,15 @@ function scripts.eb_leviathan.update(this, store, script)
 
 			local ranged = U.find_nearest_soldier(store.entities, this.pos, a.min_range, a.max_range,a.vis_flags, a.vis_bans)
 				
-			if ranged and SU.can_range_soldier(store, this, ranged) then
-					SU.y_enemy_range_attacks(store, this, ranged)
+			if ranged then
+				while SU.can_range_soldier(store, this, ranged) and #this.enemy.blockers ==0 do
+					if not SU.y_enemy_range_attacks(store, this, ranged) then
+						goto label_249_0
+					end
+
+					coroutine.yield()
 				end
+			end
 
 			if not SU.y_enemy_walk_step(store, this) then
 				return

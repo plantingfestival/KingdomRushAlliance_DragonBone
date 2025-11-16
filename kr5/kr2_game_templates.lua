@@ -3896,16 +3896,16 @@ tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.damage_min_levels = {
-	500,
-	1000,
-	2000
+	750,
+	1500,
+	2750
 }
 tt.bullet.damage_max_levels = {
-	1250,
-	2500,
-	4500
+	1500,
+	3000,
+	6000
 }
-tt.bullet.damage_radius = 38.4
+tt.bullet.damage_radius = 220
 tt.bullet.damage_rect = r(-40, -2, 80, 50)
 tt.bullet.hit_fx = "fx_ray_neptune_explosion"
 tt.sound_events.insert = "PolymorphSound"
@@ -14489,6 +14489,7 @@ tt.render.sprites[1].anchor = v(0, 0.5)
 tt.bullet.damage_type = DAMAGE_PHYSICAL
 tt.bullet.damage_min = 500
 tt.bullet.damage_max = 800
+tt.bullet.damage_radius = 180
 tt.bullet.max_track_distance = 500
 tt.bullet.hit_time = fts(3)
 tt.bullet.hit_fx = "fx_ray_neptune_explosion"
