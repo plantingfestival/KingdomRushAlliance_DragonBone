@@ -594,6 +594,81 @@ return {
 			"MusicBattle_82"
 		}
 	},
+	music_stage101 = {
+		sounds = {
+			"MusicBattlePrep_101",
+			"MusicBattle_101"
+		}
+	},
+	music_stage102 = {
+		sounds = {
+			"MusicBattlePrep_102",
+			"MusicBattle_102"
+		}
+	},
+	music_stage103 = {
+		sounds = {
+			"MusicBattlePrep_103",
+			"MusicBattle_103"
+		}
+	},
+	music_stage104 = {
+		sounds = {
+			"MusicBattlePrep_104",
+			"MusicBattle_104"
+		}
+	},
+	music_stage105 = {
+		sounds = {
+			"MusicBattlePrep_105",
+			"MusicBattle_105"
+		}
+	},
+	music_stage106 = {
+		sounds = {
+			"MusicBattlePrep_106",
+			"MusicBattle_106",
+			"MusicBossFight"
+		}
+	},
+	music_stage107 = {
+		sounds = {
+			"MusicBattlePrep_107",
+			"MusicBattle_107"
+		}
+	},
+	music_stage108 = {
+		sounds = {
+			"MusicBattlePrep_108",
+			"MusicBattle_108"
+		}
+	},
+	music_stage109 = {
+		sounds = {
+			"MusicBattlePrep_109",
+			"MusicBattle_109",
+			"MusicBossFight"
+		}
+	},
+	music_stage110 = {
+		sounds = {
+			"MusicBattlePrep_110",
+			"MusicBattle_110"
+		}
+	},
+	music_stage111 = {
+		sounds = {
+			"MusicBattlePrep_111",
+			"MusicBattle_111"
+		}
+	},
+	music_stage112 = {
+		sounds = {
+			"MusicBattlePrep_112",
+			"MusicBattle_112",
+			"MusicBossFight"
+		}
+	},
 	music_stage113 = {
 		sounds = {
 			"MusicBattlePrep_113",
@@ -1780,6 +1855,20 @@ return {
 			"Sound_HitIce1.ogg",
 			"Sound_HitIce2.ogg",
 			"Sound_HitIce3.ogg"
+		}
+	},
+	VeznanEffects = {
+		files = {
+			"Sound_DemonPortal_Summon.ogg",
+			"Sound_DemonPortal_Telein.ogg",
+			"Sound_EnemyVeznan_attack.ogg",
+			"Sound_EnemyVeznan_death.ogg",
+			"Sound_EnemyVeznan_demonFire.ogg",
+			"Sound_EnemyVeznan_toDemon.ogg",
+			"Sound_SpellTowerHold_Cast.ogg",
+			"Sound_SpellTowerHold_Dissipate.ogg",
+			"Sound_SpellTowerHold_Hit.ogg",
+			"Sound_SpellTowerHold_Trap.ogg"
 		}
 	},
 	tower_rock_thrower = {
