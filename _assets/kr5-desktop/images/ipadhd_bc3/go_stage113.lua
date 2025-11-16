@@ -2374,7 +2374,7 @@ return {
 		alias = {},
 		textureRotated = false
 	},
-	["stage113_fredo_0001"] = {
+	["stage13_fredo_0001"] = {
 		a_name = "go_stage113.dds",
 		size = {
 			174,
