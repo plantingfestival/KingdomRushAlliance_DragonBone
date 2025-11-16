@@ -22,6 +22,10 @@ function level:fn_can_power(store, power_id, pos)
 end
 
 function level:update(store)
+	local function check_spawn_boss()
+		local has_alive, alive_count, pending_count = LU.has_alive_enemies(store, {"eb_veznan"})
+		return alive_count == 0 and pending_count == 0
+	end
 	if store.level_mode == GAME_MODE_CAMPAIGN then
 		local boss = E:create_entity("eb_veznan")
 
@@ -41,13 +45,16 @@ function level:update(store)
 			coroutine.yield()
 		end
 
-		while not store.waves_finished or LU.has_alive_enemies(store, {
-			"eb_veznan"
-		}) do
+		local print_veznan = 0
+
+		local ts = store.tick_ts
+
+		--while not store.waves_finished or LU.has_alive_enemies(store, {"eb_veznan"}) do
+		while not store.waves_finished or not check_spawn_boss() do
 			coroutine.yield()
 		end
 
-		S:queue("MusicBossFight")
+		S:queue("KR1_MusicBossFight")
 
 		self.boss.phase_signal = "descend"
 

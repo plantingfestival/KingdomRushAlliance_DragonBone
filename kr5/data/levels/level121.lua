@@ -35,6 +35,8 @@ function level:update(store)
 			coroutine.yield()
 		end
 
+		S:queue("KR1_MusicBossFight")
+
 		boss.phase_signal = "battle"
 
 		while self.boss.phase ~= "death-complete" do

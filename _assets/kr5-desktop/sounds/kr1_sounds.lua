@@ -183,14 +183,6 @@ return {
 			"Sound_EnemyExplode1ShortA.ogg"
 		}
 	},
-	VeznanHoldTrap = {
-		source_group = "BULLETS",
-		gain = 1,
-		loop = false,
-		files = {
-			"Sound_SpellTowerHold_Trap.ogg"
-		}
-	},
 	HeroDenasTaunt = {
 		loop = false,
 		gain = 1,
@@ -297,14 +289,6 @@ return {
 			"Young-Mage-Death_c.ogg"
 		}
 	},
-	VeznanPortalIn = {
-		source_group = "BULLETS",
-		gain = 1,
-		loop = false,
-		files = {
-			"Sound_DemonPortal_Telein.ogg"
-		}
-	},
 	HeroArcherTauntIntro = {
 		source_group = "TAUNTS",
 		gain = 1,
@@ -407,14 +391,6 @@ return {
 		loop = false,
 		files = {
 			"KingDenas-04e.ogg"
-		}
-	},
-	VeznanPortalSummon = {
-		source_group = "BULLETS",
-		gain = 1,
-		loop = false,
-		files = {
-			"Sound_DemonPortal_Summon.ogg"
 		}
 	},
 	ArcherRangerThornTaunt = {
@@ -545,14 +521,6 @@ return {
 		loop = false,
 		files = {
 			"Sorcerer_Taunt2.ogg"
-		}
-	},
-	VeznanHoldHit = {
-		source_group = "BULLETS",
-		gain = 1,
-		loop = false,
-		files = {
-			"Sound_SpellTowerHold_Hit.ogg"
 		}
 	},
 	VeznanDemonFire = {
@@ -831,14 +799,6 @@ return {
 			"Mage_shadows.ogg"
 		}
 	},
-	VeznanHoldDissipate = {
-		source_group = "BULLETS",
-		gain = 1,
-		loop = false,
-		files = {
-			"Sound_SpellTowerHold_Dissipate.ogg"
-		}
-	},
 	HeroArcherTauntSelect = {
 		source_group = "TAUNTS",
 		gain = 1,
@@ -888,103 +848,21 @@ return {
 			"MusicBossFight.ogg"
 		}
 	},
-	MusicBattlePrep_101 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
+	VeznanEffects = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
 		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_102 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_103 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_104 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_105 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_106 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsForest.ogg"
-		}
-	},
-	MusicBattlePrep_107 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsMountain.ogg"
-		}
-	},
-	MusicBattlePrep_108 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsMountain.ogg"
-		}
-	},
-	MusicBattlePrep_109 = {
-		source_group = "MUSIC",
-		gain = 0.8,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsMountain.ogg"
-		}
-	},
-	MusicBattlePrep_110 = {
-		source_group = "MUSIC",
-		gain = 0.9,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsWastelands.ogg"
-		}
-	},
-	MusicBattlePrep_111 = {
-		source_group = "MUSIC",
-		gain = 0.9,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattlePreparationsWastelands.ogg"
+			"Sound_EnemyVeznan_attack.ogg",
+			"Sound_EnemyVeznan_death.ogg",
+			"Sound_EnemyVeznan_demonFire.ogg",
+			"Sound_SpellTowerHold_Cast.ogg",
+			"Sound_SpellTowerHold_Dissipate.ogg",
+			"Sound_DemonPortal_Telein.ogg",
+			"Sound_DemonPortal_Summon.ogg",
+			"Sound_SpellTowerHold_Hit.ogg",
+			"Sound_SpellTowerHold_Trap.ogg",
+			"Sound_SpellTowerHold_Dissipate.ogg"
 		}
 	},
 	MusicBattlePrep_112 = {
@@ -993,7 +871,7 @@ return {
 		loop = true,
 		stream = true,
 		files = {
-			"MusicBattlePreparationsWastelands.ogg"
+			"KingdomRushWastelandVeznanCastle.ogg"
 		}
 	},
 	MusicBattlePrep_113 = {
@@ -1122,110 +1000,11 @@ return {
 			"CB_PreBattle.ogg"
 		}
 	},
-	MusicBattle_101 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest1.ogg"
-		}
-	},
-	MusicBattle_102 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest2.ogg"
-		}
-	},
-	MusicBattle_103 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest1.ogg"
-		}
-	},
-	MusicBattle_104 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest2.ogg"
-		}
-	},
-	MusicBattle_105 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest1.ogg"
-		}
-	},
-	MusicBattle_106 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackForest1.ogg"
-		}
-	},
-	MusicBattle_107 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackMountain.ogg"
-		}
-	},
-	MusicBattle_108 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackMountain.ogg"
-		}
-	},
-	MusicBattle_109 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackMountain.ogg"
-		}
-	},
-	MusicBattle_110 = {
-		source_group = "MUSIC",
-		gain = 0.9,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackWastelands.ogg"
-		}
-	},
-	MusicBattle_111 = {
-		source_group = "MUSIC",
-		gain = 0.9,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackWastelands.ogg"
-		}
-	},
 	MusicBattle_112 = {
-		source_group = "MUSIC",
-		gain = 1,
-		loop = true,
 		stream = true,
+		gain = 0.9,
+		loop = true,
+		source_group = "MUSIC",
 		files = {
 			"KingdomRushWastelandVeznanCastle.ogg"
 		}

@@ -12498,8 +12498,8 @@ local towers = {
 			max_armor_reduction = 15,
 			max_fps = 60,
 			price = {
-				400,
-				400
+				300,
+				500
 			},
 			extra_damage_min = {
 				12,
@@ -12515,7 +12515,7 @@ local towers = {
 			},
 			fps_increment = {
 				0,
-				2
+				3
 			},
 			armor_reduction = {
 				0,

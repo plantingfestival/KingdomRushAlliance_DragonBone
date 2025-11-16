@@ -5908,8 +5908,8 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*5
-	this.health.hp_max = initial_hp*5
+	this.health.hp = initial_hp*10
+	this.health.hp_max = initial_hp*10
 	this.health_bar.offset = this.demon.health_bar_offset
 	this.health_bar.frames[1].bar_width = this.health_bar.frames[1].bar_width * this.demon.health_bar_scale
 	this.health_bar.frames[2].bar_width = this.health_bar.frames[2].bar_width * this.demon.health_bar_scale
@@ -5919,10 +5919,12 @@ function scripts.eb_veznan.update(this, store)
 	this.melee.attacks[2].disabled = false
 	this.motion.max_speed = this.demon.speed
 	this.render.sprites[1].prefix = this.demon.sprites_prefix
+	this.render.sprites[1].scale = this.demon.sprites_scale
 	this.ui.click_rect = this.demon.ui_click_rect
 	this.unit.hit_offset = this.demon.unit_hit_offset
 	this.unit.mod_offset = this.demon.unit_mod_offset
 	this.unit.size = this.demon.unit_size
+	this.sprites_scale = this.demon.sprites_scale
 	this.info.portrait = this.demon.info_portrait
 	this.health_bar.hidden = nil
 	this.vis.bans = U.flag_clear(this.vis.bans, F_ALL)

@@ -6774,7 +6774,7 @@ tt.health.hp_max = 125
 tt.health_bar.offset = v(0, 23)
 tt.info.i18n_key = "ENEMY_GOLEM_HEAD"
 tt.info.enc_icon = 15
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0028" or "info_portraits_sc_0028"
+tt.info.portrait = "bottom_info_image_enemies_0123"
 tt.melee.attacks[1].cooldown = 1 + fts(20)
 tt.melee.attacks[1].damage_max = 20
 tt.melee.attacks[1].damage_min = 10
@@ -7906,7 +7906,7 @@ tt.health_bar.offset = v(0, ady(120))
 tt.info.fn = kr1_scripts.eb_juggernaut.get_info
 tt.info.i18n_key = "ENEMY_JUGGERNAUT"
 tt.info.enc_icon = 32
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0027" or "info_portraits_sc_0027"
+tt.info.portrait = "bottom_info_image_enemies_0124"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_juggernaut.update
 tt.motion.max_speed = 0.4 * FPS
@@ -7974,7 +7974,7 @@ tt.health_bar.offset = v(0, ady(172))
 tt.info.fn = kr1_scripts.eb_jt.get_info
 tt.info.i18n_key = "ENEMY_YETI_BOSS"
 tt.info.enc_icon = 33
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0047" or "info_portraits_sc_0047"
+tt.info.portrait = "bottom_info_image_enemies_0125"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_jt.update
 tt.motion.max_speed = 0.4 * FPS
@@ -8040,7 +8040,7 @@ AC(tt, "melee", "timed_attacks", "taunts")
 anchor_x, anchor_y = 0.5, 0.17010309278350516
 image_x, image_y = 214, 194
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(20, 0)
 tt.health.hp_max = {
 	533333,
@@ -8054,7 +8054,7 @@ tt.health_bar.offset = v(0, 43)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_MEDIUM
 tt.info.i18n_key = "ENEMY_VEZNAN"
 tt.info.enc_icon = 34
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0056" or "info_portraits_sc_0056"
+tt.info.portrait = "bottom_info_image_enemies_0126"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_veznan.update
 tt.motion.max_speed = 0.4 * FPS
@@ -8070,6 +8070,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingUp",
 	"walkingDown"
 }
+tt.sound_events.insert = "MusicBattle_112"
 tt.sound_events.death = "VeznanDeath"
 tt.ui.click_rect = r(-11, -2, 22, 38)
 tt.unit.hit_offset = v(0, 14)
@@ -8289,13 +8290,13 @@ tt.demon.health_bar_scale = 1.8
 tt.demon.melee_slot = v(50, 0)
 tt.demon.speed = 0.6 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
-tt.demon.sprites_scale = vv(5)
+tt.demon.sprites_scale = vv(8)
 tt.demon.transform_sound = "VeznanToDemon"
 tt.demon.ui_click_rect = r(-25, -5, 50, 110)
 tt.demon.unit_hit_offset = v(0, 55)
 tt.demon.unit_mod_offset = v(0, 45)
 tt.demon.unit_size = UNIT_SIZE_LARGE
-tt.demon.info_portrait = IS_PHONE_OR_TABLET and "portraits_sc_0056" or "info_portraits_sc_0093"
+tt.demon.info_portrait = "bottom_info_image_enemies_0127"
 tt = RT("eb_sarelgaz", "boss")
 
 AC(tt, "melee", "timed_attacks")

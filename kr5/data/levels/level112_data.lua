@@ -22,7 +22,7 @@ return {
 		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
-			["render.sprites[1].name"] = "stage_12_0001",
+			["render.sprites[1].name"] = "stage_112",
 			pos = {
 				x = 512,
 				y = 384
@@ -577,7 +577,9 @@ return {
 	},
 	required_sounds = {
 		"kr1_common",
-		"music_stage12",
+		"music_stage112",
+		"VeznanAttack",
+		"VeznanDemonFire",
 		"VeznanEffects"
 	},
 	required_textures = {

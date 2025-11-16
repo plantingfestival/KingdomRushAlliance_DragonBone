@@ -2,24 +2,24 @@ return {
 	["bossJuggernaut_0001"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			69,
-            30,
-            67,
-            8
+			66,
+            29,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2107,
-			421,
-			154,
-			221
+			828,
+			618,
+			149,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -27,24 +27,24 @@ return {
 	["bossJuggernaut_0002"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			69,
-            30,
-            67,
-            8
+			66,
+            29,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2107,
-			421,
-			154,
-			221
+			828,
+			618,
+			149,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -52,24 +52,24 @@ return {
 	["bossJuggernaut_0003"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			66,
-            26,
-            66,
-            8
+			63,
+            23,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			942,
-			801,
-			158,
-			225
+			1022,
+			832,
+			152,
+			218
 		},
 		alias = {},
 		textureRotated = false
@@ -77,24 +77,24 @@ return {
 	["bossJuggernaut_0004"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			66,
-            26,
-            66,
-            8
+			63,
+            23,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			942,
-			801,
-			158,
-			225
+			1022,
+			832,
+			152,
+			218
 		},
 		alias = {},
 		textureRotated = false
@@ -102,24 +102,24 @@ return {
 	["bossJuggernaut_0005"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            23,
-            63,
-            8
+			59,
+            22,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			420,
-			1025,
-			164,
-			228
+			1591,
+			612,
+			160,
+			219
 		},
 		alias = {},
 		textureRotated = true
@@ -127,24 +127,24 @@ return {
 	["bossJuggernaut_0006"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            23,
-            63,
-            8
+			59,
+            22,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			420,
-			1025,
-			164,
-			228
+			1591,
+			612,
+			160,
+			219
 		},
 		alias = {},
 		textureRotated = true
@@ -152,24 +152,24 @@ return {
 	["bossJuggernaut_0007"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            24,
-            60,
-            8
+			55,
+            23,
+            57,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2443,
-			1,
-			173,
-			227
+			1362,
+			828,
+			166,
+			218
 		},
 		alias = {},
 		textureRotated = false
@@ -177,24 +177,24 @@ return {
 	["bossJuggernaut_0008"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            24,
-            60,
-            8
+			55,
+            23,
+            57,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2443,
-			1,
-			173,
-			227
+			1362,
+			828,
+			166,
+			218
 		},
 		alias = {},
 		textureRotated = false
@@ -202,224 +202,224 @@ return {
 	["bossJuggernaut_0009"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            27,
-            56,
-            8
+			50,
+            26,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			886,
-			1028,
-			181,
-			224
+			979,
+			615,
+			176,
+			215
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0010"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            27,
-            56,
-            8
+			50,
+            26,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			886,
-			1028,
-			181,
-			224
+			979,
+			615,
+			176,
+			215
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0011"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			49,
-            33,
-            53,
-            8
+			46,
+            31,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1112,
-			1028,
-			188,
-			218
+			418,
+			1048,
+			180,
+			210
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0012"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			49,
-            33,
-            53,
-            8
+			46,
+            31,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1112,
-			1028,
-			188,
-			218
+			418,
+			1048,
+			180,
+			210
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0013"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            29,
-            56,
-            8
+			49,
+            27,
+            53,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1435,
-			421,
-			183,
-			222
+			630,
+			1030,
+			176,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0014"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            29,
-            56,
-            8
+			49,
+            27,
+            53,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1435,
-			421,
-			183,
-			222
+			630,
+			1030,
+			176,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0015"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			56,
-            26,
-            60,
-            8
+			55,
+            25,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1102,
-			801,
-			174,
-			225
+			630,
+			1246,
+			167,
+			216
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0016"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			56,
-            26,
-            60,
-            8
+			55,
+            25,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1102,
-			801,
-			174,
-			225
+			630,
+			1246,
+			167,
+			216
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0017"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            23,
-            63,
-            8
+			59,
+            22,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1472,
-			1024,
-			164,
-			228
+			1050,
+			1415,
+			160,
+			219
 		},
 		alias = {},
 		textureRotated = false
@@ -427,24 +427,24 @@ return {
 	["bossJuggernaut_0018"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            23,
-            63,
-            8
+			59,
+            22,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1472,
-			1024,
-			164,
-			228
+			1050,
+			1415,
+			160,
+			219
 		},
 		alias = {},
 		textureRotated = false
@@ -452,124 +452,124 @@ return {
 	["bossJuggernaut_0019"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			68,
-            27,
-            66,
-            8
+			64,
+            26,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1278,
-			801,
-			156,
-			224
+			1362,
+			1048,
+			151,
+			215
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0020"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			68,
-            27,
-            66,
-            8
+			64,
+            26,
+            63,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1278,
-			801,
-			156,
-			224
+			1362,
+			1048,
+			151,
+			215
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0021"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			70,
-            30,
-            67,
-            8
+			67,
+            29,
+            64,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2245,
-			999,
-			153,
-			221
+			1022,
+			1052,
+			147,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0022"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			70,
-            30,
-            67,
-            8
+			67,
+            29,
+            64,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2245,
-			999,
-			153,
-			221
+			1022,
+			1052,
+			147,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0023"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			68,
-            33,
-            68,
-            8
+			65,
+            31,
+            65,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1314,
-			1248,
-			154,
-			218
+			1419,
+			1201,
+			148,
+			210
 		},
 		alias = {},
 		textureRotated = false
@@ -577,24 +577,24 @@ return {
 	["bossJuggernaut_0024"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			68,
-            33,
-            68,
-            8
+			65,
+            31,
+            65,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1314,
-			1248,
-			154,
-			218
+			1419,
+			1201,
+			148,
+			210
 		},
 		alias = {},
 		textureRotated = false
@@ -602,24 +602,24 @@ return {
 	["bossJuggernaut_0025"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            36,
-            63,
+			57,
+            34,
+            60,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1470,
-			1254,
-			167,
-			216
+			1962,
+			1179,
+			161,
+			207
 		},
 		alias = {},
 		textureRotated = false
@@ -627,24 +627,24 @@ return {
 	["bossJuggernaut_0026"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            36,
-            63,
+			57,
+            34,
+            60,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1470,
-			1254,
-			167,
-			216
+			1962,
+			1179,
+			161,
+			207
 		},
 		alias = {},
 		textureRotated = false
@@ -652,24 +652,24 @@ return {
 	["bossJuggernaut_0027"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            34,
-            61,
-            8
+			55,
+            33,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1095,
-			1248,
-			172,
-			217
+			1951,
+			1556,
+			164,
+			208
 		},
 		alias = {},
 		textureRotated = true
@@ -677,24 +677,24 @@ return {
 	["bossJuggernaut_0028"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            34,
-            61,
-            8
+			55,
+            33,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1095,
-			1248,
-			172,
-			217
+			1951,
+			1556,
+			164,
+			208
 		},
 		alias = {},
 		textureRotated = true
@@ -702,24 +702,24 @@ return {
 	["bossJuggernaut_0029"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            27,
-            58,
-            8
+			55,
+            26,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2441,
-			230,
-			175,
-			224
+			1579,
+			988,
+			167,
+			215
 		},
 		alias = {},
 		textureRotated = false
@@ -727,24 +727,24 @@ return {
 	["bossJuggernaut_0030"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            27,
-            58,
-            8
+			55,
+            26,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2441,
-			230,
-			175,
-			224
+			1579,
+			988,
+			167,
+			215
 		},
 		alias = {},
 		textureRotated = false
@@ -752,74 +752,74 @@ return {
 	["bossJuggernaut_0031"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            30,
-            60,
+			56,
+            29,
+            57,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2084,
-			644,
-			170,
-			222
+			2112,
+			963,
+			165,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0032"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            30,
-            60,
+			56,
+            29,
+            57,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2084,
-			644,
-			170,
-			222
+			2112,
+			963,
+			165,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0033"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            34,
-            61,
-            6
+			59,
+            33,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1302,
-			1027,
-			168,
-			219
+			2173,
+			1388,
+			160,
+			208
 		},
 		alias = {},
 		textureRotated = false
@@ -827,24 +827,24 @@ return {
 	["bossJuggernaut_0034"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            34,
-            61,
-            6
+			59,
+            33,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1302,
-			1027,
-			168,
-			219
+			2173,
+			1388,
+			160,
+			208
 		},
 		alias = {},
 		textureRotated = false
@@ -852,24 +852,24 @@ return {
 	["bossJuggernaut_0035"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            36,
-            61,
-            6
+			59,
+            34,
+            59,
+            5
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1470,
-			1472,
-			168,
-			217
+			2125,
+			1177,
+			160,
+			209
 		},
 		alias = {},
 		textureRotated = false
@@ -877,24 +877,24 @@ return {
 	["bossJuggernaut_0036"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            36,
-            61,
-            6
+			59,
+            34,
+            59,
+            5
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1470,
-			1472,
-			168,
-			217
+			2125,
+			1177,
+			160,
+			209
 		},
 		alias = {},
 		textureRotated = false
@@ -902,174 +902,174 @@ return {
 	["bossJuggernaut_0037"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            34,
-            61,
+			59,
+            33,
+            59,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			655,
-			1871,
-			168,
-			218
+			2335,
+			1384,
+			160,
+			208
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0038"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            34,
-            61,
+			59,
+            33,
+            59,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			655,
-			1871,
-			168,
-			218
+			2335,
+			1384,
+			160,
+			208
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0039"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            33,
-            60,
-            8
+			56,
+            31,
+            57,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1298,
-			1468,
-			170,
-			218
+			1739,
+			1515,
+			165,
+			210
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0040"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            33,
-            60,
-            8
+			56,
+            31,
+            57,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1298,
-			1468,
-			170,
-			218
+			1739,
+			1515,
+			165,
+			210
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0041"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            29,
-            58,
-            8
+			55,
+            27,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2263,
-			419,
-			175,
-			222
+			2266,
+			787,
+			167,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0042"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            29,
-            58,
-            8
+			55,
+            27,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2263,
-			419,
-			175,
-			222
+			2266,
+			787,
+			167,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0043"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            61,
-            8
+			55,
+            29,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1828,
-			1221,
-			172,
-			221
+			2447,
+			956,
+			164,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1077,24 +1077,24 @@ return {
 	["bossJuggernaut_0044"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            61,
-            8
+			55,
+            29,
+            59,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1828,
-			1221,
-			172,
-			221
+			2447,
+			956,
+			164,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1102,74 +1102,74 @@ return {
 	["bossJuggernaut_0045"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            36,
-            63,
+			57,
+            34,
+            60,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2400,
-			902,
-			167,
-			216
+			2455,
+			1170,
+			161,
+			207
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0046"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            36,
-            63,
+			57,
+            34,
+            60,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2400,
-			902,
-			167,
-			216
+			2455,
+			1170,
+			161,
+			207
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0047"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            37,
-            64,
-            6
+			57,
+            35,
+            61,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2400,
-			1071,
-			166,
-			216
+			2161,
+			1598,
+			160,
+			206
 		},
 		alias = {},
 		textureRotated = true
@@ -1177,24 +1177,24 @@ return {
 	["bossJuggernaut_0048"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			60,
-            37,
-            64,
-            6
+			57,
+            35,
+            61,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2400,
-			1071,
-			166,
-			216
+			2161,
+			1598,
+			160,
+			206
 		},
 		alias = {},
 		textureRotated = true
@@ -1202,24 +1202,24 @@ return {
 	["bossJuggernaut_0049"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            8
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2440,
-			456,
-			175,
-			221
+			2279,
+			956,
+			166,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1227,49 +1227,49 @@ return {
 	["bossJuggernaut_0050"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			58,
-            30,
-            58,
-            8
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1829,
-			1444,
-			174,
-			221
+			1748,
+			1179,
+			166,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0051"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			56,
-            30,
-            56,
-            8
+			53,
+            29,
+            55,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1463,
-			1691,
-			178,
-			221
+			1567,
+			1421,
+			170,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1277,24 +1277,24 @@ return {
 	["bossJuggernaut_0052"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            30,
-            54,
-            8
+			52,
+            29,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2400,
-			1239,
-			183,
-			221
+			848,
+			1201,
+			174,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1302,24 +1302,24 @@ return {
 	["bossJuggernaut_0053"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            30,
-            53,
-            8
+			49,
+            29,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1275,
-			1688,
-			186,
-			221
+			1024,
+			1201,
+			177,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1327,24 +1327,24 @@ return {
 	["bossJuggernaut_0054"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            30,
-            51,
-            8
+			48,
+            29,
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			969,
-			610,
-			189,
-			221
+			808,
+			1018,
+			181,
+			212
 		},
 		alias = {},
 		textureRotated = true
@@ -1352,24 +1352,24 @@ return {
 	["bossJuggernaut_0055"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            32,
-            51,
-            8
+			48,
+            30,
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1192,
-			610,
-			189,
-			219
+			417,
+			1230,
+			181,
+			211
 		},
 		alias = {},
 		textureRotated = true
@@ -1377,24 +1377,24 @@ return {
 	["bossJuggernaut_0056"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			49,
-            31,
-            51,
-            8
+			46,
+            30,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1829,
-			997,
-			190,
-			220
+			404,
+			1596,
+			184,
+			211
 		},
 		alias = {},
 		textureRotated = false
@@ -1402,174 +1402,174 @@ return {
 	["bossJuggernaut_0057"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
+			45,
             29,
-            51,
-            8
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			975,
-			416,
-			192,
-			222
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0058"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			47,
-            29,
-            51,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			975,
-			416,
-			192,
-			222
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0059"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			47,
-            29,
-            51,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			975,
-			416,
-			192,
-			222
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0060"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			47,
-            29,
-            51,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1659,
-			421,
-			192,
-			222
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0061"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			47,
-            29,
-            51,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1659,
-			421,
-			192,
-			222
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0062"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			47,
-            30,
-            51,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1081,
-			1623,
-			192,
-			221
+			1157,
+			614,
+			185,
+			212
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["bossJuggernaut_0063"] = {
+	["bossJuggernaut_0058"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			43,
-            30,
-            41,
-            8
+			45,
+            29,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			872,
-			1211,
-			206,
-			221
+			1157,
+			614,
+			185,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0059"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			45,
+            29,
+            48,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1157,
+			614,
+			185,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0060"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			45,
+            29,
+            49,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1344,
+			614,
+			184,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0061"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			45,
+            29,
+            49,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1344,
+			614,
+			184,
+			212
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0062"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			45,
+            29,
+            49,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			808,
+			832,
+			184,
+			212
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0063"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			41,
+            29,
+            40,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			2351,
+			217,
+			197,
+			212
 		},
 		alias = {},
 		textureRotated = true
@@ -1577,24 +1577,24 @@ return {
 	["bossJuggernaut_0064"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			39,
+			37,
+            27,
             29,
-            30,
-            8
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			719,
-			801,
-			221,
-			222
+			941,
+			399,
+			212,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -1602,24 +1602,24 @@ return {
 	["bossJuggernaut_0065"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			39,
+			37,
+            27,
             29,
-            30,
-            8
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			719,
-			801,
-			221,
-			222
+			941,
+			399,
+			212,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -1627,74 +1627,74 @@ return {
 	["bossJuggernaut_0066"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			39,
+			37,
+            27,
             29,
-            31,
-            8
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			655,
-			1647,
-			220,
-			222
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0067"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			43,
-            29,
-            37,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			648,
-			1206,
-			210,
-			222
+			1155,
+			400,
+			212,
+			214
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["bossJuggernaut_0068"] = {
+	["bossJuggernaut_0067"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			44,
-            29,
-            44,
-            8
+			40,
+            27,
+            37,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			877,
-			1645,
-			202,
-			222
+			408,
+			615,
+			201,
+			214
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0068"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			42,
+            26,
+            42,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			418,
+			831,
+			194,
+			215
 		},
 		alias = {},
 		textureRotated = false
@@ -1702,49 +1702,49 @@ return {
 	["bossJuggernaut_0069"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
+			45,
             29,
-            51,
-            8
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1883,
-			421,
-			192,
-			222
+			1176,
+			828,
+			184,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0070"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
-            29,
-            54,
-            8
+			45,
+            27,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1636,
-			615,
-			189,
-			222
+			402,
+			1413,
+			181,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -1752,24 +1752,24 @@ return {
 	["bossJuggernaut_0071"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
-            29,
-            54,
-            8
+			45,
+            27,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1860,
-			615,
-			189,
-			222
+			618,
+			1415,
+			181,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -1777,99 +1777,99 @@ return {
 	["bossJuggernaut_0072"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
+			45,
             29,
-            51,
-            8
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1659,
-			421,
-			192,
-			222
+			1344,
+			614,
+			184,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0073"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
+			45,
             29,
-            51,
-            8
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1659,
-			421,
-			192,
-			222
+			1344,
+			614,
+			184,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0074"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			47,
-            30,
-            51,
-            8
+			45,
+            29,
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1413,
-			606,
-			192,
-			221
+			1530,
+			774,
+			184,
+			212
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0075"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            29,
-            53,
-            8
+			48,
+            27,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1639,
-			1221,
-			187,
-			222
+			1212,
+			1382,
+			178,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -1877,49 +1877,49 @@ return {
 	["bossJuggernaut_0076"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            56,
-            8
+			52,
+            27,
+            53,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2075,
-			816,
-			181,
-			222
+			1392,
+			1413,
+			173,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0077"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            8
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2439,
-			679,
-			175,
-			221
+			2287,
+			1170,
+			166,
+			212
 		},
 		alias = {},
 		textureRotated = false
@@ -1927,174 +1927,174 @@ return {
 	["bossJuggernaut_0078"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1829,
-			1667,
-			175,
-			221
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0079"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			57,
-            30,
-            58,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1829,
-			1667,
-			175,
-			221
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0080"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			57,
-            30,
-            58,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1829,
-			1667,
-			175,
-			221
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0081"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			53,
+			56,
             29,
-            54,
-            8
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			1188,
-			183,
-			222
+			1745,
+			1347,
+			166,
+			212
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["bossJuggernaut_0082"] = {
+	["bossJuggernaut_0079"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
+			56,
             29,
-            53,
-            8
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1643,
-			1669,
-			184,
-			222
+			1745,
+			1347,
+			166,
+			212
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0080"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			56,
+            29,
+            56,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1745,
+			1347,
+			166,
+			212
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0081"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			52,
+            27,
+            52,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1569,
+			1205,
+			174,
+			214
 		},
 		alias = {},
 		textureRotated = false
+	},
+	["bossJuggernaut_0082"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			49,
+            27,
+            50,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1203,
+			1201,
+			179,
+			214
+		},
+		alias = {},
+		textureRotated = true
 	},
 	["bossJuggernaut_0083"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            29,
-            50,
-            8
+			49,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1436,
-			800,
-			189,
-			222
+			590,
+			1598,
+			181,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0084"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			999,
-			187,
-			222
+			834,
+			1415,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -2102,24 +2102,24 @@ return {
 	["bossJuggernaut_0085"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1640,
-			1445,
-			187,
-			222
+			1748,
+			963,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2127,24 +2127,24 @@ return {
 	["bossJuggernaut_0086"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1640,
-			1445,
-			187,
-			222
+			1748,
+			963,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2152,74 +2152,74 @@ return {
 	["bossJuggernaut_0087"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			52,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1627,
-			806,
-			189,
-			222
+			1930,
+			963,
+			180,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0088"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			52,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1627,
-			806,
-			189,
-			222
+			1930,
+			963,
+			180,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0089"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			50,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1851,
-			806,
-			189,
-			222
+			1716,
+			779,
+			182,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -2227,24 +2227,24 @@ return {
 	["bossJuggernaut_0090"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			50,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1851,
-			806,
-			189,
-			222
+			1716,
+			779,
+			182,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -2252,99 +2252,99 @@ return {
 	["bossJuggernaut_0091"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			50,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1638,
-			997,
-			189,
-			222
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0092"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			43,
-            29,
-            48,
-            8
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1074,
-			1422,
-			199,
-			222
+			1932,
+			779,
+			182,
+			214
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["bossJuggernaut_0093"] = {
+	["bossJuggernaut_0092"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			29,
-            24,
-            48,
-            8
+			40,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			655,
-			1418,
-			213,
-			227
+			614,
+			814,
+			192,
+			214
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["bossJuggernaut_0094"] = {
+	["bossJuggernaut_0093"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			6,
-            29,
-            48,
-            8
+			27,
+            22,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			243,
-			624,
-			236,
-			222
+			1591,
+			405,
+			205,
+			219
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0094"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			4,
+            27,
+            46,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			2100,
+			1,
+			228,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2352,24 +2352,24 @@ return {
 	["bossJuggernaut_0095"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            29,
-            48,
-            8
+			3,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1717,
+			1176,
 			1,
-			240,
-			222
+			229,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2377,24 +2377,24 @@ return {
 	["bossJuggernaut_0096"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
 			0,
-            29,
-            48,
-            8
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			985,
-			1,
-			242,
-			222
+			469,
+			222,
+			232,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2402,24 +2402,24 @@ return {
 	["bossJuggernaut_0097"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
 			0,
-            29,
-            48,
-            8
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1229,
+			942,
 			1,
-			242,
-			222
+			232,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2427,49 +2427,49 @@ return {
 	["bossJuggernaut_0098"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
 			0,
-            29,
-            48,
-            8
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1473,
 			1,
-			242,
-			222
+			1597,
+			232,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0099"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            29,
-            48,
-            8
+			1,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1959,
-			1,
-			240,
-			222
+			703,
+			222,
+			231,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2477,49 +2477,49 @@ return {
 	["bossJuggernaut_0100"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            29,
-            49,
-            8
+			3,
+            26,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			237,
-			1436,
-			239,
-			222
+			1407,
+			1,
+			229,
+			215
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0101"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            24,
-            46,
-            8
+			3,
+            22,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			741,
-			1,
-			242,
-			227
+			236,
+			228,
+			231,
+			219
 		},
 		alias = {},
 		textureRotated = false
@@ -2527,24 +2527,24 @@ return {
 	["bossJuggernaut_0102"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            24,
-            43,
-            8
+			3,
+            22,
+            41,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			494,
+			706,
 			1,
-			245,
-			227
+			234,
+			219
 		},
 		alias = {},
 		textureRotated = false
@@ -2552,74 +2552,74 @@ return {
 	["bossJuggernaut_0103"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
+			3,
             22,
-            43,
-            8
+            41,
+            7
 		},
 		a_size = {
 			2617,
-			2041
-		},
-		f_quad = {
-			247,
-			1,
-			245,
-			229
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_0104"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			2,
-            22,
-            43,
-            8
-		},
-		a_size = {
-			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			945,
-			245,
-			229
+			1361,
+			234,
+			219
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["bossJuggernaut_0105"] = {
+	["bossJuggernaut_0104"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            19,
-            44,
-            8
+			3,
+            22,
+            40,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
+		},
+		f_quad = {
+			469,
+			1,
+			235,
+			219
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["bossJuggernaut_0105"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			3,
+            18,
+            42,
+            7
+		},
+		a_size = {
+			2617,
+			1877
 		},
 		f_quad = {
 			1,
 			1,
-			244,
-			232
+			233,
+			223
 		},
 		alias = {},
 		textureRotated = false
@@ -2627,49 +2627,49 @@ return {
 	["bossJuggernaut_0106"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            19,
-            46,
-            8
+			1,
+            18,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			1192,
-			242,
-			232
+			226,
+			233,
+			223
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0107"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            17,
-            46,
-            8
+			3,
+            16,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
+			236,
 			1,
-			235,
-			242,
-			234
+			231,
+			225
 		},
 		alias = {},
 		textureRotated = false
@@ -2677,74 +2677,74 @@ return {
 	["bossJuggernaut_0108"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            17,
-            49,
-            8
+			3,
+            16,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			1436,
-			239,
-			234
+			907,
+			229,
+			225
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0109"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            16,
-            49,
-            8
+			3,
+            15,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			1677,
-			239,
-			235
+			451,
+			229,
+			226
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0110"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            16,
-            48,
-            8
+			3,
+            15,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			471,
-			240,
-			235
+			679,
+			229,
+			226
 		},
 		alias = {},
 		textureRotated = false
@@ -2752,24 +2752,24 @@ return {
 	["bossJuggernaut_0111"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
+			3,
             16,
-            48,
-            8
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			708,
-			240,
-			235
+			1134,
+			229,
+			225
 		},
 		alias = {},
 		textureRotated = false
@@ -2777,24 +2777,24 @@ return {
 	["bossJuggernaut_0112"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
+			3,
             16,
-            48,
-            8
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
 			1,
-			708,
-			240,
-			235
+			1134,
+			229,
+			225
 		},
 		alias = {},
 		textureRotated = false
@@ -2802,24 +2802,24 @@ return {
 	["bossJuggernaut_0113"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            29,
-            48,
-            8
+			3,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2201,
+			1638,
 			1,
-			240,
-			222
+			229,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2827,49 +2827,49 @@ return {
 	["bossJuggernaut_0114"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			2,
-            29,
-            48,
-            8
+			3,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			238,
-			1677,
-			240,
-			222
+			1869,
+			1,
+			229,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0115"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			6,
-            29,
-            48,
-            8
+			5,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			481,
-			801,
-			236,
-			222
+			2330,
+			1,
+			227,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -2877,124 +2877,124 @@ return {
 	["bossJuggernaut_0116"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			26,
-            24,
-            48,
-            8
+			25,
+            23,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			430,
-			1191,
-			216,
-			227
+			1371,
+			405,
+			207,
+			218
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0117"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			40,
-            27,
-            48,
-            8
+			38,
+            26,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			870,
-			1419,
-			202,
-			224
+			611,
+			618,
+			194,
+			215
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0118"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			50,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1638,
-			997,
-			189,
-			222
+			1932,
+			779,
+			182,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0119"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            48,
-            8
+			50,
+            27,
+            46,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1638,
-			997,
-			189,
-			222
+			1932,
+			779,
+			182,
+			214
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0120"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1640,
-			1445,
-			187,
-			222
+			1748,
+			963,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -3002,24 +3002,24 @@ return {
 	["bossJuggernaut_0121"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1640,
-			1445,
-			187,
-			222
+			1748,
+			963,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = false
@@ -3027,24 +3027,24 @@ return {
 	["bossJuggernaut_0122"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			999,
-			187,
-			222
+			834,
+			1415,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -3052,24 +3052,24 @@ return {
 	["bossJuggernaut_0123"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            50,
-            8
+			50,
+            27,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			999,
-			187,
-			222
+			834,
+			1415,
+			180,
+			214
 		},
 		alias = {},
 		textureRotated = true
@@ -3077,199 +3077,199 @@ return {
 	["bossJuggernaut_0124"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            54,
-            8
+			52,
+            27,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			1188,
-			183,
-			222
+			1569,
+			1205,
+			174,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0125"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            29,
-            54,
-            8
+			52,
+            27,
+            52,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2021,
-			1188,
-			183,
-			222
+			1569,
+			1205,
+			174,
+			214
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0126"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            8
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1829,
-			1667,
-			175,
-			221
+			1745,
+			1347,
+			166,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0127"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            9
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2005,
-			1373,
-			175,
-			220
+			1959,
+			1388,
+			166,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0128"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			57,
-            30,
-            58,
-            9
+			56,
+            29,
+            56,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2005,
-			1373,
-			175,
-			220
+			1959,
+			1388,
+			166,
+			212
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0129"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			56,
-            16,
-            55,
-            9
+			54,
+            15,
+            53,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			650,
-			1025,
-			179,
-			234
+			232,
+			451,
+			171,
+			226
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0130"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			55,
-            16,
-            53,
-            9
+			53,
+            15,
+            51,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1199,
-			420,
-			182,
-			234
+			232,
+			679,
+			174,
+			226
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_0131"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			55,
-            9,
-            52,
-            9
+			53,
+            7,
+            50,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			494,
-			230,
-			183,
-			241
+			469,
+			438,
+			175,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3277,24 +3277,24 @@ return {
 	["bossJuggernaut_0132"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			54,
-            9,
-            52,
-            9
+			51,
+            7,
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			737,
-			230,
-			184,
-			241
+			705,
+			438,
+			178,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3302,24 +3302,24 @@ return {
 	["bossJuggernaut_0133"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			53,
-            6,
-            51,
-            9
+			51,
+            7,
+            49,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			232,
-			945,
-			186,
-			244
+			222,
+			1361,
+			178,
+			234
 		},
 		alias = {},
 		textureRotated = false
@@ -3327,24 +3327,24 @@ return {
 	["bossJuggernaut_0134"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			52,
-            6,
-            50,
-            9
+			50,
+            7,
+            48,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			985,
-			225,
-			188,
-			244
+			942,
+			217,
+			180,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3352,24 +3352,24 @@ return {
 	["bossJuggernaut_0135"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			52,
+			50,
             14,
-            49,
+            47,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			489,
-			610,
-			189,
-			238
+			1178,
+			217,
+			181,
+			227
 		},
 		alias = {},
 		textureRotated = true
@@ -3377,24 +3377,24 @@ return {
 	["bossJuggernaut_0136"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			52,
+			50,
             14,
-            49,
+            47,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			729,
-			610,
-			189,
-			238
+			2269,
+			604,
+			181,
+			227
 		},
 		alias = {},
 		textureRotated = true
@@ -3402,24 +3402,24 @@ return {
 	["bossJuggernaut_0137"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            24,
-            48,
+			49,
+            23,
+            46,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			462,
-			1658,
-			191,
-			228
+			232,
+			1131,
+			183,
+			218
 		},
 		alias = {},
 		textureRotated = false
@@ -3427,74 +3427,74 @@ return {
 	["bossJuggernaut_0138"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            20,
-            47,
+			49,
+            19,
+            45,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2207,
-			225,
-			192,
-			232
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0139"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			51,
-            17,
-            47,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			461,
-			1420,
-			192,
-			236
+			232,
+			907,
+			184,
+			222
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["bossJuggernaut_0140"] = {
+	["bossJuggernaut_0139"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			51,
-            14,
-            47,
-            6
+			49,
+            16,
+            45,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			734,
-			416,
-			192,
-			239
+			2042,
+			593,
+			184,
+			225
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0140"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			49,
+            13,
+            45,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1812,
+			593,
+			184,
+			228
 		},
 		alias = {},
 		textureRotated = true
@@ -3502,74 +3502,74 @@ return {
 	["bossJuggernaut_0141"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            12,
-            47,
-            6
+			48,
+            11,
+            45,
+            5
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			491,
-			415,
-			193,
-			241
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bossJuggernaut_0142"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			290,
-			259
-		},
-		trim = {
-			50,
-            10,
-            47,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			235,
-			1191,
-			193,
-			243
+			217,
+			1597,
+			185,
+			232
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["bossJuggernaut_0143"] = {
+	["bossJuggernaut_0142"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            47,
-            9
+			48,
+            9,
+            45,
+            5
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1231,
-			225,
-			193,
-			242
+			1407,
+			218,
+			185,
+			234
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_0143"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			278,
+			248
+		},
+		trim = {
+			47,
+            8,
+            45,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			2284,
+			416,
+			186,
+			233
 		},
 		alias = {},
 		textureRotated = true
@@ -3577,24 +3577,24 @@ return {
 	["bossJuggernaut_0144"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            46,
-            9
+			48,
+            7,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1475,
-			225,
-			194,
-			242
+			1643,
+			217,
+			186,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3602,24 +3602,24 @@ return {
 	["bossJuggernaut_0145"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            46,
-            9
+			48,
+            7,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1719,
-			225,
-			194,
-			242
+			1879,
+			217,
+			186,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3627,24 +3627,24 @@ return {
 	["bossJuggernaut_0146"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            46,
-            9
+			48,
+            7,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1963,
-			225,
-			194,
-			242
+			2115,
+			217,
+			186,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3652,24 +3652,24 @@ return {
 	["bossJuggernaut_0147"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            46,
-            9
+			48,
+            7,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			247,
-			232,
-			194,
-			242
+			1812,
+			405,
+			186,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3677,24 +3677,24 @@ return {
 	["bossJuggernaut_0148"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			50,
-            8,
-            46,
-            9
+			48,
+            7,
+            44,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			245,
-			428,
-			194,
-			242
+			2048,
+			405,
+			186,
+			234
 		},
 		alias = {},
 		textureRotated = true
@@ -3702,108 +3702,108 @@ return {
 	["bossJuggernaut_0149"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            131,
-            68,
+			60,
+            125,
+            64,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1,
-			1918,
-			159,
-			121
+			2148,
+			779,
+			154,
+			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0150"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			63,
-            131,
-            68,
+			60,
+            125,
+            64,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1,
-			1918,
-			159,
-			121
+			2148,
+			779,
+			154,
+			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0151"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            143,
-            68,
+			59,
+            136,
+            64,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			304,
-			1919,
-			161,
-			109
+			2510,
+			1586,
+			155,
+			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_0152"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			290,
-			259
+			278,
+			248
 		},
 		trim = {
-			61,
-            143,
-            68,
+			59,
+            136,
+            64,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			304,
-			1919,
-			161,
-			109
+			2510,
+			1586,
+			155,
+			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bomb_"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			46,
-			46
+			44,
+			44
 		},
 		trim = {
 			0,
@@ -3813,13 +3813,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2310,
-			1922,
-			46,
-			46
+			2114,
+			1782,
+			44,
+			44
 		},
 		alias = {},
 		textureRotated = false
@@ -3827,49 +3827,49 @@ return {
 	["bossJuggernaut_bombDecal_0001"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			53,
-            64,
-            53,
-            29
+			50,
+            61,
+            49,
+            27
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1773,
-			1893,
+			1843,
+			1820,
 			56,
-			52
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0002"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			47,
-            48,
+			45,
             46,
-            23
+            44,
+            22
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1081,
-			1930,
-			69,
-			74
+			1044,
+			1636,
+			66,
+			71
 		},
 		alias = {},
 		textureRotated = false
@@ -3877,49 +3877,49 @@ return {
 	["bossJuggernaut_bombDecal_0003"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			29,
-            36,
-            36,
-            23
+			27,
+            34,
+            34,
+            22
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2519,
-			1546,
-			97,
-			86
+			2525,
+			1743,
+			94,
+			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0004"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			16,
-            20,
-            23,
-            16
+			14,
+            19,
+            22,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2170,
-			1614,
-			123,
-			109
+			2497,
+			1379,
+			119,
+			105
 		},
 		alias = {},
 		textureRotated = false
@@ -3927,24 +3927,24 @@ return {
 	["bossJuggernaut_bombDecal_0005"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			16,
-            20,
-            23,
-            16
+			14,
+            19,
+            22,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2170,
-			1614,
-			123,
-			109
+			2497,
+			1379,
+			119,
+			105
 		},
 		alias = {},
 		textureRotated = false
@@ -3952,24 +3952,24 @@ return {
 	["bossJuggernaut_bombDecal_0006"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			6,
+			7,
             14,
-            16,
+            15,
             10
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			162,
-			1919,
-			140,
-			121
+			1518,
+			1635,
+			133,
+			115
 		},
 		alias = {},
 		textureRotated = false
@@ -3977,24 +3977,24 @@ return {
 	["bossJuggernaut_bombDecal_0007"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			6,
+			7,
             14,
-            16,
+            15,
             10
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			162,
-			1919,
-			140,
-			121
+			1518,
+			1635,
+			133,
+			115
 		},
 		alias = {},
 		textureRotated = false
@@ -4002,24 +4002,24 @@ return {
 	["bossJuggernaut_bombDecal_0008"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
             3,
-            9,
-            2
+            8,
+            3
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2245,
-			1222,
-			153,
-			140
+			1369,
+			1629,
+			147,
+			133
 		},
 		alias = {},
 		textureRotated = false
@@ -4027,24 +4027,24 @@ return {
 	["bossJuggernaut_bombDecal_0009"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
             3,
-            9,
-            2
+            8,
+            3
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2245,
-			1222,
-			153,
-			140
+			1369,
+			1629,
+			147,
+			133
 		},
 		alias = {},
 		textureRotated = false
@@ -4052,58 +4052,58 @@ return {
 	["bossJuggernaut_bombDecal_0010"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
             0,
-            2,
+            1,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2006,
-			1742,
-			160,
-			145
+			806,
+			1722,
+			154,
+			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0011"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
             0,
-            2,
+            1,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2006,
-			1742,
-			160,
-			145
+			806,
+			1722,
+			154,
+			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0012"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
@@ -4113,22 +4113,22 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			467,
-			1888,
-			162,
-			145
+			2369,
+			1594,
+			155,
+			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0013"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
@@ -4138,22 +4138,22 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			467,
-			1888,
-			162,
-			145
+			2369,
+			1594,
+			155,
+			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0014"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
@@ -4163,13 +4163,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2006,
-			1595,
-			162,
-			145
+			1212,
+			1598,
+			155,
+			139
 		},
 		alias = {},
 		textureRotated = false
@@ -4177,8 +4177,8 @@ return {
 	["bossJuggernaut_bombDecal_0015"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			0,
@@ -4188,13 +4188,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2006,
-			1595,
-			162,
-			145
+			1212,
+			1598,
+			155,
+			139
 		},
 		alias = {},
 		textureRotated = false
@@ -4202,24 +4202,24 @@ return {
 	["bossJuggernaut_bombDecal_0016"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			2,
             0,
             2,
-            16
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2308,
-			643,
-			158,
-			129
+			1236,
+			1042,
+			151,
+			124
 		},
 		alias = {},
 		textureRotated = true
@@ -4227,24 +4227,24 @@ return {
 	["bossJuggernaut_bombDecal_0017"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
 			2,
             0,
             2,
-            16
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2308,
-			643,
-			158,
-			129
+			1236,
+			1042,
+			151,
+			124
 		},
 		alias = {},
 		textureRotated = true
@@ -4252,533 +4252,533 @@ return {
 	["bossJuggernaut_bombDecal_0018"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			24,
-            11,
-            36,
-            16
+			23,
+            10,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1614,
-			102,
-			118
+			2497,
+			1486,
+			98,
+			114
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0019"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			24,
-            11,
-            36,
-            16
+			23,
+            10,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1614,
-			102,
-			118
+			2497,
+			1486,
+			98,
+			114
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0020"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0021"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0022"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0023"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0024"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0025"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0026"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0027"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0028"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0029"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0030"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0031"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0032"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0033"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0034"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_bombDecal_0035"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			162,
-			145
+			155,
+			139
 		},
 		trim = {
-			34,
-            87,
-            36,
-            16
+			32,
+            83,
+            34,
+            15
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1710,
-			92,
-			42
+			2575,
+			604,
+			89,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0001"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			2,
-            6,
+			1,
+            4,
             7,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2182,
-			1536,
-			142,
-			76
+			2498,
+			604,
+			136,
+			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0002"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			2,
-            6,
+			1,
+            4,
             7,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2182,
-			1536,
-			142,
+			2498,
+			604,
+			136,
+			75
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_smoke_0003"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			144,
+			79
+		},
+		trim = {
+			0,
+            3,
+            0,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1734,
+			1682,
+			144,
 			76
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["bossJuggernaut_smoke_0003"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			151,
-			82
-		},
-		trim = {
-			0,
-            3,
-            0,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2315,
-			1364,
-			151,
-			79
-		},
-		alias = {},
-		textureRotated = true
-	},
 	["bossJuggernaut_smoke_0004"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
 			0,
@@ -4788,97 +4788,122 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2315,
-			1364,
-			151,
-			79
+			1734,
+			1682,
+			144,
+			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bossJuggernaut_smoke_0005"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
 			0,
-            0,
+            1,
             2,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			243,
-			848,
-			149,
-			82
+			2519,
+			416,
+			142,
+			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0006"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
 			0,
-            0,
+            1,
             2,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			243,
-			848,
-			149,
-			82
+			2519,
+			416,
+			142,
+			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0007"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
 			0,
             0,
-            4,
+            3,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2396,
-			1462,
-			147,
-			82
+			1653,
+			1635,
+			141,
+			79
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0008"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
+		},
+		trim = {
+			0,
+            0,
+            3,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1653,
+			1635,
+			141,
+			79
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["bossJuggernaut_smoke_0009"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			144,
+			79
 		},
 		trim = {
 			0,
@@ -4888,38 +4913,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2396,
-			1462,
-			147,
-			82
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bossJuggernaut_smoke_0009"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			151,
-			82
-		},
-		trim = {
-			0,
-            0,
-            5,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1081,
-			1846,
-			146,
-			82
+			608,
+			1781,
+			140,
+			79
 		},
 		alias = {},
 		textureRotated = false
@@ -4927,24 +4927,24 @@ return {
 	["bossJuggernaut_smoke_0010"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
 			0,
             0,
-            5,
+            4,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1081,
-			1846,
-			146,
-			82
+			608,
+			1781,
+			140,
+			79
 		},
 		alias = {},
 		textureRotated = false
@@ -4952,74 +4952,74 @@ return {
 	["bossJuggernaut_smoke_0011"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			10,
+			11,
             0,
-            13,
-            30
+            12,
+            27
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1643,
-			1893,
-			128,
+			806,
+			1598,
+			121,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0012"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			10,
+			11,
             0,
-            13,
-            30
+            12,
+            27
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1643,
-			1893,
-			128,
+			806,
+			1598,
+			121,
 			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bossJuggernaut_smoke_0013"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			15,
-            9,
-            15,
-            33
+			14,
+            8,
+            14,
+            32
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2396,
-			1546,
-			121,
-			40
+			1,
+			1831,
+			116,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -5027,24 +5027,24 @@ return {
 	["bossJuggernaut_smoke_0014"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			151,
-			82
+			144,
+			79
 		},
 		trim = {
-			15,
-            9,
-            15,
-            33
+			14,
+            8,
+            14,
+            32
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2396,
-			1546,
-			121,
-			40
+			1,
+			1831,
+			116,
+			39
 		},
 		alias = {},
 		textureRotated = false
@@ -5052,24 +5052,24 @@ return {
 	["golemHead_0001"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2423,
-			1807,
-			59,
-			52
+			1607,
+			1819,
+			57,
+			50
 		},
 		alias = {},
 		textureRotated = true
@@ -5077,24 +5077,24 @@ return {
 	["golemHead_0002"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2423,
-			1807,
-			59,
-			52
+			1607,
+			1819,
+			57,
+			50
 		},
 		alias = {},
 		textureRotated = true
@@ -5102,74 +5102,74 @@ return {
 	["golemHead_0003"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2420,
-			1868,
-			59,
-			56
+			1441,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0004"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2420,
-			1868,
-			59,
-			56
+			1441,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0005"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            2,
+			8,
+            1,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2559,
-			1754,
-			59,
-			57
+			1383,
+			1819,
+			57,
+			56
 		},
 		alias = {},
 		textureRotated = true
@@ -5177,24 +5177,24 @@ return {
 	["golemHead_0006"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            2,
+			8,
+            1,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2559,
-			1754,
-			59,
-			57
+			1383,
+			1819,
+			57,
+			56
 		},
 		alias = {},
 		textureRotated = true
@@ -5202,149 +5202,149 @@ return {
 	["golemHead_0007"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2481,
-			1868,
-			59,
-			56
+			1497,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0008"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            6,
+			8,
+            5,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2477,
-			1813,
-			59,
-			53
+			1553,
+			1819,
+			57,
+			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0009"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            6,
+			8,
+            5,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2477,
-			1813,
-			59,
-			53
+			1553,
+			1819,
+			57,
+			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0010"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			7,
-            10,
-            13,
-            9
+            11,
+            12,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1964,
-			1965,
-			62,
-			49
+			922,
+			1672,
+			60,
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0011"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			7,
-            10,
-            13,
-            9
+            11,
+            12,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1964,
-			1965,
-			62,
-			49
+			922,
+			1672,
+			60,
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0012"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2423,
-			1807,
-			59,
-			52
+			1607,
+			1819,
+			57,
+			50
 		},
 		alias = {},
 		textureRotated = true
@@ -5352,24 +5352,24 @@ return {
 	["golemHead_0013"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2423,
-			1807,
-			59,
-			52
+			1607,
+			1819,
+			57,
+			50
 		},
 		alias = {},
 		textureRotated = true
@@ -5377,74 +5377,74 @@ return {
 	["golemHead_0014"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2420,
-			1868,
-			59,
-			56
+			1441,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0015"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2420,
-			1868,
-			59,
-			56
+			1441,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0016"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            2,
+			8,
+            1,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2559,
-			1754,
-			59,
-			57
+			1383,
+			1819,
+			57,
+			56
 		},
 		alias = {},
 		textureRotated = true
@@ -5452,24 +5452,24 @@ return {
 	["golemHead_0017"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            2,
+			8,
+            1,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2559,
-			1754,
-			59,
-			57
+			1383,
+			1819,
+			57,
+			56
 		},
 		alias = {},
 		textureRotated = true
@@ -5477,249 +5477,249 @@ return {
 	["golemHead_0018"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             3,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2481,
-			1868,
-			59,
-			56
+			1497,
+			1819,
+			57,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0019"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            6,
+			8,
+            5,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2477,
-			1813,
-			59,
-			53
+			1553,
+			1819,
+			57,
+			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0020"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            6,
+			8,
+            5,
             14,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2477,
-			1813,
-			59,
-			53
+			1553,
+			1819,
+			57,
+			52
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0021"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			7,
-            10,
-            13,
-            9
+            11,
+            12,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1964,
-			1965,
-			62,
-			49
+			922,
+			1672,
+			60,
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0022"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			7,
-            10,
-            13,
-            9
+            11,
+            12,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1964,
-			1965,
-			62,
-			49
+			922,
+			1672,
+			60,
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0023"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            9,
-            13,
-            9
+			10,
+            8,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2438,
-			1744,
-			60,
-			50
+			2228,
+			1819,
+			58,
+			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0024"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            9,
-            13,
-            9
+			10,
+            8,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2438,
-			1744,
-			60,
-			50
+			2228,
+			1819,
+			58,
+			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0025"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			10,
-            6,
-            13,
-            9
+            7,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2482,
-			1926,
-			59,
-			53
+			1444,
+			1764,
+			58,
+			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0026"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			10,
-            6,
-            13,
-            9
+            7,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2482,
-			1926,
-			59,
-			53
+			1444,
+			1764,
+			58,
+			50
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0027"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            5,
-            13,
-            9
+			10,
+            4,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2361,
-			1807,
-			60,
-			54
+			1324,
+			1764,
+			58,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5727,24 +5727,24 @@ return {
 	["golemHead_0028"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            5,
-            13,
-            9
+			10,
+            4,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2361,
-			1807,
-			60,
-			54
+			1324,
+			1764,
+			58,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5752,49 +5752,49 @@ return {
 	["golemHead_0029"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             3,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2358,
-			1863,
-			60,
-			56
+			750,
+			1781,
+			58,
+			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0030"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             7,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2308,
-			803,
-			60,
-			52
+			2168,
+			1819,
+			58,
+			50
 		},
 		alias = {},
 		textureRotated = false
@@ -5802,24 +5802,24 @@ return {
 	["golemHead_0031"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             7,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2308,
-			803,
-			60,
-			52
+			2168,
+			1819,
+			58,
+			50
 		},
 		alias = {},
 		textureRotated = false
@@ -5827,24 +5827,24 @@ return {
 	["golemHead_0032"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            12,
-            13,
-            9
+			10,
+            11,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2358,
-			1921,
-			60,
-			47
+			984,
+			1672,
+			58,
+			46
 		},
 		alias = {},
 		textureRotated = false
@@ -5852,24 +5852,24 @@ return {
 	["golemHead_0033"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            12,
-            13,
-            9
+			10,
+            11,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2358,
-			1921,
-			60,
-			47
+			984,
+			1672,
+			58,
+			46
 		},
 		alias = {},
 		textureRotated = false
@@ -5877,24 +5877,24 @@ return {
 	["golemHead_0034"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            9,
-            13,
-            9
+			10,
+            8,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2538,
-			1815,
-			60,
-			50
+			2288,
+			1819,
+			58,
+			49
 		},
 		alias = {},
 		textureRotated = false
@@ -5902,24 +5902,24 @@ return {
 	["golemHead_0035"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            9,
-            13,
-            9
+			10,
+            8,
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2538,
-			1815,
-			60,
-			50
+			2288,
+			1819,
+			58,
+			49
 		},
 		alias = {},
 		textureRotated = false
@@ -5927,24 +5927,24 @@ return {
 	["golemHead_0036"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             4,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2370,
-			803,
-			60,
-			55
+			1384,
+			1764,
+			58,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5952,24 +5952,24 @@ return {
 	["golemHead_0037"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             4,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2370,
-			803,
-			60,
-			55
+			1384,
+			1764,
+			58,
+			53
 		},
 		alias = {},
 		textureRotated = false
@@ -5977,74 +5977,74 @@ return {
 	["golemHead_0038"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             3,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2542,
-			1867,
-			60,
-			56
+			1723,
+			1822,
+			58,
+			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0039"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             3,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2542,
-			1867,
-			60,
-			56
+			1723,
+			1822,
+			58,
+			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0040"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			10,
             3,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2420,
-			1926,
-			60,
-			56
+			1783,
+			1822,
+			58,
+			54
 		},
 		alias = {},
 		textureRotated = false
@@ -6052,249 +6052,249 @@ return {
 	["golemHead_0041"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2537,
-			1929,
+			2566,
+			804,
 			60,
-			52
+			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0042"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             7,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2537,
-			1929,
+			2566,
+			804,
 			60,
-			52
+			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0043"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             10,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2244,
-			1856,
+			860,
+			1672,
 			60,
-			49
+			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0044"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			8,
             10,
-            13,
-            9
+            11,
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2244,
-			1856,
+			860,
+			1672,
 			60,
-			49
+			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0045"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2310,
-			1970,
-			59,
-			52
+			2565,
+			278,
+			58,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0046"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2415,
-			1984,
-			59,
-			52
+			2565,
+			338,
+			58,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0047"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2415,
-			1984,
-			59,
-			52
+			2565,
+			338,
+			58,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0048"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            13,
+			7,
+            12,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1154,
-			1994,
-			59,
+			2064,
+			1794,
+			58,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0049"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            13,
+			7,
+            12,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1154,
-			1994,
-			59,
+			2064,
+			1794,
+			58,
 			46
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0050"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             14,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1596,
-			1914,
-			59,
-			45
+			2114,
+			1722,
+			58,
+			44
 		},
 		alias = {},
 		textureRotated = true
@@ -6302,24 +6302,24 @@ return {
 	["golemHead_0051"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             14,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1596,
-			1914,
-			59,
-			45
+			2114,
+			1722,
+			58,
+			44
 		},
 		alias = {},
 		textureRotated = true
@@ -6327,24 +6327,24 @@ return {
 	["golemHead_0052"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			14,
+			13,
             12,
             12,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2212,
-			1984,
-			56,
-			47
+			1896,
+			1819,
+			54,
+			46
 		},
 		alias = {},
 		textureRotated = true
@@ -6352,24 +6352,24 @@ return {
 	["golemHead_0053"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			14,
+			13,
             12,
             12,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2212,
-			1984,
-			56,
-			47
+			1896,
+			1819,
+			54,
+			46
 		},
 		alias = {},
 		textureRotated = true
@@ -6377,23 +6377,23 @@ return {
 	["golemHead_0054"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			19,
-            7,
-            21,
-            9
+			18,
+            6,
+            20,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2371,
-			1970,
-			42,
+			2575,
+			750,
+			41,
 			52
 		},
 		alias = {},
@@ -6402,23 +6402,23 @@ return {
 	["golemHead_0055"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			19,
-            7,
-            21,
-            9
+			18,
+            6,
+            20,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2371,
-			1970,
-			42,
+			2575,
+			750,
+			41,
 			52
 		},
 		alias = {},
@@ -6427,23 +6427,23 @@ return {
 	["golemHead_0056"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			11,
-            8,
-            11,
-            9
+			10,
+            7,
+            10,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2242,
-			1725,
-			60,
+			2565,
+			217,
+			59,
 			51
 		},
 		alias = {},
@@ -6452,23 +6452,23 @@ return {
 	["golemHead_0057"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			11,
-            8,
-            11,
-            9
+			10,
+            7,
+            10,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2242,
-			1725,
-			60,
+			2565,
+			217,
+			59,
 			51
 		},
 		alias = {},
@@ -6477,199 +6477,199 @@ return {
 	["golemHead_0058"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			19,
+			18,
             5,
-            21,
-            9
+            20,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2476,
-			1987,
-			42,
-			54
+			2575,
+			695,
+			41,
+			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0059"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			19,
+			18,
             5,
-            21,
-            9
+            20,
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2476,
-			1987,
-			42,
-			54
+			2575,
+			695,
+			41,
+			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0060"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			14,
+			13,
             12,
             12,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2261,
-			1984,
-			56,
-			47
+			2112,
+			1828,
+			54,
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0061"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			14,
+			13,
             12,
             12,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2261,
-			1984,
-			56,
+			2112,
+			1828,
+			54,
+			46
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0062"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            11,
+            14,
+            7
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1530,
+			988,
+			58,
 			47
 		},
 		alias = {},
 		textureRotated = true
 	},
-	["golemHead_0062"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			9,
-            13,
-            14,
-            9
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1215,
-			1994,
-			59,
-			46
-		},
-		alias = {},
-		textureRotated = false
-	},
 	["golemHead_0063"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
-            13,
+			7,
+            11,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1215,
-			1994,
-			59,
-			46
+			1530,
+			988,
+			58,
+			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0064"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2415,
-			1984,
-			59,
-			52
+			2565,
+			338,
+			58,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0065"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            2
+            1
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2299,
-			857,
-			59,
-			59
+			1323,
+			1819,
+			58,
+			57
 		},
 		alias = {},
 		textureRotated = false
@@ -6677,199 +6677,199 @@ return {
 	["golemHead_0066"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1533,
-			1914,
-			59,
-			61
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0067"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			7,
-            5,
-            10,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1439,
-			1975,
-			65,
-			63
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0068"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			7,
-            5,
-            10,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1439,
-			1975,
-			65,
-			63
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0069"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			6,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2326,
-			1517,
-			67,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0070"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			6,
-            0,
-            9,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2326,
-			1517,
-			67,
-			68
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0071"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			7,
-            7,
-            9,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2087,
-			1965,
-			66,
-			61
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["golemHead_0072"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			82,
-			68
-		},
-		trim = {
-			7,
-            7,
-            6,
-            0
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2367,
-			1744,
-			69,
-			61
+			1944,
+			1794,
+			58,
+			58
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["golemHead_0073"] = {
+	["golemHead_0067"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
+			7,
             3,
-            6,
+            10,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1234,
-			1921,
-			70,
+			405,
+			518,
+			62,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0068"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
 			65
+		},
+		trim = {
+			7,
+            3,
+            10,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			405,
+			518,
+			62,
+			62
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0069"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            0,
+            8,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1190,
+			1739,
+			64,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0070"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            0,
+            8,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1190,
+			1739,
+			64,
+			65
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0071"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            7,
+            8,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1190,
+			1806,
+			64,
+			58
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["golemHead_0072"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            7,
+            5,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			548,
+			1809,
+			67,
+			58
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["golemHead_0073"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			79,
+			65
+		},
+		trim = {
+			7,
+            3,
+            5,
+            0
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			405,
+			449,
+			67,
+			62
 		},
 		alias = {},
 		textureRotated = true
@@ -6877,24 +6877,24 @@ return {
 	["golemHead_0074"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
+			7,
             3,
             10,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1371,
-			1975,
-			66,
-			65
+			1659,
+			1778,
+			62,
+			62
 		},
 		alias = {},
 		textureRotated = false
@@ -6902,249 +6902,249 @@ return {
 	["golemHead_0075"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0076"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0077"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0078"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0079"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0080"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0081"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0082"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0083"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
-            6,
+			7,
+            7,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1504,
-			1975,
-			65,
-			62
+			1798,
+			1760,
+			61,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0084"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
+			7,
             0,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1301,
-			1975,
-			65,
-			68
+			1256,
+			1802,
+			61,
+			65
 		},
 		alias = {},
 		textureRotated = true
@@ -7152,24 +7152,24 @@ return {
 	["golemHead_0085"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			6,
+			7,
             0,
             11,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1301,
-			1975,
-			65,
-			68
+			1256,
+			1802,
+			61,
+			65
 		},
 		alias = {},
 		textureRotated = true
@@ -7177,49 +7177,49 @@ return {
 	["golemHead_0086"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1861,
-			59,
-			61
+			2004,
+			1794,
+			58,
+			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["golemHead_0087"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
             3
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2299,
-			918,
-			59,
-			58
+			1861,
+			1762,
+			58,
+			55
 		},
 		alias = {},
 		textureRotated = false
@@ -7227,99 +7227,99 @@ return {
 	["golemHead_0088"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			9,
+			7,
             7,
             14,
-            9
+            7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2310,
-			1970,
-			59,
-			52
+			2565,
+			278,
+			58,
+			51
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0089"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			3,
             0,
-            9,
-            6
+            8,
+            4
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1383,
-			1911,
-			70,
-			62
+			1127,
+			1695,
+			68,
+			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0090"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			3,
             0,
-            9,
-            6
+            8,
+            4
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2015,
-			1965,
-			70,
-			62
+			1127,
+			1765,
+			68,
+			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0091"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			2,
             0,
             4,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1455,
-			1914,
-			76,
-			59
+			1112,
+			1636,
+			73,
+			57
 		},
 		alias = {},
 		textureRotated = false
@@ -7327,8 +7327,8 @@ return {
 	["golemHead_0092"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			2,
@@ -7338,88 +7338,88 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1568,
-			1975,
-			76,
-			61
+			1008,
+			1798,
+			73,
+			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0093"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			2,
+			1,
             0,
-            2,
+            1,
             7
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1646,
-			1947,
-			78,
-			61
+			947,
+			1720,
+			77,
+			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0094"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
-			2,
+			1,
             0,
-            2,
-            7
+            1,
+            6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1726,
-			1947,
-			78,
-			61
+			1530,
+			614,
+			77,
+			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0095"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			4,
             0,
             0,
-            7
+            6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1806,
-			1961,
-			78,
-			61
+			2498,
+			742,
+			75,
+			59
 		},
 		alias = {},
 		textureRotated = false
@@ -7427,24 +7427,24 @@ return {
 	["golemHead_0096"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			4,
             0,
             0,
-            9
+            8
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			420,
-			924,
-			78,
-			59
+			2559,
+			1,
+			75,
+			57
 		},
 		alias = {},
 		textureRotated = true
@@ -7452,8 +7452,8 @@ return {
 	["golemHead_0097"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			2,
@@ -7463,22 +7463,22 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1152,
-			1930,
-			80,
-			62
+			1530,
+			693,
+			77,
+			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0098"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			2,
@@ -7488,22 +7488,22 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1301,
-			1911,
-			80,
-			62
+			2482,
+			877,
+			77,
+			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["golemHead_0099"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			3,
@@ -7513,13 +7513,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			953,
-			1961,
-			79,
-			62
+			947,
+			1799,
+			76,
+			59
 		},
 		alias = {},
 		textureRotated = true
@@ -7527,8 +7527,8 @@ return {
 	["golemHead_0100"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			82,
-			68
+			79,
+			65
 		},
 		trim = {
 			3,
@@ -7538,13 +7538,13 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1017,
-			1961,
-			79,
-			62
+			1007,
+			1720,
+			76,
+			59
 		},
 		alias = {},
 		textureRotated = true
@@ -7552,74 +7552,74 @@ return {
 	["imperialGuard_0001"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
-            6,
-            29,
+			29,
+            7,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2121,
-			1889,
-			58,
-			70
+			2298,
+			1760,
+			57,
+			66
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["imperialGuard_0002"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
+			29,
             6,
-            27,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2150,
-			1961,
-			60,
-			70
+			2160,
+			1760,
+			57,
+			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["imperialGuard_0003"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
-            2,
-            27,
+			29,
+            3,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2059,
-			1889,
-			60,
-			74
+			1068,
+			1709,
+			57,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -7627,49 +7627,49 @@ return {
 	["imperialGuard_0004"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
+			29,
             0,
-            27,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1886,
-			1965,
-			60,
-			76
+			2559,
+			78,
+			57,
+			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0005"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
+			29,
             3,
-            27,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1997,
-			1890,
-			60,
-			73
+			1068,
+			1781,
+			57,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -7677,24 +7677,24 @@ return {
 	["imperialGuard_0006"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
-            12,
-            27,
+			29,
+            11,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2233,
-			1790,
-			60,
-			64
+			2559,
+			153,
+			57,
+			62
 		},
 		alias = {},
 		textureRotated = false
@@ -7702,24 +7702,24 @@ return {
 	["imperialGuard_0007"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			22,
-            6,
-            32,
+			21,
+            7,
+            30,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2170,
-			1725,
-			63,
-			70
+			1256,
+			1739,
+			61,
+			66
 		},
 		alias = {},
 		textureRotated = true
@@ -7727,24 +7727,24 @@ return {
 	["imperialGuard_0008"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			22,
-            6,
-            32,
+			21,
+            7,
+            30,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2170,
-			1725,
-			63,
-			70
+			1256,
+			1739,
+			61,
+			66
 		},
 		alias = {},
 		textureRotated = true
@@ -7752,24 +7752,24 @@ return {
 	["imperialGuard_0009"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			22,
+			21,
             6,
-            32,
+            30,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2168,
-			1790,
-			63,
-			70
+			485,
+			1809,
+			61,
+			67
 		},
 		alias = {},
 		textureRotated = false
@@ -7777,24 +7777,24 @@ return {
 	["imperialGuard_0010"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			22,
+			21,
             6,
-            32,
+            30,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2168,
-			1790,
-			63,
-			70
+			485,
+			1809,
+			61,
+			67
 		},
 		alias = {},
 		textureRotated = false
@@ -7802,174 +7802,174 @@ return {
 	["imperialGuard_0011"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
-		},
-		trim = {
-			32,
-            6,
-            4,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2545,
-			1462,
-			81,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["imperialGuard_0012"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			32,
-            6,
-            4,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2545,
-			1462,
-			81,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["imperialGuard_0013"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			33,
-            7,
-            3,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1831,
-			1890,
-			81,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["imperialGuard_0014"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			33,
-            7,
-            3,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1831,
-			1890,
-			81,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["imperialGuard_0015"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			33,
-            7,
-            3,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1831,
-			1890,
-			81,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["imperialGuard_0016"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			33,
-            7,
-            3,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			1831,
-			1890,
-			81,
-			69
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["imperialGuard_0017"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			30,
             6,
-            27,
+            3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1734,
-			60,
-			70
+			404,
+			1809,
+			79,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["imperialGuard_0012"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			30,
+            6,
+            3,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			404,
+			1809,
+			79,
+			67
+		},
+		alias = {},
+		textureRotated = false
+	},
+	["imperialGuard_0013"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			31,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1880,
+			1682,
+			78,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["imperialGuard_0014"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			31,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1880,
+			1682,
+			78,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["imperialGuard_0015"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			31,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1880,
+			1682,
+			78,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["imperialGuard_0016"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			31,
+            7,
+            3,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1880,
+			1682,
+			78,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["imperialGuard_0017"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			29,
+            6,
+            26,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			2229,
+			1760,
+			57,
+			67
 		},
 		alias = {},
 		textureRotated = true
@@ -7977,24 +7977,24 @@ return {
 	["imperialGuard_0018"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			6,
+			4,
             3,
-            30,
+            29,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1914,
-			1890,
-			81,
-			73
+			2033,
+			1722,
+			79,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -8002,24 +8002,24 @@ return {
 	["imperialGuard_0019"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			6,
+			4,
             3,
-            30,
+            29,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1914,
-			1890,
-			81,
-			73
+			2033,
+			1722,
+			79,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -8027,24 +8027,24 @@ return {
 	["imperialGuard_0020"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			2,
-            2,
-            30,
+			1,
+            1,
+            29,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			394,
-			848,
-			85,
-			74
+			2482,
+			803,
+			82,
+			72
 		},
 		alias = {},
 		textureRotated = false
@@ -8052,24 +8052,24 @@ return {
 	["imperialGuard_0021"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			2,
-            2,
-            30,
+			1,
+            1,
+            29,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			394,
-			848,
-			85,
-			74
+			2482,
+			803,
+			82,
+			72
 		},
 		alias = {},
 		textureRotated = false
@@ -8077,24 +8077,24 @@ return {
 	["imperialGuard_0022"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
-            2,
-            32,
+            3,
+            29,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2491,
-			1634,
-			85,
-			74
+			1948,
+			1722,
+			83,
+			70
 		},
 		alias = {},
 		textureRotated = false
@@ -8102,24 +8102,24 @@ return {
 	["imperialGuard_0023"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			24,
+			23,
             0,
             3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2399,
-			1588,
-			90,
-			76
+			860,
+			1597,
+			86,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -8127,24 +8127,24 @@ return {
 	["imperialGuard_0024"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			24,
+			23,
             0,
             3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2399,
-			1588,
-			90,
-			76
+			860,
+			1597,
+			86,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -8152,24 +8152,24 @@ return {
 	["imperialGuard_0025"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			24,
+			23,
             0,
             3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2399,
-			1666,
-			90,
-			76
+			948,
+			1597,
+			86,
+			73
 		},
 		alias = {},
 		textureRotated = false
@@ -8177,24 +8177,24 @@ return {
 	["imperialGuard_0026"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			35,
+			33,
             0,
             3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			875,
-			1961,
-			79,
-			76
+			2543,
+			877,
+			76,
+			73
 		},
 		alias = {},
 		textureRotated = true
@@ -8202,24 +8202,24 @@ return {
 	["imperialGuard_0027"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			35,
+			33,
             0,
             3,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			875,
-			1961,
-			79,
-			76
+			2543,
+			877,
+			76,
+			73
 		},
 		alias = {},
 		textureRotated = true
@@ -8227,24 +8227,24 @@ return {
 	["imperialGuard_0028"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
+			29,
             6,
-            27,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1734,
-			60,
-			70
+			2229,
+			1760,
+			57,
+			67
 		},
 		alias = {},
 		textureRotated = true
@@ -8252,24 +8252,24 @@ return {
 	["imperialGuard_0029"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			30,
+			29,
             6,
-            27,
+            26,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1734,
-			60,
-			70
+			2229,
+			1760,
+			57,
+			67
 		},
 		alias = {},
 		textureRotated = true
@@ -8277,74 +8277,74 @@ return {
 	["imperialGuard_0030"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			20,
-            9,
-            40,
+			18,
+            8,
+            38,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2490,
-			1754,
-			57,
-			67
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["imperialGuard_0031"] = {
-		a_name = "go_stage106.dds",
-		size = {
-			117,
-			82
-		},
-		trim = {
-			13,
-            7,
-            43,
-            6
-		},
-		a_size = {
-			2617,
-			2041
-		},
-		f_quad = {
-			2181,
-			1862,
-			61,
-			69
+			1518,
+			1752,
+			56,
+			65
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["imperialGuard_0032"] = {
+	["imperialGuard_0031"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
-			7,
-            12,
-            47,
+			12,
+            7,
+            41,
             6
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2295,
-			1796,
-			63,
-			64
+			1576,
+			1752,
+			59,
+			66
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["imperialGuard_0032"] = {
+		a_name = "go_stage106.dds",
+		size = {
+			112,
+			79
+		},
+		trim = {
+			7,
+            11,
+            45,
+            6
+		},
+		a_size = {
+			2617,
+			1877
+		},
+		f_quad = {
+			1734,
+			1760,
+			60,
+			62
 		},
 		alias = {},
 		textureRotated = true
@@ -8352,49 +8352,49 @@ return {
 	["imperialGuard_0033"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
-            38,
-            44,
+            37,
+            42,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1229,
-			1846,
-			73,
-			44
+			2519,
+			560,
+			70,
+			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0034"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
             48,
-            46,
+            42,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1081,
-			2006,
-			71,
-			34
+			119,
+			1831,
+			70,
+			31
 		},
 		alias = {},
 		textureRotated = false
@@ -8402,24 +8402,24 @@ return {
 	["imperialGuard_0035"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
             48,
-            46,
+            42,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			1081,
-			2006,
-			71,
-			34
+			119,
+			1831,
+			70,
+			31
 		},
 		alias = {},
 		textureRotated = false
@@ -8427,133 +8427,133 @@ return {
 	["imperialGuard_0036"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
+            42,
             44,
-            46,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2578,
-			1634,
-			71,
-			38
+			2525,
+			1839,
+			68,
+			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0037"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
+            42,
             44,
-            46,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2578,
-			1634,
-			71,
-			38
+			2525,
+			1839,
+			68,
+			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0038"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
+            42,
             44,
-            46,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2578,
-			1634,
-			71,
-			38
+			2525,
+			1839,
+			68,
+			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0039"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
+            42,
             44,
-            46,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2578,
-			1634,
-			71,
-			38
+			2525,
+			1839,
+			68,
+			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["imperialGuard_0040"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			117,
-			82
+			112,
+			79
 		},
 		trim = {
 			0,
+            42,
             44,
-            46,
             0
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2578,
-			1634,
-			71,
-			38
+			2525,
+			1839,
+			68,
+			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage6_boss_corpse"] = {
 		a_name = "go_stage106.dds",
 		size = {
-			131,
-			162
+			125,
+			155
 		},
 		trim = {
 			0,
@@ -8563,15 +8563,15 @@ return {
 		},
 		a_size = {
 			2617,
-			2041
+			1877
 		},
 		f_quad = {
-			2182,
-			1373,
-			131,
-			161
+			2369,
+			1751,
+			125,
+			154
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	}
 }

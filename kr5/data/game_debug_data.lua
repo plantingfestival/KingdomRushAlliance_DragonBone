@@ -132,7 +132,8 @@ return {
 			"enemy_cultbrood",
 			"enemy_drainbrood",
 			"enemy_spidead",
-			"boss_spider_queen"
+			"boss_spider_queen",
+			"eb_sarelgaz"
 		},
 		{
 			"enemy_fire_phoenix",

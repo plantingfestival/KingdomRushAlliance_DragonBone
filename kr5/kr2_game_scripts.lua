@@ -4138,7 +4138,7 @@ end
 scripts.tower_neptune = {}
 
 function scripts.tower_neptune.get_info(this)
-	local level = this.powers.ray_neptune.level
+	local level = this.powers.ray.level
 	local b = E:get_template(this.attacks.list[1].bullet)
 	local min, max = b.bullet.damage_min_levels[level], b.bullet.damage_max_levels[level]
 	local range = 2000
@@ -4158,7 +4158,7 @@ function scripts.tower_neptune.insert(this, store, script)
 end
 
 function scripts.tower_neptune.update(this, store, script)
-	local pow = this.powers.ray_neptune
+	local pow = this.powers.ray
 	local a = this.attacks.list[1]
 
 	a.ts = store.tick_ts - a.cooldown + 0.03333333333333333
@@ -9579,7 +9579,7 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = recovered_hp + this.health.hp_max / hp_per_piece * 12000
+						recovered_hp = recovered_hp + hp_per_piece
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")
@@ -9592,13 +9592,13 @@ function scripts.eb_umbra.update(this, store, script)
 							end
 
 							this.render.sprites[1].hidden = false
-							this.render.sprites[1].scale = V.v(1.5, 1.5)
+							this.render.sprites[1].scale = V.v(0.5, 0.5)
 
 							U.animation_start(this, "ball_idle", nil, store.tick_ts, true)
 						elseif #pieces_returned > 2 then
 							local scale = this.render.sprites[1].scale.x
 
-							scale = km.clamp(1.5, 3, scale + 0.3)
+							scale = km.clamp(0.5, 1, scale + 0.1)
 							this.render.sprites[1].scale.x = scale
 							this.render.sprites[1].scale.y = scale
 							p.recovered = true
@@ -9616,8 +9616,8 @@ function scripts.eb_umbra.update(this, store, script)
 			log.debug("transform")
 			S:queue("FrontiersFinalBossRespawn")
 
-			this.render.sprites[1].scale.x = 3
-			this.render.sprites[1].scale.y = 3
+			this.render.sprites[1].scale.x = 1
+			this.render.sprites[1].scale.y = 1
 
 			U.y_animation_play(this, "transform", nil, store.tick_ts, 1)
 
@@ -10743,7 +10743,6 @@ function scripts.eb_dracula.update(this, store, script)
 
 				this.vis.bans = bor(this.vis.bans, F_ALL)
 				this.ui.can_click = nil
-				this.health.hp_max = hp_max*2
 				this.health.armor = 1
 				this.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
 				this.health.magic_armor = 0
@@ -10753,7 +10752,8 @@ function scripts.eb_dracula.update(this, store, script)
 
 				this.vis.bans = _vis_bans
 				this.phase = "angry"
-				this.health_bar.hidden = nil
+				this.health_bar.hidden = true
+				this.health.hp_max = this.health.hp_max*3
 				this.health.hp = this.health.hp_max
 				this.health.dead = false
 				this.motion.max_speed = this.motion.max_speed_angry
