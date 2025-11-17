@@ -648,6 +648,24 @@ return {
 			"KR2_MusicBossFight"
 		}
 	},
+	sounds_stage417 = {
+		sounds = {
+			"MusicBattlePrep_417",
+			"MusicBattle_417",
+		}
+	},
+	sounds_stage418 = {
+		sounds = {
+			"MusicBattlePrep_418",
+			"MusicBattle_418",
+		}
+	},
+	sounds_stage419 = {
+		sounds = {
+			"MusicBattlePrep_419",
+			"MusicBattle_419",
+		}
+	},
 	sounds_stage426 = {
 		sounds = {
 			"MusicBattlePrep_426",

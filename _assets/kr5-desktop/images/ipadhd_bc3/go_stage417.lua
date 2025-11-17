@@ -1,11102 +1,4089 @@
 return {
-	["bullywag_spawner_layer1_0001"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer1_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			0,
-            8,
-            0,
-            2
+			9,
+			1,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			3902,
+			387,
+			159,
+			88
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"bullywag_spawner_layer1_0002",
+			"bullywag_spawner_layer1_0003",
+			"bullywag_spawner_layer1_0004",
+			"bullywag_spawner_layer1_0005",
+			"bullywag_spawner_layer1_0006",
+			"bullywag_spawner_layer1_0007",
+			"bullywag_spawner_layer1_0008",
+			"bullywag_spawner_layer1_0009",
+			"bullywag_spawner_layer1_0010",
+			"bullywag_spawner_layer1_0011",
+			"bullywag_spawner_layer1_0012",
+			"bullywag_spawner_layer1_0013",
+			"bullywag_spawner_layer1_0014",
+			"bullywag_spawner_layer1_0015",
+			"bullywag_spawner_layer1_0016",
+			"bullywag_spawner_layer1_0017",
+			"bullywag_spawner_layer1_0018",
+			"bullywag_spawner_layer1_0019",
+			"bullywag_spawner_layer1_0020"
+		}
 	},
-	["bullywag_spawner_layer1_0002"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer1_0021 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
 			0,
-            8,
-            0,
-            2
+			1,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2045,
+			1544,
+			159,
+			98
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"bullywag_spawner_layer1_0022",
+			"bullywag_spawner_layer1_0023",
+			"bullywag_spawner_layer1_0024",
+			"bullywag_spawner_layer1_0025",
+			"bullywag_spawner_layer1_0026",
+			"bullywag_spawner_layer1_0027",
+			"bullywag_spawner_layer1_0028",
+			"bullywag_spawner_layer1_0029",
+			"bullywag_spawner_layer1_0030",
+			"bullywag_spawner_layer1_0031",
+			"bullywag_spawner_layer1_0032",
+			"bullywag_spawner_layer1_0033",
+			"bullywag_spawner_layer1_0034",
+			"bullywag_spawner_layer1_0035",
+			"bullywag_spawner_layer1_0036",
+			"bullywag_spawner_layer1_0037",
+			"bullywag_spawner_layer1_0038",
+			"bullywag_spawner_layer1_0039",
+			"bullywag_spawner_layer1_0040",
+			"bullywag_spawner_layer1_0041",
+			"bullywag_spawner_layer1_0042",
+			"bullywag_spawner_layer1_0043",
+			"bullywag_spawner_layer1_0044",
+			"bullywag_spawner_layer1_0045",
+			"bullywag_spawner_layer1_0046",
+			"bullywag_spawner_layer1_0047",
+			"bullywag_spawner_layer1_0048",
+			"bullywag_spawner_layer1_0049",
+			"bullywag_spawner_layer1_0050"
+		}
 	},
-	["bullywag_spawner_layer1_0004"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2874,
+			1621,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"bullywag_spawner_layer2_0019"
+		}
 	},
-	["bullywag_spawner_layer1_0005"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0002 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2874,
+			1664,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"bullywag_spawner_layer2_0020"
+		}
 	},
-	["bullywag_spawner_layer1_0006"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0003 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			48,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2792,
+			1623,
+			66,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer1_0007"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			48,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2792,
+			1666,
+			66,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer1_0008"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0005 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2874,
+			1707,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer1_0009"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0006 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			48,
+			31
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			3090,
+			1544,
+			66,
+			39
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer1_0010"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2377,
-			2366,
-			160,
-			90
+			2874,
+			1750,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer1_0011"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0008 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			0,
-            8,
-            0,
-            2
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0017"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0018"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0019"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            8,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2377,
-			2366,
-			160,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0021"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0022"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0023"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0024"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0025"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0027"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0028"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0029"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0030"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0031"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0032"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0033"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0034"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0035"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0036"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0037"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0038"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0039"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0040"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0041"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0042"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0043"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0044"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0045"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0046"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0047"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0048"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0049"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer1_0050"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2458,
-			160,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3132,
-			2119,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            29
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2742,
-			2413,
-			67,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2898,
-			2395,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            47,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2880,
-			2535,
-			68,
-			41
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            29
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2885,
-			2578,
-			67,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2925,
-			2464,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            29
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2929,
-			2351,
-			67,
-			42
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2968,
-			2464,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2985,
-			2395,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3011,
-			2464,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2998,
-			2325,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3028,
-			2394,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3054,
-			2463,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            29
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2941,
-			2395,
-			67,
-			42
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            30
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3071,
-			2371,
-			67,
-			41
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            29,
-            48,
-            29
-		},
-		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
 			2954,
-			2578,
-			67,
-			42
+			1544,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0017"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0009 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			45,
-            29,
-            48,
-            29
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3007,
-			2533,
-			67,
-			42
+			2954,
+			1587,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0018"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0010 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			45,
-            29,
-            48,
-            30
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3141,
-			2445,
-			67,
-			41
+			2954,
+			1630,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0019"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0011 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			45,
-            29,
-            48,
-            30
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3132,
-			2119,
-			67,
-			41
+			2954,
+			1673,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0020"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0012 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			45,
-            29,
-            48,
-            29
+			46,
+			30,
+			49,
+			31
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2742,
-			2413,
-			67,
-			42
+			3022,
+			1673,
+			65,
+			39
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0021"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0013 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			41,
-            21,
-            44,
-            38
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1575,
-			2567,
-			75,
-			41
+			2954,
+			1716,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0022"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0014 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			43,
-            20,
-            43,
-            37
+			46,
+			30,
+			49,
+			30
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3113,
-			2162,
-			74,
-			43
+			2954,
+			1759,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0023"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0015 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			46,
+			30,
+			48,
+			30
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2792,
+			1709,
+			66,
+			40
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0016 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			46,
+			30,
+			49,
+			30
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3022,
+			1544,
+			65,
+			40
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0017 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			46,
+			30,
+			49,
+			30
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3022,
+			1587,
+			65,
+			40
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0018 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			46,
+			30,
+			48,
+			30
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2792,
+			1752,
+			66,
+			40
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0021 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			42,
-            20,
-            42,
-            37
+			22,
+			45,
+			39
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2009,
-			2358,
-			76,
-			43
+			2712,
+			1628,
+			73,
+			39
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0024"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0022 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			44,
+			21,
+			44,
+			38
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3771,
+			1488,
+			72,
+			41
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0023 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			43,
+			21,
+			43,
+			38
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3077,
+			1492,
+			74,
+			41
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0024 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			42,
+			27,
+			41,
+			39
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2874,
+			1544,
+			77,
+			34
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0025 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			41,
-            26,
-            40,
-            38
+			26,
+			40,
+			39
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2694,
-			1539,
+			2792,
+			1544,
 			79,
+			35
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0026 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			41,
+			25,
+			43,
+			39
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2712,
+			1713,
+			76,
 			36
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0025"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0027 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			40,
-            25,
-            40,
-            38
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2995,
-			2162,
-			80,
+			41,
+			25,
+			42,
 			37
 		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			40,
-            24,
-            42,
-            38
-		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3052,
-			2119,
-			78,
+			2712,
+			1544,
+			77,
 			38
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0027"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0028 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			40,
-            24,
-            41,
-            36
+			41,
+			23,
+			42,
+			37
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2953,
-			2267,
-			79,
+			2887,
+			1492,
+			77,
 			40
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0028"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0029 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			40,
-            22,
-            41,
-            36
+			54,
+			22,
+			41,
+			38
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2995,
-			2244,
-			79,
-			42
+			3022,
+			1630,
+			65,
+			40
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0029"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0030 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			53,
-            21,
-            40,
-            37
+			21,
+			40,
+			38
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3097,
-			2445,
+			2712,
+			1752,
 			67,
-			42
+			41
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0030"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0031 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			52,
-            20,
-            39,
-            37
+			53,
+			20,
+			40,
+			37
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2880,
-			2464,
-			69,
+			575,
+			3107,
+			67,
 			43
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0031"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0032 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			53,
+			20,
+			37,
+			37
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			430,
+			4049,
+			70,
+			43
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0033 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			52,
-            19,
-            39,
-            36
+			19,
+			38,
+			38
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1887,
-			2569,
-			69,
-			45
+			3621,
+			1488,
+			70,
+			43
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0032"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0034 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			52,
-            19,
-            37,
-            36
+			30,
+			38,
+			38
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1024,
-			2559,
+			3159,
+			1656,
+			70,
+			32
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0035 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			51,
+			29,
+			38,
+			38
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3159,
+			1620,
 			71,
-			45
+			33
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0033"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0036 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			51,
-            18,
-            37,
-            37
+			28,
+			38,
+			37
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3162,
-			2252,
-			72,
-			45
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0034"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			51,
-            29,
-            37,
-            37
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2742,
-			2339,
-			72,
-			34
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0035"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			50,
-            28,
-            37,
-            37
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2319,
-			2595,
-			73,
+			3159,
+			1582,
+			71,
 			35
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0036"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0037 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			51,
+			28,
+			37,
+			37
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3159,
+			1544,
+			72,
+			35
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0038 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			50,
-            27,
-            37,
-            36
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2785,
-			2482,
-			73,
+			26,
+			39,
 			37
 		},
-		alias = {},
-		textureRotated = true
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2874,
+			1581,
+			71,
+			37
+		},
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0037"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0039 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			50,
-            27,
-            36,
-            36
+			26,
+			39,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3034,
-			2205,
-			74,
-			37
+			2792,
+			1582,
+			71,
+			38
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0038"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0040 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			49,
-            25,
-            38,
-            36
+			50,
+			24,
+			38,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2783,
-			2557,
-			73,
-			39
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_layer2_0039"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			49,
-            25,
-            38,
-            35
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2741,
-			2557,
-			73,
+			2712,
+			1585,
+			72,
 			40
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0040"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0041 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			49,
-            23,
-            38,
-            35
+			24,
+			37,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2854,
-			2351,
-			73,
-			42
+			3694,
+			1488,
+			74,
+			40
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0041"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0042 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			47,
+			22,
+			37,
+			35
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			560,
+			4031,
+			76,
+			43
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0043 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			48,
-            23,
-            36,
-            35
+			22,
+			37,
+			35
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2623,
-			2064,
-			76,
-			42
+			2737,
+			1492,
+			75,
+			43
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0042"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0044 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			47,
-            21,
-            36,
-            35
+			46,
+			20,
+			37,
+			35
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2622,
-			2108,
+			3152,
+			1433,
 			77,
-			44
+			45
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0043"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0045 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
-			47,
-            21,
-            36,
-            35
+			46,
+			19,
+			37,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3034,
-			2159,
+			3541,
+			1477,
 			77,
-			44
+			45
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0044"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0046 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			45,
-            19,
-            36,
-            35
+			19,
+			36,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2633,
-			2581,
+			4011,
+			315,
 			79,
-			46
+			45
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0045"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			45,
-            18,
-            36,
-            35
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1806,
-			2569,
-			79,
-			47
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0046"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0047 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			44,
-            18,
-            35,
-            35
+			19,
+			47,
+			36
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2730,
-			2256,
-			81,
-			47
+			2815,
+			1492,
+			69,
+			45
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0047"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0048 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			43,
-            18,
-            46,
-            35
+			25,
+			46,
+			35
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			975,
-			2559,
+			2712,
+			1670,
 			71,
-			47
+			40
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0048"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_layer2_0049 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			160,
 			100
 		},
 		trim = {
 			42,
-            24,
-            45,
-            34
+			24,
+			46,
+			35
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2741,
-			2482,
-			73,
+			3846,
+			1488,
+			72,
+			41
+		},
+		alias = {}
+	},
+	bullywag_spawner_layer2_0050 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			160,
+			100
+		},
+		trim = {
+			43,
+			23,
+			45,
+			35
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3154,
+			1492,
+			72,
 			42
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_layer2_0049"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			41,
-            23,
-            45,
-            34
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3110,
-			2207,
-			74,
-			43
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_layer2_0050"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			160,
-			100
-		},
-		trim = {
-			42,
-            22,
-            44,
-            34
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2778,
-			2349,
-			74,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_splash_0001"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			44,
-            68,
-            44,
-            13
+			45,
+			69,
+			45,
+			14
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2523,
-			2597,
-			32,
-			31
+			1992,
+			1757,
+			30,
+			29
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_splash_0002"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0002 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			19,
-            25,
-            19,
-            2
+			20,
+			26,
+			20,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2779,
-			2265,
-			82,
-			85
+			2614,
+			1640,
+			80,
+			83
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0003"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0003 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			19,
-            25,
-            19,
-            2
+			20,
+			26,
+			20,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2866,
-			2267,
-			82,
-			85
+			2614,
+			1726,
+			80,
+			83
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0004"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			10,
-            17,
-            13,
-            0
+			11,
+			18,
+			14,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2539,
-			2370,
-			97,
-			95
+			2614,
+			1544,
+			95,
+			93
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_splash_0005"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0005 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			10,
-            6,
-            14,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2622,
-			2268,
-			96,
-			106
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_splash_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
+			11,
 			7,
-            6,
-            11,
-            0
+			14,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2638,
-			2366,
-			102,
-			106
+			2418,
+			1652,
+			95,
+			104
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_splash_0007"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0006 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
 			8,
-            5,
-            11,
-            0
+			7,
+			12,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2701,
-			2057,
-			101,
-			107
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_splash_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			8,
-            4,
-            9,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2887,
-			2162,
-			103,
-			106
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_splash_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			8,
-            3,
-            9,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2810,
-			2057,
-			103,
-			107
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["bullywag_spawner_splash_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			8,
-            3,
-            6,
-            8
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2779,
-			2162,
-			106,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_splash_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			8,
-            2,
-            6,
-            7
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2919,
-			2057,
-			106,
-			103
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["bullywag_spawner_splash_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			8,
-            1,
-            6,
-            6
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2633,
-			2474,
-			106,
+			2207,
+			1651,
+			100,
 			105
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_splash_0013"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			8,
-            0,
-            6,
-            6
+			9,
+			6,
+			12,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2622,
-			2160,
-			106,
-			106
+			2418,
+			1544,
+			99,
+			105
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["bullywag_spawner_splash_0014"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0008 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			15,
-            0,
-            12,
-            6
+			9,
+			5,
+			10,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2057,
-			2537,
-			93,
-			106
+			2207,
+			1544,
+			101,
+			104
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0015"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0009 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			15,
-            22,
-            12,
-            6
+			9,
+			4,
+			10,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2165,
-			2537,
-			93,
-			84
+			504,
+			3923,
+			101,
+			105
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0016"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0010 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			120,
+			112
+		},
+		trim = {
+			9,
+			3,
+			7,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2311,
+			1544,
+			104,
+			101
+		},
+		alias = {}
+	},
+	bullywag_spawner_splash_0011 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			120,
+			112
+		},
+		trim = {
+			9,
+			3,
+			7,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2311,
+			1648,
+			104,
+			101
+		},
+		alias = {}
+	},
+	bullywag_spawner_splash_0012 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			120,
+			112
+		},
+		trim = {
+			9,
+			2,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			504,
+			3817,
+			104,
+			103
+		},
+		alias = {}
+	},
+	bullywag_spawner_splash_0013 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			120,
+			112
+		},
+		trim = {
+			9,
+			1,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			504,
+			3710,
+			104,
+			104
+		},
+		alias = {}
+	},
+	bullywag_spawner_splash_0014 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
 			16,
-            29,
-            14,
-            17
+			1,
+			13,
+			7
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2251,
-			2537,
-			90,
-			66
+			2520,
+			1544,
+			91,
+			104
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0017"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0015 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
 			16,
-            29,
-            14,
-            17
+			23,
+			13,
+			7
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2251,
-			2537,
-			90,
-			66
+			2520,
+			1651,
+			91,
+			82
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["bullywag_spawner_splash_0018"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0016 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			19,
-            69,
-            14,
-            24
+			17,
+			30,
+			15,
+			18
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			359,
-			2456,
-			87,
-			19
+			2520,
+			1736,
+			88,
+			64
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"bullywag_spawner_splash_0017"
+		}
 	},
-	["bullywag_spawner_splash_0019"] = {
-		a_name = "go_stage417.dds",
+	bullywag_spawner_splash_0018 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			120,
 			112
 		},
 		trim = {
-			19,
-            69,
-            14,
-            24
+			20,
+			70,
+			15,
+			25
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			359,
-			2456,
-			87,
-			19
+			3234,
+			1544,
+			85,
+			17
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"bullywag_spawner_splash_0019",
+			"bullywag_spawner_splash_0020"
+		}
 	},
-	["bullywag_spawner_splash_0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			120,
-			112
-		},
-		trim = {
-			19,
-            69,
-            14,
-            24
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			359,
-			2456,
-			87,
-			19
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["notification_button_ingame_0044"] = {
-		a_name = "go_stage417.dds",
+	notification_button_ingame_0044 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			180,
 			128
 		},
 		trim = {
-			25,
-            0,
-            19,
-            0
+			26,
+			1,
+			20,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3057,
-			1989,
-			136,
-			128
+			1706,
+			1678,
+			134,
+			126
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["notification_button_ingame_0045"] = {
-		a_name = "go_stage417.dds",
+	notification_button_ingame_0045 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			180,
 			128
 		},
 		trim = {
-			25,
-            0,
-            19,
-            0
+			26,
+			1,
+			20,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2057,
-			2407,
-			136,
-			128
+			1855,
+			1646,
+			134,
+			126
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["notification_button_ingame_0048"] = {
-		a_name = "go_stage417.dds",
+	notification_button_ingame_0048 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			180,
 			128
 		},
 		trim = {
-			25,
-            0,
-            19,
-            0
+			26,
+			1,
+			20,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2195,
-			2407,
-			136,
-			128
+			504,
+			3452,
+			134,
+			126
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["notification_button_ingame_0049"] = {
-		a_name = "go_stage417.dds",
+	notification_button_ingame_0049 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			180,
 			128
 		},
 		trim = {
-			25,
-            0,
-            19,
-            0
+			26,
+			1,
+			20,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2495,
-			2467,
-			136,
-			128
+			504,
+			3581,
+			134,
+			126
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["notification_images_0045"] = {
-		a_name = "go_stage417.dds",
+	notification_images_0045 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			496,
 			476
 		},
 		trim = {
+			2,
 			1,
-            0,
-            0,
-            1
+			1,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2732,
-			1,
-			495,
-			475
+			2737,
+			5,
+			493,
+			473
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["notification_images_0046"] = {
-		a_name = "go_stage417.dds",
+	notification_images_0046 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			496,
 			476
 		},
 		trim = {
+			2,
 			1,
-            0,
-            0,
-            1
+			1,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2732,
-			498,
-			495,
-			475
+			3233,
+			5,
+			493,
+			473
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["notification_images_0049"] = {
-		a_name = "go_stage417.dds",
+	notification_images_0049 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			496,
 			476
 		},
 		trim = {
+			2,
 			1,
-            0,
-            0,
-            1
+			1,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2732,
-			995,
-			495,
-			475
+			2737,
+			481,
+			493,
+			473
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["notification_images_0050"] = {
-		a_name = "go_stage417.dds",
+	notification_images_0050 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			496,
 			476
 		},
 		trim = {
+			2,
 			1,
-            0,
-            0,
-            1
+			1,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2732,
-			1492,
-			495,
-			475
+			2737,
+			957,
+			493,
+			473
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["Stage_17_foam_down_0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_417 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			2729,
+			1536
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			5,
+			2729,
+			1536
+		},
+		alias = {}
+	},
+	Stage_17_foam_down_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			279,
 			83
 		},
 		trim = {
 			0,
-            13,
-            0,
-            0
+			14,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2477,
-			2085,
+			3729,
+			315,
 			279,
-			70
+			69
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_foam_down_0002",
+			"Stage_17_foam_down_0003"
+		}
 	},
-	["Stage_17_foam_down_0002"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_down_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			279,
 			83
 		},
 		trim = {
 			0,
-            13,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2477,
-			2085,
-			279,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_down_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
 			0,
-            13,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2477,
-			2085,
-			279,
-			70
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_down_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
 			0,
-            0,
-            0,
-            1
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2393,
-			2085,
+			3808,
+			755,
 			279,
 			82
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_foam_down_0005",
+			"Stage_17_foam_down_0006"
+		}
 	},
-	["Stage_17_foam_down_0005"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_down_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			279,
 			83
 		},
 		trim = {
 			0,
-            0,
-            0,
-            1
+			5,
+			1,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2393,
-			2085,
-			279,
-			82
+			3808,
+			840,
+			278,
+			77
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_foam_down_0008",
+			"Stage_17_foam_down_0009"
+		}
 	},
-	["Stage_17_foam_down_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2393,
-			2085,
-			279,
-			82
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_down_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
-			0,
-            4,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			359,
-			2551,
-			279,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_down_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
-			0,
-            4,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			359,
-			2551,
-			279,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_down_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			279,
-			83
-		},
-		trim = {
-			0,
-            4,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			359,
-			2551,
-			279,
-			79
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_mid_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			152,
 			134
 		},
 		trim = {
 			0,
-            2,
-            1,
-            1
+			3,
+			2,
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1806,
-			2436,
-			151,
+			3388,
+			1400,
+			150,
+			129
+		},
+		alias = {
+			"Stage_17_foam_mid_0002",
+			"Stage_17_foam_mid_0003"
+		}
+	},
+	Stage_17_foam_mid_0004 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			152,
+			134
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3233,
+			1400,
+			152,
+			134
+		},
+		alias = {
+			"Stage_17_foam_mid_0005",
+			"Stage_17_foam_mid_0006"
+		}
+	},
+	Stage_17_foam_mid_0007 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			152,
+			134
+		},
+		trim = {
+			0,
+			3,
+			6,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1706,
+			1544,
+			146,
 			131
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_foam_mid_0008",
+			"Stage_17_foam_mid_0009"
+		}
 	},
-	["Stage_17_foam_mid_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            2,
-            1,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1806,
-			2436,
-			151,
-			131
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            2,
-            1,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1806,
-			2436,
-			151,
-			131
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2436,
-			152,
-			134
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2436,
-			152,
-			134
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2436,
-			152,
-			134
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_mid_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            2,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1518,
-			2418,
-			147,
-			132
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_mid_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            2,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1518,
-			2418,
-			147,
-			132
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_mid_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			152,
-			134
-		},
-		trim = {
-			0,
-            2,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1518,
-			2418,
-			147,
-			132
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_small_0001 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			39,
 			37
 		},
 		trim = {
-			2,
-            2,
-            2,
-            0
+			3,
+			3,
+			3,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3114,
-			2408,
-			35,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            2,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3114,
-			2408,
-			35,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            2,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3114,
-			2408,
-			35,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            1,
-            1,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2394,
-			2595,
-			37,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            1,
-            1,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2394,
-			2595,
-			37,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            1,
-            1,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2394,
-			2595,
-			37,
-			35
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3076,
-			2532,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3076,
-			2532,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3076,
-			2532,
-			38,
-			37
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2407,
-			39,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2407,
-			39,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2333,
-			2407,
-			39,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3084,
-			2572,
-			37,
-			36
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3084,
-			2572,
-			37,
-			36
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3084,
-			2572,
-			37,
-			36
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3114,
-			2370,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0017"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3114,
-			2370,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0018"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            0,
-            2,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3114,
-			2370,
-			35,
-			36
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0019"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3115,
-			2514,
-			34,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3115,
-			2514,
-			34,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0021"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			1,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3115,
-			2514,
-			34,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_foam_small_0022"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2514,
-			36,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0023"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2514,
-			36,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0024"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			0,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2514,
-			36,
-			35
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0025"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            8,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1838,
-			36,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            8,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1838,
-			36,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0027"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			2,
-            8,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1838,
-			36,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_foam_small_0028"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			39,
-			37
-		},
-		trim = {
-			5,
-            3,
-            3,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2490,
-			2597,
-			31,
+			1992,
+			1721,
+			33,
 			33
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_foam_small_0002",
+			"Stage_17_foam_small_0003"
+		}
 	},
-	["Stage_17_foam_small_0029"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_small_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			39,
 			37
 		},
 		trim = {
-			5,
-            3,
-            3,
-            1
+			2,
+			2,
+			1,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2490,
-			2597,
-			31,
-			33
+			1992,
+			1684,
+			36,
+			34
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_foam_small_0005",
+			"Stage_17_foam_small_0006"
+		}
 	},
-	["Stage_17_foam_small_0030"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_small_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			39,
 			37
 		},
 		trim = {
-			5,
-            3,
-            3,
-            1
+			0,
+			1,
+			2,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2490,
-			2597,
-			31,
+			1992,
+			1646,
+			37,
+			35
+		},
+		alias = {
+			"Stage_17_foam_small_0008",
+			"Stage_17_foam_small_0009"
+		}
+	},
+	Stage_17_foam_small_0010 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			0,
+			0,
+			0,
+			1
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3159,
+			1716,
+			39,
+			36
+		},
+		alias = {
+			"Stage_17_foam_small_0011",
+			"Stage_17_foam_small_0012"
+		}
+	},
+	Stage_17_foam_small_0013 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			0,
+			0,
+			3,
+			1
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3159,
+			1755,
+			36,
+			36
+		},
+		alias = {
+			"Stage_17_foam_small_0014",
+			"Stage_17_foam_small_0015"
+		}
+	},
+	Stage_17_foam_small_0016 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			3,
+			0,
+			3,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3198,
+			1755,
+			33,
+			35
+		},
+		alias = {
+			"Stage_17_foam_small_0017",
+			"Stage_17_foam_small_0018"
+		}
+	},
+	Stage_17_foam_small_0019 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			2,
+			1,
+			5,
+			1
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			608,
+			3959,
+			32,
+			35
+		},
+		alias = {
+			"Stage_17_foam_small_0020",
+			"Stage_17_foam_small_0021"
+		}
+	},
+	Stage_17_foam_small_0022 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			1,
+			3,
+			4,
+			1
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			608,
+			3923,
+			34,
 			33
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_foam_small_0023",
+			"Stage_17_foam_small_0024"
+		}
 	},
-	["stage_17_kermit0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_foam_small_0025 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			3,
+			9,
+			2,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			608,
+			3997,
+			34,
+			28
+		},
+		alias = {
+			"Stage_17_foam_small_0026",
+			"Stage_17_foam_small_0027"
+		}
+	},
+	Stage_17_foam_small_0028 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			39,
+			37
+		},
+		trim = {
+			6,
+			4,
+			4,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3201,
+			1716,
+			29,
+			31
+		},
+		alias = {
+			"Stage_17_foam_small_0029",
+			"Stage_17_foam_small_0030"
+		}
+	},
+	stage_17_kermit0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			56,
+			65
+		},
+		trim = {
+			3,
+			7,
+			1,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			579,
+			3219,
+			52,
+			58
+		},
+		alias = {
+			"stage_17_kermit0002",
+			"stage_17_kermit0003",
+			"stage_17_kermit0004",
+			"stage_17_kermit0041",
+			"stage_17_kermit0042",
+			"stage_17_kermit_0001",
+			"stage_17_kermit_0002",
+			"stage_17_kermit_0003",
+			"stage_17_kermit_0004",
+			"stage_17_kermit_0041",
+			"stage_17_kermit_0042"
+		}
+	},
+	stage_17_kermit0005 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
 			2,
-            6,
-            0,
-            0
+			3,
+			1,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2786,
-			2395,
-			54,
-			59
+			504,
+			4031,
+			53,
+			62
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0006",
+			"stage_17_kermit_0005",
+			"stage_17_kermit_0006"
+		}
 	},
-	["stage_17_kermit0002"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
 			2,
-            6,
-            0,
-            0
+			2,
+			1,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2786,
-			2395,
-			54,
-			59
+			430,
+			3851,
+			53,
+			63
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0008",
+			"stage_17_kermit_0007",
+			"stage_17_kermit_0008"
+		}
 	},
-	["stage_17_kermit0003"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0009 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
 			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
 			2,
-            6,
-            0,
-            0
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2786,
-			2395,
+			2142,
+			1711,
 			54,
-			59
+			63
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0010",
+			"stage_17_kermit0031",
+			"stage_17_kermit0032",
+			"stage_17_kermit_0009",
+			"stage_17_kermit_0010",
+			"stage_17_kermit_0031",
+			"stage_17_kermit_0032"
+		}
 	},
-	["stage_17_kermit0005"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0011 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
 			1,
-            2,
-            0,
-            0
+			2,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1518,
-			2567,
+			2142,
+			1645,
 			55,
 			63
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0012",
+			"stage_17_kermit0013",
+			"stage_17_kermit0014",
+			"stage_17_kermit0015",
+			"stage_17_kermit0016",
+			"stage_17_kermit0017",
+			"stage_17_kermit0018",
+			"stage_17_kermit0019",
+			"stage_17_kermit0020",
+			"stage_17_kermit0021",
+			"stage_17_kermit0022",
+			"stage_17_kermit0023",
+			"stage_17_kermit0024",
+			"stage_17_kermit0025",
+			"stage_17_kermit0026",
+			"stage_17_kermit0027",
+			"stage_17_kermit0028",
+			"stage_17_kermit0029",
+			"stage_17_kermit0030",
+			"stage_17_kermit_0011",
+			"stage_17_kermit_0012",
+			"stage_17_kermit_0013",
+			"stage_17_kermit_0014",
+			"stage_17_kermit_0015",
+			"stage_17_kermit_0016",
+			"stage_17_kermit_0017",
+			"stage_17_kermit_0018",
+			"stage_17_kermit_0019",
+			"stage_17_kermit_0020",
+			"stage_17_kermit_0021",
+			"stage_17_kermit_0022",
+			"stage_17_kermit_0023",
+			"stage_17_kermit_0024",
+			"stage_17_kermit_0025",
+			"stage_17_kermit_0026",
+			"stage_17_kermit_0027",
+			"stage_17_kermit_0028",
+			"stage_17_kermit_0029",
+			"stage_17_kermit_0030"
+		}
 	},
-	["stage_17_kermit0006"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0033 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
+			2,
+			2,
 			1,
-            2,
-            0,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1518,
-			2567,
-			55,
+			430,
+			3917,
+			53,
 			63
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0034",
+			"stage_17_kermit_0033",
+			"stage_17_kermit_0034"
+		}
 	},
-	["stage_17_kermit0007"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0035 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
+			2,
+			2,
 			1,
-            1,
-            0,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1170,
-			2543,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2543,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0017"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0018"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0019"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0021"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0022"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0023"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0024"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0025"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0027"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0028"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0029"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0030"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0031"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0032"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0033"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2252,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0034"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2252,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0035"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2433,
-			2559,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0036"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2433,
-			2559,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0037"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3023,
-			2577,
+			430,
+			3983,
 			53,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0038"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3023,
-			2577,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0039"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3041,
-			2310,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0040"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3041,
-			2310,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0041"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0042"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0043"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0044"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0045"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0046"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0047"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0048"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0049"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0050"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0051"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0052"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0053"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0054"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0055"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0056"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0057"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0058"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0059"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0060"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0061"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0062"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit0063"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0064"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0065"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0066"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0067"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0068"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0069"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0070"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0071"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0072"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit0073"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            2,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1518,
-			2567,
-			55,
 			63
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0036",
+			"stage_17_kermit_0035",
+			"stage_17_kermit_0036"
+		}
 	},
-	["stage_17_kermit_0006"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0037 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
-			1,
-            2,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1518,
-			2567,
-			55,
-			63
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2543,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2543,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0017"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0018"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0019"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0021"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0022"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0023"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0024"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0025"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0027"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0028"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0029"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0030"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			0,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1170,
-			2485,
-			56,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0031"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0032"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3039,
-			2244,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0033"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2252,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0034"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2252,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0035"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2433,
-			2559,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0036"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			1,
-            1,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2433,
-			2559,
-			55,
-			64
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0037"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
+			3,
+			7,
 			2,
-            6,
-            1,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3023,
-			2577,
-			53,
-			59
+			575,
+			2802,
+			51,
+			58
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"stage_17_kermit0038",
+			"stage_17_kermit_0037",
+			"stage_17_kermit_0038"
+		}
 	},
-	["stage_17_kermit_0038"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0039 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
+			3,
+			7,
 			2,
-            6,
-            1,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3023,
-			2577,
-			53,
-			59
+			575,
+			2863,
+			51,
+			58
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"stage_17_kermit0040",
+			"stage_17_kermit_0039",
+			"stage_17_kermit_0040"
+		}
 	},
-	["stage_17_kermit_0039"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0043 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
+			3,
+			7,
 			2,
-            6,
-            1,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3041,
-			2310,
-			53,
-			59
+			575,
+			2924,
+			51,
+			58
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0044",
+			"stage_17_kermit0047",
+			"stage_17_kermit0048",
+			"stage_17_kermit0059",
+			"stage_17_kermit0060",
+			"stage_17_kermit0063",
+			"stage_17_kermit0064",
+			"stage_17_kermit_0043",
+			"stage_17_kermit_0044",
+			"stage_17_kermit_0047",
+			"stage_17_kermit_0048",
+			"stage_17_kermit_0059",
+			"stage_17_kermit_0060",
+			"stage_17_kermit_0063",
+			"stage_17_kermit_0064"
+		}
 	},
-	["stage_17_kermit_0040"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0045 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
-			2,
-            6,
-            1,
-            0
+			3,
+			7,
+			3,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3041,
-			2310,
-			53,
-			59
+			575,
+			3046,
+			50,
+			58
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0046",
+			"stage_17_kermit0061",
+			"stage_17_kermit0062",
+			"stage_17_kermit_0045",
+			"stage_17_kermit_0046",
+			"stage_17_kermit_0061",
+			"stage_17_kermit_0062"
+		}
 	},
-	["stage_17_kermit_0041"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0049 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
+			3,
+			7,
 			2,
-            6,
-            0,
-            0
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2786,
-			2395,
-			54,
-			59
+			575,
+			2985,
+			51,
+			58
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"stage_17_kermit0050",
+			"stage_17_kermit0065",
+			"stage_17_kermit0066",
+			"stage_17_kermit_0049",
+			"stage_17_kermit_0050",
+			"stage_17_kermit_0065",
+			"stage_17_kermit_0066"
+		}
 	},
-	["stage_17_kermit_0042"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0051 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
-			2,
-            6,
-            0,
-            0
+			3,
+			7,
+			1,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2786,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0043"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0044"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0045"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
+			579,
+			3280,
 			52,
-			59
+			58
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"stage_17_kermit0052",
+			"stage_17_kermit0055",
+			"stage_17_kermit0056",
+			"stage_17_kermit0067",
+			"stage_17_kermit0068",
+			"stage_17_kermit0071",
+			"stage_17_kermit0072",
+			"stage_17_kermit_0051",
+			"stage_17_kermit_0052",
+			"stage_17_kermit_0055",
+			"stage_17_kermit_0056",
+			"stage_17_kermit_0067",
+			"stage_17_kermit_0068",
+			"stage_17_kermit_0071",
+			"stage_17_kermit_0072"
+		}
 	},
-	["stage_17_kermit_0046"] = {
-		a_name = "go_stage417.dds",
+	stage_17_kermit0053 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			56,
 			65
 		},
 		trim = {
-			2,
-            6,
-            2,
-            0
+			3,
+			7,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2824,
-			2578,
+			579,
+			3158,
+			53,
+			58
+		},
+		alias = {
+			"stage_17_kermit0054",
+			"stage_17_kermit0069",
+			"stage_17_kermit0070",
+			"stage_17_kermit_0053",
+			"stage_17_kermit_0054",
+			"stage_17_kermit_0069",
+			"stage_17_kermit_0070"
+		}
+	},
+	stage_17_kermit0057 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			56,
+			65
+		},
+		trim = {
+			3,
+			7,
+			1,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			579,
+			3341,
 			52,
-			59
+			58
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"stage_17_kermit0058",
+			"stage_17_kermit0073",
+			"stage_17_kermit_0057",
+			"stage_17_kermit_0058",
+			"stage_17_kermit_0073"
+		}
 	},
-	["stage_17_kermit_0047"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0048"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0049"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0050"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0051"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0052"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0053"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0054"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0055"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0056"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0057"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0058"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0059"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0060"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0061"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0062"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2578,
-			52,
-			59
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["stage_17_kermit_0063"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0064"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3096,
-			2309,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0065"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0066"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            1,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2326,
-			53,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0067"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0068"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0069"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0070"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2456,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0071"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0072"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2842,
-			2395,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["stage_17_kermit_0073"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			56,
-			65
-		},
-		trim = {
-			2,
-            6,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2824,
-			2517,
-			54,
-			59
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_mask_0"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_mask_0 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			245,
 			307
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2084,
-			2085,
+			3729,
+			5,
 			245,
 			307
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["Stage_17_mask_1"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_mask_1 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			212,
 			280
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1236,
-			2418,
+			430,
+			1818,
 			212,
 			280
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["Stage_17_mask_2"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_mask_2 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			423,
 			191
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			409,
-			1812,
+			1280,
+			1544,
 			423,
 			191
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["Stage_17_mask_3"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_mask_3 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			406,
 			456
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1539,
+			3233,
+			481,
 			406,
 			456
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["Stage_17_mask_4"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_mask_4 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			385,
 			457
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1997,
+			3233,
+			940,
 			385,
 			457
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["Stage_17_ship_door_chain"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_ship_door_chain = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			163,
 			182
 		},
 		trim = {
 			0,
-            0,
-            0,
-            0
+			0,
+			0,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2529,
-			1539,
+			3642,
+			755,
 			163,
 			182
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["Stage_17_ship_door_shade"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_ship_door_shade = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			106,
 			185
 		},
 		trim = {
+			5,
+			1,
+			7,
+			27
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2045,
+			1645,
+			94,
+			157
+		},
+		alias = {}
+	},
+	Stage_17_waterfall_lake_drops_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			72,
+			49
+		},
+		trim = {
+			0,
+			10,
+			0,
+			17
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3159,
+			1691,
+			72,
+			22
+		},
+		alias = {
+			"Stage_17_waterfall_lake_drops_0014",
+			"Stage_17_waterfall_lake_drops_0015"
+		}
+	},
+	Stage_17_waterfall_lake_drops_0002 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			72,
+			49
+		},
+		trim = {
+			20,
+			0,
+			1,
+			19
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3022,
+			1760,
+			51,
+			30
+		},
+		alias = {
+			"Stage_17_waterfall_lake_drops_0003",
+			"Stage_17_waterfall_lake_drops_0004"
+		}
+	},
+	Stage_17_waterfall_lake_drops_0005 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			72,
+			49
+		},
+		trim = {
+			16,
+			1,
+			3,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3022,
+			1715,
+			53,
+			42
+		},
+		alias = {
+			"Stage_17_waterfall_lake_drops_0006",
+			"Stage_17_waterfall_lake_drops_0007"
+		}
+	},
+	Stage_17_waterfall_lake_drops_0008 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			72,
+			49
+		},
+		trim = {
+			11,
+			3,
+			8,
+			11
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2142,
+			1777,
+			53,
+			35
+		},
+		alias = {
+			"Stage_17_waterfall_lake_drops_0009",
+			"Stage_17_waterfall_lake_drops_0010"
+		}
+	},
+	Stage_17_waterfall_lake_drops_0011 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			72,
+			49
+		},
+		trim = {
+			6,
+			7,
+			12,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			579,
+			3402,
+			54,
+			42
+		},
+		alias = {
+			"Stage_17_waterfall_lake_drops_0012",
+			"Stage_17_waterfall_lake_drops_0013"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3642,
+			481,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0002",
+			"Stage_17_waterfall_lake_waves_0003"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0004 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3621,
+			940,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0005",
+			"Stage_17_waterfall_lake_waves_0006"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0007 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3621,
+			1214,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0008",
+			"Stage_17_waterfall_lake_waves_0009"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0010 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			1544,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0011",
+			"Stage_17_waterfall_lake_waves_0012"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0013 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			1818,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0014",
+			"Stage_17_waterfall_lake_waves_0015"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0016 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2092,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0017",
+			"Stage_17_waterfall_lake_waves_0018"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0019 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2366,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0020",
+			"Stage_17_waterfall_lake_waves_0021"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0022 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2640,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0023",
+			"Stage_17_waterfall_lake_waves_0024"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0025 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2914,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0026",
+			"Stage_17_waterfall_lake_waves_0027"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0028 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			3188,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0029",
+			"Stage_17_waterfall_lake_waves_0030"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0031 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			3462,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0032",
+			"Stage_17_waterfall_lake_waves_0033"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0034 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			3736,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0035",
+			"Stage_17_waterfall_lake_waves_0036"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0037 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			430,
+			1544,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0038",
+			"Stage_17_waterfall_lake_waves_0039"
+		}
+	},
+	Stage_17_waterfall_lake_waves_0040 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			422,
+			271
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			855,
+			1544,
+			422,
+			271
+		},
+		alias = {
+			"Stage_17_waterfall_lake_waves_0041",
+			"Stage_17_waterfall_lake_waves_0042"
+		}
+	},
+	Stage_17_waterfall_lines_left_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			97,
+			360
+		},
+		trim = {
+			10,
+			5,
 			4,
-            0,
-            6,
-            26
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1959,
-			2436,
-			96,
-			159
+			517,
+			2445,
+			83,
+			354
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_waterfall_lines_left_0002",
+			"Stage_17_waterfall_lines_left_0003"
+		}
 	},
-	["Stage_17_waterfall_lake_drops_0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_lines_left_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			72,
-			49
+			97,
+			360
 		},
 		trim = {
-			0,
-            9,
-            0,
-            17
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3027,
-			2057,
-			72,
-			23
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lake_drops_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			19,
-            0,
-            0,
-            19
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1168,
-			2600,
-			53,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			19,
-            0,
-            0,
-            19
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1168,
-			2600,
-			53,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			19,
-            0,
-            0,
-            19
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1168,
-			2600,
-			53,
-			30
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			15,
-            0,
-            2,
-            5
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1749,
-			2572,
-			55,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			15,
-            0,
-            2,
-            5
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1749,
-			2572,
-			55,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			15,
-            0,
-            2,
-            5
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1749,
-			2572,
-			55,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			10,
-            2,
-            7,
-            10
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2387,
-			55,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			10,
-            2,
-            7,
-            10
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2387,
-			55,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			10,
-            2,
-            7,
-            10
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3151,
-			2387,
-			55,
-			37
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
+			18,
 			5,
-            6,
-            12,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2950,
-			2533,
-			55,
-			43
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_drops_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
 			5,
-            6,
-            12,
-            0
+			2
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2950,
-			2533,
-			55,
-			43
+			430,
+			2802,
+			74,
+			353
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_waterfall_lines_left_0005",
+			"Stage_17_waterfall_lines_left_0006"
+		}
 	},
-	["Stage_17_waterfall_lake_drops_0013"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_lines_left_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			72,
-			49
+			97,
+			360
 		},
 		trim = {
-			5,
-            6,
-            12,
-            0
+			18,
+			9,
+			4,
+			14
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2950,
-			2533,
-			55,
-			43
+			523,
+			2101,
+			75,
+			337
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_waterfall_lines_left_0008",
+			"Stage_17_waterfall_lines_left_0009"
+		}
 	},
-	["Stage_17_waterfall_lake_drops_0014"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_lines_left_0010 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			72,
-			49
+			97,
+			360
 		},
 		trim = {
-			0,
-            9,
-            0,
-            17
+			3,
+			19,
+			4,
+			0
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			3027,
-			2057,
-			72,
-			23
+			430,
+			2101,
+			90,
+			341
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_waterfall_lines_left_0011",
+			"Stage_17_waterfall_lines_left_0012"
+		}
 	},
-	["Stage_17_waterfall_lake_drops_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			72,
-			49
-		},
-		trim = {
-			0,
-            9,
-            0,
-            17
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			3027,
-			2057,
-			72,
-			23
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lake_waves_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			409,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			409,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			409,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			833,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			833,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			833,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1257,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1257,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1257,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1681,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1681,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1681,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2105,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2105,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2105,
-			1539,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0016"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2005,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0017"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2005,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0018"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2005,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0019"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			834,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0020"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			834,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0021"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			834,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0022"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1258,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0023"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1258,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0024"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1258,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0025"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1682,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0026"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1682,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0027"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1682,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0028"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2106,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0029"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2106,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0030"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2106,
-			1812,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0031"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2278,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0032"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2278,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0033"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			388,
-			2278,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0034"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0035"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0036"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0037"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1236,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0038"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1236,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0039"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1236,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0040"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1660,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0041"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1660,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lake_waves_0042"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			422,
-			271
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1660,
-			2085,
-			422,
-			271
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0001"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_lines_left_0013 = {
+		a_name = "go_stage417-1.dds",
 		size = {
 			97,
 			360
 		},
 		trim = {
 			9,
-            4,
-            4,
-            0
+			5,
+			4,
+			1
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			2544,
+			430,
+			2445,
 			84,
+			354
+		},
+		alias = {
+			"Stage_17_waterfall_lines_left_0014",
+			"Stage_17_waterfall_lines_left_0015"
+		}
+	},
+	Stage_17_waterfall_lines_right_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			75,
 			356
 		},
-		alias = {},
-		textureRotated = true
+		trim = {
+			0,
+			24,
+			5,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			430,
+			3516,
+			70,
+			332
+		},
+		alias = {
+			"Stage_17_waterfall_lines_right_0002",
+			"Stage_17_waterfall_lines_right_0003"
+		}
 	},
-	["Stage_17_waterfall_lines_left_0002"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_lines_right_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			97,
-			360
+			75,
+			356
+		},
+		trim = {
+			0,
+			1,
+			4,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			430,
+			3158,
+			71,
+			355
+		},
+		alias = {
+			"Stage_17_waterfall_lines_right_0005",
+			"Stage_17_waterfall_lines_right_0006"
+		}
+	},
+	Stage_17_waterfall_lines_right_0007 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			75,
+			356
+		},
+		trim = {
+			8,
+			1,
+			2,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			507,
+			2802,
+			65,
+			353
+		},
+		alias = {
+			"Stage_17_waterfall_lines_right_0008",
+			"Stage_17_waterfall_lines_right_0009"
+		}
+	},
+	Stage_17_waterfall_lines_right_0010 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			75,
+			356
+		},
+		trim = {
+			0,
+			65,
+			3,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			504,
+			3158,
+			72,
+			291
+		},
+		alias = {
+			"Stage_17_waterfall_lines_right_0011",
+			"Stage_17_waterfall_lines_right_0012"
+		}
+	},
+	Stage_17_waterfall_lines_right_0013 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			75,
+			356
+		},
+		trim = {
+			0,
+			56,
+			5,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3977,
+			5,
+			70,
+			300
+		},
+		alias = {
+			"Stage_17_waterfall_lines_right_0014",
+			"Stage_17_waterfall_lines_right_0015"
+		}
+	},
+	Stage_17_waterfall_shine_mid_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			427,
+			64
 		},
 		trim = {
 			9,
-            4,
-            4,
-            0
+			5,
+			6,
+			3
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			2544,
-			84,
-			356
+			2737,
+			1433,
+			412,
+			56
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_waterfall_shine_mid_0002",
+			"Stage_17_waterfall_shine_mid_0003"
+		}
 	},
-	["Stage_17_waterfall_lines_left_0003"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_shine_mid_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			97,
-			360
+			427,
+			64
 		},
 		trim = {
+			1,
+			4,
+			6,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			4010,
+			420,
+			60
+		},
+		alias = {
+			"Stage_17_waterfall_shine_mid_0005",
+			"Stage_17_waterfall_shine_mid_0006"
+		}
+	},
+	Stage_17_waterfall_shine_mid_0007 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			427,
+			64
+		},
+		trim = {
+			3,
+			3,
+			5,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1280,
+			1738,
+			419,
+			61
+		},
+		alias = {
+			"Stage_17_waterfall_shine_mid_0008",
+			"Stage_17_waterfall_shine_mid_0009"
+		}
+	},
+	Stage_17_waterfall_shine_top_left_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			107,
+			35
+		},
+		trim = {
+			0,
+			1,
+			0,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1855,
+			1775,
+			107,
+			32
+		},
+		alias = {
+			"Stage_17_waterfall_shine_top_left_0002",
+			"Stage_17_waterfall_shine_top_left_0003"
+		}
+	},
+	Stage_17_waterfall_shine_top_left_0004 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			107,
+			35
+		},
+		trim = {
+			0,
+			3,
+			0,
+			4
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2967,
+			1492,
+			107,
+			28
+		},
+		alias = {
+			"Stage_17_waterfall_shine_top_left_0005",
+			"Stage_17_waterfall_shine_top_left_0006"
+		}
+	},
+	Stage_17_waterfall_shine_top_left_0007 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			107,
+			35
+		},
+		trim = {
+			0,
+			5,
+			0,
+			3
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3921,
+			1488,
+			107,
+			27
+		},
+		alias = {
+			"Stage_17_waterfall_shine_top_left_0008",
+			"Stage_17_waterfall_shine_top_left_0009"
+		}
+	},
+	Stage_17_waterfall_shine_top_right_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			103,
+			86
+		},
+		trim = {
+			0,
+			19,
 			9,
-            4,
-            4,
-            0
+			25
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			2544,
-			84,
-			356
+			2311,
+			1752,
+			94,
+			42
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"Stage_17_waterfall_shine_top_right_0002",
+			"Stage_17_waterfall_shine_top_right_0003"
+		}
 	},
-	["Stage_17_waterfall_lines_left_0004"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_shine_top_right_0004 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            4,
-            4,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2358,
-			76,
-			355
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_left_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            4,
-            4,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2358,
-			76,
-			355
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_left_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            4,
-            4,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2358,
-			76,
-			355
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_left_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            8,
-            4,
-            13
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2623,
-			1723,
-			76,
-			339
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            8,
-            4,
-            13
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2623,
-			1723,
-			76,
-			339
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			17,
-            8,
-            4,
-            13
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2623,
-			1723,
-			76,
-			339
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
+			103,
+			86
 		},
 		trim = {
 			2,
-            18,
-            4,
-            0
+			17,
+			9,
+			24
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2530,
-			1723,
-			91,
-			342
+			2207,
+			1759,
+			92,
+			45
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"Stage_17_waterfall_shine_top_right_0005",
+			"Stage_17_waterfall_shine_top_right_0006"
+		}
 	},
-	["Stage_17_waterfall_lines_left_0011"] = {
-		a_name = "go_stage417.dds",
+	Stage_17_waterfall_shine_top_right_0007 = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			97,
-			360
+			103,
+			86
 		},
 		trim = {
 			2,
-            18,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2530,
-			1723,
-			91,
-			342
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			2,
-            18,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2530,
-			1723,
-			91,
-			342
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_left_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
+			15,
 			8,
-            4,
-            3,
-            0
+			23
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
+			2418,
+			1759,
+			93,
+			48
+		},
+		alias = {
+			"Stage_17_waterfall_shine_top_right_0008",
+			"Stage_17_waterfall_shine_top_right_0009"
+		}
+	},
+	terrain_sapos_0001 = {
+		a_name = "go_stage417-1.dds",
+		size = {
+			188,
+			140
+		},
+		trim = {
 			1,
-			2456,
-			86,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_left_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			8,
-            4,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1,
-			2456,
-			86,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_left_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			97,
-			360
-		},
-		trim = {
-			8,
-            4,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1,
-			2456,
-			86,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
+			22,
 			0,
-            23,
-            4,
-            0
+			19
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			640,
-			2559,
-			71,
-			333
+			1855,
+			1544,
+			187,
+			99
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["Stage_17_waterfall_lines_right_0002"] = {
-		a_name = "go_stage417.dds",
+	terrain_sapos_build = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			75,
-			356
+			188,
+			140
 		},
 		trim = {
-			0,
-            23,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			640,
-			2559,
-			71,
-			333
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            23,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			640,
-			2559,
-			71,
-			333
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2485,
-			72,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2485,
-			72,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            0,
-            3,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2485,
-			72,
-			356
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
+			11,
+			29,
 			7,
-            0,
-            2,
-            2
+			23
 		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			2701,
-			1989,
-			66,
-			354
+			3729,
+			387,
+			170,
+			88
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["Stage_17_waterfall_lines_right_0008"] = {
-		a_name = "go_stage417.dds",
+	terrain_sapos_flag = {
+		a_name = "go_stage417-1.dds",
 		size = {
-			75,
-			356
+			188,
+			140
 		},
 		trim = {
-			7,
-            0,
-            2,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1989,
-			66,
-			354
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			7,
-            0,
-            2,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1989,
-			66,
-			354
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0010"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            65,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2084,
-			2332,
-			73,
-			291
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0011"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            65,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2084,
-			2332,
-			73,
-			291
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0012"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            65,
-            2,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2084,
-			2332,
-			73,
-			291
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_lines_right_0013"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            55,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2549,
-			2067,
-			71,
-			301
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_right_0014"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            55,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2549,
-			2067,
-			71,
-			301
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_lines_right_0015"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			75,
-			356
-		},
-		trim = {
-			0,
-            55,
-            4,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2549,
-			2067,
-			71,
-			301
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
+			62,
 			8,
-            4,
-            5,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1236,
-			2358,
-			414,
+			63,
 			58
 		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			8,
-            4,
-            5,
-            2
-		},
 		a_size = {
-			3208,
-			2631
+			4096,
+			4096
 		},
 		f_quad = {
-			1236,
-			2358,
-			414,
-			58
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			8,
-            4,
-            5,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1236,
-			2358,
-			414,
-			58
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			0,
-            3,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2358,
-			422,
-			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			0,
-            3,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2358,
-			422,
-			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			0,
-            3,
-            5,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2358,
-			422,
-			61
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			2,
-            2,
-            6,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2421,
-			419,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			2,
-            2,
-            6,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2421,
-			419,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_mid_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			427,
-			64
-		},
-		trim = {
-			2,
-            2,
-            6,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			812,
-			2421,
-			419,
-			62
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_left_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2319,
-			2559,
-			107,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_left_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2319,
-			2559,
-			107,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_left_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            0,
-            0,
-            1
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2319,
-			2559,
-			107,
-			34
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_left_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            2,
-            0,
-            4
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1620,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_left_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            2,
-            0,
-            4
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1620,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_left_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            2,
-            0,
-            4
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1620,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_left_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            4,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1729,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_left_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            4,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1729,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_left_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			107,
-			35
-		},
-		trim = {
-			0,
-            4,
-            0,
-            2
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2701,
-			1729,
-			107,
-			29
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_right_0001"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			0,
-            18,
-            8,
-            24
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2572,
-			95,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_right_0002"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			0,
-            18,
-            8,
-            24
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2572,
-			95,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_right_0003"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			0,
-            18,
-            8,
-            24
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1652,
-			2572,
-			95,
-			44
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_right_0004"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            16,
-            8,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2730,
-			2160,
-			94,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_right_0005"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            16,
-            8,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2730,
-			2160,
-			94,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_right_0006"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            16,
-            8,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			2730,
-			2160,
-			94,
-			47
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["Stage_17_waterfall_shine_top_right_0007"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            14,
-            7,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1071,
-			2559,
-			95,
-			49
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_right_0008"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            14,
-            7,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1071,
-			2559,
-			95,
-			49
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_17_waterfall_shine_top_right_0009"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			103,
-			86
-		},
-		trim = {
-			1,
-            14,
-            7,
-            23
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1071,
-			2559,
-			95,
-			49
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_417"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			2729,
-			1536
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			3208,
-			2631
-		},
-		f_quad = {
-			1,
-			1,
-			2729,
-			1536
-		},
-		alias = {},
-		textureRotated = false
+			3541,
+			1400,
+			63,
+			74
+		},
+		alias = {}
 	}
 }

@@ -16,6 +16,38 @@ return {
 			"Sapos_Guerra.ogg"
 		}
 	},
+	MusicBattlePrep_418 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Sapos_Exploracion.ogg"
+		}
+	},
+	MusicBattle_418 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Sapos_Guerra.ogg"
+		}
+	},
+	MusicBattlePrep_419 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Sapos_Exploracion.ogg"
+		}
+	},
+	MusicBattle_419 = {
+		source_group = "MUSIC",
+		gain = 0.15,
+		loop = true,
+		files = {
+			"Sapos_Guerra.ogg"
+		}
+	},
 	MusicBattlePrep_426 = {
 		source_group = "MUSIC",
 		gain = 0.15,

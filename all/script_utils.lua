@@ -5997,9 +5997,9 @@ local function entity_casts_jump_target(store, this, a)
 					set_entity_nav_rally(this, V.vclone(to), V.vclone(to))
 
 					if this.enemy then
-						U.unblock_all(store, e)
+						U.unblock_all(store, this)
 					elseif this.soldier then
-						U.unblock_target(store, e)
+						U.unblock_target(store, this)
 					end
 
 					y_entity_animation_wait(this)
