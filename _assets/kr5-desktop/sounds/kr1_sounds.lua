@@ -871,7 +871,7 @@ return {
 		loop = true,
 		stream = true,
 		files = {
-			"KingdomRushWastelandVeznanCastle.ogg"
+			"MusicBattlePreparationsWastelands.ogg"
 		}
 	},
 	MusicBattlePrep_113 = {
@@ -1002,7 +1002,7 @@ return {
 	},
 	MusicBattle_112 = {
 		stream = true,
-		gain = 0.9,
+		gain = 5,
 		loop = true,
 		source_group = "MUSIC",
 		files = {

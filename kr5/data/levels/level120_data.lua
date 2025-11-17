@@ -416,7 +416,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "1",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "1",
@@ -431,7 +431,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "2",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "2",
@@ -446,7 +446,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "3",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "3",
@@ -461,7 +461,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "4",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "4",
@@ -476,7 +476,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "5",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "5",
@@ -491,7 +491,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "6",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "6",
@@ -506,7 +506,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "7",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "7",
@@ -521,7 +521,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "8",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "8",
@@ -536,7 +536,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "9",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "9",
@@ -551,7 +551,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "10",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "10",
@@ -566,7 +566,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "11",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "11",
@@ -581,7 +581,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "12",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "12",
@@ -596,7 +596,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "13",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "13",
@@ -611,7 +611,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "14",
-			["tower.terrain_style"] = 14,
+			["tower.terrain_style"] = 103,
 			template = "tower_holder_wasteland",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "14",
