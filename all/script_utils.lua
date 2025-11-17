@@ -5992,12 +5992,9 @@ local function entity_casts_jump_target(store, this, a)
 							this.nav_path.spi = nearest_path[2]
 							this.nav_path.ni = nearest_path[3]
 						end
-					elseif this.nav_rally then
-						this.nav_rally = V.vclone(to)
-						e.nav_rally.new = true
-						e.nav_rally.pos = v(to.x, to.y - 1)
-						e.nav_rally.center = v(to.x, to.y - 1)
 					end
+
+					set_entity_nav_rally(this, V.vclone(to), V.vclone(to))
 
 					if this.enemy then
 						U.unblock_all(store, e)
